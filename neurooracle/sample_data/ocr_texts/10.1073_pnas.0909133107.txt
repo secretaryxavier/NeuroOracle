@@ -1,0 +1,786 @@
+Targeting mycobacterium protein tyrosine
+phosphatase B for antituberculosis agents
+Bo Zhoua,1, Yantao Hea,1, Xian Zhanga,b, Jie Xua, Yong Luoa, Yuehong Wangc, Scott G. Franzblauc,
+Zhenyun Yangd, Rebecca J. Chand, Yan Liub, Jianyu Zhengb, and Zhong-Yin Zhanga,2
+aDepartment of Biochemistry and Molecular Biology and dDepartment of Pediatrics, Indiana University School of Medicine, 635 Barnhill Drive,
+Indianapolis, IN 46202; cInstitute of Tuberculosis Research, University of Illinois at Chicago, IL 60612; and bCenter for Chemical Genetics and Drug
+Discovery and College of Chemistry, Nankai University, Tianjin, China
+Edited by Nicholas K. Tonks, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, and approved January 21, 2010 (received for review August 11, 2009)
+Protein tyrosine phosphatases are often exploited and subverted
+by pathogenic bacteria to cause human diseases. The tyrosine
+phosphatase mPTPB from Mycobacterium tuberculosis is an es-
+sential virulence factor that is secreted by the bacterium into the
+cytoplasm of macrophages, where it mediates mycobacterial sur-
+vival in the host. Consequently, there is considerable interest in un-
+derstanding the mechanism by which mPTPB evades the host im-
+mune responses, and in developing potent and selective mPTPB
+inhibitors as unique antituberculosis (antiTB) agents. We uncov-
+ered that mPTPB subverts the innate immune responses by block-
+ing the ERK1/2 and p38 mediated IL-6 production and promoting
+host cell survival by activating the Akt pathway. We identified a
+potent and selective mPTPB inhibitor I-A09 with highly efficacious
+cellular activity, from a combinatorial library of bidentate benzofur-
+an salicylic acid derivatives assembled by click chemistry. We de-
+monstrated that inhibition of mPTPB with I-A09 in macrophages
+reverses the altered host immune responses induced by the bacter-
+ial phosphatase and prevents TB growth in host cells. The results
+provide the necessary proof-of-principle data to support the notion
+that specific inhibitors of the mPTPB may serve as effective antiTB
+therapeutics.
+combinatorial chemistry ∣pathogen-host interaction ∣
+phosphatase inhibitor ∣signaling mechanism
+P
+rotein tyrosine phosphatases (PTPs) are a large family of sig-
+naling enzymes involved in the regulation of virtually all as-
+pects of eukaryotic biology, including growth and differentiation,
+cell motility, metabolism, apoptosis, and the immune responses
+(1, 2). Malfunction of PTP activity has been linked to cancer, dia-
+betes, and immune dysfunctions (3). The importance of PTPs in
+cellular physiology is further underscored by the fact that they are
+often exploited and subverted by pathogenic bacteria to cause hu-
+man diseases. For instance, YopH, the PTP from Yersinia, inhibits
+bacterial phagocytosis by removing phosphates from p130Cas and
+other focal adhesion proteins (4), while the Salmonella tyrosine
+phosphatase SptP dephosphorylates host AAA+ ATPase valosin-
+containing protein (VCP) to promote development of its intra-
+cellular replicative niche (5).
+Tuberculosis (TB) is the world’s leading cause of mortality due
+to infectious disease, with 2 million deaths each year, and ap-
+proximately one-third of the world’s population is infected with
+Mycobacterium tuberculosis (Mtb), the causative agent of this dis-
+ease (6). Although onerous treatments are available, Mtb’s ability
+to survive for extended periods of time in the host requires pro-
+longed drug treatment (six to nine months), thus resulting in low
+compliance. Furthermore, the prevalence of multidrug-resistant
+(MDR) and extremely drug resistant (XDR) mycobacteria and
+the AIDS epidemic heighten the need for new and improved
+therapeutics to speed up the course of treatment and combat
+TB infections (7). An emerging and unique drug discovery strat-
+egy is to identify and target virulence factors essential for patho-
+gen survival and replication (8).
+Mtb is an intracellular pathogen whose primary target cells are
+macrophages. Although macrophages play a central role in host
+defense, recognizing and destroying invading pathogens, Mtb is
+able to survive and replicate within this hostile environment.
+The genome of Mtb encodes for two PTPs, termed mPTPA and
+mPTPB, but lacks any tyrosine kinases (9). Both mPTPA and
+mPTPB are secreted by Mtb into the cytoplasm of the macro-
+phage, but mPTPB is restricted in strains that cause TB in hu-
+mans or in animals (10). Given the absence of endogenous
+tyrosine phosphorylation within Mtb, mPTPA and mPTPB likely
+modify macrophage proteins to manipulate host-pathogen inter-
+actions. Interestingly, genetic deletion of mPTPB blocks intra-
+cellular survival of Mtb in interferon-γ (IFN-γ) activated macro-
+phages and severely reduces the bacterial load in a clinically
+relevant guinea pig model of TB infection (11). These findings
+led to the hypothesis that mPTPB might mediate mycobacterial
+survival in macrophages by targeting host cell processes, although
+the underlying molecular basis is not understood. Moreover, the
+importance of mPTPB for Mtb survival in macrophages also sug-
+gests that specific inhibition of mPTPB activity may augment
+intrinsic host signaling pathways to eradicate TB infection.
+In this study, we have defined the biochemical mechanism by
+which mPTPB evades the host immune responses for the benefit
+of Mtb survival in macrophages. We also describe a salicylic
+acid-based combinatorial library approach, which led to the iden-
+tification of a potent and selective mPTPB inhibitor with highly
+efficacious cellular activity. This proof-of-concept mPTPB inhibi-
+tor mimics genetic deletion of mPTPB and prevents Mtb growth
+in host macrophages, validating the concept that chemical inhibi-
+tion of mPTPB may be therapeutically useful for improved TB
+treatment.
+Results and Discussion
+Role
+of
+mPTPB
+in
+Promoting
+Mycobacteria
+Survival
+in
+the
+Macrophage. IFN-γ is the predominant inflammatory cytokine
+responsible for macrophage’s antimicrobial activity against di-
+verse intracellular pathogens. However, IFN-γ is unable to turn
+on macrophages to restrict or eliminate virulent Mtb, suggesting
+that Mtb may interfere with cellular signal transduction pathways
+that are activated by IFN-γ and therefore avoids being killed with-
+in the macrophage. Unfortunately, how Mtb evades the host im-
+mune responses remains unknown. Given the observation that
+Mtb-lacking mPTPB are unable to survive in macrophages and
+in guinea pig (11), it has been hypothesized that mPTPB may
+Author contributions: S.F., R.J.C., J.Z., and Z.-Y.Z. designed research; B.Z., Y.H., X.Z., J.X.,
+Y. Luo, Y.W., Z.Y., and Y. Liu performed research; B.Z., Y.H., X.Z., J.X., Y. Luo, Y.W., S.F.,
+R.J.C., and Z.-Y.Z. analyzed data; and Z.-Y.Z. wrote the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission. N.T. is a guest editor invited by the Editorial Board.
+1B.Z. and Y.H. contributed equally to this work.
+2To whom correspondence should be addressed. E-mail: zyzhang@iupui.edu.
+This article contains supporting information online at www.pnas.org/cgi/content/full/
+0909133107/DCSupplemental.
+www.pnas.org/cgi/doi/10.1073/pnas.0909133107
+PNAS ∣March 9, 2010 ∣vol. 107 ∣no. 10 ∣4573–4578
+BIOCHEMISTRY
+
+promote mycobacterial survival in the host by targeting the IFN-γ
+mediated signaling pathway, although the exact mechanism by
+which this occurs has not been elucidated. Since mPTPB func-
+tions within the macrophage, we established Raw264.7 mouse
+macrophage cell lines stably expressing mPTPB in order to inves-
+tigate the role of mPTPB in host cell biology. As expected, treat-
+ment of the Raw264.7 cells with IFN-γ resulted in the activation
+of cytoplasmic JAK2 kinase, signal transducer and activator of
+transcription 1 (STAT1), as well as MAP kinases ERK1/2, p38,
+and JNK (Fig. 1A). In addition, IFN-γ stimulation also led to a
+dramatic increase in the production of interleukin-6 (IL-6)
+(Fig. 1B), a key cytokine secreted by the macrophage that is im-
+portant for upregulating microbicidal activity in macrophages
+(12) and also initiates the systemic immune response to Mtb. In-
+terestingly, expression of mPTPB in activated macrophages atte-
+nuated the IFN-γ induced IL-6 production, while little effect on
+IL-6 level was observed when the catalytically inactive mPTPB/
+C106S was introduced to the macrophage (Fig. 1B). The results
+indicate that mPTPB supports mycobacteria survival by blocking
+the bactericidal immune responses in host cells and that its phos-
+phatase activity is essential for virulence. To determine the me-
+chanism by which mPTPB abrogates IFN-γ stimulated IL-6
+production, we measured the status of JAK2, STAT1, ERK1/2,
+p38, and JNK phosphorylation in Raw264.7 cells expressing
+either wild-type or the C106S mutant mPTPB (Fig. 1C). No sig-
+nificant change was noted on the level of JAK2, STAT1, and JNK
+phosphorylation upon mPTPB expression, indicating that they
+are not direct targets of mPTPB. In contrast, large decreases
+in ERK1/2 (1.9-fold) and p38 (2.1-fold) phosphorylation were ob-
+served in mPTPB cells when compared to cells expressing either
+the vector control or the catalytically inactive mutant mPTPB.
+Since ERK1/2 and p38 are known to promote IL-6 gene expres-
+sion (13, 14), mPTPB likely blocks the IFN-γ stimulated IL-6 pro-
+duction by down-regulating ERK1/2 and p38 activity.
+In addition to suppression of the INF-γ mediated bactericidal
+responses, other host cell processes that are inhibited by patho-
+genic mycobacteria include apoptosis (10). Apoptosis of infected
+macrophages alerts the immune system to bacterial invasion.
+Thus, as an important component of the innate immune defense
+machinery against pathogenic mycobacteria, macrophage apo-
+ptosis is desirable to prevent colonization of intracellular
+pathogens (15). To investigate whether mPTPB affects INF-γ in-
+duced macrophage apoptosis, the apoptotic profiles of the con-
+trol and mPTPB transfected Raw264.7 cells were analyzed by
+flow cytometry. Compared to unstimulated cells, macrophages
+undergo increased apoptosis under continuous INF-γ stimulation
+(Fig. 2A). Strikingly, mPTPB expression more than doubled the
+amount of viable cells as evidenced by increased annexin V-ne-
+gative/PI-negative cells (from 12.0 to 31.8%, average of two ex-
+periments), whereas the catalytically inactive mutant mPTPB/
+C106S had no effect on macrophage apoptosis. To provide
+further evidence that mPTPB promotes host cell survival, we also
+measured the activity of Akt, an enzyme critical for cell survival,
+and caspase 3, which executes cell death programs. Consistent
+with the observed increase in host cell survival, macrophages ex-
+pressing mPTPB displayed a 2.1-fold increase in Akt phosphor-
+ylation and a 2.3-fold reduction in caspase 3 activity (Fig. 2B and
+C). These findings reveal that mPTPB prevents macrophage cell
+death by activating Akt and blocking caspase 3 activity. The abil-
+ity of Mtb to keep its host cell alive should ultimately favor bac-
+terial survival and replication inside the host. Although the exact
+mechanism by which mPTPB activates Akt awaits further inves-
+tigation, it is noteworthy that Akt has also been shown to be im-
+portant for intracellular growth of unrelated pathogens such as
+Salmonella typhimurium and Mtb (16). Taken together, the results
+from the above experiments indicate that mPTPB functions to
+overcome host defense mechanisms during infection by attenuat-
+ing the bactericidal immune responses and promoting macro-
+phage survival.
+Identification of a Potent and Selective mPTPB Inhibitor. In view of
+the importance of mPTPB for mycobacteria survival in the host,
+mPTPB represents an exciting target for antiTB drug develop-
+ment. Specific inhibition of mPTPB could provide a unique
+means of therapy with minimal side effects on the host, given
+the phylogenetic distance between Mtb and human PTPs. More-
+over, since mPTPB is secreted into the cytosol of host macro-
+phages, drugs targeting mPTPB are not required to penetrate
+the waxy mycobacterial cell wall. Accordingly, there is increasing
+interest in developing mPTPB inhibitors (17–21). However, the
+common architecture of the PTP active site (i.e., pTyr-binding
+pocket) poses a significant challenge for the acquisition of selec-
+tive PTP inhibitors. Moreover, the highly positively charged pTyr-
+binding pocket impedes the development of inhibitors possessing
+favorable pharmacological properties. Thus although several
+compounds have been reported to exhibit inhibitory activity
+against mPTPB, inhibitors with robust biochemical selectivity
+and in vivo activity have proved elusive.
+An effective strategy for the acquisition of active site-directed,
+potent, and selective PTP inhibitors is by tethering a nonhydro-
+lyzable pTyr mimetic to an appropriately functionalized moiety
+in order to engage both the active site and a unique nearby sub-
+pocket (22). Unfortunately, most of the pTyr surrogates described
+in the literature are not drug-like and thus lack cell membrane
+permeability. Through in silico virtual screening, we discovered
+that the natural product salicylic acid can serve as a pTyr surro-
+gate (23). We further demonstrated that naphthyl and polyaro-
+matic salicylic acid derivatives exhibit enhanced affinity for
+PTP relative to the corresponding single ring compounds (23,
+24). Consequently, we sought to develop bicyclic salicylic acid-
+based PTP inhibitors that carry sufficient polar and nonpolar in-
+teractions with the active site and yet possess favorable pharma-
+cological properties.
+Fig. 3 depicts a focused library-based strategy for the acquisi-
+tion of potent and selective mPTPB inhibitory agents that are
+Fig. 1.
+mPTPB blocks INF-γ stimulated IL-6 production by down-regulating
+ERK1/2 and p38 activity. (A) JAK2, STAT1, ERK1/2, p38, and JNK are activated
+by INFγ. (B) Effect of mPTPB on INFγ-mediated IL-6 production. Data are
+expressed as means  SD of three independent experiments (P < 0.01 by
+Student’s t test). (C) mPTPB has no effect on INFγ stimulated JAK2, STAT1,
+and JNK phosphorylation, but impairs ERK1/2 and p38 activation.
+4574
+∣
+www.pnas.org/cgi/doi/10.1073/pnas.0909133107
+Zhou et al.
+
+capable of bridging both the active site and an adjacent periph-
+eral site. As a proof-of-concept, we chose benzofuran salicylic
+acid as our active site-directed pTyr surrogate. Benzofuran deriv-
+atives are of considerable interest because of their widespread
+occurrence among natural products and their physiological prop-
+erties (25). Thus, the library contains (a) a benzofuran salicylic
+acid core to engage the active site and (b) four alkyl linkers of
+one to four methylene units to tether the pTyr surrogate to (c)
+a structurally diverse set of 20 amines, aimed at capturing addi-
+tional interactions with adjacent pockets surrounding the active
+site. The benzofuran salicylic acid core 1 was prepared from a
+commercially available compound 4-hydroxysalicylic acid that,
+upon regioselective bromination, afforded 5-bromo-4-hydroxysa-
+licylic acid (2). This compound was selectively protected in the
+presence of acetone and trifluoroacetic anhydride/trifluoroacetic
+acid to furnish dioxanone 3, which then reacted with CH3I to give
+the methylation product 4. Compound 4 was coupled with phe-
+nylacetylene in the presence of PdðPPh3Þ4 to furnish 5, which was
+then subjected to I2 induced cyclization. Coupling of the iodin-
+ation product 6 with ethynyltrimethylsilane gave compound 7.
+Core 1 was obtained by desilylation and deacetylation of 7.
+To increase potency and selectivity, the strategically positioned
+alkyne in the benzofuran salicylic acid core was tethered to 80
+azide-containing diversity elements (20 discrete amines with four
+alkyl linkers of one to four methylene length), using click chem-
+istry or the Cu(I)-catalyzed ½3 þ 2 azide-alkyne cycloaddition re-
+action (Fig. 3). The click chemistry offers an expedient way to
+connect two components together with high yield and purity un-
+der extremely mild conditions (26). More importantly, the cy-
+cloaddition reaction can be conducted in aqueous solution in
+the absence of deleterious reagents, thus allowing direct screen-
+ing and identification of hits from the library. In fact, click chem-
+istry has found increasing applications in lead discovery and
+optimization for a number of enzymes including the PTPs
+(27–31). The azide-containing building blocks were synthesized
+in a one-pot procedure, in which alkyl or aryl amines were reacted
+with the acyl chloride linkers in N,N-Dimethylformamide
+(DMF), followed by SN2 reaction with sodium azide to generate
+the corresponding azides. To construct the 80-member library,
+each azide was coupled with the alkyne containing core 1 in a
+mixed solvent of ethanol and water (7∶3) and the click reaction
+was initiated by a catalytic amount of Cu(I), which was generated
+by reacting CuSO4 with sodium ascorbate (SI Appendix). After
+48 hr, the products were collected by simple centrifugation.
+All products were assessed by liquid chromatography–mass spec-
+trometry and determined to be at least 70–100% pure and were
+used directly for screening without further purification.
+The ability of the library compounds to inhibit the mPTPB-
+catalyzed hydrolysis of p-nitrophenyl phosphate (pNPP) was as-
+sessed at pH 7 and 25 °C. Out of the 80-member library, 3 com-
+pounds displayed measurable inhibitory activity at ∼10 μM
+concentration. Resynthesis of the hits confirmed that they were
+genuine inhibitors for mPTPB with IC50 values in the low μM
+range (SI Appendix). Compound I-A09 (Fig. 4A) appeared to be
+the most potent and selective for mPTPB with an IC50 of 1.26 
+0.22 μM and was selected for further characterization. Kinetic
+analysis indicated that I-A09 is a reversible and noncompetitive
+inhibitor for mPTPB with a Ki of 1.08  0.06 μM (Fig. 4B). To
+determine the specificity for I-A09, its inhibitory activity toward
+mPTPA and a panel of mammalian PTPs including cytosolic
+PTPs, PTP1B, TC-PTP, SHP2, Lyp and FAP1, the receptor-like
+PTPs, CD45, LAR, and PTPα, the dual specificity phosphatases
+VHR, VHX, Cdc14, and the low molecular weight PTP, were
+measured. As shown in Table 1, I-A09 is highly selective for
+mPTPB, exhibiting a 61-fold preference over mPTPA and greater
+than an 11-fold preference for mPTPB vs. all mammalian PTPs
+examined. Together, the results show that I-A09 is among the
+most potent and specific mPTPB inhibitors reported to date.
+mPTPB Inhibitor I-A09 Recapitulates the Phenotype of mPTPB Gene
+Deletion. Our ultimate goal is to develop potent and specific
+mPTPB inhibitors as antiTB agents. Given the excellent potency
+and selectivity of I-A09 toward mPTPB, we proceeded to evaluate
+its cellular efficacy in Raw264.7 macrophages engineered to
+express mPTPB. As shown above, Raw264.7 cells expressing
+mPTPB display decreased ERK1/2 activity and INF-γ stimulated
+IL-6 production. Moreover, macrophages containing mPTPB
+also have a higher propensity for cell survival due to Akt activa-
+tion and suppression of caspase 3 activity (Figs. 1 and 2). Con-
+sequently, one would predict that inhibition of mPTPB activity
+should reverse the effects of the bacterial phosphatase on cellular
+signaling and restore the cell’s full capacity to secrete IL-6 and
+Fig. 2.
+Effect of mPTPB on macrophage survival. Macrophages expressing mPTPB have a higher propensity for cell survival (A), an elevated level of Akt
+phosphorylation (B), and a marked reduction in caspase 3 activity (C). Data are expressed as means  SD of three independent experiments (P < 0.001
+by Student’s t test).
+Zhou et al.
+PNAS
+∣
+March 9, 2010
+∣
+vol. 107
+∣
+no. 10
+∣
+4575
+BIOCHEMISTRY
+
+undergo apoptosis in response to INF-γ stimulation. Indeed,
+treatment of mPTPB expressing Raw264.7 macrophages with
+5–10 μM I-A09 restored INF-γ induced ERK1/2 activation and
+IL-6 production (Fig. 5). In addition, I-A09 normalized Akt
+and caspase 3 activities and rescued the INF-γ induced apoptosis
+in mPTPB cells to the same extent as the vector control cells
+(Fig. 6). To ensure that the cellular activity displayed by I-A09
+is not due to nonspecific effects, we also evaluated a structurally
+related but inactive compound I-C07 (SI Appendix), which exhi-
+bits no inhibitory activity against mPTPB and the panel of mam-
+malian PTPs at 50 μM concentration. As expected, I-C07 failed to
+reverse the biochemical and functional perturbations introduced
+by mPTPB (Figs. 5 and 6). Thus the ability of I-A09 to block the
+mPTPB-mediated cellular signaling is unlikely due to off-
+target effects. Remarkably, I-A09 inhibited mPTPB in intact cells
+with similar potency as that toward isolated enzyme, whereas
+previous PTP inhibitors have shown 100- to 10,000-fold loss of
+potency between biochemical and cellular assays. The results in-
+dicate that I-A09 is cell permeable and capable of blocking
+mPTPB activity in macrophages.
+To provide further proof-of-principle data to support the no-
+tion that specific inhibitors of mPTPB may be effective antiTB
+agents, we tested I-A09 against the classical Mtb Erdman strain
+in a model of active TB infection performed in a mouse macro-
+phage J774A.1 cell line (32). Cultures of macrophages infected
+with actively growing Mtb were treated with 10 μM I-A09 starting
+on Day 0 and the cultures were allowed to incubate for a further
+seven days before assessment of the remaining bacterial load in
+the cells (Fig. 7). During the treatment period the bacterial load
+in the control cultures increased over 15-fold. Consistent with the
+genetic observation that deletion of mPTPB impairs the ability of
+Mtb to survive in activated macrophages (11), I-A09 was able to
+further potentiate the effect of INF-γ to reduce the bacterial load
+by 90%. Interestingly, resting macrophages treated with I-A09
+also exhibited nearly 90% reduction of Mtb relative to untreated
+control cells. By contrast, treatment of macrophages with 10 μM
+I-C07 had no effect on TB growth compared with the control
+cells. To eliminate the possibility that the observed decrease in
+bacterial load was a result of compound cytotoxicity, we deter-
+mined that macrophage viability was unaffected by the presence
+of I-A09 or I-C07 at concentrations up to 100 μM in the cul-
+ture medium. We also found the MIC (minimum inhibitory
+A  Library Construction 
+ 
+B Core1 Synthesis  
+ 
+Conditions: a) Br2, AcOH, r.t., 94%; b) TFAA, TFA, Acetone, r.t., 
+55%; c) MeI, K2CO3, DMSO, r.t., 95%; d) Phenylacetylene, Pd(PPh3)4, 
+CuI, Et3N, DMF, 70°C, 72%; e) I2, NaHCO3, MeCN, 40°C, 40%; f) 
+Trimethylsilylacetylene, Pd(PPh3)2Cl2, CuI, Et3N, DMF, r.t., 85%; g) 
+TBAF, THF, r.t., 89%; h) LiOH, THF/H 2O, 80°C, 71%. 
+C Azides Synthesis 
+N3
+N
+H
+n
+R
+O
+HO
+O
+HO
+O
+HO
+O
+HO
+N N
+N
+H
+N
+O
+n
+R
+Click 
+Chemistry
+Core 1
+O
+n = 1, 2, 3, 4
+HO
+HO
+O
+OH
+O
+O
+O
+OH
+HO
+HO
+O
+OH
+Br
+Br
+O
+O
+O
+OMe
+Br
+O
+O
+O
+OMe
+O
+O
+O
+O
+I
+O
+O
+O
+O
+Si
+O
+O
+O
+O
+Core 1
+2
+3
+4
+5
+6
+7
+8
+a
+b
+c
+d
+e
+f
+g
+h
+N3
+N
+H
+R
+O
+n
+Br
+N
+H
+R
+O
+n
+Br
+Cl
+O
+n
+RNH2
+NaN3
+50-90%
+(two steps)
+n = 1, 2, 3, 4
+NH2
+NH2
+NH2
+NH2
+NH2
+H3CO
+NH2
+F
+NH2
+NH2
+N
+O
+NH2
+NH2
+S
+N
+NH2
+S
+N
+NH2
+NH2
+NH2
+NH2
+O
+NH2
+H
+N
+NH2
+N
+NH2
+RNH2 =
+NH2
+Fig. 3.
+Strategy for the construction of a benzofuran-based salicylic acid li-
+brary using click chemistry.
+Fig. 4.
+I-A09 is a noncompetitive inhibitor of mPTPB. (A) Structures of I-A09.
+(B) Lineweaver-Burk plot for I-A09-mediated mPTPB inhibition. I-A09 concen-
+trations were 0 (•), 0.25 (○), 0.5 (▾), and 1.0 μM (▽), respectively.
+Table 1. Selectivity of I-A09 against a panel of PTPs
+PTP
+IC50 (μM)
+mPTPB
+1.26 ± 0.22
+mPTPA
+77.3 ± 5.1
+PTP1B
+19 ± 1.5
+TC-PTP
+22 ± 2.5
+SHP2
+26.4 ± 6.6
+FAP1
+30.9 ± 6.6
+Lyp
+14 ± 1.8
+VHX
+21.5 ± 5.1
+VHR
+14.2 ± 2.4
+LMWPTP
+40.9 ± 4.5
+Cdc14A
+>100 μM
+PTPα
+>100 μM
+LAR
+>100 μM
+CD45
+>100 μM
+4576
+∣
+www.pnas.org/cgi/doi/10.1073/pnas.0909133107
+Zhou et al.
+
+concentration) values for I-A09 and I-C07 on extracellular Mtb
+H37Rv and Mtb Erdman to be >100 μM, indicating the lack
+of bactericidal activity of these compounds. Thus, I-A09 blocks
+intracellular TB growth in the macrophage, presumably by im-
+pairing mPTPB’s ability to overcome host defense mechanisms.
+In summary, we have shown that mPTPB suppresses the innate
+immune responses by blocking the ERK1/2 and p38 mediated
+IL-6 production and promoting host cell survival by activating
+the Akt pathway. We identified a potent and selective mPTPB
+inhibitor I-A09 with highly efficacious cellular activity, from a
+combinatorial library of bidentate benzofuran salicylic acid deri-
+vatives assembled by click chemistry. We demonstrated that in-
+hibition of mPTPB with I-A09 in macrophages reverses the per-
+turbation of host immune responses induced by the bacterial
+phosphatase and prevents growth of the TB bacterium in host
+cells. Ideally, I-A09 or its related analogs will potentially provide
+an innovative therapeutic starting point for the treatment of TB,
+including MDR and XDR forms, that is not only complementary,
+but also synergistic with current drugs, particularly those that fo-
+cus directly on the TB bacterium. It is anticipated that such com-
+bination therapy will result in the shorter duration of treatment
+and recovery time for the TB patient.
+Materials and Methods
+Materials. Recombinant mouse IFN-γ was purchased from PeproTech Inc. Anti-
+ERK1/2, anti-phospho-ERK1/2, anti-p38, anti-JNK, anti-phospho-JAK2, anti-
+phospho-Akt473, and anti-phospho-STAT1 antibodies were purchased from
+Cell Signaling.
+Cell Culture and Transfection. Raw264.7 mouse macrophages were cultured in
+Dulbecco’s modified Eagle’s medium (DMEM) supplemented with 10% FBS
+(Invitrogen), penicillin (50 units∕mL), and streptomycin (50 μg∕mL) under a
+humidified atmosphere containing 5% CO2 at 37 °C. mPTPB and mPTPB/
+C160S were subcloned into pcN-HA expression vectors, respectively. Raw
+264.7 cells were seeded at 40% confluency in an antibiotic-free medium and
+grown overnight, HA-tagged mPTPB, HA-tagged mPTPB/C160S, or pcN-HA
+empty vectors were transfected into cells by electroporation at 800 μF and
+280 V. After 24 hr of transfection, 0.5 mg∕ml G418 was added to the culture
+medium. Stable clones were picked after two weeks of selection.
+Fig. 5.
+Compound I-A09 restores ERK1/2 activity (A) and IL-6 production (B)
+in activated macrophages. Cells overexpressing mPTPB have decreased ERK1/
+2 activity and secrete lower levels of IL-6, and these can be reversed by treat-
+ment with the mPTPB inhibitor I-A09 but not with a structurally related in-
+active compound (I-C07). Data in (B) are expressed as means  SD of three
+independent experiments (P < 0.05 by Student’s t test).
+Fig. 6.
+Inhibition of mPTPB with I-A09 blocks Akt activation (A) and promotes caspase 3 activation (B) and macrophage apoptosis (C). Cells overexpressing
+mPTPB have increased Akt activity, lower caspase 3 activity, and higher propensity for cell survival, and these can be reversed by treatment with the mPTPB
+inhibitor I-A09 but not with a structurally related inactive compound (I-C07). Data in (B) are expressed as means  SD of three independent experiments
+(P < 0.001 by Student’s t test).
+Zhou et al.
+PNAS
+∣
+March 9, 2010
+∣
+vol. 107
+∣
+no. 10
+∣
+4577
+BIOCHEMISTRY
+
+IL-6
+Enzyme-Linked
+Immunosorbent
+Assay
+(ELISA).
+mPTPB
+transfected
+Raw264.7
+cells
+were
+seeded
+in
+a
+12-well
+plate
+at
+a
+density
+of
+4 × 104 cells∕well. The following day cells were treated with mPTPB inhibitor
+I-A09 and negative control compound I-C07 at 10 μM, respectively, for 1 hr,
+then stimulated with IFN-γ (200 U∕ml). After 24 hr of incubation, superna-
+tants were collected, cleared by centrifugation, and assayed for IL-6 release
+using mouse IL-6 ELISA kit (eBioscience) and a plate reader. The ELISA was
+performed according to the manufacturer’s instructions. Briefly, 200 μl∕well
+of supernatant were added into the 96-well plate that had been coated with
+IL-6 capture antibody. After 24 hr of incubation at 4 °C, the plate was aspi-
+rated and washed, and then the biotin conjugated IL-6 detection antibody
+was added into the wells. After 1 hr of incubation at room temperature, the
+avidin-HRP and tetramethylbenzidine (TMB) substrate were added into the
+plate subsequently for chemiluminescent reaction. The IL-6 production in
+supernatant was quantitatively calibrated using the IL-6 standard curve,
+which is determined following the same procedures as above using recom-
+binant IL-6 standard instead of supernatant samples.
+Macrophage Assay. Inhibition of growth of M. tuberculosis Erdman (ATCC
+35801) in a macrophage cell culture was assessed as previously described
+(32). J774A.1 cells were grown to confluency in 75 cm2 cell culture flasks
+in DMEM medium containing 10% FBS. Using a cell scraper, the cells were
+detached, centrifuged at 200 × g for 5 min at room temperature and the
+pellet suspended to a final concentration of 1–3 × 105 cells∕ml. One ml ali-
+quots of cell suspension were distributed into 24-well plates (Falcon Multi-
+well 24 well) containing 13 mm cover slips (Nalge Nunc International),
+and the plates were incubated at 37 °C in a 5% CO2 incubator overnight. Fro-
+zen bacterial cultures were thawed, sonicated for 15 s, and diluted to a final
+concentration of 1–3 × 105 CFU∕ml with DMEM and 1 ml of the dilution dis-
+pensed to each well of a new 24-well plate. J774.1 cells on coverslips were
+transferred to the 24-well plates containing M. tuberculosis Erdman and the
+plates incubated at 37 °C for 1 h to allow for phagocytosis. Coverslips were
+rinsed with HBSS to remove the extracellular bacteria, and the coverslips
+were transferred to new 24-well plates with 1 ml of fresh media in each well.
+Cultures were incubated at 37 °C under 5% CO2 for 16 h, then transferred
+those of coverslips to 1 ml per well fresh media containing the test com-
+pounds at 10 μM and amikacin (to prevent growth of any extracellular bacilli)
+at 20 μg∕ml. Interferon-γ (Sigma, 087k1288) was added at 50 U∕ml. All ex-
+perimental conditions were set up in triplicate. At T0 (for untreated controls)
+and after seven days the incubation medium was removed and macrophages
+were lysed with 200 μl of 0.25% SDS. After 10 min of incubation at 37 °C,
+200 μl of fresh media were added. The contents of the wells were transferred
+to a microtube, sonicated (Branson Ultrasonics model 1510, Danbury, CT) for
+15 s, and 1∶1, 1∶10, 1∶100, and 1∶1; 000 dilutions were plated on 7H11 (Difco)
+agar plates. Colonies were counted after incubation at 37 °C for two to
+three weeks.
+Details on combinatorial library synthesis, mPTPB expression and puri-
+fication, screening, and kinetic characterization of mPTPB inhibitors, immu-
+noblotting, flow cytometric analysis, caspase activity, EC50, and MIC measure-
+ments are provided in SI Appendix.
+ACKNOWLEDGMENTS. This work was supported in part by National Institutes
+of Health Grants CA69202 and CA126937. We thank Dr. Christoph Grundner
+for the mPTPB expression vector.
+1. Tonks NK, Neel BG (2001) Combinatorial control of the specificity of protein tyrosine
+phosphatases. Curr Opin Cell Biol 13:182–195.
+2. Alonso A, et al. (2004) Protein tyrosine phosphatases in the human genome. Cell
+117:699–711.
+3. Zhang Z-Y (2001) Protein tyrosine phosphatases: Prospects for therapeutics. Curr Opin
+Chem Biol 5:416–423.
+4. Black DS, Bliska JB (1997) Identification of p130Cas as a substrate of Yersinia YopH
+(Yop51), a bacterial protein tyrosine phosphatase that translocates into mammalian
+cells and targets focal adhesions. EMBO J 16:2730–2744.
+5. Humphreys D, Hume PJ, Koronakis V (2009) The Salmonella effector SptP dephosphor-
+ylates host AAA+ ATPase VCP to promote development of its intracellular replicative
+niche. Cell Host Microbe 5:225–233.
+6. Butler D (2000) New fronts in an old war. Nature 406:670–672.
+7. Zhang Y (2005) The magic bullets and tuberculosis drug targets. Annu Rev Pharmacol
+Toxicol 45:529–564.
+8. Clatworthy AE, Pierson E, Hung DT (2007) Targeting virulence: A new paradigm for
+antimicrobial therapy. Nat Chem Biol 3:541–548.
+9. Cole ST, et al. (1998) Deciphering the biology of Mycobacterium tuberculosis from the
+complete genome sequence. Nature 393:537–544.
+10. Koul A, Herget T, Klebl B, Ullrich A (2004) Interplay between mycobacteria and host
+signalling pathways. Nat Rev Microbiol 2:189–202.
+11. Singh R, et al. (2003) Disruption of mptpB impairs the ability of Mycobacterium tuber-
+culosis to survive in guinea pigs. Mol Microbiol 50:751–762.
+12. van der Poll T, et al. (1997) Interleukin-6 gene-deficient mice show impaired defense
+against pneumococcal pneumonia. J Infect Dis 176:439–444.
+13. Hu J, et al. (2001) ERK1 and ERK2 activate CCAAAT/enhancer-binding protein-beta-
+dependent gene transcription in response to interferon-gamma. J Biol Chem
+276:287–297.
+14. Salmenperä P, Hämäläinen S, Hukkanen M, Kankuri E (2003) Interferon-gamma
+induces C/EBP beta expression and activity through MEK/ERK and p38 in T84 colon
+epithelial cells. Am J Physiol: Cell Physiol 284:C1133–C1139.
+15. Schroder K, Hertzog PJ, Ravasi T, Hume DA (2004) Interferon-gamma: An overview of
+signals, mechanisms and functions. J Leukocyte Biol 75:163–189.
+16. Kuijl C, et al. (2007) Intracellular bacterial growth is controlled by a kinase network
+around PKB/AKT1. Nature 450:725–730.
+17. Müller D, et al. (2006) Brunsvicamides A-C: Sponge-related cyanobacterial peptides
+with Mycobacterium tuberculosis protein tyrosine phosphatase inhibitory activity.
+J Med Chem 49:4871–4878.
+18. Nören-Müller A, et al. (2006) Discovery of protein phosphatase inhibitor classes by
+biology-oriented synthesis. Proc Natl Acad Sci USA 103:10606–10611.
+19. Grundner C, et al. (2007) Structural basis for selective inhibition of Mycobacterium
+tuberculosis protein tyrosine phosphatase PtpB. Structure 15:499–509.
+20. Soellner MB, Rawls KA, Grundner C, Alber T, Ellman JA (2007) Fragment-based
+substrate activity screening method for the identification of potent inhibitors of
+the Mycobacterium tuberculosis phosphatase PtpB. J Am Chem Soc 129:9613–9615.
+21. Beresford NJ, et al. (2009) Inhibition of MptpB phosphatase from Mycobacterium tu-
+berculosis impairs mycobacterial survival in macrophages. J Antimicrob Chemother
+63:928–936.
+22. Zhang Z-Y (2002) Protein tyrosine phosphatases: Structure and function, substrate
+specificity, and inhibitor development. Annu Rev Pharmacol Toxicol 42:209–234.
+23. Sarmiento M, et al. (2000) Structure-based discovery of small molecule inhibitors
+targeted to protein tyrosine phosphatase 1B. J Med Chem 43:146–155.
+24. Liang F, et al. (2003) Aurintricarboxylic acid blocks in vitro and in vivo activity of YopH,
+an essential virulent factor of Yersinia pestis, the agent of Plague. J Biol Chem
+278:41734–41741.
+25. Cho CH, Neuenswander B, Lushington GH, Larock RC (2008) Parallel synthesis of a
+multi-substituted benzo[b]furan library. J Comb Chem 10:941–947.
+26. Kolb HC, Finn MG, Sharpless KB (2001) Click chemistry: Diverse chemical functions from
+a few good reactions. Angew Chem, Int Ed 40:2004–2021.
+27. Lewis WG, et al. (2002) Click chemistry in situ: Acetylcholinesterase as a reaction vessel
+for the selective assembly of a femtomolar inhibitor from an array of building blocks.
+Angew Chem, Int Ed Engl 41:1053–1057.
+28. Lee L, et al. (2003) A potent and highly selective inhibitor of human alpha-
+1,3-fucosyltransferase via click chemistry. J Am Chem Soc 125:9588–9589.
+29. Manetsch R, et al. (2004) In situ click chemistry: Enzyme inhibitors made to their own
+specifications. J Am Chem Soc 126:12809–12818.
+30. Srinivasan R, Uttamchandani M, Yao SQ (2006) Rapid assembly and in situ screening of
+bidentate inhibitors of protein tyrosine phosphatases. Org Lett 8:713–716.
+31. Xie J, Seto CT (2007) A two stage click-based library of protein tyrosine phosphatase
+inhibitors. Bioorg Med Chem 15:458–473.
+32. Falzari K, et al. (2005) In vitro and in vivo activities of macrolide derivatives against
+Mycobacterium tuberculosis. Antimicrob Agents Chemother 49:1447–1454.
+Fig.
+7.
+Compound
+I-A09
+reduces
+bacterial
+load
+in
+infected
+macro-
+phages. Mouse macrophages were exposed to infectious Mtb and the
+infection was allowed to establish until the bacterial load approached
+10; 000 CFU∕ml. Parallel cultures were treated with IFN-γ, mPTPB inhibitor
+I-A09 (10 μM), or both substances. After a further seven days the cultures
+were washed, lysed, and bacterial load was determined by standard meth-
+ods. Results are presented as means  SD of three independent experiments
+(P < 0.001 by Student’s t test).
+4578
+∣
+www.pnas.org/cgi/doi/10.1073/pnas.0909133107
+Zhou et al.

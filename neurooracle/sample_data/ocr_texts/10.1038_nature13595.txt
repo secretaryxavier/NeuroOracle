@@ -1,0 +1,1229 @@
+ARTICLE
+doi:10.1038/nature13595
+Biological insights from 108
+schizophrenia-associated genetic loci
+Schizophrenia Working Group of the Psychiatric Genomics Consortium*
+Schizophrenia is a highly heritable disorder. Genetic risk is conferred by a large number of alleles, including common
+alleles of small effect that might be detected by genome-wide association studies. Here we report a multi-stage schizo-
+phrenia genome-wide association study of up to 36,989 cases and 113,075 controls. We identify 128 independent asso-
+ciations spanning 108 conservatively defined loci that meet genome-wide significance, 83 of which have not been
+previously reported. Associations were enriched among genes expressed in brain, providing biological plausibility for
+the findings. Many findings have the potential to provide entirely new insights into aetiology, but associations at DRD2
+and several genes involved in glutamatergic neurotransmission highlight molecules of known and potential therapeutic
+relevancetoschizophrenia,andareconsistentwithleadingpathophysiologicalhypotheses.Independentofgenesexpressed
+in brain, associations were enriched among genes expressed in tissues that have important roles in immunity, providing
+support for the speculated link between the immune system and schizophrenia.
+Schizophrenia has a lifetime risk of around 1%, and is associated with
+substantialmorbidityandmortalityaswellaspersonalandsocietalcosts1–3.
+Although pharmacological treatments are available for schizophrenia,
+theirefficacyispoorformanypatients4.Allavailableantipsychoticdrugs
+are thought to exert their main therapeutic effects through blockade of
+thetype2dopaminergicreceptor5,6but,sincethediscoveryofthismech-
+anism over 60 years ago, no new antipsychotic drug of proven efficacy
+has been developed based on other target molecules. Therapeutic stasis
+is in large part a consequence of the fact that the pathophysiology of
+schizophrenia is unknown. Identifying the causes of schizophrenia is
+therefore a critical step towards improving treatments and outcomes
+for those with the disorder.
+High heritability points to a major role for inherited genetic variants
+in the aetiology of schizophrenia7,8. Although risk variants range in fre-
+quency from commonto extremelyrare9, estimates10,11 suggesthalf to a
+third of the genetic risk of schizophrenia is indexed by common alleles
+genotyped by current genome-wide association study (GWAS) arrays.
+Thus, GWAS is potentially an important tool for understanding the
+biological underpinnings of schizophrenia.
+Todate,around30schizophrenia-associatedloci10–23havebeeniden-
+tified through GWAS. Postulating that sample size is one of the most
+importantlimitingfactorsinapplyingGWAStoschizophrenia,wecreated
+the Schizophrenia Working Group of the Psychiatric Genomics Con-
+sortium (PGC). Our primary aim was to combine all available schizo-
+phrenia samples with published or unpublished GWAS genotypes into
+asingle,systematicanalysis24.Herewereporttheresultsofthatanalysis,
+including at least 108 independent genomic loci that exceed genome-
+wide significance. Some of the findings support leading pathophysio-
+logical hypotheses of schizophrenia or targets of therapeutic relevance,
+but most of the findings provide new insights.
+108 independent associated loci
+Weobtainedgenome-widegenotypedatafromwhichweconstructed49
+ancestrymatched,non-overlappingcase-controlsamples(46ofEuropean
+and three of east Asian ancestry, 34,241 cases and 45,604 controls) and
+3 family-based samples of European ancestry (1,235 parent affected-
+offspring trios)(Supplementary Table1 and Supplementary Methods).
+These comprise the primary PGC GWAS data set. We processed the
+genotypes from all studies using unified quality control procedures fol-
+lowed by imputation of SNPs and insertion-deletions using the 1000
+Genomes Project reference panel25. In each sample, association testing
+wasconductedusingimputedmarkerdosagesandprincipalcomponents
+(PCs) to control for population stratification. The results were combined
+using an inverse-variance weighted fixed effects model26. After quality
+control (imputation INFO score $ 0.6, MAF $ 0.01, and successfully
+imputed in $ 20 samples), we considered around 9.5 million variants.
+TheresultsaresummarizedinFig.1.Toenableacquisitionoflargesam-
+ples, some groups ascertained cases via clinician diagnosis rather than a
+research-based assessment and provided evidence of the validity of this
+approach (Supplementary Information)11,13. Post hoc analyses revealed
+the pattern of effect sizes for associated loci was similar across different
+assessmentmethodsandmodesofascertainment(ExtendedDataFig.1),
+supporting our a priori decision to include samples of this nature.
+Forthesubsetoflinkage-disequilibrium-independentsinglenucleotide
+polymorphisms (SNPs) with P , 13 1026 in themeta-analysis,we next
+obtainedresultsfromdeCODEgenetics(1,513casesand66,236controls
+of Europeanancestry). Wedefinelinkage-disequilibrium-independent
+SNPs as those with low linkage disequilibrium (r2 , 0.1) to a more sig-
+nificantly associated SNP within a 500-kb window. Given high linkage
+disequilibriumintheextendedmajorhistocompatibilitycomplex(MHC)
+region spans,8 Mb,weconservativelyincludeonlyasingleMHCSNP
+torepresentthislocus.ThedeCODEdatawerethencombinedwiththose
+from the primary GWAS to give a data set of 36,989 cases and 113,075
+controls. In this final analysis, 128 linkage-disequilibrium-independent
+SNPsexceeded genome-wide significance (P # 53 1028) (Supplemen-
+tary Table 2).
+Asinmeta-analysesofothercomplextraitswhichidentifiedlargenum-
+bersof common risk variants27,28, the test statistic distribution fromour
+GWAS deviates from the null (Extended Data Fig. 2). Thisis consistent
+withthepreviouslydocumentedpolygeniccontributiontoschizophrenia10,11.
+Thedeviationintheteststatisticsfromthenull(lGC 51.47,l100051.01)
+isonlyslightlylessthanexpected(lGC 5 1.56)underapolygenicmodel
+given fully informative genotypes, the current sample size, and the life-
+time risk and heritability of schizophrenia29.
+*A list of authors and affiliations appears at the end of the paper.
+2 4
+J U L Y
+2 0 1 4 |
+V O L
+5 1 1 |
+N A T U R E
+| 4 2 1
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+Additionallinesofevidenceallowustoconcludethedeviationbetween
+the observed and null distributions in our primary GWAS indicates a
+true polygenic contribution to schizophrenia. First, applying a novel
+method30 that uses linkage disequilibrium information to distinguish
+between the major potential sources of test statistic inflation, we found
+our results are consistent with polygenic architecture but not popula-
+tion stratification (Extended Data Fig. 3). Second, the schizophrenia-
+associated alleles at 78% of 234 linkage-disequilibrium-independent
+SNPs exceeding P , 1 3 1026 in the case-control GWAS were again
+overrepresented in cases in the independent samples from deCODE.
+This degree of consistency between the case-control GWAS and the
+replication data is highly unlikely to occur by chance (P 5 6 3 10219).
+ThetestedallelessurpassedtheP , 1026thresholdinourGWASbefore
+weaddedeitherthetriosordeCODEdatatothemeta-analysis.Thistrend
+testisthereforeindependent oftheprimarycase-controlGWAS.Third,
+analysing the 1,235 parent-proband trios, we again found excess trans-
+missionoftheschizophrenia-associatedalleleat69%ofthe263linkage-
+disequilibrium-independentSNPswithP, 13 1026inthecase-control
+GWAS. This is again unlikely to occur by chance (P 5 1 3 1029) and
+additionally excludes population stratification as fully explaining the
+associations reaching our threshold for seeking replication. Fourth, we
+used the trios trend data to estimate the expected proportion of true
+associations at P , 1 3 1026 in the discovery GWAS, allowing for the
+fact that half of the index SNPs are expected to show the same allelic
+trend in the trios by chance, and that some true associations will show
+opposite trends given the limited number of trio samples (Supplemen-
+tary Methods). Given the observed trend test results, around 67% (95%
+confidence interval: 64–73%) or n 5 176 of the associations in the scan
+at P , 1 3 1026 are expected to be true, and therefore the number of
+associations that will ultimately be validated from this set of SNPs will
+be considerably more than those that now meet genome-wide signifi-
+cance.Takentogether,theseanalysesindicatethattheobserveddeviation
+of test statistics from the null primarily represents polygenic association
+signal and the considerable excess of associations at the tail of extreme
+significance largely correspond to true associations.
+IndependentlyassociatedSNPsdonottranslatetowell-boundedchro-
+mosomalregions.Nevertheless,itisusefultodefinephysicalboundaries
+fortheSNPassociations toidentifycandidateriskgenes.Wedefinedan
+associated locus asthe physical regioncontaining all SNPs correlatedat
+r2 . 0.6 with each of the 128 index SNPs. Associated loci within 250 kb
+of each other were merged. This resulted in 108 physically distinct asso-
+ciated loci, 83 of which have not been previously implicated in schizo-
+phrenia and therefore harbour potential new biological insights into
+disease aetiology (Supplementary Table 3; regional plots in Supplemen-
+taryFig.1).Thesignificantregionsincludeallbut5locipreviouslyreported
+tobegenome-widesignificantinlargesamples(SupplementaryTable3).
+Characterization of associated loci
+Of the 108 loci, 75% include protein-coding genes (40%, a single gene)
+and a further 8% are within 20 kb of a gene (Supplementary Table 3).
+Notable associations relevant to major hypotheses of the aetiology and
+treatmentofschizophreniaincludeDRD2(thetargetofalleffectiveanti-
+psychotic drugs) and many genes (for example, GRM3, GRIN2A, SRR,
+GRIA1)involvedinglutamatergicneurotransmissionandsynapticplas-
+ticity. In addition, associations at CACNA1C, CACNB2 and CACNA1I,
+whichencodevoltage-gatedcalciumchannelsubunits,extendprevious
+findingsimplicatingmembersofthisfamilyofproteinsinschizophrenia
+and other psychiatric disorders11,13,31,32. Genes encoding calcium chan-
+nels,andproteinsinvolvedinglutamatergicneurotransmissionandsyn-
+aptic plasticity have been independently implicated in schizophrenia by
+studies of rare genetic variation33–35, suggesting convergence at a broad
+functional level between studies of common and rare genetic variation.
+WehighlightintheSupplementaryDiscussiongenesofparticularinterest
+withinassociatedlociwithrespecttocurrenthypothesesofschizophrenia
+Signiﬁcance of association (–log10 P)
+Chromosome
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20 21 22
+X
+Figure 1 | Manhattan plot showing schizophrenia associations. Manhattan
+plot of the discovery genome-wide association meta-analysis of 49 case control
+samples (34,241 cases and 45,604 controls) and 3 family based association
+studies (1,235 parent affected-offspring trios). The x axis is chromosomal
+position and the y axis is the significance (–log10 P; 2-tailed) of association
+derived by logistic regression. The red line shows the genome-wide significance
+level(53 1028).SNPsingreenareinlinkagedisequilibriumwiththeindexSNPs
+(diamonds) which represent independent genome-wide significant associations.
+RESEARCH ARTICLE
+4 2 2 |
+N A T U R E
+| V O L
+5 1 1 |
+2 4
+J U L Y
+2 0 1 4
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+aetiology or treatment (although we do not imply that these genes are
+necessarily the causal elements).
+Foreachoftheschizophrenia-associatedloci,weidentifiedacredible
+causalsetofSNPs(fordefinition,seeSupplementaryMethods)36.Inonly
+10 instances (Supplementary Table4) wastheassociationsignal credibly
+attributable to a known non-synonymous exonic polymorphism. The
+apparentlylimitedroleofprotein-codingvariantsisconsistentbothwith
+exome sequencing findings33 and with the hypothesis that most asso-
+ciated variants detected by GWAS exert their effects through altering
+gene expression rather than protein structure37,38 and with the obser-
+vation that schizophrenia risk loci are enriched for expression quanti-
+tative trait loci (eQTL)39.
+To try to identify eQTLs that could explain associations with schizo-
+phrenia, we merged the credible causal set of SNPs defined above with
+eQTLsfromameta-analysisofhumanbraincortexeQTLstudies(n5550)
+andaneQTLstudyofperipheralvenousblood(n53,754)40(Supplemen-
+taryMethods).Multipleschizophrenialoci containedatleastone eQTL
+for a gene within 1 Mb of the locus (Supplementary Table 4). However,
+inonly12instanceswastheeQTLplausiblycausal(twoinbrain,andnine
+in peripheral blood, one in both). This low proportion suggests that if
+most risk variants are regulatory, available eQTL catalogues do not yet
+provide power, cellular specificity, or developmental diversity to pro-
+vide clear mechanistic hypotheses for follow-up experiments.
+The brain and immunity
+Tofurtherexploretheregulatorynatureoftheschizophreniaassociations,
+wemappedthecrediblesets(n 5 108)ofcausalvariantsontosequences
+with epigenetic markers characteristic of active enhancers in 56 differ-
+enttissuesandcelllines(SupplementaryMethods).Schizophreniaasso-
+ciations were significantly enriched at enhancers active in brain (Fig. 2)
+but not in tissues unlikely to be relevant to schizophrenia (for example,
+bone,cartilage,kidneyandfibroblasts).Braintissuesusedtodefineenhanc-
+ers consist of heterogeneous populations of cells. Seeking greater spe-
+cificity, we contrasted genes enriched for expression in neurons and
+glia using mouse ribotagged lines41. Genes with strong expression in
+multiple cortical and striatal neuronal lineages were enriched for asso-
+ciations, providing support for an important neuronal pathology in
+schizophrenia (Extended Data Fig. 4) but this is not statistically more
+significant than, or exclusionary of, contributions from other lineages42.
+Schizophrenia associations were also strongly enriched at enhancers
+thatareactiveintissues withimportant immune functions,particularly
+B-lymphocytelineagesinvolvedinacquiredimmunity(CD19andCD20
+lines, Fig. 2). These enrichments remain significant even after exclud-
+ing the extended MHC region and regions containing brain enhancers
+(enrichment P for CD20 , 1026), demonstrating that this finding is
+not an artefact of correlation between enhancer elements in different
+tissuesandnotdrivenbythestronganddiffuseassociationattheextended
+MHC. Epidemiological studies have long hinted at a role for immune
+dysregulation in schizophrenia, the present findings provide genetic
+support for this hypothesis43.
+Todevelopadditionalbiologicalhypothesesbeyondthosethatemerge
+from inspection of the individual loci, we further undertook a limited
+miningofthedatathroughgene-setanalysis.However,asthereisnocon-
+sensus methodology by which such analyses should be conducted, nor
+anestablishedoptimalsignificancethresholdforincludingloci,wesought
+to be conservative, using only two of the many availableapproaches44,45
+and restricting analyses to genes within genome-wide significant loci.
+Neither approach identified gene-sets that were significantly enriched
+forassociationsaftercorrectionforthenumberofpathwaystested(Sup-
+plementary Table5)althoughnominallysignificantly enrichmentswere
+observedamongseveralpredefinedcandidatepathways(ExtendedData
+Table1).Afullerexploratoryanalysisofthedatawillbepresentedelsewhere.
+Overlap with rare mutations
+CNVs associated withschizophreniaoverlapwiththoseassociatedwith
+autismspectrumdisorder(ASD)andintellectualdisability9,asdogenes
+with deleterious de novo mutations34. Here we find significant overlap
+betweengenesintheschizophreniaGWASassociatedintervalsandthose
+with de novo non-synonymous mutations in schizophrenia (P 50.0061)
+(Extended Data Table 2), suggesting that mechanistic studies of rare
+genetic variation in schizophrenia will be informative for schizophrenia
+morewidely.We alsofindevidence foroverlap between genes inschizo-
+phreniaGWASregions and those with denovonon-synonymous muta-
+tionsinintellectualdisability(P50.00024)andASD(P50.035),providing
+further support for the hypothesis that these disorders have partly over-
+lapping pathophysiologies9,34.
+Polygenic risk score profiling
+Previous studies have shown that risk profile scores (RPS) constructed
+from alleles showing modest association with schizophrenia in a dis-
+covery GWAS can predict case-control status in independent samples,
+albeitwithlowsensitivityandspecificity10,11,16.Thisfindingwasrobustly
+confirmed in the present study. The estimate of Nagelkerke R2 (a mea-
+sure of variance in case-control status explained) depends on the spe-
+cific target data set and threshold (PT) for selecting risk alleles for RPS
+Hippocampus middle
+Anterior caudate
+Substania nigra
+Cingulate gyrus
+Mid-frontal lobe
+Angular gyrus
+Inferior temporal lobe
+Neurosphere
+HUES 6
+HUES64
+hiPS–20b
+hiPS–18a
+H1
+Kidney
+Pancreatic islets
+Liver1
+Duodenum mucosa
+Colonic mucosa
+Rectal mucosa
+Adipose nuclei
+Skeletal muscle
+Duodenum smooth muscle
+Rectal smooth muscle
+Stomach smooth muscle
+Colon smooth muscle
+BM–MSC
+Chondrogenic dif cells
+NH–osteoblast
+NHDF
+NHLF
+NH–A
+HSMM–myotube
+HSMM
+SK–N–MC
+A673
+K562
+HepG2
+Huvec
+NHEK
+HMEC
+HeLaS3
+DND–41
+Mobilized CD34
+Adult CD14
+GM12878
+Adult CD20
+CD19
+Th2
+Th1
+Th0
+CD25– IL17– Th stim MACS
+CD25– IL17+ Th17 stim
+CD25int CD127+ Tmem
+CD25+ CD127– Treg
+CD25– CD45RA+ naive
+CD3 primary cells
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Enrichment (–log10 P)
+Figure 2 | Enrichment in enhancers of credible SNPs. Cell and tissue type
+specific enhancers were identified using ChIP-seq data sets (H3K27ac signal)
+from 56 cell line and tissue samples (y axis). We defined cell and tissue type
+enhancers as the top 10% of enhancers with the highest ratio of reads in that cell
+or tissue type divided by the total number of reads. Enrichment of credible
+causal associated SNPs from the schizophrenia GWAS was compared with
+frequency matched sets of 1000 Genomes SNPs (Supplementary Methods).
+The x axis is the –log10 P for enrichment. P values are uncorrected for the
+number of tissues or cells tested. A –log10 P of roughly 3 can be considered
+significant after Bonferroni correction. Descriptions of cell and tissue types at
+the Roadmap Epigenome website (http://www.roadmapepigenomics.org).
+ARTICLE RESEARCH
+2 4
+J U L Y
+2 0 1 4 |
+V O L
+5 1 1 | N A T U R E
+| 4 2 3
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+analysis (Extended Data Fig. 5 and 6a). However, using the same target
+sample as earlier studies and PT 5 0.05, R2 is now increased from 0.03
+(ref. 10) to 0.184(Extended Data Fig. 5). Assuming a liability-threshold
+model, a lifetime risk of 1%, independent SNP effects, and adjusting for
+case-controlascertainment,RPSnowexplains about7%ofvariation on
+the liability scale46 to schizophrenia across the samples (Extended Data
+Fig. 6b), about half of which (3.4%) is explained by genome-wide signi-
+ficant loci.
+We also evaluated the capacity of RPS to predict case-control status
+using a standard epidemiological approach to a continuous risk factor.
+We illustrate this in three samples, each with different ascertainment
+schemes (Fig. 3). The Danish sample is population-based (that is, inpa-
+tient and outpatient facilities), the Swedish sample is based on all cases
+hospitalized for schizophrenia in Sweden, and the Molecular Genetics
+of Schizophrenia (MGS) sample was ascertained specially for genetic
+studies from clinical sources in the US and Australia.We grouped indi-
+viduals intoRPSdecilesandestimatedtheoddsratios foraffectedstatus
+for each decile with reference to the lowest risk decile. The odds ratios
+increased withgreater numberofschizophreniariskalleles ineachsam-
+ple, maximizing for the tenth decile in all samples: Denmark 7.8 (95%
+confidence interval (CI): 4.4–13.9), Sweden 15.0 (95% CI: 12.1–18.7)
+and MGS 20.3 (95% CI: 14.7–28.2). Given the need for measures that
+index liability to schizophrenia47,48, the ability to stratify individuals by
+RPS offers new opportunities for clinical and epidemiological research.
+Nevertheless, we stress that the sensitivity and specificity of RPS do not
+support its use as a predictive test. For example, in the Danish epide-
+miological sample, the area under the receiver operating curve is only
+0.62 (Extended Data Fig. 6c, Supplementary Table 6).
+Finally, seeking evidence for non-additive effects on risk, we tested
+for statistical interaction between all pairs of 125 autosomal SNPs that
+reached genome-wide significance. P values for the interaction terms
+weredistributedaccordingtothenull,andnointeractionwassignificant
+after correctionformultiplecomparisons.Thus,wefindnoevidencefor
+epistatic or non-additive effects between the significant loci (Extended
+Data Fig. 7). It is possible that such effects could be present between
+other loci, or occur in the form of higher-order interactions.
+Discussion
+In the largest (to our knowledge) molecular genetic study of schizophre-
+nia,orindeedofanyneuropsychiatricdisorder,everconducted,wedem-
+onstrate the power of GWAS to identify large numbers of risk loci. We
+show that the use of alternative ascertainment and diagnostic schemes
+designed to rapidly increase samplesize doesnot inevitably introduce a
+crippling degree of heterogeneity. That this is true for a phenotype like
+schizophrenia,in whichthere arenobiomarkersorsupportivediagnostic
+tests, provides grounds to be optimistic that this approach can be suc-
+cessfully applied to GWAS of other clinically defined disorders.
+We further show that the associations are not randomly distributed
+acrossgenesofallclassesandfunction;rathertheyconvergeupongenes
+thatareexpressedincertaintissuesandcellulartypes.Thefindingsinclude
+molecules that are the current, or the most promising, targets for ther-
+apeutics, and point to systems that align with the predominant aeti-
+ological hypotheses of the disorder. This suggests that the many novel
+findings we report also provide an aetiologically relevant foundation
+formechanisticand treatmentdevelopmentstudies. We also findover-
+lap between genes affected by rare variants in schizophrenia and those
+within GWAS loci, and broad convergence in the functions of some of
+the clusters of genes implicated by both sets of genetic variants, parti-
+cularly genes related to abnormal glutamatergic synaptic and calcium
+channelfunction.Howvariationinthesegenesimpactfunctiontoincrease
+risk for schizophrenia cannot be answered by genetics, but the overlap
+strongly suggests that common and rare variant studies are complemen-
+tary rather than antagonistic,andthatmechanisticstudies driven by rare
+genetic variation will be informative for schizophrenia.
+Online Content Methods, along with any additional Extended Data display items
+andSource Data, are available in the onlineversion of the paper; references unique
+to these sections appear only in the online paper.
+Received 6 March; accepted 18 June 2014.
+Published online 22 July 2014.
+1.
+Saha, S., Chant, D. & McGrath, J. A systematic review of mortality in schizophrenia:
+is the differential mortality gap worsening over time? Arch. Gen. Psychiatry 64,
+1123–1131 (2007).
+2.
+World Health Organization. The Global Burden of Disease: 2004 Update (WHO
+Press, 2008).
+3.
+Knapp, M., Mangalore, R. & Simon, J. The global costs of schizophrenia. Schizophr.
+Bull. 30, 279–293 (2004).
+4.
+Lieberman, J. A. et al. Effectiveness of antipsychotic drugs in patients with chronic
+schizophrenia. N. Engl. J. Med. 353, 1209–1223 (2005).
+5.
+Carlsson, A. & Lindqvist,M. Effect ofchlorpromazineor haloperidolonformation of
+3-methoxytyramine and normetanephrine in mouse brain. Acta Pharmacol.
+Toxicol. 20, 140–144 (1963).
+6.
+van Rossum, J. M. The significance of dopamine-receptor blockade for the
+mechanism of action of neuroleptic drugs. Arch. Int. Pharmacodyn. Ther. 160,
+492–494 (1966).
+7.
+Lichtenstein, P. et al. Recurrence risks for schizophrenia in a Swedish national
+cohort. Psychol. Med. 36, 1417–1425 (2006).
+8.
+Sullivan, P. F., Kendler, K. S. & Neale, M. C. Schizophrenia as a complex trait:
+evidence from a meta-analysis of twin studies. Arch. Gen. Psychiatry 60,
+1187–1192 (2003).
+9.
+Sullivan, P. F., Daly, M. J. & O’Donovan, M. Genetic architectures of psychiatric
+disorders: the emerging picture and its implications. Nature Rev. Genet. 13,
+537–551 (2012).
+10. International Schizophrenia Consortium. Common polygenic variation
+contributes to risk of schizophrenia and bipolar disorder. Nature 460, 748–752
+(2009).
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+15
+20
+25
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Decile
+Odds ratio
+Sample
+Denmark
+MGS
+Sweden
+Figure 3 | Odds ratio by risk score profile. Odds ratio for schizophrenia by
+risk score profile (RPS) decile in the Sweden (Sw1-6), Denmark (Aarhus), and
+Molecular Genetics of Schizophrenia studies (Supplementary Methods).
+Risk alleles and weights were derived from ‘leave one out’ analyses in which
+those samples were excluded from the GWAS meta-analysis (Supplementary
+Methods). The threshold for selecting risk alleles was PT , 0.05. The RPS
+were converted to deciles (1 5 lowest, 10 5 highest RPS), and nine dummy
+variables created to contrast deciles 2-10 to decile 1 as the reference. Odds ratios
+and 95% confidence intervals (bars) were estimated using logistic regression
+with PCs to control for population stratification.
+RESEARCH ARTICLE
+4 2 4
+| N A T U R E
+|
+V O L
+5 1 1 | 2 4 J U L Y 2 0 1 4
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+11. Ripke, S. et al. Genome-wide association analysis identifies 13 new risk loci for
+schizophrenia. Nature Genet. 45, 1150–1159 (2013).
+12. Ikeda, M. et al. Genome-wide association study of schizophrenia in a Japanese
+population. Biol. Psychiatry 69, 472–478 (2011).
+13. Hamshere, M. L. et al. Genome-wide significant associations in schizophrenia to
+ITIH3/4, CACNA1C and SDCCAG8, and extensive replication of associations
+reported by the Schizophrenia PGC. Mol. Psychiatry 18, 708–712 (2013).
+14. O’Donovan, M. C. et al. Identification of novel schizophrenia loci by genome-wide
+association and follow-up. Nature Genet. 40, 1053–1055 (2008).
+15. Rietschel, M. et al. Association between genetic variation in a region on
+chromosome 11 and schizophrenia in large samples from Europe. Mol. Psychiatry
+17, 906–917 (2012).
+16. Schizophrenia Psychiatric Genome-Wide Association Study Consortium.
+Genome-wide association study identifies five new schizophrenia loci. Nature
+Genet. 43, 969–976 (2011).
+17. Irish Schizophrenia Genomics Consortium & Wellcome Trust Case Control
+Consortium. Genome-wide association study implicates HLA-C*01:02 as a risk
+factor at the major histocompatibility complex locus in schizophrenia. Biol.
+Psychiatry 72, 620–628 (2012).
+18. Shi, J. et al. Common variants on chromosome 6p22.1 are associated with
+schizophrenia. Nature 460, 753–757 (2009).
+19. Shi, Y. et al. Common variants on 8p12 and 1q24.2 confer risk of schizophrenia.
+Nature Genet. 43, 1224–1227 (2011).
+20. Stefansson, H. et al. Common variants conferring risk of schizophrenia. Nature
+460, 744–747 (2009).
+21. Steinberg, S. et al. Common variants at VRK2 and TCF4 conferring risk of
+schizophrenia. Hum. Mol. Genet. 20, 4076–4081 (2011).
+22. Yue, W. H. et al. Genome-wide association study identifies a susceptibility locus for
+schizophrenia in Han Chinese at 11p11.2. Nature Genet. 43, 1228–1231 (2011).
+23. Lencz, T. et al. Genome-wide association study implicates NDST3 in schizophrenia
+and bipolar disorder. Nature Commun. 4, 2739 (2013).
+24. Psychiatric GWAS Consortium. A framework for interpreting genomewide
+association studies of psychiatric disorders. Mol. Psychiatry 14, 10–17 (2009).
+25. The 1000 Genomes Project Consortium. A map of human genome variation from
+population-scale sequencing. Nature 467, 1061–1073 (2010).
+26. Begum, F., Ghosh, D., Tseng, G. C. & Feingold, E. Comprehensive literature review
+and statistical considerations for GWAS meta-analysis. Nucleic Acids Res. 40,
+3777–3784 (2012).
+27. Lango Allen, H. et al. Hundreds of variants clustered in genomic loci and biological
+pathways affect human height. Nature 467, 832–838 (2010).
+28. Jostins, L. et al. Host–microbe interactions have shaped the genetic architecture of
+inflammatory bowel disease. Nature 491, 119–124 (2012).
+29. Yang, J. et al. Genomic inflation factors under polygenic inheritance. Eur. J. Hum.
+Genet. 19, 807–812 (2011).
+30. Bulik-Sullivan, B. K. et al. LD score regression distinguishes confounding from
+polygenicity in genome-wide association studies. Preprint at http://dx.doi.org/
+10.1101/002931 (2014).
+31. Ferreira, M. A. et al. Collaborative genome-wide association supports a role for
+ANK3 and CACNA1C in bipolar disorder. Nature Genet. 40, 1056–1058 (2008).
+32. Cross-Disorder Group of the Psychiatric Genomics Consortium. Identification of
+risk loci with shared effects on five major psychiatric disorders: a genome-wide
+analysis. Lancet 381, 1371–1379 (2013).
+33. Purcell, S. M. et al. A polygenic burden of rare disruptive mutations in
+schizophrenia. Nature 506, 185–190 (2014).
+34. Fromer, M. et al. De novo mutations in schizophrenia implicate synaptic networks.
+Nature 506, 179–184 (2014).
+35. Kirov, G. et al. De novo CNV analysis implicates specific abnormalities of
+postsynaptic signalling complexes in the pathogenesis of schizophrenia. Mol.
+Psychiatry 17, 142–153 (2012).
+36. Wellcome Trust Case Control Consortium Bayesian refinement of association
+signals for 14 loci in 3 common diseases. Nature Genet. 44, 1294–1301 (2012).
+37. Nicolae, D. L. et al.Trait-associated SNPs are more likely to be eQTLs: annotation to
+enhance discovery from GWAS. PLoS Genet. 6, e1000888 (2010).
+38. Maurano, M. T. et al. Systematic localization of common disease-associated
+variation in regulatory DNA. Science 337, 1190–1195 (2012).
+39. Richards, A.L. et al.Schizophrenia susceptibility alleles are enriched for allelesthat
+affect gene expression in adult human brain. Mol. Psychiatry 17, 193–201 (2012).
+40. Wright, F. A. et al. Heritability and genomics of gene expression in peripheral blood.
+Nature Genet. 46, 430–437 (2014).
+41. Doyle, J. P. et al. Application of a translational profiling approach for the
+comparative analysis of CNS cell types. Cell 135, 749–762 (2008).
+42. Tkachev, D. et al. Oligodendrocyte dysfunction in schizophrenia and bipolar
+disorder. Lancet 362, 798–805 (2003).
+43. Benros,M. E., Mortensen, P. B. & Eaton, W.W. Autoimmune diseases andinfections
+as risk factors for schizophrenia. Ann. NY Acad. Sci. 1262, 56–66 (2012).
+44. Holmans, P. et al. Gene ontology analysis of GWA study data sets provides insights
+into the biology of bipolar disorder. Am. J. Hum. Genet. 85, 13–24 (2009).
+45. Lee, P. H., O’Dushlaine, C., Thomas, B. & Purcell, S. InRich: interval-based
+enrichment analysis for genome-wide association studies. Bioinformatics 28,
+1797–1799 (2012).
+46. Lee, S. H., Goddard, M. E., Wray, N. R. & Visscher, P. M. A better coefficient of
+determination for genetic profile analysis. Genet. Epidemiol. 36, 214–224 (2012).
+47. Gottesman, I. I. & Gould, T. D. The endophenotype concept in psychiatry:
+etymology and strategic intentions. Am. J. Psychiatry 160, 636–645 (2003).
+48. Insel, T. et al. Research domain criteria (RDoC): toward a new classification
+framework for research on mental disorders. Am. J. Psychiatry 167, 748–751
+(2010).
+Supplementary Information is available in the online version of the paper.
+AcknowledgementsCorefundingfor thePsychiatricGenomics Consortiumisfromthe
+US National Institute of Mental Health (U01 MH094421). We thank T. Lehner (NIMH).
+The work of the contributing groups was supported by numerous grants from
+governmental and charitable bodies as well as philanthropic donation. Details are
+provided inthe Supplementary Notes.Membershipofthe Wellcome TrustCaseControl
+Consortium and of the Psychosis Endophenotype International Consortium are
+provided in the Supplementary Notes.
+Author Contributions The individual studies or consortia contributing to the GWAS
+meta-analysiswere led byR.A.,O.A.A.,D.H.R.B.,A.D.B.,E.Bramon,J.D.B.,A.C.,D.A.C.,S.C.,
+A.D., E. Domenici, H.E., T.E., P.V.G., M.G., H.G., C.M.H., N.I., A.V.J., E.G.J., K.S.K., G.K., J.
+Knight, T. Lencz, D.F.L., Q.S.L., J. Liu, A.K.M., S.A.M., A. McQuillin, J.L.M., P.B.M., B.J.M.,
+M.M.N., M.C.O’D., R.A.O., M.J.O., A. Palotie, C.N.P., T.L.P., M.R., B.P.R., D.R., P.C.S, P. Sklar.
+D.St.C., P.F.S., D.R.W., J.R.W., J.T.R.W. and T.W. Together with the core statistical analysis
+group led by M.J.D. comprising S.R., B.M.N. and P.A.H., this group comprised the
+management group led by M.C.O’D. who were responsible for the management of the
+study and the overall content of the manuscript. Additional analyses and
+interpretations were contributed by E.A., B.B.-S., D.K., K.-H.F., M. Fromer, H.H., P.L.,
+P.B.M., S.M.P., T.H.P., N.R.W. and P.M.V. The phenotype supervisory group comprised
+A.C., A.H.F., P.V.G., K.K.K. and B.J.M. D.A.C. led the candidate selected genes subgroup
+comprised of M.J.D., E. Dominici, J.A.K., A.M.H., M.C.O’D, B.P.R., D.R., E.M.S. and P. Sklar.
+Replication results were provided by S.S., H.S. and K.S. The remaining authors
+contributed to the recruitment, genotyping, or data processing for the contributing
+components of the meta-analysis. A.C., M.J.D., B.M.N., S.R., P.F.S. and M.C.O’D. took
+responsibility for the primary drafting of the manuscript which was shaped by the
+management group. All other authors saw, had the opportunity to comment on, and
+approved the final draft.
+Author Information Results can be downloaded from the Psychiatric Genomics
+Consortium website (http://pgc.unc.edu) and visualized using Ricopili (http://
+www.broadinstitute.org/mpg/ricopili). Genotype data for the samples where the ethics
+permit deposition are available upon application from the NIMH Genetics Repository
+(https://www.nimhgenetics.org). Reprints and permissions information is available at
+www.nature.com/reprints. The authors declare competing financial interests: details
+are available in the online version of the paper. Readers are welcome to comment on
+the online version of the paper. Correspondence and requests for materials should be
+addressed to to M.C.O’D. (odonovanmc@cardiff.ac.uk).
+Schizophrenia Working Group of the Psychiatric Genomics Consortium
+Stephan Ripke1,2, Benjamin M. Neale1,2,3,4, Aiden Corvin5, James T. R. Walters6,
+Kai-How Farh1, Peter A. Holmans6,7, Phil Lee1,2,4, Brendan Bulik-Sullivan1,2, David A.
+Collier8,9, Hailiang Huang1,3, Tune H. Pers3,10,11, Ingrid Agartz12,13,14, Esben
+Agerbo15,16,17, Margot Albus18, Madeline Alexander19, Farooq Amin20,21, Silviu A.
+Bacanu22, Martin Begemann23, Richard A. Belliveau Jr2, Judit Bene24,25, Sarah E.
+Bergen2,26, Elizabeth Bevilacqua2, Tim B. Bigdeli22, Donald W. Black27, Richard
+Bruggeman28, Nancy G. Buccola29, Randy L. Buckner30,31,32, William Byerley33,
+Wiepke Cahn34, Guiqing Cai35,36, Dominique Campion37, Rita M. Cantor38, Vaughan J.
+Carr39,40, Noa Carrera6, Stanley V. Catts39,41, Kimberly D. Chambert2, Raymond C. K.
+Chan42, Ronald Y. L. Chen43, Eric Y. H. Chen43,44, Wei Cheng45, Eric F. C. Cheung46,
+Siow Ann Chong47, C. Robert Cloninger48, David Cohen49, Nadine Cohen50, Paul
+Cormican5, Nick Craddock6,7, James J. Crowley51, David Curtis52,53, Michael
+Davidson54, Kenneth L. Davis36, Franziska Degenhardt55,56, Jurgen Del Favero57, Ditte
+Demontis17,58,59, Dimitris Dikeos60, Timothy Dinan61, Srdjan Djurovic14,62, Gary
+Donohoe5,63, Elodie Drapeau36, Jubao Duan64,65, Frank Dudbridge66, Naser
+Durmishi67, Peter Eichhammer68, Johan Eriksson69,70,71, Valentina Escott-Price6,
+Laurent Essioux72, Ayman H. Fanous73,74,75,76, Martilias S. Farrell51, Josef Frank77,
+Lude Franke78, Robert Freedman79, Nelson B. Freimer80, Marion Friedl81, Joseph I.
+Friedman36, Menachem Fromer1,2,4,82, Giulio Genovese2, Lyudmila Georgieva6, Ina
+Giegling81,83, Paola Giusti-Rodrı´guez51, Stephanie Godard84, Jacqueline I.
+Goldstein1,3, Vera Golimbet85, Srihari Gopal86, Jacob Gratten87, Lieuwe de Haan88,
+Christian Hammer23, Marian L. Hamshere6, Mark Hansen89, Thomas Hansen17,90,
+Vahram Haroutunian36,91,92, Annette M. Hartmann81, Frans A. Henskens39,93,94,
+Stefan Herms55,56,95, Joel N. Hirschhorn3,11,96, Per Hoffmann55,56,95, Andrea
+Hofman55,56, Mads V. Hollegaard97, David M. Hougaard97, Masashi Ikeda98, Inge
+Joa99, Antonio Julia`100, Rene´ S. Kahn34, Luba Kalaydjieva101,102, Sena
+Karachanak-Yankova103, Juha Karjalainen78, David Kavanagh6, Matthew C. Keller104,
+James L. Kennedy105,106,107, Andrey Khrunin108, Yunjung Kim51, Janis Klovins109,
+James A. Knowles110, Bettina Konte81, Vaidutis Kucinskas111, Zita Ausrele
+Kucinskiene111, Hana Kuzelova-Ptackova112, Anna K. Ka¨hler26, Claudine
+Laurent19,113, Jimmy Lee Chee Keong47,114, S. Hong Lee87, Sophie E. Legge6, Bernard
+Lerer115, Miaoxin Li43,44,116, Tao Li117, Kung-Yee Liang118, Jeffrey Lieberman119,
+Svetlana Limborska108, Carmel M. Loughland39,120, Jan Lubinski121, Jouko
+Lo¨nnqvist122, Milan Macek Jr112, Patrik K. E. Magnusson26, Brion S. Maher123,
+Wolfgang Maier124, Jacques Mallet125, Sara Marsal100, Manuel Mattheisen17,58,59,126,
+Morten Mattingsdal14,127, Robert W. McCarley128,129, Colm McDonald130, Andrew M.
+McIntosh131,132, Sandra Meier77, Carin J. Meijer88, Bela Melegh24,25, Ingrid
+Melle14,133, Raquelle I. Mesholam-Gately128,134, Andres Metspalu135, Patricia T.
+Michie39,136, Lili Milani135, Vihra Milanova137, Younes Mokrab8, Derek W. Morris5,63,
+Ole Mors17,58,138, Kieran C. Murphy139, Robin M. Murray140, Inez Myin-Germeys141,
+Bertram Mu¨ller-Myhsok142,143,144, Mari Nelis135, Igor Nenadic145, Deborah A.
+Nertney146, Gerald Nestadt147, Kristin K. Nicodemus148, Liene Nikitina-Zake109, Laura
+Nisenbaum149, Annelie Nordin150, Eadbhard O’Callaghan151, Colm O’Dushlaine2, F.
+Anthony O’Neill152, Sang-Yun Oh153, Ann Olincy79, Line Olsen17,90, Jim Van Os141,154,
+Psychosis Endophenotypes International Consortium155, Christos Pantelis39,156,
+ARTICLE RESEARCH
+2 4
+J U L Y
+2 0 1 4 |
+V O L
+5 1 1 | N A T U R E
+| 4 2 5
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+George N. Papadimitriou60, Sergi Papiol23, Elena Parkhomenko36, Michele T. Pato110,
+Tiina Paunio157,158, Milica Pejovic-Milovancevic159, Diana O. Perkins160, Olli
+Pietila¨inen158,161, Jonathan Pimm53, Andrew J. Pocklington6, John Powell140, Alkes
+Price3,162, Ann E. Pulver147, Shaun M. Purcell82, Digby Quested163, Henrik B.
+Rasmussen17,90, Abraham Reichenberg36, Mark A. Reimers164, Alexander L.
+Richards6, Joshua L. Roffman30,32, Panos Roussos82,165, Douglas M. Ruderfer6,82,
+Veikko Salomaa71, Alan R. Sanders64,65, Ulrich Schall39,120, Christian R. Schubert166,
+Thomas G. Schulze77,167, Sibylle G. Schwab168, Edward M. Scolnick2, Rodney J.
+Scott39,169,170, Larry J. Seidman128,134, Jianxin Shi171, Engilbert Sigurdsson172,
+Teimuraz Silagadze173, Jeremy M. Silverman36,174, Kang Sim47, Petr Slominsky108,
+Jordan W. Smoller2,4, Hon-Cheong So43, Chris C. A. Spencer175, Eli A. Stahl3,82, Hreinn
+Stefansson176, Stacy Steinberg176, Elisabeth Stogmann177, Richard E. Straub178, Eric
+Strengman179,34, Jana Strohmaier77, T. Scott Stroup119, Mythily Subramaniam47,
+Jaana Suvisaari122, Dragan M. Svrakic48, Jin P. Szatkiewicz51, Erik So¨derman12,
+Srinivas Thirumalai180, Draga Toncheva103, Sarah Tosato181, Juha Veijola182,183, John
+Waddington184, Dermot Walsh185, Dai Wang86, Qiang Wang117, Bradley T. Webb22,
+Mark Weiser54, Dieter B. Wildenauer186, Nigel M. Williams6, Stephanie Williams51,
+Stephanie H. Witt77, Aaron R. Wolen164, Emily H. M. Wong43, Brandon K. Wormley22,
+Hualin Simon Xi187, Clement C. Zai105,106, Xuebin Zheng188, Fritz Zimprich177, Naomi
+R. Wray87, Kari Stefansson176, Peter M. Visscher87, Wellcome Trust Case-Control
+Consortium 2189, Rolf Adolfsson150, Ole A. Andreassen14,133, Douglas H. R.
+Blackwood132, Elvira Bramon190, Joseph D. Buxbaum35,36,91,191, Anders D.
+Børglum17,58,59,138, Sven Cichon55,56,95,192, Ariel Darvasi193, Enrico Domenici194,
+Hannelore Ehrenreich23, To˜nu Esko3,11,96,135, Pablo V. Gejman64,65, Michael Gill5,
+Hugh Gurling53, Christina M. Hultman26, Nakao Iwata98, Assen V.
+Jablensky39,102,186,195, Erik G. Jo¨nsson12,14, Kenneth S. Kendler196, George Kirov6, Jo
+Knight105,106,107, ToddLencz197,198,199, DouglasF. Levinson19, QingqinS.Li86,Jianjun
+Liu188,200, Anil K. Malhotra197,198,199, Steven A. McCarroll2,96, Andrew McQuillin53,
+Jennifer L. Moran2, Preben B. Mortensen15,16,17, Bryan J. Mowry87,201, Markus M.
+No¨then55,56, Roel A. Ophoff38,80,34, Michael J. Owen6,7, Aarno Palotie2,4,161, Carlos N.
+Pato110, Tracey L. Petryshen2,128,202, Danielle Posthuma203,204,205, Marcella
+Rietschel77, Brien P. Riley196, Dan Rujescu81,83, Pak C. Sham43,44,116, Pamela
+Sklar82,91,165, David St Clair206, Daniel R. Weinberger178,207, Jens R. Wendland166,
+Thomas Werge17,90,208, Mark J. Daly1,2,3, Patrick F. Sullivan26,51,160 & Michael C.
+O’Donovan6,7
+1Analytic and Translational Genetics Unit, Massachusetts General Hospital, Boston,
+Massachusetts 02114, USA. 2Stanley Center for Psychiatric Research, Broad Institute of
+MIT and Harvard, Cambridge, Massachusetts 02142, USA. 3Medical and Population
+Genetics Program, Broad Institute of MIT and Harvard, Cambridge, Massachusetts
+02142, USA. 4Psychiatric and Neurodevelopmental Genetics Unit, Massachusetts
+General Hospital, Boston, Massachusetts 02114, USA. 5Neuropsychiatric Genetics
+Research Group, Department of Psychiatry, Trinity College Dublin, Dublin 8, Ireland.
+6MRC Centre for Neuropsychiatric Genetics and Genomics, Institute of Psychological
+Medicine and Clinical Neurosciences, School of Medicine, Cardiff University, Cardiff CF24
+4HQ, UK. 7NationalCentrefor MentalHealth, Cardiff University, Cardiff CF244HQ, UK. 8Eli
+Lilly and Company Limited, Erl Wood Manor, Sunninghill Road, Windlesham, Surrey
+GU20 6PH, UK. 9Social, Genetic and Developmental Psychiatry Centre, Institute of
+Psychiatry, King’s College London, London SE5 8AF, UK. 10Center for Biological Sequence
+Analysis, Department of Systems Biology, Technical University of Denmark, DK-2800,
+Denmark. 11Division of Endocrinology and Center for Basic and Translational Obesity
+Research, Boston Children’s Hospital, Boston, Massachusetts02115, USA. 12Department
+of Clinical Neuroscience, Psychiatry Section, Karolinska Institutet, SE-17176 Stockholm,
+Sweden. 13Department of Psychiatry, Diakonhjemmet Hospital, 0319 Oslo, Norway.
+14NORMENT, KG Jebsen Centre for Psychosis Research, Institute of Clinical Medicine,
+University of Oslo, 0424 Oslo, Norway. 15Centre for Integrative Register-based Research,
+CIRRAU, Aarhus University, DK-8210 Aarhus, Denmark. 16National Centre for
+Register-basedResearch,AarhusUniversity,DK-8210Aarhus,Denmark. 17The Lundbeck
+Foundation Initiative for Integrative Psychiatric Research, iPSYCH, Denmark. 18State
+Mental Hospital, 85540 Haar, Germany. 19Department of Psychiatry and Behavioral
+Sciences, Stanford University, Stanford, California 94305, USA. 20Department of
+Psychiatry and Behavioral Sciences, Atlanta Veterans Affairs Medical Center, Atlanta,
+Georgia 30033, USA. 21Department of Psychiatry and Behavioral Sciences, Emory
+University,Atlanta,Georgia 30322,USA. 22VirginiaInstitute forPsychiatric and Behavioral
+Genetics, Department of Psychiatry, Virginia Commonwealth University, Richmond,
+Virginia 23298, USA. 23Clinical Neuroscience, Max Planck Institute of Experimental
+Medicine, Go¨ttingen 37075, Germany. 24Department of Medical Genetics, University of
+Pe´cs, Pe´cs H-7624, Hungary. 25Szentagothai Research Center, University of Pe´cs, Pe´cs
+H-7624, Hungary. 26Department of Medical Epidemiology and Biostatistics, Karolinska
+Institutet, Stockholm SE-17177, Sweden. 27Department of Psychiatry, University of Iowa
+Carver College of Medicine, Iowa City, Iowa 52242, USA. 28University Medical Center
+Groningen, Department of Psychiatry, University of Groningen NL-9700 RB, The
+Netherlands. 29SchoolofNursing,LouisianaState University HealthSciences Center,New
+Orleans, Louisiana 70112, USA. 30Athinoula A. Martinos Center, Massachusetts General
+Hospital, Boston, Massachusetts 02129, USA. 31Center for Brain Science, Harvard
+University, Cambridge, Massachusetts 02138, USA. 32Department of Psychiatry,
+Massachusetts General Hospital, Boston, Massachusetts 02114, USA. 33Department of
+Psychiatry, University of California at San Francisco, San Francisco, California 94143,
+USA. 34University Medical Center Utrecht, Department of Psychiatry, Rudolf Magnus
+Institute of Neuroscience, 3584 Utrecht, The Netherlands. 35Department of Human
+Genetics, Icahn School of Medicine at Mount Sinai, New York, New York 10029, USA.
+36DepartmentofPsychiatry,IcahnSchool ofMedicineatMount Sinai,New York,New York
+10029, USA. 37Centre Hospitalier du Rouvray and INSERM U1079 Faculty of Medicine,
+76301 Rouen, France. 38Department of Human Genetics, David Geffen School of
+Medicine, University of California, Los Angeles, California 90095, USA. 39Schizophrenia
+Research Institute,SydneyNSW2010,Australia. 40SchoolofPsychiatry,UniversityofNew
+South Wales, Sydney NSW 2031, Australia. 41Royal Brisbane and Women’s Hospital,
+University of Queensland, Brisbane, St Lucia QLD 4072, Australia. 42Institute of
+Psychology, Chinese Academy of Science, Beijing 100101, China. 43Department of
+Psychiatry, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong,
+China. 44State Key Laboratory for Brain and Cognitive Sciences, Li Ka Shing Faculty of
+Medicine, The University of Hong Kong, Hong Kong, China. 45Department of Computer
+Science, University of North Carolina, Chapel Hill, North Carolina 27514, USA. 46Castle
+Peak Hospital, Hong Kong, China. 47Institute of Mental Health, Singapore 539747,
+Singapore. 48Department ofPsychiatry, WashingtonUniversity,St. Louis,Missouri 63110,
+USA. 49Department of Child and Adolescent Psychiatry, Assistance Publique Hopitaux de
+Paris, Pierre and Marie Curie Faculty of Medicine and Institute for Intelligent Systems and
+Robotics, Paris 75013, France. 50Blue Note Biosciences, Princeton, New Jersey 08540,
+USA 51Department of Genetics, University of North Carolina, Chapel Hill, North Carolina
+27599-7264, USA. 52Department of Psychological Medicine, Queen Mary University of
+London, London E1 1BB, UK. 53Molecular Psychiatry Laboratory, Division of Psychiatry,
+University College London,London WC1E6JJ,UK. 54Sheba MedicalCenter,Tel Hashomer
+52621, Israel. 55Department of Genomics, Life and Brain Center, D-53127 Bonn,
+Germany. 56Institute of Human Genetics, University of Bonn, D-53127 Bonn, Germany.
+57Applied Molecular Genomics Unit, VIB Department of Molecular Genetics, University of
+Antwerp, B-2610 Antwerp, Belgium. 58Centre for Integrative Sequencing, iSEQ, Aarhus
+University, DK-8000 Aarhus C, Denmark. 59Department of Biomedicine, Aarhus
+University, DK-8000 Aarhus C, Denmark. 60First Department of Psychiatry, University of
+Athens Medical School, Athens 11528, Greece. 61Department of Psychiatry, University
+College Cork, Co. Cork, Ireland. 62Department of Medical Genetics, Oslo University
+Hospital, 0424 Oslo, Norway. 63Cognitive Genetics and Therapy Group, School of
+Psychology and Discipline of Biochemistry, National University of Ireland Galway, Co.
+Galway, Ireland. 64Department of Psychiatry and Behavioral Neuroscience, University of
+Chicago, Chicago, Illinois 60637, USA. 65Department of Psychiatry and Behavioral
+Sciences, NorthShore University HealthSystem, Evanston, Illinois 60201, USA.
+66Department of Non-Communicable Disease Epidemiology, London School of Hygiene
+and Tropical Medicine, London WC1E 7HT, UK. 67Department of Child and Adolescent
+Psychiatry, University Clinic of Psychiatry, Skopje 1000, Republic of Macedonia.
+68Department of Psychiatry, University of Regensburg, 93053 Regensburg, Germany.
+69Department of General Practice, Helsinki University Central Hospital, University of
+Helsinki P.O. Box 20, Tukholmankatu 8 B, FI-00014, Helsinki, Finland 70Folkha¨lsan
+Research Center, Helsinki, Finland, Biomedicum Helsinki 1, Haartmaninkatu 8, FI-00290,
+Helsinki, Finland. 71National Institute for Health and Welfare, P.O. Box 30, FI-00271
+Helsinki, Finland. 72Translational Technologies and Bioinformatics, Pharma Research
+and Early Development, F. Hoffman-La Roche, CH-4070 Basel, Switzerland.
+73Department of Psychiatry, Georgetown University School of Medicine, Washington DC
+20057, USA. 74Department of Psychiatry, Keck School of Medicine of the University of
+Southern California, Los Angeles, California 90033, USA. 75Department of Psychiatry,
+Virginia Commonwealth University School of Medicine, Richmond, Virginia 23298, USA.
+76Mental Health Service Line, Washington VA Medical Center, Washington DC 20422,
+USA. 77Department of Genetic Epidemiology in Psychiatry, Central Institute of Mental
+Health, Medical Faculty Mannheim, University of Heidelberg, Heidelberg , D-68159
+Mannheim, Germany. 78Department of Genetics, University of Groningen, University
+Medical Centre Groningen, 9700 RB Groningen, The Netherlands. 79Department of
+Psychiatry, University of Colorado Denver, Aurora, Colorado 80045, USA. 80Center for
+Neurobehavioral Genetics, Semel Institute for Neuroscience and Human Behavior,
+University of California, Los Angeles, California 90095, USA. 81Department of Psychiatry,
+University of Halle, 06112 Halle, Germany. 82Division of Psychiatric Genomics,
+Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, New York,
+New York 10029, USA. 83Department of Psychiatry, University of Munich, 80336, Munich,
+Germany. 84Departments of Psychiatry and Human and Molecular Genetics, INSERM,
+Institut de Myologie, Hoˆpital de la Pitie`-Salpeˆtrie`re, Paris 75013, France. 85Mental Health
+Research Centre, Russian Academy of Medical Sciences, 115522 Moscow, Russia.
+86Neuroscience Therapeutic Area, Janssen Research and Development, Raritan, New
+Jersey 08869, USA. 87Queensland Brain Institute, The University of Queensland,
+Brisbane, Queensland, QLD 4072, Australia. 88Academic Medical Centre University of
+Amsterdam, Department of Psychiatry, 1105 AZ Amsterdam, The Netherlands.
+89Illumina, La Jolla, California, California 92122, USA. 90Institute of Biological Psychiatry,
+MentalHealthCentreSct.Hans,MentalHealthServicesCopenhagen,DK-4000,Denmark.
+91Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, New York
+10029, USA. 92J. J. Peters VA Medical Center, Bronx, New York, New York 10468, USA.
+93Priority Research Centre for Health Behaviour, University of Newcastle, Newcastle NSW
+2308, Australia. 94School of Electrical Engineering and Computer Science, University of
+Newcastle, Newcastle NSW 2308, Australia. 95Division of Medical Genetics, Department
+of Biomedicine, University of Basel, Basel CH-4058, Switzerland. 96Department of
+Genetics, Harvard Medical School, Boston, Massachusetts, Massachusetts 02115, USA.
+97Section of Neonatal Screening and Hormones, Department of Clinical Biochemistry,
+Immunology and Genetics, Statens Serum Institut, Copenhagen DK-2300, Denmark.
+98Department of Psychiatry, Fujita Health University School of Medicine, Toyoake,
+Aichi,470-1192, Japan. 99Regional Centre for Clinical Research in Psychosis, Department
+of Psychiatry, Stavanger University Hospital, 4011 Stavanger, Norway. 100Rheumatology
+Research Group, Vall d’Hebron Research Institute, Barcelona 08035, Spain. 101Centre for
+Medical Research, The University of Western Australia, Perth WA6009, Australia. 102The
+Perkins Institute for Medical Research, The University of Western Australia, Perth
+WA6009, Australia. 103Department of Medical Genetics, Medical University, Sofia 1431,
+Bulgaria. 104Department of Psychology, University of Colorado Boulder, Boulder,
+Colorado 80309, USA. 105Campbell Family Mental Health Research Institute, Centre for
+Addiction and Mental Health, Toronto, Ontario M5T 1R8, Canada. 106Department of
+Psychiatry, University of Toronto, Toronto, Ontario M5T 1R8, Canada. 107Institute of
+Medical Science, University of Toronto, Toronto, Ontario M5S 1A8, Canada. 108Institute of
+Molecular Genetics, Russian Academy of Sciences, Moscow 123182, Russia. 109Latvian
+Biomedical Research and Study Centre, Riga, LV-1067, Latvia. 110Department of
+Psychiatry and Zilkha Neurogenetics Institute, Keck School of Medicine at University of
+RESEARCH ARTICLE
+4 2 6
+| N A T U R E
+|
+V O L
+5 1 1 | 2 4 J U L Y 2 0 1 4
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+Southern California, Los Angeles, California 90089, USA. 111Faculty of Medicine, Vilnius
+University, LT-01513 Vilnius, Lithuania. 112Department of Biology and Medical Genetics,
+2nd Faculty of Medicine and University Hospital Motol, 150 06 Prague, Czech Republic.
+113Department of Child and Adolescent Psychiatry, Pierre and Marie Curie Faculty of
+Medicine, Paris 75013, France. 114Duke-NUS Graduate Medical School, Singapore
+169857. 115Department of Psychiatry, Hadassah-Hebrew University Medical Center,
+Jerusalem 91120, Israel. 116Centre for Genomic Sciences, The University of Hong Kong,
+Hong Kong, China. 117Mental Health Centre and Psychiatric Laboratory, West China
+Hospital, Sichuan University, Chengdu, 610041 Sichuan, China. 118Department of
+Biostatistics, Johns Hopkins University Bloomberg School of Public Health, Baltimore,
+Maryland 21205, USA. 119Department of Psychiatry, Columbia University, New York, New
+York 10032, USA. 120Priority Centre for Translational Neuroscience and Mental Health,
+University of Newcastle, Newcastle NSW 2300, Australia. 121Department of Genetics and
+Pathology, International Hereditary Cancer Center, Pomeranian Medical University in
+Szczecin, 70-453 Szczecin, Poland. 122Department of Mental Health and Substance
+Abuse Services; National Institute for Health and Welfare, P.O. BOX 30, FI-00271 Helsinki,
+Finland. 123Department of Mental Health, Bloomberg School of Public Health, Johns
+Hopkins University, Baltimore, Maryland 21205, USA. 124Department of Psychiatry,
+University of Bonn, D-53127 Bonn, Germany. 125Centre National de la Recherche
+Scientifique, Laboratoire de Ge´ne´tique Mole´culaire de la Neurotransmission et des
+Processus Neurode´ge´ne´ratifs, Hoˆpital de la Pitie´ Salpeˆtrie`re, 75013 Paris, France.
+126Department of Genomics Mathematics, University of Bonn, D-53127 Bonn, Germany.
+127Research Unit, Sørlandet Hospital, 4604 Kristiansand, Norway. 128Department of
+Psychiatry, Harvard Medical School, Boston, Massachusetts 02115, USA. 129VA Boston
+Health Care System, Brockton, Massachusetts 02301, USA. 130Department of Psychiatry,
+National University of Ireland Galway, Co. Galway, Ireland. 131Centre for Cognitive Ageing
+and Cognitive Epidemiology, University of Edinburgh, Edinburgh EH16 4SB, UK.
+132Division of Psychiatry, University of Edinburgh, Edinburgh EH16 4SB, UK. 133Division
+of Mental Health and Addiction, Oslo University Hospital, 0424 Oslo, Norway.
+134Massachusetts Mental Health Center Public Psychiatry Division of the Beth Israel
+Deaconess Medical Center, Boston, Massachusetts 02114, USA. 135Estonian Genome
+Center, University of Tartu, Tartu 50090, Estonia. 136School of Psychology, University of
+Newcastle, Newcastle NSW 2308, Australia. 137First Psychiatric Clinic, Medical University,
+Sofia 1431, Bulgaria. 138Department P, Aarhus University Hospital, DK-8240 Risskov,
+Denmark. 139Department of Psychiatry, Royal College of Surgeons in Ireland, Dublin 2,
+Ireland. 140King’s College London, London SE5 8AF, UK. 141Maastricht University Medical
+Centre, South Limburg Mental Health Research and Teaching Network, EURON, 6229 HX
+Maastricht, The Netherlands. 142Institute of Translational Medicine, University of
+Liverpool, Liverpool L69 3BX, UK. 143Max Planck Institute of Psychiatry, 80336 Munich,
+Germany. 144Munich ClusterforSystemsNeurology (SyNergy), 80336Munich,Germany.
+145Department of Psychiatry and Psychotherapy, Jena University Hospital, 07743 Jena,
+Germany. 146Department of Psychiatry, Queensland Brain Institute and Queensland
+Centre for Mental Health Research, University of Queensland, Brisbane, Queensland, St
+Lucia QLD 4072, Australia. 147Department of Psychiatry and Behavioral Sciences, Johns
+Hopkins University School of Medicine, Baltimore, Maryland 21205, USA. 148Department
+of Psychiatry, Trinity College Dublin, Dublin 2, Ireland. 149Eli Lilly and Company, Lilly
+Corporate Center, Indianapolis, 46285 Indiana, USA. 150Department of Clinical Sciences,
+Psychiatry, Umea˚ University, SE-901 87 Umea˚, Sweden. 151DETECT Early Intervention
+Service for Psychosis, Blackrock, Co. Dublin, Ireland. 152Centre for Public Health, Institute
+of Clinical Sciences, Queen’s University Belfast, Belfast BT12 6AB, UK. 153Lawrence
+Berkeley National Laboratory, University of California at Berkeley, Berkeley, California
+94720, USA. 154Institute of Psychiatry, King’s College London, London SE5 8AF, UK. 155A
+list of authors and affiliations appear in the Supplementary Information. 156Melbourne
+Neuropsychiatry Centre, University of Melbourne & Melbourne Health, Melbourne, Vic
+3053, Australia. 157Department of Psychiatry, University of Helsinki, P.O. Box 590,
+FI-00029 HUS, Helsinki, Finland. 158Public Health Genomics Unit, National Institute for
+Health and Welfare, P.O. BOX 30, FI-00271 Helsinki, Finland 159Medical Faculty,
+University of Belgrade, 11000 Belgrade, Serbia. 160Department of Psychiatry, University
+of North Carolina, Chapel Hill, North Carolina 27599-7160, USA. 161Institute for
+Molecular Medicine Finland, FIMM, University of Helsinki, P.O. Box 20FI-00014, Helsinki,
+Finland 162Department of Epidemiology, Harvard School of Public Health, Boston,
+Massachusetts 02115, USA. 163Department of Psychiatry, University of Oxford, Oxford,
+OX3 7JX, UK. 164Virginia Institute for Psychiatric and Behavioral Genetics, Virginia
+Commonwealth University, Richmond, Virginia 23298, USA. 165Institute for Multiscale
+Biology, Icahn School of Medicine at Mount Sinai, New York, New York 10029, USA.
+166PharmaTherapeutics Clinical Research, Pfizer Worldwide Research and Development,
+Cambridge, Massachusetts 02139, USA. 167Department of Psychiatry and
+Psychotherapy, University of Gottingen, 37073 Go¨ttingen, Germany. 168Psychiatry and
+Psychotherapy Clinic, University of Erlangen, 91054 Erlangen, Germany. 169Hunter New
+England Health Service, Newcastle NSW 2308, Australia. 170School of Biomedical
+Sciences, University of Newcastle, Newcastle NSW 2308, Australia. 171Division of Cancer
+Epidemiology and Genetics, National Cancer Institute, Bethesda, Maryland 20892, USA.
+172University of Iceland, Landspitali, National University Hospital, 101 Reykjavik, Iceland.
+173Departmentof Psychiatry and Drug Addiction, Tbilisi State Medical University (TSMU),
+N33,0177Tbilisi,Georgia. 174ResearchandDevelopment,BronxVeteransAffairsMedical
+Center, New York, New York 10468, USA. 175Wellcome Trust Centre for Human Genetics,
+Oxford OX3 7BN, UK. 176deCODE Genetics, 101 Reykjavik, Iceland. 177Department of
+Clinical Neurology, Medical University of Vienna, 1090 Wien, Austria. 178Lieber Institute
+for Brain Development, Baltimore, Maryland 21205, USA. 179Department of Medical
+Genetics, University Medical Centre Utrecht, Universiteitsweg 100, 3584 CG, Utrecht, The
+Netherlands. 180Berkshire Healthcare NHS Foundation Trust, Bracknell RG12 1BQ, UK.
+181Section of Psychiatry, University of Verona, 37134 Verona, Italy. 182Department of
+Psychiatry, University of Oulu, P.O. Box 5000, 90014, Finland. 183University Hospital of
+Oulu, P.O. Box 20, 90029 OYS, Finland. 184Molecular and Cellular Therapeutics, Royal
+College of Surgeons in Ireland, Dublin 2, Ireland. 185Health Research Board, Dublin 2,
+Ireland. 186School of Psychiatry and Clinical Neurosciences, The University of Western
+Australia, Perth WA6009, Australia. 187Computational Sciences CoE, Pfizer Worldwide
+Research and Development, Cambridge, Massachusetts 02139, USA. 188Human
+Genetics, Genome Institute of Singapore, A*STAR, Singapore 138672. 189A list of authors
+and affiliations appear in the Supplementary Information. 190University College London,
+London WC1E 6BT, UK. 191Department of Neuroscience, Icahn School of Medicine at
+Mount Sinai, New York, New York 10029, USA. 192Institute of Neuroscience and Medicine
+(INM-1), Research Center Juelich, 52428 Juelich, Germany. 193Department of Genetics,
+The HebrewUniversity ofJerusalem, 91905Jerusalem,Israel. 194NeuroscienceDiscovery
+and Translational Area, Pharma Research and Early Development, F. Hoffman-La Roche,
+CH-4070 Basel, Switzerland. 195Centre for Clinical Research in Neuropsychiatry, School
+of Psychiatry and Clinical Neurosciences, The University of Western Australia, Medical
+Research Foundation Building, Perth WA6000, Australia. 196Virginia Institute for
+Psychiatric and Behavioral Genetics, Departments of Psychiatry and Human and
+Molecular Genetics, Virginia Commonwealth University, Richmond, Virginia 23298, USA.
+197The Feinstein Institute for Medical Research, Manhasset, New York 11030, USA.
+198The Hofstra NS-LIJ School of Medicine, Hempstead, New York 11549, USA. 199The
+Zucker Hillside Hospital, Glen Oaks, New York 11004, USA. 200Saw Swee Hock School of
+Public Health, National University of Singapore, Singapore 117597, Singapore.
+201Queensland Centre for Mental Health Research, University of Queensland, Brisbane
+4076, Queensland, Australia. 202Center for Human Genetic Research and Department of
+Psychiatry, Massachusetts General Hospital, Boston, Massachusetts 02114, USA.
+203Department of Child and Adolescent Psychiatry, Erasmus University Medical Centre,
+Rotterdam 3000, The Netherlands. 204Department of Complex Trait Genetics,
+Neuroscience Campus Amsterdam, VU University Medical Center Amsterdam,
+Amsterdam 1081, The Netherlands. 205Department of Functional Genomics, Center for
+Neurogenomics and Cognitive Research, Neuroscience Campus Amsterdam, VU
+University, Amsterdam 1081, The Netherlands. 206University of Aberdeen, Institute of
+Medical Sciences, Aberdeen AB25 2ZD, UK. 207Departments of Psychiatry, Neurology,
+Neuroscience and Institute of Genetic Medicine, Johns Hopkins School of Medicine,
+Baltimore, Maryland 21205, USA. 208Department of Clinical Medicine, University of
+Copenhagen, Copenhagen 2200, Denmark.
+ARTICLE RESEARCH
+2 4 J U L Y 2 0 1 4
+| V O L 5 1 1 |
+N A T U R E
+| 4 2 7
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+Extended Data Figure 1 | Homogeneity of effects across studies. Plot of the
+first two principal components (PCs) from principal components analysis
+(PCA) of the logistic regression b coefficients for autosomal genome-wide
+significant associations. The input data were the b coefficients from 52 samples
+for 112 independent SNP associations (excluding 3 chrX SNPs and 13 SNPs
+with missing values in Asian samples). PCAs were weighted by the number of
+cases. Each circle shows the location of a study on PC1 and PC2. Circle size and
+colour are proportional to the number of cases in each sample (larger and
+darker redcircles correspondto more cases). Mostsamples cluster. Outliers had
+either small numbers of cases (‘small’) or were genotyped on older arrays.
+Abbreviations: a500 (Affymetrix 500K); a5 (Affymetrix 5.0). Studies that did
+not use conventional research interviews are in the central cluster (CLOZUK,
+Sweden, and Denmark-Aarhus studies, see Supplementary Methods for
+sample descriptions).
+RESEARCH ARTICLE
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+Extended Data Figure 2 | Quantile-quantile plot. Quantile-quantile plot of
+the discovery genome-wide association meta-analysis of 49 case control
+samples (34,241 cases and 45,604 controls) and 3 family based association
+studies (1,235 parent affected-offspring trios). Expected –log10 P values are
+those expected under the null hypothesis. Observed are the GWAS association
+results derived by logistic regression (2-tailed) as in Fig. 1. For clarity, we
+avoided expansion of the y axis by setting the smallest association P values to
+10212. The shaded area surrounded by a red line indicates the 95% confidence
+interval under the null. lGC is the observed median x2 test statistic divided
+by the median expected x2 test statistic under the null hypothesis.
+ARTICLE RESEARCH
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+RESEARCH
+ARTICLE
+Lambda GC
+1.325
+Mean Chi-Square
+1.314
+Slope
+9630-05
+Intercept
+1.319
+J
+1
+100
+150
+200
+250
+LD Score Bin
+Lambda GC .
+1.324
+b
+Mcan Chi-Square
+4429
+Slope
+004684
+Intercept = 1.018
+J
+1
+100
+150
+200
+250
+LD Score Bin
+Lambda GC
+484
+Mean Chi-Square
+1.613
+005209
+Intercept
+056
+6
+1
+100
+150
+200
+250
+LD Score Bin
+02014 Macmillan Publishers Limited
+All rights reserved
+
+Extended Data Figure 3 | Linkage disequilibrium score regression
+consistent with polygenic inheritance. The relationship between marker x2
+association statistics and linkage disequilibrium (LD) as measured by the
+linkage disequilibrium score. Linkage disequilibrium score is the sum of the
+r2 values between a variant and all other known variants within a 1 cM window,
+and quantifies the amount of genetic variation tagged by that variant. Variants
+were grouped into 50 equal-sized bins based on linkage disequilibrium score
+rank. Linkage disequilibrium score bin and mean x2 denotes mean linkage
+disequilibrium score and test statistic for markers each bin. a, b, We simulated
+(Supplementary Methods) test statistics under two scenarios: a, no true
+association, inflation due to population stratification; and b, polygenic
+inheritance (l 5 1.32), in which we assigned independent and identically
+distributed per-normalized-genotype effects to a randomly selected subset of
+variants. c, Results from the PGC schizophrenia GWAS (l5 1.48). The real
+data are strikingly similar to the simulated data summarized in b but not a. The
+intercept estimates the inflation in the mean x2 that results from confounding
+biases, such as cryptic relatedness or population stratification. Thus, the
+intercept of 1.066 for the schizophrenia GWAS suggests that ,90% of the
+inflation in the mean x2 results from polygenic signal. The results of the
+simulations are also consistent with theoretical expectation (see Supplementary
+Methods). l is the median x2 test statistic from the simulations (a, b) or the
+observed data (c) divided by the median expected x2 test statistic under the
+null hypothesis.
+ARTICLE RESEARCH
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+Extended Data Figure 4 | Enrichment of associations in tissues and cells.
+Genes whose transcriptional start is nearest to the most associated SNP at each
+schizophrenia-associated locus were tested for enriched expression in purified
+brain cell subsets obtained from mouse ribotagged lines41 using enrichment
+analysis described in the Supplementary Methods. The red dotted line indicates
+P 5 0.05.
+RESEARCH ARTICLE
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+Extended Data Figure 5 | MGS risk profile score analysis. Polygenic risk
+profile score (RPS) analyses using the MGS18 sample as target, and deriving risk
+alleles from three published schizophrenia data sets (x axis): ISC (2,615
+cases and 3,338 controls)10, PGC1 (excluding MGS, 9,320 cases and 10,228
+controls)16, and the current meta-analysis (excluding MGS) with 32,838 cases
+and 44,357 controls. Samples sizes differ slightly from the original publications
+due to different analytical procedures. This shows the increasing RPS
+prediction with increasing training data set size reflecting improved precision
+of estimates of the SNP effect sizes. The proportion of variance explained
+(y axis; Nagelkerke’s R2) was computed by comparison of a full model
+(covariates 1 RPS) score to a reduced model (covariates only). Ten different
+P value thresholds (PT) for selecting risk alleles are denoted by the colour of
+each bar (legend above plot). For significance testing, see the bottom legend
+which denotes the P value for the test that R2 is different from zero. All
+numerical data and methods used to generate these plots are available in
+Supplementary Table 6 and Supplementary Methods.
+ARTICLE RESEARCH
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+Extended Data Figure 6 | Risk profile score analysis. We defined 40 target
+subgroups of the primary GWAS data set and performed 40 leave-one-out
+GWAS analyses (see Supplementary Methods and Supplementary Table 7)
+from which we derived risk alleles for RPS analysis (x axis) for each target
+subgroup. a, The proportion of variance explained (y axis; Nagelkerke’s R2) was
+computed for each target by comparison of a full model (covariates 1 RPS)
+score to a reduced model (covariates only). For clarity, 3 different P value
+thresholds (PT) are presented denoted by the colour of each bar (legend above
+plot) as for Extended Data Fig. 5, but for clarity we restrict to fewer P value
+thresholds (PT of 53 1028, 13 1024 and 0.05) and removed the significance
+values. b, The proportion of variance on the liability scale from risk scores
+calculated at the PT 0.05 with 95% CI bar assuming baseline population disease
+risk of 1%. c, Area under the receiver operating curve (AUC). All numerical
+data and methods used to generate these plots are available in Supplementary
+Table 7 and Supplementary Methods.
+RESEARCH ARTICLE
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+Extended Data Figure 7 | Pairwise epistasis analysis of significant SNPs.
+Quantile-quantile plot for all pair-wise (n 5 7,750) combinations of the 125
+independent autosomal genome-wide significant SNPs tested for non-additive
+effects on risk using case-control data sets of European ancestry (32,405 cases
+and 42,221 controls). We included as covariates the principal components
+from the main analysis as well as a study indicator. The interaction model is
+described by:
+Y~b0z^a1X1z^a2X2z^a3  X
+1X2z^a4X4z^a5X5
+X1 and X2 are genotypes at the two loci, X
+1X2 is the interaction between the two
+genotypes modelled in a multiplicative fashion, X4 is the vector of principal
+components, X5 is the vector of study indicator variables. Each ^a is the
+regression coefficient in the generalized linear model using logistic regression.
+The overall distribution of P values did not deviate from the null and the
+smallest P value (4.283 1024) did not surpass the Bonferroni correction
+threshold (P 5 0.05/7750 5 6.453 1026). The line x 5 y indicates the expected
+null distributionwiththegrey area boundedby redlinesindicatingthe expected
+95% confidence interval for the null.
+ARTICLE RESEARCH
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+49.
+Lips, E. S. et al. Functional gene group analysis identifies synaptic gene
+groups as risk factor for schizophrenia. Mol. Psychiatry 17, 996–1006
+(2012).
+50.
+Lewis, B. P., Burge, C. B. & Bartel, D. P. Conserved seed pairing, often flanked by
+adenosines, indicates thatthousands ofhumangenesare microRNA targets.Cell
+120, 15–20 (2005).
+Extended Data Table 1 | ALIGATOR and INRICH
+Gene sets that have been reported to be enriched for schizophrenia associations and or rare mutations were tested for enrichment for genome-wide significant associations using ALIGATOR44 and INRICH45.
+Specifically, we tested the glutamatergic postsynaptic proteins comprising activity-regulated cytoskeleton-associated protein (ARC) and N-methyl-D-aspartate receptor (NMDAR) complexes33–35, other curated
+synaptic gene-sets14,49, targets of fragile X mental retardation protein (FMRP)33–35, calcium channels11,33, and TargetScan predicted MIR137 sets11,16. The MIR137 TargetScan sets contain computationally
+predicted conserved miRNA target sites in 39 UTRs of human genes50. The current version is v6, but the version used in the prior PGC SCZ report16 was based on v5 (filtered for a probability of conserved targeting
+. 0.9). We report the results of both analyses for consistency with previous work. The association at the extended MHC complex was not included given the extensive linkage disequilibrium at this region spans large
+numbers of genes. NA means that the pathway in question contained fewer than 2 significant genes (for ALIGATOR) or regions (INRICH).
+RESEARCH ARTICLE
+Macmillan Publishers Limited. All rights reserved
+©2014
+
+Extended Data Table 2 | de novo overlap
+Test of overlap between genes mapping to schizophrenia-associated loci in the present study and genes affected by non-synonymous (NS) de novo mutations. Enrichment was calculated using the dnenrich
+permutation framework as described34. Genes within the GWS loci (Supplementary Table 3) were weighted by 1/N, where N is the number of coding genes within each associated locus. The observed test statistic
+(stat) is the sum of weights of genes impacted by de novo mutations. The expected test statistics are calculated by averaging over 50,000 permuted de novo mutation sets. Genes within schizophrenia-associated
+loci affected by de novo mutations are listed (multiple hits listed in parentheses). Cohorts: SCZ, schizophrenia; ID, intellectual disability; ASD, autism spectrum disorder. All mutations analysed annotated according
+to a unified system (see Supplementary Tables 1 and 2 of ref. 34). Genes with loss-of-function de novo mutations are underlined and in italics.
+ARTICLE RESEARCH
+Macmillan Publishers Limited. All rights reserved
+©2014

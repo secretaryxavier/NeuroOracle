@@ -1,0 +1,1389 @@
+Mycobacterium tuberculosis Eis Regulates Autophagy,
+Inflammation, and Cell Death through Redox-dependent
+Signaling
+Dong-Min Shin1,2., Bo-Young Jeon3., Hye-Mi Lee1,2, Hyo Sun Jin1,2, Jae-Min Yuk1,2, Chang-Hwa Song1,
+Sang-Hee Lee2,4, Zee-Won Lee5, Sang-Nae Cho3, Jin-Man Kim2,4, Richard L. Friedman6, Eun-Kyeong Jo1,2*
+1 Department of Microbiology, College of Medicine, Chungnam National University, Daejeon, Korea, 2 Infection Signaling Network Research Center, College of Medicine,
+Chungnam National University, Daejeon, Korea, 3 Department of Microbiology and Brain Korea 21 Project for Medical Sciences, Yonsei University College of Medicine,
+Seoul, Korea, 4 Department of Pathology, College of Medicine, Chungnam National University, Daejeon, Korea, 5 Division of Life Science, Korea Basic Science Institute,
+Daejeon, Korea, 6 Department of Immunobiology, University of Arizona, Tucson, Arizona, United States of America
+Abstract
+The ‘‘enhanced intracellular survival’’ (eis) gene of Mycobacterium tuberculosis (Mtb) is involved in the intracellular survival of
+M. smegmatis. However, its exact effects on host cell function remain elusive. We herein report that Mtb Eis plays essential
+roles in modulating macrophage autophagy, inflammatory responses, and cell death via a reactive oxygen species (ROS)-
+dependent pathway. Macrophages infected with an Mtb eis-deletion mutant H37Rv (Mtb-Deis) displayed markedly
+increased accumulation of massive autophagic vacuoles and formation of autophagosomes in vitro and in vivo. Infection of
+macrophages with Mtb-Deis increased the production of tumor necrosis factor-a and interleukin-6 over the levels produced
+by infection with wild-type or complemented strains. Elevated ROS generation in macrophages infected with Mtb-Deis (for
+which NADPH oxidase and mitochondria were largely responsible) rendered the cells highly sensitive to autophagy
+activation and cytokine production. Despite considerable activation of autophagy and proinflammatory responses,
+macrophages infected with Mtb-Deis underwent caspase-independent cell death. This cell death was significantly inhibited
+by blockade of autophagy and c-Jun N-terminal kinase-ROS signaling, suggesting that excessive autophagy and oxidative
+stress are detrimental to cell survival. Finally, artificial over-expression of Eis or pretreatment with recombinant Eis
+abrogated production of both ROS and proinflammatory cytokines, which depends on the N-acetyltransferase domain of
+the Eis protein. Collectively, these data indicate that Mtb Eis suppresses host innate immune defenses by modulating
+autophagy, inflammation, and cell death in a redox-dependent manner.
+Citation: Shin D-M, Jeon B-Y, Lee H-M, Jin HS, Yuk J-M, et al. (2010) Mycobacterium tuberculosis Eis Regulates Autophagy, Inflammation, and Cell Death through
+Redox-dependent Signaling. PLoS Pathog 6(12): e1001230. doi:10.1371/journal.ppat.1001230
+Editor: Vojo Deretic, University of New Mexico, United States of America
+Received April 7, 2010; Accepted November 15, 2010; Published December 16, 2010
+Copyright:  2010 Shin et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted
+use, distribution, and reproduction in any medium, provided the original author and source are credited.
+Funding: This research was supported by Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of
+Education, Science and Technology (R13-2007-020-01000-0). Those providing funding had no role in study design, data collection and analysis, the decision to
+publish, or manuscript preparation.
+Competing Interests: The authors have declared that no competing interests exist.
+* E-mail: hayoungj@cnu.ac.kr
+. These authors contributed equally to this work.
+Introduction
+Mycobacterium tuberculosis (Mtb) is an intracellular pathogen that
+can survive and even multiply within host macrophages [1,2]. Mtb
+can persist within phagosomes by interfering with intracellular
+membrane trafficking and by arresting phagosome maturation in
+infected host cells [3]. Pathogenic mycobacteria have developed
+several strategies for surviving and growing under nutrient-limited
+conditions [4]. Autophagy, or the removal of aged organelles, plays a
+central role in regulating important cellular functions [5,6] and
+aids in innate and adaptive immune defense against Mtb and other
+intracellular pathogens [5,7–9]. Physiological or pharmacological
+induction of autophagy in macrophages results in increased co-
+localization of mycobacterial phagosomes and the autophagy
+effector LC3, and the fusion of the former with lysosomes, which
+overcomes the blockade of membrane trafficking and increased
+bactericidal activity [7].
+Although autophagy plays key roles in host innate and adaptive
+immune defenses, it can, under certain circumstances, result in type II
+programmed cell death [10,11]. Autophagic processes are activated
+in response to cellular stresses, such as oxidative stress, and can
+influence several types of cell death, including autophagy-related cell
+death [12]. Recently, we showed that the mycobacterial BCG cell
+wall triggers autophagy-induced cell death in radiosensitized colon
+cancer cells [13]. Additionally, several viral gene products may be
+involved in autophagy-induced cell death [14]. However, the genetic
+basis for mycobacterial induction of autophagy, and its implications
+for host cell viability, remain to be elucidated.
+The ‘‘enhanced intracellular survival’’ (eis) gene and its protein
+product, Eis, a unique protein of 42 kDa, of Mtb H37Rv enhance
+the survival of the saprophytic M. smegmatis during repeated
+passage through the human macrophage-like cell line U-937 [15].
+Bioinformatic analyses showed that Eis is a member of the GCN5-
+related family of N-acetyltransferases [16]. Recent studies have
+PLoS Pathogens | www.plospathogens.org
+1
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+revealed that kanamycin resistance is associated with eis promoter
+mutations that increase Eis transcript and protein levels [17].
+Additionally, regulation of eis expression by SigA enhanced
+intracellular growth of the W-Beijing Mtb strain in monocytic
+cells [18]. Moreover, Eis inhibited the proliferation of mitogen-
+activated T cells and, by blocking the phosphorylation of
+extracellular signal-regulated kinase (ERK), reduced the produc-
+tion of tumor necrosis factor (TNF)-a and interleukin (IL)-4 [19].
+Despite being implicated in host-pathogen interactions during Mtb
+infection, the precise role of Eis in innate immune regulation
+remains to be determined.
+In an effort to gain further insight into the role of Eis in host
+responses, we examined autophagy, inflammatory cytokine produc-
+tion, and reactive oxygen species (ROS) generation in macrophages
+infected with wild-type (Mtb-WT), eis-deletion (Mtb-Deis), or comple-
+mented (Mtb-c-eis) Mtb strains. Infection with Mtb-Deis significantly
+increased autophagy, inflammatory responses, and ROS generation in
+macrophages. NADPH oxidase (NOX) and mitochondria were found
+to be the major sources of ROS, which contributed to the induction of
+autophagy and inflammatory responses in Mtb-Deis-infected cells.
+Increased and excessive activation of autophagy in macrophages
+infected with Mtb-Deis had no effect on antimicrobial responses, but
+stimulated caspase-independent cell death (CICD). Mtb-Deis-induced
+host cell death was regulated by autophagic pathways and influenced
+by c-Jun N-terminal kinase (JNK)-dependent ROS generation.
+Furthermore, we show that the N-acetyltransferase domain of Eis is
+responsible for its modulation of ROS generation and proinflamma-
+tory responses in macrophages.
+Results
+Mycobacterium tuberculosis Eis Inhibits Autophagy in
+Macrophages
+Previous studies identified a role for the eis gene in enhancing
+the survival of mycobacteria in human monocytic cells [15].
+However, the role of eis in autophagy activation in macrophages,
+which plays a key role in defense and cellular homeostasis [5], is
+not fully understood. We first infected bone marrow-derived
+macrophages (BMDMs) with the Mtb-WT, Mtb-Deis, and Mtb-c-
+eis
+strains
+of
+Mtb
+H37Rv
+and
+examined
+the
+kinetics
+of
+autophagosome formation by immunostaining for LC3. As shown
+in Figure 1A, in BMDMs infected with Mtb-Deis we observed the
+recruitment of endogenous LC3 in punctate structures the
+formation of which peaked 24 h after infection, before decreasing
+substantially by 48 h post-infection (Fig. 1A, right). In contrast,
+autophagosome formation was not increased in BMDMs infected
+with Mtb-WT or Mtb-c-eis (Fig. 1A). Additionally, RAW 264.7
+macrophages transfected with green fluorescent protein (GFP)
+fused to the autophagosome protein LC3 (GFP-LC3) [20] showed
+a significant increase in GFP-LC3 puncta formation when infected
+with Mtb-Deis at a multiplicity of infection (MOI) of 10 (over levels
+in cells infected with Mtb-WT or Mtb-c-eis at the same bacterial
+load; Fig. S1A). Moreover, Mtb-Deis-induced formation of LC3
+punctae in BMDMs (Fig. 1B) and RAW 264.7 cells (Fig. S1B) was
+abrogated by treatment for 4 h with 3-methyladenine (3-MA), a
+classical inhibitor of autophagy [21].
+Cleavage of soluble LC3 (LC3-I) to form LC3-II, which
+correlates with the extent of autophagosome formation [20], was
+further examined by Western blotting. As shown in Figure 1C,
+Mtb-Deis significantly induced LC3-II formation, whereas Mtb-
+WT and Mtb-c-eis did not. We next monitored Mtb-Deis-induced
+autophagy through detection of autophagic vacuoles or organelles
+by transmission electron microscopy (TEM). Ultrastructural
+analysis of BMDMs treated with Mtb-Deis for 24 h revealed the
+presence of multiple cytosolic autophagic vacuoles resembling
+autophagosomes (Fig. 1D). Additionally, TEM analyses revealed
+the presence of bacilli within characteristic double-membrane
+autophagosomes and multiple membrane structures (Fig. 1D), a
+pattern
+characteristic
+of
+the
+induction
+of
+autophagy
+and
+autophagic death [22–24]. From 12 h post-infection, we observed
+Mtb-Deis within autophagic vacuoles (Fig. 1D, middle), which
+fused with multivesicular structures [25]. At 24 h post-infection,
+multiple late or degradative autophagic vacuoles [25] were clearly
+visible, in which partially degraded cytoplasmic materials and
+bacteria were evident (Fig. 1D, bottom).
+We also examined whether autophagic vacuoles formed in cells
+infected with Mtb-Deis were able to mature to autolysosomes [25].
+Confocal analysis showed that BMDMs infected with Mtb-Deis
+exhibited co-localization of the autophagosomal marker LC3 and
+the lysosomes marker Lamp-1 (Fig. S1C). We also observed that
+levels of LC3-II and LC3 puncta formation in Mtb-Deis-infected
+BMDMs were increased by pretreatment with the vacuolar H+-
+ATPase inhibitor bafilomycin A (Baf-A) [20,26] (Fig. 1E, LC3-II;
+Fig. S1D, LC3 puncta formation). These findings indicate that
+Mtb-Deis induced both autophagy and autophagosome-lysosome
+fusion in macrophages.
+Mtb-Deis Infection Up-Regulates Proinflammatory
+Cytokine Production and ROS Generation in BMDMs
+The interaction of Mtb with innate receptors in phagocytes
+triggers an oxidative burst and activates intracellular signaling
+cascades that induce proinflammatory responses [27,28]. We thus
+examined the production of proinflammatory cytokines and the
+generation of ROS in BMDMs infected with Mtb-WT, Mtb-Deis,
+or Mtb-c-eis. As shown in Figure 2A, BMDMs infected with Mtb-
+Deis at increasing bacterial loads (MOI = 0.1, 1, 10) produced
+greater amounts of TNF-a and IL-6 than cells infected with Mtb-
+WT or Mtb-c-eis. Levels of TNF-a and IL-6, which peaked at
+18 h, were significantly higher in BMDMs infected with Mtb-Deis
+Author Summary
+Tuberculosis is a global health problem: at least one-third
+of the world’s population is infected with Mycobacterium
+tuberculosis (Mtb). Mtb is a successful pathogen that
+enhances
+its
+own
+intracellular
+survival
+by
+arresting
+phagolysosomal fusion. Recently, autophagy has emerged
+as a host defense strategy against Mtb infection, through
+stimulation of the fusion of phagosomes and lysosomes.
+However, excessive and uncontrolled autophagic activity
+can be detrimental to host cells and can result in their
+death. The Mtb ‘‘enhanced intracellular survival’’ (eis) gene
+has been implicated in the intracellular survival of M.
+smegmatis. However, its exact role and how it regulates
+host innate immune responses have not been fully
+explained. Here, we provide evidence that Eis suppresses
+macrophage autophagy, inflammation, and cell death
+through the inhibition of reactive oxygen species (ROS)
+generation. Although it has previously been demonstrated
+that autophagy is a key host defense response to
+mycobacterial infections, our data indicate that excessive
+autophagy, and the resulting cell death, do not signifi-
+cantly affect host defense responses to mycobacteria.
+Additionally, our data reveal that Eis’s ability to regulate
+ROS generation and proinflammatory responses depends
+on its N-acetyltransferase domain. These results under-
+score a previously unrecognized role of Eis in modulating
+host inflammatory responses, oxidative stress, and cell
+survival/death during mycobacterial infection.
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+2
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+than those infected with Mtb-WT or Mtb-c-eis (Fig. 2B; P,0.05,
+TNF-a; P,0.01, IL-6). We next examined whether autophagy
+played a role in the regulation of proinflammatory cytokine
+production in macrophages infected with Mtb-WT, Mtb-Deis, or
+Mtb-c-eis. As shown in Figure S2, the secretion of TNF-a and
+IL-6 was significantly increased in RAW264.7 cells transfected
+with siRNA specific for Beclin-1 (siBeclin-1) or Atg5 (siAtg5),
+suggesting a negative regulatory role for autophagic pathways in
+proinflammatory cytokine production in macrophages infected
+with Mtb-Deis.
+We further examined whether ROS levels differed between cells
+infected with the WT, Deis, and c-eis strains of Mtb H37Rv. We
+measured the production of ROS by flow cytometry, using 2,79-
+dichlorofluorescein-diacetate (DCFH-DA) and dihydroethidium
+(DHE) as probes for H2O2 and O2
+2, respectively (Fig. 2C).
+Compared with BMDMs infected with Mtb-WT or Mtb-c-eis
+strains, cells infected with Mtb-Deis displayed markedly increased
+intracellular DCFH-DA and DHE fluorescence (Fig. 2C). To
+exclude the involvement of reactive nitrogen species (RNS) in
+detecting ROS generation, we pre-treated BMDMs with the
+specific nitric oxide synthase inhibitors nitro-L-arginine methyl
+ester (L-NAME) or NG-monomethyl-L-arginine (L-NMMA) prior
+to Mtb-Deis infection and examined ROS generation. Pre-
+treatment with nitric oxide synthase inhibitors had no significant
+effect on ROS generation in BMDMs infected with Mtb-Deis (Fig.
+S3), suggesting that up-regulated DCFH-DA and DHE fluores-
+cence intensities were due principally to increased ROS generation
+in Mtb-Deis-infected macrophages. Notably, flow cytometric
+analysis showed that infection with Mtb-Deis yielded a stronger
+MitoSOX
+Red signal,
+which
+is
+specific
+for
+mitochondrial
+superoxide [29], than infection with the Mtb-WT or Mtb-c-eis
+strains (Fig. 2D). These data suggest that Mtb-Deis more strongly
+induces the production of proinflammatory cytokines and ROS in
+BMDMs than do Mtb-WT or Mtb-c-eis.
+Figure 1. Mtb Eis modulates autophagy in macrophages. (A) BMDMs were infected with Mtb-WT, Mtb-Deis, or Mtb-c-eis (MOI = 10) for 4 h (as
+described in the Materials and Methods), and then incubated for 24 h (left) or the indicated periods of time (right). Cells were fixed, stained with DAPI
+to visualize nuclei (blue), and immunolabeled with an anti-LC3 antibody. Primary antibody was detected using an Alexa Fluor 488-conjugated goat
+anti-rabbit IgG (green). Left: representative immunofluorescence images of LC3 punctae; right: quantification of data (LC3-punctated cells were
+counted manually). ***p,0.001, vs. Mtb-WT-infected condition. Scale bars, 5 mm. (B) BMDMs were infected with Mtb-Deis in the absence or presence
+of 3-methyladenine (3-MA; 10 mM) and subjected to confocal analysis as described in Figure 1A. LC3-punctated cells were counted manually. Each
+condition was assayed in triplicate, and at least 250 cells were counted in each well. ***p,0.001, vs. SC. (C) Immunoblot analyses performed using
+Abs raised to LC3 or b-actin. Experimental conditions were identical to those outlined in panel A. Gel images representative of three experiments are
+shown. (D) Electron micrographs of Mtb-Deis-infected BMDMs under low (left) and high (right) magnification show the accumulation of autophagic
+vesicles (black arrow, initial autophagic vacuoles; white arrow, degradative autophagic vacuoles). Scale bars: 2 mm (left), 0.5 mm (right). (E)
+Immunoblot analyses performed using Abs raised to LC3 or b-actin. BMDMs were infected with Mtb-Deis in the presence or absence of 3-MA (10 mM)
+or bafilomycin A1 (Baf-A1; 100 nM). Gel images representative of three experiments are shown. The ratio of the intensities of the LC3-II/LC3-I and b-
+actin bands is indicated below each lane (C and E). UI, uninfected; SC, solvent control (0.1% distilled water (B), 0.1% DMSO (E)).
+doi:10.1371/journal.ppat.1001230.g001
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+3
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+ROS Generation Is Required for the Induction of
+Autophagy and Inflammatory Responses in Macrophages
+Infected with Mtb-Deis
+Recent studies have shown that NOX-derived ROS are involved
+in the activation of autophagy [30]. Additionally, we have shown
+that NOX2/gp91phox, the main catalytic component of NOX,
+interacts with TLR2, a key effector of Mtb-induced proinflamma-
+tory responses [28]. Because ROS generation was significantly
+elevated in Mtb-Deis-infected cells, we hypothesized that increased
+ROS production during Mtb-Deis infection might be a trigger for
+autophagy activation and proinflammatory responses. As anticipat-
+ed, pretreatment with the ROS scavengers [N-acetyl cysteine
+(NAC), diphenyleneiodonium (DPI), catalase and tiron (4,5-
+dihydroxy-1,3-benzene disulfonic acid-disodium salt); for 1 h before
+infection] prevented Mtb-Deis-induced autophagosome accumula-
+tion in BMDMs (Fig. 3A) and RAW 264.7 cells transfected with
+GFP-LC3 (Fig. S4A). Additionally, the conversion of LC3-I to LC3-
+II in Mtb-Deis-infected cells was suppressed by catalase and tiron
+(Fig. 3B). We further examined whether ROS generation was
+involved in the induction of proinflammatory cytokines in Mtb-Deis-
+infected BMDMs. ROS scavengers reduced the TNF-a and IL-6
+levels in BMDMs infected with Mtb-Deis (Fig. 3C).
+We
+next
+determined
+the
+Mtb-Deis-induced
+activation
+of
+autophagy and proinflammatory responses in NOX2-deficient
+macrophages. ROS induction was abolished in NOX2-deficient
+macrophages infected with Mtb-WT, Mtb-Deis, or Mtb-c-eis (Fig.
+S4B). Infection of NOX2-deficient BMDMs with Mtb-Deis
+resulted in a dramatic reduction in autophagy, as assessed by
+LC3 puncta formation (Fig. 3D) and LC3-II conversion (Fig. 3E)
+at 18 h. However, neither starvation- nor rapamycin-induced
+autophagy was dependent on NOX2 expression (Fig. S4C).
+Proinflammatory cytokine mRNA expression at 6 h (Fig. S4D)
+and protein levels at 18 h (Fig. 3F) following infection with Mtb-
+Deis were significantly reduced in BMDMs taken from NOX2 KO
+mice. The release of proinflammatory cytokines in response to WT
+or c-eis Mtb was similarly reduced in NOX2-deficient macro-
+phages (Fig. 3F). Collectively, our data suggest that NOX2-derived
+ROS are centrally involved in the up-regulated autophagy and
+proinflammatory responses in BMDMs infected with Mtb-Deis.
+Infection with Mtb-Deis Increases Caspase-independent
+Cell Death
+Autophagy serves as a cell survival mechanism in some contexts,
+but triggers cell death in others [31]. To examine whether the eis
+Figure 2. Mtb-Deis infection increases production of proinflammatory cytokines and ROS by BMDMs. (A and B) BMDMs were infected
+with Mtb-WT, Mtb-Deis or Mtb-c-eis at different MOIs (0.1, 1 and 10) for 18 h (A) or for the indicated periods of time (B; MOI = 10). Supernatants were
+assessed by ELISA for levels of TNF-a and IL-6. Data (A and B) are presented as the mean6SD of five experiments. (C and D) BMDMs were stimulated
+with Mtb-WT, Mtb-Deis, or Mtb-c-eis for 30 min. Cells were then incubated with 10 mM DHE or 5 mM DCFH-DA for 15 min, washed thoroughly, and
+immediately analyzed for superoxide or H2O2 production by flow cytometry (C, Left). Cells were labeled with MitoSOX for 30 min and analyzed for
+mitochondrial ROS levels by flow cytometry (D, top). Quantitative analysis of ROS generation (C, right; D, bottom). *p,0.05, **p,0.01, ***p,0.001, vs.
+Mtb-WT-infected condition. UI, uninfected.
+doi:10.1371/journal.ppat.1001230.g002
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+4
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+gene can modulate host cell survival/death in macrophages, we
+infected BMDMs with Mtb-WT, Mtb-Deis, or Mtb-c-eis and
+examined host cell viability. When BMDMs were infected with
+these three strains at an MOI of 10, Mtb-Deis-infected cells showed
+a significant decrease in cell viability after 24 h, whereas Mtb-WT-
+and Mtb-c-eis-infected cells displayed only low rates of cell death
+(Fig. 4A). Infection with either Mtb-WT or Mtb-c-eis tended to
+reduce BMDM viability, dose-dependently, above an MOI of 25
+(Fig. S5A).
+We next assessed whether apoptosis played a role in the cell
+death induced by Mtb-Deis using the TUNEL assay (Fig. 4B). At
+36 h post-infection, there was a marked increase in total cell death
+in BMDMs infected with Mtb-Deis. However, only a slight
+increase in the number of apoptotic cells was observed (Fig. 4B).
+Additionally, microscopic examination of Mtb-Deis-infected cells at
+36 h post-infection revealed morphological changes associated
+with cell death that were not observed in Mtb-WT- or Mtb-c-eis-
+infected cells (Fig. 4C). http://www.jimmunol.org/cgi/content/
+full/179/2/939 - F1#F1To further examine the mechanism of
+cell death in Mtb-Deis-infected cells, we cultured BMDMs infected
+with Mtb-WT, Mtb-Deis, or Mtb-c-eis (MOI = 10) in the presence
+or absence of the broad-spectrum caspase inhibitor z-VAD-fmk
+(administered 1 h prior to infection). We found that z-VAD-fmk
+only partially blocked Mtb-Deis-mediated cell death (Fig. 4D).
+Also, caspase-3 enzyme activities did not differ significantly
+between Mtb-WT-, Mtb-Deis-, and Mtb-c-eis-infected macrophag-
+es (data not shown), suggesting that the reduction in macrophage
+viability caused by Mtb-Deis infection did not result primarily from
+caspase activation.
+We further assessed the role of autophagy in modulating cell
+death induced by Mtb-Deis. BMDMs were pretreated with a
+known inhibitor of autophagy, 3-MA, prior to Mtb-Deis infection.
+Pretreatment with 3-MA effectively prevented Mtb-Deis-induced
+macrophage cell death, but had no such effect on Mtb-WT- or
+Mtb-c-eis-infected cells (Fig. 4D)http://www.jimmunol.org/cgi/
+content/full/180/1/207 - F6#F6. To further assess the role of
+autophagy in Mtb-Deis-induced cell death, we depleted Beclin-1 or
+Atg5 by siRNA transfection of Mtb-Deis-infected RAW 264.7 cells.
+Transfection of RAW 264.7 cells with siBeclin-1 or siAtg5
+significantly inhibited Mtb-Deis-induced cell death, as assessed by
+propidium iodide (PI) staining (Fig. S5B). Moreover, a trypan blue
+exclusion assay showed that blockade of autophagy increased the
+survival of Mtb-Deis-infected BMDMs (Fig. S5C). Collectively,
+these results support the concept that Mtb Eis actively inhibited
+CICD.
+Macrophage Death and ROS Generation Induced by Mtb-
+Deis Depend on JNK Signaling
+It is known that ERK and JNK mitogen-activated protein
+kinase (MAPK) signaling pathways are important in oxidative
+stress-induced cell death [32–34]. No significant difference in
+activation kinetics of phosphorylated p38 and ERK1/2 was
+detected between cells infected with Mtb-WT-, Mtb-Deis-, and
+Mtb-c-eis (Fig. 5A). In contrast, a significant increase in JNK/
+Figure 3. Increased ROS generation plays a critical role in autophagy and proinflammatory cytokine production in Mtb-Deis-
+infected macrophages. (A–C) BMDMs were infected with Mtb-Deis (MOI = 10) for 18 h in the presence or absence of DPI (10 mM), NAC (20 mM),
+catalase (Cat, 1 mU/mL), or tiron (5 mM). (A) Representative immunofluorescence images (top); percentage of endogenous LC3-punctated cells
+(bottom). (B) Immunoblot analyses of BMDMs with antibodies raised to LC3 or b-actin. Gel images are representative of three experiments. The ratio
+of the intensities of the LC3-II/LC3-I and b-actin bands is indicated below each lane. (C) Experimental conditions were identical to those outlined in
+Figure 3A. Supernatants collected 18 h after infection were assessed for cytokine levels by ELISA. Data represent the mean6SD of five experiments.
+(D–F) BMDMs from WT and NOX2 KO mice were infected with Mtb-WT, Mtb-Deis, or Mtb-c-eis for 18 h. (D) Numbers of LC3-punctated cells (counted
+manually) are shown (at least 250 cells were counted in each well). (E) Immunoblot analyses performed using Abs raised to LC3 or b-actin. BMDMs
+from WT and NOX2 KO mice were infected with Mtb-Deis for 18 h. Gel images representative of three experiments are shown. (F) Supernatants
+collected 18 h after infection were assessed for cytokine levels by ELISA. Data are presented as the mean6SD of at least three separate experiments,
+each performed in triplicate. ***p,0.001, vs. SC (A and C); WT mice (D and F). UI, uninfected; SC, solvent control (0.1% DMSO).
+doi:10.1371/journal.ppat.1001230.g003
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+5
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+SAPK phosphorylation was observed in cells infected with Mtb-
+Deis, this response preceding similar responses in macrophages
+infected with Mtb-WT or Mtb-c-eis (Fig. 5A). Densitometric
+quantification of phosphorylated p38, ERK1/2, and JNK band
+intensities showed that the active form of JNK was uniquely
+increased in macrophages infected with Mtb-Deis (Fig. 5B). These
+results indicate that differences in JNK signaling may be
+responsible for differences in the responses to different bacterial
+strains.
+To further explore the link between MAPK signaling and Mtb-
+Deis-induced ROS generation and cell death, cells were pretreated
+with specific inhibitors of JNK (SP600125), p38 (SB203580), and
+MEK (U0126) for 1 h prior to infection with Mtb-Deis. Inhibition
+of JNK, but not the other two kinases, dose-dependently reduced
+Mtb-Deis-induced ROS generation, as measured by flow cytom-
+etry (Fig. 5C). Additionally, inhibition of JNK signaling, but not
+p38 or ERK1/2 signaling, dose-dependently reduced Mtb-Deis-
+induced macrophage death (Fig. 5D). Moreover, transfection of
+RAW264.7 cells with siRNA specific for JNK (siJNK) markedly
+reduced cell death induced by Mtb-Deis (Fig. 5E). Together, these
+data suggest that Eis modulated macrophage survival through
+JNK-dependent regulation of ROS signaling.
+Mtb-Deis Increases the Accumulation of Autophagic
+Vesicles and Causes Lung Inflammation in Infected Mice
+We next investigated the activation of autophagy, inflammation,
+cell
+death,
+and
+mycobacterial
+growth
+in
+vivo.
+Mice
+were
+challenged, by aerosol exposure to Mtb-WT, Mtb-Deis, or Mtb-
+c-eis, and maintained for 4 weeks. Rates/levels of pulmonary
+granulomatous inflammation were approximately 35–50% at 4
+weeks post-infection (data not shown). Similar to the in vitro results
+(Fig. 1), numerous lamellar structures with cytoplasmic autophagic
+vacuoles were observed in the cytosol of alveolar macrophages
+isolated from the lungs of mice 4 weeks after infection with Mtb-
+Deis, but not Mtb-WT or Mtb-c-eis (Fig. 6A and other data not
+shown). These ultrastructural features demonstrated the presence
+and degradation of bacteria within autophagic vesicles in the lungs
+Figure 4. Macrophages infected with Mtb-Deis show reduced cell viability and increased caspase-independent cell death. (A) BMDMs
+were infected with Mtb-WT, Mtb-Deis, or Mtb-c-eis (MOI = 10) for the indicated periods of time, washed to remove unbound mycobacteria, and then
+incubated in complete DMEM at 37uC in 5% CO2. Cell viability was assessed by PI staining and then examined by fluorescence microscopy. (B and C)
+Experimental conditions were identical to those outlined in panel A. BMDMs were infected with the three strains of mycobacteria for 36 h. (B)
+Apoptosis was assessed using a TUNEL/apoptosis detection kit, according to the manufacturer’s protocol. Cells were then examined under a laser-
+scanning confocal microscope (LSM 510; Zeiss). Percentages of TUNEL-positive, PI-positive, and TUNEL-/PI-double-positive cells were calculated. Data
+are representative of three separate experiments. (C) Morphological changes in BMDMs infected with Mtb-WT, Mtb-Deis, or Mtb-c-eis at MOIs of 1 and
+10. Representative images are shown. Scale bars: 50 mm (low magnification), 20 mm (high magnification). (D) Macrophages were infected with Mtb-
+WT, Mtb-Deis, or Mtb-c-eis in the presence or absence of zVAD-fmk (20 mM) or 3-MA (10 mM). Staurosporine (STS; 500 nM) was used as a positive
+control. After 36 h, cells were stained with PI and then examined by fluorescence microscopy. Data are presented as the mean6SD of at least three
+separate experiments, each performed in duplicate. *p,0.05, ***p,0.001, vs. Mtb-WT-infected condition (A and B); Mtb-Deis–infected condition
+without inhibitors (D). UI, uninfected.
+doi:10.1371/journal.ppat.1001230.g004
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+6
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+of Mtb-Deis-infected mice (Fig. 6A). Additionally, quantitative RT-
+PCR analysis demonstrated that TNF-a and IL-6 mRNA levels
+were significantly higher in lung tissues from Mtb-Deis-infected
+mice than in those from Mtb-WT- or Mtb-c-eis-infected mice
+(Fig. 6B). Moreover, rates of cell death, measured by PI staining,
+were significantly higher in bronchoalveolar lavage fluid cells
+isolated from Mtb-Deis-infected mice than those from Mtb-WT- or
+Mtb-c-eis-infected mice (Fig. 6C). There was no significant
+difference in the number of TUNEL-positive apoptotic cells in
+lung tissues from Mtb-WT-, Mtb-Deis-, and Mtb-c-eis-infected
+mice (data not shown).
+To analyze bacterial survival in vivo, five mice per group were
+sacrificed 4 weeks post-challenge and bacterial counts were
+determined from lung and spleen homogenates. Numbers of
+viable bacteria in lung and spleen did not differ among mice
+infected with the three Mtb strains (Fig. 6D). Furthermore, we
+determined the in vitro intracellular growth of Mtb-WT, Mtb-Deis,
+and Mtb-c-eis in macrophages. The three strains grew in
+macrophages at almost identical rates (Fig. 6E), consistent with
+our previous observations [16]. Collectively, these data suggest
+that numbers of autophagic vacuoles, the strength of the
+inflammatory response, and rates of cell death were significantly
+increased during in vivo infection with Mtb-Deis, although there was
+no obvious effect on bacterial elimination.
+The N-acetyltransferase Domain of Eis Mediates ROS
+Generation and Proinflammatory Cytokine Production
+We previously showed that Mtb-infected macrophages release
+Eis into the cytosol and the culture supernatant [16]. Thus, the
+Figure 5. Infection with Mtb-Deis induces cell death through JNK-dependent signaling. (A and B) BMDMs were infected with Mtb-WT,
+Mtb-Deis, or Mtb-c-eis (MOI = 1) for the indicated periods of time, and then subjected to Western blot analysis using Abs raised to p-ERK1/2, p-p38, p-
+JNK, and b-actin. Data shown are representative of three independent experiments that all yielded similar results (A). Expression of phospho-MAPK/b-
+actin protein in cytoplasmic extracts of BMDMs was quantified densitometrically (B). (C and D) BMDMs were pretreated with U0126 (5, 10, 20 mM),
+SB203580 (SB; 1, 5, 10 mM), or SP600125 (SP; 5, 10, 20 mM) for 45 min, and then infected with Mtb-Deis for 30 min (C) or 36 h (D). (C) Cells were then
+incubated with DHE for 15 min, washed rapidly and thoroughly, and analyzed immediately for superoxide levels by flow cytometry. Quantitative DHE
+fluorescence data represent the mean6SD of four experiments. (D) Cell death after 36 h was assessed by PI staining and then examined by
+fluorescence microscopy. (E) Raw264.7 cells were transfected with siRNA specific for JNK1 (siJNK) or a non-specific control siRNA (siNS). At 24 h after
+transfection, cells were infected with Mtb-Deis for 36 h. Cell death was then assessed by PI staining, and then examined by flow cytometry.
+Transfection efficiency was assessed by RT-PCR (inset). Data represent the mean6SD of five random fields and are representative of three
+independent experiments (D and E). *p,0.05, **p,0.01, ***p,0.001, vs. Mtb-WT-infected condition (B); SC (C and D); siNS (E). UI, uninfected; SC,
+solvent control (0.1% DMSO).
+doi:10.1371/journal.ppat.1001230.g005
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+7
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+potential of recombinant Eis protein to inhibit ROS generation
+and inflammatory cytokine production in macrophages infected
+with Mtb-Deis was assessed by Eis pretreatment or transfection
+with the eis gene. Induction of ROS by Mtb-Deis was significantly
+decreased
+by
+pretreatment
+with
+Eis,
+but
+not
+by
+control
+mycobacterial antigens, such as the recombinant 85A (30 k)
+antigen of Mtb (Fig. 7A). Eis is a member of the GCN5-related
+family of N-acetyltransferases [16]. To test whether the acetyl-
+transferase domain of Eis was required for the induction of ROS,
+we transfected THP-1 cells with an Eis-WT (WT-eis-expressing) or
+Eis-DAT (N-acetyltransferase domain deletion mutant) construct,
+or a mock control plasmid, and infected them with Mtb-Deis. Eis-
+WT, but not Eis-DAT, blocked the induction of superoxide and
+H2O2 generation by Mtb-Deis (Fig. 7B).
+We next examined the effect of Eis pretreatment on the
+proinflammatory
+cytokine
+production
+in
+Mtb-Deis-infected
+BMDMs. Pretreatment with Eis, but not 85A antigen, dose-
+dependently inhibited Mtb-Deis-induced secretion of TNF-a and
+IL-6 (Fig. 7C). Moreover, we examined the effects of over-
+expressing Eis-WT or Eis-DAT plasmids on proinflammatory
+cytokine responses in THP-1 cells infected with Mtb-Deis. Cells
+over-expressing wild-type Eis secreted 2.6-fold less TNF-a and 2.7-
+Figure 6. In vivo analysis of autophagic vesicles, inflammation, and cell death in infected mice with Mtb-Deis. C57BL/6 mice were
+challenged, by aerosol, with 10–30 CFU Mtb-WT, Mtb-Deis, or Mtb-c-eis and sacrificed 4 weeks post-infection. (A) High- and low-magnification
+electron micrographs of lung tissue sections from mice infected with Mtb-Deis show accumulation of autophagic vesicles (black arrow, bacteria in
+autophagic vacuoles; white arrow, degradative autophagic vacuoles). Scale bars: 2 mm (left upper), 0.5 mm (right). Numbers of autophagic vacuoles
+per cell in each TEM section (left lower) (mean6SD; n = 50). (B) Quantitative RT-PCR analysis of lung tissue from Mtb-WT-, Mtb-Deis-, and Mtb-c-eis-
+infected mice. Total RNA was extracted from paraffin-embedded lung tissue sections, as described in the Materials and Methods. (C) To assess in vivo
+cell death, bronchoalveolar lavage fluid cells from Mtb-WT-, Mtb-Deis-, and Mtb-c-eis-infected mice were subjected to PI staining, and analyzed by
+flow cytometry. Data are presented as the mean6SEM (n = 4). (D) Numbers of CFUs in lung and spleen 4 weeks after infection with Mtb-WT, Mtb-Deis,
+or Mtb-c-eis. Data are presented as log10 CFU6SEM (n = 4). (E) BMDMs were infected with Mtb-WT, Mtb-Deis, or Mtb-c-eis and then analyzed by CFU
+assay. CFU data represent the mean6SD of four individual experiments. **p,0.01, ***p,0.001, vs. Mtb-WT-infected condition. UI, uninfected.
+doi:10.1371/journal.ppat.1001230.g006
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+8
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+fold less IL-6 than those expressing an Eis protein lacking the AT
+domain (Fig. 7D). Notably, inhibition of the JNK pathway by pre-
+treatment with pharmacological inhibitors markedly blocked Mtb-
+Deis-mediated up-regulation of superoxide generation (Fig. 7E)
+and proinflammatory cytokine levels (Fig. 7F) in THP-1 cells
+transfected with either mock control or Eis-DAT constructs. In
+Figure 7. Eis modulates ROS release and proinflammatory cytokine production through its N-acetyltransferase domain. (A)
+Intracellular superoxide production was analyzed by flow cytometric analysis. BMDMs were infected with Mtb-Deis (MOI = 10) in the presence or
+absence of recombinant Eis protein (rEis; 5, 10, 20 mg/mL) or 30 kDa Mtb antigen (30 k; 5, 10, 20 mg/mL). Upper, representative flow cytometric
+analysis; lower, quantitation of superoxide generation. (B) THP-1 cells were transfected with mock, Eis-WT, or Eis-DAT constructs, and infected with
+Mtb-Deis for 30 min. Cells were stained with DHE (for superoxide) or DCFH-DA (for H2O2) and subjected to flow cytometric analysis. Inset, transfection
+efficiency. (C and D) Experimental conditions were identical to those outlined in panels A and B, respectively. Supernatants were collected 18 h after
+infection and assessed by ELISA for levels of TNF-a and IL-6. Data are presented as the mean6SD of five experiments. (E and F) THP-1 cells transfected
+with mock, Eis-WT, or Eis-DAT constructs were pretreated with SP600125 (SP; 20 mM) or SB203580 (SB; 5 mM) for 45 min before infection with Mtb-
+Deis for 30 min (E) or 18 h (F). E, Intracellular superoxide production was analyzed by flow cytometric analysis. F, ELISA analysis for TNF-a and IL-6
+levels. Data are presented as the mean6SD of three experiments. **p,0.01, ***p,0.001, vs. SC (A, C, E, and F); mock control (B and D). UI, uninfected;
+SC, solvent control (0.1% DMSO).
+doi:10.1371/journal.ppat.1001230.g007
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+9
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+contrast, JNK inhibition did not significantly affect Mtb-Deis-
+induced ROS production (Fig. 7E) or cytokine secretion (Fig. 7F)
+in THP-1 cells over-expressing Eis-WT constructs. These data
+suggest that the N-acetyltransferase domain of Eis is critical to Eis’s
+modulation of host cell ROS generation and proinflammatory
+cytokine responses through the JNK pathway.
+Discussion
+Earlier studies demonstrated that the eis gene of Mtb can
+enhance survival of the non-pathogenic M. smegmatis in macro-
+phages [15]. Moreover, Eis protein was detected in Mtb-
+containing phagosomes and the cytoplasm of parasitized cells, as
+well as in cell culture supernatants of Mtb-infected macrophages
+[16,35]. Studies have demonstrated the presence of anti-Eis
+antibodies in TB patients, indicating that Eis is produced during
+human infection [35]. Eis also modulates TNF-a secretion and T
+cell responses [16,19]. However, its precise role in innate immune
+responses has not been clearly determined. The present study
+provides evidence that Eis plays an essential role in modulating
+host innate responses and cell death through ROS-dependent
+pathways.
+Our
+demonstration
+that
+Mtb-Deis
+increased
+the
+production of proinflammatory cytokines by BMDMs (i.e., Eis
+production alters patterns of cytokine production) is consistent
+with our previous findings [16]. Additionally, we provide evidence
+that Eis performs previously unrecognized functions in modulating
+specific types of cell death, dependent on autophagy and ROS-
+mediated signaling. Although autophagic pathways have been
+widely explored as a strategy for overcoming mycobacterial escape
+from phagosomal maturation, excessive activation of autophagy,
+and the resulting cell death (caused by a robust increase in ROS
+generation), did not apparently directly impact host defenses in
+Mtb-Deis-infected cells.
+Autophagy is a well-organized homeostatic cellular process
+responsible for the removal of damaged organelles and the
+elimination of intracellular pathogens [5]. Induction of autophagy
+is critical to the eradication of Mtb from murine and human
+macrophages [7,8]. Recent reports have emphasized the role of
+autophagy in host defense against human tuberculosis caused by
+Mtb [36]. Prolonged or excessive autophagy can result in non-
+apoptotic type II programmed cell death [10]. We recently
+reported that mycobacterial BCG cell wall induced autophagic cell
+death in radiosensitized cancer cells [34]. Indeed, it is known that
+several cytokines, including TNF-a, can activate autophagy
+pathways [5]. Thus, because they have been shown to be potent
+inducers
+of
+cytokine
+production
+[37],
+it
+is
+possible
+that
+mycobacterial proteins and/or other cell components increase
+the activation of autophagy by inducing the production of TNF-a.
+In our recent study, we found that mycobacterial LpqH can
+trigger the activation of autophagy [38]. Additionally, various
+mycobacterial components, including ESAT6 [39], PE_PGRS 33
+[40], and nuoG [41], have been reported in modulating host cell
+death, i.e., apoptosis or necrosis. Moreover, a recent report
+showed that Mtb mutation of nuoG or KatG leads to ROS
+accumulation in phagosomes, with subsequent induction of host
+cell apoptosis [42]. However, the genetic basis of mycobacterial
+induction of autophagy-dependent cell death in normal macro-
+phages has not been characterized. Macrophages that died after
+Mtb-Deis infection displayed morphological features of autophagic
+(type 2) cell death, characterized by the accumulation of
+autophagic vacuoles (autophagosomes) in the cytoplasm [43].
+Massive autophagic vacuolization may be the consequence of a
+failed attempt by Mtb to adapt to its cellular environment, which
+ultimately results in cell death [43].
+Macrophages infected with Mtb-Deis at a relatively low MOI
+(5–10) displayed higher rates of CICD and autophagy activation
+than did cells infected with wild-type or complemented strains of
+Mtb H37Rv. These data partly correlate with the previous finding
+that infection with Mtb H37Rv at the same MOI slightly increased
+macrophage cytotoxicity over control levels [44]. It has also been
+shown that attenuated strains of mycobacteria at an MOI#10
+trigger TNF-a-induced apoptosis, which is associated with innate
+host defenses against intracellular mycobacteria [45]. Macrophag-
+es infected with Mtb-Deis showed a modest, but significant,
+increase in the rate of apoptosis, as assessed by the TUNEL assay.
+Additionally, we observed no prominent sign of necrosis [46], such
+as intracellular vesicular swelling, rupture of plasma membranes,
+or dilation of cytoplasmic organelles, in macrophages infected with
+Mtb-Deis. Thus, our data show that Mtb Eis is involved in the
+control of a novel type of cell death, characterized by massive
+autophagic vacuolization. This type of cell death was modulated
+by inhibitors of autophagy: 3-MA (see Fig. 4).
+After showing that Eis is involved in autophagy-dependent cell
+death, we considered the possibility that Eis may affect the
+intracellular survival of bacteria. We previously reported that an eis
+deletion mutant of Mtb had no growth defect in human monocytic
+U937 cells or in mice [16]. The current study confirms our
+previous findings [16] that an eis deletion mutant of H37Rv
+multiplies at a rate similar to WT or complemented strains in the
+lungs and spleen of infected mice (see Fig. 6D). In contrast, a
+recent study reported that deletion of eis reduced the growth of the
+clinical Mtb strain TB294 in Mono Mac 6 cells [18]. This clinical
+strain was found to express 20-fold higher levels of Eis than
+H37Rv [18]. This discrepancy may be the result of strain-specific
+differences in the production of Eis and/or the use of different host
+cells [18]. Recent findings showed that an eis promoter mutation
+that increases Eis expression conferred resistance to kanamycin in
+clinical Mtb strains, by increasing its acetylation and inactivation
+[17]. We thus suggest that overproduction of Eis may enable some
+clinical Mtb strains to modulate autophagy and cell death,
+especially those with eis promoter mutations. It will be interesting
+to determine whether clinical strains overproducing Eis exhibit
+altered
+intracellular
+growth
+and
+disease
+outcomes
+through
+subversion of autophagy, cell death, and host defense.
+Activation of an exacerbated inflammatory response during
+Mtb-Deis infection may explain the lack of effect on bacterial
+elimination despite the induction of autophagy. Indeed, our
+previous [16] and current studies showed that inflammatory
+responses
+are
+profoundly
+up-regulated
+in
+Mtb-Deis-infected
+monocytes/macrophages. Here, proinflammatory cytokine pro-
+duction was negatively regulated by autophagy activation in Mtb-
+Deis-infected
+macrophages
+(Fig.
+S2).
+Despite
+the
+potential
+contribution of autophagy to this inflammatory balance, increased
+ROS and subsequent organelle damage by Mtb-Deis infection may
+trigger an amplifying positive feedback loop and in so doing
+induce massive autophagy and cell death. If production of pro-
+inflammatory cytokines and chemokines during mycobacterial
+infection is excessive or inappropriate, it may hinder protective
+immunity and exacerbate the pathology [47].
+Our data show that significant up-regulation of ROS produc-
+tion (for which NOX and mitochondria are largely responsible) is
+required for Mtb-Deis to increase macrophage inflammatory and
+autophagic responses, which are normally controlled by Eis. These
+findings partially agree with our previous studies showing that
+NOX2-dependent ROS generation played a key role in TLR2-
+dependent inflammatory signaling and cathelicidin production in
+macrophages [28]. Selective autophagic degradation of catalase
+and subsequent ROS accumulation cause lipid membrane damage
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+10
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+and autophagic cell death, indicating the complex nature of the
+relationship between ROS and non-apoptotic programmed cell
+death [48]. Additionally, overproduction of ROS contributed to
+CICD in macrophages treated with lipopolysaccharide and the
+pan-caspase inhibitor, Z-VAD [48]. At the molecular level, ‘‘Toll/
+IL-1 receptor (TIR) domain-containing adaptor-inducing IFN-b’’
+(TRIF) and ‘‘receptor-interacting protein 1’’ (RIP-1) operate
+upstream of ROS production and are involved in inducing
+autophagy and CICD [49]. In starvation-induced autophagy,
+ROS serve as signaling molecules that induce autophagy and
+regulate cysteine protease HsAtg4 [50]. Moreover, previous
+studies showed that activation of TLRs or Fcc receptors induced
+autophagy through NADPH oxidase-derived ROS [30].
+Regarding the signaling pathways linking ROS and cell death,
+our data provide evidence for the involvement of JNK signaling in
+macrophages infected with Mtb-Deis. Recent studies have shown
+that JNK pathways contribute to the induction of non-canonical
+autophagy by activating Atg7 [51]. Additionally, other studies
+showed that increased oxidative stress results in the induction of
+endoplasmic reticulum stress, which, in turn, can lead to
+autophagy and cell death through activation of a JNK/p38
+signaling pathway [52]. Moreover, JNK signaling has been shown
+to play an important role in autophagic cell death [53]. We found
+that the activation of JNK was required for Mtb-Deis-induced
+ROS generation and cell death. Thus, it appears that oxidative
+stress and JNK/SAPK constitute a positive feedback loop that
+contributes to the induction of cell death with autophagy by Mtb-
+Deis.
+Given the specific pathologic events that occur in Mtb-Deis-
+infected macrophages, several mechanisms could explain the
+observed excessive autophagy and resulting cell death. First,
+excessive ROS generation (for which NOX and mitochondria are
+primarily responsible), may contribute to increased activation of
+autophagy. Data generated using ROS inhibitors and NOX2-
+deficient mice show that excessive ROS generation is responsible
+for the induction of autophagy and inflammation by Mtb-Deis.
+The marked induction of autophagy by Mtb-Deis may be
+attributed to the expected need for increased protein/organelle
+turnover in injured cells undergoing oxidative stress, such as those
+with damaged mitochondria [54]. Second, our findings suggest
+that Eis regulates a key player in host innate immunity through its
+N-acetyltransferase domain. This idea is supported by the
+observations that Mtb-Deis-mediated ROS generation and inflam-
+matory cytokine production were inhibited by pretreatment with
+Eis and realized in an N-acetyltransferase domain-dependent
+manner (see Fig. 7). Finally, the phenotype of Mtb-Deis-infected
+macrophages may depend on their activation state. When
+macrophages were primed using interferon-c and lipopolysaccha-
+ride prior to exposure to Mtb-Deis, they showed a significant
+decrease in overall cell death, but a concurrent increase in the rate
+of apoptosis (data not shown). These data indicate that the
+activation of macrophages may alter their mechanism of cell death
+during subsequent Mtb-Deis infection. Thus, excessive activation
+of autophagy appears to play an important role in cell death,
+although cell death with autophagy does not affect the ability of
+host cells to efficiently eliminate invading bacteria.
+Our data provide evidence that Eis plays an essential role in
+regulating both the early generation of ROS and inflammatory
+responses in macrophages. These activities are dependent on the
+acetyltransferase moiety of Eis. Previously, we reported that Eis is
+a member of the GCN5-related family of N-acetyltransferases, as
+determined through bioinformatics analyses [16]. Members of this
+family of proteins are involved in a variety of activities, ranging
+from transcriptional activation to antibiotic resistance [55]. The
+well-characterized effector YopJ from Yersinia spp. acetylated
+critical serine and threonine residues in the activation loop of
+MAPKK6, thereby blocking its phosphorylation [56]. This
+resulted in the inhibition of MAPK and nuclear factor-kB
+signaling and, thus, the innate immune responses to Yersinia
+infection [56,57]. The current data suggest that the mycobacterial
+effector Eis regulates eukaryotic cell function through the direct
+modification of target proteins, effected by its N-acetyltransferase
+domain.
+Together, our results provide novel insights into the roles of
+mycobacterial Eis in controlling and suppressing host inflamma-
+tory responses and cell survival/death, which it achieves by
+modulating ROS-dependent JNK activation. Excessive activation
+of autophagy was shown to cause cell death, as well as inefficient
+bacterial clearance, in macrophages infected with Mtb-Deis. Eis
+itself regulated oxidative stress and inflammation through its
+acetyltransferase domain. Our present characterization of the
+mycobacterial effector Eis as a modulator of autophagy and cell
+death presents a previously unknown paradigm for understanding
+host-pathogen interactions in mycobacterial infection.
+Materials and Methods
+Bacterial Strains and Recombinant Eis Protein
+Mtb-WT, Mtb-Deis, and Mtb-c-eis strains were generated and
+used in these experiments. The eis gene was disrupted in H37Rv
+by means of a two-step gene replacement strategy using a pMJ10
+allelic exchange vector (ts oriM; sacB counterselection; KanR,
+GentR) as described previously [58]. A vector was constructed that
+contained the eis gene disrupted by a hygromycin cassette (eis:hyg/
+pMJ10). This vector (5 mg) was introduced into electrocompetent
+Mtb H37Rv cells. Transformants were first selected by growth on
+7H10-OADC-Tween 80 plates containing hygromycin B (50 mg/
+mL) at 37uC for 3–4 weeks. Individual antibiotic-resistant colonies
+were selected and subcultured onto fresh plates. Several clones
+were then picked and grown in 50 mL of 7H9-ADC broth
+containing hygromycin B at 37uC for 48 h. Cells from the broth
+cultures were then diluted in 7H9-ADC broth and plated on 2%
+sucrose-7H10-OADC-hyg and incubated at 39uC for 3–4 weeks.
+The double-resistant (sucR/hygR) clones were selected and shown,
+by Southern blotting, to be Deis mutants (data not shown). The
+H37RvDeis mutant was complemented using an integration vector
+(pMV306) containing a single copy of the eis gene (mycobacterial
+integration vector; integrates into the attB site; KanR) [59]. To
+obtain purified Eis protein, N-terminally His-tagged Eis was
+induced, harvested and purified from, E. coli expression strain BL-
+21 DE-3 pLysS, as described by Samuel et al. [16] following
+standard protocols recommended by Novagen. Mtb strains were
+grown as described previously [13]. The bacterial cultures were
+divided into 1-mL aliquots in cryovials and stored at 270uC prior
+to use. Representative vials were thawed, and viable CFUs were
+counted on Middlebrook 7H10 agar. Single-cell suspensions of
+mycobacteria were prepared as described previously [60].
+Ethics Statement
+All animal procedures were approved by the Institutional
+Animal Care and Use Committees of Yonsei University Health
+System and Chungnam National University. All animal experi-
+ments were performed in accordance with Korean Food and Drug
+Administration (KFDA) guidelines.
+Mice and Cells
+For in vivo experiments, pathogen-free female C57BL/6 mice,
+aged 5–6 weeks, purchased from Japan SLC Inc. (Shijuoka, Japan)
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+11
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+were maintained under barrier conditions in a BL-3 biohazard
+animal room at Yonsei University Medical Research Center.
+Animals were fed a sterile commercial mouse diet and water ad
+libitum. NOX2 (C57BL/6 background) mice were kindly provided
+by Y. S. Bae (Iwha University, Seoul). Mice used as a source of
+cells for in vitro experiments were housed in specific pathogen-free
+conditions. Those used in individual experiments were age- and
+sex-matched mice (and 5–8 weeks of age). BMDMs were isolated
+and then differentiated by growth for 5–7 days in medium
+containing M-CSF (25 mg/mL; R&D), as described previously
+[13]. RAW 264.7 cells were maintained in Dulbecco’s modified
+Eagle’s medium (DMEM) containing 10% fetal bovine serum, as
+described previously [13]. Human THP-1 (ATCC TIB-202)
+monocytic cells were grown in RPMI 1640/GlutaMAX, supple-
+mented with 10% FBS [8]. Cells were treated with 20 nM PMA
+(Sigma-Aldrich,
+St.
+Louis,
+MO)
+for
+24 h
+to
+induce
+their
+differentiation into macrophage-like cells and then washed three
+times with PBS.
+Mtb Infection and Bacterial Counts In Vitro and In Vivo
+In vitro macrophage infection was performed as described
+previously [13]. Briefly, cells were infected with mycobacteria at
+different MOIs and incubated for 4 h at 37uC in a 5% CO2
+atmosphere. After allowing time for phagocytosis, cells were
+washed four times with fresh PBS to remove extracellular bacteria
+and then incubated with complete DMEM without antibiotics. As
+controls, cultures of uninfected macrophages (UI) were maintained
+under the same conditions. The infection rates for the three strains
+were approximately 35–45% when BMDMs were infected at an
+MOI of 5. Rates of infection were increased in infected
+macrophages when the MOI was increased. There was no
+significant difference in infection rates between the three strains.
+To test the capacities of the Mtb-WT, Mtb-Deis, and Mtb-c-eis
+strains to survive intracellularly, BMDMs were infected with each
+strain at MOIs of 1 and 5. Then, 4 h later, cells were washed with
+PBS three times, and the majority of extracellular bacteria (.99%)
+were removed, as determined through staining with auramine-
+rhodamine (Merck, Darmstadt, Germany). After washing, the cells
+were incubated in fresh medium for a further 3 days. They were
+then lysed in autoclaved distilled water to allow intracellular
+bacteria to be collected [8]. The lysates were then re-suspended
+and sonicated for 5 min in a preheated 37uC water bath sonicator
+(Elma, Singen, Germany). Aliquots of the resulting sonicates were
+serially diluted in 7H9 broth, plated separately on 7H10 agar
+plates, and incubated at 37uC in 5% CO2 for 12 d. Colony
+counting was then performed in triplicate.
+Mice were challenged by aerosol exposure with Mtb-WT, Mtb-
+Deis, or Mtb-c-eis using an inhalation device (Glas-Col, Terre
+Haute, IN, USA) calibrated to deliver approximately 50 bacteria
+into the lungs. Five mice per group were sacrificed at 4 weeks post-
+challenge, and bacteria in lung and spleen homogenates were
+counted.
+Numbers
+of viable
+bacteria
+in lung/spleen
+were
+determined by plating serial dilutions of whole organ homogenates
+on Middlebrook 7H11 agar (Difco, Detroit, MI, USA). Colonies
+were counted after 3–4 weeks of incubation at 37uC.
+Reagents, DNA, Abs, and Transfection
+DPI (a NOX inhibitor), NAC (an antioxidant), catalase, and z-
+VAD-fmk (a pan-caspase inhibitor) were purchased from Calbio-
+chem (San Diego, CA, USA). 3-MA, tiron (a commercial
+deflocculant), and DAPI were purchased from Sigma. DMSO
+(Sigma) was added to cultures at a concentration of 0.1% (v/v) as a
+solvent control (SC). The plasmid that encoded EGFP-LC3 [20]
+was a gift from Tamotsu Yoshimori (Osaka University, Japan).
+pCMV-Eis-WT and pCMV-Eis-DAT constructs were created by
+subcloning the whole eis gene (WT), or an acetyltransferase
+domain-deletion mutant (lacking the sequence encoding residues
+61–137 of the 402-amino-acid Eis protein) from pET21a. This was
+achieved by cutting at the BamHI and SacI restriction sites and
+then ligating the resulting inserts into the pCMV-Tag1 mamma-
+lian expression vector (Stratagene Co., USA).
+Anti-LC3 antibodies (Abs) used for Western blotting and
+immunofluorescence analysis were purchased from Novus Biolog-
+icals and MBL International (Woburn, MA, USA), respectively.
+Anti-rabbit IgG-Alexa488 and IgG-TRITC, and anti-mouse IgG-
+Cy2, were purchased from Jackson Immunoresearch (West Grove,
+PA, USA). siRNAs specific for mBeclin 1 (sc-29798), mAtg5 (sc-
+41446), and mJNK1 (sc-29381), each a pool of five target-specific
+19–25 nt siRNAs, were purchased from Santa Cruz Biotechnol-
+ogy (Santa Cruz, CA, USA). Cells were transfected with plasmids
+and/or siRNAs using Lipofectamine 2000 (Invitrogen, Carlsbad,
+CA, USA) according to the manufacturer’s protocol.
+Measurement of ROS Production
+Intracellular ROS levels were measured by DCFH-DA and
+DHE assays as described previously [61]. Briefly, BMDMs were
+differentiated in culture dishes and infected with bacterial strains
+(MOI = 10) for 30 min. Cells were then incubated with either
+DCFH-DA (5 mM) or DHE (10 mM; Molecular Probes) for
+30 min at 37uC in 5% CO2 and then washed with Krebs-Hepes
+buffer (for DHE staining) or HBSS (for DCFH-DA staining). Total
+intracellular levels of ROS were determined by FACS analyses of
+the oxidative conversion of cell-permeable DCFH-DA (Molecular
+Probes) to fluorescent DHE (Molecular Probes), using the
+FACSCanto II system (Becton Dickinson, San Jose, CA, USA).
+A mitochondrion-specific hydroethidine-derivative fluorescent
+dye (MitoSOX; M36008; Calbiochem) was used to determine
+relative
+mitochondrial
+O2
+2
+levels
+in BMDMs. Cells
+were
+incubated for 30 min in PBS containing 5 mM MitoSOX. They
+were then washed twice and analyzed using the FACSCanto II
+system. All FACS data were collected using 50,000 to 100,000 cells
+and analyzed using FlowJo software (Tree Star, Ashland, OR,
+USA).
+Cell Viability and Apoptosis Assays
+Cell viability was assessed by PI staining and then examined by
+fluorescence microscopy or flow cytometric analysis. Trypan blue-
+stained cells were counted using a ViCell counter (Beckman
+Coulter, Fullerton, CA, USA). Apoptosis was examined by TdT-
+mediated dUTP Nick-End Labeling (TUNEL; Promega), accord-
+ing
+to
+the
+manufacturer’s
+instructions.
+Labeled
+cells
+were
+examined under a laser-scanning confocal microscope (model
+LSM 510; Zeiss). Each condition was assayed in triplicate, and at
+least 200 cells per well were counted. To analyze in vivo cell death,
+single-cell suspensions were prepared in RPMI 1640 medium by
+passing cell populations through a nylon mesh with 50 mm pores
+and were subjected to further analysis.
+Western Blotting, RT-PCR and ELISA
+Treated BMDMs were processed for analysis by sandwich
+ELISA, Western blotting, and RT-PCR as described previously
+[2]. For Western blot analysis, primary Abs were diluted 1:1000.
+Membranes were developed using a chemiluminescent reagent
+(ECL; Pharmacia-Amersham, Freiburg, Germany) and subse-
+quently exposed to film (Pharmacia-Amersham). Supernatant
+TNF-a and IL-6 levels were measured by sandwich ELISA using
+Duoset Ab pairs (Pharmingen, San Diego, CA, USA) [2].
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+12
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+To provide RNA for RT-PCR analysis, paraffin-embedded
+tissue sections were first deparaffinized in octane [62]. After
+vigorous vortexing, 150 mL of methanol were added. Samples
+were vortexed again and the tissue was pelleted by centrifugation
+(10,0006g, 2 min). Supernatants were removed, and the remain-
+ing tissue was vacuum-dried for 20 min. Next, pellets were
+resuspended in digestion buffer (20 mM Tris-HCl, pH 7.6, 0.5%
+N-laurylsarcosine, 1 M guanidine thiocyanate, 25 mM 2-mercap-
+toethanol) containing proteinase K (5 mg/mL; Sigma). After
+overnight digestion at 55uC, RNA was extracted using TRIzol
+(Invitrogen) according to the manufacturer’s instructions. For
+quantitative RT-PCR analysis was performed by using SYBR
+Green (Molecular Probes) PCR core reagents (Applied Biosys-
+tems), and transcript levels were quantified by using an ABI 7900
+Sequence Detection System (Applied Biosystems). The mean value
+of triplicate reactions was normalized against the mean value of b-
+actin. Primers were used at 400 nM.
+Autophagy Analysis
+Autophagosome formation was measured by LC3 punctate
+staining, as described previously [8]. To quantitate autophagy, we
+used fluorescence microscopy to count the percentages of GFP-
+LC3-positive autophagic vacuoles in transfected cells or the
+numbers of endogenous LC3 punctate dots in primary cells. Each
+condition was assayed in triplicate, and at least 200 cells per well
+were counted. LC3 conjugation was evaluated by Western blot
+analysis using an antibody raised to LC3-I/II.
+Transmission Electron Microscopy
+Infected and stimulated RAW 264.7 macrophages were washed
+with PBS and then fixed with 3% formaldehyde, 2% glutaralde-
+hyde in 0.1 M sodium cacodylate buffer (pH 7.4) for 1 h. They
+were then post-fixed in 1% osmium tetroxide, 0.5% potassium
+ferricyanide in cacodylate buffer for 1 h; embedded in straight
+resin; and cured at 80uC for 24 h. Ultrathin sections (70–80 nm),
+cut using an ultramicrotome (RMC MT6000-XL), were stained
+with uranyl acetate and lead citrate and examined using a Tecnai
+G2 Spirit Twin transmission electron microscope (FEI Company,
+USA) and a JEM ARM 1300S High Voltage electron microscope
+(JEOL, Japan).
+Immunofluorescence
+Immunofluorescence analysis was performed as described
+previously [8]. Briefly, cells were fixed with 4% paraformaldehyde
+in PBS at 4uC for 10 min and permeabilized with 0.01% Triton
+X-100 in PBS for 10 min. Cultures were then stained for 2 h at
+room temperature with primary antibodies, including rabbit anti-
+mouse LC3 (1:400; MBL International). After washing, to remove
+excess primary antibody, cultures were then incubated for 1 h at
+room temperature with an anti-rabbit IgG-Alexa488 secondary
+antibody (Jackson Immunoresearch). Nuclei were stained by
+incubation with DAPI for 5 min. Slides were examined using a
+laser-scanning confocal microscope (model LSM 510; Zeiss).
+Statistical Analyses
+Data obtained from independent experiments (presented as
+mean6SD) were analyzed by the paired Student’s t-test with
+Bonferroni correction or analysis of variance (for multiple
+comparisons). A p value,0.05 was deemed to indicate statistical
+significance.
+Accession Numbers
+The GenBank accession number for the eis gene is AF144099.
+Supporting Information
+Figure S1
+Autophagic vesicles are increased in macrophages
+infected with Mtb-Deis, but not in cells infected with Mtb-WT or
+Mtb-c-eis. (A and B) Formation of GFP-LC3 vacuoles (dots) was
+determined in RAW 264.7 cells transfected with GFP-LC3 cDNA.
+Transfected cells were infected with Mtb-WT, Mtb-Deis, or Mtb-c-
+eis (MOI = 10) for 24 h (A) or Mtb-Deis (MOI = 10) for 24 h in the
+presence or absence of 3-MA (B). Top, representative immunoflu-
+orescence images; bottom, percentage of GFP-LC3 cells with
+punctae. (C) Co-localization of autophagosomes (endogenous
+LC3, red) and lysosomes (lamp-1, green) was increased in Mtb-
+Deis-infected BMDMs. Data are representative of three separate
+experiments. Scale bars: 10 mm. (D) BMDMs were infected with
+Mtb-Deis (MOI = 10) for 24 h in the presence or absence of 3-MA
+(10 mM) or Baf-A1 (100 nM). Quantitation of the percentages of
+cells with LC3 punctae. Each condition was assayed in triplicate,
+and at least 250 cells per well were counted. ***p,0.001, vs. Mtb-
+WT-infected condition (A); SC (B and D). UI, uninfected; SC,
+solvent control (0.1% distilled water (B), 0.1% DMSO (D)).
+Found at: doi:10.1371/journal.ppat.1001230.s001 (0.66 MB TIF)
+Figure S2
+Activation of autophagy negatively impacts the
+secretion of proinflammatory cytokines by Mtb-Deis-infected
+macrophages. RAW 264.7 cells transfected with siRNAs specific
+for Beclin-1 (siBec-1) or Atg5 (siAtg5) were infected with Mtb-WT,
+Mtb-Deis, or Mtb-c-eis (MOI = 10) for 24 h. Supernatants were
+assessed by ELISA for levels of TNF-a and IL-6. Data are
+presented as the mean6SD of five experiments. ***p,0.001, vs.
+Mtb-WT-infected condition. UI, uninfected.
+Found at: doi:10.1371/journal.ppat.1001230.s002 (0.12 MB TIF)
+Figure S3
+Reactive nitrogen species are not involved in the
+elevation of ROS generation in Mtb-Deis-infected macrophages.
+BMDMs were infected with Mtb-Deis (MOI = 10) in the presence
+or absence of L-NAME (0.1, 1, 5 mM) or L-NMMA (0.1, 1,
+5 mM). Cells were stained with DHE (for superoxide) or DCFH-
+DA (for H2O2) and subjected to flow cytometry analysis. Data
+represent densitometric analyses (mean6SD) of three separate
+experiments. UI, uninfected; SC, solvent control.
+Found at: doi:10.1371/journal.ppat.1001230.s003 (0.07 MB TIF)
+Figure S4
+Intracellular ROS and NOX2 are required for
+autophagy and proinflammatory responses in Mtb-Deis-infected
+macrophages. (A) RAW 264.7 cells transfected with GFP-LC3
+cDNA were infected with Mtb-Deis (MOI = 10) in the presence or
+absence of DPI (10 mM), NAC (20 mM), catalase (Cat, 1 mU/
+mL), or tiron (5 mM). Formation of GFP-LC3 vacuoles (dots) was
+determined in transfected cells, and at least 250 cells per well were
+counted. Left: representative immunofluorescence images; right:
+percentage of LC3-punctated cells. (B) BMDMs from WT and
+NOX2-KO mice were infected with Mtb-WT, Mtb-Deis, or Mtb-
+c-eis (MOI = 10). After 30 min, ROS production (DHE staining)
+was determined by flow cytometry (left). Quantitative analysis of
+ROS generation in WT- and NOX2-deficient BMDMs (right).
+Data represent the mean6SD of three independent experiments.
+(C) BMDMs from WT and NOX2 KO mice were treated with
+rapamycin (Rapa; 20 mg/mL) or staurosporine (STS; 500 nM), or
+nutrient-starved (Starv; maintained in HBSS) for 8 h. Numbers of
+LC3-punctated cells (counted manually) are shown. Data are
+presented as the mean6SD of at least three separate experiments,
+each performed in triplicate. (D) BMDMs from WT and NOX2
+KO mice were infected with Mtb-WT, Mtb-Deis, or Mtb-c-eis for
+6 h and then subjected to RT-PCR analysis. A gel representative
+of three independent replicates is shown. *** p,0.001, vs. SC (A);
+WT mice (B). UI, uninfected; SC, solvent control (0.1% DMSO).
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+13
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+Found at: doi:10.1371/journal.ppat.1001230.s004 (0.38 MB TIF)
+Figure S5
+Enhanced cell death in Mtb-Deis-infected macro-
+phages is regulated by autophagic pathways. (A) BMDMs were
+infected with Mtb-WT, Mtb-Deis, or Mtb-c-eis at the indicated
+MOIs for 4 h, washed to remove unbound mycobacteria, and
+then incubated in complete DMEM at 37uC in 5% CO2 for the
+indicated periods of time. Cells were stained with PI and then
+examined by fluorescence microscopy. (B) Cell death was
+determined in RAW 264.7 cells transfected with specific siRNA
+for beclin-1, atg5, or non-specific scrambled siRNA (siNS) before
+infection with Mtb-WT, Mtb-Deis, or Mtb-c-eis, as described in the
+Materials and Methods. After 36 h, cells were stained with PI and
+examined by fluorescence microscopy, as described in the
+Materials and Methods. Transfection efficiency was assessed by
+RT-PCR (inset). (C) Experimental conditions were identical to
+those outlined in panel A. Cell viability was assessed by trypan
+blue staining. Data are presented as the mean6SD of three
+separate experiments, each performed in duplicate. *p,0.05,
+***p,0.001, vs. Mtb-WT-infected condition (A).
+Found at: doi:10.1371/journal.ppat.1001230.s005 (0.16 MB TIF)
+Acknowledgments
+We are very grateful to Drs. C. Sasakawa and E. Roberts for their
+discussion and critical evaluation of our manuscript, to Dr. Y. S. Bae for
+the provision of materials, and to Drs. C. S. Yang, J. Y. Lee, and K. K.
+Kim for discussions and technical suggestions.
+Author Contributions
+Conceived and designed the experiments: DMS BYJ CHS JMK RLF EKJ.
+Performed the experiments: DMS BYJ HML HSJ JMY CHS SHL JMK
+EKJ. Analyzed the data: DMS BYJ HML HSJ JMY CHS SHL ZWL JMK
+RLF EKJ. Contributed reagents/materials/analysis tools: BYJ CHS ZWL
+SNC JMK RLF EKJ. Wrote the paper: DMS BYJ RLF EKJ.
+References
+1. Pieters J (2008) Mycobacterium tuberculosis and the macrophage: maintaining a
+balance. Cell Host Microbe 3: 399–407.
+2. Houben EN, Nguyen L, Pieters J (2006) Interaction of pathogenic mycobacteria
+with the host immune system. Curr Opin Microbiol 9: 76–85.
+3. Deretic V, Fratti RA (1999) Mycobacterium tuberculosis phagosome. Mol Microbiol
+31: 1603–1609.
+4. Hirayama Y, Yoshimura M, Ozeki Y, Sugawara I, Udagawa T, et al. (2009)
+Mycobacteria exploit host hyaluronan for efficient extracellular replication.
+PLoS Pathog 5: e1000643.
+5. Deretic V, Levine B (2009) Autophagy immunity and microbial adaptations.
+Cell Host Microbe 5: 527–549.
+6. Maiuri MC, Zalckvar E, Kimchi A, Kroemer G (2007) Self-eating and self-
+killing: crosstalk between autophagy and apoptosis. Nat Rev Mol Cell Biol 8:
+741–752.
+7. Gutierrez MG, Master SS, Singh SB, Taylor GA, Colombo MI, et al. (2004)
+Autophagy is a defense mechanism inhibiting BCG and Mycobacterium tuberculosis
+survival in infected macrophages. Cell 119: 753–766.
+8. Yuk JM, Shin DM, Lee HM, Yang CS, Jin HS, et al. (2009) Vitamin D3 induces
+autophagy in human monocytes/macrophages via cathelicidin. Cell Host
+Microbe 6: 231–243.
+9. Jagannath C, Lindsey DR, Dhandayuthapani S, Xu Y, Hunter RL, Jr., et al.
+(2009) Autophagy enhances the efficacy of BCG vaccine by increasing peptide
+presentation in mouse dendritic cells. Nat Med 15: 267–276.
+10. Galluzzi L, Vicencio JM, Kepp O, Tasdemir E, Maiuri MC, et al. (2008) To die
+or not to die: that is the autophagic question. Curr Mol Med 8: 78–91.
+11. Mele´ndez A, Neufeld TP (2008) The cell biology of autophagy in metazoans: a
+developing story. Development 135: 2347–2360.
+12. Chen Y, Gibson SB (2008) Is mitochondrial generation of reactive oxygen
+species a trigger for autophagy? Autophagy 4: 246–248.
+13. Yuk JM, Shin DM, Yang CS, Kim KH, An SJ, et al. (2009) Role of apoptosis-
+regulating signal kinase 1 in innate immune responses by Mycobacterium bovis
+bacillus Calmette-Gue´rin. Immunol Cell Biol 87: 100–107.
+14. Zhou X, Spangle JM, Mu¨nger K (2009) Expression of a viral oncoprotein
+in normal human epithelial cells triggers an autophagy-related process:
+is autophagy an ‘‘Achilles’ heel’’ of human cancers? Autophagy 5: 578–
+579.
+15. Wei J, Dahl JL, Moulder JW, Roberts EA, O’Gaora P, et al. (2000) Identification
+of a Mycobacterium tuberculosis gene that enhances mycobacterial survival in
+macrophages. J Bacteriol 182: 377–384.
+16. Samuel LP, Song CH, Wei J, Roberts EA, Dahl JL, et al. (2007) Expression,
+production and release of the Eis protein by Mycobacterium tuberculosis during
+infection of macrophages and its effect on cytokine secretion. Microbiology 153:
+529–540.
+17. Zaunbrecher MA, Sikes RD, Jr., Metchock B, Shinnick TM, Posey JE (2009)
+Overexpression of the chromosomally encoded aminoglycoside acetyltransferase
+eis confers kanamycin resistance in Mycobacterium tuberculosis. Proc Natl Acad
+Sci U S A 106: 20004–20009.
+18. Wu S, Barnes PF, Samten B, Pang X, Rodrigue S, et al. (2009) Activation of the
+eis gene in a W-Beijing strain of Mycobacterium tuberculosis correlates with
+increased SigA levels and enhanced intracellular growth. Microbiology 155:
+1272–1281.
+19. Lella RK, Sharma C (2007) Eis (enhanced intracellular survival) protein of
+Mycobacterium tuberculosis disturbs the cross regulation of T-cells. J Biol Chem 282:
+18671–18675.
+20. Kabeya Y, Mizushima N, Ueno T, Yamamoto A, Kirisako T, et al. (2000) LC3
+a mammalian homologue of yeast Apg8p is localized in autophagosome
+membranes after processing. EMBO J 19: 5720–5728.
+21. Blommaart EF, Krause U, Schellens JP, Vreeling-Sindela´rova´ H, Meijer AJ
+(1997) The phosphatidylinositol 3-kinase inhibitors wortmannin and LY294002
+inhibit autophagy in isolated rat hepatocytes. Eur J Biochem 243: 240–246.
+22. Deretic V (2008) Autophagosome and phagosome. Methods Mol Biol 445: 1–10.
+23. Zakeri Z, Melendez A, Lockshin RA (2008) Detection of autophagy in cell death.
+Methods Enzymol 442: 289–306.
+24. Xu Y, Jagannath C, Liu XD, Sharafkhaneh A, Kolodziejska KE, Eissa NT
+(2007) Toll-like receptor 4 is a sensor for autophagy associated with innate
+immunity. Immunity 27: 135–144.
+25. Eskelinen EL (2005) Maturation of autophagic vacuoles in Mammalian cells.
+Autophagy 1: 1–10.
+26. Mizushima N, Yamamoto A, Hatano M, Kobayashi Y, Kabeya Y, et al. (2001)
+Dissection of autophagosome formation using Apg5-deficient mouse embryonic
+stem cells. J Cell Biol 152: 657–668.
+27. Jo EK (2008) Mycobacterial interaction with innate receptors: TLRs C-type
+lectins and NLRs. Curr Opin Infect Dis 21: 279–286.
+28. Yang CS, Shin DM, Kim KH, Lee ZW, Lee CH, et al. (2009) NADPH oxidase
+2 interaction with TLR2 is required for efficient innate immune responses to
+mycobacteria via cathelicidin expression. J Immunol 182: 3696–3705.
+29. Mukhopadhyay P, Rajesh M, Hasko´ G, Hawkins BJ, Madesh M, et al. (2007)
+Simultaneous detection of apoptosis and mitochondrial superoxide production in
+live cells by flow cytometry and confocal microscopy. Nat Protoc 2: 2295–2301.
+30. Huang J, Canadien V, Lam GY, Steinberg BE, Dinauer MC, et al. (2009)
+Activation of antibacterial autophagy by NADPH oxidases. Proc Natl Acad
+Sci U S A 106: 6226–6231.
+31. Eisenberg-Lerner A, Bialik S, Simon HU, Kimchi A (2009) Life and death
+partners: apoptosis autophagy and the cross-talk between them. Cell Death
+Differ 16: 966–75.
+32. Pyo JO, Nah J, Kim HJ, Lee HJ, Heo J, et al. (2008) Compensatory activation of
+ERK1/2 in Atg5-deficient mouse embryo fibroblasts suppresses oxidative stress-
+induced cell death. Autophagy 4: 315–321.
+33. Wei Y, Pattingre S, Sinha S, Bassik M, Levine B (2008) JNK1-mediated
+phosphorylation of Bcl-2 regulates starvation-induced autophagy. Mol Cell 30:
+678–688.
+34. Yuk JM, Shin DM, Song KS, Lim K, Kim KH, et al. (2010) Bacillus calmette-guerin
+cell wall cytoskeleton enhances colon cancer radiosensitivity through autophagy.
+Autophagy 6: 46–60.
+35. Dahl JL, Wei J, Moulder JW, Laal S, Friedman RL (2001) Subcellular
+localization of the intracellular survival-enhancing Eis protein of Mycobacterium
+tuberculosis. Infect Immun 69: 4295–4302.
+36. Intemann CD, Thye T, Niemann S, Browne EN, Amanua CM, et al. (2009)
+Autophagy gene variant IRGM -261T contributes to protection from
+tuberculosis caused by Mycobacterium tuberculosis but not by M. africanum strains.
+PLoS Pathog 5: e1000577.
+37. Jo EK, Park JK, Dockrell HM (2003) Dynamics of cytokine generation in
+patients with active pulmonary tuberculosis. Curr Opin Infect Dis 16: 205–210.
+38. Shin DM, Yuk JM, Lee HM, Lee SH, Son JW, et al. (2010) Mycobacterial
+lipoprotein activates autophagy via TLR2/1/CD14 and a functional vitamin D
+receptor signaling. Cell Microbiol doi:10.1111/j.1462-5822.2010.01497.x.
+39. Derrick SC, Morris SL (2007) The ESAT6 protein of Mycobacterium tuberculosis
+induces apoptosis of macrophages by activating caspase expression. Cell
+Microbiol 9: 1547–1555.
+40. Dheenadhayalan V, Delogu G, Brennan MJ (2006) Expression of the PE_PGRS
+33 protein in Mycobacterium smegmatis triggers necrosis in macrophages and
+enhanced mycobacterial survival. Microbes Infect 8: 262–272.
+41. Velmurugan K, Chen B, Miller JL, Azogue S, Gurses S, et al. (2007)
+Mycobacterium tuberculosis nuoG is a virulence gene that inhibits apoptosis of
+infected host cells. PLoS Pathog 3: e110.
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+14
+December 2010 | Volume 6 | Issue 12 | e1001230
+
+42. Miller JL, Velmurugan K, Cowan MJ, Briken V (2010) The type I NADH
+dehydrogenase of Mycobacterium tuberculosis counters phagosomal NOX2 activity
+to inhibit TNF-alpha-mediated host cell apoptosis. PLoS Pathog 6: e1000864.
+43. Tasdemir E, Galluzzi L, Maiuri MC, Criollo A, Vitale I, et al. (2008) Methods
+for assessing autophagy and autophagic cell death. Methods Mol Biol 445:
+29–76.
+44. Keane J, Remold HG, Kornfeld H (2000) Virulent Mycobacterium tuberculosis
+strains evade apoptosis of infected alveolar macrophages. J Immunol 164:
+2016–2020.
+45. Keane J, Balcewicz-Sablinska K, Remold HG, Chupp GL, Meek BB, et al.
+(1997) Infection by Mycobacterium tuberculosis promotes human alveolar macro-
+phage apoptosis. Infect Immun 65: 298–304.
+46. Kroemer G, El-Deiry WS, Golstein P, Peter ME, Vaux D, et al. (2005)
+Classification of cell death: recommendations of the Nomenclature Committee
+on Cell Death. Cell Death Differ 12: 1463–1467.
+47. Di Liberto D, Locati M, Caccamo N, Vecchi A, Meraviglia S, et al. (2008) Role
+of the chemokine decoy receptor D6 in balancing inflammation, immune
+activation, and antimicrobial resistance in Mycobacterium tuberculosis infection.
+J Exp Med 205: 2075–2084.
+48. Yu L, Wan F, Dutta S, Welsh S, Liu Z, et al. (2006) Autophagic programmed
+cell death by selective catalase degradation. Proc Natl Acad Sci U S A 103:
+4952–4957.
+49. Xu Y, Kim SO, Li Y, Han J (2006) Autophagy contributes to caspase-
+independent macrophage cell death. J Biol Chem 281: 19179–19187.
+50. Scherz-Shouval R, Shvets E, Fass E, Shorer H, Gil L, et al. (2007) Reactive
+oxygen species are essential for autophagy and specifically regulate the activity of
+Atg4. EMBO J 26: 1749–1760.
+51. Wong CH, Iskandar KB, Yadav SK, Hirpara JL, Loh T, et al. (2010)
+Simultaneous induction of non-canonical autophagy and apoptosis in cancer
+cells by ROS-dependent ERK and JNK activation. PLoS One 5: e9996.
+52. Younce CW, Kloattukudy PE (2010) MCP-1 causes cardiomyoblast death via
+autophagy resulting from ER stress caused by oxidative stress generated by
+inducing a novel zinc-finger protein, MCPIP. Biochem J 426: 43–53.
+53. Li DD, Wang LL, Deng R, Tang J, Shen Y, et al. (2009) The pivotal role of c-
+Jun NH2-terminal kinase-mediated Beclin 1 expression during anticancer
+agents-induced autophagy in cancer cells. Oncogene 28: 886–898.
+54. Brunk UT, Terman A (2002) The mitochondrial-lysosomal axis theory of aging:
+accumulation of damaged mitochondria as a result of imperfect autophagocy-
+tosis. Eur J Biochem 269: 1996–2002.
+55. Dyda F, Klein DC, Hickman AB (2000) GCN5-related N-acetyltransferases: a
+structural overview. Annu Rev Biophys Biomol Struct 29: 81–103.
+56. Mukherjee S, Keitany G, Li Y, Wang Y, Ball HL, et al. (2006) Yersinia YopJ
+acetylates and inhibits kinase activation by blocking phosphorylation. Science
+312: 1211–1214.
+57. Orth K, Palmer LE, Bao ZQ, Stewart S, Rudolph AE, et al. (1999) Inhibition of
+the mitogen-activated protein kinase kinase superfamily by a Yersinia effector.
+Science 285: 1920–1923.
+58. Pelicic V, Jackson M, Reyrat JM, Jacobs Jr., Gicquel B, Guilhot C (1997)
+Efficient allelic exchange and transposon mutagenesis in Mycobacterium tuberculosis.
+Proc Natl Acad Sci U S A 94: 10955–10960.
+59. Stover CK, de la Cruz VF, Fuerst TR, Burlein JE, Benson LA, et al. (1991) New
+use of BCG for recombinant vaccines. Nature 351: 456–460.
+60. Song CH, Lee JS, Kim HJ, Park JK, Paik TH, Jo EK (2003) Interleukin-8 is
+differentially expressed by human-derived monocytic cell line U937 infected
+with Mycobacterium tuberculosis H37Rv and Mycobacterium marinum. Infect
+Immun 71: 5480–5487.
+61. Yang CS, Shin DM, Lee HM, Son JW, Lee SJ, et al. (2008) ASK1-p38 MAPK-
+p47phox activation is essential for inflammatory responses during tuberculosis
+via TLR2-ROS signalling. Cell Microbiol 10: 741–754.
+62. Fredricks DN, Relman DA (1999) Paraffin removal from tissue sections for
+digestion and PCR analysis. Biotechniques 2: 198–200.
+Eis Regulates Autophagy and Cell Death
+PLoS Pathogens | www.plospathogens.org
+15
+December 2010 | Volume 6 | Issue 12 | e1001230

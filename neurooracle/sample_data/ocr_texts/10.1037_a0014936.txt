@@ -1,0 +1,1394 @@
+Predicting Longitudinal Patterns of Functional Deficits in Children
+with Traumatic Brain Injury
+Taryn B. Fay1,2, Keith Owen Yeates2, Shari L. Wade3, Dennis Drotar4, Terry Stancin5, and
+H. Gerry Taylor4
+1Department of Psychology, The Ohio State University, Columbus, Ohio
+2Department of Pediatrics, The Ohio State University, and the Research Institute at Nationwide
+Children's Hospital, Columbus, Ohio.
+3College of Medicine, University of Cincinnati, and Department of Physical Medicine and
+Rehabilitation, Children's Hospital Medical Center, Cincinnati, Ohio.
+4Department of Pediatrics, Case Western Reserve University, and Rainbow Babies & Children's
+Hospital, Cleveland, Ohio.
+5Department of Pediatrics, Case Western Reserve University, and MetroHealth Medical Center,
+Cleveland, Ohio.
+Abstract
+Longitudinal patterns of functional deficits were investigated in 37 children with severe traumatic
+brain injuries (TBI), 40 children with moderate TBI, and 44 children with orthopedic injuries (OI).
+They were from 6 to 12 years of age when injured. Their neuropsychological, behavioral, adaptive,
+and academic functioning was assessed at 6 months, 12 months, and 3-5 years post injury. Functional
+deficits (<10th percentile for age) were identified within each outcome domain at each occasion.
+Children were classified into four a priori longitudinal patterns of outcomes within domains (i.e., no
+deficits, improvement, deterioration, persistent deficits). In multinomial logistic regression analyses,
+severe TBI predicted an increased likelihood of persistent deficits in all outcome domains, as well
+as deterioration in behavioral functioning and improvement in neuropsychological, adaptive, and
+academic functioning. Severe TBI also predicted a greater total number of functional deficits across
+domains at each occasion. However, many children with severe TBI showed no deficits from 6
+months to 4 years post injury in one or more outcome domains. The findings help to clarify the course
+of recovery for individual children following TBI.
+Keywords
+Traumatic brain injury; children; functional deficits; outcomes
+Correspondence concerning this article should be addressed to Keith Owen Yeates, Ph.D., Department of Psychology, Nationwide
+Children's Hospital, 700 Children's Dr., Columbus, OH 43205. Phone: 614-722-4673, Fax: 614-722-4718,
+keith.yeates@nationwidechildrens.org..
+Publisher's Disclaimer: The following manuscript is the final accepted manuscript. It has not been subjected to the final copyediting,
+fact-checking, and proofreading required for formal publication. It is not the definitive, publisher-authenticated version. The American
+Psychological Association and its Council of Editors disclaim any responsibility or liabilities for errors or omissions of this manuscript
+version, any version derived from this manuscript by NIH, or other third parties. The published version is available at
+www.apa.org/pubs/journals/neu
+NIH Public Access
+Author Manuscript
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+Published in final edited form as:
+Neuropsychology. 2009 May ; 23(3): 271–282. doi:10.1037/a0014936.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Predicting Longitudinal Patterns of Functional Deficits in Children with
+Traumatic Brain Injury
+Childhood traumatic brain injury (TBI) is associated with a variety of cognitive, behavioral,
+adaptive, and academic performance deficits in school-age children. Numerous studies have
+established persistent neuropsychological sequelae, higher incidences of post-injury
+psychiatric, emotional, and behavioral problems, difficulties in adaptive functioning, and
+academic performance deficits after moderate to severe TBI in children (Anderson et al.,
+2005; Fay et al., 1994; Fletcher et al., 1990; Jaffe et al., 1995; Kinsella et al., 1995; Max et al.,
+1997; Schwartz et al., 2003; Taylor et al., 1999, 2002; Yeates et al., 2001, 2002; Yeates &
+Taylor, 2006).
+As a group, children with TBI show distinct longitudinal patterns of change in cognitive,
+academic, behavioral, and adaptive domains. Children with moderate to severe TBI generally
+show significant improvement in their neuropsychological functioning during the first year
+post injury, yet recovery often begins to plateau after the first year post injury, with negligible
+rates of change appearing during the following 2 years post injury (Chadwick et al., 1981;
+Jaffe et al., 1995). Persistent neuropsychological sequelae of childhood TBI continuing past 1
+year post injury have also been documented (Chadwick et al., 1981; Jaffe et al., 1995; Kinsella
+et al., 1995; Yeates et al., 2002).
+Because recovery is a developmental process that occurs over time, new impairments may also
+emerge (Anderson et al., 1997; Dennis et al., 1995). Long-term follow-up of children with
+severe TBI suggests that behavioral, adaptive, and academic deficits often fail to resolve over
+time, despite partial recovery in cognitive functions during the first year (Anderson et al.,
+2005; Jaffe et al., 1995; Kinsella et al., 1999; Perrot et al., 1991; Schwartz et al., 2003; Taylor
+et al., 1999, 2002; Yeates et al., 2002). Many studies have found evidence of deterioration in
+behavioral adjustment across time and persistent post injury behavior problems in children
+with TBI (Jaffe et al., 1995; Schwartz et al., 2003; Taylor et al., 1999, 2001). Adaptive
+functioning also may decline during the first year post injury, particularly in the domain of
+socialization (Anderson et al., 1997; Stancin et al., 2002). Yeates et al. (2001) demonstrated
+that while cognitive and somatic symptoms declined during the first year post injury in children
+with TBI, emotional and behavioral symptoms became more common. In addition, a number
+of studies have demonstrated that initial improvements in academic skills may be most
+prominent in children with severe TBI, with persisting or worsening functional deficits
+emerging at later time points (Barry et al., 1996; Ewing-Cobbs et al., 1998; Jaffe et al., 1995;
+Max et al., 1997).
+Almost all previous studies on the outcomes of TBI have compared children with TBI to those
+with injuries not involving the head or healthy children by testing the statistical significance
+of mean differences between groups, rather than by examining the presence of functional
+deficits in individual children. Very few studies have reported the proportion of individual
+children who display significant functional deficits in specific outcome domains after TBI. The
+few studies that have explored individual functional deficits in childhood TBI have focused
+on behavioral and academic impairments. For example, Max et al. (1997) found that by the
+second year post injury, 36% of children with moderate to severe TBI met criteria for a new
+psychiatric disorder. Schwartz et al. (2003) found higher rates of clinically significant behavior
+problems at 3 years post injury in children with moderate to severe TBI than in children with
+orthopedic injuries. Similarly, Anderson et al. (2005) found that the percentage of moderate to
+severe behavioral impairment in children with severe TBI increased from 4.8% immediately
+post-injury to 34.6% by 30 months post-injury. Ewing-Cobbs et al. (1998) examined school
+performance in children with severe TBI and found that 79% of the cohort had either repeated
+a grade or were receiving special assistance in school by a two-year postinjury follow-up. In
+Fay et al.
+Page 2
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+addition, Taylor et al. (2003) investigated the rates of placement in special education programs
+following TBI and found that half of the severe TBI group were in special education programs
+several years post injury.
+In the current study, we investigated longitudinal patterns of functional deficits in children with
+moderate to severe TBI as compared to children with OI. Our study differs from most previous
+research by focusing on individual children's performance across the broad array of domains
+that are often examined by neuropsychologists in clinical practice, including behavioral and
+adaptive functioning and academic and neuropsychological performance. Moreover, we did
+not examine the statistical significance of group differences in means between children with
+TBI and orthopedic injuries (OI) using a variable-centered approach, as past research has done
+almost exclusively; instead, we adopted a person-centered approach and studied patterns of
+functional deficits over time in individual children. Person- and variable-centered approaches
+are associated with complementary analytic methods that conceptualize the organization of
+longitudinal data differently. Both approaches contribute to the understanding of specific links
+between predictors and outcomes, relations between individual positions on latent dimensions,
+and patterns of individual development across time (Laursen & Hoff, 2006; Magnusson, 2003;
+Bergman & Trost, 2006; von Eye & Bogat, 2006).
+For our purposes, we identified individual patterns of functional deficits across time by
+choosing a cutoff score. The use of a cutoff score was necessary to classify each child's
+performance in terms of whether or not it represented a deficit that was atypical from a
+normative perspective, and hence likely to be apparent in ‘real world’ functioning. No universal
+agreement exists regarding the definition of functional deficits or clinically-relevant
+impairments. Furthermore, cutoff scores unavoidably impose an arbitrary group structure on
+continuous distributions (Francis et al., 2005). However, scores that fall below the tenth
+percentile (i.e., ≤ −1.3 standard deviations) are often considered to represent significant
+impairment or deficits in clinical neuropsychological practice (Hannay & Lezak, 2004; Golden
+et al., 1991; Heaton et al., 1991). We thus defined a functional deficit in this manner for the
+neuropsychological, academic, and adaptive domains, and in a similar manner for the behavior
+domain (i.e., ≥ +1.3 standard deviations). We then classified children into four a priori
+longitudinal patterns of outcomes within each domain: no deficits, persistent deficits,
+improvement (initial deficit followed by no deficit), and deterioration (no initial deficit
+followed by later deficit).
+Based on previous research, we hypothesized that injury severity would be a predictor of
+persistent individual deficits in all domains (Anderson et al., 1997, 2005; Fay et al., 1994; Jaffe
+et al., 1995; Taylor et al., 1999). Because previous literature has shown declines in behavioral
+functioning, we also hypothesized that children with moderate to severe TBI would be more
+likely to demonstrate deterioration in behavioral functioning across time than children in the
+OI group (Anderson et al., 2005; Max et al., 1997; Taylor et al., 2002; Yeates et al., 2001).
+Finally, in accordance with previous research (Jaffe et al., 1995; Taylor et al., 2002), we
+expected that improvements in neuropsychological and academic functioning would be more
+common among children with severe TBI than those with OI.
+Method
+Study Design and Procedures
+The study used a concurrent cohort-prospective design in which children 6 to 12 years of age
+were followed for approximately 3 to 5 years post injury. The total sample included 109
+children with TBI and 80 children with orthopedic injuries (OI) recruited from admissions to
+four hospitals in North-Central Ohio between 1992 and 1995. Children who were admitted to
+the hospital with a moderate to severe TBI or OI and who met criteria for inclusion were
+Fay et al.
+Page 3
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+contacted prospectively by the study coordinator at each site. An initial assessment was
+completed on average 3 weeks post injury (mean interval 3.1 weeks, SD = 1.5). Children with
+TBI had to demonstrate recovery from post-traumatic amnesia prior to any testing; only one
+child was excluded because of persistent post-traumatic amnesia that did not resolve within
+the necessary time frame, and that child was not testable because of a persistent vegetative
+state. Estimates of childhood pre-injury behavioral and adaptive functioning and pre-injury
+family functioning were obtained for both groups, based on retrospective parent ratings
+collected during or shortly after hospitalization. Child and family outcomes were assessed 6
+and 12 months after the initial evaluation, and again at an extended follow-up on average 4
+years post injury (M = 4.16, SD = 0.91). Data included in this study were obtained in compliance
+with the appropriate Institutional Review Boards.
+Research Participants
+Recruitment occurred after informed consent was obtained from the child's parent or guardian.
+Participants were required to (a) be between 6 and 12 years of age at time of the injury, (b)
+reside in an English speaking household, (c) be hospitalized for at least one night's duration
+for either TBI or OI, and (d) have no evidence of child abuse or previous neurological disorder.
+Children with TBI whose injuries did not fall into the general category of closed head injuries
+were excluded (e.g., brain injury due to near drowning or toxic exposure, projectile wounds,
+or stroke).
+As reported previously (Taylor et al., 2002; Yeates et al., 2002), children with TBI were
+classified into two severity groups. Severe TBI was defined on the basis of the lowest Glasgow
+Coma Scale (GCS) score of 8 or less (Teasdale and Jennett, 1974). Moderate TBI was defined
+in terms of a GCS score of 9-12 or a score greater than 12 accompanied by complications (i.e.,
+skull fracture, intracranial mass lesion or contusion, diffuse cerebral swelling, post-traumatic
+neurological abnormality, or documented loss of consciousness greater than 15 minutes).
+Although many children in the TBI group had accompanying orthopedic injuries, the OI group
+was limited to children without any symptoms suggestive of a possible central nervous system
+insult (e.g., symptoms of concussion). Children with OI were chosen as a comparison group
+to control for the effects of hospitalization as well as for premorbid characteristics that could
+increase the risk of non-intentional injury. The severity of traumatic injuries that were sustained
+by children in both groups was assessed using the Injury Severity Scale (ISS) (Mayer et al.,
+1980; Taylor et al., 1999). The ISS is an anatomical scoring system that provides an overall
+score for patients with multiple injuries. Each injury is assigned an Abbreviated Injury Scale
+(AIS) score and is allocated to one of six body regions, including the head. Only the highest
+AIS score for each body region is used. The scores for the three most severely injured body
+regions are squared and summed together to produce the ISS score.
+For the purposes of the current analysis, we included only children who completed all follow-
+up assessments (6 months, 1 year, and 4 years post injury). No significant differences were
+observed in age, gender, race, family composition, or severity of injury when comparing
+children with TBI who returned for follow-up testing to those that did not. However, families
+of children with TBI who did not return demonstrated a lower socioeconomic status. Among
+children with OI, no significant differences in demographic characteristics were found between
+those who returned for follow-up testing and those who did not. The final sample consisted of
+37 children with severe TBI, 40 with moderate TBI, and 44 children with OI.
+Table 1 summarizes the demographics characteristics of the three groups, which did not differ
+in age at injury, gender, family composition, socioeconomic status, or time from injury to the
+4 year follow-up testing. Children from the OI group were more likely to be of African
+American ethnicity χ2 (1, N = 121) = 5.97. In addition, and as expected, the groups differed
+significantly in duration of hospitalization (p < .05) and ISS (p < .01), with the severe TBI
+Fay et al.
+Page 4
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+group demonstrating the longest hospitalization stay and most severe injuries. The moderate
+TBI group had a somewhat higher mean GCS score than might be expected, but included
+children who in some studies would be classified as complicated mild TBI (i.e., GCS 13-15
+but with extended loss of consciousness or abnormal neuroimaging).
+Measures
+Family functioning—Family measures included parent ratings of premorbid family
+functioning and non-injury-related environmental stress, obtained at the baseline assessment,
+as well as a composite measure of socioeconomic status. The 12-item General Functioning
+Scale from the McMaster Family Assessment Device was used as a summary measure of family
+functioning (FAD; Miller, et al., 1985; Stevenson-Hinde & Akister, 1995). Environmental
+stress unrelated to the injury was measured using a composite derived from the Life Stressors
+and Social Resources Inventory-Adult Form (LISRES-A; Moos & Moos, 1994). The
+composite was an average of T scores for all stress subscales aside from those specific to the
+child and to negative life events. Potential effects of the original injury on the latter two
+subscales justified their exclusion. A Socioeconomic Composite Index (SCI) was computed
+to provide a distal measure of the family environment (Yeates & Taylor, 1997). It was computed
+by averaging sample z scores for the Duncan Occupational Status Index (Stevens &
+Featherman, 1981), annual family income as coded on the LISRES-A, and years of maternal
+education as measured at the baseline assessment.
+Neuropsychological functioning—Children were administered a set of
+neuropsychological tests (see Yeates et al., 2002 for details). The tests included a short form
+of the Wechsler Intelligence Scale for Children, Third Edition (WISC-III; Wechsler, 1991),
+which provided prorated Verbal and Performance IQ scores; Recalling Sentences subtest of
+the Clinical Evaluation of Language Fundamentals-Revised (CELF-R; Semel et al., 1987);
+Developmental Test of Visual-Motor Integration (VMI; Beery, 1989); Contingency Naming
+Test (Taylor et al., 1998; Anderson et al., 2000), Boston Naming Test (Yeates, 1994);
+Controlled Oral Word Association Test (COWA; Spreen & Strauss, 1991); a prepublication
+version of the California Verbal Learning Test (CVLT; Delis et al., 1986); Continuous
+Performance Test-3 (CPT-3; Lindgren & Lyons, 1984); Subtests 2, 4, and 9 of the Underlining
+Test (Rourke & Orr, 1977); and Grooved Pegboard Test (Knights & Norwood, 1980). All tests
+were completed at each assessment, with the exception of the Grooved Pegboard, which was
+administered only at the 6 and 12 month assessments.
+A poor neuropsychological outcome was defined based on the presence of three or more
+functional deficits (i.e., age-based standardized scores below the 10th percentile) at each
+assessment. Age-corrected standard scores were used in coding tests with published norms.
+For tests without published norms, raw scores were transformed to age and gender-corrected
+z scores prior to analysis (Taylor & Schatschneider, 1992). Transformations were based on the
+performances of the OI group at each assessment. Eleven neuropsychological tests were
+administered in total; the cutoff of three or more functional deficits minimizes the likelihood
+of false positives when identifying a poor neuropsychological outcome at each assessment
+(Ingraham & Aiken, 1996).
+Behavioral functioning—Behavioral functioning was assessed by having parents complete
+the Child Behavior Checklist (CBCL; Achenbach, 1991), a widely-used rating scale with good
+reliability and validity. A functional deficit in behavioral adjustment was defined as a Total
+Behavior Problem T-Score above the 90th percentile.
+Adaptive functioning—Adaptive functioning was assessed using the Vineland Adaptive
+Behavior Scales, which is a semi-structured parent interview (VABS; Sparrow et al., 1984). A
+Fay et al.
+Page 5
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+functional deficit in adaptive behavior was defined as one or more age-based standard scores
+below the 10th percentile on the Communication, Daily Living Skills, or Socialization scales.
+Academic outcome—Children completed the Word Identification, Writing Sample, and
+Calculation subtests of the Woodcock-Johnson Test of Achievement- Revised (WJ-R;
+Woodcock & Mather, 1989). A functional deficit in academic skills was defined as one or more
+age-based standard scores below the 10th percentile.
+Data Analysis
+Each individual child's outcomes at each occasion within each domain (i.e.,
+neuropsychological, behavioral, adaptive and academic) were coded into dichotomous
+dependent variables (i.e., functional deficit versus no deficit) using the criteria described above.
+We then examined patterns of outcomes in each domain across time. Children were classified
+into four a priori longitudinal patterns of outcomes within domains: no deficit at any occasion;
+persistent deficits at all occasions; improvement (i.e., deficit at 6 months followed by no deficit
+at 1 and 4 years or deficits at 6 months and 1 year followed by no deficit at 4 years); and
+deterioration (i.e., no deficit at 6 months followed by deficits at both 1 and 4 years post-injury
+or no deficits at 6 months or 1 year followed by deficit at 4 years post-injury). The classification
+represents a person-centered approach to outcome assessment in high-risk groups (Laursen &
+Hoff, 2006; Connell et al., 2006; Masten, 2001), focusing on patterns of outcome suggested
+by previous longitudinal studies of children with TBI (Taylor, 2004).
+Multinomial logistic regression was used to compare the TBI and OI groups in terms of the
+frequency of different patterns of post-injury functional deficits for each of the four types of
+outcomes. The analyses included two dummy variables that represented contrasts between the
+severe TBI and OI groups and between the moderate TBI and OI groups. Predictors used as
+covariates included ethnicity (white vs. non-white), socioeconomic status (SCI), pre-injury
+family functioning (FAD General Functioning) and environmental stress (LISRES-A), child
+pre-injury child behavioral adjustment and school performance (CBCL Total Problems T score
+& school competence T score), and pre-injury child adaptive functioning (baseline VABS
+Adaptive Behavior Composite standard score). Preinjury child status was thus assessed using
+multiple indicators. The dependent variable in each analysis was the pattern of outcome, using
+“no deficits” as the reference category.
+To identify indices of TBI severity associated with patterns of functional deficits over the
+follow-up interval, separate multinomial logistic regression analyses for each functional
+outcome were conducted for the TBI sample only. Instead of dummy variables representing
+group membership, the lowest post-resuscitation GCS score and duration of impaired
+consciousness were used as indices of severity of injury. Because the two indices are highly
+correlated, analyses including both indices would not converge or were characterized by
+singularities; therefore, separate multinomial logistic regression analyses were conducted for
+each measure of severity. The other predictors remained largely the same as the group
+comparisons, although environmental stress (LISRES-A) was eliminated from the analyses
+because some analyses would not converge to a solution when it was included. The reference
+category for each dependent variable again was “no deficits”.
+A variable number of children showed patterns of functional deficits that could not be classified
+into the four major categories, and were excluded from the respective multinomial logistic
+regression analysis. Seven children were excluded in the neuropsychological domain (one
+severe TBI, three moderate TBI, three OI), nine in the behavioral domain (one severe TBI,
+four moderate TBI, four OI), four in the academic domain (one severe TBI, one moderate TBI,
+two OI), and 13 in the adaptive domain (six severe TBI, five moderate, two OI). The children
+Fay et al.
+Page 6
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+excluded from one analysis were not always the same as those excluded from any other. The
+total number of participants reported in Table 1 includes all cases.
+To examine the co-morbidity of functional deficits, ordinal regression analyses were conducted
+on the total number of functional deficits (range = 0-4) at each of the follow-up assessments.
+Similar to the multinomial regression analysis, the ordinal regression analyses were conducted
+with the same dummy variables representing group contrasts and the same covariates.
+Additionally, separate ordinal regression analyses were conducted on the TBI sample only with
+GCS score and duration of impaired consciousness used as indices of injury severity. The
+ordinal regression analyses included all children.
+Results
+Group Differences in Functional Deficits
+Table 2 presents the number and percentage of children from each group who displayed the
+four longitudinal patterns of outcome within each domain. In the multinomial logistic
+regression analyses, the addition of the severe TBI and OI group contrast contributed to
+improved model fit in all four outcome domains (see Table 3), all χ2 s > 8.13, and all p < .05.
+As Table 2 shows, the severe TBI group was more likely than the OI group to display persistent
+deficits in all four outcome domains (i.e., 17-23% vs. 3-7%, depending on domain). In addition,
+the severe TBI group was more likely than the OI group to display a pattern of deterioration
+in behavioral outcomes (19% vs. 5%). Notably, Table 2 also shows that between 48% and 67%
+of the severe TBI group showed no functional deficits in neuropsychological, behavioral,
+academic or adaptive functioning over time.
+The addition of the moderate TBI and OI group contrast also contributed to improved model
+fit for the neuropsychological and academic outcomes, χ2s > 7.90, p < .05 (see Table 3). The
+moderate TBI group was significantly more likely than the OI group to display persistent
+neuropsychological deficits (14% vs. 5%; see Table 2). None of the specific patterns involving
+adaptive or academic outcomes was significantly more common among the moderate TBI
+group.
+Children's premorbid functioning was also a consistent predictor of outcome. Premorbid
+adaptive functioning significantly predicted neuropsychological, behavioral, adaptive and
+academic outcomes, all χ2 s > 8.34 and all p < .05, premorbid behavioral functioning
+significantly predicted behavioral and adaptive outcomes, both χ2 s > 13.59 and both p < .05,
+and premorbid school functioning significantly predicted academic outcomes, χ2 = 22.79 and
+p < .01. In general, poorer premorbid functioning predicted an increased likelihood of persistent
+deficits (see Table 3). Poorer premorbid functioning also predicted an increased likelihood of
+improvement in some domains, although poor premorbid school performance predicted an
+increased likelihood of deterioration in academic outcomes.
+Environmental factors at baseline also predicted outcomes in multiple domains.
+Socioeconomic status predicted neuropsychological, behavioral and academic outcomes, both
+χ2 s > 18.78 and all p < .01, and family environmental stress (i.e., LESRI) predicted academic
+outcomes, χ2 = 8.59 and p < .05. In general, lower socioeconomic status was associated with
+increased likelihood of persistent deficits, and lower family stress predicted an increased
+likelihood of improvement in academic functioning (see Table 3).
+Table 4 shows the number and percentage of children from each group who displayed from 0
+to 4 total deficits across domains at each occasion. The groups differed significantly in the total
+number of total functional deficits. The models that included the contrast between the severe
+TBI and OI groups demonstrated a significantly better overall fit than models without that
+Fay et al.
+Page 7
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+contrast at all three time periods (all Wald statistics >8.36, and all p< .05 ). As Table 4 shows,
+children in the severe TBI group were more likely than those in the OI group to display 3 or
+more functional deficits at all time periods, depending on the time post injury (i.e., 16-25% vs.
+2-12%).
+Models that included the contrasts between the moderate TBI and OI groups resulted in a
+significantly better overall fit than models without that contrast at only 1 year post injury (Wald
+statistic =6.92, p< .05; see Table 4). Children in the moderate TBI group were more likely than
+those in the OI group to display more total deficits (13% displayed 3 or more total deficits vs.
+2% of the OI group).
+Indices of TBI Severity as Predictors of Functional Deficits
+Table 5 summarizes the results of the multinomial regression analyses using duration of
+unconsciousness to predict the four longitudinal patterns of outcome within each domain.
+Models that included duration of unconsciousness as a predictor demonstrated a significantly
+better overall fit than models without that predictor for neuropsychological, adaptive, and
+academic outcomes, χ2 > 8.41, p < .05. A longer duration of unconsciousness was associated
+with a greater likelihood of persistent neuropsychological and adaptive deficits, as well as with
+a greater likelihood of improvement in neuropsychological, adaptive, and academic outcomes.
+Table 6 summarizes the results of the multinomial regression analyses using lowest GCS score
+to predict the four longitudinal patterns of outcome within each domain. Inclusion of the lowest
+GCS as a predictor yielded a significantly better overall fit than when that predictor was
+excluded for behavioral, adaptive, and academic outcomes, χ2 > 8.14, p < .05. A lower GCS
+score was associated with a greater likelihood of persistent adaptive deficits and improvement
+in adaptive outcome, as well as with a greater likelihood of deterioration in behavioral
+outcomes.
+When examining the TBI group only, children's premorbid functioning remained a consistent
+predictor of outcome. Premorbid behavioral functioning significantly predicted behavioral,
+adaptive, and academic outcomes, all χ2 s > 9.13, and all p < .05, and premorbid school
+performance significantly predicted neuropsychological, behavioral, and academic
+functioning, all χ2 s > 10.91, and all p < .05 (see Tables 5 & 6). More behavioral problems at
+baseline were associated with persistent deficits and deterioration in behavioral and adaptive
+domains, and improvement in adaptive and academic domains. Poorer premorbid school
+performance was associated with an increased likelihood of deterioration in academic
+functioning. Environmental variables were less consistently associated with outcomes in the
+TBI group, but lower socioeconomic status predicted persistent deficits in all outcome domains,
+all χ2 s > 9.64, and all p < .05, as well as deterioration in behavioral and academic functioning
+(see Tables 5 & 6).
+Duration of unconsciousness and lowest GCS score were also significant predictors of the
+number of functional deficits at each follow-up occasion. Models that included duration of
+unconsciousness and lowest GCS score as predictors of the total number of deficits at each
+occasion demonstrated a significantly better overall fit than models without these predictors,
+such that greater injury severity was consistently associated with a higher total number of
+functional deficits (all Wald statistics >4.59, and all p< .05 ).
+Discussion
+By focusing on individual functional deficits, the current findings help to clarify the nature of
+the course of recovery after pediatric TBI. The findings support our central hypothesis that
+children with severe TBI are more likely to demonstrate persistent functional deficits in
+Fay et al.
+Page 8
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+neuropsychological, behavioral, adaptive and academic outcomes than children with OI. On
+the other hand, many children with severe TBI showed no deficits from 6 months to 4 years
+post injury in one or more outcome domains. The apparent absence of deficits for these children
+does not prove that they had no deficits, as many may have been more adversely affected prior
+to the 6-month follow-up or may have sustained sequelae that were too mild to meet our criteria
+for functional deficits. Moreover, the severe TBI group displayed significantly more total
+deficits at all time periods as compared to the OI group. At 1 year post injury, nearly 60% of
+the severe TBI groups showed functional deficits in at least one domain, as opposed to about
+25% of the OI group. Similarly, at 4 years post-injury, about 40% of the severe TBI group
+showed functional deficits in two or more domains, whereas less than 20% of the OI group did
+so.
+Duration of unconsciousness and lowest GCS score also were significant predictors of patterns
+of deficits across time and total number of deficits. These results are consistent with our
+previous findings from this study, as well as with other research demonstrating that injury
+severity is a key predictor of outcome in childhood TBI (Anderson et al., 1997, 2005; Kinsella
+et al., 1999; Schwartz et al., 2003; Taylor et al., 2002; Yeates et al., 2001). We were unable to
+compare the two measures as predictors of outcomes directly, because of their high correlation.
+However, duration of unconsciousness was a significant predictor of outcomes in a somewhat
+different set of domains (i.e., neuropsychological, adaptive, academic) than was lowest GCS
+score (i.e., behavioral, adaptive). Thus, neither predictor appears to be consistently superior to
+the other, consistent with previous research on the ability of measures of TBI severity to predict
+neurobehavioral and functional outcomes (Massagli, Michaud, & Rivara, 1996; McDonald et
+al., 1994).
+As hypothesized, children in the severe TBI group not only were more likely to show persistent
+functional deficits across domains, but also were significantly more likely to display a pattern
+of deterioration in behavioral outcomes. The latter findings suggest the delayed onset of
+significant behavior problems for some children with TBI. This result is consistent with our
+previous findings, as well as with other studies showing that behavior problems in children
+with severe TBI persist past 1 year post injury, and highlights the specific incidence of delayed
+behavior problems in individual children following a severe TBI (Max et al., 1997; Schwartz
+et al., 2003; Taylor et al., 1999, 2002; Yeates & Taylor, 2006). Anderson et al. (2005)
+specifically demonstrated comparable findings, such that children with severe TBI showed
+increased behavioral impairment by 30 months post injury.
+Again as predicted, we found that improvement in neuropsychological and academic domains
+was more common among children with severe TBI. For instance, 11% of children with severe
+TBI demonstrated improvement in neuropsychological functioning over time compared to only
+3% of children with moderate TBI and 5% of children with OI. This is consistent with a study
+by Jaffe et al. (1995) that showed improvements in academic and neuropsychological
+functioning during the first year post-injury, with persistent deficits continuing across 3 years.
+Although not a primary focus, our analyses also showed that children's premorbid functioning
+helped account for functional outcomes. For instance, poorer premorbid behavioral and
+adaptive functioning predicted persistent neuropsychological, behavioral, and adaptive
+deficits. Worse premorbid behavioral functioning also predicted deterioration in behavioral
+and adaptive functioning. These findings are in line with previous studies on this cohort by
+Schwartz et al. (2003) and Taylor et al. (2002), showing that preinjury behavioral adjustment
+predicts the onset of behavior problems after injury. Anderson et al. (1997) reported similar
+findings, with preinjury adaptive functioning predicting intellectual functioning at 12 months
+post-injury in children with moderate and severe TBI. We also found that lower premorbid
+school competence was associated with persistent neuropsychological deficits and
+Fay et al.
+Page 9
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+deterioration in adaptive and academic functioning. Additionally, low socioeconomic status
+was consistently associated with persistent deficits in all domains. Taken together, these
+findings indicate that children with poorer premorbid functioning and less advantaged family
+environments are at greater risk for persistent functional deficits and deterioration in many
+domains of functioning.
+In summary, our findings build on the existing literature by demonstrating that a significant
+proportion of children demonstrate functional deficits following severe TBI, and those who do
+so are at risk for persistent deficits, even many years after recovery. The results also indicate
+that some children with severe TBI demonstrate recovery in academic and neuropsychological
+domains, but some show the delayed onset of significant behavioral problems. Children with
+better premorbid functioning may have a greater chance of recovery or improvement over time,
+while those with significant preinjury problems may be more likely to display negative long-
+term sequelae of TBI.
+At the same time, the findings also indicate that many children with moderate to severe TBI
+actually show few functional deficits. Indeed, one of the central findings presented here is that
+the TBI groups demonstrate less functional impairment than might have been expected based
+on existing research, which generally uses a variable-centered approach that focuses on the
+statistical significance of group differences in mean scores. Variable-centered analyses may
+lead to an overestimation of the incidence of individual deficits following TBI, because the
+conclusions drawn are based on groups that show considerable overlap in the distribution of
+scores, even in the presence of a significant differences with effect sizes of the magnitude often
+found in studies of TBI (i.e., .5 to 1 standard deviation). Our findings are based on individual
+scores rather than group means, as well as on reasonably stringent definitions of clinical
+impairment; they therefore provide an important and different perspective on the nature of
+deficits following childhood TBI.
+A limitation of this study is the use of a cutoff score to classify functional deficits. Cutoff scores
+have inherent limitations, but are a convenient means of differentiating typical from atypical
+performance. Any choice of a cutoff score is somewhat arbitrary, although we chose a cutoff
+often considered to represent significant impairment in clinical neuropsychological practice.
+A more liberal cutoff (e.g. 15th percentile) would have led to the identification of more
+functional deficits, even in the OI group. A more conservative cutoff (e.g. 5th percentile) would
+have resulted in the identification of few functional deficits, even among children with TBI.
+In either instance, however, similar differences would have been found between the TBI and
+OI groups in the relative incidence of deficits.
+One concern about the use of cutoff scores is that they may not result in reliable classification,
+because changes in classification can occur with relatively trivial changes in performance. We
+performed follow-up analyses comparing the actual performances within outcome domains of
+the individuals who were classified according to their patterns of functional deficits. The
+analyses showed that the groups displayed significantly different patterns of mean scores in
+each outcome domain across time (i.e., neuropsychological, behavioral, adaptive and
+academic). Moreover, the mean scores showed significantly different trends across time,
+consistent with the patterns of functional deficits into which they were classified (i.e., no
+deficits, persistent deficits, improvement, and deterioration). Thus, the classification of
+individual functional deficits across time was associated with corresponding group change or
+stability in mean scores within domains.
+Alternatively, we could have calculated a Reliable Change Index (RCI) to determine whether
+the difference between initial and subsequent test scores from the same examinee could be
+attributed to measurement error (Jacobson & Truax, 1991; Jacobsen et al., 1999; Slick,
+Fay et al.
+Page 10
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+2006). However, a RCI can only be used with two time points, whereas our study examined
+outcome over three time points. Additionally, RCI applies to a single measure, whereas some
+of the outcomes in the current study were assessed based on multiple indices (e.g.,
+neuropsychological functioning). Perhaps more importantly, a significant RCI can occur even
+when neither score being compared is normatively atypical, and therefore would not
+necessarily have functional implications (Slick, 2006). We were interested in whether or not
+each child demonstrated a functional deficit at each time point, not whether the change from
+baseline was significant. In clinical practice, neuropsychologists scrutinize individual test
+scores to determine whether or not a child evidences functional impairment. This study used
+similar methods to examine the functional outcomes of children with TBI.
+The study was also limited because environmental variables were examined only as covariates
+in the prediction of functional outcomes, rather than as potential moderators, as we have done
+in past studies (Taylor et al., 2002; Yeates et al., 2002). We attempted to assess the effects of
+interactions of injury severity with environmental variables in the multinomial logistic
+regression analyses. However, in three out of the four cases, entry of the interaction terms led
+to Hessian singularities or problems of convergence. This is most likely a function of the
+multicollinearity between interaction terms, as well as the relatively small number of cases
+within some of the groups of longitudinal patterns. Future studies with larger sample sizes will
+be needed to investigate the moderating effects of environmental variables on functional
+outcomes after childhood TBI. Another limitation in our analysis is that we did not use
+advanced statistical techniques that derives patterns of outcomes across time empirically (e.g.,
+latent transition analysis, latent class growth analysis), largely because our sample size would
+not necessarily support such techniques (Muthén & Muthén, 2000).
+Another limitation shared by many studies of childhood TBI is that children's behavioral and
+adaptive functioning, as well as family functioning and environmental stress, were all assessed
+by parent report. In addition, the parent's ratings of premorbid functioning were unavoidably
+retrospective. Additionally, families of children with TBI who did not return for follow-up
+were of lower SES than those who remained in the study. Because the outcomes examined in
+this study are influenced by socioeconomic status, and the TBI participants who remained in
+the study were of higher SES than those who did not, our results may underestimate somewhat
+the proportion of functional deficits that occur after pediatric TBI. However, because we
+controlled for socioeconomic status in our analyses and found no other demographic
+differences between groups, group differences in functional deficits are unlikely to be strongly
+impacted by this bias. A final limitation is that follow-ups assessments were not completed
+between 1 and 4 years post injury; more frequent follow-ups would have allowed for a more
+precise description and categorization of longitudinal patterns of outcome.
+Despite these limitations, the current results indicate that children show significant variation
+in their functioning after a moderate to severe TBI, with a substantial proportion actually
+showing relatively few functional deficits during recovery. We found that a child's individual
+pattern of functional deficits after a moderate to severe TBI is likely determined by a variety
+of factors, including severity of injury, premorbid functioning, and environmental factors such
+as socioeconomic status. Notably, functional deficits were not uncommon in the severe TBI
+group. Approximately two out of five children with severe TBI demonstrated two or more
+functional deficits that persisted more than 4 years post injury, despite the provision of
+substantial clinical and educational services to many of them. These persistent deficits highlight
+the need for careful evaluation and ongoing monitoring of children with severe TBI throughout
+their recovery, because some of them will demonstrate multiple areas of functional impairment
+that persist for many years after their injuries. These deficits are likely to have a significant
+impact on children's general quality of life and presumably will necessitate ongoing
+intervention (Stancin et al., 2002; Yeates & Taylor, 2006). On the other hand, the findings hold
+Fay et al.
+Page 11
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+out hope that children with severe TBI may demonstrate surprisingly few functional deficits.
+A goal of future research will be to further clarify the reasons for variability in outcomes among
+children with TBI.
+Acknowledgments
+This work was supported by NINDS grant NS36335, National Institutes of Health, and by grant MCJ-390611, Maternal
+and Child Health Bureau (Title V, Social Security Act, Health Resources and Services Administration, Department
+of Health and Human Services). The authors wish to acknowledge the contributions of Elizabeth Shaver, Barbara
+Shapero, Madeline Polonia, Marla Kemmerer, Matt Diamond and Nichole Wood in data collection and coding. We
+also wish to acknowledge the participation of the Children's Hospital Medical Center of Akron and the collaboration
+of George Thompson, M.D., G. Dean Timmons, M.D., and Dennis Weiner, M.D. Assistance with recruitment was
+provided by the Rainbow Pediatric Trauma Center, Rainbow Babies & Children's Hospital, Columbus Children's
+Hospital Trauma Program, and MetroHealth Center Trauma Registry.
+References
+Achenbach, TM. Manual for the Child Behavior Checklist/4-18 and 1991 Profile. University of Vermont,
+Department of Psychiatry; Burlington: 1991.
+Anderson VA, Morse SA, Klug G, Catroppa C, Haritou F, Rosenfeld J, Pentland L. Predicting recovery
+from head injury in young children: A prospective analysis. Journal of the International
+Neuropsychological Society 1997;3:568–580. [PubMed: 9448370]
+Anderson P, Anderson V, Northam E, Taylor HG. Standardization of the Contingency Naming Test: A
+measure of reactive flexibility. Clinical Neuropsychological Assessment 2000;1:247–273.
+Anderson VA, Catroppa C, Haritou F, Morse S, Rosenfeld JV. Identifying factors contributing to child
+and family outcome 30 months after traumatic brain injury. Journal of Neurology, Neurosurgery &
+Psychiatry 2005;76:401–408.
+Barry CT, Taylor HG, Klein S, Yeates KO. The validity of neurobehavioral symptoms in children with
+traumatic brain injury. Child Neuropsychology 1996;2:213–226.
+Beery, KE. Revised administration, scoring, and teaching manual for the Developmental Test of Visual-
+Motor Integration. Modern Curriculum Press; Cleveland, OH: 1989.
+Bergman LR, Trost K. The person-oriented versus the variable-oriented approach: Are they
+complementary, opposites, or exploring different worlds? Merrill-Palmer Quarterly 2006;52(3):601–
+632.
+Chadwick O, Rutter M, Brown G, Shaffer D, Traum M. A prospective study of children with head injuries.
+II. Cognitive sequelae. Psychological Medicine 1981;11:49–61. [PubMed: 7208746]
+Connell AM, Dishion TJ, Deater-Deckard K. Variable- and person-centered approaches to the analysis
+of early adolescent substance use: Linking peer, family, and intervention effects with developmental
+trajectories. Merrill-Palmer Quarterly 2006;52(3):421–448.
+Delis, D.; Kramer, J.; Kaplan, E.; Ober, B. The California Verbal Learning Test: Children's Version.
+Psychological Corporation; San Antonio, TX: 1986.
+Dennis, M.; Wilkinson, M.; Koski, L.; Humphreys, RP. Attention deficits in the long term after childhood
+head injury.. In: Broman, SH.; Michel, ME., editors. Traumatic head injury in children. Oxford
+University Press; New York: 1995.
+Ewing-Cobbs L, Fletcher JM, Levin HS, Iovino I, Miner ME. Academic achievement and academic
+placement following traumatic brain injury in children and adolescents: A two-year longitudinal
+study. Journal of Clinical and Experimental Neuropsychology 1998;20:769–781. [PubMed:
+10484689]
+Fay GC, Jaffe KM, Polissar ML, Liao S, Rivara JB, Martin KM. Outcome of pediatric traumatic brain
+injury at three years: A cohort study. Archives of Physical Medicine and Rehabilitation 1994;75:733–
+741. [PubMed: 8024416]
+Fletcher JM, Ewing-Cobbs L, Miner ME, Levin HS, Eisenberg HM. Behavioral changes after closed
+head injury in children. Journal of Consulting and Clinical Psychology 1990;58:93–98. [PubMed:
+2319050]
+Fay et al.
+Page 12
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Francis DJ, Fletcher JM, Stuebing KK, Lyon GR, Shaywitz BA, Shaywitz SE. Psychometric approaches
+to the identification of LD: IQ and achievement scores are not sufficient. Journal of Learning
+Disabilities 2005;38(2):98–108. [PubMed: 15813593]
+Golden, CJ.; Purish, AD.; Hammeke, TA. Luria-Nebraska Neuropsychological Battery: Forms I and II.
+Western Psychological Services; Los Angeles: 1991.
+Hannay, HJ.; Lezak, MD. The neuropsychological examination: Interpretation.. In: Lezak, MD.;
+Howieson, DB.; Loring, DW., editors. Neuropsychological Assessment. 4th ed.. Oxford University
+Press; New York: 2004.
+Heaton, RK.; Grant, I.; Matthews, CG. Comprehensive norms for an expanded Halstead-Reitan battery:
+Demographic corrections, research findings, and clinical applications. Psychological Assessment
+Resources, Inc.; Odessa, FL: 1991.
+Ingraham LJ, Aiken CB. An empirical approach to determining criteria for abnormality in test batteries
+with multiple measures. Neuropsychology 1996;10(1):120–124.
+Jacobson NS, Truax P. Clinical significance: A statistical approach to defining meaningful change in
+psychotherapy research. Journal of Consulting and Clinical Psychology 1991;59:12–19. [PubMed:
+2002127]
+Jacobson NS, Roberts LJ, Berns SB, McGlinchey JB. Methods for defining and determining the clinical
+significance of treatment effects: Description, application, and alternatives. Journal of Consulting
+and Clinical Psychology 1999;67:300–307. [PubMed: 10369050]
+Jaffe KM, Polissar NL, Fay GC, Liao S. Recovery trends over three years following pediatric traumatic
+brain injury. Archives of Physical Medicine and Rehabilitation 1995;76:17–26. [PubMed: 7811169]
+Kinsella G, Prior M, Sawyer M, Murtagh D, Eisenmajer R, Anderson V, et al. Neuropsychological deficit
+and academic performance in children and adolescents following traumatic brain injury. Journal of
+Pediatric Psychology 1995;20:753–767. [PubMed: 8558376]
+Kinsella G, Ong B, Murtaugh D, Prior M, Sawyer M. The role of the family for behavioral outcome in
+children and adolescents following traumatic brain injury. Journal of Consulting and Clinical
+Psychology 1999;67:116–123. [PubMed: 10028215]
+Knights, RJ.; Norwood, JA. Revised smoothed normative data on the neuropsychological battery for
+children. Carleton University, Department of Psychology; Ottawa, Ontario: 1980.
+Laursen B, Hoff E. Person-centered and variable-centered approaches to longitudinal data. Merrill-
+Palmer Quarterly 2006;52(3):377–389.
+Lindgren, S.; Lyons, D. Pediatric assessment of cognitive efficiency (PACE). Department of Pediatrics,
+University of Iowa; Iowa City: 1984.
+Masten AS. Ordinary magic: Resilience processes in development. American Psychologist 2001;56:227–
+238. [PubMed: 11315249]
+Mayer T, Matlack M, Johnson D, Walker M. The Modified Injury Severity Scale in pediatric multiple
+trauma patients. Journal of Pediatric Surgery 1980;15:719–726. [PubMed: 7463271]
+Max JE, Robin DA, Lindgren SD, Smith WL Jr. Sato Y, Mattheis PJ, et al. Traumatic brain injury in
+children and adolescents: psychiatric disorders at two years. Journal of the American Academy of
+Child & Adolescent Psychiatry 1997;36:1278–1285. [PubMed: 9291730]
+Massagli TL, Michaud LJ, Rivara FP. Association between injury indices and outcome after severe
+traumatic brain injury in children. Archives of Physical Medicine and Rehabilitation 1996;77:125–
+32. [PubMed: 8607735]
+McDonald CM, Jaffe KM, Fay GC, Polissar NL, Martin KM, Liao S, Rivara JB. Comparison of indices
+of traumatic brain injury severity as predictors of neurobehavioral outcome in children. Archives of
+Physical Medicine and Rehabilitation 1994;75:328–37. [PubMed: 8129588]
+Miller I, Bishop D, Epstein N, Keitner G. The McMaster Family Assessment Device: Reliability and
+Validity. Journal of Marital and Family Therapy 1985;11:345–356.
+Moos, R.; Moos, B. Life Stressors and Social Resources Inventory-Adult Form: Professional manual.
+Psychological Assessment Resources; Odessa, FL: 1994.
+Muthén B, Muthén LK. Integrating person-centered and variable-centered analyses: Growth mixture
+modeling with latent trajectory classes. Alcoholism: Clinical and Experimental Research 2000;24
+(6):882–891.
+Fay et al.
+Page 13
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Perrot SB, Taylor HG, Montes JL. Neuropsychological sequelae, family stress, and environmental
+adaptation following pediatric head injury. Developmental Neuropsychology 1991;7:69–86.
+Rourke B, Orr R. Prediction of the reading and spelling performances of normal and retarded readers: A
+four-year follow-up. Journal of Abnormal Child Psychology 1977;5:9–20. [PubMed: 557504]
+Schwartz L, Taylor HG, Drotar D, Yeates KO, Wade SL, Stancin T. Long-term behavior problems
+following pediatric traumatic brain injury: prevalence, predictors, and correlates. Journal of Pediatric
+Psychology 2003;28:251–263. [PubMed: 12730282]
+Semel, E.; Wiig, EH.; Secord, W.; Sabers, D. CELF-R: Clinical Evaluation of Language Fundamentals-
+Revised (Technical Manual). Psychological Corporation; New York: 1987.
+Slick, DJ. Psychometrics in neuropsychological assessment.. In: Strauss, E.; Sherman, EMS.; Spreen,
+O., editors. A compendium of Neuropsychological Tests: Administration, Norms and Commentary.
+Third Edition. Oxford University Press; New York: 2006.
+Sparrow, S.; Balla, D.; Cicchetti, D. Vineland Adaptive Behavior Scales. American Guidance Service;
+Circle Pines, MN: 1984.
+Spreen, O.; Strauss, E. A compendium of neuropsychological tests: Administration, norms, and
+commentary. Oxford University Press; New York: 1991.
+Stancin T, Drotar D, Taylor HG, Yeates KO, Wade SL, Minich N. Health-related quality of life of children
+and adolescents after traumatic brain injury. Pediatrics 2002;109(2):1–8. [PubMed: 11773534]
+Stevens G, Featherman DL. A revised socioeconomic index of occupational status. Social Science
+Research 1981;10:364–395.
+Stevenson-Hinde J, Akister J. The McMaster Model of Family Functioning: observer and parental ratings
+in a nonclinical sample. Family Process 1995;34:337–347. [PubMed: 8582479]
+Taylor HG. Research on outcomes of pediatric traumatic brain injury: Current advances and future
+directions. Developmental Neuropsychology 2004;25:199–225. [PubMed: 14984335]
+Taylor HG, Schatschneider C. Child neuropsychological assessment: A test of basic assumptions. The
+Clinical Neuropsychologist 1992;6:259–275.
+Taylor HG, Hack M, Klein N. Attention deficits in children with <750 gm birth weight. Child
+Neuropsychology 1998;4:21–34.
+Taylor HG, Yeates KO, Wade SL, Drotar D, Klein SK, Stancin T. Influences on first-year recovery from
+traumatic brain injury in children. Neuropsychology 1999;13:76–89. [PubMed: 10067779]
+Taylor HG, Yeates KO, Wade SL, Drotar D, Stancin T, Burant C. Bidirectional child-family influences
+on outcomes of traumatic brain injury in children. Journal of the International Neuropsychological
+Society 2001;7:755–767. [PubMed: 11575597]
+Taylor HG, Yeates KO, Wade SL, Drotar D, Stancin T, Minich N. A prospective study of short- and
+long-term outcomes after traumatic brain injury in children: Behavior and achievement.
+Neuropsychology 2002;16:15–27. [PubMed: 11853353]
+Taylor HG, Yeates KO, Wade SL, Drotar D, Stancin T, Montpetite M. Long term educational
+interventions after traumatic brain injury in children. Rehabilitation Psychology 2003;48:227–236.
+Teasdale G, Jennett B. Assessment of coma and impaired consciousness: A practical scale. Lancet
+1974;2:81–84. [PubMed: 4136544]
+von Eye A, Bergman LR. Person-oriented and variable-oriented research: Concepts, results, and
+development. Merrill-Palmer Quarterly 2006;52(3):390–420.
+Wechsler, D. WISC-III: Wechsler Intelligence Scale for Children-3rd Edition manual. Psychological
+Corporation; San Antonio, TX: 1991.
+Woodcock, R.; Mather, N. Woodcock-Johnson Tests of Achievement-Revised - Standard and
+supplemental batteries. DLM Teaching Resources; Allen, TX: 1989.
+Yeates KO. Comparison of developmental norms for the Boston Naming Test. The Clinical
+Neuropsychologist 1994;8:91–98.
+Yeates KO, Blumstein E, Patterson CM, Delis DC. Verbal memory and learning following pediatric
+closed head injury. Journal of the International Neuropsychological Society 1995;1:78–87. [PubMed:
+9375212]
+Fay et al.
+Page 14
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Yeates KO, Taylor HG. Predicting premorbid neuropsychological functioning following pediatric
+traumatic brain injury. Journal of Clinical and Experimental Neuropsychology 1997;19:825–837.
+[PubMed: 9524877]
+Yeates KO, Taylor GH, Barry C, Drotar D, Wade S, Stancin T. Neurobehavioral symptoms in childhood
+closed-head injuries: changes in prevalence and correlates during the first year postinjury. Journal of
+Pediatric Psychology 2001;26:79–91. [PubMed: 11181884]
+Yeates KO, Taylor HG, Wade SL, Drotar D, Stancin T, Minich N. A prospective study of short- and
+long-term neuropsychological outcomes after pediatric traumatic brain injury. Neuropsychology
+2002;16:514–523. [PubMed: 12382990]
+Yeates KO, Taylor HG. Behavior problems in school and their educational correlates among children
+with traumatic brain injury. Exceptionality 2006;14(3):141–154.
+Fay et al.
+Page 15
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+Fay et al.
+Page 16
+Table 1
+Group Characteristics
+ 
+Groups
+Orthopedic Injury (N=44)
+Moderate TBI (N=40)
+Severe TBI (N=37)
+Age at injury (years); M (SD)
+9.47 (1.90)
+9.49 (1.86)
+9.77 (2.18)
+Lowest Glasgow Coma Scale
+Score; M (SD)*
+n\a
+14.08 (1.74)
+4.70 (1.91)
+Duration of Unconsciousness
+(days); M (SD)*
+n\a
+0.18 (.59)
+5.11 (5.85)
+Duration of Hospitalization
+(days); M (SD)*
+15.09 (14.47)
+6.80 (7.28)
+13.16 (9.60)
+Injury Severity Score; M (SD)
+*
+7.27 (2.77)
+12.33 (5.68)
+19.97 (12.09)
+Sex (% boys)
+61%
+68%
+81%
+Ethnicity (% Caucasian)*
+57%
+75%
+81%
+Socioeconomic Composite
+Index; M (SD)
+−0.01 (.90)
+−0.23 (.88)
+−0.15 (.87)
+Family composition (% two
+parent families)
+57%
+70%
+68%
+Time from injury to 4 year
+follow-up (years); M (SD)
+4.18 (0.94)
+4.25 (0.84)
+4.04 (0.94)
+*Group differences significant, p<.05
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+Fay et al.
+Page 17
+Table 2
+Patterns of Functional Deficits
+ 
+ 
+Groups
+Orthopedic
+Injury n (%)
+Moderate TBI
+n (%)
+Severe TBI n
+(%)
+Neuropsychological Outcome
+No deficits
+33 (81%)
+30 (81%)
+24 (67%)
+Improvement
+2 (5%)
+1 (3%)
+4 (11%)
+Deterioration
+4 (10%)
+1 (3%)
+2 (6%)
+Persistent Deficits
+2 (5%)
+5 (14%)
+6 (17%)
+Behavioral Outcome
+No deficits
+35 (88%)
+28 (78%)
+21 (58%)
+Improvement
+2 (5%)
+1 (3%)
+2 (6%)
+Deterioration
+2 (5%)
+2 (7%)
+7 (19%)
+Persistent Deficits
+1 (3%)
+5 (14%)
+6 (17%)
+Adaptive Outcome
+No deficits
+27 (64%)
+24 (69%)
+15 (48%)
+Improvement
+3 (7%)
+2 (6%)
+2 (7%)
+Deterioration
+10 (24%)
+7 (20%)
+7 (23%)
+Persistent Deficits
+2 (5%)
+2 (6%)
+7 (23%)
+Academic Outcome
+No deficits
+34 (81%)
+29 (74%)
+21 (58%)
+Improvement
+2 (5%)
+4 (10%)
+5 (14%)
+Deterioration
+3 (7%)
+3 (8%)
+3 (8%)
+Persistent Deficits
+3 (7%)
+3 (8%)
+7 (19%)
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+Fay et al.
+Page 18
+Table 3
+Multinomial Logistic Regression results showing Significant Predictors of each Longitudinal Pattern: Total
+Group (OI and TBI)
+Variable
+B (S.E.)
+OR (95% C.I.)
+P
+Neuropsychological Outcome
+Improvement
+No significant results
+Deterioration
+No significant results
+Persistent Deficits
+Socioeconomic Composite Index
+4.84 (1.81)
+125.93 (3.63-4374.77)
+.01
+Race (1=minority)
+3.84 (1.45)
+.01 (2.70-795.15)
+.01
+School Competence
+−.16 (.08)
+.86 (.73-.99)
+.04
+Child Behavior Checklist Total
+−.15 (.07)
+.87 (.75-.99)
+.05
+Vineland Adaptive Behavior
+−.17 (.08)
+.84 (.71-.99)
+.04
+OI vs. Moderate TBI
+−3.55 (1.73)
+.03 (.001-.85)
+.04
+OI vs. Severe TBI
+−3.64 (1.70)
+.03 (.001-.73)
+.03
+Behavioral Outcome
+Improvement
+Socioeconomic Composite Index
+3.46 (1.62)
+31.87 (1.33-762.95)
+.03
+Child Behavior Checklist Total
+.25 (.09)
+1.28 (1.07-1.53)
+.01
+Deterioration
+Child Behavior Checklist Total
+.15 (.06)
+1.17(1.04-1.32)
+.01
+Vineland Adaptive Behavior
+.10 (.05)
+1.10 (1.01-.1.20)
+.03
+OI vs. Severe TBI
+−3.55 (1.23)
+.03 (.003-.32)
+.004
+Persistent Deficits
+Socioeconomic Composite Index
+4.59 (1.69)
+98.04 (3.57-2694.87)
+.01
+Child Behavior Checklist Total
+.37 (.11)
+1.45 (1.16-1.80)
+.001
+Vineland Adaptive Behavior
+.15 (.07)
+1.16 (1.02-1.33)
+.03
+OI vs. Severe TBI
+−6.37 (2.63)
+.002 (0.00-.30)
+.02
+Adaptive Outcome
+Improvement
+Child Behavior Checklist Total
+.18 (.08)
+1.20 (1.03-1.40)
+.02
+Vineland Adaptive Behavior
+−.21 (.10)
+.81 (.66-.98)
+.03
+Deterioration
+Race (1=minority)
+1.47 (.73)
+4.36 (1.05-18.08)
+.04
+Life Stressors & Resources
+Inventory-A
+.14 (.07)
+1.15 (1.01-1.31)
+.03
+School Competence
+−.10 (.04)
+.90 (.83-.98)
+.02
+Persistent Deficits
+Child Behavior Checklist Total
+.23 (.08)
+1.25 (1.07-1.46)
+.01
+OI vs. Severe TBI
+−3.81 (1.54)
+.02 (.001-.45)
+.01
+Academic Outcome
+Improvement
+Life Stressors & Resources
+Inventory-A
+−.18 (.09)
+.83 (.70-.99)
+.04
+Vineland Adaptive Behavior
+−.10 (.05)
+.90 (.82-.99)
+.04
+Deterioration
+Socioeconomic Composite Index
+3.91 (1.56)
+49.89 (2.36-1056.52)
+.01
+Family Functioning (FAD)
+−3.96 (1.99)
+.02 (.00-.96)
+.05
+School Competence
+−.45 (.16)
+.64 (.47-.87)
+.01
+Persistent Deficits
+Socioeconomic Composite Index
+8.37 (3.27)
+4328.47 (7.19-2604821.99)
+.01
+Vineland Adaptive Behavior
+−.12 (.06)
+.89 (.79-.99)
+.05
+OI vs. Severe TBI
+−3.77 (1.68)
+.02 (.00-.61)
+.02
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+Fay et al.
+Page 19
+Table 4
+Total Number of Functional Deficits across Domains by Group
+ 
+ 
+Groups
+Orthopedic Injury n
+(%)
+Moderate TBI n (%)
+Severe TBI n (%)
+Total
+Deficits at 6
+months
+post-injury
+No deficits
+31 (71%)
+24 (60%)
+17 (46%)
+One deficit
+8 (18%)
+9 (23%)
+6 (16%)
+Two deficits
+2 (5%)
+4 (10%)
+5 (14%)
+Three deficits
+1 (2%)
+2 (5%)
+7 (19%)
+Four deficits
+2 (5%)
+1 (3%)
+2 (5%)
+Total
+Deficits at 1
+year post-
+injury
+No deficits
+33 (75%)
+22 (55%)
+16 (43%)
+One deficit
+4 (9%)
+10 (25%)
+7 (19%)
+Two deficits
+6 (14%)
+3 (8%)
+8 (22%)
+Three deficits
+1 (2%)
+3 (8%)
+4 (11%)
+Four deficits
+0 (0%)
+2 (5%)
+2 (5%)
+Total
+Deficits at 4
+years post-
+injury
+No deficits
+26 (59%)
+22 (55%)
+14 (38%)
+One deficit
+12 (27%)
+10 (25%)
+8 (22%)
+Two deficits
+1 (2%)
+4 (10%)
+6 (16%)
+Three deficits
+2 (5%)
+2 (5%)
+5 (14%)
+Four deficits
+3 (7%)
+2 (5%)
+4 (11%)
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+Fay et al.
+Page 20
+Table 5
+Multinomial Logistic Regression showing Significant Predictors of Outcome: TBI Group only Index of Severity
+= Duration of Unconsciousness
+Variable
+B (S.E.)
+OR (95% C.I.)
+p
+Neuropsychological Outcome
+Improvement
+Duration of Unconsciousness
+.34 (.14)
+1.41 (1.07-1.85)
+.01
+Deterioration
+No significant results
+Persistent Deficits
+Socioeconomic Composite Index
+25.38 (11.66)
+0.00 (12.47-0.00)
+.03
+Race (1=minority)
+34.60 (16.99)
+0.00 (3.67-0.00)
+.04
+Duration of Unconsciousness
+2.45 (1.07)
+11.55 (1.40-95.21)
+.02
+Behavioral Outcome
+Improvement
+No significant results
+Deterioration
+Socioeconomic Composite Index
+1.71 (.81)
+5.55 (1.14-27.03)
+.03
+Child Behavior Checklist Total
+.15 (.07)
+1.15 (1.01-.1.32)
+.04
+Persistent Deficits
+Socioeconomic Composite Index
+8.30 (3.43)
+4011.186 (4.84-3325495.92)
+.02
+Child Behavior Checklist Total
+.48 (.18)
+1.61 (1.14-2.28)
+.01
+Race (1=minority)
+−4.94 (2.42)
+0.00 (0.00-.83)
+.01
+Adaptive Outcome
+Improvement
+Child Behavior Checklist Total
+.57 (.22)
+1.78 (1.15-2.74)
+.01
+Duration of Unconsciousness
+.44 (.17)
+1.55 (1.12-2.14)
+.01
+Deterioration
+Child Behavior Checklist Total
+.15 (.07)
+1.16 (1.02-1.32)
+.02
+Persistent Deficits
+Socioeconomic Composite Index
+2.88 (1.23)
+17.89 (1.61-199.14)
+.02
+Child Behavior Checklist Total
+.25 (.10)
+1.28 (1.05-1.57)
+.01
+Vineland Adaptive Behavior
+−.22 (.10)
+.80 (.66-.97)
+.02
+Academic Outcome
+Improvement
+Child Behavior Checklist Total
+.18 (.07)
+1.20 (1.04-1.37)
+.01
+Duration of Unconsciousness
+.24 (.10)
+1.27 (1.03-1.55)
+.02
+Deterioration
+School Competence
+−.28 (.11)
+.76 (.61-.93)
+.01
+Persistent Deficits
+Socioeconomic Composite Index
+7.57 (2.60)
+1933.116 (11.75-318073.99)
+.01
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.
+
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+Fay et al.
+Page 21
+Table 6
+Multinomial Logistic Regression showing Significant Predictors of Outcome: TBI Group only Index of Severity
+= Lowest Glasgow Coma Scale Score
+Variable
+B (S.E.)
+OR (95% C.I.)
+p
+Neuropsychological Outcome
+Improvement
+No significant results
+Deterioration
+No significant results
+Persistent Deficits
+Socioeconomic Composite Index
+3.52 (1.54)
+33.73 (1.66-684.12)
+.02
+Race (1=minority)
+3.46 (1.49)
+31.77 (1.70-592.79)
+.02
+Behavioral Outcome
+Improvement
+No significant results
+Deterioration
+Socioeconomic Composite Index
+2.49 (1.02)
+12.09 (1.65-88.66)
+.01
+Child Behavior Checklist Total
+.26 (.11)
+1.29 (1.05-1.59)
+.01
+Vineland Adaptive Behavior
+.13 (.06)
+1.14 (1.00-1.29)
+.05
+Lowest GCS
+−.30 (.14)
+.74 (.57-.97)
+.03
+Persistent Deficits
+Socioeconomic Composite Index
+9.36 (4.15)
+11638.42 (3.40-39879659.08)
+.02
+Race (1=minority)
+−6.06 (2.96)
+.002 (0.00-.77)
+.04
+Child Behavior Checklist Total
+.60 (.23)
+1.82 (1.17-2.84)
+.01
+Adaptive Outcome
+Improvement
+Child Behavior Checklist Total
+.59 (.19)
+1.81 (1.24-2.63)
+.002
+Lowest GCS
+−.73 (.32)
+.48 (.26-.91)
+.02
+Deterioration
+Child Behavior Checklist Total
+.19 (.08)
+1.21 (1.02-1.43)
+.02
+Persistent Deficits
+Socioeconomic Composite Index
+4.60 (1.83)
+99.84 (2.78-3583.95)
+.01
+Child Behavior Checklist Total
+.65 (.23)
+1.92 (1.23-2.99)
+.004
+Lowest GCS
+−1.17 (.43)
+.31 (.14-.72)
+.01
+Academic Outcome
+Improvement
+Child Behavior Checklist Total
+.17 (.07)
+1.19 (1.04-1.36)
+.01
+Deterioration
+Socioeconomic Composite Index
+12.34 (6.05)
+227753.62 (1.63-31812993316)
+.04
+Persistent Deficits
+Socioeconomic Composite Index
+20.35 (9.63)
+0.00 (4.38-0.00)
+.04
+Neuropsychology. Author manuscript; available in PMC 2010 May 1.

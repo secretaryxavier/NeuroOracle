@@ -1,0 +1,1049 @@
+The fbpA/sapM Double Knock Out Strain of
+Mycobacterium tuberculosis Is Highly Attenuated and
+Immunogenic in Macrophages
+Sankaralingam Saikolappan1, Jaymie Estrella2, Smitha J. Sasindran1, Arshad Khan2, Lisa Y. Armitige2,
+Chinnaswamy Jagannath2*, Subramanian Dhandayuthapani1*
+1 Regional Academic Health Center and Department of Microbiology and Immunology, University of Texas Health Science Center at San Antonio, Edinburg, Texas, United
+States of America, 2 Department of Pathology and Laboratory Medicine, University of Texas Health Science Center at Houston, Houston, Texas, United States of America
+Abstract
+Tuberculosis (TB), caused by Mycobacterium tuberculosis (Mtb), is the leading cause of death due to bacterial infections in
+mankind, and BCG, an attenuated strain of Mycobacterium bovis, is an approved vaccine. BCG sequesters in immature
+phagosomes of antigen presenting cells (APCs), which do not fuse with lysosomes, leading to decreased antigen processing
+and reduced Th1 responses. However, an Mtb derived DfbpA attenuated mutant underwent limited phagosome maturation,
+enhanced immunogenicity and was as effective as BCG in protecting mice against TB. To facilitate phagosome maturation
+of DfbpA, we disrupted an additional gene sapM, which encodes for an acid phosphatase. Compared to the wild type Mtb,
+the DfbpADsapM (double knock out; DKO) strain was attenuated for growth in mouse macrophages and PMA activated
+human THP1 macrophages. Attenuation correlated with increased oxidants in macrophages in response to DKO infection
+and enhanced labeling of lysosomal markers (CD63 and rab7) on DKO phagosomes. An in vitro Antigen 85B peptide
+presentation assay was used to determine antigen presentation to T cells by APCs infected with DKO or other mycobacterial
+strains. This revealed that DKO infected APCs showed the strongest ability to present Ag85B to T cells (.2500 pgs/mL in
+4 hrs) as compared to APCs infected with wild type Mtb or DfbpA or DsapM strain (,1000 pgs/mL in 4 hrs), indicating that
+DKO strain has enhanced immunogenicity than other strains. The ability of DKO to undergo lysosomal fusion and vacuolar
+acidification correlated with antigen presentation since bafilomycin, that inhibits acidification in APCs, reduced antigen
+presentation. Finally, the DKO vaccine elicited a better Th1 response in mice after subcutaneous vaccination than either
+DfbpA or DsapM. Since DfbpA has been used in mice as a candidate vaccine and the DKO (DfbpADsapM) mutant is more
+immunogenic than DfbpA, we propose the DKO is a potential anti-tuberculosis vaccine.
+Citation: Saikolappan S, Estrella J, Sasindran SJ, Khan A, Armitige LY, et al. (2012) The fbpA/sapM Double Knock Out Strain of Mycobacterium tuberculosis Is Highly
+Attenuated and Immunogenic in Macrophages. PLoS ONE 7(5): e36198. doi:10.1371/journal.pone.0036198
+Editor: Deepak Kaushal, Tulane University, United States of America
+Received May 3, 2011; Accepted March 31, 2012; Published May 4, 2012
+Copyright:  2012 Saikolappan et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits
+unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+Funding: The work was supported by National Institutes of Health/National Institute of Allergy and Infectious Diseases grants AI78420 (CJ & SD) and AI49534
+(CJ). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+Competing Interests: The authors have declared that no competing interests exist.
+* E-mail: dhandayutha@uthscsa.edu (SD); Chinnaswamy.Jagannath@uth.tmc.edu (CJ)
+Introduction
+Tuberculosis (TB), a major disease due to Mycobacterium
+tuberculosis (Mtb), kills about 1.8 million people and is the cause
+of latent infection in about a third of the human population.
+Control of tuberculosis has become more complicated due to
+multi-drug resistant (MDR) and extensively drug resistant (XDR)
+Mtb strains and AIDS. The attenuated Mycobacterium bovis Bacillus
+Calmette-Gue´rin (BCG) vaccine, administered for fifty years to
+over a billion people, does not protect against adult TB, while it
+affords variable protection against childhood TB and tuberculous
+meningitis [1,2].
+During the last decade, many novel vaccines have been tested in
+mouse or guinea pig models including DNA, subunit proteins,
+recombinant BCG and attenuated strains of Mtb [3,4,5]. Most
+DNA or subunit vaccines are based on immuno-dominant Mtb
+proteins like MPT32, Phos, DnaK, GroES, MPT46, MPT53,
+MPT63, 19 kDa lipoprotein, Antigen 85 (Ag85) complex (Ag 85A,
+Ag85B and Ag85C), RD1 encoded proteins like early secretory
+antigen target-6 (ESAT-6), culture filtrate protein 10 (CFP10), and
+antigen TB10.4 [5]. Some have been tested as combinations and
+others as fusion vaccines. Hybrid 1 (H-1) and HyVac-1 consisting
+of Ag85B-ESAT-6, and Ag85B-TB10.4 [6,7] are some examples.
+Most DNA and subunit vaccines show efficacy more or less similar
+to BCG. However, recombinant BCG strains like BCG30 that
+overexpresses Ag85B [8], BCG::RD1-2F9 that has RD1 region
+integrated with chromosome to express ESAT-6 and related
+proteins [9] and rBCG: DureC-Hly that expresses listeriolysin are
+more effective than BCG in animal models [10,11]. Some of these
+are in phase I and II clinical trials [5,12].
+Since the RD1 region encoded major antigens ESAT-6 and
+CFP-10 are deleted in BCG, efforts have been made to examine
+whether attenuated mutants of wild type Mtb could serve as
+candidate vaccines. We reported first that the fbpA gene disrupted
+mutant (DfbpA) from wild type Mtb was attenuated for growth
+within macrophages [13] and was an effective vaccine in mice
+against tuberculosis [14]. Purine [15], leucine [16], proline/
+tryptophan
+[17]
+and
+lysine [18]
+auxotroph
+vaccines
+were
+PLoS ONE | www.plosone.org
+1
+May 2012 | Volume 7 | Issue 5 | e36198
+
+described earlier as being attenuated in mice as well as protective
+against tuberculosis in mice. The pantothenate auxotroph vaccine
+followed these mutants [19,20,21,22,23,24] and set the trend for
+multiple candidate vaccines derived from Mtb. The latter now
+include Mtb fad26 [25], mec-2/mec-3 [26], RD1/panCD [21], phoP
+[27,28,29], 19 kDa [30], sigE [31] and secA2/lysA [32]. Despite
+inducing
+better protection in animal models, Mtb derived
+candidates are still far from human application due to safety
+concerns. More importantly, there seems to be a decreased
+understanding of the molecular basis of vaccine induced protection
+in comparing BCG vs. Mtb derived vaccines.
+Protective Th1 immune response against TB depends on CD4
+T cells secreting IFN-c, IL-2 and TNF-a, and CD8 T cells
+secreting similar cytokines and producing perforin and granulysin
+[33,34,35]. CD4 and CD8 T cells are in turn, primed through
+MHC-II and MHC-I dependent pathways of peptide presentation
+by mycobacteria infected APCs. Furthermore, peptides are usually
+generated by lysosomal proteases, which mean that mycobacteria
+like Mtb or BCG vaccine need to be delivered into lysosomes for
+efficient peptide production. Paradoxically, it is a well-established
+fact that wild type Mtb and even BCG vaccine avoid phago-
+lysosomal fusion [36,37,38,39,40,41].
+It is becoming apparent that the inability of BCG vaccine to fuse
+with lysosomes affects its efficacy. Initially, Pancholi et al. found
+BCG growing in human monocytes sequestered from CD4 T cells
+[42]. We reported that the presence of BCG in near neutral pH
+phagosomes of macrophages leads to a reduced ability of
+macrophages to present the immune-dominant antigen 85B
+[43]. We also showed that Cathepsin-D was an important protease
+that produced Ag85B and was not activated in neutral pH of the
+phagosomes. Others reported that macrophages infected with
+recombinant BCG expressing Cathepsin-S protease were able to
+present Ag85B better since the novel BCG bypassed the need for
+lysosomal fusion [44]. Finally, we reported that enhanced delivery
+of BCG over-expressing Ag85B to lysosomes through autophagy
+increased antigen presentation in vitro and vaccine efficacy in mice
+[45]. Since Ag85B is a major component of anti-tuberculosis
+vaccines, and anti-tuberculosis vaccines need to be processed
+through the lysosomes to produce MHC-II dependent peptides,
+we have proposed the ability of APCs to present Ag85B as a good
+in vitro surrogate marker for vaccine efficacy.
+In this context, very few attempts have been made to examine
+Mtb derived vaccines for their ability to undergo PL fusion. Our
+initial reports showed that Mtb derived attenuated DfbpA mutant
+that lacks Ag85A of the Ag85 complex is immunogenic in mice,
+partially phagosome maturation competent [13,14,46], protects
+against tuberculosis, and is capable of priming T cells more
+effectively than BCG. In this study, we examined the effect of
+deleting another gene in DfbpA mutant to render it more
+competent for PL fusion, presumably rendering it a better vaccine
+candidate. We hypothesized that deletion of sapM gene in Mtb
+DfbpA strain would further enhance the ability to undergo PL
+fusion. The gene sapM codes for an acid phosphatase [47], which
+plays a critical role during phagosome maturation by interfering
+with the levels of phosphotidylinositol 3-phosphate (PI3P) on the
+phagosomes [48]. PI3P is a lipid component required for docking
+of rab and rab effector proteins which regulate endosome
+trafficking and eventual acquisition of lysosomal constituents by
+phagosomes. Mtb sapM has been shown to hydrolyze (aka.depho-
+sophorylation) PI3P to avoid maturation of Mtb containing
+phagosomes [48]. We demonstrate here that the DfbpADsapM
+double knock out (DKO) mutant is not only more attenuated than
+DfbpA, but is also PL fusion competent and consequently, more
+immunogenic in macrophages and mice.
+Results
+Generation of DfbpADsapM Double Knockout (DKO)
+Strain
+The creation of Mtb DfbpA strain and its characterization in
+macrophages and mice have already been described [13,14,46].
+To generate an additional sapM gene deletion in DfbpA, the
+plasmid construct pTBSAPM5 was electroporated into this strain
+and cultures were plated initially on 7H10-TW-OADC agar with
+hygromycin and X-gal to obtain hygromycin resistant blue
+colonies. This selection resulted in several blue colonies out of
+which one colony designated as DKO/C was subjected to further
+screening to obtain sucrose resistant colonies lacking b-galactosi-
+dase activity. This screening resulted in three white colonies
+namely DKO/C1, DKO/C2 and DKO/C7. To verify if deletion
+of sapM gene had occurred in these colonies, a Southern blot was
+made with genomic DNA from these strains and also with Mtb
+H37Rv and Mtb DfbpA. Upon hybridization with 3.3 kb radiola-
+beled DNA probe containing sapM region, and subsequent
+autoradiography, the blot showed two signals (2.1 and 2.9 kb)
+for Mtb H37Rv and Mtb DfbpA strains and only one signal (4.4 kb)
+for DKO strains (DKO/C1 is shown here) (Fig. 1a). These signals
+were on the predicted line, based on restriction sites in this region
+of the genome (Fig. S1), and indicate that sapM gene is deleted by
+allelic replacement in DKO strain. To further confirm the deletion
+of sapM in DKO strain, we also performed PCR using primers
+specific for this region (please see Fig. S1 for the location of the
+primers). While primers located at the 59end (RV3310EX1) and 39
+end (RV3310EX2) of the sapM gene yielded the expected sizes of
+900 bp and 165 bp DNA, respectively for the Mtb H37Rv and
+DKO strain (Fig. 1b), an internal primer RV3310RT2 with the
+primer at the 59end of sapM (RV3310EX1) failed to amplify a
+530 bp product in the DKO strain (Fig. 1c), again reinforcing the
+deletion of sapM gene in this strain. Finally, we determined
+whether the deletion of sapM gene in DKO strain led to the
+disruption of the expression of this gene by RT-PCR, using the
+internal primers RV3310RT1 and RV3310RT2. This revealed
+that only cDNA obtained from Mtb H37Rv and Mtb DfbpA strain
+only yielded the expected size DNA fragment (350 bp) but not the
+DKO strain (Fig. 1d), thus confirming the absence of sapM
+expression in DKO strain. This concluded the generation of Mtb
+fbpA/sapM double knockout (DKO) strain.
+DfbpADsapM DKO Strain is Attenuated in Macrophages
+The ability of mycobacterial strains to grow inside macrophages
+is a virulence trait, and macrophages are routinely used to
+determine their virulence [14,46]. Fig. 2a & d illustrate the
+growth of strains within mouse bone-marrow derived macrophag-
+es (BMs) and human THP1 macrophages. The DKO strain was
+relatively attenuated in both BMs and THP1 macrophages,
+compared to DfbpA and DsapM mutants or the wild type Mtb
+H37Rv (Fig. 2a,d). To determine if the enhanced attenuation of
+DKO was due to sapM, we complemented the DKO mutant strain
+with sapM gene and named the strain as DKOcom. BMs infected
+with the DKOcom showed a growth curve similar to that of its
+parental strain DfbpA (Fig. S2), indicating that the increased
+attenuation of DKO was due to deletion of sapM.
+Since, the intracellular death of mycobacteria is partly due to
+oxidative radicals like reactive oxygen species (ROS) and nitric oxide
+(NO), macrophages and culture supernatants were evaluated
+respectively for ROS using a fluorescent probe and NO derived
+nitrite with Griess reagent. The BMs showed no significant
+differences in ROS responses but a marginally elevated NO
+response was induced by the DKO strain (Fig. 2b,c). In contrast,
+fbpA/sapM Mutant Is Attenuated & Immunogenic
+PLoS ONE | www.plosone.org
+2
+May 2012 | Volume 7 | Issue 5 | e36198
+
+the ROS response was elevated for THP1 macrophages infected
+with DKO compared to other strains (Fig. 2e). There was no
+significant NO response observed among THP1 macrophages
+infected with either wild type or mutants (not shown). This
+observation was consistent with the notion that human macrophages
+produce barely detectable NO during mycobacterial infection [49].
+ROS cascade begins with the generation of superoxide by
+phagocyte oxidase [43]. Superoxide and inducible nitric oxide
+synthase derived NO have bacteriostatic and bactericidal activity,
+respectively against mycobacteria. To confirm the susceptibility of
+DKO to oxidants, the superoxide and NO donor, 3-morpholino-
+sydnonimine (SIN-1) was used to treat a highly viable culture of
+wild type and mutants in broth culture. Fig. 2f shows that DKO
+strain was again more susceptible to oxidants compared to others.
+These data suggest that the decreased growth of DKO was
+attributable in part to elevated oxidant responses in macrophages.
+Similar studies were done using macrophages infected with DKO,
+although it was difficult to rule out artifacts arising due to the dose-
+dependent toxic effects of oxidants on macrophages.
+DfbpADsapM DKO Strain is Processed Efficiently Through
+Phago-lysosomal Fusion
+Although Mtb H37Rv resists phago-lysosomal fusion [37,41,50],
+certain mutant Mtb strains have a decreased ability to prevent PL
+fusion,
+and
+this
+decreased
+ability
+correlates
+with
+reduced
+intracellular viability for these mutants [46,51]. Since lysosomes
+present an acidified hostile environment, and the parent DfbpA
+mutant was partially PL fusion competent, we reasoned that PL
+fusion is one additional mechanism through which, intracellular
+viability of DKO strain could be reduced. To test this hypothesis,
+BMs and THP1 macrophages were infected with either GFP
+tagged Mtb wild type (H37Rv) or Oregon green stained mutants
+(DfbpA, DsapM and DKO).The PL fusion was monitored using
+microscopic colocalization of lysosomal markers like CD63 and
+rab7 (Fig. 3a). An antibody to lysosome associated membrane
+protein-1 (LAMP-1), was used as a positive control since LAMP-1
+is present on all mycobacterial phagosomes but at varying levels
+between virulent and avirulent bacteria [46]. The DKO strain
+extensively colocalized with LAMP-1 followed by DsapM, DfbpA
+and H37Rv (Table, Fig. 3b). Significantly, CD63 and rab7 were
+found to be more enriched on DKO phagosomes compared to
+either DsapM or DfbpA or H37Rv. Since CD63 and rab7 are
+definitive markers of lysosomes, and LAMP1 is present both on
+late endosomes and lysosomes, these data indicated that DKO
+phagosomes are lysosome fusion competent. It was also significant
+to note that DsapM and DfbpA stained for CD63 and rab7 more
+densely than wild type H37Rv, indicating that deletion of either
+fbpA or sapM renders these mutants comparatively more lysosome
+fusion competent than wild type H37Rv (Fig. 3b).
+Figure 1. Southern and PCR analyses of M. tuberculosis strains. a). Southern analysis of genomic DNA of M. tuberculosis (Mtb) wild type
+(H37Rv), fbpA mutant (DfbpA) and fbpA/sapM double knock out (DKO) strains. Genomic DNA was digested with NdeI and BamHI, separated on 1%
+agarose gels and transferred to nitrocellulose membranes. Membranes were hybridized with [32P]dCTP labeled 3.3 kb DNA fragment containing sapM
+region and signals captured by autoradiography. Arrows indicate the sizes of the signals. b–c). PCR analysis for sapM region in M. tuberculosis H37Rv,
+DfbpA and DKO strains. PCR was performed using standard protocols with genomic DNA from the above strains as templates. Primer pairs
+RV3310EX1 and Rv3310EX2 (b) and RV3310EX1 and RV3310RT2 (c) were used to amplify DNA. d. RT-PCR analysis for sapM expression in M.
+tuberculosis H37Rv, DfbpA and DKO strains. Total RNA was used to synthesize cDNA from these strains. RT+ and RT- indicate cDNA templates
+generated in the presence or absence of reverse transcriptase (Superscript II; Invitrogen). The products obtained from both reactions were used as
+templates in RT-PCR to prove the absence of DNA contamination in total RNAs used for reverse transcriptions. PCR was performed using primers
+RV3310RT1 and RV3310RT2. MW: molecular weight marker; arrow indicates the size of the band. PCR products were separated on 1% agarose gels.
+doi:10.1371/journal.pone.0036198.g001
+fbpA/sapM Mutant Is Attenuated & Immunogenic
+PLoS ONE | www.plosone.org
+3
+May 2012 | Volume 7 | Issue 5 | e36198
+
+DfbpADsapM DKO Strain is More Immunogenic in
+Macrophages and in Mice
+Since DKO strain showed increased PL fusion and enhanced
+susceptibility to killing within macrophages, we hypothesized that
+DKO could be more immunogenic since PL fusion leads to
+degradation of mycobacterial antigens facilitating their presenta-
+tion through the MHC-II pathway. When mycobacteria infect
+macrophages, an Ag85B derived peptide-25 epitope is rapidly
+presented to T cells [52]. We demonstrated that, in vitro
+presentation of Ag85B is a measure of immunogenicity of
+mycobacteria in macrophages [43] and PL fusion of mycobacteria
+within macrophages enhances Ag85B production predicting
+vaccine
+efficacy
+against
+tuberculosis
+[45].
+In
+vitro
+antigen
+presentation using dendritic cells and macrophages, indicated that
+the DKO strain was more efficiently processed since overlaid T
+cells secreted more IL-2 (.2500 pgs/mL in 4 hrs) than either
+DsapM (1000 pgs/mL) or DfbpA (950 pgs/mL) infected APCs
+(Fig. 4a).
+Finally, in vitro immunogenicity was correlated with the ability of
+DKO to prime Th1 immunity in vivo. Mice were vaccinated
+subcutaneously with 106 CFU of mutants and analyzed for Ag85B
+specific T cells using Elispot. The DKO strain again induced an
+increase in the number of Ag85B specific T cells in mouse spleens
+(Fig. 4b). These data indicate that the DKO (DfbpADsapM) has a
+highly immunogenic phenotype in macrophages and DCs as well
+as in mice. It may be noted that the numbers of spot forming cells
+(SFU) increased over 14 days followed by a decline. This is
+consistent with the splenic immune response following mycobac-
+terial vaccines. For example, SFUs for Ag85B increase after a
+single vaccination with BCG over 2 weeks, and then decline [45].
+Discussion
+The use of BCG as a vaccine against tuberculosis is mainly due
+to its genetic identity (over 90%) with Mtb, including genes
+encoding immunodominant antigens. However, comparison of
+genome sequences of M. bovis BCG with that of Mtb in late 90s
+raised several new issues. It was noticed that M. bovis, the parent
+strain of BCG, lacked approximately 120 ORFs in comparison
+with Mtb genome, which includes sequences that code for some
+regulatory proteins [53,54]. In addition, BCG lacked the RD1
+region that encodes the major immunogens ESAT-6 and CFP-10
+[55,56]. These differences indirectly implied that the antigenic
+profiles of BCG vaccine would vary considerably from Mtb, and
+BCG might not fully protect against tuberculosis. Attenuated
+mutants from wild type Mtb were therefore generated to be used as
+vaccines against tuberculosis [23]. Although the attenuated Mtb
+mutants reported so far have been found to be variably effective
+against experimental tuberculosis, some candidates have shown
+better efficacy against tuberculosis in mice compared to BCG
+vaccine. The selection of these vaccines was based primarily on the
+growth attenuation within macrophages [21,23,24], although
+some induced better levels of IFN-c secreting T cells in mice
+Figure 2. The DfbpADsapM double knockout (DKO) strain is attenuated in macrophages and induces stronger oxidant responses
+that reduce its viability: Macrophages from C57Bl/6 mouse bone marrow (BMs) and human THP1 macrophages (pre-activated with phorbol ester)
+were infected with mycobacteria (MOI 1:1), washed, incubated, lysed and plated for viable colony counts (CFUs). a). The DKO strain is more
+attenuated compared to wild type Mtb in BMs. b-c) Intracellular reactive oxygen species (ROS) and nitric oxide (NO) were measured respectively
+using dihydro-dichloro-fluorescein acetate (DCFDA) fluorescent probe and Greiss reagent. DKO induced elevated NO responses (p value by t test;
+panel c) but not ROS (panel b). d-e) DKO was attenuated in THP1 macrophages compared to DfbpA, DsapM or wild type H37Rv in BMs (p,0.01) that
+correlated with increased ROS responses (panel e). Nitric oxide responses of THP1 were not detectable (not shown). f). Mycobacteria (105 CFU/mL;
+baseline shown as dotted line) were exposed to the bactericidal action of the superoxide and NO donor 3-morpholinosydnonimine (10 mM; SIN-1) in
+7H9 broth and viable counts determined at intervals (24 and 72 hr post treatment) by plating on 7H11 agar. DKO is markedly susceptible by 72 hrs in
+vitro to the oxidants released by SIN-1 (p value by t test).
+doi:10.1371/journal.pone.0036198.g002
+fbpA/sapM Mutant Is Attenuated & Immunogenic
+PLoS ONE | www.plosone.org
+4
+May 2012 | Volume 7 | Issue 5 | e36198
+
+Figure 3. The DfbpADsapM double knockout (DKO) strain shows enhanced lysosomal localization in mouse macrophages: gfpMtb
+H37Rv or Oregon green stained mutant strains were phagocytosed into BMs, incubated, fixed 24 hrs later and stained with primary antibodies to
+lysosomal markers LAMP1 (IDB4), CD63 and rab7 followed by Texas red conjugated conjugates. Mycobacteria colocalizing with antibodies were
+scored using a Nikon fluorescence microscope and Metaview deconvolution software. a) Illustration that the DKO mutant colocalizes better with rab7
+lysosomal marker. b) Percent colocalization was determined by counting 200 macrophages per well each with 1–3 mycobacteria and averaging
+counts from triplicate chambers (SD). One of three similar experiments is shown. Text below the bar diagram indicates the colocalization of each
+marker in relation to different strains (*p,0.01, t test).
+doi:10.1371/journal.pone.0036198.g003
+fbpA/sapM Mutant Is Attenuated & Immunogenic
+PLoS ONE | www.plosone.org
+5
+May 2012 | Volume 7 | Issue 5 | e36198
+
+compared to BCG. Nevertheless, there are no striking differences
+in modulation of host immune system by these vaccines and the
+parameters of Mtb-derived vaccine induced immunogenicity
+continue to be unclear. We sought to develop a novel DKO
+strain that is both attenuated and immunogenic.
+The criteria for defining immunogenicity of a vaccine have
+remained diffuse and a surrogate marker has not been available to
+predict vaccine efficacy. Our initial studies proposed an in vitro
+Ag85B presentation as a surrogate marker to predict the
+immunogenicity of genetically altered BCG vaccine strains and
+mutants from wild type Mtb. Initially described by Harding’s
+group, this assay depends on the rapid processing and presentation
+of the immuno-dominant Ag85B by APCs to T cells that secrete
+IL-2 upon antigen recognition. This assay has also been used by
+others to monitor antigen processing within APCs [57]. We found
+that the ability of mycobacterial vaccines to produce Ag85B
+epitope within APCs generally correlated with the ability to
+protect against tuberculosis in mice [43,44,45,58]. In this study, we
+therefore used the ability of APCs to process Ag85B as a marker
+for determining the immunogenicity of DKO. This seemed to be a
+valid approach since MHC-II-bound peptides drive CD4-depen-
+dent anti-tuberculosis TH1 response, and CD4 T cell deficient
+human HIV-1 infected patients rapidly succumb due to tubercu-
+losis [59].
+We
+propose
+that
+the
+increased
+processing
+of DKO
+in
+macrophages that led to enhanced in vitro antigen presentation,
+was due to an increased delivery of DKO to the lysosomes, which
+in turn, was due to the double-gene deletions. In our earlier
+studies, we found that DfbpA phagosomes fused readily with late
+endosomes but still avoided lysosomes [46]. This was presumably
+due to the phosphatase like activity of fbpA enzyme (unpublished
+observations).
+By
+deleting
+sapM
+encoded
+phosphatase,
+we
+enhanced the ability of DKO to bypass maturation inhibition
+and DKO showed enhanced lysosomal localization in macro-
+phages (Fig. 3). Thus, our intended plan to disrupt sapM and alter
+trafficking of DKO succeeded.
+It should be noted however that, a previous attempt to disrupt
+sapM, only marginally affected the phenotype of BCG vaccine
+[60]. In this regard, we propose following explanations. First, sapM
+presumably needs to be released out of the phagosomes to cause
+dephosphorylation of PI3P, and BCG phagosome membrane is
+not known to be easily permeable. Cloning of listeriolysin into
+BCG for example, enhances antigen release from phagosomes of
+BCG and better CD8 T cell responses [10]. Secondly, we
+disrupted sapM within DfbpA which is known to mature better than
+wild type Mtb H37Rv and deletion of sapM had a complementing
+effect on its ability to fuse with lysosomes [46]. On the other hand,
+reconstitution of sapM increased the growth within macrophages of
+the complemented DKOcom strain.
+We therefore propose a novel concept that, the immunogenicity
+of mycobacterial vaccine candidates can be enhanced by rational
+deletion of mycobacterial genes that adversely regulate phagosome
+traffic. This approach is in contrast with earlier approaches, where
+the immunogenicity of candidate vaccines was enhanced by
+adding more genes through recombinant DNA technology
+[8,9,10].
+Enhanced delivery to lysosomes and the apparent susceptibility
+of DKO to oxidants rendered the mutant more attenuated for
+growth in macrophages. This may be a benefit since candidate
+vaccines need to be safer in animal models and humans. In
+summary,
+our
+study
+suggests
+that
+Mtb
+derived
+candidates
+developed with emphasis on enhanced antigen processing are
+more likely to be useful vaccines against tuberculosis, and DKO
+mutant appears to be a potential vaccine candidate.
+Materials and Methods
+Ethics Statement
+This study was carried out in strict accordance with the
+recommendations of the Guide for the Care and Use of
+Laboratory Animals of the National Institute of Health. The
+protocol was approved by the Institutional Animal care and Use
+Committee of the University of Texas Health Science Center,
+Houston (Protocol number AWC-09-175 under Animal Welfare
+Assurance Number A3413-01).
+Figure 4. The DfbpADsapM double knockout (DKO) strain is
+more immunogenic in mouse macrophages and elicits stronger
+immune responses in mice: a) BMs and DCs from C57Bl/6 mice were
+infected with mycobacteria (MOI 1:1), washed and overlaid with
+Antigen 85B specific BB7 hybridoma T cells (1:20 ratio). After 4 hrs,
+the supernatants collected were tested for IL-2 using sandwich ELISA.
+DKO induces BMs and DCs to prime T cells to secrete larger amounts of
+IL-2, indicating a better processing of DKO for Ag85B (4 experiments,
+SEM, * ,0.009 vs. DfbpA or DsapM; by t test). b). C57Bl/6 mice (3 per
+group) were vaccinated with mycobacterial strains at 106 CFU per
+mouse given once subcutaneously. At time intervals, the spleen derived
+T cells were tested for Ag85B responsive T cells using IFN-c coated
+plates and Elispot assay. DKO vaccination leads to a larger expansion of
+Ag85B specific T cells. All Elispot numbers represent Ag85B stimulated
+numbers subtracted from KLH protein stimulated T cells. T cells from
+naı¨ve mice were stimulated with KLH alone (3 separate experiments, 3
+mice per group per time point).
+doi:10.1371/journal.pone.0036198.g004
+fbpA/sapM Mutant Is Attenuated & Immunogenic
+PLoS ONE | www.plosone.org
+6
+May 2012 | Volume 7 | Issue 5 | e36198
+
+Bacterial Strains, Media, and Growth Conditions
+All bacterial strains, unless specified, were grown at 37uC.
+Escherichia coli strain DH5a was used to subclone M. tuberculosis
+DNA. LB broth or LB agar plates were used to grow E. coli. The
+above media with the antibiotic ampicillin (100 mg/mL) or
+kanamycin (25 mg/mL) or hygromycin (100 mg/mL) were used
+to grow E. coli strains containing plasmids. Mtb H37Rv (27294) is
+from ATCC. M. tuberculosis DfbpA strain is a derivative of H37Rv,
+which we published earlier [13]. M. tuberculosis DsapM strain was
+from NIH TB resources Center at Colorado State University
+(currently
+BEI,
+ATCC).
+Middlebrook
+7H9
+broth
+medium
+containing OADC (10%) and Tween (0.05%) (7H9 broth), or
+Middlebrook 7H10 agar medium containing OADC (10%) and
+Tween (0.05%) (7H10 Agar) or Middlebrook 7H11 agar medium
+containing OADC (10%) (7H11 Agar) was used to grow M.
+tuberculosis strains. Kanamycin (25 mg/mL) or hygromycin (50 mg/
+mL) was added to the Middlebrook media to grow M. tuberculosis
+strains harboring plasmids.
+Disruption Plasmid for M. tuberculosis sapM
+To disrupt sapM (Rv3310) gene in Mtb DfbpA strain, we first
+downloaded the DNA sequences of sapM gene and its adjacent
+region from NCBI databases. Based on the sequences, we
+synthesized four oligonucleotide primers namely RV3310A,
+RV3310B, RV3310C and RV3310D (Table 1). Synthesis of
+oligonucleotide primers were performed at the Center for DNA
+Technology, University of Texas Health Science Center at San
+Antonio. While the primers RV3310A, RV3310B were designed
+to amplify the 59 prime region of sapM and its upstream 1306 bp
+fragment (Frag I), primers RV3310C and RV3310D were
+designed to amplify the 39 region of sapM and its downstream
+934 bp fragment (Frag II). Also primers Rv3310B and RV3310C
+were engineered to have StuI sites in them. Using these primers
+and Mtb H37Rv DNA, we amplified fragments I and II in PCR
+and these fragments were cloned into pCR2.1 Vector (Invitrogen)
+to create plasmids pTBSAPM1 and pTBSAPM2, respectively.
+The fragment II from plasmid pTBSAPM2 was released by
+cutting with StuI and BamHI and cloned into the pTBSAPM1 cut
+with
+the
+same
+restriction
+enzymes.
+The
+resulting
+plasmid
+pTBSAPM3 has a DNA fragment, which has upstream and
+downstream regions of sapM but with substantial deletion in sapM
+coding region (Fig. S1). The DNA fragment in pTBSAPM3 was
+released from the plasmid by digesting the plasmid with restriction
+enzymes HindIII and NotI and the released fragment cloned into
+p1NIL to create plasmid pTBSAPM4. A 7939 bp PacI fragment,
+that contains sacB and lacZ genes and a gene for hygromycin
+resistance, was then isolated from the plasmid pGOAL19 [61] and
+cloned into the PacI site of the plasmid pTBSAPM4. The resulting
+plasmid pTBSAPM5 was used to generate a markerless sapM
+mutant in Mtb DfbpA strain. Plasmid DNA from E. coli was isolated
+by using a Qiaperp kit (Qiagen Inc.,Valencia, Calif.).
+Electroporation and Screening for the DfbpADsapM
+Mutant
+To obtain DfbpADsapM double mutant, we used DfbpA strain
+reported earlier [13]. This mutant strain was grown to mid-
+logarithmic phase (OD600 = 0.8–1.0) in 7H9 broth and competent
+cells prepared according to Jacobs et al. [62]. Four hundred
+microliter of Dfbp cells were mixed with 5 mg pTBSAPM5 DNA,
+linearized with NaOH treatment, in 0.2 mm cuvettes (BioRad)
+and electroporated using standard protocols. After electroporation,
+1 mL 7H9 medium without any antibiotic was added to each
+cuvette and left overnight at 37uC. Then, the cell suspension from
+the cuvettes was plated on 7H10 agar plates containing the
+antibiotic hygromycin (50 mg/mL) and X-gal (40 mg/mL). Trans-
+formants showing blue color, resulting from single crossover event,
+were selected after three weeks of incubation at 37uC. Further
+screening of the transformants for the deletion of sapM region was
+performed by a two-step selection method [61]. First, the blue
+colonies were streaked onto 7H10 agar plates containing no
+antibiotics. Following growth, a loop-full of cells were resuspended
+into liquid medium, diluted serially to several folds and plated onto
+7H10- agar plates containing 2% sucrose. Sucrose resistant
+colonies resulting from double crossover event were streaked onto
+plates with or without hygromycin. Colonies showing no resistance
+to hygromycin were finally streaked onto plates containing
+kanamycin, since fbpA mutant is kanamycin resistant. The DNA
+from these colonies were further examined in Southern and PCR
+to confirm the deletion of sapM region.
+Complementation of DKO Strain
+To
+complement
+the
+DKO
+strain
+with
+sapM
+gene,
+we
+constructed an integration plasmid carrying sapM gene as follows.
+First, we amplified the whole sapM gene and its upstream
+promoter region (2116 bp) by PCR using primers RV3310A
+and RV3310EX2 (Table 1) and Mtb H37Rv genomic DNA. The
+fragment was cloned in pCR2.1 vector to result in plasmid
+pTBSAPMA. This plasmid was digested with KpnI and XbaI to
+release the fragment which was cloned in KpnI and XbaI digested
+pMV306H, a derivative of pMV306 in which kanamycin resistant
+marker is replaced with hygromycin marker, to get plasmid
+pM306SAPMA. This plasmid was transformed into DKO/C1
+(DfbpA/DsapM double mutant) strain by electroporation. The
+colonies were selected in 7H10 hygromycin plates and the
+integration of the plasmid was confirmed by Southern blot (data
+not shown). The resulting strain was named as DKOcom.
+Southern and PCR Analysis
+To confirm the deletion of sapM gene in Mtb DfbpA strain, we
+performed Southern analysis [63]. We isolated chromosomal
+DNA from Mtb H37Rv, Mtb DfbpA and Mtb DfbpADsapM strains
+using CTAB (cetyltrimethylammonium bromide) method [64] and
+3 mg of each DNA was digested with NdeI and BamHI. The
+digested fragments were separated on 1% agarose gel and
+Southern transferred to nitrocellulose membrane (BioRad). The
+blot was hybridized with a [a-32P]dCTP labeled probe generated
+by random primer method using the 3300 bp DNA fragment
+(generated by primers Rv3310A and Rv3310D) as template.
+Southern hybridization and final washing of the blot were
+performed at 68uC. In addition to Southern, we also carried out
+Table 1. Oligonucleotide primers used in this study.
+Primer
+Primer sequence (59––39)
+Rv3310A
+TGGTGTACGCCTACGAGGAA
+Rv3310B
+TAGGCCTAGCAACGATGCTGCCAGGAC
+Rv3310C
+GAGGCCTCTACAACGTGCTGTCCACAT
+Rv3310D
+TCGGTCGATCATCCAGGTAA
+Rv3310EX1 CATGAGGATCCCATGCTCCGCGGAATCCAGGCTC
+Rv3310EX2 CGAGGATCCCTAGTCGCCCCAAATATCGGTTATTGG
+Rv3310RT1 GTCATCGTGGTGGAGGAGAA
+Rv3310RT2 GTCGTCGGCACGTTACTGAA
+doi:10.1371/journal.pone.0036198.t001
+fbpA/sapM Mutant Is Attenuated & Immunogenic
+PLoS ONE | www.plosone.org
+7
+May 2012 | Volume 7 | Issue 5 | e36198
+
+PCR to confirm the deletion of sapM region in Mtb DfbpADsapM
+strain using standard protocol [63] with Taq polymerase (Perkin-
+Elmer, Foster City, Calif.). We used primers Rv3310EX1,
+Rv3310EX2 and Rv3310RT2 (Table 1) for this analysis.
+RNA Isolation and RT-PCR
+Total RNA from Mtb strains was isolated using Tri reagent as
+described previously [65]. cDNA from total RNA was synthesized
+using Superscript (Invitrogen) and random hexamers. PCR
+analysis
+was
+performed
+with
+primers
+RV3310RT1
+and
+RV3310RT2 (Table 1) and using the cDNA from the previous
+step as the template for the reaction.
+Macrophages and T Cells
+Bone marrows from C57BL/6 (4–8 weeks) mice were cultured
+for 7–10 days in Iscove’s modification of Dulbecco’s modified
+Eagles medium (IDMEM) with 10% FBS and 10 ng/mL GM-
+CSF (Cell Sciences, USA). The macrophages (BMs) and dendritic
+cells (DCs) were purified using CD11c bead fractionation kit
+(Miltenyi Inc, USA) yielding .95% pure DCs and .95%
+adherent BMs (effluent of bead fractionation) [46]. They were
+plated onto 24 well plates (for colony counts, oxidant measure-
+ment) or 8-well slide chambers (for antibody stains) and were
+rested in IDMEM without GM-CSF before infections. In addition
+to mouse derived cells, phorbol mystyl acetate (PMA) (10 nM)
+activated human THP1 cells were used to test the intracellular
+growth of mycobacteria. The T cell hybridoma (BB7) cell line
+specific for an epitope (241–256) of Ag85B of Mtb was used in
+antigen presentation assays (kindly provided by Dr. C. Harding,
+Case Western University, Cleveland, OH). The culture of these
+cell lines were described earlier [43,46].
+Determination of Intracellular Growth or Survival of Mtb
+Strains
+To determine the growth curves in macrophages, the wild type
+and mutants were used to infect (MOI of 10) naı¨ve BMs and PMA
+activated
+THP1
+cells
+using
+procedures
+described
+earlier
+[14,43,46]. Phagocytosis was allowed to take place for 4 h, after
+which the monolayers were washed to remove the non-phagocy-
+tosed bacteria. One mL of fresh IDMEM medium was added to
+each well and the culture plates were incubated at 37uC in the
+presence of 5% CO2. After each time point, macrophages were
+harvested and lysed with 0.05% sodium dodecyl sulfate (SDS) for
+15 min at room temperature. Tenfold dilutions of the lysed
+macrophage suspensions were made in PBS and 100 mL of each
+dilution was examined for Mtb growth on triplicate 7H11 agar
+plates that were incubated for 3 weeks at 37uC. Each Mtb strain
+was examined in quadruplicate wells and three independent
+experiments were performed.
+Oxidant Assay and Oxidant Susceptibility of
+Mycobacteria in Macrophages
+BMs and THP1 macrophages infected with mycobacteria were
+tested for ROS using the fluorescent probe H2-dichlorodihydro-
+fluorescein diacetate (H2DCFDA)(Invitrogen, USA) that is cleaved
+within the cells by esterases and oxidized into fluorescent DCF
+reactive
+oxygen
+species
+(ROS)
+induced
+by
+infection
+[43].
+Fluorescent DCF was measured by reading BMs or THPs of 24
+well plates using in Ascent fluoroscan at 485 nm/530 nm.
+Triplicate wells of macrophages were read for each mutant at
+different time intervals in two separate experiments and plotted as
+average fluorescence units (AFU). The enzyme inducible nitric
+oxide synthase generated nitric oxide (NO) was measured in the
+supernatants of similar cultures using Griess reagent and expressed
+as mM nitrite in the medium. The susceptibility of mycobacteria to
+superoxide and NO released by the donor 3-morpholinosydnoni-
+mine N-ethylcarbamide (SIN-1)(Invitrogen, USA) was determined
+by incubating 105 CFU/mL of mycobacteria in a broth culture
+with 10 mM of SIN-1 for 24 and 72 hrs and plating organisms on
+7H11 agar for viable counts.
+Phago-lysosomal Localization of Mtb Strains
+Macrophages were infected with GFP expressing Mtb H37Rv
+and Oregon green stained DfbpA, DsapM and DKO (DfbpADsapM)
+strains. These strains were sonicated slightly to disperse the
+bacteria, centrifuged at 500 rpm and the supernatant containing
+the single CFUs were used for infection. BMs of slide chambers
+were infected with Mtb strains (MOI, 1) for 4 h at 37uC in the
+presence of 5% CO2, washed, and incubated with fresh medium
+up to 72 h. Washing, fixing of the cells, staining for different
+markers and mounting of the slides were performed as reported
+earlier
+[66].
+Texas
+red
+conjugated
+antibodies
+to
+primary
+antibodies were from Jackson Immunochemicals (West Grove,
+PA). Colocalization was examined and scored using a Nikon
+fluorescence microscope equipped with a Metaview deconvolution
+software as described [67].
+In vitro Antigen 85B Presentation Assay
+Monolayers of BMs were infected with Mtb strains for 4 hrs,
+(MOI 1:5) washed and overlaid with Ag85B specific BB7 T cells
+(1:20 ratio) as described earlier [43]. Four or 18 hrs later the
+supernatant was assayed for IL-2 using a sandwich ELISA kit (R
+and D systems, CA) and expressed as pg/mL/106 T cells. This
+assay has been validated earlier by the lack of antigen presentation
+when macrophages are infected with Mtb strains deleted for
+Ag85B antigen (DfbpB) or when MHC class II deficient PMJ2-R
+macrophages are used as antigen presenting cells [43]. Two or
+four separate experiments were performed for each Mtb strain
+using triplicate wells for each assay and the data were averaged for
+p value calculations.
+Elispot Assay
+C57Bl/6 mice (3 per group per time point per strain) were
+immunized s.c. with 106 CFU of Mtb strains once and after 7,14
+and 21 days, the splenic cells were depleted of non-T cells using a
+pan-T cell kit (Miltenyi Inc). A 96 well plate coated with anti-
+mouse IFNc (Elispot kit, Ebiosciences) was washed and overlaid
+with 105 enriched T cells from spleens of mice along with T cells
+from naı¨ve mice. The wells were added with 100 ng of Ag85B
+purified protein per well (BEI,ATCC). Control wells received
+100 ng/mL of KLH protein and Elispots from this control were
+subtracted from those induced by Ag85B restimulation and
+expressed as spot forming cells per 105 T cells. Three separate
+experiments were performed and data averaged.
+Supporting Information
+Figure S1
+Schematic showing the restriction sites and
+primers around sapM region. a). sapM region in the genome
+of Wild type (H37Rv) M. tuberculosis. Stippled box represents the
+sapM gene; empty boxes on either side represent the flanking
+regions; BamHI, EcoRI, NdeI, NotI and PstI are restriction
+enzymes around sapM gene. Numbers above the small black boxes
+indicate the location of the different primers to amplify the DNA
+or cDNA. 1, RV3310A; 2, RV3310B; 3, RV3310C; 4, RV3310D;
+5,
+RV3310EX1;
+6,
+RV3310EX2;
+7,
+RV3310RT1;
+8,
+RV3310RT2. Lines below the boxes indicate the sizes of DNA
+fbpA/sapM Mutant Is Attenuated & Immunogenic
+PLoS ONE | www.plosone.org
+8
+May 2012 | Volume 7 | Issue 5 | e36198
+
+fragments obtained when cut with BamHI and NdeI. b). PCR
+fragments amplified from the sapM region. FragI was amplified by
+primers RV3310A and RV3310B and FragII was amplified by
+primers Rv3310C and RV3310D. Stippled boxes represent the
+sapM gene; empty boxes on either side represent the flanking
+regions. C). The sapM region cloned into plasmid pTBSAPM5.
+Stippled box represents the sapM gene; empty boxes on either side
+represent the flanking regions. D. SapM region in the chromosome
+of DKO (fbpA/sapM double knock out) strain. Stippled box
+represents the sapM gene; empty boxes on either side represent the
+flanking regions BamHI, EcoRI, NotI and PstI are restriction
+enzymes around sapM gene. Line below the boxes represent the
+size of the DNA fragment obtained when cut with BamHI.
+(TIF)
+Figure S2
+Viability of DKO strain complemented with
+sapM gene (DKOcom) in bone marrow derived macro-
+phages. Macrophages from C57Bl/6 mouse derived bone
+marrow (BMs) were infected with mycobacteria (MOI 1:1),
+washed, incubated, lysed and plated for viable colony counts
+(CFUs). Results indicate that DKOcom strain shows a growth
+pattern similar to that of its parental strain DfbpA, which is higher
+than that of DKO strain (P#0.001).
+(TIF)
+Acknowledgments
+The authors thank Dr. Cliff Harding of Case Western Reserve University
+for the kind gift of BB7 T cells.
+Author Contributions
+Conceived and designed the experiments: SD CJ. Performed the
+experiments: SS JE SJS AK. Contributed reagents/materials/analysis
+tools: LYA. Wrote the paper: SD CJ.
+References
+1.
+Andersen P, Doherty TM (2005) The success and failure of BCG - implications
+for a novel tuberculosis vaccine. Nat Rev Microbiol 3: 656–662.
+2.
+Fine PE (1995) Variation in protection by BCG: implications of and for
+heterologous immunity. Lancet 346: 1339–1345.
+3.
+Izzo A, Brandt L, Lasco T, Kipnis AP, Orme I (2005) NIH pre-clinical screening
+program: overview and current status. Tuberculosis (Edinb) 85: 25–28.
+4.
+Andersen P (2001) TB vaccines: progress and problems. Trends Immunol 22:
+160–168.
+5.
+Skeiky YA, Sadoff JC (2006) Advances in tuberculosis vaccine strategies. Nat
+Rev Microbiol 4: 469–476.
+6.
+Weinrich Olsen A, van Pinxteren LA, Meng Okkels L, Birk Rasmussen P,
+Andersen P (2001) Protection of mice with a tuberculosis subunit vaccine based
+on a fusion protein of antigen 85b and esat-6. Infect Immun 69: 2773–2778.
+7.
+Dietrich J, Aagaard C, Leah R, Olsen AW, Stryhn A, et al. (2005) Exchanging
+ESAT6 with TB10.4 in an Ag85B fusion molecule-based tuberculosis subunit
+vaccine: efficient protection and ESAT6-based sensitive monitoring of vaccine
+efficacy. J Immunol 174: 6332–6339.
+8.
+Horwitz MA, Harth G, Dillon BJ, Maslesa-Galic S (2000) Recombinant bacillus
+calmette-guerin (BCG) vaccines expressing the Mycobacterium tuberculosis 30-kDa
+major secretory protein induce greater protective immunity against tuberculosis
+than conventional BCG vaccines in a highly susceptible animal model. Proc Natl
+Acad Sci U S A 97: 13853–13858.
+9.
+Pym AS, Brodin P, Majlessi L, Brosch R, Demangel C, et al. (2003)
+Recombinant BCG exporting ESAT-6 confers enhanced protection against
+tuberculosis. Nat Med 9: 533–539.
+10. Hess J, Miko D, Catic A, Lehmensiek V, Russell DG, et al. (1998) Mycobacterium
+bovis Bacille Calmette-Guerin strains secreting listeriolysin of Listeria monocytogenes.
+Proc Natl Acad Sci U S A 95: 5299–5304.
+11. Grode L, Seiler P, Baumann S, Hess J, Brinkmann V, et al. (2005) Increased
+vaccine efficacy against tuberculosis of recombinant Mycobacterium bovis bacille
+Calmette-Guerin mutants that secrete listeriolysin. J Clin Invest 115:
+2472–2479.
+12. Andersen P (2007) Tuberculosis vaccines - an update. Nat Rev Microbiol 5:
+484–487.
+13. Armitige LY, Jagannath C, Wanger AR, Norris SJ (2000) Disruption of the
+genes encoding antigen 85A and antigen 85B of Mycobacterium tuberculosis H37Rv:
+effect on growth in culture and in macrophages. Infect Immun 68: 767–778.
+14. Copenhaver RH, Sepulveda E, Armitige LY, Actor JK, Wanger A, et al. (2004)
+A mutant of Mycobacterium tuberculosis H37Rv that lacks expression of antigen 85A
+is attenuated in mice but retains vaccinogenic potential. Infect Immun 72:
+7084–7095.
+15. Jackson M, Phalen SW, Lagranderie M, Ensergueix D, Chavarot P, et al. (1999)
+Persistence and protective efficacy of a Mycobacterium tuberculosis auxotroph
+vaccine. Infect Immun 67: 2867–2873.
+16. Hondalus MK, Bardarov S, Russell R, Chan J, Jacobs WR, Jr., et al. (2000)
+Attenuation of and protection induced by a leucine auxotroph of Mycobacterium
+tuberculosis. Infect Immun 68: 2888–2898.
+17. Smith DA, Parish T, Stoker NG, Bancroft GJ (2001) Characterization of
+auxotrophic mutants of Mycobacterium tuberculosis and their potential as vaccine
+candidates. Infect Immun 69: 1142–1150.
+18. Pavelka MS, Jr., Chen B, Kelley CL, Collins FM, Jacobs Jr. WR, Jr. (2003)
+Vaccine efficacy of a lysine auxotroph of Mycobacterium tuberculosis. Infect Immun
+71: 4190–4192.
+19. Sambandamurthy VK, Wang X, Chen B, Russell RG, Derrick S, et al. (2002) A
+pantothenate auxotroph of Mycobacterium tuberculosis is highly attenuated and
+protects mice against tuberculosis. Nat Med 8: 1171–1174.
+20. Larsen MH, Biermann K, Chen B, Hsu T, Sambandamurthy VK, et al. (2009)
+Efficacy and safety of live attenuated persistent and rapidly cleared Mycobacterium
+tuberculosis vaccine candidates in non-human primates. Vaccine 27: 4709–4717.
+21. Sambandamurthy VK, Derrick SC, Hsu T, Chen B, Larsen MH, et al. (2006)
+Mycobacterium tuberculosis DeltaRD1 DeltapanCD: a safe and limited replicating
+mutant strain that protects immunocompetent and immunocompromised mice
+against experimental tuberculosis. Vaccine 24: 6309–6320.
+22. Roy E, De Silva AD, Sambandamurthy VK, Clark SO, Stavropoulos E, et al.
+(2006) Induction of high levels of protective immunity in mice after vaccination
+using dendritic cells infected with auxotrophic mutants of Mycobacterium
+tuberculosis. Immunol Lett 103: 196–199.
+23. Sambandamurthy VK, Jacobs WR,
+Jr. (2005) Live attenuated mutants of
+Mycobacterium tuberculosis as candidate vaccines against tuberculosis. Microbes
+Infect 7: 955–961.
+24. Sambandamurthy VK, Derrick SC, Jalapathy KV, Chen B, Russell RG, et al.
+(2005) Long-term protection against tuberculosis following vaccination with a
+severely attenuated double lysine and pantothenate auxotroph of Mycobacterium
+tuberculosis. Infect Immun 73: 1196–1203.
+25. Infante E, Aguilar LD, Gicquel B, Pando RH (2005) Immunogenicity and
+protective efficacy of the Mycobacterium tuberculosis fadD26 mutant. Clin Exp
+Immunol 141: 21–28.
+26. Aguilar LD, Infante E, Bianco MV, Cataldi A, Bigi F, et al. (2006)
+Immunogenicity and protection induced by Mycobacterium tuberculosis mce-2 and
+mce-3 mutants in a Balb/c mouse model of progressive pulmonary tuberculosis.
+Vaccine 24: 2333–2342.
+27. Martin C, Williams A, Hernandez-Pando R, Cardona PJ, Gormley E, et al.
+(2006) The live Mycobacterium tuberculosis phoP mutant strain is more attenuated
+than BCG and confers protective immunity against tuberculosis in mice and
+guinea pigs. Vaccine 24: 3408–3419.
+28. Aguilar D, Infante E, Martin C, Gormley E, Gicquel B, et al. (2007)
+Immunological responses and protective immunity against tuberculosis con-
+ferred by vaccination of Balb/C mice with the attenuated Mycobacterium
+tuberculosis (phoP) SO2 strain. Clin Exp Immunol 147: 330–338.
+29. Asensio JA, Arbues A, Perez E, Gicquel B, Martin C (2008) Live tuberculosis
+vaccines based on phoP mutants: a step towards clinical trials. Expert Opin Biol
+Ther 8: 201–211.
+30. Henao-Tamayo M, Junqueira-Kipnis AP, Ordway D, Gonzales-Juarrero M,
+Stewart GR, et al. (2007) A mutant of Mycobacterium tuberculosis lacking the 19-
+kDa lipoprotein Rv3763 is highly attenuated in vivo but retains potent
+vaccinogenic properties. Vaccine 25: 7153–7159.
+31. Hernandez Pando R, Aguilar LD, Smith I, Manganelli R (2010) Immunoge-
+nicity and protection induced by a Mycobacterium tuberculosis sigE mutant in a
+BALB/c mouse model of progressive pulmonary tuberculosis. Infect Immun 78:
+3168–3176.
+32. Hinchey J, Jeon BY, Alley H, Chen B, Goldberg M, et al. (2011) Lysine
+auxotrophy combined with deletion of the SecA2 gene results in a safe and
+highly immunogenic candidate live attenuated vaccine for tuberculosis. PLoS
+One 6: e15857.
+33. Cooper AM (2009) Cell-mediated immune responses in tuberculosis. Annu Rev
+Immunol 27: 393–422.
+34. Parida SK, Kaufmann SH (2010) Novel tuberculosis vaccines on the horizon.
+Curr Opin Immunol 22: 374–384.
+35. Orme IM (2005) The use of animal models to guide rational vaccine design.
+Microbes Infect 7: 905–910.
+36. Armstrong JA, Hart PD (1975) Phagosome-lysosome interactions in cultured
+macrophages infected with virulent tubercle bacilli. Reversal of the usual
+nonfusion pattern and observations on bacterial survival. J Exp Med 142: 1–16.
+fbpA/sapM Mutant Is Attenuated & Immunogenic
+PLoS ONE | www.plosone.org
+9
+May 2012 | Volume 7 | Issue 5 | e36198
+
+37. Russell DG (1998) What does ‘inhibition of phagosome-lysosome fusion’ really
+mean? Trends Microbiol 6: 212–214.
+38. Russell DG (2001) Mycobacterium tuberculosis: here today, and here tomorrow. Nat
+Rev Mol Cell Biol 2: 569–577.
+39. Russell DG (2003) Phagosomes, fatty acids and tuberculosis. Nat Cell Biol 5:
+776–778.
+40. Via LE, Deretic D, Ulmer RJ, Hibler NS, Huber LA, et al. (1997) Arrest of
+mycobacterial phagosome maturation is caused by a block in vesicle fusion
+between stages controlled by rab5 and rab7. J Biol Chem 272: 13326–13331.
+41. Clemens DL (1996) Characterization of the Mycobacterium tuberculosis phagosome.
+Trends Microbiol 4: 113–118.
+42. Pancholi P, Mirza A, Bhardwaj N, Steinman RM (1993) Sequestration from
+immune CD4+ T cells of mycobacteria growing in human macrophages.
+Science 260: 984–986.
+43. Singh CR, Moulton RA, Armitige LY, Bidani A, Snuggs M, et al. (2006)
+Processing and presentation of a mycobacterial antigen 85B epitope by murine
+macrophages is dependent on the phagosomal acquisition of vacuolar proton
+ATPase and in situ activation of cathepsin D. J Immunol 177: 3250–3259.
+44. Soualhine H, Deghmane AE, Sun J, Mak K, Talal A, et al. (2007) Mycobacterium
+bovis bacillus Calmette-Guerin secreting active cathepsin S stimulates expression
+of mature MHC class II molecules and antigen presentation in human
+macrophages. J Immunol 179: 5137–5145.
+45. Jagannath C, Lindsey DR, Dhandayuthapani S, Xu Y, Hunter RL, Jr., et al.
+(2009) Autophagy enhances the efficacy of BCG vaccine by increasing peptide
+presentation in mouse dendritic cells. Nat Med 15: 267–276.
+46. Katti MK, Dai G, Armitige LY, Rivera Marrero C, Daniel S, et al. (2008) The
+Delta fbpA mutant derived from Mycobacterium tuberculosis H37Rv has an
+enhanced susceptibility to intracellular antimicrobial oxidative mechanisms,
+undergoes limited phagosome maturation and activates macrophages and
+dendritic cells. Cell Microbiol 10: 1286–1303.
+47. Saleh MT, Belisle JT (2000) Secretion of an acid phosphatase (SapM) by
+Mycobacterium tuberculosis that is similar to eukaryotic acid phosphatases. J Bacteriol
+182: 6850–6853.
+48. Vergne I, Chua J, Lee HH, Lucas M, Belisle J, et al. (2005) Mechanism of
+phagolysosome biogenesis block by viable Mycobacterium tuberculosis. Proc Natl
+Acad Sci U S A 102: 4033–4038.
+49. Venketaraman V, Talaue MT, Dayaram YK, Peteroy-Kelly MA, Bu W, et al.
+(2003) Nitric oxide regulation of L-arginine uptake in murine and human
+macrophages. Tuberculosis (Edinb) 83: 311–318.
+50. Vergne I, Fratti RA, Hill PJ, Chua J, Belisle J, et al. (2004) Mycobacterium
+tuberculosis phagosome maturation arrest: mycobacterial phosphatidylinositol
+analog phosphatidylinositol mannoside stimulates early endosomal fusion. Mol
+Biol Cell 15: 751–760.
+51. Ferrer NL, Gomez AB, Neyrolles O, Gicquel B, Martin C (2010) Interactions of
+attenuated Mycobacterium tuberculosis phoP mutant with human macrophages.
+PLoS One 5: e12978.
+52. Ramachandra L, Smialek JL, Shank SS, Convery M, Boom WH, et al. (2005)
+Phagosomal processing of Mycobacterium tuberculosis antigen 85B is modulated
+independently of mycobacterial viability and phagosome maturation. Infect
+Immun 73: 1097–1105.
+53. Mahairas GG, Sabo PJ, Hickey MJ, Singh DC, Stover CK (1996) Molecular
+analysis of genetic differences between Mycobacterium bovis BCG and virulent M.
+bovis. J Bacteriol 178: 1274–1282.
+54. Brosch R, Gordon SV, Eiglmeier K, Garnier T, Tekaia F, et al. (2000)
+Genomics, biology and evolution of Mycobacterium tuberculosis complex. In:
+Hatfull G, Jacobs WRJ, eds. Molecular genetics of Mycobacteria. Washington,
+DC: American Society for Microbiology. pp 19–36.
+55. Behr MA, Wilson MA, Gill WP, Salamon H, Schoolnik GK, et al. (1999)
+Comparative genomics of BCG vaccines by whole-genome DNA microarray.
+Science 284: 1520–1523.
+56. Gordon SV, Brosch R, Billault A, Garnier T, Eiglmeier K, et al. (1999)
+Identification of variable regions in the genomes of tubercle bacilli using
+bacterial artificial chromosome arrays. Mol Microbiol 32: 643–655.
+57. Ramachandra L, Noss E, Boom WH, Harding CV (2001) Processing of
+Mycobacterium tuberculosis antigen 85B involves intraphagosomal formation of
+peptide-major histocompatibility complex II complexes and is inhibited by live
+bacilli that decrease phagosome maturation. J Exp Med 194: 1421–1432.
+58. Roche CM, Singh CR, Lindsey DR, Smith AK, Armitige LY, et al. (2011) The
+delta fbpA vaccine induces a stronger T-bet dependent immunity in mice against
+tuberculosis. Journal of Vaccine and Vaccination (submitted).
+59. Kwan CK, Ernst JD (2011) HIV and Tuberculosis: a Deadly Human Syndemic.
+Clin Microbiol Rev 24: 351–376.
+60. Festjens N, Bogaert P, Batni A, Houthuys E, Plets E, et al. (2011) Disruption of
+the SapM locus in Mycobacterium bovis BCG improves its protective efficacy as a
+vaccine against M. tuberculosis. EMBO Mol Med 3: 222–234.
+61. Parish T, Stoker NG (2000) Use of a flexible cassette method to generate a
+double unmarked Mycobacterium tuberculosis tlyA plcABC mutant by gene
+replacement. Microbiology 146 (Pt 8): 1969–1975.
+62. Jacobs WR, Jr., Kalpana GV, Cirillo JD, Pascopella L, Snapper SB, et al. (1991)
+Genetic systems for mycobacteria. Methods Enzymol 204: 537–555.
+63. Ausubel F, Brent R, Kingston R, Moore D, Seidman J, et al. (1989) Current
+Prtocols in Molecular Biology. New York: Wiley.
+64. van Soolingen D, Hermans PW (1995) Epidemiology of tuberculosis by DNA
+fingerprinting. Eur Respir J Suppl 20: 649s–656s.
+65. Dhandayuthapani S (2007) Stress response of genes encoding putative stress
+signaling molecules of Mycobacterium tuberculosis. Front Biosci 12: 4676–4681.
+66. Douglas T, Daniel DS, Parida BK, Jagannath C, Dhandayuthapani S (2004)
+Methionine sulfoxide reductase A (MsrA) deficiency affects the survival of
+Mycobacterium smegmatis within macrophages. J Bacteriol 186: 3590–3598.
+67. Daniel DS, Dai G, Singh CR, Lindsey DR, Smith AK, et al. (2006) The reduced
+bactericidal function of complement C5-deficient murine macrophages is
+associated with defects in the synthesis and delivery of reactive oxygen radicals
+to mycobacterial phagosomes. J Immunol 177: 4688–4698.
+fbpA/sapM Mutant Is Attenuated & Immunogenic
+PLoS ONE | www.plosone.org
+10
+May 2012 | Volume 7 | Issue 5 | e36198

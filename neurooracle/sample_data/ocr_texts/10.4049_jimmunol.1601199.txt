@@ -1,0 +1,1098 @@
+Mycobacterium tuberculosis membrane vesicles inhibit T cell 
+activation
+Jaffre J. Athman1,*, Obondo J. Sande1,2,*, Sarah G. Groft1, Scott M. Reba2, Nancy Nagy1, 
+Pamela A Wearsch1, Edward T. Richardson1,3, Roxana Rojas2,4, W. Henry Boom2,4,5,#, 
+Supriya Shukla1,#, and Clifford V. Harding1,4,5,#
+1Department of Pathology, Case Western Reserve University and University Hospitals Cleveland 
+Medical Center, Cleveland, OH, USA
+2Department of Molecular Biology and Microbiology, Case Western Reserve University and 
+University Hospitals Cleveland Medical Center, Cleveland, OH, USA
+3Medical Scientist Training Program, Case Western Reserve University and University Hospitals 
+Cleveland Medical Center, Cleveland, OH, USA
+4Center for AIDS Research, Case Western Reserve University and University Hospitals Cleveland 
+Medical Center, Cleveland, OH, USA
+5Division of Infectious Diseases and HIV Medicine, Case Western Reserve University and 
+University Hospitals Cleveland Medical Center, Cleveland, OH, USA
+Abstract
+Mycobacterium tuberculosis utilizes multiple mechanisms to evade host immune responses, and 
+inhibition of effector CD4+ T cell responses by M. tuberculosis may contribute to immune 
+evasion. T cell receptor signaling is inhibited by M. tuberculosis cell envelope lipoglycans, such as 
+lipoarabinomannan and lipomannan, but a mechanism for lipoglycans to traffic from M. 
+tuberculosis within infected macrophages to reach T cells is unknown. In these studies, we found 
+that membrane vesicles produced by M. tuberculosis and released from infected macrophages 
+inhibited the activation of CD4+ T cells, as indicated by reduced production of interleukin-2 and 
+reduced T cell proliferation. Flow cytometry and western blot demonstrated that lipoglycans from 
+M. tuberculosis-derived bacterial vesicles (BVs) are transferred to T cells, where they inhibit T 
+cell responses. Stimulation of CD4+ T cells in the presence of BVs induced expression of GRAIL, 
+a marker of T cell anergy; upon restimulation, these T cells showed reduced ability to proliferate, 
+confirming a state of T cell anergy. Furthermore, lipoarabinomannan was associated with T cells 
+after their incubation with infected macrophages in vitro and when T cells were isolated from 
+lungs of M. tuberculosis-infected mice, confirming the occurrence of lipoarabinomannan 
+trafficking to T cells in vivo. These studies demonstrate a novel mechanism for the direct 
+regulation of CD4+ T cells by M. tuberculosis lipoglycans conveyed by BVs that are produced by 
+Corresponding author: Dr. Clifford V. Harding, Department of Pathology, Wolstein Research Building 6522, Case Western Reserve 
+University, 10900 Euclid Avenue, Cleveland, OH 44106, cvh3@cwru.edu, Phone number: 216-368-3611, Fax number: 216-368-1539.
+*Joint first authorship.
+#Joint senior authorship.
+HHS Public Access
+Author manuscript
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Published in final edited form as:
+J Immunol. 2017 March 01; 198(5): 2028–2037. doi:10.4049/jimmunol.1601199.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+M. tuberculosis and released from infected macrophages. These lipoglycans are transferred to T 
+cells to inhibit T cell responses, providing a mechanism that may promote immune evasion.
+Introduction
+Mycobacterium tuberculosis infection results in the release of extracellular vesicles (EVs) 
+containing bacterial content from infected macrophages (1–4). EVs produced during 
+infection with mycobacterial species are able to regulate uninfected macrophages (2–9). We 
+have shown that EVs from M. tuberculosis-infected macrophages consist of two distinct and 
+separable fractions: bacteria-derived membrane vesicles (BVs) and host exosomes (3). 
+Whereas BVs released from infected macrophages contained M. tuberculosis components 
+and had activity to regulate uninfected macrophages, exosomes from infected macrophages 
+(when separated from BVs) lacked these components and activities, demonstrating the 
+importance of BVs in determining the export of M. tuberculosis components from infected 
+macrophages (3).
+M. tuberculosis produces BVs both during macrophage infection and in axenic culture; the 
+BVs produced under these two conditions carry overlapping content (1–3, 10–12) and 
+similar immune-modulatory properties (3, 12–14). The content and immune-modulatory 
+properties of exosome preparations from infected macrophages (1, 5, 10) are also 
+overlapping with BVs (11, 12, 15), although our interpretation is that this is due to the 
+presence of BVs in the exosome preparations (3). BVs from mycobacteria in axenic cultures 
+and from infected macrophages have been assessed for mycobacterial components by 
+proteomic and biochemical studies. They contain numerous bacterial proteins, including 
+lipoproteins (e.g. LpqH, LprG), lipoglycans and glycolipids (e.g. lipoarabinomannan 
+(LAM), lipomannan (LM), and phosphatidylinositol mannoside species (PIMs)), and 
+antigens (e.g. Ag85B) (1–3, 10–12). These components may contribute to both host immune 
+responses and immune evasion mechanisms, e.g. provision of antigen to drive T cell 
+responses, lipoproteins to activate Toll-like receptor 2 (TLR2) signaling and inhibit 
+macrophage antigen presentation, and LAM to inhibit phagosome maturation (16–26). Thus, 
+BV release provides a mechanism to broadcast M. tuberculosis components beyond infected 
+macrophages; this mechanism has the potential to either expand host defense or to promote 
+immune evasion.
+Prior studies of BVs and EV preparations from infected macrophages have investigated the 
+effects of these vesicles on macrophages (3–6, 8, 12, 14), but these studies have not 
+addressed direct effects of these vesicles on T cells. Of significant interest are the M. 
+tuberculosis lipoglycans LAM and LM. These major components of the M. tuberculosis cell 
+wall are found in BVs isolated from axenic M. tuberculosis culture and from infected 
+macrophages. LAM has been shown to inhibit activation of CD4+ T cells, leading to 
+decreased proliferation and cytokine production upon TCR stimulation (27–30). In this 
+context, LAM inhibits TCR signaling, as manifested by decreases in Lck, LAT and ZAP-70 
+phosphorylation (27, 28). Importantly, exposure of CD4+ T cells to LAM during T cell 
+activation induces anergy, manifested by decreased T cell responses upon subsequent 
+stimulation and increased expression of anergy markers such as the E3 ubiquitin ligase 
+Athman et al.
+Page 2
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+GRAIL (gene related to anergy in lymphocytes) (29). However, exposure of T cells to BVs 
+and LAM may primarily occur in the lung, and LAM may primarily impact effector T cells 
+as opposed to priming of naïve T cells. Also, it is still unclear whether LAM can be 
+transferred to T cells from macrophage phagosomes, where M. tuberculosis is sequestered, 
+and a mechanism for LAM trafficking from infected macrophages to T cells has not been 
+demonstrated.
+We hypothesized that LAM is trafficked by BVs that are produced by M. tuberculosis in 
+phagosomes and released by macrophages to reach CD4+ T cells in the lung and inhibit their 
+responses, supporting bacterial immune evasion. In these studies, we demonstrate that EVs 
+from infected macrophages, but not EVs from uninfected macrophages, inhibit T cell 
+activation, an inhibition attributable to the presence of BVs. This inhibition may be due in 
+part to the trafficked LAM, but additional bacterial components of the BVs may also 
+contribute. BVs inhibited the in vitro activation of Th1 effector CD4+ T cells as well as 
+naïve T cells. The ability to inhibit Th1 effector responses is of particular potential 
+significance, as this mechanism could limit protective Th1 responses to M. tuberculosis at 
+the site of infection (where BVs are most likely to encounter T cells). Moreover, we 
+demonstrate that pulmonary CD4+ T cells acquire LAM in the course of aerosol infection of 
+mice with virulent M. tuberculosis, demonstrating that exposure of T cells to LAM occurs in 
+vivo. Taken together, our results support the hypothesis that BV trafficking of LAM and 
+other mycobacterial components inhibits responses by CD4+ T cells to M. tuberculosis 
+infection, potentially contributing to bacterial immune evasion.
+Materials and Methods
+Reagents and Abs
+BSA, chemicals and detergents were from Sigma-Aldrich (St. Louis, MO). Abs (monoclonal 
+unless otherwise stated) included polyclonal rabbit anti-M. tuberculosis (Gen-Way Biotech, 
+San Diego, CA), CS-35 anti-LAM (hybridoma from BEI Resources, Manassas, VA), 
+polyclonal rabbit anti-GRAIL (Thermo Fisher, Grand Island, NY 14072), EM-04 anti-mouse 
+CD9 (Pierce, Rockford, IL), NVG-2 anti-mouse CD63 (BioLegend, San Diego, CA), 145–
+2C11 anti-mouse CD3ε and its PE conjugate (BD Biosciences, San Jose, CA), 37.51 anti-
+mouse CD28 (BD Biosciences), APC-conjugated RM4–5 anti-mouse CD4 (BD 
+Biosciences), PE/Cy7-conjugated M1/70 anti-mouse CD11b (BioLegend), PE/Cy7-
+conjugated rat IgG2b (isotype control, clone eB149/10H5, eBioscience, San Diego, CA), 
+PE-conjugated Armenian hamster IgG control clone eBio299Arm (eBioscience), AF647 
+anti-mouse CD3ε (BioLegend), AF647 Armenian hamster IgG (isotype control, 
+BioLegend), A488 anti-mouse CD11b (BioLegend), polyclonal rabbit IgG (isotype control, 
+Thermo Fisher), and DyLight 488-conjugated polyclonal donkey anti-rabbit IgG 
+(BioLegend). CS-35 mAb was purified from hybridoma culture supernatants using protein G 
+affinity chromatography. The polyclonal anti-M. tuberculosis Ab (anti-Mtb Ab) detects 
+LAM and LM, although its specificity is not limited to these lipoglycans. M. tuberculosis 
+strains H37Ra and H37Rv were obtained from ATCC (Manassas, VA). Bacteria were 
+cultured at 37°C in Middlebrook 7H9 broth (Difco, Detroit, MI) supplemented with 10% 
+Middlebrook ADC enrichment (BD Biosciences), 0.05% Tween 80, and 0.2% glycerol. 
+Athman et al.
+Page 3
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Bacteria were grown to mid-log phase (OD600 = 0.5–0.6) and frozen in 25% glycerol for 
+infection stocks. To prepare H37Ra stocks, bacteria were declumped by seven passages 
+through a 25-gauge needle and centrifuged at 100 × g for 5 min to remove clumps. The 
+supernatant was frozen in 1 ml aliquots for later use and a portion was assessed by serial 
+dilution and culture on Middlebrook 7H11 agar plates to determine the stock titer (∼4 × 106 
+CFU/ml). For experimental use, H37Ra stocks were thawed and similarly declumped. To 
+prepare H37Rv stocks, bacteria were declumped by vortexing with 3 mm glass beads for 2 
+min, centrifuged at 100 × g for 5 min to remove clumps and frozen in 1 ml aliquots at low 
+titer (2 × 106 CFU/ml) or high titer (4 × 107 CFU/ml); titers were determined by serial 
+dilution and culture on Middlebrook 7H11 agar plates. For infection of mice, H37Rv stocks 
+were thawed, declumped by vortexing with glass beads as above and then further declumped 
+by needle aspiration as described below for aerosol infection.
+Mammalian cell culture
+The Institutional Animal Care and Use Committee of Case Western Reserve University 
+approved all animal studies protocols (protocol number: 2015–0023). Mice were housed 
+under specific pathogen free conditions. C57BL/6J mice (8–12 week old females) were 
+obtained from The Jackson Laboratory (Bar Harbor, ME). Mycobacterial Ag85B-specific 
+TCR-transgenic (P25) mice were provided by Kiyoshi Takatsu (University of Tokyo) (31). 
+P25 T cells recognize a peptide (Ag85B(240–254); NH2-FQDAYNAAGGHNAVF-COOH) 
+derived from M. tuberculosis Ag85B in the context of MHC-II I-Ab (31). Unless otherwise 
+indicated, all cell culture incubations were at 37°C in a humidified, 5% CO2 atmosphere. 
+Macrophages were cultured from suspensions of bone marrow cells as described previously 
+(25). Bone marrow was flushed from femurs and tibias, and cell suspensions were 
+homogenized and filtered through a 70-µm screen. Bone marrow cells were cultured in 
+DMEM (HyClone, Logan, UT) supplemented with 10% heat-inactivated FBS (Life 
+Technologies, Carlsbad, CA), 50 mM 2-ME (Bio-Rad, Hercules, CA), 1 mM sodium 
+pyruvate (HyClone), 10 mM HEPES (HyClone), 100 U/ml penicillin, and 100 mg/ml 
+streptomycin (HyClone) (complete medium, referred to as D10F), with 25% LADMAC cell-
+conditioned medium as a source of M-CSF. The medium was changed on days 5 and 7 of 
+culture, and macrophages were used on day 8. CD4+ T cells were isolated from spleens as 
+described previously (27, 29). Spleens were dissociated through a 40-µm screen in 5 ml 
+DMEM, and red blood cells were lysed in ACK lysis buffer (150 mM NH4Cl, 10 mM 
+KHCO3, 0.1 mM Na2EDTA, pH 7.4). Splenocytes were plated in 100 mm tissue culture 
+plates and incubated for 1 h at 37°C. Non-adherent cells were collected; CD4+ T cells were 
+purified by negative selection using a CD4+ T Cell Isolation Kit (Miltenyi Biotec, Auburn, 
+CA) and incubated overnight in D10F supplemented with 10 ng/ml IL-7 (Miltenyi Biotec). 
+For all inhibition assays, CD4+ T cells were washed and resuspended in HL-1 medium 
+(BioWhittaker, East Rutherford, NJ) supplemented with non-essential amino acids, 
+penicillin/streptomycin, L-glutamine, HEPES, and 2-ME. For some experiments, untouched 
+naïve CD4+ T cells were isolated from splenocytes using a Naïve CD4+ T Cell Isolation Kit 
+(Miltenyi Biotec), which removes CD44hi memory T cells and lineages other than CD4+ T 
+cells. Th1 effector cells were generated from naïve CD4+ T cells by incubation for three 
+days in D10F on plates previously coated with 1 µg/ml anti-CD3ε, with the addition of 1 
+Athman et al.
+Page 4
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+µg/ml anti-CD28, 5 µg/ml anti-IL-4, and 10 ng/ml IL-12. Th1 cells were then removed from 
+stimulation and rested for 5 d in D10F with 10 ng/ml IL-7 prior to use in inhibition assays.
+Infection of macrophages and EV purification
+Macrophage infection and EV purification were performed as reported previously (3, 32). 
+Briefly, macrophages were plated, allowed to recover for 1 d, incubated for 4 h with M. 
+tuberculosis strain H37Ra at a multiplicity of infection (MOI) of 10 in antibiotic-free D10F 
+and washed to remove extracellular bacteria. The medium was replaced with antibiotic-free 
+D10F that was centrifuged prior to use at 100,000 × g for 18 h to remove exosomes and 
+other particles that are present in FBS (vesicle-production medium), and the cells were 
+cultured for 20 h (24 h total infection time). To remove cells and larger particulates, the 
+culture medium was centrifuged at 4°C sequentially at 500 × g for 15 min, 2000 × g for 15 
+min, and 10,000 × g for 30 min. The supernatant was then centrifuged at 100,000 × g for 70 
+min using the Beckman SW28 rotor to pellet EVs. The vesicle pellet was washed in 5 ml 
+PBS and recovered by centrifugation for 2 h at 100,000 × g in a Beckman SW50.1 rotor. The 
+final EV pellet was suspended in PBS (to a concentration of vesicles produced from 106 cell 
+equivalents/ml, approximately 1 mg/ml protein concentration) and frozen at −80°C.
+BV purification from axenic culture
+H37Ra from log-phase cultures (2 ml) was seeded into 2 l 7H9 medium (BD Biosciences) 
+supplemented with ADC (BD Biosciences) and glycerol (ThermoFisher). Cultures were 
+grown for 10 d in shaker flasks at 37°C. Bacteria were removed by centrifugation for 15 min 
+at 1500 × g and 3000 × g. The supernatant was filtered through a 0.45 µm polyvinylidene 
+difluoride (PVDF) filter (Millipore, Billerica, MA) and centrifuged at 10,000 × g for 30 min 
+to remove larger particles. BVs were pelleted at 100,000 × g for 2 h, suspended in 1 ml PBS, 
+and further purified using a qEV size exclusion column (Izon Science, Christchurch, New 
+Zealand). Fractions containing BVs were centrifuged at 100,000 × g for 2 h. BVs were 
+resuspended in PBS and stored at −80°C.
+Western blotting
+Proteins were separated by 12% SDS-PAGE under reducing conditions and transferred to 
+Immobilon PVDF membranes (Millipore). Membranes were incubated in blocking buffer 
+(5% milk in PBS with 0.1% Tween), followed by incubation with primary Abs overnight at 
+4°C in blocking buffer. Membranes were washed and then incubated with HRP conjugated 
+secondary Abs (Jackson ImmunoResearch, West Grove, PA) for 1 h at room temperature. 
+Membranes were washed three times in PBS with 0.1% Tween, and detection was performed 
+with ECL Western blotting substrate (Pierce).
+T cell functional analysis
+CD4+ T cells (105 cells/well) were treated in triplicate with purified vesicles or LAM for 1 
+h. BVs were added at a LAM equivalent concentration of 10 µg/ml unless otherwise 
+indicated. EVs from uninfected or infected macrophages were added at 100 µg/ml EV 
+protein content. Cells were activated for 24 h with plate bound anti-CD3ε (1 µg/ml) and 
+soluble anti-CD28 (1 µg/ml) in the continued presence of vesicles or LAM; supernatants 
+Athman et al.
+Page 5
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+were harvested, and IL-2 was quantitated by ELISA using the murine IL-2 DuoSet (R&D 
+Systems, Minneapolis, MN). Alternatively, T cells were activated as above for 48 h, and 
+proliferation was measured as described (29) by addition of 1 µCi of [3H]-thymidine/well 
+(Amersham Pharmacia Biotech, Piscataway, NJ) for an additional 16 h. [3H]-thymidine 
+incorporation was measured by liquid scintillation counting. Results were expressed as mean 
+cpm of triplicate values +/− SD. Alternatively, proliferation was measured by dye dilution 
+using CellTrace Violet Cell Proliferation Kit (Invitrogen, Carlsbad, CA). Cells were 
+incubated with CellTrace Violet prior to BV or LAM treatment and activation. Cells were 
+harvested at 72 h, and stained with Live/Dead Fixable Yellow (Invitrogen) and PE-anti-
+CD3ε Ab prior to detection of cell proliferation by flow cytometry. In some experiments, 
+cells were removed from stimulation after 24 h, and rested for 7 d in D10F with 10 ng/ml 
+IL-7. Rested cells were then activated an additional 24 h with anti-CD3ε and anti-CD28, and 
+cytokine production and proliferation were measured as before. Where indicated, CD4+ T 
+cells were activated with phorbol-12-myristate-13-acetate (PMA, 16 ng/ml) and ionomycin 
+(0.1 µg/ml), or ionomycin alone, and analyzed as described. In some experiments, P25 CD4+ 
+T cells were treated as indicated for 1 h at 37°C, then primed by co-culture for 48 h at a 1:2 
+ratio with paraformaldehyde-fixed macrophages with 1 µg/ml M. tuberculosis Ag 85B 
+peptide. IL-2 was measured as described previously. After 48 h, cells were collected by 
+vigorous pipetting, washed 3 times with DMEM, and rested for 5 d in D10F with 10 ng/µl 
+IL-7. Rested cells were restimulated with fixed macrophages as described earlier for 24 h 
+before harvesting supernatants for IL-2 ELISA or for 48 h before incubation with [3H]-
+thymidine as above to measure T cell proliferation. In some experiments, CellTrace Violet-
+labeled CD4+ T cells were activated in the presence of unlabeled CD4+ T cells that had 
+previously been incubated with or without BVs and washed; proliferation was measured by 
+CellTrace dye dilution, and IL-2 production was determined by ELISA.
+qPCR analysis of gene expression
+Total RNA was isolated from CD4+ T cells using the RNeasy Plus minikit (Qiagen, 
+Valencia, CA). RNA quantity was determined using a Nano Drop ND-2000c 
+spectrophotometer (Thermo Scientific, Waltham, MA). cDNA was synthesized using the 
+QuantiTect reverse transcription kit (Qiagen) following the manufacturer’s protocol. Equal 
+quantities of cDNA for each experimental condition were amplified by real-time PCR using 
+iQ SYBR green Supermix (Bio-Rad). Primers were for Gapdh (forward: 5’-AAC GAC CCC 
+TTC ATT GC-3’, reverse: 5’-TCC ACG ACA TAC TCA GCA C-3’) (33), Rnf128 
+(encoding GRAIL) (forward: 5’-GCG CAG TCA GCA AAT GAA-3′, reverse: 5’-TGT 
+CAA CAT GGG GAA CAA CA-3′) (34). Samples were amplified using a hot start at 95°C 
+for 3 min, followed by 50 cycles of 10 s at 95°C, 10 s at 59°C, 30 s at 72°C, and a post-
+amplification melting curve ramping from 65°C to 95°C in increments of 0.5°C per 5 s. The 
+abundance of each transcript was calculated relative to GAPDH gene expression, using the 
+formula 2[CT(target gene)-CT(GAPDH gene)] (35), normalizing the cycle threshold (CT) for each 
+sample using the CT for the GAPDH gene amplified in parallel.
+Flow cytometry for BV content in T cells
+CD4+ T cells from C57BL/6 mice were incubated with BVs at 10 µg/ml LAM equivalent 
+concentration for 24 h and analyzed by flow cytometry for incorporation of bacterial 
+Athman et al.
+Page 6
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+content. After exposure to BVs, cells were washed three times with PBS, stained with Live/
+Dead Fixable Yellow (Invitrogen), incubated with CS-35 or polyclonal anti-M. tuberculosis 
+Abs for 30 min on ice, washed with PBS, and incubated with Alexa Fluor 488-anti-mouse or 
+Alexa Fluor 488-anti-rabbit (Biolegend) for 30 min on ice. Cells were washed with PBS and 
+incubated for 30 min with AF647 anti-CD3ε, washed in PBS and fixed in 2% 
+paraformaldehyde with 1% BSA. Flow cytometry was performed on a LSR-II (BD 
+Biosciences). Data were analyzed using FlowJo version 10 (Tree Star, Ashland, OR).
+BV transfer in co-culture
+Macrophages were prepared and infected as described above for 4 h, and then washed three 
+times to remove extracellular bacteria. P25 CD4+ T cells were isolated by untouched CD4+ 
+selection (as above) and incubated 1:1 with infected macrophages for 24 h with addition of 1 
+µg/ml Ag85B peptide. Non-adherent cells were collected, washed three times in PBS, 
+stained with Live/Dead Fixable Yellow, AF647-anti-CD3ε, and PE/Cy7-anti-CDllb, and 
+then fixed. Live/CD11b−/ CD3ε+ cells were sorted on a FACSAria (BD Biosciences). Sorted 
+cells were analyzed for content by western blot.
+Quantifying LAM transfer to T cells by BVs
+CD4+ T cells from C57BL/6 mice were incubated overnight with LAM or BVs at equivalent 
+LAM concentrations (10 µg/ml). Cells were washed in PBS, suspended in MojoSort Buffer 
+(BioLegend), incubated with biotinylated anti-CD4 Ab (RM4–5, BioLegend) for 15 min at 
+4°C, washed in MojoSort Buffer, incubated with MojoSort streptavidin magnetic beads 
+(BioLegend) for 15 min at 4°C, washed twice in MojoSort Buffer and resuspended. The 
+suspension was exposed to the magnet for 5 min, and supernatant was removed. Magnetic 
+sorting was repeated twice with fresh buffer. Sorted cells were resuspended in sample buffer 
+and analyzed by western blot.
+Aerosol infection of mice and preparation of lung cells
+For low or high dose aerosol infections, respectively, low or high titer H37Rv frozen stocks 
+(1 ml) were thawed, declumped by vortexing with glass beads and centrifugation as above, 
+and diluted by addition of 5 ml of LPS-free sterile water. Bacterial clumps were further 
+disrupted by three sequential aspirations through a sterile 26-gauge hypodermic needle, and 
+5 ml of the suspension was placed in the glass nebulizer chamber of the Inhalation Exposure 
+System (Glas Col, Terre Haute, IN). Female C57BL/6J mice (8–16 weeks old, Jackson 
+Laboratory, Bar Harbor, ME) were exposed to bacterial aerosol for 50 min with input and 
+output airflow rates set at 7 l/min and 24 l/min, respectively. The initial M. tuberculosis 
+inoculum was determined from lung homogenates prepared 1 d after infection and ranged 
+between 50–100 lung CFU/mouse for low dose infection and 1500–2000 lung CFU/mouse 
+for high dose infection, as developed in prior infection studies (36, 37). At day 28 post-
+infection, mice were anesthetized with 750 µl of 1.25% 2,2,2 tribromoethanol (Sigma) in 
+40% 2-methyl-2-butanol (tert-amyl alcohol; Sigma) and exsanguinated by cutting the renal 
+arteries. The diaphragm and the lower ribcage were removed to expose the lungs. Lungs 
+were removed, and collected directly into gentleMACS C tubes (Miltenyi) containing 5 ml 
+of PBS, and 125 µl PBS was added containing collagenase (Sigma, 125 U/ml final 
+concentration) and DNase (Invitrogen, 30 U/ml final concentration). Lungs were 
+Athman et al.
+Page 7
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+homogenized using a gentleMACS dissociator (Miltenyi) following manufacturer’s 
+standardized protocol. Lung homogenates were passed through 70 µm nylon filters into 50 
+ml tubes; 5 ml of ACK buffer was added to each tube to lyse red blood cells. Lung cells 
+were pelleted at 1500 rpm for 15 min at 4°C. Supernatants were decanted and pellets were 
+washed once with 5 ml cold PBS. Cells were counted using a LUNA™ Automated Cell 
+Counter (Logos Biosystems, South Korea).
+Purification of CD4 T cells from infected lungs
+CD4+ T cells were immunoaffinity purified from lung homogenates by negative selection 
+using a CD4+ T Cell Isolation Kit (Miltenyi Biotec). To check for bacterial contamination, 
+an aliquot of these cells was diluted in Middlebrook 7H9 medium containing 0.05% SDS for 
+10 min at room temperature, serially diluted in PBS, plated on Middlebrook 7H11 agar, 
+incubated at 37°C and monitored for growth of bacterial colonies. To further purify T cells, 
+the immunoaffinity-purified cells were washed three times in PBS, stained with AF647 anti-
+CD3ε mAb and A488 anti-CD11b, and then fixed. From this population, CD11b−/CD3ε+ 
+cells were isolated by FACS with a FACSAria (BD Biosciences). Sorted cells were checked 
+for purity by flow cytometry, and analyzed for LAM content by solubilization in reducing 
+sample buffer (Bio-Rad, 5 × 106 cells/ml) followed by SDS-PAGE and western blot analysis 
+as described above (20 µl with 105 cell equivalents was loaded in each lane).
+Statistical analyses
+Data were analyzed using Prism 5 (GraphPad, La Jolla, CA). Unpaired Student t test with 
+Welch’s correction was used to assess significance for individual comparisons where 
+indicated (*, ≤0.05; **, ≤0.01; ***, ≤0.001).
+Results
+Extracellular vesicles released by M. tuberculosis-infected macrophages inhibit CD4+ T 
+cell activation
+M. tuberculosis-infected macrophages release extracellular vesicles (referred to as Inf EVs). 
+Our recent work (3) demonstrated that Inf EVs consist of a mixture of two distinct vesicle 
+populations: host-derived extracellular vesicles (EVs), identified by host markers CD9 and 
+CD63, and bacterial vesicles (BVs), identified by M. tuberculosis lipoglycans and 
+lipoproteins, including LAM (Fig. 1A). Since LAM inhibits TCR signaling and T cell 
+activation (27), we considered the hypothesis that Inf EVs could deliver LAM to inhibit T 
+cell activation. CD4+ T cells were incubated for 1 h with Inf EVs, EVs from uninfected 
+macrophages (Ctr EVs) or medium without EVs; the cells were then stimulated with anti-
+CD3ε and anti-CD28 Abs in the continued absence or presence of EVs for 24 h. T cell 
+activation was assessed by IL-2 secretion as measured by ELISA. IL-2 production was 
+significantly inhibited by Inf EVs relative to Ctr EVs treated or medium without EVs (Fig. 
+1B). We conclude that Inf EVs inhibit T cell activation, whereas Ctr EVs do not. Since the 
+difference between Inf EVs and Ctr EVs is the presence of M. tuberculosis-derived BVs in 
+the Inf EV preparation (whereas both contain host-derived exosomes), we inferred that the 
+BVs inhibit T cell activation and proceeded to test that hypothesis directly.
+Athman et al.
+Page 8
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+BVs inhibit T cell activation following TCR stimulation
+BVs are released by M. tuberculosis both during infection of macrophages and in axenic 
+cultures (3, 12). We purified BVs from axenic M. tuberculosis cultures by differential 
+centrifugation and size exclusion chromatography. As predicted, BVs contained LAM (as 
+well as LM) (Fig. 2A), revealing a lipoglycan content that is similar to Inf EVs (Fig. 1A). 
+Fractions containing BVs were pooled, and the LAM content of the BV preparation was 
+assessed by western blot using LAM standards (Fig. 2B); this approach was subsequently 
+used to define concentrations of BVs to achieve a given LAM equivalent concentration. To 
+assess the effect of BVs on CD4+ T cell activation, CD4+ T cells were treated with BVs or 
+LAM at varying concentrations for 1 h and then activated by anti-CD3ε/anti-CD28 TCR 
+stimulation for 24 h in the continuing presence of BVs or purified LAM. Both LAM and 
+BVs produced a dose-dependent inhibition of IL-2 production by T cells (Fig. 2C) (27, 29). 
+Notably, BVs were highly potent and efficacious in inhibiting IL-2 production; a given 
+concentration of purified LAM produced less inhibition than a concentration of BVs 
+containing the same amount of LAM, and the maximum level of inhibition was greater with 
+BVs than LAM (Fig. 2C). LAM and BV-mediated inhibition of IL-2 production were both 
+specific for IL-2 induced by TCR activation, as IL-2 production induced by phorbol-12-
+myristate-13-acetate (PMA)/ionomycin was not inhibited by BVs or LAM (data not shown). 
+CD4+ T cells incubated with BVs for 24 h were ∼90% viable as assessed by LIVE/DEAD 
+staining (data not shown). Both BVs and LAM also inhibited proliferation of CD4+ T cells 
+in response to anti-CD3ε/anti-CD28 TCR stimulation (Fig. 2D). The number of divisions 
+was reduced by approximately 50% in the presence of BVs or approximately 30% in the 
+presence of LAM (Fig. 2E). CD4+ T cells demonstrated minimal IL-2 production or 
+proliferation when activated with anti-CD28 alone, whereas activation with anti-CD3ε alone 
+was robust and was also inhibited by prior BV treatment (Supplemental Fig. 1), indicating 
+that BVs inhibit TCR/CD3-mediated T cell activation independent of CD28 costimulatory 
+signaling mechanisms. Inhibition of CD4+ T cell proliferation was directly mediated by cell 
+intrinsic effects of BVs, as opposed to induction of inhibitory molecules acting 
+intercellularly, as BV-treated T cells did not inhibit proliferation of co-cultured CD4+ T cells 
+that were not directly exposed to BVs (Supplemental Fig. 2). We conclude that BVs, like 
+LAM, inhibit T cell activation induced through TCR signaling, as manifested by reduced T 
+cell proliferation and production of IL-2. Moreover, BVs are particularly potent at inhibiting 
+T cell responses.
+The greater potency of BVs relative to LAM for inhibiting T cell responses may be due to 
+additional inhibitory components contained within BVs, or other possible mechanisms such 
+as more efficient T cell uptake of LAM from BVs relative to purified LAM. We first 
+examined whether BVs mediate transfer of LAM to T cells with greater efficiency than 
+purified LAM. T cells were incubated with BVs or purified LAM, and the T cells were then 
+separated from free BVs by immunolabeling with MojoSort magnetic streptavidin-
+conjugated beads coated with biotinylated anti-CD4 Ab. The T cells were then washed, 
+solubilized and assessed for LAM content by western blot. LAM was associated with T cells 
+after incubation with either LAM (10 µg/ml) or BVs (10 µg/ml LAM equivalent 
+concentration). At the same LAM equivalent concentration, BVs did not result in more LAM 
+delivery to T cells than purified LAM (Fig. 3A), indicating that LAM delivery efficiency is 
+Athman et al.
+Page 9
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+not the explanation for the potency of BVs in inhibiting T cell activation. Accordingly, we 
+focused on the possibility that BVs contain other inhibitors, in addition to LAM, which 
+increase their ability to inhibit T cell activation. M. tuberculosis produces other lipoglycans 
+related to LAM, e.g. LM, and smaller glycolipids, e.g. PIMs (phosphatidylinositol 
+mannosides) (38–40). BVs contain LM as well as LAM (Fig. 1B, Fig. 2A), and possibly 
+other lipoglycan/glycolipid species. Hence, we hypothesized that LM and possibly other 
+lipoglycans/glycolipids contribute to the ability of BVs to inhibit CD4+ T cell activation. We 
+incubated CD4+ T cells with purified LAM, LM, PIM1/2 or PIM6 for 1 h; the cells were 
+then incubated for 24 h with anti-CD3ε/anti-CD28 in the continued presence of the 
+lipoglycans/glycolipids. T cell IL-2 production was inhibited by all of these species (PIM1/2 
+to a lesser extent; Fig. 3B). These data demonstrate the potential for additional lipoglycan 
+and glycolipid components of BVs to inhibit T cell activation; species other than the ones we 
+have tested may also contribute.
+BVs traffic LAM and other lipoglycans from infected macrophages to T cells
+Our model suggests that BVs mediate the trafficking of LAM and other lipoglycans from 
+infected macrophages to T cells. To explore this hypothesis, we extended our observation 
+that BVs can traffic LAM to T cells (Fig. 3A) by assessing BV delivery of additional 
+molecules (e.g. LM) and by tracking the transfer of lipoglycans from infected macrophages 
+to T cells. First, we used a polyclonal anti-M. tuberculosis Ab that detects LM as well as 
+LAM. CD4+ T cells were incubated with BVs at 10 µg/ml LAM equivalent concentration for 
+24 h, and then washed and stained with this Ab. Flow cytometry revealed association of M. 
+tuberculosis components with T cell membranes (Fig. 4A). To track transfer of lipoglycans 
+from infected macrophages to T cells, we co-cultured M. tuberculosis-infected macrophages 
+with M. tuberculosis Ag85B-specific P25 CD4+ T cells, separated the T cells from the 
+macrophages by FACS of non-adherent cells, solubilized the T cells and performed western 
+blots with the polyclonal anti-M. tuberculosis Ab. In the T cell lysates, we observed bands 
+corresponding to the positions of LAM and LM (Fig. 4B). We conclude that BVs can traffic 
+LAM and other M. tuberculosis content, such as LM, from infected macrophages to T cells.
+LAM traffics to CD4+ T cells in the lung during in vivo infection
+We extended our in vitro observations that M. tuberculosis lipoglycans traffic from infected 
+macrophages to T cells by using an in vivo mouse model of M. tuberculosis infection. 
+C57BL/6J mice were infected at low aerosol dose (50–100 lung CFU) or high aerosol dose 
+(1500–2000 lung CFU) and housed for 28 d prior to lung harvest, immunoaffinity 
+purification of CD4+ T cells from lung homogenates (yielding 90% purity of CD4+CD11b− 
+cells) and further purification by FACS to isolate CD3+CD4+CD11b− cells of ≥99% purity. 
+These cells were solubilized, and lysates were analyzed by SDS-PAGE and western blot for 
+LAM. Fig. 5 shows that LAM is associated with CD4+ T cells from lungs of mice after low 
+or high dose aerosol infection with M. tuberculosis. LAM was not detected in samples 
+containing lysates of a similar number of immunoaffinity purified CD4+ lung cells from 
+uninfected mice, demonstrating specificity of the western blot assay (Fig. 5). The FACS-
+purified lung T cell preparation was free of M. tuberculosis CFU, excluding the possibility 
+that the LAM signal was due to intact extracellular bacteria present in the preparation. These 
+Athman et al.
+Page 10
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+results support the conclusion that LAM trafficking to CD4+ T cells occurs in vivo during 
+infection with M. tuberculosis.
+BVs inhibit activation of naïve and Th1 effector CD4+ T cells
+The results reported above indicate that BVs can inhibit T cell activation but do not explore 
+the relative ability of BVs to inhibit naïve vs. effector T cells. The potential ability to inhibit 
+effector T cell responses is important, since Th1 responses are induced by M. tuberculosis 
+infection and are critical for immunologic control of the infection. Moreover, M. 
+tuberculosis-infected macrophages are present primarily in the lung (and BVs are likely also 
+primarily in the lung), where they are more likely to encounter effector T cells. In contrast, 
+most naïve T cells reside in secondary lymphoid organs, where they are less likely to 
+encounter infected macrophages (and presumably BVs). These considerations suggest that 
+BV-mediated inhibition of T cell responses may have most impact on effector T cells in the 
+lung as opposed to priming of naïve T cell responses. Our prior studies showed that LAM 
+inhibits responses of both naive and effector T cells (28, 29). Therefore, we hypothesized 
+that M. tuberculosis BVs inhibit activation of Th1 effector as well as naïve CD4+ T cells. To 
+test this hypothesis, we generated naïve CD4+ T cells and in vitro-primed Th1 effector cells 
+and tested the ability of BVs to inhibit these cell populations. M. tuberculosis BVs inhibited 
+anti-CD3ε/anti-CD28 activation of naïve CD4+ T cells from C57BL/6 mice as measured by 
+both IL-2 production and cell proliferation (Fig. 6A, B). Similarly, BVs inhibited activation 
+of naïve P25 CD4+ T cells by antigenic peptide presented by fixed macrophages (Fig. 6C). 
+BVs also inhibited activation of Th1 effector T cells by anti-CD3ε/anti-CD28 as assessed by 
+induction of IL-2 and IFNγ (Fig. 6D, E). We conclude that BVs are capable of inhibiting 
+activation of both naïve and effector cells.
+BVs induce anergy in CD4+ T cells
+In addition to its ability to inhibit naïve T cell activation, LAM induces anergy when present 
+during TCR stimulation of naïve T cells, and this is associated with increased expression of 
+GRAIL (29). GRAIL may also be important in regulating effector T cell responses, as 
+GRAIL-knockout Th1 cells have been reported to overproduce IFNγ (41). We tested 
+whether BVs lead to the same anergy phenotype as the single component LAM. CD4+ T 
+cells from spleens of C57BL/6 mice were treated with BVs (10 µg/ml LAM equivalent 
+concentration) or LAM (10 µg/ml) prior to activation; this treatment was found to upregulate 
+expression of GRAIL as detected at both the mRNA and protein level (Fig. 7A, B). To test 
+for induction of functional anergy, naïve CD4+ T cells were incubated with BVs during 
+primary stimulation with anti-CD3ε/anti-CD28, rested for 5 d, and then restimulated 
+(without BVs) with anti-CD3ε/anti-CD28. The presence of BVs during primary stimulation 
+caused decreased proliferation upon restimulation (Fig. 7C), although IL-2 production upon 
+restimulation was not inhibited by the presence of BVs during primary stimulation (Fig. 
+7D). Similar results were obtained when T cells were stimulated with peptide presented by 
+fixed macrophages (upon both initial activation and restimulation, Fig. 7E, F). In contrast to 
+naïve CD4+ T cells, Th1 cells first exposed to BVs during stimulation of the effector T cells 
+(first effector stimulation) were not impaired in their ability to respond to a subsequent 
+stimulation (data not shown), although their response to the first effector stimulation was 
+impaired (Fig. 6D, E). We conclude that BVs are able to induce a state of partial anergy 
+Athman et al.
+Page 11
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+when present during primary stimulation of naïve T cells; this state is characterized by 
+decreased proliferative response to secondary stimulation but persistent IL-2 responses. On 
+the other hand, BV inhibition of effector T cells appears to be limited to the period when 
+BVs interact with effector T cells and does not involve lasting anergy beyond the period of 
+BV exposure. This could result in local inhibition of Th1 responses at sites of infection 
+without systemic inhibition of T cell responses.
+Discussion
+M. tuberculosis employs many tactics to facilitate suppression and evasion of host immune 
+responses. Here, we show evidence for a mechanism by which M. tuberculosis can directly 
+inhibit CD4+ T cell responses via release of LAM and other lipoglycans in BVs, allowing 
+their delivery to T cells. The role of LAM in inhibiting T cell responses has been previously 
+established (27–30, 42, 43), but evidence has been lacking for a mechanism by which LAM 
+could traffic from the bacterium, typically sequestered intracellularly within macrophage 
+phagosomes, to reach T cells. Studies of EVs from M. tuberculosis-infected macrophages 
+and BVs from axenic M. tuberculosis culture have shown that lipoglycans such as LAM are 
+released from M. tuberculosis in vesicles (3, 4, 12), but the ability of these vesicles to deliver 
+LAM to T cells has been unaddressed. In this study, we have demonstrated the ability of 
+BVs to deliver M. tuberculosis-derived materials, including LAM, to CD4+ T cells, resulting 
+in inhibition of T cell responses. Moreover, we have demonstrated that LAM is transferred 
+to pulmonary CD4+ T cells in vivo during infection with virulent M. tuberculosis, 
+supporting the in vivo relevance of this mechanism.
+Anti-CD3ε/anti-CD28 TCR stimulation was used as the experimental approach for most in 
+vitro experiments with T cells; this approach has an important advantage over stimulating T 
+cells with antigen presenting cells in that one can exclude the possibility that BVs directly 
+affect the antigen presenting cells and only affect the T cells indirectly. Our results with this 
+reductionist system demonstrate that BVs do directly impact T cells and induce T cell-
+intrinsic inhibitory mechanisms. In addition, we confirmed these results in studies with fixed 
+antigen presenting cells (macrophages) presenting an M. tuberculosis antigenic peptide from 
+Ag85B to TCR transgenic T cells specific for this peptide. The data shown in Figs. 6C, 7E 
+and 7F show that BVs also inhibit responses of CD4+ T cells to macrophages presenting 
+specific peptide antigen. Thus, the BV inhibitory effect is observed in this more 
+physiologically relevant system and is not limited to the anti-CD3/anti-CD28 stimulation 
+system.
+Our results also address the potentially conflicting influences of LAM and M. tuberculosis 
+lipoproteins in determining the effects of BVs on T cell responses. Studies with purified M. 
+tuberculosis lipoproteins have shown that their TLR2 agonist activity provides a 
+costimulatory effect to enhance CD4+ T cell activation (18, 44). Studies of EVs from M. 
+tuberculosis-infected macrophages and BVs from axenic M. tuberculosis cultures have 
+shown that these vesicles contain M. tuberculosis lipoproteins (e.g. LpqH and LprG) as well 
+as lipoglycans (e.g. LAM) (1, 3, 4, 6, 12). Since BVs contain a mixture of these lipoproteins 
+(with potential activating influence) and lipoglycans (with potential inhibitory influence), the 
+balance of these influences in affecting the outcome of T cell responses was previously 
+Athman et al.
+Page 12
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+unclear. In our current studies, the ability of BVs to inhibit T cell responses indicates that the 
+inhibitory mechanisms dominate in the context of BV interactions with T cells.
+We observed that BVs inhibited CD4+ T cell responses to a greater degree than purified 
+LAM at the level contained within the BVs (Fig. 2C, D). We hypothesized that this could be 
+due to more efficient transfer of LAM into T cell membranes when delivered by BVs as 
+opposed to purified LAM preparations, or due to inhibitory contributions of other 
+components of the BVs. We determined that the LAM transfer to T cells is not greater with 
+BVs relative to purified LAM (Fig. 3A). On the other hand, we found that M. tuberculosis 
+lipoglycans that can inhibit CD4+ T cell activation include LM as well as LAM (Fig. 3B); 
+both LM and LAM were detected in BVs by western blot (Fig. 1A, Fig. 2A) and were 
+transferred to T cells co-cultured with infected macrophages (Fig. 4B). Additionally, the 
+smaller glycolipid species PIM1/2 and PIM6 also inhibited CD4+ T cell responses (Fig. 3B); 
+although our experiments did not directly address the level of PIM species in BVs, they have 
+been detected in such vesicle preparations in other studies (12, 44–46). We conclude that 
+multiple M. tuberculosis lipoglycans and glycolipids can contribute to the inhibitory 
+capacity of BVs. Whether these lipoglycans and glycolipids induce the same inhibitory 
+mechanisms as LAM remains to be determined.
+The mechanisms for association of LAM and other lipoglycans/glycolipids with T cells 
+remain unclear. Previous work has demonstrated close association of LAM with T cell 
+membranes; LAM resists removal from T cells by washing, and colocalizes with lipid raft 
+proteins, likely representing integration into the T cell plasma membrane (27, 29). We 
+demonstrate in these studies that BV components can be detected by flow cytometry as 
+associated with the T cell surface, and are not removed by washing (Fig. 3A, Fig. 4A); this 
+may reflect transfer of BV contents to the T cell plasma membrane, although this has not 
+been strictly determined. BVs from non-mycobacterial species are known to utilize 
+membrane lipid rafts to facilitate transfer of their content to target cells (47–50). Further 
+studies will be necessary to determine the mechanisms for transfer of content from M. 
+tuberculosis BVs to T cells.
+Direct regulation of T cell responses by M. tuberculosis BVs presents a new mechanism of 
+immune regulation by M. tuberculosis that is of potential significance given the important 
+roles of T cells in limiting M. tuberculosis infection (51–55). Our results demonstrate that 
+activation of CD4+ T cells by a TCR stimulus is inhibited by BVs, resulting in decreased T 
+cell responses (Figs. 1 and 2). BVs did not reduce responses of T cells to activation with 
+PMA/ionomycin, indicating that the BV effect was not due to generalized toxicity and 
+suggesting specific relevance to activation of T cells via TCR signaling. This finding 
+parallels our earlier observation that LAM inhibits early TCR signaling steps (27, 28). This 
+parallel is consistent with the hypothesis that LAM contained within the BVs is an active 
+mediator of the inhibitory effect, although there may be contributions of other lipoglycans 
+with similar effects, or perhaps other M. tuberculosis-derived molecules.
+We investigated the ability of BVs to inhibit responses by different CD4+ T cell subsets. 
+Some of our experiments (Figs. 1, 2, 3, 4, 7A, 7B) utilized T cells purified from splenocytes 
+by immunomagnetic isolation of untouched CD4+ cells; these cells may be comprised 
+Athman et al.
+Page 13
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+primarily of naïve CD4+ T cells, but they were not selected for expression of naïve T cell 
+markers. To address this issue, we performed experiments with untouched naïve CD4+ T 
+cells purified from splenocytes by immunomagnetic depletion of CD44hi memory T cells 
+and of lineages other than CD4+ T cells (Figs. 6A–C, 7C–F), and we investigated the ability 
+of BVs to inhibit responses by effector T cells by using in vitro-primed Th1 cells (Figs. 6D, 
+6E). These studies demonstrated the ability of BVs to inhibit both naïve and effector CD4+ T 
+cell responses during the period of exposure of T cells to BVs (lasting anergy after the 
+exposure period was seen only with naïve T cells). Since exposure of T cells to BVs may 
+occur primarily at the site of infection in the lung, where T cells are primarily of the effector 
+subset, we propose that the most significant potential role for BV regulation of T cell 
+responses may lie in the inhibition of Th1 responses. The inability of effector T cells to 
+adequately respond to clear infection has been established (56); contributing mechanisms 
+may include inhibition of antigen presentation (22, 57–62) as well as other mechanisms to 
+reduce T cell responses such as direct inhibition of Th1 responses by BVs.
+Our results establish a new mechanism for delivery of M. tuberculosis components to T 
+cells, enabling M. tuberculosis to directly influence and inhibit T cell responses in a manner 
+distinct from other known immune evasion mechanisms, e.g. those involving macrophages. 
+BVs are produced by M. tuberculosis within macrophage phagosomes and traffic to the 
+extracellular space by exocytosis. This enables them to reach T cells, where they deliver M. 
+tuberculosis molecules, including lipoglycans such as LAM, which result in inhibition of T 
+cell responses. This model advances understanding of immune evasion mechanisms and 
+pathogenesis of M. tuberculosis infection. It also raises the possibility that further research 
+to understand these mechanisms may enable the design of host-directed therapeutic 
+approaches to rescue responsiveness of T cells in M. tuberculosis infection.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments
+These studies were supported by NIH R01 AI069085 and R01 AI034343 (to CVH); R21 AI099494 (to RER); 
+AI027243, HL106798 and Contract HHSN266200700022C / NO1-AI-70022 for the Tuberculosis Research Unit 
+(TBRU) (to WHB); and the use of core facilities supported by the Case Western Reserve University/University 
+Hospitals Center for AIDS Research (NIH P30 AI036219) and the Case Comprehensive Cancer Center (NIH P30 
+CA 043703).
+Abbreviations
+MFI
+median fluorescence intensity
+qRT-PCR
+quantitative reverse transcriptase polymerase chain reaction
+BV
+bacterial vesicle
+EV
+extracellular vesicle
+LAM
+lipoarabinomannan
+Athman et al.
+Page 14
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+LM
+lipomannan
+PIM
+phosphatidylinositol mannosides
+MHC-II
+class II MHC
+MOI
+multiplicity of infection
+TLR2
+Toll-like receptor 2
+References
+1. Giri PK, Kruh NA, Dobos KM, Schorey JS. Proteomic analysis identifies highly antigenic proteins 
+in exosomes from M. tuberculosis-infected and culture filtrate protein-treated macrophages. 
+Proteomics. 2010; 10:3190–3202. [PubMed: 20662102] 
+2. Ramachandra L, Qu Y, Wang Y, Lewis CJ, Cobb B, Takatsu K, Boom WH, Dubyak GR, Harding 
+CV. Mycobacterium tuberculosis synergizes with ATP to induce release of microvesicles and 
+exosomes containing major histocompatibility complex class II molecules capable of antigen 
+presentation. Infect. Immun. 2010; 78:5116–5125. [PubMed: 20837713] 
+3. Athman JJ, Wang Y, McDonald DJ, Boom WH, Harding CV, Wearsch PA. Bacterial Membrane 
+Vesicles Mediate the Release of Mycobacterium tuberculosis Lipoglycans and Lipoproteins from 
+Infected Macrophages. J. Immunol. 2015; 195:1044–1053. [PubMed: 26109643] 
+4. Bhatnagar S, Shinagawa K, Castellino FJ, Schorey JS. Exosomes released from macrophages 
+infected with intracellular pathogens stimulate a proinflammatory response in vitro and in vivo. 
+Blood. 2007; 110:3234–3244. [PubMed: 17666571] 
+5. Singh PP, Smith VL, Karakousis PC, Schorey JS. Exosomes isolated from mycobacteria-infected 
+mice or cultured macrophages can recruit and activate immune cells in vitro and in vivo. J. 
+Immunol. 2012; 189:777–785. [PubMed: 22723519] 
+6. Singh PP, LeMaire C, Tan JC, Zeng E, Schorey JS. Exosomes released from M. tuberculosis 
+infected cells can suppress IFN-gamma mediated activation of naive macrophages. PLoS One. 
+2011; 6:e18564. [PubMed: 21533172] 
+7. Giri PK, Schorey JS. Exosomes derived from M. Bovis BCG infected macrophages activate antigen-
+specific CD4+ and CD8+ T cells in vitro and in vivo. PLoS ONE. 2008; 3:e2461. [PubMed: 
+18560543] 
+8. Bhatnagar S, Schorey JS. Exosomes released from infected macrophages contain Mycobacterium 
+avium glycopeptidolipids and are proinflammatory. J. Biol. Chem. 2007; 282:25779–25789. 
+[PubMed: 17591775] 
+9. Walters SB, Kieckbusch J, Nagalingam G, Swain A, Latham SL, Grau GE, Britton WJ, Combes V, 
+Saunders BM. Microparticles from mycobacteria-infected macrophages promote inflammation and 
+cellular migration. J. Immunol. 2013; 190:669–677. [PubMed: 23241892] 
+10. Kruh-Garcia NA, Wolfe LM, Chaisson LH, Worodria WO, Nahid P, Schorey JS, Davis JL, Dobos 
+KM. Detection of Mycobacterium tuberculosis peptides in the exosomes of patients with active 
+and latent M. tuberculosis infection using MRM-MS. PLoS One. 2014; 9:e103811. [PubMed: 
+25080351] 
+11. Lee J, Kim SH, Choi DS, Lee JS, Kim DK, Go G, Park SM, Kim SH, Shin JH, Chang CL, Gho 
+YS. Proteomic analysis of extracellular vesicles derived from Mycobacterium tuberculosis. 
+Proteomics. 2015; 15:3331–3337. [PubMed: 26201501] 
+12. Prados-Rosales R, Baena A, Martinez LR, Luque-Garcia J, Kalscheuer R, Veeraraghavan U, 
+Camara C, Nosanchuk JD, Besra GS, Chen B, Jimenez J, Glatman-Freedman A, Jacobs WR Jr, 
+Porcelli SA, Casadevall A. Mycobacteria release active membrane vesicles that modulate immune 
+responses in a TLR2-dependent manner in mice. J. Clin. Invest. 2011; 121:1471–1483. [PubMed: 
+21364279] 
+13. Prados-Rosales R, Weinrick BC, Pique DG, Jacobs WR Jr, Casadevall A, Rodriguez GM. A role 
+for Mycobacterium tuberculosis membrane vesicles in iron acquisition. J. Bacteriol. 2014; 
+196:1250–1256. [PubMed: 24415729] 
+Athman et al.
+Page 15
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+14. Rath P, Huang C, Wang T, Wang T, Li H, Prados-Rosales R, Elemento O, Casadevall A, Nathan 
+CF. Genetic regulation of vesiculogenesis and immunomodulation in Mycobacterium tuberculosis. 
+Proc. Natl. Acad. Sci. U. S. A. 2013; 110:E4790–E4797. [PubMed: 24248369] 
+15. Prados-Rosales R, Brown L, Casadevall A, Montalvo-Quiros S, Luque-Garcia JL. Isolation and 
+identification of membrane vesicle-associated proteins in Gram-positive bacteria and 
+mycobacteria. Methods X. 2014; 1:124–129.
+16. Drage MG, Pecora ND, Hise AG, Febbraio M, Silverstein RL, Golenbock DT, Boom WH, Harding 
+CV. TLR2 and its co-receptors determine responses of macrophages and dendritic cells to 
+lipoproteins of Mycobacterium tuberculosis. Cell. Immunol. 2009; 258:29–37. [PubMed: 
+19362712] 
+17. Drage MG, Tsai HC, Pecora ND, Cheng TY, Arida AR, Shukla S, Rojas RE, Seshadri C, Moody 
+DB, Boom WH, Sacchettini JC, Harding CV. Mycobacterium tuberculosis lipoprotein LprG 
+(Rv1411c) binds triacylated glycolipid agonists of Toll-like receptor 2. Nature Struct. Mol. Biol. 
+2010; 17:1088–1095. [PubMed: 20694006] 
+18. Lancioni CL, Li Q, Thomas JJ, Ding X, Thiel B, Drage MG, Pecora ND, Ziady AG, Shank S, 
+Harding CV, Boom WH, Rojas RE. Mycobacterium tuberculosis lipoproteins directly regulate 
+human memory CD4(+) T cell activation via Toll-like receptors 1 and 2. Infect. Immun. 2011; 
+79:663–673. [PubMed: 21078852] 
+19. Pecora ND, Fulton SA, Reba SM, Drage MG, Simmons DP, Urankar-Nagy NJ, Boom WH, 
+Harding CV. Mycobacterium bovis BCG decreases MHC-II expression in vivo on murine lung 
+macrophages and dendritic cells during aerosol infection. Cell. Immunol. 2009; 254:94–104. 
+[PubMed: 18762288] 
+20. Fulton SA, Reba SM, Pai RK, Pennini M, Torres M, Harding CV, Boom WH. Inhibition of major 
+histocompatibility complex II expression and antigen processing in murine alveolar macrophages 
+by Mycobacterium bovis BCG and the 19-kilodalton mycobacterial lipoprotein. Infect. Immun. 
+2004; 72:2101–2110. [PubMed: 15039332] 
+21. Noss EH, Pai RK, Sellati TJ, Radolf JD, Belisle J, Golenbock DT, Boom WH, Harding CV. Toll-
+like receptor 2-dependent inhibition of macrophage class II MHC expression and antigen 
+processing by 19 kD lipoprotein of Mycobacterium tuberculosis. J. Immunol. 2001; 167:910–918. 
+[PubMed: 11441098] 
+22. Pai RK, Convery M, Hamilton TA, Boom WH, Harding CV. Inhibition of IFN-gamma-induced 
+class II transactivator expression by a 19-kDa lipoprotein from Mycobacterium tuberculosis: a 
+potential mechanism for immune evasion. J. Immunol. 2003; 171:175–184. [PubMed: 12816996] 
+23. Pennini ME, Pai RK, Schultz DC, Boom WH, Harding CV. Mycobacterium tuberculosis 19-kDa 
+lipoprotein inhibits IFN-gamma-induced chromatin remodeling of MHC2TA by TLR2 and MAPK 
+signaling. J. Immunol. 2006; 176:4323–4330. [PubMed: 16547269] 
+24. Ramachandra L, Noss E, Boom WH, Harding CV. Processing of Mycobacterium tuberculosis 
+antigen 85B involves intraphagosomal formation of peptide-major histocompatibility complex II 
+complexes and is inhibited by live bacilli that decrease phagosome maturation. J. Exp. Med. 2001; 
+194:1421–1432. [PubMed: 11714749] 
+25. Pecora ND, Gehring AJ, Canaday DH, Boom WH, Harding CV. Mycobacterium tuberculosis LprA 
+is a lipoprotein agonist of TLR2 that regulates innate immunity and APC function. J. Immunol. 
+2006; 177:422–429. [PubMed: 16785538] 
+26. Fratti RA, Chua J, Vergne I, Deretic V. Mycobacterium tuberculosis glycosylated 
+phosphatidylinositol causes phagosome maturation arrest. Proc. Natl. Acad. Sci. USA. 2003; 
+100:5437–5442. [PubMed: 12702770] 
+27. Mahon RN, Sande OJ, Rojas RE, Levine AD, Harding CV, Boom WH. Mycobacterium 
+tuberculosis ManLAM inhibits T-cell-receptor signaling by interference with ZAP-70, Lck and 
+LAT phosphorylation. Cell. Immunol. 2012; 275:98–105. [PubMed: 22507872] 
+28. Mahon RN, Rojas RE, Fulton SA, Franko JL, Harding CV, Boom WH. Mycobacterium 
+tuberculosis cell wall glycolipids directly inhibit CD4+ T-cell activation by interfering with 
+proximal T-cell-receptor signaling. Infect. Immun. 2009; 77:4574–4583. [PubMed: 19651854] 
+29. Sande OJ, Karim AF, Li Q, Ding X, Harding CV, Rojas RE, Boom WH. Mannose-Capped 
+Lipoarabinomannan from Mycobacterium tuberculosis Induces CD4+ T Cell Anergy via GRAIL. J 
+Immunol. 2016; 196:691–702. [PubMed: 26667170] 
+Athman et al.
+Page 16
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+30. Shabaana AK, Kulangara K, Semac I, Parel Y, Ilangumaran S, Dharmalingam K, Chizzolini C, 
+Hoessli DC. Mycobacterial lipoarabinomannans modulate cytokine production in human T helper 
+cells by interfering with raft/microdomain signalling. Cell. Mol. Life Sci. 2005; 62:179–187. 
+[PubMed: 15666089] 
+31. Tamura T, Ariga H, Kinashi T, Uehara S, Kikuchi T, Nakada M, Tokunaga T, Xu W, Kariyone A, 
+Saito T, Kitamura T, Maxwell G, Takaki S, Takatsu K. The role of antigenic peptide in CD4+ T 
+helper phenotype development in a T cell receptor transgenic model. Int. Immunol. 2004; 
+16:1691–1699. [PubMed: 15477229] 
+32. Thery C, Amigorena S, Raposo G, Clayton A. Isolation and characterization of exosomes from cell 
+culture supernatants and biological fluids. Curr. Protoc. Cell Biol. Chapter. 2006; 3 Unit 3 22. 
+33. Pai RK, Pennini ME, Tobian AA, Canaday DH, Boom WH, Harding CV. Prolonged toll-like 
+receptor signaling by Mycobacterium tuberculosis and its 19-kilodalton lipoprotein inhibits 
+gamma interferon-induced regulation of selected genes in macrophages. Infect. Immun. 2004; 
+72:6603–6614. [PubMed: 15501793] 
+34. Lin JT, Lineberry NB, Kattah MG, Su LL, Utz PJ, Fathman CG, Wu L. Naive CD4 t cell 
+proliferation is controlled by mammalian target of rapamycin regulation of GRAIL expression. J. 
+Immunol. 2009; 182:5919–5928. [PubMed: 19414743] 
+35. Pfaffl, MW. Relative quantitation. In: Dorak, MT., editor. Real time PCR. First. New York, NY, 
+USA: Taylor and Francis; 2006. p. 63-82.
+36. Scott HM, Flynn JL. Mycobacterium tuberculosis in chemokine receptor 2-deficient mice: 
+influence of dose on disease progression. Infect. Immun. 2002; 70:5946–5954. [PubMed: 
+12379669] 
+37. Holscher C, Atkinson RA, Arendse B, Brown N, Myburgh E, Alber G, Brombacher F. A protective 
+and agonistic function of IL-12p40 in mycobacterial infection. J Immunol. 2001; 167:6957–6966. 
+[PubMed: 11739515] 
+38. Brennan PJ. Structure, function, and biogenesis of the cell wall of Mycobacterium tuberculosis. 
+Tuberculosis (Edinb). 2003; 83:91–97. [PubMed: 12758196] 
+39. Brennan PJ, Nikaido H. The envelope of mycobacteria. Annu. Rev. Biochem. 1995; 64:29–63. 
+[PubMed: 7574484] 
+40. Briken V, Porcelli SA, Besra GS, Kremer L. Mycobacterial lipoarabinomannan and related 
+lipoglycans: from biogenesis to modulation of the immune response. Mol. Microbiol. 2004; 
+53:391–403. [PubMed: 15228522] 
+41. Kriegel MA, Rathinam C, Flavell RA. E3 ubiquitin ligase GRAIL controls primary T cell 
+activation and oral tolerance. Proc. Natl. Acad. Sci. U. S. A. 2009; 106:16770–16775. [PubMed: 
+19805371] 
+42. Moreno C, Mehlert A, Lamb J. The inhibitory effects of mycobacterial lipoarabinomannan and 
+polysaccharides upon polyclonal and monoclonal human T cell proliferation. Clin. Exp. Immunol. 
+1988; 74:206–210. [PubMed: 3147152] 
+43. Molloy A, Gaudernack G, Levis WR, Cohn ZA, Kaplan G. Suppression of T-cell proliferation by 
+Mycobacterium leprae and its products: the role of lipopolysaccharide. Proc. Natl. Acad. Sci. U. S. 
+A. 1990; 87:973–977. [PubMed: 1689064] 
+44. Reba SM, Li Q, Onwuzulike S, Ding X, Karim AF, Hernandez Y, Fulton SA, Harding CV, 
+Lancioni CL, Nagy N, Rodriguez ME, Wearsch PA, Rojas RE. TLR2 engagement on CD4 T cells 
+enhances effector functions and protective responses to Mycobacterium tuberculosis. Eur. J. 
+Immunol. 2014; 44:1410–1421. [PubMed: 24497180] 
+45. Beatty WL, Rhoades ER, Ullrich HJ, Chatterjee D, Heuser JE, Russell DG. Trafficking and release 
+of mycobacterial lipids from infected macrophages. Traffic. 2000; 1:235–247. [PubMed: 
+11208107] 
+46. Rhoades E, Hsu F, Torrelles JB, Turk J, Chatterjee D, Russell DG. Identification and macrophage-
+activating activity of glycolipids released from intracellular Mycobacterium bovis BCG. Mol. 
+Microbiol. 2003; 48:875–888. [PubMed: 12753183] 
+47. Thay B, Wai SN, Oscarsson J. Staphylococcus aureus alpha-toxin-dependent induction of host cell 
+death by membrane-derived vesicles. PLoS One. 2013; 8:e54661. [PubMed: 23382935] 
+Athman et al.
+Page 17
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+48. Gurung M, Moon DC, Choi CW, Lee JH, Bae YC, Kim J, Lee YC, Seol SY, Cho DT, Kim SI, Lee 
+JC. Staphylococcus aureus produces membrane-derived vesicles that induce host cell death. PLoS 
+One. 2011; 6:e27958. [PubMed: 22114730] 
+49. Rompikuntal PK, Thay B, Khan MK, Alanko J, Penttinen AM, Asikainen S, Wai SN, Oscarsson J. 
+Perinuclear localization of internalized outer membrane vesicles carrying active cytolethal 
+distending toxin from Aggregatibacter actinomycetemcomitans. Infect. Immun. 2012; 80:31–42. 
+[PubMed: 22025516] 
+50. Bomberger JM, Maceachran DP, Coutermarsh BA, Ye S, O’Toole GA, Stanton BA. Long-distance 
+delivery of bacterial virulence factors by Pseudomonas aeruginosa outer membrane vesicles. PLoS 
+Pathog. 2009; 5:e1000382. [PubMed: 19360133] 
+51. Scanga CA, Mohan VP, Yu K, Joseph H, Tanaka K, Chan J, Flynn JL. Depletion of CD4(+) T cells 
+causes reactivation of murine persistent tuberculosis despite continued expression of interferon 
+gamma and nitric oxide synthase 2. J. Exp. Med. 2000; 192:347–358. [PubMed: 10934223] 
+52. Orme IM, Collins FM. Protection against Mycobacterium tuberculosis infection by adoptive 
+transfer. J. Exp. Med. 1983; 158:74–83. [PubMed: 6602861] 
+53. Muller I, Cobbold SP, Waldmann H, Kaufmann SH. Impaired resistance to Mycobacterium 
+tuberculosis infection after selective in vivo depletion of L3T4+ and Lyt-2+ T cells. Infect. Immun. 
+1987; 55:2037–2041. [PubMed: 3114143] 
+54. Barnes PF, Bloch AB, Davidson PT, Snider DE Jr. Tuberculosis in patients with human 
+immunodeficiency virus infection. N. Engl. J. Med. 1991; 324:1644–1650. [PubMed: 2030721] 
+55. Pedrazzini T, Hug K, Louis JA. Importance of L3T4+ and Lyt-2+ cells in the immunologic control 
+of infection with Mycobacterium bovis strain bacillus Calmette-Guerin in mice. Assessment by 
+elimination of T cell subsets in vivo. J. Immunol. 1987; 139:2032–2037. [PubMed: 3114383] 
+56. Bold TD, Banaei N, Wolf AJ, Ernst JD. Suboptimal activation of antigen-specific CD4+ effector 
+cells enables persistence of M. tuberculosis in vivo. PLoS Pathog. 2011; 7:e1002063. [PubMed: 
+21637811] 
+57. Grace PS, Ernst JD. Suboptimal Antigen Presentation Contributes to Virulence of Mycobacterium 
+tuberculosis In Vivo. J. Immunol. 2015; 196:357–364. [PubMed: 26573837] 
+58. Kincaid EZ, Wolf AJ, Desvignes L, Mahapatra S, Crick DC, Brennan PJ, Pavelka MS Jr, Ernst JD. 
+Codominance of TLR2-dependent and TLR2-independent modulation of MHC class II in 
+Mycobacterium tuberculosis infection in vivo. J. Immunol. 2007; 179:3187–3195. [PubMed: 
+17709534] 
+59. Harding CV, Boom WH. Regulation of antigen presentation by Mycobacterium tuberculosis: a role 
+for Toll-like receptors. Nature Rev. Microbiol. 2010; 8:296–307. [PubMed: 20234378] 
+60. Noss EH, Harding CV, Boom WH. Mycobacterium tuberculosis inhibits MHC class II antigen 
+processing in murine bone marrow macrophages. Cell. Immunol. 2000; 201:63–74. [PubMed: 
+10805975] 
+61. Pennini ME, Liu Y, Yang J, Croniger CM, Boom WH, Harding CV. CCAAT/enhancer-binding 
+protein beta and delta binding to CIITA promoters is associated with the inhibition of CIITA 
+expression in response to Mycobacterium tuberculosis 19-kDa lipoprotein. J. Immunol. 2007; 
+179:6910–6918. [PubMed: 17982082] 
+62. Richardson ET, Shukla S, Sweet DR, Wearsch PA, Tsichlis PN, Boom WH, Harding CV. Toll-like 
+receptor 2-dependent extracellular signal-regulated kinase signaling in Mycobacterium 
+tuberculosis-infected macrophages drives anti-inflammatory responses and inhibits Th1 
+polarization of responding T cells. Infect. Immun. 2015; 83:2242–2254. [PubMed: 25776754] 
+Athman et al.
+Page 18
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Fig. 1. Extracellular vesicles (EVs) from M. tuberculosis-infected macrophages inhibit TCR 
+activation of CD4+ T cells
+(A) EVs were purified from uninfected or M. tuberculosis-infected macrophages to produce 
+Ctr EVs or Inf EVs, respectively. EVs (5 µg protein content) were assessed by western blot 
+for host CD9 and CD63 (left) and M. tuberculosis lipoglycans (right, top band represents 
+LAM and bottom band represents LM). (B) CD4+ T cells from spleens of C57BL/6 mice 
+were treated for 1 h with Inf EVs or Ctr EVs (100 µg/ml EV protein concentration) and 
+activated for 24 h with 1 µg/ml plate bound anti-CD3ε and 1 µg/ml soluble anti-CD28 in the 
+continued presence of the EVs. IL-2 was measured by ELISA. Data are shown as mean ± 
+SD of triplicate samples from one representative experiment (n>3 experiments). Student t 
+test with Welch’s correction was used to assess statistical significance (*≤0.05).
+Athman et al.
+Page 19
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Fig. 2. BVs from axenic M. tuberculosis inhibit TCR-induced activation of CD4+ T cells
+(A) BVs from 2 l axenic M. tuberculosis culture were purified by differential centrifugation 
+and size exclusion chromatography. Western blot with polyclonal anti-M. tuberculosis Ab 
+shows LAM and LM in size exclusion chromatography fractions. (B) BV-containing 
+fractions (6–11) from (A) were pooled, concentrated and analyzed by western blot with 
+CS-35 Ab (anti-LAM) in comparison to a purified LAM standard used for quantification. 
+(C) CD4+ T cells derived from spleens of C57BL/6 mice were treated for 1 h with BVs or 
+purified LAM and then stimulated for 24 h with 1 µg/ml plate bound anti-CD3ε and 1 µg/ml 
+Athman et al.
+Page 20
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+soluble anti-CD28 in the continued presence or absence of BVs or LAM. IL-2 was measured 
+by ELISA. (D-E) Proliferation was measured by dye dilution in 72 h cultures by flow 
+cytometry. Data are shown as mean ± SD of triplicate samples from one representative 
+experiment (n=3 experiments).
+Athman et al.
+Page 21
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Fig. 3. Multiple M. tuberculosis lipoglycans can contribute to BV inhibition of CD4+ T cells
+(A) CD4+ T cells from spleens of C57BL/6 mice were incubated for 24 h with BVs (10 
+µg/ml LAM equivalent concentration) or LAM (10 µg/ml), re-purified by magnetic sorting 
+and assessed for LAM content by western blot with CS-35 Ab. (B) CD4+ T cells were 
+treated with lipoglycans LAM, LM, PIM1/2 or PIM6 for 1 hour prior to activation with plate 
+bound anti-CD3ε (1 µg/ml) and soluble anti-CD28 (1 µg/ml) for 24 h. IL-2 was measured 
+by ELISA. Data are shown as mean ± SD of triplicate samples from one representative 
+experiment (n=3 experiments).
+Athman et al.
+Page 22
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Fig. 4. BVs facilitate the trafficking of LAM and LM from infected macrophages to CD4+ T cells
+(A) CD4+ T cells from spleens of C57L/6 mice were incubated with or without BVs (10 
+µg/ml LAM equivalent concentration) for 24 h, stained with anti-CD3ε and anti-M. 
+tuberculosis Abs or isotype control Abs, fixed, and assessed by flow cytometry with 
+polyclonal anti-M. tuberculosis Ab. Open outline: BV-treated T cells anti-M. tuberculosis 
+Ab; grey outline: untreated T cells anti-M. tuberculosis Ab; black outline: BV-treated T cells 
+with isotype control Ab. (B) P25 CD4+ T cells were cultured with M. tuberculosis-infected 
+or uninfected macrophages for 24 h with the addition of P25 peptide (1 µg/ml). CD4+ T cells 
+were then purified from macrophages by FACS with exclusion of CD11b+ cells and 
+selection of CD3ε+ cells. Purified T cells were assessed for M. tuberculosis lipoglycan 
+content by western blotting with polyclonal anti-M. tuberculosis Ab.
+Athman et al.
+Page 23
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Fig. 5. LAM trafficking to CD4+ T cells in vivo
+(A) Schematic of experimental design. Mice were aerosol infected with M. tuberculosis 
+H37Rv at low or high dose. After 28 d of infection, lungs were harvested and CD4+ T cells 
+were isolated by immunoaffinity purification. CD4+ T cells were further purified by FACS to 
+select CD3+CD11b− cells (≥99% purity), providing the preparation of CD3+CD4+CD11b− 
+cells for LAM analysis. (B) Western blot analysis of LAM content in lysates of purified 
+CD3+CD4+CD11b− lung cells after low dose or high dose aerosol infection of mice with M. 
+tuberculosis H37Rv (“None” indicates lysate of immunoaffinity-purified CD4+ T cells from 
+Athman et al.
+Page 24
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+uninfected mouse lung). Each lane represents lysate from 105 cells derived from a single 
+animal (the two low dose infections are from a single experiment, and the three high dose 
+infections are from another experiment). LAM was detected in CD3+CD4+CD11b− cells 
+from lungs of mice after both low and high dose infections, although with some variability 
+in level.
+Athman et al.
+Page 25
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Fig. 6. BVs inhibit the activation of both naïve and Th1 effector CD4+ T cells
+(A-B) Naïve CD4+ T cells from C57BL/6 mice were incubated for 1 h with BVs at 10 µg/ml 
+LAM equivalent concentration and stimulated with anti-CD3ε/anti-CD28 in the continued 
+presence of BVs. After 24 h, IL-2 was measured in the supernatant by ELISA, and 
+proliferation was measured after 48 h by [3H]-thymidine incorporation. (C) Naïve P25 CD4+ 
+T cells were activated with and without BVs as in panel A, except T cells were stimulated 
+with fixed macrophages presenting Ag85B peptide. (D-E) Th1 effector CD4+ T cells were 
+prepared from splenocytes of C57BL/6 mice and activated as in panel A; after 24 h 
+supernatants were harvested, and IFNγ (D) and IL-2 (E) were measured by ELISA. Data are 
+shown as mean ± SD of triplicate samples from one representative experiment (n=3 
+experiments, except n=2 for panel C). Students t test with Welch’s correction was used to 
+assess statistical significance (*, p≤0.05; **, p≤0.01).
+Athman et al.
+Page 26
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Fig. 7. BVs induce GRAIL expression and functional anergy in naïve CD4+ T cells
+(A) CD4+ T cells were isolated from spleens of C57BL/6 mice and activated with anti-
+CD3ε/anti-CD28 in the presence or absence of BVs (10 µg/ml LAM equivalent 
+concentration) or LAM (10 µg/ml). GRAIL expression was measured by qPCR after 24 h. 
+(B) Western blot analysis of GRAIL protein expression in CD4+ T cells treated as in (A). 
+(C-D) Naïve CD4+ T cells were activated as in Fig. 6A in the presence or absence of BVs, 
+rested for 5 d with 10 ng/ml IL-7, and then re-stimulated with anti-CD3ε/anti-CD28. After 
+48 h of restimulation, proliferation was measured by addition of [3H]-thymidine for an 
+Athman et al.
+Page 27
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+additional 16 h (C). After 24 h of restimulation, supernatants were harvested and IL-2 was 
+measured by ELISA (D). (E-F) Naïve P25 CD4+ T cells were activated for 48 h with fixed 
+macrophages presenting Ag85B peptide in the presence or absence of BVs or ionomycin, 
+rested for 5 d with 10 ng/ml IL-7, and restimulated with fixed macrophages and peptide. 
+Proliferation and IL-2 were measured as in panels C and D. Data are shown as mean ± SD of 
+triplicate samples from one representative experiment (n>3; except panels E and F, n = 2). 
+Student t test with Welch’s correction was used to assess statistical significance (*, p≤0.05; 
+**, p≤0.01; ***, p≤0.001).
+Athman et al.
+Page 28
+J Immunol. Author manuscript; available in PMC 2018 March 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

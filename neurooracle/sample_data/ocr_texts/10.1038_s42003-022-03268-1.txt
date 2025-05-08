@@ -1,0 +1,1867 @@
+ARTICLE
+Cellular and molecular signatures of in vivo imaging
+measures of GABAergic neurotransmission in the
+human brain
+Paulina Barbara Lukow
+1✉, Daniel Martins
+2,3, Mattia Veronese
+2,3,4, Anthony Christopher Vernon
+5,6,
+Philip McGuire
+1,3, Federico Edoardo Turkheimer
+2 & Gemma Modinos
+1,2,6
+Diverse GABAergic interneuron networks orchestrate information processing in the brain.
+Understanding the principles underlying the organisation of this system in the human brain,
+and whether these principles are reﬂected by available non-invasive in vivo neuroimaging
+methods, is crucial for the study of GABAergic neurotransmission. Here, we use human gene
+expression data and state-of-the-art imaging transcriptomics to uncover co-expression pat-
+terns between genes encoding GABAA receptor subunits and inhibitory interneuron subtype-
+speciﬁc markers, and their association with binding patterns of the gold-standard GABA PET
+radiotracers [11C]Ro15-4513 and [11C]ﬂumazenil. We found that the inhibitory interneuron
+marker somatostatin covaries with GABAA receptor-subunit genes GABRA5 and GABRA2, and
+that their distribution followed [11C]Ro15-4513 binding. In contrast, the inhibitory interneuron
+marker parvalbumin covaried with GABAA receptor-subunit genes GABRA1, GABRB2 and
+GABRG2, and their distribution tracked [11C]ﬂumazenil binding. Our ﬁndings indicate that
+existing PET radiotracers may provide complementary information about key components of
+the GABAergic system.
+https://doi.org/10.1038/s42003-022-03268-1
+OPEN
+1 Department of Psychosis Studies, Institute of Psychiatry, Psychology & Neuroscience, King’s College London, 16 De Crespigny Park, SE5 8AF London, UK.
+2 Department of Neuroimaging, Institute of Psychiatry, Psychology & Neuroscience, King’s College London, 16 De Crespigny Park, SE5 8AF London, UK.
+3 NIHR Maudsley Biomedical Research Centre, De Crespigny Park, Denmark Hill, London SE5 8AF, UK. 4 Department of Information Engineering, University of
+Padua, Via Giovanni Gradenigo, 6, 35131 Padova, PD, Italy. 5 Department of Basic & Clinical Neuroscience, Maurice Wohl Clinical Neuroscience Institute, 5
+Cutcombe Road, Brixton, London SE5 9RT, UK. 6 MRC Centre for Neurodevelopmental Disorders, King’s College London, New Hunt’s House, Guy’s Campus,
+London, UK. ✉email: paulina.lukow@kcl.ac.uk
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+1
+1234567890():,;
+
+W
+hilst accounting for <30% of cortical cells, GABAergic
+inhibitory interneurons control information proces-
+sing throughout the brain1–4. Their diverse functions
+include input gating into cortical5 and subcortical6 structures,
+regulating critical period boundaries, homoeostasis7 and local
+network
+activity,
+as
+well
+as
+entraining
+cortical
+network
+oscillations1. Due to their critical role in such wide range of brain
+functions, inhibitory interneuron dysfunction has been robustly
+implicated in several psychiatric and neurological conditions,
+including affective disorders6,8,9 and schizophrenia7,10,11.
+The GABAergic system comprises diverse inhibitory inter-
+neuron subtypes, innervating different excitatory and inhibitory
+neural targets through a variety of receptors1. Inhibitory inter-
+neurons vary in their ﬁring threshold, spiking frequency and
+location of postsynaptic cell innervation, which makes them ﬁt
+for various functions including the control of synaptic input into
+the local network and neuronal output regulation5,12. This mul-
+titude of inhibitory interneurons can be classiﬁed through the
+expression of speciﬁc proteins (markers)13. While the vast
+majority of inhibitory interneurons are positive for either par-
+valbumin (PVALB), somatostatin (SST), or vasoactive intestinal
+peptide (VIP), further speciﬁc subtypes can be identiﬁed through
+the expression of other markers, such as cholecystokinin (CCK)3.
+This array of neurons achieves ﬁne-tuned inhibitory responses via
+the ionotropic GABAA receptor (GABAAR), which mediates the
+hyperpolarisation of the postsynaptic excitatory or inhibitory
+target cell. The GABAAR is a pentameric chloride channel which
+most commonly comprises two α, two β and one γ subunit14.
+There are ﬁve subtypes of the α subunit and three each of the β
+and γ subunits; moreover, β can be replaced by a θ subunit, and γ
+can be replaced by δ, ε or π14. This generates a large variety of
+receptors, the biology and pharmacology of which are determined
+by their subunit composition. For instance, the low-afﬁnity α1
+subunit-containing GABAAR (GABAARα1) mediates phasic or
+activity-dependent inhibition on the postsynaptic cell, whereas
+GABAARα5 presents higher afﬁnity to GABA, maintaining a
+more continuous inhibitory tone extrasynaptically15–19. This
+intricacy of the GABAergic system poses a challenge to the
+investigation of the human GABAergic system in vivo that can be
+both selective and non-invasive.
+Given this complexity, the investigation of the roles that
+GABAergic neurotransmission may play in human brain function
+in health and disease requires: (1) knowledge of the basic prin-
+ciples underlying the organization of this intricate system; and (2)
+the ability to distinguish between the contribution of distinct
+components of the GABAergic system to in vivo measurements of
+GABAergic neurotransmission. In this context, positron emission
+tomography (PET) enables quantiﬁcation of GABAAR binding
+in vivo in anatomically deﬁned brain regions. This is achieved
+through the use of radiolabelled tracers (radiotracers), mainly
+[11C]Ro15-4513, with high afﬁnity to GABAARα5, and [11C]ﬂu-
+mazenil, a benzodiazepine site-speciﬁc radiotracer with more
+general afﬁnity to GABAARα1-3 and α520,21. Although receptor
+afﬁnity for these radiotracers has been conﬁrmed in preclinical
+research22, it is unknown whether this holds inter-species relia-
+bility and whether the distribution of distinct cellular and mole-
+cular components of the GABAergic system are reﬂected in
+radiotracer binding. Answering these questions would advance
+our
+understanding
+of
+which
+inhibitory
+interneurons
+and
+GABAAR sub-types may contribute the most to available
+neuroimaging-based GABA PET measurements. Interestingly,
+both the distribution of inhibitory interneurons and GABA PET
+radiotracer binding are heterogeneous across the human brain.
+For
+instance,
+SST
+and
+PVALB
+follow
+an
+anticorrelated
+distribution11, as do the binding patterns of [11C]Ro15-4513 and
+[11C]ﬂumazenil23. Moreover, there is abundant rodent evidence
+of an association between the expression of speciﬁc GABAAR
+subunits, encoded by individual genes in both presynaptic and
+target neurons (excitatory or inhibitory), and speciﬁc inhibitory
+interneuron subtypes19,24–26. However, whether analogous orga-
+nisation patterns are present in human is unclear. Brain-wide
+gene expression atlases such as the Allen Human Brain Atlas
+(AHBA) are increasingly being used to address these questions27.
+The approach involves testing for covariance between the spatial
+expression pattern of each gene in the AHBA and the spatial
+topography of neuroimaging measures. This results in the iden-
+tiﬁcation of speciﬁc cellular and molecular candidates which
+might contribute the most to the spatial variability in the neu-
+roimaging signal. Hence, using this approach for GABA PET
+radiotracers will inform how GABAergic system organisation in
+the human brain may be captured by these existing neuroimaging
+measures.
+Here, we sought to address this issue by using state-of-the-art
+imaging transcriptomics to (1) uncover patterns of co-expression
+between genes encoding GABAAR subunits and inhibitory
+interneuron markers in the human brain, and to (2) decode their
+links to the binding distribution patterns of two gold-standard
+GABA PET radiotracers, [11C]Ro15-4513 and [11C]ﬂumazenil28.
+We found that distinct GABAergic inhibitory interneuron marker
+genes co-expressed with speciﬁc GABAAR subunit-encoding
+genes. Furthermore, we observed that a substantial portion of
+the variation in [11C]Ro15-4513 and [11C]ﬂumazenil binding
+covaried with the expression of genes encoding speciﬁc compo-
+nents of the GABAergic system. Our ﬁndings provide a frame-
+work to bridge the gap between genes, cells and macroscopic
+molecular neuroimaging features of the GABAergic system that
+may be of help for future in vivo studies in health and disease.
+Results
+GABAergic inhibitory interneuron markers co-express with
+speciﬁc GABAAR subunit-encoding genes. Our ﬁrst aim was to
+uncover patterns of co-expression between genes encoding
+GABAAR subunits and inhibitory interneuron markers. The latter
+comprised: the GABA-synthesising enzymes GAD67 (GAD1)
+and GAD65 (GAD2)29, parvalbumin (PVALB)25, somatostatin
+(SST)30, vasoactive intestinal peptide (VIP)31, cholecystokinin
+(CCK), neuropeptide Y (NPY)32, calbindin (CALB1)30, calretinin
+(CALB2)30, neuronal nitric oxide synthase (NOS1)3, reelin
+(RELN)33, and the tachykinin precursor genes TAC1, TAC3 and
+TAC434, selected according to preclinical literature and Petilla
+classiﬁcation of GABAergic inhibitory interneurons13. Data on all
+available GABAAR subunit genes passing quality threshold were
+included: α1-5 (GABRA1-5), β1-3 (GABRB1-3), γ1-3 (GABRG1-
+3), ε (GABRE) and δ (GABRD). Genes encoding subunits α6
+(GABRA6), π (GABRP), θ (GABRQ) and ρ1-3 (GABRR1-3) were
+not used in further analyses as they did not show levels of
+expression above background. We performed weighted gene co-
+expression network analysis (WGCNA)35 on gene expression
+data from the AHBA36. This dataset contained microarray data
+on 15,633 genes from six post-mortem samples across the left
+(n = 6 healthy donors) and right hemispheres (n = 2 healthy
+donors), which were resampled into 83 brain regions of the
+Desikan–Killiany atlas37. WGCNA is a data-driven approach that
+allows to identify clusters (modules) of highly correlated genes
+across the whole transcriptome35.
+WGCNA identiﬁed 52 co-expression clusters, 13 of which
+included genes encoding inhibitory interneuron markers and
+GABAAR subunits of interest. We selected these 13 clusters to
+investigate which genes shared cluster allocation (Fig. 1a). SST
+was located in the same cluster as GABRA5, GABRA2 and
+GABRB1. PVALB had its own cluster (i.e., it was not located in
+ARTICLE
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+2
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+
+the same cluster as any other gene of interest). VIP was found in
+the same cluster as CCK and no other genes of interest. As those
+three individual clusters included three of the main non-
+overlapping inhibitory interneuron markers, labelling the major-
+ity of GABAergic inhibitory cells in the mammalian brain2, we
+investigated their enrichment in genes co-expressed in speciﬁc
+cell types deﬁned by previous single-cell transcriptomic analysis38
+using the WEB-based GEne SeT AnaLysis Toolkit39. These
+analyses revealed inhibitory interneuron cell-type enrichment in
+the SST and PVALB clusters, and excitatory cell-type enrichment
+in the VIP cluster (Supplementary Fig. 1). This indicated that
+the
+subsequent
+analyses
+including
+the
+SST
+and
+PVALB
+clusters
+were
+relevant
+for
+networks
+involving
+GABAergic
+inhibitory interneuron cell-types. Other separate clusters of genes
+included GAD1, GABRA1, GABRB2, GABRG2 and GABRG3;
+CALB1, CALB2, GABRG1 and GABRE; GABRA4, NPY and TAC3;
+and GAD2 and NOS1. Finally, GABRB1, GABRB3, GABRA3,
+RELN, TAC1, GABRD and TAC4 were all found individually in
+separate clusters that did not share assignment with any other
+gene of interest.
+The WGCNA cluster-based ﬁndings were complemented by a
+pairwise correlation analysis. This served both as a validation
+step and as a method to investigate co-expression patterns
+between genes of interest that might not pertain to a discrete
+WGCNA cluster. Hence, we performed bivariate correlation
+analysis of the genes of interest with the corrplot package in R
+4.0.3 (Fig. 1b). This revealed strong correlations (Pearson’s r > 0.5,
+p < 0.05) between SST and GABRA5, GABRA2 and GABRB1
+(Fig. 1c–e); between VIP and CCK (Fig. 1f); between GABRA1
+and GABRB2, GABRG2 and GABRG3 (Fig. 1h–j); and between
+PVALB and genes encoding the subunits of the main GABAergic
+receptor in the brain, GABAARα1β2γ2 (GABRA1, GABRB2 and
+GABRG2)19 (Fig. 1k–m).
+[11C]Ro15-4513 and [11C]ﬂumazenil PET binding track the
+expression of speciﬁc genes encoding GABAergic inhibitory
+interneuron markers and GABAAR subunits. Our second aim
+was to decode the links between the co-expression patterns of
+genes encoding GABAAR subunits and inhibitory interneuron
+markers (identiﬁed through the ﬁrst aim) and the binding patterns
+of two gold-standard GABA PET radiotracers, [11C]Ro15-4513
+and [11C]ﬂumazenil. For this purpose, we integrated the gene
+expression data with maps of [11C]Ro15-4513 binding (n = 10
+healthy volunteers) and [11C]ﬂumazenil binding (n = 16 healthy
+volunteers) through a covariance analysis. We used partial least
+square (PLS) regression, accounting for spatial autocorrelation.
+For each radiotracer, we performed two complementary analyses.
+First, we used as predictors the eigengenes of each of the clusters
+we identiﬁed in the WGCNA analysis. Eigengenes in this context
+refer to the ﬁrst principal component of a given cluster, thus
+representing the pattern of regional expression of all genes within
+that cluster. Second, we used as predictors all 15,633 genes that
+passed our pre-processing criteria and inspected the rank of each
+of our genes of interest in the ranked list of genes according to
+their spatial alignment with the radiotracer. This would provide a
+sense of how speciﬁc the correlation of each of our genes of
+interest might be as compared to other non-hypothesized genes
+and the cluster-wise analysis.
+[11C]Ro15-4513 binding is associated with SST, GABRA5,
+GABRA2 and GABRB1 expression. For [11C]Ro15-4513, the ﬁrst
+PLS component (PLS1) of the cluster-wise analysis explained
+alone the largest amount (58.28%, pspatial < 0.0001) of variance in
+radiotracer binding (Supplementary Fig. 4a). We focused our
+subsequent analyses on this ﬁrst component, as it explained the
+most of variance. The cluster containing GABRA5, GABRA2, SST
+and GABRB1 was assigned the highest positive PLS1 weight
+(Z = 6.18, FDR = 1.67 × 10−8). In the gene-wise PLS analysis,
+the ﬁrst PLS component explained alone the largest amount of
+variance (57.78%, pspatial < 0.0001) (Supplementary Fig. 4b).
+GABRA5, GABRB3, GABRA2, NPY, VIP, SST, GABRB1, TAC3,
+CCK,
+GABRA3,
+RELN
+and
+TAC1
+(Z = 4.38–2.28,
+pFDR =
+0.000273-0.0366) were all assigned signiﬁcant positive weights in
+descending order (Table 1). Interestingly, PVALB expression had
+a signiﬁcant negative PLS1 weight (Z = −2.46, pFDR = 0.0255),
+which suggested a negative relationship between PVALB expres-
+sion and [11C]Ro15-4513 binding. For full PLS results, see Sup-
+plementary Data 1 and 2.
+The radiotracer binding and the distribution of weights
+resulting from both PLS analyses (cluster-wise and gene-wise)
+followed and antero-posterior distribution gradient in the brain
+(Fig. 2), consistent with the analogous gradient of SST expression
+shown previously11. We then followed up these results with a cell-
+type enrichment analysis, accounting for the weights associated
+with each gene included in the analysis. This analysis revealed
+enrichment in genes expressed in SST, CCK and VIP/CCK
+inhibitory interneurons (Supplementary Fig. 2). The result
+supported an association between the distribution of these cell
+types with [11C]Ro15-4513 binding.
+[11C]ﬂumazenil binding is associated with PVALB, GABRA1,
+GABRB2, GABRG2, GABRG3 and GAD1 expression. For [11C]
+ﬂumazenil, the ﬁrst PLS component (PLS1) of the cluster-wise
+analysis explained alone the largest amount of variance
+(36.49%, pspatial = 0.001) in radiotracer binding (Supplementary
+Fig. 4c). The cluster containing GABRB2, GABRG3, GABRA1,
+GABRG2 and GAD1 was assigned the highest positive PLS1
+weight (Z = 7.48, pFDR = 1.87 × 10−12). In the gene-wise PLS
+analysis, the ﬁrst PLS component explained alone the largest
+amount of variance (37.13%, pspatial = 0.005) (Supplementary
+Fig. 4d). GABRB2, GABRD, GABRG3, GABRA1, GABRG2,
+GABRA4,
+GAD1,
+VIP,
+CCK
+and
+PVALB
+(Z = 6.91–2.26,
+pFDR = 1.45 × 10−9-0.0315) were all assigned signiﬁcant posi-
+tive weights in descending order (Table 2). For full PLS results,
+see Supplementary Data 3 and 4
+Radiotracer binding, as well as the distribution of weights
+resulting from both PLS analyses, followed a postero–anterior
+distribution gradient (Fig. 3), consistent with analogous pattern
+of PVALB expression shown previously11. Following up these
+results with a cell-type enrichment analysis, accounting for
+weights associated with each gene input into the analysis,
+revealed enrichment in genes expressed in PVALB, CCK, VIP/
+CCK and SST inhibitory interneurons (Supplementary Fig. 3).
+The result supported an association between the distribution of
+PVALB, CCK and VIP/CCK cell-types with [11C]ﬂumazenil
+binding, and suggested an association between genes enriched in
+the SST cell-type and radiotracer signal despite no direct
+covariance with SST expression found in the PLS analysis.
+Interestingly, [11C]ﬂumazenil binding was negatively associated
+with astrocyte-enriched genes.
+Discussion
+Our main ﬁnding was that the spatial pattern of expression of
+speciﬁc inhibitory interneuron marker genes covaried with that of
+different GABAAR subunit genes and that these co-expression
+patterns explained a substantial portion of the variation in GABA
+PET radiotracer binding, a measure of in vivo neurotransmission.
+Speciﬁcally, while [11C]Ro15-4513 binding followed an anterior
+distribution that tracked the expression of GABRA5 and SST,
+[11C]ﬂumazenil followed a more posterior distribution which
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+ARTICLE
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+3
+
+covaried with the expression of GABRA1 and PVALB. Previous
+PET studies described that [11C]Ro15-4513 and [11C]ﬂumazenil
+binding were anticorrelated along an anterior-posterior axis23,
+convergent with recent ﬁndings of a largely developmentally
+preserved gradient of SST to PVALB distribution in the human
+brain11. Our investigation suggests that these ﬁndings may not be
+coincidental and that these two GABA PET radiotracers could
+provide complementary information about the architecture of the
+inhibitory
+system.
+These
+ﬁndings
+may
+have
+important
+implications for the study of GABAergic dysfunction in neu-
+ropsychiatric conditions, as discussed below.
+Preclinical studies have shown that GABAARα5 are enriched
+on principal cell membranes targeted by SST cells5,26,40. Con-
+sistent with these ﬁndings, we observed that the spatial pattern of
+[11C]Ro15-4513 binding covaried most strongly with gene
+expression from a cluster containing GABRA5, GABRA2 and SST.
+In previous research, [11C]Ro15-4513 was shown to present
+10–15-fold higher afﬁnity to human cloned GABAARα5 than to
+−1
+−0.8
+−0.6
+−0.4
+−0.2
+0
+0.2
+0.4
+0.6
+0.8
+1
+PVALB
+GABRG3
+VIP
+CCK
+GABRA1
+GABRB2
+GABRG2
+GABRD
+NOS1
+TAC4
+RELN
+CALB2
+CALB1
+GABRG1
+GABRA3
+GABRE
+GAD1
+GAD2
+TAC1
+SST
+GABRA2
+GABRA5
+GABRB1
+GABRB3
+GABRA4
+NPY
+TAC3
+PVALB
+GABRG3
+VIP
+CCK
+GABRA1
+GABRB2
+GABRG2
+GABRD
+NOS1
+TAC4
+RELN
+CALB2
+CALB1
+GABRG1
+GABRA3
+GABRE
+GAD1
+GAD2
+TAC1
+SST
+GABRA2
+GABRA5
+GABRB1
+GABRB3
+GABRA4
+NPY
+TAC3
+0.33
+0.35
+0.37
+0.8
+0.71
+0.74
+0.59
+−0.7
+−0.3
+−0.63
+−0.53
+−0.69
+−0.82
+−0.3
+−0.27
+0.16
+−0.34
+−0.66
+−0.47
+−0.65
+−0.58
+−0.74
+−0.34
+0.13
+−0.32
+0.01
+0.61
+0.52
+0.5
+0.66
+0.62
+0.49
+−0.23
+−0.26
+0.07
+−0.49
+−0.27
+−0.42
+−0.1
+−0.19
+0.49
+−0.01
+−0.05
+0.2
+0.13
+−0.02
+−0.09
+0.37
+0.49
+0.31
+0.51
+0.93
+0.74
+0.75
+0.71
+0.72
+−0.56
+−0.26
+−0.06
+−0.45
+−0.42
+−0.42
+0.28
+−0.07
+0.18
+−0.5
+−0.09
+0.36
+0.39
+0.34
+0.16
+0.58
+0.55
+0.53
+0.75
+0.77
+0.71
+0.76
+0.76
+−0.65
+−0.31
+−0.13
+−0.45
+−0.46
+−0.43
+0.31
+0.05
+0.06
+−0.62
+−0.16
+0.35
+0.32
+0.38
+0.15
+0.51
+0.56
+0.51
+0.69
+0.86
+0.83
+0.77
+−0.81
+−0.31
+−0.4
+−0.56
+−0.68
+−0.68
+−0.01
+−0.14
+0.2
+−0.49
+−0.52
+−0.08
+−0.19
+−0.1
+−0.34
+0.1
+0.4
+0.08
+0.47
+0.8
+0.78
+−0.7
+−0.35
+−0.28
+−0.67
+−0.56
+−0.71
+−0.13
+−0.28
+0.32
+−0.32
+−0.33
+−0.1
+−0.09
+−0.09
+−0.35
+0.24
+0.53
+0.13
+0.48
+0.84
+−0.69
+−0.3
+−0.34
+−0.56
+−0.51
+−0.68
+−0.05
+−0.11
+0.2
+−0.45
+−0.37
+−0.04
+−0.18
+−0.14
+−0.28
+0.14
+0.51
+0.12
+0.45
+−0.63
+−0.37
+−0.16
+−0.57
+−0.35
+−0.62
+−0.11
+−0.13
+0.15
+−0.31
+−0.12
+0.09
+0.03
+0.07
+−0.12
+0.23
+0.74
+0.39
+0.63
+0.46
+0.41
+0.29
+0.49
+0.55
+−0.12
+−0.08
+−0.09
+0.54
+0.51
+0.15
+0.28
+0.08
+0.3
+−0.01
+−0.23
+0.16
+−0.23
+−0.01
+0.23
+0.22
+0.22
+0.21
+−0.02
+−0.37
+−0.09
+0.05
+0.03
+0.1
+0.1
+0.2
+0.06
+−0.32
+−0.13
+−0.31
+0.53
+0.62
+0.58
+0.22
+0.16
+0.19
+0.39
+0.51
+0.57
+0.5
+0.51
+0.62
+0.33
+0.1
+0.4
+0.26
+0.59
+0.68
+0.43
+0.45
+−0.12
+0.18
+0.13
+0.24
+0.06
+0.18
+0.42
+−0.17
+−0.58
+−0.26
+−0.36
+0.7
+0.13
+0.3
+0.07
+0.51
+0.58
+0.34
+0.38
+0.35
+0.54
+0.2
+0
+0.07
+−0.1
+0.25
+0.38
+0
+0.42
+0.48
+0.38
+0.46
+0.4
+0.62
+0.12
+−0.28
+0.12
+−0.08
+0.28
+−0.26
+−0.43
+0.2
+0.58
+0.39
+0.66
+0.67
+0.43
+−0.24
+0.2
+0.05
+−0.06
+−0.1
+−0.03
+0.35
+0.13
+0.24
+0.33
+0
+−0.11
+0.02
+0.06
+0.56
+0.04
+0.08
+0.01
+−0.21
+−0.16
+0
+0.26
+0.06
+0.33
+0.45
+−0.01
+0.01
+−0.2
+0
+−0.23
+0.02
+0
+−0.04
+0.58
+0.6
+0.54
+0.68
+0.41
+0.25
+0.58
+0.3
+0.65
+0.73
+0.81
+0.5
+0.17
+0.73
+0.54
+0.79
+0.79
+0.79
+0.43
+0.74
+0.57
+0.87
+0.77
+0.29
+0.67
+0.45
+0.62
+0.12
+0.6
+0.37
+0.53
+0.6
+0.52
+0.59
+0.72
+0.78
+R = 0.73, p < 0.001
+0.2
+0.4
+0.6
+0.8
+0.2
+0.4
+0.6
+SST
+GABRA5
+c
+R = 0.65, p < 0.001
+0.25
+0.50
+0.75
+0.2
+0.4
+0.6
+SST
+GABRA2
+d
+R = 0.81, p < 0.001
+0.25
+0.50
+0.75
+0.2
+0.4
+0.6
+SST
+GABRB1
+e
+R = 0.93, p < 0.001
+0.25
+0.50
+0.75
+1.00
+0.2
+0.4
+0.6
+0.8
+VIP
+CCK
+f
+R = 0.2, p = 0.068
+0.3
+0.4
+0.5
+0.6
+0.7
+0.2
+0.4
+0.6
+0.8
+GABRA1
+GAD1
+g
+R = 0.86, p < 0.001
+0.2
+0.4
+0.6
+0.8
+0.2
+0.4
+0.6
+0.8
+GABRA1
+GABRB2
+h
+R = 0.83, p < 0.001
+0.2
+0.4
+0.6
+0.8
+0.2
+0.4
+0.6
+0.8
+GABRA1
+GABRG2
+i
+R = 0.5, p < 0.001
+0.2
+0.4
+0.6
+0.8
+0.2
+0.4
+0.6
+0.8
+GABRA1
+GABRG3
+j
+R = 0.8, p < 0.001
+0.25
+0.50
+0.75
+0.00
+0.25
+0.50
+0.75
+PVALB
+GABRA1
+k
+R = 0.71, p < 0.001
+0.2
+0.4
+0.6
+0.8
+0.00
+0.25
+0.50
+0.75
+PVALB
+GABRB2
+l
+R = 0.74, p < 0.001
+0.2
+0.4
+0.6
+0.8
+0.00
+0.25
+0.50
+0.75
+PVALB
+GABRG2
+m
+a
+b
+Module
+Gene
+bisque4
+GABRB3
+blue
+VIP
+CCK
+darkgreen
+GABRA3
+darkgrey
+SST
+GABRA2
+GABRA5
+GABRB1
+darkmagenta
+RELN
+darkturquoise
+NPY
+TAC3
+GABRA4
+greenyellow
+CALB1
+CALB2
+GABRG1
+GABRE
+ivory
+TAC1
+lightcyan
+GABRD
+magenta
+GAD1
+GABRA1
+GABRB2
+GABRG2
+GABRG3
+purple
+TAC4
+red
+GAD2
+NOS1
+tan
+PVALB
+Fig. 1 Speciﬁc GABAergic interneuron markers co-express with different GABAAR subunits. a Co-expression cluster assignment and b bivariate
+correlations (p < 0.05) between GABAergic interneuron markers and GABAAR subunits. Pairwise correlations between c–e somatostatin (SST),
+f vasoactive intestinal peptide (VIP), g–j GABRA1 and k–m parvalbumin (PVALB), and other genes of interest sharing their cluster assignment in the AHBA
+dataset. CALB1, calbindin, CALB2, calretinin, CCK, cholecystokinin, GABRA1-5, GABAAR receptor subunits α1-5, GABRB1-3, GABAAR receptor subunits β1-3,
+GABRD, GABAAR receptor subunit δ, GABRE, GABAAR receptor subunit ε, GABRG1-3, GABAAR receptor subunits γ1-3, GAD1, GABA-synthesising enzyme
+GAD67, GAD2, GABA-synthesising enzyme GAD65, NOS1, neuronal nitric oxide synthase, NPY, neuropeptide Y, PVALB, parvalbumin, RELN, reelin, SST,
+somatostatin, TAC1, TAC3 and TAC4, the tachykinin precursor genes, VIP, vasoactive intestinal peptide.
+ARTICLE
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+4
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+
+GABAARα1-323, and the co-expression of GABRA2 and GABRA5
+was shown by immunohistochemistry in the rat brain16, also in
+line with our observations. Interestingly, we also found covariance
+between the expression of CCK and GABRA3 and the distribution
+of [11C]Ro15-4513 signal. GABAARα2/3 expression in rodents
+has been most consistently found in the post-synapse of principal
+cells targeted by CCK basket cells3,19,24,41. It is plausible that the
+association we found between [11C]Ro15-4513 binding and CCK,
+GABRA2 and GABRA3 expression is circumstantial, if enough
+spatial overlap between the expression of these genes with SST
+and GABRA5 exists. Both GABRA241 and GABRA342 are highly
+expressed in the hippocampus, where α5 is most enriched14.
+Moreover, GABRA2 and GABRA5 follow a similar expression
+pattern in several brain regions42. Alternatively, the ﬁnding might
+reﬂect secondary afﬁnity of the radiotracer to GABAARα2/3.
+While [11C]Ro15-4513 has 10-15-times greater afﬁnity towards
+GABAARα5 than to GABAARα1-323, it is possible that in regions
+where GABAARα5 is lower, this radiotracer binds secondarily to
+GABAARα2/3. This might deserve further investigation, especially
+as GABAARα5 constitute <5% of all GABAARs in the brain41 and
+PET radiotracers are administered systemically with an intrave-
+nous injection, which allows for secondary binding to occur.
+However, our approach relied on the interrogation of indirect
+spatial associations between PET radiotracer binding and gene
+a
+b
+c
+d
+[11C]Ro15-4513
+binding (Z-score)
+PLS1 weighted gene
+expression (Z-score)
+PLS1 weighted co-expression
+cluster (Z-score)
+LH
+LH
+RH
+LH
+LH
+LH
+Fig. 2 [11C]Ro15-4513 binding follows an antero-posterior gradient and spatially tracks SST, GABRA5, GABRA2 and GABRA3 expression. Z-scored
+regional brain distribution of a [11C]Ro15-4513 binding, b weights of covariance between [11C]Ro15-4513 signal and 52 co-expression clusters from the
+AHBA and c weights of covariance between [11C]Ro15-4513 signal and expression of genes from the AHBA. d Density plot of Z-scored weight distribution
+of genes from the AHBA in their covariance with [11C]Ro15−4513 signal, with location of GABRA5, GABRA2, GABRA3 and SST. GABRA2, GABAA receptor
+subunit α2, GABRA3, GABAA receptor subunit α3, GABRA5, GABAA receptor subunit α5, SST, somatostatin.
+Table 1 Weights and signiﬁcance of covariance between the
+expression of individual genes of interest and [11C]Ro15-
+4513 signal.
+Gene
+PLS rank / 15,633
+PLS gene weight
+(Z-score)
+pFDR
+GABRA5
+183
+4.38
+2.73 × 10−4
+GABRB3
+275
+4.20
+4.11 × 10−4
+GABRA2
+306
+4.15
+4.65 × 10−4
+NPY
+523
+3.83
+1.02 × 10−3
+VIP
+527
+3.82
+1.02 × 10−3
+SST
+573
+3.76
+1.19 × 10−3
+GABRB1
+804
+3.48
+2.41 × 10−3
+TAC3
+954
+3.31
+3.69 × 10−3
+CCK
+1492
+2.84
+0.0114
+GABRA3
+1665
+2.71
+0.0153
+RELN
+2066
+2.43
+0.0271
+TAC1
+2283
+2.28
+0.0366
+PVALB
+13,433
+−2.46
+0.0255
+Statistically signiﬁcant results (pFDR < 0.05) shown only. PLS weight and pFDR shown to third
+signiﬁcant ﬁgure. PLS, partial least squares regression analysis. CCK, cholecystokinin,
+GABRA2−5, GABAAR receptor subunits α2-5, GABRB1/3, GABAAR receptor subunits β1/3, NPY,
+neuropeptide Y, PVALB, parvalbumin, RELN, reelin, SST, somatostatin, TAC1 and TAC3, tachykinin
+precursor genes, VIP, vasoactive intestinal peptide.
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+ARTICLE
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+5
+
+expression across brain regions. As such, direct extrapolations
+about speciﬁc synaptic contributions to our ﬁndings warrant
+future validation with precise molecular methods such as
+immunocytochemistry or autoradiography with pharmacological
+blocking.
+Patterns
+in
+regional
+protein
+density
+of
+speciﬁc
+subunits may help elucidate whether [11C]Ro15-4513 binds to
+GABAARα2/3 in addition to GABAARα5. For instance, future
+studies may assess interlaminar differences in [11C]Ro15-4513
+binding, as α2/3 and α5 present different expression patterns
+across human prefrontal cortex layers43. In addition, future
+research could investigate the proportion of synaptic to extra-
+synaptic binding of [11C]Ro15-4513 in human neurons, as
+GABAARα5 are predominantly extrasynaptic17.
+The spatial pattern of [11C]ﬂumazenil binding covaried most
+strongly with the gene expression cluster containing GAD1,
+GABRA1, GABRB2, GABRG2 and GABRG3. There is prior evi-
+dence that [18F]ﬂumazenil accumulation across the mouse brain
+after mutations in α2, α3 and α5 subunits, but not in α1,
+remained similar to that in wild-type mice44. This may suggest
+that [11C]ﬂumazenil binding to GABAARα1 accounts for most of
+the PET signal. Our ﬁnding aligns with the notion that the
+abundance of GABAARα1 may be reﬂected in the pattern of
+ﬂumazenil binding14,23. Indeed, GABAARα1β2γ2 is the most
+widely
+expressed
+GABAAR8,20
+and
+the
+co-expression
+of
+a
+b
+c
+d
+[11C]ﬂumazenil binding
+(Z-score)
+PLS1 weighted gene
+expression (Z-score)
+PLS1 weighted co-expression 
+cluster (Z-score)
+LH
+LH
+LH
+RH
+LH
+LH
+Fig. 3 [11C]ﬂumazenil binding follows a postero–anterior gradient and spatially tracks PVALB, GABRD, GABRA1 and GABRA4 expression. Z-scored
+regional brain distribution of a [11C]ﬂumazenil binding, b weights of covariance between [11C]ﬂumazenil signal and 52 co-expression clusters from the
+AHBA and c weights of covariance between [11C]ﬂumazenil signal and expression of genes from the AHBA. d Density plot of Z-scored weight distribution
+of genes from the AHBA in their covariance with [11C]ﬂumazenil signal, with location of GABRD, GABRA1, GABRA4 and PVALB. GABRA1, GABAA receptor
+subunit α1, GABRA4, GABAA receptor subunit α4, GABRD, GABAA receptor subunit δ, PVALB, parvalbumin.
+Table 2 Weights and signiﬁcance of covariance between the
+expression of individual genes of interest and [11C]
+ﬂumazenil signal.
+Gene
+PLS rank/
+15,633
+PLS gene weight
+(Z-score)
+pFDR
+GABRB2
+22
+6.91
+1.45 × 10−9
+GABRD
+227
+5.64
+3.95 × 10−7
+GABRG3
+392
+5.11
+3.97 × 10−6
+GABRA1
+401
+5.07
+4.67 × 10−6
+GABRG2
+597
+4.67
+2.31 × 10−-5
+GABRA4
+2101
+2.94
+6.43 × 10−3
+GAD1
+2405
+2.70
+0.0117
+VIP
+2566
+2.60
+0.0150
+CCK
+3050
+2.26
+0.0311
+PVALB
+3059
+2.26
+0.0315
+GABRA3
+12,482
+−2.09
+0.0436
+GABRG1
+12,816
+−2.29
+0.0293
+CALB1
+13,166
+−2.50
+0.0190
+NOS1
+13,727
+−2.91
+6.70 × 10−3
+CALB2
+15,393
+−5.09
+4.34 × 10−6
+Statistically signiﬁcant results (pFDR < 0.05) shown only. PLS weight and pFDR shown to third
+signiﬁcant ﬁgure. PLS, partial least squares regression analysis. CALB1, calbindin, CALB2,
+calretinin, CCK, cholecystokinin, GABRA1/3/4, GABAAR receptor subunits α1/3/4, GABRB2,
+GABAAR receptor subunit β2, GABRD, GABAAR receptor subunit δ, GABRG1-3, GABAAR receptor
+subunits γ1-3, GAD1, GABA-synthesising enzyme GAD67, NOS1, neuronal nitric oxide synthase,
+PVALB, parvalbumin, VIP, vasoactive intestinal peptide.
+ARTICLE
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+6
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+
+GABRA1, GABRB2 and GABRG2 are supported by analogous
+observation in preclinical immunohistochemistry studies45,46.
+Interestingly, we found that [11C]ﬂumazenil signal was also
+associated with PVALB expression, consistent with our obser-
+vation of a high association between PVALB expression with
+GABRA1, GABRB2 and GABRG2, and with preclinical evidence
+that post-synaptic membranes of principal cells and PVALB
+inhibitory interneurons targeted by this interneuron subtype are
+enriched in GABAARα119,24–26,41. Covariance of GABRA4 and
+GABRD expression with [11C]ﬂumazenil binding is consistent
+with the ﬁnding that those subunits are commonly co-expressed
+in the forebrain, and that the δ subunit associates extra-
+synaptically with α1, primarily in the cerebellum where [11C]
+ﬂumazenil uptake is higher than that of [11C]Ro15-451323,
+but also in the cerebrum47,48. As mentioned above, further
+study using more precise molecular methodology is required to
+validate these ﬁndings.
+Interestingly, our cell-type enrichment analysis of radiotracer
+signal covariance with gene expression showed [11C]ﬂumazenil to
+be negatively associated with astrocyte-enriched genes, whereas
+[11C]Ro15-4513 binding did not show such association (Supple-
+mentary Figs. 2 and 3). Astrocytes express GABAARs49, and those
+containing α1, α2, β1 and γ1 were shown to be expressed on rat
+astrocytes50. This suggests some GABA PET radiotracer binding
+may occur on this cell type. We found [11C]Ro15-4513 and [11C]
+ﬂumazenil binding to be associated with the expression of genes
+encoding some of these subunits. We also observed a trend-level
+enrichment of the astrocyte cell-type in the cluster containing
+SST, which covaried most strongly with [11C]Ro15-4513 signal.
+Astrocyte distribution is higher in the frontal and temporal
+cortex51, where [11C]Ro15-4513 binding is also greater. However,
+the spatial associations we set out to identify through our
+approach relied on the levels of radiotracer binding and gene
+expression. The degree of GABAAR expression52, as well as
+Gabra1 and Gabra553, was shown in rodents to be lower in
+astrocytes than in neurons. Moreover, the human brain comprises
+approximately equal numbers of glial and neural cells, and
+astrocytes represent around 20% of glial cells54. This suggests
+neural GABAAR expression exceeds that of astrocytes. This may
+explain the negative covariance between [11C]ﬂumazenil signal
+and astrocyte-enriched genes, as [11C]ﬂumazenil binding is
+greatest in posterior brain areas, where astrocyte distribution is
+lower51. Correspondingly, it is plausible that the contribution of
+radiotracer binding to GABAARs on astrocytes might be insufﬁ-
+cient to considerably drive spatial variation in [11C]Ro15-4513
+binding across the brain.
+Our study may have important implications for future research
+into the role of GABAergic dysfunction in neuropsychiatric disease
+using PET imaging. A substantial portion of the variation in [11C]
+Ro15-4513
+and
+[11C]ﬂumazenil
+binding
+covaried
+with
+the
+expression of genes encoding distinct cellular and molecular
+components of the GABAergic system. These ﬁndings support the
+use of these existing GABA PET radiotracers to capture separate,
+albeit complementary, features of GABAergic dysfunction in
+those disorders. For instance, altered GABAergic function is
+hypothesised to contribute to the pathophysiology of affective
+disorders8. GABAARα2 and GABAARα3 agonism is implicated in
+benzodiazepine-mediated
+anxiolysis14,19,
+whereas
+GABAARα1
+agonism is associated with the undesired sedative effects of
+benzodiazepines14,19. Furthermore, SST inhibitory interneuron
+dysfunction has been implicated in the aetiology of depressive
+disorders41,55, and α5 subunit increases have been found post-
+mortem in patients with depression9. Interestingly, SST cell disin-
+hibition produced an anxiolytic- and antidepressant-like effect akin
+to that of benzodiazepines or ketamine in preclinical models56. Our
+ﬁnding that SST, GABRA2 and GABRA3 co-expression was linked
+to [11C]Ro15-4513, but not to [11C]ﬂumazenil binding, suggests
+that [11C]Ro15-4513 may be useful to investigate GABAergic
+system components implicated in anxiogenesis and depressive
+symptomatology.
+Furthermore, our ﬁndings may have important implications
+for the study of disorders where multiple GABAergic system
+abnormalities might occur, such as schizophrenia. PVALB inhi-
+bitory interneuron loss was reported in hippocampi of patients
+with schizophrenia by post-mortem examination57. We found
+that
+[11C]ﬂumazenil
+binding
+was
+associated
+with
+PVALB
+expression. Two separate [11C]ﬂumazenil PET studies in schi-
+zophrenia reported inconsistent effects across multiple cortical
+regions for patients with different medication status, while one of
+these two studies did ﬁnd binding alterations in subcortical
+regions including the hippocampus58,59. SST inhibitory inter-
+neuron cell reductions have also been reported in the hippo-
+campus and cortical regions of schizophrenia patients57,60.
+We found that [11C]Ro15-4513 signal covaried with SST
+expression. A recent [11C]Ro15-4513 study in schizophrenia
+reported
+binding
+decreases
+in
+antipsychotic
+medication-
+free patients compared to healthy controls, limited to the
+hippocampus61. Analogous deﬁcits were not identiﬁed in another
+sample including currently or previously medicated patients61,62,
+which may be consistent with preclinical observations that anti-
+psychotic treatment may affect hippocampal [11C]Ro15-4513
+binding63. Taken together, these ﬁndings may suggest that SST
+interneuron dysfunction in the hippocampus and PVALB inter-
+neuron abnormalities in cortical and subcortical regions may play
+a role in the onset of psychosis. Future GABA PET studies in
+early psychosis may address this hypothesis by examining PVALB
+interneuron-mediated inhibition with [11C]ﬂumazenil and SST
+interneuron-associated inhibition with [11C]Ro15-4513, while
+carefully considering the effects of antipsychotic medication.
+Our study had some limitations. First, we relied on indirect
+spatial associations between gene expression and radiotracer bind-
+ing, which alone does not directly imply co-expression in the same
+cell or in interconnected neurons, nor direct radiotracer binding.
+The limited resolution of both methods also did not allow us to
+discern between speciﬁc cell-types or synaptic microcircuits. How-
+ever, we note that our ﬁndings are broadly supported by the pre-
+clinical literature using more ﬁne-grained methods, which lends
+support to the plausibility of our imaging transcriptomics ﬁndings
+in humans. We cannot exclude that the use of two different pipe-
+lines for the quantiﬁcation of [11C]ﬂumazenil and [11C]Ro15-4513
+might have had an impact on our results. However, the spatial
+distribution of radiotracer binding to their target, of importance for
+this study, has been shown with pharmacological blocking studies
+to be preserved regardless of which particular quantiﬁcation
+method is used64. This spatial distribution of signal is also expected
+to be preserved regardless of the normalisation method originally
+applied to the [11C]ﬂumazenil map, due to the non-selective nature
+of binding to benzodiazepine-sensitive receptors of both [11C]ﬂu-
+mazenil and diazepam64. Second, the relationship between mRNA
+and their product proteins can be affected by post-translational
+modiﬁcations—in those cases, one cannot assume that the density
+of mRNA is a good proxy for the distribution of the protein65. Our
+study did not aim to determine the molecular binding of the two
+radiotracers, but rather their global pattern of covariance with genes
+encoding speciﬁc GABAergic signalling components. Thus, our
+ﬁndings are correlational by nature and must be interpreted with
+caution. Third, the AHBA includes data from six donors only.
+Samples from the right hemisphere were only collected for two
+donors, which led us to restrict our analyses to the left hemisphere.
+Although not a speciﬁc limitation of this study, this raises questions
+about whether this small sample can capture well the principles of
+organisation of the canonical architecture of gene expression in the
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+ARTICLE
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+7
+
+human brain and generalise well. However, it is noteworthy that
+previous studies found differences in gene expression between the
+two hemispheres to be mostly negligible66. Finally, because we
+applied an intensity threshold to the microarray dataset to minimise
+inclusion of unreliable measures of gene expression, we were not
+able to investigate some genes of interest, including GABRA6,
+GABRP, GABRQ and GABRR1-3, due to the low intensity of signal
+for these genes in the AHBA dataset as compared to background.
+Future studies using high sensitivity methods to measure expression
+of these genes across the whole brain will help to complement our
+ﬁndings in this respect.
+In summary, we provide evidence of the regional association
+between the expression of: (1) SST, GABRA5 and GABRA2; (2)
+PVALB and GABRA1, GABRB2 and GABRG2; and (3) VIP and
+CCK in the human brain. These ﬁndings expand our understanding
+of the canonical transcriptomic architecture of speciﬁc GABAergic
+system components in the human brain. Furthermore, we provide
+ﬁrst evidence that the expression of distinct inhibitory interneuron
+sub-types and speciﬁc GABAAR subunits covary with [11C]Ro15-
+4513 and [11C]ﬂumazenil binding in a largely non-overlapping
+manner. While [11C]Ro15-4513 signal covaried with the expression
+of SST and genes encoding several major benzodiazepine-sensitive
+GABAAR subunits implicated in affective functioning (GABRA5,
+GABRA2 and GABRA3), [11C]ﬂumazenil tracked PVALB and genes
+encoding subunits comprising the most widely expressed receptor
+(GABRA1, GABRB2 and GABRG2). These ﬁndings may have
+important implications for existing and future PET studies of GABA
+dysfunction in neuropsychiatric disease. Once corroborated by more
+direct molecular methods, our work has the potential to inform
+methodological choices for imaging the GABAergic system, and to
+help the interpretation of ﬁndings within a framework that bridges
+the gap between genes, cells and macroscopic in vivo molecular
+neuroimaging features.
+Methods
+The Allen Human Brain Atlas (AHBA) dataset. The AHBA dataset includes
+microarray data of gene expression in post-mortem brain samples from six healthy
+donors (one female, mean age ± SD 42.5 ± 13.38, range 24–57)36. Detailed informa-
+tion about donor characteristics and dataset generation can be found in the Allen
+Human Brain Atlas website (https://human.brain-map.org/). In short, the brain
+(cerebrum including the brainstem) was sampled systematically across the left
+hemisphere in all six donors, and the right hemisphere in two of the donors. Manual
+macrodissection was performed on the cerebral and cerebellar cortex, as well as
+subcortical nuclei, in 50–200 mg increments. Subcortical areas and cerebellar nuclei
+were sampled with laser microdissection in 36 mm2 increments. RNA was then
+isolated from these dissections and gene expression was quantiﬁed with microarray.
+Gene expression data: pre-processing and spatial mapping. The approach was
+similar to that used in previous literature67,68. Human gene expression microarray
+data were extracted from the AHBA with the abagen toolbox (https://github.com/
+netneurolab/abagen)69 in JupyterLab Notebook through anaconda3 in Python
+3.8.5. We mapped AHBA samples to the parcels of the Desikan–Killiany atlas,
+including 83 brain regions across both brain hemispheres (34 cortical and seven
+subcortical regions per brain hemisphere, plus brainstem). Genetic probes were
+reannotated using information provided by Arnatkeviciute et al., 201970 instead of
+the default probe information from the AHBA dataset to exclude probes that
+cannot be reliably matched to genes. According to the existing guidelines for probe-
+to-gene mappings and intensity-based ﬁltering70, the reannotated probes were
+ﬁltered based on their intensity relative to background noise level; probes with
+intensity less than background in ≥50% of samples were discarded. A single probe
+with the highest differential stability, ΔS(p), was selected for each gene, where
+differential stability was calculated as71 (Eq. 1):
+4SðpÞ ¼
+1
+N
+2
+
+ ∑N1
+i¼1 ∑N
+j¼iþ1 ρ½Bi p
+ 
+; Bj p
+ 
+;
+ð1Þ
+where ρ is Spearman’s rank correlation of the expression of a single probe p across
+regions in two donor brains, Bi and Bj, and N is the total number of donor brains.
+This procedure retained 15,633 probes, each representing a unique gene.
+Next, tissue samples were assigned to brain regions using their corrected MNI
+coordinates (https://github.com/chrisﬁlo/alleninf) by ﬁnding the nearest region
+within a radius of 2 mm. To reduce the potential for misassignment, sample-to-
+region matching was constrained by hemisphere and cortical/subcortical divisions.
+If a brain region was not assigned to any sample based on the above procedure, the
+sample closest to the centroid of that region was selected in order to ensure that all
+brain regions were assigned a value. Samples assigned to the same brain region
+were averaged separately for each donor. Gene expression values were then
+normalized separately for each donor across regions using a robust sigmoid
+function and rescaled to the unit interval. Scaled expression proﬁles were ﬁnally
+averaged across donors, resulting in a single matrix with rows corresponding to
+brain regions and columns corresponding to the retained 15,633 genes.
+The genes of interest list included data on all available GABAAR subunits and
+inhibitory interneuron markers deﬁned according to the Petilla terminology13 and
+the existing animal literature. These were: the GABA-synthesising enzymes GAD67
+(GAD1) and GAD65 (GAD2)29, parvalbumin (PVALB)25, somatostatin (SST)30,
+vasoactive intestinal peptide (VIP)31, cholecystokinin (CCK), neuropeptide Y
+(NPY)32, calbindin (CALB1)30, calretinin (CALB2)30, neuronal nitric oxide
+synthase (NOS1)3, reelin (RELN)33, and the tachykinin precursor genes TAC1,
+TAC3 and TAC434. The genes of interest that did not pass this intensity-based
+thresholding were GABRA6, GABRP, GABRQ and GABRR1-3.
+Weighted gene co-expression network analysis (WGCNA). Hierarchical clus-
+tering of genes by their expression across brain regions was performed with the
+WGCNA package35 in R 4.0.3 for the gene expression dataset. The ‘signed’
+WGCNA method was chosen to form clusters (modules) enriched in genes which
+expression was positively correlated, indicating co-expression35. As we aimed to
+identify the main features of GABAergic system organisation across the human
+brain, the analysis included the whole-brain microarray dataset. Gene expression
+correlation matrix was transformed into an adjacency matrix using the soft
+threshold power of 14. This adjacency matrix contained pairwise correlations
+between all genes in the dataset, uncorrected for multiple comparisons. The power
+value was chosen as it was the ﬁrst value at which the network satisﬁed the free-
+scale topology criterion at R2 > 0.8, therefore maximising mean network node
+connectivity (Supplementary Fig. 5). The adjacency matrix was then transformed
+into a dissimilarity measure matrix, representing both the expression correlation
+between pairs of genes as well as the number of the genes they both highly cor-
+related with positively35. Finally, average-linkage hierarchical clustering using the
+dissimilarity measure was performed. Individual modules were identiﬁed through
+the classic ‘tree’ dendrogram branch cut72.
+Parametric map of [11C]Ro15-4513 binding. Ten healthy participants (four
+females, mean age ± SD 25.40 ± 3.20, range 22–30) with no history of psychiatric
+diagnoses, neurological illness or head trauma with loss of consciousness were
+scanned with the radiotracer [11C]Ro15-4513. Scanning was performed on a Sig-
+naTM PET-MR General Electric (3 T) scanner using the MP26 software (01 and 02)
+at Invicro, A Konica Minolta Company, Imperial College London, UK. The study
+was approved by the London/Surrey Research Ethics Committee. All subjects
+provided written informed consent before participation, in accordance with The
+Declaration of Helsinki. The radiotracer was administered through the dominant
+antecubital fossa vein in a single bolus injection, administered at the beginning of
+the scanning session. The mean ± SD amount of radiation administered was
+307 MBq ± 71 (range: 173–405 MBq). PET acquisition was performed in 3D list
+mode for 70 min and binned in the following frames: 15sx10, 60sx3, 120sx5,
+300sx11. Attenuation correction was performed with a ZTE sequence (voxel size:
+2.4 × 2.4 × 2.4 mm3, ﬁeld of view = 26.4, 116 slices, TR = 400 ms, TE = 0.016 ms,
+ﬂip angle = 0.8o). A T1-weighted IR-FSPGR sequence was used for PET image co-
+registration (voxel size: 1 × 1 × 1 mm3, ﬁeld of view = 25.6, 200 slices, TR = 6.992
+ms, TE = 2.996 ms, TI = 400 ms, ﬂip angle = 11o).
+Individual subject images were generated with MIAKAT v3413 in Matlab
+R2017a. For each subject, an isotropic, skull-stripped IR-FSPGR structural image
+normalised to the MNI template was co-registered onto an isotropic, motion-
+corrected integral image created from the PET time series. Binding potential
+parametric maps were estimated through a simpliﬁed reference tissue model using
+the pons as the reference region and solved with basis function method73. The
+individual parametric maps were averaged using SPM imCalc function and resliced
+with the Co-register: Reslice function to match the dimensions of the
+Desikan–Killiany atlas (voxel size 1 × 1 × 1 mm, number of voxels per direction
+X = 146, Y = 182, Z = 155). Finally, the averaged parametric map of [11C]Ro15-
+4513 binding was resampled into 83 regions of the Desikan–Killiany atlas space
+using the fslmeants function from FSL.
+Parametric map of [11C]ﬂumazenil binding. An averaged parametric map of
+maximal binding of the [11C]ﬂumazenil ([11C]Ro15-1788) radiotracer was down-
+loaded from an open-access dataset made available by the Neurobiology Research
+Unit at Copenhagen University Hospital (https://xtra.nru.dk/BZR-atlas/). In brief,
+16 healthy participants between 16–46 years old (nine females, mean age ± SD
+26.6 ± 8) were scanned on a CTI/Siemens High-Resolution Research Tomograph.
+Distribution volume parametric maps were obtained from blood-based Logan
+graphical analysis and then normalised to post-mortem human brain [3H]diazepam
+autoradiography data for absolute quantiﬁcation of benzodiazepine-sensitive
+ARTICLE
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+8
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+
+receptor density. For full details on the generation of this map, please refer to the
+original publication74.
+Statistics and reproducibility. WGCNA uses individual pairwise correlations for the
+creation of a co-expression network and gene clustering. We used both the WGCNA
+gene clusters and the complete gene expression dataset for our covariance analyses. To
+illustrate how individual pairwise correlations between our genes of interest may be
+represented in the respective covariance analyses, we performed and visualised a
+bivariate correlation analysis in R 4.0.3 using the Hmisc and corrplot packages. All
+available genes of interest were input into a bivariate correlation analysis. The p-value
+threshold was set to p < 0.05. No correction for multiple comparisons was applied as
+this was used for illustrative purposes.
+Partial least squares regression (PLS) analysis was used to identify genes whose
+expression was most strongly associated with either [11C]Ro15-4513 or [11C]ﬂumazenil
+binding. The script used for this analysis is available elsewhere75 and was run using
+Matlab R2017a. The approach was similar to that used in previous literature67,68. The
+predictor variable matrix comprised gene expression per brain region in the left
+hemisphere only since the AHBA only includes data from the right hemisphere for two
+out of the six donors. The response variable matrices comprised [11C]Ro15-4513 and
+[11C]ﬂumazenil binding, respectively, in the 42 brain regions of the left hemisphere. The
+analysis was then repeated using the 52 WGCNA module eigengenes as the predictor
+variables. Prior to each PLS analysis, both predictor and response matrices were Z-
+scored.
+The ﬁrst PLS component (PLS1) is the linear combination of the weighted gene
+expression scores that have a brain expression map that covaries the most with the map
+of radiotracer binding. As the components are calculated to explain the maximum
+covariance between the dependent and independent variables, the ﬁrst component does
+not necessarily need to explain the maximum variance in the dependent variable.
+However, as the number of components calculated increases, they progressively tend to
+explain less variance in the dependent variable. Here, we tested across a range of
+components (between 1 and 15) and quantiﬁed the relative variance explained by each
+component (Supplementary Fig. 4). The statistical signiﬁcance of the variance explained
+by each component was tested by permuting the response variables 1000 times, while
+accounting for spatial autocorrelation using a combination of spin rotations for the
+cortical parcels and random shufﬂing for the subcortical ones. We decided to focus on
+the component explaining the largest amount of variance, which in our case was always
+the ﬁrst component (PLS1). The error in estimating each gene’s PLS1 weight was
+assessed by bootstrapping, and the ratio of the weight of each gene to its bootstrap
+standard error was used to calculate the Z-scores and, hence, rank the genes according
+to their contribution to PLS1. The code used to implement these analyses can be found
+in https://github.com/SarahMorgan/Morphometric_Similarity_SZ. Result visualisation
+was performed with ENIGMA toolbox 1.1.1 (https://enigma-toolbox.readthedocs.io/) in
+Matlab R2018b.
+Reporting summary. Further information on research design is available in the Nature
+Research Reporting Summary linked to this article.
+Data availability
+The datasets generated during and/or analysed during the current study are provided as
+Supplementary Data or available in the Figshare repository, https://doi.org/10.6084/
+m9.ﬁgshare.1916966376. All other source data can be accessed from the public sources
+used. Any other data are available from the corresponding author (or other sources, as
+applicable) on reasonable request.
+Code availability
+Code used for any part of the project can be made available at request.
+Received: 11 October 2021; Accepted: 14 March 2022;
+References
+1.
+Kepecs, A. & Fishell, G. Interneuron cell types are ﬁt to function. Nature 505,
+318–326 (2014).
+2.
+Rudy, B., Fishell, G., Lee, S. H. & Hjerling-Lefﬂer, J. Three groups of
+interneurons account for nearly 100% of neocortical GABAergic neurons. Dev.
+Neurobiol. 71, 45–61 (2011).
+3.
+Tremblay, R., Lee, S. & Rudy, B. GABAergic interneurons in the neocortex:
+from cellular properties to circuits. Neuron 91, 260–292 (2016).
+4.
+Hendry, S. H., Schwark, H. D., Jones, E. G. & Yan, J. Numbers and
+proportions of GABA-immunoreactive neurons in different areas of monkey
+cerebral cortex. J. Neurosci. 7, 1503–1519 (1987).
+5.
+Wall, N. R. et al. Brain-wide maps of synaptic input to cortical interneurons. J.
+Neurosci. 36, 4000–4009 (2016).
+6.
+Möhler, H. The GABA system in anxiety and depression and its therapeutic
+potential. Neuropharmacology 62, 42–53 (2012).
+7.
+Marín, O. Interneuron dysfunction in psychiatric disorders. Nat. Rev.
+Neurosci. 13, 107–120 (2012).
+8.
+Rudolph, U. & Möhler, H. GABAA receptor subtypes: therapeutic potential in
+down syndrome, affective disorders, schizophrenia, and autism. Annu. Rev.
+Pharmacol. Toxicol. 54, 483–507 (2014).
+9.
+Luscher, B., Shen, Q. & Sahir, N. The GABAergic deﬁcit hypothesis of major
+depressive disorder. Mol. Psychiatry 16, 383–406 (2011).
+10. Heckers, S. & Konradi, C. GABAergic mechanisms of hippocampal
+hyperactivity in schizophrenia. Schizophr. Res. 167, 4–11 (2015).
+11. Anderson, K. M. et al. Transcriptional and imaging-genetic association of cortical
+interneurons, brain function, and schizophrenia risk. Nat. Commun. 11, 2889
+(2020).
+12. Fino, E. & Yuste, R. Dense inhibitory connectivity in neocortex. Neuron 69,
+1188–1203 (2011).
+13. Ascoli, G. A. et al. Petilla terminology: nomenclature of features of GABAergic
+interneurons of the cerebral cortex. Nat. Rev. Neurosci. 9, 557–568 (2008).
+14. Sieghart, W. & Sperk, G. Subunit composition, distribution and function of
+GABA-A receptor subtypes. Curr. Top. Med. Chem. 2, 795–816 (2002).
+15. Kasugai, Y. et al. Quantitative localisation of synaptic and extrasynaptic
+GABAA receptor subunits on hippocampal pyramidal cells by freeze-fracture
+replica immunolabelling. Eur. J. Neurosci. 32, 1868–1888 (2010).
+16. Brünig, I., Scotti, E., Sidler, C. & Fritschy, J. M. Intact sorting, targeting, and
+clustering of γ-aminobutyric acid A receptor subtypes in hippocampal
+neurons in vitro. J. Comp. Neurol. 443, 43–55 (2002).
+17. Hannan, S. et al. GABAAR isoform and subunit structural motifs determine
+synaptic and extrasynaptic receptor localisation. Neuropharmacology 169,
+107540 (2020).
+18. Magnin, E. et al. Input-speciﬁc synaptic location and function of the α5 GABA
+a receptor subunit in the mouse CA1 hippocampal neurons. J. Neurosci. 39,
+788–801 (2019).
+19. Rudolph, U. & Möhler, H. GABA-based therapeutic approaches: GABAA
+receptor subtype functions. Curr. Opin. Pharmacol. 6, 18–23 (2006).
+20. Andersson, J. D., Matuskey, D. & Finnema, S. J. Positron emission
+tomography imaging of the γ-aminobutyric acid system. Neurosci. Lett. 691,
+35–43 (2019).
+21. Sieghart, W. Structure, pharmacology, and function of GABAA receptor
+subtypes. Adv. Pharm. 54, 231–263 (2006).
+22. Momosaki, S., Hosoi, R., Abe, K. & Inoue, O. Remarkable selectivity of the
+in vivo binding of [3H]Ro15-4513 to α5 subtype of benzodiazepine receptor in
+the living mouse brain. Synapse 64, 928–936 (2010).
+23. Lingford-Hughes, A. et al. Imaging the GABA-benzodiazepine receptor
+subtype containing the α-5-subunit in vivo with [11C]Ro15 4513 positron
+emission tomography. J. Cereb. Blood Flow. Metab. 22, 878–889 (2002).
+24. Klausberger, T., Roberts, J. D. B. & Somogyi, P. Cell type- and input-speciﬁc
+differences in the number and subtypes of synaptic GABAA receptors in the
+hippocampus. J. Neurosci. 22, 2513–2521 (2002).
+25. Hu, H., Gan, J. & Jonas, P. Fast-spiking, parvalbumin+ GABAergic
+interneurons: from cellular design to microcircuit function. Science 345,
+1255263 (2014).
+26. Pfeffer, C. K., Xue, M., He, M., Huang, Z. J. & Scanziani, M. Inhibition of
+inhibition in visual cortex: the logic of connections between molecularly
+distinct interneurons. Nat. Neurosci. 16, 1068–1076 (2013).
+27. Lein, E., Borm, L. E. & Linnarsson, S. The promise of spatial transcriptomics
+for neuroscience in the era of molecular cell typing. Science 358, 64–69 (2017).
+28. Murrell, E. et al. Classics in neuroimaging: development of positron emission
+tomography tracers for imaging the GABAergic pathway. ACS Chem.
+Neurosci. 11, 2039–2044 (2020).
+29. Kanaani, J., Kolibachuk, J., Martinez, H. & Baekkeskov, S. Two distinct
+mechanisms target GAD67 to vesicular pathways and presynaptic clusters. J.
+Cell Biol. 190, 911–925 (2010).
+30. Scheyltjens, I. & Arckens, L. The current status of somatostatin-interneurons in
+inhibitory control of brain function and plasticity. Neural Plast. 2016, 8723623
+(2016).
+31. Pi, H. J. et al. Cortical interneurons that specialize in disinhibitory control.
+Nature 503, 521–524 (2013).
+32. Reichmann, F. & Holzer, P. Neuropeptide Y: a stressful review. Neuropeptides
+55, 99–109 (2016).
+33. Fatemi, S. H. Reelin glycoprotein: Structure, biology and roles in health and
+disease. Mol. Psychiatry 10, 251–257 (2005).
+34. Pantaleo, N. et al. The mammalian tachykinin ligand-receptor system: an
+emerging target for central neurological disorders. CNS Neurol. Disord. - Drug
+Targets 9, 627–635 (2012).
+35. Zhang, B. & Horvath, S. A general framework for weighted gene co-expression
+network analysis. Stat. Appl. Genet. Mol. Biol. 4, 1544–6115 (2005).
+36. Sunkin, S. M. et al. Allen Brain Atlas: An integrated spatio-temporal portal for
+exploring the central nervous system. Nucleic Acids Res. 41, D996–D1008 (2013).
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+ARTICLE
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+9
+
+37. Desikan, R. S. et al. An automated labeling system for subdividing the human
+cerebral cortex on MRI scans into gyral based regions of interest. Neuroimage
+31, 968–980 (2006).
+38. Lake, B. B. et al. Integrative single-cell analysis of transcriptional and
+epigenetic states in the human adult brain. Nat. Biotechnol. 36, 70–80 (2018).
+39. Liao, Y., Wang, J., Jaehnig, E. J., Shi, Z. & Zhang, B. WebGestalt 2019: gene set
+analysis toolkit with revamped UIs and APIs. Nucleic Acids Res 47,
+W199–W205 (2019).
+40. Hu, X., Rocco, B. R., Fee, C. & Sibille, E. Cell type-speciﬁc gene expression of
+alpha 5 subunit-containing gamma-aminobutyric acid subtype A receptors in
+human and mouse frontal cortex. Mol. Neuropsychiatry 4, 204–215 (2018).
+41. Engin, E., Benham, R. S. & Rudolph, U. An emerging circuit pharmacology of
+GABAA receptors. Trends Pharmacol. Sci. 39, 710–732 (2018).
+42. Sequeira, A., Shen, K., Gottlieb, A. & Limon, A. Human brain transcriptome
+analysis ﬁnds region- and subject-speciﬁc expression signatures of GABAAR
+subunits. Commun. Biol. 2, 153 (2019).
+43. Beneyto, M., Abbott, A., Hashimoto, T. & Lewis, D. A. Lamina-speciﬁc
+alterations in cortical GABAA receptor subunit expression in schizophrenia.
+Cereb. Cortex 21, 999–1011 (2011).
+44. Müller Herde, A. et al. GABAA receptor subtypes in the mouse brain: regional
+mapping and diazepam receptor occupancy by in vivo [18F]ﬂumazenil PET.
+Neuroimage 150, 279–291 (2017).
+45. Zhu, S. et al. Structure of a human synaptic GABAA receptor. Nature 559,
+67–72 (2018).
+46. Nutt, D. J. & Malizia, A. L. New insights into the role of the GABAA-
+benzodiazepine receptor in psychiatric disorder. Br. J. Psychiatry 179, 390–396
+(2001).
+47. Halonen, L. M., Sinkkonen, S. T., Chandra, D., Homanics, G. E. & Korpi, E. R.
+Brain regional distribution of GABAA receptors exhibiting atypical GABA
+agonism: Roles of receptor subunits. Neurochem. Int. 55, 389–396 (2009).
+48. Maldonado-Avilés, J. G. et al. Altered markers of tonic inhibition in the
+dorsolateral prefrontal cortex of subjects with schizophrenia. Am. J. Psychiatry
+166, 450–459 (2009).
+49. Ishibashi, M., Egawa, K. & Fukuda, A. Diverse actions of astrocytes in
+GABAergic signaling. Int. J. Mol. Sci. 20, 2964 (2019).
+50. Yoon, B. E., Woo, J. & Lee, C. J. Astrocytes as GABA-ergic and GABA-ceptive
+cells. Neurochem. Res. 37, 2474–2479 (2012).
+51. Seidlitz, J. et al. Transcriptomic and cellular decoding of regional
+brain vulnerability to neurogenetic disorders. Nat. Commun. 11, 3358
+(2020).
+52. Fraser, D. D., Mudrick‐Donnon, L. A. & Macvicar, B. A. Astrocytic GABA
+receptors. Glia 11, 83–93 (1994).
+53. Cahoy, J. D. et al. A transcriptome database for astrocytes, neurons, and
+oligodendrocytes: a new resource for understanding brain development and
+function. J. Neurosci. 28, 264–278 (2008).
+54. Herculano-Houzel, S. The glia/neuron ratio: How it varies uniformly across
+brain structures and species and what that means for brain physiology and
+evolution. Glia 62, 1377–1391 (2014).
+55. Fee, C., Banasr, M. & Sibille, E. Somatostatin-positive gamma-aminobutyric
+acid interneuron deﬁcits in depression: cortical microcircuit and therapeutic
+perspectives. Biol. Psychiatry 82, 549–559 (2017).
+56. Fuchs, T. et al. Disinhibition of somatostatin-positive GABAergic
+interneurons results in an anxiolytic and antidepressant-like brain state. Mol.
+Psychiatry 22, 920–930 (2017).
+57. Konradi, C. et al. Hippocampal interneurons are abnormal in schizophrenia.
+Schizophr. Res. 131, 165–173 (2011).
+58. Frankle, W. G. et al. In vivo measurement of GABA transmission in
+healthy subjects and schizophrenia patients. Am. J. Psychiatry 172, 1148–1159
+(2015).
+59. Lee, J. S. et al. Is the GABA system related to the social competence
+improvement effect of aripiprazole? an 18F-Fluoroﬂumazenil PET study.
+Psychiatry Investig. 10, 75–80 (2013).
+60. Perez, S. M., Boley, A. & Lodge, D. J. Region speciﬁc knockdown of Parvalbumin
+or Somatostatin produces neuronal and behavioral deﬁcits consistent with those
+observed in schizophrenia. Transl. Psychiatry 9, 264 (2019).
+61. Marques, T. R. et al. GABA-A receptor differences in schizophrenia: a
+positron emission tomography study using [11C]Ro154513. Mol. Psychiatry
+https://doi.org/10.1038/s41380-020-0711-y (2020).
+62. Asai, Y. et al. GABAA/Benzodiazepine receptor binding in patients with
+schizophrenia using [11C]Ro15-4513, a radioligand with relatively high
+afﬁnity for α5 subunit. Schizophr. Res. 99, 333–340 (2008).
+63. Peris-Yague, A. et al. Region-speciﬁc and dose-speciﬁc effects of chronic
+haloperidol exposure on [3H]-ﬂumazenil and [3H]-Ro15-4513 GABAA
+receptor binding sites in the rat brain. Eur. Neuropsychopharmacol. 41,
+106–117 (2020).
+64. Myers, J. F., Comley, R. A. & Gunn, R. N. Quantiﬁcation of [11 C]Ro15-4513
+GABA A α5 speciﬁc binding and regional selectivity in humans. J. Cereb.
+Blood Flow. Metab. 37, 2137–2148 (2016).
+65. Rizzo, G. et al. The predictive power of brain mRNA mappings for in vivo
+protein density: a positron emission tomography correlation study. J. Cereb.
+Blood Flow. Metab. 34, 827–835 (2014).
+66. Selvaggi, P., Rizzo, G., Mehta, M. A., Turkheimer, F. E. & Veronese, M.
+Integration of human whole-brain transcriptome and neuroimaging data:
+Practical considerations of current available methods. J. Neurosci. Methods
+355, 109128 (2021).
+67. Martins, D. et al. Imaging transcriptomics: Convergent cellular,
+transcriptomic, and molecular neuroimaging signatures in the healthy adult
+human brain. Cell Rep. 37, 110173 (2021).
+68. Martins, D. et al. Transcriptional and cellular signatures of cortical
+morphometric remodelling in chronic pain. Pain Online ahe, (2021).
+69. Markello, R., Shaﬁei, G., Zheng, Y.-Q. & Mišić, B. abagen: A toolbox for the Allen
+Brain Atlas genetics data. Zenodo https://doi.org/10.5281/zenodo.4479293 (2021).
+70. Arnatkevic̆iūtė, A., Fulcher, B. D. & Fornito, A. A practical guide to linking brain-
+wide gene expression and neuroimaging data. Neuroimage 189, 353–367 (2019).
+71. Hawrylycz, M. et al. Canonical genetic signatures of the adult human brain.
+Nat. Neurosci. 18, 1832–1844 (2015).
+72. Langfelder, P., Zhang, B. & Horvath, S. Deﬁning clusters from a hierarchical
+cluster tree: the dynamic tree cut package for R. Bioinformatics 24, 719–720 (2008).
+73. Gunn, R. N., Lammertsma, A. A., Hume, S. P. & Cunningham, V. J.
+Parametric imaging of ligand-receptor binding in PET using a simpliﬁed
+reference region model. Neuroimage 6, 279–287 (1997).
+74. Nørgaard, M. et al. A high-resolution in vivo atlas of the human brain’s
+benzodiazepine binding site of GABAA receptors. Neuroimage 232, 117878
+(2021).
+75. Whitaker, K. J. et al. Adolescence is associated with genomically patterned
+consolidation of the hubs of the human brain connectome. Proc. Natl. Acad.
+Sci. USA 113, 9105–9110 (2016).
+76. Lukow, P. B. et al. Imaging transcriptomics of GABAergic neurotransmission
+in the human brain. ﬁgshare https://doi.org/10.6084/m9.ﬁgshare.19169663
+(2022).
+Acknowledgements
+This research did not receive any grant from funding agencies in the commercial or not-
+for-proﬁt sectors. P.B.L. is in receipt of a PhD studentship funded by the National
+Institute for Health Research (NIHR) Biomedical Research Centre at South London and
+Maudsley NHS Foundation Trust and King’s College London. The views expressed are
+those of the author(s) and not necessarily those of the NHS, the NIHR or the Department
+of Health and Social Care. This research was funded in whole, or in part, by the Well-
+come Trust [Sir Henry Dale Fellowship 202397/Z/16/Z to G.M.]. For the purpose of open
+access, the author has applied a CC BY public copyright licence to any Author Accepted
+Manuscript version arising from this submission. G.M., A.C.V. and F.E.T. acknowledge
+funding supporting this work from the Medical Research Council UK Centre grant MR/
+N026063/1. D.M. and V.M. are supported by the National Institute for Health Research
+(NIHR) Biomedical Research Centre at South London and Maudsley NHS Foundation
+Trust. The authors would like to extend special thanks to colleagues from the Neuro-
+biology Research Unit at Copenhagen University Hospital for making their data publicly
+available, as well as Dr Samuel Cooke for his advice on the interpretation of the results.
+Author contributions
+P.B.L., D.M., F.E.T. and G.M. designed the research, P.B.L. conducted the research, D.M.
+and M.V. provided analytic support, P.B.L. wrote the manuscript and made all ﬁgures.
+A.C.V., P.M. and all other authors edited the manuscript and made contributions to the
+interpretation of the data.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s42003-022-03268-1.
+Correspondence and requests for materials should be addressed to Paulina Barbara
+Lukow.
+Peer review information Communications Biology thanks Rosa Maria Moresco and the
+other, anonymous, reviewer(s) for their contribution to the peer review of this work.
+Primary Handling Editors: Christian Wozny and Anam Akhtar. Peer reviewer reports are
+available.
+Reprints and permission information is available at http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional afﬁliations.
+ARTICLE
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+10
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder. To view a copy of this license, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2022
+COMMUNICATIONS BIOLOGY | https://doi.org/10.1038/s42003-022-03268-1
+ARTICLE
+COMMUNICATIONS BIOLOGY |  (2022) 5:372 | https://doi.org/10.1038/s42003-022-03268-1 | www.nature.com/commsbio
+11

@@ -1,0 +1,689 @@
+Cyclic GMP-AMP Synthase (cGAS) Is an Innate Immune DNA 
+Sensor for Mycobacterium tuberculosis
+Angela C. Collins1,2,†, Haocheng Cai3,†, Tuo Li3,†, Luis H. Franco4,5, Xiao-Dong Li3, Vidhya 
+R. Nair1,2, Caitlyn R. Scharn1,2, Chelsea E. Stamm1,2, Beth Levine1,2,4,5, Zhijian J Chen3,4,*, 
+and Michael U. Shiloh1,2,*
+1Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX 
+75390–9113, USA
+2Department of Microbiology, University of Texas Southwestern Medical Center, Dallas, TX 
+75390–9113, USA
+3Department of Molecular Biology, University of Texas Southwestern Medical Center, Dallas, TX 
+75390–9148, USA
+4Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 
+75390–9148, USA
+5Center for Autophagy Research, University of Texas Southwestern Medical Center, Dallas, TX 
+75390–9113, USA
+Summary
+Activation of the DNA-dependent cytosolic surveillance pathway in response to Mycobacterium 
+tuberculosis infection stimulates ubiquitin-dependent autophagy and inflammatory cytokine 
+production, and plays an important role in host defense against M. tuberculosis. However, the 
+identity of the host sensor for M. tuberculosis DNA is unknown. Here we show that M. 
+tuberculosis activated cyclic guanosine monophosphate–adenosine monophosphate (cGAMP) 
+synthase (cGAS) in macrophages to produce cGAMP, a second messenger that activates the 
+adaptor protein stimulator of interferon genes (STING) to induce type I interferons and other 
+cytokines. cGAS localized with M. tuberculosis in mouse and human cells and in human 
+tuberculosis lesions. Knockdown or knockout of cGAS in human or mouse macrophages blocked 
+*Correspondence to: Zhijian J. Chen (Zhijian.Chen@UTSouthwestern.edu) or Michael U. Shiloh 
+(Michael.Shiloh@UTSouthwestern.edu).
+*These authors contributed equally.
+Reprints and permissions information is available at Cell Host and Microbe.
+Supplementary Information including detailed supplemental methods is linked to the online version of the paper at Cell Host and 
+Microbe.
+Author Contributions
+A.C.C., L.H.F. and C.R.S. performed macrophage infections with M. tuberculosis for RNA, CFU, and microscopic analysis. A.C.C., 
+V.R.N. and C.R.S. performed immunohistochemistry and immunofluorescence microscopy. A.C.C., L.H.F. and V.R.N. performed 
+mouse aerosol infections with M. tuberculosis. H.C. performed qPCR of the bacteria-infected samples as well as the infection 
+experiments with Listeria and Streptococcus. T. L. developed the cGAMP mass spectrometry assay and analyzed the data. H. C. and 
+X. L. provided mice and bone marrow macrophages. C.E.S. performed in vitro M. tuberculosis experiments. B.L. provided reagents 
+and was involved in study design. A.C.C., H.C., Z.J.C. and M.U.S. designed the study, analyzed data and wrote the paper. All authors 
+discussed the results and commented on the manuscript.
+The authors declare no competing financial interests.
+HHS Public Access
+Author manuscript
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Published in final edited form as:
+Cell Host Microbe. 2015 June 10; 17(6): 820–828. doi:10.1016/j.chom.2015.05.005.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+cytokine production and induction of autophagy. Mice deficient in cGAS were more susceptible to 
+lethality caused by infection with M. tuberculosis. These results demonstrate that cGAS is a vital 
+innate immune sensor of M. tuberculosis infection.
+Introduction
+We recently identified the cytosolic DNA sensor cyclic guanosine monophosphate–
+adenosine monophosphate (cGAMP) synthase (cGAS) as the primary trigger for production 
+of type I interferons and other cytokines in the setting of viral infections including herpes 
+simplex virus type 1, vaccinia virus and HIV (Gao et al., 2013; Li et al., 2013; Sun et al., 
+2013). When cGAS binds DNA, it is activated to synthesize cGAMP from adenosine 
+triphosphate (ATP) and guanosine triphosphate (GTP) (Wu et al., 2013). cGAMP then binds 
+and activates the endoplasmic reticulum protein STING, which in turn activates the protein 
+kinases IκB kinase (IKK) and TANK-binding kinase 1 (TBK1). IKK and TBK1 then 
+stimulate nuclear translocation of nuclear factor- κB (NF-κB) (Abe and Barber, 2014) and 
+interferon regulatory factor 3 (IRF3) (Liu et al., 2015) to induce transcription of type-I 
+interferons (e.g., IFNβ) and other cytokines (Cai et al., 2014). While the induction of type-I 
+interferons is critical for immune defense against viral infections (Stetson and Medzhitov, 
+2006), some bacterial pathogens such as M. tuberculosis and Listeria monocytogenes exploit 
+the type-I interferon pathway for their own advantage (Eshleman and Lenz, 2014).
+In addition to initiating a signaling cascade leading to IFNβ production, cytosolic DNA is 
+also vital for autophagy induction. Cytosolic DNA can activate a STING-dependent 
+pathway for ubiquitin-dependent autophagy induction (Watson et al., 2012) but also a 
+STING-independent autophagy pathway through dissociation of the negative regulator 
+Rubicon from Beclin 1 (Liang et al., 2014). The DNA-triggered induction of autophagy is 
+important for the host defense against bacterial infections. Thus, in the context of bacterial 
+infections, it is important to determine whether the activation of the cytosolic DNA 
+surveillance pathway (CSP), which induces both autophagy and interferons, is protective or 
+detrimental to the host.
+Despite being considered a classic intraphagosomal pathogen, M. tuberculosis can rarely be 
+found residing in the macrophage cytoplasm (van der Wel et al., 2007) where M. 
+tuberculosis pathogen associated molecular patterns can interact with host sensors. M. 
+tuberculosis also activates the cytosolic DNA surveillance pathway via a mechanism 
+requiring phagosome disruption by the mycobacterial protein secretion system ESX-1 
+(Manzanillo et al., 2012) and the virulence factors ESAT-6 and CFP-10 (De Leon et al., 
+2012; Simeone et al., 2012). Mycobacterial DNA then escapes into the cytoplasm to activate 
+cytokine production in a STING-, TBK-1- and IRF-3-dependent manner (Manzanillo et al., 
+2012). Although M. tuberculosis DNA activates the CSP to induce IRF-3 dependent 
+cytokine production including IFNβ (Manzanillo et al., 2012) as well as autophagy 
+induction, the identity of the host sensor for M. tuberculosis DNA is not known. Because the 
+detection of M. tuberculosis infection by macrophages is so vital to the innate immune 
+response (Stamm et al., 2015), we sought to identify the receptor for M. tuberculosis DNA 
+and determine its role in the host response to infection.
+Collins et al.
+Page 2
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Results
+M. tuberculosis induces cGAS in human macrophages and during active tuberculosis
+To first test if cGAS is expressed during M. tuberculosis infection, we queried the GEO 
+database and found that during mouse infection (Kang et al., 2011), cGAS is induced in the 
+lungs of infected mice (Fig. S1, related to Fig. 1). We next infected the human THP-1 
+macrophage cell line with M. tuberculosis and measured cGAS mRNA by quantitative PCR. 
+We found that cGAS is upregulated 2 fold by 6 h after infection and 5 fold after 24 h (Fig. 
+1A). We also determined if cGAS protein is induced in human macrophages by infecting 
+THP-1 cells with M. tuberculosis and measuring cGAS accumulation by western blot (Fig. 
+1B) and immunofluorescence microscopy (Fig. 1C). We observed that M. tuberculosis 
+infection upregulated cGAS in human macrophages 24 h after infection (Fig. 1B, C). cGAS 
+puncta occurred adjacent to intracellular mycobacteria and in the cytoplasm (Fig. 1C). 
+Quantification of the degree of colocalization revealed that ~30% of intracellular M. 
+tuberculosis colocalized with cGAS (Fig. 1D). We next asked if cGAS is expressed in 
+human tuberculosis lesions by immunohistochemistry (Fig. 1E; Fig. S2, related to Fig. 1) 
+and immunofluorescence microscopy (Fig. 1F) and found that cGAS was expressed 
+diffusely in lung biopsies obtained from patients with human tuberculosis. By 
+immunofluorescence we observed a punctate staining pattern similar to our observations in 
+THP-1 cells (Fig. 1F) with occasional colocalization of M. tuberculosis with cGAS (Fig. 
+1F). Taken together, M. tuberculosis infection is sufficient to induce cGAS in macrophages 
+and the cGAS protein is expressed in human tuberculous lesions.
+cGAS is required for IFNβ production by human and mouse macrophages infected with M. 
+tuberculosis
+Since cGAS induces IFNβ in response to viral DNA (Gao et al., 2013; Li et al., 2013; Sun et 
+al., 2013), and M. tuberculosis releases its DNA into the macrophage cytoplasm (Manzanillo 
+et al., 2012; Watson et al., 2012), we asked if cGAS is required for M. tuberculosis to induce 
+IFNβ and other cytokines using THP-1 cells stably expressing shRNA against cGAS or 
+STING (Sun et al., 2013) (Fig. S3, related to Fig. 2). M. tuberculosis induced IFNβ 
+transcription in a manner that depended on the multiplicity of infection (MOI; Fig. 2A). 
+Knockdown of cGAS significantly reduced the induction of IFNβ (Fig. 2A) and the 
+chemokine CXCL10 (Fig. 2B) by M. tuberculosis. Likewise, STING knockdown in THP-1 
+cells blocked IFNβ expression (Fig. 2A), as has been recently reported (Manzanillo et al., 
+2012). Knockdown of STING or cGAS had no effect on transcription of an NFκB-
+dependent cytokine, TNFα (Fig. 2C), suggesting that other ligands in M. tuberculosis may 
+activate NF-κB through a cGAS-independent pathway. To obtain definitive genetic evidence 
+for cGAS’s role in sensing M. tuberculosis infection in macrophages, we infected mouse 
+bone marrow derived macrophages (BMDMs) deficient in cGAS or STING and measured 
+IFNβ, CXCL-10, and TNFα by quantitative PCR. As in THP1 cells, IFNβ expression was 
+MOI dependent (Fig. 2D) and both cGAS and STING were required for IFNβ and CXCL-10 
+but not TNFα transcription (Fig. 2D–F). Thus, we conclude that cGAS is essential for 
+inducing IFNβ in response to M. tuberculosis infection in both human and mouse 
+macrophages.
+Collins et al.
+Page 3
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Another organism that can activate the CSP is Listeria monocytogenes. Infection of THP-1 
+cells with L. monocytogenes resulted in IFNβ induction in a cGAS and STING dependent 
+manner (Fig. S3 related to Fig. 2), indicating a conserved role for cGAS in detecting 
+cytoplasmic bacterial DNA. However, in contrast to THP-1 cells, IFNβ and CXCL-10 
+induction by L. monocytogenes in mouse macrophages was cGAS-independent but STING-
+dependent (Fig. S3 related to Fig. 2), consistent with a role for the bacterial secretion of 
+cyclic di-AMP, a direct STING ligand (Hansen et al., 2014; Woodward et al., 2010). Thus, it 
+appears that cytosolic bacterial DNA plays a dominant role in IFNβ induction in THP1 cells, 
+whereas both the DNA sensing pathway and bacterial c-di-AMP are important in activating 
+STING in the mouse macrophages. Infection with another Gram-positive bacterium reported 
+to induce IFNβ via secretion of DNA, Streptococcus pyogenes (Gratz et al., 2011), 
+demonstrated an intermediate phenotype as IFNβ and CXCL-10 were undetectable in 
+STINGgt/gt BMDM and significantly reduced in BMDM lacking cGAS (Fig. S3 related to 
+Fig. 2). As above, induction of the NFκB-dependent cytokine IL-1β was independent of 
+cGAS and STING (Fig. S3 related to Fig. 2).
+cGAMP is produced during M. tuberculosis infection in a cGAS and ESX-1 dependent 
+manner
+To demonstrate that the cGAS product cGAMP is produced during M. tuberculosis 
+infection, we developed and utilized a sensitive mass spectrometry assay to measure 
+cGAMP levels in M. tuberculosis-infected mouse BMDMs. This assay utilizes a heavy 
+isotope 13C1015N5-labeled cGAMP internal standard to quantify the absolute amounts of 
+endogenous unlabeled cGAMP in cell lysates. We first determined a time course of cGAMP 
+production and found that in wild type BMDMs cGAMP peaked at 8 h after infection with 
+wild type M. tuberculosis (Fig. 2G). However, infection with an M. tuberculosis ΔeccD 
+mutant, a critical component of the ESX-1 secretion machine that fails to disrupt the 
+phagosomal membrane and release mycobacterial DNA (Manzanillo et al., 2012; Stanley et 
+al., 2007), did not induce cGAMP production in macrophages (Fig. 2G). Thus, phagosomal 
+rupture via ESX-1 and release of mycobacterial DNA into the cytoplasm is necessary to 
+induce cGAMP production. Next, we quantitated cGAMP in M. tuberculosis-infected 
+BMDM from WT and cGAS−/− (Gao et al., 2013) mice as well as the STING golden ticket 
+mutant mice (STINGgt/gt), which have a loss of expression of STING (Sauer et al., 2011). M. 
+tuberculosis induced cGAMP production in WT and STINGgt/gt BMDM at a level of 
+approximately 6000 molecules per cell, but cGAS deficient macrophages produced no 
+detectable cGAMP (Fig. 2H). Thus, cGAS is required for cGAMP production in M. 
+tuberculosis-infected macrophages.
+cGAS is required for LC3 association with M. tuberculosis
+Sensing of cytosolic DNA by M. tuberculosis induces recruitment of the autophagy markers 
+LC3, NDP52, p62 and ubiquitination of M. tuberculosis containing organelles (Manzanillo 
+et al., 2013; Manzanillo et al., 2012; Watson et al., 2012); the autophagy induction mediates 
+early inhibition of bacterial growth (Watson et al., 2012). LC3 is a protein component of 
+both autophagy and LC3-associated phagocytosis that marks both classic double membrane 
+enveloped autophagosomes and single membrane enveloped phagosomes (Green and 
+Levine, 2014). Such LC3 marked organelles are targeted to lysosomes for degradation of 
+Collins et al.
+Page 4
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+intracompartmental contents. We first asked if STING or cGAS is required for induction of 
+general autophagy by starvation, and found that neither STING nor cGAS deficiency 
+prevented LC3 starvation induced LC3-puncta formation (Fig. 3A,B). To determine if cGAS 
+is necessary to regulate association of M. tuberculosis with LC3 we transduced mouse 
+BMDMs with a lentivirus to express GFP-LC3 and infected them with mCherry-expressing 
+M. tuberculosis. Absence of STING or cGAS significantly reduced but did not eliminate the 
+association of GFP-LC3 with mCherry-M. tuberculosis (Fig. 3C,D). Thus, we conclude that 
+cGAS is required for early recruitment of LC3, a marker of autophagy and LC3-associated 
+phagocytosis, during M. tuberculosis infection of macrophages.
+cGAS is required for early control of M. tuberculosis replication by macrophages
+Since activation of the CSP provides early protection from M. tuberculosis infection in 
+macrophages (Watson et al., 2012), we determined the role of cGAS in controlling 
+intracellular replication of M. tuberculosis. We infected BMDM deficient in either STING or 
+cGAS, and quantified intracellular mycobacterial growth. While all macrophages ingested 
+bacteria equally at time zero (Fig. 4A), both STING and cGAS deficient BMDM were more 
+permissive for M. tuberculosis growth (Fig. 4A). However, both cGAS and STING deficient 
+macrophages were able to control intracellular M. tuberculosis growth equally at 3 and 7 
+days after infection (data not shown), suggesting that additional antimicrobial mechanisms 
+are able to compensate in macrophages later in the course of infection. Because cGAS 
+produces the cyclic dinucleotide cGAMP, and some cyclic dinucleotides such as cyclic di-
+AMP and cyclic di-GMP can impact bacteria directly (Li and He, 2012; Witte et al., 2013), 
+we tested if cGAMP alone could inhibit M. tuberculosis growth in vitro, and found no effect 
+of cGAMP at a concentration as high as 10 µM (Fig. S4, related to Fig. 4). Thus, cGAS 
+signaling plays a role in early events controlling M. tuberculosis infection in human 
+macrophages.
+cGAS is protective in mice chronically infected with M. tuberculosis
+To test the functional role of DNA sensing mediated by cGAS and STING during M. 
+tuberculosis infection, we performed a low-dose aerosol infection of cGAS−/−, STINGgt/gt 
+and congenic C57Bl/6 mice. Of note, to date no differences in survival have been observed 
+in aged cGAS−/− uninfected mice compared to control wild type littermates (data not 
+shown). All mice were infected with approximately 200 colony-forming units (CFU) via 
+aerosol. CFUs in lung (Fig. 4B), liver, and spleen (Fig. S5, related to Fig. 4) were similar 
+among the different genotypes at days 21 and 42 after infection as well as at the time of 
+death (Fig. S4, related to Fig. 4). We observed an ~0.7 log decrease in all mouse groups 
+from day 21 to day 42, which is consistent with multiple prior studies in similarly performed 
+aerosol challenge models (Converse et al., 2009; Darwin and Nathan, 2005; Manzanillo et 
+al., 2012). Gross inflammation as assessed by pathology at days 21 and 42 and inflammatory 
+cytokines such as IFN-γ, IL-1β, IL-12, and TNF-α were also similar (Fig. S4, related to Fig. 
+4). IFNβ was reduced about 2-fold in the serum of cGAS deficient mice compared to wild 
+type, but this result was not statistically significant (Fig. S4, related to Fig. 4). However, M. 
+tuberculosis-infected cGAS−/− mice succumbed to infection significantly earlier than their 
+wild type or STING deficient counterparts (Fig. 4C, Fig. S4 related to Fig. 4), suggesting a 
+vital role for cGAS in chronic tuberculosis infection.
+Collins et al.
+Page 5
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Discussion
+Here we show that cGAS plays an important role in inducing IFNβ, autophagy and 
+macrophage antimicrobial activity during M. tuberculosis infection in vitro, as well as in 
+resistance to chronic tuberculosis in vivo. The cGAS product cGAMP is detected in M. 
+tuberculosis infected macrophages only when the phagosome is ruptured by the activity of 
+the M. tuberculosis ESX-1 system and when cGAS is expressed. cGAS is expressed in 
+mouse and human macrophages, and in primary human tuberculous lesions, consistent with 
+its important role in regulating the innate immune response during tuberculosis.
+M. tuberculosis infection induced upregulation of cGAS as visualized by punctate 
+cytoplasmic staining within infected cells. Likewise, Wassermann et al. (Wassermann et al., 
+2015) also found punctate cGAS staining during M. tuberculosis infection. Transfection of 
+DNA is known to induce similar punctate staining, and transfected DNA can be colocalized 
+with cGAS in many of these areas of cGAS aggregation (Sun et al., 2013). cGAS has 
+recently been found to be a key interferon stimulated gene (ISG) (Schoggins et al., 2014), 
+and increased cGAS staining during M. tuberculosis infection is also visualized in adjacent 
+non-infected cells likely due to paracrine type I interferon signaling (Stetson and Medzhitov, 
+2006). Additionally, cGAMP produced in one cell can be transferred via gap junctions to 
+neighboring cells where it activates STING and the production of type I interferon (Ablasser 
+et al., 2013). This suggests that another mechanism for the upregulation of ISGs such as 
+IFNβ and cGAS in uninfected cells may be transfer of cGAMP from M. tuberculosis infected 
+cells to adjacent cells, and indeed Wassermann et al. (Wassermann et al., 2015) 
+demonstrated that during M. tuberculosis infection cGAMP can translocate between cells 
+via connexin channels to induce IFNβ. Furthermore, in vivo, IFNβ may also be induced in 
+macrophages and other cells in a TLR4-dependent manner (Liu et al., 2015).
+Some intracellular pathogens such as L. monocytogenes and C. trachomatis secrete their 
+own cyclic nucleotides such as c-di-AMP into the host cytoplasm, thus bypassing cGAS 
+activation to directly trigger STING-dependent IFNβ production (Woodward et al., 2010). 
+We found that L. monocytogenes could induce IFNβ in the absence of cGAS in mouse 
+BMDM but not in human THP-1 cells, suggesting a role for L. monocytogenes secreted c-di-
+AMP in mouse but not human cells. Hansen et al. recently reported similar results using 
+RNAi of cGAS (Hansen et al., 2014). It is not clear whether listeria produces significant 
+levels of c-di-AMP to stimulate IFNβ in THP1 cells.
+Whether M. tuberculosis produces any cyclic di-nucleotide is a subject of debate. In one 
+study, deletion of the M. tuberculosis di-adenylate cyclase gene disA (Rv3586) had no effect 
+on IFNβ production during M. tuberculosis infection of BMDMs (Manzanillo et al., 2012). 
+However in another recent study, deletion of disA reduced IFNβ production four-fold 
+whereas deletion of the diadenylate cyclic di-AMP phosphodiesterase gene (cnpB) increased 
+IFNβ production 10-fold during BMDM infection (Yang et al., 2014). In our hands, both 
+shRNA mediated depletion and genetic ablation of cGAS prevented IFNβ expression by 
+macrophages, except at very high MOI. Likewise, both Watson et al. (Watson et al., 2015) 
+and Wassermann et al. (Wassermann et al, 2015) also failed to detect a cGAS-independent 
+induction of interferon-dependent genes, suggesting that if c-di-AMP is indeed secreted by 
+Collins et al.
+Page 6
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+M. tuberculosis, it plays only a minor role compared to mycobacterial dsDNA in triggering 
+IFNβ production. Since STING can respond to a variety of cyclic di-nucleotides, an 
+alternative explanation for the induction of a residual amount of IFNβ in cGAS deficient 
+BMDM at high MOI would be the action of an accessory host enzyme producing cyclic 
+dinucleotides in response to bacterial infection.
+Identification of cGAS in human tuberculosis lesions and cGAMP in infected macrophages 
+provides a possible explanation for the interferon driven transcriptional signature in human 
+tuberculosis (Berry et al., 2010). Emerging data suggests that successful outcomes in human 
+tuberculosis occur when there is an appropriate balance between bacterial death and 
+inflammation (BoseDasgupta and Pieters, 2014; Tobin et al., 2012). To that end, modulating 
+cGAS activity could be a productive approach to host-directed therapy.
+We observed two competing roles for cGAS in regulating host defense against M. 
+tuberculosis in macrophages, namely, inducing type I interferon production and facilitating 
+early control of intracellular replication through the induction of autophagy. Thus, the 
+increased sensitivity of cGAS−/− mice to M. tuberculosis–induced lethality may reflect an 
+imbalance between decreases in detrimental IFNβ signaling (Teles et al., 2013) and 
+activation of protective autophagy/LC3-associated phagocytosis. Studies of M. tuberculosis 
+infection of IRF-3- (Manzanillo et al., 2012) or Parkin-deficient mice (Manzanillo et al., 
+2013) support this hypothesis. IRF-3 deficiency prevents IFNβ production during M. 
+tuberculosis infection (Manzanillo et al., 2012), though autophagic targeting is not affected 
+(Watson et al., 2012). Notably, IRF-3 mutant mice do not have a defect in bacterial growth 
+in M. tuberculosis infected macrophages in vitro or a profound difference in bacterial 
+growth compared to control mice during low dose aerosol infection, yet they are 
+dramatically protected from mortality during M. tuberculosis infection (Manzanillo et al., 
+2012), which may reflect IRF-3’s central role as signaling hub (Liu et al., 2015). In contrast, 
+Parkin deficient mice are defective in M. tuberculosis induced autophagy but have no type I 
+interferon defect, and M. tuberculosis infected Parkin deficient mice succumb earlier to 
+infection associated with a modest increase in CFU burden (Manzanillo et al., 2013). In that 
+regard, cGAS-deficient mice had defective LC3 recruitment to M. tuberculosis containing 
+organelles and reduced intracellular killing ability in BMDMs, which might explain why 
+they were more susceptible to chronic infection. Consistent with this notion, Atg5-deficient 
+mice are also more susceptible to lethality induced by M. tuberculosis infection (Castillo et 
+al., 2012; Watson et al., 2012), though the early mortality may in part be explained by a 
+hyperinflammatory state in these mice (Castillo et al., 2012; Watson et al., 2012).
+Given the shared roles of cGAS and STING in inducing IFNβ and recruiting LC3 to M. 
+tuberculosis containing organelles, it was unexpected that cGAS−/− mice would be more 
+susceptible than STINGgt/gt mice to M. tuberculosis infection. In a parallel study, Watson et 
+al. (Watson et al., 2015) did not find a mortality defect when comparing wild type and 
+cGAS−/− mice also infected with ~200 CFU of the M. tuberculosis Erdman strain via 
+aerosol. Of note, whereas the Watson et al. survival study lasted only 100 days, in our hands 
+in two independent experiments cGAS−/− mice did not significantly succumb to disease until 
+after 100 days. Consistent with the fact that wild type C57BL/6 mice are relatively resistant 
+Collins et al.
+Page 7
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+to aerosol M. tuberculosis infection (Manzanillo et al., 2012; Medina and North, 1998), wild 
+type mice did not start to succumb until about 175 days after infection.
+Several recent studies have emerged highlighting unique STING independent functions for 
+cGAS, particularly in the induction of autophagy. cGAS, independent of its catalytic 
+activity, interacts directly with the autophagy protein Beclin-1 to block its association with 
+the negative regulator Rubicon (Liang et al., 2014). Thus, we speculate that the increased 
+susceptibility of cGAS−/− mice to tuberculosis may reflect in vivo effects on cGAS mediated 
+autophagy. Indeed, autophagy is not only important for control of intracellular replication of 
+mycobacteria (Castillo et al., 2012), but also for antigen presentation (Deretic et al., 2013), 
+suggesting that during a long-term infection, cGAS deficiency may impact the ability of 
+mice to develop an appropriate adaptive immune response. Taken together, we propose that 
+cGAS is a central signaling hub that is vital for immunity against viruses and bacteria.
+Experimental Procedures
+Strains and media
+The Erdman wild type strain of M. tuberculosis was grown in Middlebrook 7H9 medium or 
+on Middlebrook 7H11 agar plates supplemented with 10% oleic acid-albumin-dextrose-
+catalase. Tween-80 was added to liquid medium to a final concentration of 0.05%
+Mice and macrophages
+cGAS−/− mice (Li et al., 2013) were generated and maintained at UTSW. A detailed 
+description of their ontogeny is available in the Supplementary methods and online (Li et al., 
+2013). STINGgt/g (Sauer et al., 2011) mice purchased from Jackson lab were bred at UTSW. 
+Wild type C57BL/6 mice were bred in the same facility and all mice were housed in specific 
+pathogen-free conditions. All experiments were carried out according to experimental 
+protocols approved by Institutional Animal Care and Use Committee of the University of 
+Texas Southwestern Medical Center at Dallas.
+Immunohistochemistry and immunofluorescence of human specimens
+Paraffin embedded specimens were deparaffinized in xylene, subjected to heat mediated 
+antigen-retrieval in 10 mM sodium citrate (pH 6.0), permeabilized in 0.2% Triton-100 
+(Sigma) and blocked in 5% donkey sera. For immunohistochemistry, human sections were 
+stained with rabbit anti-C6orf150 antibody (cGAS; 1:100, Abcam) or rabbit polyclonal IgG 
+(1:100, Abcam). HRP conjugated secondary antibodies were obtained from Jackson 
+Immunochemicals and used at 1:250. Staining was amplified with AB reagent (Vecta-stain) 
+and detected using DAB reagent (Thermo Scientific). Images were acquired using a Zeiss 
+Axioplan 2 microscope. For immunofluorescence in THP-1 cells and human tissue, cGAS 
+was identified using rabbit anti-MB21D1 antibody (Sigma 1:100) and an HRP conjugated 
+donkey anti-rabbit secondary (1:100, Jackson Immunochemicals) followed by amplification 
+with tyramide (1:50, Perkin Elmer). M. tuberculosis was identified using guinea pig anti-M. 
+tuberculosis (1:25, BEI Resources, NR-13818) and an Alexa 488 conjugated donkey anti-
+guinea pig secondary (1:100, Jackson Immunochemicals). Hoechst stain was used to 
+visualize nuclei. Sections were mounted using Prolong Gold, allowed to cure for 24 hours in 
+Collins et al.
+Page 8
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+the dark, and then visualized. Images were acquired using a Leica TCS SP5 confocal 
+microscope. This study was approved by the Institutional Review Board of the University of 
+Texas Southwestern Medical Center.
+In vitro M. tuberculosis infections
+For macrophage infections, liquid M. tuberculosis cultures were washed twice with PBS, 
+resuspended in PBS and centrifuged to remove clumps. The supernatant was sonicated twice 
+to generate a single cell suspension. Bacteria were resuspended in RPMI media plus 10% 
+horse serum. Bacterial dilutions or plain media for uninfected controls were added to the 
+macrophages and plates centrifuged for 10 minutes at 1500 RPM to initiate infection. 
+Macrophages were then washed with PBS and fresh macrophage media applied.
+cGAMP extraction and quantification
+cGAMP was measured in TB- or mock-infected BMDMs as we recently described 
+(Rongvaux et al., In Press). Briefly, cells were lysed in cold 80% methanol/2% acetic acid 
+solution, into which 13C1015N5-labeled cGAMP internal standard was immediately 
+supplemented. After a short incubation on ice, insoluble debris was cleared by 
+centrifugation, and extracted twice in 2% acetic acid. cGAMP was enriched by solid phase 
+extraction using HyperSep Aminopropyl SPE Columns (Thermo Scientific), and eluted in 
+4% ammonium hydroxide/80% methanol. The eluents were vacuum-dried, resuspended in 
+LC/MS-grade water, cleared by centrifugation, and transferred to autosampler vials. 
+Metabolite extracts were separated by hydrophilic chromatography (HILIC) with Xbridge 
+Amide phase (3.5 µm, 3.5 mm ID × 100 mm L, Waters) on a Dionex Ultimate 3000 Rapid 
+Separation Liquid Chromatography system (Thermo Scientific). Mobile phase A was 20 
+mM ammonium bicarbonate with 20 mM ammonium hydroxide in water, and mobile phase 
+B acetonitrile. The separation ran at a flow of 400 µL/min for the first 14.5 min and 800 
+µL/min for the remaining 8.5 min, through the following gradient: 0 min 85% B, 3 min 85% 
+B, 10 min 2% B, 14 min 2% B, 14.5 min 85% B and 23 min 85% B.
+The HILIC eluent was sprayed online into a TSQ Quantiva triple quadruple mass 
+spectrometer (Thermo Scientific), which performed multiple reaction monitoring 
+experiments for detecting cGAMP and the internal standard. The technical details of the data 
+acquisition and analysis were recently described (Rongvaux et al. Cell. 2014), with the 
+exception that the spray was at default setting for 400 µL/min, and that the scan dwell time 
+was 50 ms.
+Statistical analysis
+Statistical analysis was performed using GraphPad Prism. For in vitro studies, one-tailed 
+Analysis of Variance (ANOVA) tests were used for experiments with multiple comparisons 
+using Dunnett’s test. For experiments with single comparisons, two-tailed unpaired student’s 
+t-test was used. For experiments containing samples with non-normal distributions such as 
+cytokine and in vivo CFU measurements, the Kruskal-Wallis non-parametric test was used. 
+The Gehan-Breslow-Wilcoxon test was used to analyze survival studies.
+Collins et al.
+Page 9
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgements
+We thank D. Marciano for help with figure preparation and critical discussion and members of the Chen and Shiloh 
+labs for critical discussions. This work was supported by NIH grants R01 AI099439 (M.U.S.), U19 AI109725 (B.L 
+and M.U.S.), AI093967 (Z.J.C.), T32 AI007520 (C.E.S.) and T32AI005284 (C.R.S.) and the Cancer Research 
+Prevention Institute of Texas RP120718 (B.L. and Z.J.C.). B.L. and Z.J.C. are investigators of the Howard Hughes 
+Medical Institute. M.U.S. is a Disease Oriented Clinical Scholar at UT Southwestern.
+References
+Abe T, Barber GN. Cytosolic-DNA-mediated, STING-dependent proinflammatory gene induction 
+necessitates canonical NF-kappaB activation through TBK1. J Virol. 2014; 88:5328–5341. 
+[PubMed: 24600004] 
+Ablasser A, Schmid-Burgk JL, Hemmerling I, Horvath GL, Schmidt T, Latz E, Hornung V. Cell 
+intrinsic immunity spreads to bystander cells via the intercellular transfer of cGAMP. Nature. 2013; 
+503:530–534. [PubMed: 24077100] 
+Berry MP, Graham CM, McNab FW, Xu Z, Bloch SA, Oni T, Wilkinson KA, Banchereau R, Skinner 
+J, Wilkinson RJ, et al. An interferon-inducible neutrophil-driven blood transcriptional signature in 
+human tuberculosis. Nature. 2010; 466:973–977. [PubMed: 20725040] 
+BoseDasgupta S, Pieters J. Striking the Right Balance Determines TB or Not TB. Frontiers in 
+immunology. 2014; 5:455. [PubMed: 25339950] 
+Cai X, Chiu YH, Chen ZJ. The cGAS-cGAMP-STING pathway of cytosolic DNA sensing and 
+signaling. Mol Cell. 2014; 54:289–296. [PubMed: 24766893] 
+Castillo EF, Dekonenko A, Arko-Mensah J, Mandell MA, Dupont N, Jiang S, Delgado-Vargas M, 
+Timmins GS, Bhattacharya D, Yang H, et al. Autophagy protects against active tuberculosis by 
+suppressing bacterial burden and inflammation. Proc Natl Acad Sci U S A. 2012; 109:E3168–
+E3176. [PubMed: 23093667] 
+Converse PJ, Karakousis PC, Klinkenberg LG, Kesavan AK, Ly LH, Allen SS, Grosset JH, Jain SK, 
+Lamichhane G, Manabe YC, et al. Role of the dosR-dosS two-component regulatory system in 
+Mycobacterium tuberculosis virulence in three animal models. Infect Immun. 2009; 77:1230–1237. 
+[PubMed: 19103767] 
+Darwin KH, Nathan CF. Role for nucleotide excision repair in virulence of Mycobacterium 
+tuberculosis. Infect Immun. 2005; 73:4581–4587. [PubMed: 16040969] 
+De Leon J, Jiang G, Ma Y, Rubin E, Fortune S, Sun J. Mycobacterium tuberculosis ESAT-6 exhibits a 
+unique membrane-interacting activity that is not found in its ortholog from non-pathogenic 
+Mycobacterium smegmatis. J Biol Chem. 2012; 287:44184–44191. [PubMed: 23150662] 
+Deretic V, Saitoh T, Akira S. Autophagy in infection, inflammation and immunity. Nature reviews 
+Immunology. 2013; 13:722–737.
+Eshleman EM, Lenz LL. Type I interferons in bacterial infections: taming of myeloid cells and 
+possible implications for autoimmunity. Frontiers in immunology. 2014; 5:431. [PubMed: 
+25309533] 
+Gao D, Wu J, Wu YT, Du F, Aroh C, Yan N, Sun L, Chen ZJ. Cyclic GMP-AMP synthase is an innate 
+immune sensor of HIV and other retroviruses. Science. 2013; 341:903–906. [PubMed: 23929945] 
+Gratz N, Hartweger H, Matt U, Kratochvill F, Janos M, Sigel S, Drobits B, Li XD, Knapp S, Kovarik 
+P. Type I interferon production induced by Streptococcus pyogenes-derived nucleic acids is 
+required for host protection. PLoS Pathog. 2011; 7:e1001345. [PubMed: 21625574] 
+Green DR, Levine B. To be or not to be? How selective autophagy and cell death govern cell fate. 
+Cell. 2014; 157:65–75. [PubMed: 24679527] 
+Hansen K, Prabakaran T, Laustsen A, Jorgensen SE, Rahbaek SH, Jensen SB, Nielsen R, Leber JH, 
+Decker T, Horan KA, et al. Listeria monocytogenes induces IFNbeta expression through an 
+Collins et al.
+Page 10
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+IFI16-, cGAS- and STING-dependent pathway. EMBO J. 2014; 33:1654–1666. [PubMed: 
+24970844] 
+Kang DD, Lin Y, Moreno JR, Randall TD, Khader SA. Profiling early lung immune responses in the 
+mouse model of tuberculosis. PLoS One. 2011; 6:e16161. [PubMed: 21249199] 
+Li W, He ZG. LtmA, a novel cyclic di-GMP-responsive activator, broadly regulates the expression of 
+lipid transport and metabolism genes in Mycobacterium smegmatis. Nucleic Acids Res. 2012; 
+40:11292–11307. [PubMed: 23047950] 
+Li XD, Wu J, Gao D, Wang H, Sun L, Chen ZJ. Pivotal roles of cGAS-cGAMP signaling in antiviral 
+defense and immune adjuvant effects. Science. 2013; 341:1390–1394. [PubMed: 23989956] 
+Liang Q, Seo GJ, Choi YJ, Kwak MJ, Ge J, Rodgers MA, Shi M, Leslie BJ, Hopfner KP, Ha T, et al. 
+Crosstalk between the cGAS DNA sensor and Beclin-1 autophagy protein shapes innate 
+antimicrobial immune responses. Cell host & microbe. 2014; 15:228–238. [PubMed: 24528868] 
+Liu S, Cai X, Wu J, Cong Q, Chen X, Li T, Du F, Ren J, Wu Y, Grishin N, et al. Phosphorylation of 
+innate immune adaptor proteins MAVS, STING, and TRIF induces IRF3 activation. Science. 2015
+Manzanillo PS, Ayres JS, Watson RO, Collins AC, Souza G, Rae CS, Schneider DS, Nakamura K, 
+Shiloh MU, Cox JS. The ubiquitin ligase parkin mediates resistance to intracellular pathogens. 
+Nature. 2013; 501:512–516. [PubMed: 24005326] 
+Manzanillo PS, Shiloh MU, Portnoy DA, Cox JS. Mycobacterium tuberculosis activates the DNA-
+dependent cytosolic surveillance pathway within macrophages. Cell host & microbe. 2012; 
+11:469–480. [PubMed: 22607800] 
+Medina E, North RJ. Resistance ranking of some common inbred mouse strains to Mycobacterium 
+tuberculosis and relationship to major histocompatibility complex haplotype and Nramp1 
+genotype. Immunology. 1998; 93:270–274. [PubMed: 9616378] 
+Rongvaux A, Jackson R, Harman C, Li T, West AP, de Zoete MR, Wu Y, Yordy B, Lakhani SA, Chia-
+Yi Kuan C-Y, et al. Apoptotic caspases prevent the induction of type I interferons by 
+mitochondrial DNA. Cell. (In Press). 
+Sauer JD, Sotelo-Troha K, von Moltke J, Monroe KM, Rae CS, Brubaker SW, Hyodo M, Hayakawa 
+Y, Woodward JJ, Portnoy DA, et al. The N-ethyl-N-nitrosourea-induced Goldenticket mouse 
+mutant reveals an essential function of Sting in the in vivo interferon response to Listeria 
+monocytogenes and cyclic dinucleotides. Infect Immun. 2011; 79:688–694. [PubMed: 21098106] 
+Schoggins JW, MacDuff DA, Imanaka N, Gainey MD, Shrestha B, Eitson JL, Mar KB, Richardson 
+RB, Ratushny AV, Litvak V, et al. Pan-viral specificity of IFN-induced genes reveals new roles 
+for cGAS in innate immunity. Nature. 2014; 505:691–695. [PubMed: 24284630] 
+Simeone R, Bobard A, Lippmann J, Bitter W, Majlessi L, Brosch R, Enninga J. Phagosomal rupture by 
+Mycobacterium tuberculosis results in toxicity and host cell death. PLoS Pathog. 2012; 
+8:e1002507. [PubMed: 22319448] 
+Stamm CE, Collins AC, Shiloh MU. Sensing of Mycobacterium tuberculosis and consequences to both 
+host and bacillus. Immunological reviews. 2015; 264:204–219. [PubMed: 25703561] 
+Stanley SA, Johndrow JE, Manzanillo P, Cox JS. The Type I IFN response to infection with 
+Mycobacterium tuberculosis requires ESX-1-mediated secretion and contributes to pathogenesis. J 
+Immunol. 2007; 178:3143–3152. [PubMed: 17312162] 
+Stetson DB, Medzhitov R. Type I interferons in host defense. Immunity. 2006; 25:373–381. [PubMed: 
+16979569] 
+Sun L, Wu J, Du F, Chen X, Chen ZJ. Cyclic GMP-AMP synthase is a cytosolic DNA sensor that 
+activates the type I interferon pathway. Science. 2013; 339:786–791. [PubMed: 23258413] 
+Teles RM, Graeber TG, Krutzik SR, Montoya D, Schenk M, Lee DJ, Komisopoulou E, Kelly-Scumpia 
+K, Chun R, Iyer SS, et al. Type I interferon suppresses type II interferon-triggered human anti-
+mycobacterial responses. Science. 2013; 339:1448–1453. [PubMed: 23449998] 
+Tobin DM, Roca FJ, Oh SF, McFarland R, Vickery TW, Ray JP, Ko DC, Zou Y, Bang ND, Chau TT, 
+et al. Host genotype-specific therapies can optimize the inflammatory response to mycobacterial 
+infections. Cell. 2012; 148:434–446. [PubMed: 22304914] 
+van der Wel N, Hava D, Houben D, Fluitsma D, van Zon M, Pierson J, Brenner M, Peters PJ. M. 
+tuberculosis and M. leprae translocate from the phagolysosome to the cytosol in myeloid cells. 
+Cell. 2007; 129:1287–1298. [PubMed: 17604718] 
+Collins et al.
+Page 11
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Wassermann R, Gulen MF, Sala C, Perin SG, Lou Y, Rybniker J, Schmid-Burgk JL, Schmidt T, 
+Hornung V, Cole ST, Ablasser A. The ESX-1 secretion system of Mycobacterium tuberculosis 
+differentially regulates cGAS- and inflammasome-dependent intracellular immune responses. Cell 
+Host Microbe. 2015; 17 this issue. 
+Watson RO, Manzanillo PS, Cox JS. Extracellular M. tuberculosis DNA Targets Bacteria for 
+Autophagy by Activating the Host DNA-Sensing Pathway. Cell. 2012; 150:803–815. [PubMed: 
+22901810] 
+Watson RO, Bell SL, MacDuff DA, Kimmey JM, Diner EJ, Olivas J, Vance RE, Stallings CL, Virgin 
+HW, Cox JS. The cytosolic sensor cGAS detects Mycobacterium tuberculosis DNA to induce type 
+I interferons and activate autophagy. Cell Host Microbe. 2015; 17 this issue. 
+Witte CE, Whiteley AT, Burke TP, Sauer JD, Portnoy DA, Woodward JJ. Cyclic di-AMP is critical for 
+Listeria monocytogenes growth, cell wall homeostasis, and establishment of infection. MBio. 
+2013; 4:e00282–e00213. [PubMed: 23716572] 
+Woodward JJ, Iavarone AT, Portnoy DA. c-di-AMP secreted by intracellular Listeria monocytogenes 
+activates a host type I interferon response. Science. 2010; 328:1703–1705. [PubMed: 20508090] 
+Wu J, Sun L, Chen X, Du F, Shi H, Chen C, Chen ZJ. Cyclic GMP-AMP is an endogenous second 
+messenger in innate immune signaling by cytosolic DNA. Science. 2013; 339:826–830. [PubMed: 
+23258412] 
+Yang J, Bai Y, Zhang Y, Gabrielle VD, Jin L, Bai G. Deletion of the cyclic di-AMP phosphodiesterase 
+gene (cnpB) in Mycobacterium tuberculosis leads to reduced virulence in a mouse model of 
+infection. Mol Microbiol. 2014; 93:65–79. [PubMed: 24806618] 
+Collins et al.
+Page 12
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 1. M. tuberculosis infection upregulates cGAS expression in macrophages and human 
+lungs
+A, Quantitative PCR of cGAS in M. tuberculosis infected THP-1 cells. Results are 
+representative of 2 independent experiments. Mean ± S.E.M., *p ≤ 0.05 compared to mock 
+cells by two-way ANOVA with Dunnett’s multiple comparison test. B, Western blot of 
+cGAS in M. tuberculosis infected THP-1 cells 24h after infection. Results are representative 
+of 2 independent experiments. C, D, Confocal microscopy (C) and quantification (D) of 
+cGAS association with mCherry M. tuberculosis in THP-1 cells 24h after infection (Mean ± 
+S.E.M.). Results are representative of >3 independent experiments. Scale bars, 10µm. E, 
+Immunohistochemistry for cGAS in a lung biopsy from a confirmed M. tuberculosis 
+infected individual. Scale bar, 50 µm left, 20 µm right panel. F, Confocal microscopy of 
+cGAS and M. tuberculosis in a lung biopsy as in (D). Scale bars, 5 µm. Arrowheads indicate 
+colocalization.
+Collins et al.
+Page 13
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 2. cGAS is essential for cGAMP production and IFNβ induction by M. tuberculosis
+A, Quantitative PCR for IFNβ in THP-1 cells stably expressing shRNA against GFP 
+(control), STING or cGAS, 4 hours after infection with M. tuberculosis at various 
+multiplicity of infections (MOI). B, C, THP1 cells as in (A) infected at an MOI of 10 and 
+CXCL10 (B) and TNF (C) expression determined by qPCR. Results are representative of >3 
+independent experiments. Mean ± S.E.M., **p ≤ 0.005 by one-way ANOVA with 
+Dunnett’s multiple comparison test. D, BMDMs from WT, STINGgt/gt, cGAS−/− mice were 
+infected with M. tuberculosis for 4 hours at various MOIs, the RNA was isolated to measure 
+Collins et al.
+Page 14
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+IFNβ expression by qPCR. E, F, Samples infected at an MOI of 10 were further analyzed 
+for (b) CXCL-10 and (c) TNF induction. Results are representative of 3 independent 
+experiments. Mean ± S.E.M., **p ≤ 0.005 compared to WT infected cells. G, Time course 
+of cGAMP production during M. tuberculosis infection. WT BMDMs were infected with 
+WT M. tuberculosis or M. tuberculosis ΔEccD and cGAMP levels determined by 
+quantitative mass spectrometry. H, BMDMs from WT, STINGgt/gt, and cGAS−/− mice were 
+infected with WT M. tuberculosis, and cGAMP levels determined at 8 h. Red bars represent 
+isotopically-labeled cGAMP internal standard. Green bars represent biological samples.
+Collins et al.
+Page 15
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 3. Selective autophagy of M. tuberculosis requires cGAS and STING
+A, B, WT, STINGgt/gt, and cGAS−/− BMDM in triplicate on cover slips were placed into 
+starvation medium and 4 hours later fixed and stained for LC3. B, For each cover slip, LC3 
+puncta were counted for 100 cells. Shown is the mean ± S.E.M. of LC3 puncta per cell for 
+each genotype and treatment. C, D, Mouse BMDMs transduced with GFP-LC3 were 
+infected with mCherry-expressing M. tuberculosis and colocalization quantified (Scale bar, 
+3 µm). Shown are mean ± S.E.M. *p ≤ 0.05, **p ≤ 0.005 one-way ANOVA with Dunnett’s 
+test.
+Collins et al.
+Page 16
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 4. cGAS is required for controlling intracellular bacterial replication and protects mice 
+from M. tuberculosis mortality
+A, BMDMs from WT, STINGgt/gt, cGAS−/− mice were infected with M. tuberculosis in 
+triplicate at an MOI of 1. CFU values obtained at day 0 and 24 h after infection. Mean ± 
+S.E.M., *p ≤ 0.05 by one way ANOVA B, C, WT, STINGgt/gt, and cGAS−/− mice were 
+infected with a low dose (200) M. tuberculosis. B, CFU was enumerated in the lungs of 
+infected mice (Mean ± S.E.M., n=5 mice per genotype per time point). C, Infected mice 
+were monitored for survival. Shown is the combined survival from two independent 
+Collins et al.
+Page 17
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+experiments (N=14–18 mice per group). Results from each independent experiment are 
+provided in the supplementary material (Fig. S7). The Gehan-Breslow-Wilcoxon test was 
+performed to determine statistical significance.
+Collins et al.
+Page 18
+Cell Host Microbe. Author manuscript; available in PMC 2016 June 10.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

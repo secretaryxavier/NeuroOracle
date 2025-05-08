@@ -1,0 +1,808 @@
+© 2023 CMA Impact Inc. or its licensors	
+CMAJ OPEN, 11(6)	
+E1181 
+A
+cute ischemic stroke is the most common form of 
+cerebrovascular disease and typically results from 
+the sudden occlusion of a cerebral artery.1 Ischemic 
+stroke remains a leading cause of morbidity and mortality 
+worldwide.2 Early treatment goals are centred around reper-
+fusing the affected brain, which traditionally has been 
+accomplished by intravenous administration of thrombolytic 
+medications within 4.5  hours of stroke onset.3 More 
+recently, endovascular thrombectomy (EVT) has revolution-
+ized the treatment of ischemic stroke. Multiple randomized 
+controlled trials have shown that EVT together with intra-
+venous thrombolytic therapy was superior to intravenous 
+thrombolytic therapy alone in preventing death and disabil-
+ity after ischemic stroke.4–10 It has since been considered 
+standard of care at the comprehensive stroke centres (CSCs) 
+in Alberta, Canada. Endovascular thrombectomy is best per-
+formed within 6 hours of stroke onset, as it reperfuses the 
+ischemic brain and prevents further progression of cell 
+death.11,12 This treatment is resource intensive and is avail-
+able only at CSCs. Several studies using the US National 
+Inpatient Sample database showed an association between 
+geographic markers of socioeconomic status and the odds of 
+being treated with EVT.13–16 However, to our knowledge, 
+this association has not been investigated in the context of 
+Neighbourhood deprivation, distance to nearest 
+comprehensive stroke centre and access to endovascular 
+thrombectomy for ischemic stroke: a population-based study
+Matthew E. Eagles MD MSc, Reed F. Beall PhD, David Ben-Israel MD MSc, John H. Wong MD MSc, 
+Michael D. Hill MD MSc, Eldon Spackman PhD
+Competing interests: See the end of the article.
+This article has been peer reviewed.
+Correspondence to: Matthew Eagles, matthew.eagles@ucalgary.ca
+CMAJ Open 2023 December 19. DOI:10.9778/cmajo.20230046
+Background: Endovascular thrombectomy (EVT) has revolutionized ischemic stroke care. We aimed to assess whether neighbour-
+hood socioeconomic status is predictive of access to EVT after receipt of alteplase for ischemic stroke among patients living in 
+Alberta, Canada, and whether this relation is mediated by the distance a person lives to the nearest comprehensive stroke centre 
+(CSC).
+Methods: We performed a retrospective study including all people older than 18 years living in Alberta who were admitted to hospital 
+with an ischemic stroke and who received intravenous alteplase treatment between Jan. 1, 2017, and Dec. 31, 2019. Data were 
+obtained through administrative data sets. The primary outcome was treatment with EVT. We assigned neighbourhood deprivation 
+quintile based on the Material and Social Deprivation Index. We used logistic regression modelling to assess for a relation between 
+deprivation and treatment with EVT. We adjusted for age, sex, stroke severity and distance to the nearest CSC. We calculated the 
+average causal mediation effect of distance to the nearest CSC on the relation between neighbourhood deprivation level and treat-
+ment with EVT.
+Results: The study cohort consisted of 1335 patients, of whom 181 (13.6%) had missing data and were excluded from the main 
+regression analysis. Endovascular thrombectomy was performed or attempted in 314 patients (23.5%). In the primary model, patients 
+from the most deprived neighbourhoods were less likely than those from less deprived neighbourhoods to have received EVT (adjusted 
+odds ratio 0.43, 95% confidence interval 0.24 to 0.77). Neighbourhood deprivation level was not significantly associated with EVT when 
+distance to the nearest CSC was included as a covariate. Mediation analysis suggested that 48% of the total effect that neighbourhood 
+deprivation level had on the odds of receiving EVT was attributable to the distance a person lived from the nearest CSC.
+Interpretation: The results suggest that people from more deprived neighbourhoods in Alberta were less likely to be treated with 
+EVT than those from less deprived neighbourhoods. Improving access to EVT for people living in remote locations may improve the 
+equitable distribution of this treatment.
+Abstract
+Research
+
+Research
+E1182	
+CMAJ OPEN, 11(6)	
+Canada’s health care system. Unlike the United States, Can-
+ada has a publicly funded health care system that ensures 
+Canadians access to medically necessary hospital and phys­
+ician services without paying out of pocket, which eliminates 
+a ﬁnancial barrier to accessing health care.
+The objective of this work was to assess whether neigh-
+bourhood socioeconomic status is predictive of access to EVT 
+after receipt of alteplase for ischemic stroke among patients 
+living in Alberta. A secondary aim was to assess whether any 
+discrepancy in the odds of receiving EVT is mediated by the 
+distance a person lives from the nearest CSC.
+Methods
+Setting
+This study was performed in Alberta, which has a population 
+of more than 4 million people.17 Endovascular thrombectomy 
+is performed only at the 2 CSCs: the University of Alberta 
+Hospital, in Edmonton, and Foothills Medical Centre, in Cal-
+gary. The province has a single public health care provider, 
+Alberta Health Services.
+Data and population
+We performed a retrospective analysis of the Quality 
+Improvement & Clinical Research database, a prospective 
+data set established in 2015 that is maintained by the Car-
+diovascular and Stroke Strategic Clinical Network at 
+Alberta Health Services.18 The database includes informa-
+tion for all patients treated with intravenous thrombolysis 
+or endovascular thrombectomy, or both, for ischemic stroke 
+in Alberta. We included all people older than 18 years liv-
+ing in Alberta who were admitted to hospital with an isch-
+emic stroke and who received intravenous alteplase treat-
+ment between Jan. 1, 2017, and Dec. 31, 2019. Patients’ 
+clinical and demographic characteristics were extracted 
+from the Quality Improvement & Clinical Research data-
+base and Alberta Health Services Data and Analytics (for-
+merly Data Integration, Measurement and Reporting) 
+administrative databases.19 Case linkage was done through 
+medical record numbers, which were consistent across both 
+data sets. Database extraction and linkage were performed 
+by one of the authors (D.B.-I.). Postal codes were obtained 
+from the Data and Analytics database.
+Independent variable of interest
+In Canada, the most widely used measure of neighbourhood 
+socioeconomic status is the Material and Social Deprivation 
+Index, an area-based metric for assessing material and social 
+deprivation.20,21 Scores are based on the smallest geographic 
+unit collected in the Canadian census, the dissemination 
+area.22 Although the Material and Social Deprivation Index 
+was initially created for the province of Quebec alone, it has 
+since been expanded to cover the whole of Canada and has 
+been shown to have an association with death after stroke.23,24
+We linked patient home address postal codes to the federal 
+census dissemination areas in Alberta.25 We assigned a 
+Material and Social Deprivation Index score to each dissemi-
+nation area using an established deprivation index (Pampalon 
+index)26 that has been validated for use across Canada.27 For 
+both material and social deprivation, scores are grouped into 
+quintiles ranging from 1 (least deprived) to 5 (most deprived). 
+We combined material and social deprivation quintiles based 
+on the method suggested by Gamache and colleagues26 to 
+create an overall measure of socioeconomic deprivation for 
+use in the statistical analyses (Figure 1).
+Outcome of interest
+The primary outcome of interest was the odds of being 
+treated with EVT after receiving intravenous alteplase treat-
+ment for ischemic stroke. All patients in whom EVT was 
+attempted were deemed to have been treated with EVT, 
+regardless of whether the vessel was opened successfully with 
+the intervention.
+The total effect of neighbourhood socioeconomic status on 
+the odds of receiving EVT can be divided into a direct effect 
+(the effect of neighbourhood socioeconomic status on our 
+outcome of interest) and an indirect effect (the proportion of 
+the direct effect attributable to a third variable, in this case, 
+distance to the nearest CSC). The indirect effect is termed the 
+average causal mediation effect. We analyzed whether the 
+relation between treatment with EVT and neighbourhood 
+socioeconomic status was mediated by the distance a person 
+lives from a CSC according to the steps outlined by Baron 
+and Kenny.28 To isolate the mediated effect of distance on this 
+relation, we included an abbreviated model in our mediation 
+analysis with distance to the nearest CSC as the only covari-
+ate. The mediation model investigated the discrepancy in the 
+odds of receiving EVT between the most and least deprived 
+neighbourhoods in Alberta.
+We examined the home address postal code for all patients 
+in the data set to ensure they were residents of Alberta. We 
+calculated the distance, in kilometres, from the centre of each 
+postal code to the nearest CSC in Alberta (University of 
+Alberta Hospital or Foothills Medical Centre) using ArcGIS 
+Pro (Esri) for geocoding and the NAD83 / UTM zone 11 map 
+projection (Esri). We examined the relation between distance 
+to the nearest CSC and neighbourhood deprivation using the 
+Kruskal–Wallis test.
+Statistical analysis
+We used descriptive statistics to examine the baseline charac-
+teristics of the study cohort. We assessed continuous variables 
+for an association with the outcome of interest using the 
+Student t  test and categoric variables using the Pearson 
+χ2 test. To assess the relation between our independent vari-
+ables of interest and our primary outcome, we performed a 
+χ2 test and ﬁt 3 multiple logistic regression models. All covari-
+ates for the model were selected a priori based on clinical 
+relevance. In the ﬁrst model, we included age, sex and pre-
+alteplase National Institutes of Health Stroke Scale score as 
+covariates. The National Institutes of Health Stroke Scale 
+score is a numerical marker of stroke severity, with higher 
+numbers indicating a more severe stroke.29 In a secondary 
+model, we included distance to the nearest CSC as a covariate.
+
+Research
+	
+CMAJ OPEN, 11(6)	
+E1183 
+We also included age and distance to the nearest CSC as 
+potential effect modiﬁers using interaction terms and tested 
+them for signiﬁcant effect modiﬁcation using the Wald test. 
+Last, we performed a formal mediation analysis using the 
+mediate function of the R package mediation (R Foundation 
+for Statistical Computing).30 We calculated the average causal 
+mediation effect of distance to the nearest CSC on the odds of 
+being treated with EVT between people from the most 
+deprived and least deprived neighbourhoods in Alberta. The 
+mediation analysis was based on our logistic regression 
+models. The mediation package requires prespeciﬁed investi-
+gational and control groups. Because people from the most 
+deprived neighbourhoods had the lowest proportion of 
+patients treated with EVT, they were considered the investi-
+gational group. Those from the least deprived neighbour-
+hoods were designated the control group. We used a boot-
+strapping method with 500 simulations. We performed all 
+modelling using a complete case analysis; however, to ensure 
+there was no selection bias in treatment with EVT for people 
+for whom deprivation quintile was missing, we performed a 
+sensitivity analysis that included people with missing data as a 
+separate group.
+Statistical signiﬁcance was set at p = 0.05. We performed 
+all statistical analyses using R (R Foundation for Statistical 
+Computing).
+Ethics approval
+This study received ethics approval from the University of 
+Calgary Conjoint Health Research Ethics Board.
+Results
+A total of 1400 people experienced an ischemic stroke and 
+received intravenous alteplase treatment in Alberta between 
+Jan. 1, 2017, and Dec. 31, 2019. Of the 1400, 65 were not 
+resi­dents of Alberta and were excluded from the analysis, leav-
+ing 1335 patients, of whom 181 (13.6%) had missing data and 
+were excluded from the main regression analysis. Endovascu-
+lar thrombectomy was attempted in 314 (23.5%) of the 
+1335 patients; the proportions for quintiles 1, 2, 3, 4 and 5 
+were 26.8%, 24.7%, 26.3%, 25.0% and 16.2%, respectively. 
+The baseline and clinical characteristics of the study cohort 
+are presented in Table 1.
+Distance to nearest comprehensive stroke centre 
+and deprivation level
+The median distance to the nearest CSC was signiﬁcantly 
+greater for patients from the most deprived neighbourhoods 
+than for those from the least deprived neighbourhoods 
+(74.1 km [interquartile range 166.0 km] v. 17.4 km [interquar-
+tile range 23.4 km]) (p = 0.002) (Figure 2).
+Endovascular thrombectomy and deprivation level
+Bivariate logistic regression showed a statistically signiﬁcant 
+relation between being in the most deprived quintile and 
+being treated with EVT (p = 0.04) (Table 2). The unadjusted 
+odds ratio (OR) for patients from the most deprived com-
+pared to the least deprived areas was 0.53 (95% conﬁdence 
+interval [CI] 0.32 to 0.87). We did not observe any evidence 
+Most privileged
+Most deprived
+Social
+Total material
+deprivation
+Q1
+Q2
+Q3
+Q4
+Q5
+Material
+Most privileged
+Most deprived
+Q1
+C1
+C1
+C2
+C3
+C3
+Q2
+C1
+C1
+C2
+C3
+C3
+Q3
+C2
+C2
+C2
+C3
+C3
+Q4
+C4
+C4
+C4
+C5
+C5
+Q5
+C4
+C4
+C4
+C5
+C5
+C1
+C2
+C3
+C4
+C5
+20%
+20%
+20%
+20%
+20%
+Total
+social
+deprivation
+20%
+20%
+20%
+20%
+20%
+100%
+Materially and socially privileged DA
+DA with average material and social deprivation
+Materially privileged but socially deprived DA
+Socially privileged but materially deprived DA
+Materially and socially deprived DA
+Figure 1: Combination of material and social deprivation quintiles (Qs) to create a 5-group ordinal variable. Reproduced from Gamache et al.26 
+with permission. Note: DA = dissemination area.
+
+Research
+E1184	
+CMAJ OPEN, 11(6)	
+of significant effect modification (p > 0.05). As such, the 
+regression models did not contain any interaction terms. In 
+the primary logistic regression model, patients from the most 
+deprived neighbourhoods were signiﬁcantly less likely to be 
+treated with EVT than those from the least deprived neigh-
+bourhoods (OR 0.43, 95% CI 0.24 to 0.77) (Table 2). The 
+predicted proportion of patients who would receive EVT 
+decreased with increasing distance to the nearest CSC, 
+regardless of neighbourhood deprivation quintile (Figure 3). 
+In the secondary model, neighbourhood deprivation quintile 
+was not signiﬁcantly associated with the odds of receiving 
+EVT, although there was a significant inverse relation 
+between the distance to the nearest CSC and the odds of 
+receiving EVT (Table 2).
+Mediation analysis
+The average causal mediation effect of distance to the nearest 
+CSC on the odds of being treated with EVT, between 
+patients from the most deprived neighbourhoods and those 
+from the least deprived neighbourhoods, was –0.06 (95% CI 
+–0.08 to –0.03). This represents 48% of the effect living in the 
+most deprived neighbourhood compared to the least deprived 
+neighbourhood had on being treated with EVT (total effect = 
+–0.11, 95% CI –0.20 to –0.03).
+Sensitivity analysis
+There was no signiﬁcant relation between missing deprivation 
+quintile and the odds of receiving EVT (OR 0.79, 95% CI 
+0.47 to 1.33).
+Interpretation
+The results of our unadjusted analysis suggest that people 
+who live in the most socioeconomically deprived areas of 
+Alberta may be less likely to be treated with EVT after receiv-
+ing alteplase for ischemic stroke than people who live in the 
+least deprived areas of the province. However, our secondary 
+model and mediation analysis showed that the distance a per-
+son lived from the nearest CSC accounted for much of this 
+discrepancy. These ﬁndings suggest that health care providers 
+are not systematically excluding patients from the most 
+deprived neighbourhoods from this novel treatment, which is 
+encouraging. Nonetheless, disparities may persist. The most 
+deprived neighbourhoods tend to be farther away from CSCs 
+than areas with lower deprivation levels. As such, it may take 
+longer for patients from the most deprived parts of Alberta to 
+get to an EVT-capable centre, thereby decreasing the odds 
+they will be treated with EVT after an ischemic stroke. Ulti-
+mately, these ﬁndings highlight the challenges of ensuring 
+equitable distribution of time-sensitive interventions to geo-
+graphically isolated populations.
+Before the advent of EVT, the best way of reperfusing 
+ischemic brain during a stroke was thrombolysis with intra­
+venously administered alteplase.3,31 This remained the stan-
+dard of care until 2015, when several clinical trials that 
+showed EVT in addition to alteplase was superior to alteplase 
+alone for treatment of ischemic stroke due to large-vessel 
+occlusion in the anterior circulation.4–8 However, there are 
+limited data on whether the benefits from this treatment 
+advance have been equitably distributed along socioeconomic 
+lines. Two US papers published in 2014, one looking at 2006–
+2010 and the other looking at only 2008, used data from the 
+Table 1: Baseline and clinical characteristics of the study 
+cohort
+Characteristic
+No. (%) of patients*
+Total 
+n = 1335
+Complete case 
+analysis 
+n = 1154
+Age, median (IQR), yr
+72 (21)
+72 (20)
+Male sex
+731 (54.8)
+644 (55.8)
+Pre-alteplase NIHSS score, 
+median (IQR)
+9 (11)
+9 (11)
+Distance to nearest CSC, 
+median (IQR), km
+23 (128)
+21 (126)
+Deprivation quintile
+    1 (least deprived)
+157 (11.8)
+156 (13.5)
+    2
+251 (18.8)
+247 (21.4)
+    3
+308 (23.1)
+300 (26.0)
+    4
+220 (16.5)
+212 (18.4)
+    5 (most deprived)
+247 (18.5)
+241 (20.8)
+    Missing
+152 (11.4)
+0 (0.0)
+EVT attempted
+314 (23.5)
+276 (23.9)
+Note: CSC = comprehensive stroke centre, EVT = endovascular thrombectomy, 
+IQR = interquartile range, NIHSS = National Institutes of Health Stroke Scale.
+*Except where noted otherwise.
+Distance to nearest CSC, km
+500.00
+200.00
+100.00
+50.00
+20.00
+10.00
+5.00
+1.00
+0.25
+1
+2
+3
+4
+5
+Deprivation level
+Figure 2: Box plot showing relation between socioeconomic depriva-
+tion level and log-transformed distance to the nearest comprehensive 
+stroke centre (CSC). Distance log was transformed for graphical pur-
+poses to better illustrate differences. Level  1 = least deprived, 
+level 5 = most deprived.
+
+Research
+	
+CMAJ OPEN, 11(6)	
+E1185 
+National Inpatient Sample database to assess the relation 
+between socio­economic status and treatment with EVT.13,14 
+Both studies showed a statistically signiﬁcant difference in the 
+odds of being treated with EVT for patients living in areas 
+with the lowest median income; however, both papers used 
+data collected before EVT was considered the standard of 
+care. More recently, de Havenon and colleagues15 and Mehta 
+and colleagues16 also used the National Inpatient Sample 
+database to investigate the relation between socioeconomic 
+status and treatment with EVT; both teams found that 
+patients with low socioeconomic status were less likely to be 
+treated with EVT than patients with higher socioeconomic 
+status. Neither group restricted their cohort to patients who 
+received alteplase for their ischemic stroke. Although 
+de Havenon and colleagues15 controlled for whether patients 
+lived in an urban or rural area, neither group controlled for 
+the distance a person lived to the nearest CSC.
+To our knowledge, no study has investigated the relation 
+between neighbourhood socioeconomic status and receipt of 
+EVT after alteplase administration for ischemic stroke in Can-
+ada. We included only patients who were treated with 
+alteplase, which was the previous standard of care. Nonethe-
+less, our results are notable for suggesting that some of the dis-
+parity in access to acute stroke intervention between the most 
+and least deprived areas in Alberta is explained by the fact that 
+socioeconomically deprived people tend to live farther from 
+CSCs than people who are less deprived.
+The results of our mediation analysis suggest that the dis-
+crepancy in access to EVT based on neighbourhood depri-
+vation level is mediated by the distance a person lives to the 
+nearest CSC. Although provinces in Canada are responsible 
+for providing health care to all residents, the reality is more 
+complicated. In a recent review of Canada’s health care 
+system, Marchildon and colleagues32 argued that, despite 
+publicly funded health care, people living in rural and 
+remote areas have less access to hospitals and other centres 
+where they can access health care than those from urban and 
+suburban areas. There is also a lower density of health care 
+providers in rural and remote areas. This is of particular rel-
+evance for time-sensitive interventions such as EVT for 
+ischemic stroke.11,12 A recent US study suggested that people 
+living in rural areas are less likely than those from urban 
+areas to be brought to an EVT-capable centre after an 
+ischemic stroke, and this signiﬁcantly decreases the odds that 
+they will receive treatment with EVT, regardless of the facil-
+ity’s transfer capability.33 It is not surprising that people who 
+live far from CSCs in Alberta are also less likely to receive 
+Predicted proportion of
+patients receiving EVT
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+0
+100
+200
+300
+400
+Distance to nearest CSC, km
+Deprivation
+level
+1
+2
+3
+4
+5
+Figure 3: Logistic regression lines of best fit showing the predicted 
+proportion of patients who would receive endovascular thrombectomy 
+(EVT) based on the distance they lived from the nearest comprehen-
+sive stroke centre (CSC), stratified by deprivation level. Each line rep-
+resents a separate within-deprivation-level logistic regression model.
+Table 2: Regression analysis of odds of being treated with endovascular thrombectomy
+Variable
+Bivariate model, unadjusted OR 
+(95% CI)
+Primary model, adjusted OR 
+(95% CI)*
+Secondary model, adjusted OR 
+(95% CI)
+Deprivation quintile
+    1 (least deprived)
+Reference
+Reference
+Reference
+    2
+0.89 (0.56 to 1.41)
+0.89 (0.52 to 1.53)
+1.07 (0.62 to 1.88)
+    3
+1.00 (0.65 to 1.56)
+0.96 (0.58 to 1.62)
+1.02 (0.60 to 1.74)
+    4
+0.90 (0.56 to 1.43)
+0.75 (0.43 to 1.32)
+0.86 (0.48 to 1.54)
+    5 (most deprived)
+0.53 (0.32 to 0.87)
+0.43 (0.24 to 0.77)
+0.60 (0.33 to 1.10)
+Age
+NA
+0.98 (0.97 to 0.99)
+0.98 (0.97 to 0.99)
+Male sex
+NA
+1.03 (0.75 to 1.43)
+0.99 (0.70 to 1.39)
+Pre-alteplase NIHSS score
+NA
+1.20 (1.17 to 1.23)
+1.22 (1.19 to 1.25)
+Distance to nearest CSC
+NA
+NA
+0.99 (0.99 to 0.99)
+Note: CI = confidence interval, CSC = comprehensive stroke centre, NA = not applicable, NIHSS = National Institutes of Health Stroke Scale, OR = odds ratio.
+*Adjusted for age, sex and stroke severity.
+†Adjusted for age, sex, stroke severity and distance to the nearest CSC.
+
+Research
+E1186	
+CMAJ OPEN, 11(6)	
+EVT than people who live closer to such centres, given that 
+EVT is a time-sensitive intervention. We found that patients 
+from the most deprived neighbourhoods were signiﬁcantly 
+more likely to live farther from the nearest CSC than 
+patients from less deprived areas. As such, it appears that the 
+relation between access to EVT and living in more deprived 
+areas is mediated by the distance to EVT-capable centres. 
+This problem is not easy for Canadian policy-makers — who 
+are tasked with providing quality health care to a geographi-
+cally dispersed population — to solve. However, our ﬁnd-
+ings suggest that improving access to EVT for people in 
+more remote locations would have the additional beneﬁt of 
+ensuring more equitable access to this treatment for those 
+living in more deprived areas. Other investigators have 
+sought to expand the treatment window for EVT based on 
+certain imaging characteristics,9,10 which may improve equity 
+in access to this treatment.
+Health care practitioners in remote areas may seek avenues 
+of expediting transfer of potential EVT recipients. Remote 
+robotic EVT is an evolving technology that may offer a means 
+of treating patients from rural areas with EVT before trans-
+port, thereby mitigating the effect of distance to a CSC on the 
+likelihood of receiving EVT.34
+Future work should attempt to replicate our ﬁndings with-
+out limiting the study cohort to people treated with alteplase. 
+Furthermore, researchers should investigate whether people 
+from areas with low socioeconomic status experience worse 
+outcomes and have longer times to treatment than those from 
+areas with high socioeconomic status. We did not assess the 
+cost-effectiveness of changes that might result in more equit­
+able distribution of EVT based on neighbourhood socio­
+economic deprivation and the distance people live from the 
+nearest CSC. As such, future researchers may wish to perform 
+a distributional cost-effectiveness analysis that accounts for 
+improved equity and the ﬁnite resources of Alberta’s health 
+care system.
+Limitations
+Our cohort was restricted to patients who received alteplase as 
+treatment for their ischemic stroke, which excluded any per-
+son who presented outside the window for intravenous 
+thrombolysis. This may have systematically excluded people 
+of low socioeconomic status if they were more likely to pres-
+ent outside the treatment window for alteplase. However, this 
+allowed us to compare for whether any pre-existing disparities 
+in access to acute stroke care were widened by the advent of 
+EVT. Second, our independent variable of interest was 
+neighbourhood-level socioeconomic status, which may not be 
+reﬂective of a person’s socioeconomic status. Although neigh-
+bourhood socioeconomic status is associated with health out-
+comes, it raises the possibility of the ecological fallacy.35,36 
+Furthermore, we included distance from a patient’s postal 
+code to the nearest CSC in our logistic regression model. 
+Given that not all strokes occur at home, this may have intro-
+duced a source of error into our analysis. Nonetheless, we felt 
+that these were appropriate decisions given the limitations of 
+administrative data, as no more detailed data were readily 
+available. Last, our data set did not contain a variable for eth-
+nicity, which may play a confounding role in the relation 
+between neighbourhood socioeconomic status and treatment 
+decisions.37 However, previous work using the Pampalon 
+index has shown the index to be predictive of adverse health 
+outcomes even after race is accounted for.38
+Conclusion
+We found a signiﬁcant difference in the odds of receiving EVT 
+in Alberta after intravenous alteplase treatment for an ischemic 
+stroke based on neighbourhood socioeconomic status. Patients 
+in neighbourhoods with the lowest socioeconomic status 
+tended to live farther from the nearest CSC than patients from 
+less deprived neighbourhoods. Our results suggest that a key 
+avenue for improving the equitable distribution of EVT is to 
+improve access for people who live outside large urban centres. 
+Health care organizations may look to expand access to EVT 
+where adequate numbers of procedures can be assured to 
+maintain quality. Although this would require some resource 
+mobilization, it would increase the equality of access to this 
+disability-saving and, in some cases, life-saving procedure.
+References
+  1.	 van der Worp HB, van Gijn J. Acute ischemic stroke. N Engl J Med 2007;​
+357:​572-9.
+  2.	 Lopez AD, Mathers CD, Ezzati M, et al. Global and regional burden of disease 
+and risk factors, 2001: systematic analysis of population health data. Lancet 
+2006;367:1747-57.
+  3.	 Emberson J, Lees KR, Lyden P, et al.; Stroke Thrombolysis Trialists’ Collab-
+orative Group. Effect of treatment delay, age, and stroke severity on the effects 
+of intravenous thrombolysis with alteplase for acute ischaemic stroke: a meta-
+analysis of individual patient data from randomised trials. Lancet 2014;384:​
+1929-35.
+  4.	 Berkhemer OA, Fransen PSS, Beumer D, et al.; MR CLEAN Investigators. A 
+randomized trial of intraarterial treatment for acute ischemic strwoke. N Engl J 
+Med 2015;372:11-20.
+  5.	 Campbell BCV, Mitchell PJ, Kleinig TJ, et al.; EXTEND-IA Investigators. 
+Endovascular therapy for ischemic stroke with perfusion-imaging selection. N 
+Engl J Med 2015;372:1009-18.
+  6.	 Goyal M, Demchuk AM, Menon BK, et al.; ESCAPE Trial Investigators. Ran-
+domized assessment of rapid endovascular treatment of ischemic stroke. N Engl 
+J Med 2015;372:1019-30.
+  7.	 Jovin TG, Chamorro A, Cobo E, et al.; REVASCAT Trial Investigators. 
+Thrombectomy within 8 hours after symptom onset in ischemic stroke. N Engl 
+J Med 2015;372:2296-306.
+  8.	 Saver JL, Goyal M, Bonafe A, et al.; SWIFT PRIME Investigators. Stent-
+retriever thrombectomy after intravenous t-PA vs. t-PA alone in stroke. N Engl 
+J Med 2015;372:2285-95.
+  9.	 Albers GW, Marks MP, Kemp S, et al.; DEFUSE 3 Investigators. Thrombec-
+tomy for stroke at 6 to 16 hours with selection by perfusion imaging. N Engl J 
+Med 2018;378:708-18.
+10.	 Nogueira RG, Jadhav AP, Haussen DC, et al.; DAWN Trial Investigators. 
+Thrombectomy 6 to 24 hours after stroke with a mismatch between deﬁcit and 
+infarct. N Engl J Med 2018;378:11-21.
+11.	 Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the early man-
+agement of patients with acute ischemic stroke: 2019 update to the 2018 guide-
+lines for the early management of acute ischemic stroke: a guideline for health-
+care professionals from the American Heart Association/American Stroke 
+Association. Stroke 2019;50:e344-418.
+12.	 Boulanger JM, Lindsay MP, Gubitz G, et al. Canadian stroke best practice 
+recommendations for acute stroke management: prehospital, emergency 
+department, and acute inpatient stroke care, 6th edition, update 2018. Int J 
+Stroke 2018;13:949-84.
+13.	 Brinjikji W, Rabinstein AA, Cloft HJ. Socioeconomic disparities in the utiliza-
+tion of mechanical thrombectomy for acute ischemic stroke. J Stroke Cerebro-
+vasc Dis 2014;23:979-84.
+14.	 Attenello FJ, Adamczyk P, Wen G, et al. Racial and socioeconomic disparities 
+in access to mechanical revascularization procedures for acute ischemic stroke. 
+J Stroke Cerebrovasc Dis 2014;23:327-34.
+15.	 de Havenon A, Sheth K, Johnston KC, et al. Acute ischemic stroke interven-
+tions in the United States and racial, socioeconomic, and geographic dispari-
+ties. Neurology 2021;97:e2292-303.
+
+Research
+	
+CMAJ OPEN, 11(6)	
+E1187 
+16.	 Mehta AM, Fiﬁ JT, Shoirah H, et al. Racial and socioeconomic disparities in 
+the use and outcomes of endovascular thrombectomy for acute ischemic stroke. 
+AJNR Am J Neuroradiol 2021;42:1576-83.
+17.	 Statistics Canada. Census profile, 2021 census. Available: https://www12.
+statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic
+=1&dguid=2021A000248. (accessed 2023 Dec 3).
+18.	 Quality improvement & clinical research: Alberta Stroke Program. Calgary: 
+University of Calgary. Available: https://cumming.ucalgary.ca/research/quicr/
+home (accessed 2022 Mar. 7).
+19.	 Data and Analytics. Edmonton: Alberta Health Services. Available: https://www.​
+albertahealthservices.ca/ﬁndhealth/service.aspx?Id=1661&facilityId=1005258 
+(accessed 2022 Mar. 7).
+20.	 Poirier MJP, Wilson MG. Identifying how area-based socio-economic indicators are 
+measured in Canada. Hamilton (ON): McMaster Health Forum; 2019.
+21.	 Pampalon R, Raymond G. A deprivation index for health and welfare planning 
+in Quebec. Chronic Dis Can 2000;21:104-13.
+22.	 Dissemination area (DA). Ottawa: Statistics Canada; 2016, modiﬁed 2019 
+Jan. 3. Available: https://www12.statcan.gc.ca/census-recensement/2016/ref/
+dict/geo021-eng.cfm (accessed 2022 Apr. 27).
+23.	 Pampalon R, Hamel D, Gamache P, et al. An area-based material and social 
+deprivation index for public health in Québec and Canada. Can J Public Health 
+2012;103(Suppl 2):S17-22.
+24.	 Martinez J, Pampalon R, Hamel D. Deprivation and stroke mortality in 
+Quebec. Chronic Dis Can 2003;24:57-64.
+25.	 Postal CodeOM Conversion File. Ottawa: Statistics Canada; modiﬁed 2023 
+Oct. 31. Available: https://www150.statcan.gc.ca/n1/en/catalogue/92-154-X 
+(accessed 2021 Sept. 29).
+26.	 Gamache P, Hamel D, Blaser C. Material and social deprivation index: a summary 
+— overview of the methodology. Québec: Institut national de santé publique du 
+Québec; 2019. Available: https://www.inspq.qc.ca/en/publications/2639 
+(accessed 2021 Sept. 1).
+27.	 Pampalon R, Hamel D, Gamache P, et al. A deprivation index for health plan-
+ning in Canada. Chronic Dis Can 2009;29:178-91.
+28.	 Baron RM, Kenny DA. The moderator–mediator variable distinction in social 
+psychological research: conceptual, strategic, and statistical considerations. J 
+Pers Soc Psychol 1986;51:1173-82.
+29.	 Brott T, Adams HP Jr, Olinger CP, et al. Measurements of acute cerebral 
+infarction: a clinical examination scale. Stroke 1989;20:864-70.
+30.	 Tingley D, Yamamoto T, Hirose K, et al. mediation: R package for causal 
+mediation analysis. J Stat Softw 2014;59:1-38.
+31.	 National Institute of Neurological Disorders and Stroke rt-PA Stroke Study 
+Group. Tissue plasminogen activator for acute ischemic stroke. N Engl J Med 
+1995;333:1581-7.
+32.	 Marchildon GP, Allin S, Merkur S. Canada: health system review. Health Syst 
+Transit 2020;22(3):1-194.
+33.	 Kamel H, Parikh NS, Chatterjee A, et al. Access to mechanical thrombectomy 
+for ischemic stroke in the United States. Stroke 2021;52:2554-61.
+34.	 Singer J, VanOosterhout S, Madder R. Remote robotic endovascular throm-
+bectomy for acute ischaemic stroke. BMJ Neurol Open 2021;3:e000141.
+35.	 Sedgwick P. Ecological studies: advantages and disadvantages. BMJ 2014;348:​
+g2979.
+36.	 Pampalon R, Hamel D, Gamache P. A comparison of individual and area-
+based socio-economic data for monitoring social inequalities in health. Health 
+Rep 2009;20:85-94.
+37.	 Sheriff F, Xu H, Maud A, et al. Temporal trends in racial and ethnic disparities 
+in endovascular therapy in acute ischemic stroke. J Am Heart Assoc 2022;11:​
+e023212.
+38.	 Pampalon R, Hamel D, Gamache P. Health inequalities, deprivation, immigra-
+tion and Aboriginality in Canada: a geographic perspective. Can J Public Health 
+2010;101:470-4.
+Competing interests: Michael Hill reports grants from Boehringer-
+Ingelheim to the University of Calgary for the TEMPO-2 and ACT-
+GLOBAL trials; from Biogen to the University of Calgary; from NoNO 
+to the University of Calgary for the ESCAPE-NA1 and ESCAPE-NEXT 
+trials; from the Canadian Institutes of Health Research to the University 
+of Calgary for the ESCAPE-NA1 and ESCAPE-NEXT trials; from 
+Medtronic to the University of Calgary for the HERMES collaboration; 
+and from Alberta Innovates to the University of Calgary for the QuICR 
+Alberta Stroke Program (some of the funds were used for the ESCAPE-
+NA1 trial). He has received consulting fees from Sun Pharmaceutical 
+Industries and BrainsGate for adjudication of clinical trial outcomes. He 
+reports US Patents 62/086,077 and 10,916,346, both licensed to Circle 
+Neurovascular Imaging. He has been chair of the Data and Safety Moni-
+toring Committee for the RACECAT trial (end 2020), the Oncovir 
+Hiltonol trial (end 2023) and the DUMAS trial (end 2023). He is a mem-
+ber of the Data and Safety Monitoring Board for the ARTESIA trial (end 
+2023) and the BRAIN-AF trial (ongoing). He is president of the 
+Canadian Neurological Sciences Federation and a member of the board 
+of directors of the Canadian Stroke Consortium. He holds private stock 
+in Circle Cardiovascular Imaging and PureWeb. No other competing 
+interests were declared.
+Afﬁliations: Department of Clinical Neurosciences (Eagles, Ben-Israel, 
+Wong, Hill), Hotchkiss Brain Institute, Cumming School of Medicine, 
+University of Calgary; Department of Community Health Sciences 
+(Eagles, Beall, Ben-Israel, Hill, Spackman), Cumming School of Medi-
+cine and O’Brien Institute for Public Health, University of Calgary, 
+Calgary, Alta.
+Contributors: Matthew Eagles, Reed Beall and Eldon Spackman con-
+ceived the study and drafted the manuscript, with contributions from 
+Michael Hill and John Wong. Matthew Eagles, Reed Beall and Eldon 
+Spackman designed the study. Matthew Eagles, Reed Beall and Eldon 
+Spackman acquired the data, with contributions from David Ben-Israel. 
+Matthew Eagles, Reed Beall and Eldon Spackman analyzed the data, with 
+contributions from David Ben-Israel, Michael Hill and John Wong. All 
+authors interpreted the data, revised the manuscript critically for import­
+ant intellectual content, approved the ﬁnal version to be published and 
+agreed to be accountable for all aspects of the work.
+Funding: Matthew Eagles received funding through the Canadian Insti-
+tutes of Health Research Canada Graduate Scholarship — Master’s 
+Award.
+Content licence: This is an Open Access article distributed in accordance 
+with the terms of the Creative Commons Attribution (CC BY-NC-ND 
+4.0) licence, which permits use, distribution and reproduction in any 
+medium, provided that the original publication is properly cited, the use is 
+noncommercial (i.e., research or educational use), and no modiﬁcations or 
+adaptations are made. See: https://creativecommons.org/licenses/by-nc​
+-nd/4.0/
+Data sharing: These data were obtained through the Alberta Stroke Pro-
+gram’s Quality Improvement in Clinical Research Database and Alberta 
+Health Services. They are not freely available. Any interested person 
+should contact these sources for data availability.
+Acknowledgements: The authors extend sincere thanks to Paul R. Pival 
+and Renna Truong at the University of Calgary libraries for their assis-
+tance in cleaning and organizing the geographic data.
+Supplemental information: For reviewer comments and the original 
+submission of this manuscript, please see www.cmajopen.ca/content/11/​
+6/E1181/suppl/DC1.

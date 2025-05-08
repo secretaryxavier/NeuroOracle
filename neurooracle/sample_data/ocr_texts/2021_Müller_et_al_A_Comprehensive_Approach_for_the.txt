@@ -1,0 +1,1267 @@
+diagnostics
+Article
+A Comprehensive Approach for the Diagnosis of Primary
+Ciliary Dyskinesia—Experiences from the First 100 Patients of
+the PCD-UNIBE Diagnostic Center
+Loretta Müller 1,2,*
+, Sibel T. Savas 1,2, Stefan A. Tschanz 3,*
+, Andrea Stokes 1,2, Anaïs Escher 1,2,
+Mirjam Nussbaumer 1,2, Marina Bullo 1,2, Claudia E. Kuehni 1,4
+, Sylvain Blanchon 5
+, Andreas Jung 6,
+Nicolas Regamey 7, Beat Haenni 3, Martin Schneiter 3,8, Jonas Ingold 3, Elisabeth Kieninger 1,2
+,
+Carmen Casaulta 1,2, Philipp Latzin 1,2
+and on behalf of the Swiss PCD Research Group †
+
+
+Citation: Müller, L.; Savas, S.T.;
+Tschanz, S.A.; Stokes, A.; Escher, A.;
+Nussbaumer, M.; Bullo, M.; Kuehni,
+C.E.; Blanchon, S.; Jung, A.; et al.
+A Comprehensive Approach for the
+Diagnosis of Primary Ciliary
+Dyskinesia—Experiences from the
+First 100 Patients of the PCD-UNIBE
+Diagnostic Center. Diagnostics 2021,
+11, 1540. https://doi.org/10.3390/
+diagnostics11091540
+Academic Editor: Thomas Burgoyne
+Received: 16 July 2021
+Accepted: 17 August 2021
+Published: 25 August 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+1
+Division of Paediatric Respiratory Medicine and Allergology, Department of Paediatrics, Inselspital,
+Bern University Hospital, University of Bern, 3010 Bern, Switzerland;
+sibel.t.savas@med.uni-giessen.de (S.T.S.); Andrea.stokes@insel.ch (A.S.);
+anaisestelle.escher@insel.ch (A.E.); mirjam.nussbaumer@gmx.ch (M.N.);
+marina.bullo@insel.ch (M.B.); claudia.kuehni@ispm.unibe.ch (C.E.K.);
+elisabeth.kieninger@insel.ch (E.K.); carmen.casaulta@insel.ch (C.C.); philipp.latzin@insel.ch (P.L.)
+2
+Department of BioMedical Research (DBMR), University of Bern, 3008 Bern, Switzerland
+3
+Institute of Anatomy, University of Bern, 3012 Bern, Switzerland; beat.haenni@ana.unibe.ch (B.H.);
+martin.schneiter@iap.unibe.ch (M.S.); j.ingold@gmx.ch (J.I.)
+4
+Institute of Social and Preventive Medicine, University of Bern, 3012 Bern, Switzerland
+5
+Pediatric Pulmonology and Cystic Fibrosis Unit, Service of Pediatrics, Department Woman–Mother–Child,
+Lausanne University Hospital, University of Lausanne, 1011 Lausanne, Switzerland;
+Sylvain.Blanchon@chuv.ch
+6
+Division of Respiratory Medicine, University Children’s Hospital Zurich, 8032 Zurich, Switzerland;
+andreas.jung@kispi.uzh.ch
+7
+Division of Paediatric Pulmonology, Children’s Hospital Lucerne, 6000 Lucerne, Switzerland;
+nicolas.regamey@luks.ch
+8
+Institute of Applied Physics, University of Bern, 3012 Bern, Switzerland
+*
+Correspondence: loretta.mueller@insel.ch (L.M.); tschanz@ana.unibe.ch (S.A.T.)
+†
+A complete list of study group members appears in the acknowledgments.
+Abstract: Primary ciliary dyskinesia (PCD) is a rare genetic disease characterized by dyskinetic cilia.
+Respiratory symptoms usually start at birth. The lack of diagnostic gold standard tests is challenging,
+as PCD diagnostics requires different methods with high expertise. We founded PCD-UNIBE as the
+ﬁrst comprehensive PCD diagnostic center in Switzerland. Our diagnostic approach includes nasal
+brushing and cell culture with analysis of ciliary motility via high-speed-videomicroscopy (HSVM)
+and immunoﬂuorescence labeling (IF) of structural proteins. Selected patients undergo electron
+microscopy (TEM) of ciliary ultrastructure and genetics. We report here on the ﬁrst 100 patients
+assessed by PCD-UNIBE. All patients received HSVM fresh, IF, and cell culture (success rate of
+90%). We repeated the HSVM with cell cultures and conducted TEM in 30 patients and genetics in
+31 patients. Results from cell cultures were much clearer compared to fresh samples. For 80 patients,
+we found no evidence of PCD, 17 were diagnosed with PCD, two remained inconclusive, and one
+case is ongoing. HSVM was diagnostic in 12, IF in 14, TEM in ﬁve and genetics in 11 cases. None of
+the methods was able to diagnose all 17 PCD cases, highlighting that a comprehensive approach is
+essential for an accurate diagnosis of PCD.
+Keywords: airways; ciliopathy; air-liquid interface cell culture; high-speed videomicroscopy;
+immunoﬂuorescence; transmission electron microscopy
+1. Introduction
+Primary ciliary dyskinesia (PCD) is a rare genetic disorder (prevalence between
+1:10,000 and 1:20,000 [1–3]) that manifests with chronic respiratory symptoms caused
+Diagnostics 2021, 11, 1540. https://doi.org/10.3390/diagnostics11091540
+https://www.mdpi.com/journal/diagnostics
+
+Diagnostics 2021, 11, 1540
+2 of 21
+by impaired mucociliary clearance [4–6]. Symptoms include chronic wet cough, chronic
+rhinitis, recurrent otitis media, and subsequent hearing impairment, recurrent respiratory
+infections, and may start early in life with neonatal respiratory distress [6–10]. Pulmonary
+long-term morbidity includes function impairment and structural changes (e.g., lung
+atelectasis, bronchiectasis) [8,11–13]. The impaired ciliary function with inefﬁcient or
+absent beating is based on defects in a large number of genes. Those genes primarily
+involve the ciliary motor protein family, the dyneins, but also other components of the
+ciliary structure [9,14]. Despite recent diagnostic guidelines of the European Respiratory
+Society (ERS) [15] and the American Thoracic Society (ATS) [16], the diagnosis of PCD
+remains challenging. Difﬁculties are related to several issues: (i) clinical presentation shows
+a wide phenotypical spectrum and is not speciﬁc for PCD; (ii) there is no single test that is
+diagnostic for PCD as a stand-alone test; current diagnostic guidelines therefore include a
+combination of different functional, structural and molecular methods; (iii) all diagnostic
+methods require a high level of expertise; (iv) over 1
+4 of the genetic defects causing PCD
+are unknown [17]; (v) analytical methods have not been standardized sufﬁciently [18] and
+have unsatisfactory sensitivity and/or speciﬁcity if considered individually; and (vi) PCD
+is a rare disease and satisfactory diagnostic experience is available in only a few specialized
+centers. Hence, PCD is often diagnosed late in life or not at all, resulting in an overall
+underdiagnosis and undertreatment [1,2]. Even if causal therapy is not yet available, early
+diagnosis and interdisciplinary management increases quality of life and prognosis of
+affected patients [19,20].
+The current diagnostic guidelines include a combination of different functional, struc-
+tural, and molecular methods. All require a high level of expertise. Currently, the following
+methods are used routinely for the diagnosis of PCD: (i) measurement of nasal nitric oxide
+(nNO); (ii) high-speed-videomicroscopy (HSVM) to assess ciliary motility of viable cells
+(fresh samples or air-liquid interface (ALI) cell cultures); (iii) immunoﬂuorescence stain-
+ing (IF) of different structural proteins; (iv) assessment of the axonemal ultrastructure by
+transmission electron microscopy (TEM); and (v) genetic testing for the identiﬁcation of
+pathogenic or likely pathogenic variants in PCD-associated genes.
+Based on 30 years of experience in structural PCD diagnosis, we founded the inter-
+disciplinary center for comprehensive PCD diagnostics (PCD-UNIBE) at the University
+Children’s Hospital, Inselspital, Bern University Hospital and the Institute of Anatomy,
+University of Bern, in January 2018. This is the ﬁrst comprehensive PCD diagnostic center
+in Switzerland and is led by an experienced team of clinicians and biomedical researchers.
+The aim of this study is to summarize the experiences of the ﬁrst 100 patients assessed
+by PCD-UNIBE and to report on the workﬂow, beneﬁts, and challenges of our center and
+the diagnostic algorithm used by us.
+2. Materials and Methods
+2.1. Study Design and Study Population
+This observational study includes the ﬁrst 100 patients referred to our PCD-UNIBE
+diagnostic center. The study was approved by the ethics committees of the University
+Children’s Hospital Bern (Ethikkommission der Kinderkliniken) and of the Canton Bern
+(Kantonale Ethikkomission Bern), Switzerland (project identiﬁcation code 2018-02155,
+01/2019). We obtained written informed consents from all participants or their legal
+guardians.
+2.2. Diagnostic Workﬂow
+The diagnostic workflow used at PCD-UNIBE implements the ERS guidelines [15], but
+adds (for all patients) ALI cell culture of brushed cells and IF of structural proteins of the
+ciliary axoneme. In brief, we perform HSVM and IF for all patients, but execute TEM and
+genetics analysis only for selected patients. Our diagnostic workflow is shown in Figure 1
+and our detailed diagnostic algorithm has been recently published [21]. An important
+part of PCD-UNIBE are interdisciplinary meetings with clinicians (pneumologists) and
+
+Diagnostics 2021, 11, 1540
+3 of 21
+diagnostic research specialists to discuss cases, decide on further investigations and conﬁrm
+diagnosis. nNO measurements are not performed by PCD-UNIBE, but by the referring
+centers themselves (since some patients are not physically present at PCD-UNIBE, but only
+their nasal brushes are sent to us).
+ 
+Figure 1. Diagnostic workﬂow of our comprehensive PCD-UNIBE diagnostic center. “PCD positive” and “high evidence
+for PCD” are considered as a diagnosis of PCD. For patients with a high clinical suspicion, we usually perform all available
+methods. 1 As a clinical screening, the PICADAR-Score [22] may be useful. 2 Further investigations (HSVM, IF, and TEM)
+are preferably conducted by analyzing the material of the ALI cell cultures. A re-brushing is considered if cell culture
+was not successful. When re-brushing was not possible, fresh material was used. 3 We recommend further investigations
+(e.g., RNA-analysis or array-CGH) if other results suggest PCD. Abbreviations: ALI: air-liquid interface, HSVM: high-
+speed-videomicroscopy, IF: immunoﬂuorescence staining, nNO: nasal nitric oxide, PCD: primary ciliary dyskinesia, TEM:
+transmission electron microscopy.
+
+Diagnostics 2021, 11, 1540
+4 of 21
+2.3. Nasal Brushing and Further Processing
+Nasal epithelial cells (NECs) are obtained by brushings with adapted interdental
+brushes from both nostrils. The cells are then removed from the brushes and used for dif-
+ferent investigations: (i) HSVM of the fresh sample; (ii) preparation of slides for IF staining;
+(iii) cultivation of cells; and (iv) ﬁxation for TEM (if the sample contains sufﬁciently large
+groups of ciliated cells). Detailed descriptions of the nasal brushing itself, its processing
+and the further procedures are provided in the Appendix A—Supplementary Methods’
+Description.
+2.4. Cell Culture
+Primary NECs are cultured using the PneumaCult Media Kits (Stemcell Technologies),
+according to the manufacturer’s protocol with minor changes. A detailed description of
+our protocol is available in Appendix A.
+2.5. High-Speed Videomicroscopy (HSVM)
+Ciliary motility of fresh or ALI cells is analyzed via HSVM. To summarize, we use a
+silicon spacer to build an imaging chamber and record videos on an inverted bright ﬁeld
+microscope. These videos are then analyzed using our own analysis software (termed
+“Cilialyzer” [23]) by assessing the ciliary beating pattern (CBP), beating frequency (CBF),
+coordination of cilia movement, and particle transport. A detailed description of the
+methods is provided in Appendix A. The Excel analysis template is available online under
+the Supplementary Material.
+2.6. Immunoﬂuorescence Staining (IF)
+Different structural proteins of the ciliary axoneme are labeled using standard proto-
+cols for IF. Our standard panel includes dynein axonemal heavy chain 5 (DNAH5), growth
+arrest speciﬁc 8 (GAS8), and radial-spoke-head 9 (RSPH9) (and dynein axonemal light
+intermediate chain 1 (DNALI1) for earlier samples). Based on ﬁndings from the IF and the
+HSVM, further proteins are stained. A detailed description of the methods and a list of
+available proteins are provided in Appendix A.
+2.7. Transmission Electron Microscopy (TEM)
+We perform an ultrastructural analysis of cilia via TEM for patients with high clinical
+suspicion and/or suspicious results from the standard tests (HSVM and IF). In short, cells
+(fresh or from ALI cultures) are ﬁxed and processed, and 100–200 well assessable cilia cross
+sections imaged. The axonemal structures are systematically evaluated and scored accord-
+ing to the international consensus guidelines on TEM in PCD diagnosis [24]. Additionally,
+we discriminate between proximal and distal localization. A detailed method’s description
+is provided in Appendix A and the Excel analysis template is available online under the
+Supplementary Material.
+2.8. Genetical Analysis
+Analysis of pathogenic or likely pathogenic variants in all currently known PCD-
+associated genes is performed via next-generation sequencing of the whole exome by
+specialized centers; for more details see Appendix A.
+3. Results
+3.1. Study Population
+The ﬁrst 100 patients referred to the new PCD-UNIBE center for comprehensive PCD
+diagnostics came from various hospitals all over Switzerland, mostly children’s clinics.
+Details on the study population are presented in Table 1.
+
+Diagnostics 2021, 11, 1540
+5 of 21
+Table 1. Characteristics of the study population, summary of the referring centers, and overview of the diagnostic status
+and outcome. Percentages are related to the total number of cases in the respective column.
+Characteristic of the Study Population
+All Cases
+PCD Cases
+Non-PCD Cases
+Mean age (Standard deviation), years
+12.9 (18.0)
+29.2 (26.4)
+9.1 (12.8)
+Median age (range), years
+5.6 (0.04–68.9)
+16.9 (1.4–68.9)
+4.8 (0.04–61.7)
+Sex (female/male), n
+44/56
+8/91
+36/44 1
+Age category 2 (children/adults), n
+83/17
+11/6
+70/10
+Referring centers, n (%)
+all cases
+PCD cases
+non-PCD cases
+Inselspital, Bern University Hospital (pediatrics)
+54 (54%)
+7 (41%)
+45 (56%)
+Inselspital, Bern University Hospital (adults)
+2 (2%)
+0 (0%)
+1 (1%)
+Cantonal Hospital Graubünden (pediatrics)
+23 (23%)
+3 (18%)
+20 (25%)
+Children’s Hospital Lucerne
+4 (4%)
+1 (6%)
+3 (4%)
+Fribourg Hospital (pediatrics)
+4 (4%)
+0 (0%)
+4 (5%)
+Lausanne University Hospital (pediatrics)
+2 (2%)
+0 (0%)
+2 (3%)
+Hospital Lindenhof (Pneumology, Bern)
+4 (4%)
+2 (12%)
+2 (3%)
+Others 3
+7 (7%)
+4 (24%)
+3 (4%)
+Symptoms, n (%)
+all cases
+PCD cases
+non-PCD cases
+Chronic productive cough
+61 (61%)
+9 (53%)
+51 (64%)
+Chronic rhinitis
+40 (40%)
+9 (53%)
+29 (36%)
+Chronic sinusitis
+8 (8%)
+1 (6%)
+7 (9%)
+Recurrent otitis media
+18 (18%)
+4 (24%)
+13 (16%)
+Recurrent respiratory infections
+41 (41%)
+2 (12%)
+36 (45%)
+Bronchiectasis
+12 (12%)
+3 (18%)
+8 (10%)
+Neonatal respiratory distress
+8 (8%)
+1 (6%)
+7 (9%)
+Situs anomalies
+10 (10%)
+5 (29%)
+5 (6%)
+Others 4
+42 (42%)
+9 (53%)
+32 (40%)
+nNO3, n (%)
+all cases
+PCD cases
+non-PCD cases
+Reduced (<77 nL/min)
+25 (25%)
+3 (18%)
+21 (26%)
+Borderline (<85 nL/min, >77 nL/min)
+2 (2%)
+11 (65%)
+14 (18%)
+Normal (>85 nL/min)
+24 (24%)
+0 (0%)
+2 (3%)
+Not performed 5
+49 (49%)
+3 (18%)
+43 (54%)
+1 Three cases were unsolved (n = 2 inconclusive, n = 1 diagnostics ongoing); thus, PCD and non-PCD cases do not sum up to the numbers
+of all cases. 2 Children = age younger than 18 years. 3 Hospitals with only one case, e.g., University Children’s Hospital Basel, University
+Hospital Basel (Clinic for Ear–Nose–Throat). 4 e.g., cardiological problems, obstructive sleep apnea syndrome, growth impairment, hearing
+problems, colonization with Pseudomonas aeruginosa, family history of PCD. 5 For some patients we do not have this information either
+because the referring center had no possibility to measure nNO levels or because the patient was too young to perform a nNO measurement.
+3.2. Overview of the Tests: HSVM, IF, TEM, Genetics
+The diagnostic outcome was usually the result of several tests; see Figure 2 for an
+overview over all patients (A) and PCD cases (B). For all patients, we performed HSVM
+of the fresh samples and tried to obtain re-differentiated ALI cell cultures. HSVM ALI
+was performed whenever we succeeded in growing and re-differentiating cells (see below
+for details on cell culture success rate). For the vast majority of cases, we performed IF,
+preferable from ALI cell cultures (n = 82, n = 49 additional from fresh samples). For one
+case, we omitted IF since the clinical suspicion was moderate, HSVM showed normal CBP
+and CBF, and PCD was no longer the most probable diagnosis pursued. In 30 cases with
+highly suspicious CBP in HSVM and/or high clinical suspicion, we performed TEM. We
+carried out TEM analysis from seven fresh samples and from 26 ALI samples (for three
+patients we performed both). Genetics was done in 31 cases with high clinical suspicion
+and/or suggestive results of previous tests.
+
+Diagnostics 2021, 11, 1540
+6 of 21
+Figure 2. Overview of the performed tests from the ﬁrst 100 patients (A) of the PCD-UNIBE diagnostic
+center and of PCD cases only (B). Numbers in the bars indicate number of cases.
+3.3. Air-Liquid Interface (ALI) Cell Culture
+We aimed to cultivate cells from all patients. The cell culture grew and re-differentiated
+successfully for 90% from the ﬁrst brushings. Reasons for failure of cell cultivation were
+bacterial contamination (n = 1), fungal contamination (n = 2), bad primary material (n = 7,
+e.g., not sufﬁcient viable cells, no attachment or growing of the cells). In 10 cases, the
+cell cultivation was not successful at all; additionally, in one case, the quality of the cell
+culture was insufﬁcient. For four patients, we omitted a re-brushing: one case could be
+diagnosed with PCD based on a TEM hallmark defect in the fresh sample; one patient had
+a pathologic mutation in a known PCD-associated gene; two patients refused a re-brushing.
+For the other seven cases with failure of cell cultivation, we performed a re-brushing and
+cultured cells again (success rate of 86%; six re-differentiated successfully, one failure due
+to fungal contamination).
+3.4. Results of the Performed Tests: HSVM, IF, TEM, Genetics
+From the 107 fresh HSVM analyses, 29 cases (27%) showed no evidence for PCD (CBP
+score > 3), 54 cases (50%) were inconclusive, and 24 cases (22%) showed a high evidence
+for PCD (Figure 3). Results of HSVM done on cell cultures were much clearer: 78 cases
+
+Diagnostics 2021, 11, 1540
+7 of 21
+(83%) showed no evidence for PCD, four cases (4%) were inconclusive, and 12 cases (13%)
+showed high evidence for PCD. Interestingly, not all cases were assessed identically from
+fresh and ALI samples. For 42 cases, the conclusion was similar in both samples: 28 cases
+were assessed as “no evidence for PCD”, four cases as “inconclusive”, and 10 cases as “high
+evidence for PCD” based on both, fresh and ALI samples. Forty-one cases were assessed
+as “inconclusive” based on fresh samples and as “no evidence for PCD” based on the ALI
+sample. Moreover, importantly, one case was assessed as “no evidence for PCD” based on
+fresh and as “high evidence for PCD” based on ALI sample. For one case, the fresh sample
+was “inconclusive”, but the ALI sample showed a “high evidence for PCD”. In addition,
+nine cases showed “high evidence for PCD” in fresh and “no evidence for PCD” in the ALI
+samples. The samples of which the cell culture did not successfully re-differentiate were
+assessed as follows: 1× “no evidence for PCD”, 7× “inconclusive”, 5× “high evidence for
+PCD”. Figure 4A,B show the typical difference in sample quality for the assessment of the
+ciliary motility via HSVM.
+Figure 3. Differences in the assessments of ciliary motility via HSVM and presence of structural
+ciliary proteins via IF stainings in fresh and ALI samples. For HSVM fresh, we analyzed 107 samples
+in total, as re-brushings were performed for seven patients. Two of the samples could not be analyzed
+at all since no viable cells were found. We had a usable cell culture for 94 patients. For ﬁve patients
+we had no ALI and for one patient, the cell culture was not stable and lost all cilia before reaching
+maturity (at 28 days), and could not be analyzed. * Statistically signiﬁcant difference between HSVM
+fresh versus ALI for “no evidence for PCD” (p < 0.0001), “inconclusive” (p < 0.0001) and “high
+evidence for PCD” (p = 0.04) and IF fresh versus ALI for “inconclusive” (p = 0.03). Differences
+between IF fresh versus ALI were not signiﬁcant for “no evidence for PCD” (p = 0.18) and “high
+evidence for PCD” (p = 0.38). Data were compared using the Wilcoxon matched-pairs signed rank
+test (GraphPad Prism Version 9.0.2).
+The assessments of IF show similar characteristics, when comparing fresh vs. ALI,
+as the ones of HSVM (Figure 3): based on fresh samples statistically signiﬁcant more
+inconclusive results (29 cases (55%) versus 19 cases (23%), p = 0.03) and fewer results
+suggesting “no evidence for PCD” (23 cases (43%) versus 53 cases (64%), p = 0.18) compared
+to the ALI samples. Furthermore, IF of the ALI samples enabled us more often to obtain a
+“high evidence for PCD” (one case (2%) versus 11 cases (13%), p = 0.38). Figure 4C–F give
+two examples of possible differences in the quality of fresh and ALI samples.
+
+Diagnostics 2021, 11, 1540
+8 of 21
+Figure 4. Examples of quality differences between fresh and ALI cell culture samples for HSVM
+(A,B), IF (C–F), and TEM (G,H). In C–F, the green staining shows the tubulin of the ciliary axoneme,
+the red staining shows the GAS8 (C,D) or DNAH5 (E,F) protein, and the blue staining the cell nuclei.
+We performed TEM analysis for 30 cases (n = 4 only fresh, n = 3 fresh and ALI, n = 23
+only ALI). There was “no evidence for PCD” in 22 cases (72%). Six cases were positive
+for PCD: four cases (14%) showed a class 1 ODA and IDA defect, one (3%) a class 1
+microtubular disorganization and IDAs defect, and one (3%) a class 2 ODA defect. Two
+
+Diagnostics 2021, 11, 1540
+9 of 21
+cases (7%) remained inconclusive due to bad quality of cell cultures. The production of
+TEM sections and images from ALI cell cultures was far more efﬁcient than from freshly
+brushed samples. Abundant ciliated cells from large epithelial stripes and the possibility
+of aligning the cell culture prior to sectioning provided many more axonemal views, which
+are additionally optimally transected (see also Figure 4G,H). Furthermore, the effort needed
+for the TEM assessment of cell cultures was roughly one third of the one needed for the
+sparse, randomly oriented fresh brushing material.
+Genetic analysis was carried out in 31 cases, with one analysis still ongoing. In 17 cases
+(55%), no abnormal variants were found. In nine cases (29%), two pathologic or likely
+pathologic variants in the same gene were found (7× DNAH11, 1× DNAH5, 1× HYDIN),
+ﬁnally leading to the diagnosis of PCD. Five cases (16%) showed genetic abnormalities,
+but did not lead to a (direct) PCD diagnosis: (1) in one case, a homozygous mutation of
+unknown signiﬁcance in the DNAH11 gene was found (PCD was conﬁrmed due to missing
+DNAH11 in IF and pathologic HSVM). (2) In another case, only a single likely pathogenic
+variant in the DNAH11 was found (PCD was conﬁrmed due to missing DNAH11 in IF
+and pathologic HSVM). (3) In one case three variants of unknown signiﬁcance in the
+DNAH5 gene were found (PCD was not conﬁrmed in this case, since HSVM and TEM
+were normal and DNAH5 was present in IF). (4) In another case, we found two DNAH9
+variants of unknown signiﬁcance in-cis (the missing of DNAH9 in IF and a TEM class 2
+ODA & IDA defect diagnosed PCD). (5) The last of the unclear cases showed only one
+pathogenic variant in the HYDIN gene (PCD was not diagnosed due to HSVM being better
+than expected for HYDIN mutations and normal nNO levels).
+3.5. Overall Diagnostics Outcome
+There was no evidence for PCD in 80 cases (Table 2). Seventeen patients were diag-
+nosed with PCD (5× “high evidence for PCD”, 12× “PCD positive”). Three cases remained
+inconclusive: Two patients refused further investigations, and in one case, the diagnostics
+is still ongoing (The fresh sample and the cell culture showed only a few cilia. The genetic
+analysis showed no pathogenic or likely pathogenic variants in 43 genes (including MCI-
+DAS, CCNO, FOXJ1). Thus, we performed a re-brushing of which the results were still
+pending). Among the 17 patients with diagnosed PCD, there are three cases with ongoing
+analysis: In one case, PCD was diagnosed based on fresh HSVM and TEM, but the genetic
+analysis is not yet complete. In two cases, PCD was diagnosed (1x based on HSVM and
+TEM, 1x based on IF), but the underlying genetic mutation could not be identiﬁed yet.
+Two of the cases with “no evidence for PCD” were clinically highly suspicious (one with
+repeatedly reduced nNO), but none of the tests (TEM, HSVM, IF, genetics) showed any
+evidence of PCD. Further investigations are planned for these patients.
+Table 2. Diagnostic outcome of the ﬁrst 100 patients referred to PCD-UNIBE.
+Diagnostic Outcome
+n (%)
+no evidence for PCD
+80 (80%)
+high evidence for PCD (=diagnosis of PCD)
+5 (5%)
+PCD positive (=diagnosis of PCD)
+12 (12%)
+Inconclusive a
+3 (3%)
+a Currently inconclusively due to refusal for further investigations in two patients and still ongoing diagnostics in
+one patient.
+3.6. Relevance of the Different Methods for the Diagnosis of PCD
+The result of the HSVM conﬁrmed the diagnosis of PCD in 13 cases (13% of all
+100 cases investigated with this method). For IF, this was the case in 14 cases (14% of the 99
+IF investigated cases), for TEM in ﬁve (17% of the 30 TEM investigated cases) and genetics
+in 10 cases (33% of the 30 genetically investigated cases) (Table 3). This shows that none of
+the methods used was able to diagnose all 17 PCD cases. Thus, a comprehensive approach
+is essential for an accurate diagnosis of PCD.
+
+Diagnostics 2021, 11, 1540
+10 of 21
+Table 3. Overview of the different methods and whether the outcomes led to the diagnosis of PCD.
+n
+HSVM
+IF
+TEM
+Genetics
+Remark
+8
++
++
+-
++
+all DNAH11 mutations
+2
++
++
++
+(not done)
+no genetics performed
+2
+-
++
++
+-
+no mutations found
+1
++
++
+-
+-
+one pathologic variant in DNAH11
+1
++
+-
++
+-
+genetics still ongoing
+1
++
+-
+(not done)
++
+HYDIN mutation
+1
+-
++
+-
+-
+No mutation found
+1
+-
+-
+(not done)
++
+DNAH5 mutation, cell culture not successful
+Total: 17
+13
+14
+5
+10
+n = number of patients, written in bold = the sole method leading to the diagnosis of PCD. + = the outcome of this method was leading to
+the diagnosis of PCD. - = the outcome of this method was neither “high evidence for PCD” nor “PCD positive” and, thus, was NOT leading
+to the diagnosis of PCD.
+3.7. Costs
+The costs for the different investigations vary a lot (Table 4) and are highly speciﬁc for
+different countries and healthcare systems. Our standard diagnostics including brushing,
+cell culture, HSVM fresh, and ALI and IF ALI costs EUR 1229. This is slightly more
+compared to the costs of a set without cell culture including three brushings, three HSVM
+fresh, and IF fresh, which adds up to EUR 1165. However, as soon as TEM needs to be
+performed, the costs for the cell culture are overcompensated: A full set with only fresh
+material (3× brushings, 3× HSVM fresh, IF fresh, TEM fresh) would cost EUR 3165, while a
+full set including cell culture (1x brushing, HSVM fresh and ALI, IF ALI, TEM ALI) would
+be EUR 2025. These reduced costs are in addition to the advantages of higher quality of
+the results (for details see above), less clinical visits and less burden for the patients due
+to fewer brushings. Our costs are higher compared to the numbers published earlier by
+Shoemark et al.: USD 187 (EUR 159 (exchange rate of EUR 0.85 per one dollar was used)
+and USD 1452 (EUR 1231). The higher costs in our setting are mostly related to higher
+salaries and higher prices for consumables in Switzerland.
+Table 4. Overview of the costs for the different methods. These costs only include running costs,
+such as consumables, fee for using microscopes and working hours, but no initial set up costs (e.g.,
+purchase of equipment) and neither costs on the side from clinics or patients for the visits (of which
+more are needed if only fresh material is used).
+Investigation/Method
+Consumables and Fee for
+Equipment Use
+Working Hours
+Total
+nasal brushing
+EUR 6
+EUR 70
+EUR 76
+cell culture
+EUR 250
+EUR 260
+EUR 510
+HSVM fresh
+EUR 24
+EUR 180
+EUR 204
+HSVM ALI
+EUR 24
+EUR 140
+EUR 164
+IF fresh 1
+EUR 155
+EUR 170
+EUR 325
+IF ALI 1
+EUR 155
+EUR 120
+EUR 275
+TEM fresh
+EUR 500
+EUR 1500
+EUR 2000
+TEM ALI
+EUR 250
+EUR 750
+EUR 1000
+Reporting/meetings/etc.
+EUR 0
+EUR 181
+EUR 181
+Genetics 2
+EUR 200
+EUR 2800
+EUR 3000
+all standard methods 3
+EUR 459
+EUR 770
+EUR 1229
+all methods 4
+EUR 909
+EUR 4501
+EUR 5410
+Remark about costs: PCD-UNIBE is based in Switzerland where salaries and prices for consumables are usually
+higher than in other European countries. Original costs were calculated in Swiss francs. For the conversion to
+Euros, an exchange rate of 1.1 CHF per one EUR was used. 1 These costs apply for the standard panel including
+DNAH5, GAS8, and RSPH9. Costs are higher if additional proteins are stained. 2 Average costs, costs vary
+depending on affected gene. 3 Standard methods include nasal brushing, cell culture, HSVM fresh, HSVM ALI,
+and IF ALI. 4 All methods include nasal brushing, cell culture, HSVM fresh and ALI, IF ALI, TEM ALI, and
+genetics.
+
+Diagnostics 2021, 11, 1540
+11 of 21
+4. Discussion
+4.1. Summary
+Among the ﬁrst 100 patients referred to our newly founded PCD-UNIBE diagnostic
+center, we diagnosed PCD in 17 cases and found no evidence for PCD in 80 patients. Three
+cases remain inconclusive due to patients’ refusal for further investigations (n = 2) or
+ongoing diagnostics (n = 1). We performed HSVM of the fresh samples for all patients and
+IF for 99% of the patients. HSVM was repeated for all patients with a successful ALI cell
+culture (90% after the initial brushing, 5% after a re-brushing). TEM was performed for 30
+and genetics for 31 patients. The use of the cell culture avoided a re-brushing in 90% of the
+cases and was crucial for most of the cases as it reduced the ratio of inconclusive ﬁndings
+for HSVM and IF signiﬁcantly. HSVM conﬁrmed diagnosis of PCD in 13, IF in 14, TEM in
+ﬁve, and genetics in 10 cases, respectively. None of the methods used was able to diagnose
+all 17 PCD cases.
+4.2. Diagnostic Impact of Methods/Procedures in Our Setting
+By setting up our new comprehensive PCD diagnostic center in 2018, we decided
+to include ALI cell culture as standard procedure for all patients. Herein, we report on
+the importance of this as well as of the other included methods. Every single method
+included in our algorithm was essential for certain cases to diagnose PCD. IF and genetics
+were the sole diagnostic method in one case each (in the case of genetics, the cell culture
+did not grow successfully, HSVM and IF of the fresh sample were inconclusive and we
+omitted a re-brushing since the genetic testing conﬁrmed PCD). For all other cases, at least
+a combination of two of the four methods were needed to conﬁrm the diagnosis of PCD.
+Nevertheless, since none of the methods was able to diagnose all cases, we can neither
+omit one of them nor choose a single method to be the best. Furthermore, we would like
+to emphasize the importance of ALI cell cultures for our diagnostic procedure. Its value
+has been described before [25–28], but we would like to add important aspects. The use
+of cell culture avoided a re-brushing in 90% of all cases. This is of particular importance
+for pediatric patients, in whom additional uncomfortable examinations should be avoided.
+Further results from HSVM, IF, and TEM using cell cultures are much more precise: The
+ratio of inconclusive assessments was signiﬁcantly lower for HSVM and IF after cell culture
+compared to fresh samples. HSVM of cell cultures has already been shown to robustly
+represent original characteristics while eliminating secondary effects and overcoming low
+cell yields of the fresh samples [15,26,28,29]. Secondary or artifactual dyskinesia often seen
+in fresh samples is one of the main critical points raised when HSVM is used as a diagnostic
+method [17]. Even highly standardized and gentle brushings mostly provide merely tiny
+cell conglomerates or single cells that are ripped out of their natural environment. This may
+lead to additional analysis artefacts. Therefore, we principally avoid HSVM conclusions
+from single cells (as also recognized by international HSVM specialists). We also found
+a clear improvement of the sampling quality for IF and TEM as the amount of available
+cell material inﬂuences the validity of the diagnosis. While TEM from fresh material
+often requires time-consuming search of sparsely scattered cells in numerous resin blocks,
+ALI-derived epithelial stripes provide large lawns of trimmed cilia. This increases the
+chance of getting optimally oriented orthogonal transects in one or two sections from only
+two blocks. TEM assessment can thus usually be based on several hundreds of cilia cross
+sections obtained at half of the effort and costs needed for fresh samples. The same was
+true for IF: slides from cell culture contain more nicely stained epithelial cells reducing
+considerably the time needed to perform a valid analysis. An additional advantage of
+routinely performed cell cultivation is that leftover cells not used for diagnostics in the
+ﬁrst round can be cryostored and used as backup cells (if the primary cell culture should
+not re-differentiate successfully or if further tests are needed (e.g., RNA sequencing from
+differentiated cells because of unclear genetics results)) and/or for research purposes (if
+patients consent), as recognized earlier [26].
+
+Diagnostics 2021, 11, 1540
+12 of 21
+4.3. Limitations and Strengths
+Our study presents a realistic scenario using real world patients’ data. We principally
+highlight the practical aspects of our workﬂow, as such descriptions are often lacking in
+other studies. These could be particularly helpful for diagnostic centers. Our diagnostic
+algorithm includes an integral set of several methods including cell culture as preparatory
+step. Thus, we can evaluate the advantages and disadvantages of the different morpho-
+functional approaches HSVM, IF, TEM, and the potential improvement by the use of cell
+cultures. By our intention to present a real live report, patient data was exclusively obtained
+during our routine diagnostic workﬂow. A limitation of the study is that, according to
+our diagnostic workﬂow, TEM and genetics are not performed if previous results clearly
+showed no evidence for PCD and the clinical suspicion is low. In order to comply with
+state regulations to reduce healthcare costs, the expensive TEM analytics and genetic panel
+diagnostics were only performed upon high suspicion based on clinics and other test
+results. Additionally, genetics need a special approval by the health insurance. Therefore,
+we did not have results of all methods for all patients. Three cases remained inconclusive
+due to missing analytic data (2× refusal of further investigation, 1x ongoing analysis), but
+are consciously part of the ﬁrst 100 patients referred to PCD-UNIBE. Such situations are an
+authentic part of the daily work in our PCD diagnostic center.
+4.4. Comparison with the Literature
+In our study population, prevalence of PCD diagnosis (17%) was rather high com-
+pared to a previous study with a prevalence of approximately 10% [22]. There are two
+reasons for this high diagnostic yield: (i) when we started the comprehensive approach for
+PCD diagnostic in 2018, we worked up several previously unclear, but clinically highly
+suspicious cases. The proportion of patients diagnosed with PCD among them was higher
+than among the routinely referred ones. This may falsely indicate that our comprehensive
+workﬂow enables a superior detection rate. (ii) Among the ﬁrst 100 patients were two
+families with four and three members, respectively, also contributing to the high preva-
+lence. The family with four members was affected by mutations in the DNAH11 gene.
+Interestingly, we found many DNAH11 cases (8 out of 10 genetically solved cases), also
+among the cases we work-up again. Additionally, one of the diagnosed, but genetically
+unsolved cases have one pathologic variant in the DNAH11 gene (but so far, no second
+one). The high proportion of DNAH11 mutations, especially in worked up cases, probably
+reﬂects the former diagnostic approach with focus on TEM (TEM hallmark defect is still
+ofﬁcially needed to reclaim support from the Swiss disability insurance) and HSVM of
+fresh samples. The fact that cilia of patients with DNAH11 mutations show a normal TEM
+ultrastructure explains that these cases had not been diagnosed previously. This highlights
+again that a comprehensive approach based on different methods is essential.
+4.5. Clinical and Practical Relevance
+Patients with suspicion of PCD have the right to know whether they suffer from
+PCD or not. Since every method on its own misses a considerable part of PCD cases
+(e.g., approximately 30% for TEM and genetics if tested individually [17]), all currently
+available methods are needed. In our study, every method missed at least four PCD cases
+(24% of all 17 PCD cases). Even though current therapy is similar for patients with a
+clinically high suspicion of PCD and those with conﬁrmed PCD, it is still important to
+precisely know the underlying causes of clinical symptoms [30]. A clear diagnosis may
+be of importance for parents who are considering having more children. In addition,
+since some PCD mutations are associated with infertility, a clear diagnosis with known
+underlying genetic defect is important for the future family planning. Last, having a clear
+diagnosis of PCD and its speciﬁc genetic mutation is important with regard to therapeutic
+regimens. Recently, ﬁrst evidence-based data for therapies, speciﬁcally for PCD (e.g., with
+macrolide antibiotics [31]), became available, and initiatives for molecular treatments or
+
+Diagnostics 2021, 11, 1540
+13 of 21
+gene therapies for PCD are ongoing (e.g., CLEAN-PCD study, ClinicalTrials.gov Identiﬁer:
+NCT02871778).
+5. Conclusions
+Diagnosis of PCD is challenging and every method included in our diagnostic al-
+gorithm contributed to ﬁnal diagnoses. In our approach, the use of ALI cell cultures for
+HSVM, IF, and TEM was particularly crucial. However, none of the methods was able to
+diagnose all 17 PCD cases singlehandedly, highlighting that a comprehensive approach is
+essential for an accurate PCD diagnostics.
+Supplementary Materials: The following are available online at https://www.mdpi.com/article/10
+.3390/diagnostics11091540/s1, Excel templates for the analysis of the HSVM videos and the TEM
+images, and one fresh and one ALI HSVM video.
+Author Contributions: Conceptualization, L.M., S.A.T., C.C. and P.L.; data curation: L.M., S.A.T.,
+A.S., C.E.K. and J.I.; formal analysis: S.T.S., M.N., C.E.K., E.K. and C.C.; funding acquisition: L.M.,
+S.A.T. and P.L.; investigation: L.M., S.T.S., S.A.T., A.S., A.E. and M.B.; methodology: L.M., S.T.S.,
+S.A.T., A.S., A.E. and B.H.; software: M.S. and S.A.T.; project administration: L.M.; supervision: L.M.
+and P.L.; writing—original draft: L.M., S.T.S., S.A.T., M.N. and B.H.; writing—review and editing:
+L.M., S.T.S., S.A.T., A.S., A.E., M.N., M.B., C.E.K., S.B., A.J., N.R., B.H., M.S., J.I., E.K., C.C. and P.L.
+All authors have read and agreed to the published version of the manuscript.
+Funding: This project was supported by the Lung League Bern. Sibel T Savas was supported by the
+German Academic Scholarship Foundation (Studienstiftung des Deutschen Volkes).
+Institutional Review Board Statement: The study was conducted according to the guidelines of
+the Declaration of Helsinki, and approved by the Ethics Committees of the University Children’s
+Hospital Bern and of the Canton Bern, Switzerland (reference number 2018-02155).
+Informed Consent Statement: Informed consent was obtained from all subjects involved in the
+study.
+Data Availability Statement: The data presented in this study are available upon request from the
+corresponding authors. The data are not publicly available due to privacy issues and data protection.
+Acknowledgments: We thank all patients for allowing us to evaluate their diagnostic data. Study
+authors participate in the BEAT-PCD clinical research collaboration, supported by the European
+Respiratory Society. Our center participates at the European Reference Network ERN Lung PCD
+core as a supporting member. The current Swiss PCD Research Group includes (alphabetical order):
+Sylvain Blanchon (Lausanne), Jean-Louis Blouin (University Hospitals of Geneva, Switzerland),
+Marina Bullo (Inselspital Bern), Carmen Casaulta (Inselspital Bern), Myrofora Goutaki (Institute of
+Social and Preventive Medicine, University of Bern, Inselspital Bern, Switzerland), Nicolas Gürtler
+(Pediatric Otorhinolaryngology, Department of Otorhinolaryngology, University Hospital of Basel,
+Switzerland), Beat Haenni (Anatomy Bern), Andreas Hector (Division of Respiratory Medicine,
+University Children’s Hospital Zurich, Switzerland), Michael Hitzler (Division of Paediatric Pul-
+monology, Children’s Hospital Lucerne, 6000 Lucerne, Switzerland), Andreas Jung (Zürich), Lilian
+Junker (Pneumology, Hospital Thun, Switzerland), Elisabeth Kieninger (Inselspital Bern), Claudia
+E. Kuehni (Institute of Social and Preventive Medicine, Inselspital Bern), Yin Ting Lam (Institute
+of Social and Preventive Medicine, University of Bern, Switzerland), Philipp Latzin (Inselspital
+Bern), Dagmar Lin (Department of Pulmonary Medicine, Inselspital, Bern University Hospital, Uni-
+versity of Bern, Bern, Switzerland), Marco Lurà (Division of Paediatric Pulmonology, Children’s
+Hospital Lucerne, Switzerland), Loretta Müller (Inselspital Bern), Eva Pedersen Institute of Social
+and Preventive Medicine, University of Bern, Switzerland), Nicolas Regamey (Lucerne), Isabelle
+Rochat (Pediatric Pulmonology and Cystic Fibrosis Unit, Service of Pediatrics, Department Woman–
+Mother–Child, Lausanne University Hospital, University of Lausanne), Daniel Schilter (Quartier
+Bleu, Medical Practice for Pneumology at the Hospital Lindenhof, Bern, Switzerland), Iris Schmid
+(Quartier Bleu, Medical Practice for Pneumology at the Hospital Lindenhof, Bern, Switzerland),
+Bernhard Schwizer (Quartier Bleu, Medical Practice for Pneumology at the Hospital Lindenhof,
+Bern, Switzerland), Andrea Stokes (Inselspital Bern), Daniel Tachsel (University Children’s Hospital
+Basel (UKBB), Switzerland), Stefan A. Tschanz (Anatomy Bern), Johannes Wildhaber (Department
+
+Diagnostics 2021, 11, 1540
+14 of 21
+of Paediatrics, Fribourg Hospital HFR, Faculty of Science and Medicine, University of Fribourg,
+Switzerland).
+Conﬂicts of Interest: P. Latzin reports personal fees from Gilead, Novartis, Polyphor, Roche, Santhera,
+Schwabe, Vertex, Vifor, and Zambon, outside the submitted work. All other authors have no conﬂicts
+of interest to disclose.
+Appendix A. Supplementary Methods’ Description
+Appendix A.1. Nasal Brushing: Procedure and Processing
+After the patients clean their nose, nasal epithelial cells (NECs) are obtained by nasal
+brushings using one pre-wetted (cold 0.9% NaCl in a 15 mL tube) interdental brush (IDB-
+G50 3 mm, Top Caredent, Zurich, Switzerland; elongated by attaching a 200 µL pipette
+tip with paraﬁlm; Figure A1) for each nostril, as previously described [32]. Brieﬂy, the
+brush is inserted into and removed out of the inferior turbinate of the nasal cavity a
+couple of times, while rotating and slightly pressing against the lateral edges of the nasal
+cavity. Brushes with obtained cells are immediately stored in a 15 mL tube with RPMI-
+1640 media with HEPES (Sigma-Aldrich, Merck, Darmstadt, Germany, cat#R7388) (using
+PneumaCult Expansion Plus (PC-Ex-Pl) media (STEMCELL Technologies, Vancouver,
+Canada, cat#05040) with additional 20 mM HEPES Buffer (Sigma-Aldrich, cat#H0887) for
+brushes shipped from other hospitals (storage up to 4–5 h)).
+Under a biosafety cabinet, the elongated brushes are washed with the medium in
+the tube by pipetting the medium slowly over the brush (using 1 mL of media). After
+this, all cells are remove by gently pushing and pulling the brush through an adapted
+200 µL tip (cut of approximately 5 mm of the tip to have a larger hole), while keeping
+the tip submerged in the medium. This procedure is repeated with all brushes. After
+centrifugation (room temperature (RT), 5 min, 300 rcf; this setting is used throughout
+this protocol, unless stated otherwise), the cell pellet is resuspended in 1.6 mL PC-Ex-
+Pl medium. This 1.6 mL is then used for various diagnostic tests: (i) 60 µL for HSVM;
+(ii) 400 µL is used for the preparation of eight IF slides (50 µL/slide; Cellspin Cytoslides
+uncoated, one circle, Tharmac, Wiesbaden, Germany, 310-100, VWR 720-1808, air dried
+and stored at −20 ◦C); (iii) 100 µL is ﬁxed for TEM if HSVM shows large conglomerates of
+epithelial cells with cilia; and (iv) 1 mL (or more, just the remaining) is used for cell culture.
+ 
+Figure A1. Interdental brush elongated by attaching a 200-µL pipette tip with paraﬁlm.
+Appendix A.2. Cell Culture
+Appendix A.2.1. Preparation of Media
+For the culturing of the primary NECs, we use the Stemcell PneumaCult media.
+Additionally, for the preparation of the ready-to-use media, 50 µL and 200 µL aliquots of
+Hydrocortisone (Stemcell #07926, stored at −20 ◦C), 1 mL and 100 µL aliquots of Primocin
+(InvivoGen, Toulouse, France, cat. ant-pm-2, stored at −20 ◦C) as well as Heparin (Stemcell
+#07980, stored at 2–8 ◦C) were needed.
+The PC-Ex-Pl medium is used for the submerged periods (passage 0 and passage 1 in
+plates or ﬂasks, and p2 on the inserts until conﬂuent). This medium kit (Stemcell, #05040)
+comes with a “Basal Medium” (#05041, 2–8 ◦C) and a “Supplement” (#05042, −20 ◦C).
+Upon receiving a new kit, the basal medium is aliquoted into 10 × 49 mL portions (in
+
+Diagnostics 2021, 11, 1540
+15 of 21
+50 mL conical tubes (Greiner, Monroe, NC, USA, cat.no. 277261) and stored at 4 ◦C. The
+supplement is thawed and then gently, but very well mixed, aliquoted into 10 × 1000 µL
+portions and frozen at −20 ◦C. As needed, the complete medium is prepared: 1 mL of the
+PC-Ex-Pl supplement is added to the previously prepared 49 mL PC-Ex-Pl basal medium,
+along with 50 µL of hydrocortisone and 100 µL of primocin. This complete PC-Ex-Pl
+medium can be stored at 4 ◦C for up to 4 weeks.
+Later, when the cells are conﬂuent and exposed to the air-liquid interface (ALI), the
+cell culture is nourished through the PneumaCult ALI Maintenance (PC-ALI) medium.
+The PC-ALI medium kit (Stemcell, #05001) contains a basal medium (Stemcell, #05002), a
+supplement (Stemcell #05003) and a maintenance supplement (Stemcell, #05006). For the
+preparation of the complete PC-ALI base medium, ﬁrst the PC-ALI Supplement needs to
+be thawed, in either cold water or overnight at 4 ◦C. When thawed, it can be mixed gently
+through inversion of the vial. Then, the whole 50 mL of the supplement is added to the
+450 mL of basal medium, along with 1 mL of Primocin. Then, this complete base medium
+is aliquoted to 40 mL in 50 mL Greiner tubes and frozen at −20 ◦C. Then, when needed,
+the complete, ready-to-use PC-ALI medium can be prepared. After the 40 mL complete
+basal medium thaws, 400 µL of PC-ALI maintenance supplement (comes in 1 mL vials; we
+usually remove the 400 µL we need for the preparation of the complete PC-ALI medium,
+transfer 400 µL to a 1.5 mL Eppendorf tube and freeze this, and the original tube with
+the remaining 200 µL again at −20 ◦C for later use) along with 200 µL of hydrocortisone
+and 80 µL of heparin are mixed. To avoid the risk of fungal contaminations, 400 µL of
+amphotericin (Sigma-Aldrich, #A2942) can be added. This complete PC-ALI medium can
+be used immediately or stored at 4 ◦C for up to 2 weeks.
+Appendix A.2.2. Preparation of Well Plates
+Before the brushing arrives at the lab, the 12-well plates should be coated. The two
+central wells (b2, b3 of a Falcon 12-well plate, REF353043) are coated with 500 µL diluted
+PureCol (PureCol Collagen, cat.no. 5005B, Advanced Biomatrix, Carlsbad, CA, USA;
+diluted 1:10 with sterile water) and incubated for at least 30 min at 37 ◦C (or overnight at
+RT). After this, the excess PureCol is removed and the wells are washed with 500 µL PBS
+(without Ca2+ and Mg2+) (Sigma-Aldrich, #D8537). The PBS from one well is aspirated (to
+add the cells suspension); the PBS of the second well is left in (until the next day, when
+the supernatant from the ﬁrst well will be transferred to the second well after the Accutase
+treatment).
+Appendix A.2.3. Procedure of Cell Cultivation
+The cells, after being removed from the brushes, are resuspended in 1.6 mL PC-
+Ex-Pl medium (as described above), and 1 mL is then used to be seeded in one coated
+well of a 12-well plate (called passage 0). The day after the brushing, medium from the
+previously seeded well is transferred to a 15 mL tube, centrifuged (300 rcf, 5 min, RT; all
+subsequent centrifugation steps are performed with the same settings unless otherwise
+stated), resuspended in 1 mL Accutase (Sigma-Aldrich, #A6964-100 mL), and kept for
+30 min at 37 ◦C. Subsequently, the cell suspension is centrifuged and again resuspended in
+1 mL PC-Ex-Pl and added to a second coated and rinsed well in the same 12-well plate; One
+mL of fresh PC-Ex-Pl is added to this ﬁrst well with the already adhered cells. We usually
+change media on Monday mornings, and Wednesday and Friday afternoons. Ideally, the
+media of passage 0 cells is changed every day or at least every second day. However,
+we do not change media over the weekends. The cells are cultured until a maximum
+of 60–80% conﬂuence is reached (usually after 3–4 days). If cells do not reach 60–80%
+conﬂuence after one week, depending on the growth process, they are still passaged, in
+the hope that the provision of a new stimulus might improve growth. Cells are lifted
+using Accutase (8–10 min at 37 ◦C, 1 mL for a well of a 12-well plate, ﬂushed off with
+the Accutase at least 5 times). The cells in the Accutase are transferred to a 15 mL tube,
+containing 10 mL RPMI, and centrifuged. After aspiration of the supernatant, the cell
+
+Diagnostics 2021, 11, 1540
+16 of 21
+pellet is resuspended in 1 mL PC-Ex-Pl medium and seeded in a pre-coated (incubation
+with 2 mL diluted PureCol for 30 min at 37 ◦C, see preparation of well plates) T25 tissue
+culture ﬂask (blue vented cap, Falcon, Corning, NY, USA; #353108) (with 5 mL of media in
+total) until again conﬂuence of a maximum of 60–80% is reached (usually after 5–7 days;
+rather use of the cells at 50% conﬂuence than risking reaching >80%, especially over
+the weekend). Then, the cells are lifted and collected again with Accutase (see above)
+and seeded in uncoated tissue culture transwell (Corning Transwell polyester membrane
+inserts, pore size 0.4 µm, diameter 12 mm, CLS3460-48EA, Sigma-Aldrich) at a density of
+100,000 cells/transwell and supplemented with 1 mL in the lower, basolateral chamber,
+where no cells are, and 0.5 mL PC-Ex-Pl in the upper, apical chamber, where the cells were
+seeded into. We usually seed out into three inserts. The leftover cells are frozen in vials
+with roughly one million cells (using 1 mL of CyroStor freezing media, Sigma-Aldrich,
+#C2874) as backup if the cell culture would not successfully differentiate. Medium is again
+changed three times/week (see above). One day after the cells reach complete conﬂuence
+(usually 2–5 days after seeding), they are exposed to the air-liquid interface (ALI) and fed
+with 700 µL/well PC-ALI (Stemcell, cat#05001, preparations see above) media from the
+basolateral chamber only.
+After seven or more days at ALI, cultures undergo a weekly PBS wash (Dulbecco’s
+Phosphate Buffered Saline with MgCl2 and CaCl2 (PBS++), Sigma D8537-500 mL) to remove
+excess mucus. Before the medium is changed, 500 µL of PBS++ is added to the apical
+chamber of the insert. The plates are then left at RT for 15 min. After this, the apical PBS
+and the basal medium is removed and 700 µL of fresh PC-ALI medium is added. Normally
+after about 7–10 days at the ALI, the cell cultures start to produce mucus, and after about
+14–21 days, the ﬁrst moving cilia were seen. Cell cultures used for the experiments are
+exposed for ≥28 days at the ALI. Cultures that are at ALI for over 4 weeks are transferred
+to maintenance and the medium is only changed once per week, along with a PBS wash
+(see above).
+Appendix A.2.4. Processing of Mature ALI Cultures
+When the culture is allowed to mature at the ALI for 28 days, it is used for different
+diagnostic tests. We use one insert for the HSVM ALI and the IF slides (half for each
+method), and one-half insert for the TEM.
+For the HSVM and IF analysis, all medium from the basolateral chamber is transferred
+to the apical one and the cells are scratched off from the whole membrane of this insert
+using a 1000 µL ﬁlter tip. Then, the media with the cell pieces is added to a 15 mL Greiner
+tube; 60 µL media with small pieces for the HSVM is then transferred to our self-assembled
+imaging chamber (see under HSVM). The tube with the remaining media is centrifuged.
+After aspiration of the supernatant, the cell pellet is resuspended in 1 mL Accutase. The
+tube is placed in the incubator for 30 min. After the incubation, the cells are resuspended
+thoroughly, but gently, and centrifuged. After aspiration of the supernatant, the cell pellet
+is resuspended in, usually, 400-µL RPMI medium (RPMI-1640 Medium, with L-glutamine
+and sodium bicarbonate, Sigma-Aldrich, #R8758) (50 µL per slide, thus 400 µL for 8 slides);
+50 µL is then added to each slide (for details, see above under processing of brushing).
+For TEM, the cells are ﬁxed in glutaraldehyde (GA, for details of concentrations, see
+below); 1 mL of GA is added to a 1.5 mL Eppendorf tube. Taking another insert of the
+mature culture and using a scalpel, one half of the membrane is cut out of the insert holder
+and placed in the GA tube, which is stored at 4 ◦C until further processed (the other
+half is usually ﬁxed in 4% paraformaldehyde (PFA) for potential 3D immunoﬂuorescence
+stainings).
+Appendix A.3. High-Speed Videomicroscopy (HSVM)
+Every patient sample is principally assessed twice by HSVM: the freshly brushed
+material and scratched material from the ALI cell culture. The ﬁrst analysis is conducted
+immediately after the cells arrive in the lab (called “HSVM fresh”). The second analysis is
+
+Diagnostics 2021, 11, 1540
+17 of 21
+performed when the cell culture is successfully re-differentiated after four weeks at the ALI,
+approximately six weeks after the brushing (called “HSVM ALI”). A 60 µL drop of cell
+suspension is brought within a round 200 µm thick rubber spacer (CoverWell silicone ring
+(Grace Bio-Labs, Bend, OR, USA, Ref 645401) on a standard glass slide (microscopy slide
+(VWR, Dietikon, Switzerland, 631-1553) (Figure A2) and covered tightly with a standard
+cover slip (22 × 22 mm, DURAN GROUP, Wertheim, Germany, cat.no. 23550327).
+Intact three-dimensional cell stripes are obtained by gently scratching off the epithelial
+tissue from the inserts of the ALI cell cultures (for more details see below). A minimum of
+10 videos with side views and usually two top views of the cell groups are recorded at RT
+(23–25 ◦C). Each video is entirely processed within our own software (“Cilialyzer”) and
+assessed by a scoring system developed by S. Tschanz, considering recent publications [18].
+The evaluation criteria are (1) ciliary beating pattern (CBP) with a score from 0 to 4, with
+”4” indicating a physiological, complete pattern with power and recovery stroke showing
+appropriate bending for each phase and “0” indicating no pattern at all. (2) Ciliary beating
+amplitude with a score from 0 to 4, with “4” being a full amplitude, and “0” having
+no amplitude at all. (3) Intracellular coordination of ciliary beating with a score from
+0 to 2, with “2” showing a well-coordinated ciliary motion within a single cell and “0”
+showing no coordination at all. (4) Intercellular coordination of ciliary beating with a
+score from 0 to 2, with “2” showing well-coordinated, propagating ciliary motion of cilia
+over several cells with physiological temporal displacement and cooperation (metachronal
+wave) and “0” showing no coordination between cells at all. (5) Cilia-associated transport
+of available particles (cell fragments, erythrocytes etc.) is analyzed with a score of either
+“1” (transport observed) or “0” (no transport present). (6) Ciliary beat frequency (CBF)
+is estimated within several regions of interest (ROI): After selecting a ROI, CBF and its
+standard deviation are computed within the “Cilialyzer” software based on the generation
+of the grey level Fourier power spectrum. CBF is laboratory and technique-dependent;
+therefore, it is recommended to establish a standard CBF with healthy control cells. These
+scores are ﬁlled in an Excel template (see Supplementary Material) and the average of each
+of the six parameters is calculated to obtain a ﬁnal score. A score >3 for CBP and amplitude
+and >1.5 for both coordination types and CBF between 7 and 12 Hz are considered as “no
+evidence for PCD”, while a score <2 for CBP and amplitude and <1 for the two coordination
+types and a CBF <7 or >12 Hz reﬂects “high evidence for PCD”. The scores between the
+just indicated ranges is considered “inconclusive”. Furthermore, prevalent high frequent
+(>15 Hz) ﬂickering of cilia with low amplitude and absent bending, as well as rotational
+movements in top-views are considered as “high evidence for PCD”. At PCD-UNIBE, two
+diagnostic research specialists always assess all of the recordings. Additionally, to each
+recording speciﬁc observations, such as rotation, impaired partial bending, obstructing
+cell debris or mucus, or cilia length, are noted. These comments are checked for repeat
+pathologies (e.g., reduced distal bending) throughout the different videos and a sample
+quality is assessed (e.g., groups of cells, vitality, ciliation, mucus, etc.). The ﬁnal HSVM
+verdict is a combination of the scores and the observation aspects in all available samples
+(usually fresh and ALI cells culture).
+Remark about heterogeneity: in regard to the fresh HSVM, we recommend selecting gen-
+erally vital looking cells with active ciliary movement—considering that frequent artifacts,
+due to the brushing, can result in secondary dyskinesia, giving the beneﬁt of the doubt that
+the more active beating represents the more physiological conditions. Conversely, concern-
+ing ALI HSVM, secondary dyskinesia effects should have been considerably mitigated: the
+intact epithelial stripes from the ALI insert should closer represent physiological conditions
+and any dyskinetic movements should be regarded as a possible pathology.
+
+Diagnostics 2021, 11, 1540
+18 of 21
+ 
+Figure A2. Slide with rubber spacer and cover slip.
+Appendix A.4. Immunoﬂuorescence (IF)
+We prefer to perform immunoﬂuorescence staining with slides derived from the ALI
+cell cultures, as the quality and number of nicely ciliated cells are usually higher when
+compared to the fresh slides. However, slides from the fresh sample can be used. We
+usually ﬁrst stain for the proteins DNAH5, GAS8, and RSHP9 (our standard panel) and,
+depending on the ﬁndings of those stainings and the HSVM, we perform other stainings.
+We have established protocols for the following proteins (in addition to the standard panel):
+DNAH9, DNAH11, DNALI1, dynein axonemal intermediate chain 1 (DNAI1), DNAI1,
+coiled-coil domain containing 40 (CCDC40), RSPH1, and RSPH4a (see Table S1 for details
+about the antibodies).
+The protocol for DNAH5, DNALI1, GAS8, RSPH9, CCDC40, DNAI1, and DNAI2
+is as follows: ﬁrst, slides are taken from the −20 ◦C freezer and allowed to defrost at RT.
+We use, for each patient, one slide per antibody, and for each staining cycle, we include
+one slide of a healthy control per antibody and an additional slide for a secondary only
+control for the healthy control and each patient (stained with tubulin and both secondary
+antibodies). An additional circle is drawn with the Dako Pen (S2002, Dako, Agilent, Santa
+Clara, CA, USA) around the circle already printed on the slide. Cells are ﬁxed using 200 µL
+of 4% paraformaldehyde 15 min at RT (ﬁxation buffer: 4% PFA; made with 10 mL 16% PFA
+(Lucerna Chem, Lucerne, Switzerland, #15710) and 30 mL phosphate-buffered saline (PBS;
+made from PBS tablets (GIBCO, ThermoFischer, Waltham, MA, USA, #18912-014), two
+tablets in 1 L Milli-Q water). After one wash with PBS, the cells are permeabilized using
+200 µL permeabilization buffer (PBS with 0.2% triton (100 mL PBS, 200 µL Triton-×100
+(Sigma Aldrich, #T9284), pipette slowly as it is viscous, allow to fully dissolve) for 10 min
+at RT. After washing with PBS again, the slides are blocked with 200 µL blocking buffer
+(PBS with 5% milk powder (10 mL PBS, 0.5 g milk powder (Carl Roth, Karlsruhe, Germany,
+#T145.2)) for 1 h at RT. Meanwhile, the primary antibodies (details see in Table A1) are
+prepared in blocking buffer, with the addition of tubulin (details see in Table A1) to each
+tube. Blocking buffer is removed and slides are dabbed with a paper towel to remove excess
+blocking buffer. Then, cells are incubated overnight at 4 ◦C in a wet and closed chamber
+with the primary antibodies (200 µL each, dilutions for all antibodies, except beta-tubulin,
+which works with a dilution of 1:1000). The next day, the slides are washed four times
+with PBS (1× wash down, 1× 3 min, 2× 10 min). Meanwhile, the secondary antibodies are
+prepared in freshly prepared blocking buffer and kept in dim light (goat anti-mouse 488 in
+a dilution of 1:2500, goat anti-rabbit 546 in a dilution of 1:1000) and 200 µL is added to the
+slides, 1.5 h at RT (protected from light). Afterwards, the antibody solutions are removed
+and the slides are again washed four times with PBS (1× wash down, 1× 3 min, and
+2× 10 min). Lastly, the slides are mounted with one drop of Antifade Mounting Medium
+with DAPI (hardset, ENZO Life Sciences, Farmingdale, NY, USA, #ENZ-53003), covered
+with a cover glass (Cover glass, 22 × 22 mm, Duran Group, 235503207), and stored at 4 ◦C
+protected from light.
+
+Diagnostics 2021, 11, 1540
+19 of 21
+Table A1. Overview of the antibodies for the IF stainings.
+Protein
+Manufacturer
+Product Number
+Dilution
+beta-tubulin
+Sigma Aldrich
+T7451
+1:1000
+CCDC40
+Prestige, Sigma Aldrich
+HPA022974
+1:100
+DNAH5
+Prestige, Sigma Aldrich
+HPA037470
+1:100
+DNAH9
+Prestige, Sigma Aldrich
+HPA052641
+1:50
+DNAH11
+Prestige, Sigma Aldrich
+HPA045880
+1:50
+DNAI1
+Prestige, Sigma Aldrich
+HPA021649
+1:100
+DNAI2
+Prestige, Sigma Aldrich
+HPA050565
+1:100
+DNALI1
+Prestige, Sigma Aldrich
+HPA028305
+1:100
+GAS8
+Prestige, Sigma Aldrich
+HPA041311
+1:200
+RSPH1
+Prestige, Sigma Aldrich
+HPA017382
+1:100
+RSPH4a
+Prestige, Sigma Aldrich
+HPA031197
+1:200
+RSPH9
+Novus, Bio-Techne
+NBP1-86750
+1:100
+goat anti-mouse 488
+Invitrogen
+A21121
+1:2500
+goat anti-rabbit 546
+Invitrogen
+A11035
+1:1000
+For DNAH11 and DNAH9, the staining process differs slightly: Washing steps are
+always performed using PBS-Triton. After the permeabilization, the cells are washed with
+200 µL PBS-Triton for 3 min and 2× 10 min. The blocking buffer is prepared with PBS-
+Triton and the antibodies are diluted in PBS-Triton. Secondary antibodies are incubated for
+30 min only and before mounting the cells, there is one additional washing with PBS (not
+PBS-Triton). Pictures of at least 10 cells are taken with a Leica DMI4000 B Multipurpose
+Fluorescence System using the 63× oil objective. Every channel is imaged separately and
+an overlay of all colors is done.
+Appendix A.5. Transmission Electron Microscopy (TEM)
+TEM processing is performed as previously described [21]. Brieﬂy, tissue from nasal
+brushings (only if HSVM shows big pieces of cells with cilia) and or cell culture membranes
+(see chapter “Processing of mature ALI cultures” for more details) are ﬁxed in 2.5% GA
+(350 mOsm, buffered with 0.15 M HEPES at pH7.4) and postﬁxed with 1% OsO4 (EMS,
+Hatﬁeld, PA, USA) in 0.1 M Na-cacodylate-buffer (Merck, Darmstadt, Germany) at 4 ◦C for
+1 h. After another washing (0.05 M maleic NaOH-buffer three times for 5 min), the tissue
+is dehydrated with 70%, 80%, and 96% ethanol (Alcosuisse, Rüti b. Büren, Switzerland)
+for 15 min each at RT. Then, the tissue is immersed in 100% ethanol (Merck, Darmstadt,
+Germany; three times, 10 min), in acetone (Merck, Darmstadt, Germany; two times, 10 min)
+and in acetone-Epon (1:1) overnight at RT. The following day, the tissue is embedded
+in Epon (Sigma-Aldrich, Buchs, Switzerland) and left to harden (60 ◦C, 5 days). The
+orientation of tissue from ALI inserts (providing large epithelial stripes) is observable
+under a light microscope. A small block of epon containing the tissue is subsequently
+sawed out and realigned, allowing for optimal orientation of semi- and ultra-thin sectioning
+in order to get numerous orthogonal cilia cross sections.
+An ultramicrotome UC6 (Leica Microsystems, Vienna, Austria) is used to produce
+semi-thin (1 um, for light microscopy, stained 0.5% toluidine blue O (Merck, Darmstadt,
+Germany) and ultra-thin sections (70–80 nm, for electron microscopy). The ultra-thin
+sections are mounted on 200 mesh copper grids and stained with a Leica Ultrostainer (Leica
+Microsystems, Vienna, Austria) using UranyLess (EMS, Hatﬁeld, PA, USA) and lead citrate.
+Sections are viewed on a transmission electron microscope (Tecnai Spirit, FEI, Brno,
+Czech Republic) equipped with a 4 Megapixel digital camera (Veleta, Olympus, Soft Imag-
+ing System, Münster, Germany) at 80 kV. Moreover, 30 to 50 images with ﬁnal magniﬁcation
+of 60,000× are captured providing at least 100–200 orthogonal ciliary transects. One axis
+tilting of the specimen holder in the range of maximally 20◦is sometimes used to increase
+the delineation of axonemal structures and dynein arms. The ultrastructural analysis is
+mainly based on the detection of the hallmark signs of the axonemal structure and the
+dynein motor proteins, according to the international consensus guidelines on TEM in PCD
+
+Diagnostics 2021, 11, 1540
+20 of 21
+diagnosis [24]. The result of the visual evaluation is transferred to an Excel form, providing
+scores of PCD probability (this Excel form can be found under Supplementary Material).
+Appendix A.6. Genetics—Whole Genome Sequencing at HUG
+For genetic analysis, patients’ blood samples (collected in EDTA tubes) are sent to
+genetic testing centers (Molecular and Genetic Diagnostic Lab, University Hospital Geneva
+or Human Genetics, Inselspital, Bern University Hospital, Switzerland) to check for genetic
+variants in all—by the time point of the analysis—known PCD-associated genes by whole
+exome sequencing (next-generation-sequencing).
+References
+1.
+Lucas, J.S.; Burgess, A.; Mitchison, H.M.; Moya, E.; Williamson, M.; Hogg, C. Diagnosis and management of primary ciliary
+dyskinesia. Arch. Dis. Child. 2014, 99, 850–856. [CrossRef] [PubMed]
+2.
+Kuehni, C.E.; Frischer, T.; Strippoli, M.P.; Maurer, E.; Bush, A.; Nielsen, K.G.; Escribano, A.; Lucas, J.S.; Yiallouros, P.; Omran, H.;
+et al. Factors inﬂuencing age at diagnosis of primary ciliary dyskinesia in European children. Eur. Respir. J. 2010, 36, 1248–1258.
+[CrossRef] [PubMed]
+3.
+Ardura-Garcia, C.; Goutaki, M.; Carr, S.B.; Crowley, S.; Halbeisen, F.S.; Nielsen, K.G.; Pennekamp, P.; Raidt, J.; Thouvenin,
+G.; Yiallouros, P.K.; et al. Registries and collaborative studies for primary ciliary dyskinesia in Europe. ERJ Open Res. 2020, 6.
+[CrossRef] [PubMed]
+4.
+Afzelius, B.A. A human syndrome caused by immotile cilia. Science 1976, 193, 317–319. [CrossRef]
+5.
+Fliegauf, M.; Benzing, T.; Omran, H. When cilia go bad: Cilia defects and ciliopathies. Nat. Rev. Mol. Cell Biol. 2007, 8, 880–893.
+[CrossRef]
+6.
+Leigh, M.W.; Ferkol, T.W.; Davis, S.D.; Lee, H.S.; Rosenfeld, M.; Dell, S.D.; Sagel, S.D.; Milla, C.; Olivier, K.N.; Sullivan, K.M.; et al.
+Clinical Features and Associated Likelihood of Primary Ciliary Dyskinesia in Children and Adolescents. Ann. Am. Thorac. Soc.
+2016, 13, 1305–1313. [CrossRef]
+7.
+Holzmann, D.; Felix, H. Neonatal respiratory distress syndrome—A sign of primary ciliary dyskinesia? Eur. J. Pediatr. 2000, 159,
+857–860. [CrossRef]
+8.
+Noone, P.G.; Leigh, M.W.; Sannuti, A.; Minnix, S.L.; Carson, J.L.; Hazucha, M.; Zariwala, M.A.; Knowles, M.R. Primary ciliary
+dyskinesia: Diagnostic and phenotypic features. Am. J. Respir. Crit. Care Med. 2004, 169, 459–467. [CrossRef] [PubMed]
+9.
+Lucas, J.S.; Davis, S.D.; Omran, H.; Shoemark, A. Primary ciliary dyskinesia in the genomics age. Lancet. Respir. Med. 2020, 8,
+202–216. [CrossRef]
+10.
+Goutaki, M.; Meier, A.B.; Halbeisen, F.S.; Lucas, J.S.; Dell, S.D.; Maurer, E.; Casaulta, C.; Jurca, M.; Spycher, B.D.; Kuehni, C.E.
+Clinical manifestations in primary ciliary dyskinesia: Systematic review and meta-analysis. Eur. Respir. J. 2016, 48, 1081–1095.
+[CrossRef]
+11.
+Kartagener, M.; Stucki, P. Bronchiectasis with situs inversus. Arch. Pediatr. 1962, 79, 193–207.
+12.
+Honore, I.; Burgel, P.R. Primary ciliary dyskinesia in adults. Rev. Mal. Respir. 2016, 33, 165–189. [CrossRef]
+13.
+Nyilas, S.; Bauman, G.; Pusterla, O.; Sommer, G.; Singer, F.; Stranzinger, E.; Heyer, C.; Ramsey, K.; Schlegtendal, A.; Benzrath, S.;
+et al. Structural and Functional Lung Impairment in Primary Ciliary Dyskinesia. Assessment with Magnetic Resonance Imaging
+and Multiple Breath Washout in Comparison to Spirometry. Ann. Am. Thorac. Soc. 2018, 15, 1434–1442. [CrossRef]
+14.
+Horani, A.; Ferkol, T.W. Advances in the Genetics of Primary Ciliary Dyskinesia: Clinical Implications. Chest 2018, 154, 645–652.
+[CrossRef]
+15.
+Lucas, J.S.; Barbato, A.; Collins, S.A.; Goutaki, M.; Behan, L.; Caudri, D.; Dell, S.; Eber, E.; Escudier, E.; Hirst, R.A.; et al. European
+Respiratory Society guidelines for the diagnosis of primary ciliary dyskinesia. Eur. Respir. J. 2017, 49, 1601090. [CrossRef]
+[PubMed]
+16.
+Shapiro, A.J.; Davis, S.D.; Polineni, D.; Manion, M.; Rosenfeld, M.; Dell, S.D.; Chilvers, M.A.; Ferkol, T.W.; Zariwala, M.A.; Sagel,
+S.D.; et al. Diagnosis of Primary Ciliary Dyskinesia. An Ofﬁcial American Thoracic Society Clinical Practice Guideline. Am. J.
+Respir. Crit. Care Med. 2018, 197, e24–e39. [CrossRef] [PubMed]
+17.
+Shapiro, A.J.; Ferkol, T.W.; Manion, M.; Leigh, M.W.; Davis, S.D.; Knowles, M.R. High-Speed Videomicroscopy Analysis Presents
+Limitations in Diagnosis of Primary Ciliary Dyskinesia. Am. J. Respir. Crit. Care Med. 2020, 201, 122–123. [CrossRef] [PubMed]
+18.
+Kempeneers, C.; Seaton, C.; Garcia Espinosa, B.; Chilvers, M.A. Ciliary functional analysis: Beating a path towards standardization.
+Pediatr. Pulmonol. 2019, 54, 1627–1638. [CrossRef] [PubMed]
+19.
+Coren, M.E.; Meeks, M.; Morrison, I.; Buchdahl, R.M.; Bush, A. Primary ciliary dyskinesia: Age at diagnosis and symptom history.
+Acta Paediatr. 2002, 91, 667–669. [CrossRef] [PubMed]
+20.
+Polineni, D.; Davis, S.D.; Dell, S.D. Treatment recommendations in Primary Ciliary Dyskinesia. Paediatr. Respir. Rev. 2016, 18,
+39–45. [CrossRef]
+21.
+Nussbaumer, M.K.E.; Tschanz, S.A.; Savas, S.T.; Casaulta, C.; Goutaki, M.; Blanchon, S.; Jung, A.; Regamey, N.; Kuehni, C.E.;
+Latzin, P.; et al. Diagnosis of Primary Ciliary Dyskinesia: Discrepancy according to different algorithms. ERJ Open 2021, 197, 12.
+[CrossRef]
+
+Diagnostics 2021, 11, 1540
+21 of 21
+22.
+Behan, L.; Dimitrov, B.D.; Kuehni, C.E.; Hogg, C.; Carroll, M.; Evans, H.J.; Goutaki, M.; Harris, A.; Packham, S.; Walker, W.T.; et al.
+PICADAR: A diagnostic predictive tool for primary ciliary dyskinesia. Eur. Respir. J. 2016, 47, 1103–1112. [CrossRef] [PubMed]
+23.
+Schneiter, M. On the Structure and Function of Mucociliary Epithelia. Ph.D. Thesis, University of Bern, Bern, Switzerland, 2020.
+24.
+Shoemark, A.; Boon, M.; Brochhausen, C.; Bukowy-Bieryllo, Z.; De Santi, M.M.; Goggin, P.; Grifﬁn, P.; Hegele, R.G.; Hirst, R.A.;
+Leigh, M.W.; et al. International consensus guideline for reporting transmission electron microscopy results in the diagnosis of
+primary ciliary dyskinesia (BEAT PCD TEM Criteria). Eur. Respir. J. 2020, 55. [CrossRef]
+25.
+Hirst, R.A.; Rutman, A.; Williams, G.; O’Callaghan, C. Ciliated air-liquid cultures as an aid to diagnostic testing of primary ciliary
+dyskinesia. Chest 2010, 138, 1441–1447. [CrossRef] [PubMed]
+26.
+Coles, J.L.; Thompson, J.; Horton, K.L.; Hirst, R.A.; Grifﬁn, P.; Williams, G.M.; Goggin, P.; Doherty, R.; Lackie, P.M.; Harris, A.;
+et al. A Revised Protocol for Culture of Airway Epithelial Cells as a Diagnostic Tool for Primary Ciliary Dyskinesia. J. Clin. Med.
+2020, 9, 3753. [CrossRef]
+27.
+Pifferi, M.; Bush, A.; Montemurro, F.; Pioggia, G.; Piras, M.; Tartarisco, G.; Di Cicco, M.; Chinellato, I.; Cangiotti, A.M.; Boner,
+A.L. Rapid diagnosis of primary ciliary dyskinesia: Cell culture and soft computing analysis. Eur. Respir. J. 2013, 41, 960–965.
+[CrossRef]
+28.
+Hirst, R.A.; Jackson, C.L.; Coles, J.L.; Williams, G.; Rutman, A.; Goggin, P.M.; Adam, E.C.; Page, A.; Evans, H.J.; Lackie, P.M.; et al.
+Culture of Primary Ciliary Dyskinesia Epithelial Cells at Air-Liquid Interface Can Alter Ciliary Phenotype but Remains a Robust
+and Informative Diagnostic Aid. PLoS ONE 2014, 9, e89675. [CrossRef]
+29.
+Rubbo, B.; Shoemark, A.; Jackson, C.L.; Hirst, R.; Thompson, J.; Hayes, J.; Frost, E.; Copeland, F.; Hogg, C.; O’Callaghan, C.; et al.
+Accuracy of High-Speed Video Analysis to Diagnose Primary Ciliary Dyskinesia. Chest 2019, 155, 1008–1017. [CrossRef]
+30.
+Behan, L.; Rubbo, B.; Lucas, J.S.; Dunn Galvin, A. The patient’s experience of primary ciliary dyskinesia: A systematic review.
+Qual. Life Res. Int. J. Qual. Life Asp. Treat. Care Rehabil. 2017, 26, 2265–2285. [CrossRef]
+31.
+Kobbernagel, H.E.; Buchvald, F.F.; Haarman, E.G.; Casaulta, C.; Collins, S.A.; Hogg, C.; Kuehni, C.E.; Lucas, J.S.; Moser, C.E.;
+Quittner, A.L.; et al. Efﬁcacy and safety of azithromycin maintenance therapy in primary ciliary dyskinesia (BESTCILIA): A
+multicentre, double-blind, randomised, placebo-controlled phase 3 trial. Lancet. Respir. Med. 2020, 8, 493–505. [CrossRef]
+32.
+Stokes, A.B.; Kieninger, E.; Schogler, A.; Kopf, B.S.; Casaulta, C.; Geiser, T.; Regamey, N.; Alves, M.P. Comparison of three different
+brushing techniques to isolate and culture primary nasal epithelial cells from human subjects. Exp. Lung Res. 2014, 40, 327–332.
+[CrossRef] [PubMed]

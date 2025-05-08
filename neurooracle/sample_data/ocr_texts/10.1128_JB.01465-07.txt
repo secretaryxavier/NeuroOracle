@@ -1,0 +1,578 @@
+JOURNAL OF BACTERIOLOGY, Feb. 2008, p. 1329–1334
+Vol. 190, No. 4
+0021-9193/08/$08.000
+doi:10.1128/JB.01465-07
+Copyright © 2008, American Society for Microbiology. All Rights Reserved.
+A Point Mutation in the Two-Component Regulator PhoP-PhoR
+Accounts for the Absence of Polyketide-Derived Acyltrehaloses
+but Not That of Phthiocerol Dimycocerosates in
+Mycobacterium tuberculosis H37Ra§
+Marie-Laure Chesne-Seck,1† Nathalie Barilone,2† Frédéric Boudou,2 Jesu´s Gonzalo Asensio,4
+Pappachan E. Kolattukudy,5 Carlos Martı´n,4 Stewart T. Cole,3 Brigitte Gicquel,2
+Deshmukh N. Gopaul,1 and Mary Jackson2*
+Laboratoire de Biochimie et Biophysique des Macromole´cules—URA2185 CNRS,1 Unite´ de Ge´ne´tique Mycobacte´rienne,2 and
+Unite´ de Ge´ne´tique Mole´culaire Bacte´rienne,3 Institut Pasteur, Paris, France; Departamento de Microbiologı´a,
+Medicina Preventiva y Salud Pu´blica, Universidad de Zaragoza, C/Domingo Miral sn., 50009 Zaragoza,
+Spain4; and Department of Molecular Biology and Microbiology, University of
+Central Florida, Orlando, Florida 32816-23605
+Received 10 September 2007/Accepted 25 November 2007
+Similarities between Mycobacterium tuberculosis phoP-phoR mutants and the attenuated laboratory strain M.
+tuberculosis H37Ra in terms of morphological and cytochemical properties, lipid content, gene expression and
+virulence attenuation prompted us to analyze the functionality of this two-component regulator in the latter
+strain. Sequence analysis revealed a base substitution resulting in a one-amino-acid change in the likely
+DNA-binding region of PhoP in H37Ra relative to H37Rv. Using gel-shift assays, we show that this mutation
+abrogates the ability of the H37Ra PhoP protein to bind to a 40-bp segment of its own promoter. Consistent
+with this result, the phoP gene from H37Rv but not that from H37Ra was able to restore the synthesis of
+sulfolipids, diacyltrehaloses and polyacyltrehaloses in an isogenic phoP-phoR knock-out mutant of M. tuber-
+culosis Moreover, complementation of H37Ra with phoP from H37Rv fully restored sulfolipid, diacyltrehalose
+and polyacyltrehalose synthesis, clearly indicating that the lack of production of these lipids in H37Ra is solely
+due to the point mutation in phoP. Using a pks2-3/4 knock-out mutant of M. tuberculosis H37Rv, evidence is
+further provided that the above-mentioned polyketide-derived acyltrehaloses do not signiﬁcantly contribute to
+the virulence of the tubercle bacillus in a mouse model of infection. Reasons for the attenuation of H37Ra thus
+most likely stand in other virulence factors, many of which are expected to belong to the PhoP regulon and
+another of which, unrelated to PhoP, appears to be the lack of production of phthiocerol dimycocerosates in
+this strain.
+H37Rv and H37Ra are two variants of an Mycobacterium
+tuberculosis strain named H37 that was originally isolated from
+the sputum of a tuberculosis patient in 1905. Serial passaging
+of H37 through different media led to the dissociation of this
+isolate into two variants, a virulent one known as H37Rv and
+an avirulent one known as H37Ra, which also differ in their
+colonial morphology and cording properties (27, 39). With the
+goal of identifying the molecular determinants underlying the
+virulence attenuation of H37Ra, numerous approaches includ-
+ing genetic complementation of H37Ra with H37Rv genomic
+DNA (29), gene expression proﬁling (15, 28, 32), subtractive
+RNA hybridization (22) and comparative genomics, proteom-
+ics and lipidomics (4, 7, 10, 18, 26) have been undertaken.
+Although these studies have led to the identiﬁcation of a num-
+ber of genes or gene products the expression of which differs
+between H37Rv and H37Ra, it is still at present unclear to
+what extent these products account for the virulence attenua-
+tion of H37Ra. Furthermore, as attempts to restore the viru-
+lence of the H37Ra strain through genetic complementation
+with H37Rv DNA have so far yielded negative results (4, 29),
+it has been concluded that the virulence attenuation of H37Ra
+was certainly the result of multiple mutations and/or rear-
+rangements affecting multiple chromosomal loci.
+With the recent study by different groups of the two-com-
+ponent regulator PhoP-PhoR from M. tuberculosis (16, 24, 31,
+37, 40), striking similarities between H37Ra and different M.
+tuberculosis phoP-phoR knock-out mutants began to emerge.
+PhoP-PhoR is a two-component regulator whose disruption
+was shown to affect dramatically the ability of M. tuberculosis to
+replicate in animal and cellular models (31, 40). Like the
+H37Ra strain (14, 26, 27, 39), phoP-phoR mutants of M. tuber-
+culosis form smaller colonies on agar plates (31), tend to lose
+acid fastness (40), do not stain with neutral red (16) and fail to
+grow as serpentine cords (16, 31). Most of these attenuation,
+morphological and cytochemical properties have been pro-
+posed to be a direct consequence of the inability of both
+H37Ra and the phoP-phoR mutants to produce three classes of
+polyketide-derived acyltrehaloses known as sulfolipids (SL),
+* Corresponding author. Mailing address: Department of Microbi-
+ology, Immunology and Pathology, Colorado State University, Fort
+Collins, CO 80523-1682. Phone: (970) 491-3582. Fax: (970) 491-1815.
+E-mail: Mary.Jackson@colostate.edu.
+† These authors contributed equally to this work.
+§ Supplemental material for this article may be found at http:
+//jb.asm.org/.
+ Published ahead of print on 7 December 2007.
+1329
+
+diacyltrehaloses (DAT) and polyacyltrehaloses (PAT) (7, 10,
+16, 26). Deﬁnitive proof for this assumption was, however,
+lacking. With the more widespread use of microarrays, other
+striking parallels between the two types of strains in terms of
+gene expression became obvious as nine of the twenty-two
+genes whose expression was found to be consistently lower in
+H37Ra than in H37Rv were also among the most down-regu-
+lated in a phoP-phoR mutant of M. tuberculosis H37Rv (15, 40).
+These observations led us to investigate whether the H37Ra
+strain expressed a functional PhoP-PhoR two-component sys-
+tem.
+MATERIALS AND METHODS
+Bacterial strains. The M. tuberculosis strains used in this study were M. tuber-
+culosis H37Rv (ATCC 25618), M. tuberculosis H37Ra (ATCC 25177), the phoPR
+mutant of the M. tuberculosis clinical isolate 1237, 1237phoPR::hyg (16) and the
+msl3 strain (12).
+Production and puriﬁcation of PhoP-Rv and PhoP-Ra. The PhoP proteins
+from H37Rv and H37Ra (thereafter named PhoP-Rv and PhoP-Ra, respectively)
+were produced in Escherichia coli BL21(DE3)pLysS using the pET15b expres-
+sion plasmid (Novagen) and puriﬁed using a HiTrap Chelating HP afﬁnity col-
+umn on an A´KTA-prime FPLC (Amersham Biosciences). His tags were cleaved
+using the Thrombin CleanCleavage kit from Sigma. PhoP-Ra was obtained by
+producing a serine-to-leucine mutation at position 219 of PhoP-Rv using the
+QuikChange XL site-directed mutagenesis kit (Stratagene).
+Gel shift assays. The 40-bp fragment of the phoP promoter (phoP40) used in
+the gel shift assay experiments was designed according to results of DNase I
+protection assays (C. Martı´n, unpublished results) and encompassed region 31
+to 70, relative to the translational start site of phoP. This DNA fragment was
+labeled at the 5 end with IRD700 (InfraRed Dye 700, Li-Cor, Inc.). 25 nM
+double-stranded labeled phoP promoter probe and an increasing concentration
+of PhoP-Rv and PhoP-Ra proteins were mixed together in binding buffer [50 mM
+Tris HCl, pH 7.0, 100 mM KCl, 5% glycerol, 5 mM dithiothreitol, 1 mM EDTA,
+0.5% Tween, 50 g ml1 bovine serum albumin, 10 g ml1 poly(dI-dC)] and
+applied to a 20-cm  20-cm 5% native polyacrylamide gel. PhoP-Rv and
+PhoP-Ra were phosphorylated by incubation with 50 mM acetyl phosphate in a
+buffer consisting of 100 mM Tris HCl (pH 7.0), 10 mM MgCl2 and 150 mM KCl.
+Circular dichroism. Far-UV circular dichroism spectra were acquired at 25°C
+with an Aviv 215 spectropolarimeter (Aviv Biomedical) using a cylindrical cell
+with a 0.02-cm path-length. PhoP-Rv (0.7 mg ml1) and PhoP-Ra (0.22 mg
+ml1), both in 20 mM phosphate, 500 mM NaF, pH 8.0, were scanned three
+times from 260 to 190 nm (0.5-nm step) with an averaging time of 5 s per step.
+The spectra, corrected using buffer baselines measured under the same condi-
+tions, were normalized to the molar peptide bond concentration and path length
+(1 cm) as mean molar differential extinction coefﬁcient per residue (ε). Sec-
+ondary structure estimations were derived from the normalized spectra using the
+CONTIN/LL method included in the CDPro software and the SP43 protein
+reference set (38).
+Complementation studies. Plasmid pSO5K was described earlier (16). The
+same primers as were used to amplify phoP from M. tuberculosis H37Rv
+in pSO5K were used to amplify phoP from M. tuberculosis H37Ra in
+pOMKPhoP-Ra (19). In pSO5K and pOMKphoP-Ra, the phoP genes are
+expressed from their own promoter. pVVphoP-Rv and pVVphoP-Ra were
+constructed by PCR-amplifying the entire coding sequences of the phoP genes
+from M. tuberculosis H37Rv and H37Ra using the primers PhoP.9 (5-gggcgc
+ccatatgcggaaaggggttgatctcgtg-3) and PhoP.10 (5-gggaagctttcgaggctcccgcagtacg
+tagc-3) and cloning these fragments into the NdeI and HindIII restriction sites
+of the expression vector pVV16 (23).
+Lipid analyses, neutral red staining and cording properties. Radiolabeling of
+whole M. tuberculosis cells with [1-14C]propionate (speciﬁc activity, 56.7 Ci
+mol1, MP Biomedicals Inc.), extraction and analyses of lipids were performed
+as described (16). Neutral red staining of tubercle bacilli was performed as
+described by Soto and collaborators (36). For the analysis of cording properties,
+a drop of M. tuberculosis culture grown in Sauton’s medium was smeared onto a
+glass slide, stained by the standard Kinyoun procedure and observed under a
+light microscope at 1,000 magniﬁcation.
+Generation of a pks2-pks3-4 mutant of M. tuberculosis H37Rv. The ts-sacB
+method (30) was used to achieve allelic replacement at the pks2 locus of the
+pks3/4 M. tuberculosis mutant, msl3 (12). The M. tuberculosis H37Rv pks2 gene
+and ﬂanking regions were extracted from cosmid MTCY409 on a 6,576-bp EcoRI
+restriction fragment and a disrupted allele, pks2::kan, was obtained by replacing
+3,049 bp of the coding sequence of this gene bracketed between two NruI sites
+with the kanamycin resistance cassette from pUC4K (Amersham Pharmacia
+Biotech). pks2::kan was then cloned into the BamHI-cut and blunt-ended pPR27
+(30) to obtain pPR27pks2K, the construct used for allelic replacement in the
+msl3 strain. Allelic replacement at the pks2 locus of the msl3 strain was con-
+ﬁrmed by PCR using primers pks2.1 (5-gacggtgaccggatcctggcg-3) and pks2.2
+(5-gacgtacatgcgcggcaccgc-3).
+Virulence studies. 6- to 8-week-old female BALB/c mice were infected intra-
+venously with 105 CFU of M. tuberculosis H37Rv, M. tuberculosis H37Ra and the
+M. tuberculosis H37Rv pks2-3/4 mutant as described (20). Five mice were used
+per experimental point and per strain.
+RESULTS AND DISCUSSION
+Identiﬁcation of a point mutation in PhoP-Ra. Bacterial
+response regulator transcription factors can be classed into
+subfamilies based on structural similarity within their DNA-
+binding effector domains. Sequence similarities of the C-ter-
+minal effector domain identify PhoP from M. tuberculosis as a
+member of the OmpR/PhoB subfamily, characterized by a
+winged-helix DNA-binding domain (25). Sequencing of 2.9 kb
+of the chromosomal DNA of M. tuberculosis H37Ra encom-
+passing the entire coding sequences of phoP and phoR as well
+as 600 bp of the promoter region of phoP and 80 bp of down-
+stream DNA revealed only one single nucleotide polymor-
+phism affecting codon 219 (TCG 3 TTG) in phoP and chang-
+ing a serine to a leucine. S219 in PhoP of M. tuberculosis is
+equivalent to R200 in PhoB of E. coli which is comprised in the
+helix that penetrates the major groove of DNA and has been
+shown to be implicated in DNA binding (3). Data thus sug-
+gested that PhoP-Ra might be impaired in DNA binding.
+PhoP-Ra is unable to bind its own promoter. PhoP from M.
+tuberculosis has been proposed to repress its own expression
+(17). The ability of PhoP-Ra to bind its own promoter was thus
+investigated in vitro using gel shift assays. To this end, the
+PhoP-Rv and PhoP-Ra proteins were overproduced in E. coli
+as C-terminal His-tagged proteins and puriﬁed to homoge-
+neity by Ni2-NTA afﬁnity chromatography. Sodium dode-
+cyl
+sulfate-polyacrylamide
+gel
+electrophoresis
+analysis
+showed that they migrated with apparent molecular masses of
+approximately 27.5 kDa, consistent with the calculated molec-
+ular masses of PhoP-Rv (27,514 Da) and its S219L mutant
+(27,539 Da) (data not shown). PhoP-Ra and PhoP-Rv DNA
+binding experiments were carried out in the presence of 10 g
+ml1 poly(dI-dC) to prevent non-speciﬁc binding, an excess of
+recombinant proteins and a 40-bp DNA fragment (phoP40)
+comprising the DR1 and DR2 direct repeats identiﬁed by
+Gupta et al. (17). The ability of the recombinant proteins to
+bind DNA was checked before and after phosphorylation with
+acetyl phosphate. As shown in Fig. 1A, in this experimental
+setting, the binding of PhoP-Rv to phoP40 was phosphoryla-
+tion-dependent and resulted in the formation of two major
+higher-order complexes, most likely reﬂecting the existence of
+two PhoP-binding sites in phoP40. Under the same experimen-
+tal conditions, neither PhoP-Ra nor its phosphorylated coun-
+terpart P*PhoP-Ra bound to phoP40. The phosphorylation-
+dependent binding of PhoP-Rv to phoP40 is in apparent
+conﬂict with the recent report of Gupta and collaborators (17)
+of a phosphorylation-independent assembly of PhoP-DNA
+complexes at elevated concentrations of PhoP. Although both
+studies were performed in the presence of an excess of PhoP
+1330
+CHESNE-SECK ET AL.
+J. BACTERIOL.
+
+proteins, the fact that a non-His-tagged version of PhoP was
+used in our assays and important differences in the sizes of the
+DNA probes used in the gel shift experiments—a 40-bp frag-
+ment encompassing two direct repeats of the promoter region
+of phoP in our study, 160- to 410-bp DNA probes encompass-
+ing all three direct repeats and more than 100 bp of upstream
+region in the Gupta et al. study (17)—most likely account for
+this discrepancy.
+To ensure that the overall folding of the PhoP-Ra recombi-
+nant protein had not been compromised and that the point
+mutation alone accounted for the lack of binding of this pro-
+tein to phoP40, circular dichroism tests were carried out on
+PhoP-Rv and PhoP-Ra. Far-UV circular dichroism analysis of
+PhoP-Rv and PhoP-Ra revealed virtually identical spectral
+properties (Fig. 1B), indicating that the global secondary struc-
+ture of the two variants was very close. The double trough
+shape around 208 and 222 nm is characteristic of proteins with
+high -helix content. Estimations of the secondary structure
+content of PhoP-Rv and PhoP-Ra by single-value decomposi-
+tion showed in both cases that about 40% of the residues were
+involved in -helices, 15% in -strands, and 20% in turns,
+while 25% remained unordered.
+PhoP-Ra is unable to restore polyketide-derived acyltreha-
+lose synthesis in a phoP-phoR knock-out mutant of M. tuber-
+culosis. Because PhoP was shown to be a positive regulator of
+the synthesis of SL, DAT and PAT in M. tuberculosis (16, 40),
+we then set out to determine whether PhoP-Ra was able to
+restore
+the
+synthesis
+of
+these
+complex
+lipids
+in
+1237phoPR::hyg, a phoP-null mutant generated earlier in
+the M. tuberculosis clinical isolate 1237 (16). Two types of
+constructs were used in the complementation studies. In
+pOMKphoP-Ra and pSO5K, the phoP genes from H37Ra and
+H37Rv, respectively, are expressed from their own promoters.
+As the inability of PhoP-Ra to bind its promoter might have
+resulted in poor expression from this plasmid, other constructs
+in which the phoP genes from H37Ra and H37Rv were placed
+under control of the phsp60 promoter were also generated,
+resulting in pVVphoP-Ra and pVVphoP-Rv. All of these plas-
+mids were electroporated into 1237phoPR::hyg and the pro-
+duction of PhoP-Ra and PhoP-Rv from pVVphoP-Ra and
+pVVphoP-Rv was conﬁrmed by immunoblotting with mono-
+clonal anti-His antibodies (see Fig. S1 in the supplemental
+material). As reported earlier, complementation of the mutant
+with phoP-Rv expressed from either plasmid (pSO5K and
+pVVphoP-Rv) restored the production of SL, DAT and PAT
+in 1237phoPR::hyg (Fig. 2) (16). In contrast, the expression of
+phoP-Ra in 1237phoPR::hyg had no effect on the production
+of these lipids (Fig. 2), suggesting that PhoP-Ra is unable to
+activate the promoters of the genes governing their synthesis.
+PhoP-Ra is responsible for the absence of SL, DAT and PAT
+but not PDIM in the H37Ra strain. The introduction of
+pSO5K and pVVphoP-Rv in H37Ra induced the synthesis of
+SL, DAT and PAT (Fig. 3), indicating that the S219L mutation
+in PhoP-Ra is the sole reason for the absence of these lipids in
+the attenuated laboratory strain. Interestingly, lipid analyses
+also revealed that H37Ra is deﬁcient in the production of
+phthiocerol
+dimycocerosates
+(PDIM),
+another
+family
+of
+polyketide-derived lipids implicated in the virulence of M. tu-
+berculosis (5, 9, 21, 35) (Fig. 3). In contrast to the production
+of SL, DAT and PAT, the synthesis of PDIM was not restored
+upon complementation with phoP-Rv, consistent with our ear-
+lier observation that this family of lipids is apparently not
+under the regulatory control of PhoP-PhoR (16).
+Complementation of H37Ra with phoP-Rv also resulted in
+the partial restoration of the cording properties of H37Ra and
+in a colonial morphology resembling that of M. tuberculosis
+H37Rv (data not shown). Complementation, however, did not
+signiﬁcantly enhance the growth rate of H37Ra on agar plates
+FIG. 1. Production of recombinant forms of PhoP-Rv and PhoP-Ra and comparative analysis of their binding to a 40-bp region of the promoter
+of phoP by mobility shift assay. (A) 11 M of native or phosphorylated PhoP-Rv and PhoP-Ra (P*PhoP-Rv and P*PhoP-Ra) were analyzed for
+their ability to bind phoP40 using 25 nM of labeled DNA probe as described under Materials and Methods. 0, no protein added to the assay. The
+arrows indicate the positions of the two shifted P*PhoP-Rv-DNA complexes. (B) Circular dichroism spectra of PhoP-Rv (bold line) and PhoP-Ra
+(thin line).
+VOL. 190, 2008
+PhoP OF MYCOBACTERIUM TUBERCULOSIS H37Ra
+1331
+
+and did not confer to it the ability to stain with neutral red
+(data not shown).
+Effect of the combined loss of SL, DAT and PAT on the
+virulence of M. tuberculosis H37Rv. Because of their likely
+involvement in the neutral red staining and cording properties
+of the tubercle bacillus, SL, DAT and PAT have often been
+proposed to be one of the major causes of the virulence atten-
+uation of the H37Ra strain. This was further supported by the
+important decrease in virulence of phoP mutants of M. tuber-
+culosis lacking the same families of lipids and the decreased
+pathogenicity of mmpL8 mutants of M. tuberculosis deﬁcient in
+the production of mature forms of SL (8, 11, 16, 31, 40).
+Arguing against this assumption, however, isogenic pks3/4 and
+pks2 mutants of M. tuberculosis H37Rv, speciﬁcally deﬁcient in
+the production of DAT and PAT or all forms of SL, respec-
+tively, were reported to be as virulent as their wild-type parent
+in the mouse or guinea pig models of infection (33, 34). Given
+that the synthesis of SL, DAT and PAT is coordinately regu-
+lated by PhoP (16, 40), it was thus proposed that these families
+of lipids might be able to compensate for one another and that
+their roles in virulence might only become clearly visible when
+their synthesis is abolished simultaneously (21).
+In order to investigate this hypothesis and address the ques-
+tion of the contribution of these lipids to the virulence atten-
+uation of H37Ra, we undertook to generate an SL/DAT/PAT
+mutant of M. tuberculosis H37Rv and to compare its virulence
+to that of the wild-type H37Rv and H37Ra strains in a murine
+model. A pks2-3/4 knock-out mutant was constructed by allelic
+replacement at the pks2 locus of the msl3 (pks3/4) mutant of
+H37Rv (12) using the ts-sacB method (see Fig. S2 in the sup-
+plemental material) (30). As expected, the msl3pks2 mutant
+was totally devoid of SL, DAT and PAT (see Fig. S3 in the
+supplemental material). It was also partially impaired in its
+ability to grow as serpentine cords in liquid medium and dis-
+played an intermediate phenotype between H37Rv and H37Ra
+in this respect (data not shown). However, it grew similarly to
+wild-type H37Rv and displayed a normal morphology on 7H11
+agar plates. The mutant was used, along with the H37Rv and
+H37Ra strains, to infect BALB/c mice. As shown in Fig. 4, the
+ability of the mutant to multiply and persist in mice over a
+90-day period was comparable to that of wild-type H37Rv,
+indicating that the combined loss of the three families of acyl-
+trehaloses had no impact on the virulence of M. tuberculosis
+H37Rv in this model. Interestingly, while the H37Ra strain
+failed to ﬁx neutral red, the mutants were as proﬁcient as M.
+tuberculosis H37Rv at staining with the dye (data not shown).
+It can thus be concluded from these studies that the loss of SL,
+DAT and PAT per se is unlikely to be a major cause of the
+inability of M. tuberculosis H37Ra to produce progressive dis-
+ease in animal models. Moreover, the simultaneous loss of
+these three families of lipids does not appear to have any
+signiﬁcant impact on the growth rate and neutral red staining
+properties of the tubercle bacillus.
+FIG. 2. Acyltrehalose composition of phoP-phoR knock-out mutants of M. tuberculosis complemented with the phoP genes from M. tuberculosis
+H37Ra and M. tuberculosis H37Rv. Autoradiograms of thin-layer chromatograms of lipids derived from [1-14C]propionate are shown. A) For the
+analysis of DAT and SL, 20,000 cpm of [1-14C]propionate-derived total lipids were subjected to thin-layer chromatography with chloroform:
+methanol:water (90:10:1, by vol.) as the solvent. B) PAT were analyzed by loading 20,000 cpm of [1-14C]propionate-derived total lipids on thin-layer
+chromatography plates and developing the plates thrice in petroleum ether (60/80°C):acetone (92:8, by vol.) in the ﬁrst direction and once in
+toluene:acetone (95:5, by vol.) in the second direction. Only the lipid proﬁles of the 1237 mutants complemented with the pSO5K and
+pOMKphoP-Ra plasmids are shown. Similar proﬁles were obtained for the mutants complemented with pVVphoP-Rv and pVVphoP-Ra.
+1332
+CHESNE-SECK ET AL.
+J. BACTERIOL.
+
+Conclusions. Evidence is provided in this study that a point
+mutation in the DNA-binding region of the PhoP response
+regulator from M. tuberculosis H37Ra is responsible for the
+inability of this strain to produce SL, DAT and PAT. This
+mutation also partially accounts for the particular morphology
+of H37Ra.
+Observations made on an msl3pks2 knock-out mutant of
+M. tuberculosis H37Rv further allowed us to conclude that
+while SL, DAT and PAT are likely to account, at least in part,
+for the inability of H37Ra to grow as serpentine cords, they
+have by themselves no signiﬁcant impact on the growth rate,
+virulence and ability of the tubercle bacillus to stain with neu-
+tral red. A recent study on the neutral red staining properties
+of lipid-deﬁcient mutants of M. tuberculosis (6) suggests, how-
+ever, that the loss of PDIM in addition to SL, DAT and PAT
+is the likely cause of the inability of H37Ra to ﬁx the dye.
+Given the central role of PhoP-PhoR in M. tuberculosis
+virulence (31, 40), it is most likely that the identiﬁed muta-
+tion, along with the absence of PDIM, whose roles in patho-
+genicity have been well documented (5, 9, 21, 35), is respon-
+sible for much of the virulence attenuation of H37Ra. A
+study aimed at evaluating the virulence and immunological
+properties of H37Ra complemented with phoP-Rv has been
+undertaken by some of us to verify this hypothesis and will
+be reported elsewhere (R. Brosch and S. T. Cole, unpub-
+lished results). It is expected that the characterization of the
+FIG. 4. Multiplication and persistence of M. tuberculosis H37Ra,
+M. tuberculosis H37Rv and msl3pks2 in the lungs (A) and spleen (B) of
+intravenously infected BALB/c mice. Results are expressed as means 	
+standard deviations (error bars) of CFU counts for ﬁve infected mice.
+H37Ra (diamonds); wild-type M. tuberculosis H37Rv (triangles);
+msl3pks2 (squares). Asterisks indicate P values 
+ 0.05 (Student’s t
+test) for a comparison of H37Rv- versus msl3pks2-infected mice.
+FIG. 3. Complementation of the H37Ra strain with the phoP-Rv gene. Autoradiograms of thin-layer chromatograms of lipids derived from
+[1-14C]propionate are shown (20,000 cpm were loaded per lane). For the analysis of DAT and SL, lipids were subjected to thin-layer chroma-
+tography with chloroform:methanol:water (60:30:6, by vol.) as the solvent. The minor compound(s) displaying similar migration properties as DAT
+in the H37Ra strain might correspond to minor forms of diacyltrehaloses esteriﬁed with hydroxylated long-chain methyl-branched fatty acids or
+short-chain unsaturated mono-methyl-branched fatty acids (2, 13). PDIM were analyzed with petroleum ether (60/80°C):ethyl acetate (98:2, by vol.,
+three developments) as the solvent. The solvent systems used for the analysis of PAT were identical to those described in Fig. 2. Only the lipid
+proﬁles of H37Ra complemented with the pSO5K are shown. Similar proﬁles were obtained for H37Ra complemented with pVVphoP-Rv. CL,
+cardiolipin; PE, phosphatidylethanolamine; PI, phosphatidyl-myo-inositol; PIM2, phosphatidyl-myo-inositol dimannosides.
+VOL. 190, 2008
+PhoP OF MYCOBACTERIUM TUBERCULOSIS H37Ra
+1333
+
+PhoP regulon will allow other molecular determinants con-
+tributing to the attenuation phenotype of M. tuberculosis
+H37Ra to be identiﬁed. Possible such members of this regu-
+lon include the lipF, fbpA and mmpL8 genes (40), the dis-
+ruption of all of which has been reported to affect M. tuber-
+culosis virulence and/or pathogenicity (1, 5, 8, 11).
+ACKNOWLEDGMENTS
+This work was supported by the Institut Pasteur (GPH-05, Tuber-
+culose) and the European Commission contract LSHP-CT-2003-
+503367.
+We are grateful to Dr. Patrick England (Biophysics core facility,
+Pasteur Institute) for assistance with acquisition and discussion of the
+CD spectra.
+REFERENCES
+1. Armitige, L. Y., C. Jagannath, A. R. Wanger, and S. J. Norris. 2000. Dis-
+ruption of the genes encoding antigen 85A and antigen 85B of Mycobacte-
+rium tuberculosis H37Rv: effect on growth in culture and in macrophages.
+Infect. Immun. 68:767–778.
+2. Besra, G. S., R. Bolton, M. R. McNeil, M. Ridell, K. E. Simpson, J. Glushka,
+H. van Halbeek, P. J. Brennan, and D. E. Minnikin. 1992. Structure eluci-
+dation and antigenicity of a novel family of glycolipid antigens from Myco-
+bacterium tuberculosis H37Rv. Biochemistry 31:9832–9837.
+3. Blanco, A. G., M. Sola, F.-X. Gomis-Ruth, and M. Coll. 2002. Tandem DNA
+recognition by PhoB, a two-component signal transduction activator. Struc-
+ture 10:701–713.
+4. Brosch, R., W. J. Philipp, E. Stavropoulos, J. M. Colston, S. T. Cole, and
+S. V. Gordon. 1999. Genomic analysis reveals variation between Mycobacte-
+rium tuberculosis H37Rv and the attenuated M. tuberculosis H37Ra strain.
+Infect. Immun. 67:5768–5774.
+5. Camacho, L. R., D. Ensergueix, E. Pe´rez, B. Gicquel, and C. Guilhot. 1999.
+Identiﬁcation of a virulence gene cluster of Mycobacterium tuberculosis by
+signature-tagged transposon mutagenesis. Mol. Microbiol. 34:257–267.
+6. Cardona, P.-J., C. Y. Soto, C. Martin, B. Gicquel, G. Agusti, E. Guirado,
+T. D. Sirakova, P. E. Kolattukudy, E. Julian, and M. Luquin. 2005. Neutral
+red reaction is related to virulence and cell wall methyl-branched lipids in
+Mycobacterium tuberculosis. Microbes Infect. 8:183–190.
+7. Cason, J., C. Freeman Allen, W. DeAcetis, and G. J. Fonken. 1956. Fatty
+acids from the lipides of non-virulent strains of the tubercle bacillus. J. Biol.
+Chem. 220:893–904.
+8. Converse, S. E., J. D. Mougous, M. D. Leavell, J. A. Leary, C. R. Bertozzi,
+and J. S. Cox. 2003. MmpL8 is required for sulfolipid-1 biosynthesis and
+Mycobacterium tuberculosis virulence. Proc. Natl. Acad. Sci. USA 100:6121–
+6126.
+9. Cox, J. S., B. Chen, M. McNeil, and W. R. Jacobs, Jr. 1999. Complex lipid
+determines tissue-speciﬁc replication of Mycobacterium tuberculosis in mice.
+Nature 402:79–83.
+10. Daffe´, M., C. Lacave, M.-A. Lane´elle, M. Gillois, and G. Lane´elle. 1988.
+Polyphthienoyl trehalose, glycolipids speciﬁc for virulent strains of the tu-
+bercle bacillus. Eur. J. Biochem. 172:579–584.
+11. Domenech, P., M. B. Reed, C. S. Dowd, C. Manca, G. Kaplan, and C. E.
+Barry III. 2004. The role of MmpL8 in sulfatide biogenesis and virulence of
+Mycobacterium tuberculosis. J. Biol. Chem. 279:21257–21265.
+12. Dubey, V. S., T. D. Sirakova, and P. E. Kolattukudy. 2002. Disruption of msl3
+abolishes the synthesis of mycolipanoic and mycolipenic acids required for
+polyacyltrehalose synthesis in Mycobacterium tuberculosis H37Rv and causes
+cell aggregation. Mol. Microbiol. 45:1451–1459.
+13. Dubey, V. S., T. D. Sirakova, M. H. Cynamon, and P. E. Kolattukudy. 2003.
+Biochemical function of msl5 (pks8 plus pks17) in Mycobacterium tuberculosis
+H37Rv: biosynthesis of monomethyl branched unsaturated fatty acids. J.
+Bacteriol. 185:4620–4625.
+14. Dubos, R. J., and G. Middlebrook. 1948. Cytochemical reaction of virulent
+tubercle bacilli. Amer. Rev. Tuberc. 58:698–699.
+15. Gao, Q., K. Kripke, Z. Arinc, M. Voskuil, and P. Small. 2004. Comparative
+expression studies of a complex phenotype: cord formation in Mycobacterium
+tuberculosis. Tuberculosis 84:188–196.
+16. Gonzalo Asensio, J., C. Maia, N. L. Ferrer, N. Barilone, F. Laval, C. Soto, N.
+Winter, M. Daffe´, B. Gicquel, C. Martin, and M. Jackson. 2006. The viru-
+lence-associated two-component PhoP-PhoR system controls the biosynthe-
+sis of polyketide-derived lipids in Mycobacterium tuberculosis. J. Biol. Chem.
+281:1313–1316.
+17. Gupta, S., A. Sinha, and D. Sarkar. 2006. Transcriptional autoregulation by
+Mycobacterium tuberculosis PhoP involves recognition of novel direct repeat
+sequences in the regulatory region of the promoter. FEBS Lett. 580:5328–
+5338.
+18. He, X.-Y., Y.-H. Zhuang, X.-G. Zhang, and G.-L. Li. 2003. Comparative
+proteome analysis of culture supernatant proteins of Mycobacterium tuber-
+culosis H37Rv and H37Ra. Microbes Infect. 5:851–856.
+19. Jackson, M., F. X. Berthet, I. Otal, J. Rauzier, C. Martin, B. Gicquel, and C.
+Guilhot. 1996. The Mycobacterium tuberculosis purine biosynthetic pathway:
+isolation and characterization of the purC and purL genes. Microbiology
+142:2439–2447.
+20. Jackson, M., S. W. Phalen, M. Lagranderie, D. Ensergueix, P. Chavarot, G.
+Marchal, D. N. McMurray, B. Gicquel, and C. Guilhot. 1999. Persistence
+and protective efﬁcacy of a Mycobacterium tuberculosis auxotroph vaccine.
+Infect. Immun. 67:2867–2873.
+21. Jackson, M., G. Stadthagen, and B. Gicquel. 2007. Long-chain multiple
+methyl-branched fatty acid-containing lipids of Mycobacterium tuberculosis:
+biosynthesis, transport, regulation and biological activities. Tuberculosis 87:
+78–86.
+22. Kinger, A. K., and J. S. Tyagi. 1993. Identiﬁcation and cloning of genes
+differentially expressed in the virulent strain of Mycobacterium tuberculosis.
+Gene 131:113–117.
+23. Kordula´kova´, J., M. Gilleron, K. Mikusova´, G. Puzo, P. J. Brennan, B.
+Gicquel, and M. Jackson. 2002. Deﬁnition of the ﬁrst mannosylation step in
+phosphatidylinositol synthesis: PimA is essential for growth of mycobacteria.
+J. Biol. Chem. 277:31335–31344.
+24. Martı´n, C., A. Williams, R. Hernandez-Pando, P. J. Cardona, E. Gormley, Y.
+Bordat, C. Y. Soto, S. O. Clark, G. J. Hatch, D. Aguilar, V. Ausina, and B.
+Gicquel. 2006. The live Mycobacterium tuberculosis phoP mutant strain is
+more attenuated than BCG and confers protective immunity against tuber-
+culosis in mice and guinea pigs. Vaccine 24:3408–3419.
+25. Martinez-Hackert, E., and A. M. Stock. 1997. Structural relationships in the
+OmpR family of winged-helix transcription factors. J. Mol. Biol. 269:301–
+312.
+26. Middlebrook, G., C. M. Coleman, and W. B. Schaefer. 1959. Sulfolipid from
+virulent tubercle bacilli. Proc. Natl. Acad. Sci. USA 45:1801–1804.
+27. Middlebrook, G., R. J. Dubos, and C. Pierce. 1947. Virulence and morpho-
+logical characteristics of mammalian tubercle bacilli. J. Exp. Med. 86:175–
+184.
+28. Mostowy, S., C. Cleto, D. R. Sherman, and M. A. Behr. 2004. The Mycobac-
+terium tuberculosis complex transcriptome of attenuation. Tuberculosis 84:
+197–204.
+29. Pascopella, L., F. M. Collins, J. M. Martin, M. H. Lee, G. F. Hatfull, C. K.
+Stover, B. R. Bloom, and W. R. Jacobs. 1994. Use of in vivo complementation
+in Mycobacterium tuberculosis to identify a genomic fragment associated with
+virulence. Infect. Immun. 62:1313–1319.
+30. Pelicic, V., M. Jackson, J. M. Reyrat, W. R. Jacobs, Jr., B. Gicquel, and C.
+Guilhot. 1997. Efﬁcient allelic exchange and transposon mutagenesis in My-
+cobacterium tuberculosis. Proc. Natl. Acad. Sci. USA 94:10955–10960.
+31. Pe´rez, E., S. Samper, Y. Bordat, C. Guilhot, B. Gicquel, and C. Martin. 2001.
+An essential role for phoP in Mycobacterium tuberculosis virulence. Mol.
+Microbiol. 41:179–187.
+32. Rindi, L., N. Lari, and C. Garzelli. 1999. Search for genes potentially in-
+volved in Mycobacterium tuberculosis virulence by mRNA differential display.
+Biochem. Biophys. Res. Commun. 258:94–101.
+33. Rousseau, C., O. Neyrolles, Y. Bordat, S. Giroux, T. D. Sirakova, M.-C.
+Prevost, P. E. Kolattukudy, B. Gicquel, and M. Jackson. 2003. Deﬁciency in
+mycolipenate- and mycosanoate-derived acyltrehaloses enhances early inter-
+actions of Mycobacterium tuberculosis with host cells. Cell. Microbiol. 5:405–
+415.
+34. Rousseau, C., O. C. Turner, E. Rush, Y. Bordat, T. D. Sirakova, P. E.
+Kolattukudy, S. Ritter, I. M. Orme, B. Gicquel, and M. Jackson. 2003.
+Sulfolipid deﬁciency does not affect the virulence of Mycobacterium tuber-
+culosis H37Rv in mice and guinea pigs. Infect. Immun. 71:4684–4690.
+35. Rousseau, C., N. Winter, E. Pivert, Y. Bordat, O. Neyrolles, P. Ave´, M.
+Huerre, B. Gicquel, and M. Jackson. 2004. Production of phthiocerol dimy-
+cocerosates protects Mycobacterium tuberculosis from the cidal activity of
+reactive nitrogen intermediates produced by macrophages and modulates
+the early immune response to infection. Cell. Microbiol. 6:277–287.
+36. Soto, C. Y., N. Andreu, I. Gibert, and M. Luquin. 2002. Simple and rapid
+differentiation of Mycobacterium tuberculosis H37Ra from M. tuberculosis
+clinical isolates through two cytochemical tests using neutral red and Nile
+blue stains. J. Clin. Microbiol. 40:3021–3024.
+37. Soto, C. Y., M. C. Mene´ndez, E. Pe´rez, S. Samper, A. B. Gomez, M. J. Garcia,
+and C. Martin. 2004. IS6110 mediates increased transcription of the phoP
+virulence gene in a multidrug-resistant clinical isolate responsible for tuber-
+culosis outbreaks. J. Clin. Microbiol. 42:212–219.
+38. Sreerama, N., and R. W. Woody. 2000. Estimation of protein secondary struc-
+ture from circular dichroism spectra: comparison of CONTIN, SELCON, and
+CDSSTR methods with an expanded reference set. Anal. Biochem. 87:252–260.
+39. Steenken, W., W. H. Oatway, and S. A. Petroff. 1934. Biological studies of the
+tubercle bacillus. III. Dissociation and pathogenicity of the R and S variants
+of the human tubercle bacillus (H37). J. Exp. Med. 60:515–540.
+40. Walters, S. B., E. Dubnau, I. Kolesnikova, F. Laval, M. Daffe´, and I. Smith.
+2006. The Mycobacterium tuberculosis PhoPR two-component system regu-
+lates genes essential for virulence and complex lipid biosynthesis. Mol. Mi-
+crobiol. 60:312–330.
+1334
+CHESNE-SECK ET AL.
+J. BACTERIOL.

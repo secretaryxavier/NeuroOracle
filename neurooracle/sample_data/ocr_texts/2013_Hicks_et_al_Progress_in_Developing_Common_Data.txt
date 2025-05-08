@@ -1,0 +1,1098 @@
+Progress in Developing Common Data Elements
+for Traumatic Brain Injury Research:
+Version Two – The End of the Beginning
+Ramona Hicks,1 Joseph Giacino,2 Cynthia Harrison-Felix,3,4 Geoffrey Manley,5
+Alex Valadka,6 and Elisabeth A. Wilde7,8
+Abstract
+To accelerate data sharing and research on traumatic brain injury (TBI), several federal agencies have been collabo-
+rating to support the development and implementation of common data elements (CDEs). The ﬁrst recommendations for
+CDEs were made in 2010, and were well suited for hospital-based studies of acute TBI in adults. To broaden the utility
+of the TBI CDEs, experts were asked to update the recommendations to make them relevant to all ages, levels of injury
+severity, and phases of recovery. The second version of the TBI CDEs (v.2) was organized around four major study
+types: 1) epidemiological research; 2) studies on acute, hospitalized patients; 3) studies of the rehabilitation for
+moderate/severe TBI; and 4) mild TBI/concussion research. Given the heterogeneity of TBI, only a small set of core
+CDEs were found to be relevant across all study types. However, within groups, a much larger set of highly relevant
+CDEs were identiﬁed, and these were called basic CDEs. In addition, an expanded number of supplemental CDEs were
+speciﬁed and recommended for use depending upon the study goals. Version 2 provides a rich data dictionary for TBI
+research with about 900 CDEs. Many of the CDEs overlap across the study types, which will facilitate comparisons and
+meta-analysis across studies. Further modiﬁcations of the CDEs should be based on evaluation of their usefulness
+following implementation across a range of studies.
+Key words: acute; chronic; collaboration; concussion; data standardization; epidemiology; rehabilitation
+Introduction
+T
+here is an urgent need to accelerate traumatic brain injury
+(TBI) research, because of the enormous and growing
+worldwide health burden of this disorder. To address this need, the
+Interagency Common Data Elements Project was established in
+2008 to promote data sharing and collaboration through the stan-
+dardization of deﬁnitions and protocols for TBI research.1 Data
+elements are basic units of data that have precise deﬁnitions, and
+those that are commonly used are referred to as common data el-
+ements (CDEs). The original recommendations for TBI research
+were developed and scientiﬁcally vetted in 2010.1–7 One year later,
+the CDEs were modiﬁed to make them more compatible with the
+needs of pediatric TBI research.8–14 From the inception of this
+project, the CDEs were expected to require regular updating to
+ensure their continued feasibility and utility.
+The ﬁrst version of the CDEs (v.1) was a major advance toward
+standardization of TBI research, but there were also limitations
+that needed to be addressed. One limitation was that 242 CDEs
+were deﬁned as core, meaning that they were recommended for all
+clinical TBI studies. However, many of the core items, for ex-
+ample, Apgar scores and intracranial pressure measurements, were
+not relevant to all TBI research, and collecting them was imprac-
+tical or impossible in studies of certain TBI populations.1,15,16
+Another major limitation of v.1 was the lack of elements relevant to
+studies on milder injuries and on more chronic phases of TBI.
+Finally, it became apparent that several of the CDEs were redun-
+dant, and that one or the other should be eliminated. To address
+1The National Institute of Neurological Disorders and Stroke, Bethesda, Maryland.
+2Spaulding Rehabilitation Hospital, Department of Physical Medicine and Rehabilitation, Harvard Medical School, Boston, Massachusetts.
+3Department of Physical Medicine and Rehabilitation, Craig Hospital, Englewood, Colorado. the
+4Department of Physical Medicine and
+Rehabilitation, University of Colorado, Denver, Colorado.
+5Department of Neurological Surgery, University of California, San Francisco, San Francisco, California.
+6Seton Brain and Spine Institute, Austin, Texas.
+7Departments of Physical Medicine and Rehabilitation, Neurology and Radiology, Baylor College of Medicine, Houston, Texas.
+8Michael E. DeBakey VA Medical Center, Houston, Texas.
+JOURNAL OF NEUROTRAUMA 30:1852–1861 (November 15, 2013)
+ª Mary Ann Liebert, Inc.
+DOI: 10.1089/neu.2013.2938
+1852
+
+these limitations, the TBI CDEs have been updated in version 2
+(v.2). An overview of the updated TBI CDE recommendations, and
+the process and rationale for the creation of this update, are de-
+scribed in this article.
+Methods
+After agreeing that there was a need for further modiﬁcations to
+the TBI CDEs, liaisons from the participating agencies nominated
+scientiﬁc experts to serve on new workgroups formed around the
+following types of TBI studies.
+ The workgroup on epidemiology studies addressed two tasks:
+1) reﬁning the core CDEs to ensure their relevance to all TBI
+research; and 2) recommending additional data elements for
+epidemiological studies. Epidemiology studies tend to have
+large sample sizes and a small number of data elements in
+order to characterize a population or examine incidence and
+prevalence of TBI in a population. The workgroup also
+considered epidemiological studies that focus on medical
+record reviews, studies using registries such as trauma reg-
+istries, and large survey studies.
+ The focus of the workgroup on studies of acute, hospital-
+ized subjects was on patients who are admitted to a hospital
+because of a TBI. The brain injury may have occurred in
+isolation or in conjunction with systemic injuries. Most
+patients in this type of study demonstrate acute trauma-
+related intracranial pathology on CT scans. The spectrum of
+subjects ranges from the most severely injured patients to
+those with good neurological status and relatively minor
+imaging abnormalities. The exact boundary between the
+least severely injured acute, hospitalized patients and the
+most severely injured concussion/mild TBI patients is ad-
+mittedly ambiguous, and drawing it is left to the individual
+researcher’s discretion. The acute, hospitalized domain in-
+cludes military and civilian populations, as well as both
+children and adults.
+ The workgroup on studies of rehabilitation for moderate–
+severe TBI reviewed research data elements pertinent to the
+assessment and rehabilitation of persons who receive a
+Glasgow Coma Scale (GCS) score of 3–12 within 24 h of
+injury or demonstrate post-traumatic amnesia for ‡ 24 h.
+The workgroup focused on CDEs related to physical and
+cognitive assessment, treatment interventions, and out-
+come measures administered to both adult and pediatric
+populations. The resulting CDE recommendations were
+intended to apply to rehabilitation research conducted
+within acute hospital, inpatient rehabilitation, and outpa-
+tient settings.
+ The workgroup on mild TBI/concussion studies addressed
+research data elements pertinent to subjects who either re-
+quire no hospitalization or acute medical care, only a brief
+visit to the emergency department or physician without
+hospital admission, or only a brief hospitalization related to
+the TBI. The workgroup considered both acute and chronic
+phases of mild TBI.
+The composition of the four workgroups was determined by the
+type of research facility the member represented, their TBI sub-
+specialty, the types of TBI cohorts they had previously studied, and
+their geographic location; diversity of perspectives was a major
+consideration. Approximately half of the workgroup members were
+former members, and the other half were new. Experts in both
+pediatric and adult TBI research were included, as well as experts in
+civilian and military TBI. New chairs were also appointed for the
+workgroups (see Appendix for a list of the workgroup chairs and
+members). Rather than separating workgroups into ‘‘imaging,’’
+‘‘biomarkers,’’ ‘‘outcomes,’’ and ‘‘demographics’’ as was done in
+creating v.1, all these topics were considered for respective TBI
+patient groups within the new structure.
+The process for updating the CDEs was similar to that used to
+develop earlier versions and has been previously described.5,14
+Brieﬂy, the CDEs are identiﬁed, deﬁned, and vetted by experts in
+the scientiﬁc community, both nationally and internationally. The
+participating agencies had a ‘‘hands off’’ approach, their staff
+primarily serving to facilitate the process but not to determine the
+content of the recommendations. Following an introductory call,
+the workgroups held conference calls every 3–5 weeks for 4–6
+months to reach consensus based on evidence and expert opinion.
+In addition, the experience and knowledge gained from a
+pilot study to test the feasibility and utility of collecting the TBI
+CDEs was incorporated into the workgroup recommendations.17
+In cases in which disagreements could not be resolved within the
+workgroup, the issues were presented to the steering committee,
+where a decision was agreed upon. The major criteria for inclu-
+sion used by all the workgroups were that the v.1 data elements
+should be preserved and that both new and previously identiﬁed
+data elements should adhere to the updated category deﬁnitions
+for core, basic, and supplemental CDEs (Table 1). After each
+workgroup had reached consensus, the workgroup chairs met to
+review all of the recommendations across groups. Next, the draft
+CDEs were posted on the National Institute of Neurological
+Disorders and Stroke (NINDS) CDE web site for external review
+Table 1. Comparison of Versions 1 and 2 of the TBI Common Data Elementsa,b,c
+Tiers
+Deﬁnition
+v.1
+v.2
+Core
+A very small set of items relevant to all TBI clinical studies
+242
+16
+Basic
+A small set of data elements, beyond the core, recommended
+for inclusion in speciﬁc types of studies
+N/A
+224
+Supplemental
+A large number of optional items for which inclusion depends
+upon the scope and focus of the research question
+140
+655
+Emerging
+Dropped from version 2.0 because the criteria for classifying a
+CDE as emerging or supplemental were overlapping.
+98
+N/A
+Total
+480
+895
+aOutcome measures often include multiple data elements; therefore, they are now reported separately from the individual common data elements
+(CDEs), and are not included on this table.
+bNumbers reﬂect total for both adult and pediatric studies.
+cCDEs are only counted once; if an item is classiﬁed as basic for one study type, and supplemental for another, it is counted as basic.
+TBI, traumatic brain injury.
+COMMON DATA ELEMENTS FOR TBI RESEARCH: VERSION 2
+1853
+
+and vetting by the larger research community.18 The process was
+transparent and inclusive, and collaboration with other agencies
+and groups that have an interest in CDEs for TBI research was
+encouraged.
+Results
+The most signiﬁcant changes overall between v.1 and v.2 of the
+TBI CDEs were 1) a marked decrease in the number of core CDEs,
+2) an expansion of the total number of CDEs to include more items
+relevant to milder injuries and the more chronic phases of TBI, 3)
+reorganization of the categories to include a second tier for items
+highly relevant to speciﬁc types of studies but not to all studies,
+called basic, 4) dropping the emerging tier for lack of evidence to
+discriminate it from supplemental CDEs (Table 1), and 5) changing
+the name to the International TBI Common Data Elements Project.
+Additional minor changes included alignment of demographic data
+elements with those endorsed by the National Library of Medicine,
+to increase their generalizability across other disease areas, and
+separation of the lists of individual data elements from outcome
+measures, because the latter often include multiple data elements.
+Revisions to the core CDEs
+There was a 15-fold reduction in the number of core CDEs
+between v.1 and v.2. The smaller number now more accurately
+reﬂects ‘‘a very small set of items that are relevant to all TBI
+clinical studies.’’ Despite their limited number, the core CDEs
+cover several domains, including demographic characteristics, so-
+cial status, injury characteristics, etiology, severity indicators, and
+outcomes (Table 2). Most of the core CDEs pertain to both adults
+and children, but a few items are age-speciﬁc (Table 2).
+Table 2. Core CDEs and Outcome Measures for TBI Researcha
+CDEs – All Ages
+Birth date
+Traumatic brain injury type
+Gender
+Injury ICD-9-CM external cause code
+Race (United States category)
+Loss of consciousness duration range
+Ethnicity (United States category)
+Post-traumatic amnesia duration range
+Education level (United States type)
+Brain imaging result (if applicable and known)
+Injury date (and time, if applicable and known)
+CDEs – adult-speciﬁc
+CDEs – pediatric-speciﬁc
+GCS motor response
+GCS pediatric motor response
+GCS eye response
+GCS pediatric eye response
+GCS verbal response
+GCS pediatric verbal response
+GCS total score
+GCS pediatric total score
+Employment status
+Years of education - primary caregiver
+Outcome measure – adult speciﬁc
+Outcome measure – pediatric speciﬁc
+Glasgow Outcome Scale - Extended
+aDeﬁnitions, codes, permissible values, and other guidelines are available on the CDE web site.18
+CDE, common data element; TBI, traumatic brain injury; ICD-9-CM, The International Classiﬁcation of Diseases, Ninth Revision, Clinical
+Modiﬁcation; GCS, Glasgow Coma Scale.
+Epidemiology
+Basic CDEs
+All Ages -15 
+Adult Specific - 8 
+Pediatric Specific - 1 
+Acute Hospitalized
+Basic CDEs
+All Ages - 58
+Adult Specific - 0 
+Pediatric Specific - 1  
+Concussion/Mild TBI
+Basic CDEs
+All Ages - 60
+Adult Specific - 0 
+Pediatric Specific - 1
+Moderate/Severe TBI:
+Rehabilitation
+Basic CDEs
+All Ages - 48
+Adult Specific - 1 
+Pediatric Specific - 1 
+CORE CDEs
+All Ages -11 
+Adult Specific - 5 
+Pediatric Specific - 5 
+FIG. 1.
+Core and basic common data elements (CDEs) by study type or population. Note that few basic CDEs are unique to one
+group; most overlap with one or two other subgroups.
+1854
+HICKS ET AL.
+
+Table 3. Basic CDEs for TBI Epidemiology Studiesa
+All ages
+Education years number
+Emergency room discharge destination type
+Injury date reliability type
+Alteration of consciousness duration range
+Injury immediate medical services received indicator
+Return to work or school status
+Abusive head trauma likelihood type
+Residence type
+Abbreviated Injury Scale body region category
+Death date and time
+Abbreviated Injury Scale body region score
+Death cause text
+Hospital discharge destination type
+Death cause ICD-9-CM code
+Deﬁnitive clinical care location type
+Adult-speciﬁc
+Pediatric-speciﬁc
+Job classiﬁcation status
+Education/school participation status
+Marital or partner status
+OSU TBI ID SF Scoring Q1–Q6
+aDeﬁnitions, codes, permissible values, and other guidelines are available on the CDE web site.18
+CDE, common data element; TBI, traumatic brain injury; ICD-9-CM, The International Classiﬁcation of Diseases, Ninth Revision, Clinical
+Modiﬁcation; OSU TBI ID SF, Ohio State University TBI Identiﬁcation Method, Short Form.
+Table 4. Basic CDEs for TBI Studies of Acute, Hospitalized Subjectsa
+All ages
+Age value
+Respiratory rate
+Education years number
+Heart rate
+Injury date reliability type
+Blood pressure systolic measurement
+Hospital admission date and time
+Blood pressure diastolic measurement
+Hospital discharge date and time
+Oxygen saturation measurement
+Hospital discharge destination type
+Traumatic brain injury mechanism type
+Emergency room discharge destination type
+Trafﬁc accident self-alcohol inﬂuence likelihood
+GCS confounders type
+Hypoxic episode indicator
+Loss of consciousness indicator
+Hypotensive episode indicator
+Alteration of consciousness indicator
+Pupil reactivity to light left eye result
+Lab specimen collection date and time
+Pupil reactivity to light right eye result
+Lab panel category
+Marshall CT classiﬁcation code
+Lab specimen type
+Midline shift supratentorial indicator
+Lab test name
+Cisternal compression indicator
+Lab test LOINC code
+Cisternal compression type
+Lab test result
+Contusion indicator
+Lab test result unit of measure
+Intracerebral hemorrhage indicator
+Lab test result status
+Intraventricular hemorrhage indicator
+Lab test abnormality signiﬁcance type
+Diffuse axonal injury indicator
+Imaging study date and time
+Traumatic axonal injury indicator
+Imaging modality type
+Penetrating injury indicator
+Imaging scanner software version number
+Penetrating injury associated ﬁndings type
+Imaging sequence type
+Cervicomedullary junction or brainstem injury indicator
+Intracranial surgery indicator
+Edema indicator
+Epidural hematoma indicator
+Ischemia or infarction or hypoxic-ischemic injury indicator
+Extra-axial hematoma indicator
+Brain atrophy or encephalomalacia result
+Subdural hematoma acute indicator
+Vital status
+Subdural hematoma mixed density or CSF-like collection indicator
+Death date and time
+Subarachnoid hemorrhage indicator
+Post-traumatic amnesia indicator
+Adult-speciﬁc
+Pediatric-speciﬁc
+Education/school participation status
+aDeﬁnitions, codes, permissible values and other guidelines are available on the CDE web site18
+CDE, common data element; TBI, traumatic brain injury; LOINC, Logical Observation Identiﬁers Names and Codes; CSF, cerebrospinal ﬂuid.
+COMMON DATA ELEMENTS FOR TBI RESEARCH: VERSION 2
+1855
+
+Recommendations for basic and supplemental CDEs
+As mentioned, another major revision was that highly relevant
+items beyond the core were added to meet the needs of four
+common types of studies in the areas of: epidemiology, acute-
+hospitalization; rehabilitation for moderate–severe TBI, and mild
+TBI/concussion. CDEs and outcome measures that are highly rel-
+evant or essential for these speciﬁc types of studies, but not nec-
+essarily relevant to all other types of studies, were called basic
+(Fig. 1). A summary of the basic CDEs for each study type follows.
+Epidemiology studies.
+The recommendations for the 24
+basic CDEs for epidemiological studies were based on a logical
+expansion beyond the core, and include: additional subject/par-
+ticipant characteristics; details of educational and job status;
+marital/partner status; details of the injury, for example, the Ohio
+State University TBI Identiﬁcation Method (OSU TBI ID); reli-
+ability of injury date; likelihood of abusive head trauma; Abbre-
+viated Injury Scale score; duration of alteration of consciousness;
+details of types of care received related to the injury, that is,
+location of deﬁnitive clinical care and immediate medical services
+received after injury, and emergency department and hospital
+discharge destinations; and outcomes such as return to work/
+school, type of residence, and date and cause of death.19,20 The
+epidemiology basic CDEs contained one that was only for pedi-
+atric populations (education status), and eight only for adults,
+including job and marital status and the OSU TBI ID (Table 3).
+Studies of acute, hospitalized patients.
+As mentioned, the
+acute, hospitalized subgroup refers to studies in which the sub-
+jects are admitted to a hospital because of an acute TBI. Patients
+in this category are commonly described as having ‘‘moderate’’
+or ‘‘severe’’ TBI. However, members of this workgroup wished
+to avoid use of the ‘‘mild/moderate/severe’’ classiﬁcation
+scheme, which may blur important distinctions and oversim-
+plify. The name of this category recognizes the immediate post-
+injury time period during which these patients are seen. It also
+acknowledges that all of these patients are admitted to the hos-
+pital, even if only brieﬂy. The workgroup recommended 58 basic
+CDEs for all ages, plus 1 pediatric-speciﬁc item (Fig. 1 and
+Table 4).
+Studies of rehabilitation for moderate–severe TBI.
+The
+workgroup for these kinds of studies endorsed 48 basic CDEs for all
+ages, plus 1 adult-speciﬁc item and 1 pediatric-speciﬁc item (Fig. 1
+and Table 5). Of these, ten are unique to rehabilitation research.
+Four items were selected from the assessments and exams domain
+to reﬂect early prognostic indicators (i.e., pupil reactivity, size and
+shape, alteration of consciousness: reporter type), and are intended
+to complement the GCS score from the core CDEs. Four items were
+chosen from the treatment domain to characterize the nature of
+therapeutic interventions applied (i.e., type of therapy, frequency
+and duration of sessions, duration of course) (Table 5). The
+workgroup acknowledged that TBI rehabilitation lacks a coherent
+taxonomy to adequately characterize treatment approaches and
+Table 5. Basic CDEs for Rehabilitation Studies for Moderate–Severe TBIa
+All ages
+Education years number
+Epidural hematoma indicator
+Traumatic brain injury mechanism type
+Subdural hematoma acute indicator
+Pupil reactivity to light left eye result
+Subarachnoid hemorrhage indicator
+Pupil reactivity to light right eye result
+Midline shift supratentorial indicator
+Subarachnoid hemorrhage indicator
+Contusion indicator
+Hospital discharge date and time
+Intracerebral hemorrhage indicator
+Hospital discharge destination type
+Intraventricular hemorrhage indicator
+Pupil left eye measurement
+Diffuse axonal injury indicator
+Pupil right eye measurement
+Penetrating injury indicator
+Pupil shape left eye type
+Intracranial procedures indicator
+Pupil shape right eye type
+Cervicomedullary junction or brainstem injury indicator
+Loss of consciousness indicator
+Edema indicator
+Loss of consciousness reporter type
+Brain swelling indicator
+Post-traumatic amnesia indicator
+Ischemia or infarction or HI injury indicator
+Post-traumatic amnesia reporter type
+Brain atrophy or encephalomalacia result
+Alteration of consciousness indicator
+Therapy or rehabilitation type
+Alteration of consciousness reporter type
+Therapy or rehabilitation ICD-9-CM code
+Imaging study date and time
+Therapy or rehabilitation frequency
+Imaging modality type
+Therapy or rehabilitation session duration
+Imaging scanner strength value
+Therapy or rehabilitation start date and time
+Imaging scanner manufacturer name
+Therapy or rehabilitation end date and time
+Imaging scanner model name
+Therapy or rehabilitation ongoing indicator
+Imaging scanner software version number
+Residence type
+Imaging sequence type
+Death date and time
+Adult-speciﬁc
+Pediatric-speciﬁc
+Marital or partner status
+Education/school participation status
+aDeﬁnitions and guidelines are available on the CDE web site.18
+CDE, common data element; TBI, traumatic brain injury; H-I, hypoxia-ischemia; ICD-9-CM, The International Classiﬁcation of Diseases, Ninth
+Revision, Clinical Modiﬁcation.
+1856
+HICKS ET AL.
+
+methods. This impedes the development of foundational treatment
+constructs and places signiﬁcant constraints on comparative ef-
+fectiveness research.
+Mild TBI/concussion studies.
+In the recommendations for
+mild TBI/concussion studies, basic elements included 60 items for
+all ages, plus 1 item speciﬁc to children (Fig. 1 and Table 6). The
+basic CDEs included items that are relevant to studies of both the
+acute and chronic phases of injury. An effort was made to incor-
+porate some of the variables and outcome measures that are spe-
+ciﬁcally used in military and sport-related concussion studies as
+supplemental CDEs. Whereas the outcome measures were other-
+wise generally retained from v.1, several were added to speciﬁcally
+address research questions that are common within this area of
+study. For example, the workgroup added symptom validity testing,
+computerized batteries, and telephone follow-up as these were
+considered important in many studies in this area.
+Supplemental data.
+In addition to the core and basic CDEs
+there are hundreds of optional supplemental data elements and
+outcome measurement tools that may be useful depending upon the
+aims of the study.20 The list of supplemental items was intended to
+be large and inclusive, in order to provide a broad range of options,
+but is expected to gradually narrow as evidence accumulates in
+favor of speciﬁc CDEs. The entire core, many of the basic, and
+most of the supplemental CDEs are shared across two or more study
+types, which will facilitate meta-analyses not only within, but also
+across study types. It is also worth noting that the supplemental data
+elements are not viewed as comprising an exhaustive list, and,
+depending upon the purpose of the particular study, additional
+items may be needed.
+Recommendations for outcome measures
+The four workgroups also reviewed an extensive list of assessment
+instruments and scales for use in TBI research. One outcome measure
+was recommended as a core recommendation, the Glasgow Outcome
+Score - Extended, but only for older children and adults. The Pe-
+diatric Glasgow Outcome Score - Extended was not recommended as
+a core CDE for pediatric TBI, reﬂecting differences in expert opinion
+regarding its utility for studying milder forms of TBI. In addition to
+the one core outcome measure, a battery of basic outcome measures
+was also recommended by three of the four workgroups (Table 7).
+For studies of adults, the battery includes the Motor and Cognitive
+subscales of the Functional Independence Measure (FIM) to assess
+Table 6. Basic CDEs for Mild TBI/Concussion Studiesa
+All ages
+Age value
+Epidural hematoma indicator
+Language primary ISO 639-2 code
+Extra-axial hematoma indicator
+Language primary text
+Subdural hematoma acute indicator
+Education years number
+Subdural hematoma subacute or chronic indicator
+Concussion prior number
+Subdural hematoma mixed density or CSF-like collection indicator
+Injury date reliability type
+Subarachnoid hemorrhage indicator
+Injury date and time estimation type
+Vascular dissection indicator
+Symptom onset date and time
+Traumatic aneurysm indicator
+Hospital ﬁrst treated arrival date and time
+Venous sinus injury indicator
+Hospital admission date and time
+Midline shift supratentorial indicator
+Abusive head trauma likelihood type
+Cisternal compression indicator
+TBI mechanism type
+Ventricle - fourth shift or effacement indicator
+Subarachnoid hemorrhage indicator
+Contusion indicator
+Seizure indicator
+Contusion ﬁndings type
+Seizure TBI presentation type
+Intracerebral hemorrhage indicator
+Deﬁnitive clinical care location type
+Intraventricular hemorrhage indicator
+GCS confounders type
+Diffuse axonal injury indicator
+Loss of consciousness indicator
+Subarachnoid hemorrhage indicator
+Loss of consciousness reporter type
+Subdural hematoma acute indicator
+Post-traumatic amnesia indicator
+Subdural hematoma mixed density or CSF-like collection indicator
+Post-traumatic amnesia reporter type
+Subdural hematoma subacute or chronic indicator
+Alteration of consciousness indicator
+Symptom onset date and time
+TBI symptom or sign type
+Traumatic aneurysm indicator
+TBI symptom or sign indicator
+Traumatic axonal injury indicator
+Imaging study date and time
+Traumatic brain injury mechanism type
+Imaging modality type
+Vascular dissection indicator
+Imaging scanner strength value
+Venous sinus injury indicator
+Imaging scanner manufacturer name
+Ventricle - fourth shift or effacement indicator
+Imaging scanner model name
+Imaging scanner software version number
+Imaging sequence type
+Skull fracture indicator
+Adult-speciﬁc
+Pediatric-speciﬁc
+Education school participation status
+aDeﬁnitions, codes, permissible values and other guidelines are available on the CDE web site.18
+CDE, common data element; TBI, traumatic brain injury; GCS, Glasgow Coma Scale; CSF, cerebrospinal ﬂuid.
+COMMON DATA ELEMENTS FOR TBI RESEARCH: VERSION 2
+1857
+
+motor and cognitive activity limitations, respectively. The Disability
+Rating Scale (DRS) was chosen for global outcome assessment. To
+investigate speciﬁc neuropsychological functions, the Processing
+Speed Index from the Wechsler Adult Scale of Intelligence-IV was
+recommended for evaluating speed of processing, the Trail Making
+Test for attention and mental control, and the Rey Auditory Verbal
+Learning Test or the California Verbal Learning Test for memory.
+For evaluation of quality of life, the Satisfaction with Life Scale was
+recommended; the Craig Handicap Assessment and Reporting
+Technique (Short Form) was recommended for measuring societal
+participation after moderate to severe TBI; and the Rivermead
+Postconcussive Symptom Questionnaire was recommended for as-
+sessing post-concussive symptoms after mild TBI. Finally, the Brief
+Symptom Inventory-18 was recommended for assessment of psy-
+chological status. Most of the measures described have comple-
+mentary pediatric versions (Table 7).
+Discussion
+The goal of updating the CDEs was to maintain as much of the v.1
+data elements as possible while addressing the need to reduce the
+core CDEs, ﬁll critical gaps, and eliminate redundancies. This was
+achieved by creating workgroups in which half of the members were
+carried over from the v.1 workgroups to ensure continuity of the
+concepts and process, and half were from new participants chosen to
+bring in new perspectives. The reﬁnement of the core CDEs, the
+creation of a new category called basic to target CDE recommen-
+dations to speciﬁc types of studies, and the expansion of CDEs rel-
+evant to milder and/or chronic TBI are all major strengths. At ﬁrst
+glance, some data points that are routinely collected in TBI studies,
+such as GCS score, may seem to have overlooked in compiling the
+basic CDEs. However, it must be remembered that such elements are
+classiﬁed as core and are recommended to be collected by all of the
+various types of studies. Other improvements of v.2 are the elimi-
+nation of redundant CDEs and alignment with the National Library
+of Medicine standards. Finally, moving the emerging category of
+CDEs into the supplemental category is another improvement, be-
+cause it will facilitate data-driven comparisons of their usefulness.
+A remaining issue across both versions of the CDEs is that the
+battery of outcome measures that are highly recommended (basic)
+includes ﬁve to nine assessments or tools depending up the study
+type, which may be too many for practical use by most research
+studies. Although a smaller battery of assessment tools would fa-
+cilitate universal implementation, the workgroups were unable to
+narrow the recommendations because of the breadth of symptoms
+associated with TBI, the all-inclusive age range embraced by this
+project, and the lack of evidence to strongly support one tool over
+another. However, there are two new computer-adapted testing tools
+that sound very promising. One is the Neuro-QOL, which is a very
+comprehensive, patient-report outcome measure that has undergone
+validation studies on adults with a variety of neurological disorders,
+including TBI, but still needs pediatric validation studies.21 The
+other is the National Institutes of Health (NIH) Toolbox for Neuro-
+logical Function, which consists of a 2 h battery to assess cognitive,
+emotional, executive, and sensorimotor function.22 The toolbox has
+been validated in healthy subjects, but not yet in those with TBI.
+Employing state-of-the-art technology makes it possible for these
+tools to be very comprehensive, but also brief, because of the
+Table 7. Basic Outcome Measures by Study Population
+All ages
+Acute, hosp.
+Mod-severe
+rehab.
+Mild TBI/
+concussion
+Rey Auditory Verbal Learning Test (RAVLT) or California Verbal
+Learning Test- II (CVLT-II) or (CVLT-C)
+X
+X
+X
+Adult-speciﬁc
+Wechsler Adult Intelligence Scale (WAIS-IV), Processing
+Speed Index
+X
+X
+X
+Brief Symptom Inventory - 18 Item (BSI-18)
+X
+X
+X
+Trail Making Test (TMT)
+X
+X
+X
+Satisfaction with Life Scale (SWLS)
+X
+X
+Disability Rating Scale (DRS)
+X
+X
+Functional Independence Measure (FIM): Motor Subscale and
+Cognition Subscale (Cog-FIM)
+X
+Craig Handicap and Assessment Reporting Technique, Short
+Form (CHART-SF)
+X
+Rivermead Postconcussive Symptom Questionnaire (RPQ)
+X
+Pediatric-speciﬁc
+Pediatric Evaluation of Disability Inventory (PEDI) Self Care
+and Mobility subscales
+X
+X
+X
+Wechsler Intelligence Scale (WISC-IV), or the Wechsler Preschool
+and Primary Scale of Intelligence - IV (WPPSI-IV)
+X
+X
+X
+Pediatric Quality of Life Inventory: Generic core
+X
+X
+X
+Delis-Kaplan Executive Function System (D-KEFS) Verbal Fluency
+X
+X
+X
+Pediatric Glasgow Outcome Scale - Extended
+X
+X
+Functional Independence Measure for Children (WeeFIM)
+X
+Health and Behavior Inventory (HBI)
+X
+TBI, traumatic brain injury.
+1858
+HICKS ET AL.
+
+adaptive testing utilized. Following validation studies in TBI popu-
+lations, these two tools may provide brief, inexpensive, and reliable
+outcome measures for both pediatric and adult TBI research.
+One remaining concern with respect to v.2 is the seemingly
+arbitrary nature by which some data elements are classiﬁed, such as
+basic versus supplemental. This potential weakness is readily ac-
+knowledged. This version of the CDEs balanced the evidence-
+based practice approach with the imperatives of practicality. Future
+revisions of the TBI CDEs will have a greater emphasis on con-
+sidering the evidentiary basis for making such categorizations.
+Before updating to v.3, many workgroup members recommend the
+real-world use of v.2 to determine which CDEs and outcome
+measures are most valuable for characterizing patient populations,
+evaluating
+tools,
+and
+predicting
+outcomes.
+Therefore,
+im-
+plementation of the TBI CDEs is the next major challenge. Im-
+plementation will be facilitated by the newly developed Federal
+Interagency TBI Research (FITBIR) Informatics System, which
+will use the TBI CDEs as its data dictionary.23 FITBIR provides a
+platform for data sharing, which will accelerate research by al-
+lowing individual subject meta-analysis and rigorous comparisons
+across studies. A further important step toward implementation will
+be obtaining endorsements by professional organizations. Cur-
+rently, the American Association of Neurological Surgeons and the
+Congress of Neurological Surgeons have endorsed v.2 of the TBI
+CDEs. Translation into other languages to allow use in interna-
+tional studies is also a priority for the future.
+Looking beyond implementation, there is the larger question of
+whether the International TBI Common Data Elements Project will
+lead to signiﬁcant advances in knowledge. The concept of har-
+monization of data elements to enable meta-analysis and collabo-
+ration has emerged over the past decade. There are numerous
+neurological diseases with CDEs, including stroke, epilepsy, and
+Parkinson’s disease, which were created in a manner similar to
+those for TBI.24 The Alzheimer’s Disease Neuroimaging Initiative
+has demonstrated that data sharing can be very productive, and can
+accelerate the development of biomarkers and address other
+questions of high clinical relevance.25 The Institute of Medicine has
+also described a vision for creating knowledge networks, which are
+built on CDEs and data sharing, as a platform for personalized
+medicine and better patient outcomes.26
+Conclusion
+The International CDE Project for TBI research has been en-
+dorsed by numerous Federal agencies and professional organiza-
+tions and will serve as the data dictionary for the newly developed
+FITBIR Informatics System. The creation of v.2 was necessary to
+increase the feasibility and relevance of the TBI CDEs to a wide
+range of study types and populations. It is anticipated that addi-
+tional new data elements and small modiﬁcations to the current
+ones may occur in the near term, but that major revisions will be
+postponed until enough data are in hand to justify the changes.
+Acknowledgments
+The authors gratefully acknowledge the signiﬁcant contributions
+of the workgroup members and federal liaisons (see Appendix) to
+the International TBI CDE Project.
+Author Disclosure Statement
+No competing ﬁnancial interests exist. The views expressed are
+those of the authors and do not necessarily reﬂect those of the
+agencies or institutions with which they are afﬁliated, including the
+United States Department of Health and Human Services. This
+work is not an ofﬁcial document, guidance, or policy of the United
+States government, nor should any ofﬁcial endorsement be inferred.
+References
+1. Thurmond, V.A., Hicks, R., Gleason, T., Miller, A.C., Szuﬂita, N.,
+Orman, J., and Schwab, K. (2010). Advancing integrated research in
+psychological health and traumatic brain injury: common data ele-
+ments. Arch. Phys. Med. Rehabil. 91, 1633–1636.
+2. Duhaime, A.C., Gean, A.D., Haacke, E.M., Hicks, R., Wintermark,
+M., Mukherjee, P., Brody, D., Latour, L., and Riedy, G. (2010).
+Common data elements in radiologic imaging of traumatic brain in-
+jury. Arch. Phys. Med. Rehabil. 91, 1661–1666.
+3. Maas, A.I., Harrison–Felix, C.L., Menon, D., Adelson, P.D., Balkin,
+T., Bullock, R., Engel, D.C., Gordon, W., Langlois Orman, J., Lew,
+H.L., Robertson, C., Temkin, N., Valadka, A., Verfaellie, M., Wain-
+wright, M., Wright, D.W., and Schwab, K. (2010). Common data
+elements for traumatic brain injury: recommendations from the In-
+teragency Workgroup on Demographics and Clinical Assessment.
+Arch. Phys. Med. Rehabil. 91, 1641–1649.
+4. Manley, G.T., Diaz–Arrastia, R., Brophy, M., Engel, D., Goodman,
+C., Gwinn, K., Veenstra, T.D., Ling, G., Ottens, A.K., Tortella, F., and
+Hayes, R.L. (2010). Common data elements for traumatic brain injury:
+recommendations from the Biospecimens and Biomarkers Working
+Group. Arch. Phys. Med. Rehabil. 91, 1667–1672.
+5. Whyte, J., Vasterling, J., and Manley, G.T. (2010). Common data
+elements for research on traumatic brain injury and psychological
+health: current status and future development. Arch. Phys. Med. Re-
+habil. 91, 1692–1696.
+6. Wilde, E.A., Whiteneck, G.G., Bogner, J., Bushnik, T., Cifu, D.X.,
+Dikmen, S., French, L., Giacino, J.T., Hart, T., Malec, J.F., Millis,
+S.R., Novack, T.A., Sherer, M., Tulsky, D.S., Vanderploeg, R.D., and
+von Steinbuechel, N. (2010). Recommendations for the use of com-
+mon outcome measures in traumatic brain injury research. Arch. Phys.
+Med. Rehabil. 91, 1650–1660.
+7. Haacke, E.M., Duhaime, A.C., Gean, A.D., Riedy, G., Wintermark,
+M., Mukherjee, P., Brody, D.L., DeGraba, T., Duncan, T.D., Elovic,
+E., Hurley, R., Latour, L., Smirniotopoulos, J.G., and Smith, D.H.
+(2010). Common data elements in radiologic imaging of traumatic
+brain injury. J. Magn. Reson. Imaging. 32, 516–543.
+8. Adelson, P.D., Pineda, J., Bell, M.J., Abend, N.S., Berger, R.P., Giza,
+C.C., Holtz, G., Wainwright, M.S., and Pediatric TBI Demographics
+and Clinical Assessment Workgroup. (2012). Common data elements
+for pediatric traumatic brain injury: recommendations from the
+Working Group on Demographics and Clinical Assessment. J. Neu-
+rotrauma 29, 639–653.
+9. Berger, R.P., Beers, S.R., Papa, L., Bell, M., and Pediatric TBI CDE
+Biospecimens and Biomarkers Workgroup. (2012). Common data
+elements for pediatric traumatic brain injury: recommendations from
+the Biospecimens and Biomarkers Workgroup. J. Neurotrauma 29,
+672–677.
+10. Duhaime, A.C., Holshouser, B., Hunter, J.V., and Tong, K. (2012).
+Common data elements for neuroimaging of traumatic brain injury:
+pediatric considerations. J. Neurotrauma 29, 629–633.
+11. Gerring, J.P., and Wade, S. (2012). The essential role of psychosocial
+risk and protective factors in pediatric traumatic brain injury research.
+J. Neurotrauma 29, 621–628.
+12. Hunter, J.V., Wilde, E.A., Tong, K.A., and Holshouser, B.A. (2012).
+Emerging imaging tools for use with traumatic brain injury research. J.
+Neurotrauma 29, 654–671.
+13. McCauley, S.R., Wilde, E.A., Anderson, V.A., Bedell, G., Beers, S.R.,
+Campbell, T.F., Chapman, S.B., Ewing–Cobbs, L., Gerring, J.P.,
+Gioia, G.A., Levin, H.S., Michaud, L.J., Prasad, M.R., Swaine, B.R.,
+Turkstra, L.S., Wade, S.L., Yeates, K.O., and Pediatric TBI Outcomes
+Workgroup. (2012). Recommendations for the use of common out-
+come measures in pediatric traumatic brain injury research. J. Neu-
+rotrauma 29, 678–705.
+14. Miller, A.C., Odenkirchen, J., Duhaime, A.C., and Hicks, R. (2012).
+Common data elements for research on traumatic brain injury: pedi-
+atric considerations. J. Neurotrauma 29, 634–638.
+15. Finster, M., and Wood, M. (2005). The Apgar score has survived the
+test of time. Anesthesiology 102, 855–857.
+COMMON DATA ELEMENTS FOR TBI RESEARCH: VERSION 2
+1859
+
+16. Steiner, L.A., and Andrews, P.J.D. (2006). Monitoring the injured
+brain: ICP and CBF. Brit. J. Anaesth. 97, 26–38.
+17. Yuh, E.L., Mukherjee, P., Lingsma, H.F., Yue, J.K., Ferguson, A.R.,
+Gordon, W.A., Valadka, A.B., Schnyer, D.M., Okonkwo, D.O., Maas,
+A.I.R., Manley, G.T., and the TRACK-TBI Investigators. (2013).
+Magnetic resonance imaging improves 3-month outcome prediction in
+mild traumatic brain injury. Ann. Neurol. 73, 224–235.
+18. National Institute of Neurological Disorders and Stroke. (2013).
+NINDS common data elements: traumatic brain injury CDE standards.
+Available
+at:
+http://www.commondataelements.ninds.nih.gov/TBI
+.aspx#tab = Data_Standards Accessed January 8, 2013.
+19. Corrigan, J.D., and Bogner, J.A. (2007). Initial reliability and validity
+of the Ohio State University TBI Identiﬁcation Method. J. Head
+Trauma Rehabil. 22, 318–329.
+20. Baker, S.P., O’Neill, B., Haddon, W. Jr., and Long, W.B. (1974). The
+injury severity score: a method for describing patients with multiple
+injuries and evaluating emergency care. J. Trauma 14, 187–196.
+21. Gershon, R.C., Lai, J.S., Bode, R., Choi, S., Moy, C., Bleck, T.,
+Miller, D., Peterman, A., and Cella, D. (2012). Neuro-QOL: quality of
+life item banks for adults with neurological disorders: item develop-
+ment and calibrations based upon clinical and general population
+testing. Qual. Life Res. 21, 475–486.
+22. Gershon, R.C., Cella, D., Fox, N.A., Havlik, R.J., Hendrie, H.C., and
+Wagster, M.W. (2010). Assessment of neurological and behavioural
+function: the NIH Toolbox. Lancet Neurol. 9, 138–139.
+23. Federal Interagency TBI Research (FITBIR) Informatics System.
+(2013). Available at: https://ﬁtbir.nih.gov/jsp/about/index.jsp Ac-
+cessed January 6, 2013.
+24. National Institute of Neurological Disorders and Stroke. (2013).
+NINDS common data elements. Available at: http://www.common-
+dataelements.ninds.nih.gov/#page = Default Accessed May 11, 2013.
+25. Carrillo, M.C., Bain, L.J.,Frisoni, B.G., and Weiner, M.W. (2012).
+Worldwide Alzheimer’s disease neuroimaging initiative. Alzheimers
+Dement. 8, 337–342.
+26. National Research Council (2011). Toward Precision Medicine:
+Building a Knowledge Network for Biomedical Research and a New
+Taxonomy of Disease. The National Academies Press: Washington,
+DC.
+Address correspondence to:
+Ramona Hicks, PhD
+The National Institutes of Health
+The National Institute of Neurological Disorders and Stroke
+6001 Executive Boulevard, Room 2206
+Bethesda, MD 20892
+E-mail: hicksra@mail.nih.gov
+Appendix
+Members of the TBI Common Data Elements
+(2.0) Workgroups
+ Core CDEs and Epidemiology Studies
+B Cindy Harrison-Felix, PhD - Craig Hospital, Chair
+B Davida M. Carr, MPH - HJF Contractor for Defense and
+Veterans Brain Injury Center/Defense Centers of Ex-
+cellence
+B Wayne A. Gordon, PhD, ABPP/Cn - Department of Re-
+habilitation Medicine, Mount Sinai School of Medicine
+B Harvey Levin, PhD - Baylor College of Medicine
+B David K. Menon, MD, PhD - Division of Anaesthesia,
+University of Cambridge
+B Jennie Ponsford, MA, PhD - School of Psychology and
+Psychiatry, Monash University
+B Karen Schwab, PhD - Defense and Veterans Brain Injury
+Center, Walter Reed Army Medical Center
+B Grahame Simpson, PhD - Brain Injury Rehabilitation
+Unit, Sydney, Australia
+B Hilaire J. Thompson, PhD, RN, CNRN, FAAN - Biobe-
+havioral Nursing and Health Systems, School of Nursing,
+University of Washington
+B Pieter E. Vos, MD, PhD - Department of Neurology,
+Radboud University Nijmegen Medical Centre
+B Jerry Wright, MS, CBIST - Rehabilitation Research
+Center, Santa Clara Valley Medical Center
+ Concussion/Mild TBI Studies
+B Elisabeth Wilde, PhD - Departments of Physical Medicine
+and Rehabilitation, Neurology and Radiology, Baylor
+College of Medicine and Michael E. DeBakey VA
+Medical Center, Chair
+B Vicki Anderson, PhD - Integrated Mental Health Pro-
+gram, Royal Children’s Hospital
+B Victor G. Coronado, MD - National Center for Injury
+Prevention and Control, Centers for Disease Control and
+Prevention
+B Gavin Davis, MBBS - Cabrini Medical Centre
+B Thomas J. DeGraba, MD, FAHA - National Intrepid
+Center of Excellence
+B Sureyya Dikmen, PhD - Department of Rehabilitation
+Medicine, University of Washington
+B Gerard A. Gioia, PhD - Children’s National Medical
+Center, George Washington University School of Medicine
+B Robin A. Hurley, MD - W. G. (Bill) Hefner VA Medical
+Center
+B Grant L. Iverson, PhD - Department of Psychiatry, Uni-
+versity of British Columbia
+B Andy Jagoda, MD, FACEP - Department of Emergency
+Department, Mount Sinai School of Medicine
+B Michael W. Kirkwood, PhD, ABPP/CN - University of
+Colorado Denver School of Medicine, Department of
+Physical Medicine & Rehabilitation
+B Russell R. Lonser, MD - Department of Neurological
+Surgery, The Ohio State University College of Medicine
+B Geoffrey T. Manley, MD, PhD - University of California,
+San Francisco, San Francisco General Hospital, Brain and
+Spinal Injury Center
+B Jeffrey E. Max, MD - Department of Psychiatry, Uni-
+versity of California, San Diego & Director, Neu-
+ropsychiatric Research, Rady Children’s Hospital
+B Thomas W. McAllister, MD - Department of Psychiatry,
+Indiana University School of Medicine
+1860
+HICKS ET AL.
+
+B Michael McCrea, PhD, ABPP - Departments of Neuro-
+surgery and Neurology, Medical College of Wisconsin
+B Paul McCrory, MBBS, PhD - Melbourne School of
+Health Sciences
+B Pratik Mukherjee, MD, PhD - Department of Radiology,
+University of California, San Francisco
+B Douglas C. Oberly, MS - BrainScope Company, Inc.
+B Ross H. Pastel, PhD - National Intrepid Center of Ex-
+cellence, National Naval Medical Center
+B Leslie S. Prichep, PhD - Brain Research Laboratories,
+Department of Psychiatry, New York University School
+of Medicine
+B Michael E. Singer, PhD - BrainScope Company, Inc.
+B Keith O. Yeates, PhD - The Research Institute at Na-
+tionwide Children’s Hospital
+ Studies of Acute, Hospitalized Patients
+B Alex Valadka, MD, FAANS, FACS - Seton Brain and
+Spine Institute, Chair
+B Rachel P. Berger, MD, MPH - Child Advocacy Center,
+Children’s Hospital of Pittsburgh, University of Pitts-
+burgh Medical Center
+B Ann-Christine Duhaime, MD - Massachusetts General
+Hospital
+B Ronald L. Hayes, PhD - Center of Innovative Research,
+Banyan Biomarkers, Inc.
+B Ramona Hicks, PhD - National Institute of Neurological
+Disorders and Stroke, National Institutes of Health
+B Jamie Hutchison, MD - The Hospital for Sick Children
+B Andrew I.R. Maas, MD, PhD - Department of Neuro-
+surgery, University Hospital of Antwerp
+B Geoffrey T. Manley, MD, PhD - University of California,
+San Francisco, San Francisco General Hospital, Brain and
+Spinal Injury Center
+B David K. Menon, MD, PhD - Division of Anaesthesia,
+University of Cambridge
+B Jose A. Pineda, MD, MSc - Department of Pediatrics and
+Neurology, Washington University School of Medicine
+B Robert D. Stevens, MD - Departments of Anesthesiology/
+Critical Care Medicine, Neurology, Neurosurgery, and
+Radiology, The Johns Hopkins University School of
+Medicine, Division of Neurosciences Critical Care
+B Willie Stewart, MBChB, PhD - Department of Neuro-
+pathology, Institute of Neurological Sciences, Southern
+General Hospital
+B Nino Stocchetti, MD - University of Milan
+B Monica S. Vavilala, MD - Harborview Injury Prevention
+and Research Center
+B David W. Wright, MD, FACEP - Department of Emer-
+gency Medicine, Emory University School of Medicine
+B Esther L. Yuh, MD, PhD - University of California, San
+Francisco
+ Studies of Rehabilitation for
+Moderate–Severe
+TBI
+Rehabilitation
+B Joseph T. Giacino, PhD - Spaulding Rehabilitation Hos-
+pital, Department of Physical Medicine and Rehabilita-
+tion, Harvard Medical School, Chair
+B Beth M. Ansel, PhD, CCC-SLP - National Center for
+Medical Rehabilitation Research, The Eunice Kennedy
+Shriver National Institute of Child Health and Human
+Development, National Institutes of Health
+B Kathleen R. Bell, MD - Department of Rehabilitation
+Medicine, University of Washington
+B Tamara Bushnik, PhD, FACRM - Department of Re-
+habilitation Medicine, Rusk Institute for Rehabilitation
+B David X. Cifu, MD - Department of Physical Medicine
+and Rehabilitation, Virginia Commonwealth University,
+Physical Medicine and Rehabilitation Program Ofﬁce,
+U.S. Department of Veterans Affairs
+B Linda Ewing-Cobbs, PhD - Dan L Duncan Children’s
+Neurodevelopmental Clinic, Children’s Learning Institute
+B Tessa Hart, PhD - Moss Rehabilitation Research Institute
+B Stuart W. Hoffman, PhD - Ofﬁce of Research and De-
+velopment, U.S. Department of Veterans Affairs
+B Stephanie A. Kolakowsky-Hayner, PhD, CBIST - Re-
+habilitation Research Center, Santa Clara Valley Medical
+Center
+B Steven Laureys, MD, PhD - University Hospital of Lie`ge
+B A. Cate Miller, PhD - National Institute on Disability and
+Rehabilitation Research, U.S. Department of Education
+B Jennie Ponsford, MA, PhD - School of Psychology and
+Psychiatry, Monash University
+B Louis Puybasset, MD, PhD - The Pitie´-Salpeˆtrie`re Hospital
+B M. Elizabeth Sandel, MD - Kaiser Foundation Re-
+habilitation Center
+B David S. Tulsky, PhD - University of Michigan, North
+Campus Research Complex
+B Shari Wade, PhD - Department of Pediatrics, Cincinnati
+Children’s Hospital Medical Center
+Federal Liaisons to TBI Common Data Elements Project
+B Beth M. Ansel, PhD, CCC-SLP - National Center for
+Medical Rehabilitation Research, The Eunice Kennedy
+Shriver National Institute of Child Health and Human De-
+velopment, National Institutes of Health
+B Victor G. Coronado, MD - National Center for Injury Pre-
+vention and Control, Centers for Disease Control and Pre-
+vention
+B Ken Curley, MD - Combat Casualty Care Directorate, U.S.
+Army Medical Research and Materiel Command
+B Ramona Hicks, PhD - National Institute of Neurological
+Disorders and Stroke, National Institutes of Health
+B Stuart W. Hoffman, PhD - Ofﬁce of Research and Devel-
+opment, U.S. Department of Veterans Affairs
+B Matthew McAuliffe, PhD - Center for Information Tech-
+nology, National Institutes of Health
+B A. Cate Miller, PhD - National Institute on Disability and
+Rehabilitation Research, U.S. Department of Education
+B Ross H. Pastel, PhD - National Intrepid Center of Ex-
+cellence, National Naval Medical Center
+B Wanda Salzer, MD - Combat Casualty Care Directorate,
+U.S. Army Medical Research and Materiel Command,
+B Karen Schwab, PhD - Defense and Veterans Brain Injury
+Center, Walter Reed Army Medical Center
+NINDS TBI Common Data Elements Project Team
+B Joanne Odenkirchen, MPH – National Institute of Neurolo-
+gical Disorders and Stroke, National Institutes of Health,
+Lead
+B Alison Garcia - Sapient Government Services
+B Stacie Grinnon, MS - KAI Research, Inc. (An Altarum
+Company)
+B Amy Price, MS - KAI Research, Inc. (An Altarum Com-
+pany)
+COMMON DATA ELEMENTS FOR TBI RESEARCH: VERSION 2
+1861

@@ -1,0 +1,1832 @@
+Observed Parent Behaviors as Time-Varying Moderators of 
+Problem Behaviors Following Traumatic Brain Injury in Young 
+Children
+Amery Treble-Barna1, Huaiyu Zang1, Nanhua Zhang1, H. Gerry Taylor2, Terry Stancin3, 
+Keith Owen Yeates4, and Shari L. Wade1
+1Cincinnati Children’s Hospital Medical Center
+2Rainbow Babies and Children’s Hospital
+3Case Western Reserve University School of Medicine
+4University of Calgary
+Abstract
+Parent behaviors moderate the adverse consequences of pediatric traumatic brain injury (TBI); 
+however, it is unknown how these moderating effects change over time. This study examined the 
+moderating effect of observed parent behaviors over time since injury on the relation between TBI 
+and behavioral outcomes. Participants included children, ages 3–7 years, hospitalized for moderate 
+(n = 52) or severe (n = 20) TBI or orthopedic injury (OI; n = 95). Parent–child dyads were 
+videotaped during structured task and free play conditions and parents completed child behavior 
+ratings. Linear mixed models using a lagged, time-varying moderator analysis examined the 
+relationship of observed parent behaviors at the baseline, 6-month, and 12-month assessments to 
+child behavior problems at 6 months, 12 months, and 18 months post injury, after controlling for 
+pre-injury levels of child behavior problems. The effect of TBI on behavior was exacerbated by 
+less favorable parent behaviors, and buffered by more favorable parent behaviors, in children with 
+severe TBI over the first 12 months post injury. By 18 months post injury, however, the moderating 
+effect of parent behaviors diminished such that children with severe TBI showed more behavior 
+problems relative to children with moderate TBI or OI regardless of parent behaviors or in 
+response to parent behaviors that were initially protective. The results suggest that the moderating 
+effects of the family environment are complex and likely vary in relation to both recovery and 
+developmental factors, with potentially important implications for targets and timing of 
+intervention.
+Keywords
+pediatric traumatic brain injury; child behavior problems; parenting; recovery; parent-child 
+interactions; moderation
+Traumatic brain injury (TBI) is a leading cause of death and disability in childhood. Epi-
+demiological studies suggest that young children (0–4 years of age) are at greater risk for 
+injuries requiring emergency treatment or hospitalization than are older children (Langlois, 
+Rutland-Brown, & Wald, 2006). Children sustaining TBI during early childhood also 
+HHS Public Access
+Author manuscript
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Published in final edited form as:
+Dev Psychol. 2016 November ; 52(11): 1777–1792. doi:10.1037/dev0000208.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+experience poorer neuropsychological, psychosocial, and academic outcomes than children 
+injured during later childhood (Anderson, Catroppa, Morse, Haritou, & Rosenfeld, 2005; 
+Anderson et al., 2012; Barnes, Dennis, & Wilkinson, 1999; Ewing-Cobbs & Barnes, 2002; 
+Ewing-Cobbs et al., 1997; Verger et al., 2000), perhaps due to an increased susceptibility to 
+diffuse brain insult and the detrimental effects of brain injury on subsequent development 
+(Ewing-Cobbs et al., 2004; Ewing-Cobbs et al., 1997; Taylor & Alden, 1997). Thus, children 
+sustaining TBI during early childhood are a special population at heightened risk for injury 
+and resulting poor outcomes, underscoring the importance of understanding risk factors and 
+moderating influences on outcomes over time post injury.
+Behavioral changes and emerging behavior problems represent the most persistent negative 
+consequence of TBI in children (Rutter, Chadwick, Shaffer, & Brown, 1980) and are 
+associated with impairments in other domains, including adaptive and academic functioning 
+(Arnett et al., 2013; Hawley, 2004; Max, Koele, et al., 1998; Schwartz et al., 2003). A recent 
+review of the literature reported that up to 50% of children sustaining TBI are at risk for 
+behavior problems post injury (Li & Liu, 2013), although estimates reach up to 
+approximately 70% of those sustaining severe injuries (G. C. Fay et al., 1994; Fletcher, 
+Ewing-Cobbs, Miner, Levin, & Eisenberg, 1990; Schwartz et al., 2003). Both “internalizing” 
+and “externalizing” behavior problems are common following pediatric TBI. New-onset 
+depressive disorders occur in 10–25% of school-aged children within two years post injury 
+(Bloom et al., 2001; Max et al., 2012; Max, Koele, et al., 1998) and anxiety disorders and 
+symptoms were reported in 46% of children six months after hospitalization for TBI relative 
+to 14% of those hospitalized for orthopedic injuries (OI; Luis & Mittenberg, 2002). 
+Attention problems, often diagnosed as “secondary ADHD”, are among the most commonly 
+reported consequences of TBI in children, with 30–50% of children developing symptoms 
+and associated problem behaviors (Konrad, Gauggel, Manz, & Scholl, 2000; Max et al., 
+2004). Risk for other disruptive behaviors is also increased, with approximately 20–40% of 
+children demonstrating oppositional defiant behaviors, including aggression, temper 
+tantrums, and destructiveness (Ganesalingam, Sanson, Anderson, & Yeates, 2007; Max, 
+Castillo, et al., 1998; McKinlay, Grace, Horwood, Fergusson, & MacFarlane, 2010). 
+Although behavior difficulties may resolve within the first year of injury (Bloom et al., 
+2001), some problem behaviors remain stable or worsen over time, and others may not 
+emerge until several years following the injury (Catroppa, Anderson, Morse, Haritou, & 
+Rosenfeld, 2008; Cattelani, Lombardi, Brianti, & Mazzucchi, 1998; Chapman et al., 2010; 
+T. B. Fay et al., 2009; Schwartz et al., 2003; Taylor et al., 2002). Recent studies have also 
+documented higher rates of mental health difficulties in adult survivors of childhood TBI 
+(Ryan et al., 2013; Ryan et al., 2015; Scott et al., 2014).
+Known risk factors for elevated behavior problems following pediatric TBI include greater 
+injury severity (Anderson et al., 2012), younger age (Anderson et al., 2005; Ewing-Cobbs et 
+al., 1997), lower SES (Max et al., 2005a; Schwartz et al., 2003), and premorbid behavior 
+difficulties (Anderson et al., 2012; Max et al., 2005a; Yeates et al., 2005); however, recent 
+research has focused on the influence of the family environment. A variety of family 
+environmental variables are known to influence behavioral outcomes in typically developing 
+children, including family functioning (Brock & Kochanska, 2015; Weeks et al., 2014), 
+parenting style (Luyckx et al., 2011; Rothbaum & Weisz, 1994), and positive and negative 
+Treble-Barna et al.
+Page 2
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+parent-child interactions (Bradley, Convyn, Burchinal, McAdoo, & Coll, 2001; Bradley & 
+Corwyn, 2007; Rubin, Burgess, Dwyer, & Hastings, 2003). In particular, theories of 
+parenting effects on child development, such as those proposed originally by Baumrind and 
+Vygotsky (Baumrind, 1989; Vygotsky, 1978), indicate that certain parenting behaviors are 
+key determinants of age-appropriate behavioral adjustment and self-regulatory skills.
+Parent behaviors during parent-child interactions are of particular interest in research 
+because they can be objectively observed and coded in the laboratory (Landry, Smith, 
+Miller-Loncar, & Swank, 1997; Robinson & Eyberg, 1981) and are amenable to change 
+through coaching as the focus of intervention studies (Akai, Guttentag, Baggett, Noria, & 
+Neglect, 2008; Eyberg, Boggs, & Algina, 1995; Guttentag et al., 2014). Research has 
+identified salient dimensions of parent behavior such as warmth, contingent responsiveness 
+(also sometimes called “sensitivity”), negativity (also sometimes called “hostility”), 
+scaffolding, and methods of behavioral control (e.g. directiveness, restrictiveness). Although 
+a comprehensive review is beyond the scope of this paper, low warmth, low contingent 
+responsiveness, high negativity, low frequency of scaffolding, and high frequency of 
+directive and restrictive behaviors in parents of healthy children have all been associated 
+with the development of internalizing and externalizing problems, as well as attention 
+difficulties and slower cognitive and social development (Bates & Pettit, 2015; Denham, 
+Bassett, & Wyatt, 2015; Gauvain & Perez, 2015; Grusec, 2011). Purported mechanisms by 
+which these parent behaviors influence child outcomes include promoting or hindering a 
+child’s capacity to modulate and regulate arousal and emotions (Chang, Olson, Sameroff, & 
+Sexton, 2011; Eisenberg et al., 1999; Tronick, 1989), consider potential consequences of 
+actions (Brody, Dorsey, Forehand, & Armistead, 2002), sustain attention (Landry, Miller-
+Loncar, Smith, & Swank, 2002), and develop a sense of self (Burge & Hammen, 1991; 
+Downey & Coyne, 1990; Ge, Best, Conger, & Simons, 1996). For example, scaffolding 
+involves the provision of information in the form of conceptual links, as well as other forms 
+of assistance in ways that support children’s developing cognitive and self-regulation skills 
+(Landry et al., 2002; Vygotsky, 1978; Wood, Bruner, & Ross, 1976). Through parental 
+scaffolding or “other regulation,” children gradually learn and internalize skills that allow 
+them to solve problems independently (i.e. self-regulation; Henderson & Moore, 1980; 
+Landry et al., 2002).
+Parent behaviors have also been associated with outcomes in children with neurological risk, 
+including children born preterm (Landry et al., 2002), children with very low birth weight 
+(Landry et al., 1997), and children with neonatal/birth complications (M. Wade, Madigan, 
+Akbari, & Jenkins, 2015). Associations of parent behaviors with child outcomes in atypical 
+populations are often stronger than in healthy populations (Landry, Garner, Swank, & 
+Baldwin, 1996; Landry et al., 1997; Landry, Smith, & Swank, 2006), presumably because 
+positive parent behaviors help at-risk children overcome their developmental problems, 
+whereas parent behaviors are less critical for fostering development in healthy children 
+(Landry et al., 1997). Because children with TBI are at increased risk for internalizing, 
+externalizing, and attention problems, and because these problems are associated with parent 
+behaviors in typical and at-risk populations, parent behaviors may play a role in children’s 
+recovery from TBI.
+Treble-Barna et al.
+Page 3
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Similar to the effects in typically developing children, greater family dysfunction is 
+associated with more behavioral difficulties following pediatric TBI (Chapman et al., 2010; 
+Crowe, Catroppa, Babl, & Anderson, 2012). In previous reports from the present sample, we 
+have demonstrated that both permissive and authoritarian parenting styles, based on parent 
+self-report questionnaires, increase risk for post injury behavior problems over the first 18 
+months post injury, whereas authoritative parenting appears to be protective (Chapman et al., 
+2010; Yeates, Taylor, Walz, Stancin, & Wade, 2010). We also showed that higher observed 
+parental warm responsiveness was associated with lower levels of internalizing and 
+externalizing behavior problems, as well as ADHD symptoms, during the first 6 months post 
+injury, whereas higher observed negativity was associated with higher internalizing 
+problems (S. L. Wade et al., 2011). Similar results have been found in adolescents with TBI, 
+wherein less effective observed parent communication and higher observed parental 
+criticism/coldness were associated with poorer adolescent adjustment (Raj et al., 2014; S. L. 
+Wade et al., 2003). Notably, family environmental factors have predicted child behavior 
+outcomes post injury after accounting for SES and premorbid behavior problems, suggesting 
+that the effects extend beyond differences in access to resources and provide evidence for 
+associations with emergence of new behavior problems following TBI.
+Moving beyond the framework of family environmental variables as independent predi-tors 
+of increased behavior difficulties following TBI, recent research demonstrates that family 
+environmental variables may also moderate (i.e., buffer or exacerbate) the adverse 
+consequences of pediatric TBI (Yeates et al., 1997). The moderating influence of family 
+environmental factors on neuropsychological, academic, and adaptive functioning has been 
+demonstrated in school-aged children with TBI (Micklewright, King, O’Toole, Henrich, & 
+Floyd, 2012; Taylor et al., 1999; Yeates et al., 1997). In the present sample of children, who 
+sustained their injuries during early childhood, we found that permissive parenting at 18 
+months post injury moderated the association between injury severity and attention problems 
+at an average of 39 months post injury, such that greater permissiveness was associated with 
+more attention difficulties after severe TBI, but not after moderate TBI or OI (Kurowski et 
+al., 2011). When we directly observed parents and children interacting (S. L. Wade et al., 
+2011), greater parental warm responsiveness at 6 months post injury moderated the effect of 
+TBI on concurrent externalizing behaviors, such that children with severe TBI and parents 
+high in warm responsiveness had fewer externalizing problems than did those with less 
+responsive parents. Similarly, parental negativity observed both shortly after injury and at 6 
+months post injury had a moderating effect, such that the presence of negativity was 
+associated with more externalizing and ADHD symptoms at 6 months post injury in the 
+severe TBI group.
+Finally, when we followed the present sample out to 18 months post injury (Yeates et al., 
+2010), higher levels of permissive parenting shortly after injury were associated with more 
+overall behavior problems in children with TBI compared to those with OI, though group 
+differences in behavior problems emerged over time even at lower levels of permissive 
+parenting. In contrast, high levels of authoritarian parenting at baseline were associated with 
+worsening of behavioral adjustment among the TBI groups relative to OI group over time, 
+whereas these differences lessened over time at low levels of authoritarian parenting, 
+especially for the moderate TBI group. These most recent results suggest that the 
+Treble-Barna et al.
+Page 4
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+moderating effects of family environmental factors vary over time since injury. The 
+possibility that the moderating effects of the family environment changes over time is 
+buttressed by evidence that caregiving behaviors change in response to having a child sustain 
+a TBI (Fairbanks et al., 2013; S. L. Wade et al., 2008), both over the course of recovery 
+(Fairbanks et al., 2013) and in response to changes in child behavior post injury (Taylor et 
+al., 2001).
+The moderating effects reported by BLINDED et al. (2010), however, were examined in 
+models that examined family factors only at the baseline assessment conducted early after 
+injury. In addition, family factors were limited to parent self-report measures. A more 
+objective characterization of the moderating effects of family environmental factors, and one 
+that would better inform the timing and targets of family intervention, would be provided by 
+direct observation of parent-child interactions and by consideration of time-varying 
+moderation. A significant advantage of time-varying models is that they assess family 
+factors measured both early and later post injury on subsequent child behavior outcomes, 
+taking into account changes in family factors that may occur across follow-up and permitting 
+closer tracking of relations between family status and child behavior. The objective of the 
+present study was to examine the moderating effect of observed parent behaviors over time 
+since injury on the relation between TBI and behavioral outcomes. We hypothesized that 
+young children hospitalized for TBI would display more behavior problems than children 
+with OI, and that these problems would be more prominent in children with more severe 
+TBI. We also hypothesized that observed parent behaviors would moderate the effect of TBI 
+on behavioral outcomes, such that the effect of TBI would be exacerbated in children whose 
+parents demonstrated less favorable parenting behaviors and, conversely, buffered in children 
+whose parents demonstrated more favorable parenting behaviors. Finally, we hypothesized 
+that the moderating effect of observed parent behaviors would vary over time since injury, 
+possibly diminishing in influence over time as children recover from injury.
+Method
+The study used a prospective, longitudinal, concurrent cohort research design to examine 
+behavioral outcomes in young children with TBI and young children with OI and their 
+families. Children and their families were assessed shortly after injury and again at 6 
+months, 12 months, and 18 months post injury. The use of an OI comparison group increases 
+the likelihood that the groups are comparable in terms of pre-injury behavioral adjustment 
+and family functioning, factors that have been shown to contribute to the risk for injury (both 
+TBI and OI), may relate to pre-injury parent–child interactions (Goldstrohm & Arffa, 2005), 
+and are likely to be associated with post injury behavior difficulties (Max et al., 2005a, 
+2005b). The study was approved by the Institutional Review Boards at each of the 
+participating medical centers, and informed consent was obtained from participating 
+caregivers.
+Recruitment Criteria
+Consecutive admissions of children with TBI or with OI not involving the central nervous 
+system (CNS) were screened at three tertiary care children’s hospitals and a general hospital 
+Treble-Barna et al.
+Page 5
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+(all with Level 1 trauma centers) in BLINDED. Eligibility requirements for both groups 
+included age between 36 to 84 months at the time of injury and English as the primary 
+spoken language in the home. Eligibility for the TBI group also included a TBI requiring 
+overnight admission to the hospital with a Glasgow Coma Scale (GCS; Teasdale & Jennett, 
+1974) score of 12 or less or a higher score accompanied by abnormal neuroimaging 
+(magnetic resonance imaging [MRI] or computed tomography [CT] scan) as defined by an 
+intracranial or parenchymal injury or depressed skull fracture. Children with non-blunt head 
+trauma (e.g., projectile wounds, strokes, drowning) were excluded. Consistent with previous 
+investigations (Anderson et al., 2006; Fletcher et al., 1990; Taylor et al., 1999), a GCS score 
+of 8 or less defined a severe TBI. Complicated mild to moderate TBI (henceforth referred to 
+as ‘moderate TBI’) was defined as a GCS score of 9–12 with or without abnormal 
+neuroimaging (moderate TBI) or a higher GCS score with abnormal neuroimaging 
+(complicated mild TBI). The GCS score assigned to the child was the lowest one recorded 
+post resuscitation. Because the focus of this study was on children with complicated mild to 
+severe TBI, a small group of children with uncomplicated mild TBI was excluded from 
+analysis. Inclusion in the OI group required a documented bone fracture (other than the 
+skull), an overnight hospital stay, and the absence of any evidence of loss of consciousness 
+or other findings suggestive of brain injury (e.g., symptoms of concussion). Parents of all 
+children meeting these criteria were contacted either during the child’s hospital stay or 
+subsequently by letter and follow-up phone calls to conduct further screening and recruit the 
+family for participation. As part of the recruitment screening procedure, children were 
+excluded if they had any of the following: previous history of brain injury; preexisting 
+neurological disorder or medical problem affecting the CNS; diagnosis of mental 
+retardation, autism, or neurological disorder; documentation in the medical chart or in the 
+parent interview of child abuse as the cause of injury; or history of severe psychiatric 
+disorder requiring hospitalization.
+Sample Characteristics
+A total of 206 children and their caregivers (87 with TBI and 119 with OI) completed 
+informed consent and were originally enrolled in the study. Baseline data were collected on 
+204 children and caregivers (87 with TBI and 117 with OI). The sample included 54% of 
+eligible children with TBI and 35% of eligible children with OI. Comparison of enrolled 
+children with those in the Trauma Registry at participating hospitals meeting age and injury 
+severity criteria indicated that our sample was representative of all eligible children in terms 
+of race and family income (based on median income from the 2005 Census for the child’s 
+address). All but six children (97%) completed the videotaped interaction tasks at the 
+baseline assessment, and an additional four children had unusable videotapes and were thus 
+excluded from the analyses (see S. L. Wade et al., 2008 for a more complete description of 
+the baseline sample). The primary caregiver was the child’s mother in all but eight families 
+(96%). In these families, fathers (three), grandmothers (four), or permanent legal guardians 
+(one) served as the primary caregiver and completed the parent–child interaction task. 
+Socioeconomic status (SES) was defined by averaging sample z scores for maternal 
+education and median income for the family’s census tract, referred to as the SES z score 
+(Yeates et al., 2010).
+Treble-Barna et al.
+Page 6
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+The sample included in the present study comprised the 167 children with data for all 
+relevant predictors who had completed at least one of the 6-, 12-, or 18-month post injury 
+assessments (20 with severe TBI, 52 with moderate TBI, and 95 with OI). Although 
+participants did not differ significantly from non-participants in sex, race, or age at injury, 
+participants had significantly higher SES z scores, t(197) = 2.64, p = .009, likely reflecting 
+greater difficulties tracking the less advantaged families. Group comparisons revealed that 
+children with severe TBI were hospitalized longer than children in the other two groups 
+(Table 1). The time between injury and baseline assessment was longer for the TBI group 
+(M = 46.5 days, SD = 24.3) than for the OI group (M = 34.6 days, SD = 15.1; t(111.48) = 
+3.64, p < .001) because of difficulties recruiting and testing children acutely following TBI. 
+As reported previously (S. L. Wade et al., 2008), the groups did not differ with respect to 
+pre-injury delays in growth, development, learning difficulties, or problems with emotions 
+and behavior, suggesting that the children had comparable rates of developmental and 
+behavioral concerns prior to the injury. Group comparisons also failed to reveal differences 
+in racial composition, but a higher proportion of mothers of children in the OI group 
+completed at least a high school education relative to mothers of children in the severe TBI 
+group, and a similar trend was found for family income.
+Procedures
+Observations of parent behaviors during videotaped parent-child interactions were 
+conducted shortly after the injury at the baseline assessment and again at 6 and 12 months 
+post injury. Parent ratings of pre-injury child behavior problems were collected at the 
+baseline evaluation. Parent ratings of post injury behavior problems were collected at 6, 12, 
+and 18 months post injury.
+Measures
+Ratings of parent and child behaviors during parent-child interactions—To rate 
+parent behaviors, we employed the coding system used by Landry and colleagues (Landry et 
+al., 1997) in their studies of outcomes in low-birth-weight children. This system incorporates 
+ratings of parent behaviors that reflect more enduring dispositions or interactive styles 
+(Bakeman & Brown, 1980). Parent behaviors are measured using both molar (rating scale) 
+and micro (frequencies of behaviors) methods to reflect a broad range of parental 
+characteristics. Considerable support exists regarding the predictive validity of these ratings 
+for subsequent child cognitive and social development (Landry et al., 2002; Landry et al., 
+1997; Landry, Smith, Swank, Assel, & Vellet, 2001).
+Parent-child dyads were videotaped during 10-minutes of a structured task and 10-minutes 
+of free play, each of which was divided into two 5-minute segments for rating purposes and 
+transcribed to facilitate coding of parent verbalizations. During the structured task, the 
+parents and children were required to complete a series of puzzles together that were 
+selected based on the likelihood of the child needing some parental assistance to complete. 
+During the free play interactions, parents and children were instructed to spend time together 
+as they normally would at home. Children in the free play situation were able to engage in 
+enjoyable activities with opportunities for interaction with their parent in the absence of any 
+stated expectations for performance. The room was equipped with developmentally 
+Treble-Barna et al.
+Page 7
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+appropriate toys, a TV, and magazines for the parent to read. The free play situation was 
+designed to elicit parent–child interactions similar to those that might be observed in the 
+child’s home or other everyday situation, thereby increasing ecological validity.
+Parent behavior was coded along the dimensions of warmth, contingent responsiveness, and 
+negativity. Raters provided a global rating of each dimension along a 5-point scale for each 
+5-minute segment, with higher scores indicating more positive behavior (i.e., high warmth, 
+minimal negativity). Parental warmth was rated on the basis of the presence and intensity of 
+verbal and nonverbal warmth, affection, and positive regard toward the child. Contingent 
+responsiveness ratings reflected the degree of the parent’s sensitivity and responsiveness to 
+the child’s behavior (see S. L. Wade et al., 2008 for a more complete description). Negativity 
+was rated on the basis of the presence of a harsh or angry tone of voice, sarcasm and 
+demeaning comments, physical control such as slaps or pinches, and physical expressions of 
+impatience (eye-rolling, sighing).
+Parent behavior was also coded for the frequency of scaffolds, directives, and restrictive 
+behaviors. The frequency of each behavior was divided by the total of the three types of 
+behaviors to calculate a proportional value for each type in order to control for differences 
+between parents in the amount that they engaged the child. Scaffolds (considered a positive 
+or facilitative parent behavior) were coded when parents provided conceptual links between 
+objects, persons, activities, or functions (e.g. “That’s a giraffe. You saw one at the zoo.”). 
+Directives (considered as less positive or facilitative, especially during play) include parental 
+strategies to focus the child’s attention while providing more information about what to do 
+and/or fewer choices (e.g. “Put the dog in the barn”). Restrictive behaviors are verbal or 
+nonverbal behaviors that limit, restrict, or discipline the child’s behavior in some way (e.g. 
+“Calm down” or shaking head to indicate “no”). Because scaffolds and directives during free 
+play were highly inversely correlated (r = −.78), analysis of parent behavior during free play 
+considered only scaffolds and restrictive behaviors.
+Although child behaviors during the parent-child interactions were not the focus of the 
+present study, child behaviors were also coded using the coding system used by Landry and 
+colleagues (Landry et al., 1997). Although this coding system does not provide information 
+on dyadic interactions between individual child and parent, associations of child and parent 
+behaviors provide a context for interpreting the parent behaviors. During the free play 
+condition, coders rated the child’s warmth toward the parent on the basis of the amount of 
+talking, eye contact, smiling/positive affect, and verbal and nonverbal efforts to engage the 
+parent. During the structured task condition, coders rated the child’s cooperation and 
+behavioral dysregulation. Child cooperation was rated on the basis of the child’s listening to 
+parent’s suggestions, tolerance of denial of wishes or requests and toleration of making 
+choices, receptivity to redirection, and expanding on parent’s requests rather than giving 
+minimal responses. Child behavioral dysregulation was rated on the basis of the presence of 
+hypersensitivity to challenges or parental requests, inability to adjust to changes, extremes in 
+affect, expression of wants and needs in inappropriate ways, and difficulty with self-
+regulation (e.g. tantrums, screaming). Child behaviors were also rated along a 5-point scale, 
+with higher scores indicating more positive behavior (i.e., high warmth, minimal behavioral 
+dysregulation).
+Treble-Barna et al.
+Page 8
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Each 5-min segment was coded independently, with ratings for the two free play segments 
+and two structured task segments averaged to increase the stability of these measures. To 
+assess inter-rater reliability, 15% of the tapes were rated by the entire rating team. Each 
+rater’s reliability with the group ratings was assessed using intraclass correlation coefficients 
+(ICC). ICCs for all codes and raters were .8 or greater (range = .80–.99) indicating a high 
+level of inter-rater reliability. Although raters were not informed of the group status of 
+parent–child dyads, some children in both groups had casts indicative of orthopedic injuries, 
+and some children with severe TBI had visible speech or motor impairments associated with 
+their injuries at the baseline assessments. Therefore, complete concealment of injury status 
+from the raters was not always feasible.
+Correlations among parent behaviors across time points by condition are provided in Table 
+2. Scales with correlations exceeding .75 were averaged to form composites. Based on this 
+criterion, parental warmth and contingent responsiveness were averaged into a single scale 
+of “warm responsiveness” reflecting positive parenting behavior (see also Landry et al., 
+2006). Parental negativity was not highly correlated with positive parenting behaviors (r = −.
+20 to −.34) and was thus retained as a separate scale. Ratings of negativity were highly 
+skewed, however, with less than 10% of parents receiving ratings of less than 4 (slightly 
+negative). As a result, a dichotomous measure of negativity (present vs. absent) was used as 
+the predictor in the analyses. Changes in parent behaviors over time were previously 
+reported in BLINDED and colleagues (Fairbanks et al., 2013). Compared to parents in the 
+OI group, those in the moderate TBI group demonstrated lower levels of warm 
+responsiveness at baseline during free play and at both baseline and 6 months post injury 
+during structured activities. These differences, however, were no longer significant by 12 
+months post injury. No significant differences emerged between the severe TBI and OI 
+group at any time point.
+Correlations of child behaviors with parent behaviors by time point and condition are 
+provided in Table 3. Across visits, parents of children who were higher in warmth were 
+themselves also higher in warmth, contingent responsiveness, and scaffolds, and lower in 
+directiveness. Parents of children who were higher in cooperation were higher in scaffolding 
+and lower in negativity and restrictiveness. Parents of children who had better behavioral 
+regulation were higher in warmth, contingent responsiveness, and scaffolding, and lower in 
+negativity and restrictiveness, although associations were weaker at 12 months post injury.
+Parent ratings of child behavior problems—Parents completed the age-appropriate 
+form of the Child Behavior Checklist (CBCL; Achenbach & Rescorla, 2001) at baseline and 
+all three follow-up assessments. The CBCL is a commonly used parent-report measure of 
+child behavior problems and possesses high test–retest reliability and criterion-related 
+validity. At baseline, parents were asked to complete the CBCL based on the child’s pre-
+injury behaviors. Although the time between injury and baseline assessment was longer for 
+the TBI group than for the OI group, we found no significant group by time since injury 
+interactions on baseline reports of pre-injury child behavior (all p > .05). In addition, no 
+significant differences were found among the groups in pre-injury child behavior problems, 
+although children in the severe TBI group consistently showed trends for more pre injury 
+behavior problems. The effect of time since injury was significant for ADHD symptoms 
+Treble-Barna et al.
+Page 9
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+only, with greater time since injury associated with fewer symptoms of ADHD, indicating a 
+possible “good old days” bias (Brooks et al., 2014) on pre-injury behaviors that held across 
+groups. To assess the potential consequences of TBI on behavior, we focused on the T-scores 
+for Internalizing and Externalizing problems and the raw score on the Attention-Deficit/
+Hyperactivity (ADHD) scale (Bloom et al., 2001; Max et al., 2005a, 2005b). The ADHD 
+Scale contains items assessing common symptoms of ADHD, including difficulties with 
+concentration, sitting still, impulsiveness, and inattention. Raw scores were used for this 
+scale due to the restricted range of T-scores (Chapman et al., 2010). Correlations among the 
+scales considered in this study ranged from .57 (between Internalizing and ADHD) to .80 
+(between Externalizing and ADHD) at all time points. Table 4 reports the proportion of 
+children in each group exceeding borderline clinical cutoffs on the CBCL at each time point 
+as defined by T-scores >63, or <10th percentile relative to the normative sample, 
+corresponding to cutoffs used to identify clinical “caseness” by Schwartz et al. (2003).
+Additional measures of the family environment—Caregiver psychological distress at 
+baseline was measured using the Brief Symptom Inventory (BSI; Derogatis & Spencer, 
+1982), a 53-item questionnaire tapping a wide range of psychological symptoms. Reliability 
+and validity are well established. Overall parent psychological distress on this measure was 
+summarized using the Global Severity Index (BSI-GSI). The 12-item General Functioning 
+Scale (GF) of the Family Assessment Device (FAD; Miller, Bishop, Epsten, & Keitner, 
+1985) was administered to assess global preinjury family functioning at baseline. The FAD-
+GF has demonstrated reliability and validity and correlates highly with other FAD subscales. 
+Higher scores on the FAD-GF indicate greater family dysfunction. These measures were 
+included to allow us to statistically control for the effects of caregiver distress and family 
+functioning when examining the relation between parenting behaviors and child behavior 
+problems.
+Statistical Analysis
+We employed linear mixed models using a lagged, time-varying moderator analysis to 
+examine the relationship of observed parent behaviors during both the structured task and 
+free play, conditions at the baseline, 6-month, and 12-month assessments to child behavior 
+problems at 6 months, 12 months, and 18 months post injury, after controlling for pre-injury 
+levels of child behavior problems. Lagged models were applied on the assumption that 
+parent behavior at the beginning of the interval over which change in child behavior 
+problems was assessed would provide the most proximal assessment of parent influences 
+operating during that interval. Children with TBI were divided into moderate and severe 
+groups on the basis of the severity of injury, with the OI group serving as a reference 
+category. Dummy coding was used to contrast the moderate and severe TBI groups with the 
+OI reference group. Covariates included the SES z score, the CBCL form version (preschool 
+vs school-age), age at injury, and the BSI-GSI. Other factors, including the FAD-GF, race, 
+and gender were excluded after preliminary analysis failed to reveal significant associations 
+of these variables with child behavior.
+Moderating effects of parent behaviors on group differences and on group differences across 
+time were examined by including parent behavior x group and parent behavior x group x 
+Treble-Barna et al.
+Page 10
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+time interactions in the models. Parent behavior was included in the models as a lagged 
+time-varying factor. When a significant moderating effect was detected, post hoc analyses 
+examined injury group differences at high and low levels of parent behavior, and when a 
+significant time-varying moderating effect was detected, post hoc analyses examined injury 
+group differences at high and low levels of parent behavior at each time point.
+Participants were considered random effects with a corresponding random slope with respect 
+to time since injury. After fitting an initial model, we tested the significance of random and 
+fixed effects and reduced model complexity to achieve the most parsimonious model. The 
+random slope with respect to time since injury was trimmed from the models predicting 
+ADHD symptoms due to non-significance. We followed an iterative process, eliminating 
+predictors for which the F tests for fixed effects were not significant, starting with three-way 
+interactions, and then re-estimating the model before examining lower-level interactions and, 
+finally, main effects. For any significant interaction, all of the main effects and lower-level 
+interactions upon which the significant interaction was based were retained in the model.
+An alpha of .05 was used despite multiple comparisons to reduce the risks of Type II error 
+associated with tests of interactions in non-experimental designs (McClelland & Judd, 1993) 
+and because interactions were the primary focus of the study. However, effect sizes were 
+computed by standardizing all continuous predictors (M = 0, SD = 1) other than time since 
+injury and obtaining parameter estimates based on the final mixed model for each dependent 
+variable. The resulting coefficients are akin to standardized regression coefficients for 
+continuous predictors and to standardized mean differences (e.g., d) for categorical 
+variables. Because standardized regression coefficients can be scaled to correlations (Cohen, 
+1988), we used conventional definitions of effect size for correlations to characterize the 
+magnitude of the standardized parameter estimates for continuous predictors and 
+interactions involving only them (i.e., 0.1 is small, 0.3 is medium, and 0.5 is large). 
+Likewise, we used conventional definitions of effect size for mean differences to 
+characterize the magnitude of parameter estimates for categorical predictors and any 
+interactions involving them (i.e., 0.2 is small, 0.5 is medium, 0.8 is large). In addition, 
+because of the relatively small sample size of the TBI groups, we also employed influence 
+diagnostics to examine whether significant results were driven by outliers (Cook & 
+Weisberg, 1982). Using Cook’s Distance of >1 as a criterion, no models were driven by 
+“influential observations” (e.g. outliers). Analyses were conducted using SAS Version 9.3.
+Results
+Moderation Effects of Observed Parent Behaviors
+Warm responsiveness during structured task and ADHD symptoms—Under the 
+structured task condition, a significant warm responsiveness x group x time since injury 
+interaction was found for symptoms of ADHD (see Table 3), indicating that warm 
+responsiveness moderated the effect of TBI on symptoms of ADHD and that the moderating 
+effect varied over time since injury. Warm responsiveness significantly moderated the severe 
+TBI vs. OI group contrast with a medium effect size, t(251) = 2.50, p = .013, standardized 
+estimate = 0.49, but did not significantly moderate the moderate TBI vs. OI group contrast, 
+t(251) = 0.15, p = .879, standardized estimate = 0.02. The moderating effect of warm 
+Treble-Barna et al.
+Page 11
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+responsiveness is plotted in Figure 1, which presents model estimates of ADHD symptoms 
+at low and high levels of warm responsiveness, corresponding to sample values falling at the 
+10th and 90th percentiles, respectively. Post hoc contrasts revealed that lower warm 
+responsiveness at baseline was associated with significantly more ADHD symptoms at 6 
+months post injury in the severe TBI group relative to both the moderate TBI group, t(251) = 
+4.05, p < .001, standardized estimate = 1.07, and the OI group, t(251) = 4.35, p < .001, 
+standardized estimate = 1.16. In contrast, the three groups of children with highly warm 
+responsive parents at baseline were comparable in ADHD symptoms at 6 months post injury. 
+Lower warm responsiveness during the structured task at 6 months post injury continued to 
+be associated with significantly more ADHD symptoms at 12 months post injury in the 
+severe TBI group relative to both the moderate TBI group, t(251) = 4.34, p < .001, 
+standardized estimate = 0.83, and the OI group, t(251) = 4.84, p < .001, standardized 
+estimate = 0.92. Higher warm responsiveness during the structured task at 6 months post 
+injury was associated with significantly more ADHD symptoms in the severe TBI group 
+relative to the OI group, t(251) = 2.16, p = .031, standardized estimate = 0.20, but not the 
+moderate TBI group. By 18 months post injury, the moderating effect of parental warm 
+responsiveness had diminished, such that the severe TBI group demonstrated significantly 
+more ADHD symptoms relative to both the moderate TBI group and the OI group, 
+regardless of whether they were exposed to high or low levels of warm responsiveness at 12 
+months post injury: for severe TBI vs. moderate TBI, low warm responsiveness: t(251) = 
+2.88, p = .004, standardized estimate = 0.59; high warm responsiveness: t(251) = 2.59, p = .
+010, standardized estimate = 0.69; for severe TBI vs. OI, low warm responsiveness: t(251) = 
+3.41, p < .001, standardized estimate = 0.69; high warm responsiveness: t(251) = 3.29, p = .
+001, standardized estimate = 0.80.
+Warm responsiveness during free play and ADHD symptoms—Under the free 
+play condition, a significant warm responsiveness x group interaction was found for 
+symptoms of ADHD (see Table 3); the three-way interaction involving time since injury was 
+not significant and was, therefore, trimmed from the model. Warm responsiveness 
+significantly moderated the severe TBI vs. OI contrast, with a small effect size, t(253) = 
+−2.33, p = .021, standardized estimate = −0.23, but not the moderate TBI vs. OI contrast, 
+t(253) = −1.42, p = .157, standardized estimate = −0.10. Figure 2 illustrates the interaction 
+by plotting model estimates for ADHD symptoms at low and high levels of responsiveness, 
+as defined earlier. Post hoc contrasts revealed that lower warm responsiveness during free 
+play across time since injury was associated with significantly more ADHD symptoms in the 
+severe TBI group relative to both the moderate TBI group, t(253) = 4.19, p < .001, 
+standardized estimate = 0.73, and the OI group, t(253) = 5.32, p < .001, standardized 
+estimate = 0.91. In contrast, higher responsiveness was associated with smaller group 
+differences in ADHD symptoms, although the severe TBI group continued to have 
+significantly more ADHD symptoms than the moderate TBI group, t(253) = 2.00, p = .046, 
+standardized estimate = 0.44.
+Scaffolds during free play and internalizing problems—Under the free play 
+condition, a significant scaffolds x group x time since injury interaction was found for 
+internalizing problems (see Table 3), indicating that the proportion of scaffolds during free 
+Treble-Barna et al.
+Page 12
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+play moderated the effect of TBI on internalizing problems and that the moderating effect 
+varied over time since injury. Scaffolds significantly moderated the severe TBI vs. OI group 
+contrast, with a medium effect size, t(248) = 2.02, p = .045, standardized estimate = 0.51, 
+and also significantly moderated the TBI vs. OI group contrast, but with a small effect size, 
+t(248) = −2.24, p = .026, standardized estimate = −0.30. To illustrate this interaction, Figure 
+3 plots model estimates for internalizing symptoms at low and high levels of scaffolding, as 
+defined earlier. Post hoc contrasts revealed that a lower proportion of scaffolds during free 
+play at baseline was associated with significantly higher internalizing problems at 6 months 
+post injury in the severe TBI group relative to the moderate TBI group, t(248) = 2.42, p = .
+016, standardized estimate = 0.72, and marginally higher internalizing problems relative to 
+the OI group, t(248) = 1.83, p = .068, standardized estimate = 0.52. Similarly, a higher 
+proportion of scaffolds during free play at baseline was associated with marginally lower 
+internalizing problems at 6 months post injury in the severe TBI group relative to the 
+moderate TBI group, t(248) = −1.95, p = .053, standardized estimate = −0.85, but, contrary 
+to expectations, significantly higher internalizing problems in the moderate TBI group 
+relative to the OI group, t(248) = 2.53, p = .012, standardized estimate = 0.51. A lower 
+proportion of scaffolds during free play at 6 months post injury continued to be associated 
+with marginally higher internalizing problems at 12 months post injury in the severe TBI 
+group relative to the moderate TBI group, t(248) = 1.69, p = .093, standardized estimate = 
+0.33, and significantly higher internalizing problems relative to the OI group, t(248) = 1.98, 
+p = .048, standardized estimate = 0.37. In children exposed to a high proportion of scaffolds 
+during free play at 6 months post injury, the severe TBI group was no longer significantly 
+different in internalizing problems from the OI group at 12 months post injury but the 
+moderate TBI group continued to demonstrate higher internalizing problems relative to the 
+OI group, t(248) = 2.27, p = .024, standardized estimate = 0.33. At 18 months post injury, 
+the protective moderating effect of a high proportion of scaffolds during free play was 
+opposite to expectations, such that children in the severe TBI group exposed to a high 
+proportion of scaffolds at 12 months post injury demonstrated higher internalizing problems 
+relative to both the moderate TBI group, t(248) = 2.36, p = .019, standardized estimate = 
+0.59, and the OI group, t(248) = 3.19, p = .002, standardized estimate = 0.74. In contrast, 
+children in all three groups exposed to a low proportion of scaffolds at 12 months post injury 
+were comparable in internalizing problems at 18 months post injury.
+Main Effects of Group, Parenting Behaviors, and Time Since Injury
+Analysis revealed several main effects involving factors that were not included in higher-
+order interactions. The effect of group was significant across models. The severe TBI group 
+showed higher internalizing (standardized estimate = 0.38), externalizing, (standardized 
+estimate = 0.45), and ADHD symptoms (standardized estimate = 0.67) relative to the OI 
+group. The moderate TBI group was comparable to the OI group in behavior problems.
+Warm responsiveness during the structured task or free play had no significant main effect 
+on child internalizing or externalizing behaviors. Negativity also had no effect within either 
+condition. A higher proportion of scaffolds during free play (standardized estimate = −0.07) 
+and during the structured task (standardized estimate = −0.09) was significantly associated 
+with fewer externalizing problems across groups. There was no significant effect of scaffolds 
+Treble-Barna et al.
+Page 13
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+during the structured task or free play on symptoms of ADHD or of scaffolds during the 
+structured task on internalizing problems. There were no significant main effects of 
+restrictive behaviors.
+Time since injury had a significant main effect across groups on internalizing symptoms 
+(standardized estimate = −0.14) and externalizing symptoms (standardized estimate = 
+−0.14), such that behavior problems decreased slightly across groups over time. There was 
+no significant main effect of time since injury on symptoms of ADHD.
+For each of the models with significant interactions or main effects, higher pre-injury 
+behavior problems (standardized estimate = 0.68) and higher parent psychological distress at 
+baseline (standardized estimate = 0.20) were significantly associated with higher post injury 
+behavior problems. In addition, younger age at injury was significantly associated with 
+higher externalizing problems across groups (standardized estimate = −0.11), but was not 
+significantly associated with internalizing problems or symptoms of ADHD. Finally, parent 
+ratings of externalizing problems were higher on the school-age version of the CBCL than 
+on the preschool version (standardized estimate = −0.49).
+Discussion
+The present study sought to examine the moderating effect of observed parent behaviors 
+over time since injury on the relation between TBI and behavioral outcomes. As 
+hypothesized, the effect of TBI on behavior was exacerbated by less favorable parent 
+behaviors, and buffered by more favorable parent behaviors, in children with severe TBI 
+over the first 12 months post injury. By 18 months post injury, however, the moderating 
+effect of parent behaviors largely diminished such that children with severe TBI showed 
+more behavior problems relative to the moderate TBI and OI groups regardless of parent 
+behaviors or in response to parent behaviors that were initially protective. The results 
+suggest that not only do parent behaviors moderate recovery following TBI sustained during 
+early childhood, but that the moderating effects of the family environment are complex and 
+likely vary in relation to both recovery and developmental factors, with potentially important 
+implications for targets and timing of interventions.
+Diminishing Effects of Warm Responsiveness over Time Since Injury
+Children with severe TBI exposed to low warm responsiveness during the structured task at 
+baseline and 6 months post injury showed higher ADHD symptoms relative to both the 
+moderate TBI and OI groups at 6 and 12 months post injury. These differences at 6 and 12 
+months were not evident in the context of high warm responsiveness, although the severe 
+TBI group showed higher ADHD symptoms relative to the other two groups at 18 months 
+post injury regardless of the level of warm responsiveness. A similar moderating effect on 
+ADHD symptoms, albeit one that did not vary with time since injury, was found for warm 
+responsiveness during free play. The lack of time-varying findings for the moderating effect 
+of warm responsiveness during the free play condition might suggest that parent behaviors 
+during play have a longer-lasting effect on recovery from TBI as compared to parent 
+behaviors during more task-oriented conditions. This could be because parent behaviors 
+during play may be more reflective of parenting in the home setting than parent behavior 
+Treble-Barna et al.
+Page 14
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+during a more structured task. Alternatively, the moderating effect of warm responsiveness 
+during play may diminish over time, though to a lesser degree that was not detected due to 
+the small sample sizes of the TBI groups and difficulty in detecting interaction effects.
+The results from the structured task condition suggest that higher parental warm 
+responsiveness is protective for children with TBI until approximately one year post TBI, 
+after which it may no longer exert this protective effect. The role of warm responsiveness in 
+reducing emerging behavior problems following TBI sustained in early childhood is 
+consistent with considerable previous literature documenting the relationship of positive 
+parenting qualities, such as warmth, approval, responsiveness, and synchrony, with more 
+favorable child adjustment and fewer externalizing problems in typically developing children 
+(Bradley & Corwyn, 2007; Davidov & Grusec, 2006; Rothbaum & Weisz, 1994). Children’s 
+behavior is frequently dysregulated during the sub-acute phase of recovery from TBI. 
+Parental warm responsiveness may provide consistent, positive feedback from the 
+environment that, in turn, facilitates self-regulation during the early stages of recovery.
+The pattern of diminishing moderating effects of warm responsiveness during the structured 
+task on ADHD symptoms by 18 months post injury is consistent with our previous report of 
+diminishing moderating effects of parent’s self-reported parenting styles on children’s 
+general behavioral adjustment (CBCL Total Problems Score) over the same period of time 
+post injury in the same sample (Yeates et al., 2010). However, this previous study included 
+only the baseline measure of parent behaviors in their statistical models; whereas the present 
+analyses allowed the moderator to vary over time. The moderators in our models were 
+measured only 6 months prior to the assessment of the outcomes, making it less likely that 
+moderating effects diminished over time due to remoteness of moderator measurement.
+The reason for the diminishing effects of parent behaviors over time following pediatric TBI 
+is yet to be determined. One possibility is that parent behaviors have the most influence on 
+child behaviors during the first year post injury when the majority of neural recovery is 
+taking place, but that after this period, behavior problems become more intransigent. 
+Another potential explanation is that parent behaviors such as warm responsiveness and 
+scaffolding have the most influence during the preschool years, perhaps because the child 
+spends more time with parents during this time or because of a critical period of 
+development that is most sensitive to the influence of parent behaviors (Landry, Smith, 
+Swank, & Guttentag, 2008). Other family environmental factors, such as overall parenting 
+style, may be more important for moderating outcomes as the child enters middle childhood 
+(Kurowski et al., 2011). Although child behavior problems slightly decreased over time in 
+the sample as a whole, behavior problems in children with severe TBI increased over time, 
+regardless of parental warm responsiveness. This increase in behavior problems at 18 
+months post injury may signal the beginning of a trend of ongoing increases in behavior 
+problems over time since injury as demands for behavioral control increase throughout 
+childhood, as has been observed in other samples (Anderson et al., 2006; Catroppa et al., 
+2008; T. B. Fay et al., 2009). A related possibility is that parent behaviors that were initially 
+effective in mitigating behavior problems when children were younger are less apt to 
+moderate behavior problems as children enter challenging transitional periods of 
+development. Because we only report on child outcomes up to 18 months post injury, future 
+Treble-Barna et al.
+Page 15
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+studies are needed that examine the moderating influence of the family environment during 
+longer-term follow-up of children sustaining early TBI as they face the increasing demands 
+of middle school and early adulthood.
+Changes in Moderating Effects of Scaffolds/Directives over Time Since Injury
+Parental scaffolding during free play moderated the effect of TBI on internalizing problems, 
+such that initially, a lower proportion of scaffolds during free play at baseline was associated 
+with higher internalizing problems, and a higher proportion of scaffolds was associated with 
+lower internalizing problems, at 6 months post injury in the severe TBI group relative to the 
+moderate TBI and OI groups. At 12 months post injury, the moderating effect of parental 
+scaffolds had somewhat diminished, with smaller differences between groups. By 18 months 
+post injury, the moderating effect of a high proportion of scaffolds was opposite to 
+expectations, such that children in the severe TBI group exposed to a high proportion of 
+scaffolds at 12 months demonstrated higher internalizing problems relative to both the 
+moderate TBI and OI groups. In contrast, children exposed to a low proportion of scaffolds 
+at 12 months post injury were comparable in internalizing problems at 18 months post 
+injury. We should note that similar findings were found for directives during free play (i.e., a 
+lower proportion of directives was at first protective for internalizing symptoms in the severe 
+TBI group, but by 18 months post injury, a lower proportion of directives was associated 
+with higher internalizing problems in that group); however these results were not reported to 
+avoid redundancy because of the substantial inverse correlation between directives and 
+scaffolds during free play.
+The change in the moderating effect of scaffolds and directives on child internalizing 
+problems is challenging to interpret. Parent behaviors that are effective in managing younger 
+children may be less effective, and perhaps even irksome, for older children. For example, 
+with increasing age, children may become less accepting or tolerant of parent efforts to 
+manage their behaviors using techniques such as scaffolding. Changes in parent behaviors 
+over the child’s recovery trajectory may also help account for changes over time in the 
+moderating effects of scaffolds and directives. A high number of scaffolds could be 
+facilitative for a child with severe TBI and resultant neuropsychological impairments during 
+the sub-acute phase of recovery. As the child recovers, however, parents may need to fade 
+behaviors such as scaffolding over time. The association between high scaffolding and high 
+internalizing problems further out from injury may reflect a mismatch between the child no 
+longer needing a high number of scaffolds and a parent’s continued provision of them. 
+Finally, changes with increasing time post injury may reflect bidirectional influences on 
+child and parent behaviors following TBI. As suggested by Taylor et al. (2001), emerging 
+child behavior problems following TBI may adversely influence parent behaviors, which, in 
+turn, may contribute to greater child dysfunction. Parents of children with severe TBI who 
+develop internalizing problems may attempt to compensate for the child’s emotional 
+sensitivity by providing a high proportion of scaffolds (and associated low level of 
+directives). Thus, parents may change their behaviors in response to the emergence of 
+internalizing behavior problems among children with severe TBI, potentially explaining the 
+change in the moderating effect of high scaffolds. The significant associations among child 
+and parent behaviors presented in Table 3 support this notion of reciprocity. Although each 
+Treble-Barna et al.
+Page 16
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+of these interpretations are speculative and require further investigation, the results clearly 
+suggest that the optimal parent behaviors change over time since injury, likely in response to 
+developmental and recovery factors. Thus, parent behaviors that might be facilitative for 
+child behavior during the sub-acute phase of recovery might become detrimental during later 
+phases of recovery.
+Notably, the moderating effect of parent behaviors was significant only for children with 
+severe TBI. This pattern of findings is consistent with previous studies of the moderating 
+influence of the family environment following TBI sustained during both early (Kurowski et 
+al., 2011; S. L. Wade et al., 2011; Yeates et al., 2010) and later childhood (Taylor et al., 
+2002; Yeates et al., 2002). Studies of other populations of at-risk children have also 
+documented the strongest moderating influences of the family environment in children at the 
+greatest neurological risk (Landry, Chapieski, Richardson, Palmer, & Hall, 1990; Landry et 
+al., 1997; M. Wade et al., 2015). A possible basis of these observations is that positive parent 
+behaviors are most effective in children with the types of dysregulated behaviors that 
+characterize severe TBI, whereas parent behaviors are less critical for fostering development 
+in healthy children or children less affected by brain injury. Along the same lines, the 
+relative infrequency of emerging behavior problems following moderate TBI and OI may 
+leave little variance to be explained by family factors (T. B. Fay et al., 2009). Finally, the 
+mechanisms underlying moderation of the family environment on behavior problems 
+following TBI presumably involve alteration of neural substrate and its recovery processes. 
+With less severe TBI, there may be less opportunity for these mechanisms to exert their 
+effect. Investigation into the neural mechanisms underlying the moderating effects of 
+environmental factors on recovery following early childhood TBI would be illuminating.
+Clinical Implications
+The results suggest that the first year post injury may be the optimal time to ameliorate or 
+prevent deterioration in behavior following early TBI by training parents in positive 
+parenting skills, such as warmth, contingent responsiveness, and scaffolding (Antonini et al., 
+2014). The findings, however, also suggest that after one year post injury, improving 
+parenting may have less of an effect on emerging behavior problems, especially for children 
+with severe TBI. The results highlight the first year post injury as a time during which 
+problem behaviors emerge or worsen and become less responsive to parent behaviors. As 
+such, intervention research should investigate time since injury as a key moderator of 
+intervention effectiveness and consider alternate approaches to positive parenting skills for 
+intervention during the long-term phase of recovery.
+Limitations
+The current findings must be considered in the context of certain limitations. Child 
+behaviors were assessed by parent report, and are confounded to some extent with parent 
+behaviors and perceptions, potentially inflating the association between parenting behaviors 
+and child behavior problems. Indeed, we found that parental distress was related to their 
+ratings of child behavior problems, although moderating effects were found in models that 
+controlled for this factor. Future research might examine teacher reports of child behavior to 
+address this limitation. In addition, the interval between injury and retrospective parent 
+Treble-Barna et al.
+Page 17
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+ratings of child behavior varied across groups. Baseline parent ratings of pre-injury ADHD 
+symptoms were negatively correlated with increasing time since injury, suggesting a “good 
+old days” bias, which may also have inflated post-injury changes in ADHD symptoms. This 
+association, however, was consistent across groups, so that it is unlikely to have influenced 
+group interactions. A related issue is that early post injury changes in child behavior due to 
+TBI may have led to changes in parenting and thus contributed to the associations between 
+initial parenting behavior and 6 month post injury child behavior problems. Although this 
+possibility does not account for the subsequent lagged associations between parenting and 
+child behavior problems, future research should measure more immediate child behavioral 
+change. Dyadic coding of parent-child interactions would also have provided more 
+information on the extent to which child behavior was an antecedent or consequent of parent 
+behavior.
+It was surprising that neither parental negativity nor restrictive behaviors were significantly 
+associated with child behavior problems. This finding is in contrast to our previous report (S. 
+L. Wade et al., 2011), in which higher parental negativity, both at baseline and 6 months post 
+injury, was significantly associated with higher levels of externalizing behaviors at 6 months 
+post injury following severe TBI; restrictive behaviors were not previously examined in this 
+sample. The difference in findings are likely attributable to the slightly smaller sample size 
+(due to attrition over time) of the present report resulting in less statistical power, as well as 
+the different statistical approaches used. In addition, because parental displays of negativity 
+were so infrequent, the previous findings were likely attributable to only a few parent-child 
+dyads and may not have been reliable. Moreover, parents’ awareness of being observed may 
+have caused changes in their behavior. Because ratings of parental behavior were made 
+based on relatively brief structured interactions in the laboratory, they may not fully capture 
+the range of the parent’s behavior in the home setting. In particular, parents may have been 
+less likely to engage in negative or harsh behaviors toward the child, resulting in a restricted 
+range of negativity. Longer observations in more naturalistic environments (i.e., home) may 
+serve to address these concerns. Administration of more detailed measures of child behavior 
+problems, such as structured clinical interviews, may also be useful in further studies of the 
+relation of parenting characteristics to child behavior problems after TBI.
+Finally, the relatively small sample sizes of the TBI groups, especially the severe TBI group, 
+are a significant limitation of the present study. The small sample sizes may have reduced 
+statistical power to detect interactions, in addition to raising concern regarding the 
+possibility of outliers driving results. Although the model diagnostics indicated that outliers 
+did not account for the significant findings within the severe TBI group, confidence in the 
+present findings will be bolstered by replication in larger samples of children with moderate 
+to severe TBI.
+Conclusions
+Parenting behaviors are an important moderator of the effect of TBI on emerging child 
+behavior problems. The present results confirm and extend previous findings suggesting that 
+the moderating effect of family environmental factors varies as a function of multiple 
+factors, including injury severity, time since injury, the specific dimension of parent behavior 
+Treble-Barna et al.
+Page 18
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+under consideration, and the type of problem behavior assessed (Taylor & Alden, 1997), as 
+well as recovery and developmental factors. The presence of multiple indications of similar 
+moderating effects argues strongly for the existence of a complex interplay between the 
+damaged brain, its environmental context, and post injury changes in behavioral outcomes 
+following TBI in young children.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+References
+Achenbach, TM.; Rescorla, LA. Manual for ASEBA School-Age Forms & Profiles. Burlington, VT: 
+University of Vermont, Research Center for Children, Youth, & Families; 2001. 
+Akai CE, Guttentag CL, Baggett KM, Noria CC, Neglect CftPoC. Enhancing parenting practices of at-
+risk mothers. The Journal of Primary Prevention. 2008; 29(3):223–242. [PubMed: 18543105] 
+Anderson V, Catroppa C, Dudgeon P, Morse SA, Haritou F, Rosenfeld JV. Understanding predictors of 
+functional recovery and outcome 30 months following early childhood head injury. 
+Neuropsychology. 2006; 20(1):42–57. DOI: 10.1037/0894-4105.20.1.42 [PubMed: 16460221] 
+Anderson V, Catroppa C, Morse S, Haritou F, Rosenfeld J. Functional plasticity or vulnerability after 
+early brain injury? Pediatrics. 2005; 116(6):1374–1382. DOI: 10.1542/peds.2004-1728 [PubMed: 
+16322161] 
+Anderson V, Le Brocque R, Iselin G, Eren S, Dob R, Davern TJ, … Kenardy J. Adaptive ability, 
+behavior and quality of life pre and posttraumatic brain injury in childhood. Disabil Rehabil. 2012; 
+34(19):1639–1647. DOI: 10.3109/09638288.2012.656789 [PubMed: 22416951] 
+Antonini TN, Raj SP, Oberjohn KS, Cassedy A, Makoroff KL, Fouladi M, Wade SL. A pilot 
+randomized trial of an online parenting skills program for pediatric traumatic brain injury: 
+improvements in parenting and child behavior. Behav Ther. 2014; 45(4):455–468. DOI: 10.1016/
+j.beth.2014.02.003 [PubMed: 24912459] 
+Arnett AB, Peterson RL, Kirkwood MW, Taylor HG, Stancin T, Brown TM, Wade SL. Behavioral and 
+cognitive predictors of educational outcomes in pediatric traumatic brain injury. J Int Neuropsychol 
+Soc. 2013; 19(8):881–889. DOI: 10.1017/S1355617713000635 [PubMed: 23790158] 
+Bakeman R, Brown JV. Early interaction: Consequences for social and mental development at 3 years. 
+Child development. 1980; 51:437–447. DOI: 10.2307/1129277 [PubMed: 7398451] 
+Barnes MA, Dennis M, Wilkinson M. Reading after closed head injury in childhood: Effects on 
+accuracy, fluency, and comprehension. Developmental Neuropsychology. 1999; 15(1):1–24.
+Bates, JE.; Pettit, GS. Temperament, parenting, and socialization. In: Grusec, JE.; Hastings, PE., 
+editors. Handbook of Socialization: Theory and Research. 2. New Yorks: Guilford; 2015. p. 
+372-397.
+Baumrind D. Rearing competent children. Child development today and tomorrow. 1989:349–378.
+Bloom DR, Levin HS, Ewing-Cobbs L, Saunders AE, Song J, Fletcher JM, Kowatch RA. Lifetime and 
+novel psychiatric disorders after pediatric traumatic brain injury. J Am Acad Child Adolesc 
+Psychiatry. 2001; 40(5):572–579. DOI: 10.1097/00004583-200105000-00017 [PubMed: 
+11349702] 
+Bradley RH, Convyn RF, Burchinal M, McAdoo HP, Coll CG. The home environments of children in 
+the United States part II: relations with behavioral development through age thirteen. Child Dev. 
+2001; 72(6):1868–1886. [PubMed: 11768150] 
+Bradley RH, Corwyn RF. Externalizing problems in fifth grade: relations with productive activity, 
+maternal sensitivity, and harsh parenting from infancy through middle childhood. Dev Psychol. 
+2007; 43(6):1390–1401. DOI: 10.1037/0012-1649.43.6.1390 [PubMed: 18020819] 
+Brock RL, Kochanska G. Decline in the Quality of Family Relationships Predicts Escalation in 
+Children’s Internalizing Symptoms from Middle to Late Childhood. J Abnorm Child Psychol. 
+2015; doi: 10.1007/s10802-015-0008-9
+Treble-Barna et al.
+Page 19
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Brody GH, Dorsey S, Forehand R, Armistead L. Unique and protective contributions of parenting and 
+classroom processes to the adjustment of African American children living in single-parent 
+families. Child development. 2002; 73(1):274–286. [PubMed: 14717257] 
+Brooks BL, Kadoura B, Turley B, Crawford S, Mikrogianakis A, Barlow KM. Perception of recovery 
+after pediatric mild traumatic brain injury is influenced by the “good old days” bias: tangible 
+implications for clinical practice and outcomes research. Archives of Clinical Neuropsychology. 
+2014; 29(2):186–193. [PubMed: 24196003] 
+Burge D, Hammen C. Maternal communication: Predictors of outcome at follow-up in a sample of 
+children at high and low risk for depression. Journal of Abnormal Child Psychology. 1991; 
+100:174–180.
+Catroppa C, Anderson VA, Morse SA, Haritou F, Rosenfeld JV. Outcome and predictors of functional 
+recovery 5 years following pediatric traumatic brain injury (TBI). J Pediatr Psychol. 2008; 33(7):
+707–718. DOI: 10.1093/jpepsy/jsn006 [PubMed: 18296728] 
+Cattelani R, Lombardi F, Brianti R, Mazzucchi A. Traumatic brain injury in childhood: intellectual, 
+behavioural and social outcome into adulthood. Brain Inj. 1998; 12(4):283–296. [PubMed: 
+9562911] 
+Chang H, Olson SL, Sameroff AJ, Sexton HR. Child effortful control as a mediator of parenting 
+practices on externalizing behavior: evidence for a sex-differentiated pathway across the transition 
+from preschool to school. Journal of Abnormal Child Psychology. 2011; 39(1):71–81. [PubMed: 
+20632205] 
+Chapman LA, Wade SL, Walz NC, Taylor HG, Stancin T, Yeates KO. Clinically significant behavior 
+problems during the initial 18 months following early childhood traumatic brain injury. Rehabil 
+Psychol. 2010; 55(1):48–57. DOI: 10.1037/a0018418 [PubMed: 20175634] 
+Cook, DR.; Weisberg, S. Residuals and Influence in Regression. New York, NY: Chapman and Hall; 
+1982. 
+Crowe LM, Catroppa C, Babl FE, Anderson V. Intellectual, behavioral, and social outcomes of 
+accidental traumatic brain injury in early childhood. Pediatrics. 2012; 129(2):e262–268. DOI: 
+10.1542/peds.2011-0438 [PubMed: 22271692] 
+Davidov M, Grusec JE. Untangling the links of parental responsiveness to distress and warmth to child 
+outcomes. Child Dev. 2006; 77(1):44–58. DOI: 10.1111/j.1467-8624.2006.00855.x [PubMed: 
+16460524] 
+Denham, SA.; Bassett, HH.; Wyatt, T. The socialization of emotional competence. In: Grusec, JE.; 
+Hastings, PE., editors. Handbook of Socialization: Theory and Research. 2. New York: Guilford; 
+2015. p. 590-613.
+Derogatis, L.; Spencer, P. The Brief Symptom Inventory: Administration, scoring and procedures 
+manual I. Baltimore, MD: Clinical Psychology Research; 1982. 
+Downey G, Coyne JC. Children of depressed parents: An integrative review. Psychological Bulletin. 
+1990; 108:50–76. [PubMed: 2200073] 
+Eisenberg N, Fabes RA, Shepard SA, Guthrie IK, Murphy BC, Reiser M. Parental reactions to 
+children’s negative emotions: longitudinal relations to quality of children’s social functioning. 
+Child development. 1999; 70(2):513–534. [PubMed: 10218267] 
+Ewing-Cobbs L, Barnes M. Linguistic outcomes following traumatic brain injury in children. Semin 
+Pediatr Neurol. 2002; 9(3):209–217. [PubMed: 12350042] 
+Ewing-Cobbs L, Barnes M, Fletcher JM, Levin HS, Swank PR, Song J. Modeling of longitudinal 
+academic achievement scores after pediatric traumatic brain injury. Dev Neuropsychol. 2004; 
+25(1–2):107–133. DOI: 10.1080/87565641.2004.9651924 [PubMed: 14984331] 
+Ewing-Cobbs L, Fletcher JM, Levin HS, Francis DJ, Davidson K, Miner ME. Longitudinal 
+neuropsychological outcome in infants and preschoolers with traumatic brain injury. J Int 
+Neuropsychol Soc. 1997; 3(6):581–591. [PubMed: 9448371] 
+Eyberg SM, Boggs SR, Algina J. Parent-child interaction therapy: a psychosocial model for the 
+treatment of young children with conduct problem behavior and their families. 
+Psychopharmacology Bulletin. 1995; 31(1):83–91. [PubMed: 7675994] 
+Treble-Barna et al.
+Page 20
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Fairbanks JM, Brown TM, Cassedy A, Taylor HG, Yeates KO, Wade SL. Maternal warm 
+responsiveness and negativity following traumatic brain injury in young children. Rehabil Psychol. 
+2013; 58(3):223–232. DOI: 10.1037/a0033119 [PubMed: 23978080] 
+Fay GC, Jaffe KM, Polissar NL, Liao S, Rivara JB, Martin KM. Outcome of pediatric traumatic brain 
+injury at three years: a cohort study. Arch Phys Med Rehabil. 1994; 75(7):733–741. [PubMed: 
+8024416] 
+Fay TB, Yeates KO, Wade SL, Drotar D, Stancin T, Taylor HG. Predicting longitudinal patterns of 
+functional deficits in children with traumatic brain injury. Neuropsychology. 2009; 23(3):271–282. 
+DOI: 10.1037/a0014936 [PubMed: 19413442] 
+Fletcher JM, Ewing-Cobbs L, Miner ME, Levin HS, Eisenberg HM. Behavioral changes after closed 
+head injury in children. J Consult Clin Psychol. 1990; 58(1):93–98. [PubMed: 2319050] 
+Ganesalingam K, Sanson A, Anderson V, Yeates KO. Self-regulation as a mediator of the effects of 
+childhood traumatic brain injury on social and behavioral functioning. J Int Neuropsychol Soc. 
+2007; 13(2):298–311. DOI: 10.1017/S1355617707070324 [PubMed: 17286887] 
+Gauvain, M.; Perez, SM. The socialization of cognition. In: Grusec, JE.; Hastings, PE., editors. 
+Handbook of Socialization: Theory and Research. 2. New York: Guilford; 2015. p. 566-598.
+Ge X, Best KM, Conger RD, Simons RL. Parenting behaviors and the occurrence and co-occurence of 
+adolescent depressive symptoms and conduct problems. Developmental Psychology. 1996; 
+32:717–731.
+Goldstrohm SL, Arffa S. Preschool children with mild to moderate traumatic brain injury: an 
+exploration of immediate and post-acute morbidity. Arch Clin Neuropsychol. 2005; 20(6):675–
+695. DOI: 10.1016/j.acn.2005.02.005 [PubMed: 15967630] 
+Grusec JE. Socialization processes in the family: social and emotional development. Annu Rev 
+Psychol. 2011; 62:243–269. DOI: 10.1146/annurev.psych.121208.131650 [PubMed: 20731599] 
+Guttentag CL, Landry SH, Williams JM, Baggett KM, Noria CW, Borkowski JG, … Ramey SL. “My 
+Baby & Me”: effects of an early, comprehensive parenting intervention on at-risk mothers and 
+their children. Developmental Psychology. 2014; 50(5):1482–1496. DOI: 10.1037/a0035682 
+[PubMed: 24447116] 
+Hawley CA. Behaviour and school performance after brain injury. Brain Inj. 2004; 18(7):645–659. 
+DOI: 10.1080/02699050310001646189 [PubMed: 15204326] 
+Henderson B, Moore SG. Children’s responses to object differing in novelty in relation to level of 
+curiosity and adult behavior. Child development. 1980; 51(2):457–465.
+Konrad K, Gauggel S, Manz A, Scholl M. Inhibitory control in children with traumatic brain injury 
+(TBI) and children with attention deficit/hyperactivity disorder (ADHD). Brain Inj. 2000; 14(10):
+859–875. [PubMed: 11076133] 
+Kurowski BG, Taylor HG, Yeates KO, Walz NC, Stancin T, Wade SL. Caregiver ratings of long-term 
+executive dysfunction and attention problems after early childhood traumatic brain injury: family 
+functioning is important. PM R. 2011; 3(9):836–845. DOI: 10.1016/j.pmrj.2011.05.016 [PubMed: 
+21944301] 
+Landry SH, Chapieski ML, Richardson MA, Palmer J, Hall S. The social competence of children born 
+prematurely: effects of medical complications and parent behaviors. Child Dev. 1990; 61(5):1605–
+1616. [PubMed: 2245750] 
+Landry SH, Garner P, Swank P, Baldwin C. Effects of maternal scaffolding during joint toy play with 
+preterm and full-term infants. Merrill-Palmer Quarterly. 1996; 42(2):111–199.
+Landry SH, Miller-Loncar CL, Smith KE, Swank PR. The role of early parenting in children’s 
+development of executive processes. Dev Neuropsychol. 2002; 21(1):15–41. DOI: 10.1207/
+S15326942DN2101_2 [PubMed: 12058834] 
+Landry SH, Smith KE, Miller-Loncar CL, Swank P. Predicting cognitive-language and social growth 
+curves from early maternal behaviors in children at varying degrees of biological risk. 
+Developmental Psychology. 1997; 33:1040–1053. DOI: 10.1037/0012-1649.33.6.1040 [PubMed: 
+9383626] 
+Landry SH, Smith KE, Swank PR. Responsive parenting: establishing early foundations for social, 
+communication, and independent problem-solving skills. Dev Psychol. 2006; 42(4):627–642. DOI: 
+10.1037/0012-1649.42.4.627 [PubMed: 16802896] 
+Treble-Barna et al.
+Page 21
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Landry SH, Smith KE, Swank PR, Assel MA, Vellet S. Does early responsive parenting have a special 
+importance for children’s development or is consistency across early childhood necessary? Dev 
+Psychol. 2001; 37(3):387–403. [PubMed: 11370914] 
+Landry SH, Smith KE, Swank PR, Guttentag C. A responsive parenting intervention: the optimal 
+timing across early childhood for impacting maternal behaviors and child outcomes. Dev Psychol. 
+2008; 44(5):1335–1353. DOI: 10.1037/a0013030 [PubMed: 18793067] 
+Langlois JA, Rutland-Brown W, Wald MM. The epidemiology and impact of traumatic brain injury: a 
+brief overview. J Head Trauma Rehabil. 2006; 21(5):375–378. [PubMed: 16983222] 
+Li L, Liu J. The effect of pediatric traumatic brain injury on behavioral outcomes: a systematic review. 
+Dev Med Child Neurol. 2013; 55(1):37–45. DOI: 10.1111/j.1469-8749.2012.04414.x [PubMed: 
+22998525] 
+Luis CA, Mittenberg W. Mood and anxiety disorders following pediatric traumatic brain injury: a 
+prospective study. J Clin Exp Neuropsychol. 2002; 24(3):270–279. DOI: 10.1076/jcen.
+24.3.270.982 [PubMed: 11992209] 
+Luyckx K, Tildesley EA, Soenens B, Andrews JA, Hampson SE, Peterson M, Duriez B. Parenting and 
+trajectories of children’s maladaptive behaviors: a 12-year prospective community study. J Clin 
+Child Adolesc Psychol. 2011; 40(3):468–478. DOI: 10.1080/15374416.2011.563470 [PubMed: 
+21534057] 
+Max JE, Castillo CS, Bokura H, Robin DA, Lindgren SD, Smith WL Jr, … Mattheis PJ. Oppositional 
+defiant disorder symptomatology after traumatic brain injury: a prospective study. J Nerv Ment 
+Dis. 1998; 186(6):325–332. [PubMed: 9653415] 
+Max JE, Keatley E, Wilde EA, Bigler ED, Schachar RJ, Saunders AE, … Levin HS. Depression in 
+children and adolescents in the first 6 months after traumatic brain injury. Int J Dev Neurosci. 
+2012; 30(3):239–245. DOI: 10.1016/j.ijdevneu.2011.12.005 [PubMed: 22197971] 
+Max JE, Koele SL, Lindgren SD, Robin DA, Smith WL Jr, Sato Y, Arndt S. Adaptive functioning 
+following traumatic brain injury and orthopedic injury: a controlled study. Arch Phys Med 
+Rehabil. 1998; 79(8):893–899. [PubMed: 9710159] 
+Max JE, Lansing AE, Koele SL, Castillo CS, Bokura H, Schachar R, … Williams KE. Attention deficit 
+hyperactivity disorder in children and adolescents following traumatic brain injury. Dev 
+Neuropsychol. 2004; 25(1–2):159–177. DOI: 10.1080/87565641.2004.9651926 [PubMed: 
+14984333] 
+Max JE, Schachar RJ, Levin HS, Ewing-Cobbs L, Chapman SB, Dennis M, … Landis J. Predictors of 
+attention-deficit/hyperactivity disorder within 6 months after pediatric traumatic brain injury. J Am 
+Acad Child Adolesc Psychiatry. 2005a; 44(10):1032–1040. DOI: 10.1097/01.chi.
+0000173293.05817.b1 [PubMed: 16175108] 
+Max JE, Schachar RJ, Levin HS, Ewing-Cobbs L, Chapman SB, Dennis M, … Landis J. Predictors of 
+secondary attention-deficit/hyperactivity disorder in children and adolescents 6 to 24 months after 
+traumatic brain injury. J Am Acad Child Adolesc Psychiatry. 2005b; 44(10):1041–1049. DOI: 
+10.1097/01.chi.0000173292.05817.f8 [PubMed: 16175109] 
+McClelland GH, Judd CM. Statistical difficulties of detecting interactions and moderator effects. 
+Psychol Bull. 1993; 114(2):376–390. [PubMed: 8416037] 
+McKinlay A, Grace RC, Horwood LJ, Fergusson DM, MacFarlane MR. Long-term behavioural 
+outcomes of pre-school mild traumatic brain injury. Child Care Health Dev. 2010; 36(1):22–30. 
+DOI: 10.1111/j.1365-2214.2009.00947.x [PubMed: 19250251] 
+Micklewright JL, King TZ, O’Toole K, Henrich C, Floyd FJ. Parental distress, parenting practices, and 
+child adaptive outcomes following traumatic brain injury. J Int Neuropsychol Soc. 2012; 18(2):
+343–350. DOI: 10.1017/S1355617711001792 [PubMed: 22314012] 
+Miller I, Bishop D, Epsten N, Keitner G. The McMaster Family Assessment Devise: Reliability and 
+validity. Journal of Marital and Family Therapy. 1985; 11:345–356.
+Raj SP, Wade SL, Cassedy A, Taylor HG, Stancin T, Brown TM, Kirkwood MW. Parent psychological 
+functioning and communication predict externalizing behavior problems after pediatric traumatic 
+brain injury. J Pediatr Psychol. 2014; 39(1):84–95. DOI: 10.1093/jpepsy/jst075 [PubMed: 
+24065551] 
+Treble-Barna et al.
+Page 22
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Robinson EA, Eyberg SM. The dyadic parent-child interaction coding system: standardization and 
+validation. Journal of Consulting and Clinical Psychology. 1981; 49(2):245–250. [PubMed: 
+7217491] 
+Rothbaum F, Weisz JR. Parental caregiving and child externalizing behavior in nonclinical samples: a 
+meta-analysis. Psychol Bull. 1994; 116(1):55–74. [PubMed: 8078975] 
+Rubin KH, Burgess KB, Dwyer KM, Hastings PD. Predicting preschoolers’ externalizing behaviors 
+from toddler temperament, conflict, and maternal negativity. Dev Psychol. 2003; 39(1):164–176. 
+[PubMed: 12518817] 
+Rutter M, Chadwick O, Shaffer D, Brown G. A prospective study of children with head injuries: I. 
+Design and methods. Psychol Med. 1980; 10(4):633–645. [PubMed: 7208723] 
+Ryan NP, Anderson V, Godfrey C, Eren S, Rosema S, Taylor K, Catroppa C. Social communication 
+mediates the relationship between emotion perception and externalizing behaviors in young adult 
+survivors of pediatric traumatic brain injury (TBI). Int J Dev Neurosci. 2013; 31(8):811–819. DOI: 
+10.1016/j.ijdevneu.2013.10.002 [PubMed: 24140241] 
+Ryan NP, Hughes N, Godfrey C, Rosema S, Catroppa C, Anderson VA. Prevalence and predictors of 
+externalizing behavior in young adult survivors of pediatric traumatic brain injury. J Head Trauma 
+Rehabil. 2015; 30(2):75–85. DOI: 10.1097/HTR.0000000000000123 [PubMed: 25734838] 
+Schwartz L, Taylor HG, Drotar D, Yeates KO, Wade SL, Stancin T. Long-term behavior problems 
+following pediatric traumatic brain injury: prevalence, predictors, and correlates. J Pediatr Psychol. 
+2003; 28(4):251–263. [PubMed: 12730282] 
+Scott C, McKinlay A, McLellan T, Britt E, Grace R, MacFarlane M. A Comparison of Adult 
+Outcomes for Males Compared to Females Following Pediatric Traumatic Brain Injury. 
+Neuropsychology. 2014; doi: 10.1037/neu0000074
+Taylor HG, Alden J. Age-related differences in outcomes following childhood brain insults: an 
+introduction and overview. J Int Neuropsychol Soc. 1997; 3(6):555–567. [PubMed: 9448369] 
+Taylor HG, Yeates KO, Wade SL, Drotar D, Klein SK, Stancin T. Influences on first-year recovery 
+from traumatic brain injury in children. Neuropsychology. 1999; 13(1):76–89. [PubMed: 
+10067779] 
+Taylor HG, Yeates KO, Wade SL, Drotar D, Stancin T, Burant C. Bidirectional child-family influences 
+on outcomes of traumatic brain injury in children. J Int Neuropsychol Soc. 2001; 7(6):755–767. 
+[PubMed: 11575597] 
+Taylor HG, Yeates KO, Wade SL, Drotar D, Stancin T, Minich N. A prospective study of short- and 
+long-term outcomes after traumatic brain injury in children: behavior and achievement. 
+Neuropsychology. 2002; 16(1):15–27. [PubMed: 11853353] 
+Teasdale G, Jennett B. Assessment of coma and impaired consciousness. A practical scale. Lancet. 
+1974; 2(7872):81–84. [PubMed: 4136544] 
+Tronick EZ. Emotions and emotional communication in infants. American Psychologist. 1989; 44(2):
+112–119. [PubMed: 2653124] 
+Verger K, Junque C, Jurado MA, Tresserras P, Bartumeus F, Nogues P, Poch JM. Age effects on long-
+term neuropsychological outcome in paediatric traumatic brain injury. Brain Inj. 2000; 14(6):495–
+503. [PubMed: 10887884] 
+Vygotsky, LS. Mind in Society. Souberman, E., editor; Cole, M.; John-Steiner, V.; Scribner, S., 
+translators. Cambridge, MA: MIT Press; 1978. 
+Wade M, Madigan S, Akbari E, Jenkins JM. Cumulative biomedical risk and social cognition in the 
+second year of life: prediction and moderation by responsive parenting. Front Psychol. 2015; 
+6:354.doi: 10.3389/fpsyg.2015.00354 [PubMed: 25883576] 
+Wade SL, Cassedy A, Walz NC, Taylor HG, Stancin T, Yeates KO. The relationship of parental warm 
+responsiveness and negativity to emerging behavior problems following traumatic brain injury in 
+young children. Dev Psychol. 2011; 47(1):119–133. DOI: 10.1037/a0021028 [PubMed: 
+21244154] 
+Wade SL, Taylor HG, Drotar D, Stancin T, Yeates KO, Minich NM. Parent-adolescent interactions 
+after traumatic brain injury: their relationship to family adaptation and adolescent adjustment. J 
+Head Trauma Rehabil. 2003; 18(2):164–176. [PubMed: 12802225] 
+Treble-Barna et al.
+Page 23
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Wade SL, Taylor HG, Walz NC, Salisbury S, Stancin T, Bernard LA, … Yeates KO. Parent-Child 
+Interactions During the Initial Weeks Following Brain Injury in Young Children. Rehabil Psychol. 
+2008; 53(2):180–190. DOI: 10.1037/0090-5550.53.2.180 [PubMed: 25838616] 
+Weeks M, Cairney J, Wild TC, Ploubidis GB, Naicker K, Colman I. Early-life predictors of 
+internalizing symptom trajectories in Canadian children. Depress Anxiety. 2014; 31(7):608–616. 
+DOI: 10.1002/da.22235 [PubMed: 24425129] 
+Wood D, Bruner JS, Ross G. The role of tutoring in problem solving. Journal of Child Psychology and 
+Psychiatry. 1976; 17(2):89–100. [PubMed: 932126] 
+Yeates KO, Armstrong K, Janusz J, Taylor HG, Wade S, Stancin T, Drotar D. Long-term attention 
+problems in children with traumatic brain injury. J Am Acad Child Adolesc Psychiatry. 2005; 
+44(6):574–584. DOI: 10.1097/01.chi.0000159947.50523.64 [PubMed: 15908840] 
+Yeates KO, Taylor HG, Drotar D, Wade SL, Klein S, Stancin T, Schatschneider C. Preinjury family 
+environment as a determinant of recovery from traumatic brain injuries in school-age children. J 
+Int Neuropsychol Soc. 1997; 3(6):617–630. [PubMed: 9448375] 
+Yeates KO, Taylor HG, Wade SL, Drotar D, Stancin T, Minich N. A prospective study of short- and 
+long-term neuropsychological outcomes after traumatic brain injury in children. Neuropsychology. 
+2002; 16(4):514–523. [PubMed: 12382990] 
+Yeates KO, Taylor HG, Walz NC, Stancin T, Wade SL. The family environment as a moderator of 
+psychosocial outcomes following traumatic brain injury in young children. Neuropsychology. 
+2010; 24(3):345–356. DOI: 10.1037/a0018387 [PubMed: 20438212] 
+Treble-Barna et al.
+Page 24
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 1. 
+Warm responsiveness during structured task and ADHD symptoms. ADHD symptoms over 
+time since injury as a function of Group Membership and Parental Warm Responsiveness 
+during the Structured Task Condition (low vs. high)
+Treble-Barna et al.
+Page 25
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 2. 
+Warm responsiveness during free play and ADHD symptoms. ADHD symptoms averaged 
+across time since injury as a function of Group Membership and Parental Warm 
+Responsiveness during the Free Play Condition (low vs. high)
+Treble-Barna et al.
+Page 26
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 3. 
+Scaffolds during free play and internalizing problems. Internalizing problems over time 
+since injury as a function of Group Membership and Parental Scaffolding during the Free 
+Play Condition (low vs. high)
+Treble-Barna et al.
+Page 27
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Treble-Barna et al.
+Page 28
+Table 1
+Participant Characteristics by Injury Group
+Severe TBI (n = 20)
+Moderate TBI (n = 52)
+OI (n = 95)
+Difference p < .05
+Age at injury (years)
+4.98 (0.94)
+4.97 (1.20)
+5.08 (1.08)
+ns
+GCS score
+3.95 (1.79)
+13.40 (2.07)
+Sev < Mod
+Days in hospital
+10.54 (20.28)
+3.02 (4.50)
+1.32 (1.01)
+Sev > Mod; Sev > OI
+ISS
+12.94 (8.61)
+15.35 (8.15)
+6.99 (2.69)
+Sev > OI; Mod > OI
+IQ at baseline
+83.56 (15.85)
+98.10 (16.14)
+102.81 (14.67)
+Sev < Mod; Sev < OI
+Boys n (%)
+13 (65.0)
+33 (63.5)
+51 (53.7)
+ns
+Race n (%)
+ White
+14 (70.0)
+37 (71.2)
+74 (77.9)
+ns
+ African American
+5 (25.0)
+9 (17.3)
+14 (14.7)
+ Mixed/other
+1 (5.0)
+6(11.5)
+7 (7.4)
+ Maternal education, ≥ high school n (%)
+14 (70.0)
+46 (88.5)
+90 (94.7)
+Sev < OI
+Income
+$ 53,766 (17,079)
+$61,576 (23,974)
+$65,287 (23,409)
+ns
+Notes. Values are presented as M (SD) unless otherwise specified. Income was based on the median income for the individual’s census tract based 
+on the most recent available census data.TBI = traumatic brain injury; Sev = severe TBI; Mod = complicated mild/moderate TBI; OI = orthopedic 
+injury; GCS = Glasgow Coma Scale score (Teasdale & Jennett, 1974); ISS = injury severity score; IQ = intelligence quotient.
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Treble-Barna et al.
+Page 29
+Table 2
+Correlations Among Parent Behaviors Across Time Points by Condition
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+1.
+Warmth during free play
+--
+2.
+Warmth during structured task
+.65**
+--
+3.
+Contingent responsiveness during free play
+.80**
+.64**
+--
+4.
+Contingent responsiveness during structured task
+.55**
+.85**
+.67**
+--
+5.
+Negativity during free play
+−.32**
+−.28**
+−.34**
+−.34**
+--
+6.
+Negativity during structured task
+−.20*
+−.28**
+−.26**
+−.33**
+.42**
+--
+7.
+Directives during free play
+−.21**
+−.10
+−.18*
+−.13
+.08
+−.08
+--
+8.
+Directives during structured task
+−.20*
+−.29**
+−.18*
+−.27**
+.15
+.17*
+.28**
+--
+9.
+Scaffolds during free play
+.41**
+.31**
+.40**
+.34**
+−.27**
+−.29**
+−.76**
+−.39**
+--
+10.
+Scaffolds during structured task
+.27**
+.45**
+.27**
+.47**
+−22**
+−.36**
+−.27**
+−.81**
+.51**
+--
+11.
+Restrictive behaviors during free play
+−.31**
+−.32**
+−.34**
+−.32**
+.29**
+.32**
+−.28**
+.18*
+−.42**
+−.38**
+--
+12.
+Restrictive behaviors during structured task
+−.16*
+−.34**
+−.19*
+−.40**
+.16*
+.35**
+.04
+−.12
+−.29**
+−.48**
+.38**
+--
+Note.
+*p < .05;
+**p < .01
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Treble-Barna et al.
+Page 30
+Table 3
+Correlations of Child Behaviors with Parent Behaviors by Time Point by Condition
+Parent Warmth
+Parent Contingent Responsiveness
+Parent Negativity
+Parent Directiveness
+Parent Scaffolds
+Parent Restrictive Behaviors
+Condition: Free Play
+Baseline Child Warmth
+.43**
+.40**
+−.09
+−.18*
+.22**
+−.07
+6 mos Child Warmth
+.48**
+.44**
+−.04
+−.22**
+.24**
+−.06
+12 mos Child Warmth
+.51**
+.60**
+−.15
+−.31**
+.26**
+.04
+Condition: Structured Task
+Baseline Child Cooperation
+.15
+.27**
+−.29**
+−.10
+.34**
+−.42**
+6 mos Child Cooperation
+.06
+.16
+−.25**
+−.11
+.16*
+−.11
+12 mos Child Cooperation
+.07
+.12
+−.18*
+−.21*
+.29**
+−.19*
+Baseline Child Behavioral Dysegulation
+.26**
+.30**
+−.22**
+−.13
+.37**
+−.43**
+6 mos Child Behavioral Dysegulation
+.22**
+.23**
+−.40**
+−.06*
+.20*
+−.29**
+12 mos Child Behavioral Dysegulation
+−.06
+.03
+−.20*
+−.04
+.18*
+−.27**
+Note.
+*p < .05;
+**p < .01
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Treble-Barna et al.
+Page 31
+Table 4
+Percentage of Participants Above Clinical Cutoff
+Variable
+Baseline
+6 months
+12 months
+18 months
+Severe 
+TBI (n = 
+18)
+Moderate 
+TBI (n = 54)
+OI (n 
+= 95)
+Severe 
+TBI (n = 
+16)
+Moderate 
+TBI (n = 49)
+OI (n = 94)
+Severe 
+TBI (n = 
+17)
+Moderate 
+TBI (n = 50)
+OI (n = 83)
+Severe 
+TBI (n = 
+18)
+Moderate 
+TBI (n = 48)
+OI (n = 
+84)
+CBCL Internalizing 
+Problems T score
+27.78
+11.11
+8.42
+37.50
+12.24
+5.32**
+23.53
+6.00
+4.82*
+27.78
+4.17
+4.76*
+CBCL Externalizing 
+Problems T score
+22.22
+9.26
+8.42
+50.00
+16.33
+6.38***
+47.06
+8.00
+4.82***
+33.33
+12.50
+4.76**
+CBCL ADHD T 
+score
+16.67
+9.26
+8.42
+37.50
+14.29
+7.45*
+47.06
+10.00
+7.23***
+27.78
+14.58
+8.33
+Notes. Clinical cutoff at T = 63.
+CBCL = Child Behavior Checklist; OI = orthopedic injury.
+*p < .05.
+**p < .001.
+***p < .0001.
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Treble-Barna et al.
+Page 32
+Table 5
+Final Models with Significant Moderation
+Effect
+Estimate
+Standard Error
+Df
+F
+p
+Warm responsiveness during structured task and ADHD symptoms
+Pre-injury ADHD symptoms
+0.66
+0.05
+1, 251
+163.58
+< .001
+Parent psychological distress (BSI-GSI)
+0.16
+0.05
+1, 251
+10.37
+.002
+Age at injury
+0.09
+0.06
+1, 251
+2.16
+.143
+CBCL version
+0.03
+0.09
+1, 251
+0.09
+.769
+Group
+2, 251
+3.46
+.033
+Time since injury
+−0.05
+0.08
+1, 251
+0.05
+.830
+Warm responsiveness
+0.02
+0.09
+1, 251
+5.53
+.019
+Group x time since injury
+2, 251
+0.10
+.909
+Group x warm responsiveness
+2, 251
+4.17
+.017
+Warm responsiveness x time since injury
+0.00
+0.08
+1, 251
+5.42
+.021
+Group x warm responsiveness x time since injury
+2, 251
+3.25
+.041
+Warm responsiveness during free play and ADHD symptoms
+Pre-injury ADHD symptoms
+0.65
+0.05
+1, 253
+164.87
+< .001
+Parent psychological distress (BSI-GSI)
+0.15
+0.05
+1, 253
+9.90
+.002
+Age at injury
+0.09
+0.06
+1, 253
+2.22
+.137
+CBCL version
+0.05
+0.09
+1, 253
+0.26
+.607
+Group
+2, 253
+11.65
+<.001
+Time since injury
+−0.04
+0.06
+1, 253
+0.44
+.508
+Warm responsiveness
+0.02
+0.04
+1, 253
+5.15
+.024
+Group x warm responsiveness
+2, 253
+3.09
+.047
+Scaffolds during structured free play and internalizing symptoms
+Pre-injury internalizing symptoms
+0.60
+0.05
+1, 248
+154.22
+<.001
+Parent psychological distress (BSI-GSI)
+0.21
+0.05
+1, 248
+17.99
+<.001
+Age at injury
+−0.01
+0.06
+1, 248
+0.03
+.866
+CBCL version
+−0.13
+0.10
+1, 248
+1.62
+.205
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.
+
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Treble-Barna et al.
+Page 33
+Effect
+Estimate
+Standard Error
+Df
+F
+p
+Group
+2, 248
+0.24
+.786
+Time since injury
+−0.16
+0.09
+1, 248
+0.04
+.837
+Scaffolds
+−0.23
+0.11
+1, 248
+5.75
+.017
+Group x time since injury
+2, 248
+1.52
+.221
+Group x Scaffolds
+2, 248
+5.48
+.005
+Scaffolds x time since injury
+0.14
+0.09
+1, 248
+5.36
+.021
+Group x Scaffolds x time since injury
+2, 248
+5.88
+.003
+Note. BSI-GSI = Brief Symptom Inventory-Global Severity Index; CBCL = Child Behavior Checklist
+Dev Psychol. Author manuscript; available in PMC 2017 November 01.

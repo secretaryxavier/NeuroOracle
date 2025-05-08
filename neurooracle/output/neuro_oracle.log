@@ -1,0 +1,49 @@
+2025-05-07 19:04:24,781 - root - INFO - Logging configured.
+2025-05-07 19:04:24,781 - __main__ - INFO - --- Starting Neuro Oracle Pipeline ---
+2025-05-07 19:04:24,781 - __main__ - INFO - Step 1: Data Ingestion
+2025-05-07 19:04:24,781 - ingest - INFO - Configuration loaded from config.json
+2025-05-07 19:04:24,781 - ingest - ERROR - OCR data path is invalid or not configured: path/to/ocr_texts
+2025-05-07 19:04:24,781 - ingest - INFO - Loading OpenCitations metadata and index...
+2025-05-07 19:04:24,781 - ingest - ERROR - OpenCitations metadata file not found: path/to/opencitations_data\opencitations_meta.csv
+Traceback (most recent call last):
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\ingest.py", line 82, in load_opencitations_data
+    self.meta_df = pd.read_csv(self.meta_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'path/to/opencitations_data\\opencitations_meta.csv'
+2025-05-07 19:04:24,790 - ingest - ERROR - OpenCitations index file not found: path/to/opencitations_data\index.csv
+Traceback (most recent call last):
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\ingest.py", line 93, in load_opencitations_data
+    self.index_df = pd.read_csv(self.index_path)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'path/to/opencitations_data\\index.csv'
+2025-05-07 19:04:24,790 - __main__ - INFO - Data ingestion complete. (Stopping here for first test)

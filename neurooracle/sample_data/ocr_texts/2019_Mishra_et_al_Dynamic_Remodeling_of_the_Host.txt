@@ -1,0 +1,682 @@
+1
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+Dynamic Remodeling of the 
+Host Cell Membrane by Virulent 
+Mycobacterial Sulfoglycolipid-1
+Manjari Mishra   , Pranav Adhyapak   , Ruchika Dadhich & Shobhna Kapoor   
+Lipids dictate membrane properties to modulate lateral membrane organization, lipid/protein diơusion 
+and lipid-protein interactions, thereby underpinning proper functioning of cells. Mycobacterium 
+tuberculosis harnesses the power of its atypical cell wall lipids to impact immune surveillance machinery 
+centered at the host cell membrane. However, the role of speciƤc virulent lipids in altering host cellular 
+functions by modulating membrane organization and the associated signaling response are still 
+pertinent unresolved questions. Here, combining membrane biophysics and cell biology, we elucidate 
+how virulent Mtb sulfoglycolipids hijack the host cell membrane, aơecting its order, ƪuidity, and 
+stiơness along with manipulating the linked cytoskeleton. The functional outcome of this perturbation 
+was assayed by monitoring membrane-associated autophagy signaling. These actions form a part of 
+the overall response to commandeer host membrane-associated immune processes during infection. 
+The Ƥndings on the mechanism of action of Mtb lipids on host cell membrane structure and downstream 
+signaling will deepen the collective understanding of their functional aspects in membrane-dictated 
+bacterial survival, pathogenesis and drug resistance and reveal suitable membrane driven-therapeutic 
+intervention points and diagnostic tools.
+Te emergence of antibiotic resistance in general and in tuberculosis has created an unmet need to identify novel 
+drug targets and requires understanding of the intricate web of host-pathogen interactions during the infectious 
+process1. Virulence factors of Mycobacterium tuberculosis (Mtb) are multifaceted, enabling circumvention of a 
+dedicated immune response2. Herein—next to proteins—structurally complex atypical lipids are also utilized 
+as central eﬀectors in pathogenesis3–7. However, despite progress demonstrating the contribution of Mtb lipids 
+to pathogenicity, relatively little is known about their mechanism of action, and more speciﬁcally, how these 
+lipids interact with the host cell at the molecular level. Te cell membrane of host immune cells is the ﬁrst bar-
+rier against many pathogens and is targeted by their various evolved strategies focused towards cellular entry/
+exit as well as promotion of survival and infection8. Te exhaustively studied bacterial lipid-centric mechanism 
+in host-pathogen interaction is the functional outcome of the recognition of lipids as molecular signatures by 
+speciﬁc host cell receptors. For example, trehalose motif of Mtb trehalose dimycolate (TDM) is recognized by 
+the calcium dependent C-type lectin receptors (CLR), Mincle, triggering pro-inﬂammatory cytokine produc-
+tion9. Contrastingly, mannosylated moieties from mannose-capped lipoarabinomannan (LAM) are recognized 
+by mannose and DG-SIGN receptors initiating anti-inﬂammatory signaling cascade that permits Mtb to evade 
+immune detection10.
+More recently the indirect mechanism of perturbing host cell function by Mtb lipids propose their inser-
+tion into the host membranes impairing their biophysical properties and leading to altered activities of 
+membrane-bound eﬀectors and modulated membrane-associated signaling3,11. In general, optimal membrane 
+biophysical properties precede normal cellular functions, and thus have been subsequently manipulated by path-
+ogens12–14. For example, Mtb lipid LAM has been shown to insert within the raf domains of the host cell mem-
+brane, modulate activities of associated eﬀector kinases that prevent phagosome maturation and down-regulate 
+autophagy activity5,15,16. In vitro biophysical studies on solid supported membranes furnished that incorpora-
+tion of LAM in membranes modiﬁes the morphology of the cholesterol-enriched domains and prevents vesicle 
+fusion17. Surprisingly, which biophysical membrane properties are altered upon LAM incorporation still remains 
+unknown. Similarly, TDM has been shown to insert into model and natural membranes wherein it decreases 
+membrane ﬂuidity and enhances permeability18. TDM also has been demonstrated to inhibit calcium-induced 
+Department of Chemistry, Indian Institute of Technology Bombay, Powai, India. Correspondence and requests for 
+materials should be addressed to S.K. (email: shobhnakapoor@chem.iitb.ac.in)
+Received: 18 December 2018
+Accepted: 23 August 2019
+Published: xx xx xxxx
+OPEN
+
+2
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+vesicle fusion, and thus implicated towards the inhibition of phagosome maturation19. On the other hand, inser-
+tion of glycopeptidolipids (GPL) increase membrane permeability with minor eﬀect on ﬂuidity18. Structurally 
+unrelated Mtb virulent lipid, phthiocerol dimycocerosate (PDIM) has been shown to decrease membrane polar-
+ity, interpreted as changes in lipid organization in the host cell membrane leading to increased rigidity11. Later in 
+an independent study, these PDIM coordinated changes were correlated to induction of host cell death via necro-
+sis4, even though the molecular mechanism of this membrane reorganization, direct visualization of the same and 
+how that is linked to PDIM-induced host cellular response remains to be elucidated.
+Collectively, the data underlines a plausible “host cell membrane insertion” mode of action of Mtb lipids either 
+alone or in conjunction with other factors to facilitate infection. However, direct correlations between pathogenic 
+lipids, the host cell membrane and the associated signaling response have not been addressed before. Moreover, 
+the data also highlights a unique pattern of interaction of structurally diverse Mtb lipids with host cell membrane 
+that leads to distinct eﬀects including altered membrane ﬂuidity, permeability, reorganization of lipid domains, 
+and disruption of bilayer ordering. Given this progress, little is known about the most abundant sulfatide in 
+the Mtb outer membrane, Sulfoglycolipid-1, SL-1 (Fig. 1A), a tetra-acylated trehalose-based lipid. It is uniquely 
+expressed in pathogenic mycobacteria with its cellular abundance correlating with the strain virulence. It has been 
+demonstrated to be released from the membrane surface of Mtb, thus qualifying as a plausible virulence factor to 
+infect the host cells20–22. SL-1 has been proposed to modify phagosome-lysosome fusion, disrupt mitochondrial 
+phosphorylation and activate as well as suppress cytokine levels in human leukocytes, ofen leading to conﬂicting 
+results20. To directly address the role of SL-1 in tweaking host cell membrane, we characterized the biophysical, 
+Figure 1.  Mtb virulent lipids distinctly alter the host cell membrane order and ﬂuidity. (A) Chemical structure 
+of Mtb Sulfoglycolipid-1 (SL-1). (B) Pseudo-colored GP images of THP-1 macrophage control cell and cells 
+in the presence of the indicated concentration of Mtb SL-1 for 4 h. (C) Global GP distribution from the stack 
+of GP images (n = 90, N = 3) deconvoluted by ﬁtting Gaussian distributions. (D) Surface coverage (%) of high 
+G.P. domains (global) equated to the area under the curve of high G.P population. (E) Membrane segmented 
+pseudo-colored GP pixels of control and SL-1 treated cells and (F) associated GP distribution ﬁtted to Gaussian 
+distribution. (G) Surface coverage (%) of high G.P. domains both globally and in plasma membrane of cells 
+in control and in presence of 4.16 μM SL-1, equated to the area under the curve of high G.P populations. (H) 
+Reduced membrane micro viscosity of SL-1 treated THP-1 cell membrane. Control and SL-1 treated THP-1 cells 
+were labeled with TMA-DPH (4 µM) and the ﬂuorescence anisotropy were measured. Data are mean ± SEM 
+from three independent experiments and were compared using the two-tailed student’s t-test (*P < 0.01). (I) 
+Pseudo-colored GP image of control and SL-1 treated cells displaying segmented objects (indicated with the 
+white star) and the object GP image and their (F) associated GP distribution ﬁtted to Gaussian distribution. 
+Scale bar: 10 μm, 40X water objective. (J) Confocal ﬂuorescent images of control and SL-1 treated cells stained 
+with Nile red to observe lipid droplets. Scale bar 10 μm, 63X oil objective.
+
+3
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+nanomechanical and cell biological properties of live THP-1 macrophage cell membranes upon interaction with 
+SL-1. In this work, SL-1 was used at a concentration range that is physiologically relevant in context of the amount 
+of these lipids present within the extractable pool of lipids in the outer bacterial cell membrane23. Our results 
+show that the SL-1 remodels the cell membrane’s architecture, alters its nanomechanical properties and aﬀects 
+membrane ﬂuidity. Te eﬀect percolates to the actin cytoskeleton underneath the membrane, and ﬁnally leads to 
+activated autophagy signaling. Tis result aligns with the work by Lee et al., that revealed direct engagement of 
+total Mtb lipids and not proteins from diﬀerent bacterial strains in tempering with host autophagy24.
+Taken together, we probed various aspects of host cell membrane-lipid interactions to generate a framework 
+for improving our understanding of the role of Mtb lipids in hijacking the “host cell membrane” and manipu-
+lating the same to commandeer host membrane–associated processes. Tese results reinforce that an in-depth 
+understanding of Mtb lipid-host membrane interactions, guided designs of structural analogs of lipids and 
+well-described steps of membrane modulation, together, holds a promise as a lipid-based therapy. Tis approach 
+also has the potential to avoid occurrence of resistant phenotype by virtue of targeting specific membrane 
+properties.
+Results
+SL-1 mediates remodeling of the macrophage cell membrane ƪuidity. 
+Te lateral organization of 
+cellular membrane is highly complex and displays varying levels of heterogeneity in lipid packing. Accumulating 
+evidence suggests existence of liquid ordered cholesterol-enriched (lo) lipid raf domains alongside less organized 
+more ﬂuid liquid disordered (ld) regions in cellular membranes, potentially regulating various cellular functions 
+such as signal transduction25–27. To assess the role of SL-1 in regulating cell membrane properties, we performed 
+quantitative imaging of lipid membrane order in the cell membranes of live THP-1 macrophages using a polar-
+ity-sensitive probe, Laurdan, and two photon microscopy. Visualization of ordered (peak emission λ ~ 440 nm) 
+and disordered ﬂuid membrane regions (peak emission λ ~ 490 nm) was rendered by probing the degree of lipid 
+packing, using the ratiometric measure of two emission regions known as generalized polarization, GP (Eq. 1)28. 
+Collective data from model and cell membranes have shown that the ﬂuid ld regions have average GP values from 
+~−0.05 to 0.25 and lo ordered regions vary from 0.25 to 0.5529,30. Pseudo-colored GP images of control THP-1 
+macrophages (Fig. 1B) showed, a heterogeneous membrane lipid order distribution with irregularly distributed 
+high GP areas (colored red to orange). Tese areas do not represent single membrane domains, but rather cellu-
+lar areas in which the fraction of ordered lipid domains is higher. Moreover, in the complex environment of cell 
+membranes, GP values only reﬂect the overall membrane structure. Tese structures could also correspond to 
+lipid droplets enriched in saturated lipids and cholesteryl esters and hence display high lipid order and GP values 
+(see below)31. Global GP histogram of control membranes displayed a bimodal distribution centered at distinct 
+GP values (C1 = 0.01, and C2 = +0.54, Table S1), indicative of co-existing ﬂuid (46% coverage) and ordered (54% 
+coverage) membrane regions (Fig. 1C): the latter likely to have contribution from plasma membrane due to the 
+presence of cholesterol, compared with intracellular membranes.
+Addition of SL-1 leads to a concentration-dependent perturbation of the cell membrane order. Overall 
+membrane ﬂuidization was evident (Figs 1B and S1A) and was also supported by the shif of the global GP 
+distribution to lower values (Fig. 1C). The high GP domains/regions were reduced/re-distributed in a 
+concentration-dependent manner (Fig. 1D). From the global GP distribution, the mean GP values for ﬂuid and 
+ordered membrane regions decreased to −0.10 (C1, 85% coverage) and 0.42 (C2, 15% coverage, Table S1), respec-
+tively. Tus, ordered regions became less abundant and less ordered, indicating membrane de-condensation, 
+while the ﬂuid regions became more abundant and more ﬂuid in nature upon SL-1 interaction. Additionally, the 
+formation of distinct domains with outer ring-like structures of relatively higher GP (than inside) was visible on 
+cell membrane, plausibly reﬂecting selective lipid phase separation/de-mixing induced by SL-1 (Fig. 1B, inset). 
+For better observation of GP changes, the diﬀerence GP distribution was plotted, which showed a SL-1 depend-
+ent decrease in GP values for ordered regions from ≈+0.1 to +0.75, and a minor increase was observed for 
+disordered regions from ≈−0.1 to −0.8 (Fig. S1B). Tese regions could possibly correspond to the GP intervals 
+reported for lo (raf-like), ld (non-raf), pure ﬂuid (<−0.05) and gel (>+0.55) phases, respectively. A multimodal 
+GP distribution, especially at the highest tested SL-1 concentration, could reﬂect the existence of these lipid 
+phases in THP-1 macrophage membranes (Fig. S1C) and reﬂect ﬁne-tuning of host cell membrane organization 
+between rigid and ﬂuid lipid phases with varying membrane order and ﬂuidity upon bacterial lipid perturbation. 
+Previous studies on THP-1 cells have revealed signiﬁcant augmentation in the number and reorganization of 
+rigid lipid domains under oxidative stress32. We thus hypothesize that the decreasing GP population corresponds 
+mostly to disappearance of the ordered lo domains. Furthermore, the temperature-dependent studies also support 
+a signiﬁcant loss of ordered membrane regions upon SL-1 interaction, displaying lower temperature sensitivity 
+(Fig. S2). Te minor increase of the low GP value population could either correspond to de-novo de-condensation 
+or redistribution of ﬂuid membrane regions.
+Next, we analyzed the contribution originating from cell plasma membrane (PM) within the global GP 
+changes, as Laurdan can also internalize and stain intracellular membranes. Laurdan GP images for THP-1 mac-
+rophages made it diﬃcult to extract GP pixels corresponding to PM by simple visual inspection, mostly stemming 
+from their morphology. Tus, we performed spectral imaging of cells coupled with PM segmentation to remove 
+the cytosolic contribution of the internalized dyes33. GP distribution corresponding to the plasma membrane 
+showed a unimodal distribution upon SL-1 interaction with loss of high GP regions, suggesting ﬂuidization/
+reorganization of the cell plasma membrane by SL-1 (Figs 1E,F and S1D). Te reduction in the ordered lipid 
+domains corresponding to PM (2.3-fold) was lower than that observed with ordered lipid domains observed 
+globally (3.6-fold). Tis indicates that SL-1 interaction does alter the membrane organization of host cell plasma 
+membrane as well, though the eﬀect is minor (Fig. 1G). A decreased microviscosity of the cell plasma membrane, 
+denoted by restricted rotational mobility of the TMA-DPH membrane probe was obtained supporting the GP
+
+4
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+results (Fig. 1H). Orthogonally, using methyl-β cyclodextrin (MβCD) which causes cholesterol depletion from 
+the cellular PM34 we identiﬁed that the ordered GP population discernible in the global GP distribution was most 
+aﬀected by this treatment, leading to a shif to lower GP values with a signiﬁcant reduction of its surface coverage 
+within 30 minutes of incubation (Fig. S3 and Table S2). Tis predominantly reﬂects the PM, where, as expected 
+the lipid packing and order decreases upon cholesterol depletion. Tis indirectly suggests that the changes in the 
+diﬀerence GP distribution (Fig. S1B) might correspond to the alterations induced by SL-1 in the host cell PM as 
+well. Next, using the object segmentation program of the spectral imaging toolbox, we obtained a rather complex 
+lipid environment of the circular membranous structures (Fig. 1B, inset and 1I) induced by SL-1, spanning a wide 
+range of membrane order (Fig. 1J) compared with the control. Te highly ordered red domains on the control 
+THP-1 cells seen in global GP imaging could also correspond to intracellular lipid droplets (plausibly seen due to 
+Laurdan internalization), as demonstrated by quite intense staining with Nile red (Fig. 1K). SL-1 treatment caused 
+a substantial reduction in the lipid droplets (including size), possibly explaining the drastic reduction of ordered 
+GP pixels in global GP distribution (without aﬀecting the PM GP distribution much).
+Altogether, these data indicate that SL-1-membrane interaction leads to a substantial redistribution of lipids 
+and plausibly proteins, causing reorganization of lipid domains and hence the host cell membranes. SL-1–mem-
+brane interaction evolved temporally with changes being observed as early as 30 min (Fig. 2 and Table S2). 
+Initially, a transient clustering of ordered domains was seen, followed by their gradual decrease and within 
+2 hours, the membrane displayed gross ﬂuidization with intermittent patterns of intermediate GP domains sur-
+rounding more ordered regions. Tese observations are clearly indicative of dynamic alterations in the cell mem-
+brane organization during host-pathogen crosstalk. Te eﬀect of SL-1 on the cell membrane organization was also 
+found to be highly speciﬁc to this class of Mtb lipid compared with other virulent lipids such as PDIM and LAM 
+(Figs 3A,B and S1D). PDIM did not cause any substantial change in the membrane ﬂuidity and organization, 
+whereas, LAM led to minor ordering of the cell membrane surface with an associated increase in the coverage 
+of the ordered membrane region (Fig. 3C). Tis could also be a manifestation of varying degree of membrane 
+partitioning of the diﬀerent lipids. However, lipids with chain lengths greater than 18 carbon atoms have been 
+shown to partition equally into phase segregated model membranes35. Tus, given that the major chain lengths 
+in the investigated lipids are above C20, it might be reasonable to assume their similar incorporation eﬃciency 
+into host membranes, with an only minor contribution, if any, to the observed phenotype. Tis underscores that 
+the crosstalk of virulent lipids with the host cell membrane is highly selective and speciﬁc, leading to diﬀerential 
+membrane re-organization with associated changes in membrane order and hydration, which till now remained 
+unexplored.
+Nanomechanical cell membrane properties and membrane tether formation are perturbed by SL-1.  
+Atomic force microscopy (AFM) is a versatile tool for mapping the nanomechanical properties of cell mem-
+branes. Membrane stiﬀness, especially, is reported to regulate a plethora of cellular processes, including diﬀeren-
+tiation, migration, proliferation, and is markedly altered in diseased states12,13. Te analysis of the cortical stiﬀness 
+of THP-1 macrophages revealed a signiﬁcant sofening upon SL-1 interaction (Fig. 4A, median elastic modulus 
+of 1.74 kPa and 1.44 kPa for control and SL-1 treated cells, respectively; P < 0.05, Mann-Whitney test). Tese 
+results suggest SL-1 perturbs the cell mechanical property via reduction in membrane order, increase in hydration 
+and inducing cell cortical sofening. Next, we investigated membrane tethers or nanotubes which are important 
+regulators of cellular adhesion and communication and owe their existence to the highly dynamic PM36. Te 
+single-tether force distribution for SL-1 treated cells showed a signiﬁcant reduction (13%) in the median tether 
+force (74.4 pN) when compared with the control (85.7 pN) (Fig. 4B; P < 0.05, Mann-Whitney test). Tis indi-
+cates that SL-1-treated cell membrane tethers require less force to be extended, and hence their surface tension 
+or bending rigidity/elastic modulus is smaller. Te number of tethers per cell increased upon SL-1 treatment 
+(Fig. 4C) with a median centered at 5.0 and 7.0(P < 0.05, Mann-Whitney test) for control and SL-1 treated cells, 
+respectively. Furthermore, a reduction in the total extension of the last tether (i.e. tether length) was observed 
+(Fig. 4D), 6.2 ± 0.2 μm in control and 5.2 ± 0.1 μm in SL-1 treated (mean ± SEM, P < 0.001, t-test). All these 
+results point towards the cell membrane being more susceptible to tether formation governed by the eﬀect of SL-1 
+on the cell mechanical properties coupled with a decreased lipid ordering as revealed by the Laurdan ﬂuorescence 
+studies (Fig. S1A).
+Modulation of actin cytoskeletal organization by SL-1. 
+Various pathogens actively interfere with 
+the actin cytoskeleton to trigger uptake37. Pathogenic mycobacteria disrupts the actin cytoskeleton by induc-
+ing its rearrangement and fragmentation. However, the exact mechanism is still unknown, and the identity of 
+implicated moieties remain obscure38. Various studies have highlighted intimate crosstalk of the cell’s PM and 
+the underlying actin ﬁlaments attuning many physiological processes37,39. Given these facts and our observation 
+of dynamic reshaping of the host cell membrane, we investigated the eﬀect of SL-1-membrane interaction on the 
+actin cytoskeleton in THP-1 macrophages. Untreated cells displayed (Fig. 5A) at least three distinct actin mor-
+phologies40 – (a) thin actin ﬁlaments, 87.3 ± 2.1%, (b) F-actin cortical patches, 1.6 ± 0.3% and (c) actin punctate 
+structures, 11.2 ± 1.9% (data are mean ± SEM). Incubation of cells with SL-1 led to a concentration-dependent 
+increase and decrease in actin puncta and ﬁlamentous actin, respectively. Te actin patches showed a non-linear 
+response with maxima centered at the lowest SL-1 concentration tested, suggesting a transient increase in the 
+actin patches followed by subsequent fragmentation forming punctate structures of actin (Fig. 5B). Tus, it is 
+tempting to speculate that the pool of actin patches might act as a reservoir for the redistribution of actin into 
+various morphologies under selective perturbation, in this case, SL-1-membrane interaction. Altogether, it can 
+be clearly seen that the SL-1-host membrane interaction profoundly aﬀects the actin cytoskeleton underneath the 
+cell PM without aﬀecting the cell viability (Fig. S4).
+
+5
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+SL-1 activates host-autophagy signaling. 
+SL-1 interaction with the macrophage cell membrane led to 
+prominent changes in the membrane biophysical properties. Hence, we characterized the diﬀerences between the 
+membrane-associated signaling pathways—potentially dictated by cell membrane properties. Te stress-response 
+autophagy pathway—dependent upon actin and ordered lipid domains—detects intracellular pathogens, and 
+various Mtb virulent strains have been documented to impair the same24. Intriguingly, SL-1 belongs to the family 
+of sulfatides, the ﬁrst ever reported Mtb component to inhibit generic phagosome-lysosome fusion and acidiﬁ-
+cation, similar to that observed for a well characterized glycolipid man-LAM40. SL-1 was recently shown to act 
+as a TLR-2 antagonist and perturb pattern-recognition-receptor host signaling pathways such as NF-κB and 
+IFN21. Tese ﬁndings implicate SL-1 to perturb host cellular signaling. Tus, we sought to characterize the eﬀect 
+of SL-1 on the host autophagy-signaling pathway using a cell-based ﬂuorescence assay employing LC3-green 
+ﬂuorescent protein (GFP). Control cells exhibited a minor abundance of LC3-GFP puncta/cell characteristic of 
+low basal autophagy activity (Fig. 6A). SL-1 induced a signiﬁcant increase (≈9.3 fold)in the LC3-GFP puncta 
+in a concentration–dependent manner, indicative of activated autophagy-signaling (Fig. 6B; P < 0.0001). Tus, 
+SL-1 communication with macrophage cell membranes potentially leads to activation of membrane-associated 
+autophagy-signaling.
+Figure 2.  Temporal remodeling of cell membrane domains by SL-1. Pseudo-colored GP images of (A) THP-1 
+macrophage untreated cells and cells in the presence of Mtb SL-1 lipid at 4.16 μM. (B) Global distribution from 
+the stack of GP images (n = 15, N = 3) deconvoluted by ﬁtting Gaussian distributions. Scale bar: 10 μm, 40X 
+water objective.
+
+6
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+Discussion
+Cellular membranes are highly heterogeneous structures with their biological properties intimately coded by 
+their biophysical characteristics. One such characteristic parameter essential for cellular function is membrane 
+ﬂuidity categorizing relative motion of molecules within the membrane. Lipid domains of distinct compositions 
+spatially regulate membrane ﬂuidity and inﬂuentially control lipid-protein sequestration. Tey generate func-
+tionally relevant platforms within the membrane and modulate the nature of downstream signaling. Alterations 
+in membrane ﬂuidity play a critical role in the regulation of membrane properties under physiological condi-
+tions and importantly in diseases. As such, evaluating membrane ﬂuidity is imperative for understanding the 
+membrane-dependent mechanisms governing various cellular processes including signaling. Evidence under-
+pinning the indispensable involvement of speciﬁc lipid moieties in diseases is emergent41,42. Lipids are attractive 
+targets exploited throughout evolution by pathogens43,44. Among them, Mycobacterium tuberculosis (Mtb), the 
+causative agent for tuberculosis aptly exempliﬁes the use of lipids as central eﬀectors in pathogenesis44, with the 
+host cell plasma membrane as its ﬁrst point of contact. However, the molecular and cellular mechanisms of their 
+interaction with host cell membranes and the consequent modulation of membrane-associated signaling are not 
+well understood. Tus, characterizing the molecular biophysical and cellular mechanisms underlying the cross-
+talk between virulent lipids and the host cell membrane along with integrated signaling is expected to deepen our 
+understanding of the host-pathogen interactions.
+In this work, we have investigated the eﬀect of the virulent Mtb sulfoglycolipid, SL-1 on the physical and 
+cell biological properties of the THP-1 macrophage cellular membranes. Te work uncovers molecular mech-
+anisms by which pathogen regulates the host cell membrane’s physical properties with associated alteration in 
+host membrane-associated processes during infection. Using Laurdan Generalized Polarization microscopy we 
+show that THP-1 cell membranes are heterogeneous. Te distribution of GP values clearly shows the co-existence 
+of ordered and disordered ﬂuid regions in THP-1 cells. SL-1 from within the pool of exposed lipids on the outer 
+Mtb cell envelope triggers remodeling of the THP-1 cell membrane in a time and concentration-dependent man-
+ner. Te membrane reorganization was associated with increased membrane ﬂuidity synonymous with higher 
+hydration at the membrane interface (both globally and in PM regions) along with less restricted rotational and 
+translational diﬀusion. SL-1 mediated membrane reorganization led to selective demixing of lipids and decreased 
+Figure 3.  Selective cell membrane perturbation by other Mtb lipids. (A) Pseudo-colored GP images of THP-1 
+macrophages in presence of Mtb LAM and PDIM lipids. (B) Global distribution from the stack of GP images 
+(n = 15, N = 3) deconvoluted by ﬁtting Gaussian distributions. (C) Surface coverage (%) of high G.P. domains 
+(global) equated to the area under the curve of high G.P. (Scale bar: 10 μm, 40X water objective.
+
+7
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+the ordered regions of the cell membrane. Tese provide functional support to previous ﬁndings that show SL-1 
+to impede the innate immune response by inhibiting TLR2 and TLR1/6 heterodimers21, which reside within 
+the raf-like lipid domains in the PM45. Surprisingly, though a dipalmitoylated SL-1 is suﬃcient to inhibit TLR 
+signaling21, the functional role of longer and branched fatty acyl chains of SL-1 remains elusive. We hypothesize 
+that these fatty acid chains ﬁne-tune the host cell membrane properties, as the structure of these chains critically 
+guide the partitioning location and kinetics of their membrane insertion. Tis would eventually modulate various 
+cellular responses such as decreased TLR activity, upregulated reactive oxygen species production, and altered 
+protein phosphorylation patterns. In this respect, investigations into the ﬁne structure of acyl chain conformation 
+and dynamics and its biophysical properties would help understand the SL-1 host cell membrane interaction in a 
+more detailed manner. Finally, SL-1 reduced the highly ordered lipid droplet accumulation within the cell.
+We found that the decoded pattern of membrane reorganization is selective to SL-1, as other Mtb virulent 
+lipids failed to recapitulate similar eﬀects. Tis is in well conformity with previous studies showing strain-speciﬁc 
+Mtb lipids linked to variable cellular responses, e.g., man-LAM reduces phagosome-lysosome fusion and apop-
+tosis, and reorganizes membrane domains to disrupt of membrane-associated signaling15,46. By contrast, LAM 
+counteracts some of the eﬀects of man-LAM, and PILAM, and activates host apoptotic response instead. Taken 
+together, these reports highlight that the structurally diverse Mtb lipids act as highly selective modulators of 
+membrane properties and signaling pathways in host cells. Next, our AFM investigations demonstrated a more 
+compliant cell membrane of SL-1 treated cells. Membrane tethers akin to nanotubes are involved in various cel-
+lular functions, especially in immunoregulation36. SL-1 led to a signiﬁcant decrease in the tether force, implying 
+either alterations in bending stiﬀness, in-plane membrane tension or membrane-cytoskeleton interactions. As 
+Figure 4.  Nanomechanical membrane properties of live THP-1 cells upon lipid perturbation. (A) Elastic 
+moduli distribution of THP-1 cells in the absence (n = 199 cells median: 1.74 kPa) and presence of 4.16 μM SL-1 
+(n = 210 cells, median: 1.44 kPa) at 2 h, ﬁtted with a single log-normal distribution. (B) Relative frequency of 
+membrane tether forces in control (n = 1182 elements, median 85.7 pN) and SL-1 treated (n = 1134 elements, 
+median 74.4 pN) cells ﬁtted with a log-normal distribution. (C) Tether number distribution of THP-1 cells in 
+the absence (n = 169 cells, median: 5.0) and presence of 4.16 μM SL-1 (n = 184 cells, median: 7.0) ﬁtted with 
+a single log-normal distribution. Te medians of the data in A-C were signiﬁcantly diﬀerent from each other 
+(P < 0.05, Mann-Whitney test). (D) Tether length distribution of control and SL-1 treated cells (n = 175 each, 
+mean + SEM: 6.2 ± 0.1 μm and 5.2 ± 0.2 μm, respectively) with signiﬁcant mean diﬀerence (***P < 0.0001, 
+unpaired student t-test).
+
+8
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+the number of tethers per cell increased upon SL-1 treatment, it entails a reduced resistance of the membrane to 
+bend. Furthermore, generation of membrane tethers involves induction of highly positive and negative curved 
+membrane phases around the circumference and at the base, respectively. Te structural aspect of SL-1, i.e., 
+the likely inverted cone-shape of the molecule, may foster formation of highly curved regions at the site of cell 
+membrane insertion, thus leading to more frequent membrane nanotube generation. Such SL-1induced de novo 
+curved membrane regions are expected to have unique lipid order and hydration47 and hence may account for the 
+distinct global GP distribution patterns. It is well known that lipid raf domains are involved in connecting actin 
+to the cell membrane39. Tus we investigated the correlation between the decreasing lo regions in SL-1 treated cell 
+membrane and the actin rearrangement. We observed a marked disorganization of the actin cytoskeleton under-
+neath the PM by SL-1 without any eﬀect on the cell viability. Te most salient feature were the disappearance of 
+ﬁlamentous actin, and appearance of actin punctate structures in accordance with previous studies using intact 
+bacteria38. Head-to-head comparisons with previous studies on PM-cytoskeleton will distinguish the interactions 
+regulated by pathogen invasion and lead to new mechanism grounded rationale for therapeutic targeting.
+Finally, the aforementioned changes in the biophysical properties and morphology of the PM and actin 
+cytoskeleton, respectively, led to signiﬁcant alterations in a central membrane-associated process – autophagy. 
+Autophagy endows cells with the ability to eliminate toxic cellular material and plays decisive roles in innate 
+immunity48. As a result, pathogenic organisms including Mtb have evolved precise mechanisms to tweak host 
+autophagy24. We found that the autophagy activity was considerably increased afer SL-1 treatment. In light of our 
+ﬁndings, one could hypothesize that TLR2/6 antagonist SL-1 triggers host cell autophagy to generate a protective 
+niche preventing their detection and enhanced survival. A recent report showed that a decreased plasma mem-
+brane tension (similar to that induced by SL-1) triggers PI(4,5)P2 lipid phase separation driving the inactivation 
+Figure 5.  SL-1 mediates actin cytoskeleton disruption. (A) Representative confocal actin-labeled ﬂuorescent 
+images of THP-1 macrophage cells in the absence and presence of the indicated concentration of SL-1 afer 4 h. 
+Scale bar: 10 μm, 63X oil objective. (B) Quantitative representation of the various F-actin forms per cell from 
+three independent biological experiments (data are mean ± SEM). ***P value < 0.001, t-test.
+
+9
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+of TORC2 and hence, possibly activate autophagy49. We postulate that lipid phase separation guided by virulent 
+lipid–membrane interaction modulates the host plasma membrane dynamics and organization and represents an 
+under studied mechanism of membrane-associated TOR signaling in pathogenic infections. PI(4,5)P2 lipid links 
+Figure 6.  Autophagy induction in THP-1 cells by SL-1. (A) Representative confocal ﬂuorescent images of 
+THP-1 macrophages in the absence and presence of the indicated concentration of SL-1 afer 4 h. Scale bar: 
+10 μm, 63X oil objective. (B) Quantitative representation of the average number of LC3-GFP positive puncta per 
+cell from three independent biological experiments (data are mean ± SEM). ***P value < 0.001, t-test.
+
+10
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+PM to actin ﬁlaments, co-localizes with lipid raf markers and is strongly implicated in host-pathogen interac-
+tions; it’s involvement in SL-1–mediated eﬀect remains unexplored44.
+To conclude, our data highlights lipid molecules as highly efficient effectors of pathogenesis―next 
+to proteins. Te data indicates that virulent SL-1 lipid present in the extractable lipid pool on the surface of 
+pathogenic mycobacteria is intimately involved in host cell membrane interactions and subsequently aﬀects 
+membrane-associated downstream cellular functions. The proposed role of SL-1 is multifaceted and our 
+findings establish a novel and prominent role for SL-1 in modulating specific biophysical properties of the 
+host cell membrane such as ﬂuidity, hydration and lipid domain re-organization, and eventually activating 
+membrane-associated autophagy signaling. Notwithstanding, SL-1 possesses a high potential for developing 
+anti-tuberculosis therapeutic approaches and demands a deepened molecular understanding of its mode of action 
+coupled with identiﬁcation of host mediators as potential targets.
+Methods and Materials
+Laurdan generalized polarization imaging. 
+THP-1 cells were seeded in glass bottom dishes and dif-
+ferentiated using 20 nM PMA for 72 h. Cells were treated with SL-1 at the indicated concentrations and time at 
+37 °C and 5% CO2 followed by washing with phosphate buﬀer saline (PBS) and addition of 5 μM Laurdan for 
+45 min. Prior to imaging, cells were washed and imaged on a laser scanning confocal microscope (Carl Zeiss, 
+Germany) with excitation at 780 nm with a multi-photon laser (Titanium sapphire, Coherent Radiation, CA).Two 
+simultaneous emission images were recorded in the range of 400–460 nm and 470–530 nm. Calibration images 
+(to calculate G factor) were measured using 5 μM Laurdan solution in DMSO. Pseudo-coloured GP images were 
+constructed using a custom-made Matlab program described as following:
+Te G factor was calculated using Eq. (1), in the equation; the variables are in italics,
+=
++
+−
+−
++
+−
+−
+G
+GP
+GP GP
+GP
+GP
+GP GP
+GP
+1
+1
+(1)
+ref
+ref
+mes
+mes
+mes
+ref
+mes
+ref
+where, GPref is the reported reference GP value (0.207) of the Laurdan dye, and GPmes is the GP value of the dye in 
+pure DMSO measured with the experimental set-up used for experiments with cells. Two channel images, which 
+were used to construct pseudo coloured GP images using a custom made Matlab program described below and 
+Eq. (2),
+=
+−
++
+−
+−
+−
+−
+GP
+I
+GI
+I
+GI
+(2)
+400
+460
+470
+530
+400
+460
+470
+530
+GP values are given in a range of −1.0 (high ﬂuidity) to +1.0 (lowest ﬂuidity, ordered phase) using a custom 
+colour palette. Te stacks of confocal images were converted to binary images (with background 0 and intensities 
+above background set to 1), threshold were set and then multiplied with the respective GP images. All GP images 
+were corrected using the G-factor as mentioned above. Laurdan pixeled counts were obtained from the Matlab 
+based-macro and GP distributions were obtained from the histogram of the GP images, which were ﬁtted to 
+Gaussian functions using Origin Sofware (Origin Pro.9.1).
+Immunoƪuorescence confocal microscopy. 
+Afer treatment of diﬀerentiated THP-1 cells with SL-1, 
+cells were ﬁxed with 4% paraformaldehyde for 10 min at room temperature (RT) and rinsed with PBS. Ten, 
+cells were permeabilized followed by blocking in 1% BSA for 1 h, rinsed with PBS/PBST. TRITC-Phalloidin 
+(Invitrogen) was used to stain F-actin (2 μg/mL) for 30 min in dark, rinsed thoroughly with PBS and DAPI 
+(Invitrogen, 12 μg/mL) was added. Images were taken on Laser scanning confocal microscope (Carl Zeiss) 
+using a 63X/1.4NA objective. All post-acquisition image analysis for quantitating F-actin structures was done 
+using ImageJ. For autophagy, brieﬂy, diﬀerentiated cells were transiently transfected with p-GFP-LC3 plasmid 
+using lipofectamine-3000 for 24 h followed by treatment with indicated concentrations of SL-1 for 4 h. GFP-LC3 
+(puncta) were quantiﬁed using ImageJ. Statistical analysis was performed using two-tailed Student’s t-test in 
+GraphPad Prism 5.0, unless indicated otherwise. Signiﬁcant diﬀerences: *p < 0.01; **p < 0.005; ***p < 0.0001. 
+For complete cell culture conditions, transfection and lipid suspension preparation please see SI.
+Fluorescence spectroscopy. 
+Laurdan (6-dodecanoyl-2-dimethylaminonaphthalene) and TMA-DPH 
+(1-(4-trimethylammoniumphenyl)-6-Phenyl-1, 3, 5 p-toluene sulfonate) hexatriene were purchased from 
+Sigma-Aldrich and Cayman Chemicals, respectively. Laurdan and TMA-DPH were dissolved in DMSO. 105 
+cells were ﬁrst treated with SL-1 for 2 hours and then trypsinized and suspended in PBS buﬀer and labeled with 
+Laurdan (5 µM) or TMA-DPH (4 µM) at RT for 20 min, followed by washing (5000 rpm, 5 minutes) with PBS. Te 
+ﬂuorescence spectroscopic measurements were performed on a Varian Eclipse ﬂuorescence spectrophotometer 
+with a temperature controller having an accuracy of ±0.1 °C. Te temperature of the cuvette holder was adjusted 
+to 37 °C by a circulating water bath. Laurdan was excited at 350 nm and TMA-DPH was excited at 352 nm.
+For ﬂuorescence anisotropy measurements, intensities at 440 nm and 430 nm for Laurdan and TMA-DPH, 
+respectively, were measured with excitation and emission polarizer parallel to each other (both at 0°, I0) and 
+polarizer perpendicular (excitation: 0°, emission: 90°, I90). Te anisotropy was calculated according to Eq. (3),
+=
+−
++
+⊥
+⊥
+⁎
+⁎
+r
+I
+G
+I
+I
+G
+I
+(
+)
+(2
+)
+(3)
+II
+II
+where G is the correction factor obtained from the ratio of the emission intensity at 0° and 90° with the excitation 
+polarizer oriented at 90°.
+
+11
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+Te shif in the spectrum of Laurdan was quantiﬁed using the Generalized Polarization (GP) function deﬁned 
+by Eq. (4).
+=
+−
++
+GP
+I
+I
+I
+I
+(4)
+435
+500
+435
+500
+where, I435 and I500 are the emission intensities at 435 nm and 500 nm, respectively.
+Atomic force microscopy. 
+Force spectroscopy was performed in contact mode with MFP-3D atomic force 
+microscope (Asylum Research) and silicon nitride cantilevers (Oxford Instruments) having nominal resonance 
+frequency and spring constant 22 kHz and 0.16 N/m, respectively. Te cantilever was calibrated using the thermal 
+noise method (spring constant of 0.10–0.19 N/m). Te applied load was 60 nN and the cantilever velocity was 
+ﬁxed at 2 µm/s. THP-1 cells were incubated with SL-1 suspension (4.16 µM) for 2 h followed by recording of the 
+force curves. Elastic modulus was estimated using the Hertz model, Igor sofware (Asylum research). For analysis 
+of membrane tethers (tether force, tether number and lengths), a reported custom-made Matlab program was 
+used9. (for details, see the SI).
+Statistics and reproducibility. 
+Te sample sizes and statistical tests were selected based on previous 
+studies with similar methodologies. All experiments were repeated at least three times (AFM experiments were 
+conducted twice due to limited SL-1 amount), giving similar results. Te results of independent experiments 
+are presented as mean or median values; error bars represent SEM. Statistical signiﬁcance was tested using 
+either using unpaired two-tailed t-test for all data showing normal distribution. AFM results demonstrated a 
+non-normal distribution (Fig. 4A–C) and thus were statistically compared using non-parametric unpaired 
+Mann-Whitney test to compare medians. All data with a P value < 0.05 were considered signiﬁcant.
+Data Availability
+Source data for Figs 1–3 is provided in Supplementary Tables 1 and 2. All other data that support the ﬁndings of 
+this study are available from the corresponding author upon request.
+References
+	 1.	 Borsari, C., Ferrari, S., Venturelli, A. & Costi, M. P. Target-based approaches for the discovery of new antimycobacterial drugs. Drug 
+Discov Today 22, 576–584, https://doi.org/10.1016/j.drudis.2016.11.014 (2017).
+	 2.	 Forrellad, M. A. et al. Virulence factors of the Mycobacterium tuberculosis complex. Virulence 4, 3–66, https://doi.org/10.4161/
+viru.22329 (2013).
+	 3.	 Nakayama, H. et al. Lipoarabinomannan binding to lactosylceramide in lipid rafs is essential for the phagocytosis of mycobacteria 
+by human neutrophils. Sci Signal 9, ra101, https://doi.org/10.1126/scisignal.aaf1585 (2016).
+	 4.	 Quigley, J. et al. Te Cell Wall Lipid PDIM Contributes to Phagosomal Escape and Host Cell Exit of Mycobacterium tuberculosis. 
+MBio 8, https://doi.org/10.1128/mBio.00148-17 (2017).
+	 5.	 Shabaana, A. K. et al. Mycobacterial lipoarabinomannans modulate cytokine production in human T helper cells by interfering with 
+raf/microdomain signalling. Cell Mol Life Sci 62, 179–187, https://doi.org/10.1007/s00018-004-4404-5 (2005).
+	 6.	 Krishnan, N. et al. Mycobacterium tuberculosis lineage inﬂuences innate immune response and virulence and is associated with 
+distinct cell envelope lipid proﬁles. Plos One 6, e23870, https://doi.org/10.1371/journal.pone.0023870 (2011).
+	 7.	 Siegrist, M. S. & Bertozzi, C. R. Mycobacterial lipid logic. Cell Host Microbe 15, 1–2, https://doi.org/10.1016/j.chom.2013.12.005 
+(2014).
+	 8.	 Ham, H., Sreelatha, A. & Orth, K. Manipulation of host membranes by bacterial eﬀectors. Nat Rev Microbiol 9, 635–646, https://doi.
+org/10.1038/nrmicro2602 (2011).
+	 9.	 Ishikawa, E. et al. Direct recognition of the mycobacterial glycolipid, trehalose dimycolate, by C-type lectin Mincle. J Exp Med 206, 
+2879–2888, https://doi.org/10.1084/jem.20091750 (2009).
+	10.	 Maeda, N. et al. Te cell surface receptor DC-SIGN discriminates between Mycobacterium species through selective recognition of 
+the mannose caps on lipoarabinomannan. J Biol Chem 278, 5513–5516, https://doi.org/10.1074/jbc.C200586200 (2003).
+	11.	 Astarie-Dequeker, C. et al. Phthiocerol dimycocerosates of M. tuberculosis participate in macrophage invasion by inducing changes 
+in the organization of plasma membrane lipids. PLoS Pathog 5, e1000289, https://doi.org/10.1371/journal.ppat.1000289 (2009).
+	12.	 Batta, G. et al. Alterations in the properties of the cell membrane due to glycosphingolipid accumulation in a model of Gaucher 
+disease. Sci Rep 8, 157, https://doi.org/10.1038/s41598-017-18405-8 (2018).
+	13.	 Sameni, S., Malacrida, L., Tan, Z. & Digman, M. A. Alteration in Fluidity of Cell Plasma Membrane in Huntington Disease Revealed 
+by Spectral Phasor Analysis. Sci Rep 8, 734, https://doi.org/10.1038/s41598-018-19160-0 (2018).
+	14.	 Yang, S. T. et al. HIV virions sense plasma membrane heterogeneity for cell entry. Sci Adv 3, e1700338, https://doi.org/10.1126/
+sciadv.1700338 (2017).
+	15.	 Welin, A. et al. Incorporation of Mycobacterium tuberculosis lipoarabinomannan into macrophage membrane rafs is a prerequisite 
+for the phagosomal maturation block. Infect Immun 76, 2882–2887, https://doi.org/10.1128/IAI.01549-07 (2008).
+	16.	 Shui, W. et al. Organelle membrane proteomics reveals differential influence of mycobacterial lipoglycans on macrophage 
+phagosome maturation and autophagosome accumulation. J Proteome Res 10, 339–348, https://doi.org/10.1021/pr100688h (2011).
+	17.	 Hayakawa, E. et al. A Mycobacterium tuberculosis-derived lipid inhibits membrane fusion by modulating lipid membrane domains. 
+Biophys J 93, 4018–4030, https://doi.org/10.1529/biophysj.107.104075 (2007).
+	18.	 Sut, A. et al. Mycobacteria glycolipids as potential pathogenicity eﬀectors: alteration of model and natural membranes. Biochemistry 
+29, 8498–8502 (1990).
+	19.	 Spargo, B. J., Crowe, L. M., Ioneda, T., Beaman, B. L. & Crowe, J. H. Cord factor (alpha,alpha-trehalose 6,6′-dimycolate) inhibits 
+fusion between phospholipid vesicles. Proc Natl Acad Sci USA 88, 737–740 (1991).
+	20.	 Gilmore, S. A. et al. Sulfolipid-1 biosynthesis restricts Mycobacterium tuberculosis growth in human macrophages. ACS Chem Biol 
+7, 863–870, https://doi.org/10.1021/cb200311s (2012).
+	21.	 Blanc, L. et al. Mycobacterium tuberculosis inhibits human innate immune responses via the production of TLR2 antagonist 
+glycolipids. Proc Natl Acad Sci USA 114, 11205–11210, https://doi.org/10.1073/pnas.1707840114 (2017).
+	22.	 Domenech, P. et al. Te role of MmpL8 in sulfatide biogenesis and virulence of Mycobacterium tuberculosis. J Biol Chem 279, 
+21257–21265, https://doi.org/10.1074/jbc.M400324200 (2004).
+	23.	 Bansal-Mutalik, R. & Nikaido, H. Mycobacterial outer membrane is a lipid bilayer and the inner membrane is unusually rich in 
+diacyl phosphatidylinositol dimannosides. Proc Natl Acad Sci USA 111, 4958–4963, https://doi.org/10.1073/pnas.1403078111 
+(2014).
+
+12
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+	24.	 Zullo, A. J. & Lee, S. Mycobacterial induction of autophagy varies by species and occurs independently of mammalian target of 
+rapamycin inhibition. J Biol Chem 287, 12668–12678, https://doi.org/10.1074/jbc.M111.320135 (2012).
+	25.	 Honigmann, A. et al. Scanning STED-FCS reveals spatiotemporal heterogeneity of lipid interaction in the plasma membrane of 
+living cells. Nat Commun 5, 5412, https://doi.org/10.1038/ncomms6412 (2014).
+	26.	 Moon, S. et al. Spectrally Resolved, Functional Super-Resolution Microscopy Reveals Nanoscale Compositional Heterogeneity in 
+Live-Cell Membranes. J Am Chem Soc 139, 10944–10947, https://doi.org/10.1021/jacs.7b03846 (2017).
+	27.	 Sezgin, E., Levental, I., Mayor, S. & Eggeling, C. Te mystery of membrane organization: composition, regulation and roles of lipid 
+rafs. Nat Rev Mol Cell Biol 18, 361–374, https://doi.org/10.1038/nrm.2017.16 (2017).
+	28.	 Parasassi, T. & Gratton, E. Membrane lipid domains and dynamics as detected by Laurdan ﬂuorescence. J Fluoresc 5, 59–69, https://
+doi.org/10.1007/BF00718783 (1995).
+	29.	 Gaus, K. et al. Visualizing lipid structure and raf domains in living cells with two-photon microscopy. Proc Natl Acad Sci USA 100, 
+15554–15559, https://doi.org/10.1073/pnas.2534386100 (2003).
+	30.	 Mazeres, S., Fereidouni, F. & Joly, E. Using spectral decomposition of the signals from laurdan-derived probes to evaluate the 
+physical state of membranes in live cells. F1000Res 6, 763, https://doi.org/10.12688/f1000research.11577.2 (2017).
+	31.	 Bautista, G. et al. Polarized THG microscopy identiﬁes compositionally diﬀerent lipid droplets in mammalian cells. Biophys J 107, 
+2230–2236, https://doi.org/10.1016/j.bpj.2014.10.009 (2014).
+	32.	 de la Haba, C., Morros, A., Martinez, P. & Palacio, J. R. LPS-Induced Macrophage Activation and Plasma Membrane Fluidity 
+Changes are Inhibited Under Oxidative Stress. J Membr Biol 249, 789–800, https://doi.org/10.1007/s00232-016-9927-9 (2016).
+	33.	 Aron, M. et al. Spectral imaging toolbox: segmentation, hyperstack reconstruction, and batch processing of spectral images for the 
+determination of cell and model membrane lipid order. BMC Bioinformatics 18, 254, https://doi.org/10.1186/s12859-017-1656-2 
+(2017).
+	34.	 Sezgin, E., Waithe, D., Bernardino de la Serna, J. & Eggeling, C. Spectral imaging to measure heterogeneity in membrane lipid 
+packing. Chemphyschem 16, 1387–1394, https://doi.org/10.1002/cphc.201402794 (2015).
+	35.	 Uline, M. J., Longo, G. S., Schick, M. & Szleifer, I. Calculating partition coeﬃcients of chain anchors in liquid-ordered and liquid-
+disordered phases. Biophys J 98, 1883–1892, https://doi.org/10.1016/j.bpj.2010.01.036 (2010).
+	36.	 Sun, M. et al. Multiple membrane tethers probed by atomic force microscopy. Biophys J 89, 4320–4329, https://doi.org/10.1529/
+biophysj.104.058180 (2005).
+	37.	 Roy, S., Kumar, G. A., Jafurulla, M., Mandal, C. & Chattopadhyay, A. Integrity of the actin cytoskeleton of host macrophages is 
+essential for Leishmania donovani infection. Biochim Biophys Acta 1838, 2011–2018, https://doi.org/10.1016/j.bbamem.2014.04.017 
+(2014).
+	38.	 Guerin, I. & de Chastellier, C. Pathogenic mycobacteria disrupt the macrophage actin ﬁlament network. Infect Immun 68, 2655–2662 
+(2000).
+	39.	 Dinic, J., Ashrafzadeh, P. & Parmryd, I. Actin ﬁlaments attachment at the plasma membrane in live cells cause the formation of 
+ordered lipid domains. Biochim Biophys Acta 1828, 1102–1111, https://doi.org/10.1016/j.bbamem.2012.12.004 (2013).
+	40.	 Goren, M. B., D’Arcy Hart, P., Young, M. R. & Armstrong, J. A. Prevention of phagosome-lysosome fusion in cultured macrophages 
+by sulfatides of Mycobacterium tuberculosis. Proc Natl Acad Sci USA 73, 2510–2514 (1976).
+	41.	 Kumar, G. A., Jafurulla, M. & Chattopadhyay, A. Te membrane as the gatekeeper of infection: Cholesterol in host-pathogen 
+interaction. Chem Phys Lipids 199, 179–185, https://doi.org/10.1016/j.chemphyslip.2016.02.007 (2016).
+	42.	 Chattopadhyay, A. & Jafurulla, M. Role of membrane cholesterol in leishmanial infection. Adv Exp Med Biol 749, 201–213, https://
+doi.org/10.1007/978-1-4614-3381-1_14 (2012).
+	43.	 van der Meer-Janssen, Y. P., van Galen, J., Batenburg, J. J. & Helms, J. B. Lipids in host-pathogen interactions: pathogens exploit the 
+complexity of the host cell lipidome. Prog Lipid Res 49, 1–26, https://doi.org/10.1016/j.plipres.2009.07.003 (2010).
+	44.	 Olive, A. J. & Sassetti, C. M. Metabolic crosstalk between host and pathogen: sensing, adapting and competing. Nat Rev Microbiol 
+14, 221–234, https://doi.org/10.1038/nrmicro.2016.12 (2016).
+	45.	 Koberlin, M. S., Heinz, L. X. & Superti-Furga, G. Functional crosstalk between membrane lipids and TLR biology. Curr Opin Cell 
+Biol 39, 28–36 (2016).
+	46.	 Fratti, R. A., Chua, J., Vergne, I. & Deretic, V. Mycobacterium tuberculosis glycosylated phosphatidylinositol causes phagosome 
+maturation arrest. Proc Natl Acad Sci USA 100, 5437–5442 (2003).
+	47.	 Bagatolli, L. A. & Gratton, E. Two-photon fluorescence microscopy observation of shape changes at the phase transition in 
+phospholipid giant unilamellar vesicles. Biophys J 77, 2090–2101 (1999).
+	48.	 Deretic, V. Autophagy as an innate immunity paradigm: expanding the scope and repertoire of pattern recognition receptors. Curr 
+Opin Immunol 24, 21–31 (2012).
+	49.	 Riggi, M. et al. Decrease in plasma membrane tension triggers PtdIns(4,5)P2 phase separation to inactivate TORC2. Nat Cell Biol 20, 
+1043–1051 (2018).
+Acknowledgements
+S.K. acknowledges funding from DBT (Ramalingaswami Fellowship), DST (Inspire Faculty Award), and IIT 
+Bombay. Authors are grateful to BEI Resources, NIAID, NIH for puriﬁed Sulfolipid-1 (NR-14845), Phthiocerol 
+Dimycocerosate (NR-20328) and Lipoarabinomannan (NR-14848).
+Author Contributions
+M.M. performed most of the experiments with exception of atomic force microscopy and fluorescence 
+spectroscopy (P.A. and R.D.). S.K. conceived the study. S.K. and M.M. designed the experiments, interpreted the 
+results and wrote the manuscript with contribution from all authors.
+Additional Information
+Supplementary information accompanies this paper at https://doi.org/10.1038/s41598-019-49343-2.
+Competing Interests: Te authors declare no competing interests.
+Publisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional aﬃliations.
+
+13
+Scientific Reports |         (2019) 9:12844  | https://doi.org/10.1038/s41598-019-49343-2
+www.nature.com/scientificreports
+www.nature.com/scientificreports/
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre-
+ative Commons license, and indicate if changes were made. Te images or other third party material in this 
+article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons license and your intended use is not per-
+mitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the 
+copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+ 
+© Te Author(s) 2019

@@ -1,0 +1,543 @@
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+%
+ot
+peps>
+wt Ng, NIH Public Access
+Author Manuscript
+Published in final edited form as:
+Schizophr Res. 2015 January ; 161(1): 113-118. doi:10.1016/j.schres.2014.07.031.
+The Extent of Diffusion MRI Markers of Neuroinflammation and
+White Matter Deterioration in Chronic Schizophrenia
+Ofer Pasternak®°, Carl-Fredrik Westin®, Brian Dahlben®, Sylvain Bouix@, and Marek
+Kubicki#>
+@Department of Psychiatry, Brigham and Women's Hospital, Harvard Medical School, Boston,
+MA, USA 02215
+Department of Radiology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA,
+USA 02215
+Abstract
+In a previous study we have demonstrated, using a novel diffusion MRI analysis called free-water
+imaging, that the early stages of schizophrenia are more likely associated with a
+neuroinflammatory response and less so with a white matter deterioration or a demyelination
+process. What is not known is how neuroinflammation and white matter deterioration change
+along the progression of the disorder. In this study we apply the free-water measures on a
+population of 29 chronic schizophrenia subjects and compare with 25 matching controls. Our aim
+was to compare the extent of free-water imaging abnormalities in chronic subjects with the ones
+previously obtained for subjects at their first psychotic episode. We find that chronic subjects
+showed a limited extent of abnormal increase in the volume of the extracellular space, indicative
+of a less extensive neuroinflammatory response relative to patients at the onset of schizophrenia.
+At the same time, the chronic schizophrenia subjects had greater extent of reduced fractional
+anisotropy compared to the previous study, suggesting increased white matter deterioration along
+the progression of the disease. Our findings substantiate the role of neuroinflammation in the
+earlier stages of the disorder, and the effect of neurodegeneration that is worsening in the chronic
+phase.
+© 2014 Elsevier B.V. All rights reserved.
+Corresponding Author: Ofer Pasternak, PhD; Assistant Professor of Psychiatry and Radiology Director, Neuroscience Image
+Computing; Brigham and Women's Hospital Harvard Medical School 1249 Boylston Street, Boston MA 02215; Tel. 617-525-6162;
+Fax. 617-525-6150; ofer@bwh.harvard.edu.
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our
+customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of
+the resulting proof before it is published in its final citable form. Please note that during the production process errors may be
+discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+Contributors
+Ofer Pasternak and Marek Kubicki designed the study. Sylvain Bouix and Marek Kubicki collected the data. Ofer Pasternak and Carl-
+Fredrik Westin implemented algorithmic tools to analyze the data. Ofer Pasternak, Brian Dahlben and Sylvain Bouix processed the
+data. Ofer Pasternak and Brian Dahlben performed the statistical analysis. Ofer Pasternak wrote the first draft of the manuscript. All
+authors contributed to and have approved the final manuscript.
+Conflict of interest
+All authors declare that there are no competing, financial, or potential conflicts of interests.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al.
+Keywords
+Page 2
+schizophrenia; neuroinflammation; free-water; degeneration; white matter
+1. Introduction
+The development of diffusion MRI, and its most common analysis method, diffusion tensor
+imaging (DTI) (Basser et al., 1994), have made it possible to study imaging correlates of
+white matter pathologies in schizophrenia. Many DTI studies have found decreased
+fractional anisotropy (FA), and some have found increased mean diffusivity (MD) in
+different populations of schizophrenia subjects (see Fitzsimmons et al. (2013) for a recent
+review.) Despite non-specificity of the FA and MD measures, the DTI findings are often
+considered evidence of a white matter pathology that is likely related to demyelination
+(Kubicki et al., 2007). Myelin related deficiencies were also inferred from histopathological
+studies (Uranova et al., 2011), and genetics studies (Davis et al., 2003). An alternative
+interpretation of the DTI results associates the abnormalities with a neuroinflammatory
+response, further supported by increased cytokine levels, microglial activation measured
+with PET, genetic association, and upregulation of inflammatory pathways (see Najjar and
+Pearlman (in print), for a recent review of neuroinflammation related findings in
+schizophrenia.)
+There is a reciprocal causative relation between neuroinflammation and degeneration, with
+prolonged inflammatory response that can lead to deterioration, and, on the other hand,
+inflammation that may be triggered by cellular deterioration (Streit, 2006). Distinguishing
+between neuroinflammation and deterioration is therefore important to understand the
+etiology of schizophrenia, and to better target potential treatments. Recently, free-water
+imaging (Pasternak et al., 2009) was proposed as an analysis method of diffusion MRI that
+can differentiate the contribution of water molecules diffusing freely in the extracellular
+space from the contribution of water molecules that diffuse close to tissue membranes.
+Therefore free-water imaging can help to differentiate between neuroinflammation that is
+expected to affect the water content in the extracellular space, and white matter deterioration
+that is expected to affect the tissue itself.
+In our previous free-water imaging study, patients diagnosed with schizophrenia were
+scanned following their first psychotic episode (FE) (Pasternak et al., 2012). It was found
+that a regular DTI analysis comparing the FE group with matched controls shows a
+widespread global decrease in FA and overlapping increase in MD. However, applying the
+free-water imaging analysis revealed that the majority of differences between these groups
+could be explained as an increase in the extracellular space, and that anisotropy differences
+in the tissue were only limited to focal areas in the frontal lobe. This disambiguation of the
+source of differences between the groups led to a conclusion that the early stages of
+schizophrenia are more likely associated with a neuroinflammatory response and less so
+with a white matter deterioration or a demyelination process.
+What is not known is how neuroinflammation and white matter deterioration change along
+the progression of the disorder. If schizophrenia has a neurodegenerative component, an
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al.
+Page 3
+increased extent of deterioration is expected as the disease progresses. Furthermore, it is not
+known whether neuroinflammation also plays a role in the chronic stages of schizophrenia.
+To address these questions, in this study we apply the free-water imaging method on a
+cohort of chronic schizophrenia (CHR) patients, and compare the extents of deterioration
+and neuroinflammation with the ones previously obtained for FE patients.
+2. Methods
+2.1 Subjects
+The subjects were 29 patients diagnosed with CHR and 25 controls matched for age, gender,
+handedness, PSES and premorbid IQ. Patients with CHR were recruited from in-patient, day
+treatment, out-patient, and foster care programs. DSM-IV diagnoses were based on SCID-P
+interviews, and information from patient medical records. The CHR subjects were included
+if they were at least 1 year following diagnosis, however the average duration of illness for
+this cohort was 15 years (see table 1). The Scale for the Assessment of Positive Symptoms
+(SAPS) and the Scale for the Assessment of Negative Symptoms (SANS) were used to
+evaluate positive and negative symptoms in schizophrenia (Andreasen, 1983, 1984). The
+severity of clinical symptoms was also assessed using the positive and negative symptom
+scale (PANSS) (Kay et al., 1987). In our cohort there was an average score of 10.8 for
+SANS, 10.2 for SAPS and 22.9 for positive PANSS, 21.7 for negative PANSS and 42.4 for
+general PANSS. Comparison subjects (group-matched to patients on age, sex, handedness
+(Edinburgh Handedness Inventory), and parental social economic-status (PSES)) were
+recruited through advertisements in local newspapers, and tested with SCID-NP interviews.
+All subjects were included in the study if they met the following criteria: ages between 18
+and 55, no history of neurological illness, no alcohol or drug dependence in the last 5 years
+and no abuse in the past year, right handedness and an ability and desire to cooperate with
+the procedures. Normal comparison subjects were also screened to exclude first-degree
+relatives with an Axis I disorder. For demographic details of both patients and controls see
+Table 1. The study was approved by the local IRB committees. All subjects signed informed
+consent forms prior to study participation.
+2.2 MRI Acquisition
+All subjects were scanned on a single 3 Tesla General Electric Signa system (GE Medical
+Systems). This cohort was scanned using the same scanner and protocol as we previously
+used to scan the FE patients (Pasternak et al., 2012). However, the scans of the current
+cohort were acquired following a software upgrade, which may have slightly shifted the
+measurement. Therefore, in this paper we refrain from quantitatively comparing the results
+previously obtained for the FE subjects with those reported here for the CHR subjects, and
+instead compare the spatial extent of findings across studies. The complete MRI acquisition
+is reported in a previous publication (Pasternak et al., 2012). In short, the acquisition
+included a high-resolution 1.7x1.7x1.7 mm? diffusion MRI sequence, with 51 gradient
+directions with b=900 s/mm2, and eight additional b=0 images, in addition to several other
+anatomical acquisitions.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al. Page 4
+2.3 Free-Water Imaging
+The analysis pipeline replicated the analysis reported in (Pasternak et al., 2012), including
+motion and eddy currents artifact corrections and masking of the diffusion MRI. The free-
+water imaging maps were obtained by fitting the aligned diffusion MRI data with the free-
+water model (Pasternak et al., 2009). The model includes two compartments, a free-water
+compartment and a tissue compartment. The free-water compartment accounts for water
+molecules that diffuse freely (only likely to be found in the extracellular space), and is
+described by a single parameter, which is the fractional volume of free-water (FW). The
+second compartment accounts for water molecules that are in proximity to tissue
+membranes, which is also the signal that is left following the elimination of freely diffusing
+water molecules. The tissue compartment is modeled using a diffusion tensor and the tensors
+are converted to scalar measures by calculating their eigenvalue decomposition. The free-
+water model can be estimated from a conventional diffusion MRI acquisition, in which case
+additional mathematical restrictions of continuity are enforced to allow the estimation of the
+two compartments. The model, as well as the continuity restriction, forms a cost function,
+and the fitting is done using an iterative process that simultaneously minimizes this function
+for all of the free parameters, namely the FW parameter and the diffusion tensor
+representing the tissue compartment. As a result, voxel-wise maps of FA corrected for free-
+water (FA7) are obtained, in addition to the voxel-wise FW map. This FAy parameter is
+equivalent to the regular FA parameter, yet since the signal from the extracellular space is
+attenuated, FAy is more sensitive and specific to geometrical changes that occur in the tissue
+(Metzler-Baddeley et al., 2012).
+2.4 Statistical analysis
+To compare between groups we first applied the tract based spatial statistics (TBSS) method
+(Smith et al., 2006), which uses FA images from all subjects to coregister onto a common
+space (MND), and to generate a common white matter skeleton. The different scalar
+measures (FW and FA,y) were then projected onto the skeleton. Group comparisons were
+carried using a permutation-based test (Randomise, FSL), with a threshold free cluster
+enhancement, fully accounting for family-wise errors (Smith and Nichols, 2009). The
+permutation tests included age, gender and motion as covariates. The resulted voxel-wise
+significance maps were visualized using the FSL software package in 2D (TBSS-fill and
+FSLview).
+Further analysis was performed in selected regions of interest (ROD, which were defined on
+the white matter skeleton. Diffusivity values were averaged across all voxels in the ROI. In
+addition, the correlation coefficients of the average values and the total SANS or SAPS
+scores were calculated using Pearson correlation. In a secondary analysis we looked at each
+SANS or SAPS socre separately, and compared the averaged diffusivity values between
+symptomtatic (score >0) and non-symptomatic (score=0) patients using a t-test.
+3. Results
+Comparing the FW measure between the schizophrenia patients and controls showed
+localized increased FW (Fig. 1). Voxels with significantly increased FW (p<0.05 in blue)
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al.
+Page 5
+were found on 2.7% of the white matter skeleton (green) in the left hemisphere, and none on
+the right side. This is a much smaller extent compared to the widespread FW increase of
+41% in the left hemisphere and 38% in the right hemisphere white matter of FE patients
+(Pasternak et al., 2012). The brain areas showing significantly increased FW in the CHR
+patients were in the left frontal, parietal and temporal white matter, identified by an atlas
+(Mori et al., 2005 The Netherlands (2005)) as the anterior, superior and posterior corona
+radiata, as well as parts of the genu and splenium of the corpus callosum (forceps minor and
+major). The average FW in the significant voxels was 0.18 for the control group and 0.22 for
+the CHR group. These average values over the CHR group did not correlate with any of the
+summarized clinical measures. A secondary analysis revealed that subjects with the
+following positive symptoms had significantly higher FW than asymptomatic subjects:
+Olfactory hallucinations, circumstantiality, pressure of speech, clanging and inappropriate
+affect.
+Comparing the FAy measure between the groups showed decreased FA, (Fig 2; p<0.05 in
+red) for the patient group on 2.1% of the white matter skeleton in the right hemisphere, and
+4.3% of the skeleton in the left hemisphere. This is an increase in extent compared to 1.65%
+and 1.25% of voxels with decreased FA,7 on the right and left hemisphere skeletons,
+respectively, reported for FE (Pasternak et al., 2012). The areas where decreased FAy were
+found for the CHR patients largely overlapped with areas showing increased FW on the left
+hemisphere, but were also found on the corona radiata on the right hemisphere. In addition
+there were areas with decreased FA 7 in parts of the thalamic radiation and SLF in both
+sides, the left external capsule and left middle cerebellar peduncle.
+Figure 3 compares the extent of decreased FA, for the CHR subjects (peach) with the extent
+of decreased FAy previously reported for FE patients (cyan), and areas in the brain where
+the two reports overlapped (red). There was a small overlap of 5.3% (7.5% on the right and
+2.3% on the left hemispheres) between the two results, i.e., only 5.3% of the voxels that had
+significantly decreased FA,y for the FE patients also had significantly decreased FA, for the
+CHR patients. To further compare the results between the two reports we defined two
+regions of interest: ROI-CHR was composed of all voxels that showed decreased FA, in the
+CHR patients (red and peach in figure 3); ROI-FE was composed of all voxels that showed
+decreased FA, in the previous report of first episode patients (red and cyan in figure 3).
+The average FAy over ROI-CHR was 0.578 for the controls and 0.534 for the CHR patients.
+Plotting the values of each subject against age (Fig. 4) shows that group differences were
+driven by the older subjects. Furthermore, in ROI-CHR there was a negative correlation
+between FAy and age for the CHR subjects (R=—0.38; p=0.0409), but not for the controls
+(R=—0.06; p=0.7580). The average FAy in ROI-CHR was negatively correlated (R=—0.47;
+p=0.014) with negative symptoms as measured by SANS (Fig. 5), and had a trend level
+negative correlation (R=—0.34; p=0.086) with the general psychopathology PANS scale. A
+secondary analysis did not reveal any significant group differences between symptomatic
+and asymptomatic subjects for any of the SANS or SAPS scores.
+Figure 6 presents the FA; values measured in ROI-FE (Pasternak et al., 2012). Here, for the
+CHR subjects, within this ROI, the decrease in FAy was no longer significant compared
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al.
+Page 6
+with controls (p =0.102; t(49) = —1.66). The mean FAy across the control subjects was
+0.3931, and for the CHR patients 0.3835. Within ROI-FE the CHR patients had a negative
+correlation between FAy and age (R= —0.42; p=0.022). The correlation coefficient for the
+controls and age within this ROI was not statistically significant (R= —0.28; p=0.18).
+4. Discussion
+Our results demonstrate that free-water imaging identifies abnormalities in the chronic stage
+of schizophrenia. There were limited areas in the brain that showed increased free-water,
+and larger areas in the brain that showed decreased FAy. Taken together with previous
+results obtained for subjects in the early stages of the disease, our findings suggest that white
+matter deterioration may play a larger role than neuroinflammation in the chronic stages of
+schizophrenia.
+For typical DTI settings, such as those used here, freely diffusing water molecules require
+spaces larger than a few tens of microns, which are not likely to be found within brain cells,
+since those typically have smaller sizes (Kandel et al., 2013). Therefore the FW contrast
+provides a voxel-wise measure of extracellular fractional volume that is expected to be
+increased in neuroinflammation due to modulation of the blood brain barrier permeability
+(Whitney et al., 2009). We report here that the extent of abnormally increased FW was much
+lower in CHR patients, compared with FE patients in our previous report (Pasternak et al.,
+2012), suggesting that neuroinflammation diminishes in extent at the chronic phases of
+schizophrenia. This is aligned with findings from other studies, where neuroinflammation
+was mainly found close to the onset of the disorder (Najjar and Pearlman, in print), or during
+psychotic episodes (Steiner et al., 2008). Nevertheless, signs of neuroinflammation were
+also found in post-mortem studies of chronic patients (Fillman et al., 2013). It is interesting
+to note that peripheral inflammation was also found in the early stages of schizophrenia,
+which may suggest a chronic inflammatory disorder affecting not just the brain (Dickerson
+et al., 2012). In our results, we do not find a correlation between FW and summary scores of
+positive and negative symptoms, but we do find increased FW in patients with specific
+positive symptoms.
+Neuroinflammation is a reversible process; being a response triggered by the innate immune
+system, neuroinflammation is an important part in the brain's defense mechanism as well as
+in the healing process of injuries or insults, and is usually resolved autonomously (Streit,
+2006). In schizophrenia, one of the recent hypotheses assumes that neuroinflammation is
+triggered, but is not terminated, much like an immune response in autoimmune diseases
+(Najjar et al., 2013; Streit, 2006). As a result, toxins that are released during the
+neuroinflammatory process cause collateral damage to the surrounding tissue (Whitney et
+al., 2009), which could lead to cellular deterioration. On the other hand, it has also been
+found that many of the psychiatric drugs have strong anti-inflammatory properties (Sommer
+et al., 2012), which could diminish neuroinflammation in subjects who respond well to
+drugs. In our cohort, all of the CHR subjects were medicated, and not currently experiencing
+a psychotic episode. Therefore medication could be one possible explanation for the
+reduction in the extent of increased FW from the first episode stage to the chronic stage.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al.
+Page 7
+There was a greater extent of decreased FAy reported here for CHR patients, compared with
+the extent previously reported for FE patients (Pasternak et al., 2012). Further, the location
+of abnormal FA, has spread from initially being only in the frontal lobe for FE, to the
+frontal, temporal and occipital lobes bilaterally in the CHR subjects. These findings are in
+line with an expected neurodegenerative pattern in which more brain areas are affected as
+the disease progresses (Keshavan, 1999; Lieberman, 1999). There were more FA, findings,
+as well as FW findings, on the left and frontal areas of the brain. Since the FE results were
+more symmetric, we can assume that more deterioration develops in the left hemisphere in
+later stages of schizophrenia. This is consistent with findings in many other studies, showing
+more tendencies for left and frontal abnormalities in CHR (Ellison-Wright and Bullmore,
+2009; Fitzsimmons et al., 2013). Further supporting a neurodegenerative pattern is the fact
+that the decreased FAy was correlated both with age and with negative symptoms,
+associating the extent of FAy decreases with the period of illness and its severity (Voineskos
+et al., 2013). FAy, however, did not show group differences for any specific negative
+symptoms.
+Only 5.3% of the voxels that had decreased FAy in FE patients (ROI-FE) also had decreased
+FA, in CHR patients (ROI-CHR). The overlapping area included relatively small regions in
+the frontal lobe that showed similar FAy differences for both the FE and CHR populations.
+The FAy values observed in ROI-FE for the CHR population appear to gradually decrease
+with age and are lower than those reported in the FE population. These FAy values were
+also lower comparing with the FA; values in ROI-CHR on the same CHR population.
+Taken together, this suggests that ROI-FE may point to areas where the degeneration
+process starts early in schizophrenia. On the other hand, the ROICHR areas included much
+larger brain areas, which may be involved in the later stages of the disease. However, it
+could also be that differences in locations are population specific, since clinical
+symptomatology varies between individuals in schizophrenia, as do white matter differences
+(Melonakos et al., 2011). Furthermore, since age, duration of illness, and duration of
+medication are highly correlated in CHR subjects, it is not possible to definitively state the
+cause of decreased FAy, as well as the relation between neuroinflammation and white matter
+deterioration. It would therefore be important to replicate our findings in a longitudinal
+design, where the same population is compared in various stages of the disease, rather than a
+cross-sectional design such as the one used here.
+We note that in the previous study increased FW was also found in gray matter (Pasternak et
+al., 2012). Volumetric gray matter changes (Honea et al., 2005), as well as functional MRI
+abnormalities (Gur and Gur, 2010) are often reported in CHR subjects. However, studying
+the gray matter using free-water imaging in the CHR population is more challenging since
+the increased FW found in gray matter (data not shown) is highly affected by gray matter
+atrophy. Future work separating the effect of atrophy from the FW measure may be useful
+for gray matter studies in chronic schizophrenia. In addition, a more direct validation of the
+association of the free-water measure with neuroinflammation is needed. Our findings also
+promote the need to search for free-water imaging abnormalities in prodromal stages of
+schizophrenia, in order to better understand the roles of neuroinflammation and white matter
+deterioration in the etiology of schizophrenia.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al. Page 8
+Acknowledgments
+This work was partially funded by grants from the NIH (nos. ROIMH102377-01, ROIMH074794, ROIMH082918,
+P41RRO13218, and P41EB015902). OP was partially supported by a NARSAD (National Alliance for Research on
+Schizophrenia and Depression) Young Investigator grant from the Brain & Behavior Research Foundation.
+Role of funding source
+The identified funding sources had no role in the study design; in the collection, analysis and interpretation of data;
+in the writing of the report; and in the decision to submit the paper for publication.
+References
+Andreasen, NC. Scale for the assessment of negative symptoms (SANS). The University of Iowa;
+Iowa City, IA.: 1983.
+Andreasen, NC. Scale for the assessment of positive symptoms (SAPS). The University of lowa; Iowa
+City, IA.: 1984.
+Basser PJ, Mattiello J, LeBihan D. MR diffusion tensor spectroscopy and imaging. Biophys J. 1994;
+66(1):259-267. [PubMed: 8130344]
+Davis KL, Stewart DG, Friedman JI, Buchsbaum M, Harvey PD, Hof PR, Buxbaum J, Haroutunian V.
+White matter changes in schizophrenia: evidence for myelin-related dysfunction. Arch Gen
+Psychiatry. 2003; 60(5):443-456. [PubMed: 12742865]
+Dickerson F, Stallings C, Origoni A, Khushalani S, Yang S, Yolken R. C-reactive protein is elevated
+in schizophrenia. Schizophrenia Research. 2012; 143(1):198—202. [PubMed: 23218564]
+Ellison-Wright I, Bullmore E. Meta-analysis of diffusion tensor imaging studies in schizophrenia.
+Schizophrenia research. 2009; 108(1-3):3-10. [PubMed: 19128945]
+Fillman SG, Cloonan N, Catts VS, Miller LC, Wong J, McCrossin T, Cairns M, Weickert CS.
+Increased inflammatory markers identified in the dorsolateral prefrontal cortex of individuals with
+schizophrenia. Molecular Psychiatry. 2013; 18(2):206-14. [PubMed: 22869038]
+Fitzsimmons J, Kubicki M, Shenton ME. Review of functional and anatomical brain connectivity
+findings in schizophrenia. Curr Opin Psychiatry. 2013; 26(2):172-187. [PubMed: 23324948]
+Gur RE, Gur RC. Functional magnetic resonance imaging in schizophrenia. Dialogues in clinical
+neuroscience. 2010; 12(3):333-343. [PubMed: 20954429]
+Honea R, Crow TJ, Passingham D, Mackay CE. Regional deficits in brain volume in schizophrenia: a
+meta-analysis of voxel-based morphometry studies. The American journal of psychiatry. 2005;
+162(12):2233-2245. [PubMed: 16330585]
+Kandel, E.; Schwartz, J.; Jessell, T.; Siegelbaum, S.; Hudspeth, AJ. Principles of Neural Science. Fifth
+Edition.. McGraw-Hill Education; 2013.
+Kay SR, Fiszbein A, Opler LA. The positive and negative syndrome scale (PANSS) for schizophrenia.
+Schizophrenia bulletin. 1987; 13(2):261—276. [PubMed: 3616518]
+Keshavan MS. Development, disease and degeneration in schizophrenia: a unitary pathophysiological
+model. Journal of psychiatric research. 1999; 33(6):513-521. [PubMed: 10628528]
+Kubicki M, McCarley R, Westin CF, Park HJ, Maier S, Kikinis R, Jolesz FA, Shenton ME. A review
+of diffusion tensor imaging studies in schizophrenia. Journal of psychiatric research. 2007;
+41(1-2):15-30. [PubMed: 16023676]
+Lieberman JA. Is schizophrenia a neurodegenerative disorder? A clinical and neurobiological
+perspective. Biol Psychiatry. 1999; 46(6):729-739. [PubMed: 10494440]
+Melonakos ED, Shenton ME, Rathi Y, Terry DP, Bouix S, Kubicki M. Voxel-based morphometry
+(VBM) studies in schizophrenia-can white matter changes be reliably detected with VBM?
+Psychiatry Res. 2011; 193(2):65-—70. [PubMed: 21684124]
+Metzler-Baddeley C, O'Sullivan MJ, Bells S, Pasternak O, Jones DK. How and how not to correct for
+CSF-contamination in diffusion MRI. NeuroImage. 2012; 59(2):1394—1403. [PubMed: 21924365]
+Mori, S.; Wakana, S.; van Zijl, PCM.; Nagae-Poetscher, LM. MRI Atlas of Human White Matter. Ist
+Edition.. Elsevier; Amsterdam, The Netherlands: 2005.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al.
+Page 9
+Najjar S, Pearlman DM. Association between neuroinflammation and white matter pathology in
+schizophrenia: a systematic review. Schiz Research. in print.
+Najjar S, Pearlman DM, Alper K, Najjar A, Devinsky O. Neuroinflammation and psychiatric illness.
+Journal of neuroinflammation. 2013; 10:43. [PubMed: 23547920]
+Pasternak O, Sochen N, Gur Y, Intrator N, Assaf Y. Free water elimination and mapping from
+diffusion MRI. Magn Reson Med. 2009; 62(3):717—730. [PubMed: 19623619]
+Pasternak O, Westin CF, Bouix S, Seidman LJ, Goldstein JM, Woo TU, Petryshen TL, Mesholam-
+Gately RI, McCarley RW, Kikinis R, Shenton ME, Kubicki M. Excessive extracellular volume
+reveals a neurodegenerative pattern in schizophrenia onset. J Neurosci. 2012; 32(48):17365-—
+17372. [PubMed: 23197727]
+Smith SM, Jenkinson M, Johansen-Berg H, Rueckert D, Nichols TE, Mackay CE, Watkins KE,
+Ciccarelli O, Cader MZ, Matthews PM, Behrens TE. Tract-based spatial statistics: voxelwise
+analysis of multi-subject diffusion data. NeuroImage. 2006; 31(4):1487—1505. [PubMed:
+16624579]
+Smith SM, Nichols TE. Threshold-free cluster enhancement: addressing problems of smoothing,
+threshold dependence and localisation in cluster inference. NeuroImage. 2009; 44(1):83-98.
+[PubMed: 18501637]
+Sommer IE, de Witte L, Begemann M, Kahn RS. Nonsteroidal anti-inflammatory drugs in
+schizophrenia: ready for practice or a good start? A meta-analysis. J Clin Psychiatry. 2012; 73(4):
+414-419. [PubMed: 22225599]
+Steiner J, Bielau H, Brisch R, Danos P, Ullrich O, Mawrin C, Bernstein HG, Bogerts B.
+Immunological aspects in the neurobiology of suicide: elevated microglial density in
+schizophrenia and depression is associated with suicide. Journal of psychiatric research. 2008;
+42(2):151-157. [PubMed: 17174336]
+Streit WJ. Microglial senescence: does the brain's immune system have an expiration date? Trends
+Neurosci. 2006; 29(9):506-510. [PubMed: 16859761]
+Uranova NA, Vikhreva OV, Rachmanova VI, Orlovskaya DD. Ultrastructural alterations of
+myelinated fibers and oligodendrocytes in the prefrontal cortex in schizophrenia: a postmortem
+morphometric study. Schizophr Res Treatment. 2011; 2011:325789. [PubMed: 22937264]
+Voineskos AN, Foussias G, Lerch J, Felsky D, Remington G, Rajji TK, Lobaugh N, Pollock BG,
+Mulsant BH. Neuroimaging evidence for the deficit subtype of schizophrenia. JAMA psychiatry.
+2013; 70(5):472—480. [PubMed: 2346778
+1]
+Whitney NP, Eidem TM, Peng H, Huang Y, Zheng JC. Inflammation mediates varying effects in
+neurogenesis: relevance to the pathogenesis of brain injury and neurodegenerative disorders. J
+Neurochem. 2009; 108(6):1343-1359. [PubMed: 19154336]
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al.
+Page 10
+Figure 1.
+Group differences in FW. Statistically significant (p<0.05) Increased FW in chronic
+schizophrenia patients compared with controls is shown in blue over the white matter
+skeleton (green). FW was increased on 2.7% of the left hemisphere skeleton. Presented are
+axial slices equally spaced between z=58mm to z=-37mm on the MNI template.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al. Page 11
+Figure 2.
+Group differences in FAyz . Statistically significant (p<0.05) decreased FA, (red) in chronic
+schizophrenia patients compared with healthy controls was found on 2.1% of the right
+hemisphere skeleton, and on 4.3% of the left hemisphere skeleton.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al. Page 12
+Figure 3.
+Comparison of decreased FAy in chronic schizophrenia subjects with decreased FA7 in first-
+episode schizophrenia subjects. Voxels previously reported to have lower FA, in first
+episode are presented in cyan, whereas voxels reported here with lower FAy values in
+chronic schizophrenia subjects are presented in peach. The overlap (i.e., areas where FA;
+was significantly decreased in both populations) is colored in red.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al. Page 13
+0.70%
+O Controls
+0.654 a CHR
+0.604 o ot o R=-0.06
+<< ee. o Hoe Bo p=0.758
+LL aa 4
+0.555 ‘eo. go
+a Batt R=-0.38
+0.505 p=0.041
+0.45 T T T 1
+20 30 40 50 60
+Age (years)
+Figure 4.
+Correlation with Age in ROI-CHR. When averaging FAy over all reduced FAy voxels (red
+and peach in figure 3) there was a negative correlation with age for the chronic
+schizophrenia (CHR) patients, but not for the controls. The largest group differences can be
+seen for the older subjects.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al. Page 14
+0.655
+4 CHR
+0.605
+- * A .
+a
+<oossdareee tg “a
+. Pl tit a
+F fa) ""B%e. bs R=-0.47
+0.505 i a ** p=0.014
+0.45 T T T T 1
+0 5 10 15 20 25
+SANS
+Figure 5.
+Correlation with negative symptoms. The average FA7y over all reduced FAy voxels was
+negatively correlated with SANS, for the chronic schizophrenia (CHR) patients.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOuINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+1duosnuey JouINY Vd-HIN
+Pasternak et al.
+0.50
+0.45
+oO " =
+-< 0.40774 Ae gb, ae a
+Se Sas
+0.30 .
+20 30 40 50 60
+Age (years)
+Figure 6.
+Page 15
+3 Controls
+-a- CHR
+R=-0.28
+p=0.18
+R=-0.42
+p=0.022
+Correlation with Age in ROI-FE. The average FAy over voxels that previously showed
+reduced FA, in First-episode patients (cyan and peach in figure 3) was negatively correlated
+with age for both the chronic schizophrenia patients and for the healthy controls.
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+
+Jdosnuey| JOUINY Wd-HIN Jdosnuey| JOUINY Wd-HIN
+\duosnueyy JouINY Wd-HIN
+Pasternak et al.
+Table 1
+Clinical and experimental parameters
+Controls Schizophrenia
+n 25 29
+female 5 4
+male 20 25
+CPZ (mg/day) 451 + 273
+duration of illness (months) 15+ 10.5
+IQ 98.92 10.12 101.1 14.7 p=0.64
+PSES 2.79 1.38 2.81 0.94 p=0.96
+age (years) 43.68 + 7.62 46.59 +9.504 p=0.30
+education (years) 14.35 + 1.843 13.75 + 2.51 p=0.16
+motion (mm) 0.777 + 0.13 0.786 0.184 p=0.84
+CPZ = chlorpromazine equivalent daily dosage; PSES = Parental social economic status
+Schizophr Res. Author manuscript; available in PMC 2016 January 01.
+Page 16

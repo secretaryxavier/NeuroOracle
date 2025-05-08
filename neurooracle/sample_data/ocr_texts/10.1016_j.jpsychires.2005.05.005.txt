@@ -1,0 +1,1245 @@
+A review of diffusion tensor imaging studies in schizophrenia
+Marek Kubickia,b, Robert McCarleya,*, Carl-Fredrik Westinb, Hae-Jeong Parka,b,d, Stephan
+Maierc, Ron Kikinisb, Ferenc A. Joleszc, and Martha E. Shentona,b,*
+a Clinical Neuroscience Division, Laboratory of Neuroscience, Boston VA Health Care System-
+Brockton Division, Department of Psychiatry, Harvard Medical School, 940 Belmont Street,
+Brockton, Boston, MA 02301, United States
+b Surgical Planning Laboratory, MRI Division, Department of Radiology, Brigham and Women's
+Hospital, Harvard Medical School, Boston, MA, United States
+c Department of Radiology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA,
+United States
+d Department of Diagnostic radiology, Yonsei University, College of Medicine, Seoul, Republic of
+Korea
+Abstract
+Both post-mortem and neuroimaging studies have contributed significantly to what we know about
+the brain and schizophrenia. MRI studies of volumetric reduction in several brain regions in
+schizophrenia have confirmed early speculations that the brain is disordered in schizophrenia. There
+is also a growing body of evidence suggesting that a disturbance in connectivity between different
+brain regions, rather than abnormalities within the separate regions themselves, are responsible for
+the clinical symptoms and cognitive dysfunctions observed in this disorder. Thus an interest in white
+matter fiber tracts, subserving anatomical connections between distant, as well as proximal, brain
+regions, is emerging. This interest coincides with the recent advent of diffusion tensor imaging (DTI),
+which makes it possible to evaluate the organization and coherence of white matter fiber tracts. This
+is an important advance as conventional MRI techniques are insensitive to fiber tract direction and
+organization, and have not consistently demonstrated white matter abnormalities. DTI may,
+therefore, provide important new information about neural circuitry, and it is increasingly being used
+in neuroimaging studies of psychopathological disorders. Of note, in the past five years 18 DTI
+studies in schizophrenia have been published, most describing white matter abnormalities. Questions
+still remain, however, regarding what we are measuring that is abnormal in this disease, and how
+measures obtained using one method correspond to those obtained using other methods? Below we
+review the basic principles involved in MR-DTI, followed by a review of the different methods used
+to evaluate diffusion. Finally, we review MR-DTI findings in schizophrenia.
+Keywords
+Diffusion tensor imaging; Schizophrenia; White matter; Fiber tracts
+© 2005 Elsevier Ltd. All rights reserved.
+* Corresponding authors. Tel.: +1 508 583 4500x1371/2473; fax: +1 508 580 0059. robert_mccarley@hms.harvard.edu (R. McCarley),
+martha_shenton@hms.harvard.edu (M.E. Shenton)..
+NIH Public Access
+Author Manuscript
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+Published in final edited form as:
+J Psychiatr Res. 2007 ; 41(1-2): 15–30. doi:10.1016/j.jpsychires.2005.05.005.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+1. Introduction
+While a great deal of progress has been made in delineating gray matter abnormalities in
+schizophrenia using magnetic resonance imaging (MRI) (for a review see Shenton et al.,
+2001), far less progress has been made in evaluating white matter abnormalities, or in
+evaluating white matter fiber tracts interconnecting brain regions, particularly those that
+connect the frontal and temporal lobes, tracts that have long been thought to be abnormal in
+schizophrenia (e.g., Wernicke, 1906; Kraepelin, 1919/1971).
+Of particular note, unlike studies of gray matter, MR structural studies of white matter have
+not been as informative. More specifically, only a small number of MRI studies have evaluated
+white matter volume differences between patients with schizophrenia and controls, and these
+findings have been largely negative (e.g., Suddath et al., 1990; Wible et al., 1995). Moreover,
+in one of the few studies reporting white matter volume reduction in schizophrenia, Breier and
+coworkers (Breier et al., 1992) noted a correlation between prefrontal white matter reduction
+and amygdala–hippocampal complex volume reduction, thus highlighting the potential
+importance of frontal–temporal interactions in schizophrenia. More recently, two studies using
+voxel-based analyses have shown white matter abnormalities in both temporal and frontal lobe
+regions (Sigmudsson et al., 2001), and bilaterally in the frontal lobe (Paillere-Martinot et al.,
+2001).
+There are also only a few post-mortem studies of white matter in schizophrenia, and these
+findings, similar to the MRI findings, are inconclusive. Specifically, two recent studies report
+decreased fiber number and density in the anterior commissure and the corpus callosum in
+women but not in men with schizophrenia (Highley et al., 1999a,b), and no differences in the
+number and density of fibers in the uncinate fasciculus (Highley et al., 2002). There is also
+growing evidence to suggest that glial cells, particularly oligodendrocytes, which form myelin
+sheaths around axons, are abnormal in schizophrenia (Hakak et al., 2001; Uranova et al.,
+2001, 2004). For example, Hakak et al. study reported abnormal expression of myelin related
+genes in schizophrenia, which suggests a disruption in oligodendrocyte function. Furthermore,
+Uranova et al. (2001) study, using electron microscopy, showed both qualitative and
+quantitative abnormalities in post-mortem brains of schizophrenics in the oligodentroglia in
+the prefrontal cortex and caudate nucleus, including a marked increase in the density of
+concentric lamellar bodies (indicating damage to myelinated fibers) in the caudate nucleus in
+post-mortem brains of patients diagnosed with schizophrenia, as well as decreased density of
+the oligodendrocytes in layer IV of the prefrontal cortex in schizophrenia (Uranova et al.,
+2004). In another study, Hof et al. (2003) found decreased oligodendrocyte number and density
+in layer III of Brodmann area 9 and in gyral prefrontal white matter in schizophrenia.
+In addition, Benes’ (1993) work suggests delayed myelination in the prefrontal cortex in
+patients with schizophrenia. Importantly, if glial dysfunction is confirmed in schizophrenia,
+this alone could explain abnormal neuronal cytoarchitecture and functional deficits including
+functional fronto-temporal disconnections observed in schizophrenia (see also the recent
+review of white matter in schizophrenia by Davis et al. (2003). Finally, Akbarian et al.
+(1996) reported a maldistribution of the interstitial neurons in both prefrontal and temporal
+white matter in schizophrenia brains. The observed altered neuronal distributions in both
+prefrontal and temporal lobe regions suggested to these investigators that neurodevelopmental
+abnormalities were present in at least a subgroup of patients, and that such abnormalities could
+alter the connectivity of these brain regions.
+Taken together, these studies serve to underscore the importance of evaluating white matter
+fiber tract abnormalities in schizophrenia.
+Kubicki et al.
+Page 2
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Below, we provide a brief review of the principles of DTI, including some of the different
+measures employed, followed by a review of the findings to date in schizophrenia. For the
+selection of published DTI studies in schizophrenia, we used PubMed and Medline, where we
+used the key words diffusion tensor imaging and schizophrenia. We end with a review of future
+applications of DTI techniques to schizophrenia, which will likely further our understanding
+of the neuropathology of schizophrenia.
+2. The theory behind diffusion tensor imaging
+One of the main reasons for inconsistent findings regarding white matter abnormalities in
+schizophrenia is the difficulty in evaluating this brain compartment using conventional MRI.
+This is primarily because white matter appears homogeneous in conventional MRI, as this
+methodology is not sensitive to discerning fiber tract direction and/or organization. In contrast,
+recently, diffusion tensor MRI techniques have been developed which have proven to be useful
+in the evaluation of different white matter components. DTI is, in fact, an exciting
+neuroimaging technique that affords a unique opportunity to quantify the diffusion of water in
+brain tissue. It is based upon the phenomenon of water diffusion known as Brownian motion,
+named after the English botanist Robert Brown, who in 1827 observed the constant movement
+of minute particles that were suspended within grains of pollen. As this molecular motion is
+affected by the properties of the medium in which it occurs, diffusion within biological tissues
+reflects both tissue structure and architecture at the microscopic level. Further, due to the fact
+that diffusion is not uniform throughout the brain (differing, for example, between gray matter,
+white matter, and cerebrospinal fluid), researchers can use this characteristic of DTI to evaluate
+different brain tissue.
+Specifically, in brain tissue, the motion of water molecules can be restricted at many levels, as
+for example by interacting with different tissue components, such as cell membranes,
+macromolecules, fibers, myelin sheaths and fiber tracts. Thus within white matter, the mobility
+of water is restricted in directions that are perpendicular to the fiber tracts. (Parenthetically,
+this restricted mobility of water is described as anisotropic, whereas unrestricted mobility of
+water, such as would be observed for cerebrospinal fluid, is described as iso-tropic.) And, while
+myelination is not essential for diffusion anisotropy of nerves, see for example studies of non-
+myelinated garfish olfactory nerves (Beaulieu and Allen, 1994) and studies of neonate brains
+prior to the appearance of myelin (Huppi et al., 1998), tightly packed multiple myelin
+membranes accompanying axons are generally assumed to be the major barrier to diffusion in
+myelinated fiber tracts. Moreover, the tissue properties of white matter fiber tracts, including
+the density of the fibers, the average fiber diameter, the thickness of the myelin sheaths, and
+the directionality (or coherence) of the fibers in each voxel, all affect the diffusion of water
+molecules, and thus, in turn, provide useful information about white matter fiber tract
+organization. Hence because of the physical properties of white matter, diffusion tensor
+imaging can be used to investigate white matter in the brain in a manner not possible with
+conventional MRI imaging techniques.
+Since its introduction to clinical use in 1986 by Le Bihan et al. (1986), brain diffusion MRI
+has become one of the most important tools in clinical neuroimaging. Using this technique,
+diffusion is encoded in the MRI signal by magnetic field gradient pulses. Accordingly, the
+displacement of water molecules (diffusion) causes randomization of the NMR spin phase,
+which, in turn, results in signal reduction. The amount of reduction provides a quantitative
+measure of the diffusion in the gradient direction, and thus only diffusion in the direction of
+this particular gradient can be detected. Since diffusion is truly a three-dimensional process,
+at least three orthogonal measurements are needed to calculate the mean diffusion for each
+voxel. Basser et al. (1994) introduced a multi-dimensional approach to the assessment of
+diffusion data in vivo, called diffusion tensor imaging (DTI), followed by the first clinical
+Kubicki et al.
+Page 3
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+application in 1996 (Pierpaoli et al., 1996). This method requires at least six different, non-
+collinear and non-planar diffusion measurements, and provides the rotationally invariant
+(independent to the gradient and head position) estimations of the diffusion and diffusion
+anisotropy. The diffusion for each voxel is then described as a 3 × 3 matrix and called a diffusion
+tensor. In an isotropic media, such as cerebrospinal fluid, where diffusion in all three main axes
+is equal, the tensor is symmetrical in all directions, and it can be visualized as a sphere. In an
+anisotropic media, where the diffusion is different along each axis, the tensor is visualized as
+an ellipsoid, with its longest axis pointing toward the longest of the so-called principal
+directions (see Fig. 1).
+The shape of the tensor ellipsoid thus depends upon the strength of the diffusion along three
+principal directions (i.e., its eigenvectors). The geometric nature of the diffusion tensors can
+then be used to characterize quantitatively the local structure in tissues such as white matter in
+the brain, because the direction of the major diffusion axis will always be aligned in the
+direction of the white matter fiber tracts. The DTI images are acquired on high field, high
+performance MR systems, and analyzed in terms of diffusion anisotropy using dedicated
+software.
+3. Acquisition of diffusion tensor images in the brain
+In order to detect water diffusion along different directions, Stejskal and Tanner (1965) method
+is used. This method uses two strong gradient pulses, symmetrically positioned around a
+refocusing pulse, allowing for diffusion weighting. To eliminate the dependence of spin
+density, T1 and T2, at least two measurements of diffusion-weighting must be obtained, that
+are differently sensitized to diffusion but remain identical in all other respects.
+As noted previously, in order to correctly assess the diffusion tensor, data from at least six
+independent diffusion encoding directions is acquired for each voxel. The most popular
+acquisition technique to obtain DTI images is a single-shot diffusion-weighted, echo-planar
+(EPI) protocol, introduced in 1990 by Turner et al. (1990). It is fast, thus being robust to motion
+artifacts, although it is limited in spatial resolution, and very sensitive to image artifacts and
+distortions.
+While DTI EPI remains the most popular technique to acquire diffusion tensor images, other
+protocols have emerged as alternatives to the low resolution EPI technique. Line-scan-
+diffusion-imaging (LSDI), for example, was introduced by Gudbartsson et al. (1996). Unlike
+the single-shot EPI, where a complete image is acquired after each radio-frequency excitation,
+LSDI is based on the sequential acquisition of parallel columns lying in the image plane. The
+sequential collection of this line data in independent single-shot acquisitions makes the
+sequence largely insensitive to bulk motion artifacts since no phase encoding is used. Because
+of the acquisition method, however, the LSDI sequence is four to six times slower than single-
+shot diffusion-weighted EPI. On the other hand, it allows for better spatial resolution, which
+is especially important when small fiber bundles are being evaluated. It is also relatively free
+from the artifacts inherent in single-shot EPI methods. Another advantage of this technique is
+that it can be used on higher field strengths, with signal to noise (S/N) gain, and without the
+dramatic increase of the aforementioned artifacts.
+More recently several new techniques have been proposed that further minimize susceptibility
+and chemical shift artifacts, as well as allowing for higher than EPI resolution and/or signal to
+noise ratio, and shorter than LSDI scan times. These newer techniques include: (1) diffusion
+weighted radial acquisition of data (DIFRAD) (Trouard et al., 1999); (2) slab scan diffusion
+imaging (SSDI) (Maier, 2001); (3) segmented EPI with navigator echoes correction (Ordidge
+et al., 1994); and (4) single-shot EPI with parallel imaging (Bammer et al., 2002).
+Kubicki et al.
+Page 4
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+DTI acquisitions are generally performed on high field, high performance gradient systems
+where 3–4 Tesla magnets are becoming more and more popular in clinical research. However,
+the 1.5 Tesla magnet is still the preferred MR field strength for clinical imaging. Lower field
+strengths systems require longer acquisition times (due to the increased number of repetitions
+to compensate for the decreased signal to noise ratio). Higher field strengths, on the other hand,
+allow for potentially faster acquisitions and higher S/N ratios, but they are not free of
+limitations. Such limitations, in fact, include (depending on the acquisition technique), eddy
+current distortions, susceptibility and chemical shift artifacts as well as geometrical distortions
+of the images, which are, at least in the case of the faster techniques, much higher that on lower
+field strength machines. Nonetheless, the development of acquisition tools such as high order
+shimming, which make possible better quality images, as well as post-processing tools, which
+minimize image distortions and artifacts, should all help to ensure that clinical research can be
+moved to higher field magnets.
+To return, however, to the image acquisition, and as mentioned previously, in order to calculate
+the tensor, at least six non-colinear measurements of diffusion are required. Some recent
+schizophrenia studies, however, use even more diffusion directions (Wang et al., 2003; Sun et
+al., 2003). Of note, multiple direction acquisitions have numerous advantages, including the
+fact that multiple direction acquisitions allow for the creation of more symmetrical tensors,
+they minimize noise, as well as make the guiding of fiber tracking more precise. Moreover,
+higher angular data can be used to solve the problem of fiber crossings, and to guide fiber
+tracking in areas where the anisotropy is low, and where uncertainty exists with respect to the
+major direction of diffusion (Tuch et al., 2002; Frank, 2002). This approach, however, requires
+complicated mathematical models such as in the recent work by Hagmann et al. (2004). In this
+work, the authors show tractography results of fiber crossing in the centrum semiovale. We
+note, however, that while the direction of this work is promising, it needs further development
+and is not validated at this time.
+Two final issues that should be taken into account when planning a diffusion experiment, both
+of which influence the S/N ratio, are the number of excitations (NEX), or repetitions, and the
+image resolution. The S/N ratio for single-shot EPI is relatively low (due to movement artifacts
+and short excitation times), and in order to increase it, signal either needs to be averaged over
+many repeated scans, or scan resolution needs to be decreased. The first results in longer
+scanner times, while the second results in less detailed data. Because of motion-related phase
+variations in the MR signal, complex averaging cannot be applied, but magnitude signal must
+be used instead. This entails that not only the signal, but also the noise is being averaged. It is
+advisable, for a good estimation of FA, to maintain an SNR for the diffusion-weighted image
+data of 10:1. SNR values below 3:1 result in a Rician noise distribution that requires special
+treatment if magnitude signal averaging is performed. For very low SNR (<3:1) signal
+averaging does not eliminate the overestimation of FA values, however, it does improve the
+estimation of the diffusion tensor eigenvector direction. Of note, in terms of the S/N ratios as
+well as data reproducibility, LSDI performs similar to the single-shot EPI with 16 NEX's (see
+Kubicki et al., 2004; see also Fig. 2).
+The resolution of the images is the other important issue that needs to be considered. Fast MR
+techniques used for DTI data acquisition do not usually allow for high image resolution, or if
+they do, the increase in resolution is done at the expense of larger image distortions. Since most
+white matter structures are relatively small, the partial volume effect often exceeds the size of
+the fiber bundle. To avoid this problem, one can use large ROIs, and instead of looking at
+particular fiber tracts focus on the fiber coherence in the larger areas of the white matter. An
+alternative approach is to use image acquisitions that are perpendicular to the measured fiber
+(see Fig. 3). Unfortunately, this approach is less efficient, as it can be used only for a very few
+brain structures (e.g., cingulate bundle, corpus callosum, a portion of the uncinate fasciculus,
+Kubicki et al.
+Page 5
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+and the internal capsule). For all of the reasons mentioned before, the most optimal method for
+data acquisition (when permitted by the scanner software and hardware), is to use as small as
+possible, isotropic voxels. This approach is also preferable if fiber tracking is to be applied to
+the DTI data.
+4. Quantitative representation of diffusion tensor
+Data from diffusion tensor imaging can be analyzed in several ways. The most general approach
+is to characterize the overall displacement of the molecules (average ellipsoid size) by
+calculating the mean diffusivity. To do so, the trace (Tr) (Basser, 1995) of the diffusion tensor,
+which is calculated as the sum of the eigenvalues of the tensor, has been introduced. The mean
+diffusivity is then given by Tr(D)/3.
+To describe the anisotropy of diffusion, several scalar indices have been introduced. These
+indices are rotationally invariant, i.e., not dependent on the MR gradients orientation, or
+absolute orientation of the diffusion tensor ellipsoid, and thus provide the ultimate value for a
+specific tissue type. The most commonly used indices, proposed by Basser and colleagues
+(Basser, 1995) are: (1) relative anisotropy (RA), a normalized standard deviation representing
+the ratio of the anisotropic part of the tensor to its isotropic part; (2) fractional anisotropy (FA),
+a measure of the fraction of the magnitude of the tensor that can be ascribed to the anisotropic
+diffusion; and, (3) volume ratio (VR), a measure representing the ratio of the ellipsoid volume
+to the volume as a sphere of radius λ. Other anisotropy indices, such as indices measuring
+intervoxel coherence (Pfefferbaum et al., 2000), and the geometric nature of diffusion and
+intravoxel coherence (Westin et al., 2002), have also been proposed, and are reviewed in detail
+by Kubicki et al. (2002b) (for examples of maps representing diffusion indices see Fig. 3).
+Similar to anisotropy indices, several methods have also been proposed for visualizing the 3D
+information contained in DT-MRI data. These include: (1) the use of the octahedral icon for
+each pixel (Reese et al., 1995); (2) color maps, where different intensities of the three colors
+indicate the size and the ADC in each of the three Cartesian directions (Makris et al., 1997);
+(3) rendered ellipsoids to visualize diffusion data in a slice, and (Pierpaoli et al., 1996); and
+(4) the use of lines to represent the in-plane component of the principal diffusion direction,
+along with a color-coded out-of-plane component (Peled et al., 1998) (see Fig. 4).
+Finally, multiple methods have been introduced for the quantitative analysis of diffusion. The
+most popular approach to data analysis in clinical studies is to use a fixed size (square or circle)
+ROI method. This approach has been used to place large ROIs within anatomically non-specific
+white matter regions of the brain (i.e., frontal white matter), as well as much smaller ROIs,
+placed within the specific white matter fiber tracts. These two methods are distinct not only
+because one is averaging over a bigger area, and thus is less sensitive to the noise and artifacts,
+and more statistically conservative (Lim et al., 1999), while the other is more anatomically
+specific. Also, in terms of underlying pathology, anisotropy differences detected by large ROIs,
+point to the anomalies in coherence and/or organization of the white matter structures within
+the analyzed region, while differences detected by small ROIs, placed in the middle of the fiber
+tract, demonstrate abnormalities that could be due to the number/density of the fibers traveled
+within the fiber tract, as well as their myelin content. While the latter method relates more
+directly to the question of anatomical connectivity subserved by the measured fiber tract, it
+still has many limitations. Specifically, small ROI measurements are characterized by larger
+errors, due to the noise inherent in DTI images. Also, due to the various sizes of the structures
+across subjects, the sampled region is not always comparable. Lastly, but not the least limitation
+of the small ROI method, is the partial volume effect. This effect, due to the anisotropic size
+of voxels used in most of the studies so far, is much higher in the slice direction, than in-plane.
+What this means is, that in order to minimize the partial volume effect, and thus to get the most
+Kubicki et al.
+Page 6
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+reliable measurements of the small fiber tract, one should consider (if an acquisition of high
+resolution images with isotropic voxels is not an option) using an acquisition that is
+perpendicular to the fiber bundle of interest (see Fig. 5).
+An alternative approach for diffusion data analysis is to define the ROI based on the directional
+information obtained from the DTI. While this method is more specific to the fiber tracts
+comparing to the small ROI approach (this method extracts cross-section of the whole fiber
+bundle, as opposed to the fixed square that includes the center of the fiber bundle as in the
+fixed, small ROI approach), it also has numerous limitations. For example, similar to the small
+fixed ROI method, the directional threshold should be only applied to the fibers that are
+perpendicular to the plane, which limits the number of possible bundles tested. Moreover, the
+approach uses eigenvalues and eigenvectors to define the ROI, and these same variables are
+then used to calculate the FA within the segmented structure. Also, torque of the brains, or any
+shape asymmetries, that could exist between studied groups, can affect the main direction of
+the bundle, threshold, and thus effect the anisotropy results.
+As opposed to the ROI approach, where there is a driving clinical hypothesis prior to the
+measurements, a voxel based strategy is more exploratory and is suitable for identifying
+unpredicted/unhypothesized areas of abnormal white matter morphology. This method requires
+data to be spatially warped (or normalized) to the atlas template. Spatial normalization involves
+the registration of images and the generation of a stereotaxic atlas that represents the statistical
+distribution of the group at each voxel (Guimond et al., 2001; Friston et al., 1995; Mazziotta
+et al., 1995; Thompson et al., 1997). The registration of diffusion tensor images, is usually
+performed in a similar way to the registration of T1-weighted or SPGR MR images. That is,
+T2-weighted MR images are used to estimate deformation fields or transformation functions
+in order to minimize the intensity difference between the template and the normalized image.
+With the estimated transformation function, the morphology of the diffusion images is then
+deformed to fit a stereotaxic space. Since T2 structural images do not include information
+relevant to the orientation and direction of the fiber tracts, the registration of these types of
+images to the atlas template usually performs poorly, with significant residual miss-registration
+error due to differences in fiber tracts location, shape and size, as well as anatomical variability
+that can not be captured with information provided by structural images. For this reason, voxel-
+based quantification of diffusion tensor images requires more sophisticated spatial
+normalization that takes advantage of the directional information provided by the full tensor
+(Park et al., 2003).
+5. Applications of DTI to schizophrenia research
+As noted previously, based on geometry and the degree of anisotropy loss, white matter tract
+alterations, such as dislocation, disruption or disorganization can be documented. The cross-
+sectional size of these pathways, as well as diffusion anisotropy measured within the bundle,
+yield a quantitative measure of connectivity between different brain regions. In fact, the tissue
+properties of white matter fiber tracts, including the density of the fibers, the fiber diameter,
+the thickness of the myelin sheaths, and the directionality (or coherence) of the fibers in each
+voxel, all affect the diffusion of water molecules, thereby providing useful information about
+white matter fiber tract abnormalities.
+Of note, a number of studies, using a wide spectrum of methods, suggest that disrupted
+connectivity of widely distributed brain circuits is likely characteristic of schizophrenia
+(Volkow et al., 1988; Friston and Frith, 1995; McGuire and Frith, 1996; Weinberger et al.,
+1992; Fletcher et al., 1999). DTI thus has the potential to provide important new information
+about links between anatomical abnormalities and clinical symptoms observed in this disease.
+To date, 18 studies have examined white matter in schizophrenia using diffusion tensor imaging
+Kubicki et al.
+Page 7
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+technique. Despite the consistency of the earliest DTI findings (first five DTI studies showed
+diffusion abnormalities in schizophrenia), five more recent studies do not show any statistical
+differences between schizophrenics and healthy controls. One reason for this lack of
+consistency in findings is likely due to the fact that there are no set standards for data acquisition
+and analysis and the methods of post-processing the data are also variable. In addition, small
+sample size, small ROI, lower S/N ratio due to smaller number of repetitions, acquisition
+angles, scanner gradient performance, greater partial volume effect due to the lower image
+resolution, as well as the use of anisotropic voxels, will skew the FA measurements, and
+decrease the statistical power of the DTI analysis. DTI findings in schizophrenia must,
+therefore, be understood within the context of the acquisition parameters used as well as in the
+context of the different methodological strategies adopted by different investigators. These
+differences are highlighted, below.
+6. DTI schizophrenia findings
+In order to compare diffusion anisotropy between control subjects and schizophrenics, most
+studies reported in the literature have used fractional anisotropy (FA). Only one study has used
+relative anisotropy (RA), (Buchsbaum et al., 1998) and only one study has used inter-voxel
+coherence as an index of diffusion (Kalus et al., 2004). In comparison with FA, RA maps show
+lower visual contrast between white and gray matter areas of the brain, since RA tends to be
+less sensitive to anisotropy changes in midrange values than the more popular FA index (Lim
+et al., 1999). In areas with higher diffusion anisotropy (fiber tracts), and lower diffusion
+anisotropy (gray matter), both indices perform similarly. Of note, an index of inter-voxel
+coherence for each voxel, as used by Kalus et al. (2004), takes into account not only diffusion
+properties within this particular voxel, but also in the adjacent voxels. This index tends to reflect
+better the fiber organization in very dense, small fiber bundles (see also Fig. 3). As an additional
+measure of fiber density and organization, mean diffusion along all directions, or mean
+diffusivity has also been estimated in several (n = 7) studies (see Table 1).
+Decreased FA, along with increased diffusivity within prefrontal and temporal lobes, as well
+as abnormalities within the fiber bundles connecting these regions (including uncinate
+fasciculus, cingulum bundle and arcuate fasciculus) are the most frequent positive findings in
+schizophrenia studies (see Table 1). For example, uncinate fasciculus abnormalities were
+detected with small ROI defined by a directional threshold method (Kubicki et al., 2002a), and
+this finding has been confirmed by a voxel based morphometry analysis (Burns et al., 2003).
+Cingulum bundle abnormalities have also been reported in schizophrenia using both fixed size
+small ROI (Sun et al., 2003;Wang et al., 2004), and a directional threshold method (Kubicki
+et al., 2003). In addition, changes in the genu, but not the splenium of the corpus callosum,
+have been reported in schizophrenia using the fixed, small ROI method (Foong et al., 2000),
+and using VBM analysis (Agartz et al., 2001;Ardekani et al., 2003) although this finding was
+not confirmed in either another VBM analysis that used the same sample as the small ROI
+method (Foong et al., 2002), or in another study using small ROI and a larger sample size
+(Sun et al., 2003; see also Table 1). Additionally, internal capsule diffusion abnormalities have
+been detected in one VBM study (Buchsbaum et al., 1998), but not in a small ROI study (Sun
+et al., 2003) nor in two other VBM studies (Agartz et al., 2001;Foong et al., 2002). Further,
+two studies have investigated differences in the cerebellar peduncles in schizophrenia
+compared to controls (Wang et al., 2003;Okugawa et al., 2004), and one did not show
+differences, while the other demonstrated decrease of the FA in the middle cerebellar peduncles
+in schizophrenia subjects. In addition, two studies have reported widespread diffusion
+abnormalities in all tested regions (parietal, temporal, prefrontal and occipital white matter)
+when a fixed, large ROI method was used (Lim et al., 1999;Minami et al., 2003; see also Table
+1). So far, only one study (Hubl et al., 2004), using VBM and relatively small number of
+subjects (n = 13), demonstrated increase of FA in schizophrenics with auditory hallucinations.
+Kubicki et al.
+Page 8
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Of particular note, all DTI studies of schizophrenia thus far, except one with negative findings
+in hippocampus that included 7 first episode schizophrenics (Begre et al., 2003), have examined
+chronic schizophrenia samples. Furthermore, medication was shown, to be related to left frontal
+white matter anisotropy (Minami et al., 2003), and in another study, to middle cerebellar
+peduncle (Okugawa et al., 2004). These two factors suggest that in subsequent studies there is
+a need to study more carefully the effects of medication, as well as to include first episode
+patients, who are either medication naïve or who have limited psychotropic exposure. In
+addition, the age of patients diagnosed with schizophrenia and the age of controls has not been
+observed thus far to correlate with DTI measures. Nonetheless, a recently published, well-
+controlled study, that included a large healthy population, has demonstrated a relationship
+between FA, diffusivity, and age (Pfefferbaum and Sullivan, 2003). This latter finding suggests
+that measures of diffusion may change with age and it will be useful to understand white matter
+changes across the age span in both normal controls and in pathological populations, as changes
+in aging that are evinced in normal controls may be quite different in pathological populations
+such as schizophrenia.
+Some interesting correlations between diffusion measures and clinical and neuropsychological
+measures have also emerged in DTI studies of schizophrenia. Specifically, prefrontal white
+matter anisotropy has been reported to be correlated with negative symptoms, impulsiveness
+and aggressiveness (Hoptman et al., 2002; Wolkin et al., 2003). Additionally, FA for frontal–
+temporal connections have been reported to be correlated with measures of errors in executive
+functions related to performance monitoring (as measured by Wisconsin Card Sorting Test;
+WCST) – cingulate bundle, and declarative-episodic verbal memory (as measured by Wechsler
+Memory Scale-III; WMS-III) – uncinate fasciculus (Kubicki et al., 2002a, 2003). While
+exploratory, and not studied frequently in DTI studies (VBM methods so far have not explored
+clinical correlations at all), these findings demonstrate the sensitivity of the diffusion
+measurements to white matter abnormalities, and further provide evidence of the potential role
+that DTI-neuropsychological correlates can play in understanding disease-related cognitive
+disturbance. Moreover, the rather strong dissociation of UF-WMS-III and CB-WCST
+underscores the value of DTI in delineating important and distinct brain networks in patients
+with schizophrenia.
+7. Implications, conclusions and future directions
+Preliminary DTI results, data from other MR techniques, such as magnetization transfer
+techniques and MR relaxation measurements (both sensitive to the myelin abnormalities), as
+well as MR spectroscopy (measuring neuronal markers), in combination with
+pathomorphological data, all suggest that white matter pathways play an important role in the
+neuropathology of schizophrenia, and are likely related to the myriad of clinical symptoms
+observed in this disorder. DTI findings to date are interesting, but methodological limitations,
+discussed here as well as elsewhere, limit our ability to conclude, with certainty, the nature of
+white matter pathology in schizophrenia. What we do know is that DTI provides a new window
+of opportunity to evaluate white matter in a manner not possible with conventional MRI.
+However, we do not as yet know whether the abnormalities observed to date reflect a decrease
+in number of axons, decreased axonal diameter, thinner myelination sheaths, less coherent
+fibers, more fiber crossings, or simply more noise in the DTI data.
+Despite these limitations, and the many questions that remain with respect to how best to
+understand the diffusion findings in schizophrenia, we believe that DTI shows much promise
+for illuminating our understanding of how specific brain regions are connected and how such
+connectivity may be relevant to our understanding of functional abnormalities, both cognitive,
+and clinical, observed in schizophrenia. We further believe that future research, which uses
+high magnet fields, and fast, low distortion techniques that produce high resolution and high
+Kubicki et al.
+Page 9
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+SNR diffusion images, will lead to a further understanding of white matter pathology in
+schizophrenia. Other advances that we will likely have over the next few years are improved
+fiber tractography methods that are optimized and validated, and then applied to these high
+resolution data. Such studies will likely benefit from the acquisition of contiguous, isotropic
+voxels (so far most of the clinical studies use anisotropic voxels with gaps between slices,
+which biases the major diffusion of the tensor and affects the contiguity of the fiber tract thus
+skewing the fiber tract direction), and diffusion images sampled in multiple directions. With
+reliable fiber tracking, it should be relatively easy to define brain regions of interest along the
+fiber bundles, and to measure both mean diffusion anisotropy, as well as cross-sectional area
+of these fiber bundles.
+Fig. 6 provides an example of work that will likely assist us in evaluating fiber bundles in
+patients with schizophrenia. Here, automated fiber tracking procedure (described in detail in
+Park et al., 2003) has been used to create major white matter fiber tracts. In brief, all white
+matter voxels have been used as seeding points, and then fiber bundles were created by
+following the largest eigenvectors of the diffusion tensor using the Runge-Kutta algorithm
+(Basser et al., 2000). Next, FA values for each voxel within the bundles have been calculated,
+and voxels have been color coded based on their FA values. This work will need to be validated
+in postmortem tissue so that we will have a clearer understanding of the pathological processes
+detectable using DTI. Of further note, with today's scanning techniques it is clear that results
+from fiber tractography do not describe the spatial extent of individual axons but instead
+describe the average diffusion properties in white tissue at the scale of a millimeter. Thus, the
+diffusion tensors at this scale should be regarded as estimators of local diffusion properties and
+tractography as a visualization of features in this field. Validation of the features captured in
+the tensor field is thus very challenging since the definition of the tissue properties
+corresponding to the diffusion field is not well understood. However, the similarities between
+DT-MRI tractography and real white matter fiber architecture in the human brain are
+compelling even at today's limited resolution.
+Future studies will also need to include an evaluation of first episode psychotic patients, so as
+to provide a sample of patients who have limited exposure to psychotropic medications.
+Additionally, samples need to be comprised of both males and females, as there is clear
+evidence to suggest that the timing, course, and clinical features of schizophrenia are
+manifested quite differently in males and females, and this may be related to brain differences
+(Goldstein et al., 2002). It will also be important to evaluate a representative sample of normal
+controls across age, as white matter changes with age, and such changes may be quite different
+in pathological populations such as schizophrenia. Future DTI studies need also to include
+other imaging techniques, which highlight white matter pathologies, such as proton
+spectroscopy, magnetization transfer techniques and relaxation times measurements.
+Moreover, such studies should be conducted in concert with functional MRI and PET imaging
+in order to characterize and to understand more fully both functional and structural
+abnormalities in schizophrenia. Voxel based analyses will likely still be performed in future
+studies, as this methodological approach remains the simplest way to define possible regions
+of pathology, although it should be accompanied by ROI analyses, as well as utilize better,
+more precise registration strategies.
+Finally, we note that DTI was introduced to clinical imaging only in 1995, and that such a new
+imaging tool has only just begun to be explored with respect to what it has to offer in
+documenting white matter abnormalities in schizophrenia. We are thus only at the beginning
+stages of what will likely be further technological advances, as well as new white matter
+findings in schizophrenia.
+Kubicki et al.
+Page 10
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Acknowledgments
+The authors thank Marie Fairbanks for her administrative assistance. They also gratefully acknowledge the support
+of the National Alliance for Research on Schizophrenia and Depression (MK), the National Institute of Health (R03
+MH068464-01 to MK, K02 MH 01110 and R01 MH 50747 to MES, R01 NS 39335 to SEM and R01 MH 40799 to
+RWM), the Post-doctoral Fellowship Program of Korea Science and Engineering Foundation (KOSEF) (HJP), the
+Department of Veterans Affairs Merit Awards (MES, RWM), and the National Center for Research Resources (NIH
+P41 RR13218 to RK).
+References
+Agartz I, Andersson JL, Skare S. Abnormal brain white matter in schizophrenia: a diffusion tensor
+imaging study. Neuroreport 2001;12(10):2251–4. [PubMed: 11447344]
+Akbarian S, Kim JJ, Potkin SG, Hetrick WP, Bunney WE Jr, Jones EG. Maldistribution of interstitial
+neurons in prefrontal white matter of the brains of schizophrenic patients. Archives of General
+Psychiatry 1996;53(5):425–36. [PubMed: 8624186]
+Ardekani BA, Nierenberg J, Hoptman MJ, Javitt DC, Lim KO. MRI study of white matter diffusion
+anisotropy in schizophrenia. Neuroreport 2003;14(16):2025–9. [PubMed: 14600491]
+Bammer R, Auer M, Keeling SL, Augustin M, Stables LA, Prokesch RW, et al. Diffusion tensor imaging
+using single-shot SENSE-EPI. Magnetic Resonance in Medicine 2002;48(1):128–36. [PubMed:
+12111940]
+Basser PJ. Inferring microstructural features and the physiological state of tissues from diffusion-
+weighted images. NMR in Biomedicine 1995;8(7–8):333–44. [PubMed: 8739270]
+Basser PJ, Mattiello J, LeBihan D. MR diffusion tensor spectroscopy and imaging. Biophysical Journal
+1994;66(1):259–67. [PubMed: 8130344]
+Basser PJ, Pajevic S, Pierpaoli C, Duda J, Aldroubi A. In vivo fiber tractography using DT-MRI data.
+Magnetic Resonance in Medicine 2000;44(4):625–32. [PubMed: 11025519]
+Beaulieu C, Allen P. Determinants of anisotropic water diffusion in nerves. MRM 1994;31:394–400.
+Begre S, Federspiel A, Kiefer C, Schroth G, Dierks T, Strik WK. Reduced hippocampal anisotropy related
+to anteriorization of alpha EEG in schizophrenia. Neuroreport 2003;14(5):739–42. [PubMed:
+12692474]
+Benes, FM. Relationship of cingulate cortex to schizophrenia and other psychiatric disorders.. In: Vogt,
+BA.; Gabriel, M., editors. Neurobiology of cingulate cortex and limbic thalamus: a comprehensive
+handbook. Birkhauser; Boston: 1993. p. 581-605.
+Breier A, Buchanan RW, Elkashef A, Munson RC, Kirkpatrick B, Gellad F. Brain morphology and
+schizophrenia. A magnetic resonance imaging study of limbic, prefrontal cortex, and caudate
+structures. Archives of General Psychiatry 1992;49(12):921–6. [PubMed: 1449382][see comments]
+Buchsbaum MS, Tang CY, Peled S, Gudbjartsson H, Lu D, Hazlett EA, et al. MRI white matter diffusion
+anisotropy and PET metabolic rate in schizophrenia. Neuroreport 1998;9(3):425–30. [PubMed:
+9512384]
+Burns J, Job D, Bastin ME, Whalley H, Macgillivray T, Johnstone EC, et al. Structural disconnectivity
+in schizophrenia: a diffusion tensor magnetic resonance imaging study. British Journal of Psychiatry
+2003;182:439–43. [PubMed: 12724248]
+Davis KL, Stewart DG, Friedman JI, Buchsbaum M, Harvey PD, Hof PR, et al. White matter changes in
+schizophrenia: evidence for myelin-related dysfunction. Archives of General Psychiatry 2003;60(5):
+443–56. [PubMed: 12742865]
+Fletcher P, McKenna PJ, Friston KJ, Frith CD, Dolan RJ. Abnormal cingulate modulation of fronto-
+temporal connectivity in schizophrenia. Neuroimage 1999;9(3):337–42. [PubMed: 10075903]
+Foong J, Maier M, Clark CA, Barker GJ, Miller DH, Ron MA. Neuropathological abnormalities of the
+corpus callosum in schizophrenia: a diffusion tensor imaging study. Journal of Neurology
+Neurosurgery and Psychiatry 2000;68(2):242–4.
+Foong J, Symms MR, Barker GJ, Maier M, Miller DH, Ron MA. Investigating regional white matter in
+schizophrenia using diffusion tensor imaging. Neuroreport 2002;13(3):333–6. [PubMed: 11930133]
+Frank LR. Characterization of anisotropy in high angular resolution diffusion-weighted MRI. Magnetic
+Resonance in Medicine 2002;47(6):1083–99. [PubMed: 12111955]
+Kubicki et al.
+Page 11
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Friston K, Holmes A, Worsley KJ, Poline JP, Frith CD, Frackowiak RSJ. Statistical parametric maps in
+functional imaging: a general linear approach. Human Brain Mapping 1995;2:189–210.
+Friston KJ, Frith CD. Schizophrenia: a disconnection syndrome? Clinical Neuroscience 1995;3(2):89–
+97. [PubMed: 7583624]
+Goldstein JM, Seidman LJ, OÕBrien LM, Horton NJ, Kennedy DN, Makris N, et al. Impact of normal
+sexual dimorphisms on sex differences in structural brain abnormalities in schizophrenia assessed
+by magnetic resonance imaging. Archives of General Psychiatry 2002;59(2):154–64. [PubMed:
+11825137]
+Gudbartsson H, Maier S, Mulkern R. Line scan diffusion imaging. Magnetic Resonance in Medicine
+1996;36:509–19. [PubMed: 8892201]
+Guimond A, Roche A, Ayache N, Meunier J. Three-dimensional multimodal brain warping using the
+demons algorithm and adaptive intensity corrections. IEEE Transactions in Medical Imaging 2001;20
+(1):58–69.
+Hagmann P, Reese TG, Tseng W-YI, Meuli R, Thiran J-P, Wedeen VJ. Diffusion spectrum imaging
+tractography in complex cerebral white matter: an investigation of the centrum cemiovale.
+Proceedings of the International Society of Magnetic Resonance in Medicine 2004;11:623.
+Hakak Y, Walker JR, Li C, Wong WH, Davis KL, Buxbaum JD, et al. Genome-wide expression analysis
+reveals dysregulation of myelination-related genes in chronic schizophrenia. Proceedings of the
+National Academy of Sciences of United States America 2001;98(8):4746–51.
+Highley JR, Esiri MM, McDonald B, Cortina-Borja M, Herron BM, Crow TJ. The size and fibre
+composition of the corpus callosum with respect to gender and schizophrenia: a post-mortem study.
+Brain 1999a;122(Pt 1):99–110. [PubMed: 10050898]
+Highley JR, Esiri MM, McDonald B, Roberts HC, Walker MA, Crow TJ. The size and fiber composition
+of the anterior commissure with respect to gender and schizophrenia. Biological Psychiatry 1999b;
+45(9):1120–7. [PubMed: 10331103]
+Highley JR, Walker MA, Esiri MM, Crow TJ, Harrison PJ. Asymmetry of the uncinate fasciculus: a post-
+mortem study of normal subjects and patients with schizophrenia. Cerebral Cortex 2002;12(11):
+1218–24. [PubMed: 12379610]
+Hof PR, Haroutunian V, Friedrich VL Jr, Byne W, Buitron C, Perl DP, et al. Loss and altered spatial
+distribution of oligodendrocytes in the superior frontal gyrus in schizophrenia. Biological Psychiatry
+2003;53:1075–85. [PubMed: 12814859]
+Hoptman MJ, Volavka J, Johnson G, Weiss E, Bilder RM, Lim KO. Frontal white matter microstructure,
+aggression, and impulsivity in men with schizophrenia: a preliminary study. Biological Psychiatry
+2002;52(1):9–14. [PubMed: 12079725]
+Hubl D, Koenig T, Strik W, Federspiel A, Kreis R, Boesch C, et al. Pathways that make voices: white
+matter changes in auditory hallucinations. Archives of General Psychiatry 2004;61:658–68.
+[PubMed: 15237078]
+Huppi PS, Maier SE, Peled S, Zientara GP, Barnes PD, Jolesz FA, et al. Microstructural development of
+human newborn cerebral white matter assessed in vivo by diffusion tensor magnetic resonance
+imaging. Pediatric Research 1998;44(4):584–90. [PubMed: 9773850]
+Kalus P, Buri C, Slotboom J, Gralla J, Remonda L, Dierks T, et al. Volumetry and diffusion tensor imaging
+of hippocampal subregions in schizophrenia. Neuroreport 2004;15(5):867–71. [PubMed: 15073533]
+Kraepelin, E. Dementia praecox. Barclay, E., editor. Churchill Livingstone Inc.; New York: 19191971.
+SBTrans.
+Kubicki M, Maier SE, Westin CF, Mamata H, Ersner-Hershfield H, Estepar R, et al. Comparison of
+single-shot echo-planar and line scan protocols for diffusion tensor imaging. Academic Radiology
+2004;11(2):224–32. [PubMed: 14974598]
+Kubicki M, Westin CF, Maier SE, Frumin M, Nestor PG, Salisbury DF, et al. Uncinate fasciculus findings
+in schizophrenia: a magnetic resonance diffusion tensor imaging study. American Journal of
+Psychiatry 2002a;159(5):813–20. [PubMed: 11986136]
+Kubicki M, Westin CF, Maier SE, Mamata H, Frumin M, Ersner-Hershfield H, et al. Diffusion tensor
+imaging and its application to neuropsychiatric disorders. Harvard Review of Psychiatry 2002b;10
+(6):324–36. [PubMed: 12485979]
+Kubicki et al.
+Page 12
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Kubicki M, Westin CF, Nestor PG, Wible CG, Frumin M, Maier SE, et al. Cingulate fasciculus integrity
+disruption in schizophrenia: a magnetic resonance diffusion tensor imaging study. Biological
+Psychiatry 2003;54(11):1171–80. [PubMed: 14643084]
+Kumra S, Ashtari M, McMeniman M, Vogel J, Augustin R, Becker DE, et al. Reduced frontal white
+matter integrity in early-onset schizophrenia: a preliminary study. Biological Psychiatry
+2004;55:1138–45. [PubMed: 15184032]
+Le Bihan D, Breton E, Lallemand D, Grenier P, Cabanis E, Laval-Jeantet M. MR imaging of intravoxel
+incoherent motions: application to diffusion and perfusion in neurologic disorders. Radiology
+1986;161(2):401–7. [PubMed: 3763909]
+Lim KO, Hedehus M, Moseley M, de Crespigny A, Sullivan EV, Pfefferbaum A. Compromised white
+matter tract integrity in schizophrenia inferred from diffusion tensor imaging. Archives of General
+Psychiatry 1999;56(4):367–74. [PubMed: 10197834]
+Maier SE. Slab scan diffusion imaging. Magnetic Resonance in Medicine 2001;46(6):1136–43. [PubMed:
+11746580]
+Makris N, Worth AJ, Sorensen AG, Papadimitriou GM, Wu O, Reese TG, et al. Morphometry of in vivo
+human white matter association pathways with diffusion-weighted magnetic resonance imaging.
+Annals of Neurology 1997;42:951–62. [PubMed: 9403488]
+Mazziotta JC, Toga AW, Evans A, Fox P, Lancaster J. A probabilistic atlas of the human brain: theory
+and rationale for its development. The International Consortium for Brain Mapping (ICBM).
+Neuroimage 1995;2(2):89–101. [PubMed: 9343592]
+McGuire PK, Frith CD. Disordered functional connectivity in schizophrenia [editorial]. Psychological
+Medicine 1996;26(4):663–7. [PubMed: 8817700]
+Minami T, Nobuhara K, Okugawa G, Takase K, Yoshida T, Sawada S, et al. Diffusion tensor magnetic
+resonance imaging of disruption of regional white matter in schizophrenia. Neuropsychobiology
+2003;47(3):141–5. [PubMed: 12759557]
+Ordidge RJ, Helpern JA, Qing ZX, Knight RA, Nagesh V. Correction of motional artifacts in diffusion-
+weighted MR images using navigator echoes. Magnetic Resonance in Medicine 1994;12(3):455–60.
+Okugawa G, Nobuhara K, Minami T, Tamagaki C, Takase K, Sugimoto T, et al. Subtle disruption of the
+middle cerebellar peduncles in patients with schizophrenia. Neuropsychobiology 2004;50:119–23.
+[PubMed: 15292664]
+Paillere-Martinot M, Caclin A, Artiges E, Poline JB, Joliot M, Mallet L, et al. Cerebral gray and white
+matter reductions and clinical correlates in patients with early onset schizophrenia. Schizophrenia
+Research 2001;50(1–2):19–26. [PubMed: 11378311]
+Park HJ, Kubicki M, Shenton ME, Guimond A, McCarley RW, Maier SE, et al. Spatial normalization of
+diffusion tensor MRI using multiple channels. Neuroimage 2003;20(4):1995–2009. [PubMed:
+14683705]
+Peled S, Gudbjartsson H, Westin CF, Kikinis R, Jolesz FA. Magnetic resonance imaging shows
+orientation and asymmetry of white matter fiber tracts. Brain Research 1998;780:27–33. [PubMed:
+9473573]
+Pfefferbaum A, Sullivan EV. Increased brain white matter diffusivity in normal adult aging: relationship
+to anisotropy and partial voluming. Magnetic Resonance in Medicine 2003;49(5):953–61. [PubMed:
+12704779]
+Pfefferbaum A, Sullivan EV, Hedehus M, Adalsteinsson E, Lim KO, Moseley M. In vivo detection and
+functional correlates of white matter microstructural disruption in chronic alcoholism. Alcoholism–
+Clinical and Experimental Research 2000;24(8):1214–21.
+Pierpaoli C, Jezzard P, Basser PJ, Barnett A, Di Chiro G. Diffusion tensor MR imaging of the human
+brain. Radiology 1996;201:637–48. [PubMed: 8939209]
+Reese TG, Weisskoff RM, Smith RN, Rosen BR, Dinsmore RE, Wedeen VJ. Imaging myocardial fiber
+architecture in vivo with magnetic resonance. Magnetic Resonance in Medicine 1995;34:786–91.
+[PubMed: 8598805]
+Shenton ME, Dickey CC, Frumin M, McCarley RW. A review of MRI findings in schizophrenia.
+Schizophrenia Research 2001;49(1–2):1–52. [PubMed: 11343862]
+Sigmudsson T, Suckling J, Maier M, Williams SCR, Bullmore ET, Greenwood KE, et al. Structural
+abnormalities in frontal, temporal, and limbic regions and interconnecting white matter tracts in
+Kubicki et al.
+Page 13
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+schizophrenic patients with prominent negative symptoms. American Journal of Psychiatry
+2001;158:234–43. [PubMed: 11156806]
+Steel RM, Bastin ME, McConnell S, Marshall I, Cunningham-Owens DG, Lawrie SM, Johnstone EC,
+Best JJK. Diffusion tensor imaging (DTI) and proton magnetic resonance spectroscopy (H MRS) in
+schizophrenic subjects and normal controls. Psychiatry Research: Neuroimaging Section
+2001;106:161–70.
+Stejskal EO, Tanner JE. Spin diffusion measurements: spin echoes in the presence of a time-dependent
+field gradient. Journal of Chemical Physics 1965;42:288–92.
+Suddath RL, Christison GW, Torrey EF, Casanova MF, Weinberger DR. Anatomical abnormalities in
+the brains of monozygotic twins discordant for schizophrenia. New England Journal of Medicine
+1990;322(12):789–94. [PubMed: 2308615]
+Sun Z, Wang F, Cui L, Breeze J, Du X, Wang X, et al. Abnormal anterior cingulum in patients with
+schizophrenia: a diffusion tensor imaging study. Neuroreport 2003;14(14):1833–6. [PubMed:
+14534430]
+Thompson PM, MacDonald D, Mega MS, Holmes CJ, Evans AC, Toga AW. Detection and mapping of
+abnormal brain structure with a probabilistic atlas of cortical surfaces. Journal of Computer Assisted
+Tomography 1997;21(4):567–81. [PubMed: 9216760]
+Trouard TP, Theilmann RJ, Altbach MI, Gmitro AF. High-resolution diffusion imaging with DIFRAD-
+FSE (diffusion-weighted radial acquisition of data with fast spin-echo) MRI. Magnetic Resonance
+in Medicine 1999;42(1):11–8. [PubMed: 10398944]
+Tuch DS, Reese TG, Wiegell MR, Makris N, Belliveau JW, Wedeen VJ. High angular resolution diffusion
+imaging reveals intravoxel white matter fiber heterogeneity. Magnetic Resonance in Medicine
+2002;48(4):577–82. [PubMed: 12353272]
+Turner R, Le Bihan D, Maier J, Vavrek R, Hedges LK, Pekar J. Echo-planar imaging of intravoxel
+incoherent motion. Radiology 1990;177(2):407–14. [PubMed: 2217777]
+Uranova N, Orlovskaya D, Vikhreva O, Zimina I, Kolomeets N, Vostrikov V, et al. Electron microscopy
+of oligodendroglia in severe mental illness. Brain Research Bulletin 2001;55(5):597–610. [PubMed:
+11576756]
+Uranova NA, Vostrikov VM, Orlovskaya DD, Rachmanova VI. Oligodendroglial density in the prefrontal
+cortex in schizophrenia and mood disorders: a study from the Stanley Neuropathology Consortium.
+Schizophrenia Research 2004;67(2–3):269–75. [PubMed: 14984887]
+Volkow ND, Wolf AP, Brodie JD, Cancro R, Overall JE, et al. Brain interactions in chronic
+schizophrenics under resting and activation conditions. Schizophrenia Research 1988;1(1):47–53.
+[PubMed: 3154506]
+Wang F, Sun Z, Cui L, Du X, Wang X, Zhang H, et al. Anterior cingulum abnormalities in male patients
+with schizophrenia determined through diffusion tensor imaging. American Journal of Psychiatry
+2004;161(3):573–5. [PubMed: 14992988]
+Wang F, Sun Z, Du X, Wang X, Cong Z, Zhang H, et al. A diffusion tensor imaging study of middle and
+superior cerebellar peduncle in male patients with schizophrenia. Neuroscience Letters 2003;348(3):
+135–8. [PubMed: 12932812]
+Weinberger DR, Berman KF, Suddath R, Torrey EF. Evidence of dysfunction of a prefrontal-limbic
+network in schizophrenia: a magnetic resonance imaging and regional cerebral blood flow study of
+discordant monozygotic twins. American Journal of Psychiatry 149(7):890–7.
+Wernicke, C. Grundrisse der Psychiatrie. Thieme; Leipzig: 1906.
+Westin CF, Maier SE, Mamata H, Nabavi A, Jolesz FA, Kikinis R. Processing and visualization for
+diffusion tensor MRI. Medical Image Analysis 2002;6(2):93–108. [PubMed: 12044998]
+Wible CG, Shenton ME, Hokama H, Kikinis R, Jolesz FA, Metcalf D, et al. Prefrontal cortex and
+schizophrenia. A quantitative magnetic resonance imaging study. Archives of General Psychiatry
+1995;52(4):279–88. [PubMed: 7702444]
+Wolkin A, Choi SJ, Szilagyi S, Sanfilipo M, Rotrosen JP, Lim KO. Inferior frontal white matter anisotropy
+and negative symptoms of schizophrenia: a diffusion tensor imaging study. American Journal of
+Psychiatry 2003;160:572–4. [PubMed: 12611842]
+Kubicki et al.
+Page 14
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Fig. 1.
+Schematic of diffusion tensor imaging.
+Kubicki et al.
+Page 15
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Fig. 2.
+Influence of the number of excitations (NEX) on the data noise. 1, 4 and 16 acquisitions of
+single-shot EPI, and 1 acquisition of LSDI. Slice thickness 4 mm, axial orientation.
+Kubicki et al.
+Page 16
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Fig. 3.
+Different indices used to represent diffusion. Upper left – FA (the measure of the fraction of
+the magnitude of the tensor that can be ascribed to the anisotropic diffusion). Upper right – RA
+(normalized standard deviation representing the ratio of the anisotropic part of the tensor to its
+isotropic part). Lower left – TR (the sum of the eigenvalues of the tensor, or the sum of diffusion
+in all three principal directions). Lower right – linear measure of diffusion (representing the
+coherence of the fibers for each voxel) and spherical measure of diffusion (visualizing fiber
+crossings).
+Kubicki et al.
+Page 17
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Fig. 4.
+Different methods for visualizing diffusion tensor information – left panel – map of fractional
+anisotropy with higher intensity representing more anisotropic diffusion, middle panel – color
+map, where different intensities of the three colors indicate the size and the ADC in each of
+the three Cartesian directions; right panel – blue lines representing the in-plane component of
+the principal diffusion direction, and a color-coded out-of-plane component (more intuitive
+approach, where each line represents the main diffusion direction for local neighborhood, rather
+than for each voxel).
+Kubicki et al.
+Page 18
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Fig. 5.
+ROI methods for quantitative analysis of diffusion – upper-left-hand-side panel – Large ROI
+placed on the axial slice within the frontal lobe, upper right-hand-side panel – small fixed ROI
+placed on the axial slice within the cingulum bundle, lower left-hand-side panel – small, fixed
+ROI placed within the cingulum bundle on the coronal plane, and lower right-hand-side – small
+ROI of the cingulum bundle on the coronal slice based on the directional information. Yellow
+– right side, blue – left side.
+Kubicki et al.
+Page 19
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+Fig. 6.
+Example of fiber tracking. High resolution data acquired on 3 Tesla magnet and post-processed
+using automated tracking procedure. Voxels within fiber bundles are color coded according to
+their FA values (i.e., blue, low anisotropy; and red, high anisotropy).
+Kubicki et al.
+Page 20
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+Kubicki et al.
+Page 21
+Table 1
+Author and year
+Number of subjects
+Method (i.e.,
+field strength/
+sequence/
+gating)
+Voxel size and
+coverage of
+brain
+Angles and repetitions
+ROI placement
+Measurement
+Results
+Clinical correlations
+Buchsbaum et al.
+(1998)
+5 Chronics/6 controls
+1.5 T/LSDI/no
+7 × 3 × 2 mm/6
+axial slices (full
+cc coverage)
+1 NEX/6 directions
+Whole brain (VBM)
+RA
+↓ RA in the
+prefrontal cortex,
+internal capsule and
+temporal lobe
+No correlations between
+FA and memory
+performance, age and
+medication
+Lim et al. (1999)
+10 Chronic males/10
+controls
+1.5 T/EPI/no
+2 × 2 × 5 mm/8
+axial oblique
+slices (40 mm
+above the AC–
+PC line)
+4 NEX/6 directions
+White matter, gray matter,
+frontal/temporal–parietal/
+parietal–occipital regions
+FA
+↓ FA decrease
+(widespread)
+Not tested
+Foong et al. (2000) 20 Chronics/25 controls
+1.5 T/EPI/no
+3 × 3 × 5 mm/12
+axial slices
+5 NEX/7 directions
+Genu, splenium of the CC
+D, FA
+↓ FA, ↑ D in
+splenium but not
+genu of the CC
+No correlations between
+FA and age, illness
+duration, medication,
+positive and negative
+symptoms
+Steel et al. (2001)
+10 Chronics/10 controls
+2 T/EPI/no
+3 × 4 × 6 mm/10
+axial slices
+9 NEX/6 directions
+Prefrontal white matter
+FA
+No changes
+No correlations between
+FA and duration of
+illness
+Agartz et al. (2001) 20 Chronics/24 controls
+1.5 T/EPI/yes
+2 × 2 × 4 mm/22
+axial oblique
+slices
+1 NEX/20 directions
+Whole brain (VBM)
+FA
+↓ FA in the
+splenium of the CC
+Not tested
+Foong et al. (2002) 14 Chronics/19 controls
+1.5 T/EPI/no
+3 × 3 × 5 mm/12
+axial slices
+5 NEX/7 directions
+Whole brain (VBM)
+D, FA
+No changes
+Not tested
+Kubicki et al.
+(2002a,b)
+15 Chronic males/18
+controls
+1.5 T/LSDI/no
+2 × 2 × 5 mm/35
+coronal slices
+1 NEX/6 directions
+Uncinate fasciculus
+FA, bundle area
+↓ left > right FA
+asymmetry and area
+asymmetry in
+schizophrenics
+Left FA values
+correlated with lower
+declarative-episodic
+verbal memory scores in
+patients only. No
+correlations between FA
+and medication
+Hoptman et al.
+(2002)
+14 Chronic males
+1.5 T/EPI/no
+2.5 × 2.5 × 2.5
+mm/21 axial
+slices
+4 NEX/6 directions
+Frontal white matter (24 voxels,
+12 voxels
+FA, D
+No control group
+Right inferior frontal
+white matter FA was
+correlated with higher
+motor impulsiveness,
+higher mean diffusivity
+was correlated with
+aggressiveness in the
+same area
+Sun et al. (2003)
+30 Chronics/ 19 controls 1.5 T/EPI/
+2 × 2 × 7 mm/
+axial slices
+1 NEX/25 directions
+Frontal, parietal, occipital,
+temporal white matter, plus
+genu and splenium of the cc, ant
+and post limb of the internal
+capsule, anterior cingulum
+FA
+↓ FA in the anterior
+cingulum, no
+changes elsewhere
+Not tested
+Burns et al. (2003) 30 Chronics/ 30 controls 1.5 T/EPI/no
+2 × 2 × 5 mm/31
+axial slices
+5NEX/6directions
+Uncinate fasciculus, arcuate
+fasciculus, cingulum bundle
+(VBM)
+FA
+↓ FA in left uncinate
+and acruate
+fasciculi
+Not tested
+Kubicki et al. (2003)17 Chronic males/18
+controls
+1.5 T/LSDI/no
+2 × 2 × 5 mm/35
+coronal slices
+1 NEX/6 directions
+Cingulum Bundle
+FA, bundle area
+↓ FA and area of the
+cingulum bundle
+Errors in executive
+functions related to
+performance monitoring
+correlated with left FA
+in patients only. No
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+Kubicki et al.
+Page 22
+Author and year
+Number of subjects
+Method (i.e.,
+field strength/
+sequence/
+gating)
+Voxel size and
+coverage of
+brain
+Angles and repetitions
+ROI placement
+Measurement
+Results
+Clinical correlations
+correlations between FA
+and medication
+Wang et al. (2003) 29 Chronics/20 controls
+1.5 T/EPI/
+2 × 2 × 7 mm/
+axial slices
+1 NEX/25 directions
+Superior and middle cerebellar
+peduncles
+FA, D
+No changes
+Not tested
+Minami et al. (2003)12 Chronics/11 controls
+1.5 T/EPI/no
+2 × 2 × 8 mm/4
+axial slices
+No data available
+Frontal, parietal, temporal and
+occipital regions
+FA
+↓ FA in all
+measured regions
+bilaterally
+Left frontal FA and
+antipsychotic
+medication
+Wolkin et al. (2003)10 Chronic males
+1.5 T/EPI/no
+2 × 2 × 5 mm/5
+axial slices
+4 NEX/6 directions
+Frontal white matter/85 mm2
+and 43 mm2
+FA, D
+No control group
+Inferior frontal FA was
+correlated with negative
+symptoms
+Begre et al. (2003) 7 First episode/7 controls 1.5 T/EPI/no
+5 mm/12 axial
+slices
+6 Directions
+Hippocampi (16 × 16 voxels)
+FA
+No changes
+Correlation between
+anterior alpha EEG
+activity and lower FA in
+schizophrenics only
+Ardekani et al.
+(2003)
+7 Chronic schizophrenics
+and 7 schizoaffectives /14
+controls
+1.5 T/EPI/no
+5 mm/20 axial
+slices
+4 NEX/6 directions
+Whole brain (VBM)
+FA
+↓ FA in CC, left
+STG, MTG, IPG,
+parahippocampal
+gyri, medial
+occipital lobe, and
+the deep frontal
+perigenual region
+Not tested
+Wang et al. (2004) 21 Chronic males/20
+controls
+1.5 T/EPI/
+2 × 2 × 7 mm/
+axial slices
+1 NEX/25 directions
+Anterior and posterior
+cingulum bundle
+FA
+↓ FA in the anterior
+cingulum bundle, ↓
+left > right FA
+asymmetry in
+schizophrenics
+Not tested
+Kalus et al. (2004)
+15 Chronic, paranoic
+schizophrenics/15 controls
+1.5 T/EPI/no
+2.5 mm/13
+slices parallel to
+the long
+hippocampus
+axis
+9 NEX/6 directions
+Hippocampal subdivisions
+Intervoxel coherence
+↓ coherence in
+schizophrenics in
+posterior
+hippocampus and
+reversed coherence
+asymmetry within
+the anterior
+hippocampus in
+schizophrenics
+Not tested
+Kumra et al. (2004) 12 Adolescent early onset
+schizophrenics, 9
+adolescent controls
+1.5 T/EPI/no
+2 × 2× 5 mm
+sagittal slices
+4 NEX/6 directions
+Frontal, occipital white matter,
+CC
+FA
+↓ FA in the frontal
+and occipital white
+matter in
+schizophrenics, No
+changes in CC
+Not tested
+Okugawa et al.
+(2004)
+25 Schizophrenics, 21
+controls
+1.5 T/EPI/no
+2 × 2 × 8 mm
+sagittal slices
+4 NEX/6 directions
+Middle cerebellar peduncles
+FA, D
+↓ FA in the middle
+cerebellar
+peduncles, No
+changes in D
+Positive correlation was
+noted between
+neuroleptic dosage and
+FA and right middle
+cerebellar peduncle
+Hubl et al. (2004)
+13 Schizophrenics with
+auditory hallucinations, 13
+schizophrenics without
+hallucinations, 13 controls
+1.5 T/LSDI/no
+2 × 2 × 6 mm/12
+axial slices
+1 NEX/6 directions
+Whole brain (VBM)
+FA
+↑ FA in the AF and
+CC in patients with
+hallucinations. ↓
+FA in the AF, UF
+and ILF in
+schizophrenics
+without
+hallucinations
+Not tested
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.
+
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+NIH-PA Author Manuscript
+Kubicki et al.
+Page 23
+Author and year
+Number of subjects
+Method (i.e.,
+field strength/
+sequence/
+gating)
+Voxel size and
+coverage of
+brain
+Angles and repetitions
+ROI placement
+Measurement
+Results
+Clinical correlations
+J Psychiatr Res. Author manuscript; available in PMC 2009 October 27.

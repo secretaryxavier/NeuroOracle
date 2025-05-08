@@ -1,0 +1,1346 @@
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+www.atmos-chem-phys.net/15/2969/2015/
+doi:10.5194/acp-15-2969-2015
+© Author(s) 2015. CC Attribution 3.0 License.
+Exploring the severe winter haze in Beijing: the impact of synoptic
+weather, regional transport and heterogeneous reactions
+G. J. Zheng1, F. K. Duan1, H. Su2, Y. L. Ma1, Y. Cheng1, B. Zheng1, Q. Zhang3,6, T. Huang4, T. Kimoto4, D. Chang2,
+U. Pöschl2, Y. F. Cheng2, and K. B. He1,5,6
+1State Key Joint Laboratory of Environment Simulation and Pollution Control,
+School of Environment, Tsinghua University, Beijing 100084, China
+2Multiphase Chemistry Department, Max Planck Institute for Chemistry, 55128,
+Mainz, Germany
+3Ministry of Education Key Laboratory for Earth System Modeling,
+Center for Earth System Science, Tsinghua University, Beijing 100084, China
+4Kimoto Electric Co., Ltd, 3-1 Funahashi-cho Tennoji-ku, Osaka 543-0024, Japan
+5State Environmental Protection Key Laboratory of Sources and Control of
+Air Pollution Complex,Beijing 100084, China
+6Collaborative Innovation Center for Regional Environmental Quality,
+Beijing 100084, China
+Correspondence to: K. B. He (hekb@mail.tsinghua.edu.cn) and Y. F. Cheng (yafang.cheng@mpic.de)
+Received: 16 April 2014 – Published in Atmos. Chem. Phys. Discuss.: 3 July 2014
+Revised: 6 January 2015 – Accepted: 14 January 2015 – Published: 17 March 2015
+Abstract. Extreme haze episodes repeatedly shrouded Bei-
+jing during the winter of 2012–2013, causing major envi-
+ronmental and health problems. To better understand these
+extreme events, we performed a model-assisted analysis of
+the hourly observation data of PM2.5 and its major chemical
+compositions. The synthetic analysis shows that (1) the se-
+vere winter haze was driven by stable synoptic meteorologi-
+cal conditions over northeastern China, and not by an abrupt
+increase in anthropogenic emissions. (2) Secondary species,
+including organics, sulfate, nitrate, and ammonium, were the
+major constituents of PM2.5 during this period. (3) Due to the
+dimming effect of high loading of aerosol particles, gaseous
+oxidant concentrations decreased signiﬁcantly, suggesting a
+reduced production of secondary aerosols through gas-phase
+reactions. Surprisingly, the observational data reveals an en-
+hanced production rate of secondary aerosols, suggesting an
+important contribution from other formation pathways, most
+likely heterogeneous reactions. These reactions appeared to
+be more efﬁcient in producing secondary inorganics aerosols
+than organic aerosols resulting in a strongly elevated fraction
+of inorganics during heavily polluted periods. (4) Moreover,
+we found that high aerosol concentration was a regional phe-
+nomenon. The accumulation process of aerosol particles oc-
+curred successively from cities southeast of Beijing. The ap-
+parent sharp increase in PM2.5 concentration of up to several
+hundred µg m−3 per hour recorded in Beijing represented
+rapid recovery from an interruption to the continuous pol-
+lution accumulation over the region, rather than purely local
+chemical production. This suggests that regional transport of
+pollutants played an important role during these severe pol-
+lution events.
+1
+Introduction
+Severe haze episodes in the winter of 2012–2013 engulfed
+Beijing, as well as other cities in southeastern China, caus-
+ing one of the worst atmospheric pollution events in his-
+tory. With hourly ﬁne particle (PM2.5) concentrations up to
+∼900 µg m−3, outdoor exposure caused adverse health ef-
+fects (Nel, 2005; Pöschl, 2005; Peplow, 2014), including se-
+vere respiratory system related symptoms and deceases (Cao
+et al., 2014; Ouyang, 2013). Meanwhile the visibility was
+reduced down to 100 m, which disrupted trafﬁc with can-
+Published by Copernicus Publications on behalf of the European Geosciences Union.
+
+2970
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+celed ﬂights and closed highways. The government had to
+adopt emergency response measures to deal with these pol-
+lution episodes (http://english.sina.com/china/p/2013/0113/
+548263.html). In addition to massive amounts of primary
+particulate matter, high emissions in China provided plenty
+of gas pollutants to serve as precursors for secondary aerosols
+(Zhang et al., 2009). Densely distributed mega-cities (i.e.,
+city clusters) have worsened this situation, contributing to
+regional air pollution. Once the regional pollution is formed,
+the advection becomes less effective in scavenging local pol-
+lutants (no clean air from upwind). Thus, the regional pol-
+lution is more persistent compared with air pollution within
+a speciﬁc city. Moreover, cities within this region could not
+eliminate their pollution solely by reducing local emissions
+(Chan and Yao, 2008; Cheng et al., 2008a).
+These extreme haze episodes attracted great scientiﬁc in-
+terest. The visibility impairment has been attributed to scat-
+tering and absorption of solar radiation by aerosol particles
+(mostly PM2.5) and their hygroscopic growth under high rel-
+ative humidity (Cheng et al., 2006, 2008b, c). Regional trans-
+port of pollutants was found to contribute considerably to
+concentrations of PM2.5 (Z. Wang et al., 2014; L. T. Wang
+et al., 2014), dust (Yang et al., 2013; Y. Wang et al., 2014),
+and SO2 (Yang et al., 2013) in Beijing. Atmospheric dy-
+namic processes during hazy conditions were different from
+clean conditions, with a signiﬁcant two-way feedback be-
+tween PM2.5 and boundary layer evolution (Z. Wang et al.,
+2014). Secondary inorganic aerosol species were suggested
+to be the major contributor to severe haze, based on ofﬂine
+PM2.5 analysis (Quan et al., 2014), and online non-refractory
+PM1 analysis by an Aerosol Chemical Speciation Monitor
+(Sun et al., 2014). In addition, some studies described un-
+usual atmospheric phenomena taking place under heavily
+polluted conditions, such as extremely low ozone concen-
+tration (less than 5 ppb) in the absence of diurnal variation
+(Zhao et al., 2013) and the synergistic oxidation of SO2 and
+NO2 (He et al., 2014). These ﬁndings suggest need for a bet-
+ter understanding on the haze formation mechanisms.
+In this study, we address the following questions for the
+winter haze episodes aforementioned: (1) the relative im-
+portance of enhanced emission versus meteorology; (2) the
+cause of the sharp PM2.5 increase during the haze episodes in
+Beijing, whether it was mainly driven by an extremely rapid
+local chemical production or by regional transport; and (3)
+the dominant chemical mechanisms of haze formation.
+2
+Experimental methods
+Online ambient observation was conducted from 1–31 Jan-
+uary 2013 on the campus of Tsinghua University. The ob-
+servation site is situated on the rooftop of the Environmen-
+tal Science Building (40◦00′17′′ N, 116◦19′34′′ E), approxi-
+mately 10 m above ground. Tsinghua University is located in
+the northwest part of urban Beijing, close to the North 4th
+Ring Road, without any major pollution sources nearby. All
+observation data are hourly uniﬁed data.
+Mass
+concentrations
+of
+ﬁne
+(PM2.5)
+and
+coarse
+(PM2.5−10)
+particles
+were
+simultaneously
+measured
+based on the β-ray absorption method by a PM-712 Monitor
+(Kimoto Electric Co., Ltd., Japan), which was equipped
+with a US-EPA PM10 inlet and a PM2.5 virtual impactor
+(Kimoto Electric Co., Ltd., 2012; Kaneyasu et al., 2014).
+Dehumidiﬁcation was achieved with the hygroscopic growth
+correction formula:
+Dehumidiﬁed PM2.5 mass conc.
+(1)
+= Measured PM2.5 mass conc. ×
+1
+1 + 0.010 × e6.000 RH
+100
+,
+where the 0.010 and 6.000 are localized coefﬁcients, and RH
+is relative humidity in %. All PM2.5 hereinafter refer to the
+dehumidiﬁed PM2.5 data.
+A Sunset Model 4 Semi-Continuous Carbon Analyzer
+(Beaverton, OR, USA) was used to measure hourly organic
+carbon (OC) and elemental carbon (EC) concentrations in
+PM2.5. A NIOSH (National Institute for Occupational Safety
+and Health) temperature protocol was used and the calcula-
+tion discrepancy under high ambient concentrations was cor-
+rected accordingly (G.J. Zheng et al., 2014). Organic mat-
+ter (OM) was estimated as 1.6·OC, based on previous re-
+sults (Zhang et al., 2014; Xing et al., 2013). The use of
+ﬁxed OM / OC ratio requires caveats because the ratio might
+change due to the variable oxidation degree of OM under dif-
+ferent conditions.
+Hourly sulfate and nitrate concentrations in PM2.5 were
+measured using an ACSA-08 Monitor (Kimoto Electric Co.,
+Ltd., Japan). The ACSA-08 Monitor measured nitrates us-
+ing an ultraviolet spectrophotometric method, and quantiﬁed
+sulfates with the BaSO4-based turbidimetric method after ad-
+dition of BaCl2 dissolved in polyvinyl pyrrolidone solution
+(Kimoto et al., 2013). Ammonium was predicted under the
+assumption that it existed as NH4NO3 and (NH4)2SO4 (He
+et al., 2012), which might be an overestimation based on the
+non-refractory PM1 results (Sun et al., 2014). Thus the pre-
+dicted ammonium given here should be regarded as an upper
+limit.
+An automatic meteorological observation instrument (Mi-
+los520, VAISALA Inc., Finland) was used to obtain mete-
+orological parameters, including atmospheric pressure, tem-
+perature, RH, wind speed, and wind direction. Speciﬁc hu-
+midity was calculated from these measured parameters (http:
+//www.srh.noaa.gov/epz/?n=wxcalc).
+SO2 and NO2 concentrations in Beijing, and PM2.5 con-
+centrations in other cities were acquired from the At-
+mospheric Environment Monitoring Network (Tang et al.,
+2012). Daily averaged solar radiation reaching ground data
+were downloaded from the China Meteorological Data
+Sharing Service System (http://cdc.cma.gov.cn). Planetary
+boundary layer (PBL) height was simulated with the Weather
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+www.atmos-chem-phys.net/15/2969/2015/
+
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+2971
+Research & Forecasting (WRF) Model (B. Zheng et al.,
+2014).
+3
+General characteristics of Beijing winter haze
+Primary atmospheric pollutant in Beijing during the win-
+ter of 2012–2013 was PM2.5, which constituted about 70 %
+of PM10. This ratio increased when PM2.5 pollution be-
+came worse (Fig. 1b). Monthly average PM2.5 concentration
+reached 121.0 µg m−3 in January 2013, and hourly PM2.5
+concentrations peaked at 855.10 µg m−3, which was the high-
+est ever reported in Beijing (Zhao et al., 2009, 2011, 2013;
+Zhang et al., 2014). The severe PM2.5 pollution lasted nearly
+the whole month, characterized by frequent and long-lasting
+pollution episodes. Here, we deﬁne an episode as a set
+of continuous days with daily PM2.5 averages exceeding
+75 µg m−3. In total, four episodes were identiﬁed in Jan-
+uary 2013 (Fig. 1a): 4–8 January (Episode I), 10–16 January
+(Episode II), 18–23 January (Episode III), and 25–31 Jan-
+uary (Episode IV). Maximum episode-averaged PM2.5 con-
+centrations reached 245.4 µg m−3 in Episode II (see Table 1
+for comparative information on Episodes I to III; Episode
+IV was not included because of missing data). In addition
+to the high average concentrations, these episodes were fre-
+quent (intervals between episodes were all ∼1 day) and long-
+lasting (5–7 days) compared with typical durations (5 days)
+and frequencies (1–3 days) of previous Beijing winter haze
+episodes (Jia et al., 2008).
+Another unique feature of the PM2.5 mass concentrations
+during this winter haze period was their dramatic hourly ﬂuc-
+tuation. The maximum daily variation was 778.6 µg m−3 on
+12 January. Hourly PM2.5 changes of over 100 µg m−3 (in-
+creases or decreases) were observed over 40 times during
+this haze period. Hourly increases or decreases could reach
+up to 351.8 µg m−3 and −217.7 µg m−3, respectively. Causes
+of these sharp transitions are discussed in Sect. 5.
+The variation of chemical composition with PM2.5 pollu-
+tion level, and among episodes, was also explored. We classi-
+ﬁed PM2.5 pollution into four categories according to the Air
+Quality Index (http://kjs.mep.gov.cn/hjbhbz/bzwb/dqhjbh/
+jcgfffbz/201203/t20120302_224166.htm?COLLCC=
+2906016564&)
+(Fig.
+1b):
+clean
+(PM2.5 ≤35 µgm−3),
+slightly
+polluted
+(35 < PM2.5 ≤115 µgm−3),
+polluted
+(115 < PM2.5 ≤350 µgm−3),
+and
+heavily
+polluted
+(PM2.5>350 µg m−3), where PM2.5 refers to the hourly
+concentration. Under this classiﬁcation, the slightly polluted,
+polluted, and heavily polluted levels generally correspond
+to small, moderate, and large PM2.5 peaks in Fig. 1b. Mean
+percentile compositions of major components in PM2.5
+under different pollution levels were shown in Fig. 2a. With
+increasing pollution level, the EC fraction decreased slightly,
+OC fraction decreased signiﬁcantly, while sulfate and nitrate
+contributions increased sharply (Fig. 2a). It suggests that
+secondary inorganic aerosol species become more important
+during polluted periods concerning their contribution to the
+PM2.5. A similar trend was observed for NR-PM1 (Sun et
+al., 2014) and off-line samples (Cheng et al., 2015). On
+average, OC, EC, nitrate, and sulfate comprised 21, 3, 19
+and 22 % of PM2.5 (Fig. 2b). Good correlations with PM2.5
+were observed for OC, EC and nitrate (R2>0.8 for these
+three species) for all data in January 2013, while for sulfate
+the correlation became weaker, reﬂecting larger episodic
+variations (Fig. 2b). In Episode III, NO2 exceeded SO2
+by 50 % (Table 1), generally in accordance with previous
+studies (Meng et al., 2009). In contrast, concentration of
+SO2 exceeded NO2 in Episodes I and II. Compared with
+Episode II, Episode I was much drier, which is unfavorable
+to the sulfate formation. The relatively high SO2 but low
+NO2 concentrations in Episodes I and II may indicate the
+signiﬁcance of stationary sources (coal combustion, etc.) in
+local emissions or regional SO2-rich air masses transported
+to Beijing.
+4
+Emission enhancement vs. synoptic conditions
+Haze episodes were much more severe and frequent in win-
+ter 2013 than in 2012. One possible explanation is that there
+was an abrupt emission enhancement during 2013. How-
+ever, we didn’t ﬁnd such change in the emission inventory
+(http://www.meicmodel.org/). Annual average emissions of
+primary PM2.5, SO2 and NOx show slight differences be-
+tween 2013 and 2012 (1.2, −1.3 and 0.8 %, respectively) for
+the Beijing–Tianjin–Hebei region. The changes of monthly
+averaged emissions in January were higher than the annual
+average changes in rates, i.e., 2.1, 1.5 and 2.5 % for primary
+PM2.5, SO2, and NOx, respectively; but they are still not sig-
+niﬁcant compared to the changes in pollutant concentrations.
+Thus, we suspect that these haze episodes arose from the un-
+favorable synoptic conditions in January 2013.
+The relative importance of enhanced emission versus un-
+favorable meteorology in PM2.5 concentration of January
+2013 was estimated by model simulations with three scenar-
+ios (Fig. 3). Base scenario (a) was designed to simulate the
+actual situation, i.e., with both input emission inventory and
+meteorology for January 2013. In scenarios (b) and (c), Jan-
+uary 2012 meteorology and January 2012 emission inventory
+data were used, respectively. Since the original WRF-CMAQ
+(Weather Research and Forecasting – Community Multiscale
+Air Quality) modeling system cannot reproduce the observed
+concentrations under heavily polluted conditions (B. Zheng
+et al., 2014), a revised WRF-CMAQ system with enhanced
+heterogeneous reactions (Wang et al., 2012) was adopted to
+improve the model performance. The revised model could ef-
+fectively capture the measured concentrations of total PM2.5
+(with normalized mean biases (NMBs) being 0.4 %) and its
+different chemical compositions for both clean and heavily
+polluted haze days (B. Zheng et al., 2014). Details of the
+www.atmos-chem-phys.net/15/2969/2015/
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+
+2972
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+Figure 1. Time series of PM10, PM2.5, and its major components (OC, EC, SO2−
+4
+and NO−
+3 ), and meteorological data (wind speed, wind
+direction, temperature and relative humidity) for January 2013.
+Table 1. General information on severe haze episodes in January 2013.
+Episode I
+Episode II
+Episode III
+January
+Ave.
+min
+max
+Ave.
+min
+max
+Ave.
+min
+Max
+Ave.
+min
+max
+Meteorology data
+Temperature (◦)
+−4.63
+−11.10
+1.40
+−2.79
+−8.30
+2.80
+−1.26
+−6.60
+5.00
+−2.94
+−12.50
+5.00
+RH(%)
+31.16
+13.50
+58.50
+56.59
+27.20
+77.60
+55.05
+27.10
+79.70
+47.97
+13.50
+88.30
+WS(m s−1)
+2.10
+0.90
+4.40
+2.08
+1.00
+3.40
+1.96
+0.90
+3.60
+2.18
+0.90
+4.50
+PM2.5 and PM10
+PM2.5 (µg m3)
+112.50
+11.00
+311.50
+245.37
+21.10
+855.10
+167.66
+35.40
+387.30
+161.77
+4.40
+855.10
+PM10 (µg m3)
+152.17
+28.80
+411.00
+327.17
+31.60
+1157.50
+214.03
+41.50
+479.80
+223.53
+13.90
+1157.50
+PM2.5/PM10 (%)
+0.69
+0.75
+0.79
+0.70
+Gas data
+NO2
+76.39
+109.44
+95.86
+86.09
+SO2
+79.73
+123.35
+63.86
+77.54
+model conﬁguration, modiﬁcations, and validation are de-
+scribed in B. Zheng et al. (2014).
+As expected, the inﬂuence of emission difference was neg-
+ligible (Fig. 3a and 3c). For the whole simulation domain
+of the North China Plain (NCP), both simulation with Jan-
+uary 2012 meteorology (Scenario (c) and January 2013 me-
+teorology (Scenario (a) resulted in similar PM2.5 concen-
+tration ranges (∼50 to ∼500 µg m−3 ) and spatial distri-
+butions. Difference of PM2.5 concentration at any site was
+within ±10 µg m−3 (Fig. 3e). Simulation results of Scenario
+(a) and (c) were not only similar in average concentration
+levels, but also in temporal variations. For example, in Bei-
+jing, simulated hourly PM2.5 concentration results under this
+two scenarios presented not only similar concentration (be-
+ing 279.1 ± 170.2 µg m−3 and 278.8 ± 168.9 µg m−3, respec-
+tively) but also excellent correlation with R2 reaching 0.97.
+In contrast, stable synoptic conditions in January 2013,
+which favored accumulation of emitted pollutants, were es-
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+www.atmos-chem-phys.net/15/2969/2015/
+
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+2973
+Figure 2. Major composition of PM2.5 with respect to pollution level. (a) Mean percentile composition and (b) hourly concentration of
+individual species plotted against PM2.5 mass concentration. Values showed in (a) were derived as average of ratios.
+Figure 3. Revised WRF-CMAQ simulated monthly averaged PM2.5 concentration (µg m3) under different scenarios. (a) Base scenario.
+Actual January 2013 emission and January 2013 meteorology data were used. (b) January 2012 meteorology data were used, and (c) January
+2012 emissions were used. The different PM2.5 concentrations (µg m3) caused by meteorology (d; equivalent to a–b) and emission (e,
+equivalent to a–c) are also shown.
+sential to the formation of the severe regional haze. Under
+the same emission level, changing the meteorological con-
+ditions from 2012 to 2013 resulted in a monthly average
+PM2.5 increase of 10–40 µg m−3 in the Beijing area, and up
+to 120 µg m−3 over the whole NCP (Fig. 3a, b, d). This sug-
+gests that the severe haze episodes in January 2013 were
+most likely due to unfavorable meteorology, rather than an
+abrupt increase in emissions (Fig. 3d, e).
+Figure 4 compares peak PM2.5 concentrations in the NCP
+region during Episodes II to IV and their corresponding
+surface weather maps, together with surface weather map
+from a clean hour (Fig. 4g). During severe haze episodes,
+the regional pollution covered most of the Hebei and north-
+ern Henan provinces. In general, Shandong Province was
+less polluted, except during Episode IV. Beijing borders this
+polluted region with mountains to the northwest. Surface
+weather maps from polluted periods were generally char-
+www.atmos-chem-phys.net/15/2969/2015/
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+
+2974
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+Figure 4. Surface weather maps (a, c, e, g) and PM2.5 concentra-
+tions (b, d, f) of the North China Plain on 12 January LT 18:00
+(a, b), 18 January LT 20:00 (c, d), 29 January LT 13:00 (e, f), and
+1 January LT 08:00 (g). The location of Beijing is indicated as a
+white star on the weather maps, and as the shaded area on the PM2.5
+concentration maps. PM2.5 concentrations in Beijing at the four se-
+lected time points are also shown on the left for reference.
+acterized by a weak high-pressure center (1034–1037 hPa)
+northeast of Beijing, which could result in low surface wind
+speed and prevent the inﬂux of northwest clean air (Xu et al.,
+2011; Zhao et al., 2013). During the peak hours of Episode
+II, Beijing was located near a low-pressure trough, where
+air masses from south, west and northeast converged. Dur-
+ing Episode III, Beijing was located in a saddle between two
+pairs of high- and low-pressure centers, which also led to en-
+hanced stability. In contrast, weather patterns for the clean
+hours were characterized by strong high-pressure centers (up
+to 1046 hPa) northwest of Beijing, i.e., the Siberian anticy-
+clone. With sharp pressure gradient, synoptic conditions pro-
+duce effective convection and strong northerly winds, bring-
+ing dry and clean air masses into Beijing.
+Local meteorology, controlled by synoptic conditions,
+could have “deterministic impacts” on air pollution levels
+(Xu et al., 2011). Compared with the clean periods, the pol-
+luted periods were associated with signiﬁcantly lower wind
+speed and PBL, and higher temperature and RH (Fig. 5). Be-
+sides changes in the average level, diurnal pattern of temper-
+ature in polluted periods could also differ from clean periods,
+with diminished overnight (00:00 to 06:00 a.m.) temperature
+drop.
+5
+Local chemical production vs. regional transport
+As shown in Fig. 6, Episode II consists of several sharp-
+increase events, in which PM2.5 concentrations increased by
+over 400 µg m−3 within 1–3 hours (maximum mass growth
+rate up to 351.8 µg m−3 h−1). Earlier studies have attributed
+this dramatic rate of increase to fast local chemical produc-
+tion (Y. Wang et al., 2014). However, we found that the ap-
+parent rapid changes are more likely to be caused by the re-
+gional transport of clean/polluted air masses. In winter, the
+Siberian anticyclone could bring clean air masses into NCP
+(Jia et al., 2008; Liu et al., 2013) while southerly winds
+reﬁll the areas with polluted air masses. The transition be-
+tween clean and polluted air masses may result in an appar-
+ent sharp build-up of particle concentrations. In other words,
+these events reﬂected interruption and rapid recovery of pol-
+lution from adjacent areas, rather than merely local chemical
+production.
+The impact of transport is supported by the temporal vari-
+ations in the regional distribution of PM2.5 concentrations,
+the surface weather maps, and the speciﬁc humidity (Fig. 6
+and 7). The ﬁrst evidence is that these sharp PM2.5 build-
+up events were unique to Beijing among all the eight cities
+around/in the NCP (Fig. 6). Chengde and Zhangjiakou are
+situated to the north of NCP with mountains in between
+(Fig. 6a). Among the NCP cities, Beijing is located at the
+northern tip, with mountains to the north and west shielding
+the city (Fig. 6(a2)). When conditions favor transport of clean
+air from north or northwest (i.e., with the advent of a cold
+air current), Beijing is the ﬁrst one among NCP cities to be
+scavenged, which resulted in a sharp drop of PM2.5 concen-
+trations. In this case, PM2.5 levels in Beijing became similar
+to the upwind cities, i.e., Chengde and Zhangjiakou (yellow
+solid circles; Fig. 6(b1)). However, these cold air currents
+were too weak to go further, leaving the rest NCP cities un-
+affected. Not surprisingly, the inﬂuence of these weak cold
+air currents soon receded and the polluted air parcels were
+transported back to Beijing, which lead to a sharp increase
+in the PM2.5 level similar as the rest NCP cities (e.g., Shiji-
+azhuang, Baoding, Tianjin, Langfang, and Tangshan) (yellow
+solid circles; Fig. 6(b2 and b3)).
+In accordance with the above description, surface weather
+maps showed that the sharp PM2.5 increase/decrease events
+in Beijing during January 2013 were always accompanied
+with quick transition between low/high pressure systems. As
+shown in Fig. 7b, the two sharp drops in PM2.5 concentra-
+tion on 11 and 12 January corresponded to a weak high-
+pressure system developed in the mountains northwest of
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+www.atmos-chem-phys.net/15/2969/2015/
+
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+2975
+Figure 5. Mean diurnal variation in meteorological parameters for different pollution levels.
+Figure 6. (a1) The location of all cities shown below, and (a2) topographic map around Beijing. (b) PM2.5 concentrations of Beijing and
+its (b1) northern cities, (b2) southwest cities, and (b3) southeast cities for the period 10–17 January 2013. Yellow solid circles indicated the
+time periods when the sharp drops (b1) and sharp increases (b2 and b3) of PM2.5 concentration occurred.
+Beijing, which brought clean air mass into the city. When
+the high-pressure systems diminished, a low-pressure system
+developed southwest of Beijing, and the air mass in Beijing
+was again affected by the regional background pollution, re-
+sulting in a sharp increase in PM2.5 concentration.
+The observed variation of the speciﬁc humidity, an indi-
+cator for the origin of air masses (Jia et al., 2008), also sup-
+ports our explanation (Fig. 7a). Air masses from the south
+were usually warmer and wetter than the northern air masses,
+thus possessing a higher speciﬁc humidity. During the rapid
+changes of PM2.5, the trend of speciﬁc humidity nicely fol-
+lowed the variations of PM2.5 (Fig. 7a, pink and yellow
+rectangles marked periods), which reﬂected the quick tran-
+sition of air parcel origins. It has been suggested that the
+decrease of PBL height will compress air pollutants into a
+shallow layer, resulting in elevated pollution levels (Liu et
+www.atmos-chem-phys.net/15/2969/2015/
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+
+2976
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+Figure 7. Evidence for regional transport of pollutants as a major factor contributing to sharp concentration increases in Beijing. (a) PM2.5
+concentration, PBL height, and speciﬁc humidity in Beijing for 10–17 January 2013. Pink and yellow rectangles indicated the sharp drop
+and sharp increase periods of PM2.5, respectively. Note how nicely speciﬁc humidity and PM2.5 followed each other during these periods.
+(b) Weather patterns before and after the sharp increases events. Corresponding time point of (b1) to (b6) was indicated by arrows in (a).
+The topography map (elevation) is also shown for reference. Location of Beijing was indicated by the black star in center of each graph.
+al., 2013). However, our results indicated that the compres-
+sion was not really happening. Rather, the decrease of PBL
+height hindered the vertical mixing of pollutants, resulting in
+a faster accumulation and higher concentrations. As shown
+in Fig. 7a, the time lag between variations in PBL and its ef-
+fects on PM2.5 concentration is a clear evidence demonstrat-
+ing that the PBL was not “compressing” air pollutants into
+a shallower layer. Otherwise, concurrent increase in PM2.5
+will be found during the decrease of PBL height.
+6
+Formation of secondary aerosols
+Compared with clean conditions, the hazy days are character-
+istic of weaker radiation and higher RH. The RH depends on
+the synoptic conditions while the radiation reduction is due
+to the direct radiative effects of aerosol particles (Crutzen
+and Birks, 1982; Ramanathan and Carmichael, 2008; Ra-
+manathan et al., 2001; Cheng et al., 2008b; Wendisch et al.,
+2008). Secondary aerosols (inorganic and organic) are major
+components in ﬁne particles in China (Yang et al., 2011). In
+this section, we will evaluate the impact of changes in radia-
+tion and RH on the formation of secondary aerosols.
+To evaluate the role of chemical productions, we analyzed
+the EC-scaled concentrations for individual compounds. The
+purpose of using EC-scaled concentration is to eliminate the
+inﬂuence of different dilution/mixing conditions on the varia-
+tion of observed pollutant concentrations. The observed vari-
+ations of pollutant concentrations are not only controlled by
+the chemical reactions but are also subject to the inﬂuence
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+www.atmos-chem-phys.net/15/2969/2015/
+
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+2977
+of boundary layer developments. For the same emission rate
+and chemical production rate, different mixing conditions
+will result in different levels of air pollutants. It is thus highly
+uncertain to conclude a stronger/weaker chemical production
+based on purely concentration data without considering the
+boundary layer effect. Since EC is an aerosol species com-
+ing from only primary emission and quite inertial to chem-
+ical reactions, its variations well reﬂect the inﬂuence of at-
+mospheric physical processes (dilution/mixing effect). The
+ratio of other species to EC will to a large extent eliminate
+the variations due to mixing/dilution and better represent the
+contribution from chemical reactions.
+6.1
+Weakened importance of photochemistry
+The radiative reduction imposed by aerosol particles is
+particularly strong during haze episodes because of ex-
+tremely high particle concentrations. Take Beijing for ex-
+ample: during haze episodes, the amount of solar radiation
+reaching the ground was signiﬁcantly lower (e.g., down to
+2.77 MJ m−2 d−1, 13 January) than it was on clean days (av-
+eraging 9.36 ± 0.60 MJ m−2 d−1 for all the 6 clean days),
+rendering high photochemical activity impossible. The re-
+duction of radiation intensities will change the atmospheric
+photochemistry and oxidant concentrations (hydroxyl radical
+(OH) and ozone (O3)), which will consequently change the
+production and aging of secondary organic aerosols (SOAs)
+(Hallquist et al., 2009; Jimenez et al., 2009).
+As the haze pollution spread over most of the NCP, a
+weakening of photochemistry was expected on the regional
+scale, which is conﬁrmed by both observations and model
+simulations. Extremely low ozone concentration (less than
+10 ppb) in the absence of diurnal variation was observed dur-
+ing heavy pollution episodes for all of the three major cities
+in Jing–Jin–Ji Area (i.e., Beijing, Tianjin and Shijiazhuang)
+in January 2013 (Y. Wang et al., 2014). Similar phenomenon
+was observed before in another heavy pollution episode in
+winter Beijing (Zhao et al., 2013). In accordance with the
+observed low ozone concentration, model simulations also
+showed a regional-scale reduction in the concentrations of
+ozone and OH (Fig. 8). Average daytime concentrations of
+oxidants were signiﬁcantly lower during polluted periods
+than clean periods. For most areas in the NCP, O3 and OH
+dropped from 12∼44 ppbV and 0.004 ∼0.020 pptV to less
+than 12 ppbV and 0.004 pptV, respectively, as the air qual-
+ity changed from clean to heavily polluted conditions. This
+regional drop in oxidant concentrations demonstrates the im-
+pact of air pollution on the photochemistry.
+Ozone and OH radicals are known as crucial oxidants
+in the formation of secondary organics aerosols (SOAs)
+(Jimenez et al. 2009). Weakened photochemistry is therefore
+expected to reduce the SOA production and concentrations.
+To have a semi-quantitative estimation on the contribution of
+photochemistry, secondary organic carbon (SOC) was esti-
+mated (Fig. 9a) using the EC-tracer method (Lim and Turpin,
+2002). Brieﬂy, SOC was estimated using these formulae:
+Primary OC = EC · (OC/EC)pri + N
+(2)
+SOC = OC −Primary OC
+(3)
+The basic assumptions and underlying principles of this
+method are discussed in Lim and Turpin (2002) and Lin
+et al. (2009). Only daytime (07:00–18:00) carbonaceous
+aerosol data were used here to exclude possible interference
+from day–night source variations (such as the heavy-duty
+diesel truck trafﬁc which is allowed only during nighttime
+in Beijing). In our study, data pairs with the lowest 10 % per-
+centile of ambient OC/EC ratios were used to estimate the
+primary OC/EC ratio (Fig. 9a). York regression (York et al.,
+2004) was used to estimate the intercept N and the slope,
+i.e., values of (OC/EC) pri, according to Saylor et al. (2006).
+Our analysis shows that SOC constituted ∼28 % of total OC,
+consistent with earlier studies in the winter of 2009-2012
+(∼30 %, Cheng et al., 2011; Sun et al., 2013b).
+High concentration of aerosol particles can reduce solar
+radiation and atmospheric photochemistry. Since SOC is a
+product of photochemical reactions, we would expect a re-
+duced SOC production rate under heavily polluted condi-
+tions. This is conﬁrmed by the measured SOC concentra-
+tions shown in Fig. 9. Here again the EC-scaled SOC was
+used to account for the different boundary layer effect (di-
+lution/mixing) on the aerosol concentrations. Both SOC/EC
+and the accumulated SOC/EC (afternoon – morning values)
+decrease when it changed from clean to heavily polluted pe-
+riods. The accumulated SOC/EC is used to better represent
+the production during the daytime.
+Reduction in photochemistry-related PM2.5 production is
+further supported by model simulation results. In our model
+conﬁgurations, the photolysis rate is calculated online using
+simulated aerosols and ozone concentrations (B. Zheng et al.,
+2014). As a result, with the enhanced PM2.5 concentration,
+the photolysis rate will be reduced, and so will the concen-
+trations of photochemical oxidants (Fig. 8) and secondary
+aerosol particles. During the haze events, this effect can be
+counteracted by the enhanced heterogeneous reactions and it
+is difﬁcult to unravel them from the measurement data.
+In order to demonstrate the inﬂuence of reduced photo-
+chemistry, we adopted the original WRF-CMAQ model setup
+and excluded the enhanced heterogeneous reactions. In this
+case, only gas-phase oxidations are counted for the forma-
+tion of sulfate and organics (aqueous-phase reactions in the
+original WRF-CMAQ only happen in clouds and don’t ap-
+ply for the aerosol phase) (B. Zheng et al., 2014) and their
+simulated concentrations will directly reﬂect the inﬂuence of
+reduced photochemistry. As shown in Table S1, the simu-
+lated PM2.5/EC ratios decreased from 16.05 to 11.72 when
+the pollution level changed from the clean to the heavily pol-
+luted case, reﬂecting the reduced gas-phase photochemical
+production. Note that PM2.5 concentration is normalized by
+EC to counteract the inﬂuence of reduced boundary layer.
+www.atmos-chem-phys.net/15/2969/2015/
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+
+2978
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+Figure 8. Revised WRF-CMAQ simulated regional distribution of daytime (07:00 ∼18:00) concentration of (a) O3 (ppbV) and (b) OH
+(pptV) at different pollution level.
+Otherwise, the reduced boundary layer itself could lead to
+a tremendous increase in the pollutant concentration under
+heavily polluted conditions, and thus cover the real effect of
+reduced photochemistry.
+The simulated individual components of PM2.5 also re-
+ﬂected the inﬂuence of photochemistry. As shown in Table
+S1, although primary organic matter (POM) to EC ratios kept
+nearly constant during all pollution levels, the normalized
+secondary species all showed a decreasing trend, reﬂecting
+the reduced photochemical production. SOA/EC, SO2−
+4 /EC,
+and NO−
+3 / EC ratios decreased by 53.3, 51.9 and 28.6 %, re-
+spectively from clean to heavily polluted periods. For the for-
+mation of NO−
+3 , two heterogeneous reactions have been in-
+cluded in the original WRF-CMAQ model and therefore the
+NO−
+3 / EC shows relatively less reduction than SOA/EC and
+SO2−
+4 /EC.
+6.2
+Enhanced heterogeneous chemistry
+Unlike OM, relative contributions of sulfate and nitrate to
+PM2.5 were increasing during the haze events (Fig. 2). Again,
+we used their ratios to EC to account for the boundary layer
+effect. An increasing trend of SO2−
+4 /EC and NO−
+3 / EC ratios
+was found (Column 1 in Fig. 10) from clean periods (3.03
+and 3.33, respectively) to heavily polluted periods (6.35 and
+5.89, respectively), suggesting enhanced chemical produc-
+tions. The SOR and NOR (molar ratio of sulfate or nitrate to
+sum of sulfate and SO2 or nitrate and NO2) have been used
+as indicators of secondary transformation (Sun et al., 2006).
+The fact that SOR and NOR increased much more rapidly
+than SO2 and NO2 as pollution events became more severe
+(Column 4 in Fig. 10) is further evidence of elevated sec-
+ondary formations of sulfate and nitrate during severe haze
+events.
+Both gas-phase and heterogeneous reactions could con-
+tribute to the formation of sulfate and nitrate from SO2 and
+NO2, thus elevating the SOR and NOR. Sulfate is formed
+through oxidation of SO2 by gas-phase reactions with OH
+(Stockwell and Calvert, 1983; Blitz et al., 2003) and sta-
+bilized Criegee intermediate (which is formed by O3 and
+alkenes) (Mauldin et al., 2012), and by heterogeneous re-
+actions with dissolved H2O2 or with O2 under the catal-
+ysis of transition metal (Seinfeld and Pandis, 2006). Ni-
+trate formation is dominated by the gas-phase reaction of
+NO2 with OH during daylight, and the heterogeneous re-
+actions of nitrate radical (NO3) during nighttime (Seinfeld
+and Pandis, 2006). Since gas-phase production of secondary
+aerosols is expected to decrease under heavily polluted peri-
+ods (Sect. 6.1), the increase of SO2−
+4 /EC and NO−
+3 / EC ratios
+is a clear evidence for the dominant contribution from other
+pathways, most probably from the heterogeneous reactions.
+If we assume heterogeneous chemistry to be the answer to
+the high SO2−
+4
+and NO−
+3 concentrations, there is a problem
+because heterogeneous chemistry still requires oxidation by
+oxidizing agents, e.g., OH, O3, etc., which were indeed sig-
+niﬁcantly reduced (Sect. 6.1). Our explanation for this puz-
+zle is that despite reduced oxidant concentrations, the aerosol
+volume/surface increases so much (due to elevated aerosol
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+www.atmos-chem-phys.net/15/2969/2015/
+
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+2979
+Figure 9. Evaluation of SOC formation. (a) Estimation of SOC with
+EC-tracer method. Squares indicate data used to calculate primary
+OC/EC, while open circles indicate other OC/EC data. (b) Change
+of SOC, OC and SOC/EC with RH. Data points shown in (a) and
+(b) referred to hourly concentrations in daytime (07:00–18:00). (c–
+d) Variation of SOC, SOC/OC and SOC/EC (c) in the morning
+(07:00∼12:00) and (d) in the afternoon (13:00∼18:00) with pol-
+lution level. “C”, “S”, “P”, “H” refer to “clean”, “slightly polluted”,
+“polluted” and “heavily polluted”, respectively. In the box-whisker
+plots, the boxes (b, c, d) and whiskers (c, d) indicated the 95th, 75th,
+50th (median), 25th and 5th percentiles, respectively.
+concentration and the accompanied high RH, Fig. 1) that it is
+enough to compensate its inﬂuence, and moreover, leads to a
+net increase in the formation of secondary aerosols.
+A simpliﬁed case study could show how aerosol vol-
+ume/surface increases could compensate the effect of oxidant
+reduction, and even lead to a net increase in the formation of
+secondary aerosols. Take sulfate for example: the production
+rate of sulfate (S(VI)) through heterogeneous reactions can
+be estimated by
+dCS(VI)/dt ≈k[S(IV)(aq)] · [oxidants (aq)] · Vaerosol,
+(4)
+in which CS(VI) is the sulfate concentration, k is the effective
+rate coefﬁcient, [S(IV)(aq)] is the S(IV) concentration in the
+aqueous phase of aerosols, [oxidants (aq)] is the concentra-
+tion of oxidants in the aqueous phase of aerosols, and Vaerosol
+is the volume concentration of humidiﬁed aerosol at ambient
+RH.
+Equation (4) shows that the oxidants and Vaerosol are both
+essential for the heterogeneous reactions. From the clean to
+the heavily polluted case, O3 is reduced by 80 %, dropping
+from > 50 µg m3 < 10 µg m−3 (Y. Wang et al., 2014). Based
+on our model simulation results, H2O2 concentration also
+Figure 10. Variation of SO2−
+4 /EC, NO−
+3 / EC, SO2, NO2, SOR and
+NOR with pollution level. “C”, “S”, “P”, “H” refer to “clean”,
+“slightly polluted”, “polluted” and “heavily polluted”, respectively.
+Normalized X in Column 4 refers to the average concentration of
+X in any pollution level, scaled by its average concentration dur-
+ing clean periods. In the box-whisker plots, the boxes and whiskers
+indicated the 95th, 75th, 50th (median), 25th and 5th percentiles,
+respectively.
+dropped signiﬁcantly from ∼78 ppbV to ∼11 ppbV. Thus
+we assume an upper limit of 90 % reduction in [oxidants
+(aq)]. Vaerosol depends on the dry aerosol concentrations Vdry
+and its hygroscopic growth factor (GF) of particle size, which
+is a function of RH. Assuming a constant aerosol dry den-
+sity, Vdry is proportional to the mass concentration. From
+the clean case to the heavily polluted case, average PM2.5
+mass concentration increased by 25 time, changing from
+18 µg m−3 to 450 µg m−3 while average RH increased from
+dry (∼20 %) to ∼70 %. Thus we have
+
+oxidants(aq)
+
+HP
+
+oxidants(aq)
+
+Clean
+× (Vaerosol)HP
+(Vaerosol)Clean
+(5)
+=
+
+oxidants(aq)
+
+HP
+
+oxidants(aq)
+
+Clean
+× (Vdry)HP
+(Vdry)Clean
+× (GFHP/Clean)3
+≈0.1 × 25 × (1.1)3 = 3.33,
+where HP and Clean indicate heavily polluted and clean peri-
+ods, respectively. A GF of 1.1 was taken from previous mea-
+surements in Beijing (Meier et al., 2009).
+Equation (2) shows that the increase of aerosol volume
+concentrations could sufﬁciently compensate the effect of
+oxidant reduction, resulting in a net increase of sulfate pro-
+duction.
+Similarly, for NO−
+3 , the inﬂuence of oxidant reduction
+could also be compensated by the increase of aerosol vol-
+ume concentrations. There might be other oxidants associ-
+ated with heterogeneous reactions, such as O2 (especially
+under the catalysis of mineral metals) and other oxidants ex-
+isted in aerosol phase such as organic peroxides (Seinfeld et
+al., 2006).
+In accordance with above discussions, both observation
+and model simulation supported the importance of hetero-
+geneous reactions. Observed SOR and NOR showed an ob-
+vious dependence on RH (Fig. 11). Both SOR and NOR
+were constant under dry conditions (RH < 50 %) (Fig. 11a,
+www.atmos-chem-phys.net/15/2969/2015/
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+
+2980
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+Figure 11. Importance of heterogeneous chemistry in sulfate and
+nitrate formation. (a–b) Hourly SOR and NOR plotted against RH,
+colored with temperature. (c–d) EC-scaled precursors (SO2 and
+NO2) and products (SO2−
+4
+and NO−
+3 ) plotted against RH. EC con-
+centrations at different RH levels were shown for reference.
+b); however, started increasing when RH > 50 %, resulting in
+average values around 0.34 and 0.28 at RH 70–80 %, respec-
+tively. This suggests important contributions from heteroge-
+neous reactions with abundant aerosol water under wet con-
+ditions (Sun et al., 2013a). The observed SOR value was high
+compared with previously reported values of 0.24 (Wang et
+al., 2006) and 0.29 (Zhao et al., 2013) during hazy days in
+Beijing. The NOR value for this study was higher than for
+spring hazy days in 2001–2004 (0.22; Wang et al., 2006), but
+signiﬁcantly lower than for the hazy episode in January 2010
+(0.51; Zhao et al., 2013). Our model simulation results (B.
+Zheng et al., 2014) also supported the importance of hetero-
+geneous chemistry in sulfate and nitrate productions (Figure
+R1). With the addition of the heterogeneous reactions, the
+revised CMAQ showed much better performance in the pol-
+luted periods (B. Zheng et al., 2014), which demonstrated
+the importance of heterogeneous reaction in the production
+of secondary aerosols.
+Concerning the SOA formation, the contribution of hetero-
+geneous reactions might be possible, but it should be much
+less signiﬁcant than for sulfate and nitrate. For RH > 50 %,
+SO2−
+4 /EC and NO−
+3 / EC ratios rose signiﬁcantly (Fig. 11d)
+while SOC/EC ratios remained constant (Fig. 9b). By using
+HOA (hydrocarbon-like organic aerosol) instead of EC, Sun
+et al. (2013a) found similar phenomena. Apparently, SOC
+doesn’t have a heterogeneous formation pathway as effective
+as those of sulfate and nitrate.
+Figure 12. Conceptual model of atmospheric chemistry during the
+heavy pollution events. The dotted black line indicated the meteo-
+rology changed from a convection-favoring condition to a stagnant
+condition.
+7
+Conclusions
+The severe haze pollution during January 2013 was not
+a Beijing-localized phenomenon. Rather, it was the result
+of local pollutants superposed on background regional pol-
+lution, which affected the whole NCP. Although pollutant
+emissions were high, there was no abrupt enhancement in
+2013. The occurrence of the severe winter haze resulted from
+stable synoptic meteorological conditions over a large area of
+northeastern China. Surface weather maps from hazy periods
+were characterized by a weak high-pressure center northeast
+of Beijing, while the termination of a haze episode was al-
+ways accompanied by the Siberian anticyclone (Xu et al.,
+2011; Jia et al., 2008; Liu et al., 2013). Atmospheric chem-
+istry and physics during severe haze pollution events are il-
+lustrated in a conceptual model (Fig. 12). With the onset of
+stable synoptic conditions, RH rises, primary pollutants be-
+gin to accumulate and regional pollution begins to form. If
+the stable conditions last long enough, PM2.5 build-up oc-
+curs, and as a consequence, solar radiation is reduced at the
+ground level. This inhibits surface temperature ﬂuctuation,
+making the formation of the inversed layer easier and rend-
+ing the atmosphere into a more stable condition. Meanwhile,
+photochemical activity is weakened under low solar radia-
+tion, and secondary aerosol formation via this pathway be-
+comes less important. However, under high RH, heteroge-
+neous reactions may play a more important role, especially
+those associated with the aerosol aqueous phase. This results
+in the rapid build-up of secondary aerosols, especially sul-
+fates and nitrates, enhancing PM2.5 pollution. The accumu-
+lation of aerosol particles terminates with the incursion of a
+strong cold front, usually the Siberian anticyclone.
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+www.atmos-chem-phys.net/15/2969/2015/
+
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+2981
+Our analysis also reveals that the regional transport can be
+a key process controlling the variations of local air pollutant
+concentrations. Take the sharp increases of aerosol concen-
+trations on 11–13 January for example: Beijing pollution was
+temporarily ﬂushed away by strong winds associated with the
+arrival of a weak cold air current; as its inﬂuence weakened,
+the polluted regional air mass readily reoccupied the Beijing
+area, resulting in an apparent rapid build-up of PM2.5. This
+was supported by data on the PM2.5 levels around Beijing,
+speciﬁc humidity and PBL height, as well as surface weather
+maps. Our results reveal that the apparent formation rate (the
+rate of change in PM2.5 or other air pollutants) is not only
+due to chemical reactions but also controlled by the regional
+transport along with other processes. It requires caveats to
+derive a real chemical production rate based on a single-site
+measurement. Our results also show a clear impact of re-
+gional transport on the local air pollution, suggesting the im-
+portance of regional-scale emission control measures in the
+local air quality management of Beijing.
+The Supplement related to this article is available online
+at doi:10.5194/acp-15-2969-2015-supplement.
+Acknowledgements. This work was supported by the National
+Natural Science Foundation of China (21190054, 21221004,
+21107061, 41222036 and 41330635), China’s National Basic
+Research Program (2010CB951803), China’s Public Program
+of Ministry of Environmental Protection (201209007), and the
+Japan International Cooperation Agency. F. K. Duan acknowledges
+support from a National Excellent Doctoral Dissertation of China
+Award (2007B57). Y. Cheng was supported by the China Postdoc-
+toral Science Foundation (2013T60130 and 2013M540104). D.
+Chang, H. Su and Y. F. Cheng were supported by the Max Planck
+Society (MPG) and the EU project PEGASOS (265148).
+Edited by: M. Shao
+References
+Blitz, M. A., Hughes, K. J., and Pilling, M. J.: Determination
+of the high-pressure limiting rate coefﬁcient and the enthalpy
+of reaction for OH+SO2, J. Phys. Chem. A, 107, 1971–1978,
+doi:10.1021/jp026524y, 2003.
+Cao, C., Jiang, W., Wang, B., Fang, J., Lang, J., Tian, G., Jiang,
+J., and Zhu, T. F.: Inhalable Microorganisms in Beijing’s PM2.5
+and PM10 Pollutants during a Severe Smog Event, Environ. Sci.
+Technol., 48, 1499–1507, 2014.
+Carmichael, G. R., Streets, D. G., Calori, G., Amann, M., Ja-
+cobson, M. Z., Hansen, J., and Ueda, H.: Changing trends in
+sulfur emissions in Asia: Implications for acid deposition, air
+pollution, and climate, Environ. Sci. Technol., 36, 4707–4713,
+doi:10.1021/es011509c, 2002.
+Chan, C. K. and Yao, X.: Air pollution in mega cities in China,
+Atmos. Environ., 42, 1–42, 2008.
+Chen, Y., Sheng, G., Bi, X., Feng, Y., Mai, B., and Fu, J.: Emission
+factors for carbonaceous particles and polycyclic aromatic hy-
+drocarbons from residential coal combustion in China, Environ.
+Sci. Technol., 39, 1861–1867, 2005.
+Cheng, Y. F., Eichler, H., Wiedensohler, A., Heintzenberg, J.,
+Zhang, Y. H., Hu, M., Herrmann, H., Zeng, L. M., Liu, S., Gnauk,
+T., Brüggemann, E., and He, L. Y.: Mixing state of elemental car-
+bon and non-light-absorbing aerosol components derived from in
+situ particle optical properties at Xinken in Pearl River Delta of
+China, J. Geophys. Res., 111, doi:10.1029/2005JD006929, 2006.
+Cheng, Y. F., Heintzenberg, J., Wehner, B., Wu, Z. J., Su, H., Hu,
+M., and Mao, J. T.: Trafﬁc restrictions in Beijing during the
+Sino-African Summit 2006: aerosol size distribution and visibil-
+ity compared to long-term in situ observations, Atmos. Chem.
+Phys., 8, 7583–7594, doi:10.5194/acp-8-7583-2008, 2008a.
+Cheng, Y., Wiedensohler, A., Eichler, H., Heintzenberg, J., Tesche,
+M., Ansmann, A., Wendisch, M., Su, H., Althausen, D., and
+Herrmann, H.: Relative humidity dependence of aerosol optical
+properties and direct radiative forcing in the surface boundary
+layer at Xinken in Pearl River Delta of China: An observation
+based numerical study, Atmos. Environ., 42, 6373–6397, 2008b.
+Cheng, Y. F., Wiedensohler, A., Eichler, H., Su, H., Gnauk,
+T., Brüggemann, E., Herrmann, H., Heintzenberg, J., Slan-
+ina, J., Tuch, T., Hu, M., and Zhang, Y. H.: Aerosol opti-
+cal properties and related chemical apportionment at Xinken in
+Pearl River Delta of China, Atmos. Environ., 42, 6351–6372,
+doi:10.1016/j.atmosenv.2008.02.034, 2008c.
+Cheng, Y., He, K.-b., Duan, F.-k., Zheng, M., Du, Z.-y.,
+Ma, Y.-l., and Tan, J.-h.: Ambient organic carbon to ele-
+mental carbon ratios: Inﬂuences of the measurement meth-
+ods
+and
+implications,
+Atmos.
+Environ.,
+45,
+2060–2066,
+doi:10.1016/j.atmosenv.2011.01.064, 2011.
+Crutzen, P. J. and Birks, J. W.: Atmosphere after a nuclear war:
+Twilight at noon, Ambio (Allen Press), 11(2/3), 114–125, 1982.
+Docherty, K. S., Stone, E. A., Ulbrich, I. M., DeCarlo, P. F., Snyder,
+D. C., Schauer, J. J., Peltier, R. E., Weber, R. J., Murphy, S. M.,
+Seinfeld, J. H., Grover, B. D., Eatough, D. J., and Jimenez, J. L.:
+Apportionment of Primary and Secondary Organic Aerosols in
+Southern California during the 2005 Study of Organic Aerosols
+in Riverside (SOAR-1), Environ. Sci. Technol., 42, 7655–7662,
+doi:10.1021/es8008166, 2008.
+Duan, J., Tan, J., Yang, L., Wu, S., and Hao, J.: Concentration,
+sources and ozone formation potential of volatile organic com-
+pounds (VOCs) during ozone episode in Beijing, Atmos. Res.,
+88, 25–35, doi:10.1016/j.atmosres.2007.09.004, 2008.
+Hallquist, M., Wenger, J. C., Baltensperger, U., Rudich, Y., Simp-
+son, D., Claeys, M., Dommen, J., Donahue, N. M., George, C.,
+Goldstein, A. H., Hamilton, J. F., Herrmann, H., Hoffmann, T.,
+Iinuma, Y., Jang, M., Jenkin, M. E., Jimenez, J. L., Kiendler-
+Scharr, A., Maenhaut, W., McFiggans, G., Mentel, T. F., Monod,
+A., Prévôt, A. S. H., Seinfeld, J. H., Surratt, J. D., Szmigiel-
+ski, R., and Wildt, J.: The formation, properties and impact
+of secondary organic aerosol: current and emerging issues, At-
+mos. Chem. Phys., 9, 5155–5236, doi:10.5194/acp-9-5155-2009,
+2009.
+He, H., Wang, Y., Ma, Q., Ma, J., Chu, B., Ji, D., Tang, G., Liu,
+C., Zhang, H., and Hao, J.: Mineral dust and NOx promote the
+www.atmos-chem-phys.net/15/2969/2015/
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+
+2982
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+conversion of SO2 to sulfate in heavy pollution days, Sci. Rep.,
+4, 4172, doi:10.1038/srep04172, 2014.
+He, K., Zhao, Q., Ma, Y., Duan, F., Yang, F., Shi, Z., and Chen, G.:
+Spatial and seasonal variability of PM2.5 acidity at two Chinese
+megacities: insights into the formation of secondary inorganic
+aerosols, Atmos. Chem. Phys., 12, 1377–1395, doi:10.5194/acp-
+12-1377-2012, 2012.
+Jia, Y., Rahn, K. A., He, K.,Wen, T., andWang, Y.: A novel tech-
+nique for quantifying the regional component of urban aerosol
+solely from its sawtooth cycles, J. Geophys. Res., 113, D21309,
+doi:10.1029/2008jd010389, 2008.
+Jimenez, J. L., Canagaratna, M. R., Donahue, N. M., Prevot, A. S.
+H., Zhang, Q., Kroll, J. H., DeCarlo, P. F., Allan, J. D., Coe,
+H., Ng, N. L., Aiken, A. C., Docherty, K. S., Ulbrich, I. M.,
+Grieshop, A. P., Robinson, A. L., Duplissy, J., Smith, J. D., Wil-
+son, K. R., Lanz, V. A., Hueglin, C., Sun, Y. L., Tian, J., Laak-
+sonen, A., Raatikainen, T., Rautiainen, J., Vaattovaara, P., Ehn,
+M., Kulmala, M., Tomlinson, J. M., Collins, D. R., Cubison, M.
+J., Dunlea, E. J., Huffman, J. A., Onasch, T. B., Alfarra, M. R.,
+Williams, P. I., Bower, K., Kondo, Y., Schneider, J., Drewnick,
+F., Borrmann, S., Weimer, S., Demerjian, K., Salcedo, D., Cot-
+trell, L., Grifﬁn, R., Takami, A., Miyoshi, T., Hatakeyama, S.,
+Shimono, A., Sun, J. Y., Zhang, Y. M., Dzepina, K., Kimmel,
+J. R., Sueper, D., Jayne, J. T., Herndon, S. C., Trimborn, A.
+M., Williams, L. R., Wood, E. C., Middlebrook, A. M., Kolb,
+C. E., Baltensperger, U., and Worsnop, D. R.: Evolution of Or-
+ganic Aerosols in the Atmosphere, Science, 326, 1525–1529,
+doi:10.1126/science.1180353, 2009.
+Kaneyasu, N., Yamamoto, S., Sato, K., Takami, A., Hayashi, M.,
+Hara, K., Kawamoto, K., Okuda, T., and Hatakeyama, S.: Impact
+of long-range transport of aerosols on the PM2.5 composition at
+a major metropolitan area in the northern Kyushu area of Japan,
+Atmos. Environ., doi:10.1016/j.atmosenv.2014.01.029, in press,
+2014.
+Khalil, M. A. K. and Rasmussen, R. A.: Tracers of wood
+smoke, Atmos. Environ., 37, 1211–1222, doi:10.1016/s1352-
+2310(02)01014-2, 2003.
+Kimoto Electric Co., Ltd.: Technical Notes for Continuous Measur-
+ing Methods for Atmospheric Suspended Particulate Matters, 3rd
+edn., March 2012, Osaka, Japan, 2012 (in Japanese).
+Kimoto, H., Ueda, A., Tsujimoto, K., Mitani, Y., Toyazaki, Y., and
+Kimoto, T.: Development of a Continuous Dichotomous Aerosol
+Chemical Speciation Analyzer, Clean Technology, 23, 49–52,
+2013 (in Japanese).
+Li, W. and Shao, L.: Transmission electron microscopy study of
+aerosol particles from the brown hazes in northern China, J. Geo-
+phys. Res.-Atmos., 114, D09302, doi:10.1029/2008jd011285,
+2009.
+Lim, H.-J., and Turpin, B. J.: Origins of primary and secondary or-
+ganic aerosol in Atlanta: Results of time-resolved measurements
+during the Atlanta supersite experiment, Environ. Sci. Technol.,
+36, 4489–4496, 2002.
+Lin, P., Hu, M., Deng, Z., Slanina, J., Han, S., Kondo, Y., Takegawa,
+N., Miyazaki, Y., Zhao, Y., and Sugimoto, N.: Seasonal and di-
+urnal variations of organic carbon in PM2.5 in Beijing and the
+estimation of secondary organic carbon, J. Geophys. Res., 114,
+D00G11, doi:10.1029/2008jd010902, 2009.
+Liu, X. G., Li, J., Qu, Y., Han, T., Hou, L., Gu, J., Chen, C., Yang,
+Y., Liu, X., Yang, T., Zhang, Y., Tian, H., and Hu, M.: Formation
+and evolution mechanism of regional haze: a case study in the
+megacity Beijing, China, Atmos. Chem. Phys., 13, 4501–4514,
+doi:10.5194/acp-13-4501-2013, 2013.
+Lu, K. D., Hofzumahaus, A., Holland, F., Bohn, B., Brauers, T.,
+Fuchs, H., Hu, M., Häseler, R., Kita, K., Kondo, Y., Li, X., Lou,
+S. R., Oebel, A., Shao, M., Zeng, L. M., Wahner, A., Zhu, T.,
+Zhang, Y. H., and Rohrer, F.: Missing OH source in a suburban
+environment near Beijing: observed and modelled OH and HO2
+concentrations in summer 2006, Atmos. Chem. Phys., 13, 1057–
+1080, doi:10.5194/acp-13-1057-2013, 2013.
+Mauldin, R. L., Berndt, T., Sipila, M., Paasonen, P., Petaja, T., Kim,
+S., Kurten, T., Stratmann, F., Kerminen, V. M., and Kulmala, M.:
+A new atmospherically relevant oxidant of sulphur dioxide, Na-
+ture, 488, 193–196, doi:10.1038/nature11278, 2012.
+Meier, J., Wehner, B., Massling, A., Birmili, W., Nowak, A., Gnauk,
+T., Brueggemann, E., Herrmann, H., Min, H., and Wiedensohler,
+A.: Hygroscopic growth of urban aerosol particles in Beijing
+(China) during wintertime: a comparison of three experimental
+methods, Atmos. Chem. Phys., 9, 6865–6880, doi:10.5194/acp-
+9-6865-2009, 2009.
+Meng, Z. Y., Xu, X. B., Yan, P., Ding, G. A., Tang, J., Lin, W. L.,
+Xu, X. D., and Wang, S. F.: Characteristics of trace gaseous pol-
+lutants at a regional background station in Northern China, At-
+mos. Chem. Phys., 9, 927–936, 2009,
+http://www.atmos-chem-phys.net/9/927/2009/.
+Nel, A.: Air pollution-related illness: effects of particles, Science,
+308, 804–806, 2005.
+Ouyang, Y.: China wakes up to the crisis of air pollution, The
+Lancet Respiratory Medicine, 1, p. 12, doi:10.1016/S2213-
+2600(12)70065-6, 2013.
+Peplow, M.: Beijing smog contains witches’ brew of microbes, Na-
+ture, doi:10.1038/nature.2014.14640, 2014.
+Pöschl, U.: Atmospheric aerosols: Composition, transformation,
+climate and health effects, Angew. Chem. Int. Edit., 44, 75200-
+7540, 2005.
+Plaza, J., Gomez-Moreno, F. J., Nunez, L., Pujadas, M., and
+Artinano, B.: Estimation of secondary organic aerosol for-
+mation
+from
+semicontinuous
+OC-EC
+measurements
+in
+a
+Madrid suburban area, Atmos. Environ., 40, 1134–1147,
+doi:10.1016/j.atmosenv.2005.11.007, 2006.
+Quan, J., Tie, X., Zhang, Q., Liu, Q., Li, X., Gao, Y., and Zhao,
+D.: Characteristics of heavy aerosol pollution during the 2012–
+2013 winter in Beijing, China, Atmos. Environ., 88, 83–89,
+doi:10.1016/j.atmosenv.2014.01.058, 2014.
+Ramanathan, V., Crutzen, P. J., Lelieveld, J., Mitra, A., Althausen,
+D., Anderson, J., Andreae, M., Cantrell, W., Cass, G., and Chung,
+C.: Indian Ocean Experiment: An integrated analysis of the cli-
+mate forcing and effects of the great Indo-Asian haze, J. Geo-
+phys. Res., 106, 28371–28398, 2001.
+Ramanathan, V. and Carmichael, G.: Global and regional climate
+changes due to black carbon, Nat. Geosci., 1, 221–227, 2008.
+Saylor, R. D., Edgerton, E. S., and Hartsell, B. E.: Linear regres-
+sion techniques for use in the EC tracer method of secondary
+organic aerosol estimation, Atmos. Environ., 40, 7546–7556,
+doi:10.1016/j.atmosenv.2006.07.018, 2006.
+Seinfeld, J. H. and Pandis, S. N.: Atmospheric Chemistry and
+Physics: from air pollution to climate change, 2nd Edition, John
+Wiley and Sons, Inc., Hoboken, New Jersey, 2006.
+Atmos. Chem. Phys., 15, 2969–2983, 2015
+www.atmos-chem-phys.net/15/2969/2015/
+
+G. J. Zheng et al.: Exploring the severe winter haze in Beijing
+2983
+Stockwell, W. R. and Calvert, J. G.: The mechanism of the HO-SO2
+reaction, Atmos. Environ., 17, 2231–2235, doi:10.1016/0004-
+6981(83)90220-2, 1983.
+Sun, Y., Zhuang, G., Tang, A., Wang, Y., and An, Z.: Chemical char-
+acteristics of PM2.5 and PM10 in haze-fog episodes in Beijing,
+Environ. Sci. Technol., 40, 3148–3155, 2006.
+Sun, Y., Wang, Z., Fu, P., Jiang, Q., Yang, T., Li, J., and Ge, X.: The
+impact of relative humidity on aerosol composition and evolution
+processes during wintertime in Beijing, China, Atmos. Environ.,
+77, 927–934, 2013a.
+Sun, Y., Jiang, Q., Wang, Z., Fu, P., Li, J., Yang, T., and Yin, Y.:
+Investigation of the Sources and Evolution Processes of Severe
+Haze Pollution in Beijing in January 2013, J. Geophys. Res., 119,
+4380–4398, 2014.
+Sun, Y. L., Wang, Z. F., Fu, P. Q., Yang, T., Jiang, Q., Dong, H. B.,
+Li, J., and Jia, J. J.: Aerosol composition, sources and processes
+during wintertime in Beijing, China, Atmos. Chem. Phys., 13,
+4577–4592, doi:10.5194/acp-13-4577-2013, 2013b.
+Tang, G., Wang, Y., Li, X., Ji, D., Hsu, S., and Gao, X.: Spatial-
+temporal variations in surface ozone in Northern China as ob-
+served during 2009–2010 and possible implications for future air
+quality control strategies, Atmos. Chem. Phys., 12, 2757–2776,
+doi:10.5194/acp-12-2757-2012, 2012.
+Wang, K., Zhang, Y., Nenes, A., and Fountoukis, C.: Implementa-
+tion of dust emission and chemistry into the Community Mul-
+tiscale Air Quality modeling system and initial application to
+an Asian dust storm episode, Atmos. Chem. Phys., 12, 10209–
+10237, doi:10.5194/acp-12-10209-2012, 2012.
+Wang, L. T., Wei, Z., Yang, J., Zhang, Y., Zhang, F. F., Su,
+J., Meng, C. C., and Zhang, Q.: The 2013 severe haze over
+southern Hebei, China: model evaluation, source apportionment,
+and policy implications, Atmos. Chem. Phys., 14, 3151–3173,
+doi:10.5194/acp-14-3151-2014, 2014.
+Wang, Y., Zhuang, G., Sun, Y., and An, Z.: The variation of charac-
+teristics and formation mechanisms of aerosols in dust, haze, and
+clear days in Beijing, Atmos. Environ., 40, 6579–6591, 2006.
+Wang, Y., Yao, L., Wang, L., Liu, Z., Ji, D., Tang, G., Zhang, J.,
+Sun, Y., Hu, B., and Xin, J.: Mechanism for the formation of
+the January 2013 heavy haze pollution episode over central and
+eastern China, Sci. China Earth Sci., 57, 14–25, 2014.
+Wang, Z., Li, J., Wang, Z., Yang, W., Tang, X., Ge, B., Yan, P., Zhu,
+L., Chen, X., and Chen, H.: Modeling study of regional severe
+hazes over mid-eastern China in January 2013 and its implica-
+tions on pollution prevention and control, Sci. China Earth Sci.,
+57, 3–13, 2014.
+Wendisch, M., Hellmuth, O., Ansmann, A., Heintzenberg, J., Engel-
+mann, R., Althausen, D., Eichler, H., Mueller, D., Hu, M., and
+Zhang, Y.: Radiative and dynamic effects of absorbing aerosol
+particles over the Pearl River Delta, China, Atmos. Environ., 42,
+6405–6416, 2008.
+Xing, L., Fu, T. M., Cao, J. J., Lee, S. C., Wang, G. H., Ho, K. F.,
+Cheng, M. C., You, C. F., and Wang, T. J.: Seasonal and spa-
+tial variability of the OM / OC mass ratios and high regional cor-
+relation between oxalic acid and zinc in Chinese urban organic
+aerosols, Atmos. Chem. Phys., 13, 4307–4318, doi:10.5194/acp-
+13-4307-2013, 2013.
+Xu, J., Ma, J. Z., Zhang, X. L., Xu, X. B., Xu, X. F., Lin, W.
+L., Wang, Y., Meng, W., and Ma, Z. Q.: Measurements of
+ozone and its precursors in Beijing during summertime: im-
+pact of urban plumes on ozone pollution in downwind rural ar-
+eas, Atmos. Chem. Phys., 11, 12241–12252, doi:10.5194/acp-
+11-12241-2011, 2011.
+Yang, F., Tan, J., Zhao, Q., Du, Z., He, K., Ma, Y., Duan, F., and
+Chen, G.: Characteristics of PM2.5 speciation in representative
+megacities and across China, Atmos. Chem. Phys., 11, 5207–
+5219, doi:10.5194/acp-11-5207-2011, 2011.
+Yang, K., Dickerson, R. R., Carn, S. A., Ge, C., and Wang, J.:
+First observations of SO2 from the satellite Suomi NPP OMPS:
+Widespread air pollution events over China, Geophys. Res. Lett.,
+40, 4957–4962, 2013.
+Yao, X. H., Chan, C. K., Fang, M., Cadle, S., Chan, T., Mulawa, P.,
+He, K. B., and Ye, B. M.: The water-soluble ionic composition
+of PM2.5 in Shanghai and Beijing, China, Atmos. Environ., 36,
+4223–4234, doi:10.1016/s1352-2310(02)00342-4, 2002.
+York, D., Evensen, N. M., Martinez, M. L., and Delgado, J.
+D.: Uniﬁed equations for the slope, intercept, and standard
+errors of the best straight line, Am. J. Phys., 72, 367–375,
+doi:10.1119/1.1632486, 2004.
+Zhang, J. K., Sun, Y., Liu, Z. R., Ji, D. S., Hu, B., Liu, Q., and Wang,
+Y. S.: Characterization of submicron aerosols during a month
+of serious pollution in Beijing, 2013, Atmos. Chem. Phys., 14,
+2887–2903, doi:10.5194/acp-14-2887-2014, 2014.
+Zhang, Q., Streets, D. G., Carmichael, G. R., He, K., Huo, H., Kan-
+nari, A., Klimont, Z., Park, I., Reddy, S., and Fu, J.: Asian emis-
+sions in 2006 for the NASA INTEX-B mission, Atmos. Chem.
+Phys., 9, 5131–5153, 2009,
+http://www.atmos-chem-phys.net/9/5131/2009/.
+Zhao, P. S., Zhang, X. L., Xu, X. F., and Zhao, X. J.: Long-
+term visibility trends and characteristics in the region of Bei-
+jing, Tianjin, and Hebei, China, Atmos. Res., 101, 711–718,
+doi:10.1016/j.atmosres.2011.04.019, 2011.
+Zhao, X. J., Zhang, X. L., Xu, X. F., Xu, J., Meng, W., and Pu, W.
+W.: Seasonal and diurnal variations of ambient PM2.5 concentra-
+tion in urban and rural environments in Beijing, Atmos. Environ.,
+43, 2893–2900, doi:10.1016/j.atmosenv.2009.03.009, 2009.
+Zhao, X. J., Zhao, P. S., Xu, J., Meng, W., Pu, W. W., Dong, F., He,
+D., and Shi, Q. F.: Analysis of a winter regional haze event and
+its formation mechanism in the North China Plain, Atmos. Chem.
+Phys., 13, 5685–5696, doi:10.5194/acp-13-5685-2013, 2013.
+Zheng, B., Zhang, Q., Zhang, Y., He, K. B., Wang, K., Zheng, G. J.,
+Duan, F. K., Ma, Y. L., and Kimoto, T.: Heterogeneous chem-
+istry: a mechanism missing in current models to explain sec-
+ondary inorganic aerosol formation during the January 2013 haze
+episode in North China, Atmos. Chem. Phys., 15, 2031–2049,
+doi:10.5194/acp-15-2031-2015, 2015.
+Zheng, G., Cheng, Y., He, K., Duan, F., and Ma, Y.: A
+newly identiﬁed calculation discrepancy of the Sunset semi-
+continuous carbon analyzer, Atmos. Meas. Tech., 7, 1969–1977,
+doi:10.5194/amt-7-1969-2014, 2014.
+Zhou, J. M., Zhang, R. J., Cao, J. J., Chow, J. C., and Wat-
+son, J. G.: Carbonaceous and Ionic Components of Atmo-
+spheric Fine Particles in Beijing and Their Impact on At-
+mospheric Visibility, Aerosol Air Qual. Res., 12, 492–502,
+doi:10.4209/aaqr.2011.11.0218, 2012.
+www.atmos-chem-phys.net/15/2969/2015/
+Atmos. Chem. Phys., 15, 2969–2983, 2015

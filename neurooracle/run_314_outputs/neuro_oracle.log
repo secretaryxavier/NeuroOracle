@@ -1,0 +1,269 @@
+2025-05-07 21:55:36,433 - root - INFO - Logging configured.
+2025-05-07 21:55:36,433 - __main__ - INFO - --- Starting Neuro Oracle Pipeline ---
+2025-05-07 21:55:36,433 - __main__ - INFO - Step 1: Data Ingestion
+2025-05-07 21:55:36,433 - ingest - INFO - Configuration loaded from config.json
+2025-05-07 21:55:36,437 - ingest - INFO - Loading OCR data from sample_data/ocr_texts/...
+2025-05-07 21:55:36,438 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 21:55:36,589 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 21:55:36,590 - ingest - INFO - Successfully loaded 314 OCR documents.
+2025-05-07 21:55:36,590 - ingest - INFO - Loading OpenCitations metadata and index...
+2025-05-07 21:55:36,595 - ingest - INFO - Loaded OpenCitations metadata from sample_data/opencitations_data/opencitations_meta.csv (2 rows)
+2025-05-07 21:55:36,595 - ingest - INFO - Loaded OpenCitations index from sample_data/opencitations_data/index.csv (2 rows)
+2025-05-07 21:55:36,595 - __main__ - INFO - Data ingestion complete.
+2025-05-07 21:55:36,597 - __main__ - INFO - Step 2: Text Embedding
+2025-05-07 21:55:36,598 - embed - INFO - Loading sentence transformer model: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 21:55:36,598 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 21:55:36,598 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 21:55:38,086 - embed - INFO - Sentence transformer model loaded successfully.
+2025-05-07 21:55:38,086 - embed - INFO - Loading documents for embedding from: sample_data/ocr_texts/
+2025-05-07 21:55:38,086 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 21:55:38,174 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 21:55:38,174 - embed - INFO - Embedding 314 OCR papers using model: sentence-transformers/all-MiniLM-L6-v2...
+2025-05-07 21:55:47,886 - embed - INFO - Saved embeddings ((314, 384)) to run_314_outputs/embedding_matrix.npy
+2025-05-07 21:55:47,886 - __main__ - INFO - Text embedding complete.
+2025-05-07 21:55:47,886 - __main__ - INFO - Step 3: Citation Graph Building
+2025-05-07 21:55:47,886 - graph - INFO - Building citation graph from OpenCitations data...
+2025-05-07 21:55:47,891 - graph - INFO - Creating graph from 2 citation links.
+2025-05-07 21:55:47,891 - graph - INFO - Citation graph with 3 nodes and 2 edges saved to run_314_outputs/citation_graph.gpickle
+2025-05-07 21:55:47,891 - __main__ - INFO - Citation graph building complete. (Stopping here for third test)
+2025-05-07 21:55:47,891 - __main__ - INFO - Step 4: Semantic Clustering
+2025-05-07 21:55:47,891 - cluster - INFO - Running UMAP + HDBSCAN clustering...
+2025-05-07 21:55:47,902 - cluster - INFO - Loaded embedding matrix from run_314_outputs/embedding_matrix.npy with shape (314, 384)
+2025-05-07 21:55:47,902 - cluster - INFO - Performing UMAP reduction (n_neighbors=15, min_dist=0.1, metric='cosine')...
+2025-05-07 21:55:58,296 - cluster - INFO - UMAP reduction complete. Reduced shape: (314, 2)
+2025-05-07 21:55:58,296 - cluster - INFO - Performing HDBSCAN clustering (min_cluster_size=5)...
+2025-05-07 21:55:58,301 - cluster - INFO - HDBSCAN clustering complete. Found 7 clusters (excluding noise points).
+2025-05-07 21:55:58,330 - cluster - INFO - Saved UMAP coordinates to run_314_outputs/umap_coords.npy
+2025-05-07 21:55:58,335 - cluster - INFO - Saved cluster labels to run_314_outputs/cluster_results.json
+2025-05-07 21:55:58,335 - cluster - INFO - Generating cluster plot...
+2025-05-07 21:55:58,579 - cluster - INFO - Cluster plot saved to run_314_outputs/semantic_clusters.png
+2025-05-07 21:55:58,579 - cluster - INFO - Clustering complete and results saved.
+2025-05-07 21:55:58,579 - __main__ - INFO - Semantic clustering complete.
+2025-05-07 21:55:58,579 - __main__ - INFO - Step 5: Initializing Citation Assistant
+2025-05-07 21:55:58,579 - write - INFO - Initializing Citation Assistant resources...
+2025-05-07 21:55:58,579 - write - INFO - Loading sentence transformer model: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 21:55:58,586 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 21:55:58,586 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 21:55:59,710 - write - INFO - Loading embedding matrix from: run_314_outputs/embedding_matrix.npy
+2025-05-07 21:55:59,710 - write - INFO - Loading documents from: sample_data/ocr_texts/
+2025-05-07 21:55:59,710 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 21:55:59,786 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 21:55:59,786 - write - INFO - Building FAISS index (IndexFlatL2) with 314 vectors.
+2025-05-07 21:55:59,786 - write - INFO - FAISS index built successfully.
+2025-05-07 21:55:59,786 - __main__ - INFO - Citation Assistant initialized and ready (if interactive mode is called).
+2025-05-07 21:55:59,786 - __main__ - INFO - Now starting Citation Assistant interactive interface...
+2025-05-07 22:00:15,655 - root - INFO - Logging configured.
+2025-05-07 22:00:15,655 - __main__ - INFO - --- Starting Neuro Oracle Pipeline ---
+2025-05-07 22:00:15,655 - __main__ - INFO - Step 1: Data Ingestion
+2025-05-07 22:00:15,655 - ingest - INFO - Configuration loaded from config.json
+2025-05-07 22:00:15,655 - ingest - INFO - Loading OCR data from sample_data/ocr_texts/...
+2025-05-07 22:00:15,655 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 22:00:15,736 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 22:00:15,736 - ingest - INFO - Successfully loaded 314 OCR documents.
+2025-05-07 22:00:15,736 - ingest - INFO - Loading OpenCitations metadata and index...
+2025-05-07 22:00:15,736 - ingest - INFO - Loaded OpenCitations metadata from sample_data/opencitations_data/opencitations_meta.csv (2 rows)
+2025-05-07 22:00:15,736 - ingest - INFO - Loaded OpenCitations index from sample_data/opencitations_data/index.csv (2 rows)
+2025-05-07 22:00:15,736 - __main__ - INFO - Data ingestion complete.
+2025-05-07 22:00:15,736 - __main__ - INFO - Step 2: Text Embedding
+2025-05-07 22:00:15,736 - embed - INFO - Loading sentence transformer model: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:00:15,736 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 22:00:15,749 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:00:17,271 - embed - INFO - Sentence transformer model loaded successfully.
+2025-05-07 22:00:17,271 - embed - INFO - Loading documents for embedding from: sample_data/ocr_texts/
+2025-05-07 22:00:17,271 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 22:00:17,340 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 22:00:17,340 - embed - INFO - Embedding 314 OCR papers using model: sentence-transformers/all-MiniLM-L6-v2...
+2025-05-07 22:00:25,938 - embed - INFO - Saved embeddings ((314, 384)) to run_314_outputs/embedding_matrix.npy
+2025-05-07 22:00:25,938 - __main__ - INFO - Text embedding complete.
+2025-05-07 22:00:25,938 - __main__ - INFO - Step 3: Citation Graph Building
+2025-05-07 22:00:25,938 - graph - INFO - Building citation graph from OpenCitations data...
+2025-05-07 22:00:25,942 - graph - INFO - Creating graph from 2 citation links.
+2025-05-07 22:00:25,944 - graph - INFO - Citation graph with 3 nodes and 2 edges saved to run_314_outputs/citation_graph.gpickle
+2025-05-07 22:00:25,944 - __main__ - INFO - Citation graph building complete. (Stopping here for third test)
+2025-05-07 22:00:25,944 - __main__ - INFO - Step 4: Semantic Clustering
+2025-05-07 22:00:25,944 - cluster - INFO - Running UMAP + HDBSCAN clustering...
+2025-05-07 22:00:25,961 - cluster - INFO - Loaded embedding matrix from run_314_outputs/embedding_matrix.npy with shape (314, 384)
+2025-05-07 22:00:25,961 - cluster - INFO - Performing UMAP reduction (n_neighbors=15, min_dist=0.1, metric='cosine')...
+2025-05-07 22:00:36,446 - cluster - INFO - UMAP reduction complete. Reduced shape: (314, 2)
+2025-05-07 22:00:36,446 - cluster - INFO - Performing HDBSCAN clustering (min_cluster_size=5)...
+2025-05-07 22:00:36,455 - cluster - INFO - HDBSCAN clustering complete. Found 7 clusters (excluding noise points).
+2025-05-07 22:00:36,455 - cluster - INFO - Saved UMAP coordinates to run_314_outputs/umap_coords.npy
+2025-05-07 22:00:36,457 - cluster - INFO - Saved cluster labels to run_314_outputs/cluster_results.json
+2025-05-07 22:00:36,457 - cluster - INFO - Generating cluster plot...
+2025-05-07 22:00:36,705 - cluster - INFO - Cluster plot saved to run_314_outputs/semantic_clusters.png
+2025-05-07 22:00:36,705 - cluster - INFO - Clustering complete and results saved.
+2025-05-07 22:00:36,705 - __main__ - INFO - Semantic clustering complete.
+2025-05-07 22:00:36,705 - __main__ - INFO - Step 5: Initializing Citation Assistant
+2025-05-07 22:00:36,705 - write - INFO - Initializing Citation Assistant resources...
+2025-05-07 22:00:36,705 - write - INFO - Loading sentence transformer model: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:00:36,705 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 22:00:36,705 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:00:40,087 - write - INFO - Loading embedding matrix from: run_314_outputs/embedding_matrix.npy
+2025-05-07 22:00:40,087 - write - INFO - Loading documents from: sample_data/ocr_texts/
+2025-05-07 22:00:40,087 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 22:00:40,170 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 22:00:40,170 - write - INFO - Building FAISS index (IndexFlatL2) with 314 vectors.
+2025-05-07 22:00:40,177 - write - INFO - FAISS index built successfully.
+2025-05-07 22:00:40,178 - __main__ - INFO - Citation Assistant initialized and ready (if interactive mode is called).
+2025-05-07 22:00:40,178 - __main__ - INFO - Now starting Citation Assistant interactive interface...
+2025-05-07 22:02:13,715 - write - INFO - Exiting Citation Assistant interface.
+2025-05-07 22:02:13,715 - __main__ - INFO - Citation Assistant interface finished. (Stopping here for fifth test - interactive part)
+2025-05-07 22:02:13,715 - __main__ - INFO - Step 6: Trend Forecasting
+2025-05-07 22:02:13,715 - forecast - INFO - Running topic modeling with BERTopic for trend analysis...
+2025-05-07 22:02:13,730 - forecast - INFO - Loaded metadata for trend analysis from sample_data/opencitations_data/opencitations_meta.csv (2 rows)
+2025-05-07 22:02:13,730 - forecast - WARNING - Not enough documents (2) for BERTopic. Minimum required: 5.
+2025-05-07 22:02:13,730 - forecast - WARNING - Skipping BERTopic visualizations. Reason: Not enough documents (2) for BERTopic. Minimum required: 5.
+2025-05-07 22:02:13,730 - forecast - INFO - Empty topic barchart placeholder saved to run_314_outputs/topic_barchart.html
+2025-05-07 22:02:13,730 - forecast - INFO - Empty topic trends placeholder saved to run_314_outputs/topic_trends.html
+2025-05-07 22:02:13,730 - forecast - INFO - Trend analysis step completed (BERTopic skipped due to insufficient data).
+2025-05-07 22:02:13,730 - __main__ - INFO - Trend forecasting complete.
+2025-05-07 22:02:13,730 - __main__ - INFO - --- Neuro Oracle Pipeline Finished Successfully ---
+2025-05-07 22:16:37,319 - root - INFO - Logging configured.
+2025-05-07 22:16:37,319 - __main__ - INFO - --- Starting Neuro Oracle Pipeline ---
+2025-05-07 22:16:37,319 - __main__ - INFO - Step 1: Data Ingestion
+2025-05-07 22:16:37,319 - ingest - INFO - Configuration loaded from config.json
+2025-05-07 22:16:37,319 - ingest - INFO - Loading OCR data from sample_data/ocr_texts/...
+2025-05-07 22:16:37,319 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 22:16:37,450 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 22:16:37,450 - ingest - INFO - Successfully loaded 314 OCR documents.
+2025-05-07 22:16:37,450 - ingest - INFO - Loading OpenCitations metadata and index...
+2025-05-07 22:16:37,477 - ingest - INFO - Loaded OpenCitations metadata from sample_data/opencitations_data/opencitations_meta.csv (506 rows)
+2025-05-07 22:16:37,478 - ingest - INFO - Loaded OpenCitations index from sample_data/opencitations_data/index.csv (2 rows)
+2025-05-07 22:16:37,481 - __main__ - INFO - Data ingestion complete.
+2025-05-07 22:16:37,481 - __main__ - INFO - Step 2: Text Embedding
+2025-05-07 22:16:37,481 - embed - INFO - Loading sentence transformer model: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:16:37,481 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 22:16:37,481 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:16:38,861 - embed - INFO - Sentence transformer model loaded successfully.
+2025-05-07 22:16:38,861 - embed - INFO - Loading documents for embedding from: sample_data/ocr_texts/
+2025-05-07 22:16:38,861 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 22:16:38,957 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 22:16:38,957 - embed - INFO - Embedding 314 OCR papers using model: sentence-transformers/all-MiniLM-L6-v2...
+2025-05-07 22:16:49,694 - embed - INFO - Saved embeddings ((314, 384)) to run_314_outputs/embedding_matrix.npy
+2025-05-07 22:16:49,694 - __main__ - INFO - Text embedding complete.
+2025-05-07 22:16:49,694 - __main__ - INFO - Step 3: Citation Graph Building
+2025-05-07 22:16:49,700 - graph - INFO - Building citation graph from OpenCitations data...
+2025-05-07 22:16:49,702 - graph - INFO - Creating graph from 2 citation links.
+2025-05-07 22:16:49,702 - graph - INFO - Citation graph with 3 nodes and 2 edges saved to run_314_outputs/citation_graph.gpickle
+2025-05-07 22:16:49,702 - __main__ - INFO - Citation graph building complete. (Stopping here for third test)
+2025-05-07 22:16:49,702 - __main__ - INFO - Step 4: Semantic Clustering
+2025-05-07 22:16:49,702 - cluster - INFO - Running UMAP + HDBSCAN clustering...
+2025-05-07 22:16:49,722 - cluster - INFO - Loaded embedding matrix from run_314_outputs/embedding_matrix.npy with shape (314, 384)
+2025-05-07 22:16:49,723 - cluster - INFO - Performing UMAP reduction (n_neighbors=15, min_dist=0.1, metric='cosine')...
+2025-05-07 22:16:58,603 - cluster - INFO - UMAP reduction complete. Reduced shape: (314, 2)
+2025-05-07 22:16:58,603 - cluster - INFO - Performing HDBSCAN clustering (min_cluster_size=5)...
+2025-05-07 22:16:58,603 - cluster - INFO - HDBSCAN clustering complete. Found 7 clusters (excluding noise points).
+2025-05-07 22:16:58,603 - cluster - INFO - Saved UMAP coordinates to run_314_outputs/umap_coords.npy
+2025-05-07 22:16:58,611 - cluster - INFO - Saved cluster labels to run_314_outputs/cluster_results.json
+2025-05-07 22:16:58,611 - cluster - INFO - Generating cluster plot...
+2025-05-07 22:16:58,834 - cluster - INFO - Cluster plot saved to run_314_outputs/semantic_clusters.png
+2025-05-07 22:16:58,834 - cluster - INFO - Clustering complete and results saved.
+2025-05-07 22:16:58,834 - __main__ - INFO - Semantic clustering complete.
+2025-05-07 22:16:58,834 - __main__ - INFO - Step 5: Initializing Citation Assistant
+2025-05-07 22:16:58,834 - write - INFO - Initializing Citation Assistant resources...
+2025-05-07 22:16:58,834 - write - INFO - Loading sentence transformer model: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:16:58,834 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 22:16:58,834 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:17:00,000 - write - INFO - Loading embedding matrix from: run_314_outputs/embedding_matrix.npy
+2025-05-07 22:17:00,007 - write - INFO - Loading documents from: sample_data/ocr_texts/
+2025-05-07 22:17:00,008 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 22:17:00,089 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 22:17:00,089 - write - INFO - Building FAISS index (IndexFlatL2) with 314 vectors.
+2025-05-07 22:17:00,089 - write - INFO - FAISS index built successfully.
+2025-05-07 22:17:00,089 - __main__ - INFO - Citation Assistant initialized and ready (if interactive mode is called).
+2025-05-07 22:17:00,089 - __main__ - INFO - Now starting Citation Assistant interactive interface...
+2025-05-07 22:17:09,085 - write - INFO - Exiting Citation Assistant interface.
+2025-05-07 22:17:09,085 - __main__ - INFO - Citation Assistant interface finished. (Stopping here for fifth test - interactive part)
+2025-05-07 22:17:09,085 - __main__ - INFO - Step 6: Trend Forecasting
+2025-05-07 22:17:09,085 - forecast - INFO - Running topic modeling with BERTopic for trend analysis...
+2025-05-07 22:17:09,101 - forecast - INFO - Loaded metadata for trend analysis from sample_data/opencitations_data/opencitations_meta.csv (506 rows)
+2025-05-07 22:17:09,109 - forecast - INFO - Fitting BERTopic model on 506 documents...
+2025-05-07 22:17:09,114 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 22:17:09,114 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:17:14,690 - forecast - INFO - BERTopic model fitting complete.
+2025-05-07 22:17:27,112 - forecast - INFO - Topic barchart saved to run_314_outputs/topic_barchart.html
+2025-05-07 22:17:27,118 - forecast - ERROR - Error during BERTopic processing: BERTopic.visualize_topics_over_time() got an unexpected keyword argument 'timestamps'
+Traceback (most recent call last):
+  File "C:\Users\AEHMM\Desktop\neurooracle\neurooracle\forecast.py", line 120, in analyze_trends
+    fig_trends = topic_model.visualize_topics_over_time(documents, timestamps=years)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BERTopic.visualize_topics_over_time() got an unexpected keyword argument 'timestamps'
+2025-05-07 22:17:27,119 - forecast - WARNING - Skipping BERTopic visualizations. Reason: Error during BERTopic processing: BERTopic.visualize_topics_over_time() got an unexpected keyword argument 'timestamps'
+2025-05-07 22:17:27,119 - forecast - INFO - Empty topic barchart placeholder saved to run_314_outputs/topic_barchart.html
+2025-05-07 22:17:27,119 - forecast - INFO - Empty topic trends placeholder saved to run_314_outputs/topic_trends.html
+2025-05-07 22:17:27,119 - forecast - INFO - Trend analysis step completed (BERTopic processing failed).
+2025-05-07 22:17:27,119 - __main__ - INFO - Trend forecasting complete.
+2025-05-07 22:17:27,119 - __main__ - INFO - --- Neuro Oracle Pipeline Finished Successfully ---
+2025-05-07 22:23:54,474 - root - INFO - Logging configured.
+2025-05-07 22:23:54,474 - __main__ - INFO - --- Starting Neuro Oracle Pipeline ---
+2025-05-07 22:23:54,474 - __main__ - INFO - Step 1: Data Ingestion
+2025-05-07 22:23:54,474 - ingest - INFO - Configuration loaded from config.json
+2025-05-07 22:23:54,474 - ingest - INFO - Loading OCR data from sample_data/ocr_texts/...
+2025-05-07 22:23:54,474 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 22:23:54,559 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 22:23:54,559 - ingest - INFO - Successfully loaded 314 OCR documents.
+2025-05-07 22:23:54,559 - ingest - INFO - Loading OpenCitations metadata and index...
+2025-05-07 22:23:54,564 - ingest - INFO - Loaded OpenCitations metadata from sample_data/opencitations_data/opencitations_meta.csv (506 rows)
+2025-05-07 22:23:54,567 - ingest - INFO - Loaded OpenCitations index from sample_data/opencitations_data/index.csv (2 rows)
+2025-05-07 22:23:54,567 - __main__ - INFO - Data ingestion complete.
+2025-05-07 22:23:54,567 - __main__ - INFO - Step 2: Text Embedding
+2025-05-07 22:23:54,567 - embed - INFO - Loading sentence transformer model: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:23:54,571 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 22:23:54,571 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:23:55,895 - embed - INFO - Sentence transformer model loaded successfully.
+2025-05-07 22:23:55,897 - embed - INFO - Loading documents for embedding from: sample_data/ocr_texts/
+2025-05-07 22:23:55,897 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 22:23:55,974 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 22:23:55,974 - embed - INFO - Embedding 314 OCR papers using model: sentence-transformers/all-MiniLM-L6-v2...
+2025-05-07 22:24:04,825 - embed - INFO - Saved embeddings ((314, 384)) to run_314_outputs/embedding_matrix.npy
+2025-05-07 22:24:04,825 - __main__ - INFO - Text embedding complete.
+2025-05-07 22:24:04,825 - __main__ - INFO - Step 3: Citation Graph Building
+2025-05-07 22:24:04,825 - graph - INFO - Building citation graph from OpenCitations data...
+2025-05-07 22:24:04,825 - graph - INFO - Creating graph from 2 citation links.
+2025-05-07 22:24:04,830 - graph - INFO - Citation graph with 3 nodes and 2 edges saved to run_314_outputs/citation_graph.gpickle
+2025-05-07 22:24:04,831 - __main__ - INFO - Citation graph building complete. (Stopping here for third test)
+2025-05-07 22:24:04,831 - __main__ - INFO - Step 4: Semantic Clustering
+2025-05-07 22:24:04,831 - cluster - INFO - Running UMAP + HDBSCAN clustering...
+2025-05-07 22:24:04,844 - cluster - INFO - Loaded embedding matrix from run_314_outputs/embedding_matrix.npy with shape (314, 384)
+2025-05-07 22:24:04,844 - cluster - INFO - Performing UMAP reduction (n_neighbors=15, min_dist=0.1, metric='cosine')...
+2025-05-07 22:24:13,468 - cluster - INFO - UMAP reduction complete. Reduced shape: (314, 2)
+2025-05-07 22:24:13,468 - cluster - INFO - Performing HDBSCAN clustering (min_cluster_size=5)...
+2025-05-07 22:24:13,483 - cluster - INFO - HDBSCAN clustering complete. Found 7 clusters (excluding noise points).
+2025-05-07 22:24:13,485 - cluster - INFO - Saved UMAP coordinates to run_314_outputs/umap_coords.npy
+2025-05-07 22:24:13,485 - cluster - INFO - Saved cluster labels to run_314_outputs/cluster_results.json
+2025-05-07 22:24:13,485 - cluster - INFO - Generating cluster plot...
+2025-05-07 22:24:13,730 - cluster - INFO - Cluster plot saved to run_314_outputs/semantic_clusters.png
+2025-05-07 22:24:13,730 - cluster - INFO - Clustering complete and results saved.
+2025-05-07 22:24:13,730 - __main__ - INFO - Semantic clustering complete.
+2025-05-07 22:24:13,733 - __main__ - INFO - Step 5: Initializing Citation Assistant
+2025-05-07 22:24:13,733 - write - INFO - Initializing Citation Assistant resources...
+2025-05-07 22:24:13,733 - write - INFO - Loading sentence transformer model: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:24:13,738 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 22:24:13,739 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:24:14,832 - write - INFO - Loading embedding matrix from: run_314_outputs/embedding_matrix.npy
+2025-05-07 22:24:14,838 - write - INFO - Loading documents from: sample_data/ocr_texts/
+2025-05-07 22:24:14,838 - utils - INFO - Loading OCR documents from: sample_data/ocr_texts/
+2025-05-07 22:24:14,913 - utils - INFO - Loaded 314 OCR documents.
+2025-05-07 22:24:14,913 - write - INFO - Building FAISS index (IndexFlatL2) with 314 vectors.
+2025-05-07 22:24:14,913 - write - INFO - FAISS index built successfully.
+2025-05-07 22:24:14,913 - __main__ - INFO - Citation Assistant initialized and ready (if interactive mode is called).
+2025-05-07 22:24:14,913 - __main__ - INFO - Now starting Citation Assistant interactive interface...
+2025-05-07 22:24:18,412 - write - INFO - Exiting Citation Assistant interface.
+2025-05-07 22:24:18,412 - __main__ - INFO - Citation Assistant interface finished. (Stopping here for fifth test - interactive part)
+2025-05-07 22:24:18,412 - __main__ - INFO - Step 6: Trend Forecasting
+2025-05-07 22:24:18,412 - forecast - INFO - Configuration loaded from config.json
+2025-05-07 22:24:18,412 - forecast - INFO - Running topic modeling with BERTopic for trend analysis...
+2025-05-07 22:24:18,412 - forecast - INFO - Loaded metadata for trend analysis from sample_data/opencitations_data/opencitations_meta.csv (506 rows)
+2025-05-07 22:24:18,424 - forecast - INFO - Fitting BERTopic model on 506 documents...
+2025-05-07 22:24:18,432 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-07 22:24:18,432 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-07 22:24:23,215 - forecast - INFO - BERTopic model fitting complete.
+2025-05-07 22:24:23,215 - forecast - INFO - Calculating topic frequencies over time...
+2025-05-07 22:24:23,312 - forecast - INFO - Topic frequency calculation complete.
+2025-05-07 22:24:23,312 - forecast - INFO - Generating topic barchart...
+2025-05-07 22:24:23,605 - forecast - INFO - Topic barchart saved to run_314_outputs/topic_barchart.html
+2025-05-07 22:24:23,605 - forecast - INFO - Generating topic trends over time visualization...
+2025-05-07 22:24:24,926 - forecast - INFO - Topic trends over time saved to run_314_outputs/topic_trends.html
+2025-05-07 22:24:24,929 - forecast - INFO - Trend analysis processing complete. Results saved to output directory.
+2025-05-07 22:24:24,929 - __main__ - INFO - Trend forecasting complete.
+2025-05-07 22:24:24,929 - __main__ - INFO - --- Neuro Oracle Pipeline Finished Successfully ---

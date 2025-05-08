@@ -1,0 +1,2896 @@
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+https://doi.org/10.5194/acp-19-8243-2019
+© Author(s) 2019. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Evaluation and comparison of multiangle implementation of the
+atmospheric correction algorithm, Dark Target, and Deep Blue
+aerosol products over China
+Ning Liu1, Bin Zou1,2, Huihui Feng1, Wei Wang1, Yuqi Tang1, and Yu Liang1
+1School of Geosciences and Info-Physics, Central South University, Changsha, 410083, China
+2Key Laboratory of Metallogenic Prediction of Nonferrous Metals and Geological Environment Monitoring (Central South
+University), Ministry of Education, Changsha, 410083, China
+Correspondence: Bin Zou (210010@csu.edu.cn)
+Received: 22 December 2018 – Discussion started: 25 January 2019
+Revised: 13 May 2019 – Accepted: 14 May 2019 – Published: 26 June 2019
+Abstract. A new multiangle implementation of the at-
+mospheric correction (MAIAC) algorithm has been ap-
+plied in the Moderate Resolution Imaging Spectroradiome-
+ter (MODIS) sensor and has recently provided globally
+high-spatial-resolution aerosol optical depth (AOD) prod-
+ucts at 1 km. Moreover, several improvements have been
+modiﬁed in the classical Dark Target (DT) and Deep Blue
+(DB) aerosol retrieval algorithms in MODIS Collection 6.1
+products. Thus, validation and comparison of the MAIAC,
+DT, and DB algorithms are urgent in China. In this pa-
+per, we present a comprehensive assessment and compar-
+ison of AOD products at a 550 nm wavelength based on
+three aerosol retrieval algorithms in the MODIS sensor us-
+ing ground-truth measurements from AErosol RObotic NET-
+work (AERONET) sites over China from 2000 to 2017. In
+general, MAIAC products achieved better accuracy than DT
+and DB products in the overall validation and accuracy im-
+provement of DB products after the QA ﬁlter, demonstrating
+the highest values among the three products. In addition, the
+DT algorithms had higher aerosol retrievals in cropland, for-
+est, and ocean land types than the other two products, and the
+MAIAC algorithms were more accurate in grassland, built-
+up, unoccupied, and mixed land types among the three prod-
+ucts. In the geometry dependency analysis, the solar zenith
+angle, scattering angle, and relative azimuth angle, exclud-
+ing the view zenith angle, signiﬁcantly affected the perfor-
+mance of the three aerosol retrieval algorithms. The three
+products showed different accuracies with varying regions
+and seasons. Similar spatial patterns were found for the three
+products, but the MAIAC retrievals were smaller in the North
+China Plain and higher in Yunnan Province compared with
+the DT and DB retrievals before the QA ﬁlter. After the QA
+ﬁlter, the DB retrievals were signiﬁcantly lower than the MA-
+IAC retrievals in south China. Moreover, the spatiotemporal
+completeness of the MAIAC product was also better than the
+DT and DB products.
+1
+Introduction
+Aerosols are a multi-compartment system consisting of sus-
+pended solid and liquid particles in the atmosphere, which
+play an important role in radiative forcing (Rajeev et al.,
+2001), regional climate (Qian and Giorgi, 1999; Feng et al.,
+2019), and urban air pollution (Dominici et al., 2014). The
+aerosol optical depth (AOD) is the key aerosol optical pa-
+rameter, deﬁned as the vertical integration of the aerosol
+extinction coefﬁcient from the ground to the top of the at-
+mosphere (TOA). Ground measurements from the AErosol
+RObotic NETwork (AERONET) provide high-quality multi-
+band aerosol optical and microphysical properties at 15 min
+sampling frequencies on a global scale (Holben et al., 1998).
+High-quality ground measurements are often employed to
+validate satellite aerosol products (Chu et al., 2002) and to
+provide a regional aerosol model for the satellite aerosol
+retrieval algorithm (Levy et al., 2013). However, they can-
+not grasp the high aerosol spatial variability due to the
+sparse ground sites where spatial variability information is
+still necessary. Though some active remote-sensing meth-
+Published by Copernicus Publications on behalf of the European Geosciences Union.
+
+8244
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+ods, e.g., spaceborne lidar, can monitor vertical distribution
+of aerosol, they still cannot observe high aerosol spatial vari-
+ability (Huang et al., 2007; Jia et al., 2015; Liu et al., 2015).
+Although model-simulated AOD can obtain spatially contin-
+uous data, its very coarse resolution and large uncertainties
+limit its application (Sun et al., 2019; Cesnulyte et al., 2014).
+In contrast, the satellite aerosol retrieval algorithm has the
+ability to achieve continuous spatial measurements with high
+spatial resolution (She et al., 2017).
+The Moderate Resolution Imaging Spectroradiometer
+(MODIS) sensor with its multiband detection ability from the
+visible band to thermal infrared spectrum band (Salomonson
+et al., 1989) can readily detect aerosol properties. With the
+Terra satellite and Aqua satellite carrying the MODIS sen-
+sor successfully launched in 2000 and 2002, respectively,
+MODIS has stored over 17 years of historical globally moni-
+tored data. Recently, a new multiangle implementation of the
+atmospheric correction (MAIAC) algorithm has been applied
+in the MODIS sensor, which provides high-spatial-resolution
+aerosol data at 1 km (Lyapustin et al., 2018). Moreover, some
+important improvements in classical Dark Target (DT; Mat-
+too, 2017) and Deep Blue (DB; Hsu, 2017) aerosol retrieval
+algorithms have been revised in MODIS Collection 6.1 prod-
+ucts. However, all satellite aerosol retrieval algorithms are
+under some hypothesis and approximation assessments, and
+the accuracy should be validated before applying a satellite
+aerosol product in related studies.
+China is experiencing severe aerosol pollution, and numer-
+ous studies on aerosol pollution have utilized MODIS Col-
+lection 6.0 aerosol retrievals to map aerosol pollution and to
+analyze its spatiotemporal trends (Fang et al., 2016; Ma et
+al., 2014; He and Huang, 2018a, b; Zou et al., 2016, 2019;
+Zhai et al., 2018). Few studies have applied 1 km MAIAC
+aerosol retrievals to map ﬁner aerosol concentrations in re-
+gional China, e.g., the Yangtze River Delta (Xiao et al., 2017)
+and Shandong Province (Li et al., 2018). Before widely ap-
+plying MAIAC and C6.1 products in China, the accuracy dif-
+ferences and applicable conditions of the three aerosol re-
+trievals should ﬁrst be recognized to guide the utilization of
+these products. Recently, the global validation (Lyapustin et
+al., 2018) and regional validation in South America (Mar-
+tins et al., 2017), North America (Superczynski et al., 2017),
+and South Asia (Mhawish et al., 2019) for MAIAC products
+has shown that more than 66 % of retrievals fall within the
+expected error (EE = ±(0.05 + 0.05 × AOD)) limits, indi-
+cating a good accuracy for MAIAC products. In China, a
+comprehensive validation of the C6.1 product was initially
+performed (Wang et al., 2019) and then the MAIAC product
+was relatively simply evaluated against ground AERONET
+measurement in different seasons and land cover types and
+at different sites (Zhang et al., 2019). Thus, an urgent de-
+mand persists for a detailed comparison of the three products
+to guide user selection of these products.
+In this context, we provide the ﬁrst comprehensive under-
+standing and comparison of the aerosol retrieval uncertainties
+for MAIAC, DT, and DB products in China based on spa-
+tiotemporal accuracy differentiation patterns, spatiotemporal
+completeness, land type dependence characteristics, view ge-
+ometry dependence characteristic aspects, and other features.
+The following paper is organized as follows: Sect. 2 brieﬂy
+introduces three satellite products with their retrieval algo-
+rithm and ground AERONET data, the validation approach
+is clariﬁed in Sect. 3, and Sect. 4 provides the detailed vali-
+dation results and discussion. The conclusions are presented
+in Sect. 5.
+2
+Data description
+Three aerosol products, e.g., MAIAC, DT, and DB, are stored
+in Hierarchical Data Format (*.hdf) ﬁles, and we obtain
+corresponding *.hdf ﬁles in the China region from 2000
+to 2017 from the NASA Earthdata Search website (https://
+search.earthdata.nasa.gov/search/, last access: 28 May 2019).
+Some ground surface types, e.g. snow, cloud, and desert,
+will increase the retrieval uncertainty; thus three products
+all provide a quality assurance (QA) ﬂag to indicate the re-
+trieval quality. Ground measurement aerosol data obtained
+from the AERONET website (https://aeronet.gsfc.nasa.gov/,
+last access: 28 May 2019) were used to validate the accu-
+racy of three satellite aerosol products. Additionally, land
+cover data from the Geographical Information Monitoring
+Cloud Platform (GIMCP, http://www.dsac.cn/, last access:
+28 May 2019) were utilized to analyze the land cover de-
+pendency for three satellite aerosol products.
+2.1
+DT products
+The DT algorithm retrieves AOD parameters based on the
+assumption that the surface reﬂectance in two visible bands,
+e.g., 470 and 644 nm, presents a good linear relationship
+with the surface reﬂectance in the shortwave infrared (SWIR)
+band, e.g., 2119 nm, in dark, dense vegetated area, and the
+measurement in the SWIR band is transparent with the
+aerosol particle (Kaufman et al., 1997; Levy et al., 2013).
+The surface and aerosol information can then be decoupled
+from the TOA spectral reﬂectance. Compared with the DT
+algorithm in Collection 6.0, the DT algorithm in Collection
+6.1 mainly revises the surface characterization over the land
+surface when the urban percentage is larger than 20 % (Gupta
+et al., 2016).
+The DT algorithm produces two aerosol resolution prod-
+ucts in Collection 6.0 and 6.1, e.g., 3 km × 3 km and
+10 km × 10 km. The two resolution products share the same
+retrieval protocol except the use of different retrieval boxes.
+For example, the 10 km product organizes 20×20 group pix-
+els with the three aforementioned band measurements at 500
+resolution into the retrieval box, whereas the 3 km product
+combines three band measurements in the 6 × 6 pixel group
+into a retrieval box (Remer et al., 2013). The comparison be-
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8245
+tween the 10 km product and 3 km product from Collection
+6.0 on the global scale (Remer et al., 2013) and the China
+region (He et al., 2017) shows that the accuracy of the 10 km
+product is superior to one of the 3 km product, even though
+the 3 km product provides ﬁner-resolution aerosol retrievals.
+In this study, we consider the 10 km product of the newest
+Collection 6.1 version from the Terra satellite. In DT prod-
+ucts, QA = 3 indicates high-conﬁdence data, and QA = 1
+indicates marginal-conﬁdence data (Levy et al., 2013). In
+this paper, the scientiﬁc datasets (SDSs), named the “Im-
+age_Optical_Depth_Land_And_Ocean” without a QA ﬁl-
+ter and “Optical_Depth_Land_And_Ocean” with a QA ﬁl-
+ter (QA > 1 for ocean and QA = 3 for land), are extracted to
+compare the accuracy with and without the QA ﬁlter.
+2.2
+DB products
+The DB algorithm retrieves the AOD parameter under the hy-
+pothesis that the surface reﬂectance in the Deep Blue band,
+e.g., 412 nm, is much smaller than in longer bands over bright
+surfaces, such as urban and desert regions (Hsu et al., 2004).
+First, the DB algorithm retrieves 1 km aerosol properties us-
+ing the global surface reﬂectance database in visible bands,
+e.g., 412, 470, and 650 nm, and then aggregates 1 km pixels
+into a 10 km scale. In Collection 6.0, the surface reﬂectance
+database is improved using knowledge of the normalized dif-
+ference vegetation index, scattering angle, and season (Hsu
+et al., 2013). The ability to retrieve aerosol data over a bright
+surface for the DB algorithm greatly expands the coverage
+of aerosol retrieval. The general principles for collection of
+the 6.1 DB products are still the same as those in the Collec-
+tion 6.0 version. The major improvements for Collection 6.1
+DB products are in the radiometric calibration, heavy smoke
+detection, artifact reduction over heterogeneous terrain, sur-
+face model in elevated terrain and regional/seasonal aerosol
+optical models (Hsu, 2017).
+The
+same
+as
+the
+DT
+products,
+SDSs
+named
+“Deep_Blue_Aerosol_Optical_Depth_550_Land”
+without
+the
+QA
+ﬁlter
+and
+“Deep_
+Blue_Aerosol_Optical_Depth_550_Land_Best_Estimate”
+with the QA ﬁlter (QA = 2, 3 for land) in Collection 6.1
+from the Terra satellite were selected for our study to
+validate the accuracy improvement by the QA ﬁlter. The
+solar zenith angle in the “Solar_Zenith” SDSs, view zenith
+angle in the “Sensor_Zenith” SDSs, solar azimuth angle
+in the “Solar_Azimuth” SDSs, sensor azimuth angle in
+the “Sensor_Azimuth” SDSs, and scattering angle in the
+“Scattering_Angle” SDSs were also assessed to determine
+the geometry dependence for DT and DB products.
+2.3
+MAIAC products
+The MAIAC algorithm relies on the assumption that the sur-
+face reﬂectance changes slowly over time and shows high
+variability over space, whereas the aerosol loading changes
+very fast over time and varies only on a limited space scale.
+The main procedure of MAIAC is as follows: ﬁrst, MAIAC
+resamples MODIS L1B measurements into a ﬁxed 1 km grid,
+and then it adopts 4–16 d time series of resampled MODIS
+measurements to retrieve the surface Ross–Thick Li–Sparse
+(RTLS) bidirectional reﬂectance distribution function (Lucht
+et al., 2000) using the measurements in the SWIR band. Sub-
+sequently, the linear spectral regression coefﬁcient (SRC) be-
+tween 470 and 2119 nm for each 1 km grid is retrieved in-
+stead of using the empirical regression coefﬁcient in the DT
+algorithm. Finally, the AOD parameter at 470 nm can be re-
+trieved by searching the minimum spectral residual between
+the theoretical TOA reﬂectance of the lookup table and the
+measurements in the red and SWIR bands. The AOD is orig-
+inally retrieved at 470 nm, and the AOD parameter at 550 nm
+is computed using the AOD parameter at 470 nm based on
+spectral properties, expressed by the regional aerosol model
+from the MAIAC lookup table. The detailed MAIAC algo-
+rithm has been described by Lyapustin et al. (2011).
+Data
+used
+in
+this
+study
+were
+from
+the
+“Opti-
+cal_Depth_055” and “AOD_QA” SDSs, and data were
+collected from the Terra satellite. The data type of the
+“AOD_QA” SDSs is a 16-bit unsigned integer, and the best
+retrieved quality can be selected if 8–11 bytes of “AOD_QA”
+SDS bits are “0000”, which indicates the retrieval pixel and
+its adjacent pixel is clear (Lyapustin et al., 2018). The solar
+zenith angle in the “cosSZA” SDSs, view zenith angle in
+the “cosVZA” SDSs, relative azimuth angle in the “RelAZ”
+SDSs, and scattering angle in the “Scattering_Angle” SDSs
+were also selected to analyze the view geometry dependence
+for MAIAC products.
+2.4
+AERONET data
+AERONET is a global ground-based aerosol monitoring net-
+work that provides continuous optical and microphysical
+properties of aerosols at a 15 min sampling rate. The total
+uncertainty for the AERONET AOD parameter under cloud-
+free conditions is lower than ±0.01 for a wavelength longer
+than 440 nm and less than ±0.02 for shorter wavelengths
+(Holben et al., 1998). Some studies were also conducted to
+examine the properties of these high-quality measurements
+in China (Liu et al., 2011; Xia et al., 2007; Li et al., 2007;
+Che et al., 2008, 2014; Bi et al., 2014). These high-accuracy
+datasets support various satellite AOD product evaluation
+studies in the China region (Tao et al., 2015; Tian et al.,
+2018; He et al., 2017; Sogacheva et al., 2018). AERONET
+provides three quality levels of data, e.g., level 1.0, level 1.5,
+and level 2.0, in version 3. Here, we only selected quality-
+assured level 2.0 data as ground-truth data to validate the
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8246
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Table 1. Selected AERONET sites used in this study. The number of the match column statistics matches the number between the satellite
+observations before the QA ﬁlter and the ground AERONET observations in the selected spatiotemporal window presented in Sect. 3.1.
+Site
+Longitude
+Latitude
+Period
+Number of matches
+MAIAC
+DT
+DB
+NCU_Taiwan
+121.19
+24.97
+1998–2013
+100
+94
+96
+Taipei_CWB
+121.54
+25.01
+2000–2018
+559
+535
+609
+Beijing
+116.38
+39.98
+2001–2018
+527
+207
+371
+Dunhuang
+94.79
+40.04
+2001–2001
+11
+1
+12
+Inner_Mongolia
+115.95
+42.68
+2001–2001
+9
+1
+8
+Lan_Yu_Island
+121.56
+22.04
+2001–2001
+9
+4
+0
+XiangHe
+116.96
+39.75
+2001–2018
+3485
+1841
+2267
+Chen-Kung_Univ
+120.20
+22.99
+2002–2018
+593
+553
+623
+EPA-NCU
+121.19
+24.97
+2004–2018
+411
+373
+394
+Chao_Jou
+120.53
+22.51
+2005–2005
+4
+3
+3
+Hong_Kong_PolyU
+114.18
+22.30
+2005–2018
+661
+423
+497
+Liangning
+122.7
+41.51
+2005–2005
+13
+26
+27
+Taichung
+120.49
+24.11
+2005–2005
+16
+16
+16
+Taihu
+120.22
+31.42
+2005–2018
+286
+413
+595
+BackGarden_GZ
+113.02
+23.30
+2006–2006
+3
+3
+4
+Lulin
+120.87
+23.47
+2006–2018
+505
+445
+505
+NAM_CO
+90.96
+90.96
+2006–2018
+413
+71
+164
+PKU_PEK
+116.18
+39.59
+2006–2008
+23
+16
+16
+SACOL
+104.14
+35.95
+2006–2013
+259
+230
+318
+Xinglong
+117.58
+40.40
+2006–2014
+147
+124
+141
+Yufa_PEK
+116.18
+39.31
+2006–2006
+11
+9
+9
+Asia1
+87.65
+43.78
+2007–2007
+2
+1
+1
+Hangzhou-ZFU
+119.73
+30.26
+2007–2009
+5
+22
+22
+Hong_Kong_Hok_Tsui
+114.26
+22.21
+2007–2010
+120
+62
+78
+NUIST
+118.72
+32.21
+2007–2010
+7
+5
+9
+Qiandaohu
+119.05
+29.56
+2007–2009
+53
+49
+53
+Hangzhou_City
+120.16
+30.29
+2008–2009
+29
+43
+59
+Kaiping
+112.54
+22.32
+2008–2008
+10
+9
+9
+Shouxian
+116.78
+32.56
+2008–2008
+37
+42
+48
+Zhangye
+100.28
+39.08
+2008–2008
+37
+22
+27
+Lanzhou_City
+103.85
+36.05
+2009–2010
+27
+19
+45
+QOMS_CAS
+86.95
+28.37
+2009–2018
+1241
+36
+715
+Zhongshan
+113.38
+22.52
+2009–2009
+2
+2
+2
+Beijing_RADI
+116.38
+40.00
+2010–2018
+116
+68
+127
+Minqin
+102.96
+38.61
+2010–2010
+15
+8
+18
+Litang
+100.26
+29.98
+2011–2011
+2
+2
+2
+Muztagh_Ata
+75.04
+38.41
+2011–2011
+104
+0
+41
+Zhongshan_Univ
+113.39
+23.06
+2011–2012
+34
+28
+30
+Beijing-CAMS
+116.32
+39.93
+2012–2018
+1250
+505
+818
+Dunhuang_LZU
+94.96
+40.49
+2012–2012
+17
+0
+22
+Hong_Kong_Sheung
+114.12
+22.48
+2012–2018
+94
+67
+81
+AOE_Baotou
+109.63
+40.85
+2013–2018
+16
+21
+24
+Chiayi
+120.5
+23.5
+2013–2018
+287
+289
+298
+Heng-Chun
+120.7
+22.05
+2013–2015
+59
+35
+36
+Puli
+120.97
+23.97
+2013–2013
+4
+3
+3
+Lingshan_Mountain
+115.5
+40.05
+2014–2015
+1
+1
+1
+Douliu
+120.54
+23.71
+2015–2018
+70
+69
+72
+Alishan
+120.81
+23.51
+2016–2016
+5
+4
+4
+Bamboo
+121.54
+25.19
+2016–2017
+1
+1
+1
+Banqiao
+121.44
+25.00
+2017–2017
+26
+20
+22
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8247
+Figure 1. Locations of the selected AERONET sites around China displayed on the land cover map from 2013. BTH: Beijing–Tianjin–Heibei;
+YRD: Yangtze River Delta; PRD: Pearl River Delta; NW: northwestern China.
+satellite data. Figure 1 shows the locations of the selected
+50 AERONET sites across China in this study. Table 1 re-
+ports the site name, longitude, and latitude of the selected
+sites. However, the AERONET site does not record aerosol
+measurements at 550 nm, and thus we interpolated the AOD
+parameter at 550 nm using the Ångström exponent in the two
+neighboring bands at 500 and 675 nm (Ångström et al., 1929;
+Eck et al., 1999) which can be shown by
+α500−675 = −ln(τ500/τ675)
+ln(500/675)
+(1)
+τ550 = τ675(500/675)−α500−675,
+where τ500 and τ675 are the AOD parameter at 500 and
+675 nm, respectively, τ550 is the interpolated AOD parame-
+ter at 550 nm, α500−675 is the corresponding Ångström expo-
+nent, and ln(*) is the logarithmic operator.
+2.5
+Land cover data
+One key difﬁculty in the aerosol retrieval algorithm is to
+decouple surface and atmosphere information in the satel-
+lite apparent reﬂectance. Land cover information greatly af-
+fects atmosphere properties (Xu et al., 2018; Feng and Zou,
+2019). Understanding the uncertainties in a satellite aerosol
+retrieval algorithm for different land cover types is neces-
+sary (W. Wang et al., 2019). GIMCP land cover data with
+30 m resolution in the years 2000, 2005, 2008, 2010, and
+2013 were used in this study. The ﬁrst level of GIMCP land
+cover data includes cropland, forest, grassland, water, and
+built-up and unoccupied land. Among them, unoccupied land
+includes desert, saline–alkaline soil, swampland, bare land,
+and bare rock gravel, which mainly includes bright surfaces.
+The high spatial resolution and abundant land cover types
+support our studies. Figure 1 shows the ﬁrst level land cover
+type across the China mainland in 2013.
+3
+Evaluation method
+3.1
+The selected spatiotemporal window
+There are only a small number of matchup data between the
+satellite data and ground data when using the direct match-
+ing method, e.g., use only 1 pixel where the AERONET
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8248
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Table 2. Land cover type for each AERONET site in 2013.
+Land cover
+Site
+Land cover
+Site
+Land cover
+Site
+Cropland
+Shouxian
+Grassland
+SACOL
+Mixed
+NCU_Taiwan
+XiangHe
+Asia1
+Chen-Kung_Univ
+Liangning
+Lanzhou_City
+EPA-NCU
+PKU_PEK
+QOMS_CAS
+Chao_Jou
+Yufa_PEK
+Litang
+Taichung
+NUIST
+Muztagh_Ata
+Taihu
+Forest
+Taipei_CWB
+AOE_Baotou
+BackGarden_GZ
+Lulin
+Built-up
+Beijing
+NAM_CO
+Xinglong
+Beijing_RADI
+Hangzhou_City
+Hangzhou-ZFU
+Beijing-CAMS
+Kaiping
+Qiandaohu
+Ocean
+Lan_Yu_Island
+Zhangye
+Chiayi
+Hong_Kong_PolyU
+Zhongshan
+Puli
+Hong_Kong_Hok_Tsui
+Zhongshan_Univ
+Lingshan_Mountain
+Heng-Chun
+Hong_Kong_Sheung
+Alishan
+Unoccupied land
+Dunhuang
+Douliu
+Banqiao
+Minqin
+Bamboo
+Grassland
+Inner_Mongolia
+Dunhuang_LZU
+sites are located and ground measurement at the exact satel-
+lite overpass time, due to large numbers of missing data in
+AERONET or satellite data and the time delay between the
+satellite overpass time and AERONET sampling time. There-
+fore, under the assumption that aerosol information is homo-
+geneous in a limited spatial and temporal lag, a suitable spa-
+tiotemporal window is often adopted to increase the matchup
+data number. Thus, satellite measurements in the spatial win-
+dow around the AERONET sites are averaged, and ground
+measurements in the temporal window centered on the satel-
+lite overpass time are averaged.
+For 10 km DT and DB products, the selected spatial
+window is often 50 km × 50 km, and the temporal window
+is ±30 min (Ichoku et al., 2002; He et al., 2017; Tao et
+al., 2015). For MAIAC products, Matins et al. (2017) de-
+scribed ﬁve different spatial windows, e.g., 3, 15, 25, 75,
+and 125 km, and four temporal windows, e.g., 30, 60, 90,
+and 120 min, to validate the MAIAC product over South
+America (Matins et al., 2017). The results showed that
+25 km × 25 km and ±60 min are reasonable for the Terra
+satellite. For comparison with 10 km DT and DB products,
+we selected 30 km × 30 km as the spatial window closest to
+the best spatial window for the MAIAC product and em-
+ployed the best temporal window ±30 min of the 10 km prod-
+uct because we also noticed that the validation accuracy is
+very close for the ±30 and ±60 min temporal windows in
+the results of Matins et al. (2017), although the matchup data
+number of the ±60 min temporal window is more than one
+of the ±30 min temporal windows (Matins et al., 2017).
+3.2
+Land cover types for the AERONET sites
+The ﬁrst level of GIMCP land cover data was used
+to label the AERONET site group. Due to the selected
+30 km × 30 km spatial window in Sect. 3.1, we labeled the
+AERONET sites if the proportion of one land cover type ex-
+ceeded 50 % in the spatial window around the AERONET
+site. If there was no dominant land cover type, we deﬁned the
+land cover type for this AERONET site as a mixed group. Ex-
+cept for the deﬁned ﬁrst level type in the GIMCP land cover
+data, we found some coastal AERONET sites in which the
+dominant region was ocean, so we deﬁned the land cover
+type for these sites as the ocean group.
+Table 2 shows the land cover types for each AERONET
+site in 2013. There were no land cover type changes for most
+sites except Hangzhou_City, Muztagh_Ata, and NAM_CO.
+For the Hangzhou_City site, the land cover type changed
+from cropland to mixed group from 2005 to 2008, potentially
+due to the process of urbanization. For the Muztagh_Ata site,
+the land cover type changed from unoccupied land to grass-
+land from 2008 to 2010, and the land cover type for the
+NAM_CO site varied from grassland to the mixed group be-
+tween 2008 and 2010. We labeled each matchup dataset for
+the three sites using the land cover type in the nearest year to
+the AERONET sampling time.
+3.3
+Statistical approach
+The expected error (EE) envelope is often used to validate
+satellite retrieval uncertainties. More than 66 % of retrievals
+falling within the expected error lines indicate good accu-
+racy. For the DT algorithm, the EE envelope is generally
+deﬁned as ±(0.05 + 0.15 × AOD) over land, and over 66 %
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8249
+of retrievals meet the deﬁned expected error limits at the
+global scale (Levy et al., 2010, 2013; Remer et al., 2005).
+In the global-scale validation for the MAIAC product, over
+66 % of retrievals satisfy the ±(0.05 + 0.1 × AOD) EE lim-
+its, demonstrating that the accuracy of MAIAC is relatively
+higher than the DT algorithm over land (Lyapustin et al.,
+2018). In the regional validation of South America and South
+Asia for the MAIAC product, the EE envelope is deﬁned
+as ±(0.05+0.05×AOD) and ±(0.05+0.1×AOD) respec-
+tively, and the fraction of retrievals within these EE limits
+are all over 66 % (Mhawish et al., 2019; Matins et al., 2017).
+In our study, to compare DT and DB products, we adopted
+±(0.05 + 0.15 × AOD) as the EE envelope and calculated
+the proportion within the EE envelope (Within_EE) using
+Eq. (2):
+AOD −EE ≤AODsat ≤AOD + EE.
+(2)
+In addition to the EE envelope, we also adopted coefﬁcient
+of determination (R2) and Pearson correlation coefﬁcient
+(R) to study the correlation between the satellite AOD and
+AERONET AOD. The root-mean-square error (RMSE) was
+also utilized to analyze the dispersion degree of accuracy of
+the satellite AOD. The mean bias (bias) was used to describe
+the bias of the satellite AOD. These statistical indicators were
+calculated using Eqs. (3)–(6), respectively.
+R2 = 1 −
+NP
+i=1
+(AODsat −AODaero)2
+NP
+i=1
+ AODaero −AODaero
+2
+(3)
+R =
+(4)
+PN
+i=1
+ AODsat −AODsat
+ AODaero −AODaero
+
+qPN
+i=1
+ AODsat −AODsat
+2PN
+i=1
+ AODaero −AODaero
+2
+RMSE =
+v
+u
+u
+u
+t
+NP
+i=1
+(AODsat −AODaero)2
+N
+(5)
+Bias =
+NP
+i=1
+(AODsat −AODaero)
+N
+(6)
+AODsat and AODaero are the satellite AOD retrievals and
+AERONET data, respectively. AODsat and AODaero are the
+corresponding mean values. N is the matchup data number.
+In order to compare the spatiotemporal completeness of
+three products, daily spatial completeness and the temporal
+completeness are deﬁned by Eqs. (7) and (8).
+Spatial completeness =
+(7)
+available AOD pixel numbers
+the total number of pixels in the study region × 100%
+Temporal completeness =
+(8)
+available AOD numbers in each pixel
+during the study period
+The length of the study period × 100%
+All the statistical indicators are calculated for three products
+before and after the QA ﬁlter to indicate the accuracy im-
+provements and the reduction of spatiotemporal complete-
+ness by the QA ﬂag.
+4
+Results and discussion
+4.1
+Overall accuracy comparison
+Figure 2 shows the overall evaluation for MAIAC, DT, and
+DB products before and after the QA ﬁlter. In total, MAIAC
+products have more matchup data than DT and DB prod-
+ucts, which indicates the completeness of the MAIAC prod-
+uct may be higher than the DT and DB products. Before the
+QA ﬁlter, the statistic showed that 69.84 % of retrievals fall
+within the EE envelope, indicating a good accuracy for MA-
+IAC products in China. Compared with DT and DB products,
+only 53.64 % and 55.66 % of retrievals were determined for
+DT and DB products. Based on the R statistical result, the
+results for the three products were all greater than 0.9, in-
+dicating that the three products are all well correlated with
+the ground-truth AERONET data. By contrast, the R2 statis-
+tical result for MAIAC products, e.g., 0.847, was superior to
+those for the DT and DB products, e.g., less than 0.8. From
+the bias statistical result, no signiﬁcant bias was observed for
+the overall MAIAC product. However, according to the cor-
+responding bias box plot in different AOD bins, a slight over-
+estimation was observed when the AODs were less than 0.5,
+and a slight underestimation was observed when the AODs
+were between 0.5 and 1. The DT and DB products appeared
+to be less overestimated based on the bias result. From the
+corresponding bias box plot, the mean bias result for each
+different AOD bin was also almost greater than zero. After
+the QA ﬁlter, the correlation for the MAIAC product slightly
+improved, but the Within_EE result was slightly reduced, and
+the RMSE and bias results increased. From the correspond-
+ing bias box plot subﬁgure, the positive mean biases when
+the AODs were less than 0.2 increased compared with cor-
+responding results before the QA ﬁlter, and the negative bi-
+ases when the AODs were between 0.5 and 1 were reduced.
+These phenomena resulted in the reduced overall accuracy.
+The reason for the changes in these statistical indicators will
+be explained in Sect. 4.2. For the DT and DB products, the
+overall accuracies were all improved after the QA ﬁlter. The
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8250
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+improvement of the DB product was more obvious than for
+the DT product. The Within_EE result was improved from
+57.66 % to 63.32 %, and the mean biases in the bias box plot
+showed no obvious overestimation trend after the QA ﬁlter.
+However, the DT product was still overestimated after the
+QA ﬁlter, and only a little improvement was achieved in the
+Within_EE result.
+To analyze and compare the retrieval accuracy at different
+AOD levels for three products, four bins with different levels,
+low level (< 0.2), moderate level (0.2–0.4), moderate-high
+level (0.4–0.6), and high level (> 0.6), are deﬁned (Wang et
+al., 2019). Table 3 shows the corresponding statistical results.
+At the low, moderate, and moderate-high levels, all statistical
+indicators showed that the MAIAC product had better accu-
+racy than the DT and DB products before the QA ﬁlter. At
+the high level, the DT product achieved the highest correla-
+tion with the ground-truth data and low RMSE results, but the
+positive bias result for the DT product revealed that the over-
+estimation phenomenon was more serious than for the other
+two products. After the QA ﬁlter, the accuracy of the DB
+product was higher compared with the other two products at
+the low level because the positive bias phenomenon became
+more severe for the MAIAC product at this level. At the mod-
+erate level, the MAIAC product demonstrated the best corre-
+lation and lowest RMSE results with a slightly higher posi-
+tive bias than the DB product. At the moderate-high level, the
+MAIAC product remained the best quality product among
+the three products. At the high level, the DT product achieved
+the best correlation and lowest RMSE with the highest posi-
+tive bias.
+4.2
+Land cover type dependency analysis
+Figure 3 shows a scatterplot ﬁgure of the MAIAC products
+in different land cover types before and after the QA ﬁlter.
+In total, MAIAC retrievals in cropland, built-up, grassland,
+and ocean types were more accurate than forest, unoccu-
+pied land, and mixed types according to the Within_EE re-
+sults. After the QA ﬁlter, except for grassland, the accuracies
+all improved, and the improvement effect in ocean type was
+more obvious.
+The high aerosol loading, e.g., AODs > 1, mostly emerged
+in cropland (Fig. 3a-i and a-ii) and built-up (Fig. 3d-i and d-
+ii) types due to biomass burning in the dry season and multi-
+ple human activities in the built-up area (Zhang et al., 2010;
+Wang et al., 2018). MAIAC retrieved AODs with a very high
+accuracy for the two land cover types. The R and R2 results
+were over 0.93 and 0.84, respectively, and the Within_EE
+results showed that more than 74 % of retrievals fell within
+the EE limits. In comparison, retrievals in cropland showed
+little bias, in contrast to a small positive bias in the built-
+up area, and RMSE results in the built-up area were smaller
+than those in the cropland area. This high retrieval accuracy
+in cropland and built-up regions can support relative studies
+on biomass burning and anthropogenic emissions.
+In evergreen forest areas (Fig. 3b-i and b-ii), the retrievals
+showed a good correlation with ground measurements, with
+Rno_QA = 0.874 and RQA = 0.904. However, the R2 results
+without and with the QA ﬁlter were all lower than 0.8, and
+only approximately 45 % of retrievals fell within the EE en-
+velope. The result is opposite to the conclusion that the MA-
+IAC algorithm improves the dark target retrieval accuracy
+better than the DT algorithm in Lyapustin et al. (2011). To
+eliminate the inﬂuence of retrieval accuracy at a speciﬁc site,
+Fig. 4 shows a scatterplot ﬁgure of the forest AERONET
+site, ignoring the sites with matchup numbers less than 10.
+We can observe good performance at the Chiayi, Qiandaohu,
+and Xinglong sites, and the corresponding Within_EE re-
+sults were all higher than 70 %. The relatively inferior per-
+formance sites were Banqiao and Taipei_CWB. After the QA
+ﬁlter, the accuracies were improved to 76.19 % and 61.79 %,
+respectively. The site with the worst performance was only
+the Lulin site, where the MAIAC retrievals were systemically
+higher than the ground measurements, and less than 4 % of
+retrievals fell within the EE limits. The percentage of forest
+type in the 30 km × 30 km spatial window around the Lulin
+site always exceeded 80 % in 2000, 2005, 2008, 2010, and
+2013. This high proportion of forest type eliminates the in-
+ﬂuence of other mixed land cover type. The Lulin site is lo-
+cated on the Taiwan peninsula, and thus the improper aerosol
+type in the MAIAC algorithm and cloud cover may explain
+the overestimation at the Lulin site (Lyapustin et al., 2018).
+For the grassland type (Fig. 3c-i and c-ii), over 83.68 %
+of MAIAC retrievals fell into the EE lines before the QA
+ﬁlter, and the R2 = 0.750, R = 0.875, RMSE = 0.085, and
+bias = −0.018 results all showed good accuracy in the grass-
+land type. However, after the QA ﬁlter, the accuracy was
+dramatically decreased with Within_EE = 46.02 %, R2 =
+0.687, R = 0.868, bias = 0.051, and RMSE = 0.114, repre-
+senting the main reason for some of the decreased overall sta-
+tistical results shown in Fig. 2 for the MAIAC product after
+the QA ﬁlter. It is noteworthy that some values were underes-
+timated when the AODs were less than 0.5, and these values
+were discarded after the QA ﬁlter. However, some overes-
+timated values emerged when the AODs were very small.
+To identify the reason, we also performed a statistical vali-
+dation for each grassland type site in Fig. 5, excluding the
+site with a matchup number less than 10. Before the QA ﬁl-
+ter, the underestimated values were mainly at the NAM_CO
+and QOMS_CAS sites. These two sites are located on the
+Tibetan Plateau. The MAIAC algorithm ﬁlled the AOD re-
+trievals using climatology values, e.g., 0.014, in high-altitude
+regions, e.g., over 4.2 km, and the QA for climatology val-
+ues was 0111 (Lyapustin et al., 2018). After the QA ﬁlter,
+the climatology values were thrown away at the NAM_CO
+site. For the QOMS_CAS site, nearly 2.13 % of pixels still
+had altitudes less than 4.2 km in the spatial window. MAIAC
+retrievals in these pixels were overestimated compared with
+the ground measurements. After the QA ﬁlter, the Within_EE
+results decreased from 92.26 % to 38.53 %. A severe under-
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8251
+Figure 2. Overall accuracy evaluation of MAIAC, DT, and DB AOD versus AERONET AOD at 550 nm before and after the QA ﬁlter. The
+black line, red line, and dashed line in the scatterplot are the 1 : 1 reference line, regression line, and expected error (EE = ±(0.05 + 0.15 ×
+AOD)) line, respectively. The matchup pairs are separated into 100 bins along with AERONET AOD values. The AOD bias box plot uses
+the 25 % and 75 % percentiles for each of 100 bins. The red points in the box plot are the mean bias for each of 100 bins.
+estimation phenomenon was found at the Lanzhou_City site,
+in contrast to the positive bias at its closest SACOL site. The
+small matchup number for the Lanzhou_City site might be
+the reason for the underestimation phenomenon. A great im-
+provement was found at the Muztagh_Ata site after the QA
+ﬁlter.
+MAIAC had good accuracy in the unoccupied land cover
+type (Fig. 3e-i and e-ii), with Within_EE results of 67.44 %
+and 71.43 % before and after the QA ﬁlter, and R and R2
+results over 0.9 and 0.8, respectively. Figure 3f-i and f-ii
+indicate that MAIAC also achieved better performance in
+the mixed land cover area, with Within_EE = 66.80 % and
+R = 0.882. In the ocean area (Fig. 3f-i and f-ii), MAIAC al-
+gorithm retrievals seemed to be overestimated when AODs
+were small, and the R = 0.796 result was a little worse
+than one of the other land types. After the QA ﬁlter, the
+overestimated values were discarded, and the accuracy was
+greatly improved from R = 0.796, Within_EE = 67.96 % to
+R = 0.921, and Within_EE = 78.22 %.
+In comparison to DT and DB products, Table 4 shows
+the validation of the statistical results for the MAIAC, DT,
+and DB products with different land type covers. In cropland
+area, the accuracy of the DT product was evidently better
+than that of the MAIAC and DB products according to the
+R2, R, and RMSE results. However, the values seemed to
+be overestimated compared with the MAIAC product, and
+the Within_EE result was a little smaller compared with the
+MAIAC product. In the forest area, the DT algorithm also
+achieved optimal accuracy compared with the MAIAC and
+DB products. However, only 56.23 % of the retrievals met
+the EE limits, which was less than the DB product. In the
+grassland type region, the accuracies for the three products
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8252
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Figure 3. Evaluation of the MAIAC accuracy for different land cover types before and after the QA ﬁlter. The black line, red line, and dashed
+line in the scatterplot are the 1 : 1 reference line, regression line, and expected error (EE = ±(0.05 + 0.15 × AOD)) line, respectively.
+were all decreased after the QA ﬁlter, and we consider the
+validations of the three products to have all been inﬂuenced
+by the NAM_CO and QOMS_CAS sites. Compared with DT
+and DB products, the MAIAC product obtained the best re-
+trieval accuracy. Owing to the overestimation phenomenon at
+the QOMS_CAS sites after the QA ﬁlter, the Within_EE re-
+sult dramatically dropped from 83.68 % to 46.02 %. In built-
+up, unoccupied land, and mixed regions, the MAIAC product
+performed better than the DB product, and the DB product
+was more accurate than the DT product. In the ocean region,
+the DT product was clearly more accurate than the DB and
+MAIAC products.
+Table 5 shows the validation accuracy for three products
+after the QA ﬁlter in four seasons. In cropland, the retrieval
+accuracies in autumn for the three products were better than
+in other seasons. For forest land types, three products showed
+a higher correlation in autumn than the other seasons, but
+the Within_EE values demonstrated the best results in winter,
+and the corresponding results for DB products were clearly
+higher than for the other two products. In terms of grass-
+land type, MAIAC and DB products were more accurate in
+summer and spring, respectively. In the built-up region, all
+products showed a high correlation in all seasons, but DT
+products were seriously overestimated. In unoccupied land,
+matchup pairs for MAIAC and DB products were more fo-
+cused in spring, and MAIAC products performed better than
+DB products. A high correlation was also found for the three
+products in mixed and ocean regions in all seasons, but more
+MAIAC retrievals met the EE envelope line.
+The Ångström exponent (AE) is a key parameter to de-
+scribe aerosol particle size, and in general, local aerosol
+sources play a dominant role in aerosol regimes (Mhawish et
+al., 2019). To discover aerosol particle sizes in different land
+covers, Fig. 6 shows a scatterplot of the AE (440–675 nm)
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8253
+Table 3. Accuracy evaluation of MAIAC, DT, and DB at the low level (< 0.2), moderate level (0.2–0.4), moderate-high level (0.4–0.6), and
+high level (> 0.6). NOM is the abbreviation for number of matches. The bold number is the highest peformance among three algorithms by
+each indicator.
+AOD level
+Data
+Before QA ﬁlter
+After QA ﬁlter
+NOM
+Bias
+R
+RMSE
+NOM
+Bias
+R
+RMSE
+< 0.2
+MAIAC
+5541
+0.032
+0.580
+0.086
+4521
+0.047
+0.435
+0.084
+DT
+2554
+0.079
+0.469
+0.135
+1478
+0.077
+0.455
+0.137
+DB
+3777
+0.057
+0.464
+0.127
+2090
+0.031
+0.555
+0.082
+0.2–0.4
+MAIAC
+2509
+0.021
+0.480
+0.091
+2320
+0.016
+0.501
+0.091
+DT
+1697
+0.086
+0.386
+0.165
+1038
+0.070
+0.361
+0.159
+DB
+2099
+0.039
+0.271
+0.172
+1361
+0.008
+0.408
+0.128
+0.4–0.6
+MAIAC
+1304
+−0.017
+0.396
+0.129
+1204
+−0.007
+0.421
+0.132
+DT
+989
+0.105
+0.394
+0.202
+605
+0.081
+0.388
+0.188
+DB
+1249
+0.024
+0.308
+0.218
+744
+0.012
+0.360
+0.169
+> 0.6
+MAIAC
+2362
+−0.033
+0.834
+0.346
+2253
+−0.019
+0.840
+0.336
+DT
+1581
+0.109
+0.871
+0.292
+1008
+0.081
+0.876
+0.277
+DB
+2218
+0.050
+0.825
+0.371
+1296
+0.010
+0.836
+0.330
+Figure 4. Evaluation of the MAIAC accuracy in the forest area for each AERONET site before and after the QA ﬁlter. The black line, red
+line, and dashed line in the scatterplot are the 1 : 1 reference line, regression line, and expected error (EE = ±(0.05 + 0.15 × AOD)) line,
+respectively.
+parameter versus AOD for different land cover types. Our
+results were similar to those of Martins et al. (2017). The
+aerosol types in China are mainly ﬁne-mode aerosol particles
+(AE > 1). Some coarse-mode particles (AE < 0.5) are mainly
+found in some regions with sparse vegetation, e.g., grass-
+land (vegetation coverage at selected site less than 20 %),
+built-up, and unoccupied land. As observed in Fig. 3, high
+AOD values mainly occurred in cropland and built-up areas.
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8254
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Figure 5. Evaluation of the MAIAC accuracy in the grassland area for each AERONET site before and after the QA ﬁlter. The black line,
+red line, and dashed line in the scatterplot are the 1 : 1 reference line, regression line, and expected error (EE = ±(0.05+0.15×AOD)) line,
+respectively.
+According to the AE parameter, the aerosol types for these
+high AOD values were mainly ﬁne-mode aerosol particles.
+Figure 7 presents the AOD bias distribution along with the
+AE parameter. A higher AOD bias often occurred when the
+AODs were higher than 0.8 with 1 < AE < 1.5. There was no
+AE dependence when the AODs were very small, e.g., lower
+than 0.1, for the three products. However, MAIAC seemed to
+have a more positive bias than the DB product at a very small
+level.
+4.3
+View of the geometry dependency analysis
+To determine how the view geometry inﬂuences the accuracy
+for three retrieval algorithms, we analyzed view geometry
+dependency using the following four angles: solar zenith an-
+gle (SZA), view zenith angle (VZA), scattering angle (SA),
+and relative azimuth angle (RAA) (Superczynski et al., 2017;
+W. Wang et al., 2019). We separated each kind of angle into
+10 bins and statistically analyzed the AOD bias distribution
+in each bin. The results are displayed in Fig. 8.
+In terms of the solar zenith angle, the three retrieval algo-
+rithms all showed a strong dependency with different char-
+acteristics. A slight downtrend along with SZA was found
+in the MAIAC algorithm, and the MAIAC retrievals seemed
+slightly overestimated when SZA was less than 40◦and un-
+derestimated when it was larger. The mean biases only ﬂuc-
+tuated between −0.05 and 0.05. For the DT algorithm, the
+mean bias ﬁrst arose when the SZAs were small, and the
+mean bias reached the maximum at SZA ≈25◦. Then, the
+mean biases decreased as SZA increased. The mean biases
+were close to zero when SZA reached the maximum value.
+With regard to the DB algorithm, the mean bias ﬁrst slowly
+decreased when the SZAs were less than 35◦and then rapidly
+rose as SZA increased. After the QA ﬁlter, the whole mean
+bias line shifted down.
+The MAIAC and DB algorithms showed no dependency
+on the view zenith angle, and the corresponding mean bias
+lines did not ﬂuctuate much along with VZA. Compared with
+the results obtained before and after the QA ﬁlter, the mean
+bias line for the MAIAC algorithm slightly increased, and
+the mean bias line for the DB algorithm moves down to a
+relatively large degree. VZA slightly affected the DT perfor-
+mance with a little downtrend. After the QA ﬁlter, the mean
+bias line slightly declined.
+The scattering angle also greatly impacted the perfor-
+mance of the three retrieval algorithms. MAIAC retrievals
+seemed to be underestimated when the SAs were less than
+100◦and slightly overestimated when they were between 100
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8255
+Table 4. Comparison of the retrieval accuracy of the MAIAC, DT, and DB products for different land cover types before and after the QA
+ﬁlter. “–” means no matchup pairs or that the matchup pairs number fewer than 10. The bold number is the highest peformance among three
+algorithms by each indicator.
+Unoccupied
+Cropland
+Forest
+Grassland
+Built-up
+land
+Mixed
+Ocean
+R2
+Before QA ﬁlter
+MAIAC
+0.859
+0.693
+0.750
+0.845
+0.832
+0.754
+0.621
+DT
+0.903
+0.798
+0.370
+0.696
+–
+0.520
+0.876
+DB
+0.813
+0.636
+0.550
+0.799
+0.428
+0.600
+0.434
+After QA ﬁlter
+MAIAC
+0.860
+0.770
+0.687
+0.848
+0.834
+0.758
+0.834
+DT
+0.915
+0.812
+0.038
+0.579
+–
+0.553
+0.838
+DB
+0.843
+0.804
+0.480
+0.852
+0.710
+0.724
+0.152
+R
+Before QA ﬁlter
+MAIAC
+0.932
+0.874
+0.875
+0.933
+0.929
+0.875
+0.796
+DT
+0.964
+0.896
+0.726
+0.934
+–
+0.898
+0.939
+DB
+0.927
+0.850
+0.744
+0.928
+0.689
+0.832
+0.777
+After QA ﬁlter
+MAIAC
+0.933
+0.904
+0.868
+0.934
+0.938
+0.882
+0.921
+DT
+0.966
+0.901
+0.585
+0.916
+–
+0.875
+0.941
+DB
+0.933
+0.903
+0.719
+0.934
+0.900
+0.871
+0.696
+RMSE
+Before QA ﬁlter
+MAIAC
+0.221
+0.144
+0.085
+0.195
+0.109
+0.163
+0.170
+DT
+0.178
+0.131
+0.172
+0.275
+–
+0.246
+0.097
+DB
+0.276
+0.174
+0.155
+0.239
+0.214
+0.244
+0.210
+After QA ﬁlter
+MAIAC
+0.219
+0.127
+0.114
+0.194
+0.110
+0.161
+0.108
+DT
+0.173
+0.124
+0.164
+0.288
+–
+0.223
+0.106
+DB
+0.228
+0.122
+0.191
+0.159
+0.170
+0.177
+0.208
+Bias
+Before QA ﬁlter
+MAIAC
+−0.004
+0.066
+-0.018
+0.030
+-0.046
+0.002
+0.021
+DT
+0.065
+0.020
+0.048
+0.201
+–
+0.167
+0.006
+DB
+0.092
+0.038
+0.011
+0.061
+−0.007
+0.057
+-0.088
+After QA ﬁlter
+MAIAC
+−0.007
+0.053
+0.051
+0.027
+−0.057
+0.011
+0.031
+DT
+0.064
+−0.003
+0.075
+0.224
+–
+0.114
+−0.057
+DB
+0.062
+-0.020
+−0.048
+0.019
+−0.092
+0.007
+−0.128
+Within_EE
+Before QA ﬁlter
+MAIAC
+75.56
+43.09
+83.68
+72.79
+67.44
+65.31
+67.96
+DT
+71.12
+56.23
+47.19
+24.36
+–
+38.23
+81.11
+DB
+57.37
+64.41
+63.21
+63.60
+36.54
+47.19
+53.36
+After QA ﬁlter
+MAIAC
+76.22
+47.75
+46.02
+74.66
+71.43
+66.80
+78.22
+DT
+72.67
+56.53
+37.04
+19.33
+–
+50.00
+75.20
+DB
+60.37
+72.20
+60.41
+69.24
+37.50
+59.34
+51.90
+and 155◦. When the SAs were larger than 155◦, the retrievals
+tended to be underestimated. After the QA ﬁlter, the corre-
+sponding retrievals at large SAs tended to be overestimated.
+For the DT and DB retrievals, a signiﬁcant uptrend was ob-
+served for the mean bias along with SAs. Small positive bi-
+ases were found when the SAs were very small, and large
+positive biases occurred when the SAs were very large. After
+the QA ﬁlter, the signiﬁcant uptrend was alleviated for DB
+retrievals, but a large negative bias was found when SA ap-
+proached 180◦. We consider the scarce matchup number of
+DB retrievals to be the main reason for the negative bias.
+For the MAIAC algorithm, positive biases occurred as
+RAA approached the extremes of 0◦and 180◦, and nega-
+tive bias emerged as RAA neared 90◦, where the matchup
+numbers were very limited in the three angle intervals. In
+the other angle intervals, MAIAC showed no dependency
+on RAA. After the QA ﬁlter, a downtrend of the mean
+bias was apparent along with RAA during backscattering
+(RAA < 90◦), and an uptrend of the mean bias was observed
+during forward-scattering (RAA > 90◦). For the DT algo-
+rithm, the positive mean bias decreased as RAA increased
+upon backscattering and ﬁrst increased and then decreased
+upon forward-scattering. After the QA ﬁlter, the downward
+trend tended to be alleviated upon backscattering. For the DB
+algorithm, upon backscattering, the positive mean bias ﬁrst
+decreased from very high to zero and then increased to be-
+come somewhat high. Upon forward-scattering, the positive
+mean biases were all larger than 0.05. After the QA ﬁlter and
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8256
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Table 5. Comparison of the retrieval accuracy of the MAIAC, DT, and DB products for different land cover types in four seasons after the
+QA ﬁlter. “–” means no matchup pairs or that the matchup pairs number fewer than 10. The bold number is the highest peformance among
+four seasons by each indicator.
+Cropland
+Forest
+Grassland
+Built-up
+Unoccupied land
+Mixed
+Ocean
+R
+MAIAC
+Spring
+0.912
+0.902
+0.956
+0.929
+0.945
+0.848
+0.951
+Summer
+0.940
+0.856
+0.932
+0.951
+–
+0.932
+0.917
+Autumn
+0.956
+0.930
+0.798
+0.965
+–
+0.877
+0.903
+Winter
+0.910
+0.881
+0.853
+0.888
+–
+0.892
+0.893
+DT
+Spring
+0.959
+0.889
+0.818
+0.920
+–
+0.868
+0.933
+Summer
+0.961
+0.827
+0.861
+0.934
+–
+0.902
+–
+Autumn
+0.983
+0.939
+0.608
+0.914
+–
+0.834
+0.983
+Winter
+0.939
+0.854
+–
+–
+–
+0.869
+0.955
+DB
+Spring
+0.950
+0.917
+0.911
+0.954
+0.903
+0.828
+0.874
+Summer
+0.938
+0.796
+0.659
+0.971
+–
+0.926
+–
+Autumn
+0.943
+0.914
+0.714
+0.958
+–
+0.856
+0.810
+Winter
+0.931
+0.901
+0.617
+0.955
+–
+0.874
+0.928
+Bias
+MAIAC
+Spring
+−0.021
+0.045
+0.065
+−0.023
+−0.061
+−0.018
+0.032
+Summer
+0.085
+0.079
+0.049
+0.123
+–
+0.073
+0.073
+Autumn
+−0.007
+0.065
+0.042
+0.054
+–
+0.035
+0.044
+Winter
+−0.039
+0.034
+0.051
+0.013
+–
+−0.011
+0.015
+DT
+Spring
+0.105
+−0.006
+0.197
+0.226
+–
+0.139
+−0.004
+Summer
+0.077
+0.021
+0.130
+0.249
+–
+0.139
+–
+Autumn
+0.029
+0.008
+0.009
+0.194
+–
+0.125
+−0.088
+Winter
+0.027
+-0.027
+–
+–
+–
+0.076
+−0.073
+DB
+Spring
+0.040
+−0.046
+0.025
+−0.013
+−0.108
+−0.021
+−0.427
+Summer
+0.061
+0.009
+−0.027
+−0.070
+–
+-0.047
+–
+Autumn
+0.029
+−0.008
+−0.116
+0.033
+–
+0.029
+−0.201
+Winter
+0.120
+−0.023
+−0.125
+0.100
+–
+0.026
+−0.038
+Within_EE
+MAIAC
+Spring
+75.31
+50.31
+45.43
+76.55
+66.67
+64.39
+79.86
+Summer
+68.32
+39.85
+64.74
+56.83
+–
+51.27
+53.70
+Autumn
+80.83
+45.21
+49.12
+74.12
+–
+67.38
+76.00
+Winter
+76.58
+53.01
+30.56
+83.02
+–
+76.87
+83.11
+DT
+Spring
+65.13
+54.81
+6.25
+20.47
+–
+45.89
+79.41
+Summer
+63.66
+50.00
+20.63
+22.49
+–
+40.48
+–
+Autumn
+83.94
+55.33
+55.42
+14.29
+–
+51.57
+71.43
+Winter
+77.78
+63.74
+–
+–
+–
+55.23
+75.00
+DB
+Spring
+58.69
+61.22
+66.03
+67.94
+33.33
+52.11
+0.00
+Summer
+60.37
+70.09
+64.91
+66.88
+–
+54.39
+–
+Autumn
+65.82
+74.89
+54.10
+82.06
+–
+56.31
+4.35
+Winter
+56.57
+78.37
+53.70
+62.59
+–
+68.89
+84.21
+upon backscattering, no dependency on RAA was observed
+for the DB algorithm, but the highest mean bias was lower
+than zero. Upon forward-scattering, an obvious linear down-
+trend from positive to negative bias was observed as RAA
+increased.
+4.4
+Analysis of the spatiotemporal retrieval accuracy
+To investigate retrieval accuracy of the three algorithms at
+different regions and different times, Fig. 9 shows the R,
+RMSE, bias, and Within_EE results for each AERONET
+site, ignoring the sites with fewer than 10 matchup numbers,
+which might cause unreliable statistical results.
+Three products presented different retrieval accuracies in
+different regions. In the BTH region (marked by the black
+box in Fig. 1), three products showed a good correlation with
+the ground measurements, e.g., R > 0.9. There were, how-
+ever, more retrievals for MAIAC and DT products falling
+within the EE limits than the DB product. Based on the Bias
+results, the DT and DB products seemed to be overestimated
+compared with the MAIAC product. The DT product was
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8257
+Figure 6. Scatterplot of AOD at 550 nm against the Ångström ex-
+ponent for different land cover types. We selected AERONET sites
+with maximum observations for each land cover type: XiangHe
+(cropland); Taipei_CWB (forest); QOMS_CAS (grassland); Bei-
+jing (built-up); Dunhuang (unoccupied land); Hong_Kong_PolyU
+(ocean).
+more positively biased compared with the MAIAC product.
+In the YRD region, the within_EE results showed that more
+MAIAC retrievals met the EE limits than DT and DB prod-
+ucts. A good correlation of the three products was also found
+in this region. However, the DT product was overestimated,
+and DB was underestimated. In the PRD region, the MAIAC
+retrievals were obviously more accurate than the DT and DB
+retrievals. The Within_EE results for the MAIAC retrievals
+in this region were all greater than 70 %. The Within_EE
+results for the DT retrievals were relatively low for some
+sites before the QA ﬁlter. After the QA ﬁlter, the Within_EE
+results were greatly improved. DB retrievals in this region
+demonstrated the worst performance with low Within_EE re-
+sults, a bad correlation, and a negative bias. In addition, the
+MAIAC product was also the most accurate product in the
+NW area. The Within_EE and R results overall were higher
+than for the DT and DB products. Additionally, the RMSE
+results for the MAIAC product in this region were also rel-
+atively lower than those for the BTH and YRD regions. The
+Within_EE results for the MAIAC product for most sites in
+the west of Taiwan were higher than 66 % after the QA ﬁl-
+ter, demonstrating a high accuracy compared with DT and
+DB products. However, according to the east site, e.g., Lulin,
+the MAIAC retrievals seemed to be overestimated with low
+Within_EE and R results. Additionally, DB retrievals at the
+Lulin site seemed to be unbiased with high Within_EE (over
+70 %) and relatively high R (over 0.8) results. In the Tibet
+area, three algorithms all failed to retrieve AODs according to
+the statistical results due to the high latitude and snow cover.
+Figure 10 presents the monthly validation results for the
+three products. We overlooked the speciﬁc QOMS_CAS site
+for this purpose due to its poor performance after the QA ﬁl-
+ter, which would affect the overall accuracy. Three products
+showed a good correlation with the ground measurements
+for all months with R > 0.85. The AOD deviation for the
+DT and MAIAC products was higher in spring and summer
+than autumn and winter, consistent with the results of He et
+al. (2017). The RMSE results for the DB products were gen-
+erally higher than the DT and MAIAC products before the
+QA ﬁlter. After the QA ﬁlter, the RMSE results decreased
+with no obvious seasonal variability law. The DT product
+seemed to be systematically overestimated, and the positive
+biases were extremely high in spring and summer. The MA-
+IAC product was positively biased from June to October with
+a bias < 0.1. The DB product was positively biased in all sea-
+sons before the QA ﬁlter, but the bias results from June to Oc-
+tober were signiﬁcantly reduced after the QA ﬁlter. Before
+the QA ﬁlter, the Within_EE results for the MAIAC prod-
+uct were higher than the DT and DB products in all months.
+However, less than 60 % of the MAIAC retrievals fell within
+the EE limits in summer. After the QA ﬁlter, the Within_EE
+results for the DB product from June to September were su-
+perior to those of the MAIAC and DT products. The R2 re-
+sults for the MAIAC products were stable for all months, and
+most R2 results were over 0.8. The DB product had a lower
+R2 in the cold season from November to February, and in
+April and May, the R2 results for the DT product were gen-
+erally lower than those in the other months. After the QA
+ﬁlter, the DB product achieved higher R2 results from April
+to September. According to the matchup number results, the
+MAIAC product had more matchup numbers than the DT and
+DB products. However, all products had fewer matchup num-
+bers in summer due to the increased cloud cover in the rainy
+season. In summary, the MAIAC product was more accurate
+than the DT and DB products except for in summer. In con-
+trast to the positive bias of MAIAC retrievals in summer, the
+DB product after the QA ﬁlter could achieve unbiased results
+with higher Within_EE and R2 than the MAIAC product.
+We investigate the annual change in retrieval accuracy for
+three products to ascertain whether the MODIS instrument
+maintains its performance due to it exceeding its designed
+lifetime. However, according to Table 1, the time durations
+of each AERONET site were signiﬁcantly different. Thus,
+the matchup observation pair during each year was from dif-
+ferent sites. This phenomenon may result from incomparable
+validation results for each year. However, if only consider-
+ing the sites with the same monitoring time, most sites will
+be discarded, and fewer matchup numbers will cause unreli-
+able corresponding statistical results. Thus, we still adopted
+all site measurements. We ignored the results for the years
+2000, 2001, 2002, and 2003 due to fewer matchup numbers
+in these years. According to Fig. 11, three products showed
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8258
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Figure 7. Scatterplot of the AOD bias from matchup data versus the AERONET Ångström exponent (440–675 nm) before and after the QA
+ﬁlter.
+a high correlation with ground measurements according to
+the R and R2 results, except in 2009. The reason for the
+sharp decline in the R and R2 results in 2009 was mainly
+that some sites, e.g., Qiandaohu, SACOL, Kaiping, Shoux-
+ian, and Zhangye, did not have matchup pairs in this year,
+and matchup pairs containing bad retrieval satellite pixels
+around the Lanzhou_City and NAM_CO sites appeared in
+2009. Thus, the high correlation revealed MODIS instrument
+results consistent the AOD retrievals from 2000 to 2017.
+The MAIAC AOD deviation was generally small, with most
+RMSE results being lower than 0.2 and larger than 0.15. The
+RMSE results for the DB product were generally larger than
+0.2 before the QA ﬁlter. After the QA ﬁlter, the RMSE re-
+sults varied in a large range from 0.15 to 0.25. Based on
+the bias result, there was a signiﬁcant uptrend for the three
+products over the year. The MAIAC bias results were gen-
+erally smaller than the DT and DB products, and most bias
+results for the MAIAC product were within ±0.05, with a
+negative bias before 2010 and a positive bias after 2010. To
+eliminate the inﬂuence of the contribution of some speciﬁc
+sites in the speciﬁc year, Fig. 12 plots bias time series for
+ﬁve AERONET sites with a monitoring time covering most
+study years and ignoring data with matchup numbers less
+than 20. The bias uptrend seemed to appear in three products
+for all selected sites except the EPA-NCU site for DT prod-
+ucts. Thus the signiﬁcant uptrend of bias results is not caused
+by the signiﬁcantly different time durations of AERONET
+sites. For the Within_EE results, MAIAC also showed bet-
+ter accuracy than DT and DB products, and for Within_EE
+results, a slight declining trend was observed over the year.
+The matchup numbers for the three products revealed an in-
+creasing trend due to the establishment of greater numbers of
+AERONET sites in the China region over time.
+4.5
+Analysis on spatial pattern variation difference
+To compare the difference in spatial variations for the three
+products, we upscaled the MAIAC product to match the grid
+of the DT and DB products; thus, 1 km pixels falling within
+the 10 km grid were averaged. Such a protocol can aid in in-
+vestigating differences in different regions between the three
+products.
+Figure 13 presents multiyear averaged and difference re-
+sults between MAIAC, DT, and DB products, with aerosol
+loading presenting a noteworthy assembly characteristic.
+Higher AOD values were concentrated in the North China
+Plain and Sichuan Basin where the land cover types were
+mainly cropland-oriented, as shown in Fig. 1. Before the QA
+ﬁlter, compared with the DT and DB observations, the MA-
+IAC AODs were smaller in the North China Plain and larger
+in Yunnan Province and east Taiwan. After the QA ﬁlter,
+the DB AODs became smaller in the North China Plain and
+southeast region. Compared with the DB AODs, the MAIAC
+AODs became slightly higher in the North China Plain (dif-
+ference over 0.1) and obviously higher in southeast China
+(difference over 0.3). Recall the statistical result presented in
+Fig. 9, in which the DT and DB products were overestimated
+in the BTH region, the DB product was underestimated in the
+YRD region, and the MAIAC product seemed to be overes-
+timated in east Taiwan. These ﬁndings indicate that MAIAC
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8259
+Figure 8. Dependency of the AOD bias on the solar zenith angle, view zenith angle, scattering angle, and relative azimuth angle for the
+(a) MAIAC product, (b) DT product, and (c) DB product before and after the QA ﬁlter. The dark blue bar is the histogram bin, red points
+in the shadowed area are the mean bias of the corresponding bin, and the top and bottom blue lines are the 75 % and 25 % percentiles of the
+AOD biases in the corresponding bin, respectively.
+retrievals are more accurate than DT and DB in the North
+China Plain and southeast region, and DB retrievals are more
+accurate than MAIAC in east Taiwan. However, due to the
+lack of the AERONET site in Yunnan Province, we could
+not evaluate the accuracy of the three products in Yunnan
+Province. The difference before and after the QA ﬁlter for the
+MAIAC product was very small, except for some individual
+pixels in the Tibet region. In addition, there was an obvious
+boundary in the 30◦latitude for MAIAC AODs. This bound-
+ary was caused by the different regional aerosol models used
+above and below 30◦latitude (Lyapustin et al., 2018).
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8260
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Figure 9. Evaluation results for MAIAC, DT, and DB after and before the QA ﬁlter in each AERONET site. The subscript QA denotes the
+corresponding results after the QA ﬁlter.
+Figure 14 shows the seasonal comparison results among
+three products before and after the QA ﬁlter. The AOD spa-
+tial variation for the three products showed apparent sea-
+sonal characteristics. The AODs in the North China Plain in
+summer were higher than in other seasons, and the AODs
+in the Tarim Basin in spring were higher than in other sea-
+sons. Based on the AOD spatial variation difference map,
+the difference between MAIAC and DT in the North China
+Plain evolved gradually from negative in spring to positive
+in winter. The negative difference between MAIAC and DB
+in the North China Plain was higher in summer and winter
+than in spring and autumn. The positive difference in Yunnan
+Province between MAIAC and DT was slightly lower than
+that between MAIAC and DB. After the QA ﬁlter, AODs in
+south China for the DB product were extremely low com-
+pared with those for the MAIAC product.
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8261
+Figure 10. Validation of MAIAC, DT, and DB in different months before and after the QA ﬁlter.
+Figure 11. Validation of MAIAC, DT, and DB in different years before and after the QA ﬁlter from 2004 to 2017.
+4.6
+Analysis of spatiotemporal completeness
+Based the upscale MAIAC 10 km data in Sect. 4.4, the spatial
+completeness in Eq. (7) and temporal completeness in Eq. (8)
+for three products are shown in Figs. 15 and 16. According
+to Fig. 15, the spatial completeness of the MAIAC product
+was higher than the DT and DB products before and after
+the QA ﬁlter. The spatial completeness of the DT product
+was smallest due to its retrieval failure on a bright surface.
+The spatial completeness for all the products showed an ob-
+vious periodical trend change. Table 6 shows the statistics
+for the spatial completeness of the three products in different
+seasons. Before the QA ﬁlter, the averaged spatial complete-
+ness of MAIAC (46.87 %) was higher than DT (16.66 %) and
+DB (34.80 %). After the QA ﬁlter, the reduced proportion of
+MAIAC (17.18 %) exceeded DB (15.30 %) and DT (8.66 %)
+because many climatology values in the Tibet Plateau were
+discarded. Comparison of the spatial completeness in four
+seasons revealed a higher spatial completeness for the three
+products in autumn than the other three seasons due to the
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8262
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Figure 12. Bias plot for the three products before the QA ﬁlter at ﬁve selected AERONET sites with a monitoring period containing most of
+the study years from 2004 to 2017.
+Figure 13. Averaged AOD distributions throughout the year for MAIAC, DT, and DB before the QA ﬁlter and their differences after the QA
+ﬁlter from 2000 to 2017. The subscript QA denotes the corresponding results after the QA ﬁlter.
+reduced cloudiness in the dry autumn season. The spatial
+completeness in winter was smallest due to the inﬂuence of
+the surface snow cover and large deciduous trees. Compared
+with MAIAC and DB products, the spatial completeness of
+the DT product in winter was minimal due to the bright sur-
+face in winter.
+Figure 16 presents the temporal completeness in China for
+the three products. Due to the climatology values in the Tibet
+Plateau, the temporal completeness of the MAIAC product in
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8263
+Figure 14. Seasonal averaged AOD distributions for MAIAC, DT, and DB and their differences before and after the QA ﬁlter from 2000 to
+2017. The subscript QA denotes the corresponding results after the QA ﬁlter.
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8264
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Figure 15. Daily spatial completeness for MAIAC, DT, and DB from 2000 to 2017 before and after the QA ﬁlter.
+Table 6. Seasonal averaged spatial completeness for MAIAC, DT, and DB before and after the QA ﬁlter and their declining proportions after
+the QA ﬁlter.
+All year
+Spring
+Summer
+Autumn
+Winter
+Before QA ﬁlter
+MAIAC
+46.87
+44.80
+43.83
+55.80
+42.89
+DT
+16.66
+15.71
+19.22
+22.72
+8.60
+DB
+34.80
+34.93
+33.59
+42.01
+28.30
+After QA ﬁlter
+MAIAC
+29.69
+29.06
+25.17
+37.17
+27.22
+DT
+8.00
+7.20
+9.63
+11.76
+3.19
+DB
+19.50
+20.31
+16.23
+25.90
+15.31
+Declined proportion
+MAIAC
+17.18
+15.74
+18.66
+18.63
+15.67
+DT
+8.66
+8.52
+9.59
+10.96
+5.40
+DB
+15.30
+14.61
+17.36
+16.12
+12.99
+this region was very high (over 80 %). After the QA ﬁlter, the
+temporal completeness rapidly decreased in this region. In
+the other region, the declining proportions of temporal com-
+pleteness for MAIAC were mostly lower than 10 %, except
+for Yunnan Province (nearly 15 %), Hainan Province (nearly
+20 %), and east Taiwan (nearly 20 %). Compared with the
+MAIAC and DB products, DT retrievals were very scarce in
+the Tarim Basin due to failure on the bright desert surface.
+DT retrievals were more concentrated on the North China
+Plain and in Yunnan Province. After the QA ﬁlter, a dramat-
+ically reduced proportional area of temporal completeness
+(nearly 30 %) for DT products was observed in the crop-
+land region in northeast China. The severely reduced pro-
+portional area (nearly 40 %) for the DB product after the
+QA ﬁlter was mainly focused on unoccupied land, e.g., gobi,
+saline–alkaline soil, at the top of the Tibet Plateau. Compared
+with the MAIAC product, before the QA ﬁlter, the DB prod-
+uct showed more retrievals in the Tarim Basin, North China
+Plain, and southeast China and fewer retrievals in Yunnan
+Province and northeast China. After the QA ﬁlter, the tem-
+poral completeness of the MAIAC product was better than
+the DB product in all regions.
+5
+Conclusion
+In this study, we present the ﬁrst comprehensive validation
+and comparison of three MODIS aerosol retrieval algorithms
+(i.e., MAIAC, DT, and DB) across China in terms of overall
+accuracy, land cover dependency, viewed geometry depen-
+dency, spatiotemporal retrieval accuracy, spatial distribution
+difference, and spatiotemporal completeness. These valida-
+tion results may guide users to utilize the three products ap-
+propriately. The main results and conclusions are presented
+below.
+In terms of overall accuracy, the MAIAC product is more
+accurate than the DT and DB products. The DT and DB prod-
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8265
+Figure 16. Spatial distributions of temporal completeness for MAIAC, DT, and DB before and after the QA ﬁlter and their differences from
+2000 to 2017. The subscript QA denotes the corresponding results after the QA ﬁlter.
+ucts are positively biased before the QA ﬁlter, and the posi-
+tive bias for the DB product is alleviated by the QA ﬁlter.
+DT retrievals in cropland, forest, and ocean seem to be
+more accurate but with a positive bias than retrievals by the
+MAIAC and DB algorithms. The MAIAC algorithm per-
+forms better in grassland, built-up, and mixed areas than the
+DT and DB algorithms.
+Three algorithms show a strong dependency on SZA, SA,
+and RAA. VZA only marginally affects the retrieval accuracy
+of the three algorithms.
+The MAIAC product performs better in the BTH, YRD,
+PRD, and NW regions than the DT and DB algorithms, and
+the DB product performs better than the DT and MAIAC
+products after the QA ﬁlter in east Taiwan. The MAIAC al-
+gorithm performs better than the DT and DB algorithms in
+most months except June, July, August, and September. In
+these four months, MAIAC retrievals appear to be overesti-
+mated, and DB retrievals after the QA ﬁlter are more accurate
+than MAIAC retrievals.
+Three AOD products present a similar spatial pattern with
+high aerosol loading in the North China Plain and Sichuan
+Basin. In comparison, MAIAC retrievals are lower in the
+North China Plain and Sichuan Basin than DT and DB re-
+trievals and are higher in Yunnan Province and east Taiwan
+than DT and DB retrievals. After the QA ﬁlter, the DB AOD
+values are signiﬁcantly reduced and obviously lower than the
+MAIAC product in southeast China.
+Based on spatiotemporal completeness analysis, the MA-
+IAC product has more retrievals in the spatiotemporal do-
+main than the DT and DB products. The spatial complete-
+ness exhibits a strong periodical change, and the temporal
+completeness is highest in autumn compared to other sea-
+sons due to the decreasing cloud cover in this dry season,
+which is lowest in winter due to the snow cover and decid-
+uous vegetation. In terms of temporal completeness, MA-
+IAC has more retrievals in the Tarim Basin and the cropland
+in northeast China compared with the DT algorithm. Com-
+pared with the DB algorithm, MAIAC has fewer retrievals in
+the Tarim Basin and southeast China and more retrievals in
+northeast China. After the QA ﬁlter, the temporal complete-
+ness of MAIAC in all regions of China is better than that of
+the DB product.
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8266
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+Data availability. MAIAC, DT, and DB data are publicly avail-
+able from NASA Earthdata Search at https://search.earthdata.
+nasa.gov/search (NASA, 2019a). AERONET data are available
+from NASA Goddard space ﬂight at https://aeronet.gsfc.nasa.gov/
+(NASA, 2019b). GIMCP land cover data were bought from the Ge-
+ographical Information Monitoring Cloud Platform by Beijing Dig-
+ital View Technology Co., Ltd. at http://www.dsac.cn/ (Beijing Dig-
+ital View Technology Co., Ltd., 2019).
+Author contributions. NL and BZ designed the whole experiment.
+NL and YL developed the experiment code and performed it. The
+paper was initially written by NL and fully revised by BZ. HF, WW,
+and YT provided a lot of constructive comments on the experiment.
+Competing interests. The authors declare that they have no conﬂict
+of interest.
+Acknowledgements. We thank NASA for providing MAIAC, DT,
+DB products, and AERONET data. We would like to thank Yujie
+Wang and Alexei Lyapustin in NASA for answering our question
+concerning the MAIAC product and the help it provided.
+Financial support. This research has been supported by the Na-
+tional Key Research and Development Program of China (grant
+no. 2016YFC0206205), the National Natural Science Foundation
+of China (grant no. 41871317), and the Innovation Driven Program
+of Central South University (grant no. 2018CX016).
+Review statement. This paper was edited by Jianping Huang and
+reviewed by three anonymous referees.
+References
+Ångström, A.: On the Atmospheric Transmission of Sun Ra-
+diation and on Dust in the Air, Geogr. Ann., 12, 130–159,
+https://doi.org/10.1080/20014422.1929.11880498, 1929.
+Beijing Digital View Technology Co., Ltd.: Geographical Informa-
+tion Monitoring Cloud Platform, available at: http://www.dsac.
+cn/, last access: 28 May 2019.
+Bi, J., Shi, J., Xie, Y., and Liu, Y.: Dust Aerosol Characteristics
+and Shortwave Radiative Impact at a Gobi Desert of Northwest
+China during the Spring of 2012, J. Meteorol. Soc. Jpn., 92, 33–
+56, https://doi.org/10.2151/jmsj.2014-A03, 2014.
+Cesnulyte, V., Lindfors, A. V., Pitkänen, M. R. A., Lehtinen, K.
+E. J., Morcrette, J.-J., and Arola, A.: Comparing ECMWF AOD
+with AERONET observations at visible and UV wavelengths,
+Atmos. Chem. Phys., 14, 593–608, https://doi.org/10.5194/acp-
+14-593-2014, 2014.
+Che, H., Shi, G., Uchiyama, A., Yamazaki, A., Chen, H., Goloub,
+P., and Zhang, X.: Intercomparison between aerosol optical prop-
+erties by a PREDE skyradiometer and CIMEL sunphotome-
+ter over Beijing, China, Atmos. Chem. Phys., 8, 3199–3214,
+https://doi.org/10.5194/acp-8-3199-2008, 2008.
+Che, H., Xia, X., Zhu, J., Li, Z., Dubovik, O., Holben, B.,
+Goloub, P., Chen, H., Estelles, V., Cuevas-Agulló, E., Blarel,
+L., Wang, H., Zhao, H., Zhang, X., Wang, Y., Sun, J., Tao,
+R., Zhang, X., and Shi, G.: Column aerosol optical properties
+and aerosol radiative forcing during a serious haze-fog month
+over North China Plain in 2013 based on ground-based sun-
+photometer measurements, Atmos. Chem. Phys., 14, 2125–2138,
+https://doi.org/10.5194/acp-14-2125-2014, 2014.
+Chu, D. A., Kaufman, Y. J., Ichoku, C., Remer, L. A., Tanre,
+D., and Holben, B. N.: Validation of MODIS aerosol opti-
+cal depth retrieval over land, Geophys. Res. Lett., 29, 1617,
+https://doi.org/10.1029/2001GL013205, 2002.
+Dominici,
+F.,
+Greenstone,
+M.,
+and
+Sunstein,
+C.
+R.:
+Particulate
+matter
+matters,
+Science,
+344,
+257–259,
+https://doi.org/10.1126/science.1247348, 2014.
+Eck, T. F., Holben, B. N., Reid, J. S., Dubovik, O., Smirnov,
+A., O’Neill, N. T., Slutsker, I., and Kinne, S.: Wavelength de-
+pendence of the optical depth of biomass burning, urban, and
+desert dust aerosols, J. Geophys. Res.-Atmos., 104, 31333–
+31349, https://doi.org/10.1029/1999JD900923, 1999.
+Fang, X., Zou, B., Liu, X., Sternberg, T., and Zhai, L.:
+Satellite-based ground PM2.5 estimation using timely struc-
+ture adaptive modeling, Remote Sens. Environ., 186, 152–163,
+https://doi.org/10.1016/j.rse.2016.08.027, 2016.
+Feng,
+H.,
+Zou,
+B.,
+Wang,
+J.,
+and
+Gu,
+X.:
+Domi-
+nant
+variables
+of
+global
+air
+pollution-climate
+interac-
+tion:
+Geographic
+insight,
+Ecol.
+Indic.,
+99,
+251–260,
+https://doi.org/10.1016/j.ecolind.2018.12.038, 2019a.
+Feng, H. and Zou, B.: A greening world enhances the surface-
+air temperature difference, Sci. Total Environ., 658, 385–394,
+2019b.
+Gupta, P., Levy, R. C., Mattoo, S., Remer, L. A., and Mun-
+chak, L. A.: A surface reﬂectance scheme for retrieving
+aerosol optical depth over urban surfaces in MODIS Dark Tar-
+get retrieval algorithm, Atmos. Meas. Tech., 9, 3293–3308,
+https://doi.org/10.5194/amt-9-3293-2016, 2016.
+He,
+Q.
+and
+Huang,
+B.:
+Satellite-based
+mapping
+of
+daily
+high-resolution ground PM2.5 in China via space-time re-
+gression
+modeling,
+Remote
+Sens.
+Environ.,
+206,
+72–83,
+https://doi.org/10.1016/j.rse.2017.12.018, 2018a.
+He, Q. and Huang, B.: Satellite-based high-resolution PM2.5,
+estimation over the Beijing-Tianjin-Hebei region of China
+using an improved geographically and temporally weighted
+regression
+model,
+Environ.
+Pollut.,
+236,
+1027–1037,
+https://doi.org/10.1016/j.envpol.2018.01.053, 2018b.
+He,
+Q.,
+Zhang,
+M.,
+Huang,
+B.,
+and
+Tong,
+X.:
+MODIS
+3 km and 10 km aerosol optical depth for China: Eval-
+uation and
+comparison,
+Atmos.
+Environ.,
+153,
+150–162,
+https://doi.org/10.1016/j.atmosenv.2017.01.023, 2017.
+Holben, B. N., Eck, T. F., Slutsker, I., Tanré, D., Buis J. P., Set-
+zer, A., Vermote, E., Reagan, J. A., Kaufman, Y. J., Naka-
+jima, T., Lavenu, F., Jankowiak, I., and Smirnov, A.: AERONET
+– A Federated Instrument Network and Data Archive for
+Aerosol Characterization, Remote Sens. Environ., 66, 1–16,
+https://doi.org/10.1016/S0034-4257(98)00031-5, 1998.
+Hsu, N. C., Tsay, S. C., King, M. D., and Herman, J.
+R.:
+Aerosol
+properties
+over
+bright-reﬂecting
+source
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/
+
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+8267
+regions,
+IEEE
+T.
+Geosci.
+Remote,
+42,
+557–569,
+https://doi.org/10.1109/TGRS.2004.824067, 2004.
+Hsu, N. C., Jeong, M. J., Bettenhausen, C., Sayer, A. M.,
+Hansell, R., Seftor, C. S., Huang, J., and Tsay, S. C.:
+Enhanced Deep Blue aerosol retrieval algorithm: The sec-
+ond generation, J. Geophys. Res.-Atmos., 118, 9296–9315,
+https://doi.org/10.1002/jgrd.50712, 2013.
+Hsu, N. C.: Changes to Modis Deep Blue Aerosol Products
+Betwwen
+Collection
+6
+and
+Collection
+6.1,
+available
+at:
+https://modis-atmosphere.gsfc.nasa.gov/sites/default/ﬁles/
+ModAtmo/modis_deep_blue_c61_changes2.pdf,
+(last
+access:
+28 May 2019), 2017.
+Huang, J. P., Minnis, P., Yi, Y., Tang, Q., Wang, X., Hu, Y., Liu,
+Z., Ayers, K., Trepte, C., and Winker, D.: Summer dust aerosols
+detected from CALIPSO over the Tibetan Plateau, Geophys. Res.
+Lett., 34, L18805, https://doi.org/10.1029/2007gl029938, 2007.
+Ichoku, C., Chu, D. A., Mattoo, S., Kaufman, Y. J., Re-
+mer, L. A.. Tanré, D., Slutsker, I., and Holben, B. N.: A
+spatio-temporal approach for global validation and analysis
+of MODIS aerosol products, Geophys. Res. Lett., 29, 1616,
+https://doi.org/10.1029/2001GL013206, 2002.
+Jia,
+R.,
+Liu,
+Y.,
+Chen,
+B.,
+Zhang,
+Z.,
+and
+Huang,
+J.:
+Source
+and
+transportation
+of
+summer
+dust
+over
+the
+Tibetan
+Plateau,
+Atmos.
+Environ.,
+123,
+210–219,
+https://doi.org/10.1016/j.atmosenv.2015.10.038, 2015.
+Kaufman, Y. J., Tanré, D., Remer, L. A., Vermote, E. F., Chu,
+A., and Holben, B. N.: Operational remote sensing of tropo-
+spheric aerosol over land from EOS moderate resolution imaging
+spectroradiometer, J. Geophys. Res.-Atmos., 102, 17051–17067,
+https://doi.org/10.1029/96JD03988, 1997.
+Levy, R. C., Remer, L. A., Kleidman, R. G., Mattoo, S., Ichoku, C.,
+Kahn, R., and Eck, T. F.: Global evaluation of the Collection 5
+MODIS dark-target aerosol products over land, Atmos. Chem.
+Phys., 10, 10399–10420, https://doi.org/10.5194/acp-10-10399-
+2010, 2010.
+Levy, R. C., Mattoo, S., Munchak, L. A., Remer, L. A., Sayer, A.
+M., Patadia, F., and Hsu, N. C.: The Collection 6 MODIS aerosol
+products over land and ocean, Atmos. Meas. Tech., 6, 2989–
+3034, https://doi.org/10.5194/amt-6-2989-2013, 2013.
+Li, L., Zhang, J., Meng, X., Fang, Y., Ge, Y., Wang, J.,
+Wang, C., Wu, J., and Kan, H.: Estimation of PM2.5
+concentrations
+at
+a
+high
+spatiotemporal
+resolution
+using
+constrained
+mixed-effect
+bagging
+models
+with
+MAIAC
+aerosol optical depth, Remote Sens. Environ., 217, 573–586,
+https://doi.org/10.1016/j.rse.2018.09.001, 2018.
+Li, Z., Xia, X., Cribb, M., Mi, W., Holben, B., Wang, P., Chen,
+H., Tsay, S. C., Eck, T. F., Zhao, F., Dutton, E., G., and Dick-
+erson, R. E.: Aerosol optical properties and their radiative ef-
+fects in northern China, J. Geophys. Res.-Atmos., 112, D22S01,
+https://doi.org/10.1029/2006JD007382, 2007.
+Liu, Y., Huang, J., Shi, G., Takamura, T., Khatri, P., Bi, J., Shi, J.,
+Wang, T., Wang, X., and Zhang, B.: Aerosol optical properties
+and radiative effect determined from sky-radiometer over Loess
+Plateau of Northwest China, Atmos. Chem. Phys., 11, 11455–
+11463, https://doi.org/10.5194/acp-11-11455-2011, 2011.
+Liu, Y., Sato, Y., Jia, R., Xie, Y., Huang, J., and Nakajima,
+T.: Modeling study on the transport of summer dust and an-
+thropogenic aerosols over the Tibetan Plateau, Atmos. Chem.
+Phys., 15, 12581–12594, https://doi.org/10.5194/acp-15-12581-
+2015, 2015.
+Lucht, W., Schaaf, C. B., and Strahler A. H.: An algorithm
+for the retrieval of albedo from space using semiempiri-
+cal BRDF models, IEEE T. Geosci. Remote, 38, 977–998,
+https://doi.org/10.1109/36.841980, 2000.
+Lyapustin, A., Wang, Y., Laszlo, I., Kahn, R., Korkin, S.,
+Remer,
+L.,
+Levy,
+R.,
+and
+Reid,
+J.
+S.:
+Multiangle
+im-
+plementation
+of
+atmospheric
+correction
+(MAIAC):
+2.
+Aerosol algorithm, J. Geophys. Res.-Atmos., 116, D03211,
+https://doi.org/10.1029/2010JD014986, 2011.
+Lyapustin, A., Wang, Y., Korkin, S., and Huang, D.: MODIS Collec-
+tion 6 MAIAC algorithm, Atmos. Meas. Tech., 11, 5741–5765,
+https://doi.org/10.5194/amt-11-5741-2018, 2018.
+Ma, Z., Hu, X., Huang, L., Bi J., and Liu Y.: Estimat-
+ing
+Ground-Level
+PM2.5
+in
+China
+Using
+Satellite
+Re-
+mote
+Sensing,
+Environ.
+Sci.
+Technol.,
+48,
+7436–7444,
+https://doi.org/10.1021/es5009399, 2014.
+Martins, V. S., Lyapustin, A., de Carvalho, L. A. S., Barbosa, C. C.
+F., and Novo, E. M. L. M.: Validation of high-resolution MAIAC
+aerosol product over South America, J. Geophys. Res.-Atmos.,
+122, 7537–7559, https://doi.org/10.1002/2016JD026301, 2017.
+Mattoo, S.: Aerosol Dark Target (10 km & 3 km) Collection 6.1
+Changes, available at: https://modis-atmosphere.gsfc.nasa.gov/
+sites/default/ﬁles/ModAtmo/C061_Aerosol_Dark_Target_v2.
+pdf (last access: 28 May 2019), 2017.
+Mhawish, A., Banerjee, T., Sorek-Hamer, M., Lyapustin, A., Bro-
+day, D. M., and Chatﬁeld, R.: Comparison and evaluation of
+MODIS Multi-angle Implementation of Atmospheric Correc-
+tion (MAIAC) aerosol product over South Asia, Remote Sens.
+Environ., 224, 12–28, https://doi.org/10.1016/j.rse.2019.01.033,
+2019.
+NASA: NASA Earthdata Search, available at: https://search.
+earthdata.nasa.gov/search, last access: 28 May 2019a.
+NASA: NASA goddard space ﬂight, available at: https://aeronet.
+gsfc.nasa.gov/, last access: 28 May 2019b.
+Qian, Y. and Giorgi, F.: Interactive coupling of regional climate
+and sulfate aerosol models over eastern Asia, J. Geophys. Res.-
+Atmos., 104, 6477–6499, https://doi.org/10.1029/98JD02347,
+1999.
+Rajeev, K. and Ramanathan, V.: Direct observations of clear-
+sky aerosol radiative forcing from space during the Indian
+Ocean Experiment, J. Geophys. Res.-Atmos., 106, 17221–
+17235, https://doi.org/10.1029/2000JD900723, 2001.
+Remer, L. A., Kaufman, Y. J., Tanre, D., Mattoo, S., Chu, D. A.,
+Martins, J. V., Li, R. R., Ichoku, C., Levy, R. C., Kleidman, R. G.,
+Eck, T. F., Vermote, E., and Holben, B. N.: The MODIS aerosol
+algorithm, products, and validation, J. Atmos. Sci., 62, 947–973,
+https://doi.org/10.1175/JAS3385.1, 2005.
+Remer, L. A., Mattoo, S., Levy, R. C., and Munchak, L. A.: MODIS
+3 km aerosol product: algorithm and global perspective, Atmos.
+Meas. Tech., 6, 1829–1844, https://doi.org/10.5194/amt-6-1829-
+2013, 2013.
+Salomonson, V. V., Barnes, W. L., Maymon, P. W., Montgomery,
+H. E., and Ostrow, H.: MODIS: Advanced facility instrument for
+studies of the Earth as a system, IEEE T. Geosci. Remote, 27,
+145–153, https://doi.org/10.1109/36.20292, 1989.
+She, L., Mei, L., Xue, Y., Che, Y., and Guang, J.: SAHARA:
+A Simpliﬁed AtmospHeric Correction AlgoRithm for Chinese
+www.atmos-chem-phys.net/19/8243/2019/
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+
+8268
+N. Liu et al.: MAIAC, DT, and DB aerosol products over China
+gAofen Data: 1. Aerosol Algorithm, Remote Sens., 9, 253,
+https://doi.org/10.3390/rs9030253, 2017.
+Sogacheva, L., de Leeuw, G., Rodriguez, E., Kolmonen, P., Geor-
+goulias, A. K., Alexandri, G., Kourtidis, K., Proestakis, E., Mari-
+nou, E., Amiridis, V., Xue, Y., and van der A, R. J.: Spatial
+and seasonal variations of aerosols over China from two decades
+of multi-satellite observations – Part 1: ATSR (1995–2011) and
+MODIS C6.1 (2000–2017), Atmos. Chem. Phys., 18, 11389–
+11407, https://doi.org/10.5194/acp-18-11389-2018, 2018.
+Sun, E., Che, H., Xu, X., Wang, Z., Lu, C., Gui, K., Zhao, H., Zheng,
+Y., Wang, Y., Wang, H., Sun, T., Liang, Y., Li, X., Sheng, Z., An,
+L., Zhang, X., and Shi, G.: Variation in MERRA-2 aerosol optical
+depth over the Yangtze River Delta from 1980 to 2016, Theor.
+Appl. Climatol., 136, 363–375, https://doi.org/10.1007/s00704-
+018-2490-9, 2019.
+Superczynski, S. D., Kondragunta, S., Kondragunta, S., and Lya-
+pustin, A.: Evaluation of the Multi-Angle Implementation of At-
+mospheric Correction (MAIAC) Aerosol Algorithm through In-
+tercomparison with VIIRS Aerosol Products and AERONET:
+MAIAC AOT Evaluation, J. Geophys. Res.-Atmos., 122, 3005–
+3022, https://doi.org/10.1002/2016JD025720, 2017.
+Tao, M., Chen, L., Wang, Z., Tao, J., Che, H., Wang, X., and
+Wang, Y.: Comparison and evaluation of the MODIS Collection
+6 aerosol data in China, J. Geophys. Res.-Atmos., 120, 6992–
+7005, https://doi.org/10.1002/2015JD023360, 2015.
+Tian, X., Liu, Q., Li, X., and Wei, J.: Validation and Comparison of
+MODIS C6.1 and C6 Aerosol Products over Beijing, China, Re-
+mote Sens., 10, 2021, https://doi.org/10.3390/rs10122021, 2018.
+Wang, S., Liu, X., Yang, X., Zou, B., and Wang, J.: Spa-
+tial variations of PM2.5 in Chinese cities for the joint im-
+pacts of human activities and natural conditions: A global
+and local regression perspective, J. Clean Prod., 203, 143–152,
+https://doi.org/10.1016/j.jclepro.2018.08.249, 2018.
+Wang, W., Mao, F., Pan, Z., Gong, W., Yoshida, M., Zou, B.,
+and Ma, H.: Evaluating aerosol optical depth from himawari-
+8 with sun photometer network, J. Geophys. Res.-Atmos., 124,
+https://doi.org/10.1029/2018JD028599, 2019.
+Wang, Y., Yuan, Q., Li, T., Shen, H., Zheng, L., and Zhang L.: Eval-
+uation and comparison of MODIS Collection 6.1 aerosol opti-
+cal depth against AERONET over regions in China with mul-
+tifarious underlying surfaces, Atmos. Environ., 200, 280–301,
+https://doi.org/10.1016/j.atmosenv.2018.12.023, 2019.
+Xia, X., Li, Z., Holben, B., Wang, P., Eck, T., Chen, H., Cribb,
+M., and Zhao, Y.: Aerosol optical properties and radiative effects
+in the Yangtze Delta region of China, J. Geophys. Res.-Atmos.,
+112, D22S12, https://doi.org/10.1029/2007JD008859, 2007.
+Xiao, Q., Wang, Y., Chang, H. H., Meng, X., Geng, G.,
+Lyapustin, A., and Liu, Y.: Full-coverage high-resolution
+daily PM2.5 estimation using MAIAC AOD in the Yangtze
+River Delta of China, Remote Sens. Environ., 199, 437–446,
+https://doi.org/10.1016/j.rse.2017.07.023, 2017.
+Xu, S., Zou, B., Shaﬁ, S., and Sternberg, T.: A hybrid Grey-
+Markov/ LUR model for PM10 concentration prediction un-
+der future urban scenarios, Atmos. Environ., 187, 401–409,
+https://doi.org/10.1016/j.atmosenv.2018.06.014, 2018.
+Zhai, L., Li, S., Zou, B., Sang, H., Fang, X., and Xu, S.: An
+improved geographically weighted regression model for PM2.5
+concentration estimation in large areas, Atmos. Environ., 181,
+145–154, https://doi.org/10.1016/j.atmosenv.2018.03.017, 2018.
+Zhang, G., Li, J., Li, X., Xu, Y., Guo, L., Tang, J., Lee, C.
+S. L., Liu, X., and Chen, Y.: Impact of anthropogenic emis-
+sions and open biomass burning on regional carbonaceous
+aerosols in South China, Environ. Pollut., 158, 3392–3400,
+https://doi.org/10.1016/j.envpol.2010.07036, 2010.
+Zhang, Z., Wu, W., Fan, M., Wei, J., Tan, Y., and Wang, Q.: Eval-
+uation of MAIAC aerosol retrievals over China, Atmos. Envi-
+ron., 202, 8–16, https://doi.org/10.1016/j.atmosenv.2019.01.013,
+2019.
+Zou, B., Pu, Q., Bilal, M., Weng, Q., Zhai, L., and Nichol,
+J.
+E.:
+High-Resolution
+Satellite
+Mapping
+of
+Fine
+Par-
+ticulates
+Based
+on
+Geographically
+Weighted
+Regres-
+sion,
+IEEE
+Geosci.
+Remote
+Sens.
+Lett.,
+13,
+495–499,
+https://doi.org/10.1109/LGRS.2016.2520480, 2016.
+Zou, B., You, J., Lin, Y., Duan, X., Zhao, X., Xin, F.,
+Campen, M. J., and Li, S.: Air pollution intervention and
+life-saving effect in China, Environ. Int., 125, 529–541,
+https://doi.org/10.1016/j.envint.2018.10.045, 2019.
+Atmos. Chem. Phys., 19, 8243–8268, 2019
+www.atmos-chem-phys.net/19/8243/2019/

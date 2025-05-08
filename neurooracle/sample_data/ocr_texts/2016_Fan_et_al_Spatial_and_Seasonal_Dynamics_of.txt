@@ -1,0 +1,609 @@
+S1 
+ 
+Supporting Information 
+Spatial and seasonal dynamics of ship emissions over the Yangtze 
+River Delta and East China Sea and their potential environmental 
+influence 
+Qianzhu Fan1, Yan Zhang1*, Weichun Ma1, Huixin Ma2, Junlan Feng1, Qi Yu1, Xin Yang1, Simon 
+K.W. Ng3, Qingyan Fu4, Limin Chen1 
+1. Shanghai Key Laboratory of Atmospheric Particle Pollution and Prevention (LAP3), 
+Department of Environmental Science and Engineering, Fudan University, Shanghai, 200433, 
+P.R. China 
+2. School of computing Science, Fudan University,, Shanghai, 200433, P.R. China 
+3. Civic Exchange, 23/F, Chun Wo Commercial Centre, 23-29 Wing Wo Street, Central, Hong 
+Kong. 
+4. Shanghai Environmental Monitoring Center, Shanghai, 200030, P.R. China 
+Corresponding author: Yan Zhang, Shanghai Key Laboratory of Atmospheric Particle Pollution 
+and Prevention (LAP3), Department of Environmental Science and Engineering, Fudan University, 
+Shanghai, 200433, P.R. China. Phone: +86-21-65642530, yan_zhang@fudan.edu.cn 
+ 
+The number of pages: 12 
+The number of tables: 2 
+The number of figures: 6 
+Summary of contents: 
+Additional Material and Methods 
+S.1 Estimation of ship emissions 
+S.2 Emissions Factors 
+S.3 Low load adjustment multipliers for main engine emission factors 
+S.4 Control factors 
+S.5 Sources of uncertainty
+
+S2 
+ 
+Additional Figures and Tables 
+1. Table S1, Main engine and Auxiliary Emissions factors used in the present study, in 
+g/kWh. 
+2. Table S2, Low load adjustment multipliers for main engine emission factors 
+3. Figure S1, Spatial distributions of NOx, CO, NMVOC, PM10, and PM2.5 in 2010. 
+Emissions are given as kg/cell (0.0091 degrees, approximately 1 km × 1 km).  
+4. Figure S2, Spatial distribution of OC, EC and elements such as V and Ni in PM2.5. 
+Emissions are given as kg/cell (approximately 1 km × 1 km) 
+5. Figure S3, The emissions proportions for different types of ships (a, b, and c 
+represent the proportions of SO2, NOX, and PM2.5, respectively, emitted by different 
+types of ships in the pie charts). 
+6. Figure S4, Ship emissions under different operating conditions. (Note, emissions 
+during hoteling did not consider boiler burning.) 
+7. Figure S5, Annual land-based and marine SO2, NOx, and PM2.5 emissions (from 
+118°E to 125°E and 27°N to 35°N). Emissions are given as ton/yr/km2. 
+8. Figure S6, The potential effect of ship emissions on the surrounding atmospheric 
+environment in winter season, the affecting duration for each grid is estimated by 
+airflow retention time starting from ports and ship emission hub points. 
+ 
+Additional Material and Methods 
+S.1 Estimation of ship emissions  
+The marine vessels emission was calculated based on activity-based method 
+following the below Equations: 
+Main Engine load factor: 
+(
+)
+3
+m
+MaxSpeed
+ActSpeed
+LF
+=
+（1） 
+ME emissions: 
+m
+m
+m
+m
+m
+m
+CF
+FCF
+EF
+T
+LLAM
+LF
+P
+E
+×
+×
+×
+×
+×
+×
+=
+（2） 
+AE emissions: 
+a
+a
+a
+a
+a
+CF
+EF
+T
+LF
+P
+E
+×
+×
+×
+×
+=
+（3） 
+AB emissions:
+
+S3 
+ 
+b
+b
+b
+b
+b
+CF
+EF
+T
+LF
+P
+E
+×
+×
+×
+×
+=
+（4） 
+Total ship emissions: 
+b
+a
+m
+E
+E
+E
+E
++
++
+=
+（5） 
+Where LFm is ME load factors; ActSpeed is the actual speed when ship is cruising; 
+MaxSpeed is the maximum speed designed for the ship; Em is emissions from ME (g)，
+Pm is the installed power of ME (kw); LLAM is low load adjustment multipliers of 
+ME; T is operation time(h); EFm is ME emissions factors(g/kwh); FCFm is fuel 
+correction factors of ME; CFm is ME control factors.; Ea is emissions from AE (g); Pa 
+is the installed power of AE (kw); LFa is AE load factors; T is operation time(h); EFa 
+is AE emissions factors (g/kwh); CFa is AE control factors; Eb is emissions from AB 
+(g); Pb is the installed power of AB (kw); LFb is AB load factors; T is operation 
+time(h); EFb is AB emissions factors (g/kwh); CFb is AB control factors; E is the total 
+emissions of ship. For ships available in Lloyd's register, the following data was 
+derived from Lloyd's database including: ship name, ship type, date of construction, 
+flag name, revolutions per minute (RPM) of the main engine, speed, total kilowatts of 
+the main engines (ME), total power of the auxiliary engines (AE) and gross tonnage. 
+For some domestic ships unavailable in Lloyd's database, the engine data are assumed 
+to be 7000 kw by default, based on the East China Sea-going ships in Lloyd's register 
+(with an ME power mainly ranging from 11000 kw to 14000 kw) and domestic ships 
+from the CCS (with an ME power mainly ranging from 4000 kw to 6000 kw).  
+S.2 Emissions Factors 
+The Sulphur content of RO is about 2.7%, and MD 0.5%.The factors for SO2, 
+NOx, CO, NMVOCs, PM10, PM2.5 come primarily from the data published in Cooper 
+and Gustaffson(1), ICF international(2), Goldsworthy (3). Emissions factors for OC, 
+EC, V and Ni are obtained from published data in Agrawal (4), Agrawal (5), Petzold 
+(6), Moldanová, J (7). Table1 lists emissions factors used in the present study.
+
+S4 
+ 
+S.3 Low load adjustment multipliers for main engine emission factors 
+Emissions factors are adjusted for loads below 20% using tables from oversea 
+studies (2, 8). OC, EC, V and Ni use the same LLAM as the PM in the present study. 
+Table S2 represents low load adjustment multipliers for main engine emission factors. 
+S.4 Control factors 
+For all marine engines over 130 kilowatts (kW) for engines built on or after 
+January 1, 2000, NOX limits in Annex VI applied. We use a factor of 0.9024 for main 
+engine and a factor of 0.906 for auxiliary engine to adjust the NOX emission. For 
+vessels built after 2010, and thus complying with “IMO Tier 2”. We use a main engine 
+control factor of 0.875 and an auxiliary engine control factor of 0.8767 to adjust it. 
+The control factor data come from ICF international (2). 
+S.5 Sources of uncertainty 
+The original AIS data obtained from the Marine Department were reliable; thus, 
+the estimation and statistics for the year’s emissions according to the existing AIS 
+data are relatively reliable. The accuracy of the AIS data was only limited to the 
+accuracy of the AIS receiver and the base stations. Most of the basic ship information 
+was obtained from Lloyd's database, while it is the most used and complete source for 
+the basic ship information. The main engine information in Lloyd's database is 
+relatively complete, but the auxiliary engine information is relatively limited. 
+Moreover, almost no information exists on boilers. Considering the accuracy of the 
+emission inventory, we calculated the main engine and auxiliary engine emissions in 
+this paper. Because certain ships involved in this research were inland and were 
+therefore not included in Lloyd's database, default values for the ship type were used 
+as the installed power of the equipment and the maximum speed of these ships. 
+Parameters used in module were combined from the Lloyd's database and China 
+Classification Society (CCS) database. And we interviewed experienced members of
+
+S5 
+ 
+the Marine Department to verify the typical values. These parameters carry 
+uncertainties.  
+Different emission factors; ME, AE and ME control factors; low-load control 
+factors; and ME fuel correction factors were acquired from the other literature. 
+Selection of emission factors may also contain uncertainties. In this research, the ME 
+emission factors assumed the use of RO (2.7% sulfur content). According to the 
+matching of the static ship information with Lloyd's database, we divided the vessels 
+into inland vessels and ocean-going vessels. According to the CMB’s data, we 
+adjusted the sulfur content of the main engine’s fuel used by domestic vessels to 1.5%. 
+The AE emission factors assumed the use of MD (0.5% sulfur content), and ships’ 
+auxiliary engines were assumed to be medium speed diesel (MSD). Strictly speaking, 
+some AEs use HFO (~2.7% sulfur content), this may contains a certain degree of 
+uncertainty.  
+ 
+ 
+References 
+1. Cooper, D.; Gustaffson, T. Methodology for Calculating Emissions from Ships: 1. 
+Update of Emission Factors. Swedish Methodology for Environmental Data (SMED) 
+2004. 
+2. ICF International: Current methodologies in preparing mobile source port-related 
+emission inventories, Final Report, April 2009. 
+3. Goldsworthy, L.; Goldsworthy, B. Modelling of ship engine exhaust emissions in 
+ports and extensive coastal waters based on terrestrial AIS data – an Australian case 
+study. Environmental Modelling & Software. 2015, 63, 45–60. 
+4. Agrawal, H.; Malloy, Q. G. J.; Welch, W. A.; Miller, J. W.; Iii, D. R. C. In-use 
+gaseous and particulate matter emissions from a modern ocean going container vessel, 
+Atmos. Environ. 2008, 42(21), 5504–5510. 
+5. Agrawal, H.; Welch, W. A.; Miller, J. W.; Dr., C. Emission measurements from a 
+crude oil tanker at sea. Environ. Sci. Technol. 2008, 42(19), 7098-7103. 
+6. Petzold, A.; Lauer, P.; Fritsche, U.; Hasselbach, J.; Lichtenstern, M.; Schlager, H.;
+
+S6 
+ 
+et al. Operation of marine diesel engines on biogenic fuels: modification of emissions 
+and resulting climate effects. Environ. Sci. Technol. 2011, 45(24), 10394-10400. 
+7. Moldanová, J., et al. : Physical and chemical characterization of PM emissions 
+from two ships operating in European emission control areas. Atmospheric 
+Measurement Techniques. 2013, 6.2:3577-3596. 
+8. Starcrest Consulting Group: Port of Los Angeles Inventory of Air Emissions 2008. 
+Technical Report Revision. 2009, 2, December.
+
+S7 
+ 
+Additional Figures and Tables 
+Table S1 Main engine and Auxiliary Emissions factors used in the present study, in 
+g/kWh 
+aME Main Engine bAE Auxiliary Engine  
+ 
+Table S2 Low load adjustment multipliers for main engine emission factors 
+ 
+ 
+Machine 
+Type 
+Fuel 
+Type 
+Engine 
+Type 
+SO2 
+NOX 
+CO 
+NMVOCs 
+PM10 
+PM2.5 
+OC 
+EC 
+V 
+Ni 
+MEa 
+RO 
+SSD 
+10.30 
+18.1 
+0.5 
+0.3 
+1.378 
+1.22 
+0.26 
+0.017 
+0.056 
+0.0127 
+ME 
+RO 
+MSD 
+11.31 
+14.0 
+1.1 
+0.2 
+1.193 
+1.22 
+0.10 
+0.02 
+0.056 
+0.0127 
+ME 
+RO 
+HSD 
+11.31 
+12.7 
+1.1 
+0.2 
+0.650 
+0.50 
+0.10 
+0.02 
+0.056 
+0.0127 
+AEb 
+MD 
+MSD 
+2.12 
+13.9 
+1.1 
+0.2 
+0.328 
+0.30 
+0.0374 
+0.0238 
+0.00015 
+0.00004 
+Load 
+SO2 
+NOX 
+CO 
+NMVOCs 
+PM10 
+PM2.5 
+OC 
+EC 
+V 
+Ni 
+0.01 
+1 
+11.47 
+19.32 
+59.28 
+19.17 
+19.17 
+19.17 
+19.17 
+19.17 
+19.17 
+0.02 
+1 
+4.63 
+9.68 
+21.18 
+7.29 
+7.29 
+7.29 
+7.29 
+7.29 
+7.29 
+0.03 
+1 
+2.92 
+6.46 
+11.68 
+4.33 
+4.33 
+4.33 
+4.33 
+4.33 
+4.33 
+0.04 
+1 
+2.21 
+4.86 
+7.71 
+3.09 
+3.09 
+3.09 
+3.09 
+3.09 
+3.09 
+0.05 
+1 
+1.83 
+3.89 
+5.61 
+2.44 
+2.44 
+2.44 
+2.44 
+2.44 
+2.44 
+0.06 
+1 
+1.6 
+3.25 
+4.35 
+2.04 
+2.04 
+2.04 
+2.04 
+2.04 
+2.04 
+0.07 
+1 
+1.45 
+2.79 
+3.52 
+1.79 
+1.79 
+1.79 
+1.79 
+1.79 
+1.79 
+0.08 
+1 
+1.35 
+2.45 
+2.95 
+1.61 
+1.61 
+1.61 
+1.61 
+1.61 
+1.61 
+0.09 
+1 
+1.27 
+2.18 
+2.52 
+1.48 
+1.48 
+1.48 
+1.48 
+1.48 
+1.48 
+0.1 
+1 
+1.22 
+1.96 
+2.2 
+1.38 
+1.38 
+1.38 
+1.38 
+1.38 
+1.38 
+0.11 
+1 
+1.17 
+1.79 
+1.96 
+1.3 
+1.3 
+1.3 
+1.3 
+1.3 
+1.3 
+0.12 
+1 
+1.14 
+1.64 
+1.76 
+1.24 
+1.24 
+1.24 
+1.24 
+1.24 
+1.24 
+0.13 
+1 
+1.11 
+1.52 
+1.6 
+1.19 
+1.19 
+1.19 
+1.19 
+1.19 
+1.19 
+0.14 
+1 
+1.08 
+1.41 
+1.47 
+1.15 
+1.15 
+1.15 
+1.15 
+1.15 
+1.15 
+0.15 
+1 
+1.06 
+1.32 
+1.36 
+1.11 
+1.11 
+1.11 
+1.11 
+1.11 
+1.11 
+0.16 
+1 
+1.05 
+1.24 
+1.26 
+1.08 
+1.08 
+1.08 
+1.08 
+1.08 
+1.08 
+0.17 
+1 
+1.03 
+1.17 
+1.18 
+1.06 
+1.06 
+1.06 
+1.06 
+1.06 
+1.06 
+0.18 
+1 
+1.02 
+1.11 
+1.11 
+1.04 
+1.04 
+1.04 
+1.04 
+1.04 
+1.04 
+0.19 
+1 
+1.01 
+1.05 
+1.05 
+1.02 
+1.02 
+1.02 
+1.02 
+1.02 
+1.02 
+0.2 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1
+
+S8 
+ 
+ 
+Figure S1, Spatial distributions of NOx, CO, NMVOC, PM10, and PM2.5 in 2010. 
+Emissions are given as kg/cell (0.0091 degrees, approximately 1 km × 1 km).
+
+S9 
+ 
+ 
+ 
+Figure S2, Spatial distribution of OC, EC and elements such as V and Ni in PM2.5. 
+Emissions are given as kg/cell (approximately 1 km × 1 km)
+
+S10 
+ 
+ 
+ 
+ 
+Figure S3, The emissions proportions for different types of ships (a, b, and c represent 
+the proportions of SO2, NOX, and PM2.5, respectively, emitted by different types of 
+ships in the pie charts). 
+ 
+ 
+ 
+ 
+ 
+Figure S4, Ship emissions under different operating conditions. (Note, emissions 
+during hotelling did not consider boiler burning.) 
+ 
+ 
+0%
+20%
+40%
+60%
+80%
+100%
+Ni
+V
+EC
+OC
+PM2.5
+PM10
+NMVOC
+CO
+NOx
+SO2
+hotelling
+manoeuvring
+slow cruise
+fairway cruise
+
+S11 
+ 
+ 
+Figure S5, Annual land-based and marine SO2, NOx, and PM2.5 emissions (from 118°E 
+to 125°E and 27°N to 35°N). Emissions are given as ton/yr/km2.
+
+S12 
+ 
+ 
+ 
+Figure S6, The potential effect of ship emissions on the surrounding atmospheric 
+environment in winter season, and the affecting duration for each grid is estimated by 
+airflow retention time starting from ports and ship emission hub points.

@@ -1,0 +1,1409 @@
+RESEARCH ARTICLE
+Identification of a Transcription Factor That
+Regulates Host Cell Exit and Virulence of
+Mycobacterium tuberculosis
+Lalitha Srinivasan1, Serdar A. Gurses1¤, Benjamin E. Hurley1, Jessica L. Miller1, Petros
+C. Karakousis2, Volker Briken1*
+1 Department of Cell Biology and Molecular Genetics, University of Maryland, College Park, Maryland,
+United States of America, 2 Department of Medicine, Johns Hopkins University School of Medicine,
+Baltimore, Maryland, United States of America
+¤ Current address: Department of Medical Biology, Emine-Bahaeddin Nakıboğlu School of Medicine, Zirve
+University, Gaziantep, Turkey
+* vbriken@umd.edu
+Abstract
+The interaction of Mycobacterium tuberculosis (Mtb) with host cell death signaling path-
+ways is characterized by an initial anti-apoptotic phase followed by a pro-necrotic phase to
+allow for host cell exit of the bacteria. The bacterial modulators regulating necrosis induction
+are poorly understood. Here we describe the identification of a transcriptional repressor,
+Rv3167c responsible for regulating the escape of Mtb from the phagosome. Increased cyto-
+solic localization of MtbΔRv3167c was accompanied by elevated levels of mitochondrial
+reactive oxygen species and reduced activation of the protein kinase Akt, and these events
+were critical for the induction of host cell necrosis and macroautophagy. The increase in
+necrosis led to an increase in bacterial virulence as reflected in higher bacterial burden and
+reduced survival of mice infected with MtbΔRv3167c. The regulon of Rv3167c thus contains
+the bacterial mediators involved in escape from the phagosome and host cell necrosis
+induction, both of which are crucial steps in the intracellular lifecycle and virulence of Mtb.
+Author Summary
+Mycobacterium tuberculosis (Mtb), the causative agent of tuberculosis, is a highly success-
+ful human pathogen. Following entry into host phagocytic cells, Mtb resides within a mod-
+ified phagosomal compartment and inhibits apoptotic host cell death. Recent studies have
+demonstrated that Mtb eventually translocates from the phagosomal compartment to the
+cytosol. This event is followed by the induction of necrotic host cell death allowing the bac-
+teria to exit the host cell and infect naive cell populations. Our study adds to this relatively
+unexplored aspect of Mtb pathogenesis by revealing that the transcriptional repressor
+Rv3167c of Mtb negatively regulates phagosomal escape and host cell necrosis. We further-
+more demonstrate that the increased necrosis induction by the Mtb mutant strain deficient
+in Rv3167c required elevated reactive oxygen species levels within host cell mitochondria
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+1 / 29
+a11111
+OPEN ACCESS
+Citation: Srinivasan L, Gurses SA, Hurley BE, Miller
+JL, Karakousis PC, Briken V (2016) Identification of a
+Transcription Factor That Regulates Host Cell Exit
+and Virulence of Mycobacterium tuberculosis. PLoS
+Pathog 12(5): e1005652. doi:10.1371/journal.
+ppat.1005652
+Editor: Christopher M. Sassetti, University of
+Massachusetts Medical School, UNITED STATES
+Received: March 18, 2016
+Accepted: May 1, 2016
+Published: May 18, 2016
+Copyright: © 2016 Srinivasan et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which permits
+unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are
+credited.
+Data Availability Statement: All relevant data are
+within the paper and its Supporting Information files.
+Funding: The research described was supported by
+National Institutes of Health/ National Institute of
+Allergy and Infectious Diseases grant R56 AI114269
+to VB and R01AI083125 to PCK. The funders had no
+role in study design, data collection and analysis,
+decision to publish, or preparation of the manuscript.
+Competing Interests: The authors have declared
+that no competing interests exist.
+
+and reduced activation of the protein kinase Akt. In addition, the increased virulence of
+the Mtb mutant strain observed after aerosol infection of mice strengthens the link
+between the ability of the bacteria to induce host cell necrosis and virulence. The Mtb
+genes negatively regulated by Rv3167c are thus potential virulence factors that can be tar-
+geted for drug and vaccine development.
+Introduction
+Apoptosis is a major programmed cell death pathway but now it is well established that necro-
+sis can also be induced via defined signal transduction pathways [1,2]. The importance of apo-
+ptosis in host defense against pathogens is well described [3,4]. In contrast, the function of
+programmed necrosis in host resistance or susceptibility to pathogens is still an open question
+in many cases and may depend upon the context of the infection and the pathogen [5]. For
+instance, the RIPK1/3 necrosis pathway acts as a back-up mechanism of death induction in
+cells infected with viruses that are able to inhibit host cell apoptosis [6]. Consequently, pro-
+grammed necrosis is associated with increased host resistance against viral pathogens in the
+case of vaccinia virus, adenovirus and MCMV [5,6]. Nevertheless, for the influenza A virus,
+programmed necrosis leads to increased pathology and host susceptibility [7]. Limited results
+are available for interaction of bacterial pathogens with host cell necrosis pathways but similar
+to viral pathogens the role of programmed necrosis may vary depending upon the pathogen.
+Enteropathogenic Escherichia coli can inhibit RIPK3-dependent necrosis via the glycosyl trans-
+ferase NleB and this activity is important for bacterial virulence [8,9]. In contrast, IRF-3-depen-
+dent necrosis induction by Listeria monocytogenes promotes pathogen dissemination and
+virulence [10].
+The interaction of wild-type Mycobacterium tuberculosis (Mtb) with its host cell in regard to
+cell death signaling is complex [11–13]. According to one model, virulent strains of Mtb are
+capable of inhibiting host cell apoptosis during the early phase of the infection to allow for
+intracellular replication but the bacteria induce necrosis in order to exit the host cell at a later
+stage [14]. The discovery of Mtb genes that inhibit host cell apoptosis such as nuoG [15], pknE
+[16], secA2 [17], Rv3654c [18], and ndk [19] supports this model. Furthermore, the Mtb nuoG
+mutant is attenuated in the mouse model of tuberculosis, thus illustrating the importance of
+host cell apoptosis inhibition for Mtb virulence [15]. Consistently, mice with reduced host cell
+apoptosis induction upon Mtb infection are more susceptible [20]. The mechanisms leading to
+increased host resistance include an increase in efferocytosis of apoptotic host cells leading to
+killing of the bacteria [21,22]. In addition, there are various lines of evidence that increased
+host cell apoptosis will lead to a more rapid and increased cytolytic T-cell response [17,23,24].
+In contrast to apoptosis, host cell necrosis induction is associated with increased host suscep-
+tibility and virulence of Mtb as well as Mycobacterium marinum (Mm) in mice and in zebrafish
+[20,25]. Several studies demonstrated the central role of host cell eicosanoids lipoxin A4 (LXA4)
+and prostaglandin E2 (PGE2) in the regulation of host cell apoptosis versus necrosis induction
+and their importance for bacterial virulence and host resistance [24,26,27]. The enzyme Leuko-
+triene A4 hydrolase (LTA4H) regulates synthesis of the eicosanoids LXA4 and leukotriene B4
+(LTB4); excessive production of either lipid mediator leads to macrophage necrosis [28]. Poly-
+morphisms in LTA4H in humans are associated with hypersusceptibility to mycobacterial infec-
+tions [29]. Lysosomal destabilization and macrophage necrosis was found to occur following
+accumulation of about 20 or more intracellular bacteria [30,31]. The escape of Mtb from the
+phagosome to the cytosol precedes necrosis and exit from the host cell [32–34]. The Mtb type
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+2 / 29
+
+VII secretion systems, ESX-1 and ESX-5, are implicated in host cell necrosis induction. The
+deletion of the Mtb ESX-1 secretion system leads to a reduced induction of host cell necrosis
+and dissemination of the mutant mycobacteria [35–37], this could be due the inability of mutant
+strains to escape from the phagosome [33,34,38]. The Mtb ESX-5 system is involved in mediat-
+ing cell necrosis after the bacteria have escaped the phagosome [39]. The PE25/PP41 complex
+secreted via ESX-5 may be one of the effectors of ESX-5-mediated host cell necrosis as addition
+of the purified protein complex induced necrosis of macrophages [40].
+Host cell necrosis induction by Mtb is important for cell exit and dissemination but the
+molecular mechanisms involved are still poorly understood. Here we describe the discovery of
+a tetracycline repressor family protein, Rv3167c, which negatively regulates the capacity of the
+bacteria to induce host cell necrosis. Infection of macrophage with the Rv3167c deletion strain
+(MtbΔRv3167c) led to a rapid increase in host cell necrosis via a novel host cell signaling path-
+way that involves the reduced activation of the protein kinase Akt leading to an increase in
+mitochondrial reactive oxygen species (mROS). Interestingly, we discovered that MtbΔRv3167c
+escape the phagosome in higher numbers than wild-type Mtb, which most likely triggers the
+host cell necrosis signaling. Finally, aerosol infection of mice demonstrated the increased viru-
+lence of MtbΔRv3167c. In conclusion, we find that Rv3167c regulates the escape of Mtb from
+the phagosome, which marks the beginning of the host cell exit program of the Mtb intracellu-
+lar life cycle.
+Results
+Rv3167c is important for inhibition of host cell programmed necrosis
+We previously performed a gain-of-function genetic screen and identified a genomic region in
+Mtb H37Rv containing anti-apoptotic genes (S1A Fig) [15]. A series of deletion mutants span-
+ning several genes within this region was generated and tested for loss of apoptosis inhibition.
+THP1 cells were infected with wild-type Mtb (Mtb) and the deletion mutants and stained for
+genomic DNA fragmentation using TUNEL assay. Two deletion mutants, one being the single
+gene nuoG mutant [15], and the other a five gene deletion mutant designated 7/10, induced
+higher levels of cell death compared to the Mtb control (S1B Fig). Screening of genes within the
+7/10 region revealed that deletion of Rv3167c had the maximal effect on loss of cell death inhi-
+bition. Infection with the deletion mutant MtbΔRv3167c (MtbΔ) resulted in almost a 3-fold
+increase in TUNEL-positive THP1 cells compared to infection with the control Mtb strain
+(S1C Fig). Both southern blotting and RT-PCR confirmed deletion of Rv3167c (S2A–S2C Fig).
+Increased cell death induction by MtbΔRv3167c was also observed in primary human mono-
+cyte derived macrophages (hMDMs) by hypodiploid staining which measures loss of genomic
+DNA content following cell death (Fig 1B). Cell death induction by the complement strain
+MtbΔRv3167c-C (MtbΔC) was comparable to Mtb (Fig 1A and 1B), thus confirming that
+Rv3167c is required for Mtb-mediated host cell death inhibition. Replication of MtbΔ is similar
+to Mtb; both, in infected THP1 cells and in growth media (S2D and S2E Fig). Rv3167c is most
+likely a member of the tetracycline-like family of regulators (TFR) since 89% of the Rv3167c
+amino acid sequence can be modeled with 99.9% confidence to the highest scoring template,
+the TFR SCO0332 of Streptomyces coelicolor, using Phyre2 software.
+Although TUNEL staining has been historically used for detection of apoptotic DNA frag-
+mentation, recent studies have shown that necrotic cells can also be TUNEL positive [41–43].
+A characteristic feature of apoptotic cells is preservation of cell membrane integrity [3]. To
+determine whether cell death induced by MtbΔRv3167c is accompanied by cell membrane
+damage, we tested for the presence of adenylate kinase, normally located within healthy cells,
+in the supernatants of THP1 cells using the Toxilight assay. At 24 and 48h, a 3-fold higher level
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+3 / 29
+
+of adenylate kinase activity was detected in supernatant from MtbΔRv3167c-infected cells com-
+pared to uninfected controls (Fig 1C). Mtb-infected cells also undergo necrosis albeit at lower
+levels compared to MtbΔRv3167c-infected cells. Mtb has been previously shown to induce
+necrosis in a dose and time dependent manner and our data supports this observation [44]. It
+Fig 1. Mtb Rv3167c is important for inhibition of host cell death. Cell death induction in uninfected (UI),
+wild-type Mtb (Mtb), Rv3167c deletion mutant Mtb (MtbΔ) or complemented mutant Mtb (MtbΔC) bacteria
+infected cells was determined. (A) TUNEL staining and flow cytometry of THP1 cells at 24h (mean ± S.E.M,
+n = 6). (B) Cell death induction in human monocyte-derived macrophages (hMDMs) at 48h was measured by
+hypodiploid staining and flow cytometry. Cells were obtained from two independent donors (mean ± S.E.M,
+n = 6). (C) Release of adenylate kinase into supernatants from uninfected and infected THP1 cells was
+measured by Toxilight assay at the indicated time points (mean ± S.E.M, n = 6). Cell death induction in (D)
+wild type (WT) and (E) Casp3-/- BMDMs was determined by TUNEL staining and flow cytometry at 24h. Cells
+were treated with the pan caspase inhibitor zVAD-fmk (40μM) for one hour prior to and throughout the
+infection (mean ± S.E.M, n = 3). (F) PARP cleavage in THP1 cells at 24h detected by western blotting of
+whole cell lysates obtained from infected cells or after treatment with apoptosis inducer staurosporine (Sts).
+Image is representative of three independent experiments.
+doi:10.1371/journal.ppat.1005652.g001
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+4 / 29
+
+is important to note that the Toxilight assay cannot differentiate between primary necrosis or
+secondary necrosis of apoptotic cells and consequently further analysis into the nature of the
+induced cell death was required.
+Execution of apoptotic cell death requires the cleavage and activation of the effector cas-
+pases-3, -6 and -7 [2]. We infected wild type (WT) and Casp3-/- bone marrow derived macro-
+phages (BMDMs) and performed TUNEL staining to confirm that MtbΔRv3167c does not
+induce apoptotic cell death. No differences in TUNEL-positive cells were observed between
+MtbΔRv3167c-infected WT and Casp3-/- BMDMs (Fig 1D and 1E). To ensure that the lack of
+death inhibition in Casp3-/- BMDMs is not due to redundancy of caspase-3 with other effector
+caspases, the pan-caspase inhibitor zVAD-FMK was added to MtbΔRv3167c-infected cells.
+Inclusion of zVAD-FMK did not inhibit MtbΔRv3167c-induced cell death in both WT and
+Casp3-/- BMDMs (Fig 1E) although it did inhibit apoptosis induced by camptothecin (S3A
+Fig). We also did not observe cleavage of the DNA repair enzyme PARP, another feature of
+apoptosis, in Mtb or MtbΔRv3167c-infected THP1 cells (Fig 1F). Furthermore, the zVAD-FMK
+inhibitor was added to infected Ripk3-/- cells and had no effect on MtbΔRv3167c-induced cell
+death (S3D Fig). These results show that Rv3167c is required for inhibition of Mtb-induced
+necrotic host cell death.
+MtbΔRv3167c-mediated cell death involves lysosomal membrane
+permeabilization
+Next, we investigated the involvement of programmed necrosis pathways in cell death mediated
+by MtbΔRv3167c. In conditions where caspase-8 expression and activation are inhibited, the ser-
+ine threonine protein kinases RIPK1 and RIPK3 induce necrosis downstream of TNF-receptor
+ligation via increased reactive oxygen species (ROS) generation, mitochondrial fission and for-
+mation of plasma membrane pores [45–48]. RIPK1 and RIPK3 have also been implicated in
+TNF-mediated necrosis in Mm-infected zebrafish [49]. We investigated the involvement of
+RIPK1 and RIPK3 in MtbΔRv3167c-induced cell death by using Ripk3-/- BMDM’s and the
+RIPK1 inhibitor necrostatin1 (Nec1). Similar levels of PI-positive cells were observed in
+MtbΔRv3167c-infected Ripk3-/- BMDMs and Nec1 treated cells compared to WT BMDMs and
+solvent control-treated cells respectively (Figs 2A and S3B). Nec1 efficacy was confirmed by its
+ability to inhibit LPS and zVAD FMK induced RIPKI dependent cell death (S3C Fig) [50].
+Necrosis induction following TNF treatment has been reported to change to apoptosis in the
+absence of RIPK1 and consequently, the absence of an effect on cell death induction by
+MtbΔRv3167c could be due to an increase in apoptosis in cells deficient in RIPK1/3 signaling
+[1]. Addition of zVAD-FMK to Ripk3-/- cells did not affect MtbΔRv3167c-induced cell death
+thereby ruling out a switch between apoptosis and necrosis in MtbΔRv3167c-infected cells (S3D
+Fig). Infection of Tnfr1-/- BMDMs established that MtbΔRv3167c-induced necrosis was inde-
+pendent of TNF signaling (S4A Fig). The DNA repair enzyme PARP1 has been implicated in
+necrosis induction via ATP depletion and nuclear translocation of mitochondrial apoptosis
+inducing factor in response to DNA alkylating agents and infection with BCG and enterovirus71
+[51–53]. Necrosis induction by MtbΔRv3167c is independent of PARP1 since similar levels of
+necrosis were observed in infected Parp1-/- BMDMs and WT control cells (Fig 2B). The pro-
+inflammatory caspases, caspase-1 and caspase-11 have been shown to be involved in necrosis
+induction in response to several bacterial pathogens [54,55]. The role of these caspases in
+MtbΔRv3167c-induced necrosis was excluded by PI staining of Casp1/11-/- BMDMs (Fig 2C).
+NLRP3-dependent but caspase-1-independent necrosis has been reported to occur in response
+to infection with Mtb and Shigella flexneri [56,57]. Using immortalized NLRP3-deficient
+BMDMs we ruled out involvement of NLRP3 in MtbΔRv3167c-induced necrosis (S4C Fig).
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+5 / 29
+
+Silencing of the inflammasome component ASC did not inhibit MtbΔRv3167c-induced necrosis
+as measured by the toxilight assay, rather necrosis was increased in MtbΔRv3167c-infected
+THP1shASC cells compared to control cells (S4D Fig). Involvement of IFNβ signaling (S4E and
+S4F Fig) and TLR signaling (S5A–S5C Fig) was also ruled out in necrosis induction by
+MtbΔRv3167c. These data indicate that MtbΔRv3167c does not engage the pathways of pro-
+grammed necrosis currently described in the literature to induce host cell death.
+Lysosomal membrane permeabilization (LMP) and the subsequent release of lysosomal
+contents into the cell cytosol leads to cell death [58,59]. Moderate lysosomal permeabilization
+leads to apoptosis while more severe damage precedes necrosis [60]. Lysosomal permeabiliza-
+tion and cathepsin release into the cytosol has been previously observed in cells infected with
+Mtb at high MOI [61]. To investigate whether LMP contributes to MtbΔRv3167c-induced cell
+death, we used the dye acridine orange (AO) that accumulates within lysosomes. A two-fold
+increase in the number of cells with loss of AO staining was observed as early as 8h post infec-
+tion in MtbΔRv3167c-infected THP1 cells compared to Mtb-infected controls (Fig 2D). After
+20h of infection the difference was even more pronounced with only about 8% of Mtb-infected
+cells showing low AO-staining compared to about 25% in mutant infected cells (Fig 2D). This
+indicates that LMP precedes necrosis induction by MtbΔRv3167c and is not merely a conse-
+quence of the disintegration of the cell triggered via a different mechanism.
+Fig 2. MtbΔRv3167c mediates cell death via programmed necrosis. (A) Necrosis induction in WT and
+Ripk3-/- BMDMs was measured by PI staining and flow cytometry at 24h (mean ± S.E.M, n = 3) in uninfected
+(UI), wild-type Mtb (Mtb), Rv3167c deletion mutant Mtb (MtbΔ) or complemented mutant Mtb (MtbΔC)
+bacteria infected cells. (B) Necrosis induction in WT and Parp1-/- BMDMs at 72h was determined by PI
+staining (mean ± S.E.M, n = 3). (C) Necrosis induction in WT and Casp1/11-/- BMDMs was determined by PI
+staining at 48h (mean ± S.E.M, n = 6). (D) Increases in lysosomal permeabilization were measured by
+acridine orange staining at indicated time points (mean ± S.E.M, n = 6).
+doi:10.1371/journal.ppat.1005652.g002
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+6 / 29
+
+MtbΔRv3167c causes increased macroautophagy but not autophagic
+cell death
+Autophagy is a catabolic process that allows for cell survival via recycling of cellular contents
+and contributes to pathogen elimination [62]. However, autophagy induction can also lead to
+cell death [63]. Therefore, we investigated whether MtbΔRv3167c could induce autophagy in
+macrophages. First, we analyzed recruitment of LC3 into aggregates, an indicator of autophagy,
+by confocal microscopy [64]. THP1 cells expressing GFP-tagged LC3 (THP1 LC3GFP) were
+infected with AF647-NHS stained bacteria and at 8h, the percentage of cells showing aggrega-
+tion of LC3 was estimated. A two-fold increase in autophagosome formation was observed in
+MtbΔRv3167c-infected cells compared to Mtb-infected control cells (Fig 3A). Previous studies
+have shown that Mtb induces xenophagy resulting in co-localization of bacteria with autopha-
+gosomes and bacterial killing [65,66] However, we observed minimal colocalization of both
+Mtb and MtbΔRv3167c (<1%) with autophagosomes (Fig 3A). This was confirmed by exami-
+nation of infected THP1 cells by transmission electron microscopy (TEM) (Fig 3B). Next, we
+measured conversion of cytosolic LC3I to autophagosomal membrane bound LC3II, another
+hallmark of autophagy [64]. Uninfected and infected THP1 LC3GFP cells were washed with
+saponin-containing buffer leading to removal of cytosolic LC3I-GFP. Retention of autophago-
+somal membrane-bound LC3II-GFP was examined by flow cytometry [67]. A two-fold
+increase in autophagy induction was observed in MtbΔRv3167c-infected cells compared to
+those infected with Mtb and MtbΔRv3167c-C (Fig 3C). Increased conversion of both GFP
+tagged and endogenous LC3I to LC3II in MtbΔRv3167c-infected cells was also seen by immu-
+noblotting (Fig 3D). Autophagy induction by MtbΔRv3167c was confirmed using 3-methylade-
+nine (3-MA), a classical autophagy inhibitor [64]. Inclusion of 3-MA inhibited LC3II
+formation by MtbΔRv3167c in THP1 LC3GFP cells (Fig 3E).
+Increased accumulation of LC3II can be attributed either to an increase in autophagosome
+formation or to a decrease in LC3II degradation due to inhibition of autophagosome-lysosome
+fusion and maturation [64]. Addition of the vacuolar H+ ATPase inhibitor bafilomycin A1
+(BafA1) that inhibits autophagosomal degradation to MtbΔRv3167c-infected THP1 LC3GFP
+cells led to a further increase in LC3II levels (S6A Fig). Autophagosome maturation leads to
+the degradation of LC3GFP to yield free GFP [64]. GFP was detected only in MtbΔRv3167c-
+infected cells by immunoblotting (S6B Fig). These data indicate that MtbΔRv3167c-induced
+autophagy but did not inhibit the maturation of the autophagosome. Finally to determine
+whether necrotic death of MtbΔRv3167c-infected cells was a consequence of autophagy induc-
+tion, we measured adenylate kinase release from Atg5fl/fl LysM Cre+ (Atg5-/-) and Atg5fl/fl
+LysM Cre- (Atg5+/+) BMDMs. We observed no differences in necrosis induction by
+MtbΔRv3167c in autophagy-deficient Atg5-/- cells compared to the Atg5+/+ controls (Fig 3F).
+Additionally, the inclusion of 3-MA did not result in inhibition of MtbΔRv3167c-induced cell
+death in THP1 cells (S6C Fig). Therefore, while MtbΔRv3167c-infected cells undergo macroau-
+tophagy, this does not contribute to their death via necrosis.
+Rv3167c regulates escape of Mtb from the phagosome
+The concept that Mtb resides within phagosomal compartments at all times has been challenged
+by recent studies demonstrating bacillary escape to the cytosol both ex vivo and in vivo [32–
+34,38]. Necrosis induction by Mtb and Mm was shown to closely follow escape to the cytosol
+[33,68]. We examined cytosolic escape by MtbΔRv3167c using a fluorescence resonance energy
+transfer (FRET) based assay [33,34,69]. Uninfected and infected THP1 cells differentiated for
+three days with PMA were loaded with CCF4-AM. Intact CCF4-AM emits green fluorescence
+(535nm) due to FRET between the fluorescent moieties. Cleavage of CCF4-AM by β-lactamase
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+7 / 29
+
+Fig 3. MtbΔRv3167c causes increased macroautophagy but not autophagic cell death. Uninfected (UI),
+wild-type Mtb (Mtb), Rv3167c deletion mutant Mtb (MtbΔ) or complemented mutant Mtb (MtbΔC) bacteria
+infected cells were analyzed as described. (A) Autophagy induction by AF647-NHS ester stained bacteria in
+THP1 LC3GFP cells at 8h examined by confocal microscopy. Left: Representative fluorescent image. The
+white box indicates bacteria colocalizing with LC3GFP. Right: Quantitative analysis of autophagic cells and
+cells with LC3+ bacteria. At least 450 cells were counted per condition per experiment. Statistical analysis
+was performed using unpaired Student’s t test (mean ± S.E.M, n = 3). (B) Left: Representative TEM image
+showing absence of colocalization between bacteria and autophagosomes at 24h. *—bacteria; AP—
+autophagosome; M—mitochondria. Right: Quantitative analysis of bacteria within autophagosomes as
+observed by TEM. Atleast 10 cells were counted per condition per experiment (n = 2). (C) Autophagy
+induction in THP1 LC3GFP cells measured at 16h by flowcytometry (mean ± S.E.M, n = 6). (D) Conversion of
+GFP tagged and endogenous LC3I to LC3II detected by western blotting in whole cell lysates. Image is
+representative of three independent experiments. (E) Inhibition of MtbΔRv3167c-induced autophagy in
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+8 / 29
+
+expressed by cytosolic bacteria leads to FRET loss and a shift in the emission wavelength to
+450nm that was measured by flow cytometry. Cells were co-stained with Live/Dead Fixable Red
+stain to restrict analysis to live cells only. While minor increases in fluorescence emission at
+450nm were observed in Mtb-infected cells compared to uninfected cells at 48h, the largest shift
+in the CCF4 emission spectrum was seen in MtbΔRv3167c-infected cells (Fig 4A and 4B). A
+three-fold increase was observed in MFI450nm of cells infected with MtbΔRv3167c compared to
+Mtb-infected controls. Increased cytosolic escape of MtbΔRv3167c was reversed following com-
+plementation (Fig 4A–4C). The pro-necrotic phenotype of MtbΔRv3167c was preserved in these
+macrophages (Fig 4D). Bacterial β-lactamase activity was not affected by either deletion of
+Rv3167c or gene complementation (S7 Fig).
+To confirm the increased cytosolic escape by MtbΔRv3167c, we examined infected THP1
+cells by TEM and quantified cytosolic bacteria in a double-blinded fashion by examining for
+absence of phagosomal membranes in healthy cells (Fig 4E, above). Increased presence of
+MtbΔRv3167c was observed in the cytosol at 8h compared to controls although statistical sig-
+nificance was not achieved. At 24h, 60% of MtbΔRv3167c were found to be cytosolic compared
+to 20% of Mtb corroborating the increased cytosolic escape by MtbΔRv3167c observed with the
+CCF4-AM assay (Fig 4E, below). A reduction of cytosolic escape was observed in cells infected
+with the complemented MtbΔRv3167c-C strain (Fig 4E, below). These data suggest that
+Rv3167c negatively regulates Mtb escape from the phagosome to the cytosol, an event that has
+been shown to be followed by induction of host cell necrosis [33,34].
+Host kinase Akt1/2 is central to autophagy and necrosis induction by
+MtbΔRv3167c
+Next we investigated the molecular mechanisms underlying autophagy induction by
+MtbΔRv3167c. The mitogen activated protein kinases (MAPKs) JNK and p38 have been impli-
+cated in autophagic responses of cells infected with Mtb following exposure to cytokines and
+vitamin D3 [70,71]. Mtb Eis has been shown to inhibit autophagy induction by suppressing
+JNK activation [72]. Hence we examined MAPK activation in response to MtbΔRv3167c infec-
+tion by immunoblotting for phosphorylated forms in whole cell lysates prepared from infected
+THP1 LC3GFP cells at the indicated times. JNK activation was not observed at 0h, however
+increased JNK phosphorylation was detected in MtbΔRv3167c-infected cells compared to those
+infected with Mtb and MtbΔRv3167c-C at 18h (Fig 5A). In contrast to JNK, increased
+p38MAPK activation was observed in MtbΔRv3167c-infected cells at 0h. However by 18h,
+p38MAPK phosphorylation in MtbΔRv3167c-infected cells was similar to control cells infected
+with Mtb and MtbΔRv3167c-C (Fig 5A). Consistent results were observed in human mono-
+cyte-derived macrophages (hMDMs) as well; however, elevated JNK activation could be
+detected earlier at 0h in MtbΔRv3167c-infected cells (Fig 5B). We then determined whether
+JNK and p38MAPK contributed to autophagy induction by MtbΔRv3167c. THP1 LC3GFP
+cells were pre-treated and infected with JNK (SP600125) or p38MAPK (SB203580) inhibitors
+prior to infection with MtbΔRv3167c; the percentage of autophagic cells was measured by flow
+cytometry. Inclusion of the JNK inhibitor led to a partial, dose-dependent decrease in autop-
+hagy induction by MtbΔRv3167c while the p38MAPK inhibitor exerted no effects (Fig 5C).
+Neither of the inhibitors reversed the pro-necrotic phenotype of MtbΔRv3167c, instead a mod-
+est increase in PI-positive cells was observed in both cases (Fig 5D and 5E).
+presence of 3-MA (5mM) measured by flowcytometry at 16h (mean ± S.E.M, n = 4). (F) Necrosis induction in
+autophagy competent (Atg5+/+) and autophagy deficient (Atg5-/-) BMDMs measured using Toxilight assay
+(mean ± S.E.M, n = 6).
+doi:10.1371/journal.ppat.1005652.g003
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+9 / 29
+
+Fig 4. Rv3167c regulates escape of Mtb from the phagosome. Uninfected (UI), wild-type Mtb (Mtb),
+Rv3167c deletion mutant Mtb (MtbΔ) or complemented mutant Mtb (MtbΔC) bacteria infected cells were
+analyzed as described. CCF4 FRET-based flow cytometry was performed in combination with Live-Dead cell
+viability assays to examine phagosomal escape. Cells were gated to exclude dead populations and
+subsequent analysis was performed on live cells only. (A) Representative histograms demonstrating
+increased loss of FRET at 48h (corresponding to increased MFI450nm) in MtbΔ-infected THP1 cells compared
+to Mtb- and MtbΔC-infected cells. (B) and (C) Quantification of (A) (mean ± S.E.M, n = 6). (D) Cell death
+induction measured by Live-Dead cell viability assay (mean ± S.E.M, n = 6). (E) Above: Representative TEM
+image of membrane bound and cytosolic mycobacteria within THP1 cells. *—bacteria. Inset: Magnified
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+10 / 29
+
+The serine threonine protein kinase Akt functions as a critical negative regulator of autop-
+hagy at the initiation stage by activating mTOR and at the nucleation step by phosphorylating
+Beclin1 [73,74]. Inhibition of Akt activation has been implicated both in macroautophagy
+induction in response to nutritional stresses as well as selective autophagy-induction in
+response to pathogens such as Toxoplasma gondii and Salmonella typhimurium [73,75,76]. To
+determine role of Akt in autophagy-induction by MtbΔRv3167c, we examined Akt phosphory-
+lation by immunoblotting. A complete loss of Akt activation was observed in MtbΔRv3167c-
+infected cells compared to the controls (Fig 5F). Consistently, the Akt activator, sc-79, inhibited
+autophagy induction by MtbΔRv3167c in a dose-dependent manner (Fig 5G) [77]. Addition-
+ally, Akt inhibition exerts effects on MtbΔRv3167c-mediated necrosis as well, since sc-79 signif-
+icantly reduced MtbΔRv3167c-induced necrotic cell death (Fig 5H).
+Mitochondrial ROS is required for cell death and autophagy induction by
+MtbΔRv3167c
+Mtb-mediated suppression of reactive oxygen species (ROS) generated by the host phagocytic
+NADPH oxidase complex (NOX2) has been shown to inhibit host cell apoptosis [78]. Con-
+versely, necrosis-induction by Mm has been shown to require mitochondrial ROS generation
+[49]. To determine whether necrosis-induction by MtbΔRv3167c involves ROS, we first mea-
+sured ROS levels in cells infected by MtbΔRv3167c. Uninfected and infected BMDMs were
+stained with the either 2’7’-dichlorofluorescein diacetate (DCFDA) or MitoSOX Red for mea-
+surement of cytosolic and mitochondrial ROS respectively. At 0h, similar levels of ROS were
+observed in all infected cells compared to the uninfected controls (Fig 6A and 6B). However by
+24h, approximately three-fold higher levels of both cytosolic and mitochondrial ROS were
+detected in MtbΔRv3167c-infected cells compared to those infected with Mtb and
+MtbΔRv3167c-C (Fig 6A and 6B). Next we examined whether increased ROS levels contribute
+to necrosis induction by MtbΔRv3167c using the flavoprotein inhibitor diphenylene iodonium
+(DPI) and the ROS scavengers glutathione and N-acetyl cysteine (NAC). Inclusion of these
+inhibitors and scavengers reversed necrosis induction by MtbΔRv3167c to levels observed in
+uninfected cells (S8A and S8B Fig). Thus, elevated ROS levels in MtbΔRv3167c-infected cells
+contribute to their necrotic cell death. Furthermore, addition of DPI to MtbΔRv3167c-infected
+THP1 LC3GFP cells completely abrogated autophagy induction compared to control cells
+(S8C Fig).
+As ROS in eukaryotic cells may be derived from the NOX2 complex or mitochondria, we
+sought to determine which of these sources is implicated in necrosis-induction by
+MtbΔRv3167c. Similar levels of necrosis induction by MtbΔRv3167c were detected in WT and
+Nox2-/- BMDMs by PI staining (Fig 6C). However, a complete inhibition of MtbΔRv3167c-
+mediated cell death was observed in mCAT BMDMs obtained from transgenic mice overex-
+pressing mitochondrial targeted human catalase (Fig 6D). Increased mitochondrial ROS gener-
+ation was also accompanied by a time dependent loss of mitochondrial membrane potential as
+measured by DIOC6 staining of MtbΔRv3167c-infected cells (S8D Fig). Increased mROS gener-
+ation in MtbΔRv3167c-infected cells was found to be attributable to reduced Akt activation as
+inclusion of the Akt activator sc-79 inhibited mROS generation (Fig 6E). Taken together, our
+data reveal Akt and mitochondrial ROS to be critical regulators of MtbΔRv3167c-mediated
+necrosis and autophagy.
+images of bacteria. Below: Quantitative analysis of cytosolic bacteria as observed by TEM at 8h and 24h. At
+least 10 cells were counted per condition per experiment (mean ± S.E.M, n = 3).
+doi:10.1371/journal.ppat.1005652.g004
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+11 / 29
+
+Fig 5. Host kinase Akt1/2 regulates MtbΔRv3167c-mediated autophagy and necrosis signaling.
+Uninfected (UI), wild-type Mtb (Mtb), Rv3167c deletion mutant Mtb (MtbΔ) or complemented mutant Mtb
+(MtbΔC) bacteria infected cells were analyzed as described. (A) JNK and p38 MAPK phosphorylation in
+THP1 LC3GFP cells at 18h detected by western blotting of whole cell lysates. Image is representative of
+three independent experiments. (B) JNK and p38 MAPK phosphorylation in human monocyte derived
+macrophages (hMDMs) at 24h detected by western blotting of whole cell lysates. Image is representative of
+three independent experiments. Cells were obtained from two donors. (C) Autophagy induction in presence
+of JNK (JNK-I—SP600125) and p38 MAPK (p38-I-SB203580) inhibitors detected by flow cytometry
+(mean ± S.E.M, n = 6). (D) Effect of JNK inhibitor (JNK-I-SP600125, 25μM) and (E) p38MAPK inhibitor
+(p38-I-SB203580, 25μM) on necrosis measured by PI staining and flow cytometry at 24h (mean ± S.E.M,
+n = 6). (F) Akt phosphorylation in THP1 LC3GFP cells detected at 16h by western blotting. Image is
+representative of three independent experiments. (G) Autophagy induction in presence of Akt activator (Akt—
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+12 / 29
+
+Rv3167c regulates virulence of Mtb
+We assessed the contribution of Rv3167c to Mtb virulence in vivo by performing a survival
+study of C57Bl/6 mice infected with approximately 100 CFU of Mtb, MtbΔRv3167c and
+MtbΔRv3167c-C via the aerosol route. Increased mortality was observed in MtbΔRv3167c-
+infected mice (median survival time—33 weeks) compared to those infected with Mtb or
+MtbΔRv3167c-C (median survival times– 59 and 60 weeks respectively) (Fig 7A). Decreased
+survival following MtbΔRv3167c infection was also observed in immunodeficient SCID mice
+(S9A Fig). Lung bacterial burden on day one after infection was similar for all three strains
+indicating comparable initial inoculum of infection in both C57Bl/6 and SCID mice (Figs 7B
+and S9B). Relative to control mice, the lung bacillary burden was 10-fold higher in
+MtbΔRv3167c-infected animals at14 and 28 days, and this difference was magnified by day 56
+following aerosol infection (Fig 7B). Increased bacterial burdens also were observed in the liver
+and spleen of MtbΔRv3167c-infected mice relative to control mice (Fig 7C and 7D). Higher lev-
+els of pro-inflammatory cytokines (TNF, IL1α and IL6) (Fig 7E) and chemokines (CCL3,
+CCL5 and MMP9) (Fig 7F) were detected in the lung tissues of mice infected with
+MtbΔRv3167c. Comparison of lung histopathology revealed a two-fold increase in cellular infil-
+tration in MtbΔRv3167c-infected animals (Fig 7G).
+Consistent with the findings in the mouse model of chronic TB infection, increased bacterial
+burdens were observed in the lungs of guinea pigs infected with MtbΔRv3167c relative to con-
+trols at 28 days following aerosol infection with similar bacterial loads (S9C and S9D Fig).
+MtbΔRv3167c was also found to induce cell death in ex vivo infection of guinea pig alveolar
+macrophages by TUNEL staining (S9E Fig). Collectively, these results show that Rv3167c nega-
+tively regulates Mtb virulence.
+Discussion
+The intracellular location of bacteria has important consequences for their recognition by the
+host and the generation of innate and adaptive immune responses. Mtb was thought to restrict
+itself to a modified host cell phagosomal compartment after infection [79,80]. However, elec-
+tron microscopy studies performed on infected macrophages and dendritic cells provided evi-
+dence that Mtb and other mycobacterial species are present in the cytosol and that phagosomal
+escape is dependent upon the ESX-1 secretion system [32,38]. This was confirmed by a FRET-
+based method dependent on β-lactamase production by Mtb in ex vivo-infected cells as well as
+in pulmonary phagocytic cells obtained from infected mice [33,34]. We report in the current
+study that the mycobacterial gene Rv3167c negatively regulates the escape of Mtb from the pha-
+gosome to the cytosol (Fig 4). Our study is the first to suggest that Mtb can exert temporal con-
+trol on phagosomal escape as MtbΔRv3167c was found in the cytosol as early as 24h after
+infection while Mtb has been reported to access the cytosol much later in the infection process
+(4–5 days) [33]. We hypothesize that Rv3167c represses cytosolic escape at early stages when
+the bacterial load is low, favoring Mtb replication and establishment of infection. Genes
+involved in cytosolic escape could be induced once bacterial numbers reach about 20 per cell
+which seems to be an important threshold to switch on the cell escape program of Mtb [30].
+Gene deletions resulting in increased cytosolic translocation from vacuolar compartments have
+been reported for other bacteria; for example, the sdhA (a Dot/Icm-secreted effector) mutant of
+A—sc-79) examined by flow cytometry at 16h (mean ± S.E.M, n = 8). (H) Necrosis induction in presence of
+Akt activator (Akt—A—sc-79) in THP1 macrophages measured by flow cytometry at 24h (means ± S.E.M,
+n = 6). For immunoblots, numbers below indicate fold change in band intensity compared to Mtb sample after
+normalization to loading control.
+doi:10.1371/journal.ppat.1005652.g005
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+13 / 29
+
+Fig 6. Mitochondrial ROS is required for cell death and autophagy induction by MtbΔRv3167c.
+Uninfected (UI), wild-type Mtb (Mtb), Rv3167c deletion mutant Mtb (MtbΔ) or complemented mutant Mtb
+(MtbΔC) bacteria infected cells were analyzed as described. (A) Left: Representative histogram of
+mitochondrial ROS measurement using MitoSOX Red staining of BMDMs at 24h. Right: Quantification of
+mitochondrial ROS by estimating increase in MitoSOX Red fluorescence intensity (mean ± S.E.M, n = 4) (B)
+Left: Representative histogram of cellular ROS measurement using DCFDA staining of BMDMs at 24h.
+Right: Quantification of cellular ROS by estimating increase in DCFDA fluorescence intensity (means ± S.E.
+M, n = 4). For (A) and (B), percentage increase in mean fluorescent intensity of infected cells compared to UI
+cells was calculated after subtracting background fluorescence. (C) Necrosis induction in WT and Nox2-/-
+BMDMs was determined by PI staining and flow cytometry at 48h (mean ± S.E.M, n = 6). (D) Necrosis
+induction in BMDMs from WT and mitochondrial targeted catalase (mCAT) knock-in mice was determined by
+PI staining and flow cytometry at 24h (mean ± S.E.M, n = 3). (E) Effect of the Akt activator sc-79 on
+mitochondrial ROS was measured by staining with MitoSOX Red and flowcytometry (mean ± S.E.M, n = 3).
+doi:10.1371/journal.ppat.1005652.g006
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+14 / 29
+
+Fig 7. Rv3167c regulates virulence of Mtb. (A) Survival of C57Bl6 mice infected via the aerosol route with
+100 CFU of wild-type Mtb (Mtb), Rv3167c deletion mutant Mtb (MtbΔ) or complemented mutant Mtb (MtbΔC)
+bacteria (n = 7 per experimental group) (B) Lung, (C) spleen and (D) liver bacterial burdens were determined
+at indicated times (mean ± S.E.M, n = 6) (E) Cytokines and (F) chemokines in lung tissue homogenates at
+56d were quantified using a multiplex ELISA (mean ± S.E.M, n = 3). (G) Left: Representative image of H and
+E stained section of lung tissue. Right: Quantitative analysis of lung area exhibiting cellular infiltration at 56d
+performed using ImageJ (mean ± S.E.M, n = 3).
+doi:10.1371/journal.ppat.1005652.g007
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+15 / 29
+
+Legionella pneumophila and the sifA (an SPI2-secreted effector) mutant of Salmonella typhi-
+murium [81,82]. Deletion of the secreted phospholipase A abrogated the early escape of the L.
+pneumophila sdhA mutant [81]. The Mtb genome encodes four phospholipases (plc A-D),
+which could potentially contribute to the early escape of MtbΔRv3167c. The mechanisms
+involved in Mtb escape from the phagosome and eventual induction of host cell necrosis to exit
+the cell are difficult to study because of the slow kinetic of the process. Consequently, the early
+induction of cytosolic escape and necrosis by MtbΔRv3167c make it a useful model to study the
+host cell escape mechanisms of Mtb.
+The escape of Mtb from the phagosome to the cytosol is closely followed by necrotic death
+of the host cells [32,33,83]. Consistently, we measured higher levels of cell death by necrosis in
+MtbΔRv3167c-infected cells (Figs 1A, 1B and S9E). Mtb may induce necrosis via the manipula-
+tion of host cell lipid mediators by favoring the production of the eicosanoid LXA4 [27]. In
+addition, the activation of the NLRP3-inflammasome was also shown to induce necrosis after
+Mtb infection [56]. We found that NLRP3 is dispensable for MtbΔRv3167c-mediated necrosis
+(S4C Fig). The regulation of cell death is complex and recently there have been major discover-
+ies of signal transduction pathways for the regulation of programmed necrosis [1]. Using a
+combination of inhibitors and macrophages from knock-out mice, we screened for host factors
+required for MtbΔRv3167c-induced necrosis and ruled out the involvement of known pro-
+grammed necrosis pathways (Figs 2, S4 and S5). Redundancy between the various necrosis-sig-
+naling modules may explain this result. For instance, both RIPK1-RIPK3 and caspase-1
+activation are required for S.tymphimurium-induced necrotic cell death and blocking either
+one of the signaling pathways led only to a marginal inhibition of the death phenotype [43].
+However, we found elevated mitochondrial ROS (mROS) to be required for the pro-necrotic
+phenotype of MtbΔRv3167c (Fig 6). Elevated mROS production could lead to increases in cyto-
+solic ROS levels that may via lipid oxidation cause lysosomal permeabilization and cell death
+[1,84]. Lysosomal permeabilization has been implicated previously in necrosis induction by
+high bacillary loads of Mtb [61]. It is possible that MtbΔRv3167c may exploit a similar mecha-
+nism to kill host cells as increased lysosomal permeabilization was observed in cells infected
+with the mutant bacteria (Fig 2D). The Mm-mediated induction of necrosis after zebrafish
+infection also requires an increase in mROS [49]. Nevertheless, in contrast to our data (Figs
+2A, S3B and S4A), Mm signals through the TNF/RIPK3 pathway to induce an increase of
+mROS and necrosis. The differences may reflect the variations in molecular pathogenesis path-
+ways engaged by the human pathogen Mtb and the fish pathogen Mm.
+Our data indicates involvement of diminished Akt activation in mitochondrial ROS genera-
+tion in MtbΔRv3167c–infected cells (Fig 6E). The augmented phagosomal escape observed in
+MtbΔRv3167c-infected cells may allow for previously sequestered Mtb proteins to target mito-
+chondria and trigger an increase in mROS generation. The mycobacterial type VII secretion
+system, ESX-5, is involved in the secretion of proteins containing Pro-Pro-Glu (PPE), Pro-Glu
+(PE) and polymorphic GC-rich sequences (PGRS) and has been implicated in cell lysis after
+Mtb escapes from the phagosome [39,85]. Interestingly, the ESX-5 substrates PE25 and PPE41
+form a complex and induce necrosis [39,40]. Furthermore, the Mtb PE_PGRS33 protein, when
+ectopically expressed in a eukaryotic cell, localizes to the mitochondria and induces apoptotic
+and necrotic cell death [86]. The importance of these proteins in the context of infection with
+live bacteria has not been demonstrated yet. Another compelling target could be the secreted
+Mtb toxin CpnT which induces RIPK1-independent necrosis in Mtb-infected macrophages
+[87] via its NAD+ glycohydrolase activity [88].
+It is possible that both mitochondrial localization of mycobacterial proteins and inhibition of
+Akt activation via Mtb proteins may both contribute to elevated mitochondrial ROS levels seen
+observed in MtbΔRv3167c-infected cells.
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+16 / 29
+
+Autophagic clearance is a defense mechanism employed by host cells following detection of
+cytosolic pathogens. While macroautophagy (hereafter referred to as autophagy) is defined as
+the engulfment of cytosol by the autophagosome, selective autophagy describes the process in
+which autophagosome formation is directed towards a specific organelle, protein complex or
+microorganism by cargo receptor proteins (p62, NDP52, NBR1, Optineurin) [89–91]. Selective
+autophagy augments killing of intracellular mycobacteria, since reduced bacterial viability was
+seen following autophagy induction with IFNγ treatment of BCG-infected macrophages [92].
+The relevance of selective autophagy for host defense against Mtb was demonstrated by the
+dramatically increased susceptibility of Atg5-/- mice when compared to wild-type mice [66,93].
+It was thus unexpected that MtbΔRv3167c was hypervirulent in the mouse model (Fig 7A)
+even though increased autophagy induction was observed in MtbΔRv3167c-infected cells com-
+pared to Mtb-infected controls (Fig 3C and 3D). We found that while MtbΔRv3167c induces
+autophagy, there was no increase in selective autophagy, as very few mycobacteria (both wild-
+type and mutant) co-localized with autophagosomes (Fig 3A and 3B). Previous studies have
+shown that Mtb has evolved mechanisms to avoid recruitment into the autophagosome
+[66,72,94–96]. Our results support this observation and show that this immune evasion strat-
+egy remains intact in MtbΔRv3167c. The increased autophagy seen in MtbΔRv3167c-infected
+cells is most likely a host stress response to an increased number of cytosolic bacteria [66].
+Autophagy may dampen inflammation by negative regulation of the inflammasome and via
+the degradation of danger associated molecular patterns during host cell necrosis [97,98].
+Atg5-/- mice have higher basal level of inflammation when compared to wild-type mice [93]
+and Mtb-infected Atg5-/- mice had increased levels of pulmonary pro-inflammatory cytokines
+and exhibited increased lung tissue damage [66,99]. It is thus possible that in the absence of
+autophagy induction, the increased inflammatory response seen in MtbΔRv3167c-infected
+mice (Fig 7E and 7F) would have been even stronger.
+Unlike apoptosis, which benefits the host by reducing mycobacterial viability, Mtb-induced
+necrosis is beneficial to the pathogen allowing it to exit from infected cells and to disseminate
+[14,100]. Consistent with this concept was our finding that the necrosis-inducing
+MtbΔRv3167c strain was hypervirulent in mice and guinea pig. The hypervirulence of various
+clinical Mtb strains and Mtb deletion mutants has been reported previously [101]. For example,
+the Beijing strain HN878 was found to be more virulent than another member of the same
+family in immunocompetent mice [102]. Deletion of the mce1 operon, two component
+response regulators KdpDE, tcrXY and the serine threonine protein kinases pknH, pknE and
+pknI rendered Mtb hypervirulent in mouse studies [103–107]. The presence of multiple anti-
+virulence genes in Mtb gives rise to the question: why would Mtb encode genes that suppress
+its virulence? While virulence may be defined as the ability of a pathogen to cause disease, an
+important aspect of virulence is successful transmission between hosts [108]. As Mtb has prob-
+ably co-evolved with humans for more than 50,000 years, moderation of its virulence would
+have prevented elimination of the early existent small host populations thus maximizing trans-
+mission opportunities and improving persistence of the pathogen [109,110].
+Materials and Methods
+Materials
+THP1 monocytes were obtained from ATCC (TIB 202). GFP tagged LC3 expressing THP1
+monocytes (THP1 LC3GFP) were provided by Dr. John Kehrl (NIH). THP1shASC and
+THP1shcontrol cells were obtained from Dr. Jenny Ting (University of North Carolina).
+C57Bl6, Nox2-/-, Casp3-/- and mCAT transgenic mice were obtained from Jackson Laboratories.
+Ripk3-/- mice were obtained from Genentech. Casp1/11-/- mice were provided by Dr. Denise
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+17 / 29
+
+Monack (Stanford School of Medicine). Parp1-/- mice were obtained from Dr. Ted Dawson
+(Johns Hopkins University). Tnfr1-/-, Il1r1-/-, Irf3-/- and Ifnβ-/- mice were provided by Dr. Alan
+Sher (NIH). Immortalized wildtype, Nlrp3-/ and Trif-/-MyD88-/- BMDMs were provided by Dr.
+Igor Brodsky (University of Pennsylvania). Atg5fl/fl LysM Cre+ (Atg5-/-) and Atg5fl/fl LysM
+Cre- (Atg5+/+) mice were obtained from Dr. Herbert Virgin IV (Washington University School
+of Medicine). zVAD FMK, Necrostatin 1, MAPK inhibitors (SP600125, SB203580), Akt activa-
+tor (sc-79) and DPI were purchased from Calbiochem. BafilomycinA1, glutathione and N-ace-
+tyl cysteine were sourced from Sigma. 3-MA was purchased from Tocris Biosciences.
+Generation of mutant and complement strains
+Rv3167c was deleted in M. tuberculosis H37Rv using a specialized phage transduction strategy
+described previously [111]. Gene deletion was confirmed by RT-PCR as well as by southern
+blotting. The probes used were labeled with biotin using BrightStar Psoralen-Biotin Kit. Geno-
+mic DNA was digested with EcoRI. The DNA fragments were separated by agarose gel electro-
+phoresis, transferred to charged nylon membrane, and denatured with 0.4N NaOH. The probe
+was denatured at 90°C for 10 min in the presence of 10mM EDTA and hybridized to the mem-
+brane at 55°C for 16h in hybridization buffer (AlkPhos Direct hybridization buffer with 0.5M
+NaCl). The membrane was washed and the probe was detected using a BrightStar BioDetect
+Nonisotopic Detection Kit. For generating the complement strain, Rv3167c gene sequence
+including 60bp upstream was cloned into the episomal plasmid pMV261, electroporated into
+the Rv3167c mutant strain and plated on 7H10 plates with 40μg/ml kanamycin.
+Bacterial culture
+Bacterial strains were grown in 7H9 medium supplemented with 10% ADC, 0.5% glycerol and
+0.05% Tween 80. Hygromycin (50μg/ml) and kanamycin (40μg/ml) were added to the mutant
+and complement cultures respectively. For infection, cultures with an OD600 between 0.6–0.8
+(corresponding to the late log phase of growth) were pelleted and resuspended in 0.05%
+PBS-Tween 80 prior to addition to cells.
+Determination of in vitro and ex vivo bacterial growth rate
+To measure in vitro bacterial growth, bacteria were added to 7H9 medium to obtain a starting
+OD600 of 0.01. OD600 measurements were made at 24h intervals until 7 days. Ex vivo bacterial
+growth was determined by infecting THP1 macrophages and lysing them at the indicated time-
+points with 0.1% Triton X 100. Appropriate dilutions were plated on 7H11 medium in tripli-
+cate. Inoculated plates were incubated at 37°C and colonies were counted approximately 2
+weeks after plating.
+Cell culture and infection
+THP1 monocytes were maintained in RPMI 1640 supplemented with 10% heat inactivated
+FCS. Cells were differentiated with 20ng/ml PMA for 20–24 hours, washed and infected in
+growth medium containing 5% human serum. Bacteria were added to cells at MOI 3 for 4
+hours at 37°C, extracellular bacteria were removed by PBS washes and chase medium contain-
+ing 100μg/ml gentamicin was added. BMDMs were prepared from cells obtained from femurs
+and tibia of various mouse strains and cultured in DMEM supplemented with 10% heat inacti-
+vated FCS, 25% L929 supernatant and 1% Penicillin-Streptomycin. Growth medium was
+replaced with DMEM containing 10% non-heat inactivated FCS for 4h and cells were infected
+at MOI 10 in same medium in the manner described above. Chase media contained 10% L929
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+18 / 29
+
+supernatant in order to avoid cell death induction due to cytokine withdrawal. Immortalized
+BMDMs were maintained in DMEM containing 10% heat inactivated FCS and infected in
+media similar to that used for primary BMDMs. Human monocyte derived macrophages
+(hMDMs) were prepared from elutriated monocyte fractions obtained from NIH blood bank.
+Monocyte fractions were seeded in serum free RPMI for one hour. Non-adherent cells were
+removed and adherent cells were differentiated in RPMI medium containing 5% off-the-clot
+AB human serum (Gemini) and 10ng/ml human MCSF (Peprotech) for 7 days. Inhibitors
+(with the exception of 3-MA) were added to cells one hour prior to infection and included in
+chase medium. 3-MA was added only to chase medium. For all experiments, 0h time point
+refers to end of infection period when cells have been exposed to bacteria for 4 hours.
+Cell death assays
+Cells were stained with 1μg/ml propidium iodide (PI) (Sigma-Aldrich) for 10 minutes at room
+temperature and analyzed by flowcytometry. For TUNEL stain, cells were fixed in 4% parafor-
+maldehyde overnight, stained as per manufacturer’s instructions (Roche) and examined by
+either flow cytometry or fluorescence microscopy. Hypodiploid stain was performed using PI/
+RNase staining buffer (BD Pharmingen) following overnight fixation in 70% ethanol as per
+manufacturer’s instructions. For all flow cytometry analyses, at least 10,000 cells were acquired
+(BD Accuri C6). Toxilight assay to measure adenylate kinase release from cells was performed
+as per manufacturers instructions.
+Autophagy analysis
+Autophagy induction in THP1 LC3GFP expressing cells was analyzed as described previously
+[67]. Briefly, cells were permeabilized with 0.05% saponin for 5 minutes, washed and resus-
+pended in PBS containing 5% FCS. Permeabilization resulted in loss of cytosolic LC3I while
+LC3II bound to autophagosome membranes were retained, which was measured by flow
+cytometry (50,000 cells acquired, BD Accuri C6). For immunofluorescence analysis, bacteria
+were stained with 0.4mg/ml AF647-NHS ester (Molecular Probes) in 0.1M sodium bicarbonate
+solution for 30 minutes at 37°C and used for infecting cells on slides. At specified time points,
+cells were fixed with 4% paraformaldehyde overnight, stained with Hoechst 33342 and ana-
+lyzed by confocal microscopy (Zeiss LSM710).
+Immunoblotting
+Cell lysates were obtained by lysing cells with RIPA buffer containing protease (Complete,
+Mini EDTA free, Roche) and phosphatase inhibitor cocktails (PhosStop, Roche) followed by
+centrifugation at 12,000g for 5 minutes. Pierce BCA protein assay kit (Thermo Scientific) was
+used to measure protein concentrations to ensure equivalent loading. Antibodies against phos-
+phorylated and total Akt and MAPKs, PARP, tubulin and GFP were purchased from Cell Sig-
+naling and used at 1:1000 dilution. Anti LC3 antibody was purchased from Epitomics and used
+at 1:2500 dilution. Densitometric analysis was performed using ImageJ software.
+CCF4 FRET assay
+To detect mycobacterial escape from the phagosome, the CCF4 FRET assay was performed as
+described previously [34]. Briefly, cells were stained with 8μM of CCF4 (Invitrogen) in EM
+buffer (120mM NaCl, 7mM KCl, 1.8mM CaCl2, 0.8mM MgCl2 5mM glucose, 25mM Hepes,
+pH7.3) containing 2.5μM of probenecid (Sigma-Aldrich) for 1.5 hours at room temperature.
+Live populations were distinguished from dead ones by addition of Live/Dead Fixable Red
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+19 / 29
+
+stain (Invitrogen) for 30 minutes at room temperature. After staining cells were fixed with 4%
+PFA overnight and analyzed by flow cytometry (BD FACS CantoII). 40,000 cells were acquired
+and post acquisition analysis done using FlowJo software (Treestar, OR). For estimation of bac-
+terial β-lactamase activity, bacteria were resuspended in PBS containing 50μg/ml porcine ester-
+ase liver extract and 100nM CCF4-AM and incubated at 37°C for 12h. Fluoresence
+measurements were made using Biotek Synergy 4 microplate reader.
+Measurement of ROS generation
+For measurement of ROS levels in BMDMs, cells were infected as described previously [78]. At
+indicated time points after infection, cells were harvested and stained with 10μM
+CM-H2DCFDA (Molecular Probes) or 1.25μM MitoSOX Red (Molecular Probes) for 30 min-
+utes at 37°C in HBSS. Cells were analyzed by flow cytometry (at least 10,000 cells acquired, BD
+Accuri C6) after HBSS wash.
+DIOC6 staining
+Cells were stained with 40 nmol of DIOC6 stain (Molecular Probes) at 37°C for 15 minutes,
+washed and analyzed by flow cytometry (10,000 cells acquired, BD Accuri C6).
+Electron microscopy
+THP1 cells were fixed in 2% gluteraldehyde and 2% paraformaldehyde in 0.1M sodium cacody-
+late buffer pH7.4 for 1 hour. They were carefully pelleted and re-suspended in 2% paraformal-
+dehyde for several hours, followed by rinsing in 0.1M sodium cacodylate buffer and pelleted in
+2% agar in the same buffer. The samples were post fixed in 1% osmium tetroxide in 0.1M
+sodium cacodylate buffer, rinsed in distilled water and, en bloc stained in 2% aqueous uranyl
+acetate for a further hour. They were then rinsed and dehydrated in an ethanol series (50% to
+100%) followed by resin infiltration Embed 812 (Electron Microscopy Sciences) and baked
+overnight at 60°C. Hardened blocks were cut using a Leica UltraCut UC7. 60nm sections were
+collected on formvar/carbon coated nickel grids and contrast stained using 2% uranyl acetate
+and lead citrate. Grids were all viewed in a FEI Tencai Biotwin TEM at 80Kv. Images were
+taken using Morada CCD and iTEM (Olympus) software.
+Embedding and sectioning was performed at the electron microscopy core facility at the
+Yale School of Medicine.
+Animal studies
+C57Bl/6 mice were infected with 100 CFU of each of the various bacterial strains grown to late
+log phase via the aerosol route using a Glas-Col full body inhalation exposure system. At the
+indicated time points, 3 mice per group were sacrificed and bacterial load was determined by
+homogenizing the organs in PBS and plating serial dilutions on 7H11 plates. Lung homogenate
+supernatants were used for cytokine analysis using the Luminex MAGPIX platform (R&D Bio-
+science). Superior lobes of the lungs were fixed in 10% buffered formalin for histopathology.
+Paraffin embedding, sectioning and hematoxylin and eosin (H and E) staining were performed
+by AML Labs, Baltimore. Total lung area and areas of inflamed regions in H and E stained lung
+sections were quantified using ImageJ.
+Female outbred Hartley guinea pigs (250-300g) were purchased from Charles River Labs
+(Wilmington, MA). Animals were infected with each of the three Mtb strains via aerosol using
+a Madison chamber aerosol generation device (University of Wisconsin, Madison, WI) cali-
+brated to deliver ~3 log10 CFU in the lungs. Four animals from each group were sacrificed on
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+20 / 29
+
+day 1 and day 28 post-infection. The lungs were homogenized, as previously described, and the
+lung homogenates were plated on 7H11 Middlebrook agar and incubated at 37°C for 4 weeks
+before final CFU counts were determined [112].
+Alveolar macrophages were harvested by bronchoalveolar lavage (BAL) as described previ-
+ously [113]. Briefly, cold PBS with 3% FCS was instilled into the lungs following insertion into
+the trachea of an 18-gauge cannula fixed to a 20-ml syringe. The cells were pelleted by centrifu-
+gation at 380g for 10 min, washed twice with RPMI-1640 supplemented with 10% FCS, and
+10μM 2-mercaptoethanol (RPMI complete medium), and resuspended in 1 ml RPMI complete
+medium. Following transport from Johns Hopkins to University of Maryland on ice, viable
+cells were enumerated by the trypan blue exclusion method and seeded in RPMI complete
+medium overnight. Adherent cells were infected in RPMI medium containing 5% FCS at speci-
+fied MOI for 4 hours at 37°C, extracellular bacteria were removed by PBS washes and chase
+medium containing 100μg/ml gentamicin was added.
+Statistical analysis
+Statistical analysis was performed using GraphPad Prism version 6.0 software. Data is pre-
+sented as mean ± S.E.M. of three independent experiments and one-way ANOVA with Tukey
+post-test was used unless mentioned otherwise in the figure legends. p-value significance is as
+follows—- 0.05,  - 0.01,  - 0.001,  - 0.0001.
+Ethics statement
+All animals were handled in accordance with the NIH guidelines for housing and care of labo-
+ratory animals and the studies were approved by the Institutional Animal Care and Use Com-
+mittees at the University of Maryland, College Park (protocol no—R-12-55) and Johns
+Hopkins University School of Medicine (protocol no—GP12M88).
+Supporting Information
+S1 Fig. Identification of Rv3167c as an anti cell death gene. (A) Insert of cosmid J21. Position
+of deletion mutants that induce higher cell death compared to Mtb indicated. The 7/10 region
+contains Rv3167c. The image has been adapted from the Tuberculist website (B) Cell death
+induction by Mtb deletion mutants in the J21 cosmid determined by TUNEL staining and flow
+cytometry (mean ± S.E.M, n = 6) (C) Screening of individual gene deletion mutants in the 7/10
+region of the J21 cosmid for increased cell death induction compared to Mtb performed by
+TUNEL staining and flow cytometry (mean ± S.E.M, n = 3).
+(TIF)
+S2 Fig. Generation of Rv3167c mutant (MtbΔRv3167c) in Mtb. (A) A hygromycin cassette
+was introduced into the Mtb H37Rv genome by specialized transduction to generate
+MtbΔRv3167c. An episomal plasmid with Rv3167c expression under the control of a constitu-
+tively active promoter was used to generate the complement strain MtbΔRv3167c-C. The sizes
+of fragments obtained after digestion of genomic DNA with EcoRI and using a specific probe
+for southern blotting are indicated. (B) Knockout and complementation of Rv3167c was con-
+firmed by southern blotting. (C) Deletion of Rv3167c confirmed by RT-PCR. A non-related
+mutant (Δ3165c) was used as a control to demonstrate primer specificity. (D) Replication of
+bacterial strains ex vivo was determined by lysing infected THP1 cells and plating lysates on
+7H11 medium at indicated times (mean ± S.E.M, n = 9). (E) In vitro growth rate of bacterial
+strains in 7H9 medium was measured every 24h (mean ± S.E.M, n = 9).
+(TIFF)
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+21 / 29
+
+S3 Fig. Efficacy of zVAD fmk and Necrostatin-1. (A) Efficacy of the pan caspase inhibitor
+zVAD-fmk (40μM) was assessed by inhibition of camptothecin-mediated apoptosis in THP1
+cells measured by TUNEL staining and flow cytometry (mean ± S.E.M, n = 3). (B) BMDMs
+were treated with the RIPK1 inhibitor necrostatin-1 (Nec1) (100μM) one hour prior to and
+throughout the infection and necrosis induction measured by PI staining at 24h (mean ± S.E.
+M, n = 3). (C) Necrostatin-1 (Nec1, 100μM) efficacy was determined by inhibition of LPS and
+zVAD-fmk induced cell death (RIPK1 dependent) in BMDMs measured by PI staining and
+flowcytometry (mean ± S.E.M, n = 3). (D) RipK3-/- BMDMs were treated with the pan caspase
+inhibitor zVAD FMK one hour prior to and throughout the infection and necrosis induction
+measured by PI staining at 24h (mean ± S.E.M, n = 3).
+(TIFF)
+S4 Fig. MtbΔRv3167c mediated necrosis is independent of TNF, IL1, NLRP3 inflamma-
+some and type I IFN. (A) Necrosis induction in WT and Tnfr1-/- BMDMs was determined by
+PI staining and flow cytometry at 72h (mean ± S.E.M, n = 3). (B) Necrosis induction in WT
+and IL1r1-/- BMDMs was determined by PI staining and flow cytometry at 72h (mean ± S.E.M,
+n = 6). (C) Necrosis induction in immortalized WT and Nlrp3-/- BMDMs was determined by
+PI staining and flow cytometry at 24h (mean ± S.E.M, n = 3). (D) Necrosis induction in THP1
+shASC and control cells was determined by Toxilight assay at 48h (mean ± S.E.M, n = 9) (E)
+Necrosis induction in WT and Irf3-/- BMDMs was determined by PI staining and flow cytome-
+try at 48h (mean ± S.E.M, n = 3) (F) Necrosis induction in WT and Ifnβ-/- BMDMs was deter-
+mined by PI staining and flow cytometry at 48h (mean ± S.E.M, n = 8).
+(TIFF)
+S5 Fig. MtbΔRv3167c mediated necrosis is independent of TLR signaling. Necrosis induc-
+tion in (A) WT and Trif-/-, (B) WT and MyD88-/- and (C) immortalized WT and Trif-/-
+MyD88-/- BMDM’s was determined by PI staining and flow cytometry at 48h (mean ± S.E.M,
+n = 3).
+(TIFF)
+S6 Fig. MtbΔRv3167c does not inhibit autophagosome maturation. (A) Accumulation of
+LC3II GFP in MtbΔRv3167c infected THP1 LC3GFP cells treated with Bafilomycin (BafA1,
+250nM) examined by flow cytometry at 16h (mean ± S.E.M, n = 6). (B) Free GFP generated
+during lysosomal degradation of LC3II GFP detected by western blotting in whole cell lysates.
+Image is representative of three independent experiments. (C) Necrosis induction in presence
+of autophagy inhibitor 3-MA was determined by Toxilight assay at 24h (mean ± S.E.M, n = 4).
+(TIF)
+S7 Fig. Mtb, MtbΔRv3167c and MtbΔRv3167c-C have similar β-lactamase activity in vitro.
+β-lactamase activity of the indicated bacterial strains was determined by incubating bacterial
+cultures with CCF4-AM and measuring fluorescence emission at 450nm and 535nm. Data is
+represented as fold change over CCF4-AM incubated in absence of bacteria. ΔblaC is a blaC
+deleted H37Rv strain [114].
+(TIFF)
+S8 Fig. Necrosis and autophagy induction by MtbΔRv3167c is dependent on ROS. (A) Effect
+of the flavoprotein inhibitor DPI (10μM) on necrosis induction in THP1 cells was determined
+by the Toxilight assay at 24h (mean ± S.E.M, n = 6). (B) Effect of the antioxidants glutathione
+(15mM) and N-acetyl cysteine (NAC, 10mM) on necrosis induction in THP1 cells was deter-
+mined by TUNEL staining and fluorescence microscopy at 24h (mean ± S.E.M, n = 9). (C)
+Loss of mitochondrial membrane potential was determined by DIOC6 staining at the indicated
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+22 / 29
+
+time points (mean ± S.E.M, n = 9). (D) Effect of DPI (10μM) on autophagy induction in THP1
+LC3GFP cells was determined by flow cytometry (mean ± S.E.M, n = 6).
+(TIFF)
+S9 Fig. MtbΔRv3167c is hypervirulent in SCID mice and guinea pigs. (A) Survival of SCID
+mice infected via the aerosol route with 100 CFU of bacteria (n = 5). (B) Bacterial uptake by
+SCID mice was determined by plating lung homogenates prepared at day 1 (mean ± S.E.M,
+n = 3). (C) Guinea pigs were infected via aerosol route. Bacterial uptake by guinea pigs was
+determined by plating lung homogenates prepared at 1d (means ± S.E.M, n = 4). (D) Lung bur-
+den in guinea pigs at 28 days (mean ± S.E.M, n = 4). (E) Cell death induction by MtbΔRv3167c
+in guinea pig alveolar macrophages infected ex vivo was determined by TUNEL staining and
+microscopy (mean ± S.E.M, n = 3).
+(TIF)
+Acknowledgments
+We thank Tim Maugel (UMD) and the CCMI EM Core Facility, Yale School of Medicine for
+their help with electron microscopy imaging and quantification. We thank Jeff Quigley and
+Sarah Ahlbrand for critical discussions and help with manuscript preparation.
+Author Contributions
+Conceived and designed the experiments: LS SAG VB. Performed the experiments: LS SAG
+BEH JLM. Analyzed the data: LS VB. Contributed reagents/materials/analysis tools: PCK.
+Wrote the paper: LS VB.
+References
+1.
+Vanden Berghe T, Linkermann A, Jouan-Lanhouet S, Walczak H, Vandenabeele P. Regulated necro-
+sis: the expanding network of non-apoptotic cell death pathways. Nat Rev Mol Cell Biol. 2014; 15:
+135–147. doi: 10.1038/nrm3737 PMID: 24452471
+2.
+Galluzzi L, Vitale I, Abrams JM, Alnemri ES, Baehrecke EH, Blagosklonny MV, et al. Molecular defini-
+tions of cell death subroutines: recommendations of the Nomenclature Committee on Cell Death
+2012. Cell Death Differ. Nature Publishing Group; 2011; 19: 107–120. doi: 10.1038/cdd.2011.96
+3.
+Lamkanfi M, Dixit VM. Manipulation of host cell death pathways during microbial infections. Cell Host
+and Microbe. 2010; 8: 44–54. doi: 10.1016/j.chom.2010.06.007 PMID: 20638641
+4.
+Upton JW, Chan FK-M. Staying alive: cell death in antiviral immunity. Mol Cell. 2014; 54: 273–280.
+doi: 10.1016/j.molcel.2014.01.027 PMID: 24766891
+5.
+Sridharan H, Upton JW. Programmed necrosis in microbial pathogenesis. Trends in microbiology.
+2014; 22: 199–207. doi: 10.1016/j.tim.2014.01.005 PMID: 24565922
+6.
+Upton JW, Kaiser WJ, Mocarski ES. Virus inhibition of RIP3-dependent necrosis. Cell Host and
+Microbe. 2010; 7: 302–313. doi: 10.1016/j.chom.2010.03.006 PMID: 20413098
+7.
+Rodrigue-Gervais IG, Labbé K, Dagenais M, Dupaul-Chicoine J, Champagne C, Morizot A, et al. Cel-
+lular inhibitor of apoptosis protein cIAP2 protects against pulmonary tissue necrosis during influenza
+virus infection to promote host survival. Cell Host and Microbe. 2014; 15: 23–35. doi: 10.1016/j.chom.
+2013.12.003 PMID: 24439895
+8.
+Li S, Zhang L, Yao Q, Li L, Dong N, Rong J, et al. Pathogen blocks host death receptor signalling by
+arginine GlcNAcylation of death domains. Nature. 2013; 501: 242–246. doi: 10.1038/nature12436
+PMID: 23955153
+9.
+Pearson JS, Giogha C, Ong SY, Kennedy CL, Kelly M, Robinson KS, et al. A type III effector antago-
+nizes death receptor signalling during bacterial gut infection. Nature. Nature Publishing Group; 2013;
+501: 247–251. doi: 10.1038/nature12524
+10.
+Di Paolo NC, Doronin K, Baldwin LK, Papayannopoulou T, Shayakhmetov DM. The Transcription
+Factor IRF3 Triggers “Defensive Suicide” Necrosis in Response to Viral and Bacterial Pathogens.
+Cell Reports. 2013; 3: 1840–1846. doi: 10.1016/j.celrep.2013.05.025 PMID: 23770239
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+23 / 29
+
+11.
+Briken V, Miller JL. Living on the edge: inhibition of host cell apoptosis by Mycobacterium tuberculosis.
+Future Microbiology. 2008; 3: 415–422. doi: 10.2217/17460913.3.4.415 PMID: 18651813
+12.
+Moraco AH, Kornfeld H. Cell death and autophagy in tuberculosis. Semin Immunol. 2014; 26: 497–
+511. doi: 10.1016/j.smim.2014.10.001 PMID: 25453227
+13.
+Ramakrishnan L. Revisiting the role of the granuloma in tuberculosis. Nat Rev Immunol. 2012; 12:
+352–366. doi: 10.1038/nri3211 PMID: 22517424
+14.
+Behar SM, Divangahi M, Remold HG. Evasion of innate immunity by Mycobacterium tuberculosis: is
+death an exit strategy? Nat Rev Micro. 2010; 8: 668–674. doi: 10.1038/nrmicro2387
+15.
+Velmurugan K, Chen B, Miller JL, Azogue S, Gurses S, Hsu T, et al. Mycobacterium tuberculosis
+nuoG is a virulence gene that inhibits apoptosis of infected host cells. PLoS Pathog. 2007; 3: e110.
+doi: 10.1371/journal.ppat.0030110 PMID: 17658950
+16.
+Jayakumar D, Jacobs WR, Narayanan S. Protein kinase E of Mycobacterium tuberculosis has a role
+in the nitric oxide stress response and apoptosis in a human macrophage model of infection. Cell
+Microbiol. 2008; 10: 365–374. doi: 10.1111/j.1462-5822.2007.01049.x PMID: 17892498
+17.
+Hinchey J, Lee S, Jeon BY, Basaraba RJ, Venkataswamy MM, Chen B, et al. Enhanced priming of
+adaptive immunity by a proapoptotic mutant of Mycobacterium tuberculosis. J Clin Invest. 2007; 117:
+2279–2288. doi: 10.1172/JCI31947 PMID: 17671656
+18.
+Danelishvili L, Yamazaki Y, Selker J, Bermudez LE. Secreted Mycobacterium tuberculosis Rv3654c
+and Rv3655c proteins participate in the suppression of macrophage apoptosis. PLoS ONE. 2010; 5:
+e10474. doi: 10.1371/journal.pone.0010474 PMID: 20454556
+19.
+Sun J, Singh V, Lau A, Stokes RW, Obregón-Henao A, Orme IM, et al. Mycobacterium tuberculosis
+nucleoside diphosphate kinase inactivates small GTPases leading to evasion of innate immunity. Sal-
+game P, editor. PLoS Pathog. 2013; 9: e1003499. doi: 10.1371/journal.ppat.1003499 PMID:
+23874203
+20.
+Pan H, Yan B-S, Rojas M, Shebzukhov YV, Zhou H, Kobzik L, et al. Ipr1 gene mediates innate immu-
+nity to tuberculosis. Nature. 2005; 434: 767–772. doi: 10.1038/nature03419 PMID: 15815631
+21.
+Martin CJ, Booty MG, Rosebrock TR, Nunes-Alves C, Desjardins DM, Keren I, et al. Efferocytosis is
+an innate antibacterial mechanism. Cell Host and Microbe. 2012; 12: 289–300. doi: 10.1016/j.chom.
+2012.06.010 PMID: 22980326
+22.
+Yang C-T, Cambier CJ, Davis JM, Hall CJ, Crosier PS, Ramakrishnan L. Neutrophils exert protection
+in the early tuberculous granuloma by oxidative killing of mycobacteria phagocytosed from infected
+macrophages. Cell Host and Microbe. 2012; 12: 301–312. doi: 10.1016/j.chom.2012.07.009 PMID:
+22980327
+23.
+Schaible UE, Winau F, Sieling PA, Fischer K, Collins HL, Hagens K, et al. Apoptosis facilitates antigen
+presentation to T lymphocytes through MHC-I and CD1 in tuberculosis. Nat Med. 2003; 9: 1039–
+1046. doi: 10.1038/nm906 PMID: 12872166
+24.
+Divangahi M, Desjardins D, Nunes-Alves C, Remold HG, Behar SM. Eicosanoid pathways regulate
+adaptive immunity to Mycobacterium tuberculosis. Nat Immunol. 2010; 11: 751–758. doi: 10.1038/ni.
+1904 PMID: 20622882
+25.
+Divangahi M, Chen M, Gan H, Desjardins D, Hickman TT, Lee DM, et al. Mycobacterium tuberculosis
+evades macrophage defenses by inhibiting plasma membrane repair. Nat Immunol. 2009; 10: 899–
+906. doi: 10.1038/ni.1758 PMID: 19561612
+26.
+Bafica A, Scanga CA, Serhan C, Machado F, White S, Sher A, et al. Host control of Mycobacterium
+tuberculosis is regulated by 5-lipoxygenase-dependent lipoxin production. J Clin Invest. 2005; 115:
+1601–1606. doi: 10.1172/JCI23949 PMID: 15931391
+27.
+Chen M, Divangahi M, Gan H, Shin DSJ, Hong S, Lee DM, et al. Lipid mediators in innate immunity
+against tuberculosis: opposing roles of PGE2 and LXA4 in the induction of macrophage death. J Exp
+Med. 2008; 205: 2791–2801. doi: 10.1084/jem.20080767 PMID: 18955568
+28.
+Tobin DM, Roca FJ, Oh SF, McFarland R, Vickery TW, Ray JP, et al. Host genotype-specific therapies
+can optimize the inflammatory response to mycobacterial infections. Cell. 2012; 148: 434–446. doi:
+10.1016/j.cell.2011.12.023 PMID: 22304914
+29.
+Tobin DM, Vary JC, Ray JP, Walsh GS, Dunstan SJ, Bang ND, et al. The lta4h locus modulates sus-
+ceptibility to mycobacterial infection in zebrafish and humans. Cell. 2010; 140: 717–730. doi: 10.1016/
+j.cell.2010.02.013 PMID: 20211140
+30.
+Repasy T, Lee J, Marino S, Martinez N, Kirschner DE, Hendricks G, et al. Intracellular bacillary burden
+reflects a burst size for Mycobacterium tuberculosis in vivo. PLoS Pathog. 2013; 9: e1003190. doi: 10.
+1371/journal.ppat.1003190 PMID: 23436998
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+24 / 29
+
+31.
+Welin A, Eklund D, Stendahl O, Lerm M. Human macrophages infected with a high burden of ESAT-6-
+expressing M. tuberculosis undergo caspase-1- and cathepsin B-independent necrosis. PLoS ONE.
+2011; 6: e20302. doi: 10.1371/journal.pone.0020302 PMID: 21637850
+32.
+van der Wel N, Hava D, Houben D, Fluitsma D, van Zon M, Pierson J, et al. M. tuberculosis and M.
+leprae translocate from the phagolysosome to the cytosol in myeloid cells. Cell. 2007; 129: 1287–
+1298. doi: 10.1016/j.cell.2007.05.059 PMID: 17604718
+33.
+Simeone R, Bobard A, Lippmann J, Bitter W, Majlessi L, Brosch R, et al. Phagosomal rupture by
+Mycobacterium tuberculosis results in toxicity and host cell death. PLoS Pathog. 2012; 8: e1002507.
+doi: 10.1371/journal.ppat.1002507 PMID: 22319448
+34.
+Simeone R, Sayes F, Song O, Gröschel MI, Brodin P, Brosch R, et al. Cytosolic Access of Mycobacte-
+rium tuberculosis: Critical Impact of Phagosomal Acidification Control and Demonstration of Occur-
+rence In Vivo. Salgame P, editor. PLoS Pathog. 2015; 11: e1004650. doi: 10.1371/journal.ppat.
+1004650 PMID: 25658322
+35.
+Gao L-Y, Guo S, McLaughlin B, Morisaki H, Engel JN, Brown EJ. A mycobacterial virulence gene
+cluster extending RD1 is required for cytolysis, bacterial spreading and ESAT-6 secretion. Mol Micro-
+biol. 2004; 53: 1677–1693. doi: 10.1111/j.1365-2958.2004.04261.x PMID: 15341647
+36.
+Volkman HE, Pozos TC, Zheng J, Davis JM, Rawls JF, Ramakrishnan L. Tuberculous granuloma
+induction via interaction of a bacterial secreted protein with host epithelium. Science. American Asso-
+ciation for the Advancement of Science; 2010; 327: 466–469. doi: 10.1126/science.1179663
+37.
+Aguilo JI, Alonso H, Uranga S, Marinova D, Arbués A, de Martino A, et al. ESX-1-induced apoptosis is
+involved in cell-to-cell spread of Mycobacterium tuberculosis. Cell Microbiol. 2013. doi: 10.1111/cmi.
+12169
+38.
+Houben D, Demangel C, van Ingen J, Perez J, Baldeón L, Abdallah AM, et al. ESX-1-mediated trans-
+location to the cytosol controls virulence of mycobacteria. Cell Microbiol. 2012; 14: 1287–1298. doi:
+10.1111/j.1462-5822.2012.01799.x PMID: 22524898
+39.
+Abdallah AM, Bestebroer J, Savage NDL, de Punder K, van Zon M, Wilson L, et al. Mycobacterial
+secretion systems ESX-1 and ESX-5 play distinct roles in host cell death and inflammasome activa-
+tion. J Immunol. 2011; 187: 4744–4753. doi: 10.4049/jimmunol.1101457 PMID: 21957139
+40.
+Tundup S, Mohareer K, Hasnain SE. Mycobacterium tuberculosis PE25/PPE41 protein complex
+induces necrosis in macrophages: Role in virulence and disease reactivation? FEBS Open Bio. Else-
+vier; 2014; 4: 822–828. doi: 10.1016/j.fob.2014.09.001
+41.
+Vega-Manriquez X, López-Vidal Y, Moran J, Adams LG, Gutiérrez-Pabello JA. Apoptosis-inducing
+factor participation in bovine macrophage Mycobacterium bovis-induced caspase-independent cell
+death. Infection and Immunity. 2007; 75: 1223–1228. doi: 10.1128/IAI.01047-06 PMID: 17158896
+42.
+Baritaud M, Cabon L, Delavallée L, Galán-Malo P, Gilles M-E, Brunelle-Navas M-N, et al. AIF-medi-
+ated caspase-independent necroptosis requires ATM and DNA-PK-induced histone H2AX Ser139
+phosphorylation. Cell Death Dis. 2012; 3: e390. doi: 10.1038/cddis.2012.120 PMID: 22972376
+43.
+Robinson N, McComb S, Mulligan R, Dudani R, Krishnan L, Sad S. Type I interferon induces necrop-
+tosis in macrophages during infection with Salmonella enterica serovar Typhimurium. Nat Immunol.
+2012; 13: 954–962. doi: 10.1038/ni.2397 PMID: 22922364
+44.
+Lee J, Remold HG, Ieong MH, Kornfeld H. Macrophage apoptosis in response to high intracellular bur-
+den of Mycobacterium tuberculosis is mediated by a novel caspase-independent pathway. J Immunol.
+2006; 176: 4267–4274. PMID: 16547264
+45.
+Vandenabeele P, Declercq W, Van Herreweghe F, Vanden Berghe T. The role of the kinases RIP1
+and RIP3 in TNF-induced necrosis. Sci Signal. 2010; 3: re4–re4. doi: 10.1126/scisignal.3115re4
+PMID: 20354226
+46.
+Wang Z, Jiang H, Chen S, Du F, Wang X. The mitochondrial phosphatase PGAM5 functions at the
+convergence point of multiple necrotic death pathways. Cell. 2012; 148: 228–243. doi: 10.1016/j.cell.
+2011.11.030 PMID: 22265414
+47.
+Chen X, Li W, Ren J, Huang D, He W-T, Song Y, et al. Translocation of mixed lineage kinase domain-
+like protein to plasma membrane leads to necrotic cell death. Cell Res. 2014; 24: 105–121. doi: 10.
+1038/cr.2013.171 PMID: 24366341
+48.
+Wang H, Sun L, Su L, Rizo J, Liu L, Wang L-F, et al. Mixed lineage kinase domain-like protein MLKL
+causes necrotic membrane disruption upon phosphorylation by RIP3. Mol Cell. 2014; 54: 133–146.
+doi: 10.1016/j.molcel.2014.03.003 PMID: 24703947
+49.
+Roca FJ, Ramakrishnan L. TNF dually mediates resistance and susceptibility to mycobacteria via
+mitochondrial reactive oxygen species. Cell. 2013; 153: 521–534. doi: 10.1016/j.cell.2013.03.022
+PMID: 23582643
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+25 / 29
+
+50.
+He S, Liang Y, Shao F, Wang X. Toll-like receptors activate programmed necrosis in macrophages
+through a receptor-interacting kinase-3-mediated pathway. Proceedings of the National Academy of
+Sciences. National Acad Sciences; 2011; 108: 20054–20059. doi: 10.1073/pnas.1116302108
+51.
+Virág L, Robaszkiewicz A, Rodriguez-Vargas JM, Oliver FJ. Poly(ADP-ribose) signaling in cell death.
+Mol Aspects Med. 2013; 34: 1153–1167. doi: 10.1016/j.mam.2013.01.007 PMID: 23416893
+52.
+Moubarak RS, Yuste VJ, Artus C, Bouharrour A, Greer PA, Menissier-de Murcia J, et al. Sequential
+activation of poly(ADP-ribose) polymerase 1, calpains, and Bax is essential in apoptosis-inducing fac-
+tor-mediated programmed necrosis. Molecular and Cellular Biology. American Society for Microbiol-
+ogy; 2007; 27: 4844–4862. doi: 10.1128/MCB.02141-06
+53.
+Lu J-R, Lu W-W, Lai J-Z, Tsai F-L, Wu S-H, Lin C-W, et al. Calcium flux and calpain-mediated activa-
+tion of the apoptosis-inducing factor contribute to enterovirus 71-induced apoptosis. J Gen Virol. Soci-
+ety for General Microbiology; 2013; 94: 1477–1485. doi: 10.1099/vir.0.047753-0
+54.
+Broz P, Ruby T, Belhocine K, Bouley DM, Kayagaki N, Dixit VM, et al. Caspase-11 increases suscep-
+tibility to Salmonella infection in the absence of caspase-1. Nature. 2012; 490: 288–291. doi: 10.1038/
+nature11419 PMID: 22895188
+55.
+Aachoui Y, Leaf IA, Hagar JA, Fontana MF, Campos CG, Zak DE, et al. Caspase-11 protects against
+bacteria that escape the vacuole. Science. 2013; 339: 975–978. doi: 10.1126/science.1230751
+PMID: 23348507
+56.
+Wong K-W, Jacobs WR. Critical role for NLRP3 in necrotic death triggered by Mycobacterium tubercu-
+losis. Cell Microbiol. 2011; 13: 1371–1384. doi: 10.1111/j.1462-5822.2011.01625.x PMID: 21740493
+57.
+Willingham SB, Bergstralh DT, O'Connor W, Morrison AC, Taxman DJ, Duncan JA, et al. Microbial
+pathogen-induced necrotic cell death mediated by the inflammasome components CIAS1/cryopyrin/
+NLRP3 and ASC. Cell Host and Microbe. 2007; 2: 147–159. doi: 10.1016/j.chom.2007.07.009 PMID:
+18005730
+58.
+Aits S, Jäättelä M. Lysosomal cell death at a glance. J Cell Sci. 2013; 126: 1905–1912. doi: 10.1242/
+jcs.091181 PMID: 23720375
+59.
+Repnik U, Česen MH, Turk B. The endolysosomal system in cell death and survival. Cold Spring Har-
+bor Perspectives in Biology. Cold Spring Harbor Lab; 2013; 5: a008755. doi: 10.1101/cshperspect.
+a008755
+60.
+Kågedal K, Zhao M, Svensson I, Brunk UT. Sphingosine-induced apoptosis is dependent on lyso-
+somal proteases. Biochem J. Portland Press Ltd; 2001; 359: 335–343.
+61.
+Lee J, Repasy T, Papavinasasundaram K, Sassetti C, Kornfeld H. Mycobacterium tuberculosis
+induces an atypical cell death mode to escape from infected macrophages. PLoS ONE. 2011; 6:
+e18367. doi: 10.1371/journal.pone.0018367 PMID: 21483832
+62.
+Deretic V. Autophagy: an emerging immunological paradigm. J Immunol. American Association of
+Immunologists; 2012; 189: 15–20. doi: 10.4049/jimmunol.1102108
+63.
+Maiuri MC, Zalckvar E, Kimchi A, Kroemer G. Self-eating and self-killing: crosstalk between autop-
+hagy and apoptosis. Nat Rev Mol Cell Biol. Nature Publishing Group; 2007; 8: 741–752. doi: 10.1038/
+nrm2239
+64.
+Mizushima N, Yoshimori T, Levine B. Methods in mammalian autophagy research. Cell. 2010; 140:
+313–326. doi: 10.1016/j.cell.2010.01.028 PMID: 20144757
+65.
+Manzanillo PS, Ayres JS, Watson RO, Collins AC, Souza G, Rae CS, et al. The ubiquitin ligase parkin
+mediates resistance to intracellular pathogens. Nature. 2013. doi: 10.1038/nature12566
+66.
+Watson RO, Manzanillo PS, Cox JS. Extracellular M. tuberculosis DNA targets bacteria for autophagy
+by activating the host DNA-sensing pathway. Cell. 2012; 150: 803–815. doi: 10.1016/j.cell.2012.06.
+040 PMID: 22901810
+67.
+Eng KE, Panas MD, Karlsson Hedestam GB, McInerney GM. A novel quantitative flow cytometry-
+based assay for autophagy. Autophagy. 2010; 6: 634–641. doi: 10.4161/auto.6.5.12112 PMID:
+20458170
+68.
+Abdallah AM, Savage NDL, van Zon M, Wilson L, Vandenbroucke-Grauls CMJE, van der Wel NN,
+et al. The ESX-5 secretion system of Mycobacterium marinum modulates the macrophage response.
+J Immunol. 2008; 181: 7166–7175. PMID: 18981138
+69.
+Keller C, Mellouk N, Danckaert A, Simeone R, Brosch R, Enninga J, et al. Single cell measurements
+of vacuolar rupture caused by intracellular pathogens. J Vis Exp. 2013;: e50116–e50116. doi: 10.
+3791/50116 PMID: 23792688
+70.
+Yuk J-M, Shin D-M, Lee H-M, Yang C-S, Jin HS, Kim K-K, et al. Vitamin D3 induces autophagy in
+human monocytes/macrophages via cathelicidin. Cell Host and Microbe. 2009; 6: 231–243. doi: 10.
+1016/j.chom.2009.08.004 PMID: 19748465
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+26 / 29
+
+71.
+Matsuzawa T, Kim B-H, Shenoy AR, Kamitani S, Miyake M, MacMicking JD. IFN-γ elicits macrophage
+autophagy via the p38 MAPK signaling pathway. J Immunol. American Association of Immunologists;
+2012; 189: 813–818. doi: 10.4049/jimmunol.1102041
+72.
+Shin D-M, Jeon B-Y, Lee H-M, Jin HS, Yuk J-M, Song C-H, et al. Mycobacterium tuberculosis eis reg-
+ulates autophagy, inflammation, and cell death through redox-dependent signaling. PLoS Pathog.
+2010; 6: e1001230. doi: 10.1371/journal.ppat.1001230 PMID: 21187903
+73.
+He C, Klionsky DJ. Regulation mechanisms and signaling pathways of autophagy. Annu Rev Genet.
+Annual Reviews; 2009; 43: 67–93. doi: 10.1146/annurev-genet-102808-114910
+74.
+Wang Richard C W YA ZZ ZX GB GW MR JL B. Akt-Mediated Regulation of Autophagy and Tumori-
+genesis Through Beclin 1 Phosphorylation. Science (New York, NY). NIH Public Access; 2012; 338:
+956. doi: 10.1126/science.1225967
+75.
+Muniz-Feliciano L, Van Grol J, Portillo J-AC, Liew L, Liu B, Carlin CR, et al. Toxoplasma gondii-
+induced activation of EGFR prevents autophagy protein-mediated killing of the parasite. Denkers EY,
+editor. PLoS Pathog. Public Library of Science; 2013; 9: e1003809. doi: 10.1371/journal.ppat.
+1003809
+76.
+Owen KA, Meyer CB, Bouton AH, Casanova JE. Activation of focal adhesion kinase by Salmonella
+suppresses autophagy via an Akt/mTOR signaling pathway and promotes bacterial survival in macro-
+phages. Deretic V, editor. PLoS Pathog. Public Library of Science; 2014; 10: e1004159. doi: 10.1371/
+journal.ppat.1004159
+77.
+Jo H, Mondal S, Tan D, Nagata E, Takizawa S, Sharma AK, et al. Small molecule-induced cytosolic
+activation of protein kinase Akt rescues ischemia-elicited neuronal death. Proceedings of the National
+Academy of Sciences. 2012; 109: 10581–10586. doi: 10.1073/pnas.1202810109
+78.
+Miller JL, Velmurugan K, Cowan MJ, Briken V. The Type I NADH Dehydrogenase of Mycobacterium
+tuberculosis Counters Phagosomal NOX2 Activity to Inhibit TNF-α-Mediated Host Cell Apoptosis.
+Deretic V, editor. 2010; 6: e1000864–2. doi: 10.1371/journal.ppat.1000864
+79.
+Welin A, Lerm M. Inside or outside the phagosome? The controversy of the intracellular localization of
+Mycobacterium tuberculosis. Tuberculosis (Edinb). 2012; 92: 113–120. doi: 10.1016/j.tube.2011.09.
+009
+80.
+Russell DG. Mycobacterium tuberculosis and the intimate discourse of a chronic infection. Immunol
+Rev. Blackwell Publishing Ltd; 2011; 240: 252–268. doi: 10.1111/j.1600-065X.2010.00984.x
+81.
+Creasey EA, Isberg RR. The protein SdhA maintains the integrity of the Legionella-containing vacu-
+ole. Proceedings of the National Academy of Sciences. National Acad Sciences; 2012; 109: 3481–
+3486. doi: 10.1073/pnas.1121286109
+82.
+Ruiz-Albert J, Yu X-J, Beuzón CR, Blakey AN, Galyov EE, Holden DW. Complementary activities of
+SseJ and SifA regulate dynamics of the Salmonella typhimurium vacuolar membrane. Mol Microbiol.
+2002; 44: 645–661. PMID: 11994148
+83.
+Rahman MA, Sobia P, Gupta N, Kaer LV, Das G. Mycobacterium tuberculosis Subverts the TLR-2—
+MyD88 Pathway to Facilitate Its Translocation into the Cytosol. PLoS ONE. 2014; 9: e86886. doi: 10.
+1371/journal.pone.0086886 PMID: 24475192
+84.
+Repnik U, Stoka V, Turk V, Turk B. Lysosomes and lysosomal cathepsins in cell death. Biochim Bio-
+phys Acta. 2012; 1824: 22–33. doi: 10.1016/j.bbapap.2011.08.016 PMID: 21914490
+85.
+Houben ENG, Korotkov KV, Bitter W. Take five—Type VII secretion systems of Mycobacteria. Bio-
+chim Biophys Acta. 2014; 1843: 1707–1716. doi: 10.1016/j.bbamcr.2013.11.003 PMID: 24263244
+86.
+Cadieux N, Parra M, Cohen H, Maric D, Morris SL, Brennan MJ. Induction of cell death after localiza-
+tion to the host cell mitochondria by the Mycobacterium tuberculosis PE_PGRS33 protein. Microbiol-
+ogy. 2011; 157: 793–804. doi: 10.1099/mic.0.041996-0 PMID: 21081760
+87.
+Danilchanka O, Sun J, Pavlenok M, Maueröder C, Speer A, Siroy A, et al. An outer membrane chan-
+nel protein of Mycobacterium tuberculosis with exotoxin activity. Proceedings of the National Acad-
+emy of Sciences. National Acad Sciences; 2014; 111: 6750–6755. doi: 10.1073/pnas.1400136111
+88.
+Sun J, Siroy A, Lokareddy RK, Speer A, Doornbos KS, Cingolani G, et al. The tuberculosis necrotizing
+toxin kills macrophages by hydrolyzing NAD. Nat Struct Mol Biol. 2015; 22: 672–678. doi: 10.1038/
+nsmb.3064 PMID: 26237511
+89.
+Green DR, Levine B. To be or not to be? How selective autophagy and cell death govern cell fate.
+Cell. 2014; 157: 65–75. doi: 10.1016/j.cell.2014.02.049 PMID: 24679527
+90.
+Galluzzi L, Pietrocola F, Levine B, Kroemer G. Metabolic control of autophagy. Cell. 2014; 159: 1263–
+1276. doi: 10.1016/j.cell.2014.11.006 PMID: 25480292
+91.
+Deretic V, Saitoh T, Akira S. Autophagy in infection, inflammation and immunity. Nat Rev Immunol.
+2013; 13: 722–737. doi: 10.1038/nri3532 PMID: 24064518
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+27 / 29
+
+92.
+Gutierrez MG, Master SS, Singh SB, Taylor GA, Colombo MI, Deretic V. Autophagy is a defense
+mechanism inhibiting BCG and Mycobacterium tuberculosis survival in infected macrophages. Cell.
+2004; 119: 753–766. doi: 10.1016/j.cell.2004.11.038 PMID: 15607973
+93.
+Castillo EF, Dekonenko A, Arko-Mensah J, Mandell MA, Dupont N, Jiang S, et al. Autophagy protects
+against active tuberculosis by suppressing bacterial burden and inflammation. Proceedings of the
+National Academy of Sciences. National Acad Sciences; 2012; 109: E3168–76. doi: 10.1073/pnas.
+1210500109
+94.
+Huang D, Bao L. Mycobacterium tuberculosis EspB protein suppresses interferon-γ-induced autop-
+hagy in murine macrophages. Journal of Microbiology, Immunology and Infection. Elsevier; 2014;0.
+doi: 10.1016/j.jmii.2014.11.008
+95.
+Seto S, Tsujimura K, Koide Y. Coronin-1a inhibits autophagosome formation around Mycobacterium
+tuberculosis-containing phagosomes and assists mycobacterial survival in macrophages. Cell Micro-
+biol. 2012; 14: 710–727. doi: 10.1111/j.1462-5822.2012.01754.x PMID: 22256790
+96.
+Romagnoli A, Etna MP, Giacomini E, Pardini M, Remoli ME, Corazzari M, et al. ESX-1 dependent
+impairment of autophagic flux by Mycobacterium tuberculosis in human dendritic cells. Autophagy.
+2012; 8: 1357–1370. doi: 10.4161/auto.20881 PMID: 22885411
+97.
+Randow F, Youle RJ. Self and Nonself: How Autophagy Targets Mitochondria and Bacteria. Cell Host
+and Microbe. Elsevier; 2014; 15: 403–411. doi: 10.1016/j.chom.2014.03.012
+98.
+Hou W, Zhang Q, Yan Z, Chen R, Zeh Iii HJ, Kang R, et al. Strange attractors: DAMPs and autophagy
+link tumor cell death and immunity. Cell Death Dis. 2013; 4: e966. doi: 10.1038/cddis.2013.493 PMID:
+24336086
+99.
+Deretic V. Autophagy in Tuberculosis. Cold Spring Harb Perspect Med. Cold Spring Harbor Labora-
+tory Press; 2014; 4: a018481–a018481. doi: 10.1101/cshperspect.a018481
+100.
+Srinivasan L, Ahlbrand S, Briken V. Interaction of Mycobacterium tuberculosis with host cell death
+pathways. Cold Spring Harb Perspect Med. Cold Spring Harbor Laboratory Press; 2014; 4: a022459–
+a022459. doi: 10.1101/cshperspect.a022459
+101.
+Bokum ten AMC, Movahedzadeh F, Frita R, Bancroft GJ, Stoker NG. The case for hypervirulence
+through gene deletion in Mycobacterium tuberculosis. Trends in microbiology. 2008; 16: 436–441.
+doi: 10.1016/j.tim.2008.06.003 PMID: 18701293
+102.
+Manca C, Tsenova L, Freeman S, Barczak AK, Tovey M, Murray PJ, et al. Hypervirulent M. tuberculo-
+sis W/Beijing strains upregulate type I IFNs and increase expression of negative regulators of the Jak-
+Stat pathway. J Interferon Cytokine Res. 2005; 25: 694–701. doi: 10.1089/jir.2005.25.694 PMID:
+16318583
+103.
+Shimono N, Morici L, Casali N, Cantrell S, Sidders B, Ehrt S, et al. Hypervirulent mutant of Mycobacte-
+rium tuberculosis resulting from disruption of the mce1 operon. Proc Natl Acad Sci USA. National
+Acad Sciences; 2003; 100: 15918–15923. doi: 10.1073/pnas.2433882100
+104.
+Parish T, Smith DA, Kendall S, Casali N, Bancroft GJ, Stoker NG. Deletion of two-component regula-
+tory systems increases the virulence of Mycobacterium tuberculosis. Infection and Immunity. 2003;
+71: 1134–1140. PMID: 12595424
+105.
+Papavinasasundaram KG, Chan B, Chung J-H, Colston MJ, Davis EO, Av-Gay Y. Deletion of the
+Mycobacterium tuberculosis pknH gene confers a higher bacillary load during the chronic phase of
+infection in BALB/c mice. Journal of Bacteriology. American Society for Microbiology; 2005; 187:
+5751–5760. doi: 10.1128/JB.187.16.5751-5760.2005
+106.
+Kumar D, Palaniyandi K, Challu VK, Kumar P, Narayanan S. PknE, a serine/threonine protein kinase
+from Mycobacterium tuberculosis has a role in adaptive responses. Arch Microbiol. 2013; 195: 75–80.
+doi: 10.1007/s00203-012-0848-4 PMID: 23108860
+107.
+Gopalaswamy R, Narayanan S, Chen B, Jacobs WR, Av-Gay Y. The serine/threonine protein kinase
+PknI controls the growth of Mycobacterium tuberculosis upon infection. FEMS Microbiol Lett. The
+Oxford University Press; 2009; 295: 23–29. doi: 10.1111/j.1574-6968.2009.01570.x
+108.
+Foreman-Wykert AK, Miller JF. Hypervirulence and pathogen fitness. Trends in microbiology. 2003;
+11: 105–108. PMID: 12648937
+109.
+Galagan JE. Genomic insights into tuberculosis. Nat Rev Genet. Nature Publishing Group; 2014; 15:
+307–320. doi: 10.1038/nrg3664
+110.
+Blaser MJ, Kirschner D. The equilibria that allow bacterial persistence in human hosts. Nature. Nature
+Publishing Group; 2007; 449: 843–849. doi: 10.1038/nature06198
+111.
+Bardarov S, Bardarov SJ Jr, Pavelka MSJ Jr, Sambandamurthy V, Larsen M, Tufariello J, et al. Spe-
+cialized transduction: an efficient method for generating marked and unmarked targeted gene disrup-
+tions in Mycobacterium tuberculosis, M. bovis BCG and M. smegmatis. Microbiology. 2002; 148:
+3007–3017. PMID: 12368434
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+28 / 29
+
+112.
+Klinkenberg LG, Karakousis PC. Rv1894c is a novel hypoxia-induced nitronate monooxygenase
+required for Mycobacterium tuberculosis virulence. Journal of Infectious Diseases. Oxford University
+Press; 2013; 207: 1525–1534. doi: 10.1093/infdis/jit049
+113.
+Skwor TA, Cho H, Cassidy C, Yoshimura T, McMurray DN. Recombinant guinea pig CCL5 (RANTES)
+differentially modulates cytokine production in alveolar and peritoneal macrophages. J Leukoc Biol.
+Society for Leukocyte Biology; 2004; 76: 1229–1239. doi: 10.1189/jlb.0704414
+114.
+Flores AR, Parsons LM, Pavelka MS. Genetic analysis of the beta-lactamases of Mycobacterium
+tuberculosis and Mycobacterium smegmatis and susceptibility to beta-lactam antibiotics. Microbiology
+(Reading, Engl). Microbiology Society; 2005; 151: 521–532. doi: 10.1099/mic.0.27629-0
+Mtb Rv3167c Regulates Phagosomal Escape and Host Cell Exit
+PLOS Pathogens | DOI:10.1371/journal.ppat.1005652
+May 18, 2016
+29 / 29

@@ -1,0 +1,2234 @@
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+https://doi.org/10.5194/acp-19-7183-2019
+© Author(s) 2019. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Intercomparison in spatial distributions and temporal trends
+derived from multi-source satellite aerosol products
+Jing Wei1, Yiran Peng1, Rashed Mahmood2, Lin Sun3, and Jianping Guo4
+1Ministry of Education Key Laboratory for Earth System Modeling, Department of Earth System Science,
+Tsinghua University, Beijing, China
+2Department of Atmospheric Science, School of Environmental Studies, China University of Geosciences,
+Wuhan, Hubei, China
+3College of Geomatics, Shandong University of Science and Technology, Qingdao, Shandong, China
+4State Key Laboratory of Severe Weather, Chinese Academy of Meteorological Sciences, Beijing, China
+Correspondence: Yiran Peng (pyiran@mail.tsinghua.edu.cn)
+Received: 25 October 2018 – Discussion started: 23 November 2018
+Revised: 28 April 2019 – Accepted: 10 May 2019 – Published: 29 May 2019
+Abstract. Satellite-derived aerosol products provide long-
+term and large-scale observations for analysing aerosol dis-
+tributions and variations, climate-scale aerosol simulations,
+and aerosol–climate interactions. Therefore, a better under-
+standing of the consistencies and differences among multiple
+aerosol products is important. The objective of this study is
+to compare 11 global monthly aerosol optical depth (AOD)
+products, which are the European Space Agency Climate
+Change Initiative (ESA-CCI) Advanced Along-Track Scan-
+ning Radiometer (AATSR), Advanced Very High Resolu-
+tion Radiometer (AVHRR), Multi-angle Imaging SpectroRa-
+diometer (MISR), Moderate Resolution Imaging Spectrora-
+diometer (MODIS), Sea-viewing Wide Field-of-view Sen-
+sor (SeaWiFS), Visible Infrared Imaging Radiometer (VI-
+IRS), and POLarization and Directionality of the Earth’s Re-
+ﬂectance (POLDER) products. AErosol RObotic NEtwork
+(AERONET) Version 3 Level 2.0 monthly measurements
+at 308 sites around the world are selected for comparison.
+Our results illustrate that the spatial distributions and tempo-
+ral variations of most aerosol products are highly consistent
+globally but exhibit certain differences on regional and site
+scales. In general, the AATSR Dual View (ADV) and SeaW-
+iFS products show the lowest spatial coverage with numerous
+missing values, while the MODIS products can cover most
+areas (average of 87 %) of the world. The best performance
+is observed in September–October–November (SON) and the
+worst is in June–July–August (JJA). All the products per-
+form unsatisfactorily over northern Africa and Middle East,
+southern and eastern Asia, and their coastal areas due to the
+inﬂuence from surface brightness and human activities. In
+general, the MODIS products show the best agreement with
+the AERONET-based AOD values on different spatial scales
+among all the products. Furthermore, all aerosol products can
+capture the correct aerosol trends at most cases, especially in
+areas where aerosols change signiﬁcantly. The MODIS prod-
+ucts perform best in capturing the global temporal variations
+in aerosols. These results provide a reference for users to se-
+lect appropriate aerosol products for their particular studies.
+1
+Introduction
+Atmospheric aerosols originating from both natural and an-
+thropogenic sources have noticeable effects on the ecolog-
+ical environment, climate change, urban air quality, and hu-
+man health; these issues also attract increasing attention from
+national governments and scientists (Cao et al., 2012; Guo
+et al., 2016, 2017; Li et al., 2011, 2017; Pöschl, 2005). On
+the one hand, the increase in anthropogenic aerosols over
+the past century has signiﬁcantly affected the radiation bud-
+get balance by scattering or absorbing solar radiation and
+by changing cloud microphysical properties (Ramanathan et
+al., 2001; Rosenfeld et al., 2008). On the other hand, ﬁne-
+particulate matter greatly endangers human health by caus-
+ing various respiratory and cardiovascular diseases (Brauer
+et al., 2012; Bartell et al., 2013; Crouse et al., 2012). How-
+Published by Copernicus Publications on behalf of the European Geosciences Union.
+
+7184
+J. Wei et al.: Comparison of multiple satellite aerosol products
+ever, due to the complex sources, compositions, and short
+lifetimes of atmospheric aerosol particles, large uncertainties
+exist in the estimation of aerosol–climate forcing and health
+effects. To better understand the spatial and temporal vari-
+ability of aerosol distributions from regional to global scales,
+long-term data records with reasonable accuracy are needed
+as benchmarks to evaluate aerosol effects based on climate
+model simulations.
+Since the 20th century, several aerosol ground-based ob-
+servation networks, such as the worldwide AErosol RObotic
+NEtwork (AERONET), Interagency Monitoring of Pro-
+tected Visual Environments (IMPROVE), European Moni-
+toring and Evaluation Programme (EMEP), and Chinese Sun
+Hazemeter Network (CSHNET), have been established. The
+monitoring stations are sparsely distributed, and the observa-
+tion periods at different sites vary across a large range due
+to instrumental or weather conditions. Therefore, ground-
+based observational data are limited to representing aerosol
+characteristics in long-term and large-scale studies. For the
+last few decades, satellite instruments have been launched
+with increasing capability for remote sensing of aerosol
+measurements, which have provided long-term data records
+with wide spatial coverage. Meanwhile, an abundance of
+mature aerosol retrieval algorithms has been developed ac-
+cording to the characteristics of different satellite sensors
+and atmospheric radiative transfer models, and these algo-
+rithms have been successfully applied to generate global-
+coverage aerosol products for over 10 years. These satel-
+lite instruments include the Advanced Very High Resolu-
+tion Radiometer (AVHRR), Total Ozone Mapping Spectrom-
+eter (TOMS), Advanced Along-Track Scanning Radiometer
+(AATSR), Multi-angle Imaging SpectroRadiometer (MISR),
+Moderate Resolution Imaging Spectroradiometer (MODIS),
+Sea-viewing Wide Field-of-view Sensor (SeaWiFS), Visible
+Infrared Imaging Radiometer (VIIRS), Polarization and Di-
+rectionality of Earth’s Reﬂectance (POLDER), and Cloud-
+Aerosol Lidar with Orthogonal Polarization (CALIPSO).
+Based on these long-term space-borne aerosol products,
+numerous researchers have begun to explore the spatial and
+temporal variations in aerosols on regional and global scales
+as well as the potential climate effects of aerosols. For ex-
+ample, Guo et al. (2011) analysed the temporal and spatial
+distributions and trends in aerosol optical depth (AOD) over
+eight typical regions in China by combining TOMS (1980–
+2001) and Terra MODIS (2000–2008, Collection 5.1, C5.1)
+aerosol products. Hsu et al. (2012) explored the global and
+regional AOD trends over land and the oceans from 1997 to
+2010 based on the SeaWiFS monthly aerosol products. Nabat
+et al. (2013) used different satellite-derived monthly AOD
+products (e.g. MODIS, MISR, and SeaWiFS) and model
+datasets to create a 4-D climatology of the monthly tropo-
+spheric AOD distribution and analyse the variations from
+1979 to 2009 over Europe, the Mediterranean Sea, and north-
+ern Africa. Zhao et al. (2013) analysed the AVHRR AOD
+datasets over the global oceans and explored the effects of
+subpixel cloud contamination on aerosol retrievals from 1981
+to 2009. Floutsi et al. (2016) examined the spatio-temporal
+variations in the AOD, ﬁne-particle fraction and Ångström
+exponent over the Mediterranean basin from 2002 to 2014
+with the Aqua MODIS C6 aerosol products. Klingmüller et
+al. (2016) studied the aerosol trends over the Middle East
+and explored the effects of rainfall, soil moisture, and surface
+winds on aerosols with Terra MODIS C6 aerosol products
+from 2000 to 2015. Mehta et al. (2016) presented the spatio-
+temporal AOD variations and their spatial correlations glob-
+ally and over six subregions using the Terra MODIS (C5.1)
+and MISR monthly products from 2001 to 2014. Sayer et
+al. (2018a) extracted and compared the AOD distributions
+and variations using multi-satellite monthly aerosol products
+(e.g. VIIRS, Aqua MODIS, and MISR) over the main oceans
+(e.g. Tropical Paciﬁc and North and South Atlantic oceans).
+Sogacheva et al. (2018) discussed the spatial and seasonal
+variations in aerosols over China based on 2 decades of
+multi-satellite observations using AATSR (1995–2012) and
+Terra MODIS (2000–2017, C6.1) aerosol products.
+In most of the above studies, satellite-derived aerosol
+products are arbitrarily selected for research applications by
+simply following the usage in previous studies or are based
+on data availability. However, noticeable inconsistencies ex-
+ist among the aerosol datasets generated from different satel-
+lite sensors and aerosol retrieval algorithms. Few studies
+have focused on exploring the similarities and differences
+among aerosol datasets (Holzer-Popp et al., 2013; Nabat et
+al., 2013; De Leeuw et al., 2015; Sayer et al., 2018a). The
+selection of an accurate and appropriate aerosol product that
+represents the long-term aerosol variations and trends for
+their respective studies is of great importance for users, es-
+pecially interdisciplinary scholars. Otherwise, problematic
+aerosol characteristics will inevitably lead to questionable
+conclusions.
+The objective of this study is to comprehensively inves-
+tigate the consistencies and differences in aerosol charac-
+teristics among multiple global aerosol products from satel-
+lites. For this purpose, a total of 11 of the most up-to-
+date global aerosol products are selected in this paper, in-
+cluding the European Space Agency’s Climate Change Ini-
+tiative (ESA-CCI) products: AATSR Dual View (AATSR-
+ADV), AATSR Swansea University (AATSR-SU), AATSR-
+Oxford-RAL Retrieval of Aerosol and Cloud (AATSR-
+ORAC) and AATSR-ENSEMBLE (AATSR-EN), which
+cover the period from 2002 to 2012, AVHRR (2006–
+2011), MISR (2000–2017), Terra MODIS (2000–2017),
+Aqua MODIS (2002–2017), POLDER (2005–2013), Sea-
+WiFS (1997–2010), and VIIRS (2012–2017) products. It
+should be noted that, while these data up to 2017 are used
+in the current study, many of them (i.e. MISR, MODIS, and
+VIIRS) are ongoing as the instruments are still returning
+data. The newest AERONET Version 3 monthly AOD mea-
+surements at 308 globally distributed sites over land and the
+oceans are collected for comparison.
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7185
+This paper is organized as follows: descriptions of the 11
+satellite global aerosol products and AERONET data sources
+are provided in Sect. 2. In Sect. 3, the matching methods for
+the comparisons, the calculation approaches for the aerosol
+distributions and trends, and quantitative evaluation met-
+rics are presented. The statistical evaluation results for the
+monthly AOD retrieval are presented in Sect. 4. In Sect. 5,
+the regional and global AOD distributions are analysed and
+comparisons of the aerosol trends are provided in Sect. 6. A
+summary and conclusions are presented in the ﬁnal section.
+2
+Data description
+2.1
+Satellite-derived aerosol products
+2.1.1
+ESA-CCI aerosol products
+Four typical ESA-CCI global-coverage aerosol products are
+selected, including the AATSR-ADV, AATSR-SU, AATSR-
+ORAC, and AATSR-EN. The AATSR-ADV product is gen-
+erated using the dual-view (ADV, Veefkind et al., 1998a) al-
+gorithm over land and the single-view (ASV, Veefkind and
+de Leeuw, 1998b) algorithm over the ocean. The ADV al-
+gorithm uses the dual-view feature and K-ratio approach to
+eliminate the contribution from the surface to the apparent
+reﬂectance. However, this approximation is not reliable over
+bright surfaces or in the presence of coarse-mode aerosols.
+The ASV algorithm assumes the water is a dark surface at
+the near-infrared channel, and an ocean reﬂectance model is
+applied to correct for the effects of chlorophyll and white-
+caps (Kolmonen et al., 2013). The SU algorithm employs a
+parameterized model of the surface angular anisotropy and
+estimates the surface spectral reﬂectance using the dual-view
+feature over land. Over the ocean, the SU algorithm esti-
+mates the water-leaving radiance from the ocean at the red
+and infrared channels at both nadir and along-track view an-
+gles with a simple model (North et al., 1999; North, 2002;
+Bevan et al., 2012). The ORAC algorithm is an optimal es-
+timation retrieval scheme for multispectral images (Thomas
+et al., 2009; Sayer et al., 2010), which uses a forward model
+to ﬁt all the shortwave forward and nadir radiances through
+the DIScrete Ordinate Radiative Transfer (DISORT) model.
+Meanwhile, the retrieved errors for aerosol parameters are es-
+timated by propagating the measurement and forward model
+uncertainties into the state space. The AATSR-EN product
+is integrated based on different ESA-AATSR aerosol prod-
+ucts using likelihood estimate approaches (Holzer-Popp et
+al., 2013). In this study, the latest versions of the above four
+ESA-CCI products (Table 1) are collected.
+2.1.2
+MISR aerosol product
+The MISR aerosol product provides aerosol distributions
+over both land and oceans. Over land, MISR is initially based
+on the dense dark vegetation (DDV) algorithm (King et al.,
+Table 1. Summary of satellite-derived and ground-observed monthly aerosol products used in this study.
+Product
+Version
+Spatial resolution
+Temporal availability
+Scientiﬁc data set
+Literature
+AATSR-ADV
+V2.31
+1◦× 1◦
+May 2002–April 2012
+AOD550_mean
+Veefkind et al. (1998), Veefkind and de Leeuw (1998)
+AATSR-SU
+V4.3
+1◦× 1◦
+May 2002–April 2012
+AOD550_mean
+North et al. (1999), North (2002), Bevan et al. (2012)
+AATSR-ORAC
+V4.01
+1◦× 1◦
+July 2002–April 2012
+AOD550_mean
+Thomas et al. (2009), Sayer et al. (2010)
+AATSR-EN
+V2.6
+1◦× 1◦
+July 2002–April 2012
+AOD550
+Holzer-Popp et al. (2013)
+MISR
+V23
+0.5◦× 0.5◦
+March 2000–December 2017
+Optical depth average (550 nm)
+Witek et al. (2018)
+MOD08
+C6.1
+1◦× 1◦
+March 2000–December 2017
+AOD_550_Dark_Target_Deep_Blue_Combined_Mean
+Hsu et al. (2019), Sayer et al. (2014), Wei et al. (2019a, b, c)
+MYD08
+C6.1
+1◦× 1◦
+July 2002–December 2017
+AOD_550_Dark_Target_Deep_Blue_Combined_Mean
+Hsu et al. (2019), Sayer et al. (2014), Wei et al. (2019a, b, c)
+SeaWiFS
+V4
+0.5◦× 0.5◦
+September 1997–December 2010
+aerosol_optical_thickness_550_land
+Hsu et al. (2019)
+AVHRR
+V1
+1◦× 1◦
+January 2006–December 2011
+aerosol_optical_thickness_550_land_ocean_mean
+Hsu et al. (2017)
+VIIRS
+V1
+1◦× 1◦
+March 2012–December 2017
+Aerosol_Optical_Thickness_550_Land_Ocean_Mean
+Hsu et al. (2019)
+POLDER
+V1.1
+1◦× 1◦
+March 2005–October 2013
+AOD565
+Dubovik et al. (2011, 2014)
+AERONET
+V3
+site
+January 2003–December 2010
+AOD
+Giles et al. (2019)
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7186
+J. Wei et al.: Comparison of multiple satellite aerosol products
+1992) and uses spatial contrasts to explore an empirical or-
+thogonal function of the angular variations in apparent re-
+ﬂectance. Then, the MISR product is used to estimate the
+scene path radiance and determine the best-ﬁtting aerosol
+models. Additionally, the spectral and angular shapes of the
+reﬂectance function are assumed to be constant. The algo-
+rithm is continuously revised and developed to generate the
+AOD product with high spatial resolution (4.4 km) based
+on the primary underlying physical assumptions. Over the
+ocean, water bodies are essentially assumed to be black at
+the visible and near-infrared wavelengths, and with an ad-
+ditional assumption of an ocean aerosol model, the aerosol
+retrieval is realized using the radiative transfer theory. MISR
+multi-angle radiances are used to improve the deﬁnition of
+aerosol models for aerosol retrieval. Recently, a new method
+was introduced to improve dark-water aerosol retrievals by
+considering the entire range of cost functions associated with
+each aerosol mixture, and a new aerosol retrieval conﬁdence
+index was established to screen high-AOD retrieval blunders
+caused by cloud contamination or other factors (Witek et al.,
+2018). In this study, the latest MISR Version 23 monthly
+aerosol product was selected (Table 1).
+2.1.3
+MODIS aerosol products
+The MODIS aerosol products are generated from three well-
+known algorithms, including the dark-target (DT) algorithms
+over both the oceans and dark land and the deep-blue (DB)
+algorithm over bright and dark land. Over the oceans, the
+DT algorithm considers the water to be a dark surface from
+visible to longer wavelengths and neglects the water sur-
+face reﬂectance. Over land, the DT algorithm assumes that
+the surface reﬂectances in the visible channels exhibit sta-
+ble statistical empirical relationships with the 2.1 µm appar-
+ent reﬂectance over the dark-target surfaces (Kaufman et al.,
+1997; Levy et al., 2007). The aerosol retrieval can be real-
+ized based on the atmospheric radiative transfer model using
+the look-up table (LUT) approach. In contrast, the DB algo-
+rithm is designed to overcome the ﬂaw in the DT algorithms
+and realizes aerosol retrieval over bright surfaces, where
+the surface reﬂectance in the visible channels is estimated
+based on the pre-calculated surface reﬂectance database us-
+ing atmospherically corrected data from the long time se-
+ries of measurements. Both algorithms have been continu-
+ously improved with reﬁnements and improvements made
+to the above aerosol retrieval algorithms, and the second-
+generation operational DT (Levy et al., 2013) and the en-
+hanced DB algorithms (Hsu et al., 2019) were used to gener-
+ate the latest Collection C6.1 (C6.1) aerosol products (Sayer
+et al., 2019; Wei et al., 2019a, b). The C6.1 DT land al-
+gorithm has an update to reduce biases in urban areas by
+using a different surface reﬂectance model (Gupta et al.,
+2016). The C6.1 DB land algorithm has some updates in sur-
+face reﬂectance estimation using three different approaches
+depending on land cover type and performing aerosol re-
+trievals based on pre-calculated LUTs for a range of solar
+and satellite-viewing geometry, aerosol and surface condi-
+tions (Hsu et al., 2019). To increase the data coverage, a new
+combined DT and DB (DTB) dataset was recently gener-
+ated according to the independently derived MODIS monthly
+normalized difference vegetation index (NDVI) products that
+leverage the strengths of the DT and DB algorithms (Sayer et
+al., 2014). In this study, the newly released Terra (MOD08)
+and Aqua (MYD08) C6.1 DTB monthly aerosol products
+(Sayer et al., 2019; Wei et al., 2019c) are selected (Table 1).
+2.1.4
+SeaWiFS, AVHRR, and VIIRS aerosol products
+The SeaWiFS, AVHRR, and VIIRS aerosol products over
+land are generated from the same DB algorithm as MODIS
+but with some extensions and reﬁnements (Hsu et al., 2017,
+2019). Over the ocean, these products are based on the Satel-
+lite Ocean Aerosol Retrieval (SOAR) algorithm (Sayer et al.,
+2012, 2017, 2018b) and include three phases: the selection
+of suitable pixels to exclude the sun glint, clouds, or suspect
+of excessively turbid water; pixel-level retrieval; and a post-
+processing stage (data downscaling and quality assurance).
+In the SOAR algorithm, the aerosol retrieval simultaneously
+retrieved the AOD at 550 nm, ﬁne-mode fraction (FMF) and
+the best ﬁt aerosol optical model based on the linear interpo-
+lation of pre-calculated LUTs through the Vector LInearized
+Discrete Ordinate Radiative Transfer (VLIDORT) model. In
+this study, the newly released SeaWiFS Version 4, AVHRR
+Version 1, and VIIRS Version 1 monthly aerosol products are
+selected (Table 1).
+2.1.5
+POLDER aerosol product
+The POLDER/PARASOL aerosol product is generated us-
+ing the Generalized Retrieval of Aerosol and Surface Prop-
+erties (GRASP) algorithm over land and ocean (Dubovik
+et al., 2011, 2014). The GRASP algorithm is based on
+the AERONET inversion algorithm and was developed
+for enhanced characterization of aerosol properties from
+spectral, multi-angular polarimetric remote-sensing obser-
+vations. POLDER is of great interest as it builds on the
+design of the forthcoming multi-viewing, multi-channel,
+multi-polarization (3 MI) instrument (Marbach et al., 2015).
+POLDER has provided a variety of aerosol characteristics,
+including spectral AOD, single-scattering albedo (SSA), and
+Ångström exponent; however, the data are only available
+at latitudes equatorward of 60◦. It should be noted that
+POLDER AOD is deﬁned at 565 nm. The effect of this re-
+striction on the global analysis is expected to be small be-
+cause high latitudes are frequently unavailable due to clouds,
+snow, polar night, and continental land masses (Sayer et
+al., 2018a). In this study, the latest POLDER Version 1.1
+monthly aerosol products are selected (Table 1).
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7187
+2.2
+AERONET ground measurements
+AERONET is a widely used ground-based observation net-
+work with long-term data records at numerous monitoring
+sites around the world. The AOD observations are available
+over a wide spectral range from visible to near-infrared chan-
+nels (0.34–1.02 µm), and they are measured with a high tem-
+poral resolution of 15 min and a low bias of 0.01–0.02. The
+data quality has been divided into three levels (L): L1.0 (un-
+screened), L1.5 (cloud screened), and L2.0 (cloud screened
+and quality assured) (Holben et al., 1998; Smirnov et al.,
+2000, 2009). Meanwhile, the instantaneous AOD observa-
+tions are further processed and released at daily and monthly
+levels. In the current study, the newly released AERONET
+Version 3 L2.0 monthly AOD observations (Giles et al.,
+2019) are collected and compared with the multi-source
+satellite-derived monthly aerosol products over land and
+ocean. The globe is divided into 10 custom regions of land,
+four coastal areas, and four open-ocean areas, as illustrated
+in Fig. 1. Table 1 summarizes all the data sources used in this
+study.
+3
+Methodology
+3.1
+Spatial comparison
+For multi-satellite aerosol products, the monthly retrievals at
+550 nm are collected from the listed scientiﬁc dataset (SDS,
+Table 1) and used for the current analysis in this study. Due
+to different spatial resolutions, all datasets are uniformly in-
+tegrated into 1◦× 1◦grid cells using the bidirectional lin-
+ear interpolation method. For comparison, monthly retrievals
+for diverse aerosol products are deﬁned by the pixel cen-
+tred on the AERONET site, and the corresponding monthly
+AERONET AOD is regarded as the true value. Notably, the
+AERONET sites do not provide the AOD observations at
+550 nm; thus, the AOD values at 550 nm are interpolated us-
+ing the Ångström exponent (e) algorithm from 440–675 nm
+using the AERONET AOD measured at those wavelengths
+(Eq. 1). Moreover, the spatial coverage for satellite-derived
+aerosol products is calculated through the area-weighting ap-
+proach where each grid cell is weighted by cosine of central
+latitude. The annual mean AOD value is averaged from at
+least eight available monthly values over 1 year.
+AOD550 = AODλ(550/λ)−e
+(1)
+3.2
+Temporal trend
+The satellite-derived and AERONET-measured monthly
+mean AOD values are selected for temporal variation and
+trend analysis; however, to remove the noticeable inﬂuence
+of the annual cycle, the data are ﬁrst deseasonalized by cal-
+culating the time series of the AOD anomalies. An anomaly
+is deﬁned as the difference between the monthly mean AOD
+in 1 year and the monthly AOD average over all years. Then,
+the ordinary least squares ﬁtting method (Lai and Wei, 1978;
+Zdaniuk, 2014) is selected to minimize the sum of residual
+squares of all observed values and obtain the coefﬁcient of
+the linear regression slope that represents the temporal trend
+(AOD yr−1, Eq. 2).
+Yt = aXt + b + Nt,t = 1,...,T,
+(2)
+where Yt is the AOD time series anomaly, a is the trend
+(AOD yr−1), b is the offset term, and Xt is the annual time se-
+ries (Xt = t/12, where t is the individual months in the time
+series). The term Nt represents the residuals in the time se-
+ries. However, large-scale systems and seasonal patterns can
+persist for weeks to months and affect the temporal aerosol
+trend, and the 1-month lag autocorrelation in the time series
+is considered in the AOD trend analyses. The uncertainty (σ,
+represents 1 standard deviation) in the estimated trend is ap-
+proximated by the following approach (Weatherhead et al.,
+1998):
+σ ≈σN
+N3/2
+s
+R′
+1 −R′ ,
+(3)
+where σN is the standard deviation of the residuals Nt on
+the ﬁt and R′ is the autocorrelation coefﬁcient. The math-
+ematical value and uncertainty range of the AOD trend are
+represented by a ±σ. The statistical signiﬁcance of the trend
+is assessed using the two-side test approach, where p values
+less than 0.05 represent trends that are signiﬁcant at the 95 %
+conﬁdence levels. The p value represents the probability of
+obtaining results at least as extreme as those found, under the
+null hypothesis of there being no relation between AOD and
+time.
+Moreover, the false-discovery rate (FDR) is also consid-
+ered to decrease the fraction of false positives for multiple-
+hypothesis testing (Wilks, 2006). The discovery refers to the
+rejection of a hypothesis, and a false discovery is an incor-
+rect rejection of a hypothesis, and the FDR is the likelihood
+that such a rejection occurs. The well-known Benjamini–
+Hochberg procedure is selected to calculate the FDR in this
+paper (Benjamini and Hochberg, 1995). This procedure be-
+gins by ordering the m hypothesis by ascending p values,
+where Pi is the p value at the ith position with the associated
+hypothesis Hi. Let k be the largest i for which
+Pi ≤i
+mα.
+(4)
+Reject hypotheses i = 1,2,3... k. In this study, the FDR is
+controlled for all tests at the expected level (α = 0.05), where
+no more than 5 % of the signiﬁcant results are in fact false
+positives.
+3.3
+Statistical metrics
+To quantitatively evaluate the quality and uncertainty of
+the retrievals, four main metrics are calculated between the
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7188
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Figure 1. Locations of the AERONET sites and geographical bounds of the custom regions used in this study, where red and green dots
+represent land and ocean sites, respectively.
+satellite-derived AOD (AODS) and AERONET-based AOD
+(AODA). The Pearson product-moment correlation coefﬁ-
+cient (R) is selected to measure the linear correlation be-
+tween the above two variables. The mean absolute error
+(MAE, Eq. 5) represents the overall estimation accuracy. The
+root mean square error (RMSE, Eq. 6) and relative mean
+bias (RMB, Eq. 7) represent the overall estimation uncer-
+tainty, where RMB > 1.0 or RMB < 1.0 indicate the over- or
+underestimation uncertainty. Although several satellite prod-
+ucts have provided an expected level of uncertainty on AOD,
+this refers to level 2 products and is not applicable to the
+level 3 products in studies like this one. Level 3 uncertainty
+estimates have not yet been developed for these AOD prod-
+ucts. Moreover, to quantify the performance of each satel-
+lite aerosol product in capturing aerosol trends, an additional
+correct-trend percentage (CTP) is deﬁned as the percent-
+age of sites where the satellite-derived and AERONET-based
+trends are consistent within each uncertainty (1 standard de-
+viation) or not, and they are compared by combining trend
+uncertainties in quadrature by assuming that the uncertainty
+estimates from different data sets are independent.
+MAE = 1
+n
+n
+X
+i=1
+|AODS −AODA|
+(5)
+RMSE =
+v
+u
+u
+t1
+n
+n
+X
+i=1
+(AODS −AODA)2
+(6)
+RMB = 1
+n
+n
+X
+i=1
+|AODS/AODA|
+(7)
+4
+Performance of monthly aerosol products
+4.1
+Global-scale comparison
+Figure 2 compares the monthly AODS values derived from
+10 satellite aerosol products and AODA values at a total
+of 268 available AERONET sites for the common period
+2006–2010 throughout the world (VIIRS data are not dis-
+cussed in Sect. 4 because they start in 2012). Table S1 in
+the Supplement also summarizes the comparison of AODS
+and AODA values from the 10 products over land and ocean
+for the common period 2006–2010. Due to the differences in
+aerosol retrieval algorithms and satellite observation condi-
+tions, the spatial coverage is not uniform among these prod-
+ucts, which results in noticeable differences in the num-
+ber of data collections (sample size, N). The four ESA-
+CCI monthly aerosol products show similar overall perfor-
+mance with comparable evaluation metrics. The AOD re-
+trievals (N = 7938–9467) agree well with AODA (R = 0.7–
+0.8), with MAE values ranging from 0.07 to 0.09 and RMSE
+values ranging from 0.13 to 0.15. Among them, the AATSR-
+SU (AATSR-ADV) product shows the best (worst) perfor-
+mance with the smallest (largest) differences on the global
+scale. These results are consistent with those reported by a
+previous study (de Leeuw et al., 2015). The AVHRR AODS
+values (N = 8382) are well correlated with the AERONET
+AODA values with MAE and RMSE of 0.077 and 0.145, re-
+spectively. The Terra MISR product provides a sample size
+of 8418, which is smaller than the Terra MODIS sample size
+(N = 9196) and is possibly due to the narrower swath width.
+MISR AODS values are highly correlated with the ground-
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7189
+Figure 2. Density scatter plots of the monthly averages of satellite-derived AODS vs. AERONET AODA throughout the world.
+measured AODA values (R = 0.781), with a MAE of 0.074
+and RMSE of 0.127. The Terra MODIS product is generally
+better than the MISR product with a high correlation and low
+RMSE. Due to the afternoon imaging time, the Aqua MODIS
+product provides approximately 2 % fewer data collections
+than Terra MODIS, but it exhibits superior performance in
+terms of most of the evaluation metrics (i.e. R = 0.868, MAE
+= 0.067, and RMSE = 0.107) among all 10 products. In con-
+trast, the POLDER product exhibits an inferior performance,
+with the largest MAE and RMSE errors among all the prod-
+ucts, signiﬁcantly overestimating the monthly aerosol loads
+(RMB = 1.287). This result could be partially attributed to
+the relatively low accuracy of cloud detection results in the
+current POLDER product, and an upcoming version of the
+POLDER product with an advanced algorithm will improve
+the AOD retrievals. The SeaWiFS product has the smallest
+sample size, which provides 33 %–44 % fewer data collec-
+tions than other products but exhibits overall good perfor-
+mance. The reason is partly the temporary failures during the
+studied time period that cause missing monthly data. In gen-
+eral, both MODIS and POLDER products overestimate the
+monthly average aerosol loads and other products underesti-
+mate them, especially the MISR and AATSR-ADV products.
+4.2
+Continent-scale comparison
+Aerosol characteristics over land are more diverse than those
+over the ocean due to complex surface structures, vary-
+ing aerosol compositions, and inﬂuences of natural and hu-
+man factors. Therefore, this section focuses on the compar-
+ison between monthly AODS and AODA on the continental
+scale over land. For this purpose, 10 main customized conti-
+nents (Fig. 1) are considered, including eastern North Amer-
+ica (ENA), western North America (WNA), South America
+(SAM), Europe (EUR), Africa (AFR), the Middle East (ME),
+southern Asia (SAA), eastern Asia (EAA), southeastern Asia
+(SEA), and Oceania (OCE). Figure 3 shows the continent-
+scale performance for 10 AODS products for the common
+period 2006–2010 over land, and the statistical results are
+given in Table S2.
+The results show some common features of the 10 AODS
+products. In general, a large number of data samples are
+collected over Europe and North America due to intensive
+ground-based observation sites. In contrast, the sample sizes
+are small over the Middle East, eastern Asia, southeastern
+Asia, and Oceania due to the sparse observation sites and al-
+gorithm limitations over the high-brightness underlying sur-
+faces. Most aerosol products exhibit good performances with
+low MAE and RMSE values less than 0.06 and 0.08 over Eu-
+rope, North America, and Oceania. The main reason for this
+result is that the relatively high vegetation coverage and dark
+underlying surface allow for more accurate aerosol retrievals
+by different aerosol algorithms (Wei et al., 2018a, b). How-
+ever, poor performances with large MAE and RMSE values
+occur over southern Asia, eastern Asia, Africa, and the Mid-
+dle East. This result is mainly due to the complex and bright
+underlying surfaces (e.g. desert, bare land, and urban areas),
+as well as intense human activities, which increase the difﬁ-
+culty of aerosol estimation (Wei and Sun, 2017; Wei et al.,
+2017, 2018a, b, 2019d). Overall, most aerosol products over-
+estimate the monthly AOD over North America and Oceania,
+while general underestimations occur over South America,
+Africa, and eastern Asia.
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7190
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Figure 3. Continent-scale performance for satellite-derived monthly AODS against AERONET monthly AODA measurements from 2006 to
+2010 in terms of (a) sample size (N), (b) MAE, (c) RMSE, and (d) RMB.
+The performance of each AODS product is also dis-
+tinct in each speciﬁc region. In general, the AATSR-ORAC,
+POLDER, and MODIS products provide a larger number
+of data samples than the other products. In particular, the
+AATSR-ADV product provides fewer data samples over the
+Middle East than over the other regions because the ADV al-
+gorithm cannot be applied in bright desert areas. In terms
+of the retrieved AODs, all the products perform almost
+equally with similar evaluation metrics (e.g. MAE, RMSE)
+over North America, Europe, and Oceania, except for the
+POLDER product. In the other regions, large differences are
+found among the 10 AODS products. In general, the MODIS
+and MISR products exhibit better performances (with low
+MAE and RMSE values) than the other products over South
+America, Africa, the Middle East, eastern Asia, and south-
+eastern Asia. The POLDER and MODIS products overesti-
+mate the monthly aerosol loads over most continents, espe-
+cially America and Europe. In contrast, the AATSR-ORAC,
+AATSR-ADV, and MISR products usually underestimate the
+monthly aerosol loads except for a few speciﬁc regions (i.e.
+western North America and Oceania).
+4.3
+Site-scale comparison
+The global- and continent-scale comparisons show the over-
+all performance of ten satellite aerosol products. However,
+the selected AERONET sites are unevenly distributed around
+the world, with most sites concentrated in densely populated
+land regions. Therefore, the site-scale comparison at a total
+of 308 available sites is performed in this section. For this
+purpose, four main evaluation metrics are calculated, includ-
+ing the sample size (N), MAE, RMSE, and RMB. For statis-
+tical signiﬁcance, only those sites with at least half a year
+of observations (six matchups) are used for analysis. Fig-
+ures 4–6 shows the site-scale performance map for AODS
+against AODA, and Table 2 summarizes the percentages of
+the sites within a certain range of evaluation metrics for all
+AODS products in the common period 2006–2010.
+Figure 4 illustrates the number of data collections for the
+different AODS products at each site over both land and
+ocean, where the black dots represent an insufﬁcient number
+of matchups. Most products can provide enough data sam-
+ples at more than 95 % of the sites around the world, espe-
+cially the AATSR and MODIS products. However, the Sea-
+WiFS product has approximately 21 % of the sites with no
+or few matchup samples, which are mainly distributed over
+North America, Europe, Asia, and southeastern Asia. The
+AATSR-ADV product has approximately 8 % of the sites
+lacking matched samples, which are spread over northern
+Africa, southern Europe, the Middle East, and central Asia.
+The main reason for this result is that the ADV algorithm
+cannot be adequately applied over bright surfaces. Moreover,
+the sites with no matched data samples from the POLDER
+product are concentrated in high-latitude areas because the
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7191
+Table 2. Percentage of sites within certain ranges of evaluation metrics for different satellite-derived monthly AODS products from 2006 to
+2010.
+Products
+N
+MAE
+RMSE
+RMB
+> 6
+< 0.08
+> 0.12
+< 0.08
+> 0.12
+< 0.8
+[0.9, 1.1]
+> 1.2
+AATSR-ADV
+92
+59
+19
+47
+28
+35
+22
+16
+AATSR-EN
+96
+66
+16
+55
+25
+26
+28
+23
+AATSR-ORAC
+99
+69
+20
+56
+28
+26
+24
+30
+AATSR-SU
+95
+63
+19
+56
+28
+18
+32
+17
+AVHRR
+96
+67
+17
+57
+25
+20
+29
+18
+MISR
+95
+69
+15
+50
+25
+25
+30
+23
+MOD08
+99
+67
+12
+52
+23
+9
+14
+54
+MYD08
+97
+71
+12
+60
+21
+12
+24
+34
+POLDER
+93
+35
+31
+21
+47
+2
+17
+61
+SeaWiFS
+79
+56
+14
+46
+21
+12
+27
+24
+POLDER algorithm is designed for aerosol retrieval between
+60◦latitude.
+Figures 5 and 6 plot the MAE and RMSE errors between
+AODS and AODA at each site across the world. The MAE
+and RMSE maps have very similar spatial patterns for each
+aerosol product. Good performances are exhibited at most
+North American and European sites with low MAE and
+RMSE values less than 0.04 and 0.06. The sites with poor
+performances are mainly aggregated in northern Africa, east-
+ern Asia, and southern Asia, where the MAE and RMSE
+values are generally greater than 0.16 and 0.20. This result
+indicates that the overall performance of the aerosol prod-
+ucts on the site scale is spatially heterogeneous and highly
+dependent on the type of underlying surfaces and the im-
+pact of human activities. Among the 10 aerosol products, the
+Aqua MODIS product shows the best performance, having
+a large percentage of sites (71 % and 60 %) with MAE and
+RMSE values less than 0.08 throughout the world. By con-
+trast, the POLDER product performs the worst, having more
+than 31 % and 47 % of the sites with MAE and RMSE values
+greater than 0.12.
+Figure 7 shows the spatial distribution of the site-scale
+AODS bias. For the 10 products, only 14 %–32 % of the
+sites show good estimations, with RMB values ranging from
+0.9 to 1.1. The POLDER and MOD08 products overestimate
+at most sites, especially in North America and Europe, and
+more than 54 % and 61 % of the sites show signiﬁcant overes-
+timations (RMB > 1.2) according to the statistics in Table 2.
+The other products mostly underestimate at sites over Eu-
+rope, Africa, the Middle East, and Asia and overestimate at
+sites over South America and Australia.
+5
+AOD spatial coverage and distribution
+5.1
+Global and regional distribution
+In this section, we compare the AOD distribution among the
+11 aerosol products (VIIRS data are included). Figure 8 illus-
+trates the global spatial coverage and mean value of all AODS
+products for their respective available periods from 1997 to
+2017. There are several missing monthly data records for the
+AATSR-ADV, AATSR-ORAC, AVHRR, and SeaWiFS prod-
+ucts, which are given in Table S3.
+All the aerosol products present a similar and obvious an-
+nual cycle, with high spatial coverage in August and Septem-
+ber and low coverage in December and January (Fig. 8a). In
+general, the MODIS and VIIRS products provide the largest
+spatial coverage, covering more than 86 % of the area of
+the world. In contrast, the AATSR-ADV and SeaWiFS prod-
+ucts have the lowest spatial coverage, with global averages
+of 68 % and 69 %. The AATSR-EN, AATSR-SU, AVHRR,
+and POLDER products have similar spatial coverages, with
+an average of 72 %–76 %. The spatial coverage decreased
+signiﬁcantly as the SeaWiFS and POLDER satellite services
+approached their end stages. Figure 8b shows similar annual
+variations among the 11 AODS products, with the peak from
+July to September and the trough from November to Jan-
+uary. The POLDER product exhibits the highest AOD values
+among all products, while the SeaWiFS and MISR products
+show the lowest values. The other products have relatively
+similar AODS values, ranging from 0.13 to 0.18. Finally, we
+found that the VIIRS product is almost identical to the Aqua
+MODIS AODS, as shown in Fig. 8, due to the similar satellite
+parameters and algorithms. Considering the relatively short
+data records of VIIRS, we will not include these data in the
+subsequent comparison and analysis.
+Considering the remarkable seasonal variations, we plot
+the seasonal spatial distributions of the 10 aerosol prod-
+ucts for their common period 2006–2010 in Fig. 9. Mean-
+while, we also reproduce the satellite-derived global AODS
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7192
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Figure 4. Site-scale performance map for satellite-derived monthly AODS against AERONET monthly AODA measurements from 2006 to
+2010 in terms of sample size (N), where black dots represent the sites with zero matchup samples.
+maps considering the common points in all datasets sep-
+arately over land and ocean (Figs. S1–S2). Table 3 sum-
+marizes the average spatial coverage and AODS values
+in December–January–February (DJF), March–April–May
+(MAM), June–July–August (JJA), and September–October–
+November (SON) for each product. In DJF, the space cover-
+age is the lowest, with an average cover rate less than 90 %
+for most aerosol products, especially for AATSR-ADV prod-
+uct (∼73 %). The missing data are mainly for the Northern
+Hemisphere in winter and in high-latitude areas with bright
+surfaces covered by snow and ice, where most of the retrieval
+algorithms cannot be implemented. By contrast, the spatial
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7193
+Figure 5. Same as Fig. 4 but for MAE.
+coverage is increased in the other seasons and the highest
+values are always observed in SON for most aerosol prod-
+ucts. Among these 10 products, two MODIS aerosol products
+can provide almost the largest spatial coverage with average
+cover rates of 88 %, 94 %, 93 %, and 95 % for DJF, MAM,
+JJA, and SON. By contrast, AATSR-ADV and POLDER
+products are generally narrower than other products in spatial
+coverage for each season.
+For the spatial distribution of AODS, noticeable spatial
+heterogeneity occurs over land with low values in North
+America, Europe, and Australia and high values in north-
+ern Africa, the Middle East, southern Asia, and eastern Asia.
+Deserts, dry areas, and their downwind regions have AODS
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7194
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Figure 6. Same as Fig. 4 but for RMSE.
+peaks in spring (eastern Asia) or summer (northern Africa
+and the Middle East) in accordance with the prevailing time
+of dust. Anthropogenic polluted regions exhibit peaks in
+high-emission seasons, such as dry seasons in the savanna
+and Amazon due to biomass burning, summer in eastern Asia
+due to the formation of large numbers of ﬁne particles and
+water uptake by hygroscopic particles. There is also strong
+diversity in the seasonal or annual mean AODS over north-
+ern Africa and eastern Asia among most datasets (Fig. S1 in
+the Supplement). This diversity is mainly due to the different
+aerosol algorithms applied over bright surfaces (i.e. desert
+and urban areas). Both high surface reﬂectance and complex
+underlying surfaces increase the difﬁculty of aerosol retrieval
+(Wei and Sun, 2017; Wei et al., 2017, 2018a, b, 2019d). For
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7195
+Figure 7. Same as Fig. 4 but for RMB.
+the spatial distributions over the ocean, the seasonal and an-
+nual mean AODS values are generally lower than 0.1 in most
+areas, especially open seas (Fig. S2). In coastal areas near
+central and northern Africa, southern Middle East, southern
+India, and eastern China, the AODS values are strongly in-
+ﬂuenced by the source regions. The seasonal mean AODS
+values are generally greater than 0.4, and the seasonal vari-
+ation in AODS in the downstream plume areas is consistent
+with that in the upstream land area.
+Figures 10 and 11 plot the seasonal spatial coverage and
+mean AODS values over 10 land and 8 oceanic customized
+regions (see Fig. 1) for each product during the common pe-
+riod 2006–2010. The results illustrate that the SeaWiFS and
+AVHRR products have much lower spatial coverage than the
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7196
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Figure 8. Time series of global spatial coverage and mean value of satellite-derived monthly aerosol products for their respective available
+periods from 1997 to 2017.
+Table 3. Seasonal statistics of spatial coverage and global means of satellite-derived AODS from 2006 to 2010.
+Products
+Spatial coverage (%)
+Mean AOD
+DJF
+MAM
+JJA
+SON
+DJF
+MAM
+JJA
+SON
+AATSR-ADV
+73
+81
+82
+83
+0.16 ± 0.10
+0.17 ± 0.13
+0.17 ± 0.12
+0.16 ± 0.10
+AATSR-EN
+86
+91
+89
+92
+0.13 ± 0.08
+0.16 ± 0.13
+0.15 ± 0.11
+0.14 ± 0.09
+AATSR-ORAC
+92
+93
+90
+94
+0.15 ± 0.09
+0.16 ± 0.10
+0.16 ± 0.10
+0.16 ± 0.08
+AATSR-SU
+87
+93
+91
+93
+0.12 ± 0.09
+0.15 ± 0.14
+0.15 ± 0.13
+0.13 ± 0.09
+AVHRR
+85
+89
+88
+91
+0.13 ± 0.09
+0.14 ± 0.14
+0.14 ± 0.13
+0.13 ± 0.09
+MISR
+89
+93
+91
+93
+0.12 ± 0.08
+0.13 ± 0.12
+0.14 ± 0.11
+0.12 ± 0.08
+MOD08
+88
+94
+93
+95
+0.16 ± 0.09
+0.19 ± 0.14
+0.19 ± 0.13
+0.17 ± 0.10
+MYD08
+88
+94
+93
+95
+0.15 ± 0.09
+0.17 ± 0.14
+0.17 ± 0.12
+0.15 ± 0.09
+POLDER
+84
+86
+83
+86
+0.19 ± 0.13
+0.20 ± 0.15
+0.21 ± 0.15
+0.19 ± 0.12
+SeaWiFS
+82
+88
+85
+88
+0.10 ± 0.08
+0.12 ± 0.11
+0.13 ± 0.12
+0.11 ± 0.08
+other products over most land regions, especially for South
+America, southern Asia, and southeastern Asia. The AATSR-
+ADV product has the lowest spatial coverage in Africa and
+the Middle East due to the limitations of aerosol retrieval al-
+gorithms. Meanwhile, the POLDER product yields the min-
+imum spatial coverage in the high latitudes due to the lack
+of retrievals above 60◦(i.e. eastern and western North Amer-
+ica, and Europe). In general, the range in spatial coverage
+of all AODS products is greater in all seasons (especially in
+DJF) over North America, Europe, and the European coast.
+By contrast, most aerosol products are more consistent and
+have higher spatial coverage in the remaining areas, espe-
+cially for open seas, where the average spatial coverage can
+even reach up to 100 %.
+For the seasonal mean AODS, the POLDER product has
+the highest values, and the SeaWiFS product has the low-
+est values over most customized regions. The AATSR-ADV
+product exhibits the lowest seasonal AOD values in the Mid-
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7197
+Figure 9. Satellite-derived global seasonal averaged AODS maps at 550 nm from 2006 to 2010.
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7198
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Figure 10. AODS spatial coverage (marked as solid circles) and seasonal mean (marked as hollow circles) for each customized region over
+land (refer to Fig. 1) from 2006 to 2010.
+Figure 11. Same as Fig. 10 but for each customized region over ocean.
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7199
+Figure 12. Seasonal performance for satellite-derived AODS against AERONET AODA measurements from 2006 to 2010 in terms of
+(a) sample size (N), (b) MAE, (c) RMSE, and (d) RMB, where numbers 1–10 on the x axis represent the AATSR-ADV, AATSR-EN,
+AATSR-ORAC, AATSR-SU, AVHRR, MISR, MOD08, MYD08, POLDER, and SeaWiFS products.
+dle East due to a large number of missing retrievals. For the
+remaining aerosol products, the range of the seasonal mean
+AODS is greater than 0.2 over Africa, southern Asia, east-
+ern Asia, southeastern Asia, and the coastal areas of southern
+Asia, and eastern Asia. The main reason for this wide range
+could be the complex aerosol types from multiple sources
+(e.g. natural dust mixed with anthropogenic ﬁne particles)
+that cannot be resolved by current aerosol retrieval algo-
+rithms. For the remaining land and ocean regions, the range
+in seasonal AOD values is generally within 0.1 among these
+aerosol products. The main reason for this result may be the
+differences in satellite scanning widths and pixel selection
+during the reprocessing of the monthly aerosol products.
+5.2
+Comparison between seasonal and annual AODS
+and AODA
+Figure 12 compares the satellite-derived seasonal mean
+AODS value for each satellite over AERONET sites with the
+ground-based AODA values over land and ocean, and the sta-
+tistical results are given in Table S4. The best performance
+with the smallest MAE (Fig. 12b) and RMSE (Fig. 12c) val-
+ues are always found in SON. In contrast, the worst perfor-
+mances with the largest estimation uncertainties (i.e. MAE
+and RMSE) among the 10 aerosol products are found in JJA.
+In general, the MODIS and POLDER products overestimate
+the aerosol loads in the four seasons, and the remaining seven
+aerosol products underestimate them (Fig. 12d). The perfor-
+mance of the AATSR-ORAC and AVHRR products is poor
+with large estimation uncertainties in JJA but much improved
+in the other three seasons. The AATSR-SU product shows the
+smallest estimation bias (RMB = 0.95–1.05) in all four sea-
+sons among all products. In general, the Aqua MODIS prod-
+uct performs best with almost all the best evaluation metrics
+(e.g. N, MAE, and RMSE) compared to the other products
+on the seasonal level.
+In Fig. 13 we also compare the annual mean AODS val-
+ues from each satellite product with the AERONET AODA
+values at available sites from 2006 to 2010. The results in-
+dicate that similar conclusions can be drawn for both sea-
+sonal and annual scales. The AATSR-SU product performs
+superior among the four ESA-CCI AATSR products. The
+AVHRR and MISR products show similar performances with
+close MAE (0.049 and 0.050) and RMSE (0.082 and 0.083)
+values but underestimate the annual mean AOD (RMB =
+0.972 and 0.881). However, these products are better over-
+all than the ESA-CCI AATSR products. The POLDER and
+SeaWiFS products exhibit poor performance due to the no-
+table overestimation (RMB = 1.307) and the smallest num-
+ber of matchup samples, respectively. The MODIS products
+have noticeably high correlations with ground measurements
+(R > 0.92), but MOD08 shows a ∼17 % overestimation.
+In general, the MYD08 product has the best performance
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7200
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Figure 13. Comparisons between the annual global mean satellite-derived AODS and AERONET-based AODA at 550 nm for all matchup
+sites throughout the world. The solid black line represents the 1 : 1 line.
+with the smallest estimation uncertainties (MAE = 0.047 and
+RMSE = 0.069) among all the aerosol products.
+6
+AOD temporal variation and trend
+6.1
+Global and regional AOD trend
+In this section, we focus on the comparison of the tempo-
+ral trends of global and regional AOD products. Because the
+AVHRR and POLDER products provide less than 10 years of
+aerosol observations in this study, only the remaining eight
+long-term aerosol products are compared for a common ob-
+servation period. To ensure that the long-term trend is not
+impacted by the trends of the aerosol products themselves,
+we calculated the autocorrelation coefﬁcient of each product
+with a 1-month lag (Fig. S3).
+The linear trends are derived from the de-seasonalized
+monthly anomaly of each AODS, and a two-sided test is con-
+ducted to present the statistical signiﬁcance of the temporal
+trends, where the trends that are signiﬁcant at the 95 % conﬁ-
+dence level (p < 0.05) are marked with black dots in Fig. 14.
+Considering the multiple-hypothesis testing (many data sets
+and locations are being tested for trends), there could be a
+signiﬁcant fraction of false positives. Therefore, the FDR test
+at the 95 % signiﬁcance level (α = 0.05) is performed to ad-
+dress this issue. We see that the false-positive points can be
+adequately eliminated after the FDR adjustment and that the
+statistically signiﬁcant areas are more or less reduced (com-
+paring Fig. 14 with Fig. S4). After these processes, the trends
+are able to represent the time evolution of aerosols realisti-
+cally.
+The global AOD trend distribution shows similar overall
+spatial patterns among all aerosol products. Over land, sig-
+niﬁcantly positive trends (a > 0.01, p < 0.05, where a and
+p are deﬁned in Sect. 3.2) are mainly found in the Middle
+East and southern Asia, indicating increasing air pollution.
+In contrast, signiﬁcantly negative aerosol trends (a < −0.01,
+p < 0.05) are mainly observed in eastern North America,
+Europe, and central Africa, indicating improved air qual-
+ity. Trends greater than 0.01 yr−1 but not statistically signif-
+icant are found in a few areas of northern Africa and eastern
+Asia. Strong negative but statistically nonsigniﬁcant trends
+are found in central South America and parts of southeast-
+ern Asia. The large trends indicate the importance of aerosol
+evolution, and the lack of signiﬁcance may be attributed to
+the complex aerosol sources; thus, more attention should be
+placed on these areas to better understand the temporal vari-
+ations in aerosols. The magnitude of the aerosol trend is gen-
+erally small (|a| < 0.005) over the ocean. However, signiﬁ-
+cantly decreasing aerosol trends (a < −0.01, p < 0.05) are
+observed along the west coast of South America, the east
+coast of North America and the east coast of Asia. A sig-
+niﬁcant increase in aerosol trends (a > 0.01, p < 0.05) was
+observed along the Indian coast. On the other hand, the four
+ESA-CCI and MISR aerosol products are not signiﬁcant in
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7201
+Figure 14. Linear trend based on deseasonalized monthly AODS anomalies from 2003 to 2010. Units are AOD yr−1. Black dots indicate a
+signiﬁcant trend at the 95 % conﬁdence level (p < 0.05).
+most ocean areas, even for the open seas. MODIS and Sea-
+WiFS products have similar spatial patterns in most ocean ar-
+eas, such as the signiﬁcantly increasing trends observed over
+the Paciﬁc and Indian oceans.
+Figure 15 compares the regional aerosol trends among
+the eight satellite AODS values, and Tables 4–5 show the
+statistics of the regional AODS trends and uncertainties over
+land and ocean. Over land, most small trends are not sta-
+tistically signiﬁcant, indicating unconﬁrmed temporal trends
+over most land regions (Fig. 15a, Table 4). However, most
+products show signiﬁcantly increasing trends over the Mid-
+dle East (a = 0.0048–0.0111 yr−1, p < 0.05) and southern
+Asia (a = 0.0034–0.0047 yr−1, p < 0.05), conﬁrming the
+robust enhancement of aerosols in these two regions. Some
+products also exhibit obvious decreasing aerosol trends over
+eastern North America, western North America, Europe, and
+southeastern Asia. The robustness of the decreasing trends
+is credible in eastern North America and Europe but un-
+sure in western North America. Over the ocean, the aerosol
+trends are generally small (Fig. 15b, Table 5), especially for
+the three open-ocean areas (i.e. Paciﬁc, Indian, and Atlantic
+oceans). However, the aerosol changes in the four coastal
+areas exceed 0.002 yr−1. The downward trends on the east-
+ern North American coast and European coast and the rising
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7202
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Table 4. Regional temporal trends and uncertainties derived from eight AOD products for the period 2003–2010 over land, where * indicates
+trends signiﬁcant at 95 % conﬁdence level.
+Region
+Metrics
+Aerosol product
+AATSR-ADV
+AATSR-EN
+AATSR-ORAC
+AATSR-SU
+MISR
+MOD08
+MYD08
+SeaWiFS
+Land
+Trend
+−0.0009
+−0.0001
+0.0002
+−0.0004
+−0.0002
+0.0006
+0.0012
+−0.0012
+uncertainty
+0.0007
+0.0005
+0.0005
+0.0006
+0.0004
+0.0007
+0.0007
+0.0007
+ENA
+Trend
+−0.0031*
+−0.0021*
+−0.0005
+−0.0031*
+−0.0019*
+−0.0016
+−0.0016
+−0.0042*
+uncertainty
+0.0011
+0.0009
+0.0011
+0.0010
+0.0007
+0.0012
+0.0010
+0.0008
+WNA
+Trend
+−0.0008
+−0.0004
+0.0010
+−0.0006
+−0.0005
+0.0003
+−0.0001
+−0.0029*
+uncertainty
+0.0013
+0.0011
+0.0012
+0.0010
+0.0009
+0.0019
+0.0018
+0.0010
+SAM
+Trend
+−0.0021
+−0.0014
+−0.0010
+−0.0016
+−0.0015
+−0.0019
+−0.0011
+−0.0006
+uncertainty
+0.0031
+0.0019
+0.0017
+0.0027
+0.0022
+0.0037
+0.0034
+0.0017
+EUR
+Trend
+−0.0021*
+−0.0018*
+−0.0007
+−0.0024*
+−0.0009
+0.0000
+−0.0004
+−0.0031*
+uncertainty
+0.0009
+0.0009
+0.0010
+0.0010
+0.0007
+0.0010
+0.0009
+0.0011
+AFR
+Trend
+−0.0005
+0.0005
+−0.0007
+0.0000
+0.0000
+0.0001
+0.0017
+−0.0018
+uncertainty
+0.0012
+0.0012
+0.0009
+0.0011
+0.0010
+0.0012
+0.0013
+0.0016
+ME
+Trend
+0.0048*
+0.0083*
+0.0050*
+0.0073*
+0.0077*
+0.0084*
+0.0111*
+0.0079*
+uncertainty
+0.0020
+0.0024
+0.0013
+0.0022
+0.0025
+0.0036
+0.0035
+0.0025
+EAA
+Trend
+−0.0011
+−0.0004
+−0.0001
+−0.0008
+−0.0019
+0.0003
+0.0009
+−0.0019
+uncertainty
+0.0037
+0.0022
+0.0021
+0.0026
+0.0028
+0.0039
+0.0038
+0.0023
+SAA
+Trend
+0.0040*
+0.0034
+0.0047*
+0.0044*
+0.0018
+0.0037
+0.0046
+−0.0044
+uncertainty
+0.0024
+0.0019
+0.0014
+0.0020
+0.0017
+0.0027
+0.0028
+0.0023
+SEA
+Trend
+−0.0059
+−0.0041
+−0.0041
+−0.0050
+−0.0020
+−0.0034
+−0.0020
+−0.0041*
+uncertainty
+0.0052
+0.0030
+0.0025
+0.0037
+0.0027
+0.0054
+0.0047
+0.0019
+OCE
+Trend
+0.0002
+0.0001
+0.0007
+0.0000
+−0.0005
+0.0004
+0.0006
+−0.0004
+uncertainty
+0.0004
+0.0007
+0.0006
+0.0012
+0.0007
+0.0006
+0.0006
+0.0003
+Table 5. Same as Table 4 but for ocean.
+Region
+Metrics
+Aerosol product
+AATSR-ADV
+AATSR-EN
+AATSR-ORAC
+AATSR-SU
+MISR
+MOD08
+MYD08
+SeaWiFS
+Ocean
+Trend
+−0.0003
+−0.0004
+0.0000
+−0.0004
+−0.0004
+0.0009*
+0.0006
+−0.0006
+uncertainty
+0.0004
+0.0003
+0.0005
+0.0003
+0.0003
+0.0004
+0.0004
+0.0004
+PAO
+Trend
+0.0002
+−0.0001
+0.0001
+−0.0001
+−0.0002
+0.0015*
+0.0008*
+0.0010*
+uncertainty
+0.0004
+0.0002
+0.0005
+0.0003
+0.0003
+0.0004
+0.0004
+0.0004
+NAO
+Trend
+−0.0006
+0.0001
+0.0010
+0.0005
+−0.0002
+0.0021*
+0.0019*
+−0.0006
+uncertainty
+0.0009
+0.0007
+0.0009
+0.0006
+0.0006
+0.0010
+0.0009
+0.0006
+SAO
+Trend
+0.0001
+0.0000
+0.0001
+−0.0002
+−0.0004
+0.0014
+0.0011
+0.0003
+uncertainty
+0.0007
+0.0005
+0.0007
+0.0004
+0.0004
+0.0008
+0.0007
+0.0004
+INO
+Trend
+0.0000
+−0.0001
+0.0003
+−0.0001
+−0.0001
+0.0012*
+0.0008
+0.0007
+uncertainty
+0.0004
+0.0003
+0.0005
+0.0004
+0.0004
+0.0005
+0.0005
+0.0005
+ENC
+Trend
+−0.0037*
+−0.0032*
+−0.0022*
+−0.0021*
+−0.0023*
+−0.0020*
+−0.0024*
+−0.0026*
+uncertainty
+0.0010
+0.0008
+0.0007
+0.0007
+0.0008
+0.0008
+0.0008
+0.0007
+EUC
+Trend
+−0.0026*
+−0.0021*
+−0.0017
+−0.0021*
+−0.0018*
+−0.0008
+−0.0011
+−0.0025*
+uncertainty
+0.0011
+0.0009
+0.0011
+0.0008
+0.0008
+0.0010
+0.0009
+0.0010
+SAC
+Trend
+0.0041*
+0.0030
+0.0055*
+0.0019
+0.0030*
+0.0064*
+0.0049*
+−0.0002
+uncertainty
+0.0019
+0.0016
+0.0026
+0.0014
+0.0016
+0.0025
+0.0023
+0.0020
+EAC
+Trend
+−0.0030
+−0.0025
+−0.0011
+−0.0010
+−0.0029
+0.0008
+−0.0001
+−0.0026
+uncertainty
+0.0024
+0.0016
+0.0021
+0.0012
+0.0022
+0.0023
+0.0022
+0.0021
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7203
+Figure 15. Regional linear trends based on de-seasonalized monthly
+AODS anomalies over land and ocean from 2003 to 2010, where the
+hollow and solid circles represent statistically nonsigniﬁcant and
+signiﬁcant trends at the 95 % conﬁdence level (p < 0.05), respec-
+tively.
+trend on the southern Asian coast are robust. The temporal
+trend over the eastern Asian coast is unassured.
+6.2
+Comparison between AODS and AODA trends
+In this section, the satellite-derived AODS trends are com-
+pared against the AERONET AODA trends from ground
+measurements. To ensure the statistical signiﬁcance of the
+trend calculations, only the AERONET sites with at least
+5 years (120 months) of effective observations are selected.
+Figure 16 plots the AODS and AODA trends at all available
+sites for the eight satellite products from 2003 to 2010 over
+the world. The results show that most products can capture
+the correct AOD trends at 40 % to 45 % of the available sites
+over land and ocean. For four ESA-CCI aerosol products, the
+satellite-derived AOD trends are consistent with AERONET-
+based trends with average MAEs ranging from 0.45 to 0.49
+and RMSEs ranging from 0.65 to 0.78. The MISR product
+shows an overall better performance with a lower MAE of
+0.418 and RMSE of 0.589 than the ESA-CCI products. How-
+ever, the SeaWiFS product has valid comparisons at only 59
+sites due to the lower spatial coverage over land, and the
+AODS trend exhibits the worst performance with the largest
+MAE and RMSE values among all the aerosol products. By
+contrast, Terra and Aqua show similar performances with al-
+most equal CTPs of 42 %, and the MODIS products capture
+the temporal AODS trend most accurately with the lowest
+MAE and RMSE errors.
+7
+Summary and conclusion
+This study focuses on the similarities and differences in the
+spatial variations and temporal trends of the current satellite-
+derived AOD products. For this purpose, 11 global monthly
+aerosol products at coarse spatial resolutions are collected
+and compared against the ground measurements from 308
+AERONET sites throughout the world, including four prod-
+ucts from the European Space Agency’s Climate Change
+Initiative (AATSR-ADV, AATSR-EN, AATSR-ORAC, and
+AATSR-SU) and AVHRR, MISR, Terra and Aqua MODIS,
+POLDER, SeaWiFS, and VIIRS products. These data are
+evaluated in three ways: (1) direct comparison of monthly re-
+trievals against the AERONET observations on global, con-
+tinent, and site scales; (2) comparison of the global and re-
+gional AOD spatial coverage and distribution; and (3) com-
+parison of the global and regional AOD temporal variations
+and trends. Our results may help readers to better understand
+the features of different satellite aerosol products and select
+a suitable aerosol dataset for their studies.
+In terms of the performance of multiple products on dif-
+ferent spatial scales, we show that the four ESA-CCI aerosol
+products show similar performance and are generally worse
+than the AVHRR and MISR products. The SeaWiFS prod-
+uct provides the smallest sample size despite an overall good
+performance. The seven abovementioned products underes-
+timate the aerosol loads, especially the MISR and AATSR-
+ADV products. The POLDER product performs worst with
+the largest estimation uncertainties and signiﬁcantly overes-
+timates the aerosol loads. The MODIS products (especially
+Aqua MODIS) show superior performance among all prod-
+ucts with small estimation uncertainties in most regions and
+sites but overestimate AOD overall. In general, most products
+exhibit consistently good performance over dark surfaces in
+Europe and North America but perform worse over bright
+and complex surfaces in southern Asia, eastern Asia, Africa,
+and the Middle East.
+In terms of the aerosol spatial distribution, the AATSR-
+ADV and SeaWiFS products have lower spatial coverage
+(∼68 % and 69 %) with numerous missing values, while
+the MODIS products can provide the highest spatial cover-
+age (∼87 %) throughout the world. Most products show the
+highest spatial coverage in SON but the lowest aerosol con-
+centrations in DJF. In general, the seasonal aerosol spatial
+distributions over the ocean are more consistent among the
+different aerosol products. However, noticeable spatial het-
+erogeneity and numerical differences are observed over land,
+especially over Africa, Asia, and some coastal areas, which
+are possibly due to the complex aerosol sources and the lim-
+itations of the different aerosol retrieval algorithms. In gen-
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7204
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Figure 16. Comparisons between the linear trends based on the de-seasonalized monthly AODS anomalies from 2003 to 2010. Units are
+AOD per decade. The solid black line represents the 1 : 1 line.
+eral, the best performance for describing the seasonal aerosol
+distributions is always observed in SON, but the worst is ob-
+served in JJA. The Aqua MODIS product performs best with
+almost all the best evaluation metrics (e.g. MAE and RMSE)
+among all the products at the seasonal and annual levels.
+In terms of the temporal aerosol trends, most products ex-
+hibit similar spatial patterns throughout the world, where sig-
+niﬁcantly positive trends are found over the Middle East,
+southern Asia, and southern Asian coasts. In contrast, sig-
+niﬁcantly decreasing trends are observed over eastern North
+America, Europe, and their coastal areas. In general, most
+products can capture the correct AOD trends at more than
+approximately 40 % of the AERONET sites. In general, the
+MODIS products show the best performance with the best
+evaluation metrics in describing the temporal aerosol varia-
+tions.
+This study has comprehensively evaluated the perfor-
+mance of the atmosphere level 3 aerosol products derived
+from multi-source satellite sensors in describing temporal
+and spatial aerosol variations and provided users with pre-
+liminary data selection and suggestions for their particularly
+special studies. Due to large differences in the performance
+(especially for local regions) and operation time for different
+aerosol products, a better selection of more accurate aerosol
+products may lead to more reliable research conclusions.
+Meanwhile, by making full use of multi-source aerosol prod-
+ucts, newly combined or merged approaches can be further
+explored to reduce the estimate bias for reproducing more
+accurate global aerosol products. This might be speciﬁcally
+critical for validating the aerosol simulation and prediction
+using global climate models. Furthermore, aerosol retrieval
+over highly bright (e.g. desert, bare land) and heterogeneous
+(e.g. urban) areas over land still have large estimation un-
+certainties, which brings great challenges due to high sur-
+face brightness and intense human activities. Therefore, the
+aerosol algorithm teams may need put more effort into opti-
+mizing the estimation in surface reﬂectance and the assump-
+tion of aerosol types over these areas to improve the data
+quality of aerosol retrievals and thus increase the spatial cov-
+erage and decrease the diversity among different data sets.
+These could be the major points of aerosol research in the
+future.
+Data availability. Data are available by contacting the author.
+Supplement. The supplement related to this article is available
+online at: https://doi.org/10.5194/acp-19-7183-2019-supplement.
+Author contributions. YP designed the research, and JW carried
+out the research and wrote the initial draft of this manuscript. RM,
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7205
+LS and JG helped review the manuscript. All authors made substan-
+tial contributions to this work.
+Competing interests. The authors declare that they have no conﬂict
+of interest.
+Acknowledgements. The ESA-CCI AATSR monthly products are
+obtained from the ICARE Data and Services Centre (http://www.
+icare.univ-lille1.fr/cci, last access: 1 October 2018). The MODIS,
+MISR, AVHRR and SeaWiFS monthly products are available at
+https://search.earthdata.nasa.gov/ (last access: 1 October 2018).
+The POLDER product is available at https://www.grasp-open.com/
+products/polder-data-release/ (last access: 1 October 2018), and
+the AERONET measurements are available from the NASA God-
+dard Space Flight Center (https://aeronet.gsfc.nasa.gov/, last access:
+1 October 2018). We appreciate the four anonymous reviewers for
+their constructive suggestions that largely improved the paper.
+Financial support. This research has been supported by the
+National Natural Science Foundation of China (grant nos.
+71690243, 41775137 and 41761144056) and the National Impor-
+tant Project of the Ministry of Science and Technology (grant no.
+2017YFC1501404).
+Review statement. This paper was edited by Stelios Kazadzis and
+reviewed by four anonymous referees.
+References
+Bartell, S. M., Longhurst, J., Tjoa, T., Sioutas, C., and Delﬁno,
+R. J.: Particulate air pollution, ambulatory heart rate variability,
+and cardiac arrhythmia in retirement community residents with
+coronary artery disease, Environ. Health Persp., 121, 1135–1141,
+2013.
+Benjamini, Y. and Hochberg, Y.: Controlling the false discovery
+rate: a practical and powerful approach to multiple testing, J.
+Roy. Stat. Soc. B Met., 57, 289–300, 1995.
+Bevan, S., North, P., Los, S., and Grey, W.: A global dataset of
+atmospheric aerosol optical depth and surface reﬂectance from
+AATSR, Remote Sens. Environ, 116, 199–210, 2012.
+Brauer, M., Amann, M., Burnett, R. T., Cohen, A., Dentener, F., Ez-
+zati, M., Henderson, S., Krzyzanowski, M., Martin, R., Van Din-
+genen, R., van Donkelaar, A., and Thurston, G.: Exposure assess-
+ment for estimation of the global burden of disease attributable to
+outdoor air pollution, Environ. Sci. Technol., 46, 652–660, 2012.
+Cao, J. J., Wang, Q. Y., Chow, J. C., Watson, J. G., Tie, X. X., Shen,
+Z. X., Wang, P., and An, Z. S.: Impacts of aerosol compositions
+on visibility impairment in Xi’an, China, Atmos. Environ., 59,
+559–566, 2012.
+Crouse, D. L., Peters, P. A., van Donkelaar, A., Goldberg, M. S., Vil-
+leneuve, P. J., Brion, O., Khan, S., Atari, D. O., Jerrett, M., Pope,
+C. A., Brauer, M., Brook, J. R., Martin, R. V., Stieb, D., and Bur-
+nett, R. T.: Risk of nonaccidental and cardiovascular mortality in
+relation to long-term exposure to low concentrations of ﬁne par-
+ticulate matter: a Canadian national-level cohort study, Environ.
+Health Persp., 120, 708–714, 2012.
+de Leeuw, G., Holzer-Popp, T., Bevan, S., Davies, W. H., De-
+scloitres, J., Grainger, R. G., Griesfeller, J., Heckel, A., Kinne,
+S., Klüser, L., Kolmonen, P., Litvinov, P., Martynenko, D., North,
+P., Ovigneur, B., Pascal, N., Poulsen, C., Ramon, D., and Pom-
+mock, S.: Evaluation of seven European aerosol optical depth
+retrieval algorithms for climate analysis, Remote Sens. Envi-
+ron., 162, 295–315, 2015.
+Dubovik, O., Herman, M., Holdak, A., Lapyonok, T., Tanré,
+D., Deuzé, J. L., Ducos, F., Sinyuk, A., and Lopatin, A.:
+Statistically optimized inversion algorithm for enhanced re-
+trieval of aerosol properties from spectral multi-angle polari-
+metric satellite observations, Atmos. Meas. Tech., 4, 975–1018,
+https://doi.org/10.5194/amt-4-975-2011, 2011.
+Dubovik, O., Lapyonok, T., Litvinov, P., Herman, M., Fuertes, D.,
+Ducos, F., Lopatin, A., Chaikovsky, A., Torres, B., Derimian, Y.,
+Huang, X., Aspetsberger, M., and Federspiel, C.: GRASP: a ver-
+satile algorithm for characterizing the atmosphere, SPIE: News-
+room, https://doi.org/10.1117/2.1201408.005558, 19 Septem-
+ber 2014.
+Floutsi, A. A., Korrascarraca, M. B., Matsoukas, C., Hatzianastas-
+siou, N., and Biskos, G.: Climatology and trends of aerosol op-
+tical depth over the mediterranean basin during the last 12 years
+(2002–2014) based on Collection 006 MODIS-Aqua data, Sci.
+Total Environ., 551–552, 292–303, 2016.
+Giles, D. M., Sinyuk, A., Sorokin, M. G., Schafer, J. S., Smirnov,
+A., Slutsker, I., Eck, T. F., Holben, B. N., Lewis, J. R., Campbell,
+J. R., Welton, E. J., Korkin, S. V., and Lyapustin, A. I.: Advance-
+ments in the Aerosol Robotic Network (AERONET) Version 3
+database – automated near-real-time quality control algorithm
+with improved cloud screening for Sun photometer aerosol op-
+tical depth (AOD) measurements, Atmos. Meas. Tech., 12, 169–
+209, https://doi.org/10.5194/amt-12-169-2019, 2019.
+Guo, J. P., Zhang, X. Y., Wu, Y. R., Zhaxi, Y., Che, H. Z., Ba,
+L., Wang, W., and Li, X. W.: Spatio-temporal variation trends
+of satellite-based aerosol optical depth in China during 1980–
+2008, Atmos. Environ., 45, 6802–6811, 2011.
+Guo, J., Deng, M., Lee, S. S., Wang, F., Li, Z., Zhai, P., Liu, H.,
+Lv, W., Yao, W., and X. Li.: Delaying precipitation and lightning
+by air pollution over the Pearl River Delta. Part I: Observational
+analyses, J. Geophys. Res.-Atmos., 121, 6472–6488, 2016.
+Guo, J., Su, T., Li, Z., Miao, Y., Li, J., Liu, H., Xu, H., Cribb, M.
+and Zhai, P.: Declining frequency of summertime local-scale pre-
+cipitation over eastern China from 1970 to 2010 and its potential
+link to aerosols, Geophys. Res. Lett., 44, 5700–5708, 2017.
+Gupta, P., Levy, R. C., Mattoo, S., Remer, L. A., and Mun-
+chak, L. A.: A surface reﬂectance scheme for retrieving
+aerosol optical depth over urban surfaces in MODIS Dark Tar-
+get retrieval algorithm, Atmos. Meas. Tech., 9, 3293–3308,
+https://doi.org/10.5194/amt-9-3293-2016, 2016.
+Holben, B. N., Eck, T. F., Slutsker, I., Tanré, D., Buis, J. P., Set-
+zer, A., Vermote, E., Reagan, J. A., Kaufman, Y. J., Nakajima,
+T., Lavenu, F., Jankowiak, I., and Smirnov, A.: AERONET: A
+federated instrument network and data archive for aerosol char-
+acterization, Remote Sens. Environ., 66, 1–16, 1998.
+Holzer-Popp, T., de Leeuw, G., Griesfeller, J., Martynenko, D.,
+Klüser, L., Bevan, S., Davies, W., Ducos, F., Deuzé, J. L.,
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+
+7206
+J. Wei et al.: Comparison of multiple satellite aerosol products
+Graigner, R. G., Heckel, A., von Hoyningen-Hüne, W., Kol-
+monen, P., Litvinov, P., North, P., Poulsen, C. A., Ramon,
+D., Siddans, R., Sogacheva, L., Tanre, D., Thomas, G. E.,
+Vountas, M., Descloitres, J., Griesfeller, J., Kinne, S., Schulz,
+M., and Pinnock, S.: Aerosol retrieval experiments in the
+ESA Aerosol_cci project, Atmos. Meas. Tech., 6, 1919–1957,
+https://doi.org/10.5194/amt-6-1919-2013, 2013.
+Hsu, N. C., Gautam, R., Sayer, A. M., Bettenhausen, C., Li, C.,
+Jeong, M. J., Tsay, S.-C., and Holben, B. N.: Global and regional
+trends of aerosol optical depth over land and ocean using SeaW-
+iFS measurements from 1997 to 2010, Atmos. Chem. Phys., 12,
+8037–8053, https://doi.org/10.5194/acp-12-8037-2012, 2012.
+Hsu, N. C., Lee, J., Sayer, A. M., Carletta, N., Chen, S. H., Tucker,
+C. J., Holben, B. N., and Tsay, S. C.: Retrieving near-global
+aerosol loading over land and ocean from AVHRR, J. Geophys.
+Res.-Atmos., 122, 9968–9989, 2017.
+Hsu, N. C., Lee, J., Sayer, A. M., Kim, W., Bettenhausen,
+C., and Tsay, S. C.: VIIRS Deep Blue Aerosol Prod-
+ucts over Land: Extending the EOS Long-Term Aerosol
+Data Records, J. Geophys. Res.-Atmos., 124, 4026–4053,
+https://doi.org/10.1029/2018JD029688, 2019.
+Kaufman, Y. J., Wald, A. E., Remer, L. A., Gao, B. C., Li, R. R., and
+Flynn, L.: The MODIS 2.1 mm channel correlation with visible
+reﬂectance for use in remote sensing of aerosol, IEEE T. Geosci.
+Remote, 35, 1286–1298, 1997.
+King, M. D., Kaufman, Y. J., Menzel, W. P., and Tanré, D.: Re-
+mote sensing of cloud, aerosol, and water vapor properties from
+the moderate resolution imaging spectrometer (MODIS), IEEE
+T. Geosci. Remote, 30, 2–27, 1992.
+Klingmüller,
+K.,
+Pozzer,
+A.,
+Metzger,
+S.,
+Stenchikov,
+G.
+L., and Lelieveld, J.: Aerosol optical depth trend over
+the
+Middle
+East,
+Atmos.
+Chem.
+Phys.,
+16,
+5063–5073,
+https://doi.org/10.5194/acp-16-5063-2016, 2016.
+Kolmonen, P., Sundström, A.-M., Sogacheva, L., Rodriguez,
+E., Virtanen, T., and de Leeuw, G.: Uncertainty character-
+ization of AOD for the AATSR dual and single view re-
+trieval algorithms, Atmos. Meas. Tech. Discuss., 6, 4039–4075,
+https://doi.org/10.5194/amtd-6-4039-2013, 2013.
+Lai, T. L. and Wei, H. R. Z.: Strong consistency of least squares
+estimates in multiple regression, P. Natl. Acad. Sci. USA, 75,
+3034–3036, 1978.
+Levy, R. C., Remer, L. A., Mattoo, S., Vermote, E. F., and Kauf-
+man, Y. J.: Second generation operational algorithm: retrieval of
+aerosol properties over land from inversion of MODIS spectral
+reﬂectance, J. Geophys. Res.-Atmos., 112, 1–21, 2007.
+Levy, R. C., Mattoo, S., Munchak, L. A., Remer, L. A., Sayer, A.
+M., Patadia, F., and Hsu, N. C.: The Collection 6 MODIS aerosol
+products over land and ocean, Atmos. Meas. Tech., 6, 2989–
+3034, https://doi.org/10.5194/amt-6-2989-2013, 2013.
+Li, Z., Niu, F., Fan, J., Liu, Y., Rosenfeld, D., and Ding, Y.: Long-
+term impacts of aerosols on the vertical development of clouds
+and precipitation, Nat. Geosci., 4, 888–894, 2011.
+Li, Z., Guo, J., Ding, A., Liao, H., Liu, J., Sun, Y., Wang, T., Xue,
+H., Zhang, H., and Zhu, B.: Aerosol and boundary-layer inter-
+actions and impact on air quality, Natl. Sci. Rev., 4, 810–833,
+2017.
+Marbach, T., Riedi, J., Lacan, A., and Schlüssel, P.: The 3MI mis-
+sion: Multi-viewing-channel-polarisation imager of the EUMET-
+SAT polar system: Second generation (EPS-SG) dedicated to
+aerosol and cloud monitoring, in: Proc. SPIE, San Diego, CA.,
+9613, 8 pp., https://doi.org/10.1117/12.2186978, 2015.
+Mehta, M., Singh, R., Singh, A., Singh, N., and Anshumali.: Recent
+global aerosol optical depth variations and trends – a comparative
+study using MODIS and MISR level 3 datasets, Remote Sens.
+Environ., 181, 137–150, 2016.
+Nabat, P., Somot, S., Mallet, M., Chiapello, I., Morcrette, J. J., Sol-
+mon, F., Szopa, S., Dulac, F., Collins, W., Ghan, S., Horowitz, L.
+W., Lamarque, J. F., Lee, Y. H., Naik, V., Nagashima, T., Shin-
+dell, D., and Skeie, R.: A 4-D climatology (1979–2009) of the
+monthly tropospheric aerosol optical depth distribution over the
+Mediterranean region from a comparative evaluation and blend-
+ing of remote sensing and model products, Atmos. Meas. Tech.,
+6, 1287–1314, https://doi.org/10.5194/amt-6-1287-2013, 2013.
+North, P. R. J.: Estimation of aerosol opacity and land surface bidi-
+rectional reﬂectance from atsr-2 dual-angle imagery: operational
+method and validation, J. Geophys. Res.-Atmos., 107, AAC 4-1–
+AAC 4-10, 2002.
+North, P. R. J., Briggs, S. A., Plummer, S. E., and Settle, J. J.: Re-
+trieval of land surface bidirectional reﬂectance and aerosol opac-
+ity from atsr-2 multiangle imagery, IEEE T. Geosci. Remote, 37,
+526–537, 1999.
+Pöschl, U.: Atmospheric aerosols: composition, transformation, cli-
+mate and health effects, Cheminform, 44, 7520–7540, 2005.
+Ramanathan, V., Crutzen, P. J., Kiehl, J. T., and Rosenfeld, D.:
+Aerosols, climate and the hydrological cycle, Science, 294,
+2119–2124, 2001.
+Rosenfeld, D., Lohmann, U., Raga, G. B., O’Dowd, C. D., Kulmala,
+M., Fuzzi, S., Reissell, A., and Andreae, M. O.: Flood or drought:
+How do aerosols affect precipitation?, Science, 321, 1309–1313,
+https://doi.org/10.1126/science.1160606, 2008.
+Sayer,
+A.
+M.,
+Thomas,
+G.
+E.,
+and
+Grainger,
+R.
+G.:
+A
+sea surface reﬂectance model for (A)ATSR, and applica-
+tion to aerosol retrievals, Atmos. Meas. Tech., 3, 813–838,
+https://doi.org/10.5194/amt-3-813-2010, 2010.
+Sayer, A. M., Hsu, N. C., Bettenhausen, C., Ahmad, Z., Hol-
+ben, B. N., Smirnov, A., and Zhang, J.: SeaWiFS ocean
+aerosol retrieval (SOAR): algorithm, validation, and compari-
+son with other data sets, J. Geophys. Res.-Atmos., 117, D03206,
+https://doi.org/10.1029/2011JD016599, 2012.
+Sayer, A. M., Munchak, L. A., Hsu, N. C., Levy, R. C., Betten-
+hausen, C., and Jeong, M. J..: MODIS collection 6 aerosol prod-
+ucts: comparison between Aqua’s e-Deep Blue, Dark Target,
+and “merged” datasets, and usage recommendations, J. Geophys.
+Res. Atmos., 119, 13965–13989, 2014.
+Sayer, A. M., Hsu, N. C., Lee, J., Carletta, N., Chen, S. H.,
+and Smirnov, A.: Evaluation of NASA Deep Blue/SOAR
+aerosol
+retrieval
+algorithms
+applied
+to
+AVHRR
+mea-
+surements,
+J.
+Geophys.
+Res.-Atmos.,
+122,
+9945–9967,
+https://doi.org/10.1002/2017JD026934, 2017.
+Sayer, A., Hsu, N., Lee, J., Kim, W., Dubovik, O., Dutcher, S.,
+Huang, D., Litvinov, P., Lyapustin, A., Tackett, J., and Winker,
+D.: Validation of SOAR VIIRS Over-Water Aerosol Retrievals
+and Context Within the Global Satellite Aerosol Data Record, J.
+Geophys. Res.-Atmos., 123, 13496–13526, 2018a.
+Sayer, A., Hsu, N., Lee, J., Bettenhausen, C., Kim, W., and
+Smirnov, A.: Satellite ocean aerosol retrieval (SOAR) al-
+gorithm extension to S-NPP VIIRS as part of the “Deep
+Atmos. Chem. Phys., 19, 7183–7207, 2019
+www.atmos-chem-phys.net/19/7183/2019/
+
+J. Wei et al.: Comparison of multiple satellite aerosol products
+7207
+Blue” aerosol project, J. Geophys. Res.-Atmos., 123, 380–400,
+https://doi.org/10.1002/2017JD027412, 2018b.
+Sayer,
+A.,
+Hsu,
+N.,
+Lee,
+J.,
+Kim,
+W.,
+and
+Dutcher,
+S.:
+Validation, Stability, and Consistency of MODIS Collec-
+tion 6.1 and VIIRS Version 1 Deep Blue Aerosol Data
+Over
+Land,
+J.
+Geophys.
+Res.-Atmos.,
+124,
+4658–4688,
+https://doi.org/10.1029/2018JD029598, 2019.
+Smirnov, A., Holben, B. N., Eck, T. F., Dubovik, O., and Slutsker,
+I.: Cloud-screening and quality control algorithms for the
+AERONET database, Remote Sens. Environ., 73, 337–349,
+2000.
+Smirnov, A., Holben, B. N., Slutsker, I., Giles, D. M., Mc-
+Clain, C. R., Eck, T. F., Sakerin, S. M., Macke, A., Croot,
+P., Zibordi, G., Quinn, P. K., Sciare, J., Kinne, S., Har-
+vey, M., Smyth, T. J., Piketh, S., Zielinski, T., Proshutinsky,
+A., Goes, J. I., Nelson, N. B., Larouche,P., Radionov, V. F.,
+Goloub, P., Moorthy, K. K., Matarrese, R., Robertson, E. J.,
+and Jourdin, F.: Maritime Aerosol Network as a component
+of Aerosol Robotic Network, J. Geophys. Res., 112, D06204,
+https://doi.org/10.1029/2008JD011257, 2009.
+Sogacheva, L., de Leeuw, G., Rodriguez, E., Kolmonen, P., Geor-
+goulias, A. K., Alexandri, G., Kourtidis, K., Proestakis, E., Mari-
+nou, E., Amiridis, V., Xue, Y., and van der A, R. J.: Spatial
+and seasonal variations of aerosols over China from two decades
+of multi-satellite observations – Part 1: ATSR (1995–2011) and
+MODIS C6.1 (2000–2017), Atmos. Chem. Phys., 18, 11389–
+11407, https://doi.org/10.5194/acp-18-11389-2018, 2018.
+Thomas, G. E., Poulsen, C. A., Sayer, A. M., Marsh, S. H., Dean, S.
+M., Carboni, E., Siddans, R., Grainger, R. G., and Lawrence, B.
+N.: The GRAPE aerosol retrieval algorithm, Atmos. Meas. Tech.,
+2, 679–701, https://doi.org/10.5194/amt-2-679-2009, 2009.
+Veefkind, J. P. and de Leeuw, G.: A new algorithm to determine the
+spectral aerosol optical depth from satellite radiometer measure-
+ments, J. Aerosol Sci., 29, 1237–1248, 1998.
+Veefkind, J. P., de Leeuw, G., and Durkee, P. A.: Retrieval of aerosol
+optical depth over land using two-angle view satellite radiometry
+during TARFOX, Geophys. Res. Lett., 25, 3135–3138, 1998.
+Weatherhead, C., Reinsel, C., Tiao, C., Meng, L., Choi, S., Cheang,
+K., Keller, T., DeLuisi, J., Wuebbles, D., Kerr, J., Miller, A., Olt-
+mans, S., and Frederick, J.: Factors affecting the detection of
+trends: statistical considerations and applications to environmen-
+tal data, J. Geophys. Res.-Atmos., 103, 1241–1255, 1998.
+Wei, J. and Sun, L.: Comparison and evaluation of different MODIS
+aerosol optical depth products over Beijing-Tianjin-Hebei region
+in China, IEEE J. Sel. Top. Appl., 10, 835–844, 2017.
+Wei, J., Huang, B., Sun, L., Zhang, Z., Wang, L., and Bilal, M.:
+A simple and universal aerosol retrieval algorithm for Landsat
+series images over complex surfaces, J. Geophys. Res.-Atmos.,
+122, 13338–13355, 2017.
+Wei, J., Sun, L., Peng, Y., Wang, L., Zhang, Z., Bilal, M., and Ma,
+Y.: An improved high-spatial-resolution aerosol retrieval algo-
+rithm for MODIS images over land, J. Geophys. Res.-Atmos.,
+123, 12291–12307, 2018a.
+Wei, J., Sun, L., Huang, B., Bilal, M., Zhang, Z., and Wang, L. Ver-
+iﬁcation, improvement and application of aerosol optical depths
+in China. Part 1: Inter-comparison of NPP-VIIRS and Aqua-
+MODIS, Atmos. Environ., 175, 221–233, 2018b.
+Wei, J., Li, Z., Peng, Y., and Sun, L.: MODIS Collection 6.1 aerosol
+optical depth products over land and ocean: validation and com-
+parison, Atmos. Environ., 201, 428–440, 2019a.
+Wei, J., Li, Z., Sun, L., Peng, Y., and Wang, L.: Improved merge
+schemes for MODIS Collection 6.1 Dark Target and Deep Blue
+combined aerosol products, Atmos. Environ., 202, 315–327,
+2019b.
+Wei, J., Peng, Y., Guo, J., and Sun, L.: Performance of MODIS Col-
+lection 6.1 Level 3 aerosol products in spatial-temporal variations
+over land, Atmos. Environ., 206, 30–44, 2019c.
+Wei, J., Li, Z., Peng, Y., Sun, L., and Yan, X.: A region-
+ally robust high-spatial-resolution aerosol retrieval algorithm
+for MODIS images over Eastern China, IEEE T. Geosci. Re-
+mote, https://doi.org/10.1109/TGRS.2019.2892813, online ﬁrst,
+2019d.
+Wilks, D. S.: On “ﬁeld signiﬁcance” and the false discovery rate, J.
+Appl. Meteorol. Clim., 45, 1181–1189, 2006.
+Witek, M. L., Garay, M. J., Diner, D. J., Bull, M. A., and Seidel,
+F. C.: New approach to the retrieval of AOD and its uncertainty
+from MISR observations over dark water, Atmos. Meas. Tech.,
+11, 429–439, https://doi.org/10.5194/amt-11-429-2018, 2018.
+Zdaniuk, B.: Ordinary Least-Squares (OLS) Model, Springer
+Netherlands, 2014.
+Zhao, X.-P., Chan, T., and Pui, K.: A global survey of the effect
+of cloud contamination on the aerosol optical thickness and its
+long-term trend derived from operational AVHRR satellite ob-
+servations, J. Geophys. Res.-Atmos., 118, 2849–2857, 2013.
+www.atmos-chem-phys.net/19/7183/2019/
+Atmos. Chem. Phys., 19, 7183–7207, 2019

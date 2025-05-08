@@ -1,0 +1,657 @@
+Biochem. J. (2007) 406, 13–18 (Printed in Great Britain)
+doi:10.1042/BJ20070670
+13
+ACCELERATED PUBLICATION
+MptpB, a virulence factor from Mycobacterium tuberculosis, exhibits
+triple-speciﬁcity phosphatase activity
+Nicola BERESFORD*, Sumayya PATEL*, Jane ARMSTRONG†, Bal´azs SZ¨OOR*‡, Anthony P. FORDHAM-SKELTON†
+and Lydia TABERNERO*1
+*Faculty of Life Sciences, Michael Smith Building, University of Manchester, Manchester M13 9PT, U.K., †STFC Daresbury Laboratory, Warrington WA4 4AD, U.K.,
+and ‡Institute of Immunology and Infection Research, University of Edinburgh, Edinburgh EH9 3JT, U.K.
+Bacterial pathogens have developed sophisticated mechanisms
+of evading the immune system to survive in infected host cells.
+Central to the pathogenesis of Mycobacterium tuberculosis is
+the arrest of phagosome maturation, partly through interference
+with PtdIns signalling. The protein phosphatase MptpB is an
+essential secreted virulence factor in M. tuberculosis. A combin-
+ation of bioinformatics analysis, enzyme kinetics and substrate-
+speciﬁcity characterization revealed that MptpB exhibits both
+dual-speciﬁcity protein phosphatase activity and, importantly,
+phosphoinositide phosphatase activity. Mutagenesis of conserved
+residues in the active site signature indicates a cysteine-
+based mechanism of dephosphorylation and identiﬁes two new
+catalytic residues, Asp165, essential in catalysis, and Lys164,
+apparently involved in substrate speciﬁcity. Sequence similar-
+ities with mammalian lipid phosphatases and a preference for
+phosphoinositide substrates suggests a potential novel role of
+MptpB in PtdIns metabolism in the host and reveals new
+perspectives for the role of this phosphatase in mycobacteria
+pathogenicity.
+Key words: bacterial phosphatase, dual-speciﬁcity, lipid phos-
+phatase, protein phosphatase, signalling.
+INTRODUCTION
+Mycobacterium tuberculosis is the causative agent of tuberculosis,
+a decimating disease affecting one third of the human population
+and causing around two million deaths every year (according to
+the World Health Organization, www.who.int). This intracellular
+pathogen survives and replicates primarily in host macrophages
+despite the antimicrobial functions of the macrophage. The pri-
+mary defence against intracellular microbial pathogens is phag-
+osomal
+maturation
+into
+phagolysosomes,
+leading
+to
+the acidiﬁcation of lysosome contents and destruction of bacterial
+particles. Many pathogens have evolved sophisticated ways of
+evading this innate response to extend their survival in host cells.
+M. tuberculosis is a landmark example of such a strategy [1], since
+it can persist in phagocytes preventing the normal maturation
+to phagolysosomes and survive inside the host lungs in a latent
+asymptomatic state. In recent years, a number of studies have been
+directed at understanding the molecular mechanisms that allow
+M. tuberculosis survival in infected macrophages (reviewed in
+[2–4]).
+One
+proposed
+mechanism
+involves
+the
+host
+phosphoinositide, PtdIns3P, responsible for recruitment of
+the Rab5 effectors hVPS34 and EEA1 to endocytic organelles,
+an essential step in phagosome maturation [5]. Manipulation of
+phosphoinositide metabolism is emerging now as a common
+theme in bacterial pathogenesis [6].
+Other mechanisms correlate infection of M. tuberculosis with
+disruption of several normal host signalling pathways involving
+MAPKs (mitogen-activated protein kinases), IFN-γ (interferon-
+γ ), calcium signalling and apoptosis (reviewed in [4]). As
+phosphorylation and dephosphorylation of host proteins regulate
+these intracellular processes, it is not surprising that protein
+kinases and phosphatases play a role in pathogen infection and
+survival [3,4]. In fact, phosphatases are major virulence factors
+in other pathogenic bacteria such as Yersinia pseudotuberculosis,
+and Salmonella typhimurium [7,8]. Likewise, the M. tuberculosis
+secreted protein phosphatases MptpA and MptpB have been
+reported to be important for persistence of mycobacterial infection
+[9–10]. Disruption of the mptpB gene severely impairs the
+ability of the mutant strain to survive in both IFN-γ -activated
+macrophages and in guinea pigs [10]. The function of MptpB
+remains unclear, although a role in dephosphorylation of protein
+targets in the IFN-γ pathway has been suggested [10], the biologi-
+cal substrates of MptpB have not yet been elucidated. Therefore
+a true understanding of the enzymatic and substrate speciﬁcity of
+this phosphatase is essential to dissect the actual biological role
+of MptpB.
+Bioinformatics analysis of MptpB reveals a large family
+of related proteins in bacterial and fungal species, including
+many pathogens. In-depth sequence analysis highlights common
+features to DSPs (dual-speciﬁcity protein phosphatases) and,
+surprisingly, a singular active site signature motif, reminiscent
+of eukaryotic lipid phosphatases. These observations prompted
+us to investigate further the biochemical and kinetic properties of
+this enzyme to deﬁne its substrate speciﬁcity. In the present study
+we provide experimental evidence that MptpB dephosphorylates
+phosphotyrosine and phosphoserine/threonine substrates, and
+importantly, phosphoinositides, thus exhibiting TSP (triple-
+speciﬁcity phosphatase) activity. The report of a new completely
+Abbreviations used: DSP, dual-speciﬁcity protein phosphatase; EGFR, epidermal growth factor receptor; IFN-γ, interferon-γ; IPTG, isopropyl β-D-
+thiogalactoside; LB, Luria–Bertani; MAPK, mitogen-activated protein kinase; MTM, myotubularin; MTMR2, MTM-related protein 2; pNPP, p-nitrophenol
+phosphate; PTEN, phosphatase and tensin homologue deleted on chromosome 10; PTP, protein tyrosine phosphatase; TPTE, transmembrane phosphatase
+with tensin homology; TSP, triple-speciﬁcity protein phosphatase.
+1 To whom correspondence should be addressed (email Lydia.Tabernero@manchester.ac.uk).
+c⃝The Authors Journal compilation c⃝2007 Biochemical Society
+
+14
+N. Beresford and others
+unexpected catalytic speciﬁcity for MptpB should be an aid in
+deﬁning novel ways of addressing its mechanism of action
+in vivo, its potential role in host phosphoinositide metabolism,
+and to identify host targets for MptpB. In addition, this catalytic
+versatility provides new insights for future rational design of
+speciﬁc inhibitors of MptpB.
+EXPERIMENTAL
+Bioinformatics analysis
+Multiple sequence alignments were performed using ClustalX
+[11], after initial identiﬁcation of MptpB-related sequences using
+PSI-BLAST searches of GenBank® [12]. Analysis of the active
+site motif was performed using a ScanProsite search in SwissProt
+and TrEMBL (http://www.expasy.org/tools/scanprosite/).
+Cloning and mutagenesis of MptpB
+The open reading frame of Rv0153c, encoding MptpB, was
+ampliﬁed from M. tuberculosis H37Rv DNA. The oligonucleo-
+tide primers, forward (5′-CATATGGCTGTCCGTGAACTGC-
+CGGGCGCG-3′) and reverse (5′-CTCGAGTCATCCGAGCAG-
+CACCCCGCGCATC-3′) contained NdeI and XhoI restriction
+sites and the resulting MptpB-coding sequence was cloned
+into pET28a (Novagen) to generate an N-terminal His6-tagged
+expression construct. Site-directed mutagenesis of the following
+residues D82A, C160S, K164A, D165N and R166A were carried
+out using the QuikChange® Kit (Stratagene).
+Overexpression and puriﬁcation of recombinant proteins
+Each construct (wild-type and mutants) was transformed into
+Escherichia coli strain BL21 (DE3) and grown in LB (Luria–
+Bertani) broth at 37 ◦C to mid-log phase. Expression was induced
+at 18 ◦C with 0.5 mM IPTG (isopropyl β-D-thiogalactoside) and
+the cells were harvested by centrifugation (4000 g for 15 min
+at 4 ◦C) 16 h later. The expressed His6–MptpB (wild-type and
+mutants) was puriﬁed by nickel-afﬁnity chromatography. The
+supernatant from the bacterial lysate was loaded on to a 5 ml
+HiTrap column (Amersham Bioscience) in binding buffer (50 mM
+Hepes and 500 mM NaCl, pH 7) and the protein was recovered
+following on-column cleavage of the His6-tag with thrombin
+(Sigma) by washing with binding buffer. The recovered fractions
+were further puriﬁed on a MonoQ column using 20 mM Tris/HCl
+(pH 8) and eluted with 200 mM NaCl in the same buffer. The
+phosphatase from Trypanosoma brucei TbPTP1 has been recently
+characterized by our group as a tyrosine-speciﬁc phosphatase [13].
+In the present study we used TbPTP1 as a control. TbPTP1 was
+ampliﬁed from T. brucei DNA and cloned into pET28a (Novagen).
+Recombinant TbPTP1 was expressed in E. coli strain BL21 DE3
+CodonPlusTM RIPL, grown in LB broth at 37 ◦C and induced at
+30 ◦C with 0.4 mM IPTG. Puriﬁcation of His6-tagged TbPTP1
+was performed by nickel-afﬁnity chromatography using the same
+method as for MptpB.
+Phosphatase activity assays
+The Malachite Green assay (Sigma) was used to determine the
+amount of free phosphate during the dephosphorylation assays
+with a range of substrates: phosphotyrosine peptides from
+EGFR (epidermal growth factor receptor; DADEpYLIPQQG)
+and
+insulin
+receptor
+(TRDIpYETDYYRK),
+phosphoserine
+peptide (RRApSVA), phosphothreonine peptide (KRpTIRR;
+Alta Bioscience, University of Birmingham), phosphoserine,
+phosphothreonine and phosphotyrosine (Sigma), IMP (inosine
+monophosphate),
+AMP,
+pNPP
+(p-nitrophenol
+phosphate;
+Sigma), diC8-PtdIns3P, diC8-PtdIns(3,4)P2, diC8-PtdIns(3,5)P2,
+diC8-PtdIns4P, diC8-PtdIns(4,5)P2, diC8PtdIns5P and diC8-
+PtdIns(3,4,5)P3 (all from Echelon Bioscience). Each reaction was
+prepared in triplicate in a 96-well microplate, containing 50 µl
+of the reaction mixture with 5 µg of enzyme (MptpB wild-type,
+mutants and TbPTP1), 0.05–2 mM substrate (3–500 µM range
+for phosphoinositides) and buffer (50 mM Tris/HCl, 50 mM Bis-
+Tris and 100 mM sodium acetate, pH 6). The reaction mixtures
+were incubated for 15 min at 37 ◦C prior to the addition of
+50 µl of Malachite Green reagent (Sigma) and further incubated
+for 10 min at room temperature (20 ◦C). The absorbance was
+subsequently read at 620 nm and the mean values calculated.
+Control reactions containing no enzyme were included to measure
+the background level of phosphate. A phosphate standard curve
+was produced using known amounts of phosphate (25–3000 pmol
+of Sigma phosphate standard solution). Experimental points were
+interpolated in the standard curve to calculate the amount of
+phosphate released.
+Kinetic analysis
+The kinetic parameters Vmax and Km for each substrate were deter-
+mined using non-linear regression ﬁt of the initial velocity
+versus substrate concentration curve using Hyper32 (developed by
+Dr John Easterby, Department of Biochemistry, University
+of Liverpool, Liverpool, U.K.). The kcat was determined by
+dividing the Vmax by the molar enzyme concentration and the
+means +−S.E.M. were calculated.
+RESULTS AND DISCUSSION
+MptpB-related bacterial and fungal phosphatases
+A PSI-BLAST search with the full-length MptpB sequence
+identiﬁed orthologues in other mycobacterium species (My-
+cobacterium bovis, Mycobacterium ﬂavescens, Mycobacterium
+vanbaalenii and Mycobacterium sp.MCS) and returned more
+than 150 related sequences in bacteria and fungi, most of which
+are currently annotated as hypothetical proteins. The multiple
+sequence alignment highlights the existence of a characteristic
+active site signature motif CX5R, present in the PTP (protein
+tyrosine phosphatase) superfamily, which forms the P-loop
+(phosphate-binding loop) (Figure 1A). The presence of the CX5R
+motif suggests a classiﬁcation of these sequences as predicted
+phosphatases. However, the analysis failed to identify motifs
+conserved only in the tyrosine-speciﬁc phosphatases, such as the
+WPD motif that contains the catalytic aspartate residue or the Q-
+loop involved in catalysis [14]. Instead, the active site region of
+MptpB and related proteins resembles the extended signature mo-
+tif described for a subfamily of PTPs, the DSPs that can efﬁciently
+dephosphorylate phosphotyrosine and phosphoserine/threonine
+substrates [15]. The extended signature comprises the P-loop
+motif and ﬂanking hydrophobic residues (Figure 1A). Consistent
+with this observation, the overall sequence similarity of MptpB
+with tyrosine-speciﬁc PTPs, such as human PTP1B is only 6%,
+whereas similarity with known DSPs is 24% with VHR (vaccinia
+virus VH1-related dual-speciﬁc protein phosphatase), 25.8%
+with MKP3 (MAPK phosphatase 3) and 33.5% with IphP (dual-
+speciﬁc phosphatase from Nostoc commune). Therefore although
+MptpB is designated as a tyrosine phosphatase in the genome
+databases, sequence analysis suggests otherwise.
+Furthermore, all bacterial and fungal MptpB-related sequences
+contain two strictly conserved residues in the P-loop: Lys164 and
+Asp165 (MptpB numbering). Such a feature is unusual in both
+c⃝The Authors Journal compilation c⃝2007 Biochemical Society
+
+MptpB a triple-speciﬁcity phosphatase
+15
+Figure 1
+MptpB exhibits DSP and phosphoinositide phosphatase activity and displays sequence and structural similarities with eukaryotic lipid phosphatases
+(A) Alignment of a subset of MptpB-related sequences. Alignments prepared with ClustalX. M. tuberculosis (MYTU0, MptpB), M. bovis (MYBO0), M. ﬂavescens (MYCFV), M. vanbaalenii (MYCVN),
+M. species (MYCSS), Photorhabdus luminescens (PHLU0), Erwinia carotovora (ERWCT), Bdellovibrio bacteriovorus (BDEBA), Clostridium perfringensgi (CLOPE), Lactobacillus plantarum (LAPL0),
+Lactococcus lactis (LALA0), Bradyrhizobium japonicum (BRJA0), Listeria monocytogenes (LISMO), Bacteroides fragilis (BACFN). (B) Alignment of P-loop motifs in lipid phosphatases. Indicated are
+the conserved ‘AGK’ motif found in PTEN and the ‘DRT’ from MTMs (bold), where K and D (shown in italics) are catalytic residues. MptpB has a unique combination of both signatures, with a conserved
+‘AGKDRT’ motif (underlined). The DSP IphP from cyanobacteria [27] also contains the conserved ‘AGKDRT’ motif. (C) Speciﬁc activity (SA) for MptpB wild-type and mutants towards phosphorylated
+substrates. Each assay was performed in triplicate. Values are means +−S.E.M. The activity of the tyrosine-speciﬁc phosphatase from T. brucei (TbPTP1) is shown as a control. (D) Enzyme
+activity of MptpB wild-type and mutants towards phosphoinositide substrates. (E) Stick representation of MptpB (purple) [25] superimposed into the active site of MTMR2 (pink) with bound
+PtdIns(3,5)P2 [22]. Catalytic residues and Asp82 are labelled and interactions are displayed as dashed lines. Generated with PyMol (DeLano Scientiﬁc LLC). PI, PtdIns; P-Ser, phosphoserine; P-Thr,
+phosphothreonine; P-Tyr, phosphotyrosine; WT, wild-type.
+classical tyrosine-speciﬁc PTPs and DSPs. A ScanProsite search
+using the regular expression pattern HCX2GKDR[T/A] found in
+the active site signature revealed eukaryotic orthologues of the
+lipid phosphatases PTEN (phosphatase and tensin homologue
+deleted on chromosome 10), TPTE (transmembrane phosphatase
+with tensin homology), TPTE2 [16], MTMs (myotubularins),
+and FYVE-DSP1/2 [17–18]. The alignment of the P-loop motif
+from these lipid phosphatases underlines the similarities with
+MptpB in this region (Figure 1B). The conserved lysine residue
+is also found in PTEN and PTEN-related phosphatases and it is
+important in substrate binding [19,20]. The conserved aspartate
+residue, found in MTMs and FYVE-DSP1/2 acts as the general
+acid in catalysis [21,22]. The combination of PTEN and MTM
+features in the active site suggests that MptpB may also share
+similar enzymatic properties. MTMs, FYVE-DSP1/2 and PTEN
+display both DSP and phosphoinositide phosphatase activity
+[17–19,23]. To test this we carried out a full investigation of
+the kinetic properties and substrate speciﬁcity of MptpB.
+c⃝The Authors Journal compilation c⃝2007 Biochemical Society
+
+16
+N. Beresford and others
+Table 1
+Kinetic parameters of MptpB towards different phosphorylated
+substrates (all values are means +−S.E.M.)
+P-Ser, phosphoserine; P-Thr, phosphotheonine; P-Tyr, phosphotyrosine.
+Substrate
+K m (mM)
+k cat (s−1)
+k cat/K m (M−1 · s−1) × 105
+P-Tyr
+0.291 +−0.01
+60.00 +−1.26
+2.06 +−0.05
+P-Ser
+0.44 +−0.08
+18.32 +−0.93
+0.41 +−0.04
+P-Thr
+0.253 +−0.01
+12.50 +−0.47
+0.50 +−0.04
+P-Tyr insulin
+0.217 +−0.04
+159.57 +−9.22
+7.36 +−0.74
+P-Tyr EGFR
+0.327 +−0.03
+158.31 +−4.27
+4.84 +−0.24
+P-Ser peptide
+0.078 +−0.01
+18.08 +−0.11
+2.32 +−0.30
+P-Thr peptide
+0.076 +−0.01
+9.12 +−0.11
+1.20 +−0.34
+5′ AMP
+1.749 +−0.07
+60.97 +−1.55
+0.35 +−0.01
+5′ IMP
+1.196 +−0.05
+88.40 +−2.38
+0.74 +−0.02
+pNPP
+0.170 +−0.01
+134.70 +−4.88
+7.91 +−0.10
+MptpB exhibits DSP activity
+Recombinant MptpB was used for kinetic analyses towards
+a panel of phosphosubstrates (see the Experimental section).
+The catalytic activity of MptpB towards pNPP and the EGFR
+peptide was optimal at pH 6, both in the absence and presence
+of dithiothreitol (results not shown). MptpB dephosphorylates
+phosphotyrosine and phosphoserine/threonine substrates, with
+higher catalytic efﬁciency towards phosphopeptides as indicated
+by higher kcat/Km values (Table 1). A higher catalytic rate,
+kcat, is observed for phosphotyrosine peptide substrates, whereas
+lower Km values are found for phosphoserine/threonine peptides,
+indicating enhanced binding afﬁnity (Table 1). Dephosphorylation
+of phosphotyrosine peptides is approx. 3.2 times more efﬁcient
+than dephosphorylation of phosphoserine/threonine peptides.
+This is in good agreement with the ratio observed for other
+DSPs [24], and in contrast with the rates of dephosphorylation
+for tyrosine-speciﬁc PTPs commonly up to 105 times higher
+for phosphotyrosine substrates than for phosphoserine/threonine
+substrates [24]. Overall, the catalytic proﬁle obtained from our
+kinetic analysis shows that MptpB has DSP activity with a
+preference for phosphotyrosine substrates.
+MptpB exhibits lipid phosphatase activity
+The similarity between the active site signature from MptpB with
+those of MTMs and PTEN suggested that MptpB might also dis-
+play lipid phosphatase activity. To test this, the activity of the en-
+zyme was assayed against different phosphoinositides (Table 2).
+MptpB
+readily
+dephosphorylated
+PtdIns3P,
+PtdIns(3,5)P2,
+PtdIns4P and PtdIns5P, with higher efﬁciency for PtdIns3P
+and PtdIns(3,5)P2, but showed comparable Km values for the
+four phosphoinositide substrates, indicating similar binding afﬁn-
+ity. Phosphoinositide substrates exhibited lower Km values than
+the phospho-amino acid or phosphopeptide substrates tested
+(Tables 1 and 2), thus indicating that MptpB has higher afﬁnity
+for lipid substrates. The kcat/Km values for phosphoinositide
+dephosphorylation are also higher than for peptidic substrates.
+Interestingly, MptpB appears to have a broad speciﬁcity as it
+dephosphorylates single phosphate substitutions at the D3, D4
+and D5 positions. However, the enzyme exhibited no activity
+against PtdIns(3,4,5)P3, PtdIns(3,4)P2 or PtdIns(4,5)P2, showing
+an apparent selectivity against phosphates at the D4 position of
+the inositol head when in combination with another phosphate
+group at D3 or D5. This broad phosphoinositide activity is in
+contrast with mammalian lipid phosphatases that exhibit a much
+more restricted speciﬁcity [20,23].
+Mutagenesis of the active site signature residues
+Next, we wanted to explore the potential implication of conserved
+P-loop residues (Cys160, Lys164, Asp165 and Arg166) in catalysis or
+substrate binding. As expected, the C160S and R166A mutated
+enzymes exhibit less than 1% of the wild-type activity for any of
+the substrates tested, including pNPP and phosphoinositides. This
+conﬁrms that these residues are essential for enzymatic activity,
+presumably in a cysteine-based mechanism of catalysis similar to
+PTPs and DSPs [15], where the cysteine residue is the nucleophile
+and the arginine residue contributes to substrate binding.
+Enzymatic assays with the D165N mutant showed that it
+displays less than 0.1% of wild-type activity for pNPP or peptide
+substrates (Figure 1C). Furthermore, the D165N mutant showed
+<3% activity towards phosphoinositides (Figure 1D). On the
+basis of this new experimental evidence we propose Asp165 as a
+putative catalytic residue for MptpB. Supporting this, the ana-
+logous conserved aspartate residue in MTMs and FYVE-DSP1/2
+(Figure 1B) was found to be essential for catalysis in MTMR2
+[21]. Interestingly, mutation of Asp82 to an alanine residue showed
+similar activity to the wild-type enzyme with all substrates tested
+(Figures 1C and 1D). This residue was proposed previously as
+the general acid in catalysis [25], although experimental evidence
+has not been reported to date. We have established that Asp82 is
+not the general acid in catalysis.
+The presence of Lys164 in the P-loop is intriguing. Typically,
+only one basic residue, the conserved arginine residue, is
+necessary in the active site to direct binding of the negatively
+charged phosphosubstrates. Additional basic residues (e.g. lysine
+residues) are uncommon, and only found in the lipid phosphatases
+PTEN and TPTE (Figure 1B), which bind substrates with more
+than one negatively charged phosphate group. To investigate the
+Table 2
+Kinetic parameters for MptpB wild-type and K164A dephosphorylation of phosphoinositides (all values are means +−S.E.M.)
+n.a., no detectable activity.
+Wild-type
+K164A
+Substrate
+K m (mM)
+k cat (s−1)
+k cat/K m (M−1 · s−1) × 105
+K m (mM)
+k cat (s−1)
+k cat/K m (M−1 · s−1) × 105
+PtdIns3P
+0.018 +−0.002
+38.5 +−0.93
+21.48 +−1.27
+0.0055 +−0.003
+14.6 +−0.40
+2.64 +−1.13
+PtdIns(3,5)P2
+0.028 +−0.001
+75.4 +−1.00
+27.23 +−0.65
+0.022 +−0.003
+12.7 +−0.62
+5.79 +−0.56
+PtdIns(3,4)P2
+n.a.
+n.a.
+n.a.
+n.a.
+n.a.
+n.a.
+PtdIns(3,4,5)P3
+n.a.
+n.a.
+n.a.
+n.a.
+n.a.
+n.a.
+PtdIns4P
+0.074 +−0.004
+100.3 +−2.74
+13.50 +−0.48
+0.103 +−0.013
+82.6 +−6.07
+8.0 +−0.56
+PtdIns(4,5)P2
+n.a.
+n.a.
+n.a.
+n.a.
+n.a.
+n.a.
+PtdIns5P
+0.064 +−0.004
+80.5 +−2.13
+12.66 +−0.48
+0.086 +−0.016
+35.9 +−2.81
+4.16 +−0.70
+pNPP
+0.170 +−0.010
+134.7 +−4.88
+7.91 +−0.10
+0.087 +−0.009
+163.9 +−4.30
+18.8 +−0.87
+c⃝The Authors Journal compilation c⃝2007 Biochemical Society
+
+MptpB a triple-speciﬁcity phosphatase
+17
+functional role of Lys164, we mutated it to an alanine residue
+and tested its activity towards substrates (Table 2, Figures 1C
+and 1D). The activity of K164A is severely impaired towards
+phosphotyrosine peptides, with less than 10% of the wild-type
+activity (Table 2, Figure 1C), but remains unaltered towards pNPP
+and phosphoserine/threonine peptides. Dephosphorylation of
+lipids is also reduced in a substrate-dependent manner. The largest
+reduction is observed for PtdIns(3,5)P2, with a 70% decrease in
+activity with respect to wild-type, in contrast, there is little effect
+on dephosphorylation of PtdIns4P (Table 2, Figure 1D). Kinetic
+analysis with K164A showed that the kcat/Km values decreased
+by more than one order of magnitude for all phosphoinositides
+with respect to the wild-type enzyme, but Km values remained
+similar. On the other hand, a signiﬁcant reduction in the catalytic
+rate was observed for PtdIns3P and PtdIns(3,5)P2 (Table 2).
+These results indicate a potential role for Lys164 in catalysis,
+albeit in a substrate-dependent manner. The analogous lysine
+residue in the lipid phosphatase PTEN, Lys128, is important in lipid
+binding [20]. Docking of PtdIns(3,5)P2 to the active site of MptpB
+suggests that the wide active site could easily accommodate
+PtdIns(3,5)P2 (Figure 1E), and that binding might be favoured
+through interactions of the D5 phosphate with a basic residue such
+as Lys164. In contrast, PtdIns(3,4,5)P3 would not bind in the active
+site because the D4 phosphate would clash with the catalytic
+Asp165 and Lys164 side chains. New insights regarding the role
+of this residue should be revealed when the three-dimensional
+structure of MptpB in complex with a lipid substrate is solved.
+The enzymatic activity towards PtdIns3P, PtdIns4P and
+PtdIns5P indicates that all three monophosphate substrates bind
+in the active site, although different binding modes or alter-
+native binding orientations of the phosphoinositol head must
+occur. The lack of activity for PtdIns(3,4)P2, PtdIns(4,5)P2 and
+PtdIns(3,4,5)P3 could be rationalized by the fact that contiguous
+biphosphate substitutions (3,4; 4,5 or 3,4,5) would probably
+result in stearic clashes with Asp165, whereas non-contiguous sub-
+stitutions (3,5), may be favoured by interactions with Lys164
+(Figure 1E).
+Conclusions
+In the present study we describe the new ﬁndings on the TSP
+activity of MptpB, a virulence factor from M. tuberculosis.
+Our kinetic characterization provides experimental evidence that
+MptpB exhibits DSP activity and unexpected phosphoinositide
+phosphatase activity for a broad range of lipids. This is the
+ﬁrst report of phosphoinositide phosphatase activity for MptpB.
+Previously, a partial characterization of MptpB detected tyrosine
+phosphatase activity [26], although lipid substrates were not tested
+in that study. The broad speciﬁcity towards phosphoinositides
+observed for MptpB could be important for in vivo targeting of a
+wide range of host phosphoinositides or as part of a more sophis-
+ticated pleiotropic effect coupling phosphoinositide turnover with
+protein-mediated cell-signalling events. The different enzymatic
+activities observed in vitro may not reﬂect true relative activities in
+vivo, where other factors may modulate the physiological function
+of MptpB. Hence, the biologically relevant substrates of MptpB
+in vivo will still need to be investigated and both protein and
+lipid substrates considered. The molecular factors responsible
+for controlling phophoinositide levels in mycobacterium-infected
+macrophages have not yet been fully deﬁned, and from the evi-
+dence presented in the present study MptpB may play an important
+role. Future investigations will be directed at studying the potential
+targeting of MptpB to membrane phosphoinositides and to deﬁne
+the molecular basis for phosphoinositide binding. The newly
+identiﬁed enzymatic activity of MptpB opens new horizons
+to test its potential role in host phosphoinositide metabolism
+and phagosome maturation arrest, and provides exciting new
+directions for pharmacological intervention.
+WethankDr.J.Bella(FacultyofLifeSciences,UniversityofManchester,Manchester,U.K.),
+Professor V. Rodwell (Department of Biochemistry, Purdue University, West Lafayette, IN,
+U.S.A), Professor H. Charbonneau (Department of Biochemistry, Purdue University, West
+Lafayette, IN, U.S.A) and Dr J. Friesen (Illinois State University, Normal, IL, U.S.A.) for
+helpful suggestions on the manuscript, and the MRC (Medical Research Council) and
+STFC (Science and Technology Facilities Council) for a CASE award to N.B.
+REFERENCES
+1
+Armstrong, J. A. and Hart, P. D. (1971) Response of cultured macrophages to
+Mycobacterium tuberculosis, with observations on fusion of lysosomes with
+phagosomes. J. Exp. Med. 134, 713–740
+2
+Kusner, D. J. (2005) Mechanisms of mycobacterial persistence in tuberculosis.
+Clin. Immunol. 114, 239–247
+3
+Hestvik, A. L., Hmama, Z. and Av-Gay, Y. (2005) Mycobacterial manipulation of the host
+cell. FEMS Microbiol. Rev. 29, 1041–1050
+4
+Koul, A., Herget, T., Klebl, B. and Ullrich, A. (2004) Interplay between mycobacteria and
+host signalling pathways. Nat. Rev. Microbiol. 2, 189–202
+5
+Fratti, R. A., Backer, J. M., Gruenberg, J., Corvera, S. and Deretic, V. (2001) Role of
+phosphatidylinositol 3-kinase and Rab5 effectors in phagosomal biogenesis and
+mycobacterial phagosome maturation arrest. J. Cell Biol. 154, 631–644
+6
+Hilbi, H. (2006) Modulation of phosphoinositide metabolism by pathogenic bacteria.
+Cell. Microbiol. 8, 1697–1706
+7
+Guan, K. and Dixon, J. E. (1990) Protein tyrosine phosphatase activity of an essential
+virulence determinant in Yersinia. Science 249, 553–539
+8
+Kaniga, K., Uralil, J., Bliska, J. B. and Galan, J. E. (1996) A secreted tyrosine phosphatase
+with modular effector domains in bacterial pathogen Salmonella typhimurium.
+Mol. Microbiol. 21, 633–641
+9
+Castandet, J., Prost, J. F., Peyron, P., Astarie-Dequeker, C., Anes, E., Cozzone, A. J.,
+Grifﬁths, G. and Maridonneau-Parini, I. (2005) Tyrosine phosphatase MptpA of
+Mycobacterium tuberculosis inhibits phagocytosis and increases actin polymerization in
+macrophages. Res. Microbiol. 156, 1005–1013
+10
+Singh, R., Rao, V., Shakila, H., Gupta, R., Khera, A., Dhar, N., Singh, A., Koul, A.,
+Singh, Y., Naseema, M. et al. (2003) Disruption of mptpB impairs the ability of
+Mycobacterium tuberculosis to survive in guinea pigs. Mol. Microbiol. 50, 751–762
+11
+Thompson, J. D., Gibson, T. J., Plewniak, F., Jeanmougin, F. and Higgins, D. G. (1997)
+The ClustalX windows interface: ﬂexible strategies for multiple sequence alignment aided
+by quality analysis tools. Nucleic Acids Res. 24, 4876–4882
+12
+Altschul, S. F., Madden, T. L., Sch¨affer, A. A., Zhang, J., Zhang, Z., Miller, W. and Lipman,
+D. J. (1997) Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs. Nucleic Acids Res. 25, 3389–3402
+13
+Szoor, B., Wilson, J., McElhinney, H., Tabernero, L. and Matthews, K. R. (2006) Protein
+tyrosine phosphatase TbPTP1: a molecular switch controlling life cycle differentiation in
+trypanosomes. J. Cell Biol. 175, 293–303
+14
+Andersen, J. N., Mortensen, O. H., Peters, G. H., Drake, P. G., Iversen, L. F., Olsen, O. H.,
+Jansen, P. G., Andersen, H. S., Tonks, N. K. and Moller, N. P. (2001) Structural and
+evolutionary relationships among protein tyrosine phosphatase domains. Mol. Cell. Biol.
+21, 7117–7136
+15
+Jackson, M. D. and Denu, J. M. (2001) Molecular reactions of protein phosphatases-
+insights from structure and chemistry. Chem. Rev. 101, 2313–2340
+16
+Chen, H., Rossier, C., Morris, M. A., Scott, H. S., Gos, A., Bairoch, A. and Antonarakis,
+S. E. (1999) A testis-speciﬁc gene, TPTE, encodes a putative transmembrane tyrosine
+phosphatase and maps to the pericentromeric region of human chromosomes 21 and 13,
+and to chromosomes 15, 22, and Y. Hum. Genet. 105, 399–409
+17
+Zhao, R., Qi, Y. and Zhao, Z. J. (2000) FYVE-DSP1, a dual-speciﬁcity protein
+phosphatase containing an FYVE domain. Biochem. Biophys. Res. Commun. 270,
+222–229
+18
+Zhao, R., Qi, Y., Chen, J. and Zhao, J. Z. (2001) FYVE-DSP2, a FYVE domain-containing
+dual speciﬁcity protein phosphatase that dephosphorylates phosphotidylinositol
+3-phosphate. Exp. Cell Res. 265, 329–338
+19
+Maehama, T. and Dixon, J. E. (1999) PTEN: a tumour suppressor that functions as a
+phospholipid phosphatase. Trends Cell Biol. 9, 125–128
+20
+Lee, J. O., Yang, H., Georgescu, M. M., Di Cristofano, A., Maehama, T., Shi, Y., Dixon,
+J. E., Pandolﬁ, P. and Pavletich, N. P. (1999) Crystal structure of the PTEN tumor
+suppressor: implications for its phosphoinositide phosphatase activity and membrane
+association. Cell 99, 323–334
+c⃝The Authors Journal compilation c⃝2007 Biochemical Society
+
+18
+N. Beresford and others
+21
+Begley, M. J., Taylor, G. S., Kim, S. A., Veine, D. M., Dixon, J. E. and Stuckey, J. A.
+(2003) Crystal structure of a phosphoinositide phosphatase, MTMR2: insights into
+myotubular myopathy and Charcoat-Marie-Tooth syndrome. Mol. Cell 12,
+1391–1402
+22
+Begley, M. J., Taylor, G. S., Brock, M. A., Ghosh, P., Woods, V. L. and Dixon, J. E.
+(2006) Molecular basis for substrate recognition by MTMR2, a myotubularin
+family phosphoinositide phosphatase. Proc. Natl. Acad. Sci. U.S.A. 103,
+927–932
+23
+Taylor, G. S., Maehama, T. and Dixon, J. E. (2000) Myotubularin, a protein tyrosine
+phosphatase mutated in myotubular myopathy, dephosphorylates the lipid second
+messenger, phosphatidylinositol 3-phosphate. Proc. Natl. Acad. Sci. U.S.A. 97,
+8910–8915
+24
+Savle, P. S., Shelton, T. E., Meadows, C. C. A., Potts, M., Gandour, R. D. and Kennelly,
+P. J. (2000) N-(Cyclohexanecarboxyl)-O-phospho-L-serine, a minimal substrate for the
+dual-speciﬁcity protein phosphatase IphP. Arch. Biochem. Biophys. 376, 439–448
+25
+Grundner, C., Ng, H. L. and Alber, T. (2005) Mycobacterium tuberculosis protein tyrosine
+phosphatase PtpB structure reveals a diverged fold and a buried active site. Structure 13,
+1625–1634
+26
+Koul, A., Choidas, A., Treder, M., Tyagi, A. K., Drlica, K., Singh, Y. and Ullrich, A. (2000)
+Cloning and characterization of secretory tyrosine phosphatases of Mycobacterium
+tuberculosis. J. Bacteriol. 182, 5425–5432
+27
+Howell, L. D., Grifﬁths, C., Slade, L. W., Potts, M. and Kennelly, P. J. (1996) Substrate
+speciﬁcity of IphP, a cyanobacterial dual-speciﬁcity protein phosphatase with MAP kinase
+phosphatase activity. Biochemistry 35, 7566–7572
+Received 21 May 2007/15 June 2007; accepted 21 June 2007
+Published as BJ Immediate Publication 21 June 2007, doi:10.1042/BJ20070670
+c⃝The Authors Journal compilation c⃝2007 Biochemical Society

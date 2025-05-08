@@ -1,0 +1,2705 @@
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+doi:10.5194/acp-17-2573-2017
+© Author(s) 2017. CC Attribution 3.0 License.
+Chemical characterization of ﬁne particulate matter in Changzhou,
+China, and source apportionment with ofﬂine
+aerosol mass spectrometry
+Zhaolian Ye1,2, Jiashu Liu1, Aijun Gu1, Feifei Feng1, Yuhai Liu1, Chenglu Bi1, Jianzhong Xu3, Ling Li2, Hui Chen2,
+Yanfang Chen2, Liang Dai2, Quanfa Zhou1, and Xinlei Ge2
+1College of Chemistry and Environmental Engineering, Jiangsu University of Technology, Changzhou 213001, China
+2Jiangsu Key Laboratory of Atmospheric Environment Monitoring and Pollution Control,
+Collaborative Innovation Center of Atmospheric Environment and Equipment Technology, School of Environmental Sciences
+and Engineering, Nanjing University of Information Science and Technology, Nanjing 210044, China
+3State Key Laboratory of Cryospheric Sciences, Northwest Institute of Eco-Environment and Resources,
+Chinese Academy of Sciences, Lanzhou 730000, China
+Correspondence to: Xinlei Ge (caxinra@163.com)
+Received: 4 October 2016 – Discussion started: 3 November 2016
+Revised: 23 January 2017 – Accepted: 2 February 2017 – Published: 20 February 2017
+Abstract. Knowledge of aerosol chemistry in densely popu-
+lated regions is critical for effective reduction of air pollution,
+while such studies have not been conducted in Changzhou,
+an important manufacturing base and populated city in the
+Yangtze River Delta (YRD), China. This work, for the ﬁrst
+time, performed a thorough chemical characterization on
+the ﬁne particulate matter (PM2.5) samples, collected dur-
+ing July 2015 to April 2016 across four seasons in this
+city. A suite of analytical techniques was employed to mea-
+sure the organic carbon (OC), elemental carbon (EC), water-
+soluble organic carbon (WSOC), water-soluble inorganic
+ions (WSIIs), trace elements, and polycyclic aromatic hy-
+drocarbons (PAHs) in PM2.5; in particular, an Aerodyne
+soot particle aerosol mass spectrometer (SP-AMS) was de-
+ployed to probe the chemical properties of water-soluble or-
+ganic aerosol (WSOA). The average PM2.5 concentration
+was found to be 108.3 µg m−3, and all identiﬁed species
+were able to reconstruct ∼80 % of the PM2.5 mass. The
+WSIIs occupied about half of the PM2.5 mass (∼52.1 %),
+with SO2−
+4 , NO−
+3 , and NH+
+4 as the major ions. On aver-
+age, nitrate concentrations dominated over sulfate (mass ra-
+tio of 1.21), indicating that trafﬁc emissions were more im-
+portant than stationary sources. OC and EC correlated well
+with each other and the highest OC / EC ratio (5.16) oc-
+curred in winter, suggesting complex OC sources likely in-
+cluding both secondary and primary ones. Concentrations of
+eight trace elements (Mn, Zn, Al, B, Cr, Cu, Fe, Pb) can con-
+tribute up to ∼5.0 % of PM2.5 during winter. PAH concentra-
+tions were also high in winter (140.25 ng m−3), which were
+predominated by median/high molecular weight PAHs with
+ﬁve and six rings. The organic matter including both water-
+soluble and water-insoluble species occupied ∼21.5 % of the
+PM2.5 mass. SP-AMS determined that the WSOA had av-
+erage atomic oxygen-to-carbon (O / C), hydrogen-to-carbon
+(H / C), nitrogen-to-carbon (N / C), and organic matter-to-
+organic carbon (OM / OC) ratios of 0.54, 1.69, 0.11, and
+1.99, respectively. Source apportionment of WSOA further
+identiﬁed two secondary OA (SOA) factors (a less oxidized
+and a more oxidized oxygenated OA) and two primary OA
+(POA) factors (a nitrogen-enriched hydrocarbon-like trafﬁc
+OA and a local primary OA likely including species from
+cooking, coal combustion, etc.). On average, the POA contri-
+bution outweighed SOA (55 % vs. 45 %), indicating the im-
+portant role of local anthropogenic emissions in the aerosol
+pollution in Changzhou. Our measurement also shows the
+abundance of organic nitrogen species in WSOA, and the
+source analyses suggest these species are likely associated
+with trafﬁc emissions, which warrants more investigations on
+PM samples from other locations.
+Published by Copernicus Publications on behalf of the European Geosciences Union.
+
+2574
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+1
+Introduction
+Aerosol particles are ubiquitous in the atmosphere and play
+important roles in air quality, global climate, the biogeo-
+chemical cycle, human health, etc. (e.g., Heal et al., 2012;
+Cao et al., 2012; Hu et al., 2015). Aerosol pollution can also
+inﬂuence remote territories via long-range transport. There-
+fore, atmospheric aerosol has received extensive attention
+from the government, the public, and academia (e.g., Zhang
+et al., 2007a; Jimenez et al., 2009). In particular, much atten-
+tion has focused on ﬁne particles (PM2.5, aerodynamic di-
+ameters less than 2.5 µm), as they can go deeper into the res-
+piratory system, causing more severe health problems than
+coarse particles (Anderson et al., 2012). However, the con-
+centrations, sources, chemical compositions, and formation
+mechanisms of PM2.5 are complicated and can vary greatly
+with meteorological conditions, seasons, regional/local to-
+pography, etc. PM2.5 can contain a variety of species, i.e.,
+organic carbon (OC), elemental carbon (EC), trace elements,
+inorganic salts, and various organic species such as poly-
+cyclic aromatic hydrocarbons (PAHs) (e.g., Wang et al.,
+2015). In China, haze pollution has occurred frequently in
+recent years, and a large number of studies regarding the
+chemical characterization of ﬁne particles were carried out
+in many locations (G. Wang et al., 2006), such as Shang-
+hai (e.g., G. Wang et al., 2016; Zhao et al., 2015), Beijing
+(e.g., Sun et al., 2014, 2016; Hu et al., 2016), Nanjing (e.g.,
+Zhang et al., 2016; Ding et al., 2013), Lanzhou (e.g., Fan et
+al., 2014; Xu et al., 2014), Wuhan (e.g., Huang et al., 2016),
+and other remote sites (Xu et al., 2015).
+The Yangtze River Delta (YRD) region, located in eastern
+China, is experiencing severe atmospheric pollution along
+with the rapid economic development. Some studies carried
+out in the YRD investigated different characteristics of the
+ﬁne aerosols, including the mass loading, composition, hy-
+groscopicity (e.g., Ye et al., 2011; Ge et al., 2015), size dis-
+tribution, seasonal variation, source, formation pathway, and
+their impacts on visibility and climate (e.g., Wang et al.,
+2012). However, these studies were mostly limited to Nan-
+jing (e.g., Hu et al., 2012; Y. Wang et al., 2016) and Shanghai
+(e.g., Fu et al., 2012; Qiao et al., 2015; Wang et al., 2012).
+Changzhou, situated in the western YRD region, between
+Shanghai and Nanjing, is also a major city and an impor-
+tant manufacturing base due to its geographical advantage.
+The city has an area of about 4374 km2 with a population of
+4.45 million. Due to elevated emissions of various pollutants,
+the number of hazy days increased over the past few years in
+Changzhou as well. To the best of our knowledge, no work
+has been published speciﬁcally on chemical characteristics
+and source apportionment of ﬁne particles in Changzhou.
+Thus, it is scientiﬁcally and practically important to inves-
+tigate the PM2.5 characteristics in order to provide efﬁcient
+control strategies to reduce the PM pollution for Changzhou.
+Among various PM2.5 constituents, organic aerosol (OA)
+is a vital component, accounting for a signiﬁcant, even dom-
+inant, fraction of PM2.5 in ambient air (Zhang et al., 2007a).
+Thus, elucidation of its composition, properties, and sources
+is essential. Correct apportionment of OA into different
+sources is a critical step towards enabling efﬁcient air pol-
+lution control strategies. Recently, Aerodyne aerosol mass
+spectrometry (AMS) has been used extensively for quanti-
+tatively characterizing ambient OA, and the wealth of mass
+spectral data allows a better source analysis of OA (Cana-
+garatna et al., 2007). In particular, positive matrix factor-
+ization (PMF), as a standard multivariate factor analysis
+method, has been widely applied to AMS datasets to dis-
+tinguish and quantify the OA sources (Zhang et al., 2011).
+Many previous studies (e.g., Ge et al., 2012a; Ng et al., 2011)
+have deployed the AMS for online ﬁeld measurements since
+AMS can provide real-time information on mass concentra-
+tions and size distributions of aerosol particles with very ﬁne
+time resolutions (several seconds to minutes). However, up to
+now, AMS has typically been used for online measurements,
+and only a few studies have made efforts to apply it to ofﬂine
+ﬁlter sample analyses and source apportionment (Ge et al.,
+2014; Daellenbach et al., 2016; Y. Sun et al., 2011; Bozzetti
+et al., 2017; Mihara and Mochida, 2011; Huang et al., 2014;
+Xu et al., 2015).
+In this study, for the ﬁrst time, we systematically investi-
+gated the chemical characteristics of ambient PM2.5 collected
+in Changzhou across a nearly 1-year period, providing an
+overview of the concentrations of PM2.5, water-soluble in-
+organic ions (WSIIs), trace elements, carbonaceous species,
+water-soluble organic carbon (WSOC), PAHs, and the re-
+lationships between these components. Seasonal variations
+of different PM2.5 components were also discussed. Further-
+more, we employed an Aerodyne soot particle aerosol mass
+spectrometer (SP-AMS) (Onasch et al., 2012; Lee et al.,
+2015; J. Wang et al., 2016b) to investigate the properties and
+potential sources of OA on the basis of high-resolution mass
+spectra determined by the SP-AMS. Findings from this study
+also add knowledge to the framework of the Pan-Eurasian
+Experiment (PEEX) (Kulmala et al., 2015).
+2
+Experiments
+2.1
+Sampling site and PM2.5 collection
+The sampling site was set on the rooftop of a nine-story
+building inside the campus of Jiangsu University of Technol-
+ogy in Changzhou (31.7◦N, 119.9◦E), as shown in Fig. 1.
+This site is located in the southwestern part of Changzhou,
+surrounded by a residential area, approximately 0.5 km away
+from an urban street, Zhongwu Road, and has no direct inﬂu-
+ences from industrial emissions (14.7 km away from the clos-
+est industrial plant – Bao Steel). Meteorological parameters
+including temperature, relative humidity (RH), wind speed
+(WS), wind direction (WD), and concentrations of gas-phase
+species such as SO2 and NO2 are recorded by the air quality
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+2575
+Figure 1. Schematic map of the sampling site and its surroundings.
+monitoring station inside the campus, which is about 500 m
+away from the site. The average meteorological parameters
+of four seasons are shown in Table 1. The wind rose plots
+of different seasons are shown in Fig. S1 in the Supplement.
+The wind speed was generally low in Changzhou (on aver-
+age, 1.1, 1.6, 0.9, and 0.9 m s−1 in spring, summer, fall, and
+winter, respectively).
+PM2.5 were collected onto 90 mm quartz ﬁber ﬁlters
+(Whatman, QM-A) using a medium volume sampler (TH-
+150 C, Wuhan Tianhong Ltd., China) with a ﬂow rate of
+100 L min−1. The ﬁlters, wrapped in aluminum foil, were
+prebaked at 450 ◦C for 4 h prior to sampling. The sampler
+began to collect particles at 09:00 and stopped at 05:00
+of the following day, ensuring a duration time for each
+sample of 20 h. A total of 69 PM2.5 samples were col-
+lected: 20 July–19 August 2015 (summer, 11 samples),
+18 September–25 October 2015 (fall, 23 samples), 7 De-
+cember 2015–15 January 2016 (winter, 24 samples), and
+1 March–12 April 2016 (spring, 11 samples).
+Before and after sampling, the ﬁlters were conditioned un-
+der constant temperature (22 ± 1 ◦C) and relative humidity
+(45 ± 5 %) for 48 h and weighted by a microbalance (preci-
+sion of 0.01 mg). The ﬁlters were then wrapped and sealed in
+aluminum foil envelopes separately, and stored in a freezer
+at −20 ◦C until analysis. Note that ﬁlter-based measurements
+are inevitably subjected to various sampling artifacts, includ-
+ing evaporation of semi-volatile species and absorption of
+gases. Nitrate in the form of ammonium nitrate may have
+some evaporation loss as it is sensitive to temperature varia-
+tions during sampling, and absorption of gases may inﬂuence
+the quantiﬁcation of particle-bound polycyclic aromatic hy-
+drocarbons (PAHs).
+Table 1. Average meteorological parameters during four seasons.
+Parameters
+Spring
+Summer
+Fall
+Winter
+RH (%)
+57.3 ± 11.4
+61.1 ± 11.8
+65.5 ± 10.9
+62.3 ± 10.6
+T (◦C)
+13.1 ± 4.0
+32.1 ± 4.3
+21.6 ± 2.3
+5.6 ± 1.8
+WS (m s−1)
+1.1 ± 0.4
+1.6 ± 0.6
+0.9 ± 0.4
+0.9 ± 0.3
+WD∗
+SE
+E, W, SE
+E
+W, NW, SE
+∗Refer to prevailing wind directions: E – east, SE – southeast, W – west, NW – northwest.
+2.2
+Chemical analysis
+2.2.1
+IC analysis
+One-quarter of a ﬁlter was put into a glass tube and
+25 mL deionized water (18.2 M cm−1) was then added. Af-
+ter 45 min ultrasonic extraction, the solution was ﬁltrated
+through an acetate-cellulose ﬁlter with 0.45 µm pore size.
+Concentrations of the WSIIs in the aqueous extract, includ-
+ing ﬁve anions (F−, Cl−, NO−
+2 , NO−
+3 , SO2−
+4 ) and ﬁve cations
+(Na+, NH+
+4 , K+, Mg2+, Ca2+), were then measured by the
+ion chromatograph (IC, Dionex ICS-600 for anions and ICS-
+1500 for cations). The method detection limits (MDLs) were
+determined to be 18.0, 7.3, 5.2, 6.3, 11.0, 18.7, 3.3, 4.6, 2.6,
+and 11.5 µg L−1 for F−, Cl−, NO−
+2 , NO−
+3 , SO2−
+4 , Na+, NH+
+4 ,
+K+, Mg2+, and Ca2+, respectively, and all measured con-
+centrations were above the MDLs. Note that the ﬁlter blanks
+were treated in the same way, and all data for the samples
+reported here were blank corrected; other analyses in the
+following sections were also blank corrected unless speci-
+ﬁed. The concentrations of all measured species in the PM2.5
+sample were also converted to µg m−3 based on the mea-
+sured concentrations and the air volume pulled through the
+ﬁlter. The uncertainty of the IC measurements, calculated as
+3 times the standard deviation of replicate measurements of
+blank ﬁlters, is shown in Table 2.
+2.2.2
+ICP-OES analysis
+Another quarter of a ﬁlter was cut and placed in a Teﬂon
+vessel, digested with a 10 mL mixture of HNO3–HCl (1 : 1,
+v : v) in a microwave system (XT-9900A, Shanghai Xintuo
+Co.) for 45 min. After the digested solution cooled down to
+room temperature, it was ﬁltered through a 0.45 µm acetate-
+cellulose ﬁlter. The ﬁltrate was then diluted using deionized
+water to 50 mL, and analyzed using Optima 8000 (Perkin
+Elmer, USA) inductively coupled plasma optical emission
+spectrometry (ICP-OES) to determine the concentrations of
+eight trace elements (Mn, Zn, Al, B, Cr, Cu, Fe, Pb). It is
+worth mentioning that we also tried to measure the concen-
+trations of other trace elements such as Ti, Ni, and Ba, but
+found that they were mostly below the detection limits, and
+thus were not included in this work. All samples were deter-
+mined in triplicate, and a difference within 5 % was consid-
+ered acceptable. Measurement uncertainties for trace metals
+www.atmos-chem-phys.net/17/2573/2017/
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+
+2576
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+Table 2. Summary of aerosol species, analytical methods, measurement uncertainties, and the method detection limits (MDLs).
+Species
+Analytical methods
+Uncertainties
+MDLs
+Water-soluble ions
+Ion chromatography
+3.5–7.0 %
+3–20 µg L−1
+Trace elements
+ICP-OES
+10.3–18.5 %
+–
+OC, EC
+Thermal-optical carbon analyzer
+< 12 %
+30–80 ng m−3 for OC and 30 ng m−3
+for EC (Mirante et al., 2014)
+WSOC
+TOC analyzer
+3.4–6.0 %
+5.0 µg L−1
+PAH
+GC-MS
+20 %
+2–5 µg L−1
+OM / OC ratio
+SP-AMS
+6 % (Aiken et al., 2008)
+–
+WSOA
+SP-AMS, TOC
+6.9–8.5 %
+–
+were in the range of 10.3–18.5 %, with an average of 16.3 %
+(Table 2).
+2.2.3
+OC / EC and WSOC analysis
+The analysis procedure of OC / EC was similar to a previous
+study (Zhao et al., 2015) . Brieﬂy, OC and EC were measured
+by the DRI model 2001 thermal/optical carbon analyzer (At-
+moslytic Inc., Calabasas, CA) using a 0.526 cm2 ﬁlter punch
+for each sample, following the IMPROVE TOR protocol
+(Chow et al., 2004). The ﬁlter was measured stepwise at tem-
+peratures of 140 ◦C (OC1), 280 ◦C (OC2), 480 ◦C (OC3), and
+580 ◦C (OC4) under a helium atmosphere, and 580 ◦C (EC1),
+740 ◦C (EC2), and 840 ◦C (EC3) under a 2 % oxygen/98 %
+helium atmosphere. OC is calculated as OC1+ OC2+ OC3+
+OC4+ OP and EC as EC1+ EC2+ EC3−OP, where OP is
+the optical pyrolyzed OC. The detection limit of OC was es-
+timated to be 30–80 ng m−3 and EC was ∼30 ng m−3 based
+on a previous study (Mirante et al., 2014).
+The WSOC concentrations were determined by a TOC an-
+alyzer (TOC-L, Shimazu, Japan) using a thermos-catalytic
+oxidation approach. Instrument details and the procedure of
+the WSOC analysis can be found in our previous work (Ge
+et al., 2014). The MDL was 5.0 µg L−1 and measurement un-
+certainties ranged from 3.4 to 6.0 %.
+2.2.4
+GC-MS analysis for particulate PAHs
+Due to the limitation of samples, we only analyzed PAHs
+for spring and winter samples. The analysis was conducted
+following the standard procedure, similar to the work of
+Szabó et al. (2015). One-quarter of a ﬁlter was treated by
+Soxhelt extraction for 18 h using a 250 mL mixture of n-
+hexane/ethylether (5 : 1, v/v). To determine the recovery
+rates, 100 ng of deuterated surrogate standard solution con-
+taining naphthalene-d8 and perylene-d12 (o2si, USA) was
+added to the sample prior to extraction, and the average re-
+covery rates of d8 and d12 were over 90 %. The extracts
+were then concentrated to about 2 mL by a rotary evap-
+orator, puriﬁed in a chromatography column (ﬁlled with
+3 cm deactivated Al2O3, 10 g silica gel, and 2 cm deactivated
+Na2SO4). The column was ﬁrst eluted with 25 mL n-hexane
+and the eluate was discarded; then elution was carried out us-
+ing 30 mL dichloromethane / n-hexane (1 : 1, v : v). Samples
+containing PAHs were again concentrated to about 2 mL by
+the rotary evaporation. Finally they were condensed to ex-
+actly 1 mL under a gentle N2 steam in a 60 ◦C water bath.
+The extracts are transferred into ampoule bottles and stored
+in a refrigerator until analysis.
+The PAH compounds in the ﬁnal extracts were analyzed
+with a gas chromatography mass spectrometer (GC-MS)
+(Agilent 7890-7000B, USA), using a DB-5ms capillary col-
+umn (30 m × 0.25 mm × 0.5 µm). The instrument conditions
+were set as follows: injector at 200 ◦C; ion source at 230 ◦C;
+the column was programmed at 40 ◦C for 2 min, then in-
+creased to 100 ◦C at a rate of 10 ◦C min−1, held for 1 min,
+then increased to 250 ◦C at 20 ◦C min−1, and ﬁnally held for
+3 min at 250 ◦C. The mass selective detector was operated in
+the electron impact mode using 70 eV. Multi-reaction moni-
+tor modes were employed for the identiﬁcation and quantiﬁ-
+cation of PAHs.
+Before sample analysis, calibration standards at a se-
+ries of concentrations were prepared from an aromatic
+hydrocarbon standard (O2si, USA) containing 18 PAH
+compounds (1000 mg L−1), which are naphthalene (NaP)
+(C10H8), acenaphthylene (Acy) (C12H8), acenaphthene
+(Ace) (C12H10), ﬂuorene (Flu) (C13H10), phenanthrene (Phe)
+(C14H10), anthracene (Ant) (C14H10), ﬂuoranthene (Flua)
+(C16H10), pyrene (Pyr) (C16H10), benzo(a)anthracene (BaA)
+(C18H12), chrysene (Chr) (C18H12), benzo(b)ﬂuoranthene
+(BbF) (C20H12), benzo(k)ﬂuoranthene (BkF) (C20H12),
+benzo(a)pyrene (BaP) (C20H12), Benzo(e)pyrene (BeP)
+(C20H12), benzo(j)ﬂuoranthene (BjF) (C20H12), benzop-
+erylene (BghiP) (C22H12)
+indeno(1,2,3-cd)pyrene (InP)
+(C22H12),
+and
+dibenz(a,h)anthracene
+(DBA)
+(C22H14).
+These PAHs can be classiﬁed by the number of aromatic
+rings and molecular weights: low molecular weight (LMW)
+PAHs containing two and three rings (NaP, Acy, Ace, Flu,
+Phe, Ant), medium molecular weight (MMW) PAHs con-
+taining four rings (Flua, Pyr, BaA, Chr), and high molecu-
+lar weight (HMW) PAHs containing ﬁve and six rings (BbF,
+BkF, BjF, BaP, BeP, InP, DBA, BghiP) (Wang et al., 2015;
+Kong et al., 2015). The calibration was conducted twice prior
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+2577
+to analysis. Identiﬁcation and quantiﬁcation of each PAH are
+based on its retention time and peak areas in the calibra-
+tion curve and sample curve, and the total PAH concentration
+(6PAH) was calculated as the sum of concentrations of all 18
+individual PAHs. Figure S2 shows examples of the GC-MS
+spectra of a few of the 18 PAH standards and two surrogate
+standards (d8 and d12).
+2.2.5
+Ofﬂine SP-AMS analysis
+The Aerodyne AMS is specially designed for online and real-
+time measurements of the submicron aerosol particles. The
+instrument has a very ﬁne time resolution and thus is pow-
+erful in capturing the quick atmospheric processes that oc-
+curred in the real atmosphere, while in this study we used the
+SP-AMS for ofﬂine ﬁlter sample analyses. Compared with
+the online measurements, there are a few advantages: (1) it
+can greatly expand the application of the AMS because it is
+often unrealistic to deploy the AMS for very long periods, as
+it requires highly skilled personal to carefully maintain and
+operate the instrument; (2) for some sites, it is not accessi-
+ble or not suitable for AMS deployment; (3) AMS analysis
+of organics can provide more details, for instance the ele-
+mental composition and oxidation states, and thus can offer
+useful insights into the origin of OA; (4) ofﬂine analysis may
+introduce artifacts compared with the online measurements,
+but on the other hand, it also expands the size range, as on-
+line measurements were often limited in the submicron meter
+range.
+The SP-AMS analysis procedure for ofﬂine ﬁlters was
+similar to that of Xu et al. (2013). Brieﬂy, for each sam-
+ple, a 1/4 ﬁlter was extracted in 25 mL deionized water.
+The liquid extracts were aerosolized using an atomizer (TSI,
+Model 3076) and the mist passed through a silica-gel diffu-
+sion dryer, leaving dry particles which were subsequently an-
+alyzed by the SP-AMS. Note that the SP-AMS was operated
+with the laser off, similarly to other AMS measurements; it
+measured non-refractory organic species that can vaporize
+fast at the oven temperature of 600 ◦C. The instrument em-
+ploys the 70 eV electron impact (EI) ion generation scheme;
+all vaporized species were broken into ion fragments with
+speciﬁc mass-to-charge (m/z) ratios, and the time-of-ﬂight
+mass spectrometer outputs the mass spectrum that records
+the ions according to their signal intensities at different
+m/z ratios. Ion fragments with m/z up to 300 amu were ana-
+lyzed in this study. The SP-AMS mass spectra can well rep-
+resent the total OA constituents, and the bulk OA properties
+such as elemental ratios including oxygen-to-carbon (O / C),
+hydrogen-to-carbon (H / C), and nitrogen-to-carbon (N / C)
+ratios, and the organic mass-to-organic carbon (OM / OC)
+ratio can be obtained. Note that although the SP-AMS is lim-
+ited in molecular-level speciation analysis (Drewnick, 2012),
+some compounds can be identiﬁed via recognition of their
+corresponding ﬁngerprint ions, and particular sources can be
+separated and quantiﬁed via further factor analyses.
+2.5
+2.0
+1.5
+1.0
+0.5
+0.0
+Elemental ratios
+09/2015
+11/2015
+01/2016
+03/2016
+Date and time (BJ)
+ OM/OC 
+ H/C
+ N/C  
+ S/C
+ O/C
+Figure 2. The atomic elemental ratios for the water-soluble organic
+aerosol (WSOA) determined by the SP-AMS.
+The
+SP-AMS
+data
+were
+processed
+using
+Igor-
+based
+software
+toolkits
+SQUIRREL
+(version
+1.56D)
+and
+PIKA
+(version
+1.15D)
+(downloaded
+from
+http:
+//cires.colorado.edu/jimenez-group/ToFAMSResources/
+ToFSoftware/index.html), and the analysis procedure was
+similar to our previous work (Ge et al., 2012b). We did some
+minor modiﬁcations on the fragment table. For example,
+we set the organic CO+
+2 signal equal to organic CO+, a
+factor the same as Aiken et al. (2008), as the CO+
+2 signal in
+PM2.5 may come from non-carbonate organics, and since
+we used Argon as a carrier gas so different from ambient
+measurements, the CO+ signal can be well separated and
+quantiﬁed from N+
+2 at m/z 28 (example shown in Fig. S3).
+Note that the scatter plot of the original CO+
+2 vs. CO+
+signals yielded a slope of 2.24. A recent AMS study using
+argon as a carrier gas on PM1 ﬁlter samples also showed a
+systematically higher CO+
+2 signal than CO+, but much less
+than the factor of 2.24, indicating that the CO+
+2 signal from
+the PM2.5 sample was inﬂuenced by CO+
+2 from carbonates.
+Accordingly, organic H2O+, HO+, and O+ were scaled
+to CO+
+2 using the ratios proposed by Aiken et al. (2008),
+and the elemental compositions and H / C, N / C, O / C,
+and OM / OC ratios of OA reported in this study were
+determined according to the method of Canagaratna et
+al. (2015).
+2.3
+Determination of WSOA, WIOA
+Mass concentrations of WSOA were calculated by multiply-
+ing the WSOC concentrations determined from the TOC an-
+alyzer by the OM / OC ratios calculated from the SP-AMS
+mass spectra (Fig. 2) (Eq. 1). As shown in Fig. 2, most
+OM / OC values were within the range of 1.5–2.3, consis-
+tent with the typical OM / OC ratios observed at other urban
+sites. However, the O / C and OM / OC ratios have no signif-
+icant seasonal differences, indicating that the WSOA sources
+were likely similar.
+The water-insoluble organic carbon (WIOC) mass was cal-
+culated as the difference between the OC determined by the
+www.atmos-chem-phys.net/17/2573/2017/
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+
+2578
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+OC / EC analyzer and the WSOC, and a factor of 1.3 sug-
+gested by Y. Sun et al. (2011) was used to convert the WIOC
+mass to the mass of water-insoluble organic aerosol (WIOA)
+(Eq. 2). The total organic aerosol (OA) was treated as the
+sum of WSOA and WIOA (Eq. 3).
+WSOA = WSOC × OM/OCWSOA
+(1)
+WIOA = (OC −WSOC) × 1.3
+(2)
+OA = WSOA + WIOA
+(3)
+The measurement uncertainty of WSOA was calculated as
+the sum of squares of uncertainties of OM / OC ratios and
+WSOC, ranging from 6.9 to 8.5 % (Table 2).
+2.4
+Source apportionment of WSOA
+In this work, we used the PMF Evaluation Toolkit v 2.06
+(Ulbrich et al., 2009) and followed the protocol described by
+Zhang et al. (2011) to conduct the PMF analyses. Typically,
+inclusion of more samples can provide better PMF results
+and more scientiﬁcally sound interpretation of the sources.
+But applications of the PMF model to a limited number of
+samples (much less than 100) were also reported previously
+(e.g., Huang et al., 2014; Y. Sun et al., 2011) and proven to
+be able to provide very valuable insights into the sources of
+OA.
+Prior to PMF execution, the following steps were per-
+formed: data and error matrices for WSOA were ﬁrst ad-
+justed based on Eq. (1); ions with a low signal-to-noise ratio
+(S / N < 0.2) were removed, and ions with S / N ratios be-
+tween 0.2 and 2 were downweighted by a factor of 2; two
+runs with huge mass loading spikes were removed; all iso-
+topic ions were removed since their signals are not measured
+directly but scaled to their parent ions. The PMF solutions
+were explored by varying the factors from 1 to 8 and the ro-
+tational forcing parameter (fpeak) from −1 to 1 with an incre-
+ment of 0.1. The four-factor solution with fpeak = 0 was cho-
+sen as the best solution. The mass spectra of three-factor and
+ﬁve-factor solutions were presented in Fig. S4. The three-
+factor solution does not resolve the oxygenated OA factors
+well, as many oxygenated ions were mixed with the primary
+OA factors. The ﬁve-factor solution splits a primary OA fac-
+tor into two factors with very similar mass proﬁles. Also, by
+investigating the correlations of the factors with their corre-
+sponding tracer ions, and sulfate, nitrate, etc., of the three-,
+four-, and ﬁve-factor solutions, the four-factor solution was
+found to be the most reliable and representative solution.
+3
+Results and discussion
+3.1
+Overview of PM2.5 concentrations and components
+The annual and seasonal average concentrations of PM2.5,
+OC, EC, OA, WSIIs, trace elements, and PAHs are summa-
+rized in Table 3. As shown in Table 3, the PM2.5 concentra-
+tions (in µg m−3) were on average (±1σ) 106.0 (±24.4), 80.9
+(±37.7), 103.3 (±28.2), and 126.9 (±50.4) in spring, sum-
+mer, fall, and winter, respectively, with an annual average
+of 108.3 (±40.8), comparable to the PM2.5 concentrations
+in Nanjing (106 µg m−3 in 2011) (Shen et al., 2014), Tian-
+jin (109.8 µg m−3 in 2008) (Gu et al., 2010), and Hangzhou
+(108.2 µg m−3 in 2004–2005) (Liu et al., 2015), but lower
+than that in Jinan (169 µg m−3 in 2010) (Gu et al., 2014). The
+PM2.5 concentrations were highest in winter and relatively
+low in summer, similar to those found in most cities, such
+as Tianjin (Gu et al., 2010) and Hangzhou (Liu et al., 2015).
+Previous studies showed that low concentrations occurring
+in summer were mainly due to the relatively high boundary
+layer height, low RH, and high temperature (Cheng et al.,
+2015; Huang et al., 2010). The temperatures and RH val-
+ues were on average 32.1 ◦C and 61.1 % in summer during
+the observation period (Table 1). Overall, the daily average
+concentration of PM2.5 during the sampling period exceeds
+75 µg m−3 – the second-grade national ambient air quality
+standard (NAAQS) (GB3095-2012) – and on some heavily
+polluted days, the PM2.5 mass loadings can even exceed 3
+times the NAAQS standard.
+Overall, the reconstructed PM2.5 mass estimated by the
+sum of OA, EC, and WSIIs vs. gravimetrically determined
+PM2.5 mass was shown in Fig. 3a–d. The mass proportions of
+all measured components to the PM2.5 mass are illustrated by
+ﬁve inserted pie charts representing the four seasons and the
+whole year, respectively. On average, the quantiﬁed species
+can occupy 78.6 % of the PM2.5 mass (note that trace ele-
+ments and PAHs were not included as they were only deter-
+mined for partial samples), and the mass closure appears to
+be better for spring and winter samples. Overall, our results
+are similar to some previous results, such as in Beijing (68 %)
+(Zhang et al., 2013). Details and characteristics of individual
+components are discussed in the following sections.
+3.2
+Water-soluble inorganic ions
+The average concentrations (±σ) of total WSIIs were
+66.5 (±17.2), 35.0 (±20.2), 51.0 (±17.2), and 66.8
+(±23.6) µg m−3 in spring, summer, fall, and winter, respec-
+tively, with an annual average of 56.4 (±22.9) µg m−3. The
+level was lowest in summer, likely due to the conditions fa-
+vorable for pollutant dispersion and the wet scavenging of
+these ions under summer monsoon circulation and precipita-
+tion. In total, all WSIIs can account for 62.7, 43.2, 49.3, and
+52.6 % of PM2.5 mass in spring, summer, fall, and winter, re-
+spectively, with the annual average WSIIs/PM2.5 percentage
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+2579
+Table 3. Summary of the mean concentrations (with 1 standard deviation) and mass fractions for PM2.5 and all quantiﬁed components in
+four seasons and the whole sampling period, respectively.
+Species (µg m−3)
+Spring
+Summer
+Fall
+Winter
+Annual
+PM2.5
+106.0 ± 24.4
+80.9 ± 37.7
+103.3 ± 28.2
+126.9 ± 50.4
+108.3 ± 40.8
+WSIIs
+66.5 ± 17.2
+35.0 ± 20.2
+51.0 ± 17.2
+66.8 ± 23.6
+56.4 ± 22.9
+Sulfate
+17.3 ± 4.8
+15.8 ± 9.8
+17.2 ± 6.2
+18.7 ± 7.6
+17.5 ± 7.1
+Nitrate
+26.4 ± 8.7
+6.8 ± 6.2
+17.0 ± 9.0
+24.1 ± 11.8
+19.3 ± 11.6
+Ammonium
+14.8 ± 4.2
+8.2 ± 4.3
+11.2 ± 3.2
+13.1 ± 3.7
+12.0 ± 4.2
+Other ions
+8.0 ± 2.3
+4.2 ± 2.9
+5.6 ± 1.5
+10.9 ± 3.4
+7.6 ± 3.7
+% of PM2.5
+62.7 ± 4.9
+43.2 ± 7.4
+49.3 ± 8.5
+52.6 ± 7.3
+52.1 ± 9.7
+TC
+16.0 ± 3.3
+12.1 ± 1.6
+21.0 ± 11.8
+22.3 ± 8.6
+19.2 ± 9.3
+OC
+11.2 ± 2.6
+7.9 ± 0.8
+13.2 ± 7.8
+18.3 ± 8.1
+13.8 ± 7.5
+EC
+4.8 ± 0.9
+4.2 ± 1.2
+7.7 ± 4.5
+4.0 ± 0.9
+5.4 ± 3.2
+% of PM2.5
+15.0 ± 2.5
+15.0 ± 6.5
+20.3 ± 8.2
+17.6 ± 3.3
+17.8 ± 6.1
+OA
+18.9 ± 4.1
+14.0 ± 1.4
+21.6 ± 11.9
+31.2 ± 11.9
+23.3 ± 9.0
+WSOA
+14.1 ± 3.0
+12.1 ± 2.4
+15.6 ± 6.6
+25.1 ± 8.6
+18.1 ± 6.1
+WIOA
+4.8 ± 2.6
+1.9 ± 1.8
+5.9 ± 7.2
+6.1 ± 10.6
+5.2 ± 7.6
+% of PM2.5
+17.8 ± 3.2
+18.2 ± 8.4
+20.9 ± 8.3
+24.6 ± 6.3
+21.5 ± 6.8
+PAHs (ng m−3)
+41.42 ± 24.7
+140.25 ± 60.2
+Trace elements
+2.77 ± 1.15
+6.38 ± 3.14
+OA+EC+WSIIs
+90.2 ± 21.0
+53.2 ± 21.6
+83.1 ± 29.6*
+108.4 ± 36.3*
+85.1 ± 27.9
+% of PM2.5
+85.1 ± 5.6
+65.8 ± 5.4
+80.4 ± 15.0*
+85.4 ± 12.9*
+78.6 ± 11.6
+* These values also include contributions from trace elements.
+Figure 3. Reconstructed mass (= OA + EC + WSIIs) vs. PM2.5 mass from gravimetric measurement in (a) spring, (b) summer, (c) fall,
+(d) winter, and annual. Corresponding pie charts show the mass percentages of different species to the PM2.5 mass (trace elements and PAHs
+are not included due to sample limitations).
+of 52.1 %, a little higher than the previously reported value
+of 45.3 % in Handan in 2013 (Meng et al., 2016).
+The mass fractions of individual ions to total WSIIs
+followed the order NO−
+3 (34.2 %) > SO2−
+4
+(31.0 %) > NH+
+4
+(21.2 %) > Cl−(6.0 %) > Na+ (3.8 %) > K+ (1.8 %) > Ca2+
+(1.2 %) > Mg2+ (0.3 %) > NO−
+2 and F−(0.2 %) (Fig. 4b).
+Secondary inorganic ions, including SO2−
+4 , NO−
+3 , and NH+
+4 ,
+constitute the majority of WSIIs (86.4 %) (Fig. 4b), with
+the highest one being NO−
+3 . Nitrate and ammonium con-
+centrations displayed distinct seasonal variations – highest
+in spring (NO−
+3 : 26.4 µg m−3; NH+
+4 : 14.8 µg m−3), followed
+by winter (24.1 and 13.1 µg m−3), and lowest in summer
+(6.8 and 8.2 µg m−3). On the other hand, as a non-volatile
+www.atmos-chem-phys.net/17/2573/2017/
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+
+2580
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+Figure 4. (a) Seasonal variations of average mass concentra-
+tions and (b) mass fractional contributions of WSIIs in PM2.5 in
+Changzhou during 2015–2016. The values marked in (b) are the
+fractions of the three most abundant ions (NO−
+3 + SO2−
+4 + NH+
+4 ) in
+the total WSIIs.
+species, sulfate concentrations showed no obvious seasonal
+differences.
+The cross-correlation relationships between different ions
+can be used to infer their possible common sources. Fig-
+ure 5 shows Pearson’s correlation coefﬁcients (r) between
+ions for four seasons, respectively. As illustrated, NH+
+4 had
+good correlations with SO2−
+4
+and NO−
+3 (r > 0.70), and par-
+ticularly high r values were found in winter (with SO2−
+4 :
+r = 0.90; with NO−
+3 : r = 0.96) and summer (with SO2−
+4 :
+r = 0.98; with NO−
+3 : r = 0.93), indicating these three ions
+were mainly present in the form of ammonium nitrate and
+ammonium sulfate. Moreover, the correlations between Na+
+and Cl−varied largely with the seasons, poor in summer (r =
+−0.19) and winter (r = 0.37), indicating different sources
+for them. For chloride, the annual average Cl−/ Na+ mass
+ratio was 1.58, larger than the 1.17 in seawater (Zhang et
+al., 2013), indicating the important contributions of anthro-
+pogenic activities to chloride (such as coal combustion) in
+Changzhou, in particular in winter as the content of Cl−in
+winter was signiﬁcantly elevated. By contrast, K+ and Cl−
+had good correlations (r of 0.86, 0.76, 0.80, and 0.62 in
+spring, summer, fall, and winter), suggesting that K+ may
+co-emit with chloride. According to the correlation analysis
+in Fig. 5, Mg2+ and Ca2+ had good relations, with r of 0.58,
+0.80, 0.81, and 0.78 in spring, summer, fall, and winter, re-
+spectively, indicating a similar source, likely crustal material,
+of these two ions.
+Acidity of PM2.5 can be evaluated by AE (anion equiv-
+alence) vs. CE (cation equivalence), which is calculated by
+converting the concentrations of anions and cations (µg m−3)
+into molar concentrations (µmol m−3) using the following
+equations.
+AE = SO2−
+4
+48
++ NO−
+3
+62
++ NO−
+2
+46
++ Cl−
+35.5 + F−
+19
+(4)
+CE = NH+
+4
+18
++ Mg2+
+12.2 + Ca2+
+20
++ K+
+39 + Na+
+23
+(5)
+Figure 6a illustrates the scatter plots of CE vs. AE in four
+seasons. The slopes were 1.18, 1.09, 1.03, and 0.93 in
+F
+Cl
+NO2
+NO3
+SO4
+Na
+NH4
+K
+Ca
+Mg
+1.0
+0.8
+0.6
+0.4
+0.2
+r
+F
+Cl
+NO2
+NO3
+SO4
+Na
+NH4
+K
+Ca
+Mg
+Fall: n=23 
+F
+Cl
+NO2
+NO3
+SO4
+Na
+NH4
+K
+Ca
+Mg
+F
+Cl
+NO2
+NO3
+SO4
+Na
+NH4
+K
+Ca
+Mg
+Spring: n=11 
+F
+Cl
+NO2
+NO3
+SO4
+Na
+NH4
+K
+Ca
+Mg
+F
+Cl
+NO2
+NO3
+SO4
+Na
+NH4
+K
+Ca
+Mg
+Winter: n=24 
+F
+Cl
+NO2
+NO3
+SO4
+Na
+NH4
+K
+Ca
+Mg
+F
+Cl
+NO2
+NO3
+SO4
+Na
+NH4
+K
+Ca
+Mg
+Summer: n=11 
+Figure 5. Image plots showing the cross-correlation coefﬁcients (r)
+between water-soluble ions in PM2.5 in four seasons (colored by r).
+spring, summer, fall, and winter, respectively, indicating the
+particles are generally neutralized. Normally, the ratio of
+NH+
+4 meas/NH+
+4 pred, proposed by Zhang et al. (2007b), can
+be used to evaluate the existing form of the NH+
+4 ion. The
+predicted NH+
+4 (NH+
+4 pred) was calculated using Eq. (6).
+NH+
+4 pred = 18 ×
+ 
+2 × SO2−
+4
+96
++ NO−
+3
+62
++ Cl−
+35.5
+!
+(6)
+Figure S5 illustrated the ratio of NH+
+4 meas /NH+
+4 pred in
+PM2.5 during four seasons. As presented, the ratios were
+0.95, 0.93, 0.87, and 0.75 in spring, summer, fall, and winter,
+respectively, again verifying that (NH4)2SO4, NH4NO3, and
+NH4Cl were the dominant forms of these ionic species.
+In addition, the mass ratio of NO−
+3 to SO2−
+4
+(NO−
+3 / SO2−
+4 )
+can be used to determine whether mobile sources (vehicles)
+or stationary sources (coal combustion) are dominant for
+these ions (Y. Wang et al., 2006; Arimoto et al., 1996). When
+the NO−
+3 / SO2−
+4
+mass ratio exceeds 1, it means that particle
+sources at the observation site are likely dominated by mo-
+bile sources, while ﬁxed sources play major roles when the
+ratio is below 1. In this study, the mass ratios of NO−
+3 / SO2−
+4
+were 1.52, 0.43, 0.99, and 1.29 in the spring, summer, fall,
+and winter, respectively, with an annual average ratio of 1.21
+(Fig. 6b). The NO−
+3 / SO2−
+4
+ratio varied largely with seasons.
+Note that, in summer, a lower NO−
+3 / SO2−
+4
+ratio may be also
+ascribed to high temperature, which leads to the evaporation
+of NH4NO3, yet the high NO−
+3 / SO2−
+4
+in winter and spring is
+more likely relevant to trafﬁc emissions from Zhongwu Road
+near the sampling site (Fig. 1).
+Previous studies (Xu et al., 2014) have indicated that the
+nitrogen oxidation ratio (NOR = nNO−
+3 / (nNO−
+3 + nNO2);
+n refers to the molar concentration) and the sulfur oxidation
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+2581
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+SOR
+Spring
+Summer
+Fall
+Winter
+(c)
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+NOR
+Spring
+Summer
+Fall
+Winter
+(d)
+50
+40
+30
+20
+10
+0
+NO3
+±(g m
+±3)
+40
+30
+20
+10
+0
+SO4
+2± (g m
+±3)
+y(NO3
+± )=1.21SO4
+2±, r=0.63
+ Spring
+ Summer
+ Fall
+ Winter
+ 
+ 
+(b)
+1.8
+1.5
+1.2
+0.9
+0.6
+0.3
+0.0
+CE (mol m
+±3)
+1.8
+1.5
+1.2
+0.9
+0.6
+0.3
+0.0
+AE (mol m
+±3)
+ Spring:  y=1.18x; r=1.0
+ Summer:y=1.09x; r=0.97
+   Fall:     y=1.03x; r=0.95
+ Winter:   y=0.93x; r=0.97
+ 
+1:1 line
+(a)
+Figure 6. (a) Scatter plots of molar concentrations of cations vs. anions, (b) scatter plots of NO−
+3 vs. SO2−
+4
+concentrations, and (c–d) SOR
+and NOR values during the four seasons. In (a), the dashed line refers to the 1 : 1 line. In (b), the dashed line was the ﬁtted line. Data
+in different seasons are shown by different colors for comparison. Linear regression equations were also presented. In (c–d), the crosses
+represent the mean, the middle bars represent the median, the top and bottom of the box represent the 75th and 25th percentiles, respectively,
+and the top and bottom whiskers represent the 90th and 10th percentiles, respectively.
+ratio (SOR = nSO2−
+4 /(nSO2−
+4
++ nSO2)) can be used to esti-
+mate the transformation of NO2 and SO2 to particle-phase
+NO−
+3 and SO2−
+4 . The larger SOR and NOR values mean
+more secondarily formed nitrate and sulfate. The seasonal
+values for SOR and NOR are plotted in Fig. 6c–d. On aver-
+age, the SOR value appeared to be a bit higher in summer,
+indicating strong photochemical oxidation for sulfate forma-
+tion, while NOR is relatively higher in spring, suggesting that
+conversion of NOx into nitrate is more efﬁcient in spring in
+Changzhou.
+3.3
+Trace elements
+Eight trace elements (Mn, Zn, Al, B, Cr, Cu, Fe, Pb) for
+samples collected during fall and winter were determined in
+this study. The average concentrations (µg m−3) are shown
+in Fig. 7a. The total concentrations were 6.38 µg m−3 and
+2.77 µg m−3, accounting for 5.0 and 2.7 % of the total PM2.5
+mass during winter and fall, respectively. These values were
+relatively higher than those in other cities in China, such
+as 1.74–2.04 % in Hangzhou (Liu et al., 2015). This prob-
+ably can be explained by re-suspended dust from building
+construction around the site during the sampling period. In
+this study, the observed mean levels of trace elements in fall
+were in the order Fe > Zn > B > Al > Cu > Mn > Pb > Cr,
+and ranked Zn > Fe > B > Al > Cu > Mn > Pb > Cr during
+winter (Fig. 7a). In fall, Fe accounted for 39.0 % of the total
+trace metal mass, following by Zn (25.6 %), B (12.3 %) and
+Al (9.2 %), while in winter Zn contributed the most (53.7 %),
+following by Fe and B. Overall, Fe and Zn were the two most
+abundant trace elements in PM2.5, accounting for over half
+of the trace metal mass. Previous work also found that mass
+loading of Zn was higher than other elements, even higher
+than Al in Nanjing in 2013 (Qi et al., 2016b, a). Vehicle ex-
+haust is likely one major contributor to the high concentration
+of Zn.
+In general, the correlations between various heavy metals
+are weak, as depicted in Fig. 7b–d, indicating the complex
+sources including both natural and anthropogenic sources for
+the trace metals observed here. For instance, Cr, Cu, Pb, and
+Zn can be released from lubricating oils, tail pipe emissions,
+and brake and tire wear (Zhang et al., 2013); Fe and Mg are
+primarily crustal elements, while Zn and Cu are mainly from
+anthropogenic sources. Fe and Al were only moderately cor-
+related (for example, in fall with r = 0.74, Fig. 7b), showing
+that they are not from exactly the same sources.
+www.atmos-chem-phys.net/17/2573/2017/
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+
+2582
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+Figure 7. (a) Mean mass concentrations of trace elements determined for fall and winter (the error bar represents the measurement uncer-
+tainty), (b) scatter plots of Al vs. Fe in fall, and (c–d) cross-correlation coefﬁcients (r) among different trace elements in fall and winter,
+respectively (colored by r).
+3.4
+OC and EC
+As presented in Table 3, the annual average EC concentration
+in Changzhou was 5.4 µg m−3, close to Nanjing (5.3 µg m−3)
+(Li et al., 2015) and Tianjin (5.9 µg m−3) (Gu et al., 2010),
+but lower than those in other cities, e.g., 22.3 µg m−3 in
+Beijing (Duan et al., 2012), and higher than that observed
+in Shanghai (2.8 µg m−3) (Feng et al., 2009). The season-
+ally averaged OC concentrations were highest in winter
+(18.3 µg m−3), followed by fall (13.2 µg m−3) and spring
+(11.2 µg m−3), and lowest in summer (7.9 µg m−3). The an-
+nual average OC concentration was 13.8 µg m−3, compa-
+rable to those measured in other cities, such as Shanghai
+(14.7 µg m−3) (Feng et al., 2009) and Tianjin (16.9 µg m−3)
+(Gu et al., 2010).
+The mass concentrations of total carbon (TC, the sum
+of OC and EC) were 16.0, 12.1, 21.0, and 22.3 µg m−3 in
+spring, summer, fall, and winter, respectively (Table 3); the
+corresponding mass contributions to PM2.5 were 15.0, 15.0,
+20.3, and 17.6 %, with an annual mean of 17.8 %. This
+value was similar to those measured in other cities in China,
+such as Jinan (10–15 %) (Gu et al., 2014), Shanghai (15 %)
+(Zhao et al., 2015), and other cities (10–15 % in Tianjin,
+Haining, Zhongshan, and Deyang; Zhou et al., 2016). The
+OA concentrations exhibited similar seasonal variations to
+PM2.5, and ranked in the order winter (31.2 ± 11.9) > fall
+(21.6 ± 11.9) > spring (18.9 ± 4.1) > summer (14.0 ± 1.4).
+The average mass fraction of OA in PM2.5 was 21.5 %, and
+the WSOA contributed 77.7 % of the total OA mass, similar
+6
+5
+4
+3
+2
+1
+0
+OC/EC
+Spring
+Summer
+Fall
+Winter
+Figure 8. Average OC / EC ratios measured in four seasons (sym-
+bols of the box plots are the same as described in Fig. 6).
+to the results in Atlanta (approximately 88 % in rural Centre-
+ville and 77 % in urban Atlanta) (Xu et al., 2017).
+As illustrated in Fig. 8, the OC / EC ratios varied in dif-
+ferent seasons and were largest in winter (5.16), followed
+by spring (2.38), summer (1.88), and fall (1.75). The largest
+OC / EC ratio occurred in winter, indicating that secondary
+organic carbon (SOC) was likely a signiﬁcant component
+of PM2.5 in winter (Chow et al., 2005); however, the high
+OC / EC ratio may be inﬂuenced by biomass burning and/or
+coal combustion emissions during wintertime too. A num-
+ber of previous studies about the carbonaceous aerosols in
+the YRD region also showed that the highest OC / EC ra-
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+2583
+tio occurred in winter, and the ratio was often larger than 2,
+such as in Shanghai (6.35) (Zhao et al., 2015) and Nanjing
+(2.8) (Li et al., 2015), consistent with our current results in
+Changzhou.
+3.5
+Particulate PAHs analysis with GC-MS and
+SP-AMS
+The average concentrations of the 18 individual PAH and to-
+tal PAHs (6PAHs) in winter and spring are listed in Table 4.
+It can be seen that InP (% of total PAH: 12.6–14.8 %), BghiP
+(10.8–12.3 %), and Chr (10.4–11.0 %) were the three most
+abundant PAH species, followed by BbF (8.69–9.39 %), BaP
+(7.37–8.29 %), BeP (5.83–8.61 %), and BaA (4.53–8.27 %).
+The 6 PAHs in PM2.5 were found in the range of 14.0–
+365.7 ng m−3 (mean: 140.25 ng m−3) and 8.9–91.3 ng m−3
+(mean: 41.42 ng m−3) during winter and spring, respectively.
+The 6PAHs concentrations in this study are higher than
+those reported in Zhenzhou (39 and 111 ng m−3 in spring
+and winter) (Wang et al., 2014) and Shanghai (13.7 ng m−3
+in spring) (Wang et al., 2015), but lower than that reported
+in Liaoning Province (75–1900 ng m−3) (Kong et al., 2010).
+PAHs with medium (four rings) and high molecular weights
+(ﬁve to six rings) (MMW and HMW) occupied the majority
+of the PAHs (88.9 % in winter and 79.4 % in spring). It is
+well known that MMW and HMW PAHs are usually asso-
+ciated with coal combustion and vehicular emissions (Wang
+et al., 2015). A prior study in Nanjing (He et al., 2014) also
+showed the signiﬁcant contribution of trafﬁc exhaust to some
+PAHs, including BbF, Chr, Flu, InP, BeP, and BghiP, which
+in total accounted for more than 53 % of the total PAHs.
+The
+diagnostic
+ratios
+of
+selected
+PAHs,
+including
+BaP / BghiP,
+Flua / (Flua+Pyr),
+BaP / (BaP+Chr),
+and
+Phe / (Ant+Phe) can be used to further distinguish the
+emission sources of PAHs (Szabó et al., 2015). As suggested
+previously (Feng et al., 2015; Saldarriaga-Noreña et al.,
+2015), the trafﬁc source was characterized by a ratio of
+BaP / BghiP > 0.6, and ratios of Flua / (Flua+Pyr) < 0.4,
+0.4–0.5, and > 0.5 suggest sources of petrogenic, fossil fuel
+combustion, and coal/wood combustion, respectively. In
+this work, the Bap / BghiP ratios of 0.61 (winter) and 0.76
+(spring) and the Flua / (Flua+Pyr) ratios of 0.47 (winter)
+and 0.50 (spring) all suggest that local vehicular/fossil fuel
+combustion emissions could be a prominent contributor
+to particulate PAHs, and the contribution from long-range
+transport was thus minor. Meanwhile, BaP / (BaP+Chr)
+ratios of 0.40 (winter) and 0.44 (spring) also point to the
+source of gasoline emission (Khalili et al., 1995). However,
+the Phe / (Ant+Phe) ratios of 0.89 (winter) and 0.86 (spring)
+indicate that the coal combustion might also be an important
+source of PAHs.
+On the other hand, by using the SP-AMS, we also iden-
+tiﬁed a series of PAH ions, i.e., C16H+
+10 (m/z 202), C17H+
+12
+(m/z 216), C18H+
+10 (m/z 226), C18H+
+12 (m/z 228), C19H+
+12
+(m/z 240), C19H+
+14 (m/z 242), C20H+
+10 (m/z 250), C20H+
+12
+(m/z 252), C21H+
+12 (m/z 264), C21H+
+14 (m/z 266), C22H+
+12
+(m/z 276), C23H+
+12 (m/z 288), C23H+
+14 (m/z 290), C24H+
+12
+(m/z 300), C24H+
+14 (m/z 302), C25H+
+16 (m/z 316), C26H+
+14
+(m/z 326), and C26H+
+16 (m/z 328) (Dzepina et al., 2007).
+Note that many PAH ions identiﬁed by the SP-AMS were
+not measured by the GC-MS, and the PAH compound DBA
+which is determined by the GC-MS was not detected by the
+SP-AMS. This result reﬂects the different sensitivities and re-
+sponses to the particle-bound PAHs of these two techniques.
+Table 5 shows the correlation (r) coefﬁcients of the concen-
+trations of a few selected PAHs and the mass ratios of their
+concentrations measured by both the GC-MS and SP-AMS
+(results for the SP-AMS were based on measurements of all
+samples, while results for the GC-MS were for 23 samples
+in winter and spring). It can be seen that the concentrations
+of GC-MS-determined PAHs correlated very well with each
+other (r > 0.92), while the mass loadings determined by the
+SP-AMS correlated relatively weakly. Also, the mass ratios
+determined from these two instruments were different. The
+inconsistencies may be for the following reasons: (1) SP-
+AMS broke the parent PAH molecules into fragments due to
+70 ev EI; thus, the concentration of a speciﬁc PAH ion from
+the SP-AMS cannot represent its corresponding parent PAH
+compound, while the GC-MS determined the concentration
+of molecular PAH compound; (2) one PAH ion in the SP-
+AMS high-resolution mass spectra (HRMS) may be a com-
+bination of a few PAH compounds with the same molecular
+weights; (3) sensitivities and responses to the different PAHs
+of the SP-AMS may be different, and thus may lead to uncer-
+tainties in the PAH quantiﬁcation. Nevertheless, combining
+GC-MS and SP-AMS to improve the PAH measurements by
+the SP-AMS is valuable, and will be the subject of our future
+work.
+3.6
+Source apportionment of WSOA
+3.6.1
+WSOA mass spectral proﬁle
+To gain further insights into the particulate OA characteris-
+tics, we performed the SP-AMS analyses on the water ex-
+tract of the PM2.5 samples, with a focus on OA. The averaged
+HRMS of WSOA classiﬁed by six ion categories and ﬁve el-
+ements are shown in Fig. 9, and the corresponding inset pie
+charts represent the mass percentages of the ion families and
+elements, respectively. As illustrated in Fig. 9a, the CxH+
+y ion
+family accounts for 386.2 % of the WSOA HRMS, followed
+by CxHyO+ (28.5 %), CxHyN+
+p (17.7 %), and CxHyO+
+2
+(11.2 %). It is worth mentioning that we found that the
+CxHyN+
+p ions contributed signiﬁcantly, and the organic N
+(ON) could occupy 6.4 % of the total WSOA mass (Fig. 9b).
+The average concentration of water-soluble organic nitro-
+gen (WSON) over the sampling period was 1.16 µg N m−3
+(83.0 nmol N m−3), which is in fact much lower than those
+measured in Beijing (226 nmol N m−3) (Duan et al., 2009),
+Qingdao (129–199 nmol N m−3) (Shi et al., 2010), and Xi’an
+www.atmos-chem-phys.net/17/2573/2017/
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+
+2584
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+Table 4. Mean concentration (ng m−3) and mass fractions (%) of individual PAH to the total PAHs.
+PAH compounds
+Number of rings
+Molecular formula
+and molecular weight
+(MW)
+Winter
+Spring
+Conc.
+(ng m−3)
+% of total
+Conc.
+(ng m−3)
+% of total
+NaP
+2 rings
+C10H8,128
+10.12
+7.22
+2.60
+6.28
+Acy
+Ace
+Flu
+Phe
+Ant
+3 rings
+C12H8,152
+C12H10,154
+C13H10,166
+C14H10,178
+C14H10,178
+0.16
+0.15
+1.19
+3.54
+0.46
+0.12
+0.11
+0.85
+2.52
+0.33
+0.08
+0.34
+1.70
+3.24
+0.54
+0.20
+0.83
+4.11
+7.83
+1.31
+Flua
+Pyr
+BaA
+Chr
+4 rings
+C16H10,202
+C16H10,202
+C18H12, 228
+C18H12, 228
+8.05
+8.93
+11.6
+15.41
+5.74
+6.37
+8.27
+11.0
+2.57
+2.43
+1.88
+4.32
+6.21
+5.87
+4.53
+10.43
+BbF+BjF
+BkF
+BaP
+BeP
+DBA
+5 rings
+C20H12, 252
+C20H12, 252
+C20H12, 252
+C20H12, 252
+C22H14, 278
+12.19
+5.58
+10.33
+12.08
+2.53
+8.69
+3.98
+7.37
+8.61
+1.8
+3.89
+1.87
+3.43
+2.42
+0.42
+9.39
+4.50
+8.29
+5.83
+1.02
+InP
+BghiP
+6 rings
+C22H12, 276
+C22H12, 276
+20.74
+17.18
+14.8
+12.3
+5.23
+4.46
+12.62
+10.76
+LMW-PAHs
+MMW-PAHs
+HMW-PAHs
+2–3 rings
+4 rings
+5–6 rings
+15.62
+43.99
+80.63
+11.1
+31.4
+57.5
+8.50
+11.20
+21.72
+20.6
+27.0
+52.4
+6PAHs
+140.25
+100.0
+41.42
+100.0
+Table 5. Cross-correlation coefﬁcients (r) of the measured concentrations of the PAH species and ratios of the mean concentrations between
+these species from GC-MS (bold) and SP-AMS (italic).
+PAHs
+C16H10
+C18H12
+C20H12
+C22H12
+Ratio (GC-MS)
+Ratio (SP-AMS)
+C16H10
+1
+–0.250
+–0.062
+–0.140
+C16H10 / C16H10 = 1
+C16H +
+10/C16H +
+10 = 1
+C18H12
+0.952
+1
+0.572
+0.528
+C16H10 / C18H12 = 0.84
+C16H +
+10 /C18H +
+12 = 0.43
+C20H12
+0.936
+0.994
+1
+0.771
+C16H10 / C20H12 = 0.36
+C16H +
+10 /C20H +
+12 = 0.56
+C22H12
+0.925
+0.986
+0.993
+1
+C16H10 / C22H12 = 0.35
+C16H +
+10 /C22H +
+12 = 1.17
+C16H10: Flua+Pyr; C18H10: BaA+Chr; C20H12: BbF+BjF+BkF+BaP+BeP;
+C22H12: BghiP+InP+DBA
+(300 nmol N m−3) (Ho et al., 2015). The concentration of
+water-soluble inorganic nitrogen (WSIN, N from ammo-
+nium, nitrate, and nitrite) was 14.0 µg N m−3 based on Ta-
+ble 3, and thus the WSON content corresponds to 7.7 % of
+water-soluble nitrogen (WSN = WSON + WSIN). These
+values are also much lower than those in Beijing (∼30 %)
+(Duan et al., 2009), Qingdao (19–22.6 %), and Xi’an (22–
+68 %) (Ho et al., 2015).
+Nevertheless, the levels of ON measured here are a
+few times higher than those observed in other locations
+from AMS measurements (typically 1–3 %) (Xu et al.,
+2014), likely for the following reasons. First, previous stud-
+ies were online measurements on non-refractory submi-
+cron aerosols, while it is likely that the supermicron ﬁne
+particles (1–2.5 µm) contain signiﬁcant nitrogen-containing
+species, as observed before for marine aerosols (Violaki
+and Mihalopoulos, 2010). Secondly, we measured only the
+water-soluble fraction of OA, which may concentrate more
+nitrogen-containing species (partially from aqueous-phase
+processing). Thirdly, a recent study reveals that fossil fuel
+combustion-related emission can be a dominant source of
+ammonia in urban areas (Pan et al., 2016); it thus can act
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+2585
+12
+10
+8
+6
+4
+2
+0
+% of total
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+m/z  (amu)
+     O/C = 0.54
+     H/C = 1.69
+     N/C = 0.11
+OM/OC = 1.99
+CxHy CxHyO1 CxHyO2
+HyO1 CxHyNpCxHyOzNp
+(a)
+ 36.2 % 
+ 28.5 % 
+ 11.2 % 
+ 2.1 % 
+ 17.9 % 
+ 4.1 % 
+8
+6
+4
+2
+0
+% of total signal
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+m/z (amu)
+ C
+ H
+ O
+ N
+ S
+(b)
+ 50.2 % 
+ 7.1 % 
+ 36.1 % 
+ 6.4 % 
+ 0.2 % 
+Figure 9. (a) High-resolution mass spectral proﬁle of the WSOA
+measured by the SP-AMS (the mass spectrum is classiﬁed and col-
+ored by six ion families; the pie chart shows the mass contributions
+of each ion family to the total MS). (b) Average mass spectrum clas-
+siﬁed by ﬁve elements (C, H, O, N, and S) (the inset pie chart shows
+mass contributions of the ﬁve elements, respectively).
+as a signiﬁcant contributor to amines, as amines are often
+co-emitted with ammonia (Ge et al., 2011b); these amines
+can be neutralized by inorganic or organic acids and, since
+aminium salts are highly hygroscopic (Ge et al., 2011a),
+they might be enriched in the WSOA and generate signif-
+icant CxHyN+
+p ions. Nevertheless, more AMS analyses on
+the water-extracted PM2.5 samples collected from other lo-
+cations should be conducted to further verify the abundance
+of ON species in the AMS mass spectra of the WSOA.
+Overall, the average elemental ratios of the WSOA are
+0.54 for O / C, 1.69 for H / C, 0.11 for N / C, and 1.99
+for OM / OC (Fig. 9a). WSOA is on average comprised of
+50.2 % C, 7.1 % H, 36.1 % O, 6.4 % N, and a negligible frac-
+tion (0.2 %) of S (Fig. 9b).
+3.6.2
+WSOA sources from PMF analysis
+The PMF analysis of the WSOA HRMS matrix identiﬁed
+four OA factors – including two primary OA (POA) factors,
+named nitrogen-enriched hydrocarbon-like OA (NHOA) and
+local primary OA (LOA), and two secondary OA factors,
+which are a less oxidized oxygenated OA (LO-OOA) and
+a more oxidized oxygenated OA (MO-OOA), as shown in
+Fig. 10.
+The NHOA factor had a low O / C ratio (0.19) and was
+abundant in CxH+
+y ions (33.8 %), and the NHOA time se-
+ries also varied closely with those ions, representing its fea-
+tures as trafﬁc-related OA. In particular, the factor was rich
+in CxHyN+
+p ions (43.1 %); as a result, it shows a much
+higher N / C ratio (0.26, Fig. 10a) than other factors, and
+correlated well with CHN+ (r = 0.91), CH4N+ (r = 0.95),
+CH2N+ (r = 0.85), and C2H4N+ (r = 0.87) (Fig. 10b).
+The N-containing ions in the NHOA MS were dominated
+by the reduced ions (CxHyN+) rather than oxidized ones
+(CxHyOzN+), suggesting that amino compounds were likely
+the major ON species, and were inconsistent with our hy-
+pothesis aforementioned in Sect. 3.6.1 that they were mainly
+from fossil fuel combustion emissions. Nevertheless, future
+studies should be conducted to investigate in detail the con-
+tribution of fossil fuel combustion to the atmospheric ON
+species.
+Another primary OA factor was deﬁned as a local pri-
+mary OA (LOA) which contains contributions from mixed
+anthropogenic emissions, such as cooking and coal com-
+bustion. LOA had a low O / C ratio of 0.19 and also con-
+tained mainly reduced CxH+
+y ions (60.8 %), verifying its pri-
+mary origin. Note that its mass proﬁle is characterized by
+peaks at m/z 55 (signiﬁcant C3H3O+) and m/z 57 (signif-
+icant C3H5O+). The abundance of C3H3O+ at m/z 55 and
+C3H5O+ at m/z 57 is a spectral feature of cooking OA, and
+the overall COA MS and O / C ratios are also similar to the
+COA factors reported in other studies, such as in Beijing.
+The LOA time series also correlated well with other cooking-
+related marker ions, such as C5H8O+(r = 0.76), C6H10O+
+(r = 0.74), and C7H12O+ (r = 0.67), consistent with the
+cooking OA from many previous studies (e.g., Y.-L. Sun et
+al., 2011; Ge et al., 2012a). All these results indicate that the
+LOA may have signiﬁcant contributions from cooking activ-
+ities. However, the ratio of LOA / C6H10O+ (622.0) in this
+study was much higher than that obtained in winter in Fresno
+and New York City (∼180), and its mass fraction to the total
+OA was also a few times higher than previous results, sug-
+gesting that it contains species from other primary sources
+rather than only cooking emissions.
+The LO-OOA MS proﬁle exhibited characteristics of ox-
+idized OA, with enhanced signals at m/z 29 (CHO+) and
+m/z 43 (mainly C2H3O+) and other oxygenated ions. Tight
+correlations between time series of LO-OOA and CHO+(r =
+0.92), and C2H3O+ (r = 0.73), were also observed. More-
+over, we also noticed relatively high signals of the BBOA
+tracer ions C2H4O+
+2 and C3H5O+
+2 in the LO-OOA MS, and
+found good correlations between LO-OOA and BBOA trac-
+ers (r = 0.87 with C2H4O+
+2 and r = 0.93 with C3H5O+
+2 ), in-
+dicating the possible inﬂuence of biomass burning. Thus, we
+compared the mass fraction of LO-OOA to total OA in dif-
+ferent seasons, assuming that LO-OOA contributions would
+increase in straw-burning seasons given that it could be in-
+ﬂuenced by BBOA. Figure S6 showed the mass fractions of
+four factors during the straw-burning seasons (spring, sum-
+mer) and the non-straw burning seasons (fall, winter). No
+obvious difference for the LO-OOA fraction was found. Fur-
+thermore, the O / C and OM / OC ratios were 0.53 and 1.95,
+corresponding to 0.34 and 1.62 if calculated by using the
+method of Aiken et al. (2008), well within the O / C range of
+less-oxidized OA factors identiﬁed in other studies (Jimenez
+www.atmos-chem-phys.net/17/2573/2017/
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+
+2586
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+16
+12
+8
+4
+0
+0.2
+0.1
+C3H5O
++
+0.4
+0.2
+C3H3O
++
+0.8
+0.4
+0.0
+C4H7
++
+0.03
+0.02
+0.01
+0.00
+C5H8O
++
+LOA vs. C H O    r = 0.68    C H O     r = 0.69
+3
+5
++
+3
+3
++
+               C H
+4
+7
++      r = 0.84    C H O     r = 0.76
+5
+8
++
+               
+                 
+(b)
+10
+8
+6
+4
+2
+0
+6
+3
+0
+HO
++
+0.4
+0.2
+C2H4O2
++
+1.6
+0.8
+0.0
+C2H3O
++
+0.14
+0.07
+0.00
+C3H5O2
++
+LO-OOA vs. CHO       r = 0.92    C H O      r = 0.73
++
+2
+3
++
+                   C H O
+2
+4
+2
++     r = 0.87    C H O     r = 0.93
+3
+5
+2
++
+               
+                 
+15
+10
+5
+0
+6
+4
+2
+0
+CO2
++
+0.5
+0.0
+C2H4O
++
+1.6
+0.8
+0.0
+C2H3O
++
+MO-OOA vs.  CO2
++      r = 0.93    C H O   r = 0.73
+2
+3
++
+                      C H O   r = 0.67
+2
+4
++
+                     
+12
+8
+4
+0
+09/15/2015 11/14/2015
+Date
+1.5
+1.0
+0.5
+0.0
+CHN
++
+1.5
+1.0
+0.5
+0.0
+CH2N
++
+1.0
+0.5
+0.0
+CH4N
++
+03/13/2016
+dat
+NHOA vs.  CHN    r = 0.91        CH N    r = 0.85 
++
+2
++
+                 CH N    r = 0.95 
+4
++
+               
+10
+5
+0
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+m/z  (amu)
+20
+10
+0
+10
+5
+0
+8
+6
+4
+2
+0
+NHOA
+O/C = 0.19, H/C = 1.91, N/C = 0.26, OM/OC = 1.72
+MO-OOA
+O/C = 1.20, H/C = 1.28, N/C = 0.05, OM/OC = 2.77
+LO-OOA
+O/C = 0.53, H/C = 1.95, N/C = 0.09, OM/OC = 1.98
+LOA
+O/C = 0.19, H/C = 1.78, N/C = 0.050, OM/OC = 1.46
+% of total
+CxHy CxHyO1 CxHyO2CxHyNpCxHyOzNp 
+(a)
+Figure 10. (a) High-resolution mass spectra of nitrogen-enriched hydrocarbon-like OA (NHOA), local primary OA (LOA), less-oxidized
+OA (LO-OOA), and more-oxidized OA (MO-OOA) separated by the PMF analyses, colored by six ion categories; (b) time series of the four
+WSOA factors, and corresponding tracer ions.
+et al., 2009), but beyond the O / C range of typical BBOA
+(0.18–0.26) (He et al., 2010).
+The MO-OOA factor had prominent peaks at m/z28
+(mainly CO+) and m/z 44 (mainly CO+
+2 ), and was dom-
+inated by CxHyO+
+1 (36.6 %) and CxHyO+
+2 ions (29.0 %)
+(Fig. 10a). As a result, MO-OOA had a very high O / C ratio
+of 1.20, showing that it is a heavily aged and processed OA
+component. Correspondingly, its time series correlated well
+with the secondary OA tracer ions, such as CO+
+2 (r = 0.93),
+C2H4O+ (r = 0.67), and C2H3O+ (r = 0.73) (Fig. 10b).
+The f44 (mass fraction of m/z 44 to the total OA) vs. f43
+(mass fraction of m/z 43 to the total OA, deﬁned by Ng
+et al., 2010) can be used to investigate the degree of oxy-
+genation of the identiﬁed factors. As presented in Fig. 11a,
+apart from NHOA, another three factors (LOA, LO-OOA,
+and MO-OOA) all fall within the triangular region. MO-
+OOA is located in the upper position with a higher f44 of
+0.28, while LO-OOA is located in the lower position of the
+plot, as it had a high fraction of f43 (0.09). This distribution
+of the four factors is also consistent with other studies.
+The mass contributions of the four factors to total WSOA
+over the whole year are 23.9 % for NHOA, 31.2 % for LOA,
+15.3 % for LO-OOA and 29.7 % for MO-OOA (Fig. 11b).
+POA (= NHOA + LOA) overweighed SOA (= LO-OOA +
+MO-OOA) mass, showing the dominant role of local anthro-
+pogenic emissions in the aerosol pollution in Changzhou,
+similar to that observed in Nanjing (J. Wang et al., 2016a).
+However, during spring and winter, SOA contributions dom-
+inated over POA, indicating signiﬁcant SOA formation, in
+particular the MO-OOA during cold seasons, which is in
+agreement with the OC / EC results.
+3.7
+Back trajectory clustering analysis
+The Hybrid Single-particle Lagrangian Integrated Trajectory
+(HYSPLIT) model (Draxler et al., 2012) was used to inves-
+tigate the origins of air masses based on the meteorologi-
+cal data available at the National Oceanic and Atmospheric
+Administration (NOAA) Global Data Assimilation System
+(GDAS). The 72 h back trajectories of air parcels at 100 m
+above ground level in Changzhou were calculated at 08:00
+local time (LT) throughout the campaign, and the results
+were presented in Fig. 12. The four-, ﬁve-, four-, and four-
+cluster solutions were adopted for spring, summer, fall, and
+winter, respectively. During summer, air masses from the
+southeasterly, easterly, and westerly directions, passing over
+Anhui and Jiangxi provinces and Shanghai, dominated the
+trajectories’ (75 %) air masses. Westerly and northwesterly
+air parcels dominated during winter, which may intercept air
+pollutants from Mongolia, Beijing and Shandong Province.
+Considering the relatively short sampling days in each sea-
+son, a more detailed discussion that is useful for distinguish-
+ing contributions of local, regional, and long-range transport
+to the air pollution will be the subject of our future work.
+4
+Conclusions
+We presented here the comprehensive characterization re-
+sults on the PM2.5 samples collected across nearly 1 year in
+Changzhou, located in the YRD region of China. The species
+we quantiﬁed, including WSIIs, trace metals, EC, WSOA,
+WIOA, and also PAHs, can reproduce on average ∼80 % of
+the mass of the PM2.5 (108.3 µg m−3). WSIIs were the ma-
+jor component, accounting for 52.1 % of PM2.5 mass, and
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+2587
+ 24.5 % 
+ 27.3 % 
+ 20.9 % 
+ 27.3 % 
+Summer
+ 27.6 % 
+ 10.9 % 
+ 19.9 % 
+Spring
+ 
+41.6 % 
+ 26.8 % 
+ 25.6 % 
+ 12.5 % 
+ 35.0 % 
+Fall
+ 19.1 % 
+ 30.2 % 
+ 22.1 % 
+ 28.6 % 
+Winter
+(b)
+ 23.9 % 
+ 29.7 % 
+ 15.3 % 
+LOA
+NHOA
+MO-OOA
+ 31.2 % 
+LO-OOA
+Annual (2015±2016)
+ 
+0.30
+0.25
+0.20
+0.15
+0.10
+0.05
+0.00
+f44 (m/z44/org)
+0.20
+0.15
+0.10
+0.05
+0.00
+f43 (m/z43/Org)
+09/01/2015
+11/01/2015
+01/01/2016
+03/01/2016
+ Date 
+NHOA
+LO-OOA
+MO-OOA
+LOA
+(a)
+Figure 11. (a) Triangle plot of f44 vs. f43 for all WSOA, and the four WSOA factors identiﬁed by the PMF analyses; (b) pie charts of the
+mass contributions of four WSOA factors to the total WSOA in four seasons and the whole sampling period.
+Figure 12. Air mass back trajectories across four seasons during the sampling period.
+NO−
+3 , SO2−
+4 , and NH+
+4 were the three most abundant ions.
+The organic matter (the sum of WSOA and WIOA) occupied
+21.5 % of PM2.5 mass, and EC accounted for ∼5 % of PM2.5
+mass. Trace metal elements accounted for ∼5 and ∼2.7 %
+of PM2.5 mass during winter and spring. Total PAH concen-
+trations were found to be at a relatively high concentration
+of 140.25 ng m−3 in winter, above 3 times the average mass
+loading of 41.42 ng m−3 in spring, both with InP, BghiP, and
+Chr as the three most abundant PAHs. The average mass ra-
+tio of NO−
+3 / SO2−
+4
+was 1.21, suggesting a signiﬁcant role of
+trafﬁc emissions, which is consistent with the source analysis
+results based on the diagnostic ratios of the selected PAHs
+www.atmos-chem-phys.net/17/2573/2017/
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+
+2588
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+(BaP / BghiP, Flua / (Flua+Pyr), and BaP / (BaP+Chr)). In
+addition, a high Cl−/ Na+ ratio and the diagnostic ratio
+of Phe / (Ant+Phe) also indicated a contribution from coal
+combustion, in particular during winter.
+In order to obtain further information regarding the parti-
+cle source, we analyzed the WSOA using SP-AMS and con-
+ducted PMF analyses of the HRMS of WSOA. Four OA fac-
+tors, including NHOA, LOA, LO-OOA, and MO-OOA, were
+identiﬁed. The mean mass contribution of POA was larger
+than that of SOA, revealing that local anthropogenic activ-
+ities are the major drivers of PM pollution in Changzhou.
+Nevertheless, during cold seasons, SOA mass contribution
+increased, indicating a signiﬁcant role of secondarily formed
+species as well; thus, reduction of air pollution in Changzhou
+should focus on the strict emission control of both primary
+particles and the gaseous secondary aerosol precursors. One
+interesting ﬁnding in this work is the enrichment of organic
+nitrogen species in WSOA, and source analysis indicates that
+trafﬁc emissions can be a signiﬁcant contributor to these
+species, which warrants more detailed investigations in the
+future. Also, more ofﬂine samples should be collected to
+achieve a more robust PMF analysis. Simultaneous online
+AMS measurement of the ﬁne particles and measurements
+of gaseous species (SO2, NO2, O3, CO and some volatile or-
+ganic compounds) are also essential to better understand the
+aerosol characteristics and to implement proper measures to
+abate the air pollution in this region.
+5
+Data availability
+The data presented in this study are available from
+the authors upon request (bess_ye@jsut.edu.cn and cax-
+inra@163.com).
+The Supplement related to this article is available online
+at doi:10.5194/acp-17-2573-2017-supplement.
+Competing interests. The authors declare that they have no conﬂict
+of interest.
+Acknowledgements. This work was supported by the Natural
+Science Foundation of China (grant nos. 21407079 and 91544220),
+the Jiangsu National Science Foundation (BK20150042), the
+Specially-Appointed Professors Foundation and Jiangsu Innovation
+and Entrepreneurship Program (for Xinlei Ge), and the Major
+Research Development Program of Jiangsu Province (BE2016657
+and BY2016030-15). We would also like to acknowledge Gang Li
+from the Chinese Academy of Science for providing us with the
+OC / EC measurements.
+Edited by: A. Ding
+Reviewed by: two anonymous referees
+References
+Aiken, A. C., Decarlo, P. F., Kroll, J. H., Worsnop, D. R., Huff-
+man, J. A., Docherty, K. S., Ulbrich, I. M., Mohr, C., Kimmel,
+J. R., Sueper, D., Sun, Y., Zhang, Q., Trimborn, A., Northway,
+M., Ziemann, P. J., Canagaratna, M. R., Onasch, T. B., Alfarra,
+M. R., Prevot, A. S. H., Dommen, J., Duplissy, J., Metzger, A.,
+Baltensperger, U., and Jimenez, J. L.: O/C and OM/OC ratios
+of primary, secondary, and ambient organic aerosols with high-
+resolution time-of-ﬂight aerosol mass spectrometry, Environ.
+Sci. Technol., 42, 4478–4485, doi:10.1021/Es703009q, 2008.
+Anderson, J. O., Thundiyil, J. G., and Stolbach, A.: Clearing the air:
+A review of the effects of particulate matter air pollution on hu-
+man health, J. Med. Toxicol., 8, 166–175, doi:10.1007/s13181-
+011-0203-1, 2012.
+Arimoto, R., Duce, R. A., Savoie, D. L., Prospero, J. M., Talbot, R.,
+Cullen, J. D., Tomza, U., Lewis, N. F., and Ray, B. J.: Relation-
+ships among aerosol constituents from Asia and the North Paciﬁc
+during PEM-West A, J. Geophys. Res.-Atmos., 101, 2011–2023,
+doi:10.1029/95JD01071, 1996.
+Bozzetti, C., Sosedova, Y., Xiao, M., Daellenbach, K. R., Ulevicius,
+V., Dudoitis, V., Mordas, G., Bycenkiene, S., Plauškaite, K., Vla-
+chou, A., Golly, B., Chazeau, B., Besombes, J.-L., Baltensperger,
+U., Jaffrezo, J.-L., Slowik, J. G., El Haddad, I., and Prévôt, A. S.
+H.: Argon ofﬂine-AMS source apportionment of organic aerosol
+over yearly cycles for an urban, rural, and marine site in northern
+Europe, Atmos. Chem. Phys., 17, 117–141, doi:10.5194/acp-17-
+117-2017, 2017.
+Canagaratna, M. R., Jayne, J. T., Jimenez, J. L., Allan, J. D., Al-
+farra, M. R., Zhang, Q., Onasch, T. B., Drewnick, F., Coe, H.,
+Middlebrook, A., Delia, A., Williams, L. R., Trimborn, A. M.,
+Northway, M. J., DeCarlo, P. F., Kolb, C. E., Davidovits, P., and
+Worsnop, D. R.: Chemical and microphysical characterization
+of ambient aerosols with the aerodyne aerosol mass spectrome-
+ter, Mass Spectrom. Rev., 26, 185–222, doi:10.1002/Mas.20115,
+2007.
+Canagaratna, M. R., Jimenez, J. L., Kroll, J. H., Chen, Q., Kessler,
+S. H., Massoli, P., Hildebrandt Ruiz, L., Fortner, E., Williams, L.
+R., Wilson, K. R., Surratt, J. D., Donahue, N. M., Jayne, J. T.,
+and Worsnop, D. R.: Elemental ratio measurements of organic
+compounds using aerosol mass spectrometry: characterization,
+improved calibration, and implications, Atmos. Chem. Phys., 15,
+253–272, doi:10.5194/acp-15-253-2015, 2015.
+Cao, J. J., Xu, H. M., Xu, Q., Chen, B. H., and Kan, H. D.: Fine par-
+ticulate matter constituents and cardiopulmonary mortality in a
+heavily polluted Chinese city, Environ. Health Persp., 120, 373–
+378, doi:10.1289/ehp.1103671, 2012.
+Cheng, Y., He, K. B., Du, Z. Y., Zheng, M., Duan, F. K.,
+and Ma, Y. L.: Humidity plays an important role in the
+PM2.5 pollution in Beijing, Environ. Pollut., 197, 68–75,
+doi:10.1016/j.envpol.2014.11.028, 2015.
+Chow, J. C., Watson, J. G., Chen, L. W. A., Arnott, W. P., Moos-
+müller, H., and Fung, K.: Equivalence of elemental carbon
+by thermal/optical reﬂectance and transmittance with different
+temperature protocols, Environ. Sci. Technol., 38, 4414–4422,
+doi:10.1021/es034936u, 2004.
+Chow, J. C., Watson, J. G., Louie, P. K., Chen, L. W., and
+Sin, D.: Comparison of PM2.5 carbon measurement meth-
+ods in Hong Kong, China, Environ. Pollut., 137, 334–344,
+doi:10.1016/j.envpol.2005.01.006, 2005.
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+2589
+Daellenbach, K. R., Bozzetti, C., Krepelová, A., Canonaco, F.,
+Wolf, R., Zotter, P., Fermo, P., Crippa, M., Slowik, J. G., Sose-
+dova, Y., Zhang, Y., Huang, R.-J., Poulain, L., Szidat, S., Bal-
+tensperger, U., El Haddad, I., and Prévôt, A. S. H.: Character-
+ization and source apportionment of organic aerosol using of-
+ﬂine aerosol mass spectrometry, Atmos. Meas. Tech., 9, 23–39,
+doi:10.5194/amt-9-23-2016, 2016.
+Ding, A. J., Fu, C. B., Yang, X. Q., Sun, J. N., Zheng, L. F., Xie,
+Y. N., Herrmann, E., Nie, W., Petäjä, T., Kerminen, V.-M., and
+Kulmala, M.: Ozone and ﬁne particle in the western Yangtze
+River Delta: an overview of 1 yr data at the SORPES station,
+Atmos. Chem. Phys., 13, 5813–5830, doi:10.5194/acp-13-5813-
+2013, 2013.
+Draxler, R., Stunder, B., Rolph, G., Stein, A., and Taylor, A.: HYS-
+PLIT4 user’s guide, version 4, report, NOAA, Silver Spring, MD,
+2012.
+Drewnick,
+F.:
+Speciation
+analysis
+in
+on-line
+aerosol
+mass
+spectrometry,
+Anal.
+Bioanal.
+Chem.,
+404,
+2127–2131,
+doi:10.1007/s00216-012-6295-x, 2012.
+Duan, F., Liu, X., He, K., and Dong, S.: Measurements and charac-
+teristics of nitrogen-containing compounds in atmospheric par-
+ticulate matter in Beijing, China, B. Environ. Contam. Tox., 82,
+332–337, doi:10.1007/s00128-008-9560-0, 2009.
+Duan, J., Tan, J., Wang, S., Chai, F., He, K., and Hao, J.: Roadside,
+urban, and rural comparison of size distribution characteristics of
+PAHs and carbonaceous components of Beijing, China, J. Atmos.
+Chem., 69, 337–349, doi:10.1007/s10874-012-9242-5, 2012.
+Dzepina, K., Arey, J., Marr, L. C., Worsnop, D. R., Sal-
+cedo, D., Zhang, Q., Onasch, T. B., Molina, L. T., Molina,
+M. J., and Jimenez, J. L.: Detection of particle-phase poly-
+cyclic aromatic hydrocarbons in Mexico City using an aerosol
+mass spectrometer, Int. J. Mass Spectrom., 263, 152–170,
+doi:10.1016/j.ijms.2007.01.010, 2007.
+Fan, J., Yue, X., Jing, Y., Chen, Q., and Wang, S.: Online moni-
+toring of water-soluble ionic composition of PM10 during early
+summer over Lanzhou City, J. Environ. Sci., 26, 353–361,
+doi:10.1016/s1001-0742(13)60431-3, 2014.
+Feng, J., Hu, J., Xu, B., Hu, X., Sun, P., Han, W., Gu, Z., Yu,
+X., and Wu, M.: Characteristics and seasonal variation of or-
+ganic matter in PM2.5 at a regional background site of the
+Yangtze River Delta region, China, Atmos. Environ., 123, 288–
+297, doi:10.1016/j.atmosenv.2015.08.019, 2015.
+Feng, Y., Chen, Y., Guo, H., Zhi, G., Xiong, S., Li, J., Sheng, G.,
+and Fu, J.: Characteristics of organic and elemental carbon in
+PM2.5 samples in Shanghai, China, Atmos. Res., 92, 434–442,
+doi:10.1016/j.atmosres.2009.01.003, 2009.
+Fu, H., Zhang, M., Li, W., Chen, J., Wang, L., Quan, X., and Wang,
+W.: Morphology, composition and mixing state of individual car-
+bonaceous aerosol in urban Shanghai, Atmos. Chem. Phys., 12,
+693–707, doi:10.5194/acp-12-693-2012, 2012.
+Ge,
+X.,
+Wexler,
+A.
+S.,
+and
+Clegg,
+S.
+L.:
+Atmospheric
+amines
+–
+Part
+II.
+Thermodynamic
+properties
+and
+gas/particle
+partitioning,
+Atmos.
+Environ.,
+45,
+561–577,
+doi:10.1016/j.atmosenv.2010.10.013, 2011a.
+Ge,
+X.,
+Wexler,
+A.
+S.,
+and
+Clegg,
+S.
+L.:
+Atmospheric
+amines – Part I. A review, Atmos. Environ., 45, 524–546,
+doi:10.1016/j.atmosenv.2010.10.012, 2011b.
+Ge, X., Setyan, A., Sun, Y., and Zhang, Q.: Primary and secondary
+organic aerosols in Fresno, California during wintertime: Results
+from high resolution aerosol mass spectrometry, J. Geophys.
+Res.-Atmos., 117, D19301, doi:10.1029/2012jd018026, 2012a.
+Ge, X., Zhang, Q., Sun, Y., Ruehl, C. R., and Setyan, A.: Effect of
+aqueous-phase processing on aerosol chemistry and size distribu-
+tions in Fresno, California, during wintertime, Environ. Chem.,
+9, 221–235, doi:10.1071/EN11168, 2012b.
+Ge, X., Shaw, S. L., and Zhang, Q.: Toward understanding amines
+and their degradation products from postcombustion CO2 cap-
+ture processes with aerosol mass spectrometry, Environ. Sci.
+Technol., 48, 5066–5075, doi:10.1021/es4056966, 2014.
+Ge, X., Wang, J., Zhang, Z., Wang, X., and Chen, M.: Ther-
+modynamic modeling of electrolyte solutions by a hybrid ion-
+interaction and solvation (HIS) model, Calphad, 48, 79–88,
+doi:10.1016/j.calphad.2014.11.001, 2015.
+Gu, J., Bai, Z., Liu, A., Wu, L., Xie, Y., Li, W., Dong, H., and Zhang,
+X.: Characterization of atmospheric organic carbon and element
+carbon of PM2.5 and PM10 at Tianjin, China, Aerosol Air Qual.
+Res., 10, 167–176, doi:10.4209/aaqr.2009.12.0080, 2010.
+Gu, J., Du, S., Han, D., Hou, L., Yi, J., Xu, J., Liu, G., Han, B.,
+Yang, G., and Bai, Z.-P.: Major chemical compositions, possi-
+ble sources, and mass closure analysis of PM2.5 in Jinan, China,
+Air Qual. Atmos. Health, 7, 251–262, doi:10.1007/s11869-013-
+0232-9, 2014.
+He, J., Fan, S., Meng, Q., Sun, Y., Zhang, J., and Zu, F.:
+Polycyclic aromatic hydrocarbons (PAHs) associated with ﬁne
+particulate matters in Nanjing, China: Distributions, sources
+and meteorological inﬂuences, Atmos. Environ., 89, 207–215,
+doi:10.1016/j.atmosenv.2014.02.042, 2014.
+He, L.-Y., Lin, Y., Huang, X.-F., Guo, S., Xue, L., Su, Q., Hu,
+M., Luan, S.-J., and Zhang, Y.-H.: Characterization of high-
+resolution aerosol mass spectra of primary organic aerosol emis-
+sions from Chinese cooking and biomass burning, Atmos. Chem.
+Phys., 10, 11535–11543, doi:10.5194/acp-10-11535-2010, 2010.
+Heal, M. R., Kumar, P., and Harrison, R. M.: Particles, air
+quality, policy and health, Chem. Soc. Rev., 41, 6606–6630,
+doi:10.1039/C2CS35076A, 2012.
+Ho, K. F., Ho, S. S. H., Huang, R.-J., Liu, S. X., Cao, J.-J., Zhang,
+T., Chuang, H.-C., Chan, C. S., Hu, D., and Tian, L.: Character-
+istics of water-soluble organic nitrogen in ﬁne particulate matter
+in the continental area of China, Atmos. Environ., 106, 252–261,
+doi:10.1016/j.atmosenv.2015.02.010, 2015.
+Hu,
+J.,
+Ying,
+Q.,
+Wang,
+Y.,
+and
+Zhang,
+H.:
+Character-
+izing multi-pollutant air pollution in China: Comparison
+of
+three
+air
+quality
+indices,
+Environ.
+Int.,
+84,
+17–25,
+doi:10.1016/j.envint.2015.06.014, 2015.
+Hu, W., Hu, M., Hu, W., Jimenez, J. L., Yuan, B., Chen, W.,
+Wang, M., Wu, Y., Chen, C., Wang, Z., Peng, J., Zeng, L.,
+and Shao, M.: Chemical composition, sources, and aging pro-
+cess of submicron aerosols in Beijing: Contrast between sum-
+mer and winter, J. Geophys. Res.-Atmos., 121, 2015JD024020,
+doi:10.1002/2015JD024020, 2016.
+Hu, X., Zhang, Y., Ding, Z., Wang, T., Lian, H., Sun, Y.,
+and Wu, J.: Bioaccessibility and health risk of arsenic and
+heavy metals (Cd, Co, Cr, Cu, Ni, Pb, Zn and Mn) in TSP
+and PM2.5 in Nanjing, China, Atmos. Environ., 57, 146–152,
+doi:10.1016/j.atmosenv.2012.04.056, 2012.
+Huang, R., Zhang, Y., Bozzetti, C., Ho, K., Cao, J., Han, Y., Dael-
+lenbach, K. R., Slowik, J. G., Platt, S. M., Canonaco, F., Zotter,
+P., Wolf, R., Pieber, S. M., Bruns, E. A., Crippa, M., Ciarelli,
+www.atmos-chem-phys.net/17/2573/2017/
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+
+2590
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+G., Piazzalunga, A., Schwikowski, M., Abbaszade, G., Schnelle-
+Kreis, J., Zimmermann, R., An, Z., Szidat, S., Baltensperger, U.,
+Haddad, I. E., and Prevot, A. S. H.: High secondary aerosol con-
+tribution to particulate pollution during haze events in China, Na-
+ture, 514, 218–222, doi:10.1038/nature13774, 2014.
+Huang, T., Chen, J., Zhao, W., Cheng, J., and Cheng, S.: Sea-
+sonal variations and correlation analysis of water-soluble in-
+organic ions in PM2.5 in Wuhan, 2013, Atmosphere, 7, 49,
+doi:10.3390/atmos7040049, 2016.
+Huang, X.-F., He, L.-Y., Hu, M., Canagaratna, M. R., Sun, Y.,
+Zhang, Q., Zhu, T., Xue, L., Zeng, L.-W., Liu, X.-G., Zhang,
+Y.-H., Jayne, J. T., Ng, N. L., and Worsnop, D. R.: Highly
+time-resolved chemical characterization of atmospheric submi-
+cron particles during 2008 Beijing Olympic Games using an
+Aerodyne High-Resolution Aerosol Mass Spectrometer, Atmos.
+Chem. Phys., 10, 8933–8945, doi:10.5194/acp-10-8933-2010,
+2010.
+Jimenez, J. L., Canagaratna, M. R., Donahue, N. M., Prevot, A. S.
+H., Zhang, Q., Kroll, J. H., DeCarlo, P. F., Allan, J. D., Coe,
+H., Ng, N. L., Aiken, A. C., Docherty, K. S., Ulbrich, I. M.,
+Grieshop, A. P., Robinson, A. L., Duplissy, J., Smith, J. D.,
+Wilson, K. R., Lanz, V. A., Hueglin, C., Sun, Y. L., Tian, J.,
+Laaksonen, A., Raatikainen, T., Rautiainen, J., Vaattovaara, P.,
+Ehn, M., Kulmala, M., Tomlinson, J. M., Collins, D. R., Cubi-
+son, M. J., Dunlea, E. J., Huffman, J. A., Onasch, T. B., Al-
+farra, M. R., Williams, P. I., Bower, K., Kondo, Y., Schnei-
+der, J., Drewnick, F., Borrmann, S., Weimer, S., Demerjian, K.,
+Salcedo, D., Cottrell, L., Grifﬁn, R., Takami, A., Miyoshi, T.,
+Hatakeyama, S., Shimono, A., Sun, J. Y., Zhang, Y. M., Dzepina,
+K., Kimmel, J. R., Sueper, D., Jayne, J. T., Herndon, S. C., Trim-
+born, A. M., Williams, L. R., Wood, E. C., Middlebrook, A. M.,
+Kolb, C. E., Baltensperger, U., and Worsnop, D. R.: Evolution
+of organic aerosols in the atmosphere, Science, 326, 1525–1529,
+doi:10.1126/science.1180353, 2009.
+Khalili, N. R., Scheff, P. A., and Holsen, T. M.: PAH source ﬁn-
+gerprints for coke ovens, diesel and, gasoline engines, highway
+tunnels, and wood combustion emissions, Atmos. Environ., 29,
+533–542, doi:10.1016/1352-2310(94)00275-P, 1995.
+Kong, S., Ding, X., Bai, Z., Han, B., Chen, L., Shi, J.,
+and Li, Z.: A seasonal study of polycyclic aromatic hydro-
+carbons in PM2.5 and PM2.5−10 in ﬁve typical cities of
+Liaoning Province, China, J. Hazard. Mater., 183, 70–80,
+doi:10.1016/j.jhazmat.2010.06.107, 2010.
+Kong, S., Li, X., Li, L., Yin, Y., Chen, K., Yuan, L., Zhang, Y., Shan,
+Y., and Ji, Y.: Variation of polycyclic aromatic hydrocarbons in
+atmospheric PM2.5 during winter haze period around 2014 Chi-
+nese Spring Festival at Nanjing: Insights of source changes, air
+mass direction and ﬁrework particle injection, Sci. Total Envi-
+ron., 520, 59–72, doi:10.1016/j.scitotenv.2015.03.001, 2015.
+Kulmala, M., Lappalainen, H. K., Petäjä, T., Kurten, T., Ker-
+minen, V. M., Viisanen, Y., Hari, P., Sorvari, S., Bäck, J.,
+Bondur, V., Kasimov, N., Kotlyakov, V., Matvienko, G., Bak-
+lanov, A., Guo, H. D., Ding, A., Hansson, H. C., and Zilitinke-
+vich, S.: Introduction: The Pan-Eurasian Experiment (PEEX) –
+multidisciplinary, multiscale and multicomponent research and
+capacity-building initiative, Atmos. Chem. Phys., 15, 13085–
+13096, doi:10.5194/acp-15-13085-2015, 2015.
+Lee, A. K. Y., Willis, M. D., Healy, R. M., Onasch, T. B., and Ab-
+batt, J. P. D.: Mixing state of carbonaceous aerosol in an urban
+environment: single particle characterization using the soot parti-
+cle aerosol mass spectrometer (SP-AMS), Atmos. Chem. Phys.,
+15, 1823–1841, doi:10.5194/acp-15-1823-2015, 2015.
+Li, B., Zhang, J., Zhao, Y., Yuan, S., Zhao, Q., Shen, G., and Wu, H.:
+Seasonal variation of urban carbonaceous aerosols in a typical
+city Nanjing in Yangtze River Delta, China, Atmos. Environ.,
+106, 223–231, doi:10.1016/j.atmosenv.2015.01.064, 2015.
+Liu, G., Li, J., Wu, D., and Xu, H.: Chemical composition and
+source apportionment of the ambient PM2.5 in Hangzhou, China,
+Particuology, 18, 135–143, doi:10.1016/j.partic.2014.03.011,
+2015.
+Meng, C. C., Wang, L. T., Zhang, F. F., Wei, Z., Ma, S.
+M., Ma, X., and Yang, J.: Characteristics of concentra-
+tions and water-soluble inorganic ions in PM2.5 in Handan
+City, Hebei province, China, Atmos. Res., 171, 133–146,
+doi:10.1016/j.atmosres.2015.12.013, 2016.
+Mihara, T. and Mochida, M.: Characterization of Solvent-
+Extractable Organics in Urban Aerosols Based on Mass Spec-
+trum Analysis and Hygroscopic Growth Measurement, Environ.
+Sci. Technol., 45, 9168–9174, doi:10.1021/es201271w, 2011.
+Mirante, F., Salvador, P., Pio, C., Alves, C., Artiñano, B., Ca-
+seiro, A., and Revuelta, M. A.: Size fractionated aerosol
+composition at roadside and background environments in
+the Madrid urban atmosphere, Atmos. Res., 138, 278–292,
+doi:10.1016/j.atmosres.2013.11.024, 2014.
+Ng, N. L., Canagaratna, M. R., Zhang, Q., Jimenez, J. L., Tian,
+J., Ulbrich, I. M., Kroll, J. H., Docherty, K. S., Chhabra, P.
+S., Bahreini, R., Murphy, S. M., Seinfeld, J. H., Hildebrandt,
+L., Donahue, N. M., DeCarlo, P. F., Lanz, V. A., Prévôt, A. S.
+H., Dinar, E., Rudich, Y., and Worsnop, D. R.: Organic aerosol
+components observed in Northern Hemispheric datasets from
+Aerosol Mass Spectrometry, Atmos. Chem. Phys., 10, 4625–
+4641, doi:10.5194/acp-10-4625-2010, 2010.
+Ng, N. L., Canagaratna, M. R., Jimenez, J. L., Zhang, Q., Ul-
+brich, I. M., and Worsnop, D. R.: Real-time methods for es-
+timating organic component mass concentrations from aerosol
+mass spectrometer data, Environ. Sci. Technol., 45, 910–916,
+doi:10.1021/Es102951k, 2011.
+Onasch, T. B., Trimborn, A., Fortner, E. C., Jayne, J. T., Kok,
+G. L., Williams, L. R., Davidovits, P., and Worsnop, D. R.:
+Soot particle aerosol mass spectrometer: Development, valida-
+tion, and initial application, Aerosol Sci. Tech., 46, 804–817,
+doi:10.1080/02786826.2012.663948, 2012.
+Pan, Y., Tian, S., Liu, D., Fang, Y., Zhu, X., Zhang, Q., Zheng, B.,
+Michalski, G., and Wang, Y.: Fossil Fuel Combustion-Related
+Emissions Dominate Atmospheric Ammonia Sources during Se-
+vere Haze Episodes: Evidence from 15N-Stable Isotope in Size-
+Resolved Aerosol Ammonium, Environ. Sci. Technol., 50, 8049–
+8056, doi:10.1021/acs.est.6b00634, 2016.
+Qi, L., Chen, M., Ge, X., Zhang, Y., and Guo, B.: Seasonal varia-
+tions and sources of 17 aerosol metal elements in suburban Nan-
+jing, China, Atmosphere, 7, 153, 2016a.
+Qi, L., Zhang, Y., Ma, Y., Chen, M., Ge, X., Ma, Y., Zheng, J.,
+Wang, Z., and Li, S.: Source identiﬁcation of trace elements in
+the atmosphere during the second Asian Youth Games in Nan-
+jing, China: Inﬂuence of control measures on air quality, Atmos.
+Pollut. Res., 7, 547–556, doi:10.1016/j.apr.2016.01.003, 2016b.
+Qiao, T., Zhao, M., Xiu, G., and Yu, J.: Seasonal variations of water
+soluble composition (WSOC, Hulis and WSIIs) in PM1 and its
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/
+
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+2591
+implications on haze pollution in urban Shanghai, China, Atmos.
+Environ., 123, 306–314, doi:10.1016/j.atmosenv.2015.03.010,
+2015.
+Saldarriaga-Noreña, H., López-Márquez, R., Murillo-Tovar, M.,
+Hernández-Mena, L., Ospina-Noreña, E., Sánchez-Salinas, E.,
+Waliszewski, S., and Montiel-Palma, S.: Analysis of PAHs as-
+sociated with particulate matter PM2.5 in two places at the city
+of Cuernavaca, Morelos, México, Atmosphere, 6, 1259–1270,
+doi:10.3390/atmos6091259, 2015.
+Shen, G. F., Yuan, S. Y., Xie, Y. N., Xia, S. J., Li, L., Yao, Y. K.,
+Qiao, Y. Z., Zhang, J., Zhao, Q. Y., Ding, A. J., Li, B., and Wu, H.
+S.: Ambient levels and temporal variations of PM2.5 and PM10
+at a residential site in the mega-city, Nanjing, in the western
+Yangtze River Delta, China, J. Environ. Sci. Heal. A, 49, 171–
+178, doi:10.1080/10934529.2013.838851, 2014.
+Shi, J., Gao, H., Qi, J., Zhang, J., and Yao, X.: Sources, com-
+positions, and distributions of water-soluble organic nitrogen
+in aerosols over the China Sea, J. Geophys. Res.-Atmos., 115,
+D17303, doi:10.1029/2009jd013238, 2010.
+Sun, Y., Zhang, Q., Zheng, M., Ding, X., Edgerton, E. S., and Wang,
+X.: Characterization and source apportionment of water-soluble
+organic matter in atmospheric ﬁne particles (PM2.5) with high-
+resolution aerosol mass spectrometry and GC-MS, Environ. Sci.
+Technol., 45, 4854–4861, doi:10.1021/es200162h, 2011.
+Sun, Y., Jiang, Q., Wang, Z., Fu, P., Li, J., Yang, T., and Yin, Y.: In-
+vestigation of the sources and evolution processes of severe haze
+pollution in Beijing in January 2013, J. Geophys. Res.-Atmos.,
+119, 4380–4398, doi:10.1002/2014jd021641, 2014.
+Sun, Y., Du, W., Fu, P., Wang, Q., Li, J., Ge, X., Zhang, Q., Zhu, C.,
+Ren, L., Xu, W., Zhao, J., Han, T., Worsnop, D. R., and Wang,
+Z.: Primary and secondary aerosols in Beijing in winter: sources,
+variations and processes, Atmos. Chem. Phys., 16, 8309–8329,
+doi:10.5194/acp-16-8309-2016, 2016.
+Sun, Y.-L., Zhang, Q., Schwab, J. J., Demerjian, K. L., Chen, W.-
+N., Bae, M.-S., Hung, H.-M., Hogrefe, O., Frank, B., Rattigan,
+O. V., and Lin, Y.-C.: Characterization of the sources and pro-
+cesses of organic and inorganic aerosols in New York city with
+a high-resolution time-of-ﬂight aerosol mass apectrometer, At-
+mos. Chem. Phys., 11, 1581–1602, doi:10.5194/acp-11-1581-
+2011, 2011.
+Szabó, J., Nagy, A. S., and Erd˝os, J.: Ambient concentrations
+of PM10, PM10-bound polycyclic aromatic hydrocarbons and
+heavy metals in an urban site of Gy˝or, Hungary, Air Qual. Atmos.
+Health, 8, 229–241, doi:10.1007/s11869-015-0318-7, 2015.
+Ulbrich, I. M., Canagaratna, M. R., Zhang, Q., Worsnop, D. R., and
+Jimenez, J. L.: Interpretation of organic components from Posi-
+tive Matrix Factorization of aerosol mass spectrometric data, At-
+mos. Chem. Phys., 9, 2891–2918, doi:10.5194/acp-9-2891-2009,
+2009.
+Violaki, K. and Mihalopoulos, N.: Water-soluble organic nitrogen
+(WSON) in size-segregated atmospheric particles over the East-
+ern Mediterranean, Atmos. Environ., 44, 4339–4345, 2010.
+Wang, F., Lin, T., Feng, J., Fu, H., and Guo, Z.: Source ap-
+portionment of polycyclic aromatic hydrocarbons in PM2.5
+using positive matrix factorization modeling in Shanghai,
+China, Environmental Sciences Process Impacts, 17, 197–205,
+doi:10.1039/c4em00570h, 2015.
+Wang, F., Guo, Z., Lin, T., and Rose, N. L.: Seasonal varia-
+tion of carbonaceous pollutants in PM2.5 at an urban “su-
+persite” in Shanghai, China, Chemosphere, 146, 238–244,
+doi:10.1016/j.chemosphere.2015.12.036, 2016.
+Wang, G., Kawamura, K., Lee, S., Ho, K., and Cao, J.: Molecu-
+lar, seasonal, and spatial distributions of organic aerosols from
+fourteen Chinese cities, Environ. Sci. Technol., 40, 4619–4625,
+doi:10.1021/es060291x, 2006.
+Wang, J., Geng, N. B., Xu, Y. F., Zhang, W. D., Tang, X. Y.,
+and Zhang, R. Q.: PAHs in PM2.5 in Zhengzhou: concentration,
+carcinogenic risk analysis, and source apportionment, Environ.
+Monit. Assess., 186, 7461–7473, doi:10.1007/s10661-014-3940-
+1, 2014.
+Wang, J., Ge, X., Chen, Y., Shen, Y., Zhang, Q., Sun, Y., Xu,
+J., Ge, S., Yu, H., and Chen, M.: Highly time-resolved urban
+aerosol characteristics during springtime in Yangtze River Delta,
+China: insights from soot particle aerosol mass spectrometry,
+Atmos. Chem. Phys., 16, 9109–9127, doi:10.5194/acp-16-9109-
+2016, 2016a.
+Wang, J., Onasch, T. B., Ge, X., Collier, S., Zhang, Q., Sun, Y., Yu,
+H., Chen, M., Prévôt, A. S. H., and Worsnop, D. R.: Observation
+of fullerene foot in eastern China, Environ. Sci. Technol. Lett., 3,
+121–126, doi:10.1021/acs.estlett.6b00044, 2016b.
+Wang, T., Jiang, F., Deng, J., Shen, Y., Fu, Q., Wang, Q., Fu, Y., Xu,
+J., and Zhang, D.: Urban air quality and regional haze weather
+forecast for Yangtze River Delta region, Atmos. Environ., 58, 70–
+83, doi:10.1016/j.atmosenv.2012.01.014, 2012.
+Wang, Y., Zhuang, G., Zhang, X., Huang, K., Xu, C., Tang, A.,
+Chen, J., and An, Z.: The ion chemistry, seasonal cycle, and
+sources of PM2.5 and TSP aerosol in Shanghai, Atmos. Environ.,
+40, 2935–2952, doi:10.1016/j.atmosenv.2005.12.051, 2006.
+Xu, J., Zhang, Q., Li, X., Ge, X., Xiao, C., Ren, J., and Qin,
+D.: Dissolved organic matter and inorganic Ions in a central
+Himalayan glacier – Insights into chemical composition and
+atmospheric sources, Environ. Sci. Technol., 47, 6181–6188,
+doi:10.1021/es4009882, 2013.
+Xu, J., Zhang, Q., Chen, M., Ge, X., Ren, J., and Qin, D.: Chemi-
+cal composition, sources, and processes of urban aerosols during
+summertime in northwest China: insights from high-resolution
+aerosol mass spectrometry, Atmos. Chem. Phys., 14, 12593–
+12611, doi:10.5194/acp-14-12593-2014, 2014.
+Xu, J. Z., Zhang, Q., Wang, Z. B., Yu, G. M., Ge, X. L., and Qin,
+X.: Chemical composition and size distribution of summertime
+PM2.5 at a high altitude remote location in the northeast of the
+Qinghai-Xizang (Tibet) Plateau: insights into aerosol sources and
+processing in free troposphere, Atmos. Chem. Phys., 15, 5069–
+5081, doi:10.5194/acp-15-5069-2015, 2015.
+Xu, L., Guo, H., Weber, R. J., and Ng, N. L.: Chemical Charac-
+terization of Water-Soluble Organic Aerosol in Contrasting Ru-
+ral and Urban Environments in the Southeastern United States,
+Environ. Sci. Technol., 51, 78–88, doi:10.1021/acs.est.6b05002,
+2017.
+Ye, X. N., Ma, Z., Hu, D. W., Yang, X., and Chen, J. M.:
+Size-resolved hygroscopicity of submicrometer urban aerosols
+in Shanghai during wintertime, Atmos. Res., 99, 353–364,
+doi:10.1016/j.atmosres.2010.11.008, 2011.
+Zhang, Q., Jimenez, J. L., Canagaratna, M. R., Allan, J. D., Coe,
+H., Ulbrich, I., Alfarra, M. R., Takami, A., Middlebrook, A.
+M., Sun, Y. L., Dzepina, K., Dunlea, E., Docherty, K., De-
+Carlo, P. F., Salcedo, D., Onasch, T., Jayne, J. T., Miyoshi,
+T., Shimono, A., Hatakeyama, S., Takegawa, N., Kondo, Y.,
+www.atmos-chem-phys.net/17/2573/2017/
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+
+2592
+Z. Ye et al.: Chemical characterization of ﬁne particulate matter in Changzhou, China
+Schneider, J., Drewnick, F., Borrmann, S., Weimer, S., Demer-
+jian, K., Williams, P., Bower, K., Bahreini, R., Cottrell, L.,
+Grifﬁn, R. J., Rautiainen, J., Sun, J. Y., Zhang, Y. M., and
+Worsnop, D. R.: Ubiquity and dominance of oxygenated species
+in organic aerosols in anthropogenically-inﬂuenced Northern
+Hemisphere midlatitudes, Geophys. Res. Lett., 34, L13801,
+doi:10.1029/2007gl029979, 2007a.
+Zhang, Q., Jimenez, J. L., Worsnop, D. R., and Canagaratna, M.:
+A case study of urban particle acidity and its inﬂuence on sec-
+ondary organic aerosol, Environ. Sci. Technol., 41, 3213–3219,
+doi:10.1021/Es061812j, 2007b.
+Zhang, Q., Jimenez, J. L., Canagaratna, M. R., Ulbrich, I. M.,
+Ng, N. L., Worsnop, D. R., and Sun, Y.: Understanding at-
+mospheric organic aerosols via factor analysis of aerosol mass
+spectrometry: a review, Anal. Bioanal. Chem., 401, 3045–3067,
+doi:10.1007/s00216-011-5355-y, 2011.
+Zhang, R., Jing, J., Tao, J., Hsu, S.-C., Wang, G., Cao, J., Lee,
+C. S. L., Zhu, L., Chen, Z., Zhao, Y., and Shen, Z.: Chemi-
+cal characterization and source apportionment of PM2.5 in Bei-
+jing: seasonal perspective, Atmos. Chem. Phys., 13, 7053–7074,
+doi:10.5194/acp-13-7053-2013, 2013.
+Zhang, Y. J., Tang, L., Yu, H., Wang, Z., Sun, Y., Qin, W.,
+Chen, W., Chen, C., Ding, A., Wu, J., Ge, S., Chen, C.,
+and Zhou, H.-C.: Chemical composition, sources and evolu-
+tion processes of aerosol at an urban site in Yangtze River
+Delta, China during wintertime, Atmos. Environ., 123, 339–349,
+doi:10.1016/j.atmosenv.2015.08.017, 2016.
+Zhao, M., Huang, Z., Qiao, T., Zhang, Y., Xiu, G., and Yu, J.:
+Chemical characterization, the transport pathways and potential
+sources of PM2.5 in Shanghai: Seasonal variations, Atmos. Res.,
+158–159, 66–78, doi:10.1016/j.atmosres.2015.02.003, 2015.
+Zhou, J., Xing, Z., Deng, J., and Du, K.: Characterizing and sourc-
+ing ambient PM2.5 over key emission regions in China I: Water-
+soluble ions and carbonaceous fractions, Atmos. Environ., 135,
+20–30, doi:10.1016/j.atmosenv.2016.03.054, 2016.
+Atmos. Chem. Phys., 17, 2573–2592, 2017
+www.atmos-chem-phys.net/17/2573/2017/

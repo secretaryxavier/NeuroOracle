@@ -1,0 +1,1027 @@
+ORIGINAL RESEARCH 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+1 of 16 
+Volume 21 | Issue 10 | 210056 
+ 
+ 
+ 
+ 
+Aerosol and Air Quality 
+Research 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OPEN ACCESS  
+ 
+ 
+Received: March 16, 2021 
+Revised: July 7, 2021 
+Accepted: July 7, 2021 
+ 
+* Corresponding Author: 
+vtbac@vinatom.gov.vn 
+ 
+Publisher: 
+Taiwan Association for Aerosol 
+Research 
+ISSN: 1680-8584 print  
+ISSN: 2071-1409 online 
+ 
+ Copyright: The Author(s). 
+This is an open access article 
+distributed under the terms of the 
+Creative Commons Attribution 
+License (CC BY 4.0), which permits 
+unrestricted use, distribution, and 
+reproduction in any medium, 
+provided the original author and 
+source are cited.
+ 
+A Comparison Study of Chemical Compositions and 
+Sources of PM1.0 and PM2.5 in Hanoi 
+ 
+Pham Duy Hien1, Vuong Thu Bac2*, Nguyen Thi Hong Thinh2, Ha Lan Anh2, 
+Duong Duc Thang2, Nguyen The Nghia3 
+ 
+1 Vietnam Atomic Energy Institute, Hanoi, Vietnam 
+2 Institute for Nuclear Science & Technique, Nghia Do, Hanoi, Vietnam 
+3 Hanoi University of Science (HUS), Hanoi, Vietnam 
+ 
+ABSTRACT 
+ 
+We simultaneously collected 85 pairs of 24-h PM1.0 and PM2.5 samples from a new urban area 
+in Hanoi, Vietnam, and analyzed their chemical compositions with particle-induced X-ray emission 
+(PIXE) and ion chromatography (IC) to obtain input data for source apportionment via positive 
+matrix factorization (PMF). Sulfate, ammonium, and black carbon (BC) composed the majority of 
+the mass in both size fractions, and the PMF models clearly differentiated the contribution of 
+long-range transport (LRT) aerosols, which accounted for more than two-thirds of the measured 
+PM-bound sulfate and ammonium concentrations, from those of the six in situ sources, viz., 
+resuspended road dust, primary vehicular emissions, coal fly ash, biomass burning emissions, 
+construction dust, and sea salt. Whereas LRT aerosols, coal fly ash, and primary particulate vehicular 
+emissions mainly occurred in the PM1.0, resuspended road dust and biomass-burning fly ash 
+tended to appear in the PM1.0-2.5; hence, we can characterize the anthropogenic emissions in this 
+area by examining the profile of the PM1.0 rather than the PM2.5. Additionally, air masses with 
+inland trajectories originating in northern China and countries northwest and southwest of 
+Vietnam contained more ammonium, sulfate, and BC than those that passed over the East Sea. 
+Finally, the LRT aerosols exhibited high acidity in the PM1.0 but neutrality in the PM2.5. 
+ 
+Keywords: Submicron particles, LRT, Nitrate formation rate, Particle size partitioning, Back 
+trajectory, Hanoi, Vietnam 
+ 
+1 INTRODUCTION 
+ 
+Ambient fine particulate matter with an aerodynamic diameter smaller than 2.5 µm (PM2.5) is 
+among the criteria air pollutants and its mass concentration is regulated with ambient air quality 
+standards by many countries. Particulate matter with an aerodynamic diameter less than 1.0 µm 
+(PM1.0) contributes greatly to PM2.5, accounting for 50 to 90% of its mass concentration in the 
+urban atmosphere (Lee et al., 2006; Deshmukh et al., 2011; Zhang et al., 2018). 
+PM1.0 comprises many harmful substances emitted from fuel combustion either as primary 
+emissions (such as diesel black carbon [BC] and trace metals) or as secondary aerosols from gaseous 
+precursors by nucleation or by condensation on existing particles (Whitby, 1978; Hildemann, 1991; 
+Huang et al., 2003). PM1.0 has been regarded as a better indicator for vehicular emissions in 
+roadside environments than PM2.5 because it minimizes the interference from natural sources 
+(Lundgren et al., 1996; Lee et al., 2006). Exposure to PM1.0 has also been shown to have a more 
+significant association with health effects (hospital admission, cardiovascular diseases, and 
+mortality rate) than exposure to PM2.5 and PM10 (Lin et al., 2016; Hu et al., 2018; Yin et al., 2020). 
+However, studies on the physicochemical characteristics and sources of ambient PM1.0 are fairly 
+limited compared to the number of studies on PM2.5 and PM10. 
+In this work, we characterize chemical species and sources of PM1.0 in an area of Hanoi under 
+rapid urbanization, where the air quality is affected by increasing emissions from traffic, coal
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+2 of 16 
+Volume 21 | Issue 10 | 210056 
+briquette burning for cooking, biomass burning, and construction activities. We compared the 
+contents of trace elements and water-soluble ions (WSI) in PM1.0 with those in PM2.5 collected 
+simultaneously at the site to identify the differences in chemical compositions between the two 
+size fractions. The chemical composition data were then used to characterize the sources 
+affecting the site using the positive matrix factorization (PMF) method. Based on the PMF model, 
+the differences between PM1.0 and PM2.5 in the compositions and contributions of both local and 
+remote sources could be identified. The transport pathways and the contributions to PM1.0 and 
+PM2.5 of remote emissions that affect the site through long-range transport of air pollutants were 
+identified by backward-trajectory analysis.  
+We hope the results of the comparative analysis in this work will shed more light on the 
+characteristics of PM1.0 and PM2.5 sources in Hanoi and provide a basis for developing abatement 
+and pollution control measures. 
+ 
+2 METHODS 
+ 
+2.1 Sample Collection 
+The sampling site was located in a residential area within Hanoi’s Cau Giay district, approximately 
+5 km northwest of the city center. This district has a population density of 14,000 persons km–2 
+and a road density of 3.33 km km–2 (JICA, 2007). Motorbikes are the dominant form of transportation 
+in Hanoi, accounting for 81% of all trips versus 11% and 4% trips by buses and cars, respectively 
+(World Bank, 2011). Two bus routes are running within 100 m of the sampling site. Coal-fired 
+industrial and power plants are located far to the south, but burning coal briquettes is popular 
+for cooking in households and eateries in this area.  
+The air sampling instruments were set up in a shelter erected on the rooftop of the three-story 
+office of the Institute for Nuclear Science and Technique. Particulate matter was collected with 
+0.4 µm pore filters using a dichotomous air sampler (Zambelli Twin Dust; Aquaria Tech s.r.l., Italy). 
+The air sampler had two collection channels that can be paired with two different sampling heads 
+that work alternately. The U.S.-made sharp-cut cyclone collector SCC-2.229 (BGI, Inc.) and the 
+EU-PM2.5 sampling head were used to collect PM1.0 and PM2.5, respectively. The airflow rate was 
+automatically adjusted to 16.7 L min–1 based on ambient temperature and barometric pressure 
+in the controller’s operating mode. Due to high PM mass loading at the sampling site, the cyclone 
+system could not be run continuously for a full 24 h because of filter clogging. Thus, the sampler 
+was operated alternating time on and time off (2 h on followed by 2 h off) throughout the 24-h 
+period to provide a representative sample during that day. The sampling duration was 23.5 h 
+starting from 9:00 a.m. local time to 8.30 a.m. on the following day. The Nuclepore polycarbonate 
+filters were pre- and post-weighed to determine the gravimetric mass of the collected materials 
+using a Mettler Toledo balance of 1 µg readability placed in a dedicated room with controlled 
+temperature (25°C) and relative humidity (40%). The filters were pre- and post-conditioned in 
+this controlled environment for 2 days before and after sampling. An electrostatic charge eliminator 
+was used to neutralize charges accumulated on the filters before weighing. After being weighed, the 
+loaded filters were kept in a refrigerator at 4°C to minimize the evaporation of volatile components 
+until further analysis. 
+85 pairs of PM1.0 and PM2.5 samples were collected from November 2015 through June 2016, 
+encompassing three seasons, i.e., winter (November–February), transitional and spring (March–
+April), and early summer (May–June). The sample collection was stopped in June–August because 
+it was too hot at the sampling station. Four types of air masses that govern the meteorological 
+conditions in northern Vietnam during the sampling period and drive the temporal variations in 
+particulate pollution and source impacts at the sampling site are described in Section 3.3. 
+ 
+2.2 Chemical Analysis 
+The loaded filters were analyzed for BC, elemental components, and WSI using optical reflectance, 
+ion chromatography (IC), and particle-induced X-ray emission (PIXE) methods, respectively. The 
+BC content was measured using a smoke stain reflectometer provided by the International 
+Atomic Energy Agency as part of the Asia-Pacific Regional Cooperation Agreement (RCA) for air 
+pollution (Hopke et al., 2008). The BC content was operationally defined based on the amount of
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+3 of 16 
+Volume 21 | Issue 10 | 210056 
+reflected light that is absorbed by the filter sample and a mass absorption coefficient recommended 
+by RCA to convert the measured reflectance to µg m–3 (Hien et al., 2004; Hopke et al., 2008).  
+After BC measurement, the filter was cut into two halves. The first half was analyzed by IC at 
+the Institute for Nuclear Science and Technique in Hanoi, and the other half was reserved for 
+elemental analysis by the PIXE method using the 3 MeV proton 5SHD2 Pelletron at Hanoi University 
+of Natural Sciences. 
+A Dionex DX-600 system with chemical suppression and conductivity detection was used for 
+the IC analysis. In the IC method, the filters were extracted ultrasonically by deionized water with 
+the resistivity of 18 MΩ cm–1 in 20 min and then were filtered to remove insoluble residues. The 
+weak base eluent (1.7 mm NaHCO3 + 1.8 mm Na2CO3) with a flow rate of 2.5 mL min–1 and the 
+weak acid eluent (22 mm H2SO4) with a flow rate of 2 mL min–1 were used for anion and cation 
+detection, respectively. The detection limits were about 5 ng m–3 for SO42–, NH4+, Na+, and Ca2+ 
+and 10 ng m–3 for Cl–, NO3–, K+, and Mg2+. For the PIXE analysis, the filter samples were exposed 
+to the 3 MeV proton beam of the 5SHD2 Pelletron accelerator and the X-rays emitted were 
+detected using an Si(Li) detector. Measurement values were well above the detection limits for 
+the species of Fe, Si, S, K, Pb, and Zn that were included in the input data for receptor modeling. 
+The detection limits for these elements were 10–20 ng m–3. As and Cr, the good tracers for coal 
+burning, were detected in several samples, but in most samples, the measured values were lower 
+than the detection limits. Blank Nuclepore filters were analyzed and the measured concentrations 
+of species were blank-corrected accordingly. 
+ 
+2.3 Methodology and Input Data 
+In this work, the sources of PM1.0 and PM2.5 were derived from the measured concentrations 
+of species using the PMF modeling method. PMF was developed by Paatero and Taper (1994) 
+and has become the most common tool for source apportionment in studies of ambient air 
+particulate matter (Belis et al., 2013; Norris and Brown, 2014). As in other receptor modeling 
+methods, the goal of PMF is to derive the source profiles and source contributions from the 
+measured concentrations of species by solving the chemical mass balance (CMB) equation:  
+ 
+X(n × m) = G(n × p)∙F(p × m) + E(n × m) 
+(1) 
+ 
+where X(n × m) is the concentration matrix of m species in n samples, G(n × p) is the source 
+contributions matrix of p sources in n samples, F(p × m) is the source composition matrix of m 
+species in p sources, and E(n × m) is the model uncertainties. 
+In PMF, the elements of G and F are constrained to be non-negative. For this purpose, the 
+influence of each input concentration value is weighted based on its measurement uncertainty 
+(Paatero and Taper, 1994; Norris et al., 2009). The factors resolved by the PMF model are interpreted 
+as representing sources that impact the sampling site. The PMF results for a different number of 
+factors and multiple values of Fpeak were explored to obtain the optimal factor solution. For this 
+purpose, a number of criteria were applied, including the comparison between Q(robust) and 
+Q(true) and between the measured and PMF modeled species mass, but the key criterion was 
+extracting realistic and reasonable source profiles and contributions. 
+In this study, the U.S. EPA PMF V5 software (Norris and Brown, 2014) was used to build the 
+PMF model. The input data for PM1.0 and PM2.5 consisted of 8 WSI (SO42–, NO3–, Cl–, NH4+, Na+, K+, 
+Ca2+, and Mg2+) and 7 elements (BC, Al, Fe, Si, Mg, K, Pb, Si, and Zn). There are no missing values 
+in the input array. Sulfur was not included in the input data to avoid double-counting its mass (Belis 
+et al., 2014) because S almost perfectly correlates with sulfate (Table 2). PM mass concentration 
+was also included as an independent variable to provide estimated source contributions to the 
+observed PM masses. However, to avoid the influence of the uncontrolled PM mass errors 
+associated with, e.g., sampling loss of nitrate and water bound to aerosols, the PMF model was 
+obtained from the base run using input data without PM mass. The experimental uncertainties 
+uij were composed of a measurement error and a concentration-dependent component to 
+account for the model error associated with, e.g., the variation in source profiles and chemical 
+transformations of species in the atmosphere (Norris and Brown, 2014; Belis et al., 2014).  
+The factor model with the optimal number of extracted factors and minimum rotational 
+ambiguity was chosen among numerous solutions of the PMF base run following recommendations
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+4 of 16 
+Volume 21 | Issue 10 | 210056 
+in Norris and Brown (2014). The physical consistency requirements on the PM1.0-to-PM2.5 ratio 
+(Section 3.1.2) and on the ion-versus-element relationships (Section 3.1.3) were also used to help 
+obtain the optimal solution of the PMF base run. Finally, the PMF bootstraps were run to estimate 
+the stability and uncertainties of the factor model. 
+ 
+3 RESULTS AND DISCUSSION 
+ 
+3.1 Measurement Results, Data Validation, and Interpretation 
+3.1.1 PM mass concentrations 
+The mean (± standard deviation) 24-h mass concentrations of PM1.0 and PM2.5 were 30.1 
+(± 13.9) µg m–3 and 44.5 (± 21.0) µg m–3, respectively (Table 1). PM2.5 levels exceeded the WHO 
+24-h guideline of 25 µg m–3 on 69 of the total 85 sampling days (81%). The monthly mean PM2.5 
+mass concentration was highest in January 2015 (52.1 µg m–3) and lowest in May 2016 (32.1 µg m–3), 
+reflecting the influence of the atmospheric conditions governed by the East Asian monsoon 
+regime with northeast monsoon in winter and southeast monsoon in summer (Hien et al., 2004). 
+ 
+3.1.2 Validation of the measured values based on the PM1.0-to-PM2.5 
+concentration ratio 
+The measured data can be validated by consistency tests based on the requirement that the 
+PM1.0-to-PM2.5 concentration ratio should not exceed 1 (with tolerance to account for measurement 
+uncertainties). The statistics in Table 1 and the PM1.0-to-PM2.5 concentration ratios displayed in 
+Fig. 1 are consistent with this requirement, except for several cases related to BC, Cl–, and NH4+, 
+which are present predominantly in PM1.0. These extreme cases were flagged, but not removed 
+from the data set. 
+The consistency test based on the PM1.0-to-PM2.5 ratios helped provide information on the 
+partitioning of chemical constituents between the two fractions. The major crustal elements of 
+Fe, Al, and Si were found to be depleted in PM1.0, accounting for only 13–38% of the PM1.0 
+ 
+Table 1. Summary statistics of 24-h mass concentrations of species in PM1.0 and PM2.5 (µg m–3) 
+and the PM1.0-to-PM2.5 concentration ratios. 
+ 
+PM1.0 
+PM2.5 
+Mean 
+SD 
+Mean 
+SD 
+Mass 
+30.1 
+13.9 
+44.5 
+21.0 
+BC 
+6.28 
+2.88 
+6.50 
+3.19 
+Al 
+0.09 
+0.08 
+0.29 
+0.14 
+Ca 
+‒ 
+‒ 
+1.36 
+1.50 
+Ca2+ 
+0.55 
+0.66 
+1.39 
+0.86 
+Cl– 
+0.51 
+0.74 
+0.42 
+0.56 
+Cu 
+0.02 
+0.02 
+0.02 
+0.02 
+F– 
+0.03 
+0.02 
+0.04 
+0.03 
+Fe 
+0.12 
+0.09 
+0.32 
+0.14 
+K 
+0.75 
+0.63 
+0.85 
+0.33 
+K+ 
+0.56 
+0.47 
+0.72 
+0.40 
+Mg 
+0.33 
+0.21 
+0.39 
+0.13 
+Mg2+ 
+0.21 
+0.13 
+0.25 
+0.33 
+Na+ 
+0.29 
+0.29 
+0.48 
+0.44 
+NH4+ 
+2.23 
+1.27 
+2.35 
+1.92 
+NO3– 
+0.09 
+0.22 
+0.15 
+0.14 
+Pb 
+0.07 
+0.08 
+0.07 
+0.05 
+S 
+2.21 
+0.10 
+2.58 
+1.78 
+SO42– 
+6.34 
+3.11 
+8.66 
+5.40 
+Si 
+0.37 
+0.29 
+1.00 
+0.49 
+Zn 
+0.27 
+0.53 
+0.48 
+0.80
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+5 of 16 
+Volume 21 | Issue 10 | 210056 
+ 
+Fig. 1. The mean (± standard error) of the measured PM1.0-to-PM2.5 concentration ratios. 
+ 
+concentration mass, and more concentrated in the PM1.0-2.5 fraction. Conversely, another major 
+crustal species K (K+) accounts for 81% (94%) of the PM1.0 mass, suggesting an anthropogenic 
+origin, i.e., biomass burning. Trace metals Pb, Cu, and Zn from primary vehicular emissions occurred 
+mainly in submicron particles. Sulfate, nitrate, and ammonium also occurred mainly in the 
+submicron size range, but the much lower PM1.0-to-PM2.5 ratios for sulfate and nitrate than for 
+BC and ammonium suggest significant contributions from absorption of sulfuric and nitric acids 
+on the surface of coarse particles (Section 3.2.2). 
+Thus, like in the highly polluted cities of Beijing and Changzhou, China (Ye et al., 2017; Zhang 
+et al., 2018), in Hanoi, anthropogenic components are more accumulated in PM1.0 while natural 
+components contributed more to PM2.5. 
+ 
+3.1.3 Relationship between soluble ion and total element 
+The measurement values were also validated by another physical constraint, i.e., the 
+concentration of any soluble ion should be less than that of the respective element. The 
+proportion of a chemical element E occurring in aerosols as a soluble cation or anion I can be 
+estimated based on the coefficient a in the following linear regression relationship (Hien et al., 
+2005; Watson et al., 2008):  
+ 
+[I] = a[E] + b  
+(2) 
+ 
+where the square brackets denote the concentration of the species inside. The regression 
+parameters a, b, and the coefficient of determination R2 are shown in Table 2. 
+In the case of sulfate versus total sulfur, the ratio of SO42– to S is 3:1 if all the S is present in the 
+aerosols as SO42–. This was almost the case in this work with a slope of 3.01 ± 0.06, a close to zero 
+intercept (0.08 ± 0.15), and a significant correlation between SO42– and S (R2 = 0.97). Thus, 97% 
+of sulfur was present in PM1.0 as sulfate, and both PIXE and IC measurements were valid. A similar 
+situation was found for PM2.5. The regression parameters showed that 91% of potassium occurred 
+ 
+Table 2. Parameters a, b, and R2 in the linear regression of ionic versus elemental concentrations 
+(values in the brackets are standard errors). 
+ 
+[I] 
+[E] 
+a 
+b 
+R2 
+PM1.0 
+SO42– 
+S 
+3.01 (± 0.06) 
+–0.08 (± 0.15) 
+0.97 
+PM2.5 
+SO42– 
+S 
+3.05 (± 0.08) 
++0.3 (± 0.2) 
+0.96 
+PM1.0 
+K+ 
+K 
+0.93 (± 0.03) 
+0.002 (± 0.02) 
+0.91 
+PM2.5 
+K+ 
+K 
+0.79 (±0.03) 
+6.0 (± 3.3) 
+0.90
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+6 of 16 
+Volume 21 | Issue 10 | 210056 
+Table 3. Mean mass concentrations of PM1.0 and major chemical constituents (µg m–3) in Asian cities. 
+ 
+PM1.0 
+SO42– 
+NO3– 
+NH4+ 
+OC 
+BC 
+Ca2+ 
+Literature 
+HK 
+44 
+10.7 
+1.9 
+2.5 
+9.6 
+15.8 
+0.07 
+Cheng et al. (2011) 
+Xian 
+127 
+18.9 
+12.4 
+7.2 
+1.7 
+‒ 
+1.9 
+Shen et al. (2010) 
+Guangzhou 
+52.4 
+11.3 
+4.6 
+3.4 
+6.8 
+5 
+0.3 
+Tao et al. (2012) 
+Beijing 
+86.19 
+7.37 
+11.01 
+4.47 
+21.22 
+‒ 
+0.32 
+Shao et al. (2018) 
+Kaohsiung 
+68 
+14.3 
+11.3 
+7.89 
+‒ 
+‒ 
+‒ 
+Lin and Li (2004) 
+Kanpur 
+123 
+10.9 
+16.0 
+13.2 
+‒ 
+‒ 
+‒ 
+Gupta et al. (2013) 
+Delhi 
+‒ 
+15.0 
+24.3 
+2.19 
+‒ 
+‒ 
+‒ 
+Prakash et al. (2018) 
+Delhi 
+‒ 
+10.3 
+16.6 
+18.4 
+‒ 
+‒ 
+0.3 
+Acharja et al. (2020) 
+Hanoi 
+30.1 
+6.34 
+0.09 
+2.23 
+‒ 
+6.28 
+0.55 
+This work 
+ 
+in PM1.0 as soluble K+ ions with an average proportion of a = 0.93. The corresponding figures for 
+PM2.5 were 90% and a = 0.79. 
+ 
+3.1.4 Chemical compositions of PM1.0 and PM2.5 
+Sulfate, BC, and ammonium were the most abundant species with a combined contribution of 
+50.3% of the PM1.0 mass. These species remain the most abundant in PM2.5 but with a lower 
+combined contribution of 38.4%. Next was potassium and calcium, which were more abundant 
+than their major crustal counterparts of Si, Al, Fe, and Mg, indicating the strong impact of biomass 
+burning and construction dust. Zn originating from traffic was also more abundant than the major 
+crustal elements of Fe and Al in both fractions. Meanwhile, nitrate was depleted in both the PM 
+fractions with concentrations much lower than those reported in other Asian cities (Table 3). 
+Nitrate could be lost due to evaporation of semi-volatile ammonium nitrate (Cabada et al., 2004), 
+but this sampling artifact could not be quantified. 
+ 
+3.2 Source Apportionment by Positive Matrix Factorization 
+3.2.1 Results and interpretation 
+The optimal PMF solutions were achieved with an Fpeak parameter of approximate zero and 
+seven factors, representing seven sources for each PM fraction. The alternative six- and eight-
+factor solutions have also been explored. However, the six-factor solution explained much less 
+variances of most species while in the eight-factor solution, the PM1.0/PM2.5 requirement was 
+violated for many species.  
+In Figs. 2(a) and 2(b), the profiles of these sources were plotted as the percent of each species 
+apportioned to the factor (the sum of the species concentrations for the seven factors is 100). 
+The contributions of these sources to the observed average concentrations of the most abundant 
+species of sulfate and ammonium are shown in Figs. 3 and 4 for PM2.5 and PM1.0, respectively. 
+The source name is assigned based on the source fingerprints that have a high percent 
+apportioned to the factor (Figs. 2(a) and 2(b)). Thus, mineral elements Al, Fe, and Si were the 
+fingerprints for resuspended road dust (Factor 1), mineral elements for coal fly ash (Factor 2), 
+Ca2+ and Mg2+ for construction dust (Factor 3), Cl– and Na+ for sea-salt aerosols (Factor 4), Zn and 
+Pb for traffic (vehicle tire and brake wear; Factor 5), and K and K+ for biomass burning (Factor 6). 
+Coal fly ash was distinguished from resuspended road dust due to the high enrichment in K relative 
+to other major crustal elements (Al, Fe, and Si) in coal. Pb and Zn were also enriched in coal like 
+what was observed by Hsu et al. (2016). K and K+ were mostly associated with the biomass burning 
+factor, in which BC was abundant. BC was also associated with the road dust factor indicating the 
+presence of BC in surface soil, which comes from the incomplete combustion of plant materials and 
+fossil fuels (Schmidt and Noack, 2000). Concerning sea-salt aerosols, it is worth noting the high 
+Cl–-to-Na+ concentration ratio in Factor 4, i.e., 1.7 and 3.6 for PM1.0 and PM2.5, respectively, as 
+compared to the ratio for seawater of 1.8, suggesting other sources of chloride (Faxon and Allen, 
+2013) existed but were not resolved from the sea-salt factor in the PMF model. 
+The sources assigned to Factors 1–6 represent primary emissions and are common to those 
+reported elsewhere (e.g., Belis et al., 2013; Hsu et al., 2016; Crilley et al., 2017). The secondary 
+inorganic aerosols of nitrate, sulfate, and ammonium resulting from the gas-to-particle conversion
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+7 of 16 
+Volume 21 | Issue 10 | 210056 
+ 
+ 
+ 
+ 
+Fig. 2(a). Source compositions of PM1.0 are calculated as the percent of species apportioned to 
+the corresponding factor (sum of each species in all factors is 100).
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+8 of 16 
+Volume 21 | Issue 10 | 210056 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 2(b). Source compositions of PM2.5 are calculated as the percent of species apportioned to 
+the corresponding factor (sum of each species in all factors is 100).
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+9 of 16 
+Volume 21 | Issue 10 | 210056 
+Fig. 3. Contributions of sources to the observed average concentrations of sulfate and ammonium in PM2.5. 
+ 
+Fig. 4. Contributions of sources to the observed average concentrations of sulfate and ammonium in PM1.0. 
+ 
+of gaseous precursors SO2, NO2, and NH3 in the atmosphere are associated with these primary 
+sources, but most sulfate and ammonium are associated with Factor 7, which will be assigned as 
+regional or LRT aerosols. 
+Nitrate was predominantly associated with coal fly ash followed by sea-salt and construction 
+factors in both the PM fractions. The presence of nitrate in the sea-salt factor indicates the 
+formation of sodium nitrate on sea-salt particles during transport from the sea as a result of the 
+substitution of chloride by nitrate (Pathak et al., 2003). Additionally, the association of nitrate 
+with alkaline ions (Ca2+, Mg2+, and K+) in coal fly ash and construction factors indicated that nitrate 
+was formed through uptake and heterogeneous reactions of nitrogen gases, HNO3, and other 
+trace gases on the surface of mineral dust particles (Zhang and Carmichael, 1999; Hien et al., 
+2005; Perez et al., 2008). 
+Similarly, the uptake and heterogeneous reactions of H2SO4 and sulfur gases on the surface of 
+Ca-rich dust particles explained the presence of sulfate in the construction and road dust factors 
+(Figs. 2(a) and 2(b)). Factor 2 (coal) contained sulfate and nitrate but some sulfuric and/or nitric 
+acids were presumably also present in this factor to maintain the balance with large amounts of 
+alkaline ions and ammonium. In contrast, sulfate in Factor 7 was completely neutralized by 
+ammonium (in PM2.5), indicating aerosols had a long atmospheric lifespan after having traveled 
+far from the sources. 
+Factor 7 was nearly free from mineral dust and other species related to in situ emissions and 
+was almost uncorrelated with the six remaining factors, as shown by the G-space (source 
+contribution) analysis results (Norris et al., 2014). Therefore, sulfate and ammonium associated 
+with Factor 7 were not related to in situ emissions but came from long-range transport with air
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+10 of 16 
+Volume 21 | Issue 10 | 210056 
+mass arrived at the site on the sampling day. The dependence of Factor 7 contributions on the 
+air mass trajectory type found in Section 3.3 justified this argument.  
+On average, about 60% (range: 0–87%) of observed sulfate concentrations in PM2.5, equivalent 
+to an average of 5204 µg m–3, came from long-range transport (Fig. 3). In PM1.0, the LRT component 
+was stronger, constituting 67% (range: 0–99%) of the observed sulfate, equivalent to an average 
+of 4152 µg–3 (Fig. 4). Nitrate was insignificant in Factor 7 (Fig. 3) possibly because ammonium 
+nitrate may have evaporated during long-range transport before reaching the sampling site 
+(Pathak et al., 2003). 
+The mean molar ratio of sulfate to ammonium in PM2.5 is slightly above 1, suggesting sulfate 
+was fully neutralized and existed as ammonium sulfate [(NH4)2SO4]. Meanwhile, in PM1.0 a 16% 
+cation equivalent deficit was found, indicating some portion of sulfate (30%) may have existed as 
+ammonium bisulfate (NH4HSO4), a precursor of ammonium sulfate (Chen et al., 2019). Besides 
+sulfate and ammonium, the LRT aerosols carried large amounts of BC, accounting for 34% and 
+20% of observed concentrations in PM1.0 and PM2.5, respectively. 
+ 
+3.2.2 Contributions of sources to PM mass 
+As expected, all the sources resolved by PMF for PM1.0 existed in PM2.5 with little differences 
+between source profiles (Figs. 2(a) and 2(b)). However, there were apparent differences in the 
+contributions of sources to the species concentrations, especially to the PM masses, as shown in 
+the pie charts of Fig. 5. Resuspended road dust was a leading source in PM2.5 but was much 
+depleted in PM1.0. Meanwhile, LRT aerosols were most abundant in PM1.0 followed by coal fly ash 
+and primary traffic emissions, suggesting the advantage of the characterization of these sources 
+with little interference from road dust by studying PM1.0, instead of PM2.5. 
+Primary vehicular emissions moderately contributed to the PM masses, but particulate matter 
+related to road traffic (primary emissions, secondary sulfate, and resuspended road dust) is 
+overwhelming in PM2.5. The primary vehicular emission and road dust contribute 16.2% to the 
+PM1.0 mass, but vehicular emissions are expected to be the largest in situ contributor to PM1.0 if 
+the missing sources related to the unmeasured organic carbon (OC) were included in the PMF 
+modeling. 
+The seven sources extracted in the PMF models could explain approximately 78% of the PM 
+mass loadings. The unexplained mass may come from unmeasured OC and water bound to particles. 
+OC was not measured in the experiment, but the OC content can be roughly estimated at 5–9 µg m–3 
+using the OC-to-EC ratio (0.8–1.4) in the literature (Lee et al., 2006; Tao et al., 2012). 
+ 
+3.2.3 PMF model performance 
+A comparison between observed (input data) concentrations and model-predicted values 
+shown the best fit for many species. The linear regression plots of modeled versus observed 
+concentrations show that SO42–, NH4+, K+, K, Zn, and Si were well modeled with an R2 greater than 
+0.95 and a slope well above 0.90. For Al, Fe, Ca2+, Mg2+, Na+, and Cl–, R2 ranged from 0.8 to 0.9. 
+ 
+Fig. 5. Apportionment of sources to the PM mass concentrations.
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+11 of 16 
+Volume 21 | Issue 10 | 210056 
+The accuracy of the PMF model and its stability with regards to rotational ambiguity and input 
+data uncertainties were checked by bootstrapping (Norris et al., 2014). The relative uncertainties 
+(standard deviation/mean) of factor profiles were ~5% for SO42– and NH4+ in the LRT factor; ~10% 
+for source fingerprints, such as Zn in traffic, K+ in biomass burning, and Ca2+ in construction dust; 
+15–40% for other species; and ~20% for the PM masses (Fig. 5). 
+ 
+3.3 Air Mass Trajectories and LRT 
+The temporal variations in the contributions of LRT to the observed sulfate and ammonium 
+reflect the variations in the trajectories and properties of air masses that arrive at Hanoi on the 
+sampling days. The 4-day HYSPLIT backward trajectories of air masses (Stein et al., 2015) that 
+arrived in Hanoi in the middle of each sampling day (20:00 UTC) at 500 m above ground can be 
+classified into four types, namely, 1) northerly (N) continental air masses originating from northern 
+China, traveling through inland China and crossing the Vietnam-China border before arriving in 
+Hanoi; 2) northwesterly (NW) continental dry air masses originating from India and traveling over 
+Myanmar, northern Laos, and northwestern Vietnam; 3) southwesterly (SW) tropical humid air 
+masses originating from the equatorial Pacific and traveling over Thailand, Cambodia, southern 
+Laos, and central Vietnam; and 4) easterly (E) maritime air masses originating from western 
+Pacific and passing over the East Sea before embarking on northern Vietnam via the Gulf of 
+Tonkin (Fig. 6). The different abundances of SO2 and NH3 in the above regions could drive the 
+trajectory dependence of the LRT impact at the receptor site. Thus, the northerly air mass may 
+take up abundant SO2 and BC as it travels over industrial areas and megacities in southern China. 
+Intensive burning of agricultural residues and forest fires in the regions under the NW trajectories 
+(Lasko et al., 2018) may be significant sources of NH3, BC, and K. In contrast, the atmosphere 
+beneath the East Sea may be polluted by emissions from ships and inland outflows associated 
+with the northeast monsoon in the north and southeast monsoon in the south (Ding et al., 2018; 
+Fan et al., 2015). 
+ 
+ 
+Fig. 6. 4-day HYSPLIT backward trajectories of air masses arriving in Hanoi on the sampling days 
+from November 2015 to June 2016. Cluster 1 (N) in green, Cluster 2 (NW) in red, Cluster 3 (SW) 
+in blue and Cluster 4 (E) in yellow.
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+12 of 16 
+Volume 21 | Issue 10 | 210056 
+The monthly distributions of trajectory types (Fig. 7) show that northerly and some easterly 
+trajectories occurred mainly in winter in association with the northeast and southeast monsoons, 
+southwesterly trajectories associated with the southwest monsoon occur mainly in summer, and 
+northwesterly trajectories were found in the transition period (Hien et al., 2004). 
+The N, NW, SW, and E trajectory types occurred on 15, 18, 35, and 17 sampling days, 
+respectively. The modeled LRT sulfate concentrations for the sampling days were displayed in the 
+box-and-whisker plots of Fig. 8. LRT ammonium concentrations follow similar patterns (not shown). 
+The concentrations of LRT ammonium sulfate exhibited large variations within each trajectory type, 
+reflecting the influence of meteorological factors on the formation and scavenging of secondary 
+aerosols taking place during transport on the trajectory. The 2-tailed Kolmogorov-Smirnov test 
+was used to compare the LRT sulfate contributions associated with different trajectory types. 
+The easterly air masses passing over the East Sea were found to bring in the least sulfate and 
+ammonium with p < 0.04 and p < 0.05 for PM1.0 and PM2.5, respectively. On the other hand, no 
+statistically significant difference was found among the three remaining trajectory types. 
+ 
+ 
+Fig. 7. Monthly distributions of trajectory types; n is the total sampling days for each trajectory 
+type. 
+ 
+ 
+Fig. 8. Box-and-whisker plots displaying LRT sulfate concentrations in the PM samples. The box 
+represents the 25th, 50th (median), and 75th percentiles. Whiskers are the 10th and 90th percentiles.
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+13 of 16 
+Volume 21 | Issue 10 | 210056 
+4 DISCUSSION 
+ 
+Sulfate, ammonium, and BC were predominant constituents of PM1.0 and PM2.5. Nitrate 
+represented only a minor component in both particulate fractions. The PMF model resolved 
+inorganic aerosols related to in situ emissions and those coming from LRT. 
+In situ sulfate and nitrate were formed mainly from uptake and reactions of gaseous sulfur and 
+nitrogen species on the surface of mineral dust particles (Zhang and Carmichael, 1999; Perez et 
+al., 2008). The levels of SO2 and NO2 in the area under study were 30 µg m–3 and 40 µg m–3, 
+respectively (Hien et al., 2020). However, only small fractions of the aerosol precursor gases had 
+been converted into in situ sulfate and nitrate. The ratio of molar sulfate/nitrate to total molar 
+sulfur/nitrogen (Kaneyasu, 1995) was equal to 0.065 for SO2 and even much smaller for NO2—
+0.003. If the amounts of in situ sulfate and nitrate incorporated in the PM2.5–10 (coarse PM10) 
+fraction were added up using the data from our previous study (Hien et al., 2005), these ratios 
+would increase to 0.12 and 0.06, respectively. The loss of nitrate during sampling and the 
+evaporation of ammonium nitrate due to high temperature may have reduced the nitrate level 
+to some extent. However, the deficiency of NH3 in the ambient condition may have been the 
+main reason for the very low ammonium nitrate formation rate because NH3 prefers to react 
+with H2SO4 to form ammonium sulfate rather than react with HNO3 to form NH4NO3. Ge et al. 
+(2017) show that NH4NO3 starts to form when the molar ratio of NH4+ to SO42– is larger than 1.5 
+which is about one order of magnitude higher than the ratio in our case. Further studies are 
+needed to elucidate the reasons for the observed low nitrate conversion rate. 
+LRT aerosols, comprising most of the observed sulfate and ammonium, were produced from 
+SO2 and NH3 through reactions involving other gases in the atmosphere with subsequent gas-to-
+particle conversion processes. As a result, sulfate forms in the ultrafine nucleation mode with 
+sizes less than 0.1 µm and the two modes in the submicron range, namely, the condensation and 
+droplet modes with mass median aerodynamic diameters of ~0.2 µm and ~0.7 µm, respectively 
+(John et al., 1990; Meng and Seinfeld, 1994). Located mainly beyond the 1 µm cutoff, the droplet 
+mode accounts for the difference between the properties of PM1.0 and PM2.5. Sulfate in the 
+condensation mode, formed by gas-phase homogeneous reactions of precursor gases, was acidic. 
+Meanwhile, aerosols in the droplet mode, formed by heterogeneous reactions mainly in clouds 
+after traveling far from the source location, were fully neutralized by ammonium (John et al., 
+1990), which is consistent with the model-predicted molar ratio of LRT sulfate to ammonium in 
+the two fractions (Section 3.2.1). 
+LRT secondary aerosols and their gas precursors come from far away so their impact largely 
+reflected the pollution status of the region under their trajectory. Thus, the N air mass was 
+expected to have a high impact as it traveled over highly urbanized southern China. Indeed, 
+Pathak et al. (2003) found that 40% of the PM2.5 sulfate and ammonium measured in Hong Kong 
+was brought in by the cold continental air masses that arrived in the area after passing over inland 
+China in winter. In our PMF receptor modeling study of PM2.5 acquired from Hanoi in 2000–2001, 
+the concentrations of LRT ammonium sulfate were also highest in the northeast monsoon’s N air 
+masses passing over inland China (Hien et al., 2004). 
+ 
+5 CONCLUSIONS 
+ 
+The PMF models clearly differentiated the contribution of LRT aerosols, which accounted for 
+more than two-thirds of the measured PM-bound sulfate and ammonium concentrations, from 
+those of the six in situ sources, namely, resuspended road dust, primary vehicular emissions, coal 
+fly ash, biomass burning emissions, construction dust, and sea salt. LRT aerosols, coal fly ash, and 
+primary particulate vehicular emissions mainly occurred in the PM1.0, whereas resuspended road 
+dust and biomass-burning fly ash tended to appear in the PM1.0–2.5; thus, we can characterize the 
+anthropogenic emissions in this area by examining the profile of the PM1.0 rather than the PM2.5. 
+Furthermore, air masses with inland trajectories originating in northern China and nations 
+northwest and southwest of Vietnam contained more ammonium, sulfate, and BC than those 
+that had traveled over the East Sea. Also, the LRT aerosols displayed high acidity in the PM1.0 but 
+neutrality in the PM2.5.
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+14 of 16 
+Volume 21 | Issue 10 | 210056 
+Overall, our comparative analysis of PM1.0 and PM2.5 characterizes the sources of the former, 
+which typically remain unaddressed in studies of the latter. This information is essential to 
+developing effective pollution control measures for the airborne submicron PM in Hanoi. 
+ 
+ACKNOWLEDGMENTS 
+ 
+This work was financially supported by the Vietnam Ministry of Science and Technology under 
+Projects DTCB.08/15/VKHKTHN and DTCB.14.21/VKHKTHN. The authors gratefully acknowledge 
+the generous help from Dr. David Cohen in analyzing multiple samples in ANSTO, Australia, to 
+provide external quality control for the PIXE method.  
+ 
+REFERENCES 
+ 
+Acharja, P., Ali, K., Trivedi, D.K., Safai, P.D., Ghude, S., Prabhakaran, T., Rajeevan, M. (2020). 
+Characterization of atmospheric trace gases and water soluble inorganic chemical ions of PM1 
+and PM2.5 at Indira Gandhi International Airport, New Delhi during 2017–18 winter. Sci. Total 
+Environ. 729, 138800. https://doi.org/10.1016/j.scitotenv.2020.138800 
+Belis, C.A., Karagulian, F., Larsen, B.R., Hopke, P.K. (2013). Critical review and meta-analysis of 
+ambient particulate matter source apportionment using receptor models in Europe. Atmos. 
+Environ. 69, 94–108. https://doi.org/10.1016/j.atmosenv.2012.11.009 
+Belis, C.A., Larsen, B.R., Amato, F., El Haddad, F., Favez, O., Harrison, R.M., Hopke, P.K., Nava, S., 
+Paatero, P., Prévôt, A.,UQuass, l., Vecchi, R., Viana, M. (2014). European Guide on Air Pollution 
+Source Identification with Receptor Models. EUR 26080. Publications Office of the European  
+Cabada, J.C., Rees, S., Takahama, S., Khlystov, A., Pandis, S.N., Davidson, C.I., Robinson, A.L. 
+(2004). Mass size distributions and size-resolved chemical composition of fine particulate 
+matter at the Pittsburgh supersite. Atmos. Environ. 38, 3127–3141. https://doi.org/10.1016/ 
+j.atmosenv.2004.03.004 
+Chen, S., Zhao, Y., Zhang, R. (2018). Formation mechanism of atmospheric ammonium bisulfate: 
+hydrogen-bond-promoted nearly barrierless reactions of SO3 with NH3 and H2O. ChemPhysChem 
+19, 967–972. https://doi.org/10.1002/cphc.201701333 
+Cheng, Y., Zou, S.C., Lee, S.C., Chow, J.C., Ho, K.F., Watson, J.G., Han, Y.M., Zhang, R.J., Zhang, F., 
+Yau, P.S., Huang, Y., Bai, Y., Wu, W.J. (2011). Characteristics and source apportionment of PM1 
+emission at a roadside station. J. Hazard. Mater. 195, 82–91. https://doi.org/10.1016/j.jhazm 
+at.2011.08.005 
+Crilley, L.R., Lucarelli, F., Bloss, W.J., Harrison, R.M., Beddows, D.C., Calzolai, G., Nava, S., Valli, G., 
+Bernardoni, V., Vecchi, R. (2017). Source apportionment of fine and coarse particles at a 
+roadside and urban background site in London during the 2012 summer ClearfLo campaign. 
+Environ. Pollut. 220, 766–778. https://doi.org/10.1016/j.envpol.2016.06.002 
+Deshmukh, D.K., Deb, M.K., Tsai, Y.I., Mkoma, S.L. (2011). Water-soluble ions in PM2.5 and PM1 
+aerosols in Durg city, Chhattisgarh, India. Aerosol Air Qual. Res. 11, 696–708. https://doi.org/ 
+10.4209/aaqr.2011.03.0023 
+Ding, J., van der A, R.J., Mijling, B., Jalkanen, J.P., Johansson, L., Levelt, P.F. (2018). Maritime NOx 
+emissions over Chinese seas derived from satellite observations. Geophys. Res. Lett. 45, 2031–
+2037. https://doi.org/10.1002/2017GL076788 
+Fan, Q., Zhang, Y., Ma, W., Ma, H., Feng, J., Yu, Q., Yang, X., Ng, S.K.W., Fu, Q., Chen, L. (2016). 
+Spatial and seasonal dynamics of ship emissions over the Yangtze River Delta and East China 
+Sea and their potential environmental influence. Environ. Sci. Technol. 50, 1322–1329. 
+https://doi.org/10.1021/acs.est.5b03965 
+Faxon, C.B., Allen, D.T. (2013). Chlorine chemistry in urban atmospheres: A review. Environ. 
+Chem. 10, 221–233. https://doi.org/10.1071/EN13026 
+Ge, X., He, Y., Sun, Y., Xu, J., Wang, J., Shen, Y., Chen, M. (2017). Characteristics and formation 
+mechanisms of fine particulate nitrate in typical urban areas in China. Atmosphere 8, 62. 
+https://doi.org/10.3390/atmos8030062 
+Gupta, T., Mandariya, A. (2013). Sources of submicron aerosol during fog-dominated wintertime 
+at Kanpur. Environ. Sci. Pollut. Res. 20, 5615–5629. https://doi.org/10.1007/s11356-013-1580-6
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+15 of 16 
+Volume 21 | Issue 10 | 210056 
+Hien, P.D., Bac, V.T., Lam, D.T., Thinh, N.T.H. (2004). PMF receptor modeling of fine and coarse 
+PM10 in air masses governing monsoon conditions in Hanoi, northern Vietnam. Atmos. Environ. 
+38, 189–201. https://doi.org/10.1016/j.atmosenv.2003.09.064 
+Hien, P.D., Bac, V.T., Thinh, N.T.H. (2005). Investigation of sulfate and nitrate formation on 
+mineral dust particles by receptor modeling. Atmos. Environ. 39, 7231–7239. https://doi.org/ 
+10.1016/j.atmosenv.2005.09.003 
+Hien, P.D., Men, N.T., Tan, P.M., Hangartner, M. (2020). Impact of urban expansion on the air 
+pollution landscape: A case study of Hanoi, Vietnam. Sci. Total Environ. 702, 134635. 
+https://doi.org/10.1016/j.scitotenv.2019.134635 
+Hildemann, L.M., Markowski, G.R., Jones, M.C., Cass, G.R. (1991). Submicrometer aerosol mass 
+distributions of emissions from boilers, fireplaces, automobiles, diesel trucks, and meat-cooking 
+operations. Aerosol Sci. Technol. 14, 138–152. https://doi.org/10.1080/02786829108959478 
+Hopke, P.K., Cohen, D.D., Begum, B.A., Biswas, S.K., Ni, B., Pandit, G.G., Santoso, M., Chung, Y.S., 
+Davy, P., Markwitz, A., Waheed, S., Siddique, N., Santos, F.L., Pabroa, P.C.B., Seneviratne, 
+M.C.S., Wimolwattanapun, W., Bunprapob, S., Vuong, T.B., Duy Hien, P., Markowicz, A. (2008). 
+Urban air quality in the Asian region. Sci. Total Environ. 404, 103–112. https://doi.org/10.101 
+6/j.scitotenv.2008.05.039 
+Hsu, C.Y., Chiang, H.C., Lin, S.L., Chen, M.J., Lin, T.Y., Chen, Y.C. (2016). Elemental characterization 
+and source apportionment of PM10 and PM2.5 in the western coastal area of central Taiwan. 
+Sci. Total Environ. 541, 1139–1150. https://doi.org/10.1016/j.scitotenv.2015.09.122 
+Hu, K., Guo, Y., Hu, D., Du, R., Yang, X., Zhong, J., Fei, F., Chen, F., Chen, G., Zhao, Q., Yang, J., 
+Zhang, Y., Chen, Q., Ye, T., Li, S., Qi, J. (2018). Mortality burden attributable to PM1 in Zhejiang 
+province, China. Environ. Int. 121, 515–522. https://doi.org/10.1016/j.envint.2018.09.033 
+Huang, S.L., Hsu, M.K., Chan, C.C. (2003). Effects of submicrometer particle compositions on 
+cytokine production and lipid peroxidation of human bronchial epithelial cells. Environ. Health 
+Perspect. 111, 478–482. https://doi.org/10.1289/ehp.5519 
+Japan International Cooperation Agency (JICA) & People’s Committee of Hanoi (2007). The 
+comprehensive urban development program in Hanoi capital city of the Socialist Republic of 
+Vietnam, March 2007. https://openjicareport.jica.go.jp/pdf/11856093_01.pdf 
+John, W., Wall, S.M., Ondo, J.L., Winklmayr, W. (1990). Modes in the size distributions of 
+atmospheric inorganic aerosol. Atmos. Environ. 24, 2349–2359. https://doi.org/10.1016/0960-
+1686(90)90327-J 
+Kaneyasu, N. (1995). Seasonal variation in the chemical composition of atmospheric aerosols and 
+gaseous species in Sapporo, Japan. Atmos. Environ. 29, 1559–1568. https://doi.org/10.1016/1 
+352-2310(94)00356-P 
+Lasko, K., Vadrevu, K.P., Nguyen, T.T.N. (2018). Analysis of air pollution over Hanoi, Vietnam using 
+multi-satellite and MERRA reanalysis datasets. PLoS One 13, e0196629. https://doi.org/10.137 
+1/journal.pone.0196629 
+Lee, S.C., Cheng, Y., Ho, K.F., Cao, J.J., Louie, P.K.K., Chow, J.C., Watson, J.G. (2006). PM1.0 and 
+PM2.5 Characteristics in the Roadside Environment of Hong Kong. Aerosol Sci. Technol. 40, 157–
+165. https://doi.org/10.1080/02786820500494544 
+Lin, H., Tao, J., Du, Y., Liu, T., Qian, Z., Tian, L., Di, Q., Rutherford, S., Guo, L., Zeng, W., Xiao, J., Li, 
+X., He, Z., Xu, Y., Ma, W. (2016). Particle size and chemical constituents of ambient particulate 
+pollution associated with cardiovascular mortality in Guangzhou, China. Environ. Pollut. 208, 
+758–766. https://doi.org/10.1016/j.envpol.2015.10.056 
+Lin, J.J., Lee, L.C. (2004). Characterization of the concentration and distribution of urban 
+submicron (PM1) aerosol particles. Atmos. Environ. 38, 469–475. https://doi.org/10.1016/j.at 
+mosenv.2003.09.056 
+Lundgren, D.A., Haing, D.N., Rich, T.A., Marple, V.A. (1996). PM10/PM2.5/PM1 data from a 
+trichotomous sampler. Aerosol Sci. Technol. 25, 353–357. https://doi.org/10.1080/02786829 
+608965401 
+Meng, Z., Seinfeld, J. (1994). On the source of the submicrometer droplet mode of urban and 
+regional aerosols. Aerosol Sci. Technol. 20, 253–265. https://doi.org/10.1080/027868294089 
+59681 
+Norris, G., Brown, S. (2014). EPA positive matrix factorization (PMF) 5.0 fundamentals and user 
+guide EPA/600/R-14/108 April 2014.
+
+ORIGINAL RESEARCH 
+ 
+https://doi.org/10.4209/aaqr.210056 
+Aerosol and Air Quality Research | https://aaqr.org 
+16 of 16 
+Volume 21 | Issue 10 | 210056 
+Norris, G., Ram, V., Katie, W., Patrick, Z., Steve, B., Paatero, P., Eberly, S., Foley, C. (2009). 
+Guidance document for PMF applications with the multilinear engine EPA 600/R-09/032 April 
+2009. 
+Paatero, P., Tapper, U. (1994). Positive matrix factorization: A non-negative factor model with 
+optimal utilization of error estimates of data values. Environmetrics 5, 111–126. https://doi.org/ 
+10.1002/ENV.3170050203 
+Pathak, R., Yao, X., Lau, A.K.H., Chan, C.K. (2003). Acidity and concentrations of ionic species of 
+PM2.5 in Hong Kong. Atmos. Environ. 37, 1113–1124. https://doi.org/10.1016/S1352-2310(02) 
+00958-5 
+Perez, N., Pey, J., Querol, X., Alastuey, A., Lopez, J.M., Viana, M. (2008). Partitioning of major and 
+trace components in PM10–PM2.5–PM1 at an urban site in Southern Europe. Atmos. Environ. 42, 
+1677–1691. https://doi.org/10.1016/j.atmosenv.2007.11.034 
+Prakash, J., Lohia, T., Mandariya, A.K., Habib, G., Gupta, T., Gupta, S.K. (2018). Chemical 
+characterization and quantitativ e assessment of source-specific health risk of trace metals in 
+PM1.0 at a road site of Delhi, India. Environ. Sci. Pollut. Res. 25, 8747–8764. https://doi.org/10. 
+1007/s11356-017-1174-9 
+Schmidt, M.W.I., Noack, A.G. (2000). Black carbon in soils and sediments: Analysis, distribution, 
+implications, and current challenges. Global Biogeochem. Cycles 14, 777–793. https://doi.org/ 
+10.1029/1999GB001208 
+Shao, P., Tian, H., Sun, Y., Liu, H., Wu, B., Liu, S., Liu, X., Wu, Y., Liang, W., Wang, Y., Gao, J., Xue, 
+Y., Bai, X., Liu, W., Lin, S., Hu, G. (2018). Characterizing remarkable changes of severe haze 
+events and chemical compositions in multi-size airborne particles (PM1, PM2.5 and PM10) from 
+January 2013 to 2016–2017 winter in Beijing, China. Atmos. Environ. 189, 133–144. 
+https://doi.org/10.1016/j.atmosenv.2018.06.038 
+Shen, Z.X., Cao, J.J., Arimoto, R., Han, Y.M., Chu, C.S., Tian, J., Liu, S.X. (2010). Chemical 
+characteristics of fine particles (PM1) from Xi’an, China. Aerosol Sci. Technol. 44, 461–472. 
+https://doi.org/10.1080/02786821003738908 
+Stein, A.F., Draxler, R.R, Rolph, G.D., Stunder, B.J.B., Cohen, M.D., Ngan, F. (2015). NOAA's 
+HYSPLIT atmospheric transport and dispersion modeling system, Bull. Amer. Meteor. Soc. 96, 
+2059–2077. https://doi.org/10.1175/BAMS-D-14-00110.1 
+Tao, J., Shen, Z., Zhu, C., Yue, J., Cao, J., Liu, S., Zhu, L., Zhang, R. (2012). Seasonal variations and 
+chemical characteristics of sub-micrometer particles (PM1) in Guangzhou, China. Atmos. Res. 
+118, 222–231. https://doi.org/10.1016/j.atmosres.2012.06.025 
+Watson, J., Chow, J.C., Chen, L.A., DuBois, D., Kohl, S., Trimble, D.L. (2008). Monitoring and data 
+analysis for the Minnesota particulate matter 2.5 (PM2.5) source apportionment study. 
+Minnesota Pollution Control Agency. https://www.researchgate.net/publication/235341852 
+Whitby, K.T. (1978). The physical characteristics of sulfur aerosols. Atmos. Environ. 12, 135–159. 
+https://doi.org/10.1016/0004-6981(78)90196-8 
+World Bank (2011). Vietnam urbanization review: Technical assistance report. 611. Washington, 
+DC. https://openknowledge.worldbank.org/handle/10986/2826 
+Ye, Z., Liu, J., Gu, A., Feng, F., Liu, Y., Bi, C., Xu, J., Li, L., Chen, H., Chen, Y., Dai, L., Zhou, Q., Ge, X. 
+(2017). Chemical characterization of fine particulate matter in Changzhou, China, and source 
+apportionment with offline aerosol mass spectrometry. Atmos. Chem. Phys. 17, 2573–2592. 
+https://doi.org/10.5194/acp-17-2573-2017 
+Yin, P., Guo, J., Wang, L., Fan, W., Lu, F., Guo, M., Moreno, S.B.R., Wang, Y., Wang, H., Zhou, M., 
+Dong, Z. (2020). Higher risk of cardiovascular disease associated with smaller size-fractioned 
+particulate matter. Environ. Sci. Technol. Lett. 7, 95–101. https://doi.org/10.1021/acs.estlett.9 
+b00735 
+Zhang, Y., Carmichael, G.R. (1999). The role of mineral aerosol in tropospheric chemistry in East 
+Asia—A model study. J. Appl. Meteorol. Climatol. 38, 353–366. https://doi.org/10.1175/1520-
+0450(1999)038<0353:TROMAI>2.0.CO;2 
+Zhang, Y., Lang, J., Cheng, S., Li, S., Zhou, Y., Chen, D., Zhang, H., Wang, H. (2018). Chemical 
+composition and sources of PM1 and PM2.5 in Beijing in autumn. Sci. Total Environ. 630, 72–82. 
+https://doi.org/10.1016/j.scitotenv.2018.02.151

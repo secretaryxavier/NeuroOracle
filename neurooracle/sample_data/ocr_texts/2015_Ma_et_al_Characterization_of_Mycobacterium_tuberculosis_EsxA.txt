@@ -1,0 +1,862 @@
+Characterization of Mycobacterium tuberculosis EsxA
+Membrane Insertion
+ROLES OF N- AND C-TERMINAL FLEXIBLE ARMS AND CENTRAL HELIX-TURN-HELIX MOTIF*
+Received for publication,October 27, 2014, and in revised form, December 26, 2014 Published, JBC Papers in Press,February 2, 2015, DOI 10.1074/jbc.M114.622076
+Yue Ma, Verena Keil, and Jianjun Sun1
+From the Department of Biological Sciences and Border Biomedical Research Center, University of Texas at El Paso,
+El Paso, Texas 79968
+Background: Mycobacterium tuberculosis EsxA exhibits a pH-dependent membrane-interacting activity.
+Results: Both the N- and C-terminal flexible arms are required for membrane disruption, and the central helix-turn-helix motif
+of EsxA inserts into the membrane.
+Conclusion: EsxA forms a membrane-spanning pore at low pH.
+Significance: An understanding of EsxA membrane insertion facilitates development of novel therapeutics against tuberculosis.
+EsxA (ESAT-6), an important virulence factor of Mycobacte-
+rium tuberculosis, plays an essential role in phagosome rupture
+and bacterial cytosolic translocation within host macrophages.
+Our previous study showed that EsxA exhibits a unique
+membrane-interacting activity that is not found in its ortholog
+from nonpathogenic Mycobacterium smegmatis. However, the
+molecular mechanism of EsxA membrane insertion remains
+unknown. In this study, we generated truncated EsxA proteins
+with deletions of the N- and/or C-terminal flexible arm. Using a
+fluorescence-based liposome leakage assay, we found that both
+the N- and C-terminal arms were required for membrane dis-
+ruption. Moreover, we found that, upon acidification, EsxA con-
+verted into a more organized structure with increased -helical
+content, which was evidenced by CD analysis and intrinsic tryp-
+tophan fluorescence. Finally, using an environmentally sensitive
+fluorescent dye, we obtained direct evidence that the central
+helix-turn-helix motif of EsxA inserted into the membranes and
+formed a membrane-spanning pore. A model of EsxA mem-
+brane insertion is proposed and discussed.
+Mycobacterium tuberculosis infects one-third of the world’s
+population and kills over 1 million people each year (1).
+Although significant progress has been made over decades of
+research efforts, the cellular and molecular mechanisms of
+M. tuberculosis pathogenesis are still not fully understood. It is
+widely believed that after being internalized into host macro-
+phages, M. tuberculosis establishes latent infection and remains
+inside the phagosomes through inhibiting phagosome matura-
+tion (2–4). Transition of latent infection to active tuberculosis
+requires M. tuberculosis to rupture the phagosomal mem-
+branes and translocate into the cytosol, where it replicates for
+cell-to-cell spreading (5–7). The ability of the pathogen to
+arrest phagosome maturation and to translocate from the pha-
+gosome to the cytosol has been attributed, at least in part, to a
+type VII secretion system named ESX-1 (5–9). Comparative
+genomic studies have revealed that the esx-1 locus is present in
+the genome of M. tuberculosis but is absent in the genome of
+the attenuated vaccine stain Mycobacterium bovis bacillus
+Calmette-Guérin (10, 11). Deletion of esx-1 from M. tuberculo-
+sis results in attenuation of virulence (12–14), whereas transfer
+of esx-1 into bacillus Calmette-Guérin partially restores viru-
+lence (15, 16). The esx-1 locus comprises 11 genes that encode
+the ESX-1 secretion system and two secreted proteins: ESAT-6
+(6-kDa early secreted antigenic target; also called EsxA or
+Rv3875) (17, 18) and CFP-10 (10-kDa culture filtrate protein;
+also called EsxB or Rv3874) (19). EsxA and EsxB are secreted by
+the ESX-1 system in a codependent manner (20). Mutants of
+M. tuberculosis with either gene deletions or defects in secre-
+tion of EsxA and/or EsxB are not translocated into the cytosol
+and show reduced host cell lysis and cell-to-cell spreading (5–7,
+12, 14, 21). Recently, it has been shown that apoptosis induction
+in host cells is clearly restricted to virulent M. tuberculosis
+strains and is associated with the capacity of M. tuberculosis to
+secrete EsxA (22). Biochemical analysis has shown that EsxA
+and EsxB form a 1:1 heterodimeric complex (23, 24), and EsxA
+exhibits membrane-lysing activity (12, 25). However, direct evi-
+dence that EsxA inserts into the membrane is lacking, and the
+molecular mechanism of EsxA membrane interaction has not
+been defined.
+In our previous study, we characterized the pH-dependent
+membrane interactions and conformational changes of M.
+tuberculosis EsxA, and we showed that M. tuberculosis EsxA
+exhibits a unique membrane-interacting activity that is not
+found in its ortholog from nonpathogenic Mycobacterium
+smegmatis (26). To investigate the mechanism of EsxA mem-
+brane insertion further, in this study, we generated EsxA pro-
+teins with N- and/or C-terminal deletions and found that both
+the N- and C-terminal flexible arms were required for mem-
+brane disruption. Moreover, we used the environmentally sen-
+sitive fluorescent dye N,N-dimethyl-N-(iodoacetyl)-N-(7-ni-
+* This work was supported by National Institutes of Health Grant
+5G12RR008124fromtheNationalCenterforResearchResourcesandGrant
+G12MD007592 from NIMHD. This work was also supported by University of
+Texas at El Paso new faculty startup funds (to J. S.) and German Academic
+ExchangeService(DAAD)ResearchInternshipsinScienceandEngineering
+(to V. K.).
+1 To whom correspondence should be addressed: Dept. of Biological Sci-
+ences and Border Biomedical Research Center, University of Texas at El
+Paso, 500 West University Ave., El Paso, TX 79968. Tel.: 915-747-8905;
+E-mail: jsun@utep.edu.
+THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 290, NO. 11, pp. 7314–7322, March 13, 2015
+© 2015 by The American Society for Biochemistry and Molecular Biology, Inc.
+Published in the U.S.A.
+7314
+JOURNAL OF BIOLOGICAL CHEMISTRY
+VOLUME 290•NUMBER 11•MARCH 13, 2015
+
+trobenz-2-oxa-1,3-diazol)ethylenediamine (NBD)2 and the
+liposome-based NBD fluorescence assay to provide direct evi-
+dence that, upon acidification, the central helix-turn-helix
+motif of EsxA inserted into the liposomal membranes and
+formed a membrane-spanning structure.
+MATERIALS AND METHODS
+Genes, Constructs, and Site-directed Mutagenesis—The full-
+length esxA gene (WT, residues 1–95) immediately followed by
+a C-terminal His6 tag was cloned into pET22b at the NdeI/XhoI
+sites as described previously (26). An esxA gene fragment with
+C-terminal residues 86–95 deleted (C) and also immediately
+followed by a His6 tag was obtained by PCR and cloned into
+pET22b at the NdeI/XhoI sites. esxA gene fragments with
+N-terminal residues 1–10 deleted (N) or both N-terminal res-
+idues 1–10 and C-terminal residues 86–95 deleted (NC)
+and immediately followed by a C-terminal His6 tag were
+obtained by PCR and cloned into the pGEX4T-1 vector at the
+BamHI/XhoI sites. All truncated constructs were confirmed by
+DNA sequencing.
+To generate cysteine mutations for NBD labeling, pET22b-
+EsxA(WT) was used as the template. The selected residues of
+EsxA were mutated to cysteine by site-directed mutagenesis
+using a QuikChange kit (Agilent). All cysteine mutations were
+confirmed by DNA sequencing.
+ExpressionandPurificationoftheRecombinantProteinsofEsxA
+WT, N, C, and NC—WT EsxA and C were expressed and
+purified from bacterial inclusion bodies as described previously
+(26). Briefly, pET22b-EsxA(WT) and pET22b-EsxA(C) were
+expressedinBL21(DE3)cells.Theinclusionbodywasisolatedand
+thensolubilizedin8 Murea.Theproteinswererefoldedonanickel
+columnandelutedwithanimidazolegradient.Theelutedproteins
+were further clarified by size exclusion chromatography to 90%
+purity. N and NC were expressed as GST fusion proteins
+following a similar protocol to that described previously for puri-
+ficationofGST-EsxB(26).Briefly,GST-NandGST-NCwere
+expressed as soluble proteins in BL21(DE3) cells. The fusion pro-
+teins were purified on a glutathione-Sepharose 4B column. The
+purified GST fusion proteins were cleaved with thrombin, and
+His-tagged N and NC were purified on a nickel column, fol-
+lowed by size exclusion chromatography.
+Liposome Preparation—Liposomes were prepared as described
+previously (26–30). Briefly, 1,2-dioleoyl-sn-glycero-3-phos-
+phocholine (20 mg/ml in chloroform) was dried under nitro-
+gen gas to form a lipid film, followed by vacuum overnight to
+remove residual solvent. For liposomes containing the dye/
+quencher
+pair
+8-aminonaphthalene-1,3,6-trisulfonic
+acid
+(ANTS)/p-xylene-bispyridinium bromide (DPX), the resulting
+dry lipid film was rehydrated by six freeze-thaw cycles in 50 mM
+ANTS, 50 mM DPX, and 5 mM HEPES (pH 7.3), followed by
+extrusion through a 200-nm Nucleopore filter in a mini-ex-
+truder (Avanti Polar Lipids). Subsequently, the liposome solu-
+tion was applied to a Sephadex G-25 desalting column equili-
+brated with 10 mM HEPES (pH 7.4) and 150 mM NaCl for buffer
+exchange. The resulting liposome solution had ANTS/DPX
+inside the liposomes, whereas there was no fluorescent dye out-
+side the liposomes. For liposomes used for NBD fluorescence, a
+regular buffer (20 mM Tris-HCl and 100 mM NaCl (pH 7.3)) was
+used to rehydrate the lipid film, and the liposomes were pre-
+pared with similar freeze-thaw cycles and extrusion but without
+desalting.
+Time-lapse Intensity Measurements of ANTS/DPX Dequench-
+ing—ANTS fluorescence dequenching was measured in an ISS K2
+multiphase frequency and modulation fluorometer with excita-
+tion at 380 nm and emission at 520 nm as described previously
+(26). Briefly, 100 l of the liposomes containing ANTS/DPX after
+desalting was diluted into 1.3 ml of 50 mM sodium acetate and 150
+mM NaCl (pH 5.0) with continuous stirring. After the baseline was
+stabilized, 100 l of purified proteins (total of 100 g) was injected
+into the cuvette, and the fluorescence signal was monitored in real
+time. Crossed polarizers on excitation and emission beams and a
+395-nm-long path filter were used to reduce the background
+scatter.
+Time-lapse Intensity Measurements of NBD Emission—The
+EsxA proteins carrying a cysteine mutation at the indicated
+positions were labeled with NBD (Invitrogen) as described pre-
+viously (27, 28). The NBD-labeled proteins (10 M) were incu-
+bated with the liposomes for 30 min, and the protein/liposome
+mixtures were transferred to a cuvette with a stirring bar in the
+ISS K2 fluorometer. NBD was excited at 488 nm, and emission
+was recorded at 544 nm. Crossed polarizers on excitation and
+emission beams and a 520-nm-long filter were used to reduce
+the background scatter. After the addition of 0.1 volume of 1 M
+sodium acetate (pH 5.0) to the cuvette, the shift in the NBD
+label from a polar (solution) to a nonpolar (liposomal mem-
+brane) environment was monitored.
+Intrinsic Tryptophan Fluorescence—The purified EsxA pro-
+teins (WT, N, C, and NC; 10 M) were incubated in
+either a neutral pH buffer (20 mM Tris-HCl and 100 mM NaCl
+(pH 7.0)) or an acidic buffer (20 mM sodium acetate and 100 mM
+NaCl (pH 5.0)) for 30 min. The intrinsic tryptophan fluores-
+cence was measured in the ISS K2 fluorometer with excitation
+at 295 nm and emission at 310–450 nm. A 305-nm-long path
+filter was applied in the emission channel to reduce the back-
+ground scatter. The emission spectra of the proteins were cali-
+brated with the emission spectra of the same pH buffers with-
+out proteins using VINCI software.
+8-Anilino-1-naphthalenesulfonate (ANS) Fluorescence—The
+purified EsxA proteins (WT, N, C, and NC; 5 M) were
+incubated with 100 M ANS in either pH 7.0 or 5.0 buffer for 30
+min in the dark. The ANS emission spectra of the samples were
+measured in the ISS K2 fluorometer with excitation at 380 nm
+and emission at 400–600 nm. A 395-nm-long path filter was
+placed in the emission path to reduce the background scatter.
+The emission spectra of the samples were calibrated with the
+same pH buffers without proteins using VINCI software.
+Circular Dichroism—The purified EsxA proteins (WT, N,
+C, and NC; 0.3 mg/ml) were incubated in 10 mM sodium
+phosphate buffer at either pH 7.0 or 5.0. The CD spectra were
+acquired from 190 to 300 nm at room temperature using a Jasco
+2 The abbreviations used are: NBD, N,N-dimethyl-N-(iodoacetyl)-N-(7-nit-
+robenz-2-oxa-1,3-diazol)ethylenediamine; ANTS, 8-aminonaphthalene-
+1,3,6-trisulfonic acid; DPX, p-xylene-bispyridinium bromide; ANS,
+8-anilino-1-naphthalenesulfonate.
+Membrane Insertion of M. tuberculosis EsxA
+MARCH 13, 2015•VOLUME 290•NUMBER 11
+JOURNAL OF BIOLOGICAL CHEMISTRY 7315
+
+J-810 CD spectropolarimeter. The secondary structure content
+was analyzed by inputting the data into the K2D3 server.
+RESULTS
+Expression and Purification of the Truncated EsxA Proteins
+with Deletions of the N- and/or C-terminal Flexible Arm—In
+the reported solution structure of the EsxA/EsxB heterodimer,
+EsxA is featured as a major helix-loop-helix motif with two
+flexible arms at both the N and C termini (Fig. 1A) (23). To
+investigate the role of the N- and C-terminal arms in membrane
+disruption, we generated truncated EsxA proteins with dele-
+tions of the N- and/or C-terminal flexible arm: N, C, and
+NC (Fig. 1B). The deletions were generated based on the
+available structural information from both the solution struc-
+ture and crystal structure of the EsxA/EsxB heterodimer (23,
+31). C was expressed from the pET22b vector in Escherichia
+coli and purified using a similar protocol to that described pre-
+viously for purification of WT EsxA (26). Interestingly, how-
+ever, N and NC were not expressed from the pET22b vec-
+tor even if the ATG start codon was present. Thus, we
+expressed both N and NC as N-terminal GST fusion pro-
+teins. GST-N and GST-NC were purified as described
+previously for purification of GST-EsxB (26), followed by
+thrombin cleavage and affinity chromatography on a nickel-
+Sepharose column. Finally, N, C, and NC were further
+clarified on a size exclusion column. The purified WT EsxA and
+truncated mutant proteins were examined by SDS-PAGE, and
+all of the purified proteins were shown to be pure and stable
+proteins (Fig. 1C).
+Both the N- and C-terminal Flexible Arms Are Required for
+Membrane Disruption—To test the effects of N- or C-terminal
+deletions on EsxA membrane disruption, we applied the puri-
+fied proteins to the ANTS/DPX fluorescence dequenching
+assay to measure liposome leakage. ANTS/DPX, the anion/cat-
+ion fluorophore/quencher pair, is widely used for membrane
+leakage. ANTS fluorescence is quenched by DPX inside the
+liposomes, and it is dequenched upon release into the medium.
+We successfully used this assay previously to measure pH-de-
+pendent EsxA membrane disruption (26). Consistent with the
+previous results, at pH 7.0, WT EsxA and the truncated pro-
+teins were inactive in membrane disruption (data not shown).
+At pH 5.0, relative to WT EsxA, both N and C exhibited an
+40% reduction in membrane disruption, and NC exhib-
+ited a significant 80% reduction (Fig. 2, A and B). These data
+strongly suggest that both the N- and C-terminal flexible arms
+are required for membrane disruption at low pH.
+Deletion of Either the N- or C-terminal Flexible Arm Reduces
+Solvent-exposed Hydrophobicity at Low pH—The extrinsic
+fluorescence dye ANS is weakly fluorescent in an aqueous envi-
+ronment but becomes highly fluorescent when it binds to
+hydrophobic sites of proteins (32). In our previous report, we
+successfully used ANS to measure the solvent-exposed
+hydrophobicity of EsxA proteins upon acidification (26).
+Here, we used ANS to measure the solvent-exposed hydro-
+phobicity of WT EsxA and its truncated mutants at either pH
+7.0 or 5.0 (Fig. 3, A and B). Consistent with the previous
+results, at pH 5.0, WT EsxA demonstrated an increase in
+ANS fluorescence that was significantly higher than that at
+pH 7.0, suggesting that, upon acidification, WT EsxA under-
+goes a significant conformational change that results in
+increased solvent-exposed hydrophobicity. Upon acidifica-
+tion, the truncated proteins also showed an increase in ANS
+fluorescence to various degrees. Relative to WT EsxA, how-
+ever, the ANS fluorescence intensity of N, C, and NC
+exhibited reductions of 50, 22, and 75%, respectively.
+This result is consistent with the result obtained in the
+ANTS dequenching assay, suggesting that both the N- and
+C-terminal
+flexible
+arms
+are
+required
+for
+membrane
+disruption.
+Upon Acidification, EsxA Converts into a Structure with
+Increased -Helical Content—To rule out the possibility that
+deletions of the N and/or C terminus may cause protein unfold-
+ing, we analyzed the CD spectra of WT EsxA and the truncated
+proteins at both pH 7.0 and 5.0 (Fig. 4). In the reported solution
+structure and crystal structure of the EsxA/EsxB heterodimer,
+residues 11–43 and 49–85 of EsxA form two stable helices (23,
+31), and a previous CD analysis showed that EsxA has a high
+helical content (24). Consistent with these studies, the CD spec-
+trum of WT EsxA indicated a typical -helical protein. As
+expected, the CD spectra of N, C, and NC also showed
+typical -helical proteins at pH 7.0, suggesting that all of the
+truncated proteins are folded. Interestingly, WT EsxA, N, and
+NC became even more helical at pH 5.0. Quantification of
+the secondary structure content showed that WT EsxA had an
+increase in -helical content from 81 to 94% and that both N
+FIGURE 1. Expression and purification of EsxA proteins with N- and/or C-terminal deletions. A, solution structure of the EsxA protein. The structural
+coordinates (Protein Data Bank ID 1WA8) of the EsxA/EsxB heterodimer were downloaded from the Protein Data Bank, and the structure of EsxA was displayed
+inSwiss-PdbViewer.B,diagramsofthefull-lengthEsxAprotein(WT)andtheEsxAproteinswithanN-terminaldeletion(N,residues1–10deleted),aC-terminal
+deletion (C, residues 86–95 deleted), and an N- and C-terminal deletion (NC). C, SDS-PAGE of purified recombinant WT EsxA and truncated proteins. WT
+EsxA, N, C, and NC were expressed, purified to homogeneity, and examined by SDS-PAGE, followed by Coomassie Blue staining.
+Membrane Insertion of M. tuberculosis EsxA
+7316
+JOURNAL OF BIOLOGICAL CHEMISTRY
+VOLUME 290•NUMBER 11•MARCH 13, 2015
+
+and NC had an increase from 68 to 94% (Table 1). The data
+suggest that, upon acidification, EsxA converts into a more
+folded and organized molecule by adopting more -helical
+structure.
+Intrinsic Tryptophan Emission Spectra of WT EsxA and the
+Truncated Proteins Are Blue-shifted at Low pH—To further inves-
+tigate the acidification-dependent conformational changes in WT
+EsxA,N,C,andNC,wemeasuredtheintrinsicTrpfluores-
+cence of these proteins at either pH 7.0 or 5.0 (Fig. 5). The Trp
+emissionspectrumishighlysensitivetosolventpolarity.Theemis-
+sion of Trp may be blue-shifted (shorter wavelength) if the residue
+is buried within a native protein, and its emission may be red-
+shifted (longer wavelength) when the protein is unfolded (33).
+Consistent with our previous report (26), the Trp fluorescence
+spectrumofWTEsxAwasblue-shifteduponacidification.Similar
+to WT EsxA, all of the truncated EsxA mutants exhibited a blue
+shiftintheirTrpfluorescencespectra.Thisresultisinlinewiththe
+CD data, and together, they strongly suggest that, upon acidifica-
+tion, EsxA undergoes a significant conformational change and
+converts into a more folded structure with increased -helical
+content.
+Upon Acidification, Both Helices 1 and 2 Insert into Lipo-
+somal Membranes—Although both the N- and C-terminal flex-
+ible arms are required for membrane disruption, it is not clear
+which part(s) of the molecule inserts into the membranes. To
+directly determine the membrane insertion domains(s) of
+EsxA, we performed the liposome-based NBD fluorescence
+assay. NBD is an environmentally sensitive dye that emits a
+strong fluorescence at 544 nm upon a shift from a polar to a
+nonpolar environment. Previously, we used NBD to monitor
+insertion of anthrax toxin into liposomal membranes (27, 28).
+In this study, we replaced 15 residues in EsxA with cysteine, one
+at a time, using site-directed mutagenesis. The cysteine muta-
+tions were randomly and widely distributed in the esxA gene.
+However, six EsxA cysteine mutants failed in expression, puri-
+fication, or NBD labeling, presumably because these positions
+are critical to EsxA structure (Table 2). To test if the remaining
+nine NBD-labeled proteins were functional in membrane dis-
+ruption, we applied them to the ANTS/DPX assay. The results
+showed that all of the NBD-labeled proteins disrupted lipo-
+somal membranes to a similar level as the non-NBD-labeled
+WT EsxA protein (data not shown). Thus, they were eligible for
+FIGURE 2. Both the N- and C-terminal arms of EsxA protein are required
+for membrane disruption. Liposomes containing the dye/quencher pair
+ANTS/DPX were diluted into either pH 5.0 or 7.0 buffer with continuous stir-
+ring. Once the fluorescence baseline was stabilized, the purified EsxA protein
+(WT, N, C, or NC) was injected into the solution (final concentration of
+10 M). The dequenching of ANTS fluorescence due to leakage of the mem-
+brane vesicles was recorded with emission at 520 nm and excitation at 380
+nm. Only the representative recordings of ANTS dequenching at pH 5 are
+shown in A. The fluorescence intensity at 200 s post-injection was quantified
+from three independent measurements and is shown in B.
+FIGURE 3. Both N- and C-terminal deletions exhibit reduced ANS fluores-
+cence. The EsxA protein (WT, N, C, or NC; 5 M) was incubated with 100
+M ANS in either pH 7.0 or 5.0 buffer for 30 min. The samples were excited at
+380 nm, and the emission fluorescence intensity of ANS was recorded at 400–
+600 nm. The emission spectra of the samples were calibrated with the same
+buffers without proteins. The representative results are shown in A. The peak
+emission intensity at 468 nm was quantified from at least three independent
+measurements (B).
+Membrane Insertion of M. tuberculosis EsxA
+MARCH 13, 2015•VOLUME 290•NUMBER 11
+JOURNAL OF BIOLOGICAL CHEMISTRY 7317
+
+the NBD fluorescence assay. Of the nine NBD-labeled EsxA
+proteins, three (S35C, G45C, and A60C) showed rapid strong
+NBD emissions at low pH in the presence of liposomes but not
+in their absence (Fig. 6A). This clearly demonstrated that the
+NBD label at these positions inserted into the liposomal mem-
+branes and had direct contact with the lipid molecules. Ser-35,
+Ala-60, and Gly-45 are located in Helix 1, Helix 2, and the turn
+region between Helices 1 and 2, respectively (Fig. 7, A and B).
+Combined with the available structural data (see “Discussion”
+for more details), the NBD data confirm that both Helices 1 and
+2 insert into the membranes and form a membrane-spanning
+pore (Fig. 7B).
+DISCUSSION
+EsxA was first discovered as a potent T-cell antigen (17, 18)
+and has recently been identified as an important virulence fac-
+tor in tuberculosis infection (12, 14, 24, 34). An understanding
+of the molecular mechanism of EsxA-mediated virulence is of
+great significance in the development of novel therapeutics
+against tuberculosis. Our previous study showed that EsxA
+undergoes
+a
+pH-dependent
+conformational
+change
+and
+induces leakage of membrane vesicles, suggesting that EsxA
+contributes to the pathogenesis of M. tuberculosis through
+acidification-triggered disruption of host membranes (26).
+However, the molecular details of how EsxA inserts into the
+membrane and forms a membrane-spanning pore remain
+unclear.
+The solution structure of the EsxA/EsxB heterodimer shows
+that EsxA contains N- and C-terminal flexible arms and a cen-
+tral helix-turn-helix motif (Fig. 1A) (23). We measured the
+length of Helices 1 and 2 at 50 Å, which is equivalent to the
+depth of a typical lipid bilayer. Therefore, it is reasonable to
+believe that both Helices 1 and 2 insert into the membrane and
+form a membrane-spanning pore, whereas the N- and C-termi-
+nal arms play a role in anchoring and supporting this interac-
+tion on the membrane surface (Fig. 7B). In this study, we have
+provided evidence that supports this model of EsxA membrane
+insertion.
+Using nine functional and NBD-labeled EsxA cysteine mu-
+tants, we obtained essential evidence that supports the pro-
+posed model of EsxA membrane insertion. Ser-35 and Ala-60
+are located in Helices 1 and 2, respectively (Fig. 7, A and B).
+When NBD was used to label S35C or A60C, it showed a rapid,
+strong, and liposome-dependent emission (Fig. 6), demonstrat-
+ing that both Ser-35 and Ala-60 are lipid-facing residues. Inter-
+estingly, although Gln-34 and Thr-37 are adjacent to Ser-35,
+the NBD label in Q34C or T37C did not emit fluorescence (Fig.
+6), suggesting that Gln-34 and Thr-37 are not lipid-facing res-
+idues. This result is in line with the fact that in the solution
+structure of EsxA, Gln-34 and Thr-37 are located on different
+helical faces from Ser-35 (Fig. 7B). Similarly, relative to Ala-60,
+FIGURE 4. CD spectra of WT EsxA and the truncated proteins at pH 7.0 and 5.0. The purified EsxA proteins (WT (A), N (B), C (C), and NC (D); 0.3 mg/ml)
+were incubated in 10 mM sodium phosphate buffer at either pH 7.0 or 5.0. The CD spectra were acquired from 190 to 300 nm at room temperature using the
+Jasco J-810 CD spectropolarimeter. The CD spectra were obtained from integration of three consecutive measurements.
+TABLE 1
+Secondary structure content of EsxA proteins
+The secondary structure content was analyzed by inputting the CD data into the
+K2D3 server.
+pH 7.0
+pH 5.0
+-Helix
+-Sheet
+-Helix
+-Sheet
+WT
+81.52
+0.31
+94.1
+0.26
+N
+68.16
+0.41
+94.44
+0.27
+C
+93.99
+0.27
+94.5800
+0.3
+NC
+68.08
+0.39
+93.62
+0.27
+Membrane Insertion of M. tuberculosis EsxA
+7318
+JOURNAL OF BIOLOGICAL CHEMISTRY
+VOLUME 290•NUMBER 11•MARCH 13, 2015
+
+Val-54 is negative in NBD fluorescence and is located in a dif-
+ferent face of Helix 2 (Fig. 7B). More interestingly, NBD emis-
+sion in G45C was moderate, 2–3-fold lower compared with
+S35C and A60C, suggesting that Gly-45 is partially embedded
+in the membrane. This result is consistent with the predicted
+position of Gly-45 after membrane insertion, which is at the
+edge of the membranes (Fig. 7B).
+It is worth mentioning that Ser-35 is located in the contact
+interface between EsxA and EsxB in the heterodimer structure
+(23, 35). Thus, these data provide indirect evidence supporting
+the notion that, upon acidification, EsxB is dissociated from
+EsxA, allowing EsxA to insert into the membranes (25). How-
+ever, current data from the literature are conflicting as to
+whether or not the EsxA/EsxB heterodimer dissociates at acidic
+pH. Using the native proteins extracted from the culture filtrate
+of M. tuberculosis, de Jonge et al. (25) showed that EsxA and
+EsxB dissociated at low pH. In our previous study, however, the
+recombinant heterodimer was inactive in membrane disrup-
+tion and showed no aggregation at acidic pH, suggesting that
+EsxA and EsxB did not dissociate at low pH (26). Consistent
+with our results, the CD study by Lightbody et al. (35) showed
+that the complex formed by EsxA and EsxB (proteins purified
+from E. coli) was too stable to dissociate at low pH. One possible
+explanation for this discrepancy could be that the mycobacte-
+rium-produced proteins possess unique properties that are not
+present in the E. coli-produced proteins, allowing EsxA and
+EsxB to dissociate at low pH. These properties might include
+post-translational modifications, such as N--acetylation of
+Thr-2 in EsxA. It has been shown that acetylated and non-
+acetylated EsxA differentially bind to EsxB (36). Moreover, a
+recent study showed that homeostasis of N--acetylation of
+EsxA correlates with virulence of Mycobacterium marinum
+(37). Although N--acetylation of Thr-2 in EsxA might play a
+role in dissociation of EsxA and EsxB at low pH, other post-
+translational modifications and other bacterial and/or cellular
+factors may be involved in this process.
+A striking feature of EsxA structure is the flexible N- and
+C-terminal arms, in which a number of hydrophobic and aro-
+matic residues play no structural role (23). The data showing
+FIGURE 5. Trp fluorescence spectra of WT EsxA and the truncated proteins show a blue shift at pH 5.0. The purified EsxA proteins (WT (A), N (B), C (C),
+andNC(D);10M)wereincubatedineitherpH7.0or5.0bufferfor30min.Thesampleswereexcitedat295nm,andtheemissionspectraofTrpfluorescence
+were recorded at 310–450 nm. The emission spectra of the proteins were calibrated with the emission spectra of the same buffers without proteins. Repre-
+sentative data from at least three independent experiments are shown.
+TABLE 2
+Summary of the EsxA cysteine mutants for NBD labeling
+Mutant
+Purification
+NBD
+label
+Pore-forming
+activitya
+Membrane
+insertionb
+Q4C
+
+
+
+
+A9C
+
+
+
+
+G10C
+
+
+
+
+A14C
+
+
+
+
+N21C
+
+
+
+
+V22C
+
+
+
+
+Q34C
+
+
+
+
+S35C
+
+
+
+
+T37C
+
+
+
+
+G45C
+
+
+
+
+Q55C
+
+
+
+
+W58C
+
+
+
+
+A60C
+
+
+
+
+A79C
+
+
+
+
+G88C
+
+
+
+
+a Pore-forming activity was measured by the ANTS fluorescence dequenching
+assay as described under “Materials and Methods” (data not shown).
+b Membrane insertion was measured by NBD fluorescence as described under
+“Materials and Methods,” and the results are shown in Fig. 6.
+Membrane Insertion of M. tuberculosis EsxA
+MARCH 13, 2015•VOLUME 290•NUMBER 11
+JOURNAL OF BIOLOGICAL CHEMISTRY 7319
+
+that N, C, and NC were defective in membrane disrup-
+tion (Fig. 2) demonstrated that both the N- and C-terminal
+flexible arms were required for EsxA to disrupt the membranes.
+Because the NBD label in Q4C, G10C, or G88C did not emit
+liposome-dependent fluorescence (Fig. 6), the N- and C-termi-
+nal arms are not likely to insert into the membranes. However,
+we do not exclude the possibility that parts of the N- or C-ter-
+minal arm have transient dynamic contacts with the lipid mem-
+branes to anchor the molecule on the membranes and/or sup-
+port insertion of Helices 1 and 2 into the membranes. Current
+data from our laboratory and others suggest that EsxA forms a
+pore on the membranes (26, 38). Because the EsxA monomer
+has a limited molecular size, one can image that EsxA must
+assemble into an oligomeric complex to form a membrane-
+spanning pore on the membranes. In this scenario, both the N-
+and C-terminal arms might play an essential role in intermo-
+lecular interactions within the oligomeric pore complex.
+One interesting finding in this study is that unlike many
+other pore-forming proteins, which usually become unfolded
+(at least in part) upon acidification, EsxA became more folded
+with increased -helical content. This finding was evidenced by
+CD analysis (Fig. 3 and Table 1) and Trp fluorescence (Fig. 4).
+Upon acidification, the -helical content of EsxA increased
+from 81% (pH 7.0) to 94% (pH 5.0). The increase in -helical
+content was dependent on the presence of the C-terminal arm
+because C did not show any increase in -helical content. By
+calculation, a 13% increase in -helical content represents
+12–13 amino acids adopting -helical structure. Coinci-
+dently, a recent study suggested that EsxA and other WXG100
+proteins have a C-terminal conserved residue pattern (residues
+83–95 in EsxA, MASTEGNVTGMFA) (31). The underlined
+residues are spaced about three residues apart and correspond
+to a turn of the -helix, placing them all on the same face of the
+helix. Our data are consistent with this prediction and suggest
+that although these residues are shown as a disordered arm in
+the solution structure of EsxA at pH 7.0, they may adopt -hel-
+ical structure upon acidification.
+It is also worth mentioning that compared with WT EsxA,
+both N and NC showed a decrease in -helical content
+from 81 to 68% at pH 7.0 (Table 1). This may be explained by
+fact that the N-terminal deletion caused partial unfolding of the
+adjacent helical structure. This may also explain why N and
+NC were not expressed in the pET22b vector. Thus, the
+N-terminal flexible arm appears to have effects on the stability
+of the EsxA molecule. However, at pH 5.0, the -helical content
+FIGURE 6. The NBD label at Ser-35, Gly-45, and Ala-60 of EsxA proteins
+exhibits a rapid, strong, and membrane-dependent fluorescence emis-
+sion. The EsxA proteins were labeled with NBD at the indicated positions and
+incubated with or without liposomes (Lip) in pH 7.0 buffer for 30 min. Subse-
+quently, the pH was rapidly lowered by adding 0.1 volume of 1 M sodium
+acetate (pH 4). The solution was continuously stirred in the cuvette. NBD
+fluorescence emission was recorded as a function of time (excitation at 488
+nm and emission at 544 nm). The representative NBD fluorescence curves of
+S35C, G45G, and A60C are shown in A. The NBD emission at 20 s post-acidifi-
+cation was calculated from three independent measurements and then nor-
+malized to that of G45C (set as 1). The relative NBD emission at the indicated
+positions is shown in B.
+FIGURE 7. Model of EsxA membrane insertion. A, amino acid sequence and
+secondarystructureoftheEsxAprotein.Theresiduesindicatedbyopencircles
+had negative NBD fluorescence; the residues indicated by solid circles had
+positive NBD fluorescence. N-Arm and C-Arm, N- and C-terminal arms, respec-
+tively. B, proposed model of EsxA membrane insertion. Upon acidification,
+Helices 1 and 2 insert into the membrane and form a membrane-spanning
+pore. The length of Helices 1 and 2 is 50 Å, which fits the depth of a typical
+membrane. The residues that were labeled with NBD were displayed in the
+EsxA structure by Swiss-PdbViewer.
+Membrane Insertion of M. tuberculosis EsxA
+7320
+JOURNAL OF BIOLOGICAL CHEMISTRY
+VOLUME 290•NUMBER 11•MARCH 13, 2015
+
+of both N and NC increased up to 94%, suggesting that
+the majority of the molecules adopted -helical structure.
+In summary, this study provides, for the first time, direct
+evidence that, at low pH, EsxA converts into a membrane pro-
+tein, with the central helix-turn-helix motif inserting into the
+membrane and forming a membrane-spanning pore. We have
+also shown that both the N- and C-terminal flexible arms are
+required for EsxA membrane disruption. Upon acidification,
+EsxA converts into a more organized helical structure, with the
+C-terminal flexible arm adopting -helical structure. This
+study has provided a foundation for in-depth characterizations
+of the EsxA pore on membranes in the future. An understand-
+ing of the mechanism of EsxA pore formation and the structure
+of the EsxA pore will facilitate development of novel therapeu-
+tics against tuberculosis. Moreover, EsxA is the prototype of the
+WXG protein family, which includes hundreds of bacterial pro-
+teins without known structure and function (31). The knowl-
+edge obtained from EsxA can be applied to the study of other
+WXG proteins.
+Acknowledgment—We thank Dr. Barbara Lyon (Department of
+Chemistry and Biochemistry, New Mexico State University) for pro-
+viding assistance with using the Jasco J-810 CD spectropolarimeter.
+REFERENCES
+1. Dolin, P. J., Raviglione, M. C., and Kochi, A. (1994) Global tuberculosis
+incidence and mortality during 1990–2000. Bull. World Health Organ. 72,
+213–220
+2. Orme, I. (2004) Adaptive immunity to mycobacteria. Curr. Opin. Micro-
+biol. 7, 58–61
+3. Kang, P. B., Azad, A. K., Torrelles, J. B., Kaufman, T. M., Beharka, A.,
+Tibesar, E., DesJardin, L. E., and Schlesinger, L. S. (2005) The human
+macrophage mannose receptor directs Mycobacterium tuberculosis li-
+poarabinomannan-mediated phagosome biogenesis. J. Exp. Med. 202,
+987–999
+4. Pizarro-Cerdá, J., and Cossart, P. (2006) Bacterial adhesion and entry into
+host cells. Cell 124, 715–727
+5. van der Wel, N., Hava, D., Houben, D., Fluitsma, D., van Zon, M., Pierson,
+J., Brenner, M., and Peters, P. J. (2007) M. tuberculosis and M. leprae trans-
+locate from the phagolysosome to the cytosol in myeloid cells. Cell 129,
+1287–1298
+6. Simeone, R., Bobard, A., Lippmann, J., Bitter, W., Majlessi, L., Brosch, R.,
+and Enninga, J. (2012) Phagosomal rupture by Mycobacterium tuberculo-
+sis results in toxicity and host cell death. PLoS Pathog. 8, e1002507
+7. Houben, D., Demangel, C., van Ingen, J., Perez, J., Baldeón, L., Abdallah,
+A. M., Caleechurn, L., Bottai, D., van Zon, M., de Punder, K., van der Laan,
+T., Kant, A., Bossers-de Vries, R., Willemsen, P., Bitter, W., van Soolingen,
+D., Brosch, R., van der Wel, N., and Peters, P. J. (2012) ESX-1-mediated
+translocation to the cytosol controls virulence of mycobacteria. Cell. Mi-
+crobiol. 14, 1287–1298
+8. MacGurn, J. A., and Cox, J. S. (2007) A genetic screen for Mycobacterium
+tuberculosis mutants defective for phagosome maturation arrest identifies
+components of the ESX-1 secretion system. Infect. Immun. 75, 2668–2678
+9. Koo, I. C., Wang, C., Raghavan, S., Morisaki, J. H., Cox, J. S., and Brown,
+E. J. (2008) ESX-1-dependent cytolysis in lysosome secretion and inflam-
+masome activation during mycobacterial infection. Cell. Microbiol. 10,
+1866–1878
+10. Mahairas, G. G., Sabo, P. J., Hickey, M. J., Singh, D. C., and Stover, C. K.
+(1996) Molecular analysis of genetic differences between Mycobacterium
+bovis BCG and virulent M. bovis. J. Bacteriol. 178, 1274–1282
+11. Behr, M. A., Wilson, M. A., Gill, W. P., Salamon, H., Schoolnik, G. K., Rane,
+S., and Small, P. M. (1999) Comparative genomics of BCG vaccines by
+whole-genome DNA microarray. Science 284, 1520–1523
+12. Hsu, T., Hingley-Wilson, S. M., Chen, B., Chen, M., Dai, A. Z., Morin,
+P. M., Marks, C. B., Padiyar, J., Goulding, C., Gingery, M., Eisenberg, D.,
+Russell, R. G., Derrick, S. C., Collins, F. M., Morris, S. L., King, C. H., and
+Jacobs, W. R. (2003) The primary mechanism of attenuation of bacillus
+Calmette-Guérin is a loss of secreted lytic function required for invasion of
+lung interstitial tissue. Proc. Natl. Acad. Sci. U.S.A. 100, 12420–12425
+13. Lewis, K. N., Liao, R., Guinn, K. M., Hickey, M. J., Smith, S., Behr, M. A.,
+and Sherman, D. R. (2003) Deletion of RD1 from Mycobacterium tuber-
+culosis mimics bacille Calmette-Guérin attenuation. J. Infect. Dis. 187,
+117–123
+14. Guinn, K. M., Hickey, M. J., Mathur, S. K., Zakel, K. L., Grotzke, J. E.,
+Lewinsohn, D. M., Smith, S., and Sherman, D. R. (2004) Individual RD1-
+region genes are required for export of ESAT-6/CFP-10 and for virulence
+of Mycobacterium tuberculosis. Mol. Microbiol. 51, 359–370
+15. Pym, A. S., Brodin, P., Brosch, R., Huerre, M., and Cole, S. T. (2002) Loss of
+RD1 contributed to the attenuation of the live tuberculosis vaccines My-
+cobacterium bovis BCG and Mycobacterium microti. Mol. Microbiol. 46,
+709–717
+16. Pym, A. S., Brodin, P., Majlessi, L., Brosch, R., Demangel, C., Williams, A.,
+Griffiths, K. E., Marchal, G., Leclerc, C., and Cole, S. T. (2003) Recombi-
+nant BCG exporting ESAT-6 confers enhanced protection against tuber-
+culosis. Nat. Med. 9, 533–539
+17. Andersen, P., Andersen, A. B., Sørensen, A. L., and Nagai, S. (1995) Recall
+of long-lived immunity to Mycobacterium tuberculosis infection in mice.
+J. Immunol. 154, 3359–3372
+18. Sørensen, A. L., Nagai, S., Houen, G., Andersen, P., and Andersen, A. B.
+(1995) Purification and characterization of a low-molecular-mass T-cell
+antigen secreted by Mycobacterium tuberculosis. Infect. Immun. 63,
+1710–1717
+19. Berthet, F. X., Rasmussen, P. B., Rosenkrands, I., Andersen, P., and Gic-
+quel, B. (1998) A Mycobacterium tuberculosis operon encoding ESAT-6
+and a novel low-molecular-mass culture filtrate protein (CFP-10). Micro-
+biology 144, 3195–3203
+20. Fortune, S. M., Jaeger, A., Sarracino, D. A., Chase, M. R., Sassetti, C. M.,
+Sherman, D. R., Bloom, B. R., and Rubin, E. J. (2005) Mutually dependent
+secretion of proteins required for mycobacterial virulence. Proc. Natl.
+Acad. Sci. U.S.A. 102, 10676–10681
+21. Brodin, P., de Jonge, M. I., Majlessi, L., Leclerc, C., Nilges, M., Cole, S. T.,
+and Brosch, R. (2005) Functional analysis of early secreted antigenic tar-
+get-6, the dominant T-cell antigen of Mycobacterium tuberculosis, reveals
+key residues involved in secretion, complex formation, virulence, and im-
+munogenicity. J. Biol. Chem. 280, 33953–33959
+22. Aguilo, J. I., Alonso, H., Uranga, S., Marinova, D., Arbués, A., de Martino,
+A., Anel, A., Monzon, M., Badiola, J., Pardo, J., Brosch, R., and Martin, C.
+(2013) ESX-1-induced apoptosis is involved in cell-to-cell spread of My-
+cobacterium tuberculosis. Cell. Microbiol. 15, 1994–2005
+23. Renshaw, P. S., Lightbody, K. L., Veverka, V., Muskett, F. W., Kelly, G.,
+Frenkiel, T. A., Gordon, S. V., Hewinson, R. G., Burke, B., Norman, J.,
+Williamson, R. A., and Carr, M. D. (2005) Structure and function of the
+complex formed by the tuberculosis virulence factors CFP-10 and
+ESAT-6. EMBO J. 24, 2491–2498
+24. Renshaw, P. S., Panagiotidou, P., Whelan, A., Gordon, S. V., Hewinson,
+R. G., Williamson, R. A., and Carr, M. D. (2002) Conclusive evidence that
+the major T-cell antigens of the Mycobacterium tuberculosis complex
+ESAT-6 and CFP-10 form a tight, 1:1 complex and characterization of the
+structural properties of ESAT-6, CFP-10, and the ESAT-6CFP-10 com-
+plex. Implications for pathogenesis and virulence. J. Biol. Chem. 277,
+21598–21603
+25. de Jonge, M. I., Pehau-Arnaudet, G., Fretz, M. M., Romain, F., Bottai, D.,
+Brodin, P., Honoré, N., Marchal, G., Jiskoot, W., England, P., Cole, S. T.,
+and Brosch, R. (2007) ESAT-6 from Mycobacterium tuberculosis dissoci-
+ates from its putative chaperone CFP-10 under acidic conditions and ex-
+hibits membrane-lysing activity. J. Bacteriol. 189, 6028–6034
+26. De Leon, J., Jiang, G., Ma, Y., Rubin, E., Fortune, S., and Sun, J. (2012)
+Mycobacterium tuberculosis ESAT-6 exhibits a unique membrane-inter-
+acting activity that is not found in its ortholog from non-pathogenic My-
+cobacterium smegmatis. J. Biol. Chem. 287, 44184–44191
+27. Sun, J., Vernier, G., Wigelsworth, D. J., and Collier, R. J. (2007) Insertion of
+Membrane Insertion of M. tuberculosis EsxA
+MARCH 13, 2015•VOLUME 290•NUMBER 11
+JOURNAL OF BIOLOGICAL CHEMISTRY 7321
+
+anthrax protective antigen into liposomal membranes. Effects of a recep-
+tor. J. Biol. Chem. 282, 1059–1065
+28. Sun, J., Lang, A. E., Aktories, K., and Collier, R. J. (2008) Phenylalanine-427
+of anthrax protective antigen functions in both pore formation and pro-
+tein translocation. Proc. Natl. Acad. Sci. U.S.A. 105, 4346–4351
+29. Sun, J., and Collier, R. J. (2010) Disulfide bonds in the ectodomain of
+anthrax toxin receptor 2 are required for the receptor-bound protective-
+antigen pore to function. PLoS ONE 5, e10553
+30. Jacquez, P., Lei, N., Weigt, D., Xiao, C., and Sun, J. (2014) Expression and
+purification of the functional ectodomain of human anthrax toxin recep-
+tor 2 in Escherichia coli Origami B cells with assistance of bacterial Trigger
+Factor. Protein Expr. Purif. 95, 149–155
+31. Poulsen, C., Panjikar, S., Holton, S. J., Wilmanns, M., and Song, Y.-H.
+(2014) WXG100 protein superfamily consists of three subfamilies and
+exhibits an -helical C-terminal conserved residue pattern. PLoS ONE 9,
+e89313
+32. Meher, A. K., Bal, N. C., Chary, K. V., and Arora, A. (2006) Mycobacterium
+tuberculosis H37Rv ESAT-6–CFP-10 complex formation confers ther-
+modynamic and biochemical stability. FEBS J. 273, 1445–1462
+33. Lakowicz, R. (1983) Principles of Fluorescence Spectroscopy, Plenum Press,
+New York
+34. Wards, B. J., de Lisle, G. W., and Collins, D. M. (2000) An esat6 knockout
+mutant of Mycobacterium bovis produced by homologous recombination
+will contribute to the development of a live tuberculosis vaccine. Tuber.
+Lung Dis. 80, 185–189
+35. Lightbody, K. L., Ilghari, D., Waters, L. C., Carey, G., Bailey, M. A., Wil-
+liamson, R. A., Renshaw, P. S., and Carr, M. D. (2008) Molecular features
+governing the stability and specificity of functional complex formation by
+Mycobacterium tuberculosis CFP-10/ESAT-6 family proteins. J. Biol.
+Chem. 283, 17681–17690
+36. Okkels, L. M., Müller, E.-C., Schmid, M., Rosenkrands, I., Kaufmann, S. H.,
+Andersen, P., and Jungblut, P. R. (2004) CFP10 discriminates between
+nonacetylated and acetylated ESAT-6 of Mycobacterium tuberculosis by
+differential interaction. Proteomics 4, 2954–2960
+37. Mba Medie, F., Champion, M. M., Williams, E. A., and DiGiuseppe Cham-
+pion, P. A. (2014) Homeostasis of N--terminal acetylation of EsxA cor-
+relates with virulence in Mycobacterium marinum. Infect. Immun. 82,
+4572–4586
+38. Smith, J., Manoranjan, J., Pan, M., Bohsali, A., Xu, J., Liu, J., McDonald,
+K. L., Szyk, A., LaRonde-LeBlanc, N., and Gao, L.-Y. (2008) Evidence for
+pore formation in host cell membranes by ESX-1-secreted ESAT-6 and its
+role in Mycobacterium marinum escape from the vacuole. Infect. Immun.
+76, 5478–5487
+Membrane Insertion of M. tuberculosis EsxA
+7322
+JOURNAL OF BIOLOGICAL CHEMISTRY
+VOLUME 290•NUMBER 11•MARCH 13, 2015

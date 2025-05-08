@@ -1,0 +1,1367 @@
+Pathogens and Disease, 76, 2018, fty037
+doi: 10.1093/femspd/fty037
+Advance Access Publication Date: 14 April 2018
+Minireview
+MINIREVIEW
+Tuberculosis and the art of macrophage manipulation
+S. Upadhyay, E. Mittal and J. A. Philips∗
+Division of Infectious Diseases, Department of Medicine, Department of Molecular Microbiology, Washington
+University School of Medicine, St. Louis, MO 63110, USA
+∗Corresponding author: Tel: +314 747 8058; E-mail: Philips.j.a@wustl.edu:
+One sentence summary: The authors focus on the diverse effectors that Mycobacterium tuberculosis uses in its multi-pronged effort to subvert the innate
+immune responses of macrophages.
+Editor: Kathleen McDonough
+ABSTRACT
+Macrophages are ﬁrst-line responders against microbes. The success of Mycobacterium tuberculosis (Mtb) rests upon its ability
+to convert these antimicrobial cells into a permissive cellular niche. This is a remarkable accomplishment, as the
+antimicrobial arsenal of macrophages is extensive. Normally bacteria are delivered to an acidic, degradative lysosome
+through one of several trafﬁcking pathways, including LC3-associated phagocytosis (LAP) and autophagy. Once
+phagocytozed, the bacilli are subjected to reactive oxygen and nitrogen species, and they induce the expression of
+proinﬂammatory cytokines, which serve to augment host responses. However, Mtb hijacks these host defense mechanisms,
+manipulating host cellular trafﬁcking, innate immune responses, and cell death pathways to its beneﬁt. The complex series
+of measures and countermeasures between host and pathogen ultimately determines the outcome of infection. In this
+review, we focus on the diverse effectors that Mtb uses in its multipronged effort to subvert the innate immune responses of
+macrophages. We highlight recent advances in understanding the molecular interface of the Mtb–macrophage interaction.
+Keywords: tuberculosis; phagosome maturation; LC3-associated phagocytosis; autophagy; apoptosis; inﬂammasome
+INTRODUCTION
+In 1882, Robert Koch announced that Mycobacterium tuberculo-
+sis (Mtb) causes tuberculosis (TB). In the same year, Metchnikoff
+made the surprising ﬁnding that host phagocytes ingest and kill
+bacteria. Thus, protagonist and antagonist were identiﬁed, and
+more than 100 years later, the story continues to unfold. Work
+from many investigators has provided a detailed, molecular un-
+derstanding of the antimicrobial arsenal of Metchnikoff’s phago-
+cytes. How Mtb is able to subvert these host defenses remains
+an area of ongoing investigation. Here, we focus on the effectors
+that enable Mtb to impair macrophage function, thereby under-
+mining the innate and adaptive immune response. It has been
+known for decades that one of the principle ways in which Mtb
+does this is by preventing its own delivery to the lysosome (Arm-
+strong and Hart 1971). Recent studies have revealed two dis-
+tinct lysosomal trafﬁcking pathways that involve LC3-marked
+organelles (Huang and Brumell 2014; Martinez et al. 2015). To
+prevent its degradation, Mtb must be able to undermine these
+distinct, lysosomal trafﬁcking pathways. In addition, Mtb en-
+counters many cellular and subcellular host environments that
+it has to navigate (Ehrt and Schnappinger 2009; Srivastava, Ernst
+and Desvignes 2014). Here, we focus our discussion on how Mtb
+directly manipulates host cellular trafﬁcking, innate immune re-
+sponses, and cell death pathways in macrophages. There is con-
+siderably less known about how Mtb directly manipulates other
+myeloid cells, such as dendritic cells and neutrophils; therefore,
+we concentrate on macrophages. There are already many excel-
+lent reviews on these topics, so we speciﬁcally emphasize the
+role of Mtb effectors and recent ﬁndings. Lastly, we have tried
+to assimilate many studies into a cohesive picture. In doing so,
+we have not been able to give all studies the attention they de-
+serve, and we have glossed over details. We direct the inter-
+ested reader to more comprehensive reviews and the primary
+literature.
+Received: 9 February 2018; Accepted: 4 April 2018
+C⃝FEMS 2018. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com
+1
+
+2
+Pathogens and Disease, 2018, Vol. 76, No. 4
+FIRST ENCOUNTERS
+Once inhaled, Mtb is taken up by alveolar macrophages.
+Macrophages are phenotypically diverse (Jakubzick, Randolph
+and Henson 2017), and alveolar macrophages, the ﬁrst to en-
+counter Mtb, are adapted to minimize lung injury. This may
+make alveolar macrophages particularly poorly equipped to
+control Mtb (Hussell and Bell 2014; Rajaram et al. 2014). More-
+over, mycobacteria selectively recruit permissive monocytes
+instead of more antimicrobial populations to the site of in-
+fection (Cambier et al. 2014). Numerous phagocytic receptors
+can mediate uptake of Mtb into macrophages (Philips and
+Ernst 2012; Stamm, Collins and Shiloh 2015). The particular
+phagocytic receptors that Mtb engages may inﬂuence the sub-
+sequent ability of macrophages to control infection. In fact,
+shortly after D’Arcy Hart demonstrated that Mtb can evade
+lysosomal degradation (Armstrong and Hart 1971), he showed
+that antibody opsonized bacteria, which bind the Fc-γ recep-
+tor, trafﬁc to the lysosome (Armstrong and Hart 1975). Con-
+versely, mannose-capped lipoarabinomannan (ManLAM) in the
+mycobacterial envelop binds mannose receptor (MR), which can
+impair phagosome maturation (Kang et al. 2005). Recent work
+demonstrates that human MR activates the protein tyrosine
+phosphatase SHP-1, which blocks phagosome maturation by
+limiting the activity of class III phosphatidylinositol 3-kinase
+(PI3K) on Mtb phagosomes (Rajaram et al. 2017). Thus, even be-
+fore entering the phagocyte, Mtb may set itself up for success
+by selectively parasitizing more permissive cells and interact-
+ing with cell surface receptors that promote its intracellular
+survival.
+MTB’S INTRACELLULAR LIFESTYLE
+Normally after uptake, a phagosome immediately matures
+from a comparatively inert compartment to an antimicrobial
+phagolysosome (Flannagan, Cos´ıo and Grinstein 2009). The
+phagosome acidiﬁes, acquires lysosomal hydrolases and antimi-
+crobial peptides, and restricts essential nutrients such as iron,
+while generating a toxic burst of zinc (Botella et al. 2011). In ad-
+dition, microorganisms activate pattern recognition receptors
+(PRRs), which augment the antimicrobial capacity of the phago-
+some by promoting NADPH oxidase recruitment (Nunes, De-
+maurex and Dinauer 2013). The NADPH oxidase generates reac-
+tive oxygen species (ROS) to kill microorganisms and promotes a
+distinct phagosome maturation pathway called LC3-associated
+phagocytosis (Martinez et al. 2015). Mtb and related species such
+as M. marinum prevent these normal maturation events. Multi-
+ple effectors enable Mtb to modulate phagosome maturation,
+undermining the normal antimicrobial capacity of lysosomal
+trafﬁcking. The mycobacterial vacuole is characterized by the
+prolonged retention of early endosomal markers that are nor-
+mally cleared from the maturing phagosomal surface, while the
+NADPH oxidase and numerous late endosomal and lysosomal
+markers are diminished or absent, including the vacuolar-H(+ )-
+ATPase (V-ATPase) (Sturgill-Koszycki et al. 1994) (Fig. 1). This early
+endosome-like arrest allows the bacteria to acquire iron via re-
+cycling endosomes, while avoiding the degradative environment
+of the lysosome.
+MTB PERFORATES THE PHAGOSOME
+One of the most critical determinants of bacterial fate in
+the macrophage is the Mtb ESX-1 type VII secretion system
+(recently reviewed in Wong 2017). Disruption of this secretion
+system in the vaccine strain BCG is the major reason that BCG
+is attenuated. ESX-1 secretes a number of effectors, including a
+heterodimer composed of EsxA/ESAT-6 and EsxB/CFP-10 (Cham-
+pion et al. 2006). EsxA is implicated in rupturing the phagosome.
+Whether the EsxA protein itself has direct membranolytic activ-
+ity is controversial (de Jonge et al. 2007; Conrad et al. 2017), but
+numerous studies demonstrate that mycobacterial mutants de-
+fective in esxA do not perforate the phagosome, and they have
+less membrane lytic activity (Hsu et al. 2003; Gao et al. 2004;
+van der Wel et al. 2007; Simeone et al. 2012; Watson, Manzanillo
+and Cox 2012) (Fig. 1B). The nature of the membranolytic activ-
+ity is not entirely clear, but it appears that mycobacteria cause
+gross membrane disruption in a contact-dependent manner
+(Myrvik, Leake and Wright 1984; Conrad et al. 2017; Schnettger
+et al. 2017). Recent work shows that the mycobacterial lipid ph-
+thicerol dimycocerosate (PDIM) works in concert with EsxA in
+mediating phagosomal damage (Augenstreich et al. 2017; Bar-
+czak et al. 2017; Quigley et al. 2017). Like mutants defective in
+esxA, PDIM mutants are attenuated, and they fail to promote
+host cell death or induce type I interferon, both of which are cor-
+related with phagosomal damage. It is possible that additional
+bacterial factors also promote phagosomal damage, such as the
+sphingomyelinase SpmT/Rv0888, which, like ESX-1, contributes
+to the hemolytic activity of Mtb (Speer et al. 2015).
+Damage to the Mtb phagosome is central to the pathogens’
+success and also provokes a host response. ESX-1-dependent
+membrane damage happens early after bacterial uptake, and
+host cytosolic sensors detect bacterial products and respond
+within the ﬁrst hours of infection (Stanley et al. 2007; Wong and
+Jacobs 2011; Manzanillo et al. 2012; Subbian et al. 2013; Collins
+et al. 2015; Simeone et al. 2015; Wassermann et al. 2015; Watson
+et al. 2015). Presumably the ability of Mtb to perforate the phago-
+some is so critical to its success because that is how Mtb deliv-
+ers the majority of its effectors to the cytosol (Fig. 1C). For ex-
+ample, recent work showed that the TB necrotizing toxin, TNT,
+is trapped in esx-1 mutant phagosomes, whereas it gains ac-
+cess to the cytoplasm during wild-type infection. Once in the
+cytosol, TNT can hydrolyze host nicotinamide adenine dinu-
+cleotide (NAD+) and causes necrosis (Sun et al. 2015). Thus, the
+role of EsxA in host cell death or other cellular phenotypes
+might be quite indirect, reﬂecting a failure to deliver effectors
+to the cytoplasm or a secondary consequence of endomem-
+brane damage. Phagosomal damage may also provide access
+to important nutrients to the bacilli, and over time, increasing
+membrane damage eventually allows bacilli translocate to the
+cytosol (van der Wel et al. 2007; Houben et al. 2012; Simeone
+et al. 2012). What determines whether the bacteria lightly perfo-
+rate the phagosome to ‘access’ the cytosol versus fully rupture
+the organelle and translocate into the cytosol is unclear. The
+degree of damage depends not only upon the bacterial strain,
+but also host cell type. Thus, host determinants that inﬂuence
+phagosome acidiﬁcation, NRAMP (natural resistance associated
+macrophage proteins) function, and phospholipase A2 activity
+might inﬂuence the degree of membrane damage (Simeone et al.
+2015; Jamwal et al. 2016). Interestingly, recent work suggests that
+host RAB20, by promoting formation of a spacious vacuole, an-
+tagonizes ESX-1 mediated-membrane damage (Schnettger et al.
+2017). While the nature of the damage itself and the host fac-
+tors that modulate it are not well elucidated, what is clear is
+that the consequences of perforating the phagosome are dra-
+matic: bacterial effectors are set loose, and the host responds
+to the damage by altering cellular trafﬁcking and activating in-
+ﬂammatory signaling. Bacterial effectors undoubtedly modulate
+this ensuing host response. Thus, a complex series of measures
+
+Upadhyay et al.
+3
+Figure 1. Mtb effectors manipulate host lysosomal trafﬁcking. (A) Mtb and BCG impair lysosomal trafﬁcking. Complex glycolipids in the mycobacterial cell wall such as
+PIM and ManLAM can impair acquisition of PI3P and alter RAB protein dynamics. Early endosomal RAB proteins (RAB5, RAB22A, RAB14) are retained, and recruitment
+of activated RAB7 is impaired. (B) Mtb permeabilizes the phagosome, which depends upon EsxA and PDIM. This promotes host defense by activating cytosolic sensors
+and autophagy, and also allows bacterial effectors to gain access to the cytosol. (C) Once bacterial effectors enter the cytoplasm, they further inhibit host pathways.
+SapM hydrolyzes PI3P, and PtpA, NdkA, CpsA and EsxG-EsxH target proteins involved in lysosomal trafﬁcking, including the V-ATPase, VPS33B, RAB7, NADPH oxidase
+and HRS/ESCRT. Addition effectors manipulate inﬂammasome signaling and IL-1β production. Host proteins are shown in grey, whereas bacterial protein effectors are
+in red and bacterial lipids are magenta. The action (activating or inhibitory arrow) of the bacterial or host factor is also shown in red or blue, respectively.
+and countermeasures are set in motion that will ultimately de-
+termine the outcome of infection.
+MTB BLOCKS PHAGOSOME MATURATION
+Mtb has a multipronged approach to subvert lysosomal traf-
+ﬁcking pathways, undermining the functions of RAB proteins,
+PI3K, the vacuolar-H(+ )-ATPase (V-ATPase) and the NADPH ox-
+idase (Fig. 1). Small GTP-binding RAB proteins control vesicular
+transport between organelles (Prashar et al. 2017), with RAB5 and
+RAB7 serving as master regulators of transport along the endo-
+cytic and phagocytic pathways. Normally, nascent phagosomes
+recruit RAB5, which is subsequently replaced by late endocytic
+RAB7 during the maturation process (an event termed Rab con-
+version) (Rink et al. 2005). RAB7 recruits downstream effectors
+to confer fusion competence with lysosomes. In contrast, the
+mycobacterial phagosome is characterized by altered RAB dy-
+namics (Via et al. 1997; Fratti et al. 2001; Vergne et al. 2004; Seto,
+Tsujimura and Koide 2011).
+At least two bacterial effectors interfere with RAB conversion.
+Nucleoside diphosphate kinase (Ndk) possesses GTPase activat-
+ing protein (GAP) activity toward RAB5 and RAB7 in vitro (Sun
+et al. 2010). In addition, the Mtb secreted tyrosine phosphatase
+PtpA dephosphorylates Vps33B (Bach et al. 2008). Based upon
+its homology to yeast Vps33p, VPS33B was initially thought to
+be a part of the endosomal tethering complexes, CORVET/HOPS
+(class C core vacuole/endosome tethering and homotypic fu-
+sion and protein sorting). These complexes are recruited to
+RAB5 and RAB7 containing membranes, where they function in
+endosome-endosome and endosome-lysosome fusion, respec-
+tively (Balderhaar and Ungermann 2013). In mammals there
+are two VPS33 proteins, and VPS33B may not be a member of
+CORVET/HOPS, but rather a mammalian-speciﬁc endosomal-
+targeting complex involved in lysosomal trafﬁcking (van der
+Kant et al. 2015). Remarkably, when absorbed on latex beads,
+both recombinant NdkA and PtpA were shown to impair lysoso-
+mal trafﬁcking of the beads (Bach et al. 2008; Sun et al. 2010). This
+is hard to reconcile with the cytosolic location of their targets.
+In the case of PtpA, when adsorbed on beads, the recombinant
+protein was able to enter the cytosol, although it is not yet clear
+how this happens. For NdkA, the protein is required for intra-
+cellular survival of BCG, suggesting that either NdkA acts inside
+the phagosome or it also has some way to access the cytosol in
+the absence of ESX-1.
+Mtb manipulates RAB proteins so that the mycobacterial
+phagosome maintains its interaction with early endosomes. For
+
+4
+Pathogens and Disease, 2018, Vol. 76, No. 4
+example, phagosomes containing live BCG retain RAB14 and
+RAB22A, which are cleared from phagosomes that contain heat
+killed BCG. The retention of RAB14 and RAB22A may be impor-
+tant in allowing the mycobacterial phagosome to maintain its
+early endosome-like state (Kyei et al. 2006; Roberts et al. 2006;
+Seto, Tsujimura and Koide 2011). Since these studies were done
+with BCG, which does not perforate the phagosome, the ob-
+served alterations in RAB trafﬁcking do not depend upon de-
+livery of ESX-1-delivered cytosolic effectors. Perhaps select pro-
+teins are still able to access the cytosol in BCG infections, which
+is also suggested by the PtpA and NdkA experiments mentioned
+above. In addition, the secreted protein TlyA, which may have
+membrane destabilizing activity of its own, has been shown to
+recruit RAB14 (Mittal et al. 2014). Moreover, mycobacterial cell
+envelope glycolipids intercalate into host membranes (Beatty
+et al. 2000), where they modulate trafﬁcking irrespective of ESX-
+1 or phagosomal damage. For example, the mycobacterial cell
+envelope glycolipid phosphatidylinositol mannoside (PIM) has
+been shown to promote phagosome-early endosome fusion by
+altering RAB programing (Vergne et al. 2004). At the same time,
+ManLAM can disrupt a calcium-dependent calmodulin signaling
+pathway, thereby impairing phosphatidylinositol 3-phosphate
+(PI3P) production and phagosome maturation (Fratti et al. 2003).
+In fact, ManLAM coated beads were shown to preferentially re-
+tain RAB14 (Shui et al. 2011). Thus, ESX-1-independent effectors,
+such as PIM and ManLAM, likely work in concert with cytosolic
+effectors during Mtb infection.
+The class III PI3K VPS34 also plays an essential role in phago-
+some maturation. VPS34 generates PI3P on early endosomes,
+which is critical in recruiting early endosomal proteins involved
+in protein sorting, membrane trafﬁcking and multiprotein com-
+plex assembly. PI3P is also important in autophagy initiation,
+as discussed below. The mycobacterial phagosome accumu-
+lates less PI3P than phagosomes containing latex beads or dead
+mycobacteria (Chua and Deretic 2004; Vieira et al. 2004; Purdy
+et al. 2005; Vergne et al. 2005). In addition to ManLAM, dis-
+cussed above, which can impair PI3P production, secreted SapM
+is thought to remove it, by acting as a PI3P phosphatase (Vergne
+et al. 2005). Mtb requires SapM to arrest phagosome maturation.
+Consistent with the idea that SapM acts in the cytosol, when it
+is deleted in BCG, there is no effect (Festjens et al. 2011; Saiko-
+lappan et al. 2012; Puri, Reddy and Tyagi 2013).
+One important PI3P binding protein is hepatocyte growth
+factor-regulated tyrosine kinase substrate (HGS/HRS). Normally,
+HRS is localized to early endosomes, where it recruits the en-
+dosomal sorting complex required for transport (ESCRT), which
+directs receptors to multivesicular bodies for lysosomal degra-
+dation. Mtb phagosomes do not efﬁciently recruit HRS. The fail-
+ure to recruit HRS is not explained just by the diminished PI3P
+found on Mtb phagosomes (Mittal, unpublished); Mtb takes ad-
+ditional measures to impair ESCRT. We found that the Mtb se-
+creted effector EsxH binds HRS and inhibits ESCRT activity. EsxH
+is secreted as a heterodimer with EsxG by the ESX-3 type VII
+secretion system. We found that EsxG-EsxH is critical for viru-
+lence, and it impairs phagosome maturation and inhibits MHC
+II antigen presentation likely by targeting ESCRT (Mehra et al.
+2013; Portal-Celhay et al. 2016; Tufariello et al. 2016). Given the
+variety of cell biological processes that ESCRT is involved in, in-
+cluding exosome secretion (Hanson and Cashikar 2012), it seems
+likely that EsxG-EsxH also perturbs additional cellular functions
+to promote virulence.
+Recent work shows that Mtb disrupts the vacuolar-H(+)-
+ATPase (V-ATPase) both directly and by co-opting a host degrada-
+tive pathway. In the later mechanism, Mtb infection induces the
+expression of host cytokine-induced SRC homology 2 (SH2) do-
+main protein (CISH), a member of the suppressor of cytokine sig-
+naling (SOCS) family. CISH localizes to Mtb phagosomes and se-
+lectively targets subunit A of the V-ATPase for ubiquitination and
+degradation (Queval et al. 2017). In addition, PtpA binds subunit
+H of the V-ATPase. By directly binding both VPS33B, as discussed
+above, and the V-ATPase, PtpA may prevent delivery of V-ATPase-
+containing vesicles to Mtb phagosomes (Wong et al. 2011, 2018).
+The NADPH oxidase generates ROS that have important an-
+timicrobial activities, but also can be toxic to the host. Therefore,
+this multiprotein complex is selectively targeted to phagosomes
+containing microorganisms and its activity is tightly regulated.
+NADPH oxidase is composed of two integral membrane subunits
+that form ﬂavocytochrome b558 and a trimeric cytosolic complex
+(composed of p40phox, p47phox and p67phox). PRRs promote recruit-
+ment of ﬂavocytochrome b558 to the maturing phagosome from
+recycling endosomes (Casbon et al. 2009). The cytosolic subunits
+subsequently assemble with the membrane components, and
+the catalytic activity of the assembled complex depends upon
+recruitment of GTP-bound RAC1/2 (Nunes, Demaurex and Din-
+auer 2013). Mtb appears to have taken advantage of the mul-
+tiple levels of NADPH oxidase regulation to undermine each
+step. We recently found that the Mtb protein CpsA, a LytR-CpsA-
+Psr (LCP) domain-containing protein, inhibits recruitment of the
+ﬂavocytochrome b558 complex and downstream cytosolic com-
+ponents to mycobacterial phagosomes (K¨oster et al. 2017). The
+p40phoxsubunit of the cytosolic complex binds PI3P through its
+PX domains (Ellson et al. 2001; Kanai et al. 2001). Therefore, SapM
+and ManLAM, by blocking PI3P, would also be predicted to impair
+recruitment of the trimeric cytosolic complex, although this re-
+quires experimental validation. Lastly, in addition to acting on
+RAB5 and RAB7 as discussed above, NdkA can serves as GAP to
+inactivate RAC1, thereby disrupting the ﬁnal activation step re-
+quired for ROS (Sun et al. 2013). Thus, the concerted activity of
+at least four Mtb effectors likely undermines the highly regu-
+lated trafﬁcking, assembly and activation of NADPH oxidase. In
+addition, Mtb express ROS detoxifying enzymes such as super-
+oxide dismutase (SodA) and the catalase KatG. Mtb’s success-
+ful evasion of the NADPH oxidase may explain why NADPH ox-
+idase plays a limited role in host defense against Mtb, at least
+in mice (Ng et al. 2004). In people, mutations in NADPH oxi-
+dase cause chronic granulomatous disease, which results in in-
+creased susceptibility to mycobacterial diseases, including Mtb
+(Deffert, Cachat and Krause 2014). Therefore, even though Mtb
+has enzymes that detoxify ROS as well as multiple strategies to
+inhibit the NADPH oxidase, it must do so imperfectly. Thus, the
+battle over ROS appears to be at the crux of a fragile detente.
+Recent work has shown that in addition to direct antimicro-
+bial activity, the NADPH oxidase plays an important role in lyso-
+somal trafﬁcking by promoting a non-canonical LC3 trafﬁcking
+pathway called LC3-associated phagocytosis (LAP). This path-
+way is different than autophagy (discussed below). While both
+use a common set of autophagy-related (ATG) proteins and re-
+sult in LC3 deposition into the vacuolar membrane, LAP involves
+a single-membrane organelle and depends upon the NADPH ox-
+idase (Mehta et al. 2014; Martinez et al. 2015), whereas canoni-
+cal autophagy generates a double membrane compartment and
+does not depend upon NADPH oxidase. We showed that CpsA, by
+interrupting the recruitment of NADPH oxidase on mycobacte-
+ria containing phagosome, blocks lysosomal delivery by the LAP
+pathway (K¨oster et al. 2017, 2018). It is likely that other molecules
+also block LAP. We speculate that NdkA might block LAP by in-
+terfering with NADPH oxidase assembly and activation, as dis-
+cussed above, and Eis and NuoG, discussed below, may also block
+
+Upadhyay et al.
+5
+LAP by interfering with host ROS (Kim et al. 2012; Gengenbacher
+et al. 2016), although the role of these effectors in LAP has not
+yet been experimentally tested.
+There are numerous other Mtb proteins that have been im-
+plicated as effectors that block phagosome maturation, notably
+PknG (Walburger et al. 2004) and LpdC (Deghmane et al. 2007). It
+is possible that in some of these cases, their role in virulence is
+related to an intrinsic function in bacterial metabolism (Venu-
+gopal et al. 2011; Khan et al. 2017; Rieck et al. 2017). Bacterial mu-
+tants that cannot survive in the intracellular environment will
+not be able to maintain their intracellular niche and will secon-
+darily be delivered to a lysosome. This has made it hard to dis-
+tinguish proteins that have a direct role in disrupting lysosomal
+trafﬁcking from those that play some other role in intracellu-
+lar survival; it is quite possible that in some cases, one protein
+does both. This probably reﬂects the manner in which Mtb has
+had to engineer virulence factors given a lack of horizontal gene
+transfer. It appears to be a recurring theme that Mtb virulence
+factors have evolved from proteins that play a basic role in bac-
+terial physiology in non-pathogenic, environmental mycobacte-
+ria. A prominent example is EsxA-EsxB, which plays a role in
+conjugation in non-pathogenic mycobacteria (Flint et al. 2004).
+Similarly, while EsxG-EsxH is required for iron uptake in both M.
+smegmatis and M. tuberculosis, only the Mtb protein has the abil-
+ity to interact with HRS and inhibit ESCRT (Mehra et al. 2013).
+Accordingly, in vivo EsxG-EsxH plays a critical role in virulence
+that cannot be provided by the M. smegmatis protein and which is
+separable from its function in metal homeostasis (Portal-Celhay
+et al. 2016; Tufariello et al. 2016). In the case of CpsA, it belongs
+to a protein family involved in cell envelope homeostasis, but
+CpsA itself is found in pathogenic mycobacteria and appears to
+play a distinct role in virulence (K¨oster et al. 2017). Thus, Mtb ef-
+fectors may have multiple functions, which can be difﬁcult to
+unravel. One way to distinguish whether the primary defect of
+a mutant is in arresting phagosome maturation is to determine
+whether the intracellular growth defect can be rescued by ex-
+perimentally blocking phagosome maturation (for example, by
+silencing Rab7).
+It is also worth keeping in mind that mutations that alter
+the mycobacterial envelop may also indirectly affect trafﬁck-
+ing by altering bacterial interactions with pathogen recognition
+receptors such as MR, Toll-like receptors and C-type lectin re-
+ceptors, which inﬂuence subsequent trafﬁcking (Stamm, Collins
+and Shiloh 2015). This may explain some of the differences seen
+when heat killed bacilli have been used as a comparator to live
+mycobacteria, as heat killed Mtb might drive different trafﬁck-
+ing pathways, such as LAP (see above), by virtue of exposing
+pathogen-associated molecular patterns (PAMPs) that are nor-
+mally masked by the mycobacterial envelop. In addition, sev-
+eral Mtb effectors seem to only work in human cells, which has
+contributed to contradictory ﬁndings (Grundner, Cox and Alber
+2008; Rajaram et al. 2017). Thus, Mtb uses multiple, overlapping,
+partially redundant mechanisms to impair phagosome matura-
+tion. While we have highlighted a handful of the Mtb effectors
+that are likely to do so, there are undoubtedly many more and
+how they work in concert to promote the intracellular niche of
+Mtb remains to be elucidated.
+MTB EVADES AUTOPHAGY
+Perforating the phagosome is essential for Mtb virulence, but
+it comes with signiﬁcant consequences, including activating
+autophagy, another degradative pathway that the bacilli have
+to evade to survive intracellularly. When Mtb gains access to
+host cytosol, it activates a cytosolic surveillance pathway, which
+results in induction of Type1 interferon and autophagy (Wat-
+son, Manzanillo and Cox 2012; Collins et al. 2015; Wassermann
+et al. 2015; Watson et al. 2015). Autophagy is a homeostatic pro-
+cess that generates double membrane compartments to turn
+over cytoplasmic contents, clearing damaged organelles and
+protein aggregates in the lysosome; it can also be activated to
+clear invading microorganisms. When the double membrane
+autophagosome sequesters a microbe, the process is called
+xenophagy (recently reviewed Mitchell and Isberg 2017). Dam-
+aged phagosomes expose host glycans located in phagosomal
+lumen to the cytosol, which are detected by cytosolic galectins
+(Thurston et al. 2012; Chauhan et al. 2016). At the same time,
+bacterial DNA is detected in the cytosol and activates the cGAS-
+STING pathway (Watson, Manzanillo and Cox 2012; Collins et al.
+2015; Wassermann et al. 2015; Watson et al. 2015). The bacte-
+ria that are marked for destruction recruit E3 ligases, Parkin,
+SMURF1 and TRIM16 (Manzanillo et al. 2013; Franco et al. 2017;
+Kumar et al. 2017). Galectins and ubiquitin serve to recruit selec-
+tive autophagy adaptors, such as NBR1, NDP52 and p62, which
+in turn recruit LC3. ATG proteins coordinate the formation of
+a double membrane compartment, the autophagosome, which
+fuses with the lysosome. Thus, by damaging the phagosome,
+Mtb makes itself vulnerable to a distinct degradative, lysosomal
+pathway.
+However, under basal conditions in vitro, LC3 trafﬁcking
+makes a very limited contribution to clearing Mtb (Gutierrez
+et al. 2004; Watson, Manzanillo and Cox 2012; Sakowski et al.
+2015), and in mice, it fails to control bacterial replication (Kim-
+mey et al. 2015). The limited efﬁcacy of xenophagy in clearing
+Mtb points to evasion mechanisms on the part of the bacilli.
+Although our understanding is incomplete, it appears that Mtb
+impairs both autophagy initiation and the ability of autophago-
+somes to fuse with lysosomes (referred to as autophagy ﬂux).
+Since autophagosome-lysosome fusion depends upon some of
+the same machinery as late endosome-lysosome fusion, such
+as Rab7, certain Mtb effectors should be able to block both.
+In fact, careful analysis of Mtb xenophagy showed that viru-
+lent Mtb impairs autophagy ﬂux in macrophages and dendritic
+cells (Romagnoli et al. 2012; Chandra et al. 2015). The ability of
+Mtb to block autophagy ﬂux depends upon ESX-1, suggesting
+that cytosolic effectors are responsible. In addition, as is seen
+during phagosome-lysosome arrest imposed by Mtb, the block
+to autophagosome-lysosome fusion occurs at the level of Rab7
+(Chandra et al. 2015), consistent with the idea that there are com-
+mon effectors undermining both.
+Mtb also seems to impair autophagy initiation, since the ma-
+jority of invading bacilli do not recruit LC3. How exactly they
+do this is not completely clear. One strategy exploited by Mtb
+is to modulate the expression of ATG genes. For example, we
+found that Mtb induces miR-33, which inhibits autophagy, lyso-
+somal function and host lipid metabolism, thereby facilitating
+intracellular bacterial survival (Ouimet et al. 2016). In addition,
+Mtb upregulates expression of miR-155 in dendritic cells, which
+dramatically reduces ATG3 protein levels and autophagosome
+formation (Etna et al. 2018). Since autophagy initiation depends
+upon PI3P, the effectors discussed above that impair PI3P accu-
+mulation would also be predicted to impair autophagy. Consis-
+tent with this idea, ManLAM coated beads block LC3 trafﬁcking
+(Shui et al. 2011). In addition, there are two Mtb secreted proteins
+that are implicated as more direct anti-autophagy effectors,
+PE PGRS47 and enhanced intracellular survival (Eis). PE PGRS47
+was identiﬁed in a genome wide screen for loci that modulate
+
+6
+Pathogens and Disease, 2018, Vol. 76, No. 4
+antigen presentation. Subsequent analysis revealed that Mtb
+mutants lacking PE PGRS47 have a reduced capacity to inhibit
+autophagy (Saini et al. 2016). Eis has an N-acetyltransferase ac-
+tivity that has been shown to modulate macrophage autophagy
+(Shin et al. 2010), as well as host cell death pathways as discussed
+below. Among other targets, Eis can acetylate DUSP16/MKP-7, a
+JNK-speciﬁc phosphatase (Kim et al. 2012). JNK is required for ac-
+tivation of Beclin1 (BECN1), so Eis may suppress autophagy ini-
+tiation by blocking BECN1 activation. It has also been suggested
+that Eis blocks autophagy by upregulating IL-10, a cytokine pre-
+viously shown to block autophagy (Harris et al. 2007; Duan et al.
+2016). Thus, several potential players have been identiﬁed, but
+we lack a clear understanding of how Mtb directly manipulate
+autophagy; the mechanism of action of PE PGRS47 may shed
+further light on this matter. LC3 is routinely used as a marker
+of autophagy, but LC3 is conjugated to phagosomes during LAP,
+and autophagy and LAP require overlapping cellular machinery;
+therefore, it will be important for future studies to distinguish
+these related processes.
+MTB MANIPULATES THE INFLAMMASOME
+Interleukin-1β (Il-1β) and interleukin 18 (IL-18) are important
+cytokines for host immune defense against Mtb (McElvania
+Tekippe et al. 2010; Mayer-Barber et al. 2010, 2011). They also
+have to be appropriately regulated to prevent overly exuber-
+ant inﬂammation and tissue damage (Hernandez-Cuellar et al.
+2012; Mishra et al. 2013). Production of these cytokines depends
+upon the inﬂammasome. The inﬂammasome is a multimeric
+complex that detects pathogens and activates an inﬂamma-
+tory cascade, producing mature IL-1β and IL-18 and triggering
+a distinct cell death pathway termed pyroptosis. The inﬂam-
+masome is composed of NOD-like receptors (NLRs), apoptosis-
+associated speck-like protein containing a caspase recruiting
+domain (ASC/PYCARD) and the caspase-1 protease. NLRs are in-
+tracellular cytosolic PRRs that recognize PAMPs and host-derived
+danger-associated molecular patterns. ASC/PYCARD acts as a
+scaffold to bridge the NLR with caspase-1, which proteolyti-
+cally processes the pro-Il1-β and pro-IL-18 into their mature
+forms. There are many NLRs that are activated by different
+bacterial products, including the NLRP3-inﬂammasome, which
+is activated by a variety of cellular insults, and the AIM2-
+inﬂammasome, which detects cytosolic DNA. Only the NLRP3-
+inﬂammasome responds to Mtb in macrophages. Membrane
+damage alone is sufﬁcient to trigger the NLRP3-inﬂammasome,
+and in the case of Mtb infection, IL-1β production depends upon
+ESX-1, so this is another consequence of ESX-1 that the bacilli
+need to manage (Carlsson et al. 2010; McElvania Tekippe et al.
+2010; Mayer-Barber et al. 2010, 2011; Mishra et al. 2010; Wong and
+Jacobs 2011; Dorhoi et al. 2012).
+AIM2 detects cytosolic DNA. It is surprising that the AIM2 in-
+ﬂammasome does not respond to Mtb because Mtb DNA is able
+to trigger the cGAS-STING pathway, as discussed above. This
+suggests that there are Mtb effectors that block the AIM2 in-
+ﬂammasome. Consistent with this idea, Mtb was shown to in-
+hibit the AIM2 inﬂammasome in a manner that depended upon
+the ESX-1 system (Briken, Ahlbrand and Shah 2013; Shah et al.
+2013); the effector and target remain to be identiﬁed. One bac-
+terial factor that has been implicated in modulating the inﬂam-
+masome is the Zn2+ metalloprotease Zmp1 (Master et al. 2008),
+although there are also conﬂicting ﬁndings (Wong and Jacobs
+2011). Rv3364c may also impair IL-1β production. This protein
+translocates to the macrophage cytosol and inhibits caspase-1,
+possibly through cathepsin G inactivation (Danelishvili et al.
+2011). Taken together, it seems likely that by damaging the
+phagosome, Mtb triggers the inﬂammasome, an innate defense
+mechanism to restrict growth of invading pathogens. However,
+it only provides partial protection against Mtb, which likely ﬁne-
+tunes the system to its advantage.
+MTB IMPAIRS APOPTOSIS
+There is considerable complexity and cross talk between cell
+death pathways during Mtb infection. One idea that has
+emerged is that apoptosis is host-protective, while necrosis fa-
+vors the bacilli (Molloy, Laochumroonvorapong and Kaplan 1994;
+Balcewicz-Sablinska et al. 1998; Oddo et al. 1998; Keane, Re-
+mold and Kornfeld 2000; Keane, Shurtleff and Kornfeld 2002; Sly
+et al. 2003). Necrosis depends upon the ESX-1 secretion system
+and the NAD+ glycohydrolase TNT, which induces necrotic cell
+death by depleting NAD+ (Sun et al. 2015). Mtb also potentiates
+necrosis by causing mitochondrial inner membrane disruption
+(Chen, Gan and Remold 2006) and inhibiting plasma membrane
+repair (Divangahi et al. 2009). Unlike necrosis, apoptosis mini-
+mizes inﬂammation, and Mtb-infected macrophages that un-
+dergo apoptosis can be rapidly ingested by neighboring unin-
+fected macrophages through a process called efferocytosis (Mar-
+tin et al. 2012). Mtb released during necrosis can infect and pro-
+liferate in a subsequent round of macrophage infections. In con-
+trast, when a macrophage ingests apoptotic bodies harboring
+Mtb bacilli, the bacilli cannot manipulate macrophage trafﬁck-
+ing, and they are delivered to the lysosome, leading to bacte-
+rial control. In addition, efferocytosis by dendritic cells promotes
+priming and cross presentation (Schaible et al. 2003; Winau et al.
+2006; Divangahi et al. 2010; Blomgran et al. 2012). Thus, overall, an
+anti-apoptotic, pro-necrotic program appears to favor the bacilli.
+However, the cell death pathways that are elicited and the con-
+sequences are likely to be context speciﬁc, and Mtb may modu-
+late these pathways to its advantage (Moraco and Kornfeld 2014).
+One way in which Mtb inhibits apoptosis is by limiting host
+ROS, as revealed in the studies of NuoG, SodA and Eis. NuoG
+was identiﬁed as a virulence determinant in Mtb using a gain-
+of-function genetic screen in M. smegmatis for suppressors of
+apoptosis. NuoG is a subunit of the type I NADH dehydro-
+genase, and it suppresses apoptosis in infected host cells by
+neutralizing ROS generated by macrophage NADPH oxidase (Vel-
+murugan et al. 2007; Miller et al. 2010). The apoptosis path-
+way induced by the nuoG mutant is dependent upon TNF-
+α signaling and caspase-8 activation. Similarly, bacterial mu-
+tants defective in superoxide dismutase (SodA) or its secretion
+(SecA2) enhance caspase-dependent apoptosis (Edwards et al.
+2001; Hinchey et al. 2007). Mtb Eis is a secreted protein with
+an N-acetyltransferase activity that can inactivate aminoglyco-
+side antibiotics (Chen et al. 2011). As discussed above, Eis im-
+pairs autophagy. It was also reported to inhibit apoptosis in in-
+fected cells. Although eis mutants induce more host cellular
+ROS, suggesting that they induce apoptosis in a similar manner
+to the nuoG and sodA mutants, the cell death pathway ap-
+pears to be distinct and is caspase-independent (Shin et al. 2010).
+Eis has pleiotropic effects, altering cell death, autophagy, phago-
+some maturation and cytokine production, reﬂecting several
+host and bacterial targets for acetylation, including the dual-
+speciﬁcity protein phosphatase 16 (DUSP16/MKP-7) (Kim et al.
+2012), histone H3 (Duan et al. 2016) and the bacterial nucleoid-
+associated protein HU (Ghosh et al. 2016). Similarly, PtpA dis-
+cussed above for its role in trafﬁcking can impair apoptosis by
+dephosphorylating GSK3-α
+and TRIM27 (Poirier, Bach and
+
+Upadhyay et al.
+7
+Av-Gay 2014; Wang et al. 2016). There are a number of addi-
+tional bacterial genes shown to be anti-apoptotic, including
+PknE, SigH, MPT64 and Rv3654c (Mustafa et al. 2007; Jayakumar,
+Jacobs and Narayanan 2008; Danelishvili et al. 2011; Dutta et al.
+2012; Wang et al. 2014), and how they all work together remains
+to be determined.
+ADAPTIVE IMMUNITY IMPOSES A DETENTE
+The majority of studies examining the activity of Mtb effec-
+tors have focused exclusively on na¨ıve macrophages. However,
+the antimycobacterial activity of macrophages is modulated by
+a variety of inﬂammatory cytokines and other exogenous sig-
+nals, such as vitamin D (MacMicking, Taylor and McKinney 2003;
+Gutierrez et al. 2004; Singh et al. 2006; Yuk et al. 2009). Once
+an adaptive immune response develops and effector T cells ar-
+rive at the site of infection, they secrete cytokines which make
+macrophages better able to control bacterial replication. In fact,
+when antigen-speciﬁc T cells are experimentally elicited in the
+lungs prior to infection, animals are protected (Grifﬁths et al.
+2016). IFN-γ , TNF-α and IL-1β enhance bacterial clearance by ac-
+tivating autophagy, promoting the production of antimicrobial
+peptides, enhancing the production of reactive oxygen and re-
+active nitrogen species, and forcing phagosome maturation (re-
+viewed in MacMicking 2014). Therefore, the adaptive immune
+response insures that the majority of infected individuals will
+contain the bacilli and never develop active disease.
+However, not to be outdone, Mtb undermines these host re-
+sponses, preventing sterilizing immunity. There is a long delay
+in T-cell priming, creating a large window of opportunity for
+Mtb to grow prior to the arrival of antigen-speciﬁc T cells (Wolf
+et al. 2008). Moreover, prolonged Toll-like receptor 2 activation
+by Mtb can downregulate expression of major histocompatibil-
+ity complex (MHC) class II molecules that would normally be in-
+duced by IFN-γ signaling in macrophages (Harding and Boom
+2010). Even in cells that already express MHC class II, by tar-
+geting ESCRT, EsxG-EsxH impairs antigen processing and load-
+ing onto MHCII (Portal-Celhay et al. 2016). Moreover, PE PGRS47,
+mentioned above, also inhibits antigen presentation (Saini et al.
+2016), and Hip1, a serine protease, impairs dendritic cell function
+by cleaving GroEL2 (Madan-Lala et al. 2014; Georgieva et al. 2018).
+Lastly, physical access of T cells to infected macrophages is im-
+paired by the granuloma structure and macrophage production
+of indoleamine 2,3-dioxygenase (Cronan et al. 2016; Gautam et al.
+2017). There are certain to be other mechanisms that Mtb uses
+to undermine the adaptive immune response and persist in the
+face of robust T-cell responses.
+CONCLUSION
+The outcome of Mtb infection depends on the struggle between
+the host antimicrobial defense arsenal and sophisticated bacte-
+rial countermeasures. Mtb and humans have evolved with each
+other for millennia (Gagneux 2012), and they are well matched
+in this battle. Most often, the struggle ends in d´etente; the tu-
+bercle bacilli is contained, but not eradicated. To cause infec-
+tion and persist in the host, Mtb relies upon numerous effec-
+tors that facilitate its survival in the hostile host environment.
+These effectors enable Mtb to interfere with cellular trafﬁcking
+and immune recognition, inhibit phagosome acidiﬁcation, block
+phagosomal–lysosomal fusion, impair apoptosis and autophagy,
+delay antigen presentation and modulate inﬂammasome acti-
+vation. Even for the effectors that have been identiﬁed, we are
+far from understanding how they coordinate this assault. There
+are undoubtedly numerous yet to be identiﬁed effectors and cel-
+lular targets. For example, recent work has revealed that Mtb
+effectors may reprogram host gene expression by direct epige-
+netic modiﬁcation (Sharma et al. 2015; Yaseen et al. 2015), a new
+area that warrants further study. We are gaining an increasing
+appreciation for how Mtb inﬂuences host cellular metabolism
+and its link with immune function (Shi, Eugenin and Subbian
+2016), but understand little about how Mtb modulates these re-
+sponses (Ouimet et al. 2016). How Mtb manipulates dendritic and
+neutrophil function is poorly understood. The role of bacterial
+and host extracellular vesicles in immune evasion remains to
+be fully explored (Prados-Rosales et al. 2014; Athman et al. 2015).
+By understanding the molecular basis of the host–pathogen in-
+terface, we can fulﬁll the legacy of Koch and Metchnikoff, and in
+doing so, we will open up new therapeutic opportunities. By dis-
+rupting critical Mtb effectors, we should be able to restore the
+natural antimicrobial capacity of the host to clear Mtb. Such
+treatments would not depend on bacterial replication like
+most conventional antibiotics; therefore, they might effectively
+shorten therapy by clearing slow growing and non-replicating
+persisters. Given the alarming increase in multidrug-resistant
+TB, it is imperative to develop these new opportunities for inter-
+vention.
+ACKNOWLEDGEMENT
+We thank M. G. Chheda (Washington University in St. Louis
+School of Medicine; WUSTL) for comments on the manuscript.
+FUNDING
+This work was supported by funds from National Institute of Al-
+lergy and Infectious Diseases (NIAID) of the National Institutes
+of Health (NIH) (R01 AI087682, R01 AI130454, R21 AI128427) and
+WUSTL to JAP.
+Conﬂict of interest. None declared.
+REFERENCES
+Armstrong JA, Hart PD. Response of cultured macrophages to
+Mycobacterium tuberculosis, with observations on fusion of
+lysosomes with phagosomes. J Exp Med 1971;134:713–40.
+Armstrong JA, Hart PD. Phagosome-lysosome interactions in cul-
+tured macrophages infected with virulent tubercle bacilli.
+Reversal of the usual nonfusion pattern and observations on
+bacterial survival. J Exp Med 1975;142:1–16.
+Athman JJ, Wang Y, McDonald DJ et al. Bacterial membrane vesi-
+cles mediate the release of Mycobacterium tuberculosis lipogly-
+cans and lipoproteins from infected macrophages. J Immunol
+2015;195:1044–53.
+Augenstreich J, Arbues A, Simeone R et al. ESX-1 and phthiocerol
+dimycocerosates of Mycobacterium tuberculosis act in concert
+to cause phagosomal rupture and host cell apoptosis. Cell Mi-
+crobiol 2017;19:e12726.
+Bach H, Papavinasasundaram KG, Wong D et al. Mycobacterium
+tuberculosis virulence is mediated by PtpA dephosphoryla-
+tion of human vacuolar protein sorting 33B. Cell Host Microbe
+2008;3:316–22.
+Balcewicz-Sablinska MK, Keane J, Kornfeld H et al. Pathogenic
+Mycobacterium
+tuberculosis
+evades
+apoptosis
+of
+host
+macrophages by release of TNF-R2, resulting in inacti-
+vation of TNF-alpha. J Immunol 1998;161:2636–41.
+Balderhaar HJ, Ungermann C. CORVET and HOPS tethering com-
+plexes - coordinators of endosome and lysosome fusion. J Cell
+Sci 2013;126:1307–16.
+
+8
+Pathogens and Disease, 2018, Vol. 76, No. 4
+Barczak AK, Avraham R, Singh S et al. Systematic, multipara-
+metric analysis of Mycobacterium tuberculosis intracellular in-
+fection offers insight into coordinated virulence. PLoS Pathog
+2017;13:e1006363.
+Beatty WL, Rhoades ER, Ullrich HJ et al. Trafﬁcking and release
+of mycobacterial lipids from infected macrophages. Trafﬁc
+2000;1:235–47.
+Blomgran R, Desvignes L, Briken V et al. Mycobacterium tubercu-
+losis inhibits neutrophil apoptosis, leading to delayed activa-
+tion of naive CD4 T cells. Cell Host Microbe 2012;11:81–90.
+Botella H, Peyron P, Levillain F et al. Mycobacterial P1-type
+ATPases mediate resistance to zinc poisoning in human
+macrophages. Cell Host Microbe 2011;10:248–59.
+Briken V, Ahlbrand SE, Shah S. Mycobacterium tuberculosis and the
+host cell inﬂammasome: a complex relationship. Front Cell
+Infect Microbiol 2013;3:62.
+Cambier CJ, Takaki KK, Larson RP et al. Mycobacteria manipulate
+macrophage recruitment through coordinated use of mem-
+brane lipids. Nature 2014;505:218–22.
+Carlsson F, Kim J, Dumitru C et al. Host-detrimental role of Esx-1-
+mediated inﬂammasome activation in mycobacterial infec-
+tion. PLoS Pathog 2010;6:e1000895.
+Casbon AJ, Allen LA, Dunn KW et al. Macrophage NADPH
+oxidase ﬂavocytochrome B localizes to the plasma mem-
+brane and Rab11-positive recycling endosomes. J Immunol
+2009;182:2325–39.
+Champion PA, Stanley SA, Champion MM et al. C-terminal signal
+sequence promotes virulence factor secretion in Mycobac-
+terium tuberculosis. Science 2006;313:1632–6.
+Chandra P, Ghanwat S, Matta SK et al. Mycobacterium tuberculosis
+inhibits RAB7 recruitment to selectively modulate autophagy
+ﬂux in macrophages. Sci Rep 2015;5:16320.
+Chauhan S, Kumar S, Jain A et al. TRIMs and galectins globally
+cooperate and TRIM16 and galectin-3 co-direct autophagy in
+endomembrane damage homeostasis. Dev Cell 2016;39:13–
+27.
+Chen M, Gan H, Remold HG. A mechanism of virulence: viru-
+lent Mycobacterium tuberculosis strain H37Rv, but not atten-
+uated H37Ra, causes signiﬁcant mitochondrial inner mem-
+brane disruption in macrophages leading to necrosis. J Im-
+munol 2006;176:3707–16.
+Chen W, Biswas T, Porter VR et al. Unusual regioversatility of
+acetyltransferase Eis, a cause of drug resistance in XDR-TB.
+P Natl Acad Sci USA 2011;108:9804–8.
+Chua J, Deretic V. Mycobacterium tuberculosis reprograms waves
+of phosphatidylinositol 3-phosphate on phagosomal or-
+ganelles. J Biol Chem 2004;279:36982–92.
+Collins AC, Cai H, Li T et al. Cyclic GMP-AMP synthase is an innate
+immune DNA sensor for Mycobacterium tuberculosis. Cell Host
+Microbe 2015;17:820–8.
+Conrad WH, Osman MM, Shanahan JK et al. Mycobacterial ESX-1
+secretion system mediates host cell lysis through bacterium
+contact-dependent gross membrane disruptions. P Natl Acad
+Sci USA 2017;114:1371–6.
+Cronan MR, Beerman RW, Rosenberg AF et al. Macrophage
+epithelial reprogramming underlies mycobacterial granu-
+loma formation and promotes infection. Immunity 2016;45:
+861–76.
+Danelishvili L, Everman JL, McNamara MJ et al. Inhibition of the
+plasma-membrane-associated serine protease cathepsin G
+by Mycobacterium tuberculosis Rv3364c suppresses caspase-1
+and pyroptosis in macrophages. Front Microbiol 2011;2:281.
+de Jonge MI, Pehau-Arnaudet G, Fretz MM et al. ESAT-6
+from Mycobacterium tuberculosis dissociates from its putative
+chaperone CFP-10 under acidic conditions and exhibits
+membrane-lysing activity. J Bacteriol 2007;189:6028–34.
+Deffert C, Cachat J, Krause KH. Phagocyte NADPH oxidase,
+chronic granulomatous disease and mycobacterial infec-
+tions. Cell Microbiol 2014;16:1168–78.
+Deghmane AE, Soualhine H, Soulhine H et al. Lipoamide de-
+hydrogenase mediates retention of coronin-1 on BCG vac-
+uoles, leading to arrest in phagosome maturation. J Cell Sci
+2007;120:2796–806.
+Divangahi M, Chen M, Gan H et al. Mycobacterium tuberculosis
+evades macrophage defenses by inhibiting plasma mem-
+brane repair. Nat Immunol 2009;10:899–906.
+Divangahi M, Desjardins D, Nunes-Alves C et al. Eicosanoid path-
+ways regulate adaptive immunity to Mycobacterium tuberculo-
+sis. Nat Immunol 2010;11:751–8.
+Dorhoi A, Nouailles G, J¨org S et al. Activation of the NLRP3 inﬂam-
+masome by Mycobacterium tuberculosis is uncoupled from sus-
+ceptibility to active tuberculosis. Eur J Immunol 2012;42:374–
+84.
+Duan L, Yi M, Chen J et al. Mycobacterium tuberculosis EIS gene
+inhibits macrophage autophagy through up-regulation of IL-
+10 by increasing the acetylation of histone H3. Biochem Bioph
+Res Co 2016;473:1229–34.
+Dutta NK, Mehra S, Martinez AN et al. The stress-response fac-
+tor SigH modulates the interaction between Mycobacterium
+tuberculosis and host phagocytes. PLoS One 2012;7:e28958.
+Edwards KM, Cynamon MH, Voladri RK et al. Iron-cofactored su-
+peroxide dismutase inhibits host responses to Mycobacterium
+tuberculosis. Am J Resp Crit Care 2001;164:2213–9.
+Ehrt S, Schnappinger D. Mycobacterial survival strategies in
+the phagosome: defence against host stresses. Cell Microbiol
+2009;11:1170–8.
+Ellson CD, Gobert-Gosse S, Anderson KE et al. PtdIns(3)P regu-
+lates the neutrophil oxidase complex by binding to the PX
+domain of p40(phox). Nat Cell Biol 2001;3:679–82.
+Etna MP, Sinigaglia A, Grassi A et al. Mycobacterium tuberculosis-
+induced miR-155 subverts autophagy by targeting ATG3 in
+human dendritic cells. PLoS Pathog 2018;14:e1006790.
+Festjens N, Bogaert P, Batni A et al. Disruption of the SapM locus
+in Mycobacterium bovis BCG improves its protective efﬁcacy as
+a vaccine against M. tuberculosis. EMBO Mol Med 2011;3:222–
+34.
+Flannagan RS, Cos´ıo G, Grinstein S. Antimicrobial mechanisms
+of phagocytes and bacterial evasion strategies. Nat Rev Micro-
+biol 2009;7:355–66.
+Flint JL, Kowalski JC, Karnati PK et al. The RD1 virulence lo-
+cus of Mycobacterium tuberculosis regulates DNA transfer
+in Mycobacterium smegmatis. P Natl Acad Sci USA 2004;101:
+12598–603.
+Franco LH, Nair VR, Scharn CR et al. The ubiquitin ligase Smurf1
+functions in selective autophagy of Mycobacterium tubercu-
+losis and anti-tuberculous host defense. Cell Host Microbe
+2017;22:421–3.
+Fratti RA, Backer JM, Gruenberg J et al. Role of phosphatidylinos-
+itol 3-kinase and Rab5 effectors in phagosomal biogenesis
+and mycobacterial phagosome maturation arrest. J Cell Biol
+2001;154:631–44.
+Fratti RA, Chua J, Vergne I et al. Mycobacterium tuberculosis glyco-
+sylated phosphatidylinositol causes phagosome maturation
+arrest. P Natl Acad Sci USA 2003;100:5437–42.
+Gagneux S. Host-pathogen coevolution in human tuberculosis.
+Philos T Roy Soc B Biol Sci 2012;367:850–9.
+Gao LY, Guo S, McLaughlin B et al. A mycobacterial virulence
+gene cluster extending RD1 is required for cytolysis, bacterial
+
+Upadhyay et al.
+9
+spreading and ESAT-6 secretion. Mol Microbiol 2004;53:1677–
+93.
+Gautam US, Foreman TW, Bucsan AN et al. In vivo inhibition
+of tryptophan catabolism reorganizes the tuberculoma and
+augments immune-mediated control of Mycobacterium tuber-
+culosis. P Natl Acad Sci USA 2017;115:201711373.
+Gengenbacher M, Nieuwenhuizen N, Vogelzang A et al. Dele-
+tion of nuoG from the vaccine candidate Mycobacterium bo-
+vis BCG ureC::hly improves protection against tuberculosis.
+mBio 2016;7:e00679–16.
+Georgieva M, Sia JK, Bizzell E et al. Mycobacterium tuberculo-
+sis GroEL2 modulates dendritic cell responses. Infect Immun
+2018;86:e00387–17.
+Ghosh S, Padmanabhan B, Anand C et al. Lysine acetyla-
+tion of the Mycobacterium tuberculosis HU protein modulates
+its DNA binding and genome organization. Mol Microbiol
+2016;100:577–88.
+Grifﬁths KL, Ahmed M, Das S et al. Targeting dendritic cells to
+accelerate T-cell activation overcomes a bottleneck in tuber-
+culosis vaccine efﬁcacy. Nat Commun 2016;7:13894.
+Grundner C, Cox JS, Alber T. Protein tyrosine phosphatase PtpA
+is not required for Mycobacterium tuberculosis growth in mice.
+FEMS Microbiol Lett 2008;287:181–4.
+Gutierrez MG, Master SS, Singh SB et al. Autophagy is a de-
+fense mechanism inhibiting BCG and Mycobacterium tubercu-
+losis survival in infected macrophages. Cell 2004;119:753–66.
+Hanson PI, Cashikar A. Multivesicular body morphogenesis.
+Annu Rev Cell Dev Bi 2012;28:337–62.
+Harding CV, Boom WH. Regulation of antigen presentation by
+Mycobacterium tuberculosis: a role for Toll-like receptors. Nat
+Rev Microbiol 2010;8:296–307.
+Harris J, De Haro SA, Master SS et al. T helper 2 cytokines inhibit
+autophagic control of intracellular Mycobacterium tuberculo-
+sis. Immunity 2007;27:505–17.
+Hernandez-Cuellar E, Tsuchiya K, Hara H et al. Cutting edge:
+nitric oxide inhibits the NLRP3 inﬂammasome. J Immunol
+2012;189:5113–7.
+Hinchey J, Lee S, Jeon BY et al. Enhanced priming of adaptive
+immunity by a proapoptotic mutant of Mycobacterium tuber-
+culosis. J Clin Invest 2007;117:2279–88.
+Houben D, Demangel C, van Ingen J et al. ESX-1-mediated
+translocation to the cytosol controls virulence of mycobac-
+teria. Cell Microbiol 2012;14:1287–98.
+Hsu T, Hingley-Wilson SM, Chen B et al. The primary mecha-
+nism of attenuation of Bacillus Calmette-Guerin is a loss of
+secreted lytic function required for invasion of lung intersti-
+tial tissue. P Natl Acad Sci USA 2003;100:12420–5.
+Huang J, Brumell JH. Bacteria–autophagy interplay: a battle for
+survival. Nat Rev Microbiol 2014;12:101–14.
+Hussell T, Bell TJ. Alveolar macrophages: plasticity in a tissue-
+speciﬁc context. Nat Rev Immunol 2014;14:81–93.
+Jakubzick CV, Randolph GJ, Henson PM. Monocyte differenti-
+ation and antigen-presenting functions. Nat Rev Immunol
+2017;17:349–62.
+Jamwal SV, Mehrotra P, Singh A et al. Mycobacterial escape from
+macrophage phagosomes to the cytoplasm represents an al-
+ternate adaptation mechanism. Sci Rep 2016;6:23089.
+Jayakumar D, Jacobs WR, Narayanan S. Protein kinase E of My-
+cobacterium tuberculosis has a role in the nitric oxide stress
+response and apoptosis in a human macrophage model of
+infection. Cell Microbiol 2008;10:365–74.
+Kanai F, Liu H, Field SJ et al. The PX domains of p47phox
+and p40phox bind to lipid products of PI(3)K. Nat Cell Biol
+2001;3:675–8.
+Kang PB, Azad AK, Torrelles JB et al. The human macrophage
+mannose
+receptor
+directs
+Mycobacterium
+tuberculosis
+lipoarabinomannan-mediated
+phagosome
+biogenesis.
+J
+Exp Med 2005;202:987–99.
+Keane
+J,
+Remold
+HG,
+Kornfeld
+H.
+Virulent
+Mycobacterium
+tuberculosis strains evade apoptosis of infected alveolar
+macrophages. J Immunol 2000;164:2016–20.
+Keane J, Shurtleff B, Kornfeld H. TNF-dependent BALB/c murine
+macrophage apoptosis following Mycobacterium tuberculosis
+infection inhibits bacillary growth in an IFN-gamma inde-
+pendent manner. Tuberculosis 2002;82:55–61.
+Khan MZ, Bhaskar A, Upadhyay S et al. Protein kinase G con-
+fers survival advantage to Mycobacterium tuberculosis during
+latency-like conditions. J Biol Chem 2017;292:16093–108.
+Kim KH, An DR, Song J et al. Mycobacterium tuberculosis Eis protein
+initiates suppression of host immune responses by acetyla-
+tion of DUSP16/MKP-7. P Natl Acad Sci USA 2012;109:7729–34.
+Kimmey JM, Huynh JP, Weiss LA et al. Unique role for ATG5 in
+neutrophil-mediated immunopathology during M. tubercu-
+losis infection. Nature 2015;528:565–9.
+Kumar S, Chauhan S, Jain A et al. Galectins and TRIMs directly
+interact and orchestrate autophagic response to endomem-
+brane damage. Autophagy 2017;13:1086–7.
+Kyei GB, Vergne I, Chua J et al. Rab14 is critical for maintenance
+of Mycobacterium tuberculosis phagosome maturation arrest.
+Embo J 2006;25:5250–9.
+K¨oster S, Klevorn T, Papavinasasundaram K et al. Consequence
+of enhanced LC3-trafﬁcking for a live, attenuated M. tubercu-
+losis vaccine. Vaccine 2018;36:939–44.
+K¨oster S, Upadhyay S, Chandra P et al. Mycobacterium tubercu-
+losis is protected from NADPH oxidase and LC3-associated
+phagocytosis by the LCP protein CpsA. P Natl Acad Sci USA
+2017;114:E8711–20.
+McElvania Tekippe E, Allen IC, Hulseberg PD et al. Granuloma for-
+mation and host defense in chronic Mycobacterium tuberculo-
+sis infection requires PYCARD/ASC but not NLRP3 or caspase-
+1. PLoS One 2010;5:e12320.
+MacMicking JD. Cell-autonomous effector mechanisms against
+Mycobacterium tuberculosis. Cold Spring Harb Perspect Med
+2014;4:a018507.
+MacMicking JD, Taylor GA, McKinney JD. Immune control
+of tuberculosis by IFN-gamma-inducible LRG-47. Science
+2003;302:654–9.
+Madan-Lala R, Sia JK, King R et al. Mycobacterium tuberculosis im-
+pairs dendritic cell functions through the serine hydrolase
+Hip1. J Immunol 2014;192:4263–72.
+Manzanillo PS, Ayres JS, Watson RO et al. The ubiquitin ligase
+parkin mediates resistance to intracellular pathogens. Nature
+2013;501:512–6.
+Manzanillo PS, Shiloh MU, Portnoy DA et al. Mycobacterium tuber-
+culosis activates the DNA-dependent cytosolic surveillance
+pathway within macrophages. Cell Host Microbe 2012;11:469–
+80.
+Martin CJ, Booty MG, Rosebrock TR et al. Efferocytosis is an innate
+antibacterial mechanism. Cell Host Microbe 2012;12:289–300.
+Martinez J, Malireddi RK, Lu Q et al. Molecular characterization of
+LC3-associated phagocytosis reveals distinct roles for Rubi-
+con, NOX2 and autophagy proteins. Nat Cell Biol 2015;17:893–
+906.
+Master SS, Rampini SK, Davis AS et al. Mycobacterium tubercu-
+losis prevents inﬂammasome activation. Cell Host Microbe
+2008;3:224–32.
+Mayer-Barber KD, Andrade BB, Barber DL et al. Innate and
+adaptive interferons suppress IL-1α and IL-1β production
+
+10
+Pathogens and Disease, 2018, Vol. 76, No. 4
+by distinct pulmonary myeloid subsets during Mycobac-
+terium
+tuberculosis
+infection.
+Immunity
+2011;35:1023–
+34.
+Mayer-Barber KD, Barber DL, Shenderov K et al. Caspase-1 inde-
+pendent IL-1beta production is critical for host resistance to
+Mycobacterium tuberculosis and does not require TLR signaling
+in vivo. J Immunol 2010;184:3326–30.
+Mehra A, Zahra A, Thompson V et al. Mycobacterium tuberculosis
+type VII secreted effector EsxH targets host ESCRT to impair
+trafﬁcking. PLoS Pathog 2013;9:e1003734.
+Mehta P, Henault J, Kolbeck R et al. Noncanonical autophagy: one
+small step for LC3, one giant leap for immunity. Curr Opin
+Immunol 2014;26:69–75.
+Miller JL, Velmurugan K, Cowan MJ et al. The type I NADH de-
+hydrogenase of Mycobacterium tuberculosis counters phagoso-
+mal NOX2 activity to inhibit TNF-alpha-mediated host cell
+apoptosis. PLoS Pathog 2010;6:e1000864.
+Mishra BB, Moura-Alves P, Sonawane A et al. Mycobacterium tuber-
+culosis protein ESAT-6 is a potent activator of the NLRP3/ASC
+inﬂammasome. Cell Microbiol 2010;12:1046–63.
+Mishra BB, Rathinam VA, Martens GW et al. Nitric oxide controls
+the immunopathology of tuberculosis by inhibiting NLRP3
+inﬂammasome-dependent processing of IL-1β. Nat Immunol
+2013;14:52–60.
+Mitchell
+G,
+Isberg
+RR.
+Innate
+Immunity
+to
+intracellular
+pathogens: balancing microbial elimination and inﬂam-
+mation. Cell Host Microbe 2017;22:166–75.
+Mittal E, Kumar S, Rahman A et al. Modulation of phagolyso-
+some maturation by bacterial tlyA gene product. J Biosci
+2014;39:821–34.
+Molloy
+A,
+Laochumroonvorapong
+P,
+Kaplan
+G.
+Apoptosis,
+but not necrosis, of infected monocytes is coupled with
+killing of intracellular Bacillus Calmette-Guerin. J Exp Med
+1994;180:1499–509.
+Moraco AH, Kornfeld H. Cell death and autophagy in tuberculo-
+sis. Semin Immunol 2014;26:497–511.
+Mustafa T, Wiker HG, Mørkve O et al. Reduced apoptosis and in-
+creased inﬂammatory cytokines in granulomas caused by tu-
+berculous compared to non-tuberculous mycobacteria: role
+of MPT64 antigen in apoptosis and immune response. Clin
+Exp Immunol 2007;150:105–13.
+Myrvik QN, Leake ES, Wright MJ. Disruption of phagosomal
+membranes of normal alveolar macrophages by the H37Rv
+strain of Mycobacterium tuberculosis. A correlate of virulence.
+Am Rev Respir Dis 1984;129:322–8.
+Ng VH, Cox JS, Sousa AO et al. Role of KatG catalase-peroxidase in
+mycobacterial pathogenesis: countering the phagocyte ox-
+idative burst. Mol Microbiol 2004;52:1291–302.
+Nunes P, Demaurex N, Dinauer MC. Regulation of the NADPH
+oxidase and associated ion ﬂuxes during phagocytosis. Trafﬁc
+2013;14:1118–31.
+Oddo M, Renno T, Attinger A et al. Fas ligand-induced apop-
+tosis of infected human macrophages reduces the via-
+bility of intracellular Mycobacterium tuberculosis. J Immunol
+1998;160:5448–54.
+Ouimet M, Koster S, Sakowski E et al. Mycobacterium tuberculosis
+induces the miR-33 locus to reprogram autophagy and host
+lipid metabolism. Nat Immunol 2016;17:677–86.
+Philips JA, Ernst JD. Tuberculosis pathogenesis and immunity.
+Annu Rev Pathol Mech 2012;7:353–84.
+Poirier V, Bach H, Av-Gay Y. Mycobacterium tuberculosis promotes
+anti-apoptotic activity of the macrophage by PtpA protein-
+dependent dephosphorylation of host GSK3α. J Biol Chem
+2014;289:29376–85.
+Portal-Celhay C, Tufariello JM, Srivastava S et al. Mycobacterium
+tuberculosis EsxH inhibits ESCRT-dependent CD4+ T-cell acti-
+vation. Nat Microbiol 2016;2:16232.
+Prados-Rosales R, Weinrick BC, Piqu´e DG et al. Role for Mycobac-
+terium tuberculosis membrane vesicles in iron acquisition. J
+Bacteriol 2014;196:1250–6.
+Prashar A, Schnettger L, Bernard EM et al. Rab GTPases in immu-
+nity and inﬂammation. Front Cell Infect Microbiol 2017;7:435.
+Purdy
+GE,
+Owens
+RM,
+Bennett
+L
+et
+al.
+Kinetics
+of
+phosphatidylinositol-3-phosphate
+acquisition
+differ
+be-
+tween
+IgG
+bead-containing
+phagosomes
+and
+Mycobac-
+terium tuberculosis-containing phagosomes. Cell Microbiol
+2005;7:1627–34.
+Puri RV, Reddy PV, Tyagi AK. Secreted acid phosphatase (SapM)
+of Mycobacterium tuberculosis is indispensable for arresting
+phagosomal maturation and growth of the pathogen in
+guinea pig tissues. PLoS One 2013;8:e70514.
+Queval CJ, Song OR, Carralot JP et al. Mycobacterium tubercu-
+losis controls phagosomal acidiﬁcation by targeting CISH-
+mediated signaling. Cell Rep 2017;20:3188–98.
+Quigley J, Hughitt VK, Velikovsky CA et al. The cell wall lipid PDIM
+contributes to phagosomal escape and host cell exit of My-
+cobacterium tuberculosis. mBio 2017;8:e00148–17.
+Rajaram MV, Ni B, Dodd CE et al. Macrophage immunoreg-
+ulatory pathways in tuberculosis. Semin Immunol 2014;26:
+471–85.
+Rajaram MVS, Arnett E, Azad AK et al. M. tuberculosis -initiated
+human mannose receptor signaling regulates macrophage
+recognition and vesicle trafﬁcking by FcRγ -Chain, Grb2, and
+SHP-1. Cell Rep 2017;21:126–40.
+Rieck B, Degiacomi G, Zimmermann M et al. PknG senses amino
+acid availability to control metabolism and virulence of My-
+cobacterium tuberculosis. PLoS Pathog 2017;13:e1006399.
+Rink J, Ghigo E, Kalaidzidis Y et al. Rab conversion as a mech-
+anism of progression from early to late endosomes. Cell
+2005;122:735–49.
+Roberts EA, Chua J, Kyei GB et al. Higher order Rab programming
+in phagolysosome biogenesis. J Cell Biol 2006;174:923–9.
+Romagnoli A, Etna MP, Giacomini E et al. ESX-1 dependent im-
+pairment of autophagic ﬂux by Mycobacterium tuberculosis in
+human dendritic cells. Autophagy 2012;8:1357–70.
+Saikolappan S, Estrella J, Sasindran SJ et al. The fbpA/sapM dou-
+ble knock out strain of Mycobacterium tuberculosis is highly
+attenuated and immunogenic in macrophages. PLoS One
+2012;7:e36198.
+Saini NK, Baena A, Ng TW et al. Suppression of autophagy
+and
+antigen
+presentation
+by
+Mycobacterium
+tuberculosis
+PE˙PGRS47. Nat Microbiol 2016;1:16133.
+Sakowski ET, Koster S, Portal Celhay C et al. Ubiquilin 1 promotes
+IFN-γ -induced xenophagy of Mycobacterium tuberculosis. PLoS
+Pathog 2015;11:e1005076.
+Schaible UE, Winau F, Sieling PA et al. Apoptosis facilitates anti-
+gen presentation to T lymphocytes through MHC-I and CD1
+in tuberculosis. Nat Med 2003;9:1039–46.
+Schnettger L, Rodgers A, Repnik U et al. A Rab20-dependent
+membrane trafﬁcking pathway controls M. tuberculosis repli-
+cation by regulating phagosome spaciousness and integrity.
+Cell Host Microbe 2017;21:619–28 e5.
+Seto S, Tsujimura K, Koide Y. Rab GTPases regulating phago-
+some maturation are differentially recruited to mycobacte-
+rial phagosomes. Trafﬁc 2011;12:407–20.
+Shah S, Bohsali A, Ahlbrand SE et al. Cutting edge: My-
+cobacterium tuberculosis but not nonvirulent mycobacteria
+inhibits IFN-β and AIM2 inﬂammasome-dependent IL-1β
+
+Upadhyay et al.
+11
+production
+via
+its
+ESX-1
+secretion
+system.
+J
+Immunol
+2013;191:3514–8.
+Sharma G, Upadhyay S, Srilalitha M et al. The interaction of my-
+cobacterial protein Rv2966c with host chromatin is mediated
+through non-CpG methylation and histone H3/H4 binding.
+Nucleic Acids Res 2015;43:3922–37.
+Shi L, Eugenin EA, Subbian S. Immunometabolism in tuberculo-
+sis. Front Immunol 2016;7:150.
+Shin DM, Jeon BY, Lee HM et al. Mycobacterium tuberculosis eis
+regulates autophagy, inﬂammation, and cell death through
+redox-dependent signaling. PLoS Pathog 2010;6:e1001230.
+Shui W, Petzold CJ, Redding A et al. Organelle membrane
+proteomics reveals differential inﬂuence of mycobacterial
+lipoglycans on macrophage phagosome maturation and
+autophagosome accumulation. J Proteome Res 2011;10:339–
+48.
+Simeone R, Bobard A, Lippmann J et al. Phagosomal rupture by
+Mycobacterium tuberculosis results in toxicity and host cell
+death. PLoS Pathog 2012;8:e1002507.
+Simeone R, Sayes F, Song O et al. Cytosolic access of Mycobac-
+terium tuberculosis: critical impact of phagosomal acidiﬁca-
+tion control and demonstration of occurrence in vivo. PLoS
+Pathog 2015;11:e1004650.
+Singh SB, Davis AS, Taylor GA et al. Human IRGM induces
+autophagy to eliminate intracellular mycobacteria. Science
+2006;313:1438–41.
+Sly LM, Hingley-Wilson SM, Reiner NE et al. Survival of Mycobac-
+terium tuberculosis in host macrophages involves resistance
+to apoptosis dependent upon induction of antiapoptotic Bcl-
+2 family member Mcl-1. J Immunol 2003;170:430–7.
+Speer A, Sun J, Danilchanka O et al. Surface hydrolysis of sph-
+ingomyelin by the outer membrane protein Rv0888 supports
+replication of Mycobacterium tuberculosis in macrophages. Mol
+Microbiol 2015;97:881–97.
+Srivastava S, Ernst JD, Desvignes L. Beyond macrophages: the
+diversity of mononuclear cells in tuberculosis. Immunol Rev
+2014;262:179–92.
+Stamm CE, Collins AC, Shiloh MU. Sensing of Mycobacterium tu-
+berculosis and consequences to both host and bacillus. Im-
+munol Rev 2015;264:204–19.
+Stanley SA, Johndrow JE, Manzanillo P et al. The type I IFN re-
+sponse to infection with Mycobacterium tuberculosis requires
+ESX-1-mediated secretion and contributes to pathogenesis. J
+Immunol 2007;178:3143–52.
+Sturgill-Koszycki S, Schlesinger PH, Chakraborty P et al. Lack of
+acidiﬁcation in Mycobacterium phagosomes produced by ex-
+clusion of the vesicular proton-ATPase. Science 1994;263:678–
+81.
+Subbian S, Bandyopadhyay N, Tsenova L et al. Early innate
+immunity determines outcome of Mycobacterium tubercu-
+losis pulmonary infection in rabbits. Cell Commun Signal
+2013;11:60.
+Sun J, Singh V, Lau A et al. Mycobacterium tuberculosis nucleo-
+side diphosphate kinase inactivates small GTPases leading
+to evasion of innate immunity. PLoS Pathog 2013;9:e1003499.
+Sun J, Siroy A, Lokareddy RK et al. The tuberculosis necrotizing
+toxin kills macrophages by hydrolyzing NAD. Nat Struct Mol
+Biol 2015;22:672–8.
+Sun J, Wang X, Lau A et al. Mycobacterial nucleoside diphosphate
+kinase blocks phagosome maturation in murine RAW 264.7
+macrophages. PLoS One 2010;5:e8769.
+Thurston TL, Wandel MP, von Muhlinen N et al. Galectin 8 tar-
+gets damaged vesicles for autophagy to defend cells against
+bacterial invasion. Nature 2012;482:414–8.
+Tufariello JM, Chapman JR, Kerantzas CA et al. Separable roles
+for Mycobacterium tuberculosis ESX-3 effectors in iron acqui-
+sition and virulence. P Natl Acad Sci USA 2016;113:E348–
+57.
+van der Kant R, Jonker CT, Wijdeven RH et al. Characterization
+of the mammalian CORVET and HOPS complexes and their
+modular restructuring for endosome speciﬁcity. J Biol Chem
+2015;290:30280–90.
+van der Wel N, Hava D, Houben D et al. M. tuberculosis and M.
+leprae translocate from the phagolysosome to the cytosol in
+myeloid cells. Cell 2007;129:1287–98.
+Velmurugan K, Chen B, Miller JL et al. Mycobacterium tuberculosis
+nuoG is a virulence gene that inhibits apoptosis of infected
+host cells. PLoS Pathog 2007;3:e110.
+Venugopal A, Bryk R, Shi S et al. Virulence of Mycobacterium tu-
+berculosis depends on lipoamide dehydrogenase, a member
+of three multienzyme complexes. Cell Host Microbe 2011;9:21–
+31.
+Vergne I, Chua J, Lee HH et al. Mechanism of phagolysosome bio-
+genesis block by viable Mycobacterium tuberculosis. P Natl Acad
+Sci USA 2005;102:4033–8.
+Vergne I, Fratti RA, Hill PJ et al. Mycobacterium tuberculosis phago-
+some maturation arrest: mycobacterial phosphatidylinositol
+analog phosphatidylinositol mannoside stimulates early en-
+dosomal fusion. Mol Biol Cell 2004;15:751–60.
+Via LE, Deretic D, Ulmer RJ et al. Arrest of mycobacterial phago-
+some maturation is caused by a block in vesicle fusion
+between stages controlled by rab5 and rab7. J Biol Chem
+1997;272:13326–31.
+Vieira OV, Harrison RE, Scott CC et al. Acquisition of Hrs, an es-
+sential component of phagosomal maturation, is impaired
+by mycobacteria. Mol Cell Biol 2004;24:4593–604.
+Walburger
+A,
+Koul
+A,
+Ferrari
+G
+et
+al.
+Protein
+kinase
+G
+from pathogenic mycobacteria promotes survival within
+macrophages. Science 2004;304:1800–4.
+Wang J, Teng JL, Zhao D et al. The ubiquitin ligase TRIM27 func-
+tions as a host restriction factor antagonized by Mycobac-
+terium tuberculosis PtpA during mycobacterial infection. Sci
+Rep 2016;6:34827.
+Wang Q, Liu S, Tang Y et al. MPT64 protein from Mycobacterium
+tuberculosis inhibits apoptosis of macrophages through NF-
+kB-miRNA21-Bcl-2 pathway. PLoS One 2014;9:e100949.
+Wassermann R, Gulen MF, Sala C et al. Mycobacterium tuber-
+culosis differentially activates cGAS- and inﬂammasome-
+dependent intracellular immune responses through ESX-1.
+Cell Host Microbe 2015;17:799–810.
+Watson RO, Bell SL, MacDuff DA et al. The cytosolic sensor cGAS
+detects Mycobacterium tuberculosis DNA to Induce type i inter-
+ferons and activate autophagy. Cell Host Microbe 2015;17:811–
+9.
+Watson RO, Manzanillo PS, Cox JS. Extracellular M. tuberculosis
+DNA targets bacteria for autophagy by activating the host
+dna-sensing pathway. Cell 2012;150:803–15.
+Winau F, Weber S, Sad S et al. Apoptotic vesicles crossprime
+CD8 T cells and protect against tuberculosis. Immunity
+2006;24:105–17.
+Wolf AJ, Desvignes L, Linas B et al. Initiation of the adaptive
+immune response to Mycobacterium tuberculosis depends on
+antigen production in the local lymph node, not the lungs. J
+Exp Med 2008;205:105–15.
+Wong D, Bach H, Sun J et al. Mycobacterium tuberculosis pro-
+tein tyrosine phosphatase (PtpA) excludes host vacuolar-H+-
+ATPase to inhibit phagosome acidiﬁcation. P Natl Acad Sci
+USA 2011;108:19371–6.
+
+12
+Pathogens and Disease, 2018, Vol. 76, No. 4
+Wong D, Li W, Chao JD et al. Protein tyrosine kinase, PtkA, is re-
+quired for Mycobacterium tuberculosis growth in macrophages.
+Sci Rep 2018;8:155.
+Wong KW. The role of ESX-1 in Mycobacterium tuberculosis patho-
+genesis. Microbiol Spectr 2017;5:TBTB2-0001-2015.
+Wong KW, Jacobs WR. Critical role for NLRP3 in necrotic
+death triggered by Mycobacterium tuberculosis. Cell Microbiol
+2011;13:1371–84.
+Yaseen I, Kaur P, Nandicoori VK et al. Mycobacteria mod-
+ulate host epigenetic machinery by Rv1988 methylation
+of a non-tail arginine of histone H3. Nat Commun 2015;6:
+8922.
+Yuk JM, Shin DM, Lee HM et al. Vitamin D3 induces autophagy
+in human monocytes/macrophages via cathelicidin. Cell Host
+Microbe 2009;6:231–43.

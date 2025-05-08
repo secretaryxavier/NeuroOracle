@@ -1,0 +1,1013 @@
+Suppression of autophagy and antigen presentation by 
+Mycobacterium tuberculosis PE_PGRS47
+Neeraj K. Saini1,†, Andres Baena1,†,‡, Tony W. Ng1, Manjunatha M. Venkataswamy1,‡, 
+Steven C. Kennedy1, Shajo Kunnath-Velayudhan1, Leandro J. Carreño1,‡, Jiayong Xu2, 
+John Chan2, Michelle H. Larsen1,3, William R. Jacobs Jr1,3, and Steven A. Porcelli1,2,*
+1Department of Microbiology and Immunology, Albert Einstein College of Medicine, Bronx, New 
+York 10461, USA
+2Department of Medicine, Albert Einstein College of Medicine, Bronx, New York 10461, USA
+3Howard Hughes Medical Institute, Albert Einstein College of Medicine, Bronx, New York 10461, 
+USA
+Abstract
+Suppression of major histocompatibility complex (MHC) class II antigen presentation is believed 
+to be among the major mechanisms used by Mycobacterium tuberculosis to escape protective host 
+immune responses. Through a genome-wide screen for the genetic loci of M. tuberculosis that 
+inhibit MHC class II-restricted antigen presentation by mycobacteria-infected dendritic cells, we 
+identified the PE_PGRS47 protein as one of the responsible factors. Targeted disruption of the 
+PE_PGRS47 (Rv2741) gene led to attenuated growth of M. tuberculosis in vitro and in vivo, and a 
+PE_PGRS47 mutant showed enhanced MHC class II-restricted antigen presentation during in vivo 
+infection of mice. Analysis of the effects of deletion or over-expression of PE_PGRS47 implicated 
+this protein in the inhibition of autophagy in infected host phagocytes. Our findings identify 
+PE_PGRS47 as a functionally relevant, non-redundant bacterial factor in the modulation of innate 
+and adaptive immunity by M. tuberculosis, suggesting strategies for improving antigen 
+presentation and the generation of protective immunity during vaccination or infection.
+Mycobacterium tuberculosis (Mtb) persists within mammalian hosts through a variety of 
+immune evasion strategies, including the inhibition of multiple antigen presentation 
+*Correspondence and requests for materials should be addressed to S.A.P.: steven.porcelli@einstein.yu.edu.
+†These authors contributed equally to this work.
+‡Present addresses: Grupo de Inmunología Celular e Inmunogenética (GICIG), Departamento de Microbiología y Parasitología, 
+Facultad de Medicina, Universidad de Antioquia, Calle 70 No. 52-21, Medellín, Colombia (A.B.); Department of Neurovirology, 
+NIMHANS, 560029 Bangalore, India (M.M.V.); Millenium Institute on Immunology and Immunotherapy, Programa Disciplinario de 
+Inmunologia, Universidad de Chile, Chile (L.J.C.).
+Author contributions
+N.K.S., A.B. and T.W.N. designed and carried out experiments. S.A.P. supervised the design and execution of all experiments. 
+M.M.V., S.C.K., S.K.-V., L.J.C. and J.X. assisted in the execution of selected experiments. J.C., M.H.L. and W.R.J. provided input on 
+the design of experiments and data interpretation. All authors contributed to writing and editing the manuscript.
+Additional information
+Supplementary information is available online. Reprints and permissions information is available online at www.nature.com/reprints.
+Competing interests
+The authors declare no competing financial interests.
+HHS Public Access
+Author manuscript
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Published in final edited form as:
+Nat Microbiol. ; 1(9): 16133. doi:10.1038/nmicrobiol.2016.133.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+pathways that are central to adaptive immunity1. Major histocompatibility complex (MHC) 
+class II molecules, which control CD4+ T-cell responses, are critical for host resistance to 
+Mtb, and the bacilli have evolved the ability to modulate the expression and function of 
+these molecules2–8. Autophagy is a ubiquitous cellular process that participates in the 
+processing of antigens for MHC class II antigen presentation9–12, and in cells infected by 
+vacuolar pathogens like Mtb it provides a potential mechanism to initiate phagosome 
+maturation and enhance the processing and presentation of their antigens to T cells12–14. 
+Recent evidence suggests that Mtb has developed immune evasion strategies that interfere 
+with autophagy, thus improving its intracellular survival and limiting the presentation of its 
+antigens by MHC class II. Although several mycobacterial factors have been implicated in 
+this aspect of immune evasion15–17, the mechanisms and specific mediators involved remain 
+mostly unknown.
+In the current study, we undertook a genome-wide gain of function screen to identify genes 
+of Mtb involved in the inhibition of MHC class II presentation in Mtb-infected cells. This 
+identified at least five genomic loci of Mtb that independently contribute to the inhibition of 
+MHC class II-restricted antigen presentation, several of which also blocked autophagy. 
+Detailed analysis of one of these loci implicated PE_PGRS47, a member of a large family of 
+virulence-related genes in Mtb, as an inhibitor of autophagy and a factor contributing to 
+evasion of both innate and adaptive immunity by Mtb. These findings identify a specific 
+mycobacterial factor involved in the evasion of innate and adaptive immunity against Mtb 
+and provide new insight into the role of PE_PGRS proteins in tuberculosis.
+Results
+Isolation of Mtb genes that inhibit MHC class II presentation
+A cosmid library of random Mtb genomic DNA fragments (~20–35 kilobases) was used to 
+transform the nonpathogenic mycobacterium M. smegmatis (Msmeg), and several hundred 
+individual clones were screened for their ability to impair MHC class II presentation of 
+bacterial antigens by bone marrow-derived dendritic cells (BMDCs). We used Msmeg 
+expressing an Mtb ESAT-6 protein extended at its C terminus to include a well-characterized 
+MHC class II presented epitope (I-Eα52–68) for this screening, which allowed direct 
+measurement of antigen presentation using monoclonal antibody Y-Ae, specific for 
+complexes of I-Eα52–68 bound to MHC class II (I-Ab) molecules18 (Supplementary Fig. 1). 
+From a total of 365 Msmeg transformants harbouring random Mtb genomic cosmids, five 
+were identified that gave a significant and reproducible reduction of cell surface Y-Ae 
+staining while maintaining the expression of the ESAT6-IEα fusion protein (Fig. 1a and 
+Supplementary Fig. 2). Restriction mapping of re-extracted cosmid DNA revealed that each 
+cosmid contained distinct and non-overlapping inserts of Mtb genomic DNA 
+(Supplementary Fig. 2). None of these Msmeg clones affected the level of total cell surface 
+MHC class II expression on infected BMDCs (Fig. 1b). This indicated that the reduced 
+antigen presentation was not due to global down-regulation of MHC class II expression, 
+which has been previously attributed to Mtb (ref. 5). The reduction in cell surface expression 
+of MHC class II/peptide complexes was also confirmed in assays of T-cell responses using 
+CD4+ T cells specific for I-Ab/Eα52–68 peptide complexes (Fig. 1c). Taken together, our 
+Saini et al.
+Page 2
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+results indicate at least five genomic loci in Mtb encoding the potential to inhibit the 
+processing or presentation of bacteria-derived MHC class II presented antigens.
+Effects of Mtb genes on autophagy
+The inhibition of antigen presentation by Mtb genes without reduction in total surface MHC 
+class II suggested effects on the digestion of intra-phagosomal bacteria and reduced delivery 
+of their antigens to endocytic compartments containing MHC class II molecules. Consistent 
+with this, we observed that three of the five Msmeg transformants inhibiting antigen 
+presentation showed a significant increase in persistence of viable bacteria at 24 h following 
+in vitro infection of BMDCs (Fig. 1d). These findings suggested an effect on autophagy, a 
+basic cellular process that restricts the survival of intracellular mycobacteria13,14,19 and also 
+promotes intracellular antigen processing for MHC class II presentation20. To examine this, 
+we assessed the distribution of microtubule-associated light chain 3 (LC3), a central 
+component of autophagosome formation that undergoes cleavage, lipid modification and 
+cellular redistribution during autophagosome formation21. Initial experiments showed that 
+infection of a macrophage cell line with wild-type Msmeg triggered the formation of LC3 
+punctate structures in the cytoplasm, which were visualized by staining with an anti-LC3 
+mAb. In contrast, infections with Msmeg transformed with cosmid M2D10, M2H6 or S1G7 
+were associated with a significant reduction of the LC3 puncta formation as compared with 
+cells infected with control Msmeg harbouring empty cosmid (pYUB412; Fig. 1e,f). Similar 
+results were obtained using an LC3–GFP reporter fusion protein (Supplementary Fig. 3a,b). 
+Biochemical analysis of LC3 protein also confirmed an effect on autophagy, showing that 
+the increase in the LC3-II/LC3-I ratio was substantially reduced (25–85%) in cells infected 
+with bacteria harbouring the same cosmids that reduced LC3 puncta formation 
+(Supplementary Fig. 3c).
+Identification of PE_PGRS47 as an autophagy-inhibiting Mtb gene
+As a first step towards the identification of specific Mtb genes responsible for the inhibition 
+of autophagy and antigen presentation, we focused on cosmid M2D10 and generated a 
+complete map of open reading frames (ORFs) from the sequence of its ~35 kb insert 
+(Supplementary Fig. 4). Based on annotation of the Mtb genome and published literature, 
+one gene among the 33 intact ORFs stood out as a candidate for direct involvement in host–
+pathogen interactions. This was PE_PGRS47 (Rv2741), a member of the large family of 
+PE_PGRS genes implicated in pathogenesis and intracellular survival of virulent 
+mycobacteria (Supplementary Fig. 5)22,23. Initial experiments showed that expression of 
+PE_PGRS47 in Msmeg phenocopied the inhibition of autophagy in infected macrophages 
+observed with Msmeg transformed with cosmid M2D10, and also demonstrated that 
+PE_PGRS47 was secreted by the bacteria and could gain access to the cytosol of infected 
+phagocytic cells (Supplementary Fig. 6). We thus proceeded to directly explore the role of 
+PE_PGRS47 in Mtb infection by constructing a precise deletion mutant in the virulent Mtb 
+H37Rv strain using specialized phage transduction (Supplementary Fig. 7a–d)24. In 
+addition, a complemented strain was generated by reintroducing PE_PGRS47 into the 
+ΔPE_PGRS47 mutant. The ΔPE_PGRS47 and complemented strains showed identical 
+growth in standard liquid medium as wild-type Mtb, and similar growth in vivo in the lungs 
+Saini et al.
+Page 3
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+during the first four weeks following low-dose aerosol infection of C57BL/6 mice 
+(Supplementary Fig. 7e,f).
+To assess the role of PE_PGRS47 in blocking autophagy during Mtb infection, mouse 
+macrophage cell line RAW264.7 was infected with wild-type, mutant or complemented 
+strains and examined for LC3 punctate structures by fluorescence microscopy. This revealed 
+an increase in LC3 puncta with infection by the mutant (Fig. 2a,b). Following infection of 
+RAW264.7 cells with the ΔPE_PGRS47 mutant we also observed an increase in conversion 
+of LC3-I to LC3-II compared to cells infected with wild-type or complemented strains (Fig. 
+2c). We also examined effects on the levels of p62 (sequestosome 1), which is recruited to 
+newly formed autophago-somes and subsequently degraded25. We observed a greater level 
+of p62 in cells infected with wild-type Mtb than ΔPE_PGRS47 mutant infection, which was 
+reversed by complementation (Fig. 2d). Furthermore, using wild-type, ΔPE_PGRS47 and 
+complemented strains of Mtb expressing TdTomato, an increase in the co-localization of 
+intracellular bacteria with LC3 punctate structures was shown for the ΔPE_PGRS47 mutant 
+in infected RAW264.7 cells (Fig. 2e,f). Transmission electron microscopy of cells infected 
+with the mutant showed bacilli within the characteristic double-membrane autophagosomes 
+associated with the initial stages of engulfment by autophagy; such structures were not 
+observed in cells infected with wild-type Mtb (Fig. 2g). Altogether, these results indicate a 
+significant role for PE_PGRS47 in preventing the formation or a detectable level of 
+accumulation of autophagosomes containing intracellular Mtb.
+Effects of PE_PGRS47 on maturation of mycobacterial phagosomes
+The engulfment of mycobacteria within autophagosomes can lead to further maturation of 
+these compartments, including acidification and fusion with lysosomes. We thus carried out 
+studies to assess the role of PE_PGRS47 in blocking mycobacterial phagosome acidification 
+and phagolysosomal fusion. RAW264.7 cells were labelled with LysoTracker dye, which 
+labels acidic late endosomes and lysosomes, and then infected with wild-type, 
+ΔPE_PGRS47 or complemented strains of Mtb. This revealed a significant increase in co-
+localization with the mutant compared to wild-type Mtb, which was reversed by 
+complementation (Fig. 3a,b). We also observed a significant increase in co-localization 
+between the ΔPE_PGRS47 mutant and the lysosomal marker lysosome-associated 
+membrane protein 1 (LAMP-1) (Fig. 3a,b), indicating enhanced lysosomal fusion with 
+infected phagosomes.
+Role of PE_PGRS47 during chronic Mtb infection
+Whereas initial findings showed that deletion of PE_PGRS47 had no effect on the growth of 
+Mtb in mice early after infection (Supplementary Fig. 7f), subsequent analysis of colony-
+forming unit (c.f.u.) levels from tissues of wild-type mice at 15 or 25 weeks post-infection 
+showed that the ΔPE_PGRS47 strain was significantly attenuated in chronic stages of 
+disease (Fig. 4a). Histological examination of the lungs at 15 weeks post-infection showed 
+reductions in leukocyte accumulation and in the total area of histologically infiamed lung 
+tissue in animals infected with the mutant compared to wild-type or complemented strains 
+(Fig. 4b). To examine this in the absence of adaptive immunity, severe combined 
+immunodeficient (SCID) mice were infected intravenously with a high dose (106 c.f.u.) of 
+Saini et al.
+Page 4
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Mtb mutant, wild-type and complemented strains, then followed for survival. This also 
+showed that the ΔPE_PGRS47 strain was significantly attenuated in vivo (Fig. 4c), 
+indicating an increased susceptibility to innate immune mechanisms. Similarly, in vitro 
+infection in RAW264.7, human THP-1 myelomonocytic cells and BMDCs showed that the 
+mutant had very little capacity for intracellular growth, remaining at static levels based on 
+sampling at various intervals during the five days of culture compared to the wild-type or 
+complemented strains (Supplementary Fig. 8a). To confirm a role for autophagy in this 
+reduced intracellular survival of ΔPE_PGRS47, we infected RAW264.7 cells or BMDCs 
+with the ΔPE_PGRS47, wild-type Mtb and complemented strains in the presence or absence 
+of 3-methyladenine (3MA), an inhibitor of autophagy. This showed that the reduced 
+bacterial burden of the ΔPE_PGRS47 mutant could be fully restored to wild-type Mtb levels 
+by the addition of 3MA (Fig. 4d). In contrast, no significant changes in c.f.u. levels were 
+observed with 3MA treatment of cells infected with wild-type Mtb or complemented strains 
+(Supplementary Fig. 8b). These results are consistent with an important role for the 
+PE_PGRS47 gene in the growth and survival of Mtb, particularly during intracellular growth 
+and in the later chronic phase of infection.
+Inhibition of MHC class II antigen presentation by PE_PGRS47
+To assess the ability of PE_PGRS47 to suppress MHC class II dependent antigen 
+presentation during Mtb infection, we carried out studies both in vitro and in vivo. 
+Presentation to MHC class II-restricted T-cell hybridomas was assessed in vitro for BMDCs 
+infected with the ΔPE_PGRS47 mutant compared to wild-type or complemented strains. 
+This showed enhanced responses for hybridomas specific for Mtb secreted antigens TB9.8 
+or antigen 85B (Ag85B). Treatment of the BMDCs with the autophagy inhibitor 3MA 
+reduced the responses to both antigens and eliminated the increase associated with deletion 
+of PE_PGRS47. Conversely, addition of rapamycin to activate autophagy gave increased T-
+cell responses, while also eliminating the enhanced responses to the ΔPE_PGRS47 strain 
+compared to wild-type or complemented strains (Fig. 5a). Overall, these results were 
+consistent with an autophagy-dependent enhancement of MHC class II presentation with 
+deletion of PE_PGRS47. To rule out the possibility that PE_PGRS47 deletion could alter the 
+total surface level of MHC class II on infected BMDCs, we analysed this by flow cytometry. 
+This showed no significant effect of PE_PGRS47 deletion on the total surface level of MHC 
+class II expression in infected BMDCs compared to wild-type Mtb or complemented strains 
+(Fig. 5b).
+To assess MHC class II presentation in vivo, we infected C57BL/6 mice with wild-type, 
+ΔPE_PGRS47 or complemented Mtb strains and measured CD4+ T-cell responses against 
+well-defined Mtb antigens. Lungs, spleen and mediastinal lymph nodes (MLN) were 
+collected on different days post-infection and processed to obtain single-cell suspensions. 
+Using flow cytometry to quantitate cells binding an MHC class II (I-Ab) tetramer containing 
+a peptide from the secreted antigen TB9.8 (EsxG), we detected significantly more TB9.8-
+specific CD4+ T cells in all the organs of mice infected with the ΔPE_PGRS47 mutant 
+compared to mice infected with wild-type or complemented strains on day 24 post-infection 
+(Fig. 6a). However, we were not able to detect effects on the frequency of TB9.8-specific 
+CD4+ T cells at very early phases of infection on days 9 or 14 (Supplementary Fig. 9), 
+Saini et al.
+Page 5
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+suggesting that PE_PGRS47 is not active in the initial stages of infection and may not affect 
+the initial priming of T cells.
+We also performed interferon-γ (IFNγ) enzyme-linked immunospot (ELISPOT) on cells 
+isolated from infected mice to quantitate responses to immunodominant I-Ab presented 
+epitopes from Mtb antigens ESAT-6, TB9.8 and Antigen 85B (Ag85B P25) (Fig. 6b). This 
+showed significant increases in IFNγ-secreting CD4+ T cells specific for TB9.8 in all tissues 
+studied on day 24 in ΔPE_PGRS47-mutant-infected mice, compared to mice infected with 
+wild-type Mtb or the complemented strains. At this time point, we also detected a significant 
+increase in the lungs of CD4+ T cells specific for Ag85B P25, which is known to be highly 
+expressed by Mtb as an immunodominant antigen during early infection26. Surprisingly, we 
+were not able to detect any increase in the frequency of CD4+ T cells specific for ESAT-6, 
+possibly reflecting the rapid expression of this antigen in the early phase of infection when 
+PE_PGRS47 may not be active, or alternatively due to the ability of ESAT-6 to directly lyse 
+phagosomal membranes and gain access to other cellular compartments27–29. These effects 
+on TB9.8 and Ag85 P25 responses persisted or became more prominent by day 60 post-
+infection. Together, these results indicate a significant role for PE_PGRS47 in the inhibition 
+of MHC class II mediated antigen presentation of a subset of immunodominant CD4+ T-cell 
+antigens beginning in early infection and persisting into the later chronic phase.
+Discussion
+We have provided evidence for at least five distinct genomic loci and the identity of one 
+specific gene of Mtb that contribute to the inhibition of MHC class II restricted antigen 
+presentation. Expression of several of these loci in Msmeg significantly prolonged 
+intracellular survival of the bacteria, and three of them also suppressed autophagy in infected 
+cells. Overall, these findings are consistent with the prevalent view of a highly complex 
+programme of immune evasion that allows survival of Mtb despite an intact immune 
+system5. Sequence analysis of the five cosmids isolated in our screening did not identify 
+known virulence-related genes, but the presence of Rv2741, encoding a member of the 
+expanded PE_PGRS protein family of Mtb, provided a strong candidate for a relevant 
+immune evasion gene in one of the five cosmids (M2D10). Although the precise functions of 
+PE_PGRS proteins or potential non-protein coding functions of PE_PGRS genes remain 
+mostly unknown, previous studies have implicated members of this family in virulence and 
+immune evasion by pathogenic mycobacteria22,23.
+Our studies focusing on PE_PGRS47 showed that this gene significantly modulates 
+intracellular infection. The ΔPE_PGRS47 deletion mutant of Mtb showed a reduced capacity 
+to inhibit autophagy and an increased acidification and lysosomal fusion of phagosomes 
+during infection of phagocytic cells (Figs 2 and 3). In addition, infection of mice with the 
+mutant revealed attenuated growth (Fig. 4) and a significant increase in CD4+ T-cell 
+responses against MHC class II presented antigens (Figs 5 and 6). These findings indicated a 
+non-redundant role for PE_PGRS47 in modulating innate intracellular host responses, as 
+well as in the generation of adaptive immune responses that are critical for control of Mtb. 
+We have not yet carried out experiments using mouse strains with specific mutations in 
+autophagy-related genes to further confirm and explore the effects of PE_PGRS47. 
+Saini et al.
+Page 6
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+However, our current data using pharmacologic agents to manipulate this pathway (Figs 4d 
+and 5a) support the hypothesis that PE_PGRS47 mediates linked inhibition of autophagy 
+and antigen presentation in Mtb-infected cells. It is noteworthy that the expression of many 
+PE_PGRS family members, including PE_PGRS47, is upregulated by mycobacteria after 
+entering macrophages30, and that PE_PGRS47 has been reported as one of the members of 
+this family showing the highest level of evolutionary conservation31.
+Autophagy has received considerable attention as a basic cellular mechanism contributing to 
+both innate and adaptive immunity32, and as a mechanism that enhances clearance of 
+intracellular myco-bacteria33. It has been frequently emphasized that Mtb inhibits 
+phagosome maturation, preventing acidification of phagosomes harbouring live bacilli and 
+their fusion with lysosomes34. Recent work suggests that this critical feature of Mtb survival 
+and immune evasion is at least in part due to the suppression of auto-phagy14,35,36. Although 
+a recent report has called into question the relevance of autophagy as a mechanism of host 
+protection in the mouse model37, this may reflect the ability of Mtb to efficiently disable and 
+manipulate this pathway. Several of our findings were consistent with the expected effect of 
+enhanced autophagy on promoting killing of Mtb by innate immunity (Fig. 4c and 
+Supplementary Fig. 8a), but it was surprising that growth of the ΔPE_PGRS47 mutant was 
+not significantly attenuated in the early phase of infection in wild-type mice (Fig. 4a and 
+Supplementary Fig. 7f). This suggests that other mediators may be produced by Mtb that 
+play a more dominant role during the early phases of infection in vivo to prevent autophagy 
+or to neutralize its microbicidal effects.
+Overall, our results identify the product of the PE_PGRS47 gene as one potentially 
+important factor contributing to the modulation of the host cell environment by Mtb. The 
+mechanism by which PE_PGRS47 mediates this function remains to be determined, 
+although our results indicate that this protein is secreted by the bacteria and gains access to 
+the cytosol of infected host cells (Supplementary Fig. 6). Access to the host cell cytoplasm 
+has been described for other PE_PGRS proteins, such as PE_PGRS33, which has been 
+reported to localize to mitochondria to modulate cell death38. Specific interacting partners 
+for PE_PGRS proteins within the host-cell proteome have not yet been identified, and this 
+represents an important future area of discovery that may yield clues to the mechanisms of 
+action of PE_PGRS47 and other members of this family.
+Methods
+Antibodies and other reagents
+Monoclonal antibody Y-Ae was purified from hybridoma culture supernatants by standard 
+protein G column chromatography (Amersham Biosciences/GE Healthcare). Purified mAbs 
+(2.0 mg ml−1 in PBS) were biotinylated overnight at 4 °C using NHS–LC–biotin (N-
+Hexanoate-succinimidyl-long chain-biotin, Thermo scientific), dissolved to 10 mM with 
+DMSO just before use, with a biotin-to-mAb molar ratio of 30:1. Unbound biotin was not 
+removed, as this did not interfere with downstream applications. Anti-I-A/I-E-FITC 
+(fluorescein isothiocyanate ) and anti-CD11c-PE mAbs were obtained from BD Biosciences. 
+Rapamycin was from Calbiochem and IFNγ was from Peprotech. 3-Methyladenine was 
+from Sigma. The nuclear fluorescent dye 4,6-diamidino-2-phenylindole (DAPI) was 
+Saini et al.
+Page 7
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+purchased from Sigma. Anti-LC3 antibodies for western blotting and immunofluorescence 
+analysis were purchased from Novus Biologicals and Cell Signaling, respectively. 
+Antibodies to LAMP-1, β-actin and p62 were purchased from Abcam.
+Bacterial strains and culture conditions
+Wild-type Mtb (strain H37Rv), mutant and complemented strains or Msmeg (strain 
+mc 2155) were cultured at 37 °C in Middlebrook 7H9 broth, or on 7H10 or 7H11 agar 
+containing 10% (vol/vol) oleic acid–albumin–dextrose–catalase (OADC), 0.5% glycerol and 
+0.05% (vol/vol) tyloxapol. Escherichia coli strain DH5α was used for cloning purposes and 
+grown on Luria–Bertani agar or broth at 37 °C. Strains bearing antibiotic resistance cassettes 
+were cultured in the presence of hygromycin (50 μg ml−1 for mycobacterial selection or 150 
+μg ml−1 for E. coli) or kanamycin (20 μg ml−1 for mycobacterial selection or 40 μg ml−1 for 
+E. coli). Strains of Msmeg and Mtb were transformed using published protocols39. The 
+PE_PGRS47 gene was deleted from Mtb H37Rv by allelic exchange via the previously 
+described specialized phage transduction method24. Colonies were selected for hygromycin 
+resistance following transduction, screened for gene deletion by PCR and confirmed by 
+Southern blotting using previously described methods24. For complementation of the 
+ΔPE_PGRS47 mutant, a full-length Mtb PE_PGRS47 (Rv2741) gene was amplified by PCR 
+from Mtb H37Rv genomic DNA and cloned into pMV361, an integrating Mtb vector with 
+an hsp60 promoter40.
+Construction of Mtb genomic DNA library
+The strategy for generation of the Mtb genomic library in cosmid vector pYUB412 has been 
+described previously47. Briefly, M. tuberculosis (strain H37Rv) genomic DNA was purified 
+and partially digested with Sau3A. Agarose gel purification was used to enrich for DNA 
+fragments of ~40 kb, which were ligated into the arms of cosmid vector pYUB412 digested 
+with BamH1. DNA was packaged into phages in vitro with Gigapack XL (Stratagene) and 
+E. coli were transduced and selected on LB plates containing 100 μg ml−1 ampicillin. Over 1 
+× 105 independent clones were pooled, and DNA for transformation was obtained using 
+standard alkaline lysis method.
+Construction and expression of ESAT6-IEα fusion protein
+A sequence of 87 bp containing the coding sequence for the MHC class II-presented IEα 
+epitope (EFAKFASFEAQGALANIAVDKANLD)48 was synthesized (GenScript) and then 
+ligated into pMV261 containing the ESAT6 sequence to create a fusion of the IEα sequence 
+to the C-terminal sequence of ESAT6. The resulting plasmid, pMV261-ESAT6-IEα, was 
+introduced into M. smegmatis by electroporation.
+Construction and screening of M. smegmatis clones expressing Mtb cosmids
+The Mtb cosmid DNA library was electroporated into M. smegmatis harbouring the 
+pMV261-ESAT6-IEα plasmid. A total of 365 random clones from the cosmid 
+transformation of M. smegmatis were picked and grown in liquid medium (7H9) containing 
+hygromycin (50 μg ml−1). Assuming a random distribution of Mtb sequences among the 
+cosmid transformants and an average insert size of ~40 kb, the 365 cosmid clones 
+Saini et al.
+Page 8
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+represented approximately three times coverage (×C) of the entire Mtb genome (that is, ×C 
+= L[N/G], where L is the average length of the genomic fragments represented by the 
+inserts, N is the number of inserts, and G is the entire genome length). At this level of 
+coverage, the probability of any given genomic 40 kb fragment being represented in a group 
+of N cosmids is given by the formula P = 1 − e−R, where R = NL/G (ref. 49). For a library of 
+365 random cosmid clones, P ≅ 0.95, indicating an approximately 95% chance that any 
+given gene in Mtb will be assessed at least once in the initial screening. Cultures of BMDCs 
+were infected at a multiplicity of infection (MOI) of 20:1 for 3 h individually with each of 
+the 365 M. smegmatis clones containing Mtb cosmids. As a positive control, BMDCs were 
+similarly infected with M. smegmatis expressing ESAT6-IEα and transformed with the 
+empty pYUB412 cosmid vector. After 3 h, cells were treated with gentamicin (100 μg ml−1; 
+Invitrogen) for 1 h to inhibit the growth of extracellular bacteria and the cells were then 
+washed two times with PBS and cultured in fresh medium containing 20 μg ml−1 of 
+gentamicin. Cells were detached with cold PBS containing 1 mM EDTA at 24 h post-
+infection and were stained with the Y-Ae monoclonal antibody (specific for complexes of I-
+Ab/Eα peptide) and with mAbs specific for CD11c and for total MHC class II (I-A/I-E 
+specific). Cell surface staining was measured by flow cytometry using a FACSCalibur (BD 
+Biosciences). A total of 72 transformant clones of M. smegmatis showing significantly 
+reduced Y-Ae staining (>3 standard errors below the mean value of 12 replicates of control 
+clones containing an empty cosmid vector) were identified in primary screening. These were 
+assessed for maintenance of expression of the ESAT6-IEα fusion protein by western blotting 
+using anti-ESAT6 and anti-Hsp65 mAbs to assess the relative levels of the fusion protein 
+with endogenous Hsp65 in each clone (see Supplementary Fig. 2a for an example). Eighteen 
+of the 72 transformant clones initially selected by the primary screen (that is, 25%) showed 
+reduced expression of the ESAT6-IEα fusion protein (ratio of Hsp65:ESAT6-IEα > 3 
+standard errors above values for empty cosmid control transformants) and these were 
+excluded from subsequent secondary screening to eliminate false positives.
+Cosmid recovery from M. smegmatis
+Although pYUB412 is an integrating vector that inserts at a specific chromosomal site in M. 
+smegmatis50, we observed in preliminary studies that a small but significant amount of our 
+integrated cosmids could be recovered by simple extraction from lysozyme-treated bacteria. 
+This is due to a low rate of spontaneous excision and reinsertion of cosmids built in the 
+pYUB412 backbone, which results in a constant low level of cells containing unintegrated 
+circular cosmids. To recover these cosmids, M. smegmatis clones were grown in 250 ml of 
+7H9 medium at 37 °C overnight, collected by centrifugation, and resuspended in 4 ml of Glu 
+TE buffer (50 mM glucose, 10 mM EDTA, 25 mM Tris, pH 7.5) with 10 mg ml−1 of 
+lysozyme. The samples were incubated at 37 °C overnight. Then 40 ml of lysis buffer 
+(1%SDS and 0.2 M NaOH) was added, mixed by inversion and incubated for 10 min on ice. 
+After this, 40 ml of neutralization buffer (3 M potassium acetate, 2 M acetic acid) was 
+added, mixed, and incubated for 10 min on ice. The samples were centrifuged and cleared by 
+filtration through tissue paper to remove insoluble debris. Then 40 ml of 2-propanol was 
+added to the supernatant, mixed and incubated for 10 min on ice, followed by centrifugation 
+at 1,400g for 20 min. The pellets were recovered and resuspended in 4 ml of ultrapure water. 
+A 4 ml volume of RNA precipitation buffer (5 M LiCl, 50 mM Tris, pH 7.6) was then added 
+Saini et al.
+Page 9
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+and incubated for 10 min on ice. The samples were centrifuged for 10 min at 1,400g, and the 
+supernatant was transferred to a new tube in which the DNA was precipitated by adding 80 
+μl of 10 M sodium acetate and 650 μl of ethanol, incubated at −20 °C for 20 min and then 
+centrifuged. The pellets were washed twice with 70% ethanol, dried at room temperature 
+and then resuspended in 100 μl of TE buffer.
+DNA sequencing
+The Mtb genomic DNA insert of each cosmid was first sequenced using primers specific for 
+the sequences of the pYUB412 vector flanking the insert (pYB412F-5′-
+gtacgccaccgcctggttc-3′ and pYUB412R-5′-gtgccacctgacgtctaag-3′) which provided ~400 
+bp of Mtb genomic sequence corresponding to the 5′ and 3′ ends of the insert. Because 
+initial analysis of the ends of the inserts revealed that they were composed of more than one 
+fragment of genomic DNA that had been ligated in tandem, it was necessary to use a cosmid 
+walking approach to obtain the complete sequences of the cosmid inserts. Sequencing by 
+cosmid walking was done by starting from the distal portion of the known sequences at the 
+ends of each insert. Deoxyoligonucleotides were designed based on the Mtb H37Rv genome 
+sequence (http://genolist.pasteur.fr/TubercuList/) to be complementary to sequences located 
+at 1 kbp intervals upstream of the known sequence and standard sequencing reactions were 
+carried out using these as primers. Sequence information obtained from these reactions was 
+used to design a second set of primers, and the process was repeated until all of the regions 
+of the insert that were non-contiguous with the Mtb genomic sequence had been sequenced 
+directly. This information was then used together with the published genomic sequence to 
+assemble the complete insert sequence.
+Animal experiments
+Wild-type C57BL/6 or severe combined immunodeficiency (SCID; also in C57BL/6 
+background) female mice between six and eight weeks of age were purchased from Jackson 
+Laboratories. Formal power calculations were not done for animal group size selection, 
+although the minimum group size (N = 5) is typical for experiments to assess major effects 
+on mycobacterial growth and virulence in the mouse infection model. This group size allows 
+valid statistical testing in experiments with multiple groups. Animals were assigned 
+randomly to experimental groups and studies using mice were not blinded. T cell receptor 
+transgenic TEα mice (rag1−/−and expressing CD90.1) were a gift from Marc K. Jenkins 
+(University of Minnesota). C57BL/6 mice were infected with Mtb or ΔPE_PGRS47 or 
+complemented strains through aerosol exposure as previously described41. SCID mice were 
+infected i.v. via the tail vein with 1 × 106 c.f.u. per mouse. Lung tissues were processed for 
+histopathology using standard paraffin fixation, sectioning and H&E staining. All mice were 
+maintained under specific pathogen-free conditions. All procedures involving the use of 
+animals were in compliance with protocols approved by the Albert Einstein College of 
+Medicine Institutional Animal Use and Biosafety Committees.
+Primary cell culture and cell lines
+BMDCs were prepared as described42. Briefly, bone marrow was obtained from tibiae and 
+femurs of six- to eight-week-old female C57BL/6 mice. Cells were seeded at 2 × 106 per 
+100 mm in bacteriological Petri dishes (VWR) in 10 ml of complete RPMI-1640 medium 
+Saini et al.
+Page 10
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+(Invitrogen) supplemented with 10 mM HEPES, 2 mM L-glutamine, 55 μM 2-
+mercaptoethanol, 50 μg ml−1 penicillin/streptomycin and 10% ultralow IgG heat-inactivated 
+(56 °C, 30 min) fetal bovine serum (FBS; Atlanta Biologicals) and murine granulocyte-
+macrophage colony-stimulating factor (GM-CSF) (20 ng ml−1) (Peprotech). Cell cultures 
+were fed with 10 ml of medium on days 3, 6 and 8 and collected on day 10. Bone marrow 
+macrophages (BMMs) were derived according to previously published methods43. Briefly, 
+marrow flushed from the tibia and femurs of six- to eight-week-old C57BL/6 mice was 
+collected aseptically and cultured in non-tissue-culture-treated 100 × 20 mm serological 
+plates (Fisher) at a density of 2 × 105 cells per ml in BMM medium (DMEM supplemented 
+with 1% HEPES, 1% L-glutamine, 1% non-essential amino acids, 100 U ml−1 penicillin and 
+100 μg ml−1 streptomycin (all from Invitrogen), 10% FBS (HyClone/GE Healthcare) and 
+10% L929 fibroblast-conditioned medium) for 6 days. On day 6, adherent cells were 
+collected after detachment by incubation for 20 min at 4 °C with 5 mM EDTA in PBS.
+THP-1 cells (American Type Culture Collection (ATCC)) were grown in RPMI-1640 
+(Invitrogen) supplemented with 10% FBS, 1% HEPES, 1% non-essential amino acids and 
+essential amino acids and 50 μg ml−1 of penicillin and streptomycin (complete RPMI). 
+THP-1 cells were treated with 40 ng ml−1 phorbol ester (PMA; Sigma-Aldrich) overnight to 
+induce their differentiation into macrophage-like cells. The J774 macrophage cell line 
+(ATCC) was transduced to express a GFP-LC3 fusion protein using a lentivirus construct 
+provided by N. Mizushima (Department of Physiology and Cell Biology, Tokyo Medical and 
+Dental University)44. The J774-GFP-LC3, RAW 264.7 (ATCC) and AMJ2-C8 (ATCC) 
+mouse macrophage lines were grown in DMEM supplemented with 1% HEPES, 1% l-
+glutamine, 1% non-essential amino acids, 100 U ml−1 penicillin, 100 μg ml−1 streptomycin 
+(all from Invitrogen) and 10% FBS (HyClone). Immediately before infection with 
+mycobacteria, these cells were washed and incubated with antibiotic-free media containing 
+non-decomplemented FBS. Infections of cultured cells with mycobacteria were generally 
+done for 3 h at 37 °C in a 5% CO2 incubator, followed by washing three times with PBS and 
+then culturing in fresh medium containing 100 μg ml−1 of gentamicin for 1 h. This was 
+followed by washing and then incubation in media with gentamicin at 20 μg ml−1 for the 
+additional indicated time periods. Approximately half of the culture medium was removed 
+and replaced with fresh medium on day 3 of culture to improve viability through day 5.
+The cell lines used in this study were authenticated and tested for mycoplasma at their 
+source (ATCC) and were not tested subsequently for mycoplasma contamination.
+Analysis of T-cell responses
+To derive CD4+ T-cell lines specific for the I-Ab presented Eα peptide, splenocytes from 
+TEα transgenic mice were isolated by negative depletion (Pan T cell isolation kit, Miltenyi 
+Biotech) and cultured with IEα peptide (10 μg ml−1) in the presence of Gardiquimod (1 μg 
+ml−1) and poly I:C (10 μg ml−1) for 7 days. The cells were then rested for an additional 7 
+days in the presence of irradiated syngeneic splenocytes, IL-2 (20 ng ml−1) and IL-7 (10 ng 
+ml−1), after which they were again stimulated using IEα peptide plus irradiated splenocytes. 
+After three cycles of restimulation followed by resting, the cells were collected and used for 
+T-cell activation experiments.
+Saini et al.
+Page 11
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Capture enzyme-linked immunosorbent assays (ELISA) for the detection of cytokines in 
+supernatants of T-cell cultures were carried out as described previously45. Briefly, culture 
+supernatants were collected after 72 h at 37 °C, and levels of IL-2 and IFNγ were quantified 
+using specific capture and biotinylated detection mAb pairs (BD Biosciences), streptavidin-
+HRP (BD Biosciences) and TMB substrate (Sigma-Aldrich) as substrate. Recombinant 
+cytokines (PeproTech) were used to generate standard curves. Measurements were 
+performed in triplicate. Quantitation of IFNγ secreting CD4+ T cells by ELISPOT was done 
+as described previously41, using synthetic peptides (10 μg ml−1) corresponding to Mtb 
+epitopes Ag85B240–254 (Peptide 25), ESAT61–20 and TB9.846–61 for in vitro restimulation.
+Fluorescence-activated cell sorting (FACS) analysis
+Cells were suspended in FACS buffer (PBS, 2% FCS and 0.05% NaN3) and Fc receptors 
+were blocked by incubation for 5 min with a 1/10 dilution of a culture supernatant of the rat 
+2.4G2 hybridoma (specific for murine FcγRIII (CD16) and FcγRIIb (CD32)). Cells were 
+stained with specific fluorochrome-labelled antibodies or peptide-loaded MHC class II 
+tetramers in FACS buffer for 1 h at room temperature, washed twice and then resuspended in 
+FACS buffer. Cells were analysed using a four-colour FACSCalibur cytometer (BD 
+Biosciences).
+Fluorescence microscopy and autophagy analysis
+Autophagy was evaluated in infected cells by immunostaining of LC3 or by western blotting 
+analysis as described previously46. For the quantification of autophagy, the percentages of 
+GFP-LC3-positive autophagic vacuoles in J774 GFP-LC3 transfected cells, or the numbers 
+of endogenous LC3 puncta in primary cells were evaluated using fluorescence microscopy. 
+For immunostaining, macrophages with or without previous mycobacteria infection were 
+seeded in wells of 24-well plates that contained round-glass coverslips at a density of 1×105 
+cells per well in 1 ml of medium. For endogenous LC3 staining, cells were fixed with 
+methanol at −20 °C for 20 min. For LAMP-1 staining, cells were fixed with 4% 
+paraformaldehyde in PBS at 4 °C for 10 min and permeabilized with 0.01% Triton X-100 in 
+PBS for 12 min before being treated with 10% bovine serum albumin (BSA) for 1 h at 
+25 °C. The cultures were then stained with primary antibodies, including rabbit anti-mouse 
+LC3 (1:200; Cell Signaling) or rat anti-mouse LAMP-1 (1:200; Abcam) overnight at 4 °C. 
+After washing to remove excess primary antibodies, the cultures were incubated for 2 h at 
+room temperature with anti-rabbit IgG-Alexa 488 or anti-rat IgG-Alexa 647. In some 
+experiments, RAW264.7 cells were loaded with Lysotracker DND RED (Life Technologies) 
+and infected with different Mtb strains (wild type, ΔPE_PGRS47 or complemented strain), 
+which were fluorescently labelled with FITC (Sigma) for the indicated time periods and then 
+washed three times with PBS before fixation for immunostaining. After washing, the 
+sections were mounted with ProLong Gold (Invitrogen). Confocal images were acquired 
+with a Leica SP5 AOBS (Leica Microsystems). Co-localization of fluorescent bacilli with 
+lysosomal or autophagosomal markers was quantitated by direct visual scoring by a blinded 
+observer, and by computer-assisted image analysis using ImageJ software (http://
+rsbweb.nih.gov/ij/). Criteria for the visual scoring were that positive scoring for co-
+localization had to satisfy two criteria: (1) the fluorescence from the marker being assessed 
+had to surround more than half of the bacterial surface; and (2) the marker staining had to be 
+Saini et al.
+Page 12
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+of sufficient intensity for the co-localized bacteria to appear distinctly yellow. In terms of 
+quantitation, similar results were obtained using direct visual scoring and ImageJ analysis. 
+The values of means ± s.e. of co-localization shown in Figs 2 and 3 were obtained with the 
+direct visual scoring method. Endogenous LC3 conjugation was evaluated by western blot 
+analysis using an antibody specific for LC3-I/II. As a positive control for autophagy 
+activation, cells were treated with complete media contained 1 μM rapamycin (Sigma) for 12 
+h.
+Electron microscopy
+Transmission-electron microscopy was used to analyse the morphology of phagosomal 
+membranes and to confirm the induction of autophagy. After infection with mycobacteria, 
+cells were fixed with 2% glutaraldehyde in 0.1 M cacodylate at room temperature for 2 h 
+and then incubated overnight in 4% formaldehyde, 1% glutaraldehyde and 0.1% PBS. After 
+fixation, the samples were stained for 90 min in 2% osmium, then serially dehydrated in 
+ethanol and embedded in Spurr’s epoxy resin. Thin sections were obtained on an Ultracut 
+cryotome and stained with 0.5% uranyl acetate and 0.5% lead citrate (Reichart). Samples 
+were examined in a JEOL 1200EX transmission electron microscope operating at 80 kV. 
+Immunogold electron microscopy was performed to analyse the presence of PE_PGRS 
+protein after infection of macrophages with Msmeg or Msmeg-PE_PGRS47 using 
+previously described methods51. Briefly, the macrophages were fixed in 0.1 M sodium 
+cacodylate buffer (pH 7.2) containing 4% paraformaldehyde, 0.2% glutaraldehyde, 
+infiltrated in 25% polyvinylpyrrolidone and 2.1 M sucrose and then rapidly frozen by 
+immersion in liquid nitrogen. Cryosections were obtained in the temperature range from −70 
+to −90 °C using an Ultracut cryotome. After blocking with PBS–BSA with 50 mM NH4Cl, 
+the cryosections were incubated overnight in the presence of the mouse monoclonal 
+antibody mAb 7C4.1F7. After incubation with Immunogold-labelled anti-mouse IgG, 
+specimens were observed in a JEOL1200EX transmission electron microscope operating at 
+80 kV.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments
+The authors thank the staff of the Flow Cytometry Core Facility of the Albert Einstein College of Medicine 
+(supported by the Einstein Cancer Center grant NIH/NCI CA13330). The authors acknowledge the NIH Tetramer 
+Core Facility (contract no. HHSN272201300006C) for provision of the I-Ab/TB9.8 tetramers. This work was 
+supported by NIH grants AI093649 to S.A.P. and AI063537 to S.A.P., W.R.J. and J.C. The authors thank N. 
+Mizushima, Tokyo Medical and Dental University, for providing the GFP-LC3 lentivirus construct and A.Y. 
+Rudensky for providing the Y-Ae hybridoma. The authors also thank P. Jain and P. A. Gonzalez for their 
+suggestions on the construction of the ΔPE_PGRS47 mutant strain and R. Sellers for assistance in analysis of 
+histopathology. A.B. acknowledges support from ‘Estrategia de Sostenibilidad Universidad de Antioquia’. The 
+authors thank R. Prados-Rosales for assistance with EM studies and E. Bejarano for advice on autophagy analysis.
+References
+1. Wolf AJ, et al. Mycobacterium tuberculosis infects dendritic cells with high frequency and impairs 
+their function in vivo. J Immunol. 2007; 179:2509–2519. [PubMed: 17675513] 
+Saini et al.
+Page 13
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+2. Mogues T, Goodrich ME, Ryan L, LaCourse R, North RJ. The relative importance of T cell subsets 
+in immunity and immunopathology of airborne Mycobacterium tuberculosis infection in mice. J 
+Exp Med. 2001; 193:271–280. [PubMed: 11157048] 
+3. Repique CJ, et al. Susceptibility of mice deficient in the MHC class II transactivator to infection 
+with Mycobacterium tuberculosis. Scand J Immunol. 2003; 58:15–22. [PubMed: 12828554] 
+4. Scanga CA, et al. Depletion of CD4+ T cells causes reactivation of murine persistent tuberculosis 
+despite continued expression of interferon gamma and nitric oxide synthase 2. J Exp Med. 2000; 
+192:347–358. [PubMed: 10934223] 
+5. Baena A, Porcelli SA. Evasion and subversion of antigen presentation by Mycobacterium 
+tuberculosis. Tissue Antigens. 2009; 74:189–204. [PubMed: 19563525] 
+6. Harding CV, Boom WH. Regulation of antigen presentation by Mycobacterium tuberculosis: a role 
+for Toll-like receptors. Nature Rev Microbiol. 2010; 8:296–307. [PubMed: 20234378] 
+7. Pai RK, Convery M, Hamilton TA, Boom WH, Harding CV. Inhibition of IFN-γ-induced class II 
+transactivator expression by a 19-kDa lipoprotein from Mycobacterium tuberculosis: a potential 
+mechanism for immune evasion. J Immunol. 2003; 171:175–184. [PubMed: 12816996] 
+8. Pennini ME, et al. CCAAT/enhancer-binding protein β and δ binding to CIITA promoters is 
+associated with the inhibition of CIITA expression in response to Mycobacterium tuberculosis 19-
+kDa lipoprotein. J Immunol. 2007; 179:6910–6918. [PubMed: 17982082] 
+9. Dengjel J, et al. Autophagy promotes MHC class II presentation of peptides from intracellular 
+source proteins. Proc Natl Acad Sci USA. 2005; 102:7922–7927. [PubMed: 15894616] 
+10. Paludan C, et al. Endogenous MHC class II processing of a viral nuclear antigen after autophagy. 
+Science. 2005; 307:593–596. [PubMed: 15591165] 
+11. Schmid D, Pypaert M, Munz C. Antigen-loading compartments for major histocompatibility 
+complex class II molecules continuously receive input from autophagosomes. Immunity. 2007; 
+26:79–92. [PubMed: 17182262] 
+12. Zhou D, et al. Lamp-2a facilitates MHC class II presentation of cytoplasmic antigens. Immunity. 
+2005; 22:571–581. [PubMed: 15894275] 
+13. Singh SB, Davis AS, Taylor GA, Deretic V. Human IRGM induces autophagy to eliminate 
+intracellular mycobacteria. Science. 2006; 313:1438–1441. [PubMed: 16888103] 
+14. Gutierrez MG, et al. Autophagy is a defense mechanism inhibiting BCG and Mycobacterium 
+tuberculosis survival in infected macrophages. Cell. 2004; 119:753–766. [PubMed: 15607973] 
+15. Shin DM, et al. Mycobacterium tuberculosis Eis regulates autophagy, inflammation, and cell death 
+through redox-dependent signaling. PLoS Pathogens. 2010; 6:e1001230. [PubMed: 21187903] 
+16. Romagnoli A, et al. ESX-1 dependent impairment of autophagic flux by Mycobacterium 
+tuberculosis in human dendritic cells. Autophagy. 2012; 8:1357–1370. [PubMed: 22885411] 
+17. Espert L, Beaumelle B, Vergne I. Autophagy in Mycobacterium tuberculosis and HIV infections. 
+Front Cell Infect Microbiol. 2015; 5:49. [PubMed: 26082897] 
+18. Rudensky A, Preston-Hurlburt P, Hong SC, Barlow A, Janeway CA Jr. Sequence analysis of 
+peptides bound to MHC class II molecules. Nature. 1991; 353:622–627. [PubMed: 1656276] 
+19. Deretic V, Saitoh T, Akira S. Autophagy in infection, inflammation and immunity. Nature Rev 
+Immunol. 2013; 13:722–737. [PubMed: 24064518] 
+20. Munz C. Enhancing immunity through autophagy. Annu Rev Immunol. 2009; 27:423–449. 
+[PubMed: 19105657] 
+21. Mizushima N, Yoshimori T, Levine B. Methods in mammalian autophagy research. Cell. 2010; 
+140:313–326. [PubMed: 20144757] 
+22. Tian C, Jian-Ping X. Roles of PE_PGRS family in Mycobacterium tuberculosis pathogenesis and 
+novel measures against tuberculosis. Microb Pathog. 2010; 49:311–314. [PubMed: 20638467] 
+23. Brennan MJ, Delogu G. The PE multigene family: a ‘molecular mantra’ for mycobacteria. Trends 
+Microbiol. 2002; 10:246–249. [PubMed: 11973159] 
+24. Bardarov S, et al. Specialized transduction: an efficient method for generating marked and 
+unmarked targeted gene disruptions in Mycobacterium tuberculosis, M bovis BCG and M 
+smegmatis. Microbiology. 2002; 148:3007–3017. [PubMed: 12368434] 
+Saini et al.
+Page 14
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+25. Rusten TE, Stenmark H. p62, an autophagy hero or culprit? Nature Cell Biol. 2010; 12:207–209. 
+[PubMed: 20190829] 
+26. Bold TD, Banaei N, Wolf AJ, Ernst JD. Suboptimal activation of antigen-specific CD4+ effector 
+cells enables persistence of M. tuberculosis in vivo. PLoS Pathogens. 2011; 7:e1002063. [PubMed: 
+21637811] 
+27. Reiley WW, et al. ESAT-6-specific CD4T cell responses to aerosol Mycobacterium tuberculosis 
+infection are initiated in the mediastinal lymph nodes. Proc Natl Acad Sci USA. 2008; 105:10961–
+10966. [PubMed: 18667699] 
+28. Kruh NA, Troudt J, Izzo A, Prenni J, Dobos KM. Portrait of a pathogen: the Mycobacterium 
+tuberculosis proteome in vivo. PLoS ONE. 2010; 5:e13938. [PubMed: 21085642] 
+29. Simeone R, Bottai D, Frigui W, Majlessi L, Brosch R. ESX/type VII secretion systems of 
+mycobacteria: insights into evolution, pathogenicity and protection. Tuberculosis (Edinb). 2015; 
+95(Suppl 1):S150–S154. [PubMed: 25732627] 
+30. Srivastava V, Jain A, Srivastava BS, Srivastava R. Selection of genes of Mycobacterium 
+tuberculosis upregulated during residence in lungs of infected mice. Tuberculosis (Edinb). 2008; 
+88:171–177. [PubMed: 18054522] 
+31. Copin R, et al. Sequence diversity in the pe_pgrs genes of Mycobacterium tuberculosis is 
+independent of human T cell recognition. mBio. 2014; 5:e00960–e00913. [PubMed: 24425732] 
+32. Lee HK, et al. In vivo requirement for Atg5 in antigen presentation by dendritic cells. Immunity. 
+2010; 32:227–239. [PubMed: 20171125] 
+33. Deretic V. Autophagy, an immunologic magic bullet: Mycobacterium tuberculosis phagosome 
+maturation block and how to bypass it. Future Microbiol. 2008; 3:517–524. [PubMed: 18811236] 
+34. Koul A, Herget T, Klebl B, Ullrich A. Interplay between mycobacteria and host signalling 
+pathways. Nature Rev Microbiol. 2004; 2:189–202. [PubMed: 15083155] 
+35. Watson RO, Manzanillo PS, Cox JS. Extracellular M tuberculosis DNA targets bacteria for 
+autophagy by activating the host DNA-sensing pathway. Cell. 2012; 150:803–815. [PubMed: 
+22901810] 
+36. Ouimet M, et al. Mycobacterium tuberculosis induces the miR-33 locus to reprogram autophagy 
+and host lipid metabolism. Nature Immunol. 2016; 17:677–686. [PubMed: 27089382] 
+37. Kimmey JM, et al. Unique role for ATG5 in neutrophil-mediated immunopathology during M 
+tuberculosis infection. Nature. 2015; 528:565–569. [PubMed: 26649827] 
+38. Cadieux N, et al. Induction of cell death after localization to the host cell mitochondria by the 
+Mycobacterium tuberculosis PE_PGRS33 protein. Microbiology. 2011; 157:793–804. [PubMed: 
+21081760] 
+39. Braunstein M, Bardarov SS, Jacobs WR Jr. Genetic methods for deciphering virulence 
+determinants of Mycobacterium tuberculosis. Methods Enzymol. 2002; 358:67–99. [PubMed: 
+12474379] 
+40. Stover CK, et al. New use of BCG for recombinant vaccines. Nature. 1991; 351:456–460. 
+[PubMed: 1904554] 
+41. Hinchey J, et al. Enhanced priming of adaptive immunity by a proapoptotic mutant of 
+Mycobacterium tuberculosis. J Clin Invest. 2007; 117:2279–2288. [PubMed: 17671656] 
+42. Lutz MB, et al. An advanced culture method for generating large quantities of highly pure dendritic 
+cells from mouse bone marrow. J Immunol Methods. 1999; 223:77–92. [PubMed: 10037236] 
+43. Houben EN, Nguyen L, Pieters J. Interaction of pathogenic mycobacteria with the host immune 
+system. Curr Opin Microbiol. 2006; 9:76–85. [PubMed: 16406837] 
+44. Mizushima N, Yamamoto A, Matsui M, Yoshimori T, Ohsumi Y. In vivo analysis of autophagy in 
+response to nutrient starvation using transgenic mice expressing a fluorescent autophagosome 
+marker. Mol Biol Cell. 2004; 15:1101–1111. [PubMed: 14699058] 
+45. Forestier C, et al. Improved outcomes in NOD mice treated with a novel Th2 cytokine-biasing 
+NKT cell activator. J Immunol. 2007; 178:1415–1425. [PubMed: 17237389] 
+46. Yuk JM, et al. Vitamin D3 induces autophagy in human monocytes/macrophages via cathelicidin. 
+Cell Host Microbe. 2009; 6:231–243. [PubMed: 19748465] 
+Saini et al.
+Page 15
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+47. Averill LE, et al. Screening of a cosmid library of Mycobacterium bovis BCG in Mycobacterium 
+smegmatis for novel T-cell stimulatory antigens. Res Microbiol. 1993; 144:349–362. [PubMed: 
+8248628] 
+48. Barlow AK, He X, Janeway C Jr. Exogenously provided peptides of a self-antigen can be 
+processed into forms that are recognized by self-T cells. J Exp Med. 1998; 187:1403–1415. 
+[PubMed: 9565633] 
+49. Clarke L, Carbon J. A colony bank containing synthetic Col El hybrid plasmids representative of 
+the entire E. coli genome. Cell. 1976; 9:91–99. [PubMed: 788919] 
+50. Pavelka MS Jr, Jacobs WR Jr. Comparison of the construction of unmarked deletion mutations in 
+Mycobacterium smegmatis Mycobacterium bovis bacillus Calmette-Guerin, and Mycobacterium 
+tuberculosis H37Rv by allelic exchange. J Bacteriol. 1999; 181:4780–4789. [PubMed: 10438745] 
+51. Prados-Rosales R, et al. Mycobacteria release active membrane vesicles that modulate immune 
+responses in a TLR2-dependent manner in mice. J Clin Invest. 2011; 121:1471–1483. [PubMed: 
+21364279] 
+Saini et al.
+Page 16
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 1. Identification of Mtb cosmid clones that inhibit MHC class II antigen presentation
+a, BMDCs were infected at a multiplicity of infection (MOI) of 20:1 for 3 h with Msmeg 
+expressing ESAT6-IEα and either the Mtb genomic cosmid clones indicated (filled bars) or 
+an empty cosmid (pYUB412, hatched bar). Cells were collected 24 h after infection, stained 
+with mAb Y-Ae and analysed by flow cytometry. The increase in mean fluorescence 
+intensity (MFI) compared to the background level of BMDCs infected with Msmeg not 
+expressing ESAT6-IEα was determined (ΔMFI). All ΔMFI values are plotted as a 
+percentage of the value for the pYUB412 control, which was normalized to 100. b, BMDCs 
+were infected as in a, but stained with mAb specific for total MHC class II. Values are 
+plotted as MFI of surface staining as a percentage of the pYUB412 control (hatched bar), 
+which was normalized to 100. c, Cells from a Th1-polarized CD4+ T-cell line derived from 
+TEα TCR transgenic mice were cultured with BMDCs infected as outlined in a. 
+Supernatants were collected after 72 h and the levels of IFNγ were measured by capture 
+ELISA. d, BMDCs were infected as in a. Cells were collected after 24 h of incubation and 
+lysates were plated to determine the number of intracellular viable bacteria. e, Fluorescence 
+images of AMJ2-C8 infected as in a and immunostained with anti-LC3 and with DAPI after 
+a total of 24 h. Representative images of cells uninfected or infected with Msmeg 
+transformed with empty cosmid (pYUB412), or with cosmids M2H3 or M2D10 (green, 
+LC3; blue, DAPI). Scale bars, 20 μm. f, Quantitative analysis of the percentages of LC3+ 
+punctate foci per cell for all five cosmids. *P < 0.05, **P < 0.01, ***P < 0.001, ****P < 
+Saini et al.
+Page 17
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+0.0001 compared to control (pYUB412) values (one-way analysis of variance (ANOVA) 
+with Dunnett’s multiple comparisons post-test). All values are plotted as means ± 1 s.e. of 
+triplicate measurements and the results are representative of a minimum of three 
+independent experiments (a–d) and two independent experiments (e,f). Means and s.e. are 
+indicated in red.
+Saini et al.
+Page 18
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 2. Inhibition of autophagy by PE_PGRS47
+a, Fluorescence images of RAW 264.7 macrophages infected with indicated Mtb strains at 
+an MOI of 20:1 for 3 h and immunostained with anti-LC3 and with DAPI after a total of 24 
+h. Representative images from one of three independent experiments are shown. Scale bars, 
+5 μm. b, Quantification of LC3+ puncta per cell, showing means ± 1 s.e. of triplicate cultures 
+analysed in blinded fashion. **P < 0.01 compared to cells infected with Mtb WT (one-way 
+ANOVA with Dunnett’s post-test). c, RAW 264.7 cells were infected as in a and incubated 
+for an additional 20 h or left uninfected (UI) or treated for the final 12 h with 1 μM 
+rapamycin (Rapa). Cells were collected and subjected to western blot analysis for LC3-I and 
+LC3-II, and for β-actin as a loading control. d, RAW 264.7 cells were infected and 
+incubated as in c and analysed by western blot for p62 (SQSTM1) or for β-actin as a loading 
+control. The ratio of the intensities of the p62 to β-actin bands is indicated below each lane. 
+e, Merged fluorescence images of RAW 264.7 cells infected with the indicated strains of 
+Saini et al.
+Page 19
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Mtb expressing TdTomato (red) for 3 h at an MOI of 20:1 and immunostained with anti-LC3 
+(green) and with DAPI (blue) after a total of 24 h of incubation. Co-localization of red 
+(bacteria) with green (LC3) signals is indicated in yellow. Scale bars, 5 μm. f, Quantitation 
+of co-localization (percentage of red bacteria also stained green) observed in e. Mean values 
+± 1 s.e. are plotted for ~100 cells for each condition analysed in blinded fashion. **P < 0.01 
+versus Mtb wild type (WT) infected (one-way ANOVA with Dunnett’s post-test). g, 
+Transmission electron micrographs of RAW 264.7 cells infected as in a and collected after 
+24 h of incubation. A representative field is shown for each condition and the areas within 
+the black boxes are enlarged below. Asterisks mark intracellular bacilli, and red arrows 
+indicate double membrane structures consistent with newly formed autophagosomes. Scale 
+bars, 0.5 μm. Results shown are representative of three independent experiments (a–f) or two 
+independent experiments (g).
+Saini et al.
+Page 20
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 3. Increased acidification and lysosomal fusion of phagosomes containing Mtb 
+ΔPE_PGRS47
+a, Macrophages (RAW 264.7 cells) were infected with wild-type Mtb (Mtb WT), 
+ΔPE_PGRS47 or complemented (Comp) strains that were either FITC labelled (left) or 
+expressing TdTomato (right) using an MOI of 20:1 for 3 h followed by gentamicin (100 μg 
+ml−1) treatment for 1 h, and then incubated for an additional 20 h. Cells were either stained 
+with LysoTracker DND Red (red, left) before fixation, or fixed and permeabilized and 
+stained with monoclonal LAMP-1 antibody (green, right). DAPI was used to stain nuclei 
+(blue). Cells were analysed by confocal immunofluorescence microscopy and representative 
+images are shown with yellow representing co-localization of red and green fluorescent 
+signals. Scale bars, 5 μm. b, Quantitation of co-localization of bacteria with LysoTracker 
+DND Red or LAMP-1. Mean values ± 1 s.e. are plotted for the percentage of bacteria co-
+localizing with LysoTracker signal or LAMP-1 in ~100 random cells analysed in blinded 
+fashion. *P < 0.05, **P < 0.01 for Mtb WT versus ΔPE_PGRS47 (one-way ANOVA with 
+Dunnett’s post-test).
+Saini et al.
+Page 21
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 4. PE_PGRS47 is required for full virulence at late stages of Mtb infection
+a, Bacterial load in the lungs, spleens and livers of C57BL/6 mice infected with low- dose 
+aerosol (~100 c.f.u.) of WT Mtb (filled squares), ΔPE_PGRS47 mutant (open squares) or 
+complemented (open triangles) strains. Values shown are means ± 1 s.d. for five mice per 
+time point. **P < 0.01, ***P < 0.001 for mutant compared to WT Mtb infected (two-way 
+ANOVA with Dunnett’s post-test). The results shown are representative of two experiments. 
+b, Representative H&E-stained lung sections are shown for C57BL/6 mice at 15 weeks post-
+infection with low-dose aerosol (~100 c.f.u.) of WT Mtb or ΔPE_PGRS47 mutant. Scale 
+bars, 200 μm. The graph on the right shows quantification of the estimated percentage of 
+total lung tissue affected by inflammation and cellular infiltrates, based on visual scoring of 
+lung sections from individual mice (N = 5 per group) carried out in blinded fashion. Means 
+are indicated by horizontal lines and error bars show ± 1 s.e. **P < 0.05 compared to Mtb 
+Saini et al.
+Page 22
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+infected (two-way ANOVA with Dunnett’s post-test). This analysis was performed once. c, 
+Survival of SCID mice (n = 7) infected intravenously with 1 × 106 c.f.u. per mouse of WT 
+Mtb (filled square), ΔPE_PGRS47 mutant (open squares) or complemented (open triangles) 
+strains. ****P < 0.0001 (log rank test). This experiment was performed once. d, RAW 264.7 
+cells (black) or BMDCs (grey) were infected with WT Mtb (Mtb WT), ΔPE_PGRS47 or 
+complemented (Comp) strains using an MOI of 10:1 for 3 h followed by gentamicin (100 μg 
+ml−1) treatment for 1 h. Cultures were incubated for an additional 20 h and then collected, 
+lysed and plated to determine c.f.u. of viable bacteria. Where indicated, 3-methyladenine 
+(3MA, 5 mM) was added 1 h before infection. This experiment was performed twice and 
+representative results are shown. *P < 0.05, **P < 0.01 for Mtb WT versus ΔPE_PGRS47 
+(one-way ANOVA with Dunnett’s post-test). NS, not significant.
+Saini et al.
+Page 23
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 5. Autophagy-dependent enhancement of MHC class II antigen presentation during in 
+vitro infection by the Mtb ΔPE_PGRS47 mutant
+a, IL-2 concentrations in supernatants from co-cultures of Mtb antigen-specific T-cell 
+hybridomas and BMDCs infected with wild-type (solid bars), ΔPE_PGRS47 mutant (open 
+bars) or complemented (hatched bars) strains of Mtb. Infection was with an MOI of 10:1 for 
+3 h followed by gentamicin (100 μg ml−1) treatment for 1 h and then incubation with TB9.8-
+specific (left) or Ag85B-specific (right) T-cell hybridomas for an additonal 20 h. Rapamycin 
+(Rapa, 1 mM) or 3-methyladenine (3MA, 5 mM) was added to some cultures as indicated 1 
+h before infection. Concentrations of IL-2 were determined from triplicate wells by ELISA 
+and values are plotted as means ± 1 s.e. Background levels of IL-2 in cultures with no 
+mycobacterial infection were <0.1 ng ml−1 for both T-cell hybridomas. Asterisks indicate 
+significant differences compared to WT Mtb (**P < 0.01 and ***P < 0.001); NS, not 
+significant compared to Mtb WT (two-way ANOVA with Dunnett’s post-test). b, Lack of 
+effect of PE_PGRS47 expression on surface MHC class II levels of infected BMDCs. 
+Cultures of BMDCs were infected with the indicated bacteria at an MOI of 10:1 for 3 h 
+followed by gentamicin (100 μg ml−1) treatment for 1 h and then incubated for an additional 
+20 h. Cells were then surface-stained with anti-CD11c-PE and anti-MHC class II-APC 
+Saini et al.
+Page 24
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+conjugates and analysed by flow cytometry. Representative histograms are shown for MHC 
+class II staining on cells gated for CD11c expression (left) and the bar graph (right) shows 
+the average of mean fluorescence intensity (MFI) ± 1 s.e. for triplicate cultures either 
+uninfected or infected with the indicated Mtb WT, ΔPE_PGRS47 mutant (ΔPE_PGRS47) or 
+complemented (Comp) strains. Results shown in a and b are representative of two 
+independent experiments.
+Saini et al.
+Page 25
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 6. Suppression of CD4+ T-cell responses by PE_PGRS47
+a, C57BL/6 mice (n = 5 per group) were infected with low-dose aerosol (~100 c.f.u.) of 
+wild-type Mtb, ΔPE_PGRS47 mutant or complemented strains. Lungs, mediastinal lymph 
+nodes (MLNs) and spleens were collected on day 24, and cells from each tissue were pooled 
+for each group. Five samples from each pool were then stained with anti-CD4 mAb and 
+MHC class II (I-Ab) tetramers loaded with TB9.8 peptide. Dot plots (top) show 
+representative examples of flow cytometry analysis for TB9.8 tetramer positive cells in the 
+lungs of either uninfected control mice (naive), or mice infected with the indicated Mtb 
+strains. Rectangular regions enclose tetramer-positive cells and frequencies as a percentage 
+of total CD4+ cells are shown. Bar graphs (bottom) show mean values ± 1 s.e. for tetramer 
+positive cells in each tissue for five replicate samples from the pooled cells of each group of 
+Saini et al.
+Page 26
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+five mice. *P < 0.05, **P < 0.01 for mutant (ΔPE_PGRS47) versus Mtb WT infected (one-
+way ANOVA with Dunnett’s post-test). b, C57BL/6 mice (n = 5) were infected as in a with 
+WT Mtb (black bars), ΔPE_PGRS47 (open bars) or complemented (hatched bars) strains. 
+Lungs, MLNs and spleens were collected on day 24 (top) or day 60 (bottom) post-infection. 
+Single-cell suspensions were prepared and cells from each tissue were pooled for each 
+group. CD4+ T cells were purified and ELISPOT was used to detect IFNγ-spot forming 
+cells (SFC) responding to re-stimulation in vitro with Mtb peptides corresponding to I-Ab 
+presented epitopes of Mtb antigens ESAT-6, TB9.8 and Ag85B (P25). Each bar represents 
+means ± 1 s.e. of four replicate ELISPOT wells. *P < 0.05, **P < 0.01 for comparisons of 
+ΔPE_PGRS47 versus WT Mtb (one-way ANOVA with Dunnett’s post-test). Results shown 
+in a and b are representative of two similar experiments.
+Saini et al.
+Page 27
+Nat Microbiol. Author manuscript; available in PMC 2017 October 31.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

@@ -1,0 +1,2414 @@
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+https://doi.org/10.5194/acp-19-5165-2019
+© Author(s) 2019. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Contribution and uncertainty of sectorial and regional emissions to
+regional and global PM2.5 health impacts
+Monica Crippa1, Greet Janssens-Maenhout1, Diego Guizzardi2, Rita Van Dingenen1, and Frank Dentener1
+1European Commission, Joint Research Centre (JRC), Via E. Fermi 2749, 21027 Ispra (VA), Italy
+2Didesk Informatica, Verbania (VB), Italy
+Correspondence: Monica Crippa (monica.crippa@ec.europa.eu)
+Received: 22 August 2017 – Discussion started: 12 September 2017
+Revised: 25 February 2019 – Accepted: 1 April 2019 – Published: 16 April 2019
+Abstract. In this work we couple the HTAP_v2.2 global air
+pollutant emission inventory with the global source recep-
+tor model TM5-FASST to evaluate the relative contributions
+of the major anthropogenic emission sources (power genera-
+tion, industry, ground transport, residential, agriculture and
+international shipping) to air quality and human health in
+2010. We focus on particulate matter (PM) concentrations
+because of the relative importance of PM2.5 emissions in
+populated areas and the well-documented cumulative nega-
+tive effects on human health. We estimate that in 2010, de-
+pending on the region, annual averaged anthropogenic PM2.5
+concentrations varied between ca. 1 and 40 µg m−3, with
+the highest concentrations observed in China and India, and
+lower concentrations in Europe and North America. The rela-
+tive contribution of anthropogenic emission sources to PM2.5
+concentrations varies between the regions. European PM pol-
+lution is mainly inﬂuenced by the agricultural and residential
+sectors, while the major contributing sectors to PM pollu-
+tion in Asia and the emerging economies are the power gen-
+eration, industrial and residential sectors. We also evaluate
+the emission sectors and emission regions in which pollution
+reduction measures would lead to the largest improvement
+on the overall air quality. We show that air quality improve-
+ments would require regional policies, in addition to local-
+and urban-scale measures, due to the transboundary features
+of PM pollution. We investigate emission inventory uncer-
+tainties and their propagation to PM2.5 concentrations, in or-
+der to identify the most effective strategies to be implemented
+at sector and regional level to improve emission inventories,
+knowledge and air quality modelling. We show that the un-
+certainty of PM concentrations depends not only on the un-
+certainty of local emission inventories, but also on that of
+the surrounding regions. Countries with high emission un-
+certainties are often impacted by the uncertainty of pollution
+coming from surrounding regions, highlighting the need for
+effective efforts in improving emissions not only within a re-
+gion but also from extra-regional sources. Finally, we prop-
+agate emission inventory uncertainty to PM concentrations
+and health impacts. We estimate 2.1 million premature deaths
+per year with an uncertainty of more than 1 million prema-
+ture deaths per year due to the uncertainty associated only
+with the emissions.
+1
+Introduction
+Ambient particulate matter pollution ranks among the top
+ﬁve risk factors globally for loss of healthy life years and is
+the largest environmental risk factor (Lim et al., 2013; Ander-
+son et al., 2012; Anenberg et al., 2009; Cohen et al., 2017).
+The World Health Organization (WHO, 2016) reported about
+3 million premature deaths worldwide attributable to am-
+bient air pollution in 2012. Health impacts of air pollution
+can be attributed to different anthropogenic emission sec-
+tors (power generation, industry, residential, transport, agri-
+culture, etc.) and sector-speciﬁc policies could effectively
+reduce health impacts of air pollution. These policies are
+usually implemented under national legislation (Henneman
+et al., 2017; Morgan, 2012), while in Europe transbound-
+ary air pollution is also addressed by the regional proto-
+col under the UNECE Convention on Long-Range Trans-
+boundary of Air Pollution (CLRTAP). At city and local level,
+several studies have been developed to assess the contribu-
+tion of sector-speciﬁc emissions to PM2.5 (particulate mat-
+Published by Copernicus Publications on behalf of the European Geosciences Union.
+
+5166
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+ter with a diameter less than 2.5 µm) concentrations with
+the aim of designing air quality plans at local and regional
+level (Karagulian et al., 2015; Thunis et al., 2016). Indeed,
+particulate matter can travel thousands of kilometres, cross-
+ing national borders, oceans and even continents (HTAP,
+part A, Dentener et al., 2010). Local, regional and interna-
+tional coordination is therefore needed to deﬁne air pollution
+policies to improve global air quality and possibly human
+health. The CLRTAP’s Task Force on Hemispheric Trans-
+port of Air Pollution looks at the long-range transport of air
+pollutants in the Northern Hemisphere, to identify promis-
+ing mitigation measures to reduce background pollution lev-
+els and their contribution to pollution in rural as well as
+urban regions. Although primary PM2.5 and intermediately
+lived (days-to-weeks) precursor gases can travel over long
+distances, the transboundary components of anthropogenic
+PM are mainly associated with secondary aerosols which
+are formed in the atmosphere through complex chemical re-
+actions and gas-to-aerosol transformation, transport and re-
+moval processes of gaseous precursors transported out of
+source regions (Maas and Grennfelt, 2016). However, the
+most extreme episodes of exposure often occur under ex-
+tended periods of low wind speeds and atmospheric stabil-
+ity, favouring the formation of secondary aerosols close to
+the source regions. Secondary aerosol from anthropogenic
+sources consists of both inorganic – mainly ammonium ni-
+trate and ammonium sulfate and ammonium bisulfate and
+associated water, formed from emissions of sulfur dioxide
+(SO2), nitrogen oxides (NOx) and ammonia (NH3) – and or-
+ganic compounds involving thousands of compounds and of-
+ten poorly known reactions (Hallquist et al., 2009). Exposure
+to and impact from aerosols on humans can be estimated by
+a variety of approaches, ranging from epidemiological stud-
+ies to pure modelling approaches. The Burnett et al. (2014)
+risk–response methodology is often used in models to esti-
+mate premature deaths (PDs) due to air pollution exposure,
+e.g. in Lelieveld et al. (2015) and Silva et al. (2016), who
+report a global mortality in 2010 due to air quality issues
+induced by anthropogenic emissions of 2.5 and 2.2 million
+people, respectively. A higher global mortality is found in a
+more recent work by Cohen et al. (2017), who account for
+3.9 million premature deaths per year due to different model
+assumptions. In Europe, Brant et al. (2013) estimate 680 000
+premature deaths, which is twice as high as the numbers re-
+ported for the CAFE (Clean Air for Europe) study (Watkiss
+et al., 2005). Recently, using the same emission database as
+in this study, Im et al. (2018) report a multi-model mean es-
+timate of PD of 414 000 (range 230–570 000) for Europe and
+160 000 PDs for the USA. At the global scale, models, in
+some cases using satellite information (Brauer et al., 2015;
+Van Donkelaar et al., 2016), are the most practical source
+of information of exposure to air pollution. However, model
+calculations are subject to a range of uncertainties related to
+incomplete understanding of transport, chemical transforma-
+tion, removal processes and, not least, emission information.
+This work is developed in the context of the TF HTAP
+Phase 2 (Galmarini et al., 2017), where a number of
+models are deployed to assess long-range sensitivities to
+extra-regional emissions, using the same HTAP_v2.2 an-
+thropogenic emission inventory (Janssens-Maenhout et al.,
+2015). Differences in model results illustrate uncertainties
+in model formulations of transport, chemistry and removal
+processes and are addressed in separate studies (Liang et
+al., 2018), but not of uncertainties in emission inventories.
+The objectives and novelties of this study are the evalua-
+tion of (i) the relative contribution of anthropogenic emis-
+sion sources to PM2.5 concentrations at global scale, (ii) the
+emission sectors and emission regions in which pollution re-
+duction measures would lead to the largest improvement on
+the overall air quality, and (iii) the relevance of uncertain-
+ties in regional sectorial emission inventories (power genera-
+tion, industry, ground transport, residential, agriculture and
+international shipping), and their propagation in modelled
+PM2.5 concentrations and associated impacts on health. This
+work applies the global source–receptor model TM5-FASST
+(TM5-FAst Scenario Screening Tool), which is extensively
+described and evaluated in this special issue (Van Dingenen
+et al., 2018), and couples it to the HTAP_v2.2 global emis-
+sion inventory for the year 2010 to estimate global air quality
+and associated health impacts in terms of PM2.5 concentra-
+tions. The regional and global scale and the focus on annual
+PM2.5 and associated health metrics warrant the use of the
+TM5-FASST model. However, the most extreme episodes of
+pollution may occur at more local-to-regional scales, justify-
+ing the need for local measures. For instance, a recent study
+performed over hundreds of cities in Europe (Thunis et al.,
+2017) shows that in order to comply with the standards pre-
+scribed by the Air Quality Directives and the health guide-
+lines by WHO, local actions at the city scale are needed.
+Speciﬁcally, we show that the impact of emission inven-
+tory uncertainty on mortality estimates is comparable with
+the range of uncertainty induced by air quality models and
+population exposure functions. We also investigate the un-
+certainties in PM2.5 from within the region to extra-regional
+contributions. Based on our analysis of the importance of
+emission uncertainties at sector and regional level on PM2.5,
+we aim at informing local, regional and hemispheric air qual-
+ity policy makers on the potential impacts of sectors with
+larger uncertainties (e.g. residential and agriculture) or re-
+gions (e.g. developing and emerging countries).
+2
+Methodology
+2.1
+TM5-FASST model and emission perturbations
+This work is an application of the TM5-FASST model, which
+is extensively documented in a companion publication in this
+special issue. Van Dingenen et al. (2018) provide an exten-
+sive evaluation of the model, model assumptions and perfor-
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5167
+mance with regard to the linearity and additivity of concen-
+tration response to different size of emission perturbations
+and future emission scenarios. Below we summarise the most
+important features of relevance for this work and refer for
+more detail to Van Dingenen et al. (2018).
+In order to calculate PM2.5 concentrations correspond-
+ing to the HTAP_v2.2 emissions, we use the native 1◦× 1◦
+resolution source–receptor grid maps obtained for TM5-
+FASST_v0 (Van Dingenen et al., 2018). The TM5-FASST
+source–receptor model is based on a set of emission per-
+turbation experiments (−20 %) of SO2, NOx, CO, NH3,
+and volatile organic compounds (VOCs) and CH4 using the
+global 1◦× 1◦resolution TM5 model, the meteorological
+year 2001 (which was also used for the HTAP Phase 1 ex-
+periments) and the community emission dataset prepared
+for the IPCC AR5 report (RCP, Representative Concentra-
+tion Pathway) for the year 2000 (Lamarque et al., 2010).
+TM5-FASST uses aggregated regional emissions (i.e. one
+annual emission value per pollutant or precursor for each
+of the 56 regions + shipping), with an implicit underlying
+1◦× 1◦resolution emission spatial distribution from RCP
+year 2000 which was partly based EDGAR methodology and
+grid maps. The concentration of PM2.5 contributing from and
+to each of 56 receptor regions is estimated as a linear function
+of the emissions of the source regions, including the aerosol
+components BC, primary organic matter (POM), SO4, NO3,
+and NH4. While secondary organic aerosol (SOA) from nat-
+ural sources is included in the model calculations using the
+parameterisation described in Dentener et al. (2006), no ex-
+plicit treatment of anthropogenic SOA is considered, since
+no reliable emission inventories of SOA precursor gases was
+available, and formation processes were not included in the
+parent TM5 model. A recent study by Farina et al. (2010) in-
+dicates a global source of 1.6 Tg, or ca. 5.5 % of the overall
+SOA formation due to anthropogenic SOA. The relative im-
+portance of anthropogenic SOA varies widely by region, and
+is deemed higher in regions with fewer VOC emission con-
+trols. Inclusion of SOA would possibly lead to a somewhat
+larger role of the transboundary pollution transport (Farina et
+al., 2010; Peng et al., 2016; Shiraiwa et al., 2017), mainly for
+regions and sectors with large PM and VOC emissions (e.g.
+residential, and to some extent transport and industry).
+Under the assumption that the individual sector contribu-
+tions add up linearly to total PM2.5 – this assumption is eval-
+uated in Van Dingenen et al. (2018) and holds in most regions
+within 15 % error – the comparison of PM2.5 concentrations
+calculated for the reference and scenario case yields an esti-
+mation of the contribution of each sector to total PM2.5 con-
+centrations.
+Speciﬁcally, the reduced-form model TM5-FASST is
+computing the concentration resulting from an arbitrary pre-
+cursor emission strength Ei using a ﬁrst-order perturba-
+tion approach, i.e. for each PM component j, the change
+in concentration dPMj resulting from a change in emission
+strength Ei (x) of precursor i in source region x, relative to a
+reference emission Ei,ref (x), is approximated by the ﬁrst lin-
+ear term of a Taylor expansion of PM as a function of emis-
+sions:
+dPMj (y) ∼= Aij
+
+x,y
+
+Ei (x) −Ei,ref (x)
+
+,
+(1)
+where
+Aij
+
+x,y
+
+= 1Cj (y)
+1Ei (x) with 1Ei (x) = 0.2Ei,ref (x).
+(2)
+Aij
+
+x,y
+
+is a set of independently computed source–
+receptor matrices, expressing the linearised emission–
+concentration response between each relevant precursor (i)
+emission and PM component j concentration, for each pair
+of source (x) and receptor (y) regions (Van Dingenen et al.,
+2018).
+In Sect. S1.2 we explain in detail how Eq. (1) can also
+be applied for evaluating the attribution by sector as well
+as by source region, based on the work by Van Dingenen
+et al. (2018). Thus to calculate total PM2.5 concentration
+in each receptor region, the 56 source regions’ individual
+contributions must be summed. Using this approach, it is
+possible to evaluate the PM2.5 concentrations from “within-
+region” and “extra-regional” PM2.5 emissions. The extra-
+regional contribution represents the RERER metric (Re-
+sponse to Extra-Regional Emission Reduction) for a speciﬁc
+region used across the whole HTAP experiment (Galmarini et
+al., 2017), in particular focusing on the PM2.5 concentration
+reduction due to the contribution of the emissions of each
+anthropogenic sector (Eq. 3):
+RERER =
+PR(foreign regions)
+PR(all regions)
+,
+(3)
+where R represents the concentration response to each sector
+emission decrease.
+As depicted in Fig. S1 in the Supplement, the 56 TM5-
+FASST regions cover the entire globe, but their areal extent
+differs in terms of size, population, emission magnitude and
+presence of neighbouring countries (e.g. Europe comprises
+18 TM5-FASST regions). In order to make the evaluation
+of external impacts on smaller regions (e.g. European coun-
+tries) comparable to those of larger regions (like the USA,
+China and India), in this work an aggregation procedure to
+10 world regions (refer to Table S2 in the Supplement) has
+been applied (China+, India+, SE Asia, North America, Eu-
+rope, Oceania, Latin America, Africa, Russia and the Mid-
+dle East). In this work we focus on particulate matter due to
+its negative effects on human health (WHO, 2013; Pope and
+Dockery, 2006; Worldbank, 2016). The TM5-FASST model
+includes an assessment of the premature mortality due to am-
+bient PM2.5 concentrations on an exposed population follow-
+ing the methodology developed by Burnett et al. (2014), as
+discussed in Sect. 4. Health impacts due to indoor air pollu-
+tion or ozone are not evaluated in this work.
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5168
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+In the following, we will address the uncertainty of sector-
+speciﬁc emissions from this inventory in a quantitative way
+as well as the differences we observe from one region to the
+other, based on the uncertainty of activity data and emission
+factors. As discussed in the next section, the reason to use
+HTAP_v2.2, and not for example the RCP2000 as the basis
+for our assessment of emission propagation is that the TF
+HTAP aims at bringing policy-relevant information, and to
+this end, it has compiled a policy-relevant emission inventory
+(HTAP_v2.2) for the most recently available year. While the
+RCP2000 was at the basis of the FASST calculations, and
+presented the best community emissions effort at the time,
+the HTAP_v2.2 inventory is now much more accurate, in par-
+ticular given the focus on regional emission analysis of our
+work.
+2.2
+HTAP_v2.2 emissions
+The global anthropogenic emission inventory HTAP_v2.2 for
+the year 2010 (Janssens-Maenhout et al., 2015) is input to
+the global source–receptor model TM5-FASST to evaluate
+PM2.5 concentrations for each world region/country with the
+corresponding health effects. The HTAP_v2.2 inventory in-
+cludes for most countries ofﬁcial and semi-ofﬁcial annual an-
+thropogenic emissions of SO2, NOx, CO (carbon monoxide),
+NMVOC (non-methane volatile organic compounds), PM10
+(particulate matter with a diameter less than 10 µm) PM2.5,
+BC (black carbon) and OC (organic carbon) by country
+and sector (Janssens-Maenhout et al., 2015). Here we focus
+on the six major anthropogenic emission sectors contribut-
+ing to global PM2.5 concentrations, namely the power gen-
+eration (“power”), non-power industry, industrial processes
+and product use (“industry”), ground transportation (“trans-
+port”), residential combustion and waste disposal (“residen-
+tial”), agriculture (“agriculture”), and international shipping
+(“ship”). International and domestic aviation emissions are
+not considered in this study due to the lower contribution
+to air pollution compared to other anthropogenic sectors. It
+should be noted that agricultural emissions do not include
+agricultural waste burning and forest and savannah ﬁres. De-
+tails on the emissions included in each aggregated sector can
+be found in Janssens-Maenhout et al. (2015). In addition to
+the reference HTAP_v2.2 emissions for the year 2010, a set
+of emission perturbation scenarios has been created by sub-
+tracting from the reference dataset the emissions of each sec-
+tor.
+2.3
+Emission inventory uncertainties
+In order to investigate how computed PM2.5 concentrations
+are affected by the uncertainty of emission inventories, we
+perform a sensitivity analysis testing the upper and lower
+range of HTAP_v2.2 emissions including their uncertainties.
+Aggregated emissions of a certain pollutant p, from a sector
+i and country c, are calculated as the product of activity data
+(AD) and emission factors (EFs); therefore the correspond-
+ing uncertainty (σi,c,p) is calculated as following:
+σEMIi,c,p =
+q
+σ 2
+ADi,c + σ 2
+EFi,p,c,
+(4)
+where σAD and σEF are the uncertainties (%) of the activ-
+ity data and emission factors for a certain sector (i), coun-
+try (c) and pollutant (p). Uncertainty values of the activity
+data by sector and country are obtained from Table 2 of
+Janssens-Maenhout et al. (2017) and Olivier et al. (2016).
+Using this approach, the uncertainty in the global total an-
+thropogenic CO2 emissions is estimated to range from −9 %
+to +9 % (95 % conﬁdence interval), with larger uncertainties
+of about ±15 % for non-Annex I countries, and uncertainties
+of less than ±5 % are obtained for the 1990 OECD countries1
+for the time series from 1990 (Olivier et al., 2016) reported
+to UNFCCC. Uncertainty values for the emission factors of
+gaseous pollutants are retrieved from the EMEP/EEA Guide-
+book (2013) and Bond et al. (2004) for particulate matter. In
+this work we assume that reported countries’ emissions are
+based on independent estimations of activity data and EFs,
+and hence no cross-country correlation structure is assumed.
+This is in contrast to bottom-up gridded emission inventories
+like EDGAR, where the use of global activity datasets may
+lead to correlated errors between countries.
+Therefore, we can calculate the overall uncertainty σEMIp,c
+with the following equation (EMEP/EEA, 2013).
+σEMIp,c =
+v
+u
+u
+tX
+i
+
+σEMIi,c,p · EMIi,c,p
+EMItot,c,p
+2
+,
+(5)
+where EMIi,c,p (in kt) represents the emission of a certain
+pollutant (p) in a certain country (c) from a speciﬁc sector (i)
+and EMItot,c,p (in kt) the corresponding emissions from all
+sectors for that country and pollutant.
+Table S3 reports the overall uncertainty calculated for each
+pollutant and for each TM5-FASST region. Using an addi-
+tional constraint that EFs and activities cannot be negative,
+a lognormal distribution of the calculated uncertainties is as-
+sumed (Bond et al., 2004). Therefore we can calculate the
+upper and lower range of emission estimates, multiplying
+and dividing the reference emissions by (1 + σp,c), respec-
+tively. We do not account for the uncertainties of the atmo-
+spheric transport model and the uncertainties due to aggre-
+gation, which are larger over smaller TM5-FASST regions.
+Based on the upper and lower emission range per region, new
+TM5-FASST model runs have been performed per source re-
+gion to retrieve the corresponding range of concentrations in
+receptor regions (therefore the total number of computations
+is 56 · 2 for the uncertainty analysis).
+1OECD countries in 1990: Australia, Austria, Belgium, Canada,
+Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Italy,
+Japan, Luxembourg, Netherlands, New Zealand, Norway, Portu-
+gal, Spain, Sweden, Switzerland, Turkey, United Kingdom, United
+States.
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5169
+3
+TM5-FASST modelling results
+In this section, we ﬁrst provide “central” estimates of re-
+gional (Sect. 3.1), sectorial (Sect. 3.2) and gridded (Sect. 3.3)
+contributions, whereas the corresponding uncertainty esti-
+mates are discussed from Sect. 3.4 onward.
+3.1
+Regional contributions to PM2.5 concentrations
+Figure 1 provides a global perspective on the fraction of
+within-region and extra-regional PM2.5 concentrations for
+10 aggregated world receptor regions using emissions of the
+year 2010, with the extra-regional fraction (using the RERER
+metric) broken down into source region contributions. An-
+nual average population-weighted anthropogenic PM2.5 con-
+centrations (refer to Van Dingenen et al., 2018, for the calcu-
+lation of this metric) range from a few µg m−3 (e.g. in Ocea-
+nia or Latin America), around 7–8 µg m−3 for North America
+and Europe, up to 33–39 µg m−3 in China+ (including also
+Mongolia) and India+ (including also the rest of south Asia).
+Anthropogenic PM2.5 pollution in China+ and India+ is
+mainly affected by large emission sources within the country
+(98 % and 96 %, respectively; RERER 2 %–4 %), although
+4 % of the Indian anthropogenic PM2.5 pollution is mainly
+transported from the Gulf region and the Middle East, as was
+also observed by Venkataraman et al. (2018). North America
+(98 %) and Oceania (98 %) are mainly inﬂuenced by within-
+regional pollution due to their geographical isolation from
+other regions. TM5-FASST computations attribute 11 % of
+the PM2.5 in Europe to extra-regional sources; for the Mid-
+dle East and Gulf region extra-regional contributions amount
+to 18 % (mainly from Europe and Russia), for Africa 25 %
+(mainly from Europe and the Middle East), and Russia 28 %
+(mainly from Europe, the Middle East and the Gulf region,
+and China). Shipping emissions are not considered in this ﬁg-
+ure due to their international origin, while inland waterway
+emissions are still included in the ground transport sector.
+Transboundary air pollution is known to be an important is-
+sue in the rest of Asia, in particular for pollution transported
+from China to North and South Korea and Japan (Park et al.,
+2014) and we estimate that the contribution of transported
+PM is up to 40 % in south-eastern Asia (mainly from China
+and India). Within-region and extra-regional PM2.5 concen-
+trations for all the TM5-FASST regions are reported in Ta-
+ble S2.
+Focusing on Europe, Fig. 2 shows within-region (in black)
+vs. extra-regional absolute population-weighted PM2.5 con-
+centrations (in µg m−3) for 16 EU countries plus Norway
+and Switzerland, deﬁned in TM5-FASST, as well as the
+source regions contributing to this pollution. Regional an-
+nual averages of population-weighted PM2.5 concentrations
+in Europe vary between 2 and 4 µg m−3 in northern Euro-
+pean countries (like Finland, Norway and Sweden) up to
+10–12 µg m−3 for continental Europe. Although most of the
+computed annual average PM2.5 concentrations for Europe
+are below the World Health Organization Air Quality Guide-
+line of 10 µg m−3 PM2.5 (as annual average), these values
+represent only regional averages while several exceedances
+in urban areas are often observed in Europe. As further dis-
+cussed in Sect. 3.2, an additional contribution to PM2.5 con-
+centrations comes from the shipping sector, mainly inﬂuenc-
+ing Mediterranean countries (like Italy, Spain and France)
+and countries facing the North Sea, Baltic Sea and At-
+lantic Ocean (e.g. Benelux, Sweden, Great Britain). Trans-
+boundary air pollution from external regions contributes by
+27 % to 75 % and on average by 51 % to PM2.5 pollution
+in European countries. Countries surrounded by oceans are
+mainly inﬂuenced by within-region pollution due to their
+geographical isolation from other source regions (e.g. Italy,
+Spain, Great Britain and Norway); therefore, the fraction
+of extra-regional pollution ranges from 27 % to 35 %. The
+largest extra-regional contributions are calculated for Hun-
+gary (75 %, mainly from Austria, the Czech Republic, the
+rest of central EU, Poland and Germany), the Czech Repub-
+lic (67 %, mainly from Poland, Germany and Austria), Aus-
+tria and Slovenia (66 %, mainly from the Czech Republic,
+Germany and Italy), Sweden + Denmark (65 %, mainly from
+Germany, Norway and Poland), Bulgaria (63 %, mainly from
+Romania), and Greece (61 %).
+The remaining EU countries are affected by both within-
+region and extra-regional pollution (the latter ranging from
+40 % to 59 %), highlighting the importance of transbound-
+ary transport of PM2.5 concentrations. For example Switzer-
+land is inﬂuenced by the pollution coming from France,
+Italy and Germany; the rest of the central EU by Poland
+and Germany; Germany by France and Benelux; and Poland
+by the Czech Republic and Germany. Interestingly, Roma-
+nia, Bulgaria, Greece and Hungary are also signiﬁcantly af-
+fected by the pollution transported from Ukraine and Turkey,
+which is included in the “rest of the world” contribution of
+Fig. 2. Our results are consistent with the ﬁndings of the lat-
+est UNECE Scientiﬁc Assessment Report (Maas and Grenn-
+felt, 2016), which highlights the importance of transbound-
+ary transport of organic and inorganic PM. As discussed in
+Sect. 3.4, insights into the uncertainty of within-region and
+extra-regional contributions to PM2.5 concentrations are pro-
+vided in Fig. 5 for each TM5-FASST region.
+3.2
+Sectorial contributions to PM2.5 concentrations
+Figure 3 shows the relative sectorial contributions to an-
+thropogenic PM2.5 concentrations for the 56 TM5-FASST
+receptor regions, separating the fraction of extra-regional
+(RERER) (shaded colours) and within-region pollution,
+while Table 1 shows regional average values of sector-
+speciﬁc relative contributions. In most African regions (ex-
+cept Egypt) anthropogenic PM2.5 concentrations are mainly
+produced by emissions in the residential sector. Agriculture
+is an important sector for Egypt, while northern Africa is
+strongly inﬂuenced by shipping emissions in the Mediter-
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5170
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+Figure 1. Within-region vs. imported extra-regional anthropogenic population-weighted PM2.5 concentrations (%) for aggregated world
+regions based on “central” estimates. Annual average population-weighted anthropogenic concentrations (in µg m−3) are reported on top of
+each bar together with the RERER metric (%). Shipping emissions are not included.
+Figure 2. Anthropogenic PM2.5 concentrations in 18 countries and sub-regions in Europe separated in within-region and extra-regional
+contributions. The RERER metric (%) is reported on top of each bar.
+ranean (30 %). PM2.5 concentrations in emerging economies
+in Asia, Latin America and the Middle East are dominated by
+the residential sector, power generation and industry. Asian
+countries such as China, India, Indonesia and the Philippines
+are mainly inﬂuenced by within-region pollution, with the
+largest contributions coming from power, industry and res-
+idential sectors. PM2.5 pollution in Japan is characterised
+by the contribution of local sources like transport and agri-
+culture, but it is also affected by transported pollution from
+China, especially from the industrial sector. Anthropogenic
+PM2.5 in the remaining Asian countries is inﬂuenced by more
+than 50 % by the pollution coming from China (e.g. Viet-
+nam, Malaysia, Thailand, Mongolia, South Korea, Taiwan)
+or India (e.g. the rest of south Asia and south-eastern Asia)
+from the power, industry and residential activities. A differ-
+ent picture is seen for Europe where, according to our cal-
+culations, annual PM concentrations stem mainly from the
+agricultural and residential sectors, with a somewhat lower
+contribution from the transport sector. In eastern European
+countries noticeable contributions are also found from the
+power and industrial sectors due to the relatively extensive
+use of polluting fuels like coal. PM2.5 concentrations in USA
+and Canada are mostly from the power, industry and agricul-
+tural sectors. In Oceania industry and agriculture are the most
+important sectors. PM2.5 from ship emissions mainly affects
+coastal areas of northern Africa, SE Asia (e.g. in Japan,
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5171
+Figure 3. Fraction of within-region and extra-regional (shaded areas) anthropogenic PM2.5 concentrations separated by sector for receptor
+region within the macro-regions: Asia and Africa (a), Europe (b), North America, Latin America, the Middle East, Russia, and Oceania (c).
+Annual averaged PM2.5 anthropogenic concentrations (in µg m−3) are reported on top of each bar. The RERER metric (%) for the 56
+TM5-FASST regions is also reported in Table S2.
+Taiwan, Malaysia, Indonesia and the Philippines), Mediter-
+ranean countries (Spain 11 %, Italy 5 %, France 7 % of their
+corresponding country totals), northern EU regions (Great
+Britain 10 %, Norway 6 %, Sweden and Denmark 10 % of
+their corresponding country totals) and Oceania (22 % of the
+regional total). Over the international areas of sea and air
+no distinction between within-region and extra-regional con-
+centrations is reported. Further details on within-region and
+extra-regional concentrations can be found in Sect. S2 of the
+Supplement.
+3.3
+Gridded PM2.5 concentrations
+Figure 4 shows the global 1◦× 1◦grid maps of anthro-
+pogenic PM2.5 concentrations in 2010 for the reference case
+as well as the computed contributions from each of the ma-
+jor anthropogenic emission sectors. Anthropogenic PM2.5 is
+ubiquitous globally and covers a range from a few µg m−3 or
+less over the oceans and seas to more than 50 µg m−3 over
+Asia. As shown in Fig. 3, the most polluted countries in Asia
+are China, India and the rest of south Asia (which includes
+Afghanistan, Bangladesh, Bhutan, Nepal and Pakistan), with
+annual average anthropogenic PM2.5 concentrations ranging
+from 29 to 40 µg m−3; Mongolia and North Korea, Viet-
+nam, South Korea, the rest of south-eastern Asia (including
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5172
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+Table 1. Sector-speciﬁc contribution (%) to annual anthropogenic PM2.5 concentrations for aggregated world regions based on the “central”
+estimates which do not consider uncertainty. The largest contributing sectors (above a threshold of 15 %) are shaded in bold font.
+Power
+Industry
+Transport
+Residential
+Agriculture
+Shipping
+Africa
+26.7
+16.1
+3.6
+37.9
+8.2
+7.4
+China+
+18.3
+42
+7.5
+23.1
+8.8
+0.3
+India+
+20.8
+19.4
+11.4
+45.2
+3
+0.2
+SE Asia
+17.1
+35.9
+9
+27.2
+7.4
+3.4
+Europe
+15.1
+14.3
+18.7
+19.7
+27.7
+4.4
+Latin America
+25.6
+33.7
+6.6
+18.9
+12.6
+2.6
+Middle East
+37.9
+25.2
+9.7
+11.7
+13.7
+1.8
+Russia
+23.5
+30.9
+8.6
+13
+23.1
+0.8
+North America
+20.4
+23.5
+10.8
+15.5
+25.6
+4.2
+Oceania
+13.9
+30.7
+5.1
+9.8
+18.6
+21.8
+Figure 4. Total anthropogenic PM2.5 concentrations (µg m−3) and sectorial contributions using 2010 emissions.
+Cambodia, Lao People’s Democratic Republic and Myan-
+mar), Thailand, Japan, and Taiwan are rather polluted areas,
+with PM2.5 concentration in the range of 6 to 14 µg m−3.
+The highest annual PM2.5 concentrations in Africa are com-
+puted in Egypt (11 µg m−3 as annual average), the Republic
+of South Africa (6.1 µg m−3 as annual average) and western
+Africa (4.0 µg m−3 as annual average). The highest pollution
+in Europe is observed in the Benelux region, Italy and in
+some of the eastern countries (e.g. Romania, Bulgaria and the
+Czech Republic), while in Latin America the most polluted
+areas are Chile (13.7 µg m−3 as annual average) and Mexico
+(4.2 µg m−3 as annual average). The Middle East, the Gulf re-
+gion, Turkey, Ukraine and the former USSR are also charac-
+terised by PM2.5 concentrations ranging between 7.5 µg m−3
+and 9.2 µg m−3 as annual averages. Table 2 reports annual
+average PM2.5 concentrations and the corresponding uncer-
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5173
+tainty range for each TM5-FASST region as discussed in
+Sect. 3.4.
+The TM5-FASST model (Van Dingenen et al., 2018) is
+also validated against concentration estimates derived from
+the WHO database and satellite-based measurements (van
+Donkelaar et al., 2010, 2014). The TM5-FASST modelled
+PM2.5 concentrations are compared to satellite products
+which are based on aerosol optical depth measurements to-
+gether with chemical transport model information to retrieve
+from the total column the information of PM concentrations
+in the lowest layer of the atmosphere (Boys et al., 2014; van
+Donkelaar et al., 2010, 2014). The regional comparison of
+annul mean population-weighted concentrations shows con-
+sistent results with the satellite-based retrievals (e.g. rather
+good agreement for the globe as a whole, EU and USA within
+less than 15 % deviation, with lower agreement for develop-
+ing and emerging countries). Section S4 in the Supplement
+of the paper by van Dingenen et al. (2018) also reports the
+comparison between the PM2.5 concentrations modelled by
+TM5-FASST and the measured ones reported in the WHO
+database, showing rather good agreement for Europe, North
+America and partly for China due to the higher accuracy of
+the measurements. The comparison for Latin America and
+Africa is much less robust and the scatter possibly highlights
+non-optimal modelling of speciﬁc sources relevant for these
+regions by the TM5-FASST model (e.g. large-scale biomass
+burning).
+In our work, modelled PM2.5 concentrations are in the
+range of the measurements and satellite-based estimates pro-
+vided in several literature studies (Brauer et al., 2012, 2015;
+Boys et al., 2014; Evans et al., 2013; Van Donkelaar et al.,
+2016), reporting annual averaged PM2.5 concentrations for
+all of Europe in the range between 11 and 17 µg m−3, for
+Asia from 16 to 58 µg m−3, Latin America 7–12 µg m−3,
+Africa and the Middle East 8–26 µg m−3, Oceania 6 µg m−3,
+and North America 13 µg m−3 (note that measurements and
+satellite estimates would not separate anthropogenic and nat-
+ural sources of PM, e.g. dust, large-scale biomass burning,
+while the concentrations in this study consider anthropogenic
+emissions alone).
+In order to understand the origin of global PM2.5 concen-
+trations, we look at sector-speciﬁc maps (Fig. 4). The power
+and industrial sectors are mainly contributing to PM concen-
+trations in countries with emerging economies and fast de-
+velopment (e.g. the Middle East, China and India), while the
+ground transport sector is a more important source of PM
+concentrations in industrialised countries (e.g. North Amer-
+ica and Europe) and in developing Asian countries. The resi-
+dential sector is an important source of PM all over the world,
+also affecting indoor air quality (Ezzati, 2008; Lim et al.,
+2013; Chafe et al., 2014). PM concentrations in Africa and
+Asia are strongly inﬂuenced by this sector due to the incom-
+plete combustion of rather dirty fuels and solid biomass de-
+ployed for domestic heating and cooking purposes. Interest-
+ingly, the agricultural sector is strongly affecting pollution in
+Asia as well as in Europe (Backes et al., 2016; Erisman et
+al., 2004) and North America, conﬁrming the ﬁndings of the
+UNECE Scientiﬁc Assessment Report and several other sci-
+entiﬁc publications (Maas and Grennfelt, 2016; Pozzer et al.,
+2017; Tsimpidi et al., 2007; Zhang et al., 2008). The residen-
+tial and agriculture sectors are less spatially conﬁned, and it
+is more difﬁcult to regulate emissions effectively than point
+source emissions of the industrial and power sectors (e.g. in
+Europe the Large Combustion Plant Directive, the National
+Emission Ceilings Directive, the Industrial Emissions Direc-
+tive, the European emission standards for road transport).
+Finally, shipping is mainly contributing to the pollution in
+countries and regions with substantial coastal areas, and with
+ship tracks on the Mediterranean Sea and the Atlantic, Paciﬁc
+and Indian Oceans, as depicted in Fig. 4.
+3.4
+Uncertainty from emissions
+3.4.1
+Propagation of emission uncertainties to
+anthropogenic PM2.5 concentrations
+Table 2, as well as Fig. 5, report the annual average anthro-
+pogenic PM2.5 concentrations (µg m−3) estimated by TM5-
+FASST with the uncertainty bars representing the upper and
+lower range of concentrations due to emission inventory un-
+certainty. The extra-regional contribution to uncertainty is
+also addressed as well as the contribution of the uncertainty
+of primary particulate matter emissions to the upper range
+of PM2.5 concentrations (Table 2). Primary PM emissions
+represent the dominant source of uncertainties, contributing
+from 45 % to 97 % to the total uncertainty in anthropogenic
+PM2.5 concentrations for each country/region.
+Figure 5 depicts the results of the propagation of the low-
+est and highest range of emissions including their uncertainty
+to PM2.5 concentrations in Asia (Fig. 5a) and – in more detail
+– Europe (Fig. 5b), highlighting the contribution of within-
+region and extra-regional PM2.5 concentrations and the cor-
+responding uncertainties (error bars). Due to their large sizes,
+Indian and Chinese PM2.5 concentrations and uncertainties
+are mainly affected by uncertainties from the residential,
+transport and agricultural sectors within these countries. In-
+terestingly, in south-eastern and eastern Asia uncertainties in
+PM2.5 are strongly inﬂuenced by the Indian residential emis-
+sions. On the other hand, PM2.5 in Thailand, Japan, Taiwan,
+South Korea, Mongolia and Vietnam are strongly affected by
+the uncertainty in the Chinese residential and industrial emis-
+sions. Consequently reducing the uncertainties in the Chi-
+nese and Indian emission inventories will help in improving
+the understanding of the long-range contribution of PM2.5
+pollution in most Asian countries.
+In Europe, the highest uncertainties in PM2.5 concentra-
+tions are associated with the emissions from the residential,
+agriculture and transport sectors. In most of the central and
+eastern European countries modelled PM2.5 is strongly af-
+fected by the uncertainty of transported extra-regional pollu-
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5174
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+Table 2. Annual average PM2.5 concentrations (µg m−3) with upper and lower ranges in brackets due to emission inventory uncertainty
+(1 standard deviation, σ). The upper and lower range of PM2.5 concentrations are calculated as the reference concentrations multiplied and
+divided by (1 + σ) respectively. The third column reﬂects the fractional uncertainty due to the contribution of primary PM2.5 emissions.
+World region
+TM5-FASST region
+PM2.5 concentration
+Fraction of uncertainty due to
+(µg m−3)
+primary PM emissions
+Asia
+South Korea
+13.8 (8.3–24.9)
+71 %
+Japan
+6.9 (3.8–13.3)
+84 %
+Mongolia + North Korea
+14.6 (9.0–25.9)
+75 %
+China
+39.9 (22.4–76.6)
+78 %
+Taiwan
+6.4 (3.7–10.9)
+77 %
+Rest of south Asia
+29.3 (13.9–64.9)
+87 %
+India
+34.7 (16.6–73.4)
+86 %
+Indonesia
+2.4 (1.3–4.6)
+86 %
+Thailand
+8.0 (5.1–12.6)
+88 %
+Malaysia
+3.1 (1.8–5.2)
+85 %
+Philippines
+2.0 (1.1–3.8)
+80 %
+Vietnam
+14.2 (7.0–30.4)
+92 %
+Rest of South-eastern Asia
+8.6 (4.6–17.6)
+89 %
+Europe
+Austria + Slovenia
+8.4 (4.0–19.6)
+59 %
+Switzerland
+10.1 (4.9–23.3)
+52 %
+Benelux
+10.1 (5.2–22.7)
+59 %
+Spain + Portugal
+5.4 (3.4–9.4)
+77 %
+Finland
+2.6 (1.3–5.8)
+66 %
+France
+9.3 (5.0–19.0)
+69 %
+Great Britain + Ireland
+6.1 (3.2–13.0)
+66 %
+Greece + Cyprus
+7.6 (4.8–12.7)
+74 %
+Italy + Malta
+11.8 (6.2–25.2)
+64 %
+Germany
+9.3 (5.0–20.0)
+54 %
+Sweden + Denmark
+4.1 (2.2–8.4)
+65 %
+Norway
+2.4 (1.2–5.4)
+89 %
+Bulgaria
+10.6 (5.4–21.6)
+66 %
+Hungary
+9.2 (4.4–21.6)
+60 %
+Poland + Baltic
+7.9 (3.6–20.2)
+54 %
+Rest of central EU
+9.3 (4.7–20.4)
+63 %
+Czech Republic
+10.3 (4.8–25.1)
+58 %
+Romania
+10.9 (5.5–24.1)
+67 %
+Africa
+Northern Africa
+4.2 (2.3–4.3)
+80 %
+Egypt
+11.0 (5.0–27.8)
+46 %
+Western Africa
+4.0 (1.7–10.2)
+96 %
+Eastern Africa
+2.7 (1.4–5.7)
+89 %
+Southern Africa
+1.0 (0.5–2.2)
+90 %
+Rep. of South Africa
+6.1 (3.1–12.5)
+84 %
+Gulf/Middle East
+Middle East
+9.2 (5.4–17.8)
+58 %
+Turkey
+8.7 (4.9–17.1)
+67 %
+Gulf region
+7.8 (4.7–14.5)
+57 %
+Latin America
+Brazil
+1.6 (1.1–2.6)
+85 %
+Mexico
+4.2 (2.1–9.2)
+62 %
+Rest of Central America
+2.0 (1.0–4.0)
+78 %
+Chile
+13.7 (7.3–29)
+70 %
+Argentina + Uruguay
+1.1 (0.7–1.9)
+77 %
+Rest of South America
+2.4 (1.6–3.9)
+69 %
+North America
+Canada
+4.3 (2.4–8.3)
+66 %
+USA
+7.8 (4.4–14.4)
+71 %
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5175
+Table 2. Continued.
+World region
+TM5-FASST region
+PM2.5 concentration
+Fraction of uncertainty due to
+(µg m−3)
+primary PM emissions
+Russia
+Kazakhstan
+4.9 (3.2–8.9)
+62 %
+Former USSR Asia
+7.5 (4.0–17.6)
+49 %
+Russia (EU)
+3.3 (1.9–6.7)
+57 %
+Russia (Asia)
+2.7 (1.7–5.1)
+64 %
+Ukraine
+7.8 (4.2–15.9)
+65 %
+Oceania
+Australia
+1.1 (0.8–1.4)
+84 %
+New Zealand
+0.3 (0.1–0.5)
+60 %
+Paciﬁc Islands
+0.2 (0.1–0.4)
+75 %
+tion, produced from the residential, agricultural and transport
+sectors. Conversely, uncertainties in Norway are dominated
+by national emissions, mainly from the residential and trans-
+port sectors, and in Italy from the residential and agriculture
+sectors. The remaining European countries are affected both
+by within-country and imported uncertainties. Figure 5c rep-
+resents the results of the propagation of the emissions range
+including their uncertainty to PM2.5 concentrations for North
+America, Latin America, Oceania and Russia, while Fig. 5d
+displays emission uncertainties for Africa, the Middle East
+and the Gulf region. The uncertainty in the USA agricul-
+tural and residential emissions affect more than 50 % of mod-
+elled Canadian PM2.5 concentrations and the uncertainty in
+Mexico and Argentina is inﬂuenced by similar magnitudes
+(30 %–50 %) from neighbouring countries. The uncertainty
+in within-region emissions, especially from the residential
+sector, dominates the overall levels of PM2.5 uncertainties in
+Latin America. However, in addition, Chile’s own agriculture
+and power sectors contribute signiﬁcantly to the overall un-
+certainty levels. PM2.5 levels in most of the African regions
+are strongly affected by the uncertainty in their own resi-
+dential emissions, while in Egypt they are mostly inﬂuenced
+by the agricultural sector uncertainties (refer to Fig. 5d). In-
+terestingly, anthropogenic PM2.5 in northern Africa is inﬂu-
+enced by uncertainties in Italian emissions as well as those
+from shipping emissions. Conversely, the Middle East and
+Turkey regions are inﬂuenced by a range of extra-regional
+emission uncertainties (e.g. the Middle East is affected by
+the uncertainty of Turkey, Egypt and the Gulf region, while
+Turkey is affected by Bulgaria, the Gulf region and the rest
+of the central EU).
+3.4.2
+Ranking the sector-speciﬁc contribution to
+emission uncertainties
+Figure 6 shows the average sector-relative contribution to
+total emission-inventory-related uncertainty for the main
+PM2.5 concentration precursors and world regions. These
+contributions can be interpreted as a ranking of the most
+effective improvements to be taken regionally to better
+constrain their inventories and reduce the ﬁnal formation
+of PM2.5 concentrations. The complete overview of all
+TM5-FASST regions contributions is provided in Fig. S2,
+where the share of each term of the sum of Eq. (5)
+
+σEMIi,c,p · EMIi,c,p
+EMItot,c,p
+2
+represents the sector contribution to
+the uncertainty of each pollutant in each region. SO2 uncer-
+tainties mainly derive from the power generation sector, es-
+pecially in countries with dominant coal use; however, sub-
+stantial contributions are also computed for the industrial
+sector in South Africa, Asia, Norway, some Latin American
+countries, Canada and Russia. Interestingly, for SO2 some
+contributions are also observed from the residential sector
+in Africa and from the transport sector in some Asian coun-
+tries (e.g. North and South Korea, Vietnam, Indonesia, south-
+eastern Asia). Smith et al. (2011) report a range of regional
+uncertainty for SO2 emissions up to 30 %, while our esti-
+mates are slightly higher (up to 50 %). NOx emission un-
+certainty mainly stems from the transport sector, although
+some contributions are also seen from power generation in
+Russia, countries strongly relying on gas (e.g. Russia), the
+Middle East and the residential sector in Africa. Depending
+on the region, CO uncertainty (not shown) is dominated by
+either the transport or residential (particularly in Africa and
+Asia) sectors and for some regions by a similar contribution
+of these two sectors. NMVOC emission uncertainties mainly
+derive from poorly characterised industrial, transport and res-
+idential activities due to the complex mixture and reactivity
+of such pollutants. As expected, NH3 emission uncertainty
+is dominated by the agricultural sector which appears to be
+less relevant for all other pollutants. Among all air pollutants,
+primary PM2.5 represents one of the most uncertain pollutant
+due to very different combustion conditions, different fuel
+qualities and lack of control measures (Klimont et al., 2017).
+Primary particulate matter emissions should be mainly im-
+proved for the residential, transport and in particular indus-
+trial sectors. Black carbon emission inventories should be
+better characterised in Europe, Japan, North and South Ko-
+rea, Malaysia etc. for the transport sector, where the higher
+share of diesel used as fuel for vehicles leads to higher BC
+emissions; in addition, BC emissions from the residential
+sector require further effort to better deﬁne EFs for the differ-
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5176
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+Figure 5. Within-region and extra-regional anthropogenic PM2.5 concentrations and emission-related uncertainties for Asia (a); Europe (b);
+North America, Latin America, Oceania and Russia (c); and Africa, the Gulf region and the Middle East (d). The error bars are calculated
+by multiplying and dividing the reference emissions by (1 + σ) as discussed in Sect. 2.3.
+ent type of fuels used under different combustion conditions.
+To constrain and improve particulate organic matter emis-
+sions, efforts should be made to improve residential emis-
+sions estimates. Therefore, in the following section, we try
+to assess one of the major sources of uncertainty in the resi-
+dential emissions in Europe, which is the use of solid biofuel.
+3.4.3
+Assessing the uncertainty in household biofuel
+consumption with an independent inventory in
+Europe
+The combustion of solid biomass (i.e. biofuel) for household
+heating and cooking purposes is one of the major sources
+of particulate matter emissions in the world. Wood products
+and residues are widely used in the residential sector, but na-
+tional reporting often underestimates the emissions from this
+sector, due to the fact that often informal economic wood
+sales are not accurately reﬂected in the ofﬁcial statistics of
+wood consumption (AD) (Denier Van Der Gon et al., 2015).
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5177
+Figure 6. Contribution of anthropogenic sectors to the emission uncertainty of various pollutants for different world regions.
+An additional uncertainty is related to the lack of information
+in the inventory regarding the EF variability, which depends
+on the combustion efﬁciency and type of wood (Weimer et
+al., 2008; Chen et al., 2012). In our work we estimate the
+uncertainty attributable to wood combustion in the residen-
+tial sector (σAD,RES_bio) by comparing it to the recent TNO
+RWC (Netherlands Organization for Applied Scientiﬁc Re-
+search, Residential Wood Combustion) inventory of Denier
+van der Gon et al. (2015), which includes a revised biomass
+fuel consumption with the corresponding EDGARv4.3.2 ac-
+tivity data (Janssens-Maenhout et al., 2017), as shown in Ta-
+ble S4. In the TNO RWC inventory, wood use for each coun-
+try has been updated comparing the ofﬁcially reported per
+capita wood consumption data (from GAINS, Greenhouse
+Gas and Air Pollution Interactions and Synergies, and IEA,
+International Environmental Agency) with the expected spe-
+ciﬁc wood use for a country, including the wood availability
+information (Visschedijk et al., 2009; Denier Van Der Gon
+et al., 2015). We can therefore assume that the TNO RWC
+inventory represents an independent estimate of wood con-
+sumption in the residential sector, allowing a more precise
+uncertainty estimation of the AD for this sector. Assuming
+that emissions are calculated as the product of AD and EF,
+the corresponding uncertainty can be calculated with Eq. (4),
+where σAD ranges from 5 % to 10 % for European countries
+and Russia as reported for international statistics (Olivier et
+al., 2016). We can therefore calculate the residential emis-
+sion factors uncertainty of each individual pollutant (σEFp)
+from Eq. (4). In addition, based on the comparison of the re-
+cent estimates of wood consumption provided by TNO RWC
+AD, which should match better with observations, and the
+EDGARv4.3.2 data, we can evaluate the mean normalised
+absolute error (MNAE) considering all N countries, follow-
+ing Eq. (6) (Yu et al., 2006), which represents our estimate
+of σAD,RES_bio.
+MNAE = 1
+N ·
+XN
+j
+TNORWCj −EDGARv4.3.2j
+
+TNORWCj
+(6)
+We estimate a value of σAD,RES_bio of 38.9 %, which is much
+larger compared to the 5 %–10 % uncertainty reported for the
+fuel consumption of the international statistics (σAD). The is-
+sue of biofuel uncertainty mainly affects rural areas where
+wood is often used instead of fossil fuel. Then, using Eq. (4)
+and the calculated σAD,RES_bio and σEFp, we can evaluate a
+new σEMIp,RES_bio for the residential sector including the un-
+certainty of the AD due to the use of wood as fuel for this
+sector, as reported in Table S5. Comparing the results shown
+in Table S5 with the factor-of-2 uncertainty values expected
+for PM emissions from the residential sector (Janssens-
+Maenhout et al., 2015), we derive that the uncertainty asso-
+ciated with the emission factors for biomass combustion in
+the residential sector is the dominant source of uncertainty
+compared to the uncertainty in wood burning activity data.
+Large increases in reported biomass usage for domestic use
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5178
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+Table 3. PM2.5 concentrations due to the residential sector emis-
+sions in Europe, European part of Russia, Ukraine and Turkey and
+the uncertainty range including the uncertainty in the biomass con-
+sumption for the same sector.
+PM2.5 (µg m−3)
+PM2.5 (µg m−3)
+– residential
+– residential
+including biomass
+uncertainty
+Romania
+3.1
+11.4
+Czech Republic
+2.9
+10.7
+Italy + Malta
+3.6
+10.6
+Rest of central EU
+2.5
+9.2
+Hungary
+2.5
+9.1
+Bulgaria
+2.3
+8.6
+Poland + Baltic
+2.2
+8.3
+Austria + Slovenia
+2.2
+7.1
+Ukraine
+1.7
+6.1
+France
+2.1
+6.0
+Turkey
+1.7
+5.9
+Norway
+1.3
+4.1
+Switzerland
+1.4
+3.9
+Greece + Cyprus
+1.2
+3.8
+Germany
+1.1
+3.0
+Spain + Portugal
+1.0
+2.7
+Benelux
+0.9
+2.5
+Sweden + Denmark
+0.8
+2.4
+Finland
+0.7
+2.1
+Great Britain + Ireland
+0.7
+1.8
+Russia (EU)
+0.4
+1.3
+has been noted in IEA energy statistics for some European
+countries (IEA, 2016) and further increases are expected as
+countries are shifting their methodologies to estimate biofuel
+activity data away from fuel sales statistics to a modelling
+approach based on energy demand. In addition, several EU
+countries are increasing the use of biomass in order to accom-
+plish the targets set in the context of the renewable energy di-
+rective (2009/28/EC) as reported in their national renewable
+energy action plans (http://ec.europa.eu/energy/node/71, last
+access: April 2019). When comparing the UNFCCC and the
+TNO RWC data, a higher value of σAD,RES_bio is obtained
+(59.5 % instead of 38.9 %), although its effect on the ﬁnal
+residential emission uncertainty is less strong, as shown in
+Table S6. Table 3 shows the impact of biofuel combustion
+uncertainty on PM2.5 concentrations in the residential sector.
+Upper-end uncertainties indicate that PM2.5 concentrations
+could be between 2.6 and 3.7 times larger than those derived
+from the HTAP_v2.2 inventory.
+4
+Health impact assessment
+Annual population-weighted PM2.5 concentrations represent
+the most robust and widely used metric to analyse the long-
+term impacts of particulate matter air pollution on human
+mortality (Pope and Dockery, 2006; Dockery, 2009). As de-
+scribed in Sects. 2.5 and S5 of the paper by Van Dingenen
+et al. (2018), the mortality estimation in TM5-FASST is
+based on the integrated exposure-response functions deﬁned
+by Burnett et al. (2014). The increased risk from exposure to
+air pollution is estimated using exposure-response functions
+for ﬁve relevant causes of death, namely ischaemic heart dis-
+ease (IHD), cerebrovascular disease (CD, stroke), chronic
+obstructive pulmonary disease (COPD), lung cancer (LC)
+and acute lower respiratory infections (ALRIs). The relative
+risk (RR) represents the proportional increase in the assessed
+health outcome due to a given increase in PM2.5 concentra-
+tions (Burnett et al., 2014).
+In this section, we investigate the impact of total and
+sector-speciﬁc anthropogenic population-weighted PM2.5
+concentrations on health and we show comparisons with
+mortality estimates provided by WHO and recent scientiﬁc
+publications (Silva et al., 2016). Figure 7 represents the PD
+distribution due to air pollution, using population-weighted
+PM2.5 concentrations and representative for anthropogenic
+emissions in the year 2010. The most affected areas are
+China and India, but also some countries of western Africa
+and urban areas in Europe (in particular in the Benelux re-
+gion and eastern Europe). Our computations indicate that
+annual global outdoor premature mortality due to anthro-
+pogenic PM2.5 amounts to 2.1 million premature deaths, with
+an uncertainty range related to emission uncertainty of 1–
+3.3 million deaths per year. In our work we only evaluate how
+the uncertainty of emission inventories inﬂuences the health
+impact estimates focusing on the interregional aspects (i.e.
+we do not evaluate effects of misallocation of sources within
+regions) and not all the other sources of uncertainties, such
+as the uncertainty of concentration-response estimates, of air
+quality models used to estimate particulate matter concentra-
+tions, etc. An overview of the propagation of the uncertainty
+associated with an ensemble of air quality models to health
+and crop impacts is provided by Solazzo et al. (2018). So-
+lazzo et al. (2018) ﬁnd in their analysis over the European
+countries a mean number of PDs due to exposure to PM2.5
+and ozone of approximately 370 000 (inter-quantile range be-
+tween 260 000 and 415 000). Moreover, they estimate that a
+reduction in the uncertainty of the modelled ozone concen-
+tration by 61 %–80 % (depending on the aggregation metric
+used) and by 46 % for PM2.5 produces a reduction in the un-
+certainty in premature mortality and crop loss of more than
+60 %. However, we show here that the often neglected emis-
+sion inventories’ uncertainty provides a range of premature
+deaths of ±1.1 million at the global scale, which is of the
+same order of magnitude of the uncertainty of air quality
+models and concentration-response functions (Cohen et al.,
+2017). In 2010, using our central estimate, 82 % of the PDs
+occur in fast-growing economies and developing countries,
+especially in China with 670 000 and India with an almost
+equal amount of 610 000 PDs per year. Table 4 summarises
+our estimates of premature mortality for aggregated world re-
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5179
+Table 4. Absolute and population size normalised number of pre-
+mature deaths per year due to anthropogenic PM2.5 air pollution in
+world regions and corresponding uncertainty range.
+PD (deaths per year)
+China+
+6.7 × 105 (3.5 × 105–1.0 × 106)
+India+
+6.1 × 105 (2.7 × 105–9.6 × 105)
+Europe
+2.6 × 105 (1.4 × 105–4.8 × 105)
+SE Asia
+1.5 × 105 (8.3 × 104–2.5 × 105)
+Russia
+1.1 × 105 (6.7 × 104–2.4 × 105)
+North America
+1.0 × 105 (5.5 × 104–1.7 × 105)
+Africa
+7.4 × 104 (3.4 × 104–1.6 × 105)
+Middle East
+5.6 × 104 (3.2 × 104–9.7 × 104)
+Latin America
+2.6 × 104 (1.4 × 104–5.3 × 104)
+Oceania
+5.5 × 101 (3.4 × 101–1.2 × 102)
+gions, with Europe accounting for 210 000 PDs per year and
+North America 100 000 PDs per year.
+Our results are comparable with Lelieveld et al. (2015) and
+Silva et al. (2016) who, using the same Burnett et al. (2014)
+methodology, estimate a global premature mortality of 2.5
+and 2.2 million people, respectively, due to air quality in
+2010 for the same anthropogenic sectors. However, a recent
+work published by Cohen et al. (2017) estimates a higher
+value of global mortality (3.9 million PDs per year) mainly
+due to a lower minimum risk exposure level set in the expo-
+sure response function, the inclusion of the urban increment
+calculation and the contribution of natural sources. When
+comparing mortality estimates we need to take into account
+that several elements affect the results, like the resolution
+of the model, the urban increment subgrid adjustment (in-
+cluding information on urban and rural population; refer to
+Van Dingenen et al., 2018), the inclusion or not of natural
+components, the impact threshold value used, and RR func-
+tions. In this study, we use the population-weighted PM2.5
+concentration (excluding natural components) at 1 × 1◦res-
+olution as the metric for estimating health effects due to
+air pollution, with a threshold value of 5.8 µg m−3, no ur-
+ban increment adjustment and relative risk functions accord-
+ingly with Burnett et al. (2014). We also estimate that 7 % of
+the global non-accidental mortalities from the Global Bur-
+den of Disease (IHME, 2015, http://vizhub.healthdata.org/
+gbd-compare, last access: April 2019; Forouzanfar et al.,
+2015) are attributable to air pollution in 2010; 8.6 % of to-
+tal mortality in Europe is due to air pollution, ranging from
+less than 1 % up to 17 % depending on the country; similarly,
+Asian premature mortality due to air quality is equal to 8.7 %
+of total Asian mortality, with 10.6 % contribution in China
+and 8.5 % in India. Lower values are found for African coun-
+tries and Latin America where other causes of mortalities are
+still dominant compared to developed countries.
+Table 5 shows the number of premature deaths for each re-
+ceptor region, highlighting the premature mortality induced
+within the country itself and outside the receptor region. The
+PD induced by Chinese and Indian emissions are mainly
+found within these two countries; however, the annual PDs
+caused by China and India in external regions contribute an
+additional 700 000 and ca. 500 000 PDs per year, respec-
+tively, representing more than 50 % of the global mortal-
+ity. Clearly, reducing emissions and emission uncertainties in
+these two regions will therefore have the largest overall ben-
+eﬁt on global air quality improvement as well as on global
+human health. As explained in Sect. 3.1, PDs attributed to
+internal and external emissions are directly linked (propor-
+tional) to the internal and external PM2.5 contributions. For
+most of the TM5-FASST regions, PDs due to anthropogenic
+emissions within the source region are higher than the extra-
+regional contributions. However, there are marked excep-
+tions, such as Hungary, the Czech Republic, Mongolia, etc.,
+where the extra-regional and within-region contributions to
+mortality are at least comparable. For instance, Hungary and
+the Czech Republic are strongly inﬂuenced by polluted re-
+gions in Poland (mainly); likewise, Mongolia is affected by
+the vicinity of sources in China. The Gulf region produces
+a lot of its own pollution but is also inﬂuenced by trans-
+port from Africa and Eurasia as reported by Lelieveld et
+al. (2009).
+Detailed information on the premature deaths for each
+TM5-FASST region and the contributing anthropogenic
+emission sectors is shown in Fig. 8a and b. Health effects
+induced by air quality in industrialised countries are mainly
+related to agriculture (32.4 % of total mortality or 68 000 PDs
+per year), residential combustion (17.8 % or 37 000 PDs per
+year) and road transport (18.7 % or 39 000 PDs per year) for
+Europe and with power generation (26.4 % or 26 000 PDs
+per year), industry (19 % or 19 000 PDs per year), residen-
+tial (17 % or 17 000 PDs per year) and agriculture (24.0 % or
+24 000 PDs per year) for North America. The health impacts
+observed in most western EU countries is due to both within-
+region and extra-regional pollution, while in several eastern
+EU countries the impact of neighbouring countries is even
+larger compared to within-region pollution. The premature
+deaths induced by international shipping emissions represent
+5.5 % of total EU PD, which is in the range of the results
+of Brandt et al. (2013) (ca. 50 000 PDs). PM-related mor-
+tality in developing countries and fast-growing economies is
+mostly affected by industrial (up to 42 % in China or 279 000
+PDs per year) and residential activities (ranging from 27 %
+in China and 76 % in western Africa), and also by power
+generation (up to 24 % in India or 113 000 PDs per year).
+Chinese emissions have a strong impact on China, Japan,
+Vietnam, Mongolia + North Korea, and Thailand while the
+Indian emissions impact the rest of south and south-eastern
+Asia. Reducing Chinese and Indian emissions will reduce the
+PM-related mortality in almost all countries in Asia. Our re-
+sults are in agreement with the study of Oh et al. (2015)
+where they highlight the role of transported pollution from
+China in affecting the PM2.5 concentrations and health stan-
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5180
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+Table 5. Number of premature deaths for each receptor region including the within-region and extra-regional attribution based on PM2.5
+“central” estimates, which do not consider uncertainty. For the RERER metric refer also to Table S2.
+World regions
+TM5-FASST region name
+PDs in receptor region
+Within-region PDs
+Extra-regional PDs
+(deaths per year)
+(deaths per year)
+(deaths per year)
+Africa
+Eastern Africa
+16 705
+8218
+8487
+Africa
+Egypt
+17 282
+11 380
+5902
+Africa
+Northern Africa
+5424
+3427
+1997
+Africa
+Rep. of South Africa
+9065
+8797
+268
+Africa
+Southern Africa
+345
+322
+23
+Africa
+Western Africa
+25 081
+19 785
+5296
+Asia
+China
+655 870
+643 129
+12 741
+Asia
+Indonesia
+17 780
+14 803
+2977
+Asia
+India
+474 660
+412 298
+62 362
+Asia
+Japan
+25 636
+15 181
+10 455
+Asia
+South Korea
+25 295
+7510
+17 784
+Asia
+Mongolia + North Korea
+12 657
+4076
+8581
+Asia
+Malaysia
+2014
+1058
+957
+Asia
+Philippines
+121
+94
+27
+Asia
+Rest of south Asia
+134 280
+67 170
+67 110
+Asia
+Rest of south-eastern Asia
+23 316
+3814
+19 502
+Asia
+Thailand
+21 231
+10 495
+10 736
+Asia
+Taiwan
+3443
+1028
+2415
+Asia
+Vietnam
+30 750
+20 286
+10 464
+Europe
+Austria + Slovenia
+6073
+1806
+4267
+Europe
+Bulgaria
+4739
+1709
+3030
+Europe
+Benelux
+9090
+4201
+4889
+Europe
+Switzerland
+3200
+1568
+1632
+Europe
+Czech Republic
+7936
+2696
+5240
+Europe
+Germany
+36 256
+18 595
+17 661
+Europe
+Spain + Portugal
+11 291
+8487
+2804
+Europe
+Finland
+0
+0
+0
+Europe
+France
+22 046
+13 320
+8727
+Europe
+Great Britain + Ireland
+13 949
+9459
+4490
+Europe
+Greece + Cyprus
+3117
+1133
+1984
+Europe
+Hungary
+14 211
+3820
+10391
+Europe
+Italy + Malta
+24 417
+16 312
+8105
+Europe
+Norway
+674
+516
+158
+Europe
+Poland + Baltic
+28 686
+15 877
+12 809
+Europe
+Rest of central EU
+6764
+3418
+3346
+Europe
+Romania
+14 155
+6979
+7176
+Europe
+Sweden + Denmark
+2650
+1021
+1629
+Latin America
+Argentina + Uruguay
+133
+75
+58
+Latin America
+Brazil
+4261
+3968
+293
+Latin America
+Chile
+3332
+3283
+49
+Latin America
+Mexico
+10 478
+8447
+2031
+Latin America
+Rest of Central America
+3413
+2772
+640
+Latin America
+Rest of South America
+4489
+4164
+325
+Middle East
+Gulf region
+15 176
+11 225
+3951
+Middle East
+Middle East
+6784
+2804
+3980
+Middle East
+Turkey
+34 151
+24 191
+9960
+North America
+Canada
+3262
+1491
+1771
+North America
+USA
+97 877
+90 176
+7701
+Oceania
+Australia
+28
+25
+3
+Oceania
+New Zealand
+24
+15
+9
+Oceania
+Paciﬁc Islands
+3
+1
+2
+Russia
+Kazakhstan
+3389
+1100
+2290
+Russia
+Former USSR Asia
+10 757
+6420
+4337
+Russia
+Russia (Asia)
+1348
+601
+746
+Russia
+Russia (EU)
+25 149
+12 704
+12 445
+Russia
+Ukraine
+71 724
+44 604
+27 120
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5181
+Figure 7. Global distribution of premature deaths in 2010 caused by anthropogenic particulate matter pollution estimated using the method-
+ology described in Burnett et al. (2014). A threshold value of 5.8 µg m−3 is assumed and no urban increment adjustments are considered.
+The relative risk functions of Burnett et al. (2014) are used for the premature death dose-response estimates.
+dards of North and South Korea and other south-eastern
+Asian countries, as well as the need for international mea-
+sures to improve air quality.
+5
+Conclusions
+In this work we couple the global anthropogenic emission
+estimates provided by the HTAP_v2.2 inventory for 2010
+(merging national and regional inventories) with the global
+source receptor model TM5-FASST, to study PM2.5 con-
+centrations and the corresponding health impacts, includ-
+ing an evaluation of the impacts of uncertainties in na-
+tional emission inventories. Annual and regionally aver-
+aged anthropogenic PM2.5 concentrations, corresponding to
+the 2010 emissions, vary between ca. 1 and 40 µg m−3,
+with the highest annual concentrations computed in China
+(40 µg m−3, range: 22.4–76.6 µg m−3), India (35 µg m−3,
+range: 16.6–73.4 µg m−3), North America (8 µg m−3, range:
+4.4–14.4 µg m−3) and Europe (on average ca. 8 µg m−3,
+range: 5–18 µg m−3). Anthropogenic PM2.5 concentrations
+are mainly due to emissions within the source region, but
+extra-regional transported air pollution can contribute by up
+to 40 % (e.g. from China to SE Asia, from EU to Russia).
+Moreover, due to the transport of PM between European
+countries, EU-wide directives can help improve the air qual-
+ity across Europe.
+For our analysis we aggregate our results derived from 56
+TM5-FASST source regions into 10 global regions to facili-
+tate the comparison of results in regions of more equal size.
+The relative contribution of anthropogenic sectors to PM2.5
+concentrations varies in different regions. In Europe in 2010,
+the agriculture and residential combustion sectors contribute
+the most PM2.5 concentrations and these sectors are also as-
+sociated with relatively large emission uncertainties. PM2.5
+concentrations in China and other emerging economies are
+predominantly associated with the power generation, indus-
+try and residential activities.
+Using the HTAP_v2.2 emission inventory and TM5-
+FASST, we also evaluate how the uncertainty in sectors and
+regions propagates into PM2.5 concentrations. The aim of our
+analysis is to provide insights into where improvement of
+country emission inventories would give the largest beneﬁts,
+because of their highest uncertainty and highest contribution
+to the formation of PM2.5 concentrations. The uncertainty of
+PM concentrations depends in variable proportions to the un-
+certainties of the emissions within receptor regions, and sur-
+rounding regions. We show that reducing the uncertainties in
+the Chinese and Indian emission inventories (e.g. from indus-
+try and residential sectors) will be highly relevant for more
+accurate quantiﬁcation of the contribution of the long-range
+sources to PM2.5 pollution in most Asian countries. Here we
+demonstrate how analysis of uncertainties in national and re-
+gional sectorial emission inventories can further inform coor-
+dinated transboundary and sector-speciﬁc policies to signif-
+icantly improve global air quality. Among all anthropogenic
+emission sectors, the combustion of biomass for household
+purposes represents one of the major sources of uncertainties
+in emission inventories both in terms of wood consumption
+and emission factor estimates. Further effort is therefore re-
+quired at national level to better characterise this source.
+Finally, we analyse the air quality effects on health. Global
+health effects due to PM2.5 concentrations calculated with
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5182
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+Figure 8. Anthropogenic emission sector contributions to premature mortality (deaths per year) due to PM2.5 population-weighted con-
+centrations in the TM5-FASST receptor regions of (a) Asia (left) and Europe (right) and (b) North America, Latin America, Russia, the
+Middle East and Oceania (left hand side) and Africa (right hand side). Note that mortality estimates for Argentina + Uruguay, Australia,
+New Zealand and Paciﬁc Islands are not reported being several orders of magnitude lower than other countries estimates. Sector and region
+contributions pertain to the “central” emission estimates.
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5183
+TM5-FASST and anthropogenic emissions in 2010 are esti-
+mated to be ca. 2.1 million premature deaths per year, but the
+uncertainty associated with emission ranges between 1 and
+3.4 million deaths per year, with the largest fraction of PD
+(82 %) in developing countries.
+Data availability. Data
+used
+in
+this
+research
+are
+pub-
+licly
+accessible
+through
+the
+EDGAR
+website
+(http:
+//edgar.jrc.ec.europa.eu/htap_v2/index.php, last access: April 2019;
+https://doi.org/10.2904/JRC_DATASET_EDGAR;
+Janssens-
+Maenhout
+et
+al.,
+2013)
+and
+the
+TM5-FASST
+online
+tool
+(http://tm5-fasst.jrc.ec.europa.eu/, last access: April 2019).
+Supplement. The supplement related to this article is available
+online at: https://doi.org/10.5194/acp-19-5165-2019-supplement.
+Author contributions. MC developed the scenarios, performed the
+TM5-FASST analysis and drafted the manuscript. GJM devel-
+oped the concept of the work and supervised it. DG compiled the
+HTAP_v2.2 emission inventory. RVD and FD developed the TM5-
+FASST model and the concept of this work.
+Competing interests. The authors declare that they have no conﬂict
+of interest.
+Special issue statement. This article is part of the special issue
+“Global and regional assessment of intercontinental transport of air
+pollution: results from HTAP, AQMEII and MICS”. It is not associ-
+ated with a conference.
+Acknowledgements. The authors acknowledge ﬁnancial support by
+the Administrative Arrangement AMITO2 with DG ENV. This
+analysis was inspired by HTAP2 joint studies on regional contri-
+butions to global air pollution. This publication is an application of
+the companion paper “TM5-FASST: a global atmospheric source–
+receptor model for rapid impact analysis of emission changes on
+air quality and short-lived climate pollutants” by Van Dingenen et
+al. (2018).
+Review statement. This paper was edited by Kathy Law and re-
+viewed by two anonymous referees.
+References
+Anderson, J., Thundiyil, J., and Stolbach, A.: Clearing the
+Air: A Review of the Effects of Particulate Matter Air
+Pollution on Human Health, J. Med. Toxicol., 8, 166–175,
+https://doi.org/10.1007/s13181-011-0203-1, 2012.
+Anenberg, S. C., West, J. J., Fiore, A. M., Jaffe, D. A., Prather,
+M. J., Bergmann, D., Cuvelier, K., Dentener, F. J., Duncan,
+B. N., Gauss, M., Hess, P., Jonson, J. E., Lupu, A., MacKen-
+zie, I. A., Marmer, E., Park, R. J., Sanderson, M. G., Schultz,
+M., Shindell, D. T., Szopa, S., Vivanco, M. G., Wild, O.,
+and Zeng, G.: Intercontinental Impacts of Ozone Pollution
+on Human Mortality, Environ. Sci. Technol., 43, 6482–6487,
+https://doi.org/10.1021/es900518z, 2009.
+Backes,
+A.
+M.,
+Aulinger,
+A.,
+Bieser,
+J.,
+Matthias,
+V.,
+and
+Quante,
+M.:
+Ammonia
+emissions
+in
+Europe,
+part
+II:
+How
+ammonia
+emission
+abatement
+strategies
+af-
+fect secondary aerosols, Atmos. Environ., 126, 153–161,
+https://doi.org/10.1016/j.atmosenv.2015.11.039, 2016.
+Bond,
+T.
+C.,
+Streets,
+D.
+G.,
+Yarber,
+K.
+F.,
+Nelson,
+S.
+M.,
+Woo,
+J.-H.,
+and
+Klimont,
+Z.:
+A
+technology-based
+global inventory of black and organic carbon emissions
+from combustion, J. Geophys. Res.-Atmos., 109, D14203,
+https://doi.org/10.1029/2003jd003697, 2004.
+Boys, B., Martin, R., Van Donkelaar, A., MacDonell, R., Hsu, N.,
+Cooper, M., Yantosca, R., Lu, Z., Streets, D., and Zhang, Q.:
+Fifteen-year global time series of satellite-derived ﬁne particu-
+late matter, Environ. Sci. Technol., 48, 11109–11118, 2014.
+Brandt, J., Silver, J. D., Christensen, J. H., Andersen, M. S., Bøn-
+løkke, J. H., Sigsgaard, T., Geels, C., Gross, A., Hansen, A.
+B., Hansen, K. M., Hedegaard, G. B., Kaas, E., and Frohn, L.
+M.: Assessment of past, present and future health-cost external-
+ities of air pollution in Europe and the contribution from in-
+ternational ship trafﬁc using the EVA model system, Atmos.
+Chem. Phys., 13, 7747–7764, https://doi.org/10.5194/acp-13-
+7747-2013, 2013.
+Brauer, M., Amann, M., Burnett, R. T., Cohen, A., Dentener, F.,
+Ezzati, M., Henderson, S. B., Krzyzanowski, M., Martin, R. V.,
+and Van Dingenen, R.: Exposure assessment for estimation of
+the global burden of disease attributable to outdoor air pollution,
+Environ. Sci. Technol, 46, 652–660, 2012.
+Brauer, M., Freedman, G., Frostad, J., Van Donkelaar, A., Martin, R.
+V., Dentener, F., Dingenen, R. v., Estep, K., Amini, H., and Apte,
+J. S.: Ambient air pollution exposure estimation for the global
+burden of disease 2013, Environ. Sci. Technol., 50, 79–88, 2015.
+Burnett, R. T., Pope, C. A., Ezzati, M., Olives, C., Lim, S. S., Mehta,
+S., Shin, H. H., Hwashin, H., Singh, G., Hubbell, B., Brauer, M.,
+Anderson, H. R., Smith, K. R., Balmes, J. R., Bruce, N. G., Kan,
+H., Laden, F., Prüss-Ustün, A., Turner, M. C., Gapstur, S. M.,
+Diver, W. R., and Cohen, A.: An Integrated Risk Function for Es-
+timating the Global Burden of Disease Attributable to Ambient
+Fine Particulate Matter Exposure, Environ. Health Persp., 122,
+397–403, https://doi.org/10.1289/ehp.1307049, 2014.
+Chafe, Z. A., Brauer, M., Klimont, Z., Van Dingenen, R., Mehta,
+S., Rao, S., Riahi, K., Dentener, F., and Smith, K. R.: Household
+Cooking with Solid Fuels Contributes to Ambient PM(2.5) Air
+Pollution and the Burden of Disease, Environ. Health Persp., 122,
+1314–1320, https://doi.org/10.1289/ehp.1206340, 2014.
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5184
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+Chen, Y., Roden, C. A., and Bond, T. C.: Characterizing biofuel
+combustion with patterns of real-time emission data (PaRTED),
+Environ. Sci. Technol., 46, 6110–6117, 2012.
+Cohen, A. J., Brauer, M., Burnett, R., Anderson, H. R., Frostad, J.,
+Estep, K., Balakrishnan, K., Brunekreef, B., Dandona, L., Dan-
+dona, R., Feigin, V., Freedman, G., Hubbell, B., Jobling, A., Kan,
+H., Knibbs, L., Liu, Y., Martin, R., Morawska, L., Pope, C. A.,
+Shin, H., Straif, K., Shaddick, G., Thomas, M., van Dingenen, R.,
+van Donkelaar, A., Vos, T., Murray, C. J. L., and Forouzanfar, M.
+H.: Estimates and 25-year trends of the global burden of disease
+attributable to ambient air pollution: an analysis of data from the
+Global Burden of Diseases Study 2015, Lancet, 389, 1907–1918,
+https://doi.org/10.1016/S0140-6736(17)30505-6, 2017.
+Denier van der Gon, H. A. C., Bergström, R., Fountoukis, C.,
+Johansson, C., Pandis, S. N., Simpson, D., and Visschedijk,
+A. J. H.: Particulate emissions from residential wood com-
+bustion in Europe – revised estimates and an evaluation, At-
+mos. Chem. Phys., 15, 6503–6519, https://doi.org/10.5194/acp-
+15-6503-2015, 2015.
+Dentener, F., Kinne, S., Bond, T., Boucher, O., Cofala, J., Gen-
+eroso, S., Ginoux, P., Gong, S., Hoelzemann, J. J., Ito, A.,
+Marelli, L., Penner, J. E., Putaud, J.-P., Textor, C., Schulz, M.,
+van der Werf, G. R., and Wilson, J.: Emissions of primary
+aerosol and precursor gases in the years 2000 and 1750 pre-
+scribed data-sets for AeroCom, Atmos. Chem. Phys., 6, 4321–
+4344, https://doi.org/10.5194/acp-6-4321-2006, 2006.
+Dentener, F., Keating, T., and Akimoto, H.: Hemispheric Trans-
+port of Air Pollution 2010: Part A – Ozone and Particu-
+late Matter, Air Pollution Studies, No. 17, UN, New York,
+https://doi.org/10.18356/2c908168-en, 2010.
+Dockery, D. W.: Health effects of particulate air pollution, Ann. Epi-
+demiol., 19, 257–263, 2009.
+EMEP/EEA: EMEP/EEA air pollutant emission inventory guide-
+book 2013, European Environment Agency, Copenhagen, 2013.
+Erisman,
+J.
+W.
+and
+Schaap,
+M.:
+The
+need
+for
+am-
+monia
+abatement
+with
+respect
+to
+secondary
+PM
+re-
+ductions
+in
+Europe,
+Environ.
+Pollut.,
+129,
+159–163,
+https://doi.org/10.1016/j.envpol.2003.08.042, 2004.
+Evans, J., van Donkelaar, A., Martin, R. V., Burnett, R., Rainham,
+D. G., Birkett, N. J., and Krewski, D.: Estimates of global mortal-
+ity attributable to particulate air pollution using satellite imagery,
+Environ. Res., 120, 33–42, 2013.
+Ezzati, M.: Indoor air pollution and health in developing
+countries, Lancet, 366, 104–106, https://doi.org/10.1016/s0140-
+6736(05)66845-6, 2008.
+Farina, S. C., Adams, P. J., and Pandis, S. N.: Modeling
+global secondary organic aerosol formation and processing with
+the volatility basis set: Implications for anthropogenic sec-
+ondary organic aerosol, J. Geophys. Res.-Atmos., 115, D09202,
+https://doi.org/10.1029/2009jd013046, 2010.
+Galmarini, S., Kofﬁ, B., Solazzo, E., Keating, T., Hogrefe,
+C., Schulz, M., Benedictow, A., Griesfeller, J. J., Janssens-
+Maenhout, G., Carmichael, G., Fu, J., and Dentener, F.: Tech-
+nical note: Coordination and harmonization of the multi-scale,
+multi-model activities HTAP2, AQMEII3, and MICS-Asia3:
+simulations, emission inventories, boundary conditions, and
+model output formats, Atmos. Chem. Phys., 17, 1543–1555,
+https://doi.org/10.5194/acp-17-1543-2017, 2017.
+Hallquist, M., Wenger, J. C., Baltensperger, U., Rudich, Y., Simp-
+son, D., Claeys, M., Dommen, J., Donahue, N. M., George,
+C., Goldstein, A. H., Hamilton, J. F., Herrmann, H., Hoff-
+mann, T., Iinuma, Y., Jang, M., Jenkin, M. E., Jimenez, J. L.,
+Kiendler-Scharr, A., Maenhaut, W., McFiggans, G., Mentel, Th.
+F., Monod, A., Prévôt, A. S. H., Seinfeld, J. H., Surratt, J. D.,
+Szmigielski, R., and Wildt, J.: The formation, properties and im-
+pact of secondary organic aerosol: current and emerging issues,
+Atmos. Chem. Phys., 9, 5155–5236, https://doi.org/10.5194/acp-
+9-5155-2009, 2009.
+Henneman, L. R. F., Liu, C., Mulholland, J. A., and Russell, A. G.:
+Evaluating the effectiveness of air quality regulations: A review
+of accountability studies and frameworks, J. Air Waste Manage.,
+67, 144–172, https://doi.org/10.1080/10962247.2016.1242518,
+2017.
+IEA: World Energy Balances 2016, International Energy Agency,
+Paris, ISBN 978-92-64-26311-6, 2016.
+IHME (Institute for Health Metrics and Evaluation): GBD Com-
+pare. Seattle, WA, IHME, University of Washington, avail-
+able at: http://vizhub.healthdata.org/gbd-compare (last access:
+7 July 2016), 2015.
+Im, U., Brandt, J., Geels, C., Hansen, K. M., Christensen, J.
+H., Andersen, M. S., Solazzo, E., Kioutsioukis, I., Alyuz, U.,
+Balzarini, A., Baro, R., Bellasio, R., Bianconi, R., Bieser, J.,
+Colette, A., Curci, G., Farrow, A., Flemming, J., Fraser, A.,
+Jimenez-Guerrero, P., Kitwiroon, N., Liang, C.-K., Nopmong-
+col, U., Pirovano, G., Pozzoli, L., Prank, M., Rose, R., Sokhi, R.,
+Tuccella, P., Unal, A., Vivanco, M. G., West, J., Yarwood, G.,
+Hogrefe, C., and Galmarini, S.: Assessment and economic valu-
+ation of air pollution impacts on human health over Europe and
+the United States as calculated by a multi-model ensemble in the
+framework of AQMEII3, Atmos. Chem. Phys., 18, 5967–5989,
+https://doi.org/10.5194/acp-18-5967-2018, 2018.
+Janssens-Maenhout, G., Crippa, M., Guizzardi, D., Muntean, M.,
+and Schaaf, E.: HTAP_v2.2: a mosaic of regional and global
+emission grid maps for 2008 and 2010 to study hemispheric
+transport of air pollution. European Commission, Joint Research
+Centre (JRC), Dataset, available at: http://data.europa.eu/89h/
+jrc-edgar-htap_v2-2 (last access: 15 April 2019), 2013.
+Janssens-Maenhout, G., Crippa, M., Guizzardi, D., Dentener, F.,
+Muntean, M., Pouliot, G., Keating, T., Zhang, Q., Kurokawa,
+J., Wankmüller, R., Denier van der Gon, H., Kuenen, J. J.
+P., Klimont, Z., Frost, G., Darras, S., Kofﬁ, B., and Li,
+M.: HTAP_v2.2: a mosaic of regional and global emission
+grid maps for 2008 and 2010 to study hemispheric trans-
+port of air pollution, Atmos. Chem. Phys., 15, 11411–11432,
+https://doi.org/10.5194/acp-15-11411-2015, 2015.
+Janssens-Maenhout, G., Crippa, M., Guizzardi, D., Muntean, M.,
+Schaaf, E., Dentener, F., Bergamaschi, P., Pagliari, V., Olivier,
+J. G. J., Peters, J. A. H. W., van Aardenne, J. A., Monni,
+S., Doering, U., and Petrescu, A. M. R.: EDGAR v4.3.2
+Global Atlas of the three major Greenhouse Gas Emissions
+for the period 1970–2012, Earth Syst. Sci. Data Discuss.,
+https://doi.org/10.5194/essd-2017-79, 2017.
+Karagulian, F., Belis, C. A., Dora, C. F. C., Prüss-Ustün, A. M.,
+Bonjour, S., Adair-Rohani, H., and Amann, M.: Contributions to
+cities’ ambient particulate matter (PM): A systematic review of
+local source contributions at global level, Atmos. Environ., 120,
+475–483, https://doi.org/10.1016/j.atmosenv.2015.08.087, 2015.
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/
+
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+5185
+Klimont, Z., Kupiainen, K., Heyes, C., Purohit, P., Cofala, J., Rafaj,
+P., Borken-Kleefeld, J., and Schöpp, W.: Global anthropogenic
+emissions of particulate matter including black carbon, Atmos.
+Chem. Phys., 17, 8681–8723, https://doi.org/10.5194/acp-17-
+8681-2017, 2017.
+Lamarque, J.-F., Bond, T. C., Eyring, V., Granier, C., Heil, A.,
+Klimont, Z., Lee, D., Liousse, C., Mieville, A., Owen, B.,
+Schultz, M. G., Shindell, D., Smith, S. J., Stehfest, E., Van
+Aardenne, J., Cooper, O. R., Kainuma, M., Mahowald, N.,
+McConnell, J. R., Naik, V., Riahi, K., and van Vuuren, D.
+P.: Historical (1850–2000) gridded anthropogenic and biomass
+burning emissions of reactive gases and aerosols: methodol-
+ogy and application, Atmos. Chem. Phys., 10, 7017–7039,
+https://doi.org/10.5194/acp-10-7017-2010, 2010.
+Lelieveld, J., Evans, J. S., Fnais, M., Giannadaki, D., and Pozzer,
+A.: The contribution of outdoor air pollution sources to pre-
+mature mortality on a global scale, Nature, 525, 367–371,
+https://doi.org/10.1038/nature15371, 2015.
+Liang, C.-K., West, J. J., Silva, R. A., Bian, H., Chin, M., Davila, Y.,
+Dentener, F. J., Emmons, L., Flemming, J., Folberth, G., Henze,
+D., Im, U., Jonson, J. E., Keating, T. J., Kucsera, T., Lenzen,
+A., Lin, M., Lund, M. T., Pan, X., Park, R. J., Pierce, R. B.,
+Sekiya, T., Sudo, K., and Takemura, T.: HTAP2 multi-model
+estimates of premature human mortality due to intercontinental
+transport of air pollution and emission sectors, Atmos. Chem.
+Phys., 18, 10497–10520, https://doi.org/10.5194/acp-18-10497-
+2018, 2018.
+Lim, S. S., Vos, T., Flaxman, A. D., Danaei, G., Shibuya, K., Adair-
+Rohani, H., AlMazroa, M. A., Amann, M., Anderson, H. R., An-
+drews, K. G., Aryee, M., Atkinson, C., Bacchus, L. J., Bahalim,
+A. N., Balakrishnan, K., Balmes, J., Barker-Collo, S., Baxter,
+A., Bell, M. L., Blore, J. D., Blyth, F., Bonner, C., Borges, G.,
+Bourne, R., Boussinesq, M., Brauer, M., Brooks, P., Bruce, N.
+G., Brunekreef, B., Bryan-Hancock, C., Bucello, C., Buchbinder,
+R., Bull, F., Burnett, R. T., Byers, T. E., Calabria, B., Carapetis,
+J., Carnahan, E., Chafe, Z., Charlson, F., Chen, H., Chen, J. S.,
+Cheng, A. T.-A., Child, J. C., Cohen, A., Colson, K. E., Cowie,
+B. C., Darby, S., Darling, S., Davis, A., Degenhardt, L., Den-
+tener, F., Des Jarlais, D. C., Devries, K., Dherani, M., Ding, E.
+L., Dorsey, E. R., Driscoll, T., Edmond, K., Ali, S. E., Engell, R.
+E., Erwin, P. J., Fahimi, S., Falder, G., Farzadfar, F., Ferrari, A.,
+Finucane, M. M., Flaxman, S., Fowkes, F. G. R., Freedman, G.,
+Freeman, M. K., Gakidou, E., Ghosh, S., Giovannucci, E., Gmel,
+G., Graham, K., Grainger, R., Grant, B., Gunnell, D., Gutierrez,
+H. R., Hall, W., Hoek, H. W., Hogan, A., Hosgood, H. D., III,
+Hoy, D., Hu, H., Hubbell, B. J., Hutchings, S. J., Ibeanusi, S. E.,
+Jacklyn, G. L., Jasrasaria, R., Jonas, J. B., Kan, H., Kanis, J. A.,
+Kassebaum, N., Kawakami, N., Khang, Y.-H., Khatibzadeh, S.,
+Khoo, J.-P., Kok, C., Laden, F., Lalloo, R., Lan, Q., Lathlean, T.,
+Leasher, J. L., Leigh, J., Li, Y., Lin, J. K., Lipshultz, S. E., Lon-
+don, S., Lozano, R., Lu, Y., Mak, J., Malekzadeh, R., Mallinger,
+L., Marcenes, W., March, L., Marks, R., Martin, R., McGale, P.,
+McGrath, J., Mehta, S., Memish, Z. A., Mensah, G. A., Merri-
+man, T. R., Micha, R., Michaud, C., Mishra, V., Hanaﬁah, K.
+M., Mokdad, A. A., Morawska, L., Mozaffarian, D., Murphy,
+T., Naghavi, M., Neal, B., Nelson, P. K., Nolla, J. M., Norman,
+R., Olives, C., Omer, S. B., Orchard, J., Osborne, R., Ostro, B.,
+Page, A., Pandey, K. D., Parry, C. D. H., Passmore, E., Patra, J.,
+Pearce, N., Pelizzari, P. M., Petzold, M., Phillips, M. R., Pope,
+D., Pope, C. A., III, Powles, J., Rao, M., Razavi, H., Rehfuess, E.
+A., Rehm, J. T., Ritz, B., Rivara, F. P., Roberts, T., Robinson, C.,
+Rodriguez-Portales, J. A., Romieu, I., Room, R., Rosenfeld, L.
+C., Roy, A., Rushton, L., Salomon, J. A., Sampson, U., Sanchez-
+Riera, L., Sanman, E., Sapkota, A., Seedat, S., Shi, P., Shield,
+K., Shivakoti, R., Singh, G. M., Sleet, D. A., Smith, E., Smith,
+K. R., Stapelberg, N. J. C., Steenland, K., Stöckl, H., Stovner, L.
+J., Straif, K., Straney, L., Thurston, G. D., Tran, J. H., Van Din-
+genen, R., van Donkelaar, A., Veerman, J. L., Vijayakumar, L.,
+Weintraub, R., Weissman, M. M., White, R. A., Whiteford, H.,
+Wiersma, S. T., Wilkinson, J. D., Williams, H. C., Williams, W.,
+Wilson, N., Woolf, A. D., Yip, P., Zielinski, J. M., Lopez, A. D.,
+Murray, C. J. L., and Ezzati, M.: A comparative risk assessment
+of burden of disease and injury attributable to 67 risk factors
+and risk factor clusters in 21 regions, 1990–2010: a systematic
+analysis for the Global Burden of Disease Study 2010, Lancet,
+380, 2224–2260, https://doi.org/10.1016/s0140-6736(12)61766-
+8, 2013.
+Maas, R. and Grennfelt, P.: Towards Cleaner Air, Scientiﬁc Assess-
+ment Report 2016, EMEP Steering Body and Working Group
+on Effects of the Convention on Long-Range Transboundary Air
+Pollution, Oslo, 2016.
+Morgan,
+R.
+K.:
+Environmental
+impact
+assessment:
+the
+state
+of
+the
+art,
+Impact
+Assess.
+Proj.
+A.,
+30,
+5–14,
+https://doi.org/10.1080/14615517.2012.661557, 2012.
+Oh, H.-R., Ho, C.-H., Kim, J., Chen, D., Lee, S., Choi, Y.-S., Chang,
+L.-S., and Song, C.-K.: Long-range transport of air pollutants
+originating in China: a possible major cause of multi-day high-
+PM10 episodes during cold season in Seoul, Korea, Atmos. Env-
+iron., 109, 23–30, 2015.
+Olivier, J. G. J., Janssens-Maenhout, G., Muntean, M., and Peters,
+J. A. H. W.: Trends in global CO2 emissions: 2016 Report, no.
+2315, PBL Netherlands Environmental Assessment Agency, The
+Hague, 2016.
+Park, M. E., Song, C. H., Park, R. S., Lee, J., Kim, J., Lee, S.,
+Woo, J.-H., Carmichael, G. R., Eck, T. F., Holben, B. N., Lee,
+S.-S., Song, C. K., and Hong, Y. D.: New approach to monitor
+transboundary particulate pollution over Northeast Asia, Atmos.
+Chem. Phys., 14, 659–674, https://doi.org/10.5194/acp-14-659-
+2014, 2014.
+Peng, J., Hu, M., Gong, Z., Tian, X., Wang, M., Zheng, J., Guo,
+Q., Cao, W., Lv, W., Hu, W., Wu, Z., and Guo, S.: Evolution
+of secondary inorganic and organic aerosols during transport: A
+case study at a regional receptor site, Environ. Pollut., 218, 794–
+803, https://doi.org/10.1016/j.envpol.2016.08.003, 2016.
+Pope, C. A. and Dockery, D. W.: Health Effects of Fine Particu-
+late Air Pollution: Lines that Connect, J. Air Waste Manage.,
+56, 709–742, https://doi.org/10.1080/10473289.2006.10464485,
+2006.
+Pozzer, A., Tsimpidi, A. P., Karydis, V. A., de Meij, A., and
+Lelieveld, J.: Impact of agricultural emission reductions on
+ﬁne-particulate matter and public health, Atmos. Chem. Phys.,
+17, 12813–12826, https://doi.org/10.5194/acp-17-12813-2017,
+2017.
+Shiraiwa, M., Li, Y., Tsimpidi, A. P., Karydis, V. A., Berke-
+meier, T., Pandis, S. N., Lelieveld, J., Koop, T., and Pöschl,
+U.: Global distribution of particle phase state in atmo-
+spheric secondary organic aerosols, Nat. Commun., 8, 15002,
+https://doi.org/10.1038/ncomms15002, 2017.
+www.atmos-chem-phys.net/19/5165/2019/
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+
+5186
+M. Crippa et al.: Contribution and uncertainty of sectorial and regional emissions
+Silva, R. A., Adelman, Z., Fry, M. M., and West, J. J.: The impact of
+individual anthropogenic emissions sectors on the global burden
+of human mortality due to ambient air pollution, Environ. Health
+Persp., 124, 1776, https://doi.org/10.3390/rs9070744, 2016.
+Smith, S. J., van Aardenne, J., Klimont, Z., Andres, R. J.,
+Volke, A., and Delgado Arias, S.: Anthropogenic sulfur diox-
+ide emissions: 1850–2005, Atmos. Chem. Phys., 11, 1101–1116,
+https://doi.org/10.5194/acp-11-1101-2011, 2011.
+Solazzo, E., Riccio, A., Van Dingenen, R., Valentini, L., and Gal-
+marini, S.: Evaluation and uncertainty estimation of the impact of
+air quality modelling on crop yields and premature deaths using
+a multi-model ensemble, Sci. Total Environ., 633, 1437–1452,
+https://doi.org/10.1016/j.scitotenv.2018.03.317, 2018.
+Thunis, P., Degraeuwe, B., Pisoni, E., Ferrari, F., and Clappier,
+A.: On the design and assessment of regional air quality plans:
+The SHERPA approach, J. Environ. Manage., 183, 952–958,
+https://doi.org/10.1016/j.jenvman.2016.09.049, 2016.
+Thunis, P., Degraeuwe, B., Pisoni, E., Trombetti, M., Peduzzi, E.,
+Belis, C. A., Wilson, J., and Vignati, E.: Urban PM2.5 Atlas – Air
+Quality in European Cities, EUR 28804 EN, Publication Ofﬁce
+of the European Union, Luxembourg, 2017.
+Tsimpidi, A. P., Karydis, V. A., and Pandis, S. N.: Response
+of Inorganic Fine Particulate Matter to Emission Changes
+of Sulfur Dioxide and Ammonia: The Eastern United States
+as a Case Study, J. Air Waste Manage., 57, 1489–1498,
+https://doi.org/10.3155/1047-3289.57.12.1489, 2007.
+Van Dingenen, R., Dentener, F., Crippa, M., Leitao, J., Marmer,
+E., Rao, S., Solazzo, E., and Valentini, L.: TM5–FASST: a
+global atmospheric source–receptor model for rapid impact
+analysis of emission changes on air quality and short-lived
+climate pollutants, Atmos. Chem. Phys., 18, 16173–16211,
+https://doi.org/10.5194/acp-18-16173-2018, 2018.
+van Donkelaar, A., Martin, R. V., Brauer, M., Kahn, R.,
+Levy, R., Verduzco, C., and Villeneuve, P. J.: Global Es-
+timates of Ambient Fine Particulate Matter Concentrations
+from Satellite-Based Aerosol Optical Depth: Development
+and
+Application,
+Environ.
+Health
+Persp.,
+118,
+847–855,
+https://doi.org/10.1289/ehp.0901623, 2010.
+van Donkelaar, A., Martin, R. V., Brauer, M., and Boys, B. L.: Use
+of Satellite Observations for Long-Term Exposure Assessment
+of Global Concentrations of Fine Particulate Matter, Environ.
+Health Persp., https://doi.org/10.1289/ehp.1408646, 2014.
+Van Donkelaar, A., Martin, R. V., Brauer, M., Hsu, N. C., Kahn,
+R. A., Levy, R. C., Lyapustin, A., Sayer, A. M., and Winker, D.
+M.: Global estimates of ﬁne particulate matter using a combined
+geophysical-statistical method with information from satellites,
+models, and monitors, Environ. Sci. Technol., 50, 3762–3772,
+2016.
+Venkataraman, C., Brauer, M., Tibrewal, K., Sadavarte, P., Ma, Q.,
+Cohen, A., Chaliyakunnel, S., Frostad, J., Klimont, Z., Martin,
+R. V., Millet, D. B., Philip, S., Walker, K., and Wang, S.: Source
+inﬂuence on emission pathways and ambient PM2.5 pollution
+over India (2015–2050), Atmos. Chem. Phys., 18, 8017–8039,
+https://doi.org/10.5194/acp-18-8017-2018, 2018.
+Visschedijk, A., Denier van der Gon, H., Droge, R., and Van der
+Brugh, H.: A European high resolution and size-differentiated
+emission inventory for elemental and organic carbon for the year
+2005, TNO, Utrecht, 2009.
+Watkiss, P., Pye, S., and Holland, M.: CAFE CBA: Baseline Anal-
+ysis 2000 to 2020. Service Contract for Carrying out Cost-
+Beneﬁt Analysis of Air Quality Related Issues, in particular in
+the clean Air for Europe (CAFE) Programme, April 2005, avail-
+able at: http://ec.europa.eu/environment/archives/cafe/activities/
+pdf/cba_baseline_results2000_2020.pdf (last access: 25 Febru-
+ary 2013), 2005.
+Weimer, S., Alfarra, M., Schreiber, D., Mohr, M., Prévôt, A.,
+and Baltensperger, U.: Organic aerosol mass spectral signa-
+tures from wood-burning emissions: Inﬂuence of burning con-
+ditions and wood type, J. Geophys. Res.-Atmos., 113, D10304,
+https://doi.org/10.1029/2007JD009309, 2008.
+WHO: Review of evidence on health aspects of air pollution – RE-
+VIHAAP, Technical report, The WHO European Centre for En-
+vironment and Health, Bonn, WHO Regional Ofﬁce for Europe,
+2013.
+WHO: Ambient air pollution: a global assessment of exposure and
+burden of disease, Geneva, World Health Organization, 2016.
+Worldbank:
+Death
+in
+the
+Air:
+Air
+Pollution
+Costs
+Money
+and
+Lives,
+available
+at:
+http://www.
+worldbank.org/en/news/infographic/2016/09/08/
+death-in-the-air-air-pollution-costs-money-and-lives
+(last
+access: February 2018), 2016.
+Yu, S., Eder, B., Dennis, R., Chu, S. H., and Schwartz, S. E.: New
+unbiased symmetric metrics for evaluation of air quality models,
+Atmos. Sci. Lett., 7, 26–34, 2006.
+Zhang, Y., Wu, S.-Y., Krishnan, S., Wang, K., Queen, A., Aneja, V.
+P., and Arya, S. P.: Modeling agricultural air quality: Current sta-
+tus, major challenges, and outlook, Atmos. Environ., 42, 3218–
+3237, https://doi.org/10.1016/j.atmosenv.2007.01.063, 2008.
+Atmos. Chem. Phys., 19, 5165–5186, 2019
+www.atmos-chem-phys.net/19/5165/2019/

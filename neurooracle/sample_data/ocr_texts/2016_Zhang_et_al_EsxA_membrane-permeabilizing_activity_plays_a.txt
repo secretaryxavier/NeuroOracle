@@ -1,0 +1,717 @@
+1
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+www.nature.com/scientificreports
+EsxA membrane-permeabilizing 
+activity plays a key role in 
+mycobacterial cytosolic 
+translocation and virulence:  
+effects of single-residue mutations 
+at glutamine 5
+Qi Zhang1,2, Decheng Wang3,4, Guozhong Jiang1,†, Wei Liu1,†, Qing Deng3, Xiujun Li5, 
+Wei Qian6, Hugues Ouellet1 & Jianjun Sun1,6
+EsxA is required for virulence of Mycobacterium tuberculosis (Mtb) and plays an essential role in 
+phagosome rupture and translocation to the cytosol of macrophages. Recent biochemical studies have 
+demonstrated that EsxA is a membrane-permeabilizing protein. However, evidence that link EsxA 
+membrane-permeabilizing activity to Mtb cytosolic translocation and virulence is lacking. Here we 
+found that mutations at glutamine 5 (Q5) could up or down regulate EsxA membrane-permeabilizing 
+activity. The mutation Q5K signiƤcantly diminished the membrane-permeabilizing activity, while Q5V 
+enhanced the activity. By taking advantage of the single-residue mutations, we tested the effects of 
+EsxA membrane-permeabilizing activity on mycobacterial virulence and cytosolic translocation using 
+the esxA/esxB knockout strains of Mycobacterium marinum (Mm) and Mtb. Compared to wild type (WT), 
+the Q5K mutant exhibited signiƤcantly attenuated virulence, evidenced by intracellular survival and 
+cytotoxicity in mouse macrophages as well as infection of zebra Ƥsh embryos. The attenuated virulence 
+of the Q5K mutant was correlated to the impaired cytosolic translocation. On the contrary, the Q5V 
+mutant had a signiƤcantly increased cytosolic translocation and showed an overall increased virulence. 
+This study provides convincing evidence that EsxA contributes to mycobacterial virulence with its 
+membrane-permeabilizing activity that is required for cytosolic translocation.
+Mycobacterium tuberculosis (Mtb), the causative agent of tuberculosis, is considered one of the most successful 
+pathogens. It is estimated that Mtb infects one-third of the world’s population and kills more than one million 
+people each year1,2. At the early stage of infection, Mtb is internalized into the phagosome of host alveolar mac-
+rophage. Instead of being destroyed in the phagolysosomal compartment, Mtb inhibits phagosome-lysosome 
+fusion, persists and replicates within the phagosome3–5. Recent studies have also shown that upon 
+lysosome-phagosome fusion, Mtb progressively translocates from phago-lysosomes into the cytosol6, where Mtb 
+replicates and spread to new cells7,8. Phagosomal maturation arrest and cytosolic translocation have been attrib-
+uted, at least in part, to a Type VII secretion system, termed ESX-16–11. Te esx-1 locus was ﬁrst revealed by the 
+comparative genomic studies, in which Region of Diﬀerence 1 (part of the esx-1 locus) was found to be present in 
+Mtb, but not in the attenuated vaccine strain Mycobacterium bovis Bacille Calmette-Guérin (BCG)12,13. Deletion 
+1Department of Biological Sciences, Border Biomedical Research Center, University of Texas at El Paso, El Paso, TX 
+79968, USA. 2School of Pharmaceutical Sciences, Zhengzhou University, Zhengzhou, 45001, China. 3Department 
+of Biological Sciences, Purdue University, West Lafayette, IN 47907, USA. 4Medical College of China Three Gorges 
+University, Yichang, 443002, China. 5Department of Chemistry, University of Texas at El Paso, El Paso, TX, 79968, 
+USA. 6Sino-Duth Biomedical Information Engineering School of Northeastern University, Shenyang, China. †Present 
+address: The First Aƥliated Hospital of Zhengzhou University, Zhengzhou, China. Correspondence and requests for 
+materials should be addressed to J.S. (email: jsun@utep.edu)
+received: 09 May 2016
+accepted: 10 August 2016
+Published: 07 September 2016
+OPEN
+
+www.nature.com/scientificreports/
+2
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+of esx-1 from Mtb resulted in attenuation of virulence and retention of mycobacteria in the phagosome, while 
+transfer of esx-1 into BCG partially restored virulence14–21. Te esx-1 locus comprises nine genes that encode the 
+ESX-1 secretion system and two secreted eﬀector proteins: 6-kDa early-secreted antigenic target (ESAT-6, EsxA 
+or Rv3875) and 10-kDa culture ﬁltrate protein (CFP-10, EsxB or Rv3874)22–24. Te two proteins form a heterodi-
+mer and are secreted out of Mtb in a co-dependent manner25,26.
+EsxA was ﬁrst identiﬁed as a potent T-cell antigen in the short-term culture ﬁltrate of Mtb27,28. Since then EsxA 
+has been intensively characterized as a potential candidate of novel vaccines and immune-therapeutics against 
+tuberculosis29. In recent years, EsxA has been recognized as a virulence factor essential for Mtb pathogenesis. It 
+was found that Mtb and M. leprae were able to translocate from the phagolysosomal compartment into the cytosol 
+of myeloid cells, and the cytosolic translocation was dependent on secretion of EsxA and EsxB6. Moreover, the 
+ESX-1/EsxA-mediated cytosolic translocation controlled virulence of mycobacteria7. Using a β​-lactamase-based 
+FRET microscopy, a recent study showed that M. marinum (Mm) wild type strain induced phagosomal rupture 
+and translocated to the cytosol, while the EsxA secretion–deﬁcient strain did not8. Similarly, Mtb translocated 
+from the phagosome to the cytosol, while BCG did not. Introduction of RD1 into BCG conferred it the ability to 
+translocate to the cytosol. While deletion of the C-terminus of EsxA did not aﬀect EsxA secretion, it disabled the 
+cytosolic translocation6, which is consistent to the recent biochemical study that deletion of C-terminal ﬂexible 
+arm of EsxA caused defects in membrane permeabilization30. Mycobacterial cytosolic translocation was also 
+observed in the infected mice by a FRET-based ﬂow cytometry11. All of the compelling evidence suggests that 
+EsxA plays an essential role in cytosolic translocation, and the ability of cytosolic translocation links to mycobac-
+terial virulence.
+However, the molecular details how EsxA functions in phagosome rupture and mycobacterial cytosolic trans-
+location is not known. Several independent studies have suggested that EsxA has a membrane-lytic activity. In an 
+earlier planar lipid bilayer study, either EsxA alone or in combination with EsxB caused disruption of the artiﬁcial 
+membranes17. EsxA, but not EsxB, exhibited strong association with the liposomes and lysed the liposomes at 
+acidic pH31. Mm infection or incubation with the puriﬁed EsxA induced pore formation on the red blood cell 
+membranes with an estimated pore size ~4.5 nm in diameter32.
+In the past several years, we have been systematically characterizing the membrane-permeabilizing activity of 
+EsxA. We have found that EsxA, but not EsxB, induced leakage of liposomes in an acidic pH-dependent manner, 
+which was accompanied by signiﬁcant conformational changes and increased solvent-exposed hydrophobicity33. 
+We have presented the ﬁrst direct evidence that EsxA inserts into membranes with the two α​-helixes forming a 
+membrane-spanning domain30. More interestingly, compared to EsxA from Mtb, the orthologous EsxA from 
+non-pathogenic Mycobacterium smegmatis (Ms) was inactive in membrane interaction, despite that they share 
+over 76% homology33. Tis ﬁnding has raised a notion that the membrane-permeabilizing activity of EsxA is a 
+major determinant for virulence phenotype of the Mycobacterium tuberculosis complex. Here, we present evi-
+dence that single-residue mutations at Q5 of EsxA either up or down regulate the membrane-permeabilizing 
+activity, which consequently enhances or attenuates mycobacterial virulence in macrophages and in zebra ﬁsh 
+embryos through up or down regulation of mycobacterial cytosolic translocation.
+Results
+Mutations at Q5 up or down regulated the membrane-permeabilizing activity of MtbEsxA.  
+Sequence alignment shows that MtbEsxA shares 93% homology with MmEsxA and 76% homology with MsEsxA 
+(Fig. 1a). It promoted us to characterize the diﬀerential membrane-permeabilizing activities among diﬀerent 
+EsxA proteins. Presumably, the residues that are common or similar between MtbEsxA and MmEsxA, but diﬀer-
+ent in MsEsxA, are likely associated to membrane-permeabilizing activity. In a systematic mutagenesis analysis, 
+we serendipitously found that mutations at Q5 were able to up- or down-regulate its membrane-permeabilizing 
+activity using the ANTS/DPX (ﬂuorophore and quencher) liposome leakage assay (Fig. 1b), in which the lipos-
+omes are pre-loaded with ANTS/DPX and the ANTS ﬂuorescence is de-quenched when EsxA forms pores on the 
+liposomal membrane to release DPX30,33. Te MtbEsxA(Q5V) mutant had a stronger activity than wild type (WT). 
+Similarly, the Q5L mutant had a similar activity as Q5V, suggesting that a hydrophobic residue at this position 
+enhances the activity. Interestingly, replacing Q5 with the basic residues K or R signiﬁcantly reduced the activity, 
+while replacing Q5 with the acidic residue E had little eﬀect. Tis result was probably due to diﬀerent charge 
+states of basic and acidic residues at low pH (pH ~4), where K and R are positively charged, while E (pKa ~4.1)  
+is (at least partly) protonated and neutral. Together, the result indicates that residues of diﬀerent properties 
+(charged, neutral or hydrophobic) at the ﬁfh position are able to up or down regulate the membrane-permeabi-
+lizing activity of MtbEsxA.
+To further conﬁrm the result, we set out to test the eﬀects of Q5K and Q5V mutations on membrane inser-
+tion. NBD (N,N′-Dimethyl-N-(Iodoacetyl)-N′-(7-Nitrobenz-2-Oxa-1,3-Diazol-4-yl)Ethylenediamine), an 
+environment-sensitive dye, emits ﬂuorescence when it is shifed from an aqueous solution to a hydrophobic envi-
+ronment (e.g. lipid membranes). Tus, NBD ﬂuorescence is an excellent marker for protein membrane insertion. 
+In our previous study, we generated dozens of single-Cysteine mutants of EsxA and labeled them with NBD at the 
+engineered Cys residues by maleimide reaction. Using NBD ﬂuorescence, we have mapped the trans-membrane 
+domain of EsxA, showing that both Helix 1 and 2 insert into the membrane upon acidiﬁcation30. We have found 
+that the NBD labeled at S35C emitted a strong ﬂuorescence, suggesting that S35C is a good position for NBD labe-
+ling and for testing membrane insertion30. Tus, we introduced Q5K and Q5V mutations into the EsxA(S35C) 
+construct. Unfortunately, EsxA(Q5V/S35C) was not expressed for unknown reasons. So we compared the NBD 
+ﬂuorescence (membrane insertion) between WT and Q5K. Consistent with previous result, the NBD-labeled 
+EsxA(S35C) emitted a strong ﬂuorescence in the presence of liposomes, indicating that it inserts into the mem-
+brane upon acidiﬁcation (Fig. 1c). In contrast, the NBD-labeled EsxA(Q5K/S35C) had a signiﬁcantly lower ﬂu-
+orescence, suggesting that it is defected in membrane insertion. Interestingly, however, we noticed that in the
+
+www.nature.com/scientificreports/
+3
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+absence of liposomes, the NBD-labeled EsxA(Q5K/S35C) had a higher background than EsxA(S35C). Tis sug-
+gests that upon acidiﬁcation EsxA(Q5K/S35C) undergoes a diﬀerent conformational change than EsxA(S35C), 
+in which NBD inserts into hydrophobic pockets of the protein. Afer calibrating oﬀ the backgrounds, EsxA(Q5K) 
+has ~25% of membrane insertion of EsxA(WT) (Fig. 1d), which is consistent with the membrane leakage assay.
+In the rest of the study, we used Q5K and Q5V to test the eﬀects of EsxA membrane-permeabilizing activity 
+on mycobacterial virulence and cytosolic translocation. We hypothesize that Q5K will reduces, but Q5V will 
+enhance mycobacterial cytosolic translocation and the virulence.
+Construction and complementation of Mm∆EsxA/B. 
+Mm causes tuberculosis-like diseases in ﬁsh and 
+it is considered as a surrogate model for Mtb34,35. More importantly, Mm and Mtb share high homology in the 
+ESX-1/EsxA system (Fig. 1a)36,37. To test the eﬀects of Q5K on mycobacterial virulence, we generated an esxA/
+esxB knockout strain of Mm (termed Mm∆​EsxA/B) by homologous recombination (Fig. 2a). Deletion of esxA 
+and esxB was conﬁrmed by PCR using either lef-arm primers (Fig. 2b), right-arm primers (Fig. 2c), or the prim-
+ers ﬂanked the two ends of esxA/esxB locus (Fig. 2c). Te deletion was further conﬁrmed by probing EsxA and 
+EsxB proteins in both cell lysate (CL) and culture ﬁltrate (CF) in western blots (Fig. 2d). As expected, MmEsxA 
+was detected in both CL and CF of Mm, but not in Mm∆​EsxA/B. Interestingly, a protein band similar to EsxB 
+was detected in CL of Mm∆​EsxA/B, but not in CF, suggesting that this band may be an EsxB homologous protein 
+in CL that cross-reacted with the EsxB antibody. Te Mm∆​EsxA/B was then complemented with the plasmid 
+pMH406 that constitutively expresses MtbEsxB as well as MtbEsxA WT, Q5K or Q5V respectively. Expression 
+and secretion of the complemented MtbEsxA proteins were conﬁrmed by western blots (Fig. 2e).
+Effects of Q5K and Q5V on mycobacterial in vitro growth, adherence, uptake and intracellular 
+survival in macrophages. 
+We set out to test if Q5K and Q5V aﬀect mycobacterial in vitro growth, which 
+was monitored by OD600 over time. Compared to Mm, Mm∆​EsxA/B had a similar growth rate, indicating that 
+deletion of EsxA/B does not aﬀect in vitro growth. As expected, the complemented WT, Q5K and Q5V strains 
+showed similar in vitro growth (Fig. 3a).
+Mycobacterial infection of host cells is a multi-step event. To dissect the role of EsxA in mycobacterial infec-
+tion, we tested the eﬀects of Q5K and Q5V on mycobacterial adherence, uptake and intracellular survival in 
+macrophages. Interestingly, compared to Ms, which had little adherence to the pre-ﬁxed RAW264.7 cells, Mm 
+Figure 1.  Mutations at Q5 up or down regulated the membrane-permeabilizing activity of MtbEsxA.  
+(a) Te sequence alignment of MtbEsxA, MmEsxA and MsEsxA. Te residues are colored according to 
+chemical nature: Red (hydrophobic), Green (polar), Blue (acidic) and Magenta (basic). Arrow: the Q5 
+position. (b) 6 μ​M of the indicated proteins were injected into the liposome solutions at pH 4.0. Te relative 
+membrane-permeabilizing activity was measured as ANTS ﬂuorescence dequenching at 60 s of post-injection 
+and quantiﬁed from at least three independent experiments. Te data were presented as mean ±​ S.E. (n =​ 5, 
+*p <​ 0.05). (c) Te NBD-labeled EsxA(WT) or EsxA(Q5K) protein was incubated with or without liposomes in 
+20 mM TrisHCl, 100 mM NaCl (pH 7) for 30 min. Subsequently, the solution was rapidly acidiﬁed by adding 0.1 
+volume of 1 M NaAc (pH 4). Te solution was continuously stirred in the cuvette. NBD ﬂuorescence emission 
+was recorded as a function of time. Te representative curves from at least three repeats were shown. (d) Te 
+NBD emission intensity at 90 s post-acidiﬁcation was calculated from three independent experiments. Te 
+background signals (liposome -) were subtracted from the signals with liposome (liposome+​). Te data is 
+presented as mean ±​ S.E. (n =​ 3, *p <​ 0.05).
+
+www.nature.com/scientificreports/
+4
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+had a signiﬁcantly higher adherence (Fig. 3b). Tis result is consistent to the previous report38. Te ability of Mm 
+to adhere to macrophages appears to depend on EsxB/EsxA, because Mm∆​EsxA/B had a greatly reduced adher-
+ence, while complementation with EsxB/EsxA largely restored the adherence. More interestingly, there was no 
+signiﬁcant diﬀerence in adherence between the complemented strains Mm∆​EsxA/B(WT), Mm∆​EsxA/B(Q5K), 
+and Mm∆​EsxA/B(Q5V), suggesting that Q5K and Q5V don’t aﬀect adherence (Fig. 3b). Subsequently, the abil-
+ity of each Mm strain to enter macrophages was tested in the live RAW264.7 cells, and the result (CFU) was 
+normalized to the adherence level of each strain (Fig. 3c). All strains showed similar entry eﬃciency, suggesting 
+that once attached, deletion of EsxA/B or mutations at Q5 do not aﬀect mycobacterial entry into macrophages. 
+Finally, we tested the eﬀects of Q5K and Q5V on mycobacterial intracellular survival. As expected, Mm had a 
+much higher intracellular survival than Ms and Mm∆​EsxA/B (Fig. 3d). Notably, Mm∆​EsxA/B(WT) and Mm∆​
+EsxA/B(Q5V) had higher intracellular survival than that of Mm∆​EsxA/B(Q5K). Tis data strongly suggests that 
+the membrane-permeabilizing activity of EsxA is essential for mycobacterial intracellular survival.
+Effects of Q5K and Q5V on mycobacterial cytotoxicity. 
+Infection is a live-or-perish process between 
+host cells and bacteria. Te more intracellular survival of bacteria usually means more host cell death. We further 
+tested the eﬀects of Q5K and Q5V on mycobacterial cytotoxicity in RAW264.7 cells. Here, we used a live/dead 
+assay to stain the infected cells with dead cells in red and live cells in green. As expected, Ms showed little cyto-
+toxic eﬀect on the cells, while Mm caused cytotoxicity that was signiﬁcantly higher than Mm∆​EsxA/B (Fig. 4). 
+Among the complemented strains, Mm∆​EsxA/B(WT) and Mm∆​EsxA/B(Q5V) induced cytotoxicity that was 
+Figure 2.  Generation and complementation of MmΔEsxA/B. (a) Te schematic drawing of the experimental 
+design to delete esxB/esxA by homologous recombination. Te genes of esxB/esxA were replaced with a 
+hygromycin-resistant gene cassette by allelic exchange. Te hygromycin-resistant gene cassette was further 
+removed by Cre recombinase. Te primers for ampliﬁcation of lef arm (PLA1 and 2), right arm (PRA1 and 2) 
+and the genes of esxB/esxA (PCE1 and 2) were labeled. (b) Te single-crossover of lef arm was conﬁrmed by 
+PCR using PLA primers. WT: wild type; SC: single-crossover. (c) Te knockout of esxB/esxA was conﬁrmed by 
+PCR using PRA and PCE primers. KO: knockout. (d) Te total cell lysate (CL) and culture ﬁltrate (CF) from WT 
+and KO strains of Mm were loaded to SDS-PAGE and subjected to Western blot using anti-EsxA and anti-EsxB 
+antibodies. GroEL was tested as a control to distinguish CL and CF. (e) Complementation of the MmΔ​EsxA/B 
+strain with esxB or esxA genes carrying WT and Q5 mutants. EsxA proteins in CL and CF were detected by 
+western blot using anti-EsxA antibody. A recombinant EsxA puriﬁed from E. coli was used as a positive control.
+
+www.nature.com/scientificreports/
+5
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+much higher than Mm∆​EsxA/B(Q5K) (Fig. 4). Te result of cytotoxicity is well consistent to the result of intra-
+cellular survival. Both assays have clearly demonstrated that the membrane-permeabilizing activity of EsxA is an 
+essential factor for mycobacterial intracellular survival and cytotoxicity.
+Effects of Q5K and Q5V on mycobacterial cytosolic translocation. 
+We hypothesized that the 
+membrane-permeabilizing activity of EsxA contributes to mycobacterial intracellular survival and cytotoxic-
+ity through catalyzing translocation of mycobacteria from the phagosome to the cytosol. To probe mycobac-
+terial cytosolic translocation, we used CCF4-AM, a well-established bacterial β​-lactamase sensitive FRET 
+reporter8,39–41. CCF4-AM is composed of a ﬂuorescence donor (7-hydroxycoumarin, blue), a ﬂuorescence accep-
+tor (ﬂuorescein, green) as well as a cephalosporin core, which is the cleavable substrate of bacterial β​-lactamase. 
+When mycobacteria rupture the phagosomal membrane and replicate in the cytosol, mycobacterial β​-lactamase 
+cleaves CCF4, which separates the ﬂuorescence donor and acceptor and results in loss of FRET signal (shif from 
+green to blue). To ensure timely, accurate quantiﬁcation of FRET signal change from the infected RAW264.7 
+cells, we used an ISS-K2 ﬂuorometer, which allows us to monitor the overall change of FRET signal from a large 
+number of cells in a single measurement. To validate the approach, we ﬁrst used the CHO (Chinese hamster 
+ovary) cell line that stably expresses β​-lactamase (CHO-β​-lac) in comparison with the parental CHO cell line 
+Figure 3.  Eﬀects of Q5K and Q5V on mycobacterial growth, adherence, uptake and intracellular survival. 
+(a) Te growth curves of Mm, MmΔ​EsxA/B, MmΔ​EsxA/B(WT), MmΔ​EsxA/B(Q5K) and MmΔ​EsxA/B(Q5V) 
+in vitro. Te indicated mycobacteria with same concentration were grown in 7H9 medium at 30 °C. Te 
+concentrations of mycobacteria at the indicated times were measured with OD600. Te represented data from 
+three independent experiments were shown. (b) Mycobacterial adherence to RAW264.7 cells. Prior to test, 
+Raw264.7 cells were ﬁxed by 4% PFA. Single-cell suspensions of mycobacteria were incubated with the ﬁxed 
+cells at MOI 10:1 for 30 min. Te free mycobacteria were removed by 3 washes with PBS. Te cells were lysed 
+and plated on 7H10 plates with appropriate antibiotics. CFU was counted and the adherence (%) was calculated 
+as adhered bacteria/total input (%). Te data is presented as mean ±​ S.E (n =​ 6, *p <​ 0.05). (c) Mycobacterial 
+uptake by RAW264.7 cells. Single-cell suspensions were incubated with RAW264.7 cells at MOI 10:1 for 2 h. Te 
+extracellular mycobacteria were killed by amikacin and washed oﬀ with PBS. Te cells were lysed and plated on 
+7H10 plates with appropriate antibiotics. CFU for each strain was counted and the uptake (%) was calculated as 
+engulfed bacteria/adhered bacteria (%). (d) Intracellular survival in RAW264.7 cells. Afer 2 h infection, cells 
+were washed and incubated in fresh medium for 3 days before lysed and plated. Data were calculated as the CFU 
+(afer 3 days infection)/the original input (%). Te data is presented as mean ±​ S.E. (n =​ 6, *p <​ 0.05).
+
+www.nature.com/scientificreports/
+6
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+(Fig. 5a). We found that with excitation at 409 nm, CHO cells had the emission peak at ~530 nm (green). In con-
+trast, CHO-β​-lac cells had the emission peak at ~450 nm (blue), indicating that CCF4 is cleaved by β​-lactamase. 
+Tus, the K2 ﬂuorometer is suitable to measure CCF4-FRET signal in cells. Next, we measured the FRET changes 
+(blue/green ratio) in the RAW264.7 cells infected by the mycobacterial strains. As shown in Fig. 5b,c, the blue/
+green ratio of the Mm-infected cells is signiﬁcantly higher than that of the Mm∆​EsxA/B-infected cells, indicating 
+EsxA/B is required for cytosolic translocation. In the infection by the complemented strains, the cells infected by 
+MmΔ​EsxA/B(Q5V) had the highest blue/green ratio, which was followed by MmΔ​EsxA/B(WT) and by MmΔ​
+EsxA/B(Q5K), Te phenotype of cytosolic translocation is correlated very well to the membrane-permeabilizing 
+activity.
+Effects of Q5K and Q5V on mycobacterial infection in zebra Ƥsh embryos. 
+To test the eﬀects of 
+Q5K and Q5V on mycobacterial infection in vivo, we used zebra ﬁsh as an animal model34,42. Te zebra ﬁsh are 
+engineered to express a green ﬂuorescent protein, Dendra2, in macrophages43. We also expressed a mCherry 
+Figure 4.  Eﬀects of Q5K and Q5V on mycobacterial cytotoxicity. (a) RAW264.7 cells were infected at an 
+MOI of 20 for 3 h. Te cells were stained with EthD-1 (label dead cells as red) and Calcein-AM (label live 
+cells as green). Representative images taken in a confocal microscope were shown. (b) Quantiﬁcation of the 
+cytotoxicity. Te red cells in 8 random ﬁelds for each infection were counted and presented as mean ±​ S.E. 
+(n =​ 8, *p <​ 0.05). Control (Ctrl): mock infection.
+
+www.nature.com/scientificreports/
+7
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+protein in the mycobacterial strains so that bacteria can be also tracked inside the ﬁsh. Te ﬁsh embryos at the 
+day 3 of post-fertilization were infected by the indicated strains through ear injection and were examined under 
+a microscope everyday afer infection (Fig. 6a,b). At the day 3 of post-infection (DPI), a signiﬁcant number of 
+Mm foci were found at the remote sites of the ﬁsh bodies, indicating that Mm disseminated in the ﬁsh. On the 
+contrary, we found few MmΔ​EsxA/B foci disseminated from the injection site. As expected, the number of MmΔ​
+EsxA/B(Q5V) foci at the remote sites is signiﬁcantly higher than that of MmΔ​EsxA/B(WT), and the number of 
+MmΔ​EsxA/B(WT) foci is signiﬁcantly higher than that of MmΔ​EsxA/B(Q5K) (Fig. 6b). In parallel to dissemina-
+tion experiment, we calculated the survival rate up to 7 DPI. Consistent to the dissemination data, Mm-infected 
+embryos had ~55% survival at 7 DPI, while MmΔ​EsxA/B-infected embryos still had ~88% survival. Within 
+the complemented strains, MmΔ​EsxA/B(Q5V) caused the highest death (~53% survival), which was followed 
+by MmΔ​EsxA/B(WT) (~74% survival) and by MmΔ​EsxA/B(Q5K) (86% survival) with signiﬁcant diﬀerence 
+(Fig. 6c) (Table S1).
+Figure 5.  Eﬀects of Q5K and Q5V on cytosolic translocation of Mm. (a) CHO cells and CHO-β​-lac cells 
+were loaded with CCF4-AM, and CCF4 FRET was monitored at emission 425–600 nm with excitation at 
+409 nm. (b) RAW264.7 cells were infected with Mm, MmΔ​EsxA/B, MmΔ​EsxA/B(WT), MmΔ​EsxA/B(Q5K) 
+and MmΔ​EsxA/B(Q5V) for 2 h. Te infected cells were further incubated for 48 h at 30 °C and then loaded 
+with CCF4-AM. Emission spectra of CCF4 were monitored at 425–600 nm, with excitation at 409 nm. (c) Blue/
+Green ratios in the RAW264.7 infected by the indicated mycobacteria were calculated as I450/I530. Te data was 
+obtained from three independent experiments and were presented as mean ±​ S.E. (n =​ 3, *p <​ 0.05). Control 
+(Ctrl): mock infection.
+
+www.nature.com/scientificreports/
+8
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+Effects of Q5K and Q5V on Mtb-induced cytotoxicity in THP-1 cells. 
+Finally, we tested whether 
+the ﬁndings made in Mm can be replicated in Mtb infection in human macrophages. Similarly, we generated 
+the complemented Mtb strains by transferring pMH406(WT), pMH406(Q5K) and pMH406(Q5K) into MtbΔ​
+EsxA/B. Expression and secretion of the MtbEsxA WT, Q5K and Q5V were detected by western blot (Fig. 7a). 
+Interestingly, we noticed that there was much less Q5V protein in the culture ﬁltrate relative to other proteins 
+(Fig. 7b). To measure the Mtb-induced cytotoxicity, we used the crystal violet uptake assay, which is a colori-
+metric method that quantiﬁes the cytotoxic eﬀect as a function of the remaining live cells afer infection44. Te 
+reason why we quantiﬁed live cells instead of dead cells as described in Live/Dead assay (Fig. 4) was because that 
+a large number of dead cells were washed oﬀ the plates afer a long-period of infection, which undercounted 
+dead cells (cytotoxicity), especially for the virulent strains. As expected, Mtb had the least remaining cells (OD600 
+~0.5), while MtbΔ​EsxA/B had the most remaining cells (OD600 ~ 1.2). Within the complemented strains, MmΔ​
+EsxA/B(Q5V) was the most cytotoxic (OD600 ~ 0.52), which was followed by MmΔ​EsxA/B(WT) (~0.75) and by 
+MmΔ​EsxA/B(Q5K) (~1.1) (Fig. 7b).
+Effects of Q5K and Q5V on cytosolic translocation of Mtb. 
+Phagosome rupture and cytosolic trans-
+location of Mtb in THP-1 cells were tested using CCF4-AM FRET by two independent approaches: confocal 
+ﬂuorescence microscopy (Fig. 8a,b) and emission spectra in the ﬂuorometer (Fig. 8c). Consistent to the results 
+obtained in Mm, the blue/green ratio of Mtb-infected cells is signiﬁcantly higher than that of MtbΔ​EsxA/B. 
+Among the complemented strains, the MtbΔ​EsxA/B(Q5V)-infected cells had the highest blue/green ratio, which 
+was followed by MtbΔ​EsxA/B(WT) and by MtbΔ​EsxA/B(Q5K).
+Discussion
+While current studies strongly suggest that EsxA is required for virulence of mycobacteria, particularly 
+through facilitating mycobacterial phagosome-to-cytosol translocation6–8,11, direct evidence is missing that the 
+membrane-permeabilizing activity of EsxA catalyzes the critical pathogenic process. In the present study, we 
+unambiguously demonstrated that Q5V and Q5K either up or down regulated the membrane-permeabilizing 
+activity of EsxA, and consequently up or down regulated mycobacterial cytosolic translocation and virulence 
+both in cultured macrophages and in zebra ﬁsh. As one of the most successful bacterial pathogens, Mtb has been 
+reported to establish infection by using multiple virulence factors45. Tus, it is surprising that single-residue 
+mutations of a single virulence factor caused such a dramatic eﬀect on the virulence. Te results strongly argue 
+that the EsxA-catalyzed phagosome-to-cytosol translation is one of the major mechanisms in mycobacterial 
+pathogenesis. Tus, the membrane-permeabilizing activity of EsxA can be a promising therapeutic target.
+Figure 6.  Eﬀects of Q5K and Q5V on Mm infection of zebra ﬁsh embryos. (a) Mycobacterial dissemination. 
+Te zebra ﬁsh embryos at the day 3 of post-fertilization were infected by the indicated Mm strains through 
+ear injection (1000 CFU/ﬁsh). At the day 3 of post-infection, the embryos were observed microscopically and 
+mycobacterial dissemination was recorded. Te injection sites on the heads and the disseminated mycobacteria 
+(mCherry) engulfed by macrophages (green) were labeled by arrows. (b) Te numbers of disseminated 
+mycobacterial foci in the ﬁshes were calculated from three independent experiments. Te data is presented as 
+mean ±​ S.E (n =​ 60, *p <​ 0.05). (c) Fish survival plot. Death of embryos was monitored everyday afer infection. 
+Twenty ﬁshes were tested for each group and the experiment was repeated three independent times. Te 
+survival rate (%) was calculated and plotted against days of post-infection.
+
+www.nature.com/scientificreports/
+9
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+It is an interesting finding that various mutations of Q5 either up or down regulated the 
+membrane-permeabilizing activity of EsxA, which was apparently aﬀected by the degree of charge state or hydro-
+phobicity at this position upon acidiﬁcation. Since the structure of the putative EsxA pore is not available, the 
+mechanism underlying this observation is not clear. Our earlier study has shown that the N- and C-terminal 
+ﬂexible arms are required for pore formation, but they do not physically insert into the membrane, instead they 
+may function in attaching EsxA to the membrane surface and supporting membrane insertion of the central 
+Helix-turn-Helix motif 30. Moreover, EsxA pore is likely to be an oligomeric complex in the membrane. Tus, the 
+N- and C-terminal ﬂexible arms may be involved in intra- and/or inter-molecular interactions within the complex 
+to facilitate pore formation. One can imagine that mutations at Q5 could regulate membrane-permeabilizting 
+activity through any of the potential mechanisms described above.
+Recently, we have found that the differential membrane-permeabilizing activity between MtbEsxA and 
+MsEsxA is at least partly attributed to the residues at position 25–26, where MtbEsxA has I-H, which serve a pH 
+sensor, while MsEsxA has T-A. Exchange of IH and TA completely restored MsEsxA membrane-permeabilizing 
+activity to a level equivalent to MtbEsxA, but only partly aﬀected MtbEsxA46. Because V is on MsEsxA, we ini-
+tially predicted that replacing Q5 with V would decrease the membrane-permeabilizing activity of MtbEsxA. Te 
+results in this study made us to believe that besides Q5 and I25H26, there are other residues responsible for the 
+diﬀerential membrane-permeabilizing activity between MtbEsxA and MsEsxA, which warrants further investi-
+gation into the mechanism of EsxA membrane permeabilization.
+Relative to the complemented WT strain, the complemented Q5V exhibited signiﬁcantly stronger virulence 
+in zebra ﬁsh embryos and in THP-1 infection measured by crystal violet uptake assay (Fig. 6, Fig. 7b). However, 
+Q5V showed intracellular survival (Fig. 3d) and cytotoxicity (by Live/Dead assay) that were similar to the com-
+plemented WT (Fig. 4). Tis discrepancy is mainly due to the loss of dead cells during washes afer infection. 
+Tis is especially true for the cells infected by the virulent strains. Te more virulent, the more cell loss. Tus, the 
+number of dead cells (e.g. Fig. 4) is usually undercounted for the virulent strains. CCF-4 FRET assay is a quanti-
+tative approach that measures blue/green ratio for each individual cell, and it is more independent of the number 
+of remaining cells on the plates. Tus, Q5V showed signiﬁcantly higher cytosolic translocation in most CCF-4 
+FRET assays (Fig. 5c, Fig. 8b). Finally, we observed that the amount of Q5V protein in culture ﬁltrate of MtbΔ​
+EsxA/B(Q5V) was lower than others (Fig. 7a), suggesting that Q5V may have a lower secretion in Mtb. Te exact 
+mechanism is not known and may be investigated in future study. Even though the secretion of Q5V protein was 
+lower, MtbΔ​EsxA/B(Q5V) still exhibited stronger cytotoxicity (Fig. 7b) and cytosolic translocation (Fig. 8) than 
+MtbΔ​EsxA/B(WT), which further supports our conclusion that Q5V enhanced virulence through increasing 
+membrane-permeabilizing activity.
+Figure 7.  Eﬀects of Q5K and Q5V on Mtb cytotoxicity in THP-1 cells. (a) Expression and secretion of EsxA 
+protein in Mtb. Te cell lysate (CL) and culture ﬁltrate (CF) of the indicated Mtb strains were loaded to SDS-
+PAGE, followed by western blotting using the indicated antibodies. Te secreted antigen Ag85 was used as 
+a loading control in both CL and CF. GroEl was used to control the potential cross-contamination between 
+CF and CL. (b) THP-1 cells were infected with the indicated strains for 72 h at MOI of 10:1. Te attached live 
+cells were stained with crystal violet and measured as OD600. Te data were presented as mean ±​ S.E (n =​ 4, 
+*p <​ 0.05).
+
+www.nature.com/scientificreports/
+10
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+Another interesting observation is that MmΔ​EsxA/B failed to adhere to the ﬁxed RAW264.7 cells. To the 
+best of our knowledge, this is the ﬁrst report that EsxA is required for mycobacterial adherence to macrophages. 
+While only ~10% of Mm was found to be adhered to the ﬁxed cells, which is consistent to the previous study by 
+another group38, it represented a large number of mycobacteria that provided us a big enough sample size for 
+analysis of statistical signiﬁcance. More importantly, all of strains used in the experiments, including Ms, Mm, 
+MmΔ​EsxA/B, MmΔ​EsxA/B(WT), MmΔ​EsxA/B(Q5K), and MmΔ​EsxA/B(Q5V), were excellent internal con-
+trols to each other, which demonstrated the speciﬁcity of the results. It is generally accepted that EsxA is a secreted 
+protein, but it has been reported that Mm and Mtb with deﬁcient EsxA exhibited diﬀerent colony morphologies, 
+implicating that EsxA binds to mycobacterial cell walls47. Recently, Champion et al. showed that some EsxA 
+molecules remained bound to the surface of mycobacteria instead of being secreted into the medium. Moreover, 
+EsxA on the surface of mycobacteria caused more cytotoxicity than those secreted48,49. Tere are also reports 
+that EsxA binds to the host cells through interacting with speciﬁc receptor molecules on the cell surface50–52. In 
+zebra ﬁsh, ESX-1/EsxA has been implicated in recruitment of macrophages to granuloma53,54. Together, all the 
+evidence suggests that EsxA may play a role in adhering mycobacteria to host cells, which requires further inves-
+tigation. Since Q5K and Q5V did not aﬀect adherence (Fig. 3b), suggesting that adherence is independent of EsxA 
+membrane-permeabilizing activity.
+Tis study has directly linked the membrane-permeabilizing activity of EsxA to mycobacterial cytosolic trans-
+location, intracellular survival and cytotoxicity. It clearly supports the model that EsxA membrane-permeabilizing 
+activity catalyzes phagosome rupture and mycobacterial translocation to the cytosol, where mycobacteria rep-
+licate and undergo cell-to-cell spreading. Since the structure of the putative EsxA pore is not available, the 
+Figure 8.  Eﬀects of Q5K and Q5V on cytosolic translocation of Mtb. (a) THP-1 cells were infected with the 
+indicated Mtb strains at a MOI of 2 for 6 days and then loaded with CCF4-AM for 2 h. Te cells were imaged 
+at both blue and green channels in a confocal ﬂuorescence microscope. (b) Blue/green ratio of each cell in 
+the random ﬁelds was measured by Cell Prolifer 2.0. Te data were calculated from at least 1000 cells for each 
+infection (*p <​ 0.05). (c) THP-1 cells were infected with the indicated Mtb strains at a MOI of 2 for 9 days and 
+then loaded with CCF4-AM for 2 h. Te cells were washed, detached and ﬁxed by PFA. Blue (450 nm)/green 
+(530 nm) ratio was measured in the ﬂuorometer with excitation at 409 nm. Te data is presented as mean ±​ S.E. 
+(n =​ 3, *p <​ 0.05).
+
+www.nature.com/scientificreports/
+11
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+molecular mechanism by which EsxA causes phagosome rupture is largely unknown. It is possible that other 
+mycobacterial and/or host factors may be also involved in this process55. It is well known that EsxB and EsxA 
+form a heterodimer25,26, but EsxB does not have membrane-lytic activity and is considered as a putative chaper-
+one that protects EsxA from being degraded or prevents pre-matured membrane permeabilization by EsxA31,33. 
+Using surface plasmon resonance, de Jonge et al. showed that CFP10 was dissociated from EsxA in an acidic 
+pH-dependent manner31. In our earlier pH titration experiment, EsxA only formed pores on the liposomal mem-
+brane at pH 5 or below33. All the data argue that an acidic pH is required for EsxA to permeabilize the membrane. 
+However, recent studies also suggest that EsxA plays a role in arresting phagosome maturation, where most intra-
+cellular mycobacteria stayed in poorly acidiﬁed phagosomes, while ESX-1 knockout strains stayed in acidiﬁed 
+phagosomes9,10. Most recently, Simeone et al. showed that partial prevention of phagosome acidiﬁcation is a 
+prerequisite for mycobacterial phagosome rupture and cytosolic access11. Tis discrepancy may be due to the dif-
+ference between in vitro and in vivo experimental conditions, where in vivo mycobacterial and/or host factors may 
+allow EsxA to form pores at a higher pH. Another possibility is that the two events may actually occur at diﬀerent 
+stages of infection. Tat is, EsxA may inhibit phagosome maturation at early stage of infection to establish latency, 
+while at the later stage of infection EsxA catalyzes mycobacterial escape from the phagosome. An earlier report 
+has shown that upon lysosome-phagosome fusion, Mtb progressively translocates from phago-lysosomes into the 
+cytosol6. Terefore, one can imagine that phagosome-lysosome fusion may be a trigger for mycobacteria to escape 
+from the phagosome to the cytosol. Upon phagosome-lysosome fusion, acidiﬁcation induces EsxA-mediated 
+membrane permeabilization, which allows mycobacteria escape to the cytosol before being killed by the hostile 
+environment.
+In addition to catalyzing mycobacterial cytosolic translocation, several independent studies have sug-
+gested that even prior to full-ﬂedged phagosomal rupture, EsxA may permeabilize the phagosomal membrane 
+to expose mycobacterial DNA to the host cytosolic DNA-sensing pathway, which results in a series of host 
+anti-mycobacterial immune responses, including induction of autophagy and cytokine release56–62.
+As a potent T-cell antigen, EsxA has been intensively studied as a potential candidate for novel TB vaccines63. 
+However, the membrane-permeabilizing activity raises a safety concern when EsxA WT is used as a vaccine. Te 
+single-point mutations at Q5, such as Q5K or Q5R, reduce cytotoxicity, but still possibly maintain antigenicity. 
+Tus, they have potentials to be developed into safer vaccines and therapeutics against tuberculosis.
+Experimental Procedures
+Protein puriƤcation. 
+MtbESAT6 WT, Q5E, Q5V, and Q5L were cloned into pET22b vector and expressed 
+and puriﬁed from the inclusion body of E. coli BL21(DE3) as previously described33. Q5R and Q5K had little 
+expression in pET22b vector, so they were sub-cloned into pGEX4T-1 to be expressed as fusion proteins with a 
+N-terminal GST and a C-terminal His-tag. Te GST-EsxA fusion proteins were expressed and puriﬁed as previ-
+ously described30,33.
+ANTS/DPX Membrane leakage assay. 
+Te liposomes containing the dye/quencher pair, 8-aminonapthalene- 
+1,3,6- trisulfonic acid (ANTS)/p-xylene-bis-pyridinium bromide (DPX), were prepared by rehydrating the dry 
+lipid ﬁlm in 50 mM ANTS, 50 mM DPX, 5 mM HEPES (pH 7.3), followed by extrusion through a 200-nm ﬁlter 
+and by desalting in a G-25 column in 5 mM HEPES, 150 mM NaCl (pH 7.3).
+ANTS ﬂuorescence dequenching was measured in an ISS K2 multiphase frequency and modulation ﬂuorom-
+eter with excitation 380 nm and emission at 520 nm as described previously30,33. Brieﬂy, 100 μ​l of the liposomes 
+containing ANTS/DPX was diluted into 1.3 ml of 50 mM sodium acetate and 150 mM NaCl (pH 4.0) with con-
+tinuous stirring. Afer the baseline was stabilized, 100 μ​l of puriﬁed proteins (total of 100 μ​g) was injected into the 
+cuvette, and the ﬂuorescence signal was monitored in real time.
+Membrane insertion assay by NBD. 
+EsxA(S35C) and EsxA(Q5K/S35C) were puriﬁed and then labeled 
+with IANBD (Invitrogen) as described previously30,64,65. Te labeling eﬃciency is ~100%. Te NBD-labeled pro-
+teins (80 μ​g) were incubated in 20 mM TrisHCl, 100 mM NaCl (pH 7.0) with or without liposomes for 30 min, 
+and were transferred to a cuvette with a stirring bar in the ISS K2 ﬂuorometer. Acidiﬁcation was triggered by 
+adding 0.1 volume of 1 M NaAc (pH 4.0) to the cuvette. NBD was excited at 488 nm, and emission was recorded 
+at 544 nm. Crossed polarizers on excitation and emission beams and a 520-nm-long ﬁlter were used to reduce the 
+background scatter.
+Cell culture. 
+RAW264.7 cells (ATCC) were maintained in DMEM medium supplemented with 10% NCBS 
+in 5% CO2 at 37 °C. THP-1 cells (ATCC) were maintained in RPMI 1640 supplemented with 10% FBS in 5% CO2 
+at 37 °C. Before experiments, THP-1 cells were induced with 20 ng/ml of phorbol 12-myristate 13-acetate (PMA) 
+for 72 h to diﬀerentiate into macrophage-like cells. Chinese hamster ovary (CHO) cells and CHO-β​-Lac cells  
+(Life Technologies Inc.) were maintained in F-12 medium supplemented with 10% NBS in 5% CO2 at 37 °C.
+Construction esxB/esxA knockout Mm strain. 
+Te knockout strain MmΔ​EsxA/B was generated by 
+homologous recombination with modiﬁcations36. Te fragments at lef arm and right arm of the esxB/esxA 
+operon were ampliﬁed from Mm genomic DNA using the primers PLA-1/PLA-2 and PRA-1/PRA-2 (Table S2). Te 
+PCR products of lef arm and right arm were then cloned into the pJSC407 plasmid (generous gif from Dr. 
+Jeﬀery Cox, UCSF) using ligation-free PCR cloning kit (Clontech). Te resultant plasmid was digested by Pac I 
+and ligated to a sucrose resistance gene from pGOAL17 (Addgen). Te resultant plasmid was then introduced 
+into Mm by electroporation. Single-crossover clones were ﬁrst selected on 7H10 plates supplemented with 10% 
+OADC and containing 50 μ​g/ml hygromycin, followed by counterselection of double-crossover clones on 7H10 
+plates containing 2% sucrose plates. Deletion of esxB/esxA was conﬁrmed by PCR and western blot. Te hygr gene 
+was later removed using Cre recombinase.
+
+www.nature.com/scientificreports/
+12
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+Complementation of MmΔEsxA/B and MtbΔEsxA/B. 
+Te plasmids pMH406 constitutively expresses 
+MtbEsxB and MtbEsxA in mycobacteria18. Te plasmids pMH406(WT), pMH406(Q5K) and pMH406(Q5V) 
+were electroporated into MmΔ​EsxA/B to generate the complemented strains, named MmΔ​EsxA/B(WT), MmΔ​
+EsxA/B(Q5K) and MmΔ​EsxA/B(Q5V), respectively.
+Similarly, pMH406(WT), pMH406(Q5K) and pMH406(Q5V) were transferred into MtbΔ​EsxA/B to generate 
+MtbΔ​EsxA/B(WT), MtbΔ​EsxA/B(Q5K) and pMH406(Q5V).
+Mycobacterial adherence, uptake and intracellular survival. 
+Mycobacterial adherence were carried 
+out as previously described with modiﬁcations38. Brieﬂy, RAW264.7 (0.5 ×​ 106 cells/well) were ﬁxed in 4% para-
+formaldehyde (PFA) for 10 min. Mycobacteria were prepared as single-cell solution as previously described66, and 
+then added to the cells with a multiplicity of infection (MOI) of 10. Afer 30 min of incubation, the free mycobac-
+teria were removed by 3 washes with PBS. Te bound mycobacteria were harvested and plated onto 7H10 plates to 
+determine colony-forming units (CFU). Te rate of adherence was calculated as adhered bacteria/total input (%).
+In the uptake assay the mycobacteria were incubated with live RAW264.7 cells for 2 h at 37 °C. Te extracel-
+lular mycobacteria were removed by washes and amikacin. Te cells were then lysed in 0.1% Triton X-100 and 
+plated on 7H10 plates to determine CFU of the intracellular mycobacteria. Te rate of uptake was calculated as 
+engulfed bacteria/the adhered (%).
+In intracellular survival assay, the infection was same as the uptake assay. Te infected cells were maintained in 
+growth medium for 3 days before lysed and plated. Te rate of intracellular survival is expressed as the CFU afer 
+3 days of infection/the CFU of adherence (%).
+Western blot analysis. 
+Mm or Mtb grown in Sauton’s medium were harvested, and the supernatant was 
+ﬁltered through a 0.22 μ​m ﬁlter twice to generate culture ﬁltrate (CF). Te CF was concentrated by 100 folds as 
+described previously36. Te whole cell lysate (CL) was obtained by lysing mycobacterial cells in a bead beater.
+20 μ​g of CL and equivalent amount of CF were separated in 12% Tricine-SDS gels. Proteins were transferred 
+to PVDF membrane and subjected to western blot using antibodies against EsxA (AB26246; Abcam, Cambridge, 
+MA), EsxB (NR-13801; BEI Resources, Manassas, VA). GroEL (NR13813, BEI) and Ag85 (NR-13807; BEI) were 
+used as loading controls for CL and CF fractions.
+Mycobacteria-induced cytotoxicity. 
+Live/dead assay for the Mm–infected RAW264.7 cells–RAW264.7 
+cells (5 ×​ 105) were infected with the indicated Mm strains at an MOI of 20 for 2 h at 37 °C, followed by another 
+3 h incubation afer washing oﬀ the free bacteria. Te infected cells were stained with ethidium homodimer and 
+calcein-AM (Life Technologies) at 37 °C for 1 h, and images were taken in a Floid Cell Imaging Station. Te rela-
+tive cytotoxicity was quantiﬁed by enumeration of dead cells in at least 6 random ﬁelds for each infection.
+Crystal violet uptake assay for the Mtb-infected THP-1 cells–Te PMA-diﬀerentiated THP-1 cells (5 ×​ 105) 
+were infected with the indicated Mtb strains at an MOI of 10 for 72 h at 37 °C and ﬁxed with 4% PFA for 30 min, 
+and then stained with 0.1% aqueous crystal violet for 30 min with gentle shaking. Te excessive dye was washed 
+oﬀ with water. Te plates were allowed to air dry and the stained cells were lysed in 0.2% Triton X-100 for 30 min 
+at RT with gentle shaking. Te supernatant was transferred into a 96-well plate for OD600 measurement.
+Mycobacterial cytosolic translocation. 
+For Mm strains, RAW264.7 cells (3 ×​ 106) were infected with 
+single-cell solutions of the indicated Mm strains at MOI of 10 for 2 h at 30 °C, followed by another 48 h incubation 
+afer removing free mycobacteria. Te cells were harvested by centrifugation and incubated with 1 μ​M CCF4-AM 
+for 2 h in dark by following the manufacturer’s instruction (Liveblazer FRET B/G loading kit, Life Technology). 
+Afer washing oﬀ the free CCF4-AM, the cells were incubated in 2 ml of EM buﬀer with 2.5 μ​M probenecid acid. 
+Te spectrum of CCF4 was measured in the ISS-K2 ﬂuorometer with excitation at 409 nm and emission from 
+425–600 nm. Te blue/green ratio was calculated as the ratio of I450/I530.
+For Mtb strains, the PMA-induced THP-cells (1.5 ×​ 106) were infected by the single-cell solutions of the indi-
+cated Mtb stains at MOI of 3 for 2 h. Afer removing the free bacteria, the cells was continuously incubated at 
+37 °C for 7–9 days. We found that at 9 days of post-infection, Mtb and Mtb∆​EsxA/B started to show signiﬁcant 
+diﬀerence in blue/green ratio (Figure S1). Te cells were loaded with 2 μ​M CCF4-AM at RT for 2 h. Afer washing 
+oﬀ the free dye, the cells were harvested and ﬁxed by 4% PFA in the presence of 2.5 μ​M probenecid acid. Te blue/
+green ratio were measured in the ISS-K2 ﬂuorometer and calculated as described above.
+For ﬂuorescence microscopy, THP-1 cells were seeded in a 96-well plate (3 ×​ 104 cells/well) and the infec-
+tion was exactly same as above described except with MOI of 2. Afer 6 days of infection, the cells were loaded 
+with CCF4-AM as described above. Te CCF4 ﬂuorescence was measured in a Zeiss LSM 700 inverted confocal 
+microscope. Blue (450 nm) and green (520 nm) ﬂuorescent pictures were simultaneously taken at the excitation 
+laser (405 nm). Automated image analysis including cell segmentation and quantiﬁcation was achieved using Cell 
+Prolifer.
+Fish husbandry and embryo infection. 
+Te transgenic zebra ﬁsh line Tg(mpeg:dendra2) was obtained 
+from Dr. Anna Huttenlocher’s lab (UW-Madison, WI, USA). Te zebra ﬁsh embryos from Tg(mpeg:dendra2) 
+were used in this experiment43. Mm strains harboring a pMSP12::mCherry plasmid (Addgene) were cultured 
+and prepared into single-cell solution with sterile PBS. Te embryos were maintained and infected at the day 3 
+of post-fertilization. About 1000 CFU of mycobacteria were injected in the embryos’ ears. Afer infection each 
+embryo was housed separately in a 96-well plate. Te death of each group (total 20 embryos) was recorded every-
+day afer infection. At the day 3 of post-infection, mycobacterial dissemination was detected with a Zeiss ZV16 
+stereo-microscope. Te infection experiment was repeated three times.
+
+www.nature.com/scientificreports/
+13
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+Statistical analysis. 
+Te data were presented as mean ±​ S.E. One-way ANOVA were used for analysis of sta-
+tistical signiﬁcance in SigmaPlot V10 (Systat Sofware Inc, CA). P <​ 0.05 was considered as statistically signiﬁcant.
+Ethical approval and informed consent. 
+Approval: Te zebra ﬁsh experiment was conducted accord-
+ing to the internationally accepted standards. Te Animal Care and Use Protocol was approved by Te Purdue 
+Animal Care and Use Committee (PACUC), adhering to the Guidelines for Use of Zebra fish in the NIH 
+Intramural Research Program (Protocol number: 1401001018).
+Accordance: Te methods were carried out in accordance with the approved guidelines.
+Informed consent: N/A
+References
+1.	 World Health Organization. Global tuberculosis report 2013 (World Health Organization, 2013).
+2.	 Zumla, A., Raviglione, M., Hafner, R. & Fordham von Reyn, C. Tuberculosis. N. Engl. J. Med. 368, 745–755 (2013).
+3.	 Orme, I. Adaptive immunity to mycobacteria. Curr Opin Microbiol 7, 58–61 (2004).
+4.	 Kang, P. B. et al. Te human macrophage mannose receptor directs Mycobacterium tuberculosis lipoarabinomannan-mediated 
+phagosome biogenesis. J Exp Med 202, 987–999 (2005).
+5.	 Pizarro-Cerdá, J. & Cossart, P. Bacterial adhesion and entry into host cells. Cell 124, 715–727 (2006).
+6.	 van der Wel, N. et al. M. tuberculosis and M. leprae translocate from the phagolysosome to the cytosol in myeloid cells. Cell 129, 
+1287–1298 (2007).
+7.	 Houben, D. et al. ESX-1 Mediated Translocation to the Cytosol controls Virulence of Mycobacteria. Cell Microbiol, doi: 
+10.1111/j.1462-5822.2012.01799.x (2012).
+8.	 Simeone, R. et al. Phagosomal rupture by Mycobacterium tuberculosis results in toxicity and host cell death. PLoS Pathog 8, 
+e1002507 (2012).
+9.	 MacGurn, J. A. & Cox, J. S. A Genetic Screen for Mycobacterium tuberculosis Mutants Defective for Phagosome Maturation Arrest 
+Identiﬁes Components of the ESX-1 Secretion System. Infect Immun 75, 2668–2678 (2007).
+10.	 Tan, T., Lee, W. L., Alexander, D. C., Grinstein, S. & Liu, J. Te ESAT-6/CFP-10 secretion system of Mycobacterium marinum 
+modulates phagosome maturation. Cell Microbiol 8, 1417–1429 (2006).
+11.	 Simeone, R. et al. Cytosolic access of Mycobacterium tuberculosis: critical impact of phagosomal acidification control and 
+demonstration of occurrence in vivo. PLoS Pathog 11, e1004650 (2015).
+12.	 Mahairas, G. G., Sabo, P. J., Hickey, M. J., Singh, D. C. & Stover, C. K. Molecular analysis of genetic differences between 
+Mycobacterium bovis BCG and virulent M. bovis. J Bacteriol 178, 1274–1282 (1996).
+13.	 Harboe, M., Oettinger, T., Wiker, H. G., Rosenkrands, I. & Andersen, P. Evidence for occurrence of the ESAT-6 protein in 
+Mycobacterium tuberculosis and virulent Mycobacterium bovis and for its absence in Mycobacterium bovis BCG. Infect Immun 64, 
+16–22 (1996).
+14.	 Wards, B. J., de Lisle, G. W. & Collins, D. M. An esat6 knockout mutant of Mycobacterium bovis produced by homologous 
+recombination will contribute to the development of a live tuberculosis vaccine. Tuber Lung Dis 80, 185–189 (2000).
+15.	 Pym, A. S., Brodin, P., Brosch, R., Huerre, M. & Cole, S. T. Loss of RD1 contributed to the attenuation of the live tuberculosis 
+vaccines Mycobacterium bovis BCG and Mycobacterium microti. Mol Microbiol 46, 709–717 (2002).
+16.	 Pym, A. S. et al. Recombinant BCG exporting ESAT-6 confers enhanced protection against tuberculosis. Nat Med 9, 533–539 
+(2003).
+17.	 Hsu, T. et al. Te primary mechanism of attenuation of bacillus Calmette-Guerin is a loss of secreted lytic function required for 
+invasion of lung interstitial tissue. Proc Natl Acad Sci USA 100, 12420–12425 (2003).
+18.	 Lewis, K. N. et al. Deletion of RD1 from Mycobacterium tuberculosis mimics bacille Calmette-Guérin attenuation. J Infect Dis 187, 
+117–123 (2003).
+19.	 Sassetti, C. M. & Rubin, E. J. Genetic requirements for mycobacterial survival during infection. Proc Natl Acad Sci USA 100, 
+12989–12994 (2003).
+20.	 Stanley, S. A., Raghavan, S., Hwang, W. W. & Cox, J. S. Acute infection and macrophage subversion by Mycobacterium tuberculosis 
+require a specialized secretion system. Proc Natl Acad Sci USA 100, 13001–13006 (2003).
+21.	 Guinn, K. M. et al. Individual RD1-region genes are required for export of ESAT-6/CFP-10 and for virulence of Mycobacterium 
+tuberculosis. Mol Microbiol 51, 359–370 (2004).
+22.	 Behr, M. A. et al. Comparative genomics of BCG vaccines by whole-genome DNA microarray. Science 284, 1520–1523 (1999).
+23.	 Gordon, S. V. et al. Identiﬁcation of variable regions in the genomes of tubercle bacilli using bacterial artiﬁcial chromosome arrays. 
+Mol Microbiol 32, 643–655 (1999).
+24.	 Berthet, F. X., Rasmussen, P. B., Rosenkrands, I., Andersen, P. & Gicquel, B. A Mycobacterium tuberculosis operon encoding ESAT-
+6 and a novel low-molecular-mass culture ﬁltrate protein (CFP-10). Microbiology (Reading, Engl) 144 (Pt 11), 3195–3203 (1998).
+25.	 Fortune, S. M. et al. Mutually dependent secretion of proteins required for mycobacterial virulence. Proc Natl Acad Sci USA 102, 
+10676–10681 (2005).
+26.	 Atmakuri, K. & Fortune, S. M. Regulation of protein secretion by …​ protein secretion? Cell Host Microbe 4, 190–191 (2008).
+27.	 Andersen, P., Andersen, A. B., Sørensen, A. L. & Nagai, S. Recall of long-lived immunity to Mycobacterium tuberculosis infection 
+in mice. J Immunol 154, 3359–3372 (1995).
+28.	 Sørensen, A. L., Nagai, S., Houen, G., Andersen, P. & Andersen, A. B. Puriﬁcation and characterization of a low-molecular-mass 
+T-cell antigen secreted by Mycobacterium tuberculosis. Infect Immun 63, 1710–1717 (1995).
+29.	 Lalvani, A., Sridhar, S. & Reyn, von, C. F. Tuberculosis vaccines: time to reset the paradigm? Torax 68, 1092–1094 (2013).
+30.	 Ma, Y., Keil, V. & Sun, J. Characterization of Mycobacterium tuberculosis EsxA membrane insertion: roles of N- and C-terminal 
+ﬂexible arms and central helix-turn-helix motif. J Biol Chem 290, 7314–7322 (2015).
+31.	 de Jonge, M. I. et al. ESAT-6 from Mycobacterium tuberculosis dissociates from its putative chaperone CFP-10 under acidic 
+conditions and exhibits membrane-lysing activity. J Bacteriol 189, 6028–6034 (2007).
+32.	 Smith, J. et al. Evidence for pore formation in host cell membranes by ESX-1-secreted ESAT-6 and its role in Mycobacterium 
+marinum escape from the vacuole. Infect Immun 76, 5478–5487 (2008).
+33.	 De Leon, J. et al. Mycobacterium tuberculosis ESAT-6 Exhibits a Unique Membrane-interacting Activity Tat Is Not Found in Its 
+Ortholog from Non-pathogenic Mycobacterium smegmatis. J Biol Chem 287, 44184–44191 (2012).
+34.	 Tobin, D. M. & Ramakrishnan, L. Comparative pathogenesis of Mycobacterium marinum and Mycobacterium tuberculosis. Cell 
+Microbiol 10, 1027–1039 (2008).
+35.	 Ramakrishnan, L. Looking within the zebraﬁsh to understand the tuberculous granuloma. Adv Exp Med Biol 783, 251–266 (2013).
+36.	 Gao, L.-Y. et al. A mycobacterial virulence gene cluster extending RD1 is required for cytolysis, bacterial spreading and ESAT-6 
+secretion. Mol Microbiol 53, 1677–1693 (2004).
+37.	 Stinear, T. P. et al. Insights from the complete genome sequence of Mycobacterium marinum on the evolution of Mycobacterium 
+tuberculosis. Genome Res 18, 729–741 (2008).
+
+www.nature.com/scientificreports/
+14
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+38.	 El-Etr, S. H., Subbian, S., Cirillo, S. L. G. & Cirillo, J. D. Identiﬁcation of two Mycobacterium marinum loci that aﬀect interactions 
+with macrophages. Infect Immun 72, 6902–6913 (2004).
+39.	 Enninga, J. & Rosenshine, I. Imaging the assembly, structure and activity of type III secretion systems. Cell Microbiol 11, 1462–1470 
+(2009).
+40.	 Charpentier, X. & Oswald, E. Identification of the secretion and translocation domain of the enteropathogenic and 
+enterohemorrhagic Escherichia coli eﬀector Cif, using TEM-1 beta-lactamase as a new ﬂuorescence-based reporter. J Bacteriol 186, 
+5486–5495 (2004).
+41.	 Acosta, Y. et al. Imaging cytosolic translocation of Mycobacteria with two-photon fluorescence resonance energy transfer 
+microscopy. Biomed. Opt. Express 5, 3990 (2014).
+42.	 Torraca, V., Masud, S., Spaink, H. P. & Meijer, A. H. Macrophage-pathogen interactions in infectious diseases: new therapeutic 
+insights from the zebraﬁsh host model. Dis Model Mech 7, 785–797 (2014).
+43.	 Harvie, E. A., Green, J. M., Neely, M. N. & Huttenlocher, A. Innate immune response to Streptococcus iniae infection in zebraﬁsh 
+larvae. Infect Immun 81, 110–121 (2013).
+44.	 Castro-Garza, J. et al. Use of a colorimetric assay to measure diﬀerences in cytotoxicity of Mycobacterium tuberculosis strains.  
+J. Med. Microbiol. 56, 733–737 (2007).
+45.	 Forrellad, M. A. et al. Virulence factors of the Mycobacterium tuberculosis complex. 4, 3–66 (2013).
+46.	 Peng, X. et al. Characterization of diﬀerential pore-forming activities of ESAT-6 proteins from Mycobacterium tuberculosis and 
+Mycobacterium smegmatis. FEBS Lett 590, 509–519 (2016).
+47.	 Carlsson, F., Joshi, S. A., Rangell, L. & Brown, E. J. Polar localization of virulence-related Esx-1 secretion in mycobacteria. PLoS 
+Pathog 5, e1000285 (2009).
+48.	 Kennedy, G. M., Hooley, G. C., Champion, M. M., Mba Medie, F. & Champion, P. A. D. A Novel ESX-1 Locus Reveals that Surface-
+Associated ESX-1 Substrates Mediate Virulence in Mycobacterium marinum. J Bacteriol 196, 1877–1888 (2014).
+49.	 Medie, F. M., Champion, M. M., Williams, E. A. & DiGiuseppe Champion, P. A. Homeostasis of N-α​ terminal acetylation of EsxA 
+correlates with virulence in Mycobacterium marinum. Infect Immun, doi: 10.1128/IAI.02153-14 (2014).
+50.	 Pathak, S. K. et al. Direct extracellular interaction between the early secreted antigen ESAT-6 of Mycobacterium tuberculosis and 
+TLR2 inhibits TLR signaling in macrophages. Nat Immunol 8, 610–618 (2007).
+51.	 Sreejit, G. et al. Te ESAT-6 Protein of Mycobacterium tuberculosis Interacts with Beta-2-Microglobulin (β​2M) Aﬀecting Antigen 
+Presentation Function of Macrophage. PLoS Pathog 10, e1004446 (2014).
+52.	 Welin, A. et al. Culture ﬁltrate protein 10 kDa (CFP-10) from Mycobacterium tuberculosis selectively activates human neutrophils 
+through a pertussis toxin-sensitive chemotactic receptor. Infect Immun, doi: 10.1128/IAI.02493-14 (2014).
+53.	 Cambier, C. J. et al. Mycobacteria manipulate macrophage recruitment through coordinated use of membrane lipids. Nature 505, 
+218–222 (2014).
+54.	 Volkman, H. E. et al. Tuberculous granuloma induction via interaction of a bacterial secreted protein with host epithelium. Science 
+327, 466–469 (2010).
+55.	 Rahman, A., Sobia, P., Gupta, N., Kaer, L. V. & Das, G. Mycobacterium tuberculosis subverts the TLR-2-MyD88 pathway to facilitate 
+its translocation into the cytosol. PLoS ONE 9, e86886 (2014).
+56.	 Watson, R. O., Manzanillo, P. S. & Cox, J. S. Extracellular M. tuberculosis DNA Targets Bacteria for Autophagy by Activating the 
+Host DNA-Sensing Pathway. Cell 150, 803–815 (2012).
+57.	 Watson, R. O. et al. Te Cytosolic Sensor cGAS Detects Mycobacterium tuberculosis DNA to Induce Type I Interferons and Activate 
+Autophagy. Cell Host Microbe 17, 811–819 (2015).
+58.	 Wassermann, R. et al. Mycobacterium tuberculosis Diﬀerentially Activates cGAS- and Inﬂammasome-Dependent Intracellular 
+Immune Responses through ESX-1. Cell Host Microbe 17, 799–810 (2015).
+59.	 Collins, A. C. et al. Cyclic GMP-AMP Synthase Is an Innate Immune DNA Sensor for Mycobacterium tuberculosis. Cell Host 
+Microbe 17, 820–828 (2015).
+60.	 Manzanillo, P. S., Shiloh, M. U., Portnoy, D. A. & Cox, J. S. Mycobacterium tuberculosis activates the DNA-dependent cytosolic 
+surveillance pathway within macrophages. Cell Host Microbe 11, 469–480 (2012).
+61.	 Cambier, C. J., Falkow, S. & Ramakrishnan, L. Host evasion and exploitation schemes of Mycobacterium tuberculosis. Cell 159, 
+1497–1509 (2014).
+62.	 Majlessi, L. & Brosch, R. Mycobacterium tuberculosis Meets the Cytosol: Te Role of cGAS in Anti-mycobacterial Immunity. Cell 
+Host Microbe 17, 733–735 (2015).
+63.	 Andersen, P. Tuberculosis vaccines - an update. Nature Reviews Microbiology 5, 484–487 (2007).
+64.	 Sun, J., Vernier, G., Wigelsworth, D. J. & Collier, R. J. Insertion of anthrax protective antigen into liposomal membranes: eﬀects of a 
+receptor. J Biol Chem 282, 1059–1065 (2007).
+65.	 Sun, J., Lang, A. E., Aktories, K. & Collier, R. J. Phenylalanine-427 of anthrax protective antigen functions in both pore formation 
+and protein translocation. Proc Natl Acad Sci USA 105, 4346–4351 (2008).
+66.	 Takaki, K., Davis, J. M., Winglee, K. & Ramakrishnan, L. nprot.2013.068. Nat Protoc 8, 1114–1124 (2013).
+Acknowledgements
+We thank Dr. David Sherman for kindly providing MtbΔ​EsxA/B and pMH406. We thank Dr. Jeﬀery Cox for 
+kindly providing pJSC407. Tis study is supported by UTEP new faculty startup fund and BBRC-pilot grants (to 
+J. Sun), the grants from the National Center for Research Resources (5G12RR008124) and the National Institute 
+on Minority Health and Health Disparities (G12MD007592). QZ (partly) was supported by scholarships from 
+China Scholarship Council. DW is supported by NSFC 31572485. WL was supported by scholarships from Te 
+First Aﬃliated Hospital of Zheng Zhou University, China. Te funders had no role in study design, data collection 
+and interpretation, or the decision to submit the work for publication.
+Author Contributions
+Q.Z., H.O., D.W., G.J., W.L., Q.D. and J.S. conceived and performed the experiments. X.L. and W.Q. analyzed the 
+data. Q.Z., H.O., D.W., Q.D. and J.S. wrote the manuscript.
+Additional Information
+Supplementary information accompanies this paper at http://www.nature.com/srep
+Competing ﬁnancial interests: Te authors declare no competing ﬁnancial interests.
+How to cite this article: Zhang, Q. et al. EsxA membrane-permeabilizing activity plays a key role in 
+mycobacterial cytosolic translocation and virulence: eﬀects of single-residue mutations at glutamine 5. Sci. Rep. 
+6, 32618; doi: 10.1038/srep32618 (2016).
+
+www.nature.com/scientificreports/
+15
+Scientific Reports | 6:32618 | DOI: 10.1038/srep32618
+Tis work is licensed under a Creative Commons Attribution 4.0 International License. Te images 
+or other third party material in this article are included in the article’s Creative Commons license, 
+unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, 
+users will need to obtain permission from the license holder to reproduce the material. To view a copy of this 
+license, visit http://creativecommons.org/licenses/by/4.0/
+ 
+© Te Author(s) 2016

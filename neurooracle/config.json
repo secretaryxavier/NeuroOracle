@@ -1,0 +1,15 @@
+{
+  "ocr_data_path": "sample_data/ocr_texts/",
+  "opencitations_path": "sample_data/opencitations_data/",
+  "output_path": "run_314_outputs/",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "umap_n_neighbors": 15,
+  "umap_min_dist": 0.1,
+  "umap_metric": "cosine",
+  "hdbscan_min_cluster_size": 5,
+  "faiss_top_k": 5,
+  "bertopic_top_n_topics": 10,
+  "bertopic_default_year": 2020,
+  "log_level": "INFO",
+  "log_file": "run_314_outputs/neuro_oracle.log"
+}

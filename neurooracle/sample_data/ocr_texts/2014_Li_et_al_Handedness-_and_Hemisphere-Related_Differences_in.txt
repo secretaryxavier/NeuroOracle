@@ -1,0 +1,1331 @@
+Handedness- and Hemisphere-Related Differences
+in Small-World Brain Networks:
+A Diffusion Tensor Imaging Tractography Study
+Meiling Li,1 Heng Chen,1 Junping Wang,2 Feng Liu,1 Zhiliang Long,1 Yifeng Wang,1
+Yasser Iturria-Medina,3 Jiang Zhang,1 Chunshui Yu,2 and Huafu Chen1
+Abstract
+Previous behavioral and scanning studies have suggested that handedness is associated with differences in brain
+morphology as well as in anatomical and functional lateralization. However, little is known about the topological
+organization of the white matter (WM) structural networks related to handedness. We employed diffusion tensor
+imaging tractography to investigate handedness- and hemisphere-related differences in the topological organization
+of the human cortical anatomical network. After constructing left hemispheric/right hemispheric weighted struc-
+tural networks in 32 right-handed and 24 left-handed healthy individuals, we analyzed the networks by graph the-
+oretic analysis. We found that both the right and left hemispheric WM structural networks in the two groups
+possessed small-world attributes (high local clustering and short paths between nodes), ﬁndings which are consis-
+tent with recent results from whole-brain structural networks. In addition, the right hemisphere tended to be more
+efﬁcient than the left hemisphere, suggesting a high efﬁciency of general information processing in the right hemi-
+sphere. Finally, we found that the right-handed subjects had signiﬁcant asymmetries in small-world properties (nor-
+malized clustering coefﬁcient c, normalized path length k, and small-worldness r), while left-handed subjects had
+fewer asymmetries. Our ﬁndings from large-scale brain networks aid in understanding the structural substrates un-
+derlying handedness-related and hemisphere-related differences in cognition and behavior.
+Key words: diffusion tensor imaging; handedness; hemispheric; lateralization; small-world; structural networks
+Introduction
+H
+andedness has been considered not only a natural and
+non-invasive marker of functional asymmetry but also a
+hallmark of human evolution. Population bias toward right
+handedness is one of the most striking characteristics of hu-
+mans. Although the various existing theories have studied
+the etiological factors leading to handedness, however, no
+consistent conclusions have been reached. Witelson et al.
+(1991) found that weaker axon loss during development
+enhanced the likelihood of left handedness and established
+more bilateral functional networks. Other studies reported
+that hand preference was probably determined by heredity
+(Annett, 1973; Hopkins, 2006; Szaﬂarski et al., 2002), by
+the sociocultural environment (Falek, 1959; Fears et al.,
+2011), and by fetal position (Churchill et al., 1962).
+Anatomical asymmetries in the human brain may aid in
+understanding lateralized functions, such as hemispheric lan-
+guage dominance and hand preference (Beaton, 1997;
+Geschwind and Levitsky, 1968; Toga and Thompson,
+2003). Both behavioral and scanning studies have statisti-
+cally associated handedness with differences in brain mor-
+phology (Amunts et al., 2000; Tuncer et al., 2005) as well
+as in cerebral anatomical and functional lateralization (Cuz-
+zocreo et al., 2009; Tremblay et al., 2004). Research into lat-
+eralization has indicated that the left hemisphere is dominant
+for language in right handers but that left handers may have a
+more variable lateralization of language, which is primarily
+characterized by rightward asymmetry (Haberling et al.,
+2011; Herve et al., 2013; Knecht et al., 2000) or bilateral
+speech representations (Rasmussen and Milner, 1977). Stein-
+metz et al. (1996) found that normal left handers showed a
+1Key Laboratory for Neuroinformation of Ministry of Education, School of Life Science and Technology, University of Electronic Science
+and Technology of China, Chengdu, China.
+2Department of Radiology, Tianjin Medical University General Hospital, Tianjin, China.
+3Department of Neuroimaging, Cuban Neuroscience Center, La Habana, Cuba.
+BRAIN CONNECTIVITY
+Volume 4, Number 2, 2014
+ª Mary Ann Liebert, Inc.
+DOI: 10.1089/brain.2013.0211
+145
+
+less left-lateralized planum temporale (a posterior temporal
+lobe region and component of Wernicke’s language area)
+than normal right handers. Amunts et al. (2000) demon-
+strated that consistent right-handed individuals had a signif-
+icantly deeper central sulcus in the left hemisphere than in
+the right hemisphere and that the anatomical asymmetry
+decreased signiﬁcantly from consistent right- to mixed- to
+consistent left handers. Furthermore, volumetric analyses
+revealed a leftward asymmetry in right handers, which was
+found to be less marked in left handers (Herve et al.,
+2006). Using cortical thickness analyses, Luders et al.
+(2006) revealed a generally thicker cortex in the left hemi-
+sphere. Although previous studies have established hemi-
+spheric differences in sulcal depth, gray matter volume,
+and cortical thickness, little is known about the topological
+asymmetry of the human brain with regard to handedness.
+Small-world topology is characterized by a high degree of
+local clustering and short path lengths linking individual net-
+work nodes (Achard et al., 2006; Bullmore and Sporns, 2009;
+Sporns et al., 2004). Several analyses of brain structural net-
+works have used diffusion-weighted magnetic resonance
+imaging (MRI) techniques (Hagmann et al., 2008; Iturria-
+Medina et al., 2008) and concurrent differences in the vari-
+ous morphological regional indices (Bassett et al., 2008;
+Chen et al., 2008; He et al., 2007) to investigate large-
+scale connection patterns in the brain. Similarly, a number
+of studies used functional magnetic resonance imaging
+(fMRI) (Achard et al., 2006) or electroencephalogram
+(Ferri et al., 2007; Stam et al., 2007) to investigate functional
+connectivity networks. These studies at the whole-brain level
+have suggested that the human brain is structurally and func-
+tionally organized by small-world architecture. To date, only
+two studies have reported hemisphere-related differences in
+the topological organization of brain networks. Using struc-
+tural brain networks, Iturria-Medina et al. (2011) found that
+the right hemisphere was more efﬁcient and interconnected
+than the left hemisphere. In addition, employing resting-
+state functional MRI, Tian et al. (2011) found that men
+had a higher normalized clustering coefﬁcient in a right hemi-
+spheric network than women. However, hemisphere-related
+differences in the topological organization of structural
+brain networks in handedness (especially in left handers) re-
+main largely unknown.
+In this article, we used diffusion-weighted MRI tracto-
+graphy and graph theoretical approaches to investigate
+hemisphere- and handedness-related differences in the orga-
+nizational patterns of hemispheric structural networks in the
+human brain. We investigated (1) whether each hemispheric
+structural network would exhibit small-world attributes and
+high network efﬁciency, and (2) whether their topological
+properties (normalized clustering coefﬁcient, normalized
+characteristic path length, small worldness, global efﬁciency,
+local efﬁciency, and nodal efﬁciency) would show hemi-
+sphere- or handedness-related differences.
+Materials and Methods
+Participants
+The present study was approved by the local ethics com-
+mittee of Tianjin Medical University. Written informed con-
+sent was obtained from each participant before any study
+procedure was initiated. Young healthy volunteers were
+recruited for this study and came primarily from the student
+population at Tianjin Medical University. Thirty-four right
+handers and 32 non-right handers (left handers and ambidex-
+trous) participated in the MRI examinations, which were per-
+formed at Tianjin Medical University. Handedness was
+deﬁned according to the criterion of the Chinese revised ver-
+sion of the Edinburgh Handedness Inventory (Oldﬁeld, 1971)
+(see the Supplementary Table S1; Supplementary Data are
+available online at www.liebertpub.com/brain, for details).
+The handedness score S ranged from 100 to 100. Left hand-
+edness was indicated by S < 40, right handedness by S > +
+40, and ambidexterity by 40 £ S £ + 40. Our study only in-
+cluded consistently right- and left-handed subjects. Thus, 24
+left-handed (10 women; age: 24.2 – 2.5 years old, range: 22–
+30; education: 17.3 – 2.7 years, handedness score: 67.08 –
+11.60) and 32 right-handed participants (15 women; age:
+25.8 – 1.9 years old, range: 19–29; education level: 18.4 –
+1.6 years, handedness score: 95.3 – 8.79) were studied.
+None of the participants had any history of neurological or
+psychiatric problems.
+Image acquisition
+MR images were acquired using a Signa HDx 3.0 Tesla
+MR scanner (General Electric, Milwaukee, WI). Tight, but
+comfortable, foam padding was used to minimize head mo-
+tion, and earplugs were used to reduce scanner noise. First,
+sagittal 3D T1-weighted images were acquired by a brain
+volume (BRAVO) sequence (TR/TE = 8.1/3.1 msec; FA =
+13; FOV = 256 · 256 mm; matrix = 256 · 256; slice thick-
+ness= 1 mm, no gap; 176 slices). Then, the diffusion-weighted
+images were obtained using a spin echo-based echo planar
+imaging sequence in contiguous axial planes, including 50
+volumes with diffusion gradients applied along 50 non-
+collinear directions (b = 1000sec/mm2) and 3 volumes without
+diffusion weighting (b = 0 sec/mm2). Each volume consisted
+of 70 contiguous axial slices covering the whole brain
+(TR = 15,000 msec; TE = 72.9 msec; FA = 90; FOV = 256 ·
+256 mm; matrix = 128 · 128; slice thickness = 2 mm, no gap).
+Network construction
+The deﬁnition of nodes and edges is a critical step, because
+they are the two basic elements of a network (Sporns et al.,
+2005). Since no gold standard exists for the deﬁnition of net-
+work nodes and edges, we deﬁned the network nodes and
+edges as described in previous studies (Gong et al., 2009a;
+Shu et al., 2011).
+Network node deﬁnition.
+The procedure for deﬁning the
+nodes has been previously described (Iturria-Medina et al.,
+2008; Lo et al., 2010; Shu et al., 2011; Yan et al., 2011).
+We used the Automated Anatomical Labeling (AAL) atlas
+(Tzourio-Mazoyer et al., 2002), which includes both cortical
+and subcortical regions, to segment the cerebral cortex into
+90 regions of interest (45 for each hemisphere, Table 1),
+each of which represented a node of the cortical network.
+The individual T1-weighted images were ﬁrst coregistered
+to the b0 (non-diffusion-weighted) images in the diffusion-
+weighted MRI native space using a linear transformation.
+Then, the T1-weighted images were spatially normalized to
+the T1 template of ICBM152 in the Montreal Neurological
+146
+LI ET AL.
+
+Institute (MNI) space. The derived transformation parame-
+ters (T) were inverted and used to warp the AAL atlas
+from the MNI space to diffusion-weighted native space,
+resulting in a subject-speciﬁc AAL mask in the DTI native
+space (Fig. 1). All the image preprocessing, including
+image registration, spatial normalization, and participant-
+speciﬁc mask creation, was performed using Statistical Para-
+metric Mapping 8 (SPM8; www.ﬁl.ion.ucl.ac.uk/spm/).
+Diffusion MRI tractography.
+To reconstruct the whole-
+brain white matter (WM) tracts, we performed deterministic
+tractography to trace the ﬁber pathways using the following
+steps. First, the eddy current distortions and the motion arti-
+facts in the DTI data set were corrected by using an afﬁne
+registration of the diffusion-weighted images to the b0 im-
+ages using FMRIB’s Diffusion Toolbox in FSL (FMRIB’s
+Software Library, www.fmrib.ox.ac.uk/fsl). Then, the diffu-
+sion tensor mode was calculated voxel by voxel by solving
+the Stejskal and Tanner equation (Shu et al., 2011; Westin
+et al., 2002), and diagonalization was performed to get
+three eigenvalues and three eigenvectors. The fractional an-
+isotropy (FA) of each voxel was calculated as well (Guo
+et al., 2012a,b). DTI tractography was carried out in DTI na-
+tive space using a linear propagation approach, which was
+dubbed ﬁber assignment by continuous tracking (FACT).
+Here, the ﬁber bundles of the whole brain were reconstructed
+with the streamline algorithm embedded in the Diffusion
+Toolkit (Mori et al., 1999; Wang et al., 2007). For each
+voxel, the orientation of the largest principal axis was as-
+sumed to deﬁne the direction of the dominant ﬁber bundles.
+Tracking in the data set was initiated from the center of each
+seed voxel with an FA > 0.2 and iterated along its diffusion
+orientation. This tracking procedure continued until either
+a voxel turned an angle that exceeded 35 or reached a
+voxel with an FA < 0.2.
+Network edge deﬁnition.
+Two nodes were considered to
+be linked through an edge if at least one ﬁber connected
+them (Yan et al., 2011). For each edge, we calculated the
+mean FA value along the ﬁber bundles that connected the
+end nodes as its weight (Shu et al., 2011). After the nodes
+(anatomic brain regions) and edges (WM links and weights)
+were deﬁned, whole brain-weighted networks were created
+for each of the subjects. Then, each whole-brain network
+was segmented into left and right hemispheric networks (re-
+moving the interhemispheric connections), with each one
+containing the same number of homolog regions (Fig. 1).
+Once the brain connectivity information was extracted
+from the neuroimaging data, the following network analyses
+were based on the two sets of weighted matrices for each
+Table 1. Cortical and Subcortical Regions of Interest Deﬁned in the Present Study
+Regions
+No.
+Abbreviations
+Regions
+No.
+Abbreviations
+Precentral gyrus
+1, 2
+PreCG
+Lingual gyrus
+47, 48
+LING
+Superior frontal gyrus,
+dorsolateral
+3, 4
+SFGdor
+Superior occipital gyrus
+49, 50
+SOG
+Superior frontal gyrus,
+orbital part
+5, 6
+SFGorb
+Middle occipital gyrus
+51, 52
+MOG
+Middle frontal gyrus
+7, 8
+MFG
+Inferior occipital gyrus
+53, 54
+IOG
+Middle frontal gyrus,
+orbital part
+9, 10
+MFGorb
+Fusiform gyrus
+55, 56
+FFG
+Inferior frontal gyrus,
+opercular part
+11, 12
+IFGoper
+Postcentral gyrus
+57, 58
+PoCG
+Inferior frontal gyrus,
+triangular part
+13, 14
+IFGtri
+Superior parietal gyrus
+59, 60
+SPG
+Inferior frontal gyrus,
+orbital part
+15, 16
+IFGorb
+Inferior parietal gyrus
+61, 62
+IPG
+Rolandic operculum
+17, 18
+ROL
+Supramarginal gyrus
+63, 64
+SMG
+Supplementary motor area
+19, 20
+SMA
+Angular gyrus
+65, 66
+ANG
+Olfactory cortex
+21, 22
+OLF
+Precuneus
+67, 68
+PCUN
+Superior frontal gyrus,
+medial
+23, 24
+SFGmed
+Paracentral lobule
+69, 70
+PCL
+Superior frontal gyrus,
+medial orbital
+25, 26
+SFGmorb
+Caudate nucleus
+71, 72
+CAU
+Gyrus rectus
+27, 28
+REC
+Putamen
+73, 74
+PUT
+Insula
+29, 30
+INS
+Pallidum
+75, 76
+PAL
+Anterior cingulate gyri
+31, 32
+ACC
+Thalamus
+77, 78
+THA
+Median cingulate gyri
+33, 34
+MCC
+Heschl gyrus
+79, 80
+HES
+Posterior cingulate gyrus
+35, 36
+PCC
+Superior temporal gyrus
+81, 82
+STG
+Hippocampus
+37, 38
+HIP
+Temporal pole: superior
+temporal gyrus
+83, 84
+TPOsup
+Parahippocampal gyrus
+39, 40
+PHIP
+Middle temporal gyrus
+85, 86
+MTG
+Amygdala
+41, 42
+AMYG
+Temporal pole: middle
+temporal gyrus
+87, 88
+TPOmed
+Calcarine fissure
+43, 44
+CAL
+Inferior temporal gyrus
+89, 90
+ITG
+Cuneus
+45, 46
+CUN
+HANDEDNESS AFFECTS THE HEMISPHERIC BRAIN NETWORKS
+147
+
+individual: one for the left hemisphere and the other for the
+right hemisphere.
+Network analysis
+Graph theoretical analysis.
+The human brain is a com-
+plex network that enables the segregation and integration
+of information processing. Graph theoretical analysis provi-
+des a simple but powerful mathematical tool for characteriz-
+ing the topological properties, such as modularity, efﬁciency,
+and hubs, of brain networks, (Bullmore and Sporns, 2009; He
+et al., 2007). Here, we ﬁrst deﬁned a graph G with N nodes
+and E edges (N = 45 in this study).
+The weighted clustering coefﬁcient of a node i, Cw
+i , which
+expresses the likelihood that the neighborhoods of node i are
+connected (Onnela et al., 2005), is deﬁned as
+Cw
+i =
+1
+ki(ki  1) +
+j, h2N
+(WijWihWjh)1=3,
+where ki is the degree of node i, and Wij is the weight between
+nodes i and j in the network. The weighted clustering coefﬁ-
+cient of a network is the average of the clustering coefﬁcients
+of all nodes:
+Cw
+net = 1
+N +
+i2N
+Cw
+i ,
+which quantiﬁes the extent of the local clustering or cliquish-
+ness of a network.
+The path length between nodes i and j is deﬁned as the sum
+of the edge lengths along the path, where each edge’s length
+is obtained by computing the reciprocal of the edge weight,
+1=Wij The weighted shortest path length Lw
+ij between node i
+and node j is the length with the shortest path between the
+two nodes. The weighted characteristic shortest path length
+Lw
+net of a network is measured by a ‘‘harmonic mean’’ length
+between pairs, which is the reciprocal of the average of the
+reciprocals of all the nodes in the network (Zhang et al.,
+2011). We calculated the Lw
+net as follows:
+FIG. 1.
+Flowchart for the construction of a hemispheric white matter (WM) network by DTI. (1) Individual T1-weighted
+images were coregistered to the b0 images using a linear transformation. (2) The T1-weighted images were spatially normal-
+ized to the T1 template in Montreal Neurological Institute (MNI) space, obtaining the transformation matrix (T). (3) The
+inversed transformation matrix (T1) was used to warp the Automated Anatomical Labeling (AAL) atlas in the MNI
+space to generate the participant-speciﬁc AAL mask in the DTI native space. (4) The construction of the DTI from diffu-
+sion-weighted images. The color-coded map indicates the directions of the ﬁrst eigenvectors: red, left to right; green, anterior
+to posterior; blue, inferior to superior. (5) The reconstruction of all the WM ﬁbers in the whole brain using DTI deterministic
+tractography. (6) Whole-brain weighted networks were created by computing the mean fractional anisotropy (FA) values of
+the ﬁber bundles that connected each pair of AAL regions. (7) Right (R) and left (L) hemispheric networks were obtained by
+eliminating the interhemispheric connections. Color images available online at www.liebertpub.com/brain
+148
+LI ET AL.
+
+Lw
+net =
+1
+1
+N(N  1) +
+N
+i = 1
++
+N
+j6¼i
+1
+Lw
+ij
+,
+which quantiﬁes the ability of a network to propagate infor-
+mation in parallel.
+The global efﬁciency Eglob of a graph G is deﬁned as
+(Achard and Bullmore, 2007; Latora and Marchiori, 2001)
+follows:
+Eglob =
+1
+N(N  1) +
+i6¼j2G
+1
+Lw
+ij
+,
+where Lw
+ij is the shortest path length between node i and node
+j in the weighted network G. It measures the global efﬁciency
+of parallel information exchange in a network. On the other
+hand, the local efﬁciency Eloc is the mean of all the efﬁcien-
+cies of the subgraph Gi in the graph, which is deﬁned as fol-
+lows:
+Eloc = 1
+N +
+i2G
+Eglob(Gi),
+which measures the fault tolerance of a network, indicating
+how efﬁcient the communication is among the nearest neigh-
+bors of i when node i is removed.
+To investigate the regional characteristic of the hemispheric
+WM network, the efﬁciency of the node i is computed:
+Enodal(i) = 1
+N +
+i6¼i2G
+1
+Lw
+ij
+,
+where Lw
+ij is the shortest path length between node i and node
+j in the network G. This measures the importance of the
+nodes for communication within the network (Lo et al.,
+2010).
+Small-world networks should meet the following crite-
+ria: the normalized clustering coefﬁcient c = Creal
+p =Crand
+p
+>1
+and normalized characteristic path length k = Lreal
+p =Lrand
+p
+1,
+where Crand
+p
+and Lrand
+p
+are the mean clustering coefﬁcient
+and characteristic shortest path length of 100 matched ran-
+dom networks that preserve the same number of nodes,
+edges, and degree distribution as the real network (Sporns
+and Zwi, 2004). Furthermore, the two metrics can be in-
+tegrated to form the small-worldness index r = c/k > 1
+(Humphries et al., 2006). Small-world networks also
+have high global and local communication efﬁciency
+(Achard and Bullmore, 2007; Latora and Marchiori,
+2001), providing them with a good balance between
+local necessities and wide-scope interactions (Iturria-Med-
+ina et al., 2011). In this study, in order to better understand
+the small-world properties of the hemispheric structural
+networks, we primarily focused on six network parame-
+ters: normalized clustering coefﬁcient (c), normalized
+characteristic path length (k), small worldness (r), global
+efﬁciency (Eglob), local efﬁciency (Eloc), and nodal efﬁ-
+ciency (Emodal).
+Threshold selection.
+In this study, we repeatedly thresh-
+olded each weighted matrix over a range of sparsity values
+(S) from 0.17 to 0.47 at intervals of 0.01, including between
+17% and 47% of the 990 possible edges in a network of 45
+nodes. The minimum threshold (S = 0.17) calculated from
+the average degree over all the nodes should be at least
+2 · log(N) (Bassett et al., 2008; Liao et al., 2011). The max-
+imum threshold (S = 0.47) was selected to assure that each
+network was fully connected with N = 45 nodes (Liu
+et al., 2008; Stam et al., 2007). Then, we calculated the
+area under the curve (AUC) for each network index, provid-
+ing a summarized scalar for the topological characteriza-
+tion of the resulting brain networks, independent of any
+single threshold selection. The integrated AUC of a net-
+work metric Y was computed over the sparsity threshold
+range from S1 to Sn with an interval of DS, which was de-
+ﬁned as follows:
+YAUC = +
+n  1
+k = 1
+[Y(Sk) þ Y(Sk þ 1)] · DS=2
+Lateralization index
+Asymmetry of a given network was characterized by a
+measure called the lateralization index (LI), which is deﬁned
+as in Benson et al. (1999) and Tian et al. (2011):
+LI(X) = f · X(R)  X(L)
+X(R) þ X(L) ,
+(f = 200)
+where X(R) and X(L) denote the topological properties of the
+right and left hemispheric networks, respectively. f is a scal-
+ing factor that indicates the range of LI, here f is 200. A pos-
+itive LI indicates a right hemisphere bias, and a negative LI
+indicates a left hemisphere bias.
+Statistical analysis
+To determine whether signiﬁcant differences between the
+four subgroups (2 hemisphere · 2 handedness) could be iden-
+tiﬁed in any of the ﬁve global parameters (c, k, r, Eglob, Eloc),
+we performed a two-way repeated-measures analysis of var-
+iance (ANOVA) with handedness (right hander and left
+hander) as a between-subject factor and hemisphere (right
+hemisphere and left hemisphere) as a within-subject factor.
+p < 0.05 was accepted as the signiﬁcance level. Similar statis-
+tical methods were used to assess regional nodal efﬁciency.
+The Bonferroni correction was applied for the ANOVA anal-
+ysis of nodal efﬁciency using a statistical signiﬁcance level
+of p < 0.001.
+Results
+Hemispheric small-world anatomical networks
+We constructed two anatomical weighted networks based
+on the right and left hemispheres for each participant and
+found that all the four subgroup (2 hemisphere· 2 handed-
+ness)
+networks
+exhibited
+higher
+clustering
+coefﬁcients
+(c > 1) but almost identical characteristic path lengths (k&1)
+over the sparsity range of 17–47% compared with matched
+random networks. In addition, the small-worldness r was
+> 1 (Fig. 2), suggesting the presence of small-world attributes
+in anatomical weighted networks (Watts and Strogatz, 1998).
+The ﬁndings indicated that the human brain’s anatomical
+hemispheric networks also support local and distributed infor-
+mation processing. The results are consistent with previous
+hemisphere-related brain network studies (Iturria-Medina
+et al., 2011; Tian et al., 2011).
+HANDEDNESS AFFECTS THE HEMISPHERIC BRAIN NETWORKS
+149
+
+Handedness- and hemisphere-related topological
+organization of hemispheric brain networks
+Neither the handedness effect nor the interaction between
+handedness and hemisphere was found to be signiﬁcant on
+any of the global or regional network properties ( p < 0.05).
+However, we found a signiﬁcant main effect of hemisphere
+on certain small-world parameters: normalized clustering co-
+efﬁcient c (F = 13.40, p = 0.001), normalized path length k
+(F = 8.49, p = 0.005), and small worldness r (F = 10.08,
+p = 0.002) (Table 2). A signiﬁcant hemisphere effect on the
+nodal efﬁciency ( p < 0.001) was detected in 16 regions. Spe-
+ciﬁcally, eight brain regions showed greater nodal efﬁciency
+in the right than in the left hemisphere, and eight regions
+showed greater efﬁciency in the left than in the right hemi-
+sphere (Fig. 3, see more details in Table 3).
+The lateralization index
+The structural LIs were evaluated between the right
+and left hemispheric networks across ﬁve global and one
+regional network properties. The obtained LIs showed sig-
+niﬁcant (paired t-test, p < 0.05) lateralization of the topolog-
+ical properties in the right handers but no signiﬁcant
+lateralization in the left handers (Fig. 4, see more details
+in Table 4).
+The LI of the nodal efﬁciency showed more asymmetric
+regions in the right-handed group than in the left-handed
+FIG. 2.
+Small-world properties of
+the hemispheric structural networks
+over a range of sparsity thresholds
+(S). (A) right hemispheric networks
+of right-handers; (B) left hemi-
+spheric networks of right-handers;
+(C) right hemispheric networks of
+left-handers; (D) left hemispheric
+networks of left-handers. Gamma,
+lambda, and sigma denote the nor-
+malized clustering coefﬁcient, nor-
+malized characteristic path length,
+and small worldness, respectively.
+They were evaluated using the
+subjects’ hemispheric networks.
+The four hemispheric networks had
+an average gamma > 1, an average
+lambda of nearly 1, and small-
+worldness sigma of > 1, which in-
+dicate small-world properties.
+Table 2. Handedness and Hemisphere Effects on Global Network
+Properties Revealed by Two-Way Repeated ANOVA
+c
+k
+r
+Eglob
+Eloc
+Hemisphere effect
+F-Value
+13.40
+8.49
+10.08
+1.60
+0.94
+p-Value
+0.001
+0.005
+0.002
+0.21
+0.34
+Handedness effect
+F-Value
+2.31
+0.32
+2.83
+0.51
+0.22
+p-Value
+0.13
+0.57
+0.10
+0.48
+0.64
+Interaction
+F-Value
+1.13
+0.16
+0.99
+0.54
+0.02
+p-Value
+0.69
+0.29
+0.32
+0.47
+0.89
+c, k, r, Eglob, and Eloc denote the normalized clustering coefﬁcient, normalized shortest pathlength, small worldness, global efﬁciency, and
+local efﬁciency, respectively. Signiﬁcant effects ( p < 0.05) are identiﬁed by bold text.
+ANOVA, analysis of variance.
+150
+LI ET AL.
+
+group (12 vs. 7 lateralized regions, respectively). The asym-
+metries identiﬁed by the lateralization were in the same di-
+rection as those identiﬁed by the ANOVA (Supplementary
+Fig. S1 and Supplementary Table S2).
+Discussion
+We studied 24 left-handed and 32 right-handed subjects
+using DTI tractography and graph theoretical approaches to
+investigate handedness- and hemispheric-related differences
+in the topological organization of the brain. Our analyses of
+the four weighted hemispheric networks focused on small-
+world attributes and efﬁciencies. The main ﬁndings were
+as follows: (1) All four hemispheric WM structural networks
+exhibited small-world attributes (high clustering and short
+path length); (2) the right hemisphere was more efﬁcient
+than the left hemisphere; and (3) asymmetries of topological
+properties (c, k, r, Enodal) were found to be pronounced in
+right-handed subjects but not in left-handed subjects. Our
+ﬁndings indicate that the topological organization within
+the hemispheric structural networks is not equally distributed
+in right- and left-handed subjects.
+Small-world properties of human brain
+hemispheric networks
+Human brain networks have been widely shown to have
+small-world properties, which enable them to have both
+global and local parallel information processing (Bassett
+and Bullmore, 2006; Watts and Strogatz, 1998). The evi-
+dence for this has come from both structural brain networks
+(Gong et al., 2009a; He et al., 2007) and functional brain net-
+works (Achard and Bullmore, 2007; Bassett and Bullmore,
+2006; Ding et al., 2011; van den Heuvel et al., 2008).
+Here, we showed that the hemispheric structural brain net-
+works of left-handed and right-handed individuals had a
+small-world topology (Fig. 2), indicating that the fundamen-
+tal organization of each cerebral hemisphere is in highly
+clustered sub-networks, combined with a high level of global
+connectivity. The small-world topology of the hemispheric
+structural networks observed in the current study is in line
+with a previous hemispheric functional study (Tian et al.,
+2011) which suggested that the efﬁciency of information pro-
+cessing in the separate hemispheres is similar to that in the
+whole brain.
+Hemisphere related differences in global properties
+The right hemisphere showed signiﬁcantly stronger small-
+world topological properties (normalized clustering coefﬁ-
+cient c, normalized path length k, and small-worldness r)
+than the left hemisphere (Table 2), indicating that the right
+hemisphere may be more efﬁcient in information processing.
+Although the left and right hemispheres are in continual
+communication with each other, differences between the
+two hemispheres have commonly been reported. In particu-
+lar, the left hemisphere is dominant for language (Friederici,
+2012; Hull and Vaid, 2007; Price, 2012) and the right hemi-
+sphere is dominant for attention (Corbetta and Shulman,
+FIG. 3.
+Hemisphere effect on
+nodal efﬁciency, as revealed by
+two-way repeated analysis of vari-
+ances (ANOVAs). The red color
+nodes represent the rightward
+asymmetries, and blue color nodes
+indicate the leftward asymmetries.
+Statistical signiﬁcance was reached
+when p < 0.001 using a Bonferroni
+correction. Color images available
+online at www.liebertpub.com/
+brain
+Table 3. Hemisphere Effects on Nodal Efﬁciency Revealed by Two-Way Repeated ANOVA
+Main effects of hemisphere
+Main effects of hemisphere
+Left > right
+Right > left
+Region
+F_Value (p_value)
+Region
+F_Value (p_value)
+SFGorb
+19.77 (2.13e-05)
+PreCG
+47.11 (4.40e-10)
+MFG
+15.19 (1.69e-04)
+INS
+16.11 (1.10e-04)
+REC
+14.61 (2.21e-04)
+LING
+23.89 (3.57e-06)
+MCC
+14.22 (2.66e-04)
+PoCG
+31.83 (1.37e-07)
+MOG
+61.69 (3.17e-12)
+SMG
+49.09 (2.19e-10)
+IOG
+26.79 (1.06e-06)
+PUT
+38.11 (1.19e-08)
+IPG
+18.95 (3.06e-05)
+STG
+51.24 (1.04e-10)
+ITG
+11.79 (8.45e-04)
+MTG
+17.20 (6.72e-05)
+The threshold was p < 0.001. The identity of the abbreviation for each region can be found in Table 1.
+Left, left hemisphere; right, right hemisphere.
+HANDEDNESS AFFECTS THE HEMISPHERIC BRAIN NETWORKS
+151
+
+2011; Corbetta et al., 2005; Smith et al., 2013). However, a
+few studies have reported differences in the topological prop-
+erties of human hemispheric brain networks. Recently, Itur-
+rial-Medina et al. (2011) showed that the right hemisphere
+was signiﬁcantly more efﬁcient, with consistent rightward
+global efﬁciency and local efﬁciency, than the left hemisphere
+in right-handed individuals. In addition, a signiﬁcant right-
+ward asymmetry in WM volume was also reported in healthy
+subjects (Barrick et al., 2005). Both of the whole-hemisphere
+scale studies cited earlier suggested that, compared with the lead-
+ing role of specialized processing in the left hemisphere (such
+as language and motor actions), the right hemisphere has a
+leading role in general information processing (such as inte-
+gration tasks) (Barrick et al., 2005; Iturria-Medina et al.,
+2011). Small-world networks are known to show a robust net-
+work architecture in which information is transformed and in-
+tegrated with a high level of efﬁciency (Latora and Marchiori,
+2001; Sporns et al., 2004). In our study, we found that the
+small-world parameters were signiﬁcantly rightward. Thus,
+our hemisphere-scale study also suggested a high efﬁciency
+of general information processing in the right hemisphere,
+supporting a previous study (Iturria-Medina et al., 2011).
+Hemisphere-related differences in nodal efﬁciency
+Nodal efﬁciency is a regional network parameter that indi-
+cates the variable cost during information processing
+(Achard and Bullmore, 2007). Our study revealed 16 nodes
+FIG. 4.
+Over a wide range of
+sparsities (S), paired t-tests were
+performed to investigate the later-
+alization in each group. (A, C, E)
+Showed signiﬁcantly right-ward
+bias (right hemisphere larger than
+left hemisphere) in the normalized
+clustering coefﬁcient c, normalized
+path length k, and small-worldness
+r in the right-hand group. (B, D, F)
+Showed symmetrical topological
+properties in the left-hand group.
+The stars on top of the boxplot in-
+dicate signiﬁcant statistical differ-
+ences between the left hemisphere
+and the right hemisphere ( p < 0.05).
+Table 4. Lateralization Indexes
+of the Network Parameters
+c
+k
+r
+Eglob
+Eloc
+Left handers
+t-Value
+1.68
+1.49
+1.22
+0.41
+0.49
+p-Value
+0.11
+0.15
+0.24
+0.69
+0.63
+Right handers
+t-Value
+4.09
+2.50
+3.68
+1.36
+0.86
+p-Value
+2.84e-04
+0.017
+8.88e-04
+0.18
+0.40
+Data from left- and right handers indicates the signiﬁcance of the
+lateralization index. c, k, r, Eglob, and Eloc denote the normalized
+clustering coefﬁcient, normalized shortest path length, small world-
+ness, global efﬁciency, and local efﬁciency, respectively. Positive t-
+scores of the left- and right handers indicate a rightward bias, and
+negative scores
+indicate a leftward bias. Signiﬁcant effects
+( p < 0.05) are identiﬁed by bold text.
+152
+LI ET AL.
+
+that were signiﬁcantly asymmetric with regard to nodal efﬁ-
+ciency ( p < 0.05, Bonferroni correction; Fig. 3 and Table 3).
+Such lateralization may play important roles related to hemi-
+sphere-speciﬁc functional specialization.
+Eight nodes (the MFG, the MOG, the IOG, the IPG, the
+ITG, the SFGorb, the REG, and the MCC) exhibited leftward
+asymmetries. These ﬁndings align closely with a cortical
+thickness investigation (Luders et al., 2006) that showed sig-
+niﬁcant leftward asymmetries in the anterior temporal lobe,
+including the ITG, the IPG, and superior frontal regions
+extending in the orbital gyrus (SFGorb). A thicker cortex in-
+dicates denser cell packing or an increased number of corti-
+cal neurons (Eickhoff et al., 2005), either of which could
+facilitate information transfer. In addition, signiﬁcant left-
+ward asymmetries of the betweenness centrality in the IOG
+and the MCC (Iturria-Medina et al., 2011) have been
+reported, as well as signiﬁcant left-greater-than-right FA val-
+ues in the cingulum bundle (Gong et al., 2005). Both studies
+indicated a more coherent connectivity or ﬁber organization
+in the left hemisphere in regions that correspond to our ﬁnd-
+ings. The leftward asymmetries in the occipital regions that
+we observed also agree with many previous functional and
+structural imaging studies (Gong et al., 2009a; Tian et al.,
+2011; Toga and Thompson, 2003).
+Signiﬁcant rightward asymmetries were found primarily
+in four temporal regions (the INS, the LING, the STG, and
+the MTG) as well as in the SMG, the PreCG, the PUT, and
+the PoCG. Our ﬁnding of a right skew in the PreCG
+and PoCG was inconsistent with a number of reports of
+left asymmetry based on various techniques (Amunts et al.,
+2000; Luders et al., 2006; Petit et al., 2009). Further studies
+should focus on more precise parcellations or tractography
+algorithms. Previous studies suggested that the INS is in-
+volved in the right-lateralized attentional system and exhibits
+signiﬁcant rightward structural or functional asymmetries
+(Tian et al., 2011; Watkins et al., 2001). The STG has been
+repeatedly reported to show rightward asymmetry (Luders
+et al., 2006; Tian et al., 2011), and a rightward asymmetry
+for the volume of the MTG was observed in a postmortem
+study (Highley et al., 1999). Thus, our ﬁndings of signiﬁcant
+rightward asymmetries in the INS, the STG, and the MTG
+conﬁrmed previous studies. Rightward nodal efﬁciency in
+the SMG is an additional interesting result, which is agree-
+ment with the documented rightward lateralization in the
+SMG in healthy humans using the betweenness centrality
+(Iturria-Medina et al., 2011). The right hemisphere plays a
+dominant role in the implementation of visuospatial attention
+(Corbetta and Shulman, 2011; Shulman et al., 2010; Smith
+et al., 2013), and lesions in the right SMG may cause visuo-
+spatial attentional neglect (Halligan et al., 2003; Husain and
+Rorden, 2003; Leibovitch et al., 1998). The observed right-
+ward asymmetry in the SMG using the nodal efﬁciency of
+the WM network further indicates why the widely investi-
+gated phenomenon of visuo-attentional neglect is more com-
+monly a consequence of right hemisphere damage.
+The LIs of brain networks
+The topological properties, including the normalized cluster-
+ing coefﬁcient c, the normalized path length k, and the small-
+worldness r, were signiﬁcantly asymmetric in the right-handed
+subjects. However, the differences in these topological proper-
+ties between the left and the right hemispheres in the left hand-
+ers were inconspicuous (Fig. 4 and Table 4). To the best of our
+knowledge, this is the ﬁrst study that reported asymmetric
+trends in brain structural topology in left-and right handers.
+Although there is no signiﬁcant handedness-hemisphere inter-
+action, the results provide novel insights into previously
+reported anatomical and functional asymmetries from a
+large-scale network perspective. In addition, the average Edin-
+burgh Handedness score of our left handers was only 67.1,
+which indicates a weak degree of ( >  80) left handedness;
+whereas the average score of the right handers was 95.3, sug-
+gesting a strong degree of ( > 80) right handedness. Recruiting
+much stronger left-handed participants, similar to our right
+handers, will be necessary for future studies.
+Potential limitations
+Several limitations in the current study should be noted.
+First, we assessed the handedness according to the Chinese
+revised version of the Edinburgh Handedness Inventory. A
+longer questionnaire with a wider response format seems to
+be required, if the primary aim is to investigate handedness
+as the chief phenomenon of interest. Second, the edges of
+the structural connectivity networks were deﬁned using de-
+terministic streamline tractography, as has been done in
+other studies (Shu et al., 2011; Zhang et al., 2011). This
+tracking procedure always stops when it traces through re-
+gions of crossing ﬁbers, assumes a Gaussian diffusion, and
+also assumes that only a single ﬁber exists per voxel (Desco-
+teaux et al., 2009). However, some of WM voxels contain
+more than one ﬁber bundle orientation, leading to an inaccu-
+rate depiction of the tract and a premature stop in regions
+with isotropic tensors (Behrens et al., 2007). Thus, determin-
+istic tractography favors short connections, which may bias
+the measure of efﬁciency. On the other hand, probabilistic
+tractography (Gong et al., 2009b) is able to overcome ﬁber
+crossing through complex orientation ﬁelds and can better
+deal with partial volume averaging effects and noise in the
+estimated ﬁber directions. However, the connectivity maps
+from probabilistic tractography are harder to interpret visu-
+ally and tend to leak into unexpected regions of the brain
+WM (Qazi et al., 2009). Of the two families of tractography
+algorithms, probabilistic tractography techniques may prove
+to be helpful for addressing more sophisticated questions and
+may provide accurate results in future work. Third, the AAL
+atlas was used to parcellate the whole brain into 90 regions
+in this study. However, recent studies indicated that differ-
+ent parcellations or different spatial scales generated differ-
+ent results (Hayasaka and Laurienti, 2010; Zalesky et al.,
+2010). Thus, further studies should determine which brain
+parcellation or spatial scale is most appropriate for studying
+the human brain. Finally, the big differences (24 vs. 32) in
+this small sample size may limit the translational value of
+our results. In the future, a more nearly equal and a larger im-
+aging dataset will be necessary to conﬁrm our ﬁndings.
+Conclusion
+Using DTI tractography and graph theoretical methods,
+we examined the relationships between the structural con-
+nectivity patterns of human hemispheric networks and hand-
+edness/hemisphere. We found that the right hemisphere had
+signiﬁcantly greater small-world attributes, implying a
+HANDEDNESS AFFECTS THE HEMISPHERIC BRAIN NETWORKS
+153
+
+hemisphere main effect. Moreover, we demonstrated that left-
+and right-handed individuals have different lateralization pat-
+terns in their topological properties. Unlike previous studies,
+the present study provides a large-scale network perspective
+for understanding how the human cortical neuroanatomy is as-
+sociated with handedness and hemisphere. Further studies
+should be conducted to explore whether left preference or de-
+creased asymmetry at either the global or regional level are
+markers for intellectual, temperament, or behavioral differ-
+ences, as well as for the relative risk of speciﬁc brain diseases.
+Acknowledgments
+The authors are grateful for the interest and participation of
+all the volunteers. They also appreciate the extensive English
+and content editing assistance of Rhoda E. and Edmund F.
+Perozzi. This work was supported by grants from 973 Project
+2012CB517901, the Natural Science Foundation of China
+(61125304, 61035006, and 61273361), and the Key Technol-
+ogy R&D Program of Sichuan Province (2012SZ0159).
+Author Disclosure Statement
+The authors have declared that no competing interests
+exist.
+References
+Achard S, Bullmore E. 2007. Efﬁciency and cost of economical
+brain functional networks. PLoS Comput Biol 3:e17.
+Achard S, Salvador R, Whitcher B, Suckling J, Bullmore E.
+2006. A resilient, low-frequency, small-world human brain
+functional network with highly connected association corti-
+cal hubs. J Neurosci 26:63–72.
+Amunts K, Jancke L, Mohlberg H, Steinmetz H, Zilles K. 2000.
+Interhemispheric asymmetry of the human motor cortex related
+to handedness and gender. Neuropsychologia 38:304–312.
+Annett M. 1973. Handedness in families. Ann Hum Genet
+37:93–105.
+Barrick TR, Mackay CE, Prima S, Maes F, Vandermeulen D,
+Crow TJ, Roberts N. 2005. Automatic analysis of cerebral
+asymmetry: an exploratory study of the relationship between
+brain torque and planum temporale asymmetry. Neuroimage
+24:678–691.
+Bassett DS, Bullmore E. 2006. Small-world brain networks.
+Neuroscientist 12:512–523.
+Bassett DS, Bullmore E, Verchinski BA, Mattay VS, Weinberger
+DR, Meyer-Lindenberg A. 2008. Hierarchical organization of
+human cortical networks in health and schizophrenia. J Neuro-
+sci 28:9239–9248.
+Beaton AA. 1997. The relation of planum temporale asymmetry
+and morphology of the corpus callosum to handedness, gen-
+der, and dyslexia: a review of the evidence. Brain Lang
+60:255–322.
+Behrens TE, Berg HJ, Jbabdi S, Rushworth MF, Woolrich MW.
+2007. Probabilistic diffusion tractography with multiple ﬁbre
+orientations: what can we gain? Neuroimage 34:144–155.
+Benson RR, et al. 1999. Language dominance determined by
+whole brain functional MRI in patients with brain lesions.
+Neurology 52:798–809.
+Bullmore E, Sporns O. 2009. Complex brain networks: graph
+theoretical analysis of structural and functional systems.
+Nat Rev Neurosci 10:186–198.
+Chen ZJ, He Y, Rosa-Neto P, Germann J, Evans AC. 2008.
+Revealing modular architecture of human brain structural
+networks by using cortical thickness from MRI. Cereb Cortex
+18:2374–2381.
+Churchill JA, Igna E, Senf R. 1962. The association of position
+at birth and handedness. Pediatrics 29:307–309.
+Corbetta M, Kincade MJ, Lewis C, Snyder AZ, Sapir A. 2005.
+Neural basis and recovery of spatial attention deﬁcits in spa-
+tial neglect. Nat Neurosci 8:1603–1610.
+Corbetta M, Shulman GL. 2011. Spatial neglect and attention
+networks. Annu Rev Neurosci 34:569–599.
+Cuzzocreo JL, Yassa MA, Verduzco G, Honeycutt NA, Scott
+DJ, Bassett SS. 2009. Effect of handedness on fMRI activa-
+tion in the medial temporal lobe during an auditory verbal
+memory task. Hum Brain Mapp 30:1271–1278.
+Descoteaux M, Deriche R, Knosche TR, Anwander A. 2009.
+Deterministic and probabilistic tractography based on com-
+plex ﬁbre orientation distributions. IEEE Trans Med Imaging
+28:269–286.
+Ding JR, Liao W, Zhang Z, Mantini D, Xu Q, Wu GR, Lu G,
+Chen H. 2011. Topological fractionation of resting-state net-
+works. PLoS One 6:e26596.
+Eickhoff S, Walters NB, Schleicher A, Kril J, Egan GF, Zilles K,
+Watson JD, Amunts K. 2005. High-resolution MRI reﬂects
+myeloarchitecture and cytoarchitecture of human cerebral
+cortex. Hum Brain Mapp 24:206–215.
+Falek A. 1959. Handedness: a family study. Am J Hum Genet
+11:52–62.
+Fears SC, Scheibel K, Abaryan Z, Lee C, Service SK, Jorgensen
+MJ, Fairbanks LA, Cantor RM, Freimer NB, Woods RP.
+2011. Anatomic brain asymmetry in vervet monkeys. PLoS
+One 6:e28243.
+Ferri R, Rundo F, Bruni O, Terzano MG, Stam CJ. 2007. Small-
+world network organization of functional connectivity of
+EEG slow-wave activity during sleep. Clin Neurophysiol
+118:449–456.
+Friederici AD. 2012. The cortical language circuit: from audi-
+tory perception to sentence comprehension. Trends Cogn
+Sci 16:262–268.
+Geschwind N, Levitsky W. 1968. Human brain: left-right
+asymmetries in temporal speech region. Science 161:
+186–187.
+Gong G, He Y, Concha L, Lebel C, Gross DW, Evans AC, Beau-
+lieu C. 2009a. Mapping anatomical connectivity patterns of
+human cerebral cortex using in vivo diffusion tensor imaging
+tractography. Cereb Cortex 19:524–536.
+Gong G, Jiang T, Zhu C, Zang Y, Wang F, Xie S, Xiao J, Guo X.
+2005. Asymmetry analysis of cingulum based on scale-
+invariant parameterization by diffusion tensor imaging.
+Hum Brain Mapp 24:92–98.
+Gong G, Rosa-Neto P, Carbonell F, Chen ZJ, He Y, Evans AC.
+2009b. Age- and gender-related differences in the cortical an-
+atomical network. J Neurosci 29:15684–15693.
+Guo W, Liu F, Liu Z, Gao K, Xiao C, Chen H, Zhao J. 2012a.
+Right lateralized white matter abnormalities in ﬁrst-episode,
+drug-naive paranoid schizophrenia. Neurosci Lett 531:5–9.
+Guo WB, et al. 2012b. Altered white matter integrity of fore-
+brain in treatment-resistant depression: a diffusion tensor
+imaging study with tract-based spatial statistics. Prog Neuro-
+psychopharmacol Biol Psychiatry 38:201–206.
+Haberling IS, Badzakova-Trajkov G, Corballis MC. 2011. Cal-
+losal tracts and patterns of hemispheric dominance: a com-
+bined fMRI and DTI study. Neuroimage 54:779–786.
+Hagmann P, Cammoun L, Gigandet X, Meuli R, Honey CJ,
+Wedeen VJ, Sporns O. 2008. Mapping the structural core
+of human cerebral cortex. PLoS Biol 6:e159.
+154
+LI ET AL.
+
+Halligan PW, Fink GR, Marshall JC, Vallar G. 2003. Spatial
+cognition: evidence from visual neglect. Trends Cogn Sci
+7:125–133.
+Hayasaka S, Laurienti PJ. 2010. Comparison of characteristics
+between region-and voxel-based network analyses in rest-
+ing-state fMRI data. Neuroimage 50:499–508.
+He Y, Chen ZJ, Evans AC. 2007. Small-world anatomical net-
+works in the human brain revealed by cortical thickness
+from MRI. Cereb Cortex 17:2407–2419.
+Herve PY, Crivello F, Perchey G, Mazoyer B, Tzourio-Mazoyer
+N. 2006. Handedness and cerebral anatomical asymmetries in
+young adult males. Neuroimage 29:1066–1079.
+Herve PY, Zago L, Petit L, Mazoyer B, Tzourio-Mazoyer N.
+2013. Revisiting human hemispheric specialization with neu-
+roimaging. Trends Cogn Sci 17:69–80.
+Highley JR, McDonald B, Walker MA, Esiri MM, Crow TJ.
+1999. Schizophrenia and temporal lobe asymmetry. A post-
+mortem stereological study of tissue volume. Br J Psychiatry
+175:127–134.
+Hopkins WD. 2006. Comparative and familial analysis of hand-
+edness in great apes. Psychol Bull 132:538–559.
+Hull R, Vaid J. 2007. Bilingual language lateralization: a meta-
+analytic tale of two hemispheres. Neuropsychologia 45:
+1987–2008.
+Humphries MD, Gurney K, Prescott TJ. 2006. The brainstem re-
+ticular formation is a small-world, not scale-free, network.
+Proc Biol Sci 273:503–511.
+Husain M, Rorden C. 2003. Non-spatially lateralized mecha-
+nisms in hemispatial neglect. Nat Rev Neurosci 4:26–36.
+Iturria-Medina Y, Sotero RC, Canales-Rodriguez EJ, Aleman-
+Gomez Y, Melie-Garcia L. 2008. Studying the human brain
+anatomical network via diffusion-weighted MRI and Graph
+Theory. Neuroimage 40:1064–1076.
+Iturria-Medina Y, Pe´rez Ferna´ndez A, Morris DM, et al. 2011.
+Brain hemispheric structural efﬁciency and interconnectivity
+rightward asymmetry in human and nonhuman primates.
+Cereb Cortex 21:56–67.
+Knecht S, Drager B, Deppe M, Bobe L, Lohmann H, Floel A,
+Ringelstein EB, Henningsen H. 2000. Handedness and hemi-
+spheric language dominance in healthy humans. Brain 123 Pt
+12:2512–2518.
+Latora V, Marchiori M. 2001. Efﬁcient behavior of small-world
+networks. Phys Rev Lett 87:198701.
+Leibovitch FS, Black SE, Caldwell CB, Ebert PL, Ehrlich LE,
+Szalai JP. 1998. Brain-behavior correlations in hemispatial
+neglect using CT and SPECT: the Sunnybrook Stroke
+Study. Neurology 50:901–908.
+Liao W, Ding J, Marinazzo D, Xu Q, Wang Z, Yuan C, Zhang Z,
+Lu G, Chen H. 2011. Small-world directed networks in the
+human brain: multivariate Granger causality analysis of rest-
+ing-state fMRI. Neuroimage 54:2683–2694.
+Liu Y, Liang M, Zhou Y, He Y, Hao Y, Song M, Yu C, Liu H,
+Liu Z, Jiang T. 2008. Disrupted small-world networks in
+schizophrenia. Brain 131:945–961.
+Lo CY, Wang PN, Chou KH, Wang J, He Y, Lin CP. 2010. Dif-
+fusion tensor tractography reveals abnormal topological or-
+ganization in structural cortical networks in Alzheimer’s
+disease. J Neurosci 30:16876–16885.
+Luders E, Narr KL, Thompson PM, Rex DE, Jancke L, Toga
+AW. 2006. Hemispheric asymmetries in cortical thickness.
+Cereb Cortex 16:1232–1238.
+Mori S, Crain BJ, Chacko VP, van Zijl PC. 1999. Three-
+dimensional tracking of axonal projections in the brain by
+magnetic resonance imaging. Ann Neurol 45:265–269.
+Oldﬁeld RC. 1971. The assessment and analysis of handedness:
+the Edinburgh inventory. Neuropsychologia 9:97–113.
+Onnela JP, Saramaki J, Kertesz J, Kaski K. 2005. Intensity and
+coherence of motifs in weighted complex networks. Phys
+Rev E Stat Nonlin Soft Matter Phys 71:065103.
+Petit L, Zago L, Vigneau M, Andersson F, Crivello F, Mazoyer
+B, Mellet E, Tzourio-Mazoyer N. 2009. Functional asymme-
+tries revealed in visually guided saccades: an FMRI study.
+J Neurophysiol 102:2994–3003.
+Price CJ. 2012. A review and synthesis of the ﬁrst 20 years of
+PET and fMRI studies of heard speech, spoken language
+and reading. Neuroimage 62:816–847.
+Qazi AA, Radmanesh A, O’Donnell L, Kindlmann G, Peled S,
+Whalen S, Westin CF, Golby AJ. 2009. Resolving crossings
+in the corticospinal tract by two-tensor streamline tractogra-
+phy: method and clinical assessment using fMRI. Neuro-
+image 47 Suppl 2:T98–T106.
+Rasmussen T, Milner B. 1977. The role of early left-brain injury
+in determining lateralization of cerebral speech functions.
+Ann N Y Acad Sci 299:355–369.
+Shu N, Liu Y, Li K, Duan Y, Wang J, Yu C, Dong H, Ye J, He Y.
+2011. Diffusion tensor tractography reveals disrupted topo-
+logical efﬁciency in white matter structural networks in mul-
+tiple sclerosis. Cereb Cortex 21:2565–2577.
+Shulman GL, Pope DL, Astaﬁev SV, McAvoy MP, Snyder AZ,
+Corbetta M. 2010. Right hemisphere dominance during spa-
+tial selective attention and target detection occurs outside the
+dorsal frontoparietal network. J Neurosci 30: 3640–3651.
+Smith DV, Clithero JA, Rorden C, Karnath HO. 2013. Decoding
+the anatomical network of spatial attention. Proc Natl Acad
+Sci U S A 110:1518–1523.
+Sporns O, Chialvo DR, Kaiser M, Hilgetag CC. 2004. Organiza-
+tion, development and function of complex brain networks.
+Trends Cogn Sci 8:418–425.
+Sporns O, Tononi G, Kotter R. 2005. The human connectome: a
+structural description of the human brain. PLoS Comput Biol
+1:e42.
+Sporns O, Zwi JD. 2004. The small world of the cerebral cortex.
+Neuroinformatics 2:145–162.
+Stam CJ, Jones BF, Nolte G, Breakspear M, Scheltens P. 2007.
+Small-world networks and functional connectivity in Alz-
+heimer’s disease. Cereb Cortex 17:92–99.
+Steinmetz H. 1996. Structure, functional and cerebral asymme-
+try: in vivo morphometry of the planum temporale. Neurosci
+Biobehav Rev 20:587–591.
+Szaﬂarski JP, Binder JR, Possing ET, McKiernan KA, Ward BD,
+Hammeke TA. 2002. Language lateralization in left-handed
+and ambidextrous people: fMRI data. Neurology 59:238–244.
+Tian L, Wang J, Yan C, He Y. 2011. Hemisphere- and gender-
+related differences in small-world brain networks: a rest-
+ing-state functional MRI study. Neuroimage 54:191–202.
+Toga AW, Thompson PM. 2003. Mapping brain asymmetry. Nat
+Rev Neurosci 4:37–48.
+Tremblay T, Monetta L, Joanette Y. 2004. Phonological pro-
+cessing of words in right- and left-handers. Brain Cogn 55:
+427–432.
+Tuncer MC, Hatipoglu ES, Ozates M. 2005. Sexual dimorphism
+and handedness in the human corpus callosum based on mag-
+netic resonance imaging. Surg Radiol Anat 27:254–259.
+Tzourio-Mazoyer N, Landeau B, Papathanassiou D, Crivello F,
+Etard O, Delcroix N, Mazoyer B, Joliot M. 2002. Automated
+anatomical labeling of activations in SPM using a macro-
+scopic anatomical parcellation of the MNI MRI single-
+subject brain. Neuroimage 15:273–289.
+HANDEDNESS AFFECTS THE HEMISPHERIC BRAIN NETWORKS
+155
+
+van den Heuvel MP, Stam CJ, Boersma M, Hulshoff Pol HE.
+2008. Small-world and scale-free organization of voxel-
+based resting-state functional connectivity in the human
+brain. Neuroimage 43:528–539.
+Wang R, Beener T, Sorensen A, Weeden V. 2007. Diffusion
+toolkit: a software package for diffusion imaging data pro-
+cessing and tractography. Proc Intl Soc Mag Reson Med
+15:3720.
+Watkins KE, Paus T, Lerch JP, Zijdenbos A, Collins DL, Neelin
+P, Taylor J, Worsley KJ, Evans AC. 2001. Structural asym-
+metries in the human brain: a voxel-based statistical analysis
+of 142 MRI scans. Cereb Cortex 11:868–877.
+Watts DJ, Strogatz SH. 1998. Collective dynamics of ‘small-
+world’ networks. Nature 393:440–442.
+Westin CF, Maier SE, Mamata H, Nabavi A, Jolesz FA, Kikinis
+R. 2002. Processing and visualization for diffusion tensor
+MRI. Med Image Anal 6:93–108.
+Witelson SF, Goldsmith CH. 1991. The relationship of hand
+preference to anatomy of the corpus callosum in men.
+Brain Res 545:175–182.
+Yan C, Gong G, Wang J, Wang D, Liu D, Zhu C, Chen ZJ, Evans
+A, Zang Y, He Y. 2011. Sex- and brain size-related small-
+world structural cortical networks in young adults: a DTI
+tractography study. Cereb Cortex 21:449–458.
+Zalesky A, Fornito A, Harding IH, Cocchi L, Yucel M, Pan-
+telis C, Bullmore ET. 2010. Whole-brain anatomical net-
+works: does the choice of nodes matter? Neuroimage 50:
+970–983.
+Zhang Z, et al. 2011. Altered functional-structural coupling of
+large-scale brain networks in idiopathic generalized epilepsy.
+Brain 134:2912–2928.
+Address correspondence to:
+Huafu Chen
+Key Laboratory for NeuroInformation
+of Ministry of Education
+School of Life Science and Technology
+University of Electronic Science and Technology of China
+Chengdu 610054
+China
+E-mail: chenhf@uestc.edu.cn
+Chunshui Yu
+Department of Radiology
+Tianjin Medical University General Hospital
+Tianjin 300052
+China
+E-mail: chunshuiyu@vip.163.com
+156
+LI ET AL.

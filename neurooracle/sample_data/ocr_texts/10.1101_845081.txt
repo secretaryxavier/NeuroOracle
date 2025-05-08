@@ -1,0 +1,3657 @@
+1 
+Spreading of a mycobacterial cell surface lipid into host epithelial membranes promotes 
+1 
+infectivity 
+2 
+ 
+3 
+C.J. Cambier1, Steven M. Banik1, Joseph A. Buonomo1, and Carolyn R. Bertozzi1,2,* 
+4 
+ 
+5 
+1Department of Chemistry, Stanford University, Stanford, CA, 94305, USA 
+6 
+2Howard Hughes Medical Institute, Stanford University, Stanford, CA, 94305, USA 
+7 
+*Correspondence: bertozzi@stanford.edu 
+8 
+ 
+9 
+ABSTRACT 
+10 
+Several virulence lipids populate the outer cell wall of pathogenic mycobacteria (Jackson, 
+11 
+2014). Phthiocerol dimycocerosate (PDIM), one of the most abundant outer membrane lipids 
+12 
+(Anderson, 1929), plays important roles in both defending against host antimicrobial programs 
+13 
+(Camacho et al., 2001; Cox et al., 1999; Murry et al., 2009) and in evading these programs 
+14 
+altogether (Cambier et al., 2014a; Rousseau et al., 2004). Immediately following infection, 
+15 
+mycobacteria rely on PDIM to evade toll-like receptor (TLR)-dependent recruitment of 
+16 
+bactericidal monocytes which can clear infection (Cambier et al., 2014b). To circumvent the 
+17 
+limitations in using genetics to understand virulence lipid function, we developed a chemical 
+18 
+approach to introduce a clickable, semi-synthetic PDIM onto the cell wall of Mycobacterium 
+19 
+marinum. Upon infection of zebrafish, we found that PDIM rapidly spreads into host epithelial 
+20 
+membranes, and that this spreading inhibits TLR activation. PDIM’s ability to spread into 
+21 
+epithelial membranes correlated with its enhanced fluidity afforded by its methyl-branched 
+22 
+mycocerosic acids. Additionally, PDIM’s affinity for cholesterol promoted its occupation of 
+23 
+epithelial membranes; treatment of zebrafish with statins, cholesterol synthesis inhibitors, 
+24 
+decreased spreading and provided protection from infection. This work establishes that 
+25 
+interactions between host and pathogen lipids influence mycobacterial infectivity and suggests 
+26 
+the use of statins as tuberculosis preventive therapy by inhibiting PDIM spread. 
+27 
+ 
+28 
+INTRODUCTION 
+29 
+Mycobacterium tuberculosis, the causative pathogen of the pulmonary disease 
+30 
+tuberculosis (TB), is estimated to have evolved within the confines of the human lung for 
+31 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+2 
+millennia (Comas et al., 2013). A result of this co-evolution is a choreographed response of 
+32 
+innate and adaptive immune cells culminating in the formation of granulomas, specialized 
+33 
+structures that permit bacterial replication and ultimately promote transmission (Ramakrishnan, 
+34 
+2012). A key strategy used by mycobacteria throughout infection is to avoid and manipulate host 
+35 
+immune pathways so as to afford the pathogen safe harbor in otherwise bactericidal myeloid 
+36 
+cells (Cambier et al., 2014a; Urdahl, 2014).  
+37 
+To better understand these host-pathogen interactions, we have taken advantage of the 
+38 
+optically transparent zebrafish larva, a natural host of the pathogen M. marinum (Ramakrishnan, 
+39 
+2020; Takaki et al., 2013). Infection of the hindbrain ventricle (HBV), an epithelium-lined 
+40 
+cavity, allows for the visualization and characterization of the cellular immune response (Davis 
+41 
+and Ramakrishnan, 2009), a response that is comparable to that seen in the mouse lung following 
+42 
+infection with M. tuberculosis (Srivastava et al., 2014). In both models, mycobacteria are 
+43 
+initially phagocytosed by tissue-resident macrophages and are eventually transferred to 
+44 
+monocytes which go on to form granulomas (Cambier et al., 2017; Cohen et al., 2018). 
+45 
+In order to reach growth-permissive cells, mycobacteria must first evade prototypical 
+46 
+anti-bacterial monocytes. In response to mucosal commensal pathogens, bactericidal monocytes 
+47 
+are recruited downstream of TLR signaling (Medzhitov, 2007). Screening of M. marinum genetic 
+48 
+mutants found that the cell surface lipid phthiocerol dimycocerosate (PDIM) is required to avoid 
+49 
+this TLR-dependent immune response (Cambier et al., 2014b). In addition to evading immune 
+50 
+detection, PDIM is reported to promote pathogenesis in other ways, such as being required for 
+51 
+the relative impermeability of the mycobacterial cell wall (Camacho et al., 2001) and promoting 
+52 
+escape from phagolysosomes (Augenstreich et al., 2017; Barczak et al., 2017; Lerner et al., 2017; 
+53 
+Quigley et al., 2017). However, the molecular details underlying PDIM’s myriad pathogenic 
+54 
+functions remain unknown.   
+55 
+To accomplish mechanistic studies of virulence lipids, we and others developed 
+56 
+metabolic labeling strategies where unnatural metabolic precursors are fed to growing bacteria 
+57 
+(Siegrist et al., 2015). The unnatural metabolite contains a bioorthogonal functional group that 
+58 
+facilitates visualization of macromolecules in living bacteria (Sletten and Bertozzi, 2009). An 
+59 
+example is the labeling of trehalose containing lipids with azide-functionalized trehalose (Swarts 
+60 
+et al., 2012). Trehalose labeling is so robust that it has since been elaborated on with various 
+61 
+functional probes (Kamariza et al., 2018; Rodriguez-Rivera et al., 2017).  
+62 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+3 
+Here we have developed comparable chemical tools to monitor PDIM’s distribution 
+63 
+during infection, allowing us to better understand PDIM’s mechanism of action. By visualizing 
+64 
+PDIM during in vivo infection, we found that the first step in PDIM mediated pathogenesis is to 
+65 
+spread into epithelial cells in order to inhibit TLR signaling. Structure function analysis revealed 
+66 
+that PDIM’s inherent fluidity, afforded by its methyl-branched fatty acids, promoted occupation 
+67 
+of this host lipid niche. PDIM spreading was also dependent on the lipid content of host 
+68 
+membranes. Administration of the cholesterol lowering drug, atorvastatin (Lipitor), led to a 
+69 
+decrease in PDIM spreading, and subsequent resistance to mycobacterial infection. Our findings 
+70 
+provide a mechanistic explanation for the association of statin use with a decrease in TB 
+71 
+incidence (Lai et al., 2016a) and support their use as a TB preventative therapy.  
+72 
+ 
+73 
+RESULTS 
+74 
+Controlling Mycomembrane Composition by Chemical Extraction and Reconstitution  
+75 
+Due to the conserved synthesis of lipid intermediates, PDIM lacks unique biosynthetic 
+76 
+precursors to facilitate metabolic labeling (Onwueme et al., 2005). However, PDIM is removed 
+77 
+following petroleum ether extraction (Moliva et al., 2019), a technique previously used to 
+78 
+perform loss of function studies of outer mycomembrane lipids (Silva et al., 1985), as lipids can 
+79 
+be removed and added back with petroleum ether (Indrigo, 2003). Using this approach, we 
+80 
+hypothesized that we could chemically install a biorthogonal handle onto extracted PDIM and 
+81 
+use this modified lipid to elucidate the fundamental mechanisms underlying PDIM’s contribution 
+82 
+to virulence. Similar to reports on M. tuberculosis and M. bovis, we validated that petroleum 
+83 
+ether extraction did not affect the growth rate of M. marinum in culture (Supplemental Figure 
+84 
+1A) and extracted lipids could be mixed with bacteria in petroleum ether followed by drying to 
+85 
+reconstitute these lipids into the mycomembrane (Figure 1A and Supplemental Figure 1B). 
+86 
+Similar to reports in macrophages (Indrigo, 2003), following infection of zebrafish (Figure 1B) 
+87 
+delipidated bacteria were attenuated for growth and this phenotype was rescued upon 
+88 
+reconstitution (Figure 1C and D). 
+89 
+ 
+90 
+Pre-infection PDIM Reservoirs are Required for Virulence 
+91 
+M. marinum mutants in PDIM synthesis (∆mas) and localization to the mycomembrane 
+92 
+(∆mmpL7) trigger TLR-dependent immune recognition following infection (Cambier et al., 
+93 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+4 
+94 
+2014b). TLR signaling leads to the recruitment of activated monocytes that can clear bacteria in 
+95 
+an inducible nitric oxide synthase-dependent fashion. PDIM-sufficient wildtype bacteria are not 
+96 
+detected by TLRs and instead recruit a comparable number of permissive monocytes 
+97 
+downstream of the chemokine CCL2 (Cambier et al., 2014b). However, since ∆mas and 
+98 
+∆mmpL7 lack proteins required for PDIM’s synthesis or export, the associated phenotypes could 
+99 
+be attributed to the missing proteins rather than to a lack of PDIM. To directly test if the 
+100 
+presence of PDIM on the bacterial surface is responsible for evasion of TLR-mediated immunity, 
+101 
+we performed a lipid-swap experiment. Wildtype and ∆mmpL7 M. marinum were either 
+102 
+untreated (control) or extracted and reconstituted with their native lipids or the lipids from the 
+103 
+other strain (Figure 1E). Petroleum ether extraction of wildtype bacteria completely removed 
+104 
+both dimycocerosic acid (DIM) containing lipids, PDIM and its metabolic precursor 
+105 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+5 
+phthiodiolone dimycocerosate (PNDIM, Supplemental Figure 1C) both of which were absent in 
+106 
+∆mmpL7 extracts (Supplemental Figure 1D). Following infection, wildtype control and wildtype 
+107 
+bacteria reconstituted with wildtype lipids grew normally whereas wildtype bacteria 
+108 
+reconstituted with ∆mmpL7 lipids were attenuated for growth (Figure 1F). Conversely, ∆mmpL7 
+109 
+bacteria were attenuated for growth, as expected, unless they were reconstituted with wildtype 
+110 
+lipids, in which case they grew at wildtype bacterial rates (Figure 1F). Using an antisense 
+111 
+morpholino to knockdown the TLR-adaptor MYD88 (Bates et al., 2007), we also found that the 
+112 
+dependence on TLRs to recruit monocytes to ∆mmpL7 bacteria was abolished with wildtype 
+113 
+lipids (Figure 1G). Taken together these experiments highlight the strengths of this chemical 
+114 
+approach. Not only does it recapitulate known phenotypes of PDIM genetic mutants, but it 
+115 
+directly links the mutant phenotypes to the absence of PDIM on the mycomembrane. 
+116 
+Furthermore, our data suggest that the PDIM present on the surface of the bacterium from the 
+117 
+onset of infection is required and sufficient to avoid TLRs, as mutants unable to replenish PDIM 
+118 
+on their surfaces become virulent when they are coated with wildtype lipids prior to infection.  
+119 
+ 
+120 
+Synthesis of a Clickable, Biologically Active PDIM 
+121 
+Given the pathogenic importance of the pre-infection mycomembrane lipid content, we 
+122 
+hypothesized that labeling this pool of PDIM would allow us to observe characteristics 
+123 
+underlying its virulence mechanisms. Both PDIM and its biosynthetic precursor PNDIM are 
+124 
+present in the outer mycomembrane. The only difference between these lipids is their diol 
+125 
+backbones; PDIM has a methyl ether, while PNDIM has a ketone (Siméone et al., 2007). Either 
+126 
+lipid alone can promote infection in mice (Siméone et al., 2007), suggesting chemical flexibility 
+127 
+at this site with regards to virulence. Therefore, we converted the methyl ether of PDIM to an 
+128 
+alkyl halide with trimethylsilyl iodide (Jung and Lyster, 1977). Subsequent addition of sodium 
+129 
+azide provided azido-DIM (Figure 2A). Reconstitution of delipidated bacteria with lipids 
+130 
+containing azido-DIM, followed by a copper-free click reaction with the cyclooctyne fluorophore 
+131 
+DIBO-488 (Figure 2B) resulted in a ~100-fold increase in fluorescence (Figure 2C). Confocal 
+132 
+microscopy revealed the fluorescent signal to be membrane associated (Figure 2D, E), 
+133 
+suggesting azido-DIM incorporated into the mycomembrane. Importantly, we found that adding 
+134 
+back native DIMs or azido-DIM to DIM-depleted lipids prior to reconstitution (Supplemental 
+135 
+Figure 1E) followed by DIBO-488 labeling rescued DIM-depleted bacteria’s growth attenuation 
+136 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+6 
+137 
+(Figure 2F). Thus, with this approach we can generate bacteria with chemically functionalized 
+138 
+PDIM that retain their pathogenicity. 
+139 
+ 
+140 
+PDIM Spreads into Host Cell Membranes In Vivo 
+141 
+To visualize PDIM’s distribution, we infected zebrafish with blue-fluorescent M. 
+142 
+marinum that were reconstituted with azido-DIM followed by labeling with DIBO-488 (DIM-
+143 
+488). Immediately following phagocytosis, DIM-488 appeared to spread away from bacteria into 
+144 
+host membranes (Supplemental Figure 2A). Real-time imaging revealed that the spreading was 
+145 
+dynamic in nature, with DIM-488 deposits moving relative to host cells (Supplemental Movie 1). 
+146 
+To better visualize spreading of PDIM, we used the transgenic zebrafish line 
+147 
+Tg(mfap4:tdTomato) whose macrophages express the fluorescent protein tdTomato (Walton et 
+148 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+7 
+al., 2015). As early as 3 hours post-infection (hpi), DIM-488 had spread into infected 
+149 
+macrophage membranes, at both phagosome (Figure 3A, arrows) and more distal membrane sites 
+150 
+(Figure 3A, arrow heads). Spreading increased across macrophage membranes by 3 days post-
+151 
+infection (dpi) (Figure 3B). Similar spreading was seen when azido-DIM was conjugated to 
+152 
+DIBO-647 (Supplemental Figure 2B, C), suggesting that the lipid, and not the fluorescent probe, 
+153 
+was responsible for this phenotype. To quantify the extent of PDIM spreading, we imaged the 
+154 
+entire HBV infection site and calculated the proportion of fluorophore labelled azido-DIM that 
+155 
+no longer localized with bacteria (Supplemental Figure 2D). Using this number as a proxy for 
+156 
+lipid spread, we saw an increase in spreading as infection progressed (Figure 3C). Spreading also 
+157 
+occurred following infection of THP-1 macrophages in culture (Supplemental Figure 2E). 
+158 
+These results were consistent with a recent report using cultured macrophages showing 
+159 
+that M. tuberculosis PDIM occupies their cell membranes (Augenstreich et al., 2019). 
+160 
+Nevertheless, we wanted to determine whether spreading was a true attribute of our labeled 
+161 
+PDIM or if it was an artifactual property due to our reconstitution method. To address this, we 
+162 
+used an established pan-glycolipid labeling method previously used to track the spread of 
+163 
+mycobacterial glycolipids into macrophage membranes (Beatty et al., 2000). Control and 
+164 
+reconstituted M. marinum were treated with periodate and then reacted with a fluorescent 
+165 
+hydroxylamine prior to infection (Beatty et al., 2000). We found that spreading of the total pool 
+166 
+of fluorophore-labeled glycolipids was equal between control and reconstituted bacteria 
+167 
+(Supplemental Figure 3A and B). Thus, reconstitution does not appreciably influence the 
+168 
+spreading dynamics of mycomembrane lipids. These data demonstrate that the introduction of a 
+169 
+chemically functionalized PDIM into the mycomembrane provides physiologically relevant 
+170 
+information regarding PDIM’s host distribution during in vivo infection. 
+171 
+We next wanted to understand how PDIM spreading might be promoting virulence. 
+172 
+While it is appreciated that mycobacterial lipids spread throughout macrophage membranes 
+173 
+(Beatty et al., 2000), the inability to track specific lipids in an in vivo setting has hampered 
+174 
+studies on the pathophysiological relevance of these observations. PDIM has been suggested to 
+175 
+interact with the protein substrates of the type VII secretion system ESX-1, including EsxA 
+176 
+(Barczak et al., 2017). PDIM and EsxA are both required for cytosolic escape from 
+177 
+phagolysosomes (Osman et al., 2020; Quigley et al., 2017; van der Wel et al., 2007), where 
+178 
+PDIM is suggested to enhance the pore forming activity of EsxA through its ability to infiltrate 
+179 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+8 
+180 
+macrophage membranes (Augenstreich et al., 2017). Thus, we hypothesized that PDIM 
+181 
+localization would be dependent on EsxA secretion. Region of difference-1 M. marinum mutants 
+182 
+(∆RD1) which lack EsxA (Volkman et al., 2010), were reconstituted with DIM-488 prior to 
+183 
+zebrafish infection. There was no difference in DIM-488 spreading kinetics between wildtype 
+184 
+and ∆RD1 M. marinum (Supplemental Figure 3C), suggesting that EsxA does not influence 
+185 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+9 
+PDIM spreading.  Besides playing a role in cytosolic escape, PDIM spreading into macrophage 
+186 
+membranes has also been shown to promote phagocytosis of extracellular bacteria (Astarie-
+187 
+Dequeker et al., 2009; Augenstreich et al., 2019). To test this in vivo, we measured the rate of 
+188 
+phagocytosis of wildtype or ∆mmpL7 M. marinum following HBV infection by measuring the 
+189 
+number of discrete bacterial objects over time. As bacteria are phagocytosed, individual bacteria 
+190 
+can no longer be discerned by confocal microscopy and the number of discrete objects decreases. 
+191 
+There was no measurable difference in the rate of phagocytosis of wildtype or ∆mmpL7 bacteria 
+192 
+(Supplemental Figure 3D).  
+193 
+Given the discrepancy regarding PDIM’s role in promoting phagocytosis between the 
+194 
+cultured macrophage and zebrafish models, we wondered if the activation state of responding 
+195 
+monocyte/macrophage populations in zebrafish larvae was influencing their phagocytic 
+196 
+capacities. We know that PDIM-deficient bacteria recruit antimicrobial monocytes downstream 
+197 
+of TLR signaling, whereas wildtype bacteria recruit permissive monocytes downstream of 
+198 
+CCL2/CCR2 signaling (Cambier et al., 2014b). We also know that wildtype bacteria depend on 
+199 
+resident macrophages to produce CCL2 in order to recruit CCR2-expressing monocytes, whereas 
+200 
+PDIM-deficient bacteria recruit monocytes independent of resident macrophages (Cambier et al., 
+201 
+2017). Therefore, we wondered if PDIM plays a critical role in evading TLR detection in non-
+202 
+macrophage cell populations prior to any of its documented roles in directly modulating 
+203 
+macrophage biology. Upon closer examination, we observed DIM-488 deposits on zebrafish 
+204 
+epithelium at 24 hpi (Supplemental Figure 3E, arrows).  Imaging at 3 hpi we captured 
+205 
+extracellular bacteria having spread DIM-488 in the vicinity of an infected macrophage (Figure 
+206 
+3D). This ability to spread into epithelial membranes was confirmed in human A549 epithelial 
+207 
+cells in vitro (Supplemental Figure 3F). To address the timing of PDIM spread into epithelial and 
+208 
+macrophage membranes we imaged infected zebrafish at 2 hpi, prior to macrophage 
+209 
+phagocytosis, and at 4, 6, and 12 hpi by which time the majority of bacteria are phagocytosed. 
+210 
+Preceding any appreciable spreading onto macrophages, DIM-488 had already spread onto 
+211 
+epithelial cells by 2 hpi (Figure 3E yellow outlines and 3F). These data suggest that 
+212 
+mycobacteria spread PDIM onto epithelial cells prior to interactions with macrophages. To 
+213 
+confirm this observation, we depleted macrophages from zebrafish larva using clodronate-loaded 
+214 
+liposomes (Bernut et al., 2014). DIM-488 spreading still occurred in the absence of macrophages 
+215 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+10 
+(Supplemental Figure 3G). These data demonstrate that PDIM spreads onto epithelial cells 
+216 
+independent of and prior to macrophage phagocytosis.   
+217 
+ 
+218 
+PDIM’s Fluidity Promotes Spread into Epithelial Cell Membranes  
+219 
+We sought to understand PDIM’s properties that facilitated its ability to spread into host 
+220 
+membranes. It is well established that increased membrane fluidity promotes membrane mixing 
+221 
+(Howell et al., 1972), leading us to ask if PDIM occupied membrane domains of high fluidity. 
+222 
+Previous studies from our lab found that the mycomembrane of Mycobacterium smegmatis is 
+223 
+relatively immobile by using fluorescence recovery after photobleaching (FRAP) of 
+224 
+metabolically labeled trehalose monomycolate (TMM) (Rodriguez-Rivera et al., 2017). We 
+225 
+confirmed this for M. marinum TMM. Using the metabolic label 6-azido-trehalose (Swarts et al., 
+226 
+2012) followed by reaction with DIBO-488 to track TMM (TMM-488), we found very little 
+227 
+recovery following photobleaching of TMM-488, with only around 40% of the labeled lipids 
+228 
+being mobile (Figure 4A–C, and Supplemental Figure 4A). When we assessed PDIM, we found 
+229 
+DIM-488 recovery to be very efficient, with a half-life of 3 seconds and around 95% of the 
+230 
+signal being mobile (Figure 4A–C, and Supplemental Figure 4B). Thus, PDIM-containing 
+231 
+mycomembrane domains have a uniquely high fluidity.  
+232 
+If high membrane fluidity facilitates membrane mixing, then TMM should not be able to 
+233 
+spread into host cells as efficiently as PDIM does. Indeed, we found that TMM-488 failed to 
+234 
+spread onto epithelial cells at 2 hpi. Only when phagocytosed within macrophages at 24 hpi was 
+235 
+TMM spreading detected (Figure 4D and Supplemental Figure 4C). Even in the absence of 
+236 
+macrophages, where bacteria have a prolonged contact time with epithelial cells, TMM-488 
+237 
+spreading was negligible (Figure 4E). Thus, mycomembrane fluidity appears to correlate with 
+238 
+the ability to spread into host epithelial membranes.  
+239 
+To determine if there is a causal relationship between fluidity and spreading, we used 
+240 
+FRAP to identify conditions that decreased PDIM’s recovery after photobleaching. Neither heat-
+241 
+killing nor mild chemical fixation (4% paraformaldehyde (PFA)) significantly reduced DIM-
+242 
+488’s recovery (Figure 4F, G and Supplemental Figure 5). However, fixation with 4% PFA + 1% 
+243 
+glutaraldehyde (GA), a more effective fixative for membrane-associated proteins (Huebinger et 
+244 
+al., 2018), resulted in an almost 80% reduction in the mobile fraction of DIM-488 (Figure 4F, G 
+245 
+and Supplemental Figure 5). PFA+GA treatment decreased DIM-488 spread onto epithelial cells 
+246 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+11 
+247 
+at 2 hpi (Figure 4H and 4I). Likewise, fixed DIM-488 did not spread into epithelial membranes 
+248 
+following a 24 h infection of macrophage-depleted zebrafish (Figure 4J). Nor did it spread onto 
+249 
+A549 epithelial cells after 24 h (Figure 4K). Together these results suggest that PDIM’s fluidity 
+250 
+promotes spreading into epithelial membranes.  
+251 
+ 
+252 
+PDIM’s Methyl-Branched Mycocerosic Acids Promote Fluidity and Spreading 
+253 
+To further test if PDIM’s high membrane fluidity is responsible for its spreading, we 
+254 
+sought to take advantage of our ability to alter PDIM’s structure. Lipid structure is known to 
+255 
+modulate membrane fluidity (Los and Murata, 2004). Saturated lipids form closely packed 
+256 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+12 
+257 
+assemblies giving rise to more rigid bilayers, while unsaturated lipids do not pack as tightly and 
+258 
+produce more fluid bilayers. Methyl branches on otherwise saturated lipids have also been shown 
+259 
+to increase membrane fluidity (Budin et al., 2018; Poger et al., 2014). Therefore, we 
+260 
+hypothesized that PDIM’s methyl-branched mycocerosic acids determine its fluidity. To test this, 
+261 
+we hydrolyzed PDIM with tetrabutylammonium hydroxide to isolate phthiocerol. We then 
+262 
+esterified phthiocerol with the saturated fatty acid lignoceric acid that resulted in straight chain 
+263 
+lipids of comparable length to mycocerosic acid. This phthiocerol di-fatty acid (PDIF) was then 
+264 
+treated similarly to PDIM (Figure 2A) to yield the azide-labeled PDIF, azido-DIF (Figure 5A). 
+265 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+13 
+FRAP studies confirmed that DIBO-488 labeled azido-DIF (DIF-488) was not as mobile as 
+266 
+DIM-488, with only ~50% in the mobile fraction (Figure 5B, C and Supplemental Figure 6A–C). 
+267 
+Upon zebrafish infection, DIF-488 failed to spread onto epithelial cells at 2 hpi (Figure 5D–F). 
+268 
+However, similar to other mycobacterial lipids (Beatty et al., 2000) including TMM (Figure 4A), 
+269 
+DIF-488 was capable of spreading into macrophage membranes at later timepoints (Figure 5F 
+270 
+and Supplemental Figure 6D, E). Thus, PDIM’s high fluidity mediated by its methyl-branched 
+271 
+lipid tails is the reason for its unique ability to spread into epithelial membranes. 
+272 
+ 
+273 
+PDIM Spreading into Epithelial Membranes is Required to Evade TLRs  
+274 
+Is PDIM spreading into epithelial membranes required to inhibit TLR signaling? We first 
+275 
+evaluated monocyte recruitment towards infecting mycobacteria to address this question. 
+276 
+Wildtype M. marinum must be alive in order to stimulate resident macrophages to express CCL2 
+277 
+to recruit permissive monocytes as heat-killed bacteria failed to do so (Cambier et al., 2017). In 
+278 
+contrast, PDIM-deficient M. marinum do not depend on resident macrophages to recruit 
+279 
+bactericidal monocytes and do so in a manner independent of bacterial viability (Cambier et al., 
+280 
+2017). We now wondered if, in order for mycobacteria to gain access to resident macrophages, 
+281 
+PDIM must first spread into epithelial membranes to prevent recruitment of bactericidal 
+282 
+monocytes. We confirmed that heat-killed mycobacteria do not recruit monocytes (Figure 6A). 
+283 
+Likewise, PFA-treated bacteria which can also spread PDIM did not recruit monocytes (Figure 
+284 
+6A). However, monocyte recruitment towards PFA+GA treated bacteria, which do not spread 
+285 
+PDIM, phenocopied heat-killed ∆mmpL7 M. marinum; even though they are not viable, they 
+286 
+recruited monocytes to a similar extent as live bacteria (Figure 6A). Moreover, this monocyte 
+287 
+recruitment was now downstream of TLR signaling, as knockdown of MYD88 prevented 
+288 
+monocyte recruitment towards PFA+GA treated bacteria (Figure 6B). Taken together these data 
+289 
+demonstrate that PDIM spreading into epithelial membranes is required to prevent TLR-
+290 
+dependent recruitment of monocytes.  
+291 
+TLR signaling has been shown to recruit microbicidal monocytes that kill infecting 
+292 
+bacteria (Cambier et al., 2014b). Not only are PDIM-deficient bacteria killed but co-infected 
+293 
+PDIM-expressing bacteria are as well (Cambier et al., 2014b). This latter finding allowed us to 
+294 
+directly examine the link between PDIM spreading and bacterial killing by resultant TLR-
+295 
+signaled monocytes. We infected larvae with live red-fluorescent wildtype M. marinum along 
+296 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+14 
+297 
+with green-fluorescent wildtype M. marinum that were live (untreated), heat-killed, PFA treated, 
+298 
+or PFA+GA treated and then determined the burdens of the red fluorescent wildtype M. marinum 
+299 
+at 3 dpi. Only co-infection with PFA+GA treated bacteria caused attenuation of wildtype bacteria 
+300 
+(Figure 6C). Moreover, this attenuation was dependent on MYD88 (Figure 6D). Lastly, we asked 
+301 
+if PDIF, which is unable to spread into epithelial cells (Figure 4F), could rescue DIM-deficient 
+302 
+bacterial growth similarly to PDIM (Figure 2F). Consistent with the requirement for PDIM to 
+303 
+spread into epithelial cells to promote virulence, we found that reconstitution with PDIF does not 
+304 
+rescue bacterial growth (Figure 6E). Together these findings implicate PDIM spreading into 
+305 
+epithelial membranes in inhibiting TLR signaling and the resultant recruitment of microbicidal 
+306 
+monocytes that can kill infecting mycobacteria. 
+307 
+ 
+308 
+ 
+309 
+ 
+310 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+15 
+Host Cholesterol Promotes PDIM Spread and Mycobacterial Infectivity  
+311 
+We next asked if host lipids also influence PDIM spreading. Cholesterol has been 
+312 
+reported to modulate macrophage interactions with mycobacteria (Gatfield and Pieters, 2000). 
+313 
+However, three lines of evidence suggest a macrophage-independent relationship between 
+314 
+mycobacteria and cholesterol: 1) 36% of the lipid extracted from Mycobacterium bovis harvested 
+315 
+from necrotic mouse lung (where macrophages are sparse) was found to be host cholesterol 
+316 
+(Kondo and Kanai, 1976); 2) mycobacterial-associated cholesterol was isolated as a mixture with 
+317 
+PDIM (Kondo and Kanai, 1976); 3) M. tuberculosis grown in culture can sequester cholesterol to 
+318 
+its outer mycomembrane, a process dependent on mycomembrane lipids (Brzostek et al., 2009). 
+319 
+To test if host cholesterol interacted with PDIM to facilitate its spreading, we first grew wildtype 
+320 
+and ∆mmpL7 M. marinum in the presence of alkyne-cholesterol (Supplemental Figure 7A) for 48 
+321 
+h, followed by treatment with azide-conjugated alexafluor-647. We found that only wildtype M. 
+322 
+marinum could sequester cholesterol to their mycomembrane (Figure 7A–C). We next tested 
+323 
+whether cholesterol contributes to spreading of PDIM into host membranes. We depleted 
+324 
+cholesterol from A549 epithelial cells with methyl b-cyclodextrin (MßCD) which resulted in an 
+325 
+eight-fold decrease in cholesterol (Supplemental Figure 7B). This was associated with decreased 
+326 
+DIM-488 spreading (Supplemental Figure 7C). Importantly, in MßCD treated cells we could 
+327 
+restore cholesterol to untreated levels with water-soluble cholesterol, and this restored DIM-488 
+328 
+spreading (Supplemental Figure 7B, C). To test if host cholesterol facilitates PDIM spreading in 
+329 
+vivo, we treated zebrafish with statins, drugs that inhibit HMG-CoA reductase, the rate-limiting 
+330 
+step of cholesterol biosynthesis. Specifically, we used atorvastatin which was shown to lower 
+331 
+cholesterol in zebrafish (Maerz et al., 2019). Following 24 h of treatment, atorvastatin decreased 
+332 
+cholesterol levels in the larvae by 25%, and co-treatment with water-soluble cholesterol restored 
+333 
+cholesterol levels (Figure 7D). Atorvastatin treatment also decreased DIM-488 spreading onto 
+334 
+epithelial cells (Figure 7E and F), suggesting that PDIM’s interaction with cholesterol promotes 
+335 
+spreading into epithelial membranes in vivo. 
+336 
+Hypercholesteremia has been shown to exacerbate mycobacterial infection in mice and 
+337 
+humans (Martens et al., 2008; Soh et al., 2016), and studies suggest the utility of statins both in 
+338 
+TB treatment and prevention. When used in mice, statins decreased the duration of TB therapy 
+339 
+by one month (Dutta et al., 2016), and studies of health care databases found that statin use is 
+340 
+associated with decreased incidence of TB (Kim et al., 2019; Lai et al., 2016b). Accordingly, we
+341 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+16 
+ 
+342 
+sought to evaluate the role of statins in the reduction of bacterial burdens and in preventing 
+343 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+17 
+infection. First, we showed that statin treatment reduced bacterial burdens in the zebrafish 
+344 
+(Figure 7G). Next, to evaluate if statins prevented infection, we infected zebrafish with 1-3 
+345 
+bacteria, similar to the infectious dose in humans (Bates et al., 1965; Wells et al., 1948), and 
+346 
+evaluated their ability to establish infection. This infectivity assay previously found that PDIM-
+347 
+deficient M. marinum established infection at a reduced frequency (Cambier et al., 2017). We 
+348 
+treated zebrafish with atorvastatin for 24 h prior to infection with 1-3 bacteria and continued 
+349 
+daily atorvastatin treatment for the 3-day assay period. At 3 dpi, atorvastatin treatment decreased 
+350 
+wildtype M. marinum’s infectivity by 50% (Figure 7H). Moreover, restoring cholesterol levels 
+351 
+by co-treating with water-soluble cholesterol restored wildtype M. marinum’s infectivity (Figure 
+352 
+7H). This result confirmed atorvastatin reduces infectivity by lowering cholesterol rather than to 
+353 
+its other effects on physiology and metabolism. However, this protective low-cholesterol state 
+354 
+could be due to antimicrobial effects independent of PDIM spread. Altered cholesterol flux can 
+355 
+have pleotropic effects on immunity (Tall and Yvan-Charvet, 2015), and mycobacteria have been 
+356 
+shown to use cholesterol as a carbon source (Pandey and Sassetti, 2008).  
+357 
+To test the alternative hypothesis that atorvastatin’s protection is not through disrupting 
+358 
+the PDIM-TLR axis we evaluated the infectivity of PDIM-deficient ∆mmpL7 M. marinum. 
+359 
+Consistent with previous reports (Cambier et al., 2017), ∆mmpL7 M. marinum exhibited 
+360 
+decreased infectivity compared to wildtype bacteria (Figure 7I). In agreement with our model 
+361 
+that atorvastatin acts through modulating PDIM spread, we found that atorvastatin treatment did 
+362 
+not further decrease ∆mmpL7’s infectivity (Figure 7I). However, PDIM-deficient bacteria exhibit 
+363 
+such a severe virulence defect, any further attenuation due to other low-cholesterol-dependent 
+364 
+antimicrobial mechanisms may not be possible. To address this concern, we took advantage of 
+365 
+the fact that ∆mmpL7’s virulence defect is reversed in the absence of host TLR signaling (Figure 
+366 
+7I, Cambier et al., 2014b). In this condition where PDIM-deficient bacteria are fully virulent, 
+367 
+they should become attenuated by any non-PDIM-associated antimicrobial mechanisms caused 
+368 
+by atorvastatin. However, atorvastatin still did not decrease ∆mmpL7’s infectivity in MYD88-
+369 
+depleted hosts (Figure 7I). Finally, we showed that atorvastatin decreased the infectivity of 
+370 
+wildtype M. marinum in a MYD88-dependent fashion (Figure 7I). These data strongly support 
+371 
+the idea that atorvastatin acts to disrupt the PDIM-TLR axis. Only in conditions where PDIM is 
+372 
+present on bacterial surfaces and when host TLR signaling is intact will lowering cholesterol 
+373 
+provide a protective effect. Collectively, these data demonstrate that statins reduce mycobacterial 
+374 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+18 
+infectivity by reducing host cholesterol, and thereby PDIM’s infiltration of epithelial 
+375 
+membranes. 
+376 
+ 
+377 
+DISCUSSION 
+378 
+Molecular Koch’s postulates are a guiding set of principles used to characterize bacterial 
+379 
+virulence factors (Falkow, 1988; 2004; Ramakrishnan, 2020). Genetic analyses are the mainstay 
+380 
+of assigning pathogenic functions to specific virulence factors, including those not directly 
+381 
+encoded by the genome. Virulence lipids are often assigned their pathogenic roles from studies 
+382 
+of bacterial mutants lacking proteins involved in the lipid’s biosynthesis or transport. Thus, these 
+383 
+functions can be directly attributed only to the biosynthetic protein, and not the lipid per se. 
+384 
+Here, by combining bioorthogonal chemistry with the zebrafish model of TB, we more 
+385 
+rigorously satisfy molecular Koch’s postulates to describe PDIM’s role in virulence. PDIM’s 
+386 
+inherent fluidity and the abundance of cholesterol in epithelial membranes influenced PDIM’s 
+387 
+ability to infiltrate the host lipid environment. This occupation of epithelial membranes by PDIM 
+388 
+mediated subversion of TLR signaling at the site of infection, thus enabling mycobacteria to gain 
+389 
+access to non-activated immune cells (Figure 8). 
+390 
+The role epithelial cells play in priming innate immunity is appreciated in several models 
+391 
+of bacterial pathogenesis. Pseudomonas aeruginosa and Staphylococcus aureus are both 
+392 
+recognized by TLR-2 on human epithelial cells leading to the production of inflammatory 
+393 
+cytokines (Soong et al., 2004). In zebrafish these responses result in bacterial clearance (Cambier 
+394 
+et al., 2014b), highlighting this pathway as a conserved response to infection. In contrast, human 
+395 
+epithelial cells infected by mycobacteria have no significant change in global transcription, 
+396 
+suggesting minimal immune detection (Reuschl et al., 2017). Our data now demonstrate that 
+397 
+PDIM plays a role in silencing epithelial cell responses, promoting uptake by non-activated 
+398 
+macrophages.  
+399 
+Previous models suggest PDIM facilitates a passive evasion of TLRs by masking 
+400 
+underlying TLR ligands (Cambier et al., 2014b; 2017). This model was based on findings that 
+401 
+PDIM-expressing mycobacteria were rendered growth-attenuated if co-infected with TLR-
+402 
+stimulating bacteria (Cambier et al., 2014b). While our current model suggests a more active role 
+403 
+for PDIM, we still find that TLR-stimulating bacteria cause attenuation of wildtype bacteria. 
+404 
+Specifically, bacteria unable to spread PDIM caused attenuation of bacteria that can spread 
+405 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+19 
+406 
+PDIM (Figure 6B and C). These findings argue that PDIM’s influence over innate immune 
+407 
+signaling is spatially restricted. PDIM appears to only inhibit TLR signaling at membrane sites 
+408 
+where it has spread, emphasizing the need for PDIM localization on the bacterial surface prior to 
+409 
+spreading into epithelial membranes. Once spread, the potential for PDIM to disrupt membrane 
+410 
+protein signaling is intriguing. Several biophysical properties of membranes are known to 
+411 
+mediate membrane protein function (Los and Murata, 2004), and PDIM has been implicated in 
+412 
+altering host membrane structure (Augenstreich et al., 2019). Furthermore, TLRs have been 
+413 
+shown to aggregate into cholesterol rich lipid domains to facilitate downstream signaling events 
+414 
+(Ruysschaert and Lonez, 2015). How PDIM’s affinity for cholesterol promotes spread and 
+415 
+whether this association disrupts TLR-cholesterol lipid domains is yet to be determined.  
+416 
+The finding that PDIM’s methyl-branched mycocerosic acids are required for virulence 
+417 
+suggests pathogenic mycobacteria have evolved a lipid-based immunomodulatory strategy 
+418 
+similar to that seen at host barrier tissues. While predominant across prokaryotes, methyl-
+419 
+branched fatty acids are only found in certain secretions of higher eukaryotes. In particular, 
+420 
+vernix caseosa, a white wax that covers neonates during the third trimester of gestation, is 
+421 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+20 
+implicated in promoting normal gut development and microbial colonization (Nishijima et al., 
+422 
+2019). The fetus swallows a significant amount of vernix shed in the amniotic fluid, in increasing 
+423 
+amounts as term birth approaches. Premature infants are exposed to substantially less vernix and 
+424 
+have increased rates of necrotizing enterocolitis (Ran-Ressler et al., 2011). In a rat model of 
+425 
+necrotizing enterocolitis, feeding premature pups methyl-branched lipids led to a decrease in 
+426 
+disease development and a shift from a pro-inflammatory to an anti-inflammatory gut 
+427 
+environment (Ran-Ressler et al., 2011). These studies implicate lipid-based immunomodulation 
+428 
+as playing a key role in tissue-barrier homeostasis, dampening immune responses to allow for 
+429 
+proper microbial colonization. Mycobacteria appear to have adapted this strategy of using 
+430 
+methyl-branched lipids as an immunomodulatory mechanism to establish infection and thereby 
+431 
+ensure their evolutionary survival. 
+432 
+Systemic cholesterol metabolism in humans influences the lung environment, including 
+433 
+the abundance of cholesterol in lung epithelial membranes (Fessler, 2017). Therefore, 
+434 
+cholesterol-promoted PDIM spreading may also influence M. tuberculosis transmission. While a 
+435 
+clinical trial is currently underway evaluating the use of statins alongside standard TB therapy 
+436 
+(Karakousis et al., 2019), our data instead argue for the use of statins as a TB preventative 
+437 
+therapy.  
+438 
+ 
+439 
+ACKNOWLEDGEMENTS  
+440 
+We thank Lalita Ramakrishnan for help interpreting data and manuscript writing, Karen 
+441 
+Dobos for help purifying PDIM, Benjamin M. Swarts for providing TreT-expressing E. coli, and 
+442 
+David Tobin for zebrafish lines. This work was supported by a National Institutes of Health grant 
+443 
+(AI51622) to C.R.B. C.J.C. was supported by a Damon Runyon Postdoctoral Fellowship. S.M.B 
+444 
+and J.A.B were supported by NIGMS F32 Postdoctoral Fellowships.  
+445 
+ 
+446 
+AUTHOR CONTRIBUTIONS  
+447 
+C.J.C., and C.R.B. conceived the project. C.J.C., S.M.B. and J.A.B. carried out 
+448 
+experiments and interpreted data. C.J.C. and C.R.B. wrote the manuscript with input from all 
+449 
+authors. C.R.B. provided supervision.  
+450 
+ 
+451 
+ 
+452 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+21 
+DECLARATION OF INTERESTS 
+453 
+C.R.B. is a co-founder of OliLux Bio, Palleon Pharmaceuticals, InverVenn Bio, Enable 
+454 
+Biosciences, and Lycia Therapeutics, and  member of the Board of Directors of Eli Lilly. 
+455 
+ 
+456 
+ 
+457 
+ 
+458 
+ 
+459 
+ 
+460 
+ 
+461 
+ 
+462 
+ 
+463 
+ 
+464 
+ 
+465 
+ 
+466 
+ 
+467 
+ 
+468 
+ 
+469 
+ 
+470 
+ 
+471 
+ 
+472 
+ 
+473 
+ 
+474 
+ 
+475 
+ 
+476 
+ 
+477 
+ 
+478 
+ 
+479 
+ 
+480 
+ 
+481 
+ 
+482 
+ 
+483 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+22 
+MATERIALS AND METHODS 
+484 
+RESOURCES TABLE 
+485 
+REAGENT or RESOURCE 
+SOURCE 
+IDENTIFIER 
+Bacterial and Virus Strains  
+Mycobacterium marinum M strain transformed with 
+pMS12:tdTomato, pMS12:EBFP2, or pMS12:wasabi 
+Takaki et al., 2013. 
+derivative of ATCC 
+#BAA-535 
+∆mmpL7 Mycobacterium marinum M strain transformed 
+with pMS12:tdTomato or pMS12:wasabi 
+Cambier et al., 2014b. 
+NA 
+Top10 Escherichia coli transformed with pBAD:tret from 
+Thermoproteus tenax  
+Urbanek et al., 2014. 
+NA 
+Chemicals, Peptides, and Recombinant Proteins 
+Iodotrimethylsilane  
+ACROS  
+Cat#10530964 
+CAS:16029-98-4 
+Sodium azide 
+Sigma-Aldrich 
+Cat#S8032 
+CAS: 26628-22-8 
+Tetrabutylammonium hydroxide solution 
+Sigma-Aldrich 
+Cat#178780 
+CAS: 2052-49-5 
+Lignoceric acid 
+Sigma-Aldrich 
+Cat# L6641 
+CAS: 557-59-5 
+Click-IT Alexa Fluor 488 DIBO Alkyne 
+Thermo-Fisher 
+Cat# C10405 
+Discontinued* 
+Click-IT Alexa Fluor 647 DIBO Alkyne 
+Thermo-Fisher 
+Cat# C10408 
+Discontinued* 
+Alexa Fluor 647 Azide 
+Thermo-Fisher 
+Cat# A10277 
+Alkyne Cholesterol 
+Click Chemistry Tools 
+Cat# 1409 
+6-azido-6-deoxy-glucose 
+Sigma-Aldrich 
+Cat# 712760 
+CAS: 20847-05-6 
+UDP-glucose 
+Sigma-Aldrich 
+Cat# U4625 
+CAS: 28053-08-9 
+Alexa-647 hydroxylamine 
+Thermo-Fisher 
+Cat# A30632 
+Methyl-ß-cyclodextrin 
+Sigma-Aldrich 
+Cat# C4555 
+CAS: 128446-36-6 
+Cholesterol-water soluble  
+Sigma-Aldrich 
+Cat# C4951 
+Atorvastatin 
+Sigma-Aldrich 
+Cat# PHR1422 
+Methylene blue 
+Sigma-Aldrich 
+Cat# M9140 
+CAS: 122965-43-9 
+Tango Buffer (10x) 
+Thermo-Fisher 
+Cat#BY5 
+Phenol Red Sodium Salt 
+Sigma-Aldrich 
+Cat#P4758 
+CAS: 34487-61-1 
+PMA (Phorbol 12-myristate 13-acetate)  
+Sigma-Aldrich 
+Cat#P1585 
+CAS:16561-29-8 
+Hygromycin B 
+Thermo-Fisher 
+Cat#10687010 
+Glutaraldehyde solution (70% in water) 
+Sigma-Aldrich 
+Cat#G7776 
+CAS: 111-30-8 
+16% paraformaldehyde solution 
+Thermo-Fisher 
+Cat#28908 
+BTTP  
+Click Chemistry Tools 
+Cat#1414 
+CAS: 1334179-85-9 
+Critical Commercial Assays 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+23 
+Total Cholesterol and Cholesterol Ester 
+Colorimetric/Fluorometric Assay Kit 
+Bio-Vision 
+Cat# K603 
+ 
+Experimental Models: Cell Lines 
+A549 human alveolar epithelial cells 
+ATCC 
+CCL-185 
+THP-1 human monocytic cell line 
+ATCC 
+TIB-202 
+Experimental Models: Organisms/Strains 
+Zebrafish (Danio rerio) wild type AB strain 
+Stanford University 
+ZFIN ID: ZDB-
+GENO-960809-7 
+Zebrafish: Tg(mfap4:tdTomato) 
+Walton et al., 2015. 
+ZFIN ID: ZDB-
+TGCONSTRCT-
+160122-3 
+ 
+Oligonucleotides 
+myD88 morpholino sequence: 
+GTTAAACACTGACCCTGTGGATCAT 
+Bates et al., 2007. 
+ZFIN ID: ZDB-
+MRPHLNO-080325-
+4 
+ 
+Software and Algorithms 
+NIS-Elements 
+Nikon 
+ 
+Imaris 
+Bitplane 
+ 
+Prism 
+GraphPad 
+ 
+*Since preparing this manuscript we have found that AFDye 488 DBCO (Click Chemistry Tools, 
+486 
+Cat# 1278) and AFDye 647 DBCO (Click Chemistry Tools, Cat# 1302) are suitable alternatives 
+487 
+to the DIBO fluorophores. The DBCO dyes can be used with the same concentrations and 
+488 
+labeling protocols presented in this manuscript for the DIBO dyes (Unpublished data).  
+489 
+ 
+490 
+Procedures and materials for synthetic chemistry: All reactions were performed in dry 
+491 
+standard glassware fitted with rubber septa under an inert atmosphere of nitrogen unless 
+492 
+otherwise stated. Preparative thin-layer chromatography (TLC) was performed with Millipore’s 
+493 
+1mm and 0.2mm silica gel 60 pre-coated glass plates. Analytical TLC was used for reaction 
+494 
+monitoring and product detection using pre-coated glass plates covered with 0.20 mm silica gel 
+495 
+with fluorescent indicator; visualized by UV light and 10% CuSO4 in 1.3M phosphoric acid in 
+496 
+water. Reagents were purchased in reagent grade from commercial suppliers and used as 
+497 
+received, unless otherwise described. Anhydrous dichloromethane (DCM) was prepared by 
+498 
+passing the solvent through an activated alumina column. 
+499 
+ 
+500 
+Chemical Analysis Instrumentation: Proton (1H NMR) and proton-decoupled carbon-13 (13C 
+501 
+{1H} NMR) nuclear magnetic resonance spectra were recorded on an Inova-500 spectrometer at 
+502 
+25 °C, are reported in parts per million downfield from tetramethylsilane, and are referenced to 
+503 
+the residual protium (CDCl3: 7.26 [CHCl3]) and carbon  (CDCl3: 77.16) resonances of the NMR 
+504 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+24 
+solvent. Data are represented as follows: chemical shift, multiplicity (br = broad, s = singlet, d = 
+505 
+doublet, t = triplet, q = quartet, quin = quintet, sept = septet, m = multiplet), coupling constants in 
+506 
+Hertz (Hz), integration. Mass spectra were obtained on a Bruker Microflex MALDI-TOF by 
+507 
+mixing 0.5µl of 1mg/ml sample in chloroform with 0.5µl of 10mg/ml 2,5-dihydroxybenzoic acid 
+508 
+before spotting onto a 96-well MALDI plate.   
+509 
+ 
+510 
+Isolation of PDIM 
+511 
+ 
+512 
+ 
+513 
+ 
+514 
+Wildtype M. marinum was grown in GAS medium without Tween-80 to an OD600 of 1.2.  
+515 
+Bacteria were pelleted, frozen and lyophilized on a Labconoco FreezeZone 4.5 plus. Bacterial 
+516 
+lipids were then extracted by stirring lyophilized pellet in petroleum ether for 1 h at 23 ºC. 
+517 
+Bacteria were allowed to settle, and solvent was collected. Remaining bacteria were re-extracted 
+518 
+3-5 times. The solvent extract was then passed through a 0.2µm PTFE filter, and crude lipids 
+519 
+were concentrated under reduced pressure. Crude lipid extracts were separated by preparative 
+520 
+TLC in the solvent system 98:2 petroleum ether:ethyl acetate. The band correlating to PDIM at 
+521 
+an Rf = 0.4 was isolated. Preparative TLC was repeated twice more to further purify PDIM. 
+522 
+Average PDIM isolated from M. marinum was 60mg per 10 liters of culture. 1H NMR (500 
+523 
+MHz, CDCl3) δ 4.93-4.87 (m, 2H), 3.32 (s, 3H), 2.87-2.83 (m, 1H), 2.57-2.51 (m, 2H), 1.90-0.81 
+524 
+(m, 166H). 13C NMR (126 MHz, CDCl3) δ 176.69, 176.63, 86.78, 86.73, 77.41, 77.37, 77.16, 
+525 
+76.90, 70.72, 70.67, 57.51, 45.56, 45.51, 41.41, 41.33, 38.56, 37.85, 37.73, 37.09, 36.77, 34.91, 
+526 
+34.18, 34.07, 32.83, 32.08, 30.24, 29.96, 29.87, 29.82, 29.75, 29.62, 29.53, 28.34, 27.64, 27.36, 
+527 
+27.25, 27.16, 27.12, 25.74, 25.35, 22.85, 22.74, 22.43, 20.81, 20.57, 20.52, 20.37, 20.27, 18.67, 
+528 
+18.58, 18.53, 14.80, 14.75, 14.28, 14.22, 10.26, 1.16. MALDI-TOF for: C82H162O5 Calc’d 
+529 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+25 
+[M+Na+]=1250.23; found 1250.41. C84H166O5 Calc’d [M+Na+]=1278.26, found 1278.40. 
+530 
+C86H170O5 Calc’d [M+Na+]=1306.29, found 1306.55.  
+531 
+ 
+532 
+Synthesis of azido-DIM 
+533 
+ 
+534 
+ 
+535 
+ 
+536 
+To PDIM (75.6mg, 60.2µmol, 1.0 equiv.) was added 0.3ml of DCM, the mixture was stirred and 
+537 
+iodotrimethylsilane (TMSI, 258µl, 1.8mmol, 30.0 equiv.) was added and allowed to react for 12 
+538 
+h at 23 ºC. The reaction was concentrated under reduced pressure. NaN3 (39.1mg, 602µmol, 
+539 
+10.0 equiv.) was added followed by 0.3ml of anhydrous dimethylformamide (DMF) and stirred 
+540 
+for 12 h at 23 ºC. The solvent was removed under reduced pressure and the product was purified 
+541 
+using preparative TLC in 98:2 petroleum ether:ethyl acetate Rf=0.5 as a white wax (37.7mg, 
+542 
+29.8µmol, 50%). 1H NMR (500 MHz, CDCl3) δ 5.06-4.86 (m, 2H), 3.30-3.21 (m, 1H), 2.58-2.50 
+543 
+(m, 2H) 2.1-0.81 (m, 163H). 13C NMR (126 MHz, CDCl3) δ 176.73, 176.63, 77.41, 77.36, 77.16, 
+544 
+76.91, 71.08, 70.74, 59.86, 45.56, 41.96, 41.45, 41.35, 39.27, 37.84, 37.73, 37.24, 37.08, 37.01, 
+545 
+35.28, 34.82, 34.18, 32.08, 30.32, 30.24, 30.22, 30.04, 29.96, 29.87, 29.82, 29.75, 29.72, 29.67, 
+546 
+29.62, 29.52, 29.39, 28.40, 28.34, 27.72, 27.36, 27.25, 27.18, 27.16, 26.20, 25.35, 25.27, 25.23, 
+547 
+22.85, 21.28, 21.13, 20.35, 20.32, 20.27, 18.73, 18.66, 18.58, 18.53, 14.56, 14.29, 13.87. 
+548 
+MALDI-TOF for: C81H159N3O4 Calc’d [M+Na+]=1261.22; found 1260.92. C83H163N3O4 
+549 
+Calc’d [M+Na+]=1289.25, found 1289.02. C85H167N3O4 Calc’d [M+NH4+]=1312.33, found 
+550 
+1312.37. 
+551 
+ 
+552 
+ 
+553 
+ 
+554 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+26 
+Hydrolysis of PDIM and isolation of phthiocerol 
+555 
+ 
+556 
+ 
+557 
+ 
+558 
+To dried PDIM (66.7mg, 53.1µmol) was added 0.5ml of 40% tetrabutylammonium hydroxide in 
+559 
+water, the mixture was sealed, aggressively stirred, and allowed to react for 48 h at 120 ºC. 
+560 
+Reaction was cooled to 23 ºC and 4M HCL was added dropwise until pH was < 3. The reaction 
+561 
+was extracted with DCM and washed once with water. The solvent was removed under reduced 
+562 
+pressure and phthiocerol was purified using preparative TLC in 80:20 petroleum ether:ethyl 
+563 
+acetate Rf = 0.4. (18.8mg, 42.5µmol, 80%).1H NMR (500 MHz, CDCl3) and 13C NMR (126 
+564 
+MHz, CDCl3) matched previously reported spectra. ESI HRMS for: C28H58O3 Calc’d 
+565 
+[M+H+]=443.4464; found 443.4449. C29H60O3 Calc’d [M+H+]=457.4621; found 457.4616. 
+566 
+C30H62O3 Calc’d [M+H+]= 471.4777, found 471.4762.  
+567 
+ 
+568 
+Synthesis of PDIF 
+569 
+ 
+570 
+ 
+571 
+  
+572 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+27 
+To phthiocerol (18.8mg, 42.5µmol, 1 equiv.) was added lignoceric acid (47mg, 127.5µmol, 3.0 
+573 
+equiv.), N,N’-dicyclohexylcarbodiimide (DCC, 35mg, 170µmol, 4.0 equiv.),  4-
+574 
+Dimethylaminopyridine (DMAP, 20.77mg, 170µmol, 4.0 equiv.), and 2.3ml of DCM. The 
+575 
+reaction was stirred and allowed to react for 16 h at 23 ºC. The solvent was removed under 
+576 
+reduced pressure and the product was purified using preparative TLC in 98:2 petroleum 
+577 
+ether:ethyl acetate Rf=0.4. (12.8mg, 11.5µmol, 27%). 1H NMR (500 MHz, CDCl3) δ 4.94-4.87 
+578 
+(quin, 2H), 3.33 (s, 3H), 2.88-2.83 (m, 1H), 2.30-2.25 (t, 4H), 1.75-0.79 (m, 141H). 13C NMR 
+579 
+(126 MHz, CDCl3) δ 173.42, 86.66, 77.27, 77.02, 76.76, 70.97, 57.40, 38.45, 34.84, 34.67, 
+580 
+34.13, 34.09, 32.62, 31.94, 29.73, 29.68, 29.55, 29.47, 29.38, 29.34, 29.23, 27.44, 25.57, 25.17, 
+581 
+25.10, 22.70, 22.37, 14.76, 14.12, 10.10. MALDI-TOF for: C76H150O5 Calc’d 
+582 
+[M+Na+]=1166.14, found 1166.14. C77H152O5 Calc’d [M+Na+]=1180.15, found 1180.24. 
+583 
+C78H154O5 Calc’d [M+Na+]=1194.17; found 1194.25.  
+584 
+ 
+585 
+Synthesis of azido-DIF 
+586 
+ 
+587 
+ 
+588 
+ 
+589 
+To PDIF (12.8mg, 11.5µmol, 1 equiv.) was added 0.3ml of DCM, the mixture was stirred and 
+590 
+TMSI (49µl, 345µmol, 30.0 equiv.) was added and allowed to react for 3 h at 23 ºC. The reaction 
+591 
+was concentrated under reduced pressure. NaN3 (7.5mg, 115µmol, 10.0 equiv.) was added 
+592 
+followed by 0.3ml of anhydrous dimethylformamide (DMF) and stirred for 12 h at 23 ºC. The 
+593 
+solvent was removed under reduced pressure and the product was purified using preparative TLC 
+594 
+in 98:2 petroleum ether:ethyl acetate Rf=0.5. (6.9mg, 6µmol, 52%). 1H NMR (500 MHz, CDCl3) 
+595 
+δ 5.08-5.00 (m, 2H), 3.32-3.20 (m, 2H), 3.12-3.04 (m, 1H), 2.33-2.25 (t, 4H), 1.80-0.73 (m, 
+596 
+138H). 13C NMR (126 MHz, CDCl3) δ 173.41, 77.27, 77.02, 76.76, 71.16, 70.05, 59.72, 39.09, 
+597 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+28 
+36.92, 35.12, 34.70, 34.64, 32.34, 31.94, 29.72, 29.67, 29.58, 29.53, 29.42, 29.38, 29.33, 29.23, 
+598 
+26.05, 25.15, 24.02, 22.70, 21.15, 16.10, 14.13, 11.06, 1.03. ESI C75H148NO4 calc’d [M+K, -
+599 
+N2]=1166.10, found 1166.05.  
+600 
+ 
+601 
+Zebrafish Husbandry and Infections  
+602 
+Wild-type AB (Zebrafish International Resource Center), and Tg(mfap4:tdTomato) (Walton et 
+603 
+al., 2015) lines were maintained in buffered reverse osmotic water systems. Fish were fed twice 
+604 
+daily a combination of dry feed and brine shrimp and were exposed to a 14 h light, 10 h dark 
+605 
+cycle to maintain proper circadian conditions. Zebrafish embryos were maintained at 28.5 ºC in 
+606 
+embryo media which consisted of the following dissolved in Milli-Q water (%weight/volume): 0. 
+607 
+0875% sodium chloride, 0.00375% potassium chloride, 0.011% calcium chloride, 0.00205% 
+608 
+monopotassium phosphate, 0.00089% disodium phosphate, and 0.0493% magnesium sulfate. 
+609 
+Embryo media was then buffered to pH 7.2 with sodium bicarbonate. Embryos were maintained 
+610 
+in 0.25 mg/ml methylene blue (Sigma) from collection to 1-day post-fertilization (dpf). 0.003% 
+611 
+PTU (1-phenyl-2-thiourea, Sigma) was added from 24 h post-fertilization (hpf) on to prevent 
+612 
+pigmentation. Larvae (of undetermined sex given the early developmental stages used) were 
+613 
+infected at 48 hpf via the hindbrain ventricle (HBV) using single-cell mycobacterial suspensions 
+614 
+of known titer. Number of animals to be used for each experiment was guided by pilot 
+615 
+experiments or by past results with other bacterial mutants and/or zebrafish. On average 15 to 40 
+616 
+larvae per experimental condition were required to reach statistical significance and each 
+617 
+experiment was repeated at least three times. Larvae were randomly allotted to the different 
+618 
+experimental conditions. The zebrafish husbandry briefly described above and all experiments 
+619 
+performed on them were in compliance with the U.S. National Institutes of Health guidelines and 
+620 
+approved by the Stanford Institutional Animal Care and Use Committee.  
+621 
+ 
+622 
+Bacterial Strains and Methods  
+623 
+M. marinum strain M (ATCC BAA-535) and ∆mmpL7 mutants (Cambier et al., 2014b) 
+624 
+expressing either TdTomato, Wasabi, or EBFP2 under the control of the msp12 promoter were 
+625 
+grown under hygromycin (Thermo-Fisher) selection in 7H9 Middlebrook’s medium (Difco) 
+626 
+supplemented with 10% OADC (Fisher), 0.2% glycerol, and 0.05% Tween-80 (Sigma). Where 
+627 
+noted bacteria were also grown in glycerol-alanine-salts (GAS) medium, recipe 
+628 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+29 
+(%weight/volume) in 18mM sodium hydroxide in Milli-Q water pH 6.6 +/- 0.05% Tween-80: 
+629 
+0.03% BactoCasitone (BD Science), 0.005% ferric ammonium citrate (Sigma), 0.4% potassium 
+630 
+phosphate dibasic anhydrous (VWR), 0.2% citric acid, anhydrous (VWR), 0.1% L-alanine 
+631 
+(Sigma), 0.12% magnesium chloride, heptahydrate (VWR), 0.06% potassium sulfate (VWR), 
+632 
+0.2% ammonium chloride (VWR), and 1% glycerol. To prepare heat-killed M. marinum, bacteria 
+633 
+were incubated at 80ºC for 20 min. To prepare fixed bacteria, bacteria were incubated in 
+634 
+described concentrations of glutaraldehyde (Sigma) and/or paraformaldehyde (Thermo-Fisher) 
+635 
+for 1hr at 23ºC, followed by 3 washes with PBS prior to experimental use.   
+636 
+ 
+637 
+Cell Lines and infections 
+638 
+Cells were grown in T75 flasks (Thermo-Fisher) and maintained at 37 °C and 5% CO2. THP-1 
+639 
+were grown in RPMI supplemented with 10% fetal bovine serum (FBS). A549 were grown in 
+640 
+DMEM supplemented with 10% FBS. Two days prior to infection, THP-1s were plated on 8-
+641 
+well Nunc Lab-Tek II chamber slides (Thermo-Fisher) at a density of 150,000 cells per well with 
+642 
+100nM PMA (phorbol 12-myristate 13-acetate, Sigma) in growth media and incubated at 37ºC 
+643 
+and 5% CO2 for 24 h. One day prior to infection, the media on THP-1s was replaced with fresh 
+644 
+growth media and the cells were incubated at 33ºC and 5% CO2 for 24 h, cells were then 
+645 
+infected with M. marinum at a multiplicity of infection (MOI) of 2 in growth media. Infection 
+646 
+was allowed to progress for 6 h prior to washing twice with PBS and replacing with growth 
+647 
+media. THP-1s were then incubated for 24 h at 33ºC and 5% CO2 prior to experimental end 
+648 
+point. One day prior to infection, A549s were plated on 8-well chamber Nunc Lab-Tek II 
+649 
+chamber slides (Thermo-Fisher) at a density of 50,000 cells per well in growth media and 
+650 
+incubated at 37ºC and 5% CO2. Day of infection cells were moved to 33ºC and 5% CO2 for 3 h, 
+651 
+and then were infected with M. marinum at a MOI of 5 and incubated at 33ºC and 5% CO2 for 
+652 
+24 h. Infected THP-1s and A549s were then imaged as described below.  
+653 
+  
+654 
+Extraction and reconstitution of M. marinum 
+655 
+Extraction. 1 liter of M. marinum were grown in GAS medium plus Tween-80 to an OD600 of 
+656 
+1.2. Bacteria were pelleted in a glass 50mL conical tubes (Fisher) of known weight, frozen and 
+657 
+lyophilized. The dry bacteria in 50mL conical tubes were then weighed and the dry bacterial 
+658 
+weight was calculated. 25mL of petroleum ether were then added to the bacteria, and the conical 
+659 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+30 
+tube was capped with a PTFE lined lid (Sigma) and the suspension was vortexed for 3min. An 
+660 
+additional 25mL of petroleum ether was added and the sample was centrifuged for 3min at 
+661 
+1000xg at 4ºC. The extract was then saved or discarded depending on the downstream 
+662 
+experimental applications and the bacteria were extracted once more as above. For total lipid 
+663 
+extractions (not used for reconstitution), bacteria were treated with 1:1 chloroform:methanol for 
+664 
+12 h at 60ºC. Extracts were filtered, back extracted with water to remove water soluble 
+665 
+contaminants, dried under reduced pressure and used for downstream experiments.   
+666 
+ 
+667 
+Reconstitution. Prior to extractions the following calculation was used to determine the amount 
+668 
+of lipids to add back to each pellet. 
+669 
+ 
+670 
+(23mg lipid/gram dry bacteria)*(weight in grams of dry bacteria)/(0.75 reconstitution efficiency)  
+671 
+ 
+672 
+Where 23mg of lipid per gram of dry bacteria is the experimentally determined average amount 
+673 
+of lipid removed during petroleum ether extraction of bacteria grown in these conditions (Figure 
+674 
+S1B, initial extraction) and the 0.75 reconstitution efficiency was also experimentally determined 
+675 
+(Figure S1C). If reconstituting with DIM variants, 30% of the above weight consists of DIMs 
+676 
+and the remainder will consist of DIM-depleted petroleum ether lipid extracts. Following two 
+677 
+rounds of petroleum ether extraction as detailed above, bacteria were immediately mixed with 
+678 
+pre-determined lipid mixtures (or no lipid at all for delipidated bacteria) in petroleum ether (2-3 
+679 
+mls) followed by extended drying under reduced pressure. Dried bacteria were then rescued into 
+680 
+7H9 media supplemented with 10% OADC, and 0.2% glycerol (prep media) and subjected to 
+681 
+single cell preparation protocol. 
+682 
+ 
+683 
+M. marinum single cell preparation  
+684 
+For more thorough details, as well as rationale and explanation of the following protocol see 
+685 
+Takaki et al., 2013. Bacteria were washed once with 15mL of prep media followed by 
+686 
+resuspension in 500µl of prep media. Bacteria were then passed through a 27-gauge needle 10 
+687 
+times, followed by the addition of 1ml of prep media and centrifugation at 100xg for 3min. 1ml 
+688 
+of supernatants were saved. This process was repeated 3-5 times. Collected supernatants were 
+689 
+then passed through a 5.0µm acrodisc versapor membrane syringe filter (VWR). The filtrate was 
+690 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+31 
+then pelleted at 16,000xg for 2min, pellets were resuspended in prep media to a concentration of 
+691 
+around 1x10^8-9 bacteria per ml, aliquoted and stored at -20C for future use, or immediately 
+692 
+subjected to copper-free click chemistry reactions.   
+693 
+ 
+694 
+Metabolic labeling of M. marinum with 6-TreAz 
+695 
+Expression and Purification of TreT: TreT was expressed and purified utilizing a similar method 
+696 
+as previously reported (Urbanek et al., 2014). Top10 E. coli expressing the tret gene from 
+697 
+Thermoproteus tenax (pBAD plasmid, AraC control) were streaked onto a Lysogeny broth (LB) 
+698 
+agar plate supplemented with 100 µg/mL ampicillin and incubated at 37 °C for 24 h. A single 
+699 
+colony was picked and used to inoculate 5 mL of LB liquid medium containing 100 µg/mL 
+700 
+ampicillin. The starter culture was placed in a shaking incubator (175 rpm) at 37 °C for 16 h. The 
+701 
+starter culture was then transferred to a 1 L solution of sterilized Terrific broth (TB) 
+702 
+supplemented with 100 µg/mL ampicillin in a sterilized 2 L Fernbach culture flask. The flask 
+703 
+was shaken (175 rpm) at 37 °C. When the absorbance at 600 nm reached between 0.6 and 0.9 
+704 
+(typically 4-5 h post inoculation), TreT expression was induced by adding 1 mL of 1 M 
+705 
+arabinose solution in sterile water (1 mM final concentration). The flask was again shaken (175 
+706 
+rpm) at 37 °C for another 20 h. The culture was then transferred to a polypropylene bottle and 
+707 
+pelleted for 15 minutes at 4,000 x g at 4 °C. The supernatant was discarded, and the pellet was 
+708 
+suspended in 45 mL of lysis buffer (50 mM NaH2PO4, 500 mM NaCl, 20 mM imidazole, pH 7.4) 
+709 
+and run through a homogenizer 5 times utilizing ice to keep the solution cool. Once 
+710 
+homogenized, the lysate was clarified by centrifugation pelleting for 20 minutes at 21,000 x g at 
+711 
+4 °C and filtering through a 0.45 µm Teflon syringe filter. To the clarified lysate (generally about 
+712 
+50 mg/mL protein content as measured with absorbance at 280 nm) was then added 5 mL of pre-
+713 
+washed (lysis buffer) Ni-NTA resin slurry (Qiagen). The suspension was mixed on an orbital 
+714 
+shaker for 60 – 90 minutes at 4 °C and then transferred to a glass column (BIO-RAD 
+715 
+EconoColumn). Non-His-Tagged proteins were eluted with lysis buffer until the absorbance at 
+716 
+280 nm matched background levels utilizing 50 – 100 mL of lysis buffer. His-tagged TreT was 
+717 
+eluted with elution buffer (50 mM NaH2PO4, 500 mM NaCl, 250 mM imidazole, pH 7.4) in 
+718 
+multiple 2.5 mL increments, until protein elution was determined complete by absorbance at 280 
+719 
+nm. Buffer exchange to a storage/reaction buffer (50 mM Tris, 300 mM NaCl, pH 8.0) was 
+720 
+performed with a desalting column (PD-10, GE Healthcare) and the protein was transferred to a 
+721 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+32 
+conical tube and diluted to 1 mg/mL as determined by absorbance at 280 nm for long-term 
+722 
+storage. Storage of the enzyme at 4 °C and at this concentration yields active protein that does 
+723 
+not have significant losses in activity even after 12 months of storage under these conditions.  
+724 
+ 
+725 
+Synthesis and Purification of 6-Azido-6-deoxy-trehalose (6-TreAz): To a 1.5 mL Eppendorf tube 
+726 
+was added 200 µL of a 100 mM solution of 6-azido-6-deoxy-glucose (final concertation 20 mM), 
+727 
+100 µL of a freshly-prepared 400 mM solution of UDP-glucose (final concentration 40 mM), 
+728 
+100 µL of a 200 mM solution of MgCl2 (final concentration 20 mM), and 300 mL of reaction 
+729 
+buffer (50 mM Tris, 300 mM NaCl, pH 7.4). Then, 300 µL of TreT solution in storage/reaction 
+730 
+buffer was added (final concentration 300 µg/mL) and the reaction vessel was closed and mixed 
+731 
+gently by inverting the tube. The reaction was heated to 70 °C for 60 – 90 minutes with shaking 
+732 
+at 400 rpm and then cooled on ice before further manipulation. The reaction contents were 
+733 
+transferred to a pre-washed Amicon centrifugal filter with a nominal molecular weight limit 
+734 
+(NWML) of 10 kDa. The filter was washed with DI water (2 x 1 mL) to facilitate maximal 
+735 
+recovery. The upper chamber was discarded and 1 g of prewashed mixed-bed ion-exchange resin 
+736 
+(DOWEX) was added to the filtrate and the slurry was equilibrated for 60 – 90 minutes. The 
+737 
+suspension was filtered, and the resin was rinsed with 3 – 5 mL of DI water. Analysis by TLC 
+738 
+(5:3:2 n-butanol: ethanol: DI water) and/or LC-MS equipped with a Supelco aminopropyl 
+739 
+column [4.6 x 250 mm, 5 µm] (isocratic 80% ACN in DI water, 0.5 mL/min flowrate) indicated 
+740 
+full and complete conversion of 6-azido-6-deoxy-glucose to 6-azido-6-deoxy-trehalose with high 
+741 
+purity as determined by nuclear magnetic resonance (NMR), which matched previously reported 
+742 
+spectra. 
+743 
+ 
+744 
+Synthesis and Direct utilization of 6-TreAz for labeling Mycobacterium marinum: To facilitate 
+745 
+easier production and labeling of M. marinum with 6-TreAz, the reaction was performed as 
+746 
+above but 6-TreAz was not isolated prior to labeling. Upon reaction completion, the reaction was 
+747 
+cooled on ice to bring the vessel back to ambient temperature. The 10 mM stock of 6-TreAz was 
+748 
+then added to cultures of Mycobacterium marinum to a final concentration of 50 µM.  
+749 
+ 
+750 
+ 
+751 
+ 
+752 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+33 
+Periodate-hydroxylamine staining of mycobacterial surfaces 
+753 
+Surface-exposed terminal oxidizable carbohydrates were labeled with hydroxylamine following 
+754 
+periodate oxidation. Lyophilized control or reconstituted M. marinum were washed twice with 
+755 
+PBS and resuspended in 0.1 M sodium acetate (Sigma), pH 5.5 containing 1 mM sodium 
+756 
+periodate (Sigma). Following a 20-min incubation at 4°C with gentle rotation, 0.1 mM glycerol 
+757 
+was added to stop the reaction. Cultures were washed three times with PBS and then subjected to 
+758 
+single cell preparation. Following single cell preparation, pellets were transferred to a 96-well 
+759 
+plate and then incubated with PBS containing 1 mM Alexa-647 hydroxylamine (Thermo-Fisher). 
+760 
+Following a 2 h incubation at 23 ºC, the cultures were washed 5 times with PBS and twice with 
+761 
+prep media.   
+762 
+ 
+763 
+Copper-free click chemistry of M. marinum  
+764 
+Following reconstitution or metabolic labeling, bacteria were treated for single cell preparation. 
+765 
+Bacteria were then transferred to 96-well v-bottom dishes and were washed twice with PBS 
+766 
+using centrifugation at 3000xg for 3min between washing. Bacteria were then stained with either 
+767 
+5µM DIBO-488 (Thermo-Fisher), or 30µM DIBO-647 (Thermo-Fisher) in 200µl PBS for 90min 
+768 
+at 23 ºC protected from light. Bacteria were then washed 5 times in PBS followed by 2 washes in 
+769 
+prep media. Bacteria were then aliquoted and stored at -20C for future use. Staining efficiency 
+770 
+was evaluated by flow cytometry on a BD-Accuri C6 Plus and analysis was performed using the 
+771 
+FlowJo software package. Staining was also evaluated by microscopy with a 60x oil-immersion 
+772 
+Plan Apo 1.4 NA objective on the Nikon A1R confocal microscope.   
+773 
+ 
+774 
+MYD88 morpholino and liposome injections 
+775 
+To generate MYD88 knockdown zebrafish larvae, the MYD88 morpholino 
+776 
+5’GTTAAACACTGACCCTGTGGATCAT3’ (Bates et al., 2007) was diluted to 2mM in 0.5 x 
+777 
+tango buffer (Thermo Scientific), containing 2% phenol red sodium salt solution (Sigma). 1 nl of 
+778 
+the morpholino mixture was injected into the 1-4 cell stage of the developing embryo. Lipo-PBS 
+779 
+and lipo-clodronate (http://clodronateliposomes.org) were diluted 1:10 in PBS and injected into 
+780 
+2-dpf-old larvae in ~10 nl via the caudal vein.  
+781 
+ 
+782 
+ 
+783 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+34 
+Confocal microscopy and image-based quantification of infection  
+784 
+Larvae were embedded in 1.5% low melting point agarose (Thermo-Fisher) and a series of z 
+785 
+stack images with a 2µm step size was generated through the infected HBV.  For infected THP-1 
+786 
+and A549 cells, a series of z stack images with a 1µm step size was generated. Images were 
+787 
+captured using the galvo scanner (laser scanner) of the Nikon A1R confocal microscope with a 
+788 
+20x Plan Apo 0.75 NA objective. Higher resolution images were generated using a 40x water-
+789 
+immersion Apo 1.15 NA objective. Bacterial burdens were determined by using the 3D surface-
+790 
+rendering feature of Imaris (Bitplane Scientific Software). Spread lipid images were generated 
+791 
+by subtracting the bacterial surface from the lipid channel. 3D surface-rendering was then done 
+792 
+in Imaris on both the total lipid and spread lipid images to generate a percent spread value.  
+793 
+ 
+794 
+Macrophage and Monocyte hindbrain recruitment assay 
+795 
+For the macrophage recruitment (Figure 1G): 2 dpf zebrafish were infected in the HBV with M. 
+796 
+marinum at the dose reported in the figure legends. At 3 h post infection, the number of total 
+797 
+myeloid cells in the HBV was quantified using differential interference contrast microscopy 
+798 
+using a 20x Plan Fluor 0.75 NA objective on Nikon’s Ti eclipse inverted microscope. For 
+799 
+quantification of monocytes (Figure 5A and B): 2 dpf zebrafish were injected in the caudal vein 
+800 
+with 200µg/ml of the nuclear stain Hoechst 33342 (Thermo-Fisher) 2 hours prior to HBV 
+801 
+infection. Hoechst is unable to cross the blood-brain barrier and therefore will label circulating 
+802 
+monocytes but will not label brain resident macrophages (Cambier et al., 2017). At 3hpi blue-
+803 
+fluorescent cells in the hindbrain was quantified similar to above macrophage recruitment assay. 
+804 
+ 
+805 
+Co-infection Experiments 
+806 
+Around 40-50 tdTomato expressing wildtype M. mairnum were co-infected with an equal 
+807 
+number of wasabi expressing M. marinum into the HBV. At 3 dpi the bacterial volume of the 
+808 
+wildtype tdTomato expressing M. marinum was quantified as described above (Confocal 
+809 
+microscopy and image-based quantification of infection). 
+810 
+ 
+811 
+Infectivity Assay  
+812 
+3 days post fertilization larvae were infected via the hindbrain ventricle with an average of 0.8 
+813 
+bacteria per injection. Fish harboring 1-3 bacteria were identified at 5 h post infection by 
+814 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+35 
+confocal microscopy. These infected fish were then evaluated at 3 dpi and were scored as 
+815 
+infected or uninfected, based on the presence or absence of fluorescent bacteria.  
+816 
+ 
+817 
+Fluorescence recovery after photobleaching (FRAP) experiments  
+818 
+FRAP experiments were performed using the galvo scanner (laser scanner) of the Nikon A1R 
+819 
+confocal microscope with a 60x oil-immersion Plan Apo 1.4 NA objective. Photobleaching was 
+820 
+performed with the 405 nm laser for 200ms on a region of interest (ROI) encompassing ~1μm 
+821 
+from one pole of a single bacteria. A series of images was taken every second over the course of 
+822 
+31 seconds, one prior to bleaching. Labeled cells were mounted on a slide and coverslip in 
+823 
+0.75% low melting agarose. NIS Elements software (Nikon) was used to analyze the FRAP data 
+824 
+to extract the fluorescence recovery kinetics. Briefly, the first image before photobleaching was 
+825 
+used to generate an ROI for the entire cell and a second ROI was generated in the photobleached 
+826 
+area. Total fluorescence intensities in both the whole cell area and the bleached area were 
+827 
+extracted and normalized to correct for photobleaching of the dyes due to acquisition. The 
+828 
+normalized fluorescence intensities of the bleached area were then fitted to a non-linear 
+829 
+regression with a one-phase association, with the plateau values from each sample plotted to 
+830 
+represent the mobile fraction. 
+831 
+ 
+832 
+Alkyne-cholesterol labeling of M. marinum 
+833 
+Wildtype or ∆mmpL7 M. marinum expressing wasabi fluorescent protein were grown in 7H9 
+834 
+medium supplemented with 10% OADC, 0.2% glycerol with or without 0.005% alkyne-
+835 
+cholesterol for 48 h. Bacteria were then washed 3x with PBS prior to the copper-click reaction 
+836 
+with AlexaFluor-647 Azide. For copper click: 400µM BTTP (Click Chemistry Tools) and 
+837 
+200µM copper sulfate (Sigma) were dissolved in PBS and allowed to complex for 20 minutes. 
+838 
+30µM AlexaFluor-647 Azide (Thermo-Fisher) and 1.2mM sodium ascorbate (Sigma) were then 
+839 
+added to the solution. Bacterial pellets in 96-well v-bottom plates were resuspended in 50µl of 
+840 
+the solution and were incubated at 23 ºC protected from light for 45 minutes. Bacteria were then 
+841 
+washed 5x in PBS prior to imaging on a Nikon A1R confocal microscope with a 60x oil-
+842 
+immersion Plan Apo 1.4 NA objective. Nikon elements software was used to determine 
+843 
+fluorescent intensities of wasabi and cholesterol signals calculated from line profiles drawn 
+844 
+perpendicular to bacterial membranes at least 0.5µm from either pole.  
+845 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+36 
+ 
+846 
+Cholesterol depletion and infection of A549 epithelial cells 
+847 
+A549 cells were seeded  at 50,000 cells per 8-well Nunc Lab-Tek II chambered coverglass or at 
+848 
+100,000 cells per well in a 24 well plate. Cells were incubated at 37 ºC for 48 h. Cells were 
+849 
+washed 1x in PBS followed by treatment with 10mM methyl-ß cyclodextrin (Sigma), 1mM 
+850 
+water-soluble cholesterol (Sigma), or a combination of 10mM methyl-ß cyclodextrin and 1mM 
+851 
+water-soluble cholesterol in serum free DMEM media. Cells were treated for 1 hour at 33 ºC 
+852 
+followed by 3 washes with PBS. Cells plated on chambered coverglass were infected with azido-
+853 
+DIM labeled M. marinum at an MOI of 5 for 24 h at 33 ºC followed by imaging on a Nikon A1R 
+854 
+confocal microscope with a 20x Plan Apo 0.75 NA objective. 2µm z-stacks were generated 
+855 
+through the infected cells. Azido-DIM spreading was calculated similar to above (Section: 
+856 
+Confocal microscopy and image-based quantification of infection). Cells plated on 24-well plates 
+857 
+were rescued in DMEM + 10% FBS for 3 h at 33 ºC.  Cells were then harvested for 
+858 
+quantification of cholesterol levels.  
+859 
+ 
+860 
+Atorvastatin treatment of zebrafish larvae 
+861 
+At 48 h post fertilization, 0.5µM atorvastatin (Sigma), or 10µM water-soluble cholesterol 
+862 
+(Sigma), or both were added to zebrafish water containing 1% DMSO. Control fish were 
+863 
+incubated in water with 1% DMSO only. Zebrafish were incubated for 24 h prior to infection or 
+864 
+to cholesterol quantification. Drugs were replenished every 24 h until experiment endpoint. 
+865 
+ 
+866 
+Quantification of cholesterol in zebrafish and A549 epithelial cells 
+867 
+Cholesterol was quantified using the Total Cholesterol and Cholesterol Ester 
+868 
+Colorimetric/Fluorometric Assay Kit (BioVision). For zebrafish, 8 larvae were euthanized, 
+869 
+transferred to a 1.5ml Eppendorf tube and excess water was removed. A solution of 
+870 
+chloroform:isopropanol:NP-40 (7:11:0.1) was added and the sample was sonicated in a water 
+871 
+bath for 1 hour. Samples were then centrifuged at 16,000xg for 10min and supernatants were 
+872 
+transferred to a fresh tube and were allowed to dry in a 60 ºC water in a chemical fume hood. For 
+873 
+A549 epithelial cells, chloroform:isopropanol:NP-40 (7:11:0.1) was added directly to cells in a 
+874 
+24 well plate. Cells were scrapped and solution was transferred to a 1.5ml Eppendorf tube and 
+875 
+was centrifuged at 16,000xg for 10min and supernatants were transferred to a fresh tube and 
+876 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+37 
+were allowed to dry in a 60 ºC water in a chemical fume hood. Dried lipids were then subjected 
+877 
+to manufacturer’s protocol and total cholesterol concentrations were determined by fluorescence 
+878 
+on a SpectraMax i3x plate reader (Molecular Devices).  
+879 
+ 
+880 
+Statistics 
+881 
+Statistical analyses were performed using Prism 8.4.3 (GraphPad): When appropriate 
+882 
+D'Agostino-Pearson normality test was done to determine if all of the groups in a particular data 
+883 
+set were of a gaussian distribution which then guided the subsequent statistical test performed 
+884 
+(Supplemental Table 1). Where the n value is given and not represented graphically in the figure, 
+885 
+n represents the number of zebrafish used for each experimental group (Figure 7H and I).  
+886 
+ 
+887 
+REFERENCES 
+888 
+Anderson, R.J. (1929). The chemistry of the lipoids of tubercle bacilli iv. concerning the so 
+889 
+called tubercle bacilli wax. analysis of the purified wax. J. Biol. Chem. 83, 505–522. 
+890 
+Astarie-Dequeker, C., Le Guyader, L., Malaga, W., Seaphanh, F.-K., Chalut, C., Lopez, A., and 
+891 
+Guilhot, C. (2009). Phthiocerol Dimycocerosates of M. tuberculosis Participate in Macrophage 
+892 
+Invasion by Inducing Changes in the Organization of Plasma Membrane Lipids. PLoS Pathog 5, 
+893 
+e1000289–16. 
+894 
+Augenstreich, J., Arbues, A., Siméone, R., Haanappel, E., Wegener, A., Sayes, F., Le Chevalier, 
+895 
+F., Chalut, C., Malaga, W., Guilhot, C., et al. (2017). ESX-1 and phthiocerol dimycocerosates of 
+896 
+Mycobacterium tuberculosis act in concert to cause phagosomal rupture and host cell apoptosis. 
+897 
+Cellular Microbiology 19. 
+898 
+Augenstreich, J., Haanappel, E., Ferré, G., Czaplicki, G., Jolibois, F., Destainville, N., Guilhot, 
+899 
+C., Milon, A., Astarie-Dequeker, C., and Chavent, M. (2019). The conical shape of DIM lipids 
+900 
+promotes Mycobacterium tuberculosis infection of macrophages. Proceedings of the National 
+901 
+Academy of Sciences 3, 201910368. 
+902 
+Barczak, A.K., Avraham, R., Singh, S., Luo, S.S., Zhang, W.R., Bray, M.-A., Hinman, A.E., 
+903 
+Thompson, M., Nietupski, R.M., Golas, A., et al. (2017). Systematic, multiparametric analysis of 
+904 
+Mycobacterium tuberculosis intracellular infection offers insight into coordinated virulence. 
+905 
+PLoS Pathog 13, e1006363–27. 
+906 
+Bates, J.H., Potts, W.E., and Lewis, M. (1965). Epidemiology of Primary Tuberculosis in an 
+907 
+Industrial School. N. Engl. J. Med. 272, 714–717. 
+908 
+Bates, J.M., Akerlund, J., Mittge, E., and Guillemin, K. (2007). Intestinal alkaline phosphatase 
+909 
+detoxifies lipopolysaccharide and prevents inflammation in zebrafish in response to the gut 
+910 
+microbiota. Cell Host & Microbe 2, 371–382. 
+911 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+38 
+Beatty, W.L., Rhoades, E.R., Ullrich, H.J., Chatterjee, D., Heuser, J.E., and Russell, D.G. (2000). 
+912 
+Trafficking and release of mycobacterial lipids from infected macrophages. Traffic 1, 235–247. 
+913 
+Bernut, A., Herrmann, J.-L., Kissa, K., Dubremetz, J.-F., Gaillard, J.-L., Lutfalla, G., and 
+914 
+Kremer, L. (2014). Mycobacterium abscessus cording prevents phagocytosis and promotes 
+915 
+abscess formation. Proceedings of the National Academy of Sciences 111, E943–E952. 
+916 
+Brzostek, A., Pawelczyk, J., Rumijowska-Galewicz, A., Dziadek, B., and Dziadek, J. (2009). 
+917 
+Mycobacterium tuberculosis Is Able To Accumulate and Utilize Cholesterol. Journal of 
+918 
+Bacteriology 191, 6584–6591. 
+919 
+Budin, I., de Rond, T., Chen, Y., Chan, L.J.G., Petzold, C.J., and Keasling, J.D. (2018). Viscous 
+920 
+control of cellular respiration by membrane lipid composition. Science 362, 1186–1189. 
+921 
+Camacho, L.R., Constant, P., Raynaud, C., Lanéelle, M.-A., Triccas, J.A., Gicquel, B., Daffé, 
+922 
+M., and Guilhot, C. (2001). Analysis of the Phthiocerol Dimycocerosate Locus of 
+923 
+Mycobacterium tuberculosis. J. Biol. Chem. 276, 19845–19854. 
+924 
+Cambier, C.J., Falkow, S., and Ramakrishnan, L. (2014a). Host evasion and exploitation 
+925 
+schemes of Mycobacterium tuberculosis. Cell 159, 1497–1509. 
+926 
+Cambier, C.J., O’Leary, S.M., O’Sullivan, M.P., Keane, J., and Ramakrishnan, L. (2017). 
+927 
+Phenolic Glycolipid Facilitates Mycobacterial Escape from Microbicidal Tissue-Resident 
+928 
+Macrophages. Immunity 47, 552–565.e554. 
+929 
+Cambier, C.J., Takaki, K.K., Larson, R.P., Hernandez, R.E., Tobin, D.M., Urdahl, K.B., Cosma, 
+930 
+C.L., and Ramakrishnan, L. (2014b). Mycobacteria manipulate macrophage recruitment through 
+931 
+coordinated use of membrane lipids. Nature 505, 218–222. 
+932 
+Cohen, S.B., Gern, B.H., Delahaye, J.L., Adams, K.N., Plumlee, C.R., Winkler, J.K., Sherman, 
+933 
+D.R., Gerner, M.Y., and Urdahl, K.B. (2018). Alveolar Macrophages Provide an Early 
+934 
+Mycobacterium tuberculosis Niche and Initiate Dissemination. Cell Host & Microbe 24, 439–
+935 
+446.e4. 
+936 
+Comas, I., Coscolla, M., Luo, T., Borrell, S., Holt, K.E., Kato-Maeda, M., Parkhill, J., Malla, B., 
+937 
+Berg, S., Thwaites, G., et al. (2013). Out-of-Africa migration and Neolithic coexpansion of 
+938 
+Mycobacterium tuberculosis with modern humans. Nat. Genet. 45, 1176–1182. 
+939 
+Cox, J.S., Chen, B., McNeil, M., and Jacobs, W.R. (1999). Complex lipid determines tissue-
+940 
+specific replication of Mycobacterium tuberculosis in mice. Nature 402, 79–83. 
+941 
+Davis, J.M., and Ramakrishnan, L. (2009). The role of the granuloma in expansion and 
+942 
+dissemination of early tuberculous infection. Cell 136, 37–49. 
+943 
+Dutta, N.K., Bruiners, N., Pinn, M.L., Zimmerman, M.D., Prideaux, B., Dartois, V., Gennaro, 
+944 
+M.L., and Karakousis, P.C. (2016). Statin adjunctive therapy shortens the duration of TB 
+945 
+treatment in mice. J. Antimicrob. Chemother. 71, 1570–1577. 
+946 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+39 
+Falkow, S. (1988). Molecular Koch's postulates applied to microbial pathogenicity. Rev. Infect. 
+947 
+Dis. 10 Suppl 2, S274–S276. 
+948 
+Falkow, S. (2004). Molecular Koch's postulates applied to bacterial pathogenicity--a personal 
+949 
+recollection 15 years later. Nat. Rev. Microbiol. 2, 67–72. 
+950 
+Fessler, M.B. (2017). A New Frontier in Immunometabolism. Cholesterol in Lung Health and 
+951 
+Disease. Ann Am Thorac Soc 14, S399–S405. 
+952 
+Gatfield, J., and Pieters, J. (2000). Essential role for cholesterol in entry of mycobacteria into 
+953 
+macrophages. Science 288, 1647–1650. 
+954 
+Howell, J.I., Ahkong, Q.F., Cramp, F.C., Fisher, D., Tampion, W., and Lucy, J.A. (1972). 
+955 
+Membrane fluidity and membrane fusion. Biochem. J. 130, 44P–44P. 
+956 
+Huebinger, J., Spindler, J., Holl, K.J., and Koos, B.X.R. (2018). Quantification of protein 
+957 
+mobility and associated reshuffling of cytoplasm during chemical fixation. Scientific Reports 1–
+958 
+11. 
+959 
+Indrigo, J. (2003). Cord factor trehalose 6,6'-dimycolate (TDM) mediates trafficking events 
+960 
+during mycobacterial infection of murine macrophages. Microbiology 149, 2049–2059. 
+961 
+Jackson, M. (2014). The mycobacterial cell envelope-lipids. Cold Spring Harb Perspect Med 4. 
+962 
+Jung, M.E., and Lyster, M.A. (1977). Quantitative dealkylation of alkyl ethers via treatment with 
+963 
+trimethylsilyl iodide. A new method for ether hydrolysis. J. Org. Chem. 42, 3761–3764. 
+964 
+Kamariza, M., Shieh, P., Ealand, C.S., Peters, J.S., Chu, B., Rodriguez-Rivera, F.P., Babu Sait, 
+965 
+M.R., Treuren, W.V., Martinson, N., Kalscheuer, R., et al. (2018). Rapid detection of 
+966 
+Mycobacterium tuberculosis in sputum with a solvatochromic trehalose probe. Sci Transl Med 
+967 
+10, eaam6310. 
+968 
+Karakousis, P.C., Chaisson, R.E., Martinson, N. (2019) StAT-TB (Statin Adjunctive Therapy for 
+969 
+TB): A Phase 2b Dose-finding Study of Pravastatin in Adults with Tuberculosis. National 
+970 
+Institute of Allergy and Infectious Diseases. https://clinicaltrials.gov/ct2/show/NCT03882177 
+971 
+Kim, M.-C., Yun, S.-C., Lee, S.-O., Choi, S.-H., Kim, Y.S., Woo, J.H., and Kim, S.-H. (2019). 
+972 
+Association between Tuberculosis, Statin Use, and Diabetes: A Propensity Score–Matched 
+973 
+Analysis. The American Journal of Tropical Medicine and Hygiene 101, 350–356. 
+974 
+Kondo, E., and Kanai, K. (1976). A suggested role of a host-parasite lipid complex in 
+975 
+mycobacterial infection. Jpn. J. Med. Sci. Biol. 29, 199–210. 
+976 
+Lai, C.-C., Lee, M.-T.G., Lee, S.-H., Hsu, W.-T., Chang, S.-S., Chen, S.-C., and Lee, C.-C. 
+977 
+(2016a). Statin treatment is associated with a decreased risk of active tuberculosis: an analysis of 
+978 
+a nationally representative cohort. Thorax 71, 646–651. 
+979 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+40 
+Lai, C.-C., Lee, M.-T.G., Lee, S.-H., Hsu, W.-T., Chang, S.-S., Chen, S.-C., and Lee, C.-C. 
+980 
+(2016b). Statin treatment is associated with a decreased risk of active tuberculosis: an analysis of 
+981 
+a nationally representative cohort. Thorax 71, 646–651. 
+982 
+Lerner, T.R., Queval, C.J., Fearns, A., Repnik, U., Griffiths, G., and Gutierrez, M.G. (2017). 
+983 
+Phthiocerol dimycocerosates promote access to the cytosol and intracellular burden of 
+984 
+Mycobacterium tuberculosis in lymphatic endothelial cells. 1–13. 
+985 
+Los, D.A., and Murata, N. (2004). Membrane fluidity and its roles in the perception of 
+986 
+environmental signals. Biochimica Et Biophysica Acta (BBA) - Biomembranes 1666, 142–157. 
+987 
+Maerz, L.D., Burkhalter, M.D., Schilpp, C., Wittekindt, O.H., Frick, M., and Philipp, M. (2019). 
+988 
+Pharmacological cholesterol depletion disturbs ciliogenesis and ciliary function in developing 
+989 
+zebrafish. Communications Biology 1–13. 
+990 
+Martens, G.W., Arikan, M.C., Lee, J., Ren, F., Vallerskog, T., and Kornfeld, H. (2008). 
+991 
+Hypercholesterolemia Impairs Immunity to Tuberculosis. Infection and Immunity 76, 3464–
+992 
+3472. 
+993 
+Medzhitov, R. (2007). Recognition of microorganisms and activation of the immune response. 
+994 
+Nature 449, 819–826. 
+995 
+Moliva, J.I., Hossfeld, A.P., Sidiki, S., Canan, C.H., Dwivedi, V., Beamer, G., Turner, J., and 
+996 
+Torrelles, J.B. (2019). Selective delipidation of Mycobacterium bovis BCG enables direct 
+997 
+pulmonary vaccination and enhances protection against Mycobacterium tuberculosis. Mucosal 
+998 
+Immunology 12, 805–815. 
+999 
+Murry, J.P., Pandey, A.K., Sassetti, C.M., and Rubin, E.J. (2009). Phthiocerol dimycocerosate 
+1000 
+transport is required for resisting interferon-gamma-independent immunity. J Infect Dis 200, 
+1001 
+774–782. 
+1002 
+Nishijima, K., Yoneda, M., Hirai, T., Takakuwa, K., and Enomoto, T. (2019). Biology of the 
+1003 
+vernix caseosa: A review. J. Obstet. Gynaecol. Res. 45, 2145–2149. 
+1004 
+Onwueme, K.C., Vos, C.J., Zurita, J., Ferreras, J.A., and Quadri, L.E.N. (2005). The 
+1005 
+dimycocerosate ester polyketide virulence factors of mycobacteria. Progress in Lipid Research 
+1006 
+44, 259–302. 
+1007 
+Osman, M.M., Pagán, A.J., Shanahan, J.K., and Ramakrishnan, L. (2020). Mycobacterium 
+1008 
+marinumphthiocerol dimycocerosates enhance macrophage phagosomal permeabilization and 
+1009 
+membrane damage. bioRxiv 1–20. 
+1010 
+Pandey, A.K., and Sassetti, C.M. (2008). Mycobacterial persistence requires the utilization of 
+1011 
+host cholesterol. Proceedings of the National Academy of Sciences 105, 4376–4380. 
+1012 
+Poger, D., Caron, B., and Mark, A.E. (2014). Effect of Methyl-Branched Fatty Acids on the 
+1013 
+Structure of Lipid Bilayers. J. Phys. Chem. B 118, 13838–13848. 
+1014 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+41 
+Quigley, J., Hughitt, V.K., Velikovsky, C.A., Mariuzza, R.A., El-Sayed, N.M., and Briken, V. 
+1015 
+(2017). The Cell Wall Lipid PDIM Contributes to Phagosomal Escape and Host Cell Exit of 
+1016 
+Mycobacterium tuberculosis. mBio 8, e00148–17–12. 
+1017 
+Ramakrishnan, L. (2012). Revisiting the role of the granuloma in tuberculosis. Nat Rev Immunol 
+1018 
+12, 352–366. 
+1019 
+Ramakrishnan, L. (2020). Mycobacterium tuberculosis pathogenicity viewed through the lens of 
+1020 
+molecular Koch’s postulates. Curr. Opin. Microbiol. 54, 103–110. 
+1021 
+Ran-Ressler, R.R., Khailova, L., Arganbright, K.M., Adkins-Rieck, C.K., Jouni, Z.E., Koren, O., 
+1022 
+Ley, R.E., Brenna, J.T., and Dvorak, B. (2011). Branched Chain Fatty Acids Reduce the 
+1023 
+Incidence of Necrotizing Enterocolitis and Alter Gastrointestinal Microbial Ecology in a 
+1024 
+Neonatal Rat Model. PLoS ONE 6, e29032–10. 
+1025 
+Reuschl, A.-K., Edwards, M.R., Parker, R., Connell, D.W., Hoang, L., Halliday, A., Jarvis, H., 
+1026 
+Siddiqui, N., Wright, C., Bremang, S., et al. (2017). Innate activation of human primary 
+1027 
+epithelial cells broadens the host response to Mycobacterium tuberculosis in the airways. PLoS 
+1028 
+Pathog 13, e1006577–26. 
+1029 
+Rodriguez-Rivera, F.P., Zhou, X., Theriot, J.A., and Bertozzi, C.R. (2017). Visualization of 
+1030 
+mycobacterial membrane dynamics in live cells. J. Am. Chem. Soc. 139, 3488–3495. 
+1031 
+Rousseau, C., Winter, N., Pivert, E., Bordat, Y., Neyrolles, O., Avé, P., Huerre, M., Gicquel, B., 
+1032 
+and Jackson, M. (2004). Production of phthiocerol dimycocerosates protects Mycobacterium 
+1033 
+tuberculosis from the cidal activity of reactive nitrogen intermediates produced by macrophages 
+1034 
+and modulates the early immune response to infection. Cellular Microbiology 6, 277–287. 
+1035 
+Ruysschaert, J.-M., and Lonez, C. (2015). Role of lipid microdomains in TLR-mediated 
+1036 
+signalling. BBA - Biomembranes 1848, 1860–1867. 
+1037 
+Siegrist, M.S., Swarts, B.M., Fox, D.M., Lim, S.A., and Bertozzi, C.R. (2015). Illumination of 
+1038 
+growth, division and secretion by metabolic labeling of the bacterial cell surface. FEMS 
+1039 
+Microbiology Reviews 39, 184–202. 
+1040 
+Silva, C.L., Ekizlerian, S.M., and Fazioli, R.A. (1985). Role of cord factor in the modulation of 
+1041 
+infection caused by mycobacteria. Am. J. Pathol. 118, 238–247. 
+1042 
+Siméone, R., Constant, P., Malaga, W., Guilhot, C., Daffé, M., and Chalut, C. (2007). Molecular 
+1043 
+dissection of the biosynthetic relationship between phthiocerol and phthiodiolone 
+1044 
+dimycocerosates and their critical role in the virulence and permeability of Mycobacterium 
+1045 
+tuberculosis. FEBS Journal 274, 1957–1969. 
+1046 
+Sletten, E.M., and Bertozzi, C.R. (2009). Bioorthogonal chemistry: fishing for selectivity in a sea 
+1047 
+of functionality. Angew. Chem. Int. Ed. Engl. 48, 6974–6998. 
+1048 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+42 
+Soh, A.Z., Chee, C.B., Wang, Y.-T., Yuan, J.-M., and Koh, W.-P. (2016). Dietary Cholesterol 
+1049 
+Increases the Risk whereas PUFAs Reduce the Risk of Active Tuberculosis in Singapore 
+1050 
+Chinese. The Journal of Nutrition 146, 1093–1100. 
+1051 
+Soong, G., Reddy, B., Sokol, S., Adamo, R., and Prince, A. (2004). TLR2 is mobilized into an 
+1052 
+apical lipid raft receptor complex to signal infection in airway epithelial cells. J. Clin. Invest. 
+1053 
+113, 1482–1489. 
+1054 
+Srivastava, S., Ernst, J.D., and Desvignes, L. (2014). Beyond macrophages: the diversity of 
+1055 
+mononuclear cells in tuberculosis. Immunol. Rev. 262, 179–192. 
+1056 
+Swarts, B.M., Holsclaw, C.M., Jewett, J.C., Alber, M., Fox, D.M., Siegrist, M.S., Leary, J.A., 
+1057 
+Kalscheuer, R., and Bertozzi, C.R. (2012). Probing the mycobacterial trehalome with 
+1058 
+bioorthogonal chemistry. J. Am. Chem. Soc. 134, 16123–16126. 
+1059 
+Takaki, K., Davis, J.M., Winglee, K., and Ramakrishnan, L. (2013). Evaluation of the 
+1060 
+pathogenesis and treatment of Mycobacterium marinum infection in zebrafish. Nat Protoc 8, 
+1061 
+1114–1124. 
+1062 
+Tall, A.R., and Yvan-Charvet, L. (2015). Cholesterol, inflammation and innate immunity. Nature 
+1063 
+Publishing Group 1–13. 
+1064 
+Urbanek, B.L., Wing, D.C., Haislop, K.S., Hamel, C.J., Kalscheuer, R., Woodruff, P.J., and 
+1065 
+Swarts, B.M. (2014). Chemoenzymatic Synthesis of Trehalose Analogues: Rapid Access to 
+1066 
+Chemical Probes for Investigating Mycobacteria. Chembiochem 15, 2066–2070. 
+1067 
+Urdahl, K.B. (2014). Understanding and overcoming the barriers to T cell-mediated immunity 
+1068 
+against tuberculosis. Seminars in Immunology 26, 578–587. 
+1069 
+van der Wel, N., Hava, D., Houben, D., Fluitsma, D., van Zon, M., Pierson, J., Brenner, M., and 
+1070 
+Peters, P.J. (2007). M. tuberculosis and M. leprae translocate from the phagolysosome to the 
+1071 
+cytosol in myeloid cells. Cell 129, 1287–1298. 
+1072 
+Volkman, H.E., Pozos, T.C., Zheng, J., Davis, J.M., Rawls, J.F., and Ramakrishnan, L. (2010). 
+1073 
+Tuberculous Granuloma Induction via Interaction of a Bacterial Secreted Protein with Host 
+1074 
+Epithelium. Science 327, 466–469. 
+1075 
+Walton, E.M., Cronan, M.R., Beerman, R.W., and Tobin, D.M. (2015). The Macrophage-
+1076 
+Specific Promoter mfap4 Allows Live, Long-Term Analysis of Macrophage Behavior during 
+1077 
+Mycobacterial Infection in Zebrafish. PLoS ONE 10, e0138949. 
+1078 
+Wells, W.F., Ratcliffe, H.L., and Grumb, C. (1948). On the mechanics of droplet nuclei 
+1079 
+infection; quantitative experimental air-borne tuberculosis in rabbits. Am J Hyg 47, 11–28. 
+1080 
+ 
+1081 
+ 
+1082 
+ 
+1083 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+43 
+Supplemental Figures, Movie, and Table 
+1084 
+ 
+1085 
+ 
+1086 
+ 
+1087 
+ 
+1088 
+ 
+1089 
+ 
+1090 
+ 
+1091 
+ 
+1092 
+ 
+1093 
+ 
+1094 
+ 
+1095 
+ 
+1096 
+ 
+1097 
+ 
+1098 
+ 
+1099 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+44 
+ 
+1100 
+ 
+1101 
+ 
+1102 
+ 
+1103 
+ 
+1104 
+ 
+1105 
+ 
+1106 
+ 
+1107 
+ 
+1108 
+ 
+1109 
+ 
+1110 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+45 
+ 
+1111 
+ 
+1112 
+ 
+1113 
+ 
+1114 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+46 
+ 
+1115 
+ 
+1116 
+ 
+1117 
+ 
+1118 
+ 
+1119 
+ 
+1120 
+ 
+1121 
+ 
+1122 
+ 
+1123 
+ 
+1124 
+ 
+1125 
+ 
+1126 
+ 
+1127 
+ 
+1128 
+ 
+1129 
+ 
+1130 
+ 
+1131 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+47 
+ 
+1132 
+ 
+1133 
+ 
+1134 
+ 
+1135 
+ 
+1136 
+ 
+1137 
+ 
+1138 
+ 
+1139 
+ 
+1140 
+ 
+1141 
+ 
+1142 
+ 
+1143 
+ 
+1144 
+ 
+1145 
+ 
+1146 
+ 
+1147 
+ 
+1148 
+ 
+1149 
+ 
+1150 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+48 
+ 
+1151 
+ 
+1152 
+ 
+1153 
+ 
+1154 
+ 
+1155 
+ 
+1156 
+ 
+1157 
+ 
+1158 
+ 
+1159 
+ 
+1160 
+ 
+1161 
+ 
+1162 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+49 
+ 
+1163 
+ 
+1164 
+ 
+1165 
+ 
+1166 
+ 
+1167 
+ 
+1168 
+ 
+1169 
+ 
+1170 
+ 
+1171 
+ 
+1172 
+ 
+1173 
+ 
+1174 
+ 
+1175 
+ 
+1176 
+ 
+1177 
+ 
+1178 
+ 
+1179 
+ 
+1180 
+ 
+1181 
+ 
+1182 
+ 
+1183 
+ 
+1184 
+ 
+1185 
+ 
+1186 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+50 
+Movie S1: PDIM dynamics. Real-time video of M. marinum expressing blue fluorescent protein 
+1187 
+reconstituted with DIBO-488 labelled azido-DIM at 3 hpi of the HBV with ~100 M. marinum. 
+1188 
+ 
+1189 
+Supplementary Table 1. Summary of P values and statistical tests. Gaussian distribution was 
+1190 
+determined using the D'Agostino-Pearson normality test. The result of this test guided 
+1191 
+subsequent analyses. 
+1192 
+ 
+1193 
+ 
+1194 
+ 
+1195 
+ 
+1196 
+ 
+1197 
+ 
+1198 
+ 
+1199 
+ 
+1200 
+ 
+1201 
+ 
+1202 
+ 
+1203 
+ 
+1204 
+ 
+1205 
+ 
+1206 
+ 
+1207 
+ 
+1208 
+ 
+1209 
+ 
+1210 
+ 
+1211 
+ 
+1212 
+ 
+1213 
+ 
+1214 
+ 
+1215 
+ 
+1216 
+ 
+1217 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+51 
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+NMR SPECTRA 
+1218 
+ 
+1219 
+1H NMR 
+1220 
+500 MHz 
+1221 
+CDCl3 
+1222 
+PDIM 
+1223 
+ 
+1224 
+ 
+1225 
+ 
+1226 
+ 
+1227 
+ 
+1228 
+ 
+1229 
+ 
+1230 
+ 
+1231 
+ 
+1232 
+ 
+1233 
+13C NMR 
+1234 
+126 MHz 
+1235 
+CDCl3 
+1236 
+ 
+1237 
+ 
+1238 
+ 
+1239 
+ 
+1240 
+ 
+1241 
+ 
+1242 
+ 
+1243 
+ 
+1244 
+ 
+1245 
+ 
+1246 
+ 
+1247 
+ 
+1248 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+52 
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+1H NMR 
+1249 
+500 MHz 
+1250 
+CDCl3 
+1251 
+Azido-DIM 
+1252 
+ 
+1253 
+ 
+1254 
+ 
+1255 
+ 
+1256 
+ 
+1257 
+ 
+1258 
+ 
+1259 
+ 
+1260 
+ 
+1261 
+ 
+1262 
+ 
+1263 
+ 
+1264 
+13C NMR 
+1265 
+126 MHz 
+1266 
+CDCl3 
+1267 
+ 
+1268 
+ 
+1269 
+ 
+1270 
+ 
+1271 
+ 
+1272 
+ 
+1273 
+ 
+1274 
+ 
+1275 
+ 
+1276 
+ 
+1277 
+ 
+1278 
+ 
+1279 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+53 
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+1H NMR 
+1280 
+500 MHz 
+1281 
+CDCl3 
+1282 
+PDIF 
+1283 
+ 
+1284 
+ 
+1285 
+ 
+1286 
+ 
+1287 
+ 
+1288 
+ 
+1289 
+ 
+1290 
+ 
+1291 
+ 
+1292 
+ 
+1293 
+ 
+1294 
+ 
+1295 
+13C NMR 
+1296 
+126 MHz 
+1297 
+CDCl3 
+1298 
+ 
+1299 
+ 
+1300 
+ 
+1301 
+ 
+1302 
+ 
+1303 
+ 
+1304 
+ 
+1305 
+ 
+1306 
+ 
+1307 
+ 
+1308 
+ 
+1309 
+ 
+1310 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint
+
+54 
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+1H NMR 
+1311 
+500 MHz 
+1312 
+CDCl3 
+1313 
+Azido-DIF 
+1314 
+ 
+1315 
+ 
+1316 
+ 
+1317 
+ 
+1318 
+ 
+1319 
+ 
+1320 
+ 
+1321 
+ 
+1322 
+ 
+1323 
+ 
+1324 
+ 
+1325 
+ 
+1326 
+ 
+1327 
+13C NMR 
+1328 
+126 MHz 
+1329 
+CDCl3 
+1330 
+ 
+1331 
+ 
+1332 
+ 
+1333 
+ 
+1334 
+ 
+1335 
+ 
+1336 
+ 
+1337 
+ 
+1338 
+ 
+1339 
+.
+CC-BY-NC-ND 4.0 International license
+a
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted June 30, 2020. 
+; 
+https://doi.org/10.1101/845081
+doi: 
+bioRxiv preprint

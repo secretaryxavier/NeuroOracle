@@ -1,0 +1,1284 @@
+MINI REVIEW
+published: 23 November 2017
+doi: 10.3389/fmicb.2017.02284
+Edited by:
+Céline Cougoule,
+Centre National de la Recherche
+Scientiﬁque (CNRS), France
+Reviewed by:
+Roland Lang,
+Universitätsklinikum Erlangen,
+Germany
+Shashank Gupta,
+Brown University, United States
+*Correspondence:
+Roxane Simeone
+roxane.simeone@pasteur.fr
+†Present address:
+Christophe J. Queval,
+Host-Pathogen Interactions in
+Tuberculosis Laboratory, The Francis
+Crick Institute, London,
+United Kingdom
+Specialty section:
+This article was submitted to
+Microbial Immunology,
+a section of the journal
+Frontiers in Microbiology
+Received: 21 September 2017
+Accepted: 06 November 2017
+Published: 23 November 2017
+Citation:
+Queval CJ, Brosch R and
+Simeone R (2017) The Macrophage:
+A Disputed Fortress in the Battle
+against Mycobacterium tuberculosis.
+Front. Microbiol. 8:2284.
+doi: 10.3389/fmicb.2017.02284
+The Macrophage: A Disputed
+Fortress in the Battle against
+Mycobacterium tuberculosis
+Christophe J. Queval†, Roland Brosch and Roxane Simeone*
+Unit for Integrated Mycobacterial Pathogenomics, Institut Pasteur, Paris, France
+Mycobacterium tuberculosis (Mtb), the etiological agent of human tuberculosis (TB),
+has plagued humans for thousands of years. TB still remains a major public health
+problem in our era, causing more than 4,400 deaths worldwide every day and killing
+more people than HIV. After inhaling Mtb-contaminated aerosols, TB primo-infection
+starts in the terminal lung airways, where Mtb is taken up by alveolar macrophages.
+Although macrophages are known as professional killers for pathogens, Mtb has
+adopted remarkable strategies to circumvent host defenses, building suitable conditions
+to survive and proliferate. Within macrophages, Mtb initially resides inside phagosomes,
+where its survival mostly depends on its ability to take control of phagosomal processing,
+through inhibition of phagolysosome biogenesis and acidiﬁcation processes, and by
+progressively getting access to the cytosol. Bacterial access to the cytosolic space is
+determinant for speciﬁc immune responses and cell death programs, both required for
+the replication and the dissemination of Mtb. Comprehension of the molecular events
+governing Mtb survival within macrophages is fundamental for the improvement of
+vaccine-based and therapeutic strategies in order to help the host to better defend
+itself in the battle against the ﬁerce invader Mtb. In this mini-review, we discuss recent
+research exploring how Mtb conquers and transforms the macrophage into a strategic
+base for its survival and dissemination as well as the associated defense strategies
+mounted by host.
+Keywords: Mycobacterium tuberculosis, macrophages, phagosome maturation, cell death, cytosolic access
+INTRODUCTION
+With over a billion deaths in the past 200 years, tuberculosis (TB) caused by Mycobacterium
+tuberculosis (Mtb) likely killed more people than any other infectious disease in the history of
+humanity (Paulson, 2013) and remains a major cause of death also in our era. Mtb is responsible
+for about 10 millions of new TB cases and 1.8 million deaths in 2015 (WHO, 2016). Estimations
+based on immunological tests suggest that about 2 billion people might be latently infected by
+Mtb. Statistically, 5–10% of latently infected individuals might then further develop active TB
+during their lifetime (Barry et al., 2009). TB primary infection occurs through inhalation of
+Mtb-containing aerosol droplets released by contagious individuals. After inhalation, Mtb rapidly
+reaches the lung’s alveolar space where it is preferentially taken up by alveolar macrophages
+(Armstrong and Hart, 1971; Warner and Mizrahi, 2007). Following macrophage phagocytosis,
+Frontiers in Microbiology | www.frontiersin.org
+1
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+mycobacterial invaders deploy an army of factors, which
+circumvent macrophage defenses, to escape from macrophage
+killing and to replicate within these phagocytes (Ehrt and
+Schnappinger, 2009; Cambier et al., 2014). Manipulation of
+intracellular macrophage signaling also impacts the cytokine
+environment modifying the potency of protective immune
+response, setting up a Mtb tolerance by the host and favoring
+the intracellular survival of Mtb over time (BoseDasgupta and
+Pieters, 2014; Orme et al., 2015). Innate immune responses are
+essential for the outcome of TB infection as well as for the
+establishment of adaptive immunity (Torrado and Cooper, 2013;
+Orme et al., 2015). In lungs, the progressive establishment of
+an immune response during Mtb infection notably contributes
+to the aggregation of immune cells, forming an organized
+structure harboring macrophages at the center, surrounded
+by giant cells, T-lymphocytes, neutrophils, ﬁbroblast, which is
+called a granuloma. A hallmark feature of the bacillus is its
+ability to remain concealed within host cells or/and within the
+granulomatous caseous necrotic centers, where it can persist
+during the long phase of TB latency (Barry et al., 2009).
+Establishment of an immune balance, orchestrated by both
+mycobacteria and host cells, is decisive for the outcome of the
+granuloma, which may either constrain the infection or promote
+its systemic dissemination (Ulrichs and Kaufmann, 2006; Davis
+and Ramakrishnan, 2009). The development of active pulmonary
+TB is tightly linked with a disordered immune balance, resulting
+in host’s inability to keep the infection under control (O’Garra
+et al., 2013).
+The current TB drug regimen generally requires 2-months
+of treatment with four ﬁrst-line drugs: isoniazid, rifampicin,
+ethambutol, and pyrazinamide followed by 4 months of
+treatment with isoniazid and rifampicin (WHO, 2016). However,
+the protracted nature of the TB treatment and an inappropriate
+patient compliance favor the selection of multidrug resistant
+strains (MDR-TB). The more recent emergence of extensively
+drug resistant strains (XDR-TB) represents, nowadays, a major
+threat (Van Rie and Enarson, 2006; WHO, 2016). Therefore,
+new and alternative means to control Mtb are urgently needed.
+A better understanding of the fundamental biology of this
+complex interaction of the bacterium and the host cell represents
+a challenge for the design of new strategies to improve
+control of TB.
+This mini-review focuses on selected aspects of this host-
+pathogen interaction, which shows quite some resemblance to
+medieval battlegrounds, where ﬁerce warriors tried to invade
+well-equipped fortresses with their weapons and ruses.
+MYCOBACTERIAL ARTILLERY
+Mycobacterium
+tuberculosis
+belongs
+to
+the
+phylum
+Actinobacteria and is coated by a unique cell envelope, which
+represents a remarkably impermeable and hydrophobic armor
+(Brennan and Nikaido, 1995) that is composed of a capsule, an
+outer membrane, also termed mycomembrane, a peptidoglycan
+layer, an arabinogalactan layer, and an inner plasma membrane.
+The mycomembrane consists of mycolic acids and selected
+extractible
+lipids,
+including
+phthiocerol
+dimycocerosates
+(abbreviated DIM or PDIM), diacyltrehalose (DAT), and
+polyacyltrehalose (PAT) (Chalut, 2016). Additionally, Mannosyl-
+phosphatidyl-myo-inositol-based glycolipids (PIM) and related
+lipoglycans such as lipomannan (LM) and lipoarabinomannan
+(LAM) are also abundantly present in the Mtb cell envelope as
+well as in the inner and outer membranes (Daﬀe et al., 2014). To
+ensure protein transport across this unusual cell envelope Mtb
+uses diﬀerent secretion systems, some of which are also widely
+present in other bacteria, such as the general Sec systems and
+the Twin Arginine Translocation (TAT) pathway, whereas others
+are exclusively present in mycobacteria and in some distantly
+related versions in other species within the phyla Actinobacteria
+and Firmicutes. These latter systems are called ESX secretion
+systems (Gröschel et al., 2016) and are also known as Type
+VII secretion (T7S) systems (Abdallah et al., 2007). The Mtb
+genome carries 5 esx loci, which encode for 5 distinct systems
+(ESX-1-ESX-5). The molecular architecture of a representative
+ESX model (ESX-5 of Mycobacterium xenopi) was recently
+determined at 13Å resolution by electron microscopy (Beckham
+et al., 2017). This work showed four core proteins of the ESX-5
+complex (EccB5, EccC5, EccD5, and EccE5), which assembled
+with equimolar stoichiometry into an oligomeric complex that
+displays sixfold symmetry (Beckham et al., 2017). Among the
+ESX systems, the esx-1 locus is probably the most studied as it
+encodes the 6 kDa Early Secretory Antigenic Target (ESAT-6;
+EsxA) and the 10 kDa Culture Filtrate Protein (CFP-10; EsxB),
+considered as key virulence determinants of Mtb as well as strong
+T-cell antigens (Gröschel et al., 2016). Recent work has shown
+a concerted action of the ESX-1 secretion system of Mtb with
+DIM/PDIM in phagosomal rupture, leading to access of Mtb to
+the cytosol of the host macrophage (Augenstreich et al., 2017),
+a phenomenon recently discussed from diﬀerent perspectives
+(Russell, 2016; Simeone et al., 2016) and described further below.
+DOORWAYS OF Mtb TO ENTER INTO
+MACROPHAGES
+Interaction of Mtb with phagocytic cells mostly occurs through
+the recognition of Pathogen-Associated Molecular Patterns
+(PAMP) present at the bacterial surface by Pattern Recognition
+Receptors (PRRs) of the host cell such as Toll-Like Receptors
+(TLR), C-type Lectin Receptors (abbreviated as CLR or CTL),
+Fc Receptors (FcR), Scavenger Receptors (SR), and cytosolic
+DNA sensors (Satoh and Akira, 2016). Stimulation of PRRs leads
+to bacterial phagocytosis, the initiation of immune responses
+as well as the activation of numerous cellular processes such
+as apoptosis, antigen processing/presentation, inﬂammasome
+activation, phagosome maturation, and autophagy (Lugo-
+Villarino et al., 2011; Mortaz et al., 2015). The interaction
+between TLR and Mtb leads to phagocyte activation without
+immediate ingestion of mycobacteria. Recognition of speciﬁc
+mycobacterial structures, such as lipoproteins 19 kDa, LM,
+LAM, and PIM was reported to be established by TLR2
+(Quesniaux et al., 2004), which is consistent with observations
+that TLR2-mediated recognition is diminished by the presence
+Frontiers in Microbiology | www.frontiersin.org
+2
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+of Lipooligosaccharide (LOS) in Mycobacterium canettii, the
+smooth variant of tubercle bacilli (Boritsch et al., 2016). It is
+noteworthy that loss of LOS production during the evolution
+of tuberculosis-causing mycobacteria has resulted in the rough
+colony morphology of Mtb strains, which apparently contributed
+to stronger recognition of Mtb by TLR2 (Boritsch et al., 2016).
+Moreover, unmethylated CpG motifs in bacterial DNA were
+reported to be recognized by TLR9 (Baﬁca et al., 2005). These
+events induce a signaling cascade by stimulation of Myeloid
+Diﬀerentiation primary response protein 88 (MyD88) leading to
+activation and nuclear translocation of transcription factors, such
+as the Nuclear transcription Factor NF-κB and activation of the
+innate host defense such as the production of pro-inﬂammatory
+cytokines.
+CLR/CTL
+are
+a
+family
+of
+membrane-bound
+calcium-
+dependent receptors that recognize carbohydrate-rich molecules.
+Among the CLR family, one of the most well-known receptors
+is the Mannose Receptor (MR), which recognizes mannose
+molecules/glycolipids
+present
+on
+Mtb’s
+surface
+such
+as
+LAM, ManLAM, and PIM. Stimulation through MR induces
+production of anti-inﬂammatory cytokines and fails to activate
+oxidative responses (Nigou et al., 2001). Previous studies have
+shown that phagocytosis of mannosylated beads and/or MR-
+ManLAM interferes with phagosome maturation, highlighting
+the potential role of glycolipids in the intracellular survival of
+mycobacteria (Astarie-Dequeker et al., 1999; Kang et al., 2005).
+A recent analysis of SNPs in the MRC1 gene within a Chinese
+population has suggested a possible association of selected SNPs
+and the susceptibility of individuals to pulmonary TB (Zhang
+et al., 2012). Moreover, Mincle, Dectin-1 and -2, and Dendritic
+Cell immunoActivating Receptor (DCAR) also belong to the
+CLR sub-family and represent probably the most well-known
+CLR expressed on macrophages. The Mincle receptor speciﬁcally
+recognizes mycobacterial cord factor Trehalose-6,6-dimycolate
+(TDM), which likely represents the most abundant glycolipid
+in the mycobacterial cell wall (Ishikawa et al., 2009). Ligation of
+TDM to Mincle induces several responses such as production of
+pro-inﬂammatory cytokines, generation of Th1/Th17 immune
+responses and induction of granuloma-genesis (Ishikawa et al.,
+2009; Mishra et al., 2017). It is known that Dectin-1 recognizes
+β-glucans in fungal pathogens but the precise Mtb’s PAMP is
+not known (Dinadayala et al., 2004). It has been showed that
+Dectin-1 is important for the innate immunity recognition of
+Mtb and for inducing Th1 and Th17 responses, independently
+of TLR2 recognition (van de Veerdonk et al., 2010). Dectin-2
+has been recently shown to induce host immune responses
+against Mtb infection through the recognition of ManLAM
+(Yonekawa et al., 2014). DCAR recognizes PIM to induce Th1
+responses during Mtb infection (Toyonaga et al., 2016). One
+other particular CRL/CTL, named DCSIGN/CD209, expressed
+by dendritic cells and macrophages recognizes conserved sugar
+motifs in a number of viruses, parasites, and bacteria, including
+Mtb (Tailleux et al., 2003; Tanne and Neyrolles, 2010).
+Fc receptors and Complement Receptor (CR) are strongly
+expressed on surface of macrophages. CR3 plays a key role in
+the phagocytosis of Mtb by macrophages with recognition of Mtb
+polysaccharides or PIM (Villeneuve et al., 2005).
+Scavenger Receptors are expressed on the cell surface
+of mammalian monocytes and macrophages and recognized
+oxidized or acetylated lipoproteins. During Mtb infections, the
+Macrophage Receptor with Collagenous (MARCO) structure is
+the most studied. MARCO recognizes TDM and cooperates with
+TLR2 to induce the activation of the transcriptional factor NF-κB
+and secretion of pro-inﬂammatory cytokines (Bowdish et al.,
+2009).
+Finally, cytosolic DNA sensors have also been described as
+PRR, which can recognize the presence of mycobacterial DNA
+in the cytosol (Manzanillo et al., 2012). This process is dependent
+on phagosomal rupture induced by ESX-1 and is mediated via
+the cytosolic sensors cGAS or AIM2 (Collins et al., 2015; Majlessi
+and Brosch, 2015; Wassermann et al., 2015; Watson et al., 2015;
+Figure 1).
+Mtb STRATEGIES TO CONQUER
+MACROPHAGES
+Strategy 1: Interference with Phagosome
+Maturation
+Macrophages are acting as the ﬁrst line of defense against
+pathogenic invaders. After internalization, pathogens are trapped
+in a vacuole called phagosome, which immediately undergoes
+sequential fusion events to acquire microbicidal and degrading
+characteristics by a process called maturation. The dynamic of
+phagosome maturation is actively regulated by the network of
+Rab GTPases, proteins that sequentially drive the phagosome
+progression from early to later stages of maturation. Rab GTPases
+(Rab) contribute to the identity of the endosomal organelle
+(e.g., Rab5, early endosomes; Rab7, late endosome), regulating
+membrane-fusion events but also the sorting of protein and lipids
+through the recycling pathway (Gruenberg and van der Goot,
+2006; Gutierrez, 2013; Prashar et al., 2017). Thus, all along the
+usual maturation process, biological changes of the phagosome
+are characterized by the speciﬁc recruitment of Rab GTPase until
+the ﬁnal fusion with lysosomes, which carry a set of hydrolytic
+enzymes that contribute to pathogen clearance. Recently other
+regulators of the phagosomal maturation, Rab34, Rab20, and
+the proneurotropin receptor sortilin, have been described as
+important for control and elimination of intracellular Mtb
+(Kasmapour et al., 2012; Vazquez et al., 2016; Schnettger et al.,
+2017). Concurrently with the maturation process, the pH of
+phagosomes quickly drops from neutral to 5, through a high
+activity of a vesicular proton-pump ATPase (H+ V-ATPase)
+(Russell et al., 2009). Phagosomal acidiﬁcation is a prerequisite
+for intracellular bacterial clearance, as acidic pH is essential
+for the optimal activity of lysosomal digestive enzymes and for
+reactive oxygen species production (Vieira et al., 2002; Sun-
+Wada et al., 2009). All along common traﬃcking pathways
+within macrophages, pathogens have to face multiple dangers
+such as exposure to cytosolic pattern recognition or danger
+receptors. The cytosolic lectin, Galectin8, notably recognizes
+damaged pathogen-containing vacuoles (including Mtb damaged
+phagosomes), and promotes their elimination by activating
+Frontiers in Microbiology | www.frontiersin.org
+3
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+FIGURE 1 | Working model for selected components intervening in the immune subversion strategies of Mtb as well as macrophage factors that contribute to host
+defense. In green: bacterial factors; in black: macrophage factors. Interaction of Mtb with macrophage PRRs triggers bacteria internalization. The ﬁrst strategy of Mtb
+to conquer macrophages is to inhibit phagosome maturation and acidiﬁcation through the expression or secretion of bacterial factors (LAM, SapM, PtpA) or by
+subverting host pathways such as TACO or CISH signaling. Bacteria then progressively access to the cytosol through the action of the ESX-1 secretion system and
+DIM/PDIM. When in contact with the cytosol, bacteria get targeted by ubiquitin ligases (Parkin, Smurf1) and/or activate speciﬁc cytosolic recognition pathways (gal8,
+cGAS, or AIM2). This latter step induces expression of type I IFN, activation of the NRLP3 inﬂammasome and initiation of autophagy. Lastly, cytosolic Mtb induces
+host cell death programs (apoptosis and necrosis) to enhance its dissemination.
+anti-bacterial autophagy (Thurston et al., 2012; Figure 1).
+Additionally, Ubiquitin ligases Parkin, Ubiquilin1, and Smurf1
+recognize intracellular Mtb and enhance its clearance through an
+ubiquitin-mediated autophagy pathway (Manzanillo et al., 2013;
+Sakowski et al., 2015; Figure 1).
+To survive in this harsh environment, Mtb developed a wide
+range of strategies to counteract macrophages defenses. Mtb
+indeed triggers rapid interferences in phagosome functions by
+inhibiting the phagolysosome biogenesis. Unless the macrophage
+is activated by inﬂammatory cytokines, the mycobacterial
+vacuole fails to mature along the normal endocytic pathway,
+and retains features typical of an immature endosome. Just
+after macrophage uptake, mycobacterial phagosome transitory
+recruits early endosomal markers Rab5 and remains accessible to
+the marker of recycling endosome Rab11 (Via et al., 1997; Tailleux
+et al., 2003; Vergne et al., 2004). In addition, Coronin1, also called
+TACO, is reported to be recruited and retained at the phagosomal
+surface where it activates calcium–calcineurin signaling to
+block the fusion of lysosomes with mycobacterial phagosomes
+(Jayachandran et al., 2007; Figure 1). Consistent with these
+immature characteristics, this organelle lacks the late endosomal
+and lysosomal markers Rab7 and CD63, as well as mature
+and active forms of various lysosomal hydrolases, including
+cathepsin D (Clemens and Horwitz, 1995; Via et al., 1997;
+Ullrich et al., 1999). Both bacterial ManLAM and the secreted
+phosphatase SapM have been shown to inhibit the activity of
+membrane traﬃcking regulatory lipid phosphatidylinositol 3-
+phosphate (PI3P), impairing the phagosomal acquisition of the
+lysosomal cargo and the delivery of hydrolytic enzyme from the
+Golgi network (Fratti et al., 2001, 2003; Vergne et al., 2005;
+Figure 1).
+Blockade of phagosomal acidiﬁcation is also a key feature
+for the intracellular survival of pathogens. Consistently, Mtb has
+developed at least three diﬀerent strategies aiming to inhibit H+
+V-ATPase complex assembly and its subsequent fusion with the
+phagosomal membrane in order to stabilize the phagosomal pH
+between 6.2 and 6.5 (Sturgill-Koszycki et al., 1994). Indeed, the
+phosphatase PtpA secreted by Mtb inhibits the assembly of H+
+V-ATPase machinery by direct interaction with the subunits H
+of this complex (Wong et al., 2011). Additionally, interaction
+of TDM with C-type lectin receptor Mincle has been shown to
+delay phagosomal maturation and acidiﬁcation (Axelrod et al.,
+Frontiers in Microbiology | www.frontiersin.org
+4
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+2008; Patin et al., 2017). As parallel mechanism, we recently
+reported that Mtb depletes H+ V-ATPase from its phagosome by
+co-opting the function of a host immune regulator, i.e., cytokine-
+inducible SH2 containing protein (CISH), which selectively
+targets the H+ V-ATPase subunit A for ubiquitination and
+degradation by the proteasome (Queval et al., 2017; Figure 1).
+The control of the pH is decisive not only for the survival of
+Mtb but also for the further processing of the mycobacterial
+phagosome. Indeed, early blockade of the acidiﬁcation process is
+a pre-requisite for the ESX-1 dependent phagosomal rupture and
+the access of Mtb to the cytosol of the macrophage (Simeone et al.,
+2015).
+Strategy 2: Getting Access to the Cytosol
+The intracellular localization of Mtb inside host cells has been
+studied since the 1970s. The seminal work of Armstrong and
+Hart (1971) showed in mouse peritoneal macrophages that were
+infected with viable or non-viable Mtb and BCG strains that
+mycobacteria can be observed by electron microscopy (EM)
+inside phagosomes that have blocked the phagosome–lysosome
+fusion (Armstrong and Hart, 1971). In following years, further
+EM studies also observed Mtb outside the phagosome under
+certain conditions (Leake et al., 1984; Myrvik et al., 1984;
+McDonough et al., 1993), whereas others could not observe
+mycobacteria in the cytosol by EM (Xu et al., 1994). Some of
+these disparities were thought to have been caused by diﬀerences
+in the EM conditions and protocols used. More recently,
+using sophisticated cryo-immunogold EM, van der Wel et al.
+(2007) have challenged the dogma of the exclusive intracellular
+localization of Mtb and have described the existence of cytosolic
+Mtb in THP-1 human macrophage-like cells at 4 days post-
+infection whereas the BCG strain did not show such a distribution
+(van der Wel et al., 2007; Houben et al., 2012). This result
+has been correlated with the function of the ESX/T7S system
+in Mtb, which is absent from BCG due to the ESX-1 deletion.
+However, given the situation that the suggested paradigm shift
+was entirely based on ultrastructural observations generated by
+electron microscopy, the presence of Mtb in the cytosol has
+remained controversial for some time. The development of a
+Fluorescent Resonance Energy Transfer (FRET) for detection
+of mycobacteria that have ruptured the phagosome and have
+established cytosolic contact has been an important advance to
+study this delicate and fascinating question (Simeone et al., 2012,
+2015). For that purpose, host cells are loaded with a chemical
+probe that is sensitive to FRET changes based on β-lactamase
+activity present on the surface of bacteria. The use of this
+FRET-based technology combined with automated ﬂuorescent
+microscopy (Simeone et al., 2012) and multicolor quantitative
+cytoﬂuorometry allowed to explore the role of ESX-1 in the
+induction of phagosomal rupture and more recently to show that
+Mtb induces phagosomal rupture in vivo (Simeone et al., 2015;
+Figure 1).
+Based on the results from diﬀerent groups using independent
+techniques, it thus became clear that the ESX-1/T7S system
+plays a primordial role for establishing cytosolic access of
+selected mycobacteria in host cells (van der Wel et al., 2007;
+Houben et al., 2012; Simeone et al., 2012, 2015). However,
+very recently, in independent studies, additional mycobacterial
+factors have been identiﬁed that favor the access of Mtb to
+the cytosol. Indeed, it was found that cytosolic access of
+Mtb only occurs when the production and the export of the
+outer membrane lipids (DIM/PDIM) are intact (Augenstreich
+et al., 2017). DIM/PDIM are key virulent lipids and play
+important roles in host-pathogen interaction. Their presence
+favors intracellular bacterial replication through arrest of
+phagosomal acidiﬁcation by excluding the vacuolar proton-
+ATPase from the phagosomal membrane (Astarie-Dequeker
+et al., 2009) and they are also involved in the death of
+macrophages (Passemar et al., 2014). The use of monoclonal
+antibodies against Galectin-3 and ubiquitinated proteins for
+identiﬁcation of damaged phagosomal-membranes (Wong and
+Jacobs, 2011), in parallel to a FRET-based cytoﬂuorometric
+approach for detection of phagosomal rupture, demonstrated the
+implication of DIM/PDIM in phagosomal rupture (Figure 1).
+This study showed that both the ESX-1 system and a functional
+DIM/PDIM production were required to cause phagosomal
+damage and rupture, which ultimately leads to host cell death
+(Augenstreich et al., 2017). The implication of DIM/PDIM
+in this phenomenon has independently been conﬁrmed by a
+study that investigated the DNA interaction and the regulon
+of a transcriptional repressor (Rv3167c), which was found to
+control the DIM/PDIM operon and to impact phagosomal
+escape (Quigley et al., 2017). Additional conﬁrmation came
+from a third study that carried out a multiparametric analysis,
+combining pathogen and host phenotypes, and found similar
+proﬁles for ESX-1 and DIM/PDIM loss-of-function mutants
+(Barczak et al., 2017). Phospholipases have been described to
+play a role in the escape of the bacteria from phagosome to
+cytosol by acting together with pore-forming proteins such as
+listeriolysin from Listeria monocytogenes (Cossart, 2011). The
+Mtb genome presents four phospholipases PlcA-D, whereby
+in the reference strain Mtb H37Rv PlcD has already been
+naturally inactivated by an IS6110-mediated deletion (Cole
+et al., 1998). The use of FRET-based cytoﬂuorometry, however,
+showed that Plcs of Mtb do not seem to play a role in the
+phagosomal rupture as triple/quadruple Plc deletion mutants
+continued to generate positive signals in the phagosomal
+rupture assay, similar to wild-type strains (Le Chevalier et al.,
+2015).
+Few studies report data on the implication of host factors
+involved in the induction of phagosomal rupture. A ﬁrst result
+was obtained by the use of the FRET-cytoﬂuorometry approach
+for the study of Mtb infection in macrophages carrying a
+non-functional nramp gene, encoding the Natural Resistance-
+Associated Macrophage Protein (Nramp-1), a phagosomal
+bivalent
+cation
+transporter
+implicated
+in
+phagosomal
+acidiﬁcation and pH regulation (Simeone et al., 2015). This
+approach showed that initial blockage of the acidiﬁcation of
+the phagosome is necessary to allow bacteria to survive and
+to induce phagosomal rupture (Simeone et al., 2015). Another
+host element that has been suggested in this context is the
+cytosolic phospholipase A2 (cPLA2). This enzyme plays a critical
+role in both phagosomal traﬃcking and export of cargo from
+the various endocytic comportments and permeabilizes the
+Frontiers in Microbiology | www.frontiersin.org
+5
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+endosomal membrane in Mtb-infected macrophages (Lee et al.,
+2011). Treatment of Mtb-infected macrophages with an inhibitor
+of this enzyme induces a marked reduction of cytosolic bacteria
+as observed by EM (Jamwal et al., 2016).
+Cytosolic contact of Mtb thus seems to be fundamental in
+mycobacterial host-pathogen interaction, inﬂuencing both the
+fate of the host cell and the bacteria. Indeed, the recognition
+of mycobacteria-associated patterns by the cytosolic receptors of
+the innate immunity determines innate and adaptive immune
+responses (Gröschel et al., 2016). Following steps exist: (i) DNA
+is sensed by cGAS, which synthesizes the second messenger
+cGAMP from ATP and GTP. cGAMP activates the Endoplasmic
+Reticulum (ER) associates Stimulator of IFN Genes (STING)
+and downstream TBK-1-IRF-3-IFN-β signaling axis (Figure 1).
+This eﬀect leads to the expression of type I IFNs, such as
+IFN-α/β, which are thought to be disadvantageous to the host
+during Mtb infection, (ii) the cytosolic Mtb DNA may be
+sensed by AIM-2, which contributes partially to the activation
+of the NRLP3 inﬂammasome axis and release of mature IL-
+1β and IL-18 (Collins et al., 2015; Wassermann et al., 2015;
+Watson et al., 2015; Kupz et al., 2016), and (iii) the ESX-1-
+mediated cytosolic translocation of mycobacterial DNA results
+in the activation of TBK-1 which initiates the recruitment
+of LC3-II involved in autophagic activity (Romagnoli et al.,
+2012; Watson et al., 2012; Figure 1). The last two points,
+in contrast to the ﬁrst one, might be considered as more
+beneﬁcial for the host. Thus, during infection, diﬀerent and
+sometimes opposite responses govern the balance between the
+beneﬁt for the mycobacteria and for the host. Nonetheless,
+during the infectious process mycobacteria are not necessarily
+constrained within the host cells, and may escape from the
+microbicidal environment of macrophages by disseminating
+inside the organism. It has been notably reported in the Zebra
+ﬁsh model that Mycobacterium marinum membrane Phenolic
+Glycolipids (PGL) trigger a STING-dependent secretion of
+monocyte chemoattractant protein 1 (MCP1; also called CCL2)
+by infected-resident macrophages, resulting in the recruitment of
+circulating monocytes and a subsequent transfer of the bacteria
+from tissue resident- to circulating macrophages (Cambier et al.,
+2017).
+Finally, in the context of vaccination, the induction of ESX-1-
+mediated cytosolic responses seems to be beneﬁcial for increased
+protective eﬃcacy provided by recombinant BCG strains over
+parental BCG strains (Kupz et al., 2016; Groschel et al., 2017).
+Strategy 3: The Control of Host Cell
+Death
+The control of host cell death allows Mtb to escape host defenses
+and to take the power on the pathogenesis control. For decades,
+host cell death upon Mtb-infection has been controversial and
+apoptosis cell death was considered as the only programmed cell
+death. Two main types of cell death are known for elimination
+of infected cells: (i) apoptosis or programmed cell death and (ii)
+necrosis.
+(i) From a morphological point of view, apoptosis is deﬁned
+by plasma membrane bleeding, cell body shrinkage,
+nuclear condensation and fragmentation, and formation
+of apoptotic bodies, which are membrane-bound cell
+fragments rapidly phagocytosed by neighboring cells
+and resident phagocytes (Lamkanﬁand Dixit, 2010).
+From a biochemical point of view, apoptosis induces a
+decrease in mitochondrial inner transmembrane potential,
+activation of selective proteases, cleavage of chromosomal
+DNA, and various cellular proteins and translocation of
+phosphatidylserine from the inner to the outer plasma
+membrane (Behar et al., 2011). Apoptosis does occur
+via TNF-α activation and caspase 3 and 8 activation.
+Suppression of inﬂammation allows to limit tissue damage.
+Apoptosis of infected cells is considered as a beneﬁt for
+the host. Indeed, it allows elimination of a favorable
+environment for replication of the pathogen, and provides
+an important source of bacterial antigens that can
+stimulate Mtb-speciﬁc T-cell immunity (Behar et al., 2011).
+Apoptosis has been directly linked to an increase CD8+
+T-cell response via cross-presentation and enhances class II
+MHC-restricted antigen presentation (Behar et al., 2011).
+Some Mtb genes have been reported to play a role
+in the inhibition or induction of host cell death, as
+for example sodA, encoding superoxide dismutase A, or
+nuoG, encoding the NADH dehydrogenase 1 subunit G
+(Velmurugan et al., 2007; Gengenbacher et al., 2016). An
+Mtb gene well known for inducing host cell death is
+esxA, encoding EsxA, which has been described as a pro-
+apoptotic (Aguilo et al., 2013). The exact role of EsxA in
+this process remains unclear, but most probably it is the
+contribution to the access of Mtb to the host cytosol, which
+plays a main role. However, while the biological role of
+the ESX-1 system in the process remains fully valid, the
+function of recombinant EsxA as a putative membranolytic
+molecule was recently questioned, as the lytic activity of
+EsxA preparations expressed and puriﬁed from Escherichia
+coli lysates on red blood cells continued even after digestion
+with proteinase K, suggesting that some of the previously
+described pore-forming activity might be simply caused by
+a selected detergent used during the protein puriﬁcation
+process (Conrad et al., 2017). Further studies are needed
+to clarify the role of EsxA in the process.
+(ii) In contrast to apoptosis, necrosis is characterized by loss
+of plasma membrane integrity, cytoplasmic organelles
+swelling such as mitochondria and cell nuclei, release
+of cytoplasmic and nuclear contents to the extracellular
+space, hydrolysis of chromatin and DNA and is caspase-
+independent cell death (Lamkanﬁand Dixit, 2010). It was
+previously thought that virulent Mtb inhibits apoptosis and
+triggers necrosis to evade innate immunity and thus to
+delay the initiation of adaptive immunity. On the contrary,
+attenuated Mtb induces macrophage apoptosis, which
+reduces bacterial viability (Behar et al., 2010). However,
+from diﬀerent recent studies, it can be hypothesized that
+apoptosis induced by virulent Mtb favors dissemination of
+bacilli (Aguilo et al., 2013; Augenstreich et al., 2017), while
+necrosis tends to enhance bacterial replication (Dallenga
+et al., 2017; Lerner et al., 2017).
+Frontiers in Microbiology | www.frontiersin.org
+6
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+Colonization of macrophages by Mtb is a highly disputed
+process that depends on the ability of the pathogen to escape
+from macrophage killing and the capacity of the macrophages to
+control the bacterial proliferation.
+PERSPECTIVES
+It is clear that the interaction of Mtb with the macrophage
+has major impact on the outcome of infection, whereby both
+mycobacterial and host factors play important roles. The
+accumulated vast knowledge in recent years on this process
+might also turn out as important for developing potential new
+strategies in the ﬁght against TB, concerning vaccines and host-
+directed therapies. For example, BCG complemented with the
+functional ESX-1 system of Mtb showed better eﬃcacy to protect
+against disseminated TB in mice and guinea pigs (Pym et al.,
+2003; Kupz et al., 2016). However, this recombinant strain named
+BCG::RD1 has also been shown to be more virulent than the wild-
+type BCG strain (Pym et al., 2002). As one possibility to reduce
+this enhanced virulence, introduction of selected mutations in
+the esxA gene of the cloned ESX-1 locus have shown some
+eﬀect (Bottai et al., 2015). Alternatively, the use of an ESX-1
+secretion system taken from a less virulent mycobacterium than
+Mtb for the complementation of BCG seems also promising.
+Indeed, recombinant BCG expressing the ESX-1 system from
+Mycobacterium marinum, BCG::ESX-1Mmar, has been recently
+shown to be low virulent and more protective than parental BCG
+strains in diﬀerent murine models of infection (Groschel et al.,
+2017). This strain enhances NLRP3 inﬂammasome activation and
+induces type I IFN production and stronger CD8+ and CD4+
+T-cell responses (Groschel et al., 2017).
+Using attenuated live Mtb strains as vaccines is another
+alternative approach, presenting the advantage that these
+strains naturally carry genetic regions encoding for important
+immunodominant antigens that might be absent from BCG in
+combination with suﬃcient safety, provided by the introduction
+of deletions in virulence genes. The live-attenuated MTBVAC is a
+good example (Aguilo et al., 2017). MTBVAC attenuation is based
+on two independent stable genetic deletions, without antibiotic
+resistance markers, introduced into phoP and fadD26, aﬀecting
+the production and secretion of selected lipidic and proteic
+virulence factors of Mtb. MTBVAC presents promising features
+in preclinical animal models and is presently being evaluated in
+a phase I clinical trial in newborns in South Africa (Marinova
+et al., 2017). Other attenuated Mtb strain, presently in preclinical
+development with promising results in murine infection models,
+is the Mtb1ppe25-pe19 strain, in which selected PE and PPE
+proteins of the ESX-5 secretion system have been deleted, but
+which retains an intact ESX-1 secretion system (Bottai et al., 2012;
+Sayes et al., 2012, 2016).
+Concerning drug treatment of TB, most of the drugs used
+today date from the 1950s to 1960s, with a few exceptions, such
+as bedaquiline, a recently discovered ATP synthase inhibitor
+(Andries et al., 2005) that is currently used successfully
+in drug regimens against MDR-TB (Diacon et al., 2009).
+However, additional identiﬁcation of new active anti-TB drugs
+is urgently needed. In this perspective, it should be mentioned
+that remarkable progress has been made in developing new
+screening approaches that can simultaneously evaluate the anti-
+bacterial potency and the non-cytotoxic properties of small
+molecule inhibitors in the intracellular environment of Mtb-
+infected macrophages (Christophe et al., 2009; Pethe et al., 2013;
+VanderVen et al., 2015). Moreover, targeting of mycobacterial
+virulence factors might also be a possibility to ﬁnd alternative
+treatment approaches (Chen et al., 2010; Bottai et al., 2014). As
+one example, screening of a compound library recently allowed
+molecules to be identiﬁed that target the ESX-1 secretion system
+of Mtb (Rybniker et al., 2014) and/or the global two-component
+regulator PhoP/R which among many other virulence factors also
+regulates ESX-1-mediated secretion (Johnson et al., 2015).
+Host-directed therapy (HDT) to treat TB is a relatively new
+and promising concept that starts to arouse a great interest from
+the scientiﬁc community. Instead of targeting Mtb compounds
+directly, HDT targets the host response, such as the modulation
+of host inﬂammatory pathways to reduce inﬂammation and lungs
+tissue damages, augmenting cellular anti-microbial mechanisms.
+In the case of TB-HIV co-infection, HDT may reduce the risk
+of interaction with antiretroviral drugs. In the case of MDR or
+XDR-TB, HDT could be added to anti-TB treatment to increase
+the capacity of the host system to eliminate mycobacteria or
+to limit tissue damage due to the infection (Wallis and Hafner,
+2015; Zumla et al., 2015). For instance, in association with
+anti-TB drugs, statins, a family of inhibitors of HMG-CoA
+reductase, originally used to lower cholesterol levels in patients,
+drastically enhance the eﬃcacy of ﬁrst-line TB treatments in
+macrophages and in vivo models (Lobato et al., 2014; Parihar
+et al., 2014; Skerry et al., 2014). Moreover, Vitamin D treatment
+has been suggested to promote the expression anti-microbial
+peptide Cathelicidin by macrophages, and thus lowering of the
+intracellular survival of Mtb (Liu et al., 2006; Wheelwright et al.,
+2014).
+Some HDTs are in clinical human trials or preclinical
+animal studies, such as anti-inﬂammatory therapies, modulation
+of inﬂammation by phosphodiesterase inhibitors, eicosanoid
+modulation, non-steroidal anti-inﬂammatory drugs, high-dose
+vitamin D application, alteration of lipid metabolism, as well
+as new HDT that targets autophagy (Tobin, 2015). Autophagy
+appears to be a promising pathway to target for the development
+of drugs. Interestingly, anti-mycobacterial activities of both
+statins and Cathelicidin have been correlated with their ability to
+enhance the autophagy pathway (Yuk et al., 2009; Hoyer-Hansen
+et al., 2010; Parihar et al., 2014). As such, HDT opens new avenues
+for individualized TB therapies.
+CONCLUSION
+We have discussed a selection of amazing strategies of Mtb
+and host cells in their battle about survival and death in host-
+pathogen interaction that remains a highly interesting research
+domain. Driven by an advancing technical progress, many new
+insights were obtained in recent years and have often led to
+changes in long-lasting hypotheses and theories, a ﬁnding which
+Frontiers in Microbiology | www.frontiersin.org
+7
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+gives hope that in the upcoming years more progress will further
+contribute to the knowledge how to better ﬁght Mtb and reduce
+the burden of TB in the world.
+AUTHOR CONTRIBUTIONS
+All authors listed have made a substantial, direct and intellectual
+contribution to the work, and approved it for publication.
+ACKNOWLEDGMENTS
+We thank our colleagues who were involved in the various
+research projects that are reviewed in this article. We are grateful
+for support of our TB research by the European Union (Grant
+643381 – TBVAC2020), the Agence National de Recherche
+(Grants ANR-14-JAMR-001-02, ANR-10-LABX-62-IBEID, and
+ANR-16-CE15-0003), and the Fondation pour la Recherche
+Médicale (DEQ20130326471).
+REFERENCES
+Abdallah, A. M., Gey Van Pittius, N. C., Champion, P. A., Cox, J., Luirink, J.,
+Vandenbroucke-Grauls, C. M., et al. (2007). Type VII secretion system of
+mycobacteria show the way. Nat. Rev. Microbiol. 5, 883–891. doi: 10.1038/
+nrmicro1773
+Aguilo, J., Alonso, H., Uranga, S., Marinova, D., Arbues, A., De Martino, A.,
+et al. (2013). ESX-1-induced apoptosis is involved in cell-to-cell spread of
+Mycobacterium tuberculosis. Cell Microbiol 15, 1994–2005. doi: 10.1111/cmi.
+12169
+Aguilo, N., Gonzalo-Asensio, J., Alvarez-Arguedas, S., Marinova, D., Gomez, A. B.,
+Uranga, S., et al. (2017). Reactogenicity to major tuberculosis antigens absent in
+BCG is linked to improved protection against Mycobacterium tuberculosis. Nat.
+Commun. 8:16085. doi: 10.1038/ncomms16085
+Andries, K., Verhasselt, P., Guillemont, J., Gohlmann, H. W., Neefs, J. M.,
+Winkler, H., et al. (2005). A diarylquinoline drug active on the ATP synthase
+of Mycobacterium tuberculosis. Science 307, 223–227. doi: 10.1126/science.
+1106753
+Armstrong, J. A., and Hart, P. D. (1971). Response of cultured macrophages
+to Mycobacterium tuberculosis, with observations on fusion of lysosomes
+with
+phagosomes.
+J.
+Exp.
+Med.
+134,
+713–740.
+doi:
+10.1084/jem.
+134.3.713
+Astarie-Dequeker, C., Le Guyader, L., Malaga, W., Seaphanh, F. K., Chalut, C.,
+Lopez, A., et al. (2009). Phthiocerol dimycocerosates of M. tuberculosis
+participate in macrophage invasion by inducing changes in the organization of
+plasma membrane lipids. PLOS Pathog. 5:e1000289. doi: 10.1371/journal.ppat.
+1000289
+Astarie-Dequeker, C., N’diaye, E. N., Le Cabec, V., Rittig, M. G., Prandi, J.,
+and Maridonneau-Parini, I. (1999). The mannose receptor mediates uptake
+of pathogenic and nonpathogenic mycobacteria and bypasses bactericidal
+responses in human macrophages. Infect. Immun. 67, 469–477.
+Augenstreich, J., Arbues, A., Simeone, R., Haanappel, E., Wegener, A., Sayes, F.,
+et al. (2017). ESX-1 and phthiocerol dimycocerosates of Mycobacterium
+tuberculosis act in concert to cause phagosomal rupture and host cell apoptosis.
+Cell Microbiol. 19:e12726. doi: 10.1111/cmi.12726
+Axelrod, S., Oschkinat, H., Enders, J., Schlegel, B., Brinkmann, V., Kaufmann,
+S. H., et al. (2008). Delay of phagosome maturation by a mycobacterial lipid
+is reversed by nitric oxide. Cell Microbiol. 10, 1530–1545. doi: 10.1111/j.1462-
+5822.2008.01147.x
+Baﬁca, A., Scanga, C. A., Feng, C. G., Leifer, C., Cheever, A., and Sher, A.
+(2005). TLR9 regulates Th1 responses and cooperates with TLR2 in mediating
+optimal resistance to Mycobacterium tuberculosis. J. Exp. Med. 202, 1715–1724.
+doi: 10.1084/jem.20051782
+Barczak, A. K., Avraham, R., Singh, S., Luo, S. S., Zhang, W. R., Bray, M. A., et al.
+(2017). Systematic, multiparametric analysis of Mycobacterium tuberculosis
+intracellular infection oﬀers insight into coordinated virulence. PLOS Pathog.
+13:e1006363. doi: 10.1371/journal.ppat.1006363
+Barry, C. E. III, Boshoﬀ, H. I., Dartois, V., Dick, T., Ehrt, S., Flynn, J., et al. (2009).
+The spectrum of latent tuberculosis: rethinking the biology and intervention
+strategies. Nat. Rev. Microbiol. 7, 845–855. doi: 10.1038/nrmicro2236
+Beckham, K. S., Ciccarelli, L., Bunduc, C. M., Mertens, H. D., Ummels, R.,
+Lugmayr, W., et al. (2017). Structure of the mycobacterial ESX-5 type VII
+secretion system membrane complex by single-particle analysis. Nat. Microbiol.
+2:17047. doi: 10.1038/nmicrobiol.2017.1047
+Behar, S. M., Divangahi, M., and Remold, H. G. (2010). Evasion of innate immunity
+by Mycobacterium tuberculosis: is death an exit strategy? Nat. Rev. Microbiol. 8,
+668–674. doi: 10.1038/nrmicro2387
+Behar, S. M., Martin, C. J., Booty, M. G., Nishimura, T., Zhao, X., Gan, H. X.,
+et al. (2011). Apoptosis is an innate defense function of macrophages against
+Mycobacterium tuberculosis. Mucosal Immunol. 4, 279–287. doi: 10.1038/mi.
+2011.3
+Boritsch, E. C., Frigui, W., Cascioferro, A., Malaga, W., Etienne, G., Laval, F., et al.
+(2016). pks5-recombination-mediated surface remodelling in Mycobacterium
+tuberculosis emergence. Nat. Microbiol. 1:15019. doi: 10.1038/nmicrobiol.
+2015.19
+BoseDasgupta, S., and Pieters, J. (2014). Striking the right balance determines TB
+or not TB. Front. Immunol. 5:455. doi: 10.3389/ﬁmmu.2014.00455
+Bottai, D., Di Luca, M., Majlessi, L., Frigui, W., Simeone, R., Sayes, F., et al. (2012).
+Disruption of the ESX-5 system of Mycobacterium tuberculosis causes loss of
+PPE protein secretion, reduction of cell wall integrity and strong attenuation.
+Mol. Microbiol. 83, 1195–1209. doi: 10.1111/j.1365-2958.2012.08001.x
+Bottai, D., Frigui, W., Clark, S., Rayner, E., Zelmer, A., Andreu, N., et al. (2015).
+Increased protective eﬃcacy of recombinant BCG strains expressing virulence-
+neutral proteins of the ESX-1 secretion system. Vaccine 33, 2710–2718.
+doi: 10.1016/j.vaccine.2015.03.083
+Bottai, D., Seraﬁni, A., Cascioferro, A., Brosch, R., and Manganelli, R.
+(2014). Targeting type VII/ESX secretion systems for development of novel
+antimycobacterial drugs. Curr. Pharm. Des 20, 4346–4356. doi: 10.2174/
+1381612819666131118170717
+Bowdish, D. M., Sakamoto, K., Kim, M. J., Kroos, M., Mukhopadhyay, S., Leifer,
+C. A., et al. (2009). MARCO, TLR2, and CD14 are required for macrophage
+cytokine responses to mycobacterial trehalose dimycolate and Mycobacterium
+tuberculosis. PLOS Pathog. 5:e1000474. doi: 10.1371/journal.ppat.1000474
+Brennan, P. J., and Nikaido, H. (1995). The envelope of mycobacteria. Annu. Rev.
+Biochem. 64, 29–63. doi: 10.1146/annurev.bi.64.070195.000333
+Cambier, C. J., Falkow, S., and Ramakrishnan, L. (2014). Host evasion and
+exploitation schemes of Mycobacterium tuberculosis. Cell 159, 1497–1509.
+doi: 10.1016/j.cell.2014.11.024
+Cambier, C. J., O’leary, S. M., O’sullivan, M. P., Keane, J., and Ramakrishnan, L.
+(2017). Phenolic glycolipid facilitates mycobacterial escape from microbicidal
+tissue-resident macrophages. Immunity 47, 552.e–565.e. doi: 10.1016/j.immuni.
+2017.08.003
+Chalut, C. (2016). MmpL transporter-mediated export of cell-wall associated lipids
+and siderophores in mycobacteria. Tuberculosis 100, 32–45. doi: 10.1016/j.tube.
+2016.1006.1004
+Chen, J. M., Pojer, F., Blasco, B., and Cole, S. T. (2010). Towards anti-virulence
+drugs targeting ESX-1 mediated pathogenesis of Mycobacterium tuberculosis.
+Drug Discov. Today 7, e25–e31. doi: 10.1016/j.ddmec.2010.09.002
+Christophe, T., Jackson, M., Jeon, H. K., Fenistein, D., Contreras-Dominguez, M.,
+Kim, J., et al. (2009). High content screening identiﬁes decaprenyl-
+phosphoribose 2’ epimerase as a target for intracellular antimycobacterial
+inhibitors. PLOS Pathog. 5:e1000645. doi: 10.1371/journal.ppat.1000645
+Clemens, D. L., and Horwitz, M. A. (1995). Characterization of the Mycobacterium
+tuberculosis phagosome and evidence that phagosomal maturation is inhibited.
+J. Exp. Med. 181, 257–270. doi: 10.1084/jem.181.1.257
+Cole, S. T., Brosch, R., Parkhill, J., Garnier, T., Churcher, C., Harris, D., et al. (1998).
+Deciphering the biology of Mycobacterium tuberculosis from the complete
+genome sequence. Nature 393, 537–544. doi: 10.1038/31159
+Frontiers in Microbiology | www.frontiersin.org
+8
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+Collins, A. C., Cai, H., Li, T., Franco, L. H., Li, X. D., Nair, V. R., et al. (2015). Cyclic
+GMP-AMP synthase is an innate immune DNA sensor for Mycobacterium
+tuberculosis. Cell Host Microbe 17, 820–828. doi: 10.1016/j.chom.2015.05.005
+Conrad, W. H., Osman, M. M., Shanahan, J. K., Chu, F., Takaki, K. K., Cameron, J.,
+et al. (2017). Mycobacterial ESX-1 secretion system mediates host cell lysis
+through bacterium contact-dependent gross membrane disruptions. Proc. Natl.
+Acad. Sci. U.S.A. 114, 1371–1376. doi: 10.1073/pnas.1620133114
+Cossart, P. (2011). Illuminating the landscape of host-pathogen interactions with
+the bacterium Listeria monocytogenes. Proc. Natl. Acad. Sci. U.S.A. 108,
+19484–19491. doi: 10.1073/pnas.1112371108
+Daﬀe, M., Crick, D. C., and Jackson, M. (2014). Genetics of capsular
+polysaccharides and cell envelope (Glyco)lipids. Microbiol. Spectr. 2, 14.
+doi: 10.1128/microbiolspec.MGM2-0021-2013
+Dallenga, T., Repnik, U., Corleis, B., Eich, J., Reimer, R., Griﬃths, G. W., et al.
+(2017). M. tuberculosis-induced necrosis of infected neutrophils promotes
+bacterial growth following phagocytosis by macrophages. Cell Host Microbe 22,
+519–530.e3. doi: 10.1016/j.chom.2017.09.003
+Davis, J. M., and Ramakrishnan, L. (2009). The role of the granuloma in expansion
+and dissemination of early tuberculous infection. Cell 136, 37–49. doi: 10.1016/
+j.cell.2008.11.014
+Diacon, A. H., Pym, A., Grobusch, M., Patientia, R., Rustomjee, R., Page-Shipp, L.,
+et al. (2009). The diarylquinoline TMC207 for multidrug-resistant tuberculosis.
+N. Engl. J. Med. 360, 2397–2405. doi: 10.1056/NEJMoa0808427
+Dinadayala, P., Lemassu, A., Granovski, P., Cerantola, S., Winter, N., and Daﬀe, M.
+(2004). Revisiting the structure of the anti-neoplastic glucans of Mycobacterium
+bovis Bacille Calmette-Guerin. Structural analysis of the extracellular and
+boiling water extract-derived glucans of the vaccine substrains. J. Biol. Chem.
+279, 12369–12378. doi: 10.1074/jbc.M308908200
+Ehrt, S., and Schnappinger, D. (2009). Mycobacterial survival strategies in the
+phagosome: defence against host stresses. Cell Microbiol. 11, 1170–1178.
+doi: 10.1111/j.1462-5822.2009.01335.x
+Fratti, R. A., Backer, J. M., Gruenberg, J., Corvera, S., and Deretic, V. (2001). Role
+of phosphatidylinositol 3-kinase and Rab5 eﬀectors in phagosomal biogenesis
+and mycobacterial phagosome maturation arrest. J. Cell Biol. 154, 631–644.
+doi: 10.1083/jcb.200106049
+Fratti, R. A., Chua, J., Vergne, I., and Deretic, V. (2003). Mycobacterium
+tuberculosis glycosylated phosphatidylinositol causes phagosome maturation
+arrest. Proc. Natl. Acad. Sci. U.S.A. 100, 5437–5442. doi: 10.1073/pnas.
+0737613100
+Gengenbacher, M., Nieuwenhuizen, N., Vogelzang, A., Liu, H., Kaiser, P.,
+Schuerer, S., et al. (2016). Deletion of nuoG from the vaccine candidate
+Mycobacterium
+bovis BCG DeltaureC::hly improves protection against
+tuberculosis. mBio 7:e00679-16. doi: 10.1128/mBio.00679-16
+Groschel, M. I., Sayes, F., Shin, S. J., Frigui, W., Pawlik, A., Orgeur, M., et al. (2017).
+Recombinant BCG expressing ESX-1 of Mycobacterium marinum combines
+low virulence with cytosolic immune signaling and improved TB protection.
+Cell Rep. 18, 2752–2765. doi: 10.1016/j.celrep.2017.02.057
+Gröschel, M. I., Sayes, F., Simeone, R., Majlessi, L., and Brosch, R. (2016). ESX
+secretion systems: mycobacterial evolution to counter host immunity. Nat. Rev.
+Microbiol. 14, 677–691. doi: 10.1038/nrmicro.2016.131
+Gruenberg, J., and van der Goot, F. G. (2006). Mechanisms of pathogen entry
+through the endosomal compartments. Nat. Rev. Mol. Cell Biol. 7, 495–504.
+doi: 10.1038/nrm1959
+Gutierrez, M. G. (2013). Functional role(s) of phagosomal Rab GTPases. Small
+GTPases 4, 148–158. doi: 10.4161/sgtp.25604
+Houben, D., Demangel, C., Van Ingen, J., Perez, J., Baldeon, L., Abdallah, A. M.,
+et al. (2012). ESX-1-mediated translocation to the cytosol controls virulence
+of mycobacteria. Cell Microbiol. 14, 1287–1298. doi: 10.1111/j.1462-5822.2012.
+01799.x
+Hoyer-Hansen, M., Nordbrandt, S. P., and Jaattela, M. (2010). Autophagy as a basis
+for the health-promoting eﬀects of vitamin D. Trends Mol. Med. 16, 295–302.
+doi: 10.1016/j.molmed.2010.04.005
+Ishikawa, E., Ishikawa, T., Morita, Y. S., Toyonaga, K., Yamada, H., Takeuchi, O.,
+et al. (2009). Direct recognition of the mycobacterial glycolipid, trehalose
+dimycolate, by C-type lectin Mincle. J. Exp. Med. 206, 2879–2888. doi: 10.1084/
+jem.20091750
+Jamwal, S. V., Mehrotra, P., Singh, A., Siddiqui, Z., Basu, A., and Rao, K. V.
+(2016). Mycobacterial escape from macrophage phagosomes to the cytoplasm
+represents an alternate adaptation mechanism. Sci. Rep. 6:23089. doi: 10.1038/
+srep23089
+Jayachandran, R., Sundaramurthy, V., Combaluzier, B., Mueller, P., Korf, H.,
+Huygen, K., et al. (2007). Survival of mycobacteria in macrophages is mediated
+by coronin 1-dependent activation of calcineurin. Cell 130, 37–50. doi: 10.1016/
+j.cell.2007.04.043
+Johnson, B. K., Colvin, C. J., Needle, D. B., Mba Medie, F., Champion, P. A., and
+Abramovitch, R. B. (2015). The carbonic anhydrase inhibitor ethoxzolamide
+inhibits the Mycobacterium tuberculosis PhoPR regulon and Esx-1 secretion
+and attenuates virulence. Antimicrob. Agents Chemother. 59, 4436–4445.
+doi: 10.1128/AAC.00719-15
+Kang, P. B., Azad, A. K., Torrelles, J. B., Kaufman, T. M., Beharka, A., Tibesar, E.,
+et al. (2005). The human macrophage mannose receptor directs Mycobacterium
+tuberculosis lipoarabinomannan-mediated phagosome biogenesis. J. Exp. Med.
+202, 987–999. doi: 10.1084/jem.20051239
+Kasmapour, B., Gronow, A., Bleck, C. K., Hong, W., and Gutierrez, M. G. (2012).
+Size-dependent mechanism of cargo sorting during lysosome-phagosome
+fusion is controlled by Rab34. Proc. Natl. Acad. Sci. U.S.A. 109, 20485–20490.
+doi: 10.1073/pnas.1206811109
+Kupz, A., Zedler, U., Staber, M., Perdomo, C., Dorhoi, A., Brosch, R., et al.
+(2016). ESAT-6-dependent cytosolic pattern recognition drives noncognate
+tuberculosis control in vivo. J. Clin. Invest. 126, 2109–2122. doi: 10.1172/
+JCI84978
+Lamkanﬁ, M., and Dixit, V. M. (2010). Manipulation of host cell death pathways
+during microbial infections. Cell Host Microbe. 8, 44–54. doi: 10.1016/j.chom.
+2010.1006.1007
+Le Chevalier, F., Cascioferro, A., Frigui, W., Pawlik, A., Boritsch, E. C., Bottai, D.,
+et al. (2015). Revisiting the role of phospholipases C in the virulence of
+Mycobacterium tuberculosis. Sci. Rep. 5:16918. doi: 10.1038/srep16918
+Leake, E. S., Myrvik, Q. N., and Wright, M. J. (1984). Phagosomal membranes
+of Mycobacterium bovis BCG-immune alveolar macrophages are resistant to
+disruption by Mycobacterium tuberculosis H37Rv. Infect. Immun. 45, 443–446.
+Lee, J., Repasy, T., Papavinasasundaram, K., Sassetti, C., and Kornfeld, H. (2011).
+Mycobacterium tuberculosis induces an atypical cell death mode to escape from
+infected macrophages. PLOS ONE 6:e18367. doi: 10.1371/journal.pone.0018367
+Lerner, T. R., Borel, S., Greenwood, D. J., Repnik, U., Russell, M. R., Herbst, S.,
+et al. (2017). Mycobacterium tuberculosis replicates within necrotic human
+macrophages. J. Cell Biol. 216, 583–594. doi: 10.1083/jcb.201603040
+Liu, P. T., Stenger, S., Li, H., Wenzel, L., Tan, B. H., Krutzik, S. R., et al. (2006). Toll-
+like receptor triggering of a vitamin D-mediated human antimicrobial response.
+Science 311, 1770–1773. doi: 10.1126/science.1123933
+Lobato, L. S., Rosa, P. S., Ferreira Jda, S., Neumann Ada, S., Da Silva, M. G., Do
+Nascimento, D. C., et al. (2014). Statins increase rifampin mycobactericidal
+eﬀect. Antimicrob. Agents Chemother. 58, 5766–5774. doi: 10.1128/AAC.
+01826-13
+Lugo-Villarino, G., Hudrisier, D., Tanne, A., and Neyrolles, O. (2011). C-type
+lectins with a sweet spot for Mycobacterium tuberculosis. Eur. J. Microbiol.
+Immunol. 1, 25–40. doi: 10.1556/EuJMI.1551.2011.1551.1556
+Majlessi, L., and Brosch, R. (2015). Mycobacterium tuberculosis meets the cytosol:
+the role of cGAS in anti-mycobacterial immunity. Cell Host Microbe. 17,
+733–735. doi: 10.1016/j.chom.2015.05.017
+Manzanillo, P. S., Ayres, J. S., Watson, R. O., Collins, A. C., Souza, G., Rae, C. S.,
+et al. (2013). The ubiquitin ligase parkin mediates resistance to intracellular
+pathogens. Nature 501, 512–516. doi: 10.1038/nature12566
+Manzanillo, P. S., Shiloh, M. U., Portnoy, D. A., and Cox, J. S. (2012).
+Mycobacterium
+tuberculosis
+activates
+the
+DNA-dependent
+cytosolic
+surveillance pathway within macrophages. Cell Host Microbe 11, 469–480.
+doi: 10.1016/j.chom.2012.03.007
+Marinova, D., Gonzalo-Asensio, J., Aguilo, N., and Martin, C. (2017). MTBVAC
+from discovery to clinical trials in tuberculosis-endemic countries. Expert Rev.
+Vaccines 16, 565–576. doi: 10.1080/14760584.2017.1324303
+McDonough, K. A., Kress, Y., and Bloom, B. R. (1993). Pathogenesis of
+tuberculosis: interaction of Mycobacterium tuberculosis with macrophages.
+Infect. Immun. 61, 2763–2773.
+Mishra, A., Akhtar, S., Jagannath, C., and Khan, A. (2017). Pattern recognition
+receptors
+and
+coordinated
+cellular
+pathways
+involved
+in
+tuberculosis
+immunopathogenesis: emerging concepts and perspectives. Mol. Immunol. 87,
+240–248. doi: 10.1016/j.molimm.2017.1005.1001
+Frontiers in Microbiology | www.frontiersin.org
+9
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+Mortaz, E., Adcock, I. M., Tabarsi, P., Masjedi, M. R., Mansouri, D., Velayati, A. A.,
+et al. (2015). Interaction of pattern recognition receptors with Mycobacterium
+tuberculosis. J. Clin. Immunol. 35, 1–10. doi: 10.1007/s10875-014-0103-7
+Myrvik, Q. N., Leake, E. S., and Wright, M. J. (1984). Disruption of phagosomal
+membranes of normal alveolar macrophages by the H37Rv strain of
+Mycobacterium tuberculosis. A correlate of virulence. Am. Rev. Respir. Dis. 129,
+322–328.
+Nigou, J., Zelle-Rieser, C., Gilleron, M., Thurnher, M., and Puzo, G. (2001).
+Mannosylated lipoarabinomannans inhibit IL-12 production by human
+dendritic cells: evidence for a negative signal delivered through the mannose
+receptor. J. Immunol. 166, 7477–7485. doi: 10.4049/jimmunol.166.12.7477
+O’Garra, A., Redford, P. S., Mcnab, F. W., Bloom, C. I., Wilkinson, R. J., and Berry,
+M. P. (2013). The immune response in tuberculosis. Annu. Rev. Immunol. 31,
+475–527. doi: 10.1146/annurev-immunol-032712-095939
+Orme, I. M., Robinson, R. T., and Cooper, A. M. (2015). The balance between
+protective and pathogenic immune responses in the TB-infected lung. Nat.
+Immunol. 16, 57–63. doi: 10.1038/ni.3048
+Parihar, S. P., Guler, R., Khutlang, R., Lang, D. M., Hurdayal, R., Mhlanga, M. M.,
+et al. (2014). Statin therapy reduces the Mycobacterium tuberculosis burden
+in human macrophages and in mice by enhancing autophagy and phagosome
+maturation. J. Infect. Dis. 209, 754–763. doi: 10.1093/infdis/jit550
+Passemar, C., Arbues, A., Malaga, W., Mercier, I., Moreau, F., Lepourry, L.,
+et al. (2014). Multiple deletions in the polyketide synthase gene repertoire of
+Mycobacterium tuberculosis reveal functional overlap of cell envelope lipids in
+host-pathogen interactions. Cell Microbiol. 16, 195–213. doi: 10.1111/cmi.12214
+Patin, E. C., Geﬀken, A. C., Willcocks, S., Leschczyk, C., Haas, A., Nimmerjahn, F.,
+et al. (2017). Trehalose dimycolate interferes with FcgammaR-mediated
+phagosome maturation through Mincle, SHP-1 and FcgammaRIIB signalling.
+PLOS ONE 12:e0174973. doi: 10.1371/journal.pone.0174973
+Paulson, T. (2013). Epidemiology: a mortal foe. Nature 502, S2–S3. doi: 10.1038/
+1502S1032a
+Pethe, K., Bifani, P., Jang, J., Kang, S., Park, S., Ahn, S., et al. (2013). Discovery of
+Q203, a potent clinical candidate for the treatment of tuberculosis. Nat. Med.
+19, 1157–1160. doi: 10.1038/nm.3262
+Prashar, A., Schnettger, L., Bernard, E. M., and Gutierrez, M. G. (2017). Rab
+GTPases in immunity and inﬂammation. Front. Cell Infect. Microbiol. 7:435.
+doi: 10.3389/fcimb.2017.00435
+Pym, A. S., Brodin, P., Brosch, R., Huerre, M., and Cole, S. T. (2002). Loss of RD1
+contributed to the attenuation of the live tuberculosis vaccines Mycobacterium
+bovis BCG and Mycobacterium microti. Mol. Microbiol. 46, 709–717. doi: 10.
+1046/j.1365-2958.2002.03237.x
+Pym, A. S., Brodin, P., Majlessi, L., Brosch, R., Demangel, C., Williams, A., et al.
+(2003). Recombinant BCG exporting ESAT-6 confers enhanced protection
+against tuberculosis. Nat. Med. 9, 533–539. doi: 10.1038/nm859
+Quesniaux, V., Fremond, C., Jacobs, M., Parida, S., Nicolle, D., Yeremeev, V., et al.
+(2004). Toll-like receptor pathways in the immune responses to mycobacteria.
+Microbes Infect. 6, 946–959. doi: 10.1016/j.micinf.2004.04.016
+Queval, C. J., Song, O. R., Carralot, J. P., Saliou, J. M., Bongiovanni, A.,
+Deloison, G., et al. (2017). Mycobacterium tuberculosis controls phagosomal
+acidiﬁcation by targeting CISH-mediated signalling. Cell Rep. 20, 3188–3198.
+doi: 10.1016/j.celrep.2017.08.101
+Quigley, J., Hughitt, V. K., Velikovsky, C. A., Mariuzza, R. A., El-Sayed, N. M.,
+and Briken, V. (2017). The cell wall lipid PDIM contributes to phagosomal
+escape and host cell exit of Mycobacterium tuberculosis. mBio 8:e00148-17.
+doi: 10.1128/mBio.00148-17
+Romagnoli, A., Etna, M. P., Giacomini, E., Pardini, M., Remoli, M. E.,
+Corazzari, M., et al. (2012). ESX-1 dependent impairment of autophagic ﬂux by
+Mycobacterium tuberculosis in human dendritic cells. Autophagy 8, 1357–1370.
+doi: 10.4161/auto.20881
+Russell, D. G. (2016). The ins and outs of the Mycobacterium tuberculosis-
+containing vacuole. Cell Microbiol. 18, 1065–1069. doi: 10.1111/cmi.12623
+Russell, D. G., Cardona, P. J., Kim, M. J., Allain, S., and Altare, F. (2009). Foamy
+macrophages and the progression of the human tuberculosis granuloma. Nat.
+Immunol. 10, 943–948. doi: 10.1038/ni.1781
+Rybniker, J., Chen, J. M., Sala, C., Hartkoorn, R. C., Vocat, A., Benjak, A., et al.
+(2014). Anticytolytic screen identiﬁes inhibitors of mycobacterial virulence
+protein secretion. Cell Host Microbe. 16, 538–548. doi: 10.1016/j.chom.2014.
+09.008
+Sakowski, E. T., Koster, S., Portal Celhay, C., Park, H. S., Shrestha, E., Hetzenecker,
+S. E., et al. (2015). Ubiquilin 1 promotes IFN-gamma-induced xenophagy of
+Mycobacterium tuberculosis. PLOS Pathog. 11:e1005076. doi: 10.1371/journal.
+ppat.1005076
+Satoh, T., and Akira, S. (2016). Toll-like receptor signaling and its inducible
+proteins. Microbiol. Spectr. 4:MCHD-0040-2016. doi: 10.1128/microbiolspec.
+MCHD-0040-2016
+Sayes, F., Pawlik, A., Frigui, W., Groschel, M. I., Crommelynck, S., Fayolle, C.,
+et al. (2016). CD4+ T cells recognizing PE/PPE antigens directly or via
+cross reactivity are protective against pulmonary Mycobacterium tuberculosis
+infection. PLOS Pathog. 12:e1005770. doi: 10.1371/journal.ppat.1005770
+Sayes, F., Sun, L., Di Luca, M., Simeone, R., Degaiﬃer, N., Fiette, L., et al. (2012).
+Strong immunogenicity and cross-reactivity of Mycobacterium tuberculosis
+ESX-5 Type VII secretion- encoded PE-PPE proteins predicts vaccine potential.
+Cell Host Microbe 11, 352–363. doi: 10.1016/j.chom.2012.03.003
+Schnettger, L., Rodgers, A., Repnik, U., Lai, R. P., Pei, G., Verdoes, M., et al. (2017).
+A Rab20-Dependent membrane traﬃcking pathway controls M. tuberculosis
+replication by regulating phagosome spaciousness and integrity. Cell Host
+Microbe 21, 619.e–628.e. doi: 10.1016/j.chom.2017.04.004
+Simeone, R., Bobard, A., Lippmann, J., Bitter, W., Majlessi, L., Brosch, R., et al.
+(2012). Phagosomal rupture by Mycobacterium tuberculosis results in toxicity
+and host cell death. PLOS Pathog. 8:e1002507. doi: 10.1371/journal.ppat.
+1002507
+Simeone, R., Majlessi, L., Enninga, J., and Brosch, R. (2016). Perspectives on
+mycobacterial vacuole-to-cytosol translocation: the importance of cytosolic
+access. Cell Microbiol. 18, 1070–1077. doi: 10.1111/cmi.12622
+Simeone, R., Sayes, F., Song, O., Groschel, M. I., Brodin, P., Brosch, R., et al. (2015).
+Cytosolic Access of Mycobacterium tuberculosis: critical impact of phagosomal
+acidiﬁcation control and demonstration of occurrence in vivo. PLOS Pathog.
+11:e1004650. doi: 10.1371/journal.ppat.1004650
+Skerry, C., Pinn, M. L., Bruiners, N., Pine, R., Gennaro, M. L., and Karakousis, P. C.
+(2014). Simvastatin increases the in vivo activity of the ﬁrst-line tuberculosis
+regimen. J. Antimicrob. Chemother. 69, 2453–2457. doi: 10.1093/jac/dku166
+Sturgill-Koszycki, S., Schlesinger, P. H., Chakraborty, P., Haddix, P. L., Collins,
+H. L., Fok, A. K., et al. (1994). Lack of acidiﬁcation in Mycobacterium
+phagosomes produced by exclusion of the vesicular proton-ATPase. Science 263,
+678–681. doi: 10.1126/science.8303277
+Sun-Wada, G. H., Tabata, H., Kawamura, N., Aoyama, M., and Wada, Y.
+(2009). Direct recruitment of H+-ATPase from lysosomes for phagosomal
+acidiﬁcation. J. Cell Sci. 122, 2504–2513. doi: 10.1242/jcs.050443
+Tailleux, L., Maeda, N., Nigou, J., Gicquel, B., and Neyrolles, O. (2003). How is
+the phagocyte lectin keyboard played? Master class lesson by Mycobacterium
+tuberculosis. Trends Microbiol. 11, 259–263. doi: 10.1016/S0966-842X(03)
+00102-1
+Tanne, A., and Neyrolles, O. (2010). C-type lectins in immune defense against
+pathogens: the murine DC-SIGN homologue SIGNR3 confers early protection
+against Mycobacterium tuberculosis infection. Virulence 1, 285–290. doi: 10.
+4161/viru.1.4.11967
+Thurston, T. L., Wandel, M. P., Von Muhlinen, N., Foeglein, A., and
+Randow, F. (2012). Galectin 8 targets damaged vesicles for autophagy to
+defend cells against bacterial invasion. Nature 482, 414–418. doi: 10.1038/nature
+10744
+Tobin, D. M. (2015). Host-directed therapies for tuberculosis. Cold Spring Harb.
+Perspect. Med. 5:a021196. doi: 10.1101/cshperspect.a021196
+Torrado, E., and Cooper, A. M. (2013). Cytokines in the balance of protection and
+pathology during mycobacterial infections. Adv. Exp. Med. Biol. 783, 121–140.
+doi: 10.1007/1978-1001-4614-6111-1001_1007
+Toyonaga, K., Torigoe, S., Motomura, Y., Kamichi, T., Hayashi, J. M., Morita,
+Y. S., et al. (2016). C-Type lectin receptor DCAR recognizes mycobacterial
+phosphatidyl-inositol mannosides to promote a Th1 response during infection.
+Immunity 45, 1245–1257. doi: 10.1016/j.immuni.2016.10.012
+Ullrich, H. J., Beatty, W. L., and Russell, D. G. (1999). Direct delivery of
+procathepsin D to phagosomes: implications for phagosome biogenesis and
+parasitism by Mycobacterium. Eur. J. Cell Biol. 78, 739–748. doi: 10.1016/S0171-
+9335(99)80042-9
+Ulrichs, T., and Kaufmann, S. H. (2006). New insights into the function of
+granulomas in human tuberculosis. J. Pathol. 208, 261–269. doi: 10.1002/path.
+1906
+Frontiers in Microbiology | www.frontiersin.org
+10
+November 2017 | Volume 8 | Article 2284
+
+Queval et al.
+M. tuberculosis and the Macrophage
+van de Veerdonk, F. L., Teirlinck, A. C., Kleinnijenhuis, J., Kullberg, B. J., Van
+Crevel, R., Van Der Meer, J. W., et al. (2010). Mycobacterium tuberculosis
+induces IL-17A responses through TLR4 and dectin-1 and is critically
+dependent on endogenous IL-1. J. Leukoc. Biol. 88, 227–232. doi: 10.1189/jlb.
+0809550
+van der Wel, N., Hava, D., Houben, D., Fluitsma, D., Van Zon, M., Pierson, J., et al.
+(2007). M. tuberculosis and M. leprae translocate from the phagolysosome to the
+cytosol in myeloid cells. Cell 129, 1287–1298. doi: 10.1016/j.cell.2007.05.059
+Van Rie, A., and Enarson, D. (2006). XDR tuberculosis: an indicator of
+public-health negligence. Lancet 368, 1554–1556. doi: 10.1016/S0140-6736(06)
+69575-5
+VanderVen, B. C., Fahey, R. J., Lee, W., Liu, Y., Abramovitch, R. B., Memmott, C.,
+et al. (2015). Novel inhibitors of cholesterol degradation in Mycobacterium
+tuberculosis reveal how the bacterium’s metabolism is constrained by the
+intracellular environment. PLOS Pathog. 11:e1004679. doi: 10.1371/journal.
+ppat.1004679
+Vazquez, C. L., Rodgers, A., Herbst, S., Coade, S., Gronow, A., Guzman, C. A., et al.
+(2016). The proneurotrophin receptor sortilin is required for Mycobacterium
+tuberculosis control by macrophages. Sci. Rep. 6:29332. doi: 10.1038/srep29332
+Velmurugan, K., Chen, B., Miller, J. L., Azogue, S., Gurses, S., Hsu, T., et al. (2007).
+Mycobacterium tuberculosis nuoG is a virulence gene that inhibits apoptosis of
+infected host cells. PLOS Pathog. 3:e110. doi: 10.1371/journal.ppat.0030110
+Vergne, I., Chua, J., Lee, H. H., Lucas, M., Belisle, J., and Deretic, V. (2005).
+Mechanism of phagolysosome biogenesis block by viable Mycobacterium
+tuberculosis. Proc. Natl. Acad. Sci. U.S.A. 102, 4033–4038. doi: 10.1073/pnas.
+0409716102
+Vergne, I., Fratti, R. A., Hill, P. J., Chua, J., Belisle, J., and Deretic, V. (2004).
+Mycobacterium tuberculosis phagosome maturation arrest: mycobacterial
+phosphatidylinositol analog phosphatidylinositol mannoside stimulates early
+endosomal fusion. Mol. Biol. Cell 15, 751–760. doi: 10.1091/mbc.E03-05-0307
+Via, L. E., Deretic, D., Ulmer, R. J., Hibler, N. S., Huber, L. A., and Deretic, V.
+(1997). Arrest of mycobacterial phagosome maturation is caused by a block in
+vesicle fusion between stages controlled by rab5 and rab7. J. Biol. Chem. 272,
+13326–13331. doi: 10.1074/jbc.272.20.13326
+Vieira, O. V., Botelho, R. J., and Grinstein, S. (2002). Phagosome maturation: aging
+gracefully. Biochem. J. 366, 689–704. doi: 10.1042/bj20020691
+Villeneuve, C., Gilleron, M., Maridonneau-Parini, I., Daﬀe, M., Astarie-
+Dequeker, C., and Etienne, G. (2005). Mycobacteria use their surface-exposed
+glycolipids to infect human macrophages through a receptor-dependent
+process. J. Lipid Res. 46, 475–483. doi: 10.1194/jlr.M400308-JLR200
+Wallis, R. S., and Hafner, R. (2015). Advancing host-directed therapy for
+tuberculosis. Nat. Rev. Immunol. 15, 255–263. doi: 10.1038/nri3813
+Warner, D. F., and Mizrahi, V. (2007). The survival kit of Mycobacterium
+tuberculosis. Nat. Med. 13, 282–284. doi: 10.1038/nm0307-282
+Wassermann, R., Gulen, M. F., Sala, C., Perin, S. G., Lou, Y., Rybniker, J.,
+et al. (2015). Mycobacterium tuberculosis diﬀerentially activates cGAS- and
+inﬂammasome-dependent intracellular immune responses through ESX-1. Cell
+Host Microbe 17, 799–810. doi: 10.1016/j.chom.2015.05.003
+Watson, R. O., Bell, S. L., Macduﬀ, D. A., Kimmey, J. M., Diner, E. J., Olivas, J., et al.
+(2015). The cytosolic sensor cGAS Detects Mycobacterium tuberculosis DNA to
+induce type I interferons and activate autophagy. Cell Host Microbe 17, 811–819.
+doi: 10.1016/j.chom.2015.05.004
+Watson, R. O., Manzanillo, P. S., and Cox, J. S. (2012). Extracellular M. tuberculosis
+DNA targets bacteria for autophagy by activating the host DNA-sensing
+pathway. Cell 150, 803–815. doi: 10.1016/j.cell.2012.06.040
+Wheelwright, M., Kim, E. W., Inkeles, M. S., De Leon, A., Pellegrini, M., Krutzik,
+S. R., et al. (2014). All-trans retinoic acid-triggered antimicrobial activity
+against Mycobacterium tuberculosis is dependent on NPC2. J. Immunol. 192,
+2280–2290. doi: 10.4049/jimmunol.1301686
+WHO
+(2016).
+Global
+Tuberculosis
+Report
+2016.
+Geneva:
+World
+Health
+Organization.
+Wong, D., Bach, H., Sun, J., Hmama, Z., and Av-Gay, Y. (2011). Mycobacterium
+tuberculosis protein tyrosine phosphatase (PtpA) excludes host vacuolar-H+-
+ATPase to inhibit phagosome acidiﬁcation. Proc. Natl. Acad. Sci. U.S.A. 108,
+19371–19376. doi: 10.1073/pnas.1109201108
+Wong, K. W., and Jacobs, W. R. Jr. (2011). Critical role for NLRP3 in necrotic
+death triggered by Mycobacterium tuberculosis. Cell Microbiol. 13, 1371–1384.
+doi: 10.1111/j.1462-5822.2011.01625.x
+Xu, S., Cooper, A., Sturgill-Koszycki, S., Van Heyningen, T., Chatterjee, D.,
+Orme, I., et al. (1994). Intracellular traﬃcking in Mycobacterium tuberculosis
+and
+Mycobacterium
+avium-infected
+macrophages.
+J.
+Immunol.
+153,
+2568–2578.
+Yonekawa, A., Saijo, S., Hoshino, Y., Miyake, Y., Ishikawa, E., Suzukawa, M., et al.
+(2014). Dectin-2 is a direct receptor for mannose-capped lipoarabinomannan
+of mycobacteria. Immunity 41, 402–413. doi: 10.1016/j.immuni.2014.08.005
+Yuk, J. M., Shin, D. M., Lee, H. M., Yang, C. S., Jin, H. S., Kim, K. K., et al.
+(2009). Vitamin D3 induces autophagy in human monocytes/macrophages
+via cathelicidin. Cell Host Microbe 6, 231–243. doi: 10.1016/j.chom.2009.
+08.004
+Zhang, X., Jiang, F., Wei, L., Li, F., Liu, J., Wang, C., et al. (2012). Polymorphic
+allele of human MRC1 confer protection against tuberculosis in a Chinese
+population. Int. J. Biol. Sci. 8, 375–382. doi: 10.7150/ijbs.4047
+Zumla, A., Maeurer, M., Chakaya, J., Hoelscher, M., Ntoumi, F., Rustomjee, R., et al.
+(2015). Towards host-directed therapies for tuberculosis. Nat. Rev. Drug Discov.
+14, 511–512. doi: 10.1038/nrd4696
+Conﬂict of Interest Statement: The authors declare that the research was
+conducted in the absence of any commercial or ﬁnancial relationships that could
+be construed as a potential conﬂict of interest.
+Copyright © 2017 Queval, Brosch and Simeone. This is an open-access article
+distributed under the terms of the Creative Commons Attribution License (CC BY).
+The use, distribution or reproduction in other forums is permitted, provided the
+original author(s) or licensor are credited and that the original publication in this
+journal is cited, in accordance with accepted academic practice. No use, distribution
+or reproduction is permitted which does not comply with these terms.
+Frontiers in Microbiology | www.frontiersin.org
+11
+November 2017 | Volume 8 | Article 2284

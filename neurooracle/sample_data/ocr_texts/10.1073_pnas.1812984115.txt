@@ -1,0 +1,1143 @@
+MmpL8MAB controls Mycobacterium abscessus
+virulence and production of a previously
+unknown glycolipid family
+Violaine Duboisa, Albertus Viljoenb,1, Laura Laencinaa,1, Vincent Le Moignea, Audrey Bernutb,2, Faustine Dubarc,
+Mickaël Blaiseb, Jean-Louis Gaillarda,d, Yann Guérardelc, Laurent Kremerb,e, Jean-Louis Herrmanna,d,3,
+and Fabienne Girard-Misguicha,3
+aUniversité de Versailles Saint Quentin en Yvelines, INSERM UMR1173, 78000 Versailles, France; bCNRS UMR 9004, Institut de Recherche en Infectiologie de
+Montpellier, Université de Montpellier, 34293 Montpellier, France; cUniversité de Lille, CNRS UMR 8576, Unité de Glycobiologie Structurale et Fonctionnelle,
+59000 Lille, France; dAssistance Publique-Hôpitaux de Paris, Groupement Hospitalier Universitaire Paris Ile de France Ouest, Hôpital Raymond Poincaré,
+Hôpital Ambroise Paré, 92380 Garches, Boulogne Billancourt, France; and eINSERM, Institut de Recherche en Infectiologie de Montpellier, 34293
+Montpellier, France
+Edited by D. Branch Moody, Brigham and Women’s Hospital, Harvard Medical School, Boston, MA, and accepted by Editorial Board Member Carl F. Nathan
+September 7, 2018 (received for review July 31, 2018)
+Mycobacterium abscessus is a peculiar rapid-growing Mycobacte-
+rium (RGM) capable of surviving within eukaryotic cells thanks to
+an arsenal of virulence genes also found in slow-growing myco-
+bacteria (SGM), such as Mycobacterium tuberculosis. A screen
+based on the intracellular survival in amoebae and macrophages
+(MΦ) of an M. abscessus transposon mutant library revealed the
+important role of MAB_0855, a yet uncharacterized Mycobacterial
+membrane protein Large (MmpL). Large-scale comparisons with
+SGM and RGM genomes uncovered MmpL12 proteins as putative
+orthologs of MAB_0855 and a locus-scale synteny between the
+MAB_0855 and Mycobacterium chelonae mmpL8 loci. A KO mutant
+of the MAB_0855 gene, designated herein as mmpL8MAB, had im-
+paired adhesion to MΦ and displayed a decreased intracellular
+viability. Despite retaining the ability to block phagosomal acidifi-
+cation, like the WT strain, the mmpL8MAB mutant was delayed in
+damaging the phagosomal membrane and in making contact with
+the cytosol. Virulence attenuation of the mutant was confirmed in
+vivo by impaired zebrafish killing and a diminished propensity to
+induce granuloma formation. The previously shown role of MmpL
+in lipid transport prompted us to investigate the potential lipid
+substrates of MmpL8MAB. Systematic lipid analysis revealed that
+MmpL8MAB was required for the proper expression of a glycolipid
+entity, a glycosyl diacylated nonadecyl diol (GDND) alcohol com-
+prising different combinations of oleic and stearic acids. This study
+shows the importance of MmpL8MAB in modifying interactions be-
+tween the bacteria and phagocytic cells and in the production of a
+previously unknown glycolipid family.
+MMPL | Mycobacterium | abscessus | glycolipid | GDND
+O
+ne major feature of pathogenic mycobacteria is their ability
+to survive in phagocytic cells (1, 2), a property that is shared
+with the rapidly growing Mycobacterium abscessus (3, 4). The unique
+and lipid-rich mycobacterial cell envelope is largely responsible
+for the interactions with host immune cells, enabling the bacilli
+to resist the harsh conditions and bactericidal processes encoun-
+tered within the macrophage (MΦ), such as phagosome matura-
+tion, nitrosative and oxidative stress, and nutrient deprivation (1, 2,
+5–7). A large set of proteins participates in the biogenesis and
+transport of a wide diversity of cell wall-associated (glycol-)lipids
+(8–10). Impaired synthesis and/or transport of some of these lipids
+render pathogenic mycobacteria more susceptible to the host im-
+mune defenses (11–14). Mycobacterium tuberculosis mutants that
+fail to synthesize or transport the cell wall-associated phthiocerol
+dimycocerosates (PDIMs) show limited growth in the lungs of in-
+fected mice (11). The structurally related phenolic glycolipids
+(PGLs), which are unique to a few pathogenic species, are also re-
+quired for optimal virulence in zebrafish of Mycobacterium marinum,
+a close pathogenic relative to M. tuberculosis (12, 15). Immune
+evasion by M. tuberculosis and M. marinum also seems to be
+mediated by PDIM, very likely through masking the underlying
+pathogen-associated molecular patterns, and by PGL through
+the involvement of a chemokine receptor 2-mediated pathway
+with preferential recruitment and infection of permissive MΦ
+while evading microbicidal ones (13).
+In nontuberculous mycobacteria (NTM) such as Mycobacterium
+avium, a slow-growing Mycobacterium (SGM), or M. abscessus, a
+rapid-growing Mycobacterium (RGM), glycopeptidolipids (GPLs)
+play an important role in NTM physiology and behavior toward
+eukaryotic hosts (4, 16). A transition from a smooth (S) to a
+rough (R) morphotype in NTM is associated with GPL loss (17–19)
+that results in an exacerbated virulence phenotype in various cellular
+and animal models (20–23). Isolation of the R variant is often
+Significance
+One major defense mechanism of mycobacteria relies mainly
+on the synthesis and transport of specialized lipids, processes
+that reside in the cell wall. Among the transporters, Myco-
+bacterial membrane protein Large (MmpL) plays an essential
+role. We describe the role of MmpL8 (MmpL8MAB) in the sur-
+vival of Mycobacterium abscessus within eukaryotic hosts. We
+show that its absence slows the contact between M. abscessus
+and the host cell cytosol, an essential element in its resistance
+to the cell bactericidal mechanisms. The absence of MmpL8MAB
+leads to reduced production of a previously unknown glyco-
+lipid: a glycosyl diacylated nonadecyl diol (GDND). The glyco-
+lipid seems unique to the Mycobacterium chelonae complex,
+supporting the view that GDND might represent a typical sig-
+nature of M. abscessus infection.
+Author contributions: J.-L.G., Y.G., L.K., J.-L.H., and F.G.-M. designed research; V.D., A.V.,
+L.L., V.L.M., A.B., F.D., and Y.G. performed research; M.B. contributed new reagents/analytic
+tools; V.D., A.V., A.B., F.D., Y.G., L.K., J.-L.H., and F.G.-M. analyzed data; and V.D., A.V., Y.G.,
+L.K., J.-L.H., and F.G.-M. wrote the paper.
+The authors declare no conflict of interest.
+This article is a PNAS Direct Submission. D.B.M. is a guest editor invited by the
+Editorial Board.
+Published under the PNAS license.
+1A.V. and L.L. contributed equally to this work.
+2Present address: Bateson Centre, Department of Infection, Immunity and Cardiovascular
+Disease, University of Sheffield, S10 2RX Sheffield, United Kingdom.
+3To whom correspondence may be addressed. Email: jean-louis.herrmann@aphp.fr or
+fabienne.misguich@uvsq.fr.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1812984115/-/DCSupplemental.
+Published online October 9, 2018.
+www.pnas.org/cgi/doi/10.1073/pnas.1812984115
+PNAS
+|
+vol. 115
+|
+no. 43
+|
+E10147–E10156
+MICROBIOLOGY
+
+associated with chronic and more severe disease in patients with
+reduced pulmonary functions (4, 24–26). This is exemplified in
+the case of M. abscessus, where the transition to an R morpho-
+type is sufficient to confer a highly virulent phenotype in zebrafish
+or mice (27, 28).
+However, we recently showed, by looking at the differential
+intracellular behavior of both S and R M. abscessus variants, that
+GPLs confer a clear intracellular survival advantage to the S variant
+compared with the R variant, including resistance to several cellular
+antibacterial mechanisms, such as blockage of phagosomal acidi-
+fication, and resistance to apoptosis and autophagy (4, 7).
+Complementary to our study, GPLs were shown to inhibit apoptosis
+in M. abscessus-infected MΦ by interacting with the mitochondrial
+cyclophilin D (29).
+These results further highlight how mycobacterial lipids fine tune
+MΦ–M. abscessus interactions to modulate the host immune response.
+However, GPLs are common to all NTM, SGM, and RGM, and
+M. abscessus belongs to the RGM group that comprises mainly
+saprophytic species. However, unique lipids possibly involved in
+the peculiar pathogenicity of M. abscessus remain to be identified.
+To act as critical players in mycobacterial pathogenesis, these
+complex lipids, usually synthesized within the cytoplasm, need to
+be translocated through the cell envelope and exposed to the
+bacterial surface, a process that can require a wide repertoire of
+lipid-specific transporters. Gap, a transmembrane protein partici-
+pating in the transport of GPL through the plasma membrane, was
+originally identified in Mycobacterium smegmatis (18). The last
+decade has seen a mounting focus on the Mycobacterial membrane
+protein Large (MmpL) permeases, which are a subclass of the
+Resistance-Nodulation-cell-Division proteins containing 12 trans-
+membrane domains (TMDs) and are known to translocate lipids
+through the plasma membrane (30–32). Complex lipids thought to
+be transported by MmpL proteins include PDIM (MmpL7),
+sulfoglycolipid (MmpL8), diacyltrehaloses (DATs) and poly-
+acyltrehaloses (MmpL10), monomeromycolyl diacylglycerol (MmpL11),
+and trehalose monomycolate (MmpL3), all of which have been
+implicated in M. tuberculosis virulence (31, 32). Additionally, the
+essential MmpL3 transporter represents a promising pharmaco-
+logical target in M. tuberculosis and M. abscessus (33–35). In
+M. abscessus, we and others unraveled the specific role of MmpL4a
+and MmpL4b in GPL transport by analyzing the S to R transition
+in the three subspecies of the M. abscessus complex (17, 22, 36).
+These MmpLs represent the only MmpL actors described so far
+in M. abscessus virulence, despite the greater abundance of
+MmpLs in the M. abscessus complex (4). Another group of
+lipids, the trehalose-based polyphleates, present in many NTM
+(37) has recently been proposed to contribute to the highly aggre-
+gative phenotype of M. abscessus R (38), but a direct role in M.
+abscessus virulence remains to be shown.
+In continuation of our previous efforts to decipher the
+mechanisms of pathogenicity of M. abscessus, we recently per-
+formed a phenotypic screen of a transposon (Tn) mutant library
+generated in M. abscessus subspecies (subsp.) massiliense in
+amoebae and MΦ. This led to the discovery of the role of the
+ESX-4 type VII secretion system (T7SS) in intracellular sur-
+vival of M. abscessus (39). This genetic screen also disclosed the
+MAB_0855 gene, encoding a yet uncharacterized MmpL. Herein;
+we aimed at characterizing this MmpL, designated MmpL8MAB, as
+well as its putative lipid substrate. We show the crucial role of
+MmpL8MAB in intracellular survival and virulence of M. abscessus in
+various cellular and animal models. We also present a structural
+description of a glycolipid family produced at reduced levels in the
+absence of MmpL8MAB, thereby opening the way to promising fu-
+ture translational applications.
+Results
+Identification of an mmpL Gene Crucial for Intracellular Survival of M.
+abscessus. A Tn mutant library constructed in the M. abscessus
+subsp. massiliense 43S clinical isolate was originally screened for
+survival in Acanthamoeba castellanii amoebae and in J774.2
+murine MΦ (39); 7 of 47 mutants that exhibited a Growth Index
+(GI) below 0.5 in MΦ compared with the WT strain carried a single
+Tn insertion in genes involved in cell wall/membrane/envelope as-
+sembly and/or lipid transport and metabolism as determinated by
+cluster of orthologous groups (COG) analysis (COG M and I, re-
+spectively) (Fig. 1 and Table 1). Interestingly, one mutant (55F6)
+was highly attenuated in both amoeba and MΦ (GIs of 0.13 and
+0.31, respectively) and was linked to only a general function (COG
+R) (Fig. 1). By sequencing the Tn insertion site, we identified the
+Tn-disrupted gene as MYCMA_0439 (SI Appendix, Table S1), iden-
+tical to the M. abscessus subsp. abscessus ATCC19977 MAB_0855 gene,
+which according to systematic annotation, encodes a putative
+MmpL protein. The 55F6 mutant’s intracellular defect was further
+confirmed by survival kinetics performed in amoebae and MΦ by
+determining the cfu and the corresponding GIs (0.18 in amoebae
+and 0.22 in MΦ) (SI Appendix, Fig. S1).
+MAB_0855 Is Unique to the Mycobacterium chelonae Complex. Pri-
+mary sequence analysis and 3D homology modeling indicate that
+MAB_0855 presents the typical features of MmpL transporters,
+possessing 12 helical TMDs as well as two extracytoplasmic loops
+between TMD1/2 and TMD7/8, which are potentially implicated
+in substrate binding (SI Appendix, Fig. S2).
+Phylogenetic relationships among 31 MmpLs of M. abscessus
+and 13 MmpLs of M. tuberculosis allowed the identification of
+two M. abscessus MmpL-specific clades (light blue and red spots
+in Fig. 2A), supporting the hypothesis of MmpL diversification in
+M. abscessus (31). Tandem duplications occurred as illustrated
+by the mmpL4 genes (mmpL4a and mmpL4b) (blue brackets in
+Fig. 2A). MAB_0855 clustered with M. tuberculosis MmpL8 and
+MmpL12 and to a lesser extent, with M. tuberculosis MmpL10 and
+M. abscessus MAB_0937c (dark blue spot in Fig. 2A). MAB_0937c
+is orthologous to MmpL10 in both RGM and SGM (Fig. 2B).
+Neither phylogenetic reconstruction nor Bidirectional Best Hit (BBH)
+search found putative orthologs of MAB_0855 in M. tuberculosis
+(Fig. 2 A and B). However, an extensive mycobacterial BBH search
+identified MmpL12 proteins in Mycobacterium kansasii, Mycobacterium
+gastri, M. smegmatis, and Mycobacterium mucogenicum as putative
+orthologs to MAB_0855 (Fig. 2B). It is worth noting that, in these
+mycobacterial species, MmpL12 was suggested to transport
+lipooligosaccharides (LOSs) (40), which are absent in M. abscessus.
+MAB_0855 Best Hit (BH) scores were low (under 60) except in the
+M. chelonae complex (MCC; i.e., comprising the M. abscessus sub-
+species and M. chelonae) and in Mycobacterium immunogenum, for
+which the BH score was up to 96 (Fig. 2B). Finally, we failed to
+identify any syntenic conservation in other mycobacteria of the re-
+gion spanning from MAB_0852 to MAB_0859, with the exception of
+the M. chelonae mmpL8 locus (Fig. 2C); therefore, MAB_0855 was
+designated mmpL8MAB. Quite notably, several genes from M. tuber-
+culosis were syntenic to the M. abscessus genome upstream of MAB_
+0852 and downstream of MAB_0859, suggesting that a deletion may
+have occurred between these genes in M. tuberculosis, perhaps as a
+consequence of the genomic reduction that occurred in the tubercle
+bacillus (Fig. 2C).
+Overall, the mmpL8MAB genomic environment revealed a
+potential role in lipid biogenesis/transport, with a putative lipase/
+esterase encoding gene (lipP) as well as two fad genes (fadA and
+fadB) located upstream of mmpL8MAB (Fig. 2C). A polyketide
+synthase (pks)-associated gene (papA2) as well as a putative poly-
+ketide cyclase gene (MAB_0859), possibly participating in the bio-
+genesis and assembly of a complex cell wall lipid (41), were also
+found in close proximity to mmpL8MAB.
+MmpL8MAB Plays a Critical Role in M. abscessus Intracellular Survival
+and Virulence. To confirm the contribution of MmpL8MAB to M.
+abscessus virulence, deletion mutants were generated in both the
+E10148
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1812984115
+Dubois et al.
+
+S and R variants of the M. abscessus ATCC19977-type strain by
+allelic exchange of the mmpL8MAB ORF using the recombineering
+strategy (42, 43) that replaces genes targeted for deletion with a
+zeocin resistance cassette (SI Appendix, Fig. S3). The proper deletion
+of mmpL8MAB was subsequently confirmed through a combi-
+nation of PCR and sequencing analyses (SI Appendix, Fig. S3).
+The corresponding mutant strains generated in the S or R back-
+ground, hereafter referred to as SΔmmpL8MAB or RΔmmpL8MAB,
+were complemented by transformation with an integrative plasmid
+containing an intact copy of mmpL8MAB.
+SΔmmpL8MAB exhibited a pronounced defect in intracellular
+survival in murine MΦ compared with the WT or SΔmmpL8MAB-
+complemented strains, and this alteration was already significant
+at 1 day postinfection (dpi) (Fig. 3A). Functional complementation
+of the mutant with the mmpL8MAB gene (ΔmmpL8::mmpL8MAB)
+fully restored the WT phenotype, whereas complementation
+with the Mycobacterium massiliense homolog MYCMA_0439
+(ΔmmpL8::0439MMAS) only partially restored the effect (Fig. 3A).
+These results indicate that the decreased viability of ΔmmpL8MAB
+was not caused by a polar effect on the expression of the down-
+stream genes. To get more insight into the biological functions of
+mmpL8, we addressed whether the three “closest” homologs found
+in M. tuberculosis (i.e., mmpL8, mmpL10, and mmpL12) (Fig. 2A)
+may restore the intracellular defect of ΔmmpL8MAB. As shown in
+Fig. 3B, a near-complete restoration of intracellular growth was
+obtained with the mmpL8MTB and mmpL12MTB genes but not with
+mmpL10MTB. The intracellular growth defect of RΔmmpL8MAB was
+also fully restored on complementation with mmpL8MAB (Fig. 3C).
+Overall, these results show that MmpL8MAB is required for the
+intracellular survival of both M. abscessus variants.
+ΔmmpL8MAB Presents a Reduced Adhesion to MΦ and Is Impaired in
+Phagosome-Membrane Rupture. The intracellular behavior of M.
+abscessus resembles the intracellular lifestyle of a slow-growing
+pathogenic species (4). In particular, scrutinizing the S and R
+forms in MΦ highlighted the importance of the outer cell wall
+layer in defining important physiological and ultrastructural
+features of the phagosomal compartment/membrane. Disruption
+of the phagosomal membrane enables the escape of the S variant
+to establish cytosolic communications, thereby contributing to sur-
+vival inside the host cells (4). In line with these earlier findings, we
+investigated the possible mechanism(s) by which MmpL8 may
+interact with MΦ.
+The question of whether MmpL8 affects the adhesion of the
+bacilli to the MΦ surface was determined by measuring the ad-
+hesion capacity of SΔmmpL8MAB to MΦ using flow cytometry.
+Cells with adherent bacteria formed a population that was well
+separated from the nonadherent bacteria together with cellular
+debris (Fig. 4A). A reproducible and significant twofold decrease
+in ΔmmpL8MAB cell adhesion was observed compared with WT
+and complemented strains (Fig. 4A).
+We next addressed whether a functional MmpL8MAB partici-
+pates in the inhibition of phagosomal acidification, known as a crucial
+event for intra-MΦ survival of pathogenic mycobacteria (44). As
+shown in Fig. 4B, WT M. abscessus, but not the heat-killed strain,
+inhibited the intraphagosomal pH as reported previously (4).
+ΔmmpL8MAB blocked phagosomal acidification in a manner similar
+to the WT and ΔmmpL8MAB-complemented strains (Fig. 4B). This
+indicates that it is very unlikely that the reduced intracellular survival
+of ΔmmpL8MAB is connected to a defect in phagosomal acidification
+and the subsequent maturation of the phagolysosome compartments.
+To address the potential role of MmpL8MAB in phagosomal
+membrane damage that leads to cytosolic communications, we
+carried out an FRET-based assay recently adapted for M. abscessus
+that allowed us to assay phagosomal membrane disruption (4). At
+20 h postinfection (hpi), ΔmmpL8MAB was significantly reduced in
+its ability to damage the phagosomal membrane, and this persisted
+for longer time points (30 hpi) compared with the WT and
+ΔmmpL8MAB-complemented strains (Fig. 4C). To further con-
+firm the inability of ΔmmpL8MAB to establish contacts with the
+cytosol, we evaluated the production of IL-1β (Fig. 4D), documented
+as a biomarker of cytosolic M. tuberculosis (45–49). Consistently
+Fig. 1.
+Identification of a putative MmpL required
+for intracellular replication in both amoebae and MΦ
+from a Tn library screen. Tn mutants impaired in their
+intracellular survival compared with the WT strain GI
+in amoebae and MΦ. Amoebae (A. castellanii) and
+murine MΦ were infected at an MOI of 10 and lysed
+at different dpi (2 and 3 dpi, respectively) before cfu
+determination. The Tn insertion site was cloned to
+identify the disrupted genes. Identified genes were
+categorized with the COG classification. Mutants for
+which the Tn insertion occurred in a gene implicated
+in either lipid metabolism/transport or related pro-
+cesses (COG M and I, respectively) and 55F6 unchar-
+acterized (COG R) mutant putatively implicated in lipid
+transport and metabolism are depicted.
+Table 1.
+Genes disrupted by Tn insertion in M. massiliense 43S; attenuated in MΦ; and with a potential implication in cell wall
+assembly, lipid transport, and metabolism
+Tn mutants
+Tn-disrupted gene and corresponding encoded protein
+Corresponding gene and encoded protein in M. abscessus
+44A6
+MYCMA_2469: fabG
+MAB_4443: probable 3-oxoacyl-[acyl-carrier protein] reductase
+47H4
+MYCMA_09125: modD
+MAB_2436: conserved hypothetical protein
+51H4
+MYCMA_08185: mammalian cell entry protein mce
+None
+52B6
+MYCMA_0991: nitrate ABC transporter substrate-binding protein
+MAB_1915: probable fatty acid-CoA ligase FadD
+55F6
+MYCMA_0439: membrane protein
+MAB_0855: putative membrane protein, MmpL family
+57C7
+MYCMA_2554: acyl-CoA synthetase
+MAB_4626c: probable fatty acid-CoA ligase FadD
+58C5, 58E5
+MYCMA_0056: oxydoreductase
+MAB_0090c: probable oxidoreductase EphD
+Dubois et al.
+PNAS
+|
+vol. 115
+|
+no. 43
+|
+E10149
+MICROBIOLOGY
+
+A
+C
+B
+Fig. 2.
+MAB_0855 transporter is specific to the MCC. (A) MAB_0855 phylogenetic position among M. tuberculosis MmpL transporters. In this study, BH scores
+were calculated with the Opscan program. A BBH between two proteins corresponds to a putative ortholog. M. abscessus and M. tuberculosis MmpL phy-
+logeny was inferred by Maximum Likelihood using the PHYML software and the aLRT statistic from the Multiple Sequence Alignment of M. abscessus and
+M. tuberculosis performed with Clustal. The aLRT statistical values over 0.9 are indicated. When a BBH was found between two proteins, the BBH score is
+indicated in brackets. (Scale bar: 0.5 estimated amino acid substitutions.) (B) Conservation of MAB_0855 in mycobacteria. MAB_0855 and MAB_0937c BBHs
+with MmpL proteins outside M. abscessus strains are represented by check boxes (Left). BBHs of these foreign MmpLs with M. tuberculosis MmpLs, if any, are
+indicated (Center). MAB_0855 and MAB_0937c hit scores, which give a clue on MAB_0855 and MAB_0937c level of conservation among mycobacteria, are also
+depicted by a range of colors (Right). The lowest scores are depicted in blue; the highest scores are depicted in orange. (C) Conservation of MAB_0855 locus
+among pathogenic and nonpathogenic mycobacteria. The chromosomal loci encompassing the relevant genes depicted in the figure were built with the
+GenoPlotR package. Genes for which no BBHs were found are depicted in gray. Genes exhibiting BBH toward MAB_0855 locus genes and the two fad genes
+upstream of the locus are depicted in color. A gray band links other BBH genes (in white).
+E10150
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1812984115
+Dubois et al.
+
+with the FRET data, ΔmmpL8MAB was less potent at inducing
+IL-1β production by infected MΦ compared with WT and
+ΔmmpL8MAB-complemented strains. This effect, already seen at
+3 hpi, persisted for at least 30 hpi and was dependent on the
+caspase-1 pathway, as shown in SI Appendix, Fig. S4A, and based
+on the presence of the mature form of IL-1β (SI Appendix, Fig.
+S4B), it was not an artifact.
+Taken collectively, these results indicate that the inactivation
+of MmpL8MAB reduces its interaction with MΦ as well as its
+ability to enter the cells; it also impairs the establishment of
+cytosolic connections. Whether these cellular phenotypes are
+translated into attenuation was next investigated using the re-
+cently developed zebrafish model of infection (28).
+MmpL8MAB Is Essential for Full Virulence of M. abscessus in Zebrafish.
+Since M. abscessus R induces a more robust and lethal infection
+in zebrafish compared with the S form (28, 50, 51), embryos were
+infected with WT, RΔmmpL8MAB, and complemented strains
+before the determination of the survival curves. While the R WT
+strain led to rapid larval death (∼80% killing at 13 dpi) as reported
+previously (28), ΔmmpL8MAB, which has retained its propensity to
+produce cords (SI Appendix, Fig. S5), was attenuated in its virulence
+(∼30% killing at 13 dpi) (Fig. 5A). Reintroduction of a functional
+copy of the gene into ΔmmpL8MAB partially restored the virulent
+phenotype to the level of the WT strain, thus linking MmpL8MAB to
+M. abscessus virulence in zebrafish.
+In addition to cording, a phenotypical trait conferring viru-
+lence to the R variant in zebrafish (51) is granuloma formation,
+which also represents a physiopathological sign of M. abscessus
+infection in embryos, although it has been reported to occur in both
+S and R variants (22, 28). We thus compared granuloma formation
+after infection with WT R and S variants and ΔmmpL8MAB R and S
+mutants. A striking reduction in the number of embryos with
+granulomas (Fig. 5B, Left) as well as in the number of granulomas
+per embryo (Fig. 5B, Right) was observed in ΔmmpL8MAB-infected
+embryos. Partial restoration of the WT phenotype (embryos with
+granulomas and number of granulomas per embryo) was observed
+with the ΔmmpL8MAB-complemented strain (Fig. 5B). These di-
+minished pathological signs were unrelated to the morphotype of
+the mutant. Granuloma production is usually associated with
+chronic rather than with acute infection. Therefore, this pheno-
+typic characteristic is probably not incriminated in the increased
+survival of the embryos infected with the mutant. However, since
+granuloma formation is a consequence of cellular aggregation of-
+ten linked to the surface properties of the mycobacterial cell wall
+and/or the release of granulomatogenic compounds, notably lipids
+(52), these results raise the question whether specific modifications
+on the outer layer of M. abscessus are connected to a specific lipid
+exported by MmpL8MAB.
+MmpL8MAB Is Required for Production of a Glycolipid. A systematic
+TLC-based approach for the whole range of apolar and polar
+lipids was implemented; 1D TLC enabled the separation of abun-
+dant glycolipids, such as GPL and trehalose dimycolate, and allowed
+the identification of a chaplet of lipids with amounts that seemed to
+be severely decreased in mutant 55F6 compared with its M. massi-
+liense 43S parental strain (brackets) (Fig. 6A, lanes 1 and 2). The
+same chaplet of lipids, with expression level that was affected in
+55F6, was also decreased in SΔmmpL8MAB mutants compared with
+their WT progenitors (Fig. 6A, lanes 3 and 4), and partial restora-
+tion of the phenotype was observed for the complemented S strain
+(Fig. 6A, lane 5). In particular, the abundance of one lipid assumed
+to be exported by MmpL8MAB, migrating close to the GPL, was
+markedly different between mutant and WT strains, which was
+especially apparent in the R background devoid of GPL (Fig. 6B,
+lanes 3 and 4). Restoration of the phenotype was also observed
+for the complemented strain (Fig. 6B, lane 5). Restoration of
+lipid production was further confirmed when M. tuberculosis mmpL8
+and -12, but not M. marinum mmpL7, were used to complement
+ΔmmpL8MAB (SI Appendix, Fig. S6).
+The MmpL8MAB Putative Substrate Is a Glucose-Containing Lipid. To
+get insights into the structure of the MmpL8MAB substrate, the
+lipid was first purified from the polar lipid fraction of M. abscessus
+as a homogenous lipid fraction, Pa3 (Fig. 6C and SI Appendix, Fig.
+S7). Monosaccharide and lipid composition analyses of the product
+showed the presence of glucose (SI Appendix, Fig. S8), hex-
+adecanoic (C16), and octanoic acid (C18), which established the
+presence of a glucose-based glycolipid substituted by C18 and C16.
+MALDI-MS analysis of the Pa3 lipid fraction showed a complex
+pattern of signals with 28-amu increments dominated by signals at
+m/z 959, 987, and 1015 (Fig. 6D) tentatively attributed to [M + H]+
+ions of Glc1(C16)2, Glc1(C16)1(C18)1, and Hex1(C18)2, respectively,
+all substituted by a yet unknown lipid moiety. MS2 fragmentation of
+parent ions at m/z 987 showed that one Glc residue, one C18,
+and one C16 could be independently cleaved from the parent ion.
+C16 and C18 could be further independently cleaved from the [M-
+Hex + H]+ fragment ion as established by MS3 fragmentation of
+the fragment ion at m/z 825. This shows that C16 and C18 do not
+A
+B
+C
+Fig. 3.
+Elucidation of the mmpL8MAB role in M. abscessus virulence. In-
+tracellular growth was assessed by cfu counting throughout the infection.
+Murine MΦ were infected at 10 MOI with the SΔmmpL8MAB or with the
+complemented strain carrying the MYCMA_0439 or the mmpL8MAB gene (A),
+the M. tuberculosis-closest homologs to M. abscessus mmpL8 (mmpL8MTB,
+mmpL10MTB, mmpL12MTB; B), or mmpL10MTB (C); cfu histograms with error
+bars represent means ± SD calculated using data from three independent
+experiments. Differences between means were analyzed by two-way
+ANOVA and the Tukey posttest, allowing multiple comparisons. ns, Non-
+significant. *P < 0.05; **P < 0.01; ***P < 0.001; ****P < 0.0001.
+Dubois et al.
+PNAS
+|
+vol. 115
+|
+no. 43
+|
+E10151
+MICROBIOLOGY
+
+esterify the Glc residue. Finally, MS4 fragmentation of the MS3
+fragment ion [M-Hex-C18 + H]+ at m/z 541 generated a fragment
+ion at m/z 285 (Fig. 6D) that could be equally assigned to [M + H]+
+ions of octanoic acid CH3(CH2)16COOH or of nonadecyl alcohol
+CH3(CH2)18OH. NMR analysis of the carbohydrate moiety showed
+the presence of a heterogeneous H1/C1 signal at δ1H/13C 50.6–
+5.2/94.2 that correlates on 1H-1H total correlated spectroscopy
+(TOCSY) and 1H/13C heteronuclear single quantum coherence
+(HSQC)-TOCSY spectra with an H2/C2 to H6/C6 monosaccharide
+spin system assigned as α-Glcp in a terminal nonreducing position
+(Fig. 6E), which establishes that the major Glc residue is not ester-
+ified on any carbon. Accordingly, the absence of a β-anomeric signal
+further suggests that the C1 position of α-Glcp is involved in an O
+linkage. However, the low available quantity of compound pre-
+cluded the 1H-1H nuclear overhauser effect (NOe) transfer from
+the anomeric proton or 3JH,C connections by an 1H-13C hetero-
+nuclear multiple-bond correlation (HMBC) experiment, and thus,
+a final proof of the αGlcp-O-CH2-R linkage could not be provided.
+As aforementioned, structural analysis by NMR data and MSn
+fragmentation patterns suggest that the lipid is composed of an alkyl
+α-glucopyranoside substituted by a C19 alkane chain diesterified by
+two fatty acid chains. The fragmentation pattern of the parent ion at
+m/z 987 established that it is substituted by one palmitic and one
+stearic acid (Fig. 6D), whereas the parent ion at m/z 959 is substituted
+by two palmitic acid chains (SI Appendix, Fig. S9). The exact position
+of esterification sites on the alkyl chain could not be directly estab-
+lished by NMR due to low quantities. Finally, the observation of
+three 1H/13C signals with deshielded protons at δ 5.38/72.3, 5.18/69.4,
+and 5.061/68.51 (Fig. 6E) strongly suggests the presence of other
+forms of the lipid in which the Glc ring carbons are differentially
+acetylated. This would retrospectively explain the chemical shift
+heterogeneity of the anomeric signal of the αGlcp residue.
+In summary, structural analyses established that the major
+lipid with production that is severely affected by MmpL8MAB
+deficiency consists of a heterogeneous family of Glc-containing
+lipids in which Glc is linked to a diacylated lipid. All of the data are
+consistent with the presence of a Glc alkylated with a C19 diol
+esterified by different combinations of palmitic and stearic acids
+(Fig. 6D), but they do not exclude the presence of additional related
+compounds with further acylation sites on the glucose residue.
+Discussion
+NTM have recently emerged as important opportunistic patho-
+gens responsible for severe lung diseases. Several studies have
+reported the predominance of M. abscessus among RGM in
+patients with cystic fibrosis (CF), chronic obstructive pulmonary
+disease (53), underinhaled corticosteroid therapy, and bronchi-
+ectasis (21, 54–58). The deleterious impact of M. abscessus in the
+degradation of lung function in CF patients has also been well
+documented (26). To dissect important and specific mechanisms
+of pathogenesis and to identify virulence determinants, we re-
+cently screened a Tn mutant library in A. castellanii and un-
+covered genes essential for M. abscessus intracellular survival
+(39). This approach unraveled the crucial and unexpected role of
+the ESX-4 locus for intracellular survival and phagosomal escape
+(39). In continuation of these efforts, we present here the dis-
+covery and preliminary characterization of MYCMA_0439 as an
+additional factor required for the intracellular survival of M.
+abscessus in both amoebae and MΦ. By focusing on its M.
+abscessus subsp. abscessus counterpart (MAB_0855, mmpL8MAB),
+we confirmed the contribution of MmpL8MAB in M. abscessus
+virulence by first generating an mmpL8MAB deletion mutant
+(ΔmmpL8MAB) and subsequently showing for this mutant attenu-
+ation in intracellular survival, delayed cytosolic escape, and a
+A
+B
+C
+D
+Fig. 4.
+MmpL8MAB plays a crucial role in M. abscessus
+interactions with cells by modulating M. abscessus
+entry and its survival inside the cells. (A) Adhesion to
+murine MΦ assessment by flow cytometry. MΦ were
+cooled down to avoid bacterial internalization and
+then infected with CFDA-SE–stained bacteria at an
+MOI of 100 for 1 h at 4 °C with gentle agitation to
+favor bacteria-to-cell contact. Nonadherent bacteria
+were well separated from intact cells (Left), and a
+substantial shift was observed for the cell population
+with adherent bacteria (Right; infected cells). The
+bacterial adhesion index is given that represents the
+mean fluorescence intensity (MFI) of each population
+with adherent bacteria reported to the MFI of the cells
+infected with the WT strain. FSC represents forward
+scatter and SSC represents side scatter. NI represents
+noninfected cells. (B) Phagosome acidification test. MΦ
+intraphagosomal pH after infection at an MOI of
+10 was assessed by the mean FITC fluorescence mea-
+surement (485 nm) combined with mCherry fluores-
+cence (565 nm) of double-stained bacteria. The pH
+along the infection is extrapolated from a pH stan-
+dard curve. HK corresponds to heat killed bacteria. (C)
+Intracellular behavior in human THP-1. Cells were in-
+fected at an MOI of 10. The ability of bacteria to es-
+tablish a contact with the cell cytosol was assessed by
+FRET at 20 and 30 hpi. (D) Kinetics of IL-1β production
+during THP-1 MΦ infection. The cellular response to
+infection with M. abscessus WT, ΔmmpL8MAB, and
+complemented strains was assessed by quantifying IL-1β
+secretion. Histograms with error bars represent means ±
+SD calculated using data from three independent ex-
+periments. Differences between means were analyzed
+by ANOVA and the Tukey posttest, allowing multiple
+comparisons to be performed. ns, Nonsignificant. *P <
+0.05; ***P < 0.001; ****P < 0.0001.
+E10152
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1812984115
+Dubois et al.
+
+reduced capacity to provoke zebrafish killing. Direct implication
+of MAB_0855 (mmpL8MAB) in these impaired virulence phe-
+notypes was confirmed by functionally complementing the
+mutant phenotypes.
+MmpL contribution to mycobacterial virulence was first repor-
+ted in M. tuberculosis by the screening of a Tn mutant library for in
+vivo survival deficiency (59). Genetic disruptions in M. tuberculosis
+mmpL4, -5, -7, -8, -10, and -11 were correlated with attenuation in
+mice (14). M. tuberculosis MmpL4 and MmpL5 were found to
+transport siderophores that were crucial to cope with iron star-
+vation in a mouse model of infection (60). M. tuberculosis MmpL7,
+-8, -10, and -11 were shown to play a direct role in mycobacterial in
+vivo survival by shaping the cell wall (61–63).
+We show here the reduced production of a previously unde-
+scribed glycolipid family, termed glycosyl diacylated nonadecyl
+diol (GDND), in the absence of MmpL8MAB. The cell wall
+composition and architecture modifications in the ΔmmpL8MAB
+mutant, either due to the reduced GDND production and/or
+altered levels of other lipid species, may explain changes in the
+interactions between bacteria and MΦ, resulting in decreased
+intracellular survival and virulence. These cell wall alterations in
+the ΔmmpL8MAB mutant might also underlie the lower number of
+granulomas formed in zebrafish independent of an SΔmmpL8MAB
+or an RΔmmpL8MAB infection as already observed with other
+deletion mutants in M. abscessus (33, 51).
+A peculiar characteristic of M. abscessus is its very large
+number of MmpL proteins, the highest among 108 mycobacterial
+strains (31). This observation is particularly striking compared
+with the SGM MmpL number, with twice the number of MmpLs
+in the M. abscessus clade compared with M. tuberculosis complex
+strains (31). Our phylogenetic studies corroborate these obser-
+vations by individualizing two M. abscessus MmpL-specific clades
+(blue and red spots in Fig. 2A) and by highlighting tandem du-
+plications (blue brackets in Fig. 2A).
+Several MmpL members from M. abscessus clustered with
+M. tuberculosis MmpL proteins as exemplified for MmpL8MAB
+that clustered with M. tuberculosis MmpL8, -10, and -12, although
+the phylogenetic distance was the highest with MmpL10TB.
+M. tuberculosis MmpL10 is involved in the biosynthesis and
+transport of DATs (64). Its closest homologs in M. smegmatis and
+in M. abscessus (MAB_0937c) were also reported to transport
+DATs but did not impact the intracellular persistence of M.
+abscessus (37). We confirm here that M. tuberculosis mmpL10 fails
+to complement the intracellular phenotype of ΔmmpL8MAB. Only
+transcomplementation of ΔmmpL8MAB with M. tuberculosis
+mmpL8 and -12 restored the WT intracellular phenotype, and this
+correlated with restoration of GDND production. This comple-
+mentation is intriguing with regard to the lipid substrate transported.
+MmpL12 of M. smegmatis is involved in the biosynthesis and/or
+transport of LOS (40), which is no longer functional in M. tuberculosis
+due to genomic reduction (65). Analysis of the syntenic conservation of
+the M. abscessus mmpL8 locus indicated that it is not conserved
+in M. smegmatis but dispersed across its genome (Fig. 2C). In
+M. smegmatis, LOSs are presumably transported by MmpL12 (40).
+However, most of the LOS locus from M. smegmatis (MSMEG_4731–
+MSMEG_4740) is not conserved in M. abscessus that does not
+produce LOS. MmpL8 of M. tuberculosis is involved in the bio-
+synthesis and/or transport of sulfolipid SL-1 (62), a lipid that is also
+not present in M. abscessus. The restoration of lipid export was not
+fully in agreement with the intracellular phenotypic behavior for all
+complemented strains. Considering that the MΦ or amoeba assays
+are stringent phenotypic assays, this difference reveals subtle sub-
+strate differences that might correlate more to the described ge-
+netic distances. This point might be solved by purifying each lipid
+substrate as done for GDND to unravel these differences. In ad-
+dition, MmpL8MAB and functional equivalent, M. tuberculosis
+MmpL8 and -12, might fulfill another role in addition to trans-
+port; they might be involved in the maturation of the exported
+lipid, a function already reported for M. tuberculosis MmpL8 (62).
+Of additional interest and to highlight scarcity of homologs of
+MAB_0855, we could not find syntenic conservation of the
+mmpL8MAB region in any other Mycobacterium, with the exception
+of M. chelonae, hence providing a unique signature characteristic
+of the MCC complex. When considering the genes surrounding the
+locus, synteny was observed only in M. tuberculosis, suggesting that
+the mmpL8MAB locus was lost in M. tuberculosis as part of the
+genomic reduction that occurred in the tubercle bacillus.
+In the M. tuberculosis genome, clusters harboring pks genes
+have been implicated in lipid biosynthesis and assembly (41). Most
+of these clusters also contain an MmpL-encoding gene that par-
+ticipates in the biosynthesis/export of lipids. In M. abscessus, the
+abundance of MmpL is not associated with a concomitant increase
+in pks genes, suggesting additional roles for MmpL, such as in de-
+toxification or drug efflux mechanisms as reported for M. tubercu-
+losis MmpL5 (66) rather than contributing to cell wall elaboration.
+From a structural perspective, GDND differs from PDIM by
+the presence of standard fatty acids (a C19 diol core replacing
+the phthiocerol and C16/C18 replacing the polymethylated
+mycocerosic acids) and by the presence of a Glc residue linked to
+the C19 diol. PDIM represents one of the most important cell
+wall-associated lipids involved in M. tuberculosis virulence (67).
+Transported by MmpL7MTB, it contributes to M. tuberculosis
+escape from the phagosome independent of the pore-forming
+activity of the ESX-1–secreted substrate EsxA (68). Likewise,
+PDIM acts in concert with the ESX-1 T7SS (69) to promote
+phagosomal escape. Notably, our original screen identified the
+ESX-4 locus as a major contributor to M. abscessus virulence in
+amoebae and MΦ. A deletion mutant of eccB4, which encodes a
+A
+B
+Fig. 5.
+The mmpL8 gene plays a role in M. abscessus in vivo survival and
+virulence. (A) Survival curves of embryos. Embryos were injected into the
+bloodstream with 200 cfu of tdTomato-expressing M. abscessus R (paren-
+tal strain), RΔmmpL8MAB mutant, or the complemented strain RΔmmpL8::
+mmpL8MAB (n = 20). Data are representative of two independent experi-
+ments. (B) Kinetics of granuloma formation. Embryos were i.v. infected with
+200 cfu of tdTomato-expressing M. abscessus R, M. abscessus S, RΔmmpL8MAB,
+SΔmmpL8MAB mutants, SΔmmpL8::mmpL8MAB, or RΔmmpL8::mmpL8MAB.
+Granulomas were then counted at 5 dpi. Histograms represent means ± SEM
+values calculated from two independent experiments. The statistical test used
+was the Fisher’s exact test (Left), and means were analyzed by ANOVA and the
+Tukey posttest (Right). *P < 0.05; **P < 0.01; ***P < 0.001; ****P < 0.0001.
+Dubois et al.
+PNAS
+|
+vol. 115
+|
+no. 43
+|
+E10153
+MICROBIOLOGY
+
+core structural element of ESX-4, acidified phagosomes and showed
+reduced signs of phagosome-to-cytosol contacts (39). By analogy
+with the PDIM/ESX-1 machinery found in M. tuberculosis, one may
+hypothesize that a similar mechanism involving the GDND/ESX-
+4 system might be used by M. abscessus to escape the phagosomal
+compartment. However, future studies will be required to test this
+attractive hypothesis.
+In conclusion, our study highlights the major role played by
+MmpL8MAB in controlling M. abscessus virulence and production
+of a family of glycolipids that seems unique to the MCC. As such,
+this could be considered as the basis of diagnostic markers for
+pulmonary infections caused by M. abscessus.
+Materials and Methods
+Strains, Cells, and Culture Conditions. Mycobacterial strains were grown aer-
+obically at 37 °C in Middlebrook 7H9 and on 7H11 (Sigma-Aldrich) medium
+supplemented with 0.2% glycerol and 1% glucose. When necessary, kanamycin,
+hygromycin (Thermo Fisher Scientific), and zeocin (Thermo Fisher Scientific)
+were added in the growth medium at 250, 1,000, and 100 μg/mL respectively.
+Murine J774.2 (Sigma-Aldrich) MΦ were grown at 37 °C under 5% CO2 in
+DMEM supplemented with 10% heat-inactivated FCS (FBS; Thermo Fisher
+Scientific), penicillin (100 IU/mL), and streptomycin (100 IU/mL; Thermo
+Fisher Scientific).
+The human promonocytic cell line, THP-1, was maintained in RPMI
+1640 glutamax (Thermo Fisher Scientific) and 10% heat-inactivated FBS at
+37 °C under 5% CO2. For differentiation into monocytes, 106 THP-1 cells were
+seeded into 12-well plates and activated with 20 ng/mL of Phorbol Myristate
+Acetate (Sigma-Aldrich) for 72 h.
+A. castellanii (ATCC30010) was grown in PYG Broth (70) for amplification.
+Tn Mutant Selection and Identification of the Tn Insertion. Selection of Tn
+mutants defective for growth in amoebae and MΦ and identification of the Tn
+insertion site were performed as described previously (39). The Tn insertion
+site was identified by nucleotide BLAST comparison against the Tn se-
+quence and the M. massiliense GO 06 genome hosted by the National
+Center for Biotechnology Information (NCBI). To confirm the BLAST results,
+the disrupted region was amplified by PCR using purified genomic DNA obtained
+from the mutant and a primer that hybridizes within the disrupted gene down-
+stream of the Tn insertion site (SI Appendix, Table S1).
+A
+D
+E
+B
+C
+Fig. 6.
+Production of a polar lipid is altered by de-
+letion of mmpL8MAB. (A and B) TLC showing a di-
+minished amount of a set of polar lipids in strains
+lacking mmpL8MAB. Polar lipids extracted from freeze-
+dried bacteria (A, S strain; B, R strain) were separated
+by TLC using chloroform:methanol:water [90:10:1
+(vol/vol/vol)] as the solvent system. TLCs were sub-
+sequently stained with orcinol [0.1% (wt/vol) in a
+20% (vol/vol) H2SO4 solution] and charred. The pres-
+ence of a particular lipid (the lipid with structure that
+was determined in this study; indicated with brackets) is
+decreased in the S Tn MYCMA_0439 mutant and KO
+ΔmmpL8MAB mutant, which is particularly evident in
+the M. abscessus R background lacking GPL. (C) TLC of
+lipids (named Pa3 lipid fraction) from the polar lipid
+fraction of the R M. abscessus strain. The presence of
+the particular lipid is again indicated with the bracket.
+(D) MALDI-MS and MSn analyses of purified lipids by
+successive fragmentations of relevant fragment ions.
+(Row 1) MALDI-MS spectrum of purified lipid. (Row 2)
+MS2 fragmentation spectrum of the parent ion at m/z
+987. (Row 3) MS3 fragmentation spectrum of the
+fragment ion [M-Hex + H]+ at m/z 825. (Row 4) MS4
+fragmentation spectrum of the fragment ion [M-Hex-
+C18 + H]+ at m/z 541. On top of the MALDI-MS spec-
+tra, the structure of a major component at m/z
+987 based on MSn, GC-MS, and NMR data is shown.
+(E) Multidimension NMR spectroscopy analysis of the
+purified lipid. (Top) 1H/1H TOCSY, (Middle) 1H/13C
+HSQC, and (Bottom) 1H/13C HSQC-TOCSY NMR spec-
+tra showing the spin system of the glycan moiety of
+the purified lipid.
+E10154
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1812984115
+Dubois et al.
+
+MAB_0855 Gene (mmpL8MAB) and Locus Description. A motif analysis was
+performed with InterProScan (71) to confirm that MAB_0855 belongs to the
+mmpL family, and all proteins encoded by genes from MAB_0845 to MAB_0864
+were also submitted to InterProScan (71) to check their annotation and to
+further predict the functions of their corresponding proteins when no func-
+tional annotation was provided. M. abscessus and M. tuberculosis mmpL phy-
+logeny was inferred by Maximum Likelihood using the PHYML software and the
+approximate likelihood-ratio test (aLRT) statistic. MAB_0855 and MAB_0937c
+phylogenetic comparison with other mycobacteria was performed by searching
+putative orthologs with the Opscan program with the “-H” and “-O” options,
+enabling the identification of a BBH (wwwabi.snv.jussieu.fr/public/opscan/). A
+list of BHs was obtained by replacing the « -H » option with the « -S » option.
+BHs displayed a score higher than 40. Conservation of the locus spanning
+from MAB_0845 to MAB_0864 was assessed by a BBH search in the species
+closest to M. abscessus: M. chelonae and M. immunogenum. Comparisons
+with saprophytic (M. smegmatis), opportunistic (M. avium), and strictly path-
+ogenic (M. tuberculosis) species were also performed. The loci were drawn
+with the genoPlotR package (72).
+Construction of the mmpL8MAB KO and Relative Complemented Mutants in the M.
+abscessus Subsp. abscessus Type Strain. A KO was performed in the M. abscessus
+subsp. abscessus S and R ATCC19977 strains using the recombineering approach
+(36, 39, 42, 73, 74). Complementation was performed by electrotransforming
+the mutant strains with the integrative vectors pMVH361::mmpL8MAB and
+pMVH361::MYCMA_0439. Complementation studies with the closest homolo-
+gous M. tuberculosis genes to M. abscessus mmpL8 [Rv1183 (MmpL10MTB),
+Rv1522c (MmpL12MTB), and Rv3823c (MmpL8MTB)] were performed in a similar
+fashion. Complementation study with the M. marinum mmpL7MAR (MMAR_1764)
+gene was also performed in a similar fashion but using the plasmid pMV306.
+Lipid Analyses. For exploratory systematic lipid analysis, bacteria were cul-
+tured in 100 mL LB medium without shaking for 2 wk to obtain mature
+pellicles. These bacteria were collected by centrifugation, autoclaved, and
+washed twice with PBS before they were lyophilized. Apolar and polar lipid
+fractions were extracted from exactly 50 mg of freeze-dried material (R
+ATCC19977 WT strain) and subsequently analyzed by thin-layer liquid
+chromatography as previously described (75). For lipid purifications, expo-
+nentially growing bacteria (S and R ATCC19977 WT, ΔmmpL8, and com-
+plemented strains) were plated on 7H10OADC agar plates (100 μL per plate)
+and incubated for 1 wk at 37 °C until a dense lawn of bacterial growth was
+obtained. Subsequently, bacteria were collected using an inoculation loop,
+suspended in PBS, autoclaved for 10 min at 121 °C, washed thrice with PBS,
+flash frozen in liquid nitrogen, and freeze dried. Apolar and polar lipid
+fractions were then obtained, and polar lipids were fractionated by two
+rounds of liquid flash chromatography on a silica gel column (80 g, 50 mm)
+using a chloroform:MeOH gradient (100:0–40:60). The lipid of interest was fi-
+nally purified by preparative TLC in chloroform:methanol [9:1 (vol/vol)].
+Monosaccharide composition was established by GC-flame ionization
+detector (FID) and GC-MS analyses of trimethylsilylated methylglycosides
+according to Kamerling et al. (76) using mesoinositol and scylloinositol as
+internal standards. Fatty acids were released by methyl esterification with
+0.5 M HCl in anhydrous methanol at 80 °C for 20 h, extracted with hep-
+tane, and identified by GC-MS as fatty acid methyl esters. Intact glycolipids
+were sequenced by MSn using an Axima Resonance MALDI quadrupole ion
+trap TOF instrument (Shimadzu). The sample was dissolved in chloroform:
+methanol [9:1 (vol/vol)] and mixed with 1 vol of a solution of 10 mg 2,5-
+dihydroxybenzoic acid in 1 mL chloroform:methanol [2:1 (vol/vol)] before
+spotting on an MALDI plate. The instrument was operated in positive ion
+and reflectron mode. Fragment ions were analyzed by collision-induced
+dissociation of the precursor ions, and argon was used as a collision gas.
+Before NMR spectroscopic analyses, the sample was repeatedly exchanged
+in CDCl3:CD3OD [2:1 (vol/vol); 99.97% purity; Eurisotop-Saclay] with in-
+termediate drying and then dissolved in CDCl3:CD3OD [2:1 (vol/vol)].
+Solution-state NMR experiments were recorded at 300 K on a Bruker
+Avance 900 spectrometer equipped with a 3-mm triple-resonance cryo-
+probe using Bruker standard pulse programs.
+Infection, Adhesion, and Phagosomal Escape Assays. MΦ infection experi-
+ments with the WT, ΔmmpL8, and complemented strains were performed as
+described (4, 42).
+Adhesion experiments to murine MΦ were performed by flow cytometry
+based on the method described by Hytönen et al. (77). Before infection, log-
+phase bacteria were stained with CFDA-SE 50 μM (Molecular Probes; Thermo
+Fisher Scientific) for 20 min at 37 °C with end-over-end rotation, washed twice
+with cold PBS, and kept on ice protected from light. In the meantime, MΦ
+were washed twice with DMEM, scraped, and resuspended in DMEM. The cells
+were incubated at 4 °C for 30 min with gentle agitation before the infection;
+50,000 cells were infected with the bacterial strains at a high multiplicity of
+infection (MOI) of 100 to favor bacteria-to-cell contacts and then incubated at
+4 °C for 45 min with gentle agitation. The cell–bacteria incubations were
+carried out in three parallel tubes, and the experiments were repeated twice
+with new batches of MΦ and labeled bacteria. The fluorescence intensity of
+the cells with adherent bacteria was measured with BD Fortessa equipment
+(Becton Dickinson Biosciences). The data obtained from the flow cytometer
+were analyzed using BD FACSDIVA software and the FlowJo software.
+Phagosome acidification and phagosomal escape FRET assays were con-
+ducted in THP-1 cells as previously described (78).
+Cytokine Assays. IL-1β secretion was measured as previously described (79).
+The FAM-FLICA caspase-1 Assay Kit (ImmunoChemistry Technologies) was
+used to evaluate the presence of catalytically active forms of caspase-
+1 p10 and p12. THP-1 cells were infected at an MOI of 10 for 3 h. As a
+positive control of apoptosis induction, cells were incubated with 500 nM LPS
+for 8 h at 37 °C. The adherent cells were gently dissociated with TrypLE
+Express reagent (Gibco; Thermo Fisher Scientific) as recommended. Cells
+were washed twice and resuspended in RPMI medium with 10% FBS before
+staining with 30×XFam-Vad-Fmk for 30 min at 37 °C. To gate specifically on
+differentiated intact cells, the cells were also stained with the CD11b anti-
+body (78) before treatment with 5% paraformaldehyde (PFA). Fixed cells
+were then analyzed by flow cytometry. The results are expressed as the
+percentage of cells harboring the caspase-1 p10 and p12 active forms.
+Zebrafish Infections. All zebrafish protocols adhered to the guidelines spec-
+ified by the Direction Sanitaire et Vétérinaire de l’Hérault et Comité
+d’Ethique pour l’Expérimentation Animale de la région Languedoc Roussil-
+lon under the reference CEEA-LR-1145. All efforts were made to minimize
+pain and discomfort according to European animal welfare regulations and
+standard protocols. Infection experiments were done using tdTomato-
+expressing M. abscessus strains and performed as described previously (28).
+Mortality was determined by recording the number of dead embryos daily.
+To evaluate granuloma formation, embryos at 5 dpi were embedded in 1%
+low melting point agarose and transferred to a Zeiss microscope with a Zeiss
+Plan NeoFluar Z 1×/0.25 objective for monitoring.
+Culture for Cording. In total, 4 million cfu of mycobacteria were cultured in
+1 mL of 7H9 supplemented with 1% glucose in a 24-well plate at 37 °C
+without agitation until visualization of a bacterial film on the surface of the
+medium. The plates were sealed with parafilm to avoid evaporation. The
+formation of cords was checked by observation with an optical microscope
+(SI Appendix, Fig. S5).
+ACKNOWLEDGMENTS. We thank B. Maury for cytometry settings. V.D. was
+supported by French Cystic Fibrosis Patients Association Vaincre la Mucoviscidose
+Grant RF20150501377. This work was supported by Fondation pour la Recherche
+Médicale Grant DEQ20150331719 (to L.K.) and Agence National de la Recherche
+Grant MyCat ANR-15-CE18-0007-01 (to Y.G. and L.K.).
+1. Glickman MS, Cox JS, Jacobs WR, Jr (2000) A novel mycolic acid cyclopropane syn-
+thetase is required for cording, persistence, and virulence of Mycobacterium tuber-
+culosis. Mol Cell 5:717–727.
+2. Makinoshima H, Glickman MS (2005) Regulation of Mycobacterium tuberculosis cell
+envelope composition and virulence by intramembrane proteolysis. Nature 436:406–409.
+3. Brambilla C, et al. (2016) Mycobacteria clumping increase their capacity to damage
+macrophages. Front Microbiol 7:1562.
+4. Roux A-L, et al. (2016) The distinct fate of smooth and rough Mycobacterium ab-
+scessus variants inside macrophages. Open Biol 6:160185.
+5. Singh P, Rameshwaram NR, Ghosh S, Mukhopadhyay S (2018) Cell envelope lipids in the
+pathophysiology of Mycobacterium tuberculosis. Future Microbiol 13:689–710.
+6. Jackson M (2014) The mycobacterial cell envelope-lipids. Cold Spring Harb Perspect
+Med 4:a021105.
+7. Gutiérrez AV, Viljoen A, Ghigo E, Herrmann J-L, Kremer L (2018) Glycopeptidolipids, a
+double-edged sword of the Mycobacterium abscessus complex. Front Microbiol 9:1145.
+8. Cole ST, et al. (1998) Deciphering the biology of Mycobacterium tuberculosis from the
+complete genome sequence. Nature 393:537–544.
+9. Kaur D, Guerin ME, Skovierová H, Brennan PJ, Jackson M (2009) Chapter 2: Biogenesis
+of the cell wall and other glycoconjugates of Mycobacterium tuberculosis. Adv Appl
+Microbiol 69:23–78.
+10. Brennan PJ (2003) Structure, function, and biogenesis of the cell wall of Mycobac-
+terium tuberculosis. Tuberculosis (Edinb) 83:91–97.
+Dubois et al.
+PNAS
+|
+vol. 115
+|
+no. 43
+|
+E10155
+MICROBIOLOGY
+
+11. Cox JS, Chen B, McNeil M, Jacobs WR, Jr (1999) Complex lipid determines tissue-
+specific replication of Mycobacterium tuberculosis in mice. Nature 402:79–83.
+12. Yu J, et al. (2012) Both phthiocerol dimycocerosates and phenolic glycolipids are re-
+quired for virulence of Mycobacterium marinum. Infect Immun 80:1381–1389.
+13. Cambier CJ, et al. (2014) Mycobacteria manipulate macrophage recruitment through
+coordinated use of membrane lipids. Nature 505:218–222.
+14. Domenech P, Reed MB, Barry CE, 3rd (2005) Contribution of the Mycobacterium tuber-
+culosis MmpL protein family to virulence and drug resistance. Infect Immun 73:3492–3501.
+15. Alibaud L, et al. (2011) A Mycobacterium marinum TesA mutant defective for major
+cell wall-associated lipids is highly attenuated in Dictyostelium discoideum and ze-
+brafish embryos. Mol Microbiol 80:919–934.
+16. Belisle JT, Pascopella L, Inamine JM, Brennan PJ, Jacobs WR, Jr (1991) Isolation and
+expression of a gene cluster responsible for biosynthesis of the glycopeptidolipid
+antigens of Mycobacterium avium. J Bacteriol 173:6991–6997.
+17. Pawlik A, et al. (2013) Identification and characterization of the genetic changes
+responsible for the characteristic smooth-to-rough morphotype alterations of clini-
+cally persistent Mycobacterium abscessus. Mol Microbiol 90:612–629.
+18. Sondén B, et al. (2005) Gap, a mycobacterial specific integral membrane protein, is
+required for glycolipid transport to the cell surface. Mol Microbiol 58:426–440.
+19. Billman-Jacobe H (2004) Glycopeptidolipid synthesis in mycobacteria. Curr Sci 86:
+111–114.
+20. Byrd TF, Lyons CR (1999) Preliminary characterization of a Mycobacterium abscessus
+mutant in human and murine models of infection. Infect Immun 67:4700–4707.
+21. Catherinot E, et al. (2009) Acute respiratory failure involving an R variant of Myco-
+bacterium abscessus. J Clin Microbiol 47:271–274.
+22. Bernut A, et al. (2016) Insights into the smooth-to-rough transitioning in Mycobac-
+terium bolletii unravels a functional Tyr residue conserved in all mycobacterial MmpL
+family members. Mol Microbiol 99:866–883.
+23. Bernut A, Herrmann J-L, Ordway D, Kremer L (2017) The diverse cellular and animal
+models to decipher the physiopathological traits of Mycobacterium abscessus in-
+fection. Front Cell Infect Microbiol 7:100.
+24. Kreutzfeldt KM, et al. (2013) Molecular longitudinal tracking of Mycobacterium ab-
+scessus spp. during chronic infection of the human lung. PLoS One 8:e63237.
+25. Jönsson BE, et al. (2007) Molecular epidemiology of Mycobacterium abscessus, with
+focus on cystic fibrosis. J Clin Microbiol 45:1497–1504.
+26. Qvist T, et al. (2016) Comparing the harmful effects of nontuberculous mycobacteria
+and Gram negative bacteria on lung function in patients with cystic fibrosis. J Cyst
+Fibros 15:380–385.
+27. Catherinot E, et al. (2007) Hypervirulence of a rough variant of the Mycobacterium
+abscessus type strain. Infect Immun 75:1055–1058.
+28. Bernut A, et al. (2014) Mycobacterium abscessus cording prevents phagocytosis and
+promotes abscess formation. Proc Natl Acad Sci USA 111:E943–E952.
+29. Whang J, et al. (2017) Mycobacterium abscessus glycopeptidolipids inhibit macro-
+phage apoptosis and bacterial spreading by targeting mitochondrial cyclophilin D.
+Cell Death Dis 8:e3012.
+30. Brosch R, et al. (2000) Comparative genomics of the mycobacteria. Int J Med Microbiol
+290:143–152.
+31. Viljoen A, et al. (2017) The diverse family of MmpL transporters in mycobacteria: From
+regulation to antimicrobial developments. Mol Microbiol 104:889–904.
+32. Chalut C (2016) MmpL transporter-mediated export of cell-wall associated lipids and
+siderophores in mycobacteria. Tuberculosis (Edinb) 100:32–45.
+33. Dupont C, et al. (2016) A new piperidinol derivative targeting mycolic acid transport
+in Mycobacterium abscessus. Mol Microbiol 101:515–529.
+34. Kozikowski AP, et al. (2017) Targeting mycolic acid transport by Indole-2-carboxamides
+for the treatment of Mycobacterium abscessus infections. J Med Chem 60:5876–5888.
+35. Viljoen A, et al. (2017) Controlling extra- and intramacrophagic Mycobacterium ab-
+scessus by targeting mycolic acid transport. Front Cell Infect Microbiol 7:388.
+36. Medjahed H, Reyrat J-M (2009) Construction of Mycobacterium abscessus defined glyco-
+peptidolipid mutants: Comparison of genetic tools. Appl Environ Microbiol 75:1331–1338.
+37. Burbaud S, et al. (2016) Trehalose polyphleates are produced by a glycolipid bio-
+synthetic pathway conserved across phylogenetically distant mycobacteria. Cell Chem
+Biol 23:278–289.
+38. Llorens-Fons M, et al. (2017) Trehalose polyphleates, external cell wall lipids in My-
+cobacterium abscessus, are associated with the formation of clumps with cording
+morphology, which have been associated with virulence. Front Microbiol 8:1402.
+39. Laencina L, et al. (2018) Identification of genes required for Mycobacterium abscessus
+growth in vivo with a prominent role of the ESX-4 locus. Proc Natl Acad Sci USA 115:
+E1002–E1011.
+40. Etienne G, et al. (2009) Identification of the polyketide synthase involved in the biosynthesis
+of the surface-exposed lipooligosaccharides in mycobacteria. J Bacteriol 191:2613–2621.
+41. Kolattukudy PE, Fernandes ND, Azad AK, Fitzmaurice AM, Sirakova TD (1997) Bio-
+chemistry and molecular genetics of cell-wall lipid biosynthesis in mycobacteria. Mol
+Microbiol 24:263–270.
+42. Bakala N’Goma JC, et al. (2015) Mycobacterium abscessus phospholipase C expression
+is induced during coculture within amoebae and enhances M. abscessus virulence in
+mice. Infect Immun 83:780–791.
+43. Medjahed H, Singh AK (2010) Genetic manipulation of Mycobacterium abscessus.
+Curr Protoc Microbiol Chapter 10:Unit 10D.2.
+44. Pethe K, et al. (2004) Isolation of Mycobacterium tuberculosis mutants defective in
+the arrest of phagosome maturation. Proc Natl Acad Sci USA 101:13642–13647.
+45. Queval CJ, Brosch R, Simeone R (2017) The macrophage: A disputed fortress in the
+battle against Mycobacterium tuberculosis. Front Microbiol 8:2284.
+46. Collins AC, et al. (2015) Cyclic GMP-AMP synthase is an innate immune DNA sensor for
+Mycobacterium tuberculosis. Cell Host Microbe 17:820–828.
+47. Kupz A, et al. (2016) ESAT-6-dependent cytosolic pattern recognition drives non-
+cognate tuberculosis control in vivo. J Clin Invest 126:2109–2122.
+48. Wassermann R, et al. (2015) Mycobacterium tuberculosis differentially activates cGAS-
+and inflammasome-dependent intracellular immune responses through ESX-1. Cell
+Host Microbe 17:799–810.
+49. Watson RO, et al. (2015) The cytosolic sensor cGAS detects Mycobacterium tubercu-
+losis DNA to induce type I interferons and activate autophagy. Cell Host Microbe 17:
+811–819.
+50. Bernut A, et al. (2015) Deciphering and imaging pathogenesis and cording of My-
+cobacterium abscessus in zebrafish embryos. J Vis Exp 103:e53130.
+51. Halloum I, et al. (2016) Deletion of a dehydratase important for intracellular growth
+and cording renders rough Mycobacterium abscessus avirulent. Proc Natl Acad Sci
+USA 113:E4228–E4237.
+52. Indrigo J, Hunter RL, Jr, Actor JK (2003) Cord factor trehalose 6,6′-dimycolate (TDM)
+mediates trafficking events during mycobacterial infection of murine macrophages.
+Microbiology 149:2049–2059.
+53. Andréjak C, et al. (2013) Chronic respiratory disease, inhaled corticosteroids and risk
+of non-tuberculous mycobacteriosis. Thorax 68:256–262.
+54. Chu H, et al. (2014) Prevalence of nontuberculous mycobacteria in patients with
+bronchiectasis: A meta-analysis. Arch Med Sci 10:661–668.
+55. Olivier KN, et al.; Nontuberculous Mycobacteria in Cystic Fibrosis Study Group (2003)
+Nontuberculous mycobacteria. I. Multicenter prevalence study in cystic fibrosis. Am J
+Respir Crit Care Med 167:828–834.
+56. Floto RA, et al. (2016) US cystic fibrosis foundation and European cystic fibrosis society
+consensus recommendations for the management of non-tuberculous mycobacteria
+in individuals with cystic fibrosis: Executive summary. Thorax 71:88–90.
+57. Chan ED, Iseman MD (2013) Underlying host risk factors for nontuberculous myco-
+bacterial lung disease. Semin Respir Crit Care Med 34:110–123.
+58. Park IK, Olivier KN (2015) Nontuberculous mycobacteria in cystic fibrosis and non-
+cystic fibrosis bronchiectasis. Semin Respir Crit Care Med 36:217–224.
+59. Lamichhane G, Tyagi S, Bishai WR (2005) Designer arrays for defined mutant analysis
+to detect genes essential for survival of Mycobacterium tuberculosis in mouse lungs.
+Infect Immun 73:2533–2540.
+60. Wells RM, et al. (2013) Discovery of a siderophore export system essential for viru-
+lence of Mycobacterium tuberculosis. PLoS Pathog 9:e1003120.
+61. Jain M, Cox JS (2005) Interaction between polyketide synthase and transporter
+suggests coupled synthesis and export of virulence lipid in M. tuberculosis. PLoS
+Pathog 1:e2.
+62. Converse SE, et al. (2003) MmpL8 is required for sulfolipid-1 biosynthesis and Myco-
+bacterium tuberculosis virulence. Proc Natl Acad Sci USA 100:6121–6126.
+63. Pacheco SA, Hsu F-F, Powers KM, Purdy GE (2013) MmpL11 protein transports mycolic
+acid-containing lipids to the mycobacterial cell wall and contributes to biofilm for-
+mation in Mycobacterium smegmatis. J Biol Chem 288:24213–24222.
+64. Belardinelli JM, et al. (2014) Biosynthesis and translocation of unsulfated acyltreha-
+loses in Mycobacterium tuberculosis. J Biol Chem 289:27952–27965.
+65. Boritsch EC, et al. (2016) pks5-recombination-mediated surface remodelling in My-
+cobacterium tuberculosis emergence. Nat Microbiol 1:15019.
+66. Briffotaux J, Huang W, Wang X, Gicquel B (2017) MmpS5/MmpL5 as an efflux pump in
+Mycobacterium species. Tuberculosis (Edinb) 107:13–19.
+67. Astarie-Dequeker C, et al. (2009) Phthiocerol dimycocerosates of M. tuberculosis
+participate in macrophage invasion by inducing changes in the organization of
+plasma membrane lipids. PLoS Pathog 5:e1000289.
+68. Quigley J, et al. (2017) The cell wall lipid PDIM contributes to phagosomal escape and
+host cell exit of Mycobacterium tuberculosis. MBio 8:e00148-17.
+69. Augenstreich J, et al. (2017) ESX-1 and phthiocerol dimycocerosates of Mycobacte-
+rium tuberculosis act in concert to cause phagosomal rupture and host cell apoptosis.
+Cell Microbiol 19:e12726.
+70. Rowbotham TJ (1983) Isolation of Legionella pneumophila from clinical specimens via
+amoebae, and the interaction of those and other isolates with amoebae. J Clin Pathol
+36:978–986.
+71. Quevillon E, et al. (2005) InterProScan: Protein domains identifier. Nucleic Acids Res
+33:W116–W120.
+72. Guy L, Kultima JR, Andersson SGE (2010) genoPlotR: Comparative gene and genome
+visualization in R. Bioinformatics 26:2334–2335.
+73. Le Moigne V, et al. (2016) MgtC as a host-induced factor and vaccine candidate
+against Mycobacterium abscessus infection. Infect Immun 84:2895–2903.
+74. van Kessel JC, Hatfull GF (2007) Recombineering in Mycobacterium tuberculosis. Nat
+Methods 4:147–152.
+75. Besra GS (1998) Preparation of cell-wall fractions from Mycobacteria. Mycobacteria
+Protocols, eds Parish T, Stoker NG (Humana, Totowa, NJ), Vol 101, pp 91–108.
+76. Kamerling JP, Gerwig GJ, Vliegenthart JF, Clamp JR (1975) Characterization by gas-liquid
+chromatography-mass spectrometry and proton-magnetic-resonance spectroscopy of
+pertrimethylsilyl methyl glycosides obtained in the methanolysis of glycoproteins and
+glycopeptides. Biochem J 151:491–495.
+77. Hytönen J, Haataja S, Finne J (2006) Use of flow cytometry for the adhesion analysis of
+Streptococcus pyogenes mutant strains to epithelial cells: Investigation of the possible
+role of surface pullulanase and cysteine protease, and the transcriptional regulator
+Rgg. BMC Microbiol 6:18.
+78. Simeone R, et al. (2015) Cytosolic access of Mycobacterium tuberculosis: Critical im-
+pact of phagosomal acidification control and demonstration of occurrence in vivo.
+PLoS Pathog 11:e1004650.
+79. Gröschel MI, et al. (2017) Recombinant BCG expressing ESX-1 of Mycobacterium
+marinum combines low virulence with cytosolic immune signaling and improved TB
+protection. Cell Rep 18:2752–2765.
+E10156
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1812984115
+Dubois et al.

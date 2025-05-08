@@ -1,0 +1,3063 @@
+REVIEW
+published: 23 October 2020
+doi: 10.3389/fcimb.2020.595029
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+1
+October 2020 | Volume 10 | Article 595029
+Edited by:
+Teresa Thurston,
+Imperial College London,
+United Kingdom
+Reviewed by:
+Gregory T. Robertson,
+Colorado State University,
+United States
+Lee-Ann H. Allen,
+University of Missouri, United States
+*Correspondence:
+Volker Briken
+vbriken@umd.edu
+Specialty section:
+This article was submitted to
+Bacteria and Host,
+a section of the journal
+Frontiers in Cellular and Infection
+Microbiology
+Received: 14 August 2020
+Accepted: 22 September 2020
+Published: 23 October 2020
+Citation:
+Augenstreich J and Briken V (2020)
+Host Cell Targets of Released Lipid
+and Secreted Protein Effectors of
+Mycobacterium tuberculosis.
+Front. Cell. Infect. Microbiol.
+10:595029.
+doi: 10.3389/fcimb.2020.595029
+Host Cell Targets of Released Lipid
+and Secreted Protein Effectors of
+Mycobacterium tuberculosis
+Jacques Augenstreich and Volker Briken*
+Department of Cell Biology and Molecular Genetics, University of Maryland, College Park, MD, United States
+Mycobacterium tuberculosis (Mtb) is a very successful pathogen, strictly adapted to
+humans and the cause of tuberculosis. Its success is associated with its ability to inhibit
+host cell intrinsic immune responses by using an arsenal of virulence factors of different
+nature. It has evolved to synthesize a series of complex lipids which form an outer
+membrane and may also be released to enter host cell membranes. In addition, secreted
+protein effectors of Mtb are entering the host cell cytosol to interact with host cell proteins.
+We brieﬂy discuss the current model, involving the ESX-1 type seven secretion system
+and the Mtb lipid phthiocerol dimycoserosate (PDIM), of how Mtb creates pores in the
+phagosomal membrane to allow Mtb proteins to access to the host cell cytosol. We
+provide an exhaustive list of Mtb secreted proteins that have effector functions. They
+modify (mostly inhibit but sometimes activate) host cell pathways such as: phagosome
+maturation, cell death, cytokine response, xenophagy, reactive oxygen species (ROS)
+response via NADPH oxidase 2 (NOX2), nitric oxide (NO) response via NO Synthase 2
+(NOS2) and antigen presentation via MHC class I and class II molecules. We discuss the
+host cell targets for each lipid and protein effector and the importance of the Mtb effector
+for virulence of the bacterium.
+Keywords: Mycobacterium tuberculosis, effector, cell death, lipids, cytokines, phagosome maturation, NOX2,
+ESX-1
+INTRODUCTION
+Mtb is the bacterium responsible for the highest number of deaths annually caused by an infection
+disease. Its success as human pathogen is at least partially due to the ability of Mtb to evade the host
+immune response (Liu et al., 2017; Queval et al., 2017; Upadhyay et al., 2018; Bussi and Gutierrez,
+2019; Sia and Rengarajan, 2019). On the other side there was intense selective pressure on humans
+to develop immune responses that could drive active tuberculosis infections into latent ones in
+order for the host to survive (Moreira-Teixeira et al., 2018; Olive and Sassetti, 2018; Simmons
+et al., 2018; Correa-Macedo et al., 2019). Ever since the ﬁrst observation that intracellular Mtb
+inhibits the normal progression of phagosome maturations in the 1970s (Armstrong and Hart,
+1971), the “How” and “What” of Mtb-mediated host cell manipulation have been under intense
+investigation. The translational research potential to exploit this knowledge, either for directly
+targeting Mtb eﬀectors or for developing host targeted therapeutics, is important due to the urgent
+need of novel drugs to treat tuberculosis. Nevertheless, progress was limited for a long time due to
+the absence of genetic tools to modify Mtb. This changed in the early 1990s when pioneering work
+established the ﬁrst tools to allow foreign gene expression in mycobacteria (Jacobs et al., 1987; Ranes
+et al., 1990) and to create a speciﬁc gene deletion mutant (Bardarov et al., 2002). Recently, ORBIT
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+and CRISPRi technologies have been developed to simplify
+gene deletion/suppression approaches in Mtb (Rock et al.,
+2017; Murphy et al., 2018). The genetic toolbox was quickly
+expanded to include high-throughput gene disruption capacity
+via transposon (Tn)-mediated approaches which allowed for loss-
+of-function genetic screens (Camacho et al., 1999; Cox et al.,
+1999). The transposon approach was improved and combined
+with advances in gene sequencing technology to generate the
+TnSeq approach which allows for loss-of-function screens on
+a population basis (Long et al., 2015). Furthermore, shuttle
+cosmids were developed to be able to express large regions
+of the Mtb genome in non-tuberculoid mycobacteria in order
+to execute gain-of-function genetic screens (Bange et al., 1999;
+Velmurugan et al., 2007). Similarly, the genetic modiﬁcation
+of host cells via siRNA and CRISPR/Cas9 allows for genome-
+wide genetic screens that can be combined with high-throughput
+readouts in order to identify host cell genes involved in
+speciﬁc host responses to Mtb infections (Kumar et al., 2010).
+The Collaborative Cross collection of mouse strains was used
+to identify host susceptibility and resistance genes following
+Mtb infections (Smith et al., 2019). These breakthroughs in
+experimental approaches have already led to seminal ﬁndings
+on Mtb lipid and protein eﬀectors and their host cell targets.
+The goal of this review is to provide an overview of the current
+knowledge of secreted Mtb proteins and lipids, their mechanisms
+of action and their importance for virulence of Mtb.
+MTB EFFECTOR PROTEINS AND THEIR
+TARGETS IN THE HOST CELL
+What are some of the important characteristics of Mtb proteins
+that interact with the host cell? Many eﬀectors need to be secreted
+by the bacterium and hence the secretion system for which
+they are a substrate is an important feature of the eﬀector.
+The Mtb genome encodes for ﬁve type-seven secretion systems
+(T7SS), ESX-1 to ESX-5. They mediate the secretion of two family
+of proteins, EsxA-like proteins which are part of the Trp-X-
+Gly (WXG) family, and proteins harboring a Pro-Glu (PE) or
+Pro-Pro-Glu (PPE) N-terminal motif. The main substrates of
+ESX-1 are EsxA and EsxB. The ESX-3 system transports the
+EsxA/B paralogues EsxG/H. There is very little information on
+the substrates of the ESX-2 and ESX-4 systems. Finally, ESX-
+5 is responsible for secretion of a large number of proteins
+many of which are part of the PE/PPE superfamily (Gröschel
+et al., 2016; Bosserman and Champion, 2017). The heterologous
+expression of PE/PPE proteins in M. smegmatis (Msme) is a
+commonly used approach to characterize these proteins since
+they are absent in this mycobacterial species. Nevertheless, Msme
+also does not express an ESX-5 system, so the transport of these
+heterologously-expressed Mtb proteins is unknown. In order to
+focus the scope of this review we have decided to not include a
+discussion of Mtb PE/PPE eﬀectors expressed in Msme, unless
+there is additional experimental evidence derived from Mtb
+deletion mutant or ectopic expression of the Mtb protein in a
+host cell. Furthermore, we also decided to limit the review to
+proteins that are secreted and released by Mtb which excludes
+many PE/PPE family proteins because they remain associated
+with the Mtb cell wall (e.g., PE-PGRS33). We point the reader to a
+current and exhaustive review on PE/PPE Mtb proteins (De Maio
+et al., 2020). In the absence of experimental data, we used SignalP
+5.0 (Almagro Armenteros et al., 2019) to predict the presence of
+a signal peptide which indicates secretion via the SecA1/2 or Tat
+secretion systems.
+Another important characteristic is the function of the
+eﬀector. Protein tyrosine phosphatases A and -B (PtpA, PtpB)
+and the secreted acid phosphatase of Mtb (SapM) are the only
+three phosphatases known to be secreted by Mtb (Koul et al.,
+2000; Saleh and Belisle, 2000) (for more detailed review see
+Wong et al., 2013). The Mtb genome encodes 11 serine/threonine
+protein kinases of which 9 have a single transmembrane domain,
+an extracellular sensor domain and the intracellular kinase
+domain (Av-Gay and Everett, 2000; Prisic and Husson, 2014).
+PknG and PknK have no transmembrane domain but only
+PknG has been shown to be secreted (Prisic and Husson, 2014).
+In addition, Mtb encodes for the tyrosine kinase PtkA which
+phosphorylates and activates the phosphatase PtpA (Zhou et al.,
+2015; Jaiswal et al., 2019). In addition to kinases and phosphatases
+there is a wide range of other enzymatic activities reported for
+eﬀectors (Table 1) but these are not always associated with their
+function in host cell manipulation but rather with their primary
+function in Mtb homeostasis (e.g., echA2 Truong and Penn,
+2020). Finally, for many eﬀectors no speciﬁc activity has been
+determined yet.
+One of the most interesting feature of a secreted eﬀector
+is its host cell target (Table 1). The identiﬁcation of a target
+can be fairly straight forward if there is a strong binding
+aﬃnity which allows for co-immunoprecipitation or column-
+based enrichment approaches. Interactions that are of low
+aﬃnity are much harder to characterize which is probably one
+reason that for many Mtb eﬀectors their host cell targets have
+not been identiﬁed yet (Table 1). Related to the targeted host
+cell protein is the impact of the Mtb eﬀector on the host
+cell signaling pathways. The manipulation of proinﬂammatory
+cytokine responses, phagosome maturation, autophagy and host
+cell death are the major pathways targeted by Mtb that have
+been identiﬁed today (Table 1). Since these host cell pathways
+are interconnected (for example, proinﬂammatory cytokine
+signaling may aﬀect host cell death) a speciﬁc Mtb eﬀector may
+aﬀect more than one host cell signaling pathway.
+Finally, what is the contribution of a given Mtb protein
+eﬀector to the virulence of the bacterium? The answer to that
+question is complicated by many factors. One of them being
+the redundancy of Mtb eﬀector proteins for a given host cell
+signaling pathway. For example, many proteins and some lipids
+target the maturation of the Mtb phagosome (Tables 1, 2). So,
+studying their individual eﬀect on phagosome maturation will
+show meaningful diﬀerences but when taken into context of an
+infected mouse lung these diﬀerences observed during ex vivo
+infections may not be important enough to aﬀect the overall
+survival of Mtb in the mouse lung. An approach to overcoming
+this hurdle would be by generating double or even triple Mtb
+gene deletion mutants. Another complicating factor is how to
+be sure if the observed in vivo eﬀect of a given Mtb mutant
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+2
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+FIGURE 1 | Model of the mechanism of membrane lysis by the cooperation of ESX-1 and PDIM. ESX-1 secretes EsxA and EsxB in a 1:1 heterodimer. This dimer is
+separated upon pH decrease and / or post-translational modiﬁcations, and free EsxA can induce pore formation. PDIM can potentiate EsxA membranolytic activity by
+either synergizing the pore forming activity of EsxA or by acting on the EsxA/B heterodimer complex separation.
+is actually due to the lack of manipulation of the speciﬁc host
+cell signaling pathway and not instead due to some secondary
+function of the Mtb protein during in vivo infections. In the
+most extreme cases of moonlighting, Mtb eﬀector proteins such
+as echA2 (Truong and Penn, 2020) this is obvious because of
+the known function of echA2 in bacterial homeostasis, but it
+is actually a concern for any Mtb deletion mutant used during
+in vivo infections. One way to address this question is to use a
+genetic approach by infecting wild type mice but also a knock-
+out mouse strain that is deﬁcient in the host cell signaling
+pathway that the Mtb eﬀector is targeting. If the knock-out
+mouse strain rescues the virulence of the Mtb mutant strain
+when compared to wild-type Mtb, it is fair to assume that the
+in vivo attenuation (or hypovirulence for that matter) is due
+to the speciﬁc host cell signaling pathway that the Mtb eﬀector
+protein targets.
+HOW DO MTB PROTEINS GAIN ACCESS
+TO THE HOST CELL CYTOSOL?
+In order for secreted Mtb proteins to reach host cell targets
+they have to overcome at least two barriers: the ﬁrst one
+being the double membrane of Mtb (Hoﬀmann et al., 2008;
+Zuber et al., 2008) and the second one being the phagosomal
+membrane (Figure 1). The protein secretion systems of Mtb have
+been extensively reviewed elsewhere (Ligon et al., 2012; Majlessi
+et al., 2015). ESX-1 is arguably the most extensively studied
+member of T7SS in Mtb as its crucial importance in pathogenesis
+was described in numerous studies and reviewed extensively
+(Gröschel et al., 2016; Bosserman and Champion, 2017; Vaziri
+and Brosch, 2019). It is likely that the tremendous importance of
+ESX-1 for the virulence of Mtb is due to the fact that it allows Mtb
+eﬀectors to gain access to the host cell cytosol by permeabilization
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+3
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+of the phagosomal membrane (Figure 1). Gaining access to the
+cytosol via phagosomal membrane permeabilization in order to
+target host cell targets with bacterial eﬀectors is a successful
+strategy shared with many other intracellular pathogens (Kumar
+and Valdivia, 2009). The crucial virulence factor secreted by
+ESX-1 for the permeabilization process is EsxA (also named
+ESAT-6), which is secreted as a 1:1 heterodimer with EsxB (also
+named CFP-10) (Renshaw et al., 2005). EsxA membranolytic
+activity was ﬁrst observed by Hsu et al. (2003). Since then
+numerous studies aimed to dissect the mechanism of action
+leading to membrane lysis (reviewed elsewhere Peng and Sun,
+2016). But recently a study cast a doubt on published EsxA
+in vitro studies suggesting that traces of detergent left from
+the puriﬁcation process were responsible for the membranolytic
+activity observed (Conrad et al., 2017). Nevertheless, some
+studies were performed with detergent-free puriﬁcation process
+and showed an EsxA pore-forming activity on membranes (de
+Jonge et al., 2007; Ma et al., 2015; Zhang et al., 2016; Ray et al.,
+2019; Aguilera et al., 2020; Augenstreich et al., 2020). Regardless
+of this confounding issue, there is good agreement that one
+crucial step for the lytic activity of EsxA is the separation of
+EsxA from EsxB after the secretion of the heterodimer through
+the ESX-1 system. That process can be mediated through an
+acidiﬁcation that can lead to EsxA release and membrane binding
+(de Jonge et al., 2007). In contrast, other reports show that the
+membrane lysis process seem to happen at a mildly acidic pH
+and Mtb could rupture the phagosomal membrane even after
+a baﬁlomycin treatment which inhibits phagosome acidiﬁcation
+(Simeone et al., 2015; Augenstreich et al., 2017). Hemolysis
+studies also suggested that a RD1-mediated lysis can happen at
+pH7 (Smith et al., 2008; Conrad et al., 2017; Augenstreich et al.,
+2020). Thus, the separation of the EsxA/EsxB complex seems
+to take place at neutral pH. A new study started to unravel
+this mechanism by showing EsxA undergo acetylation through
+secretion that increases EsxA/EsxB separation by decreasing
+the complex stability and contributes to M. marinum (Mm)
+phagosome escape (Aguilera et al., 2020). The lipidic virulence
+factor PDIM also showed to be essential for phagosomal escape
+during macrophages infection by Mtb (Augenstreich et al., 2017;
+Barczak et al., 2017; Quigley et al., 2017; Lerner et al., 2018). It
+is tempting to hypothesize that PDIM might also play a part in
+this process, that would explain the membrane lysis observed
+at neutral pH and that the lysis occurs at the contact point
+between the bacteria and the target membrane. But this will
+require additional studies to ﬁnally resolve the exact molecular
+mechanism of EsxA-mediated membrane lysis. Finally, even if
+EsxA is the main factor responsible for the lysis, other factors may
+be participating in the process, like the sphingomyelinase SpmT
+of Mtb (Speer et al., 2015) or uncharacterized ESX-1 associated
+factor(s) in Mm (Lienard et al., 2020).
+It
+was
+long
+thought
+that
+the
+EsxA/ESX1-dependent
+phagosomal rupture was restricted to Mtb and Mm, since
+Msme despite encoding an ESX-1 system fails to escape the
+phagosome in macrophages. But recently it was described
+that M. abscessus was also able to rupture the phagosome, but
+through the use of ESX-4 (Laencina et al., 2018). Interestingly,
+eccB4 deﬁcient M. abscessus strains failed to inhibit phagosome
+acidiﬁcation and to induce phagosomal rupture. It is linked to
+a secretion defect of the EsxA/EsxB-like complex EsxT/EsxU
+and one might speculate they act like their ESX-1 counterparts
+(Laencina et al., 2018). Thus, for M. abscessus that lacks an
+ESX-1 system, ESX-4 seems to perform the functions associated
+with ESX-1 in Mtb. In a potentially analogous mechanism to
+the EsxA/PDIM synergy described for Mtb, a new glycolipid
+was characterized in M. abscessus and its transport to the
+mycobacterial surface is required for phagosomal rupture
+(Dubois et al., 2018).
+ROLE OF MTB PROTEINS IN HOST
+MANIPULATION (TABLE 1)
+Phagosome Maturation
+The uptake of Mtb by phagocytes generates a phagosome, the
+Mtb-containing vacuole (MCV). The normal maturation process
+of a phagosome is to fuse with early endosomes, then late
+endosomes and ﬁnally lysosomes to gradually acidify its lumen,
+acquire acidic protease and hydrolase in order to destroy the
+phagosomal bacterium (Upadhyay et al., 2018). One of the
+ﬁrst immune evasion mechanisms assigned to Mtb was its
+capacity to prevent the fusion of lysosomes with the MCV
+(Armstrong and Hart, 1971). These excellent recent reviews
+provide additional information of Mtb-mediated inhibition
+of phagosome maturation (Upadhyay et al., 2018; Bussi and
+Gutierrez, 2019).
+EsxH: The ESX-3 secretion system has a limited set of
+substrates comprised by EsxG-EsxH, PE5-PPE4, and the PE15-
+PPE20 heterodimers (Tufariello et al., 2016). EsxG and EsxH are
+EsxA and EsxB-like proteins respectively, which resolved in a
+1:1 heterodimer structure is very similar to the EsxA/B complex
+but with a diﬀerent function (Ilghari et al., 2011). A yeast two-
+hybrid (Y2H) screen identiﬁed the interaction of Mtb but not
+Msme EsxH with HRS (Hepatocyte Growth Factor-Regulated
+Tyrosine Kinase Substrate) (Mehra et al., 2013). HRS is important
+in the initial assembly of the ESCRT machinery which functions
+in transport of endosome to lysosomes for certain receptors
+and cargo (Szymanska et al., 2018). This interaction could be
+conﬁrmed by co-immunoprecipitation experiments in HEK293
+cells expressing EsxH and EsxG (Mehra et al., 2013). Importantly,
+the overexpression of EsxG/EsxH in Mtb increased the capacity
+of the bacteria to inhibit phagosome maturation (Mehra et al.,
+2013). The knock-down of HRS as well as downstream eﬀector
+Tsg101 (one component of the ESCRT machinery) both resulted
+in a decreased MCV maturation showing that the host cell
+target of EsxH is functionally important (Mehra et al., 2013).
+It was subsequently shown that the inhibition of ESCRT by
+EsxH also reduced the capacity of macrophages and dendritic
+cells to present Mtb antigens and prime T-cells ex vivo and in
+vivo (Portal Celhay et al., 2016). Finally, ESCRT is recruited to
+the site of minor membrane damage and since Mtb, via ESX-
+1 and PDIM, permeabilizes the phagosomal membrane it was
+consistent with an ESX-1 dependent recruitment of ESCRT to
+the MCV (Mittal et al., 2018). Mtb is required to permeabilize
+the phagosomal membrane in order to manipulate the host cell.
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+4
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+TABLE 1 | Summary overview of Mtb protein effectors.
+Name
+Gene ID
+Secretion pathway
+Function
+Host target
+Host cell process
+Impact of gene deletion on
+Mtb virulence
+PtpB
+Rv0153c
+?
+Phosphatase
+?
+?
+Attenuated ex vivo and in vivo
+(guinea pig)
+HBHA
+Rv0475
+?
+?
+Apoptosis (A)
+No effect in vivo
+SodA
+Rv3846
+SecA2
+Superoxide dismutase
+Phagosomal
+Superoxides
+Apoptosis (I)
+Attenuated in vivo
+Rv3654c
+Rv3654c
+Predicted TAT
+?
+PSF
+Apoptosis (I)
+Attenuated ex vivo
+Rv3033
+Rv3033
+Predicted SecA1/2 SP
+?
+?
+Apoptosis (I)
+Attenuated ex vivo but no data
+for in vivo
+GroEL2/HSP65
+Rv0440
+?
+Chaperone
+Mortalin
+Apoptosis (I)
+?
+Eis
+Rv2416c
+?
+lysine
+Nε-acetyltransferase
+activity
+JNK
+Apoptosis (I),
+Xenophagy (I), Cytokine
+response (I)
+Not attenuated in vivo
+MPT53/DsbE
+Rv2878c
+Predicted SecA1/2
+Disulﬁde oxidoreductase
+Tak1
+Cytokine response (A)
+Hypervirulent in vivo
+PPE13
+ESX-5
+?
+NLRP3
+Cytokine response (A)
+?
+EchA1
+Rv0222
+?
+Probable enoyl-CoA
+hydratase
+SHP1, TRAF6
+Cytokine response (I)
+Attenuated in vivo
+EsxA
+Rv3875
+ESX-1
+?
+TLR-2, SR-B1, B2M
+Cytokine response (I),
+Antigen presentation(I),
+Invasion(A), Pore
+formation (A)
+Attenuated ex vivo and in vivo
+Hip1
+Rv2224c
+Predicted SecA1/2
+Esterase and Protease
+activity
+GroEL2 (a secreted
+Mtb protein!)
+Cytokine response (I),
+Apoptosis (I)
+Attenuated ex vivo and in vivo
+LpqN
+Rv0583c
+Predicted SecA1/2
+?
+CBL
+Cytokine response (M)
+Attenuated ex vivo and in vivo
+CpnT/TNT
+Rv3903c
+?
+hydrolyses NAD+
+NAD+
+Necrosis (A)
+Not attenuated in vivo
+PPE2
+Rv0256c
+ESX-5?
+Transcriptional repressor
+inos gene promotor,
+p67phox
+NO and ROS
+production (I)
+Attenuated ex vivo
+SapM
+Rv3310
+SecA2
+Phosphatase
+Phosphatidyl-inositol-
+3-phosphate
+Phagosome maturation
+(I)
+Attenuated ex vivo and in vivo
+(guinea pig)
+PknG
+Rv0410c
+SecA2
+Serine/Threonine kinase
+Rab7L1/Rab29
+Phagosome maturation
+(I)
+Attenuated ex vivo and in vivo
+CpsA
+Rv3484
+?
+?: contains LCP and
+LytR domains
+?: inhibits NOX2
+activation
+Phagosome maturation
+(I)
+Attenuated ex vivo and in vivo
+(mouse and zebraﬁsh model)
+TlyA
+Rv1694
+?
+rRNA methylase,
+hemolysin
+?
+Phagosome maturation
+(I)
+Attenuated ex vivo and in vivo
+LpdC
+Rv0462
+SecA2
+Lipoamide
+dehydrogenase
+Coronin-1
+Phagosome maturation
+(I)
+Attenuated in vivo (probably due
+to role on metabolism)
+EsxH
+Rv0288
+ESX-3
+?
+HRS
+Phagosome maturation
+(I)
+Attenuated ex vivo and in vivo
+PE_PGRS30
+Rv1651c
+ESX-5
+?
+?
+Phagosome maturation
+(I)
+Attenuated ex vivo and in vivo
+NdkA
+Rv2445c
+SecA2
+GTPase Activation
+Protein (GAP)
+Rab5, Rab7, Rac1
+Phagosome maturation
+(I), Apoptosis (I)
+Attenuated ex vivo and in vivo
+(SCID mouse model only)
+PtpA
+Rv2234
+?
+Phosphatase
+VPS33B, Subunit H of
+V-ATPase, ubiquitin,
+GSK3
+Phagosome maturation
+(I), Cytokine Response
+(I), Apoptosis (I)
+Attenuated ex vivo not in vivo
+Rv3364c
+Rv3364c
+?
+?
+Cathepsin G
+Pyroptosis (I)
+?
+PE_PGRS47
+Rv2741
+ESX-5 ?, Predicted
+SecA1/2
+?
+?
+Xenophagy (I)
+Attenuated ex vivo and in vivo
+All listed proteins have been shown to be secreted. If data is available, the secretion mechanisms is indicated. If the secretion pathway is not yet determined, we used SignalP-5.0 to
+check for signal peptide prediction. The parentheses behind the host cell process indicate Activation (A), Inhibition (I) or Modulation (M). If not stated explicitly the virulence impact refers
+to mouse studies.
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+5
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+This damage can be recognized by the host cell ESCRT machinery
+which could result in increased phagosome maturation and
+antigen presentation. Hence, the bacterial adaptation to inhibit
+ESCRT-recruitment via secretion of its own eﬀector EsxH. The
+importance of this system for Mtb virulence was demonstrated by
+the strong attenuation of an esxH deletion mutant in the mouse
+model with a 3–4 log reduction of CFU in the lungs (Portal
+Celhay et al., 2016; Tufariello et al., 2016).
+PE_PGRS30: The ortholog of this Mtb gene in Mm (mag 24-
+1) is highly upregulated in bacteria present in the granuloma
+and its deletion results in loss of bacterial virulence ex vivo and
+in vivo (Ramakrishnan et al., 2000). Mag 24-1 is important for
+the capacity of the bacteria to inhibit phagosome maturation and
+exclusion of the vacuolar H+-ATPase from the MCV is a likely
+mechanism (Hagedorn and Soldati, 2007). The investigation
+of Mtb PE_PGRS30 led to very similar ﬁndings in regard to
+virulence and the importance of this gene for the capacity to
+inhibit phagosome maturation (Iantomasi et al., 2012).
+TlyA: The TlyA protein has been shown to have rRNA
+methylase activity which functions in the methylation of 16S
+and 23R rRNA nucleotides (Johansen et al., 2006). Nevertheless,
+TlyA of Mtb also showed hemolysin activity when expressed in
+Msme (King et al., 1993; Wren et al., 1998). Consistently, puriﬁed
+TlyA can form oligomers on puriﬁed phagosomes and red blood
+cells leading to lysis (Rahman et al., 2010). TlyA peptides were
+identiﬁed in the culture ﬁltrate of Mtb via mass spec analysis
+(Kelkar et al., 2011). The secretion of TlyA to the cell membrane
+does not require Tat or SecA2 secretion systems and TlyA is
+also included in membrane vesicles secreted by Msme (Kumar
+et al., 2015). In two gain-of-function approaches by expressing
+Mtb TlyA in Msme or coating latex beads with puriﬁed TlyA
+it could be demonstrated that TlyA mediates the inhibition
+of phagosome maturation by reducing Rab5, EEA1, and Rab7
+recruitment to the phagosome but increasing Rab14 (Mittal et al.,
+2014). What the actual target of TlyA in the host cell is or how
+the phagosomal lytic activity connects to phagosome maturation
+inhibition remains to be determined. The Mtb TlyA mutant is
+attenuated in ex vivo infected macrophages and in vivo in BALB/c
+mice after aerosol infection but this study did not include a
+complemented mutant strain (Rahman et al., 2015).
+LdpC: Is a lipoamide dehydrogenase which has an important
+function in the metabolization of branched-chain amino acids
+(Venugopal et al., 2011). Nevertheless, besides its cytosolic
+location and function, LdpC is also secreted via the SecA2
+pathway (Zulauf et al., 2018). As such it was identiﬁed in the
+host cell cytosol to bind to host cell coronin-1 protein (Deghmane
+et al., 2007). This binding resulted in the retention of coronin-1
+on the MCV membrane which inhibits phagosome maturation
+(Deghmane et al., 2007). The ldpC Mtb mutant is attenuated
+in the mouse model but this might be due to its function in
+Mtb metabolism which aﬀects bacterial growth (Venugopal et al.,
+2011).
+PtpA: PtpA is one of the three secreted phosphatases of Mtb
+(Koul et al., 2000; Saleh and Belisle, 2000). The tyrosine kinase
+PtkA of Mtb phosphorylates and activates cytosolic PtpA (Zhou
+et al., 2015; Jaiswal et al., 2019). Secreted PtpA aﬀect three
+diﬀerent host cell response pathways: (1) It binds to host cell
+ubiquitin which activates its phosphatase activity and leads to
+dephosphorylation of the host cell kinases JNK and p38 which
+reduces the pro-inﬂammatory cytokine response of the host cell
+(Wang et al., 2015a). (2) PtpA binds to and dephosphorylates
+host cell GSK3α which leads to less active caspase-3 and thus
+reduced host cell apoptosis (Poirier et al., 2014). (3) Mtb is
+able to inhibit recruitment of the host cell vacuolar-H+-ATPase
+(V-ATPase) to the MCV (Sturgill-Koszycki et al., 1994). PtpA
+binds subunit H of the V-ATPase (Wong et al., 2011) and it
+also binds to and dephosphorylates VPS33B (Bach et al., 2008),
+a protein enabling endosome to lysosome traﬃcking (Galmes
+et al., 2015). How these two capacities of PtpA are linked is not
+known but binding of PtpA to V-ATPase is a prerequisite for
+the dephosphorylation of VPS33B (Wong et al., 2011). The PtpA
+Mtb mutant is deﬁcient in its capacity to inhibit the acidiﬁcation
+of the MCV, inhibit phagosome maturation and growth in ex
+vivo infected macrophages (Bach et al., 2008; Wong et al., 2011).
+Nevertheless, the absence of PtpA does not alter growth of Mtb in
+the mouse model (Grundner et al., 2008). PtpA is phosphorylated
+on two tyrosines by the tyrosine kinase PtkA of Mtb which leads
+to activation of the phosphatase activity of PtpA (Zhou et al.,
+2015; Jaiswal et al., 2019). Consistently, the deletion of PtkA in
+Mtb leads to growth reduction in infected macrophages (Wong
+et al., 2018).
+SapM: This phosphatase was identiﬁed via an elegant screen
+of Mtb culture ﬁltrate fractions for acid phosphatase activity
+(Saleh and Belisle, 2000). It is secreted via the SecA2 pathway
+(Zulauf et al., 2018). SapM, unlike PtpA, has phosphatase activity
+on the lipid phosphatidylinositol-3-phosphate (PI3P) in addition
+to its tyrosine phosphatase activity (Vergne et al., 2005). The
+PI3P phosphatase activity of SapM is required to reduce the
+accumulation of PI3P on the MCV membrane which is key to
+inhibiting phagosome maturation (Vergne et al., 2005; Koliwer-
+Brandl et al., 2019). A point mutation abolishes phosphatase
+activity of SapM and the mutated protein is unable to mediate
+inhibition of phagosome maturation (Zulauf et al., 2018). A SapM
+deletion mutant is attenuated for ex vivo growth in macrophages
+(Saikolappan et al., 2012; Puri et al., 2013; Koliwer-Brandl et al.,
+2019) and in vivo growth in guinea pigs (Puri et al., 2013).
+PknG: Mtb genome encodes 11 serine/threonine protein
+kinases of which 9 have a single transmembrane domain, an
+extracellular sensor domain and the intracellular kinase domain
+(Av-Gay and Everett, 2000; Prisic and Husson, 2014). PknG and
+PknK have no transmembrane domain but only PknG has been
+shown to be secreted (Prisic and Husson, 2014). The cytosolic
+location of PknG reﬂects the location of its many intracellular
+substrates (Baros et al., 2020) but PknG is also secreted via
+the SecA2 pathway (van der Woude et al., 2014; Zulauf et al.,
+2018). After infection of macrophages PknG can be found in the
+host cell cytosol where it mediates the inhibition of phagosome
+maturation and survival of bacteria (Walburger et al., 2004;
+van der Woude et al., 2014; Zulauf et al., 2018). The human
+RabGTPase protein Rab7L1 (Rab29 in mouse) is the host cell
+target of PknG (Pradhan et al., 2018). At the Golgi apparatus to
+PknG blocks the transition of inactive GDP-associated Rab7L1
+to the active GTP-associated Rab7L1. This leads to the lack
+of recruitment of Rab7L1-GTP to the MCV which helps to
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+6
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+inhibit phagosome maturation (Pradhan et al., 2018). The pknG
+Mtb mutant is attenuated in immunodeﬁcient SCID mice and
+immunocompetent BALB/c mice after intra venous injections
+but not in the lungs of CD-1 mice after aerosol delivery (Cowley
+et al., 2004).
+NdkA: The nucleoside diphosphate kinase A is secreted
+(Chopra et al., 2003; Målen et al., 2007) via the SecA2 pathway
+(Zulauf et al., 2018) and it seems to be an essential gene since
+it was not possible to generate deletion mutants neither in Mtb
+nor BCG (Sun et al., 2010, 2013). NdkA has GTPase activation
+protein activity which means that it accelerates the transition
+of small GTPase proteins from the GTP-bound (active) state to
+their GDP-bound (inactive) state (Chopra et al., 2004; Sun et al.,
+2010, 2013). Rab5 and Rab7 are small GTPase involved in vesicle
+traﬃcking and therefore also in the maturation process from
+early phagosome to late phagosome (Rab5) and late phagosome
+to phagolysosome (Rab7). Interestingly, NdkA isolated from Mtb
+but not NdkA from Msme can bind to Rab5 and Rab7 and
+dephosphorylate associated GTP. The NdkA knock-down strain
+of BCG is unable to inhibit the maturation process of the MCV
+(Sun et al., 2010). Another target of NdkA is the small GTPase
+Rac1 (Chopra et al., 2004; Sun et al., 2013). The inactivation
+of Rac1 results in a deﬁciency of the macrophages to assemble
+the functional NADPH oxidase (NOX2) complex on the MCV
+(Sun et al., 2013). The NdkA knock-down Mtb strain is inducing
+higher levels host cell ROS and host cell apoptosis. The strain is
+also attenuated for growth in ex vivo infected macrophages and
+in immunodeﬁcient SCID mice (Sun et al., 2013).
+Cell Death
+There are many diﬀerent ways that a cell may die but for the
+purpose of this review we want to focus on apoptosis, necroptosis,
+and pyroptosis (Galluzzi et al., 2018). In the case of Mtb the
+current working model is that host cell apoptosis is detrimental
+for the virulence of Mtb, whereas host cell necrosis favors the
+pathogen (Behar et al., 2010; Srinivasan et al., 2014). It is thus
+not surprising that Mtb inhibits extrinsic and intrinsic apoptosis
+signaling pathways and has developed eﬀectors to induces host
+cell necrosis (Moraco and Kornfeld, 2014; Srinivasan et al., 2014;
+Mohareer et al., 2018). The overall role of pyroptosis during the
+course of Mtb infections is not yet determined.
+Pyroptosis
+Rv3364c: The Rv3361c-Rv3365c operon is upregulated in Mtb
+after infection of macrophages and then the secreted Rv3364c
+can enter the host cell cytosol. Rv3364c binds to and inhibits
+expression and activity of Cathepsin G which leads to a reduced
+activation of the inﬂammatory caspase-1 and consequently less
+pyroptosis (Danelishvili et al., 2011).
+Apoptosis
+Rv3654c: This gene is expressed in an operon (Rv3654c-Rv3660c)
+which is upregulated after Mtb infection of macrophages.
+Rv3654c can reach the host cell cytosol where it binds to PSF
+(protein-associated splicing factor) (Danelishvili et al., 2010).
+The binding of Rv3654c to PSF leads to cleavage of the protein
+and reduced expression which results in reduced expression
+of caspase-8, a protease essential for signaling in the extrinsic
+apoptosis pathway (Danelishvili et al., 2010). Consequently, the
+Rv3654c Mtb mutant induced higher levels of TNF-mediated
+apoptosis and showed less survival during ex vivo infection of
+macrophages (Danelishvili et al., 2010).
+Rv3033: A genome-wide screen for Mtb transposon mutants
+that have reduced survival in macrophages identiﬁed Rv3033 as
+important for survival in resting macrophages and macrophages
+treated with IFN-γ after infection (Rengarajan et al., 2005).
+Overexpression of Rv3033 in Msme conferred a reduction in
+host cell apoptosis (Zhang et al., 2018). The anti-apoptotic
+capacity of Rv3033 could be conﬁrmed by expressing Rv3033 in a
+macrophage cell line and challenging with Mtb H37Ra infection
+(Zhang et al., 2018). Mtb Rv3033 targets the intrinsic, caspase-9
+dependent, apoptosis pathway (Zhang et al., 2018). The deletion
+of Rv3033 reduces viability in ex vivo infected macrophages but
+no in vivo data is available (Rengarajan et al., 2005).
+SodA: Superoxide Dismutase A is secreted via the SecA2-
+system and might be involved in the neutralization of superoxides
+generated in the MCV by the NOX2 phagocyte oxidase
+(Braunstein et al., 2003). The SodA gene is essential but an
+antisense inhibition of SodA expression in Mtb led to an
+important attenuation of the strain in vivo, marked by a high
+induction of apoptosis in the lungs of mice (Edwards et al., 2001).
+Later it was demonstrated that the absence of secreted SodA and
+the increase in host cell apoptosis in vivo leads to an increase in
+the presentation of Mtb-derived antigens (Hinchey et al., 2007).
+Eis: The Enhanced Intracellular Survival protein was ﬁrst
+identiﬁed in a gain-of-function screen of Mtb genes expressed in
+Msme that would increase survival of the bacteria after infection
+of macrophages (Wei et al., 2000). Eis is secreted by Mtb but
+it is unclear via which secretion pathway (Dahl et al., 2001)
+and it is able to reach the host cell cytosol (Samuel et al.,
+2007). The deletion of eis in Mtb causes an increase in host
+cell JNK kinase activation which leads to increased NOX2-
+mediated ROS generation, causing increased pro-inﬂammatory
+cytokine secretion, autophagy and host cell death (Samuel et al.,
+2007; Shin et al., 2010) The Mtb and Msme Eis proteins both
+have aminoglycoside N-acetyltransferase activity which confer
+resistance to antibiotics but on Mtb Eis also has lysine Nε-
+acetyltransferase activity (Kim et al., 2012). The latter activity
+of Mtb Eis targets acetylation of the host cell phosphatase
+DUSP16/MKP-7 which potentially increases its binding to JNK
+and inhibits its activation (Kim et al., 2012). The deletion of eis
+in Mtb does not reduce its virulence in mice (Samuel et al., 2007;
+Shin et al., 2010).
+Hip1 and GroEL2: he Hip1 protein is likely cell membrane
+associated since it has a predicted lipoprotein signal peptide
+but one transmembrane domain predicted (Krogh et al., 2001;
+Almagro Armenteros et al., 2019) but was found in membrane
+and culture ﬁltrate fractions (Målen et al., 2010; de Souza et al.,
+2011). Hip1 has esterase and protease activity (Naﬃn-Olivos
+et al., 2014) and GroEL2 is an Mtb chaperon that interacts among
+others with Mtb DnaK protein. GroEL2 is found in the cytosol
+and cell wall of Mtb and is one substrate for proteolytic cleavage
+by Hip1 which results in the release of a shorter protein into the
+supernatant (Rengarajan et al., 2008; Naﬃn-Olivos et al., 2014).
+New data shows that after Mtb infection GroEL2 gets released
+from the cell wall and can actually enter the host cell cytosol
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+7
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+where ultimately it binds to the mitochondrial protein mortalin
+which has homology to Mtb DnaK protein (Joseph et al., 2017).
+Surprisingly, GroEL2 can access the host cell cytosol even in
+cells infected with the M. bovis BCG vaccine strain which lacks
+a functional ESX-1 system (Joseph et al., 2017). The interaction
+of GroEL2 with host cell mortalin mediates the inhibition of host
+cell apoptosis. There is no data available on the impact of GroEL2
+deﬁciency on Mtb virulence, which is diﬃcult to assess because
+GroEL2 is essential for in vitro growth of Mtb (Dejesus et al.,
+2017).
+HBHA: eparin-binding hemagglutinin (HBHA) of Mtb is
+found in the cell wall and culture ﬁltrate and is important
+of bacterial adhesion to epithelial cells but not macrophages
+(Menozzi et al., 1996). The deletion of hbha in Mtb results
+in a mutant strain that has similar virulence in the lungs of
+mice after intranasal infection but strongly reduced the ability
+for extrapulmonary dissemination as measured via CFU in the
+spleen (Pethe et al., 2001). Either heterologous expression of
+HBHA in Msme or the hbha Mtb deletion mutant demonstrated
+that this protein may lead to the increase in host cell apoptosis
+(Sohn et al., 2011). HBHA localizes to host cell mitochondria
+where it leads to increased activation of the pro-apoptosis protein
+BAX and increased levels of mitochondrial reactive superoxide
+generation (Sohn et al., 2011). The impact of increased host cell
+apoptosis during the context of in vivo infection in the lung is not
+signiﬁcant (Pethe et al., 2001).
+Necrosis
+Mtb needs to escape its intracellular niche at some point in order
+to disseminate and infect other cells. Host cell necrosis favors
+pathogenesis of Mtb as has been shown by modulating host
+factors that tip the cell death modality toward necrosis instead
+of apoptosis (Behar et al., 2010). Host cell necrosis can actually
+stimulate the growth of Mtb (Dallenga et al., 2017; Lerner et al.,
+2017). In addition, the deletion of a transcriptional repressor
+(Rv3167c) resulted in an Mtb mutant strain that induced higher
+levels of host cell necrosis due to increased PDIM expression
+and was also hypervirulent in mice (Srinivasan et al., 2016).
+Despite its importance for virulence very little is known about
+Mtb eﬀectors that induce host cell necrosis.
+CpnT/TNT: The N-terminal domain of CpnT has pore
+forming capacity which is involved in uptake of small molecules
+through the mycomembrane (Danilchanka et al., 2014). The
+C-terminal domain (Tuberculosis necrotizing toxin, TNT) can
+be release after proteolytic cleavage and will target host
+cell coenzyme NAD+ for hydrolysis (Sun et al., 2015). The
+host cell depletion of NAD+ leads to necroptosis via the
+RIPK3/MLKL pathway but without activation of upstream
+signaling components such as RIPK1 (Pajuelo et al., 2018).
+The cpnT Mtb deletion mutant is not attenuated in mice
+(Danilchanka et al., 2014), suggesting that Mtb has redundant
+pathways for inducing host necrosis and most likely additional
+secreted eﬀectors.
+Xenophagy
+Xenophagy is a specialized form of canonical autophagy which
+results in the encapsulation pathogens by a double membrane
+autophagosome (Upadhyay and Philips, 2019). Xenophagy is a
+cell intrinsic defense mechanism against Mtb infection (Gutierrez
+et al., 2004). The ubiquitination of Mtb is dependent on the
+ESX-1 system and extracellular Mtb DNA (Watson et al.,
+2012). Ubiquitinated Mtb gets recognized by cytosolic autophagy
+receptors p62 and NDP52 which initiates autophagosome
+formation (Watson et al., 2012). The ubiquitin ligase Parkin 2 and
+Smurf1 are of critical importance for the ubiquitination of Mtb
+and host resistance to Mtb in the mouse (Manzanillo et al., 2013;
+Franco et al., 2016). Interestingly, Mtb expresses surface protein
+(Rv1468c) containing a eukaryotic-like ubiquitin-associated
+domain that binds ubiquitin and recruits p62 facilitating the
+xenophagic clearance of Mtb (Chai et al., 2019). Importantly, Mtb
+has yet to be deﬁned mechanisms to inhibit host cell clearance
+via xenophagy as described for an ESX-1 dependent inhibition
+of autophagic ﬂux (Romagnoli et al., 2012; Chandra et al., 2015;
+Cardenal-Muñoz et al., 2017). Please refer to following review for
+more background information (Khaminets et al., 2016; Upadhyay
+and Philips, 2019).
+PE_PGRS47
+This protein was identiﬁed in a gain-of-function screen using
+Msme for Mtb genes that mediated the inhibition of antigen
+presentation (Saini et al., 2016). Expression of PE_PGRS47 in
+Msme demonstrated that transport of the protein to the cell
+wall fraction (Saini et al., 2016) although EM studies in infected
+cells showed a location of PE_PGRS47 in the host cell cytosol
+(Saini et al., 2016). Msme does not express an ESX-5 secretion
+system and hence if it secretes PE_PGRS47 it has to be via a
+diﬀerent secretion system which is somewhat surprising since
+ESX-5 is the major system for secretion of PE_PGRS proteins
+(Abdallah et al., 2009). The ability of PE_PGRS47 to limit antigen
+presentation is most likely indirect via its capacity to inhibit
+xenophagy and associated phagosome-lysosome fusion which
+results in the generation of Mtb peptides that can be presented at
+the cell surface (Saini et al., 2016). The PE_PGRS47 Mtb mutant
+is attenuated in immunodeﬁcient and immunocompetent mice
+(Saini et al., 2016). The molecular mechanism and host target of
+PE_PGRS47 remain to be characterized.
+Cytokine Response
+Host cell cytokines have important functions in host defense
+as demonstrated by the increased susceptibility of tnf −/−and
+ifn-γ−/−mice to Mtb infections (Flynn et al., 1993, 1995). In
+contrast, IFN-β, a cytokine associated with anti-viral immunity,
+is exacerbating Mtb infections in mice and humans (Antonelli
+et al., 2010; Berry et al., 2010). Extracellular pattern recognition
+receptors such as TLRs and intracellular PRR such as NLRs are
+the sensors for pathogen associated molecular patterns (PAMPs)
+and after binding of a PAMP initiate a signaling cascade that
+leads to the production of cytokines. The importance of cytokines
+for host immunity to Mtb is reviewed in more detail in these
+excellent reviews (Mayer-Barber and Sher, 2015; Domingo-
+Gonzalez et al., 2016; Sia and Rengarajan, 2019).
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+8
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+Hip1and GroEL2
+The interaction of Hip1 and GroEL2 have already been described
+in a previous section. The hip1 Mtb deletion mutant induces
+increased pro-inﬂammatory cytokine production (TNF, IL-
+1β, IL-18, IL-6) in macrophages and dendritic cells via a
+TLR2/MyD88 signaling pathway (Madan-Lala et al., 2011, 2014).
+Importantly, just the overexpression of the cleaved and secreted
+GroEL2 fragment in the hip1 Mtb mutant reverts the phenotype
+of the mutant back to wild-type Mtb, suggesting that the GroEL2
+fragment is blocking the host cell TLR2/MyD88 signaling
+pathway (Naﬃn-Olivos et al., 2014). The hip1 Mtb mutant is
+attenuated in ex vivo infected macrophages and in vivo infected
+mice (Rengarajan et al., 2008; Vandal et al., 2009) it is unclear to
+date though, if the attenuation in vivo is only due to the observed
+eﬀect on GroEL2 or also due to the general susceptibility of the
+hip1 mutant to low pH and ROS (Vandal et al., 2009).
+PPE13
+This member of the PE/PPE protein family contains a NxGxNxG
+motif which is characteristic for the major polymorphic tandem
+repeat (MPTR) subfamily of PPE proteins (Hermans et al.,
+1992). PPE13 does not contain a signal peptide and is
+secreted via the ESX-5 secretion system (Abdallah et al., 2009).
+Heterologous expression of PPE13 in Msme or ectopic expression
+in eukaryotic cells demonstrate that PPE13 activates the NLRP3
+inﬂammasome leading to increased IL-1β secretion (Yang et al.,
+2020). Furthermore, PPE13 binds to NLRP3’s NACHT and LRR
+domains via its MPTR domain (Yang et al., 2020). The PPE13-
+NLRP3 interaction facilitates homodimerization of NLRP3 and
+recruitment of the NLRP3 activator protein NEK7 (Yang et al.,
+2020). There is no data available on the impact of Mtb PPE13 on
+bacterial virulence.
+LpqN
+The lipoprotein has a signal peptide suggesting secretion via
+the SecA1/2 pathway and was found in the culture ﬁltrate of
+Mtb (Målen et al., 2007). It was identiﬁed to bind CBL during
+a screening of 105 secreted Mtb proteins for host cell binding
+partners (Penn et al., 2018). CBL is a ubiquitin ligase that is
+increasingly phosphorylated after Mtb infections (Penn et al.,
+2018). The Mtb lpqN deletion mutant is growing less eﬃciently
+in ex vivo infected macrophages and in vivo (Penn et al., 2018).
+Importantly, the growth deﬁciency of the mutant in macrophages
+could be rescued by the deletion of host cell Cbl gene (Penn
+et al., 2018). The study shows data in support of CBL being a
+regulatorwhich suppresses anti-viral but supports anti-bacterial
+host cell intrinsic defense pathways; for example, cbl−/−derived
+BMDMs are intrinsically more resistant to viral infection when
+compared to wild-type BMDMs. It is proposed that Mtb, by
+inhibiting CBL, induces an anti-viral host response which favors
+its own survival because anti-bacterial defense mechanisms are
+not induced (Penn et al., 2018).
+EchA1
+The enoyl-CoA hydratase A1 is involved in the lipid metabolism
+of Mtb but is also secreted via an unknown mechanism (no
+predicted signal peptide) and reaches the host cell cytosol (Wang
+et al., 2020). After ubiquitination of EchA1 by host cell ubiquitin
+ligase ANAPC2, EchA1 binds TRAF6 and SHP1 which prevents
+activation of TRAF6 and thus reduces the production of pro-
+inﬂammatory cytokines (Wang et al., 2020). The echA1 deletion
+mutant of Mtb is attenuated in the mouse model after aerosol
+infection (Wang et al., 2020).
+PtpB
+This is a broad-spectrum phosphatase that dephosphorylates
+phosphotyrosine, -serine and -threonine substrates in addition
+to various phosphoinositides (Beresford et al., 2007). Ectopic
+expression of PtpB in RAW264.7 murine macrophages conveyed
+inhibition of IFN-γ-mediated activation of the ERK1/2 and
+p38 signaling pathway toward increased IL-6 production and
+inhibition host cell apoptosis (Zhou et al., 2010). Nevertheless,
+these ﬁndings need to be conﬁrmed via infection of cells with Mtb
+and a speciﬁc PtpB Mtb mutant. The deletion of PtpB resulted in
+a mutant that was less virulent in ex vivo macrophages infection
+models (Singh et al., 2003; Beresford et al., 2009; Koliwer-Brandl
+et al., 2019). Furthermore, the Mtb deletion mutant had an
+approximative 100 fold reduction in lung CFUs in the guinea pig
+model when compared to Mtb (Singh et al., 2003).
+MPT53/DsbE
+The protein is found in the culture ﬁltrate (Målen et al., 2007)
+and has a predicted signal peptide (Almagro Armenteros et al.,
+2019) and is a disulﬁde bond-forming (Dsb)-like protein. In a
+screen of 208 secreted Mtb eﬀectors expressed in HEK293T cells
+that changed NF-κB activation, DsbE was found to activate the
+NF-κB reporter gene (Wang et al., 2019). DsbE was found to
+bind to TGF-β-activated kinase 1 (TAK1) which is an important
+signaling molecule downstream of the TLR/TRAF6/TAB2 or
+TAB3 signaling pathway (Wang et al., 2019). TAK1 may activate
+NF-κB and the kinases JNKs and p38 which leads to the
+biosynthesis of pro-inﬂammatory cytokines (TNF, IL-6, IL-12).
+The binding of DsbE to TAK1 increased its phosphorylation
+which is required for activation (Wang et al., 2019). The
+enzymatic activity of DsbE is required for binding since a
+disulﬁde-oxidoreductase inactive mutant of DsbE fails to activate
+TAK1 (Wang et al., 2019). Consistent with this data the dsbE
+Mtb deletion mutant induced less TNF and IL-6 production in
+ex vivo infected macrophages and in the lungs of aerosol infected
+mice. The mutant was also hypervirulent in the mice with a 10
+to 100-fold increase in lung CFUs after 21 d of infection (Wang
+et al., 2019). The fact that the secreted DsbE actually activates
+protective host responses suggest that its recognition by TAK1
+is actually a host defense mechanism and the data that other
+Mtb and E. coli proteins with disulﬁde-oxidoreductase activity
+may also activate TAK1 supports this model (Wang et al., 2019).
+Thus, the sensing of bacterial disulﬁde-oxidoreductase activity in
+the host cell cytosol maybe a case of eﬀector-triggered immunity
+(Lopes Fischer et al., 2020).
+NOX2/NOS2
+The production of phagosomal ROS by the activated NOX2
+and cellular NO by NOS2 are associated with cell intrinsic host
+defense (Bedard and Krause, 2007; Bogdan, 2015). Mtb is relative
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+9
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+resistant to direct killing by ROS but the increase in phagosomal
+ROS observed after infection with nuoG and secA2 Mtb mutants
+leads to an increase in host cell apoptosis which attenuates these
+mutants and leads to increased host cell antigen presentation
+(Hinchey et al., 2007; Velmurugan et al., 2007; Miller et al., 2010).
+The proteasome of Mtb is important for resistance of Mtb to
+killing via NO-derived reactive nitrogen intermediates (Darwin
+et al., 2003). Nevertheless, a more complex role for NOX2 and
+NOS2 during in vivo infections has emerged which associates
+them with a role in host immune tolerance (Olive and Sassetti,
+2018).
+CpsA
+The protein was found in the culture ﬁltrate (Målen et al.,
+2007) but has no predicted signal peptide sequence (Almagro
+Armenteros et al., 2019). A Y2H screen showed that CpsA
+binds to TAX1BP1 and NDP53 which are two proteins involved
+in xenophagy (Mehra et al., 2013), and SMCO1 (Penn et al.,
+2018). The use of knock-out host cells deﬁcient in xenophagy,
+LC3-associated phagocytosis (LAP; see this reference for review
+Upadhyay and Philips, 2019) or both demonstrated that Mtb
+CpsA is involved in the inhibition of LAP (Koster et al., 2017).
+The precise host cell target of CpsA has not been determined
+but the exclusion of activated NOX2 from the nascent MCV is
+clearly an important aspect of the molecular mechanism of CpsA-
+mediated host cell manipulation (Koster et al., 2017). Overall, the
+end result is that a CpsA deletion mutant ends up in an MCV
+that fuses with lysosomes which results in decreased intracellular
+survival (Koster et al., 2017). The Mtb CpsA mutant is also
+attenuated in the mouse model (Koster et al., 2017; Malm et al.,
+2018) and deletion of the Mm homolog attenuated this pathogen
+in the zebraﬁsh model (Wang et al., 2015b). The CpsA mutant
+induces increased ROS due to the activated NOX2 and it is thus
+likely that host cell apoptosis levels are also increased as this was
+shown before for several Mtb mutants that results in increased
+phagosomal ROS (Hinchey et al., 2007; Miller et al., 2010; Sun
+et al., 2013).
+PPE2
+This protein is secreted (Bhat et al., 2013) and since it is a
+member of the PE/PPE family it most likely is a substrate of
+the ESX-5 secretion system. PPE2 is targeted to the host cell
+nucleus via a nuclear location signal and binds to the promotor
+of the Nos2 gene (Bhat et al., 2017). Consequently, infection
+of macrophages with the Mtb Ppe2 deletion mutant and Msme
+overexpressing Mtb PPE2 result in increased or decreased NOS2
+protein expression (Bhat et al., 2013, 2017). This activity resulted
+in increased survival of the Msme-PPE2 strain compared to
+Msme in ex vivo infected macrophages or in vivo infected mice
+(Bhat et al., 2017). PPE2 contains an SH3-like domain that allows
+for binding of the host cell p67phox NOX2 subunit. The binding
+inhibits p67phox recruitment to the phagosomal membrane and
+subsequent NOX2 assembly and activation (Srivastava et al.,
+2019). The overall result is that less ROS will be produced in the
+MCV which helps survival of bacteria during ex vivo macrophage
+infections (Srivastava et al., 2019).
+Multiple Host Cell Targets of Mtb EsxA
+EsxA
+Due to the already discussed importance of EsxA on phagosomal
+membrane permeabilization it is challenging to experimentally
+dissociate phenotypes of the Mtb esxA mutant that are mediated
+by a direct eﬀector activity of EsxA and those due to a lack of
+phagosomal membrane permeabilization and thus lack of access
+of other eﬀectors to their host cell targets. Consequently, we
+focused this discussion on pathways in which a direct binding
+of EsxA to an eﬀector protein could be shown (Figure 2),
+while acknowledging that other observed phenotypes of the
+Mtb esxA mutant might still be due to direct activity of EsxA.
+At the macrophages surface, EsxA inhibits TLR2 signaling by
+antagonistic binding to the receptor (Pathak et al., 2007). The
+inhibition of the downstream NF-κB pathway was also observed
+after incubation of cells with EsxA protein alone or in complex
+with EsxB (Ganguly et al., 2008). Both of these inhibitions lead to
+a decreased cytokine response by the infected host cell (Figure 2).
+EsxA can also interfere with antigen presentation to cytolytic T-
+cells by binding to the β2-macroglobuline which is associated
+with MHC class I. The binding of EsxA decrease the capacity of
+the MHC class I to present peptides due to decreased cell surface
+expression (Sreejit et al., 2014). A recent study found that EsxA
+can physically bind to the scavenger receptor B1 (SR-B1) and
+allow Mtb to cross the pulmonary epithelium through M cells
+(Khan et al., 2020). An Mtb-human protein-protein interactome
+screen identiﬁed several additional potential host cell binding
+proteins for EsxA but they require further validation (Penn et al.,
+2018). There have been many studies showing an impact of
+deletion of Mtb esxA on the host cell death response (apoptosis,
+necrosis, and pyroptosis) but in these studies it is diﬃcult to
+discriminate between a direct or an indirect eﬀect of EsxA.
+MTB LIPIDS AS EFFECTOR MOLECULES
+Mtb produces a wide variety of unique lipids which are important
+for host cell manipulation and virulence of Mtb (Neyrolles
+and Guilhot, 2011; Arbues et al., 2014; Gago et al., 2017;
+Queiroz and Riley, 2017). These lipids are localized in the
+mycobacterial envelope and have a very unique structure and
+role for pathogenesis (reviewed in Vincent et al., 2018; Dulberger
+et al., 2020, Figure 3). Brieﬂy, the envelope consists of: (1) a
+plasma membrane which is mainly composed of phospholipids,
+(2) a superstructure made up of a layer of peptidoglycan
+covalently linked to arabinogalactan, and (3) a mycomembrane
+which as its inner leaﬂet has mycolic acids that are esteriﬁed with
+the underlying arabinogalactan (Figure 3). The outer leaﬂet of
+the mycomembrane is made up of a wide variety of lipids and
+almost all of them are involved in the host immune response
+manipulation by Mtb (Vincent et al., 2018; Daﬀe and Marrakchi,
+2019; Dulberger et al., 2020) (Figure 3).
+HOW DO MTB LIPIDS GET INTO THE HOST
+CELL?
+Mtb lipids are able to reach other organelles and the plasma
+membrane during infection providing evidence that some of
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+10
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+FIGURE 2 | Host cell targets of EsxA and/or the EsxA/B complex. EsxA can antagonistically bind MHCI and TLR2, while it can bind to SR-B1 to enhance invading the
+lung epithelium. EsxA targets the phagosomal membrane for pore formation.
+the Mtb surface lipids could be released (Beatty et al., 2000;
+Rhoades et al., 2003). Mtb lipids are also found incorporated into
+exosomes and can thus reach uninfected bystander cells (Beatty
+et al., 2000; Athman et al., 2015). Thus, studying the way lipids
+are released by Mtb and their impact on the host is crucial to
+understand the pathogeny of Mtb. The section below summarizes
+the advances in the study of release of lipids by Mtb (Figure 3).
+Passive Release of Mtb Lipids
+The ﬁrst potential release mechanism is through direct contact
+of the bacteria with the host membranes, or by mild shedding
+of the capsular layer to which many lipids are loosely associated
+(Ortalo-Magné et al., 1996; Chiaradia et al., 2017). Indeed, in
+some phagosomes, mycobacteria are tightly surrounded by the
+phagosomal membrane and this feature was associated with the
+ability of M. avium to inhibit phagosome lysosome fusion (de
+Chastellier et al., 2009). Recent work showed an IFN-γ and
+Rab20 dependent increase of MCV volume which correlated
+with increased phagosome maturation (Schnettger et al., 2017).
+Moreover gold immunolabeling of Lipoarabinomannan (LAM)
+and phosphatidylinositol mannosides (PIM) suggested a transfer
+of these lipids from Mtb to the macrophages membranes through
+contact and/or release from the bacterial surface as the cryo
+sections did not show any vesicles emission (Beatty et al.,
+2000). Supporting these results, another structural study of
+Mtb found that the capsular layer can be removed through
+agitation of Mtb (Sani et al., 2010). A passive secretion followed
+by an insertion and diﬀusion supports their major impact
+on the immune response by also aﬀecting bystander cells.
+PDIM, another major virulence lipid of Mtb, was found in
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+11
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+FIGURE 3 | Models of mycobacterial envelope and lipid transfer. (Left) Simpliﬁed model of the organization of the mycobacterial envelope with the main virulence
+lipids highlighted. (Right) Representation of the different potential mechanisms of lipid release and transfer to the host cell membrane. Lipids can be release by
+emission of membrane vesicles, or by shedding of the capsular layer into the phagosome lumen or due to close physical contact directly into the phagosome
+membrane. SL, Sulfolipids; PDIM, Phthiocerol Dimycerosates; TDM, Trehalose Dimycolates; MA, Mycolic Acid; LAM, Lipoarabinomannan.
+macrophages membranes during infection (Augenstreich et al.,
+2019). Preliminary results on Mm coating with ﬂuorescent
+modiﬁed PDIM indicated a transfer and a diﬀusion of these lipids
+upon contact with macrophages (Cambier et al., 2020). These
+results also support a passive transfer of PDIM upon contact of
+the bacteria with host cells. Such transfer by contact has also
+been observed for another bacterial species, Borrelia burgdorferi,
+where bacterial cholesterol-glycolipids were observed being
+transfer from the bacterial surface to the host cells plasma
+membrane (Crowley et al., 2013). Interestingly, the contact-
+mediated transfer accounted for 50% of lipid transfer, while the
+other part happened through membrane vesicles (MV) secretion
+by the bacteria (Crowley et al., 2013). Therefore, it is conceivable
+that for Mtb both contact dependent and independent transfers
+of lipids occur during infection (Figure 3).
+Active Release of Mtb Lipids
+The second mechanism of lipid release that has been recently
+described is through the release of MV (Prados Rosales et al.,
+2011) (for extensive review on this topic Brown et al., 2015;
+Layre, 2020) (Figure 3). These vesicles of ≈150 nm of diameter
+are apparently emitted by budding from the bacterial surface
+mostly observed in culture (Prados Rosales et al., 2011, 2014b;
+Athman et al., 2015), but production is also observed by bacteria
+localized in the host cell phagosome (Prados Rosales et al.,
+2011). Proteomics analysis indicated that some characterized
+antigenic factors were associated to the MVs also known for
+their inﬂammatory properties (Prados Rosales et al., 2011) and
+subsequent immunization of animals with Mtb MVs induced a
+protective immune response (Prados Rosales et al., 2014a). The
+lipid composition of the MVs is still only partially characterized,
+but phosphatidylinositol mannosides (PIM), lipoarabinomannan
+(LAM), poly-acyltrehaloses (PAT), and phenol glycolipids (PGL)
+(Prados Rosales et al., 2011). In addition, MVs include hundreds
+of Mtb proteins as determined by the host antibody responses
+to injected MVs (Prados Rosales et al., 2014a) and proteomics
+analyses (Prados Rosales et al., 2011). The PIM and LAM in MVs
+were associated to the lipid induced dampening of the acquired
+immune response by inhibiting T-cell activation (Athman et al.,
+2017). In contrast, some of these lipids were originally described
+as pro-inﬂammatory by activating TLR2 signaling in the case of
+lipomannan (Quesniaux et al., 2004). PGL are also present in
+MVs and they are also known as antagonist inhibition of TLR2
+signaling (Arbues et al., 2016). The abundance of virulence lipids
+mainly present at the surface of the bacteria might indicate the
+other lipids like PDIM and trehalose dimycolate (TDM) that
+can diﬀuse out from the bacteria, may be present in the MVs
+but further investigations will be needed to attest of that. Also,
+the suggested lipid transfer from MV emission by Mtb to host
+cell membranes (Athman et al., 2015), still need to be formerly
+determined. The Mtb-produced MVs could potentially mediate
+immune modulatory eﬀects beyond the site of infection and
+this might be of particular importance during the extracellular
+replication of Mtb within necrotic regions of human granulomas.
+Role of Mtb Lipids in Host Manipulation
+(Table 2)
+The main eﬀect described so far of the lipid panoply produced
+by Mtb is as inﬂammatory regulators (Table 2). An interesting
+“lipidic immunostat” model was proposed in which lipids are
+separated into pro- and anti-inﬂammatory (Queiroz and Riley,
+2017). Indeed, the majority of the lipids produced are glycolipids
+whose sugar moieties are recognized by a wide range of pattern
+recognition receptors (PRR) (Ishikawa et al., 2017; Queiroz and
+Riley, 2017).
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+12
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+TABLE 2 | Summary overview of Mtb lipid effectors.
+Name
+Known release
+mechanism
+Host target
+Host cell process
+Impact of gene deletion on Mtb
+virulence
+PIM, LM, LAM, ManLAM
+Extracellular vesicles,
+shedding
+TLR4, TLR2-TLR1-6,
+MR, DC-SIGN, Dectin-2
+Cytokine response (A/I),
+Phagocytosis (A), phagosome
+maturation (I), cell death (A)
+Essential, variability in acylations and
+LAM capping sugar moiety linked to the
+degree of virulence
+TMM / TDM
+Shedding
+Mincle
+Cytokine response (I),
+phagosome maturation (I)
+Essential, but inability to form “cords”
+which is dependent on TDM attenuates
+the strains.
+DAT/PAT
+Extracellular vesicles,
+shedding
+?
+Cytokine response (I),
+phagosome maturation (I), cell
+death (A)
+Decreased persistence in vivo in
+PDIM-deﬁcient strains, decreased
+growth in human macrophages.
+PGL
+Extracellular vesicles,
+shedding
+TLR2
+Cytokine response (I)
+Attenuation in vivo
+PDIM
+Shedding
+?
+Cytokine responses (I)
+phagocytosis (A), phagosome
+maturation (I), phagosome
+escape (A), autophagy (A)
+apoptosis (A), necrosis (A)
+Attenuation ex vivo and in vivo
+SL-1
+Shedding
+TLR-2
+Cytokine reponse (I),
+Phagosome maturation (I),
+autophagy (I), cell death (A)
+No attenuation in vivo, lack of coughing
+and transmission in guinea pigs
+1-TbAd
+Shedding
+?
+Phagosome acidiﬁcation (I)
+Attenuation in human macrophages
+The parentheses behind the host cell process indicate Activation (A), Inhibition (I) or Modulation (M). If not stated explicitly the virulence impact refers to mouse studies.
+PIM, LM, LAM
+This group of lipids is composed of lipids synthesized
+from phosphatidylinositol to generate the phosphatidylinositol
+mannosides (PIM) intermediates followed by the lipomannan
+(LM) and ﬁnally lipoarabinomannan (LAM) (Briken et al., 2004;
+Guerin et al., 2010; Sancho-Vaello et al., 2017). PIM (Gilleron
+et al., 2003) and to a lesser extent LAM/ManLAM (Nigou
+et al., 2008) are TLR2 ligands with PIM species acting as
+agonists, and LAM species acting as anti-inﬂammatory molecules
+(Quesniaux et al., 2004). LM is also a TLR2 agonist leading to cell
+signaling that induces IL-12 production and apoptosis (Dao et al.,
+2004). These lipids can therefore regulate TLR2/MyD88/NF-κB
+dependent production and secretion of numerous inﬂammatory
+cytokines such as TNF, IL12p40 or IL-8. A mannose-capped LAM
+(ManLAM) dampens the immune response through binding
+and inhibition of DC-SIGN signaling (Maeda et al., 2003).
+Alternatively, ManLAM can bind to Dectin-2 receptor, inducing
+an inﬂammatory response that appeared to be detrimental for
+mycobacteria in mice (Yonekawa et al., 2014). The mannose
+moieties of LAM can bind to the mannose receptor and stimulate
+the phagocytosis of Mtb (Maeda et al., 2003; Torrelles et al.,
+2006). Once in the bacteria are internalized, PIM (Vergne et al.,
+2004) and LAM (Fratti et al., 2001, 2003) contribute to the
+capacity of Mtb to inhibit phagosome maturation. PIM actually
+stimulates the fusion of the MCV with early endosomes which
+helps to avoid fusion with late endosomes (Vergne et al., 2004).
+The recruitment of the early endosome autoantigen (EEA1)
+protein to early phagosomes is an essential step in phagosome
+maturation that Mtb LAM is able to inhibit (Fratti et al., 2001).
+These excellent reviews provide a more in-depth overview on the
+activity of PIM/LM/LAM Mtb glycolipids (Vergne et al., 2014;
+Garcia-Vilanova et al., 2019).
+TDM, DAT/PAT, SL-1
+This group of Mtb lipids is composed of the trehalose-containing
+lipids (Garcia-Vilanova et al., 2019). Probably the best known
+lipid within this group is the essential lipid trehalose dimycolate
+(TDM), also called “cord factor” because it is required for the
+cording phenotype of Mtb which was originally described by
+Robert Koch in 1882 (Glickman et al., 2000). TDM binds to the
+host cell receptor Mincle and leads to macrophage and dendritic
+cell activation (Ishikawa et al., 2009; Ostrop et al., 2015) and also
+to the TDM-induced granuloma formation in the lungs of mice
+injected with TDM (Ishikawa et al., 2009). Inside macrophages,
+TDM contributes to enhance the survival of Mtb, as they are
+involved in phagosome maturation inhibition (Indrigo et al.,
+2003) and intracellular cording was recently associated to an
+inhibition of cytosolic detection of Mtb in endothelial cells, thus
+favoring persistence in lymphoid tissues (Lerner et al., 2020).
+Accordingly, Mtb mutants which have a deﬁciency of cycloprane
+modiﬁcation in the mycolic acid chains of TDM show a defect
+in cording and a decrease in the granulomatous response in vivo,
+as well as the persistence in the host (Glickman et al., 2000; Rao
+et al., 2005).
+A second group of compounds are the di- / poly-acyltrehaloses
+(DAT/PAT) (Garcia-Vilanova et al., 2019). They have no eﬀect on
+virulence of Mtb in the mouse and guinea pig model (Rousseau
+et al., 2003a; Chesne-Seck et al., 2008; Passemar et al., 2014) but
+in the absence of PDIM a role in virulence could be detected for
+DAT/PAT in the mouse model (Passemar et al., 2014). At the
+cellular level DAT/PAT stimulate binding and entry of Mtb into
+macrophages and epithelial cells (Rousseau et al., 2003a). Mtb
+DAT/PAT are also important for the Mtb-mediated phagosome
+maturation inhibition (Brodin et al., 2010; Passemar et al.,
+2014).
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+13
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+The last member of this group is the Sulfoglycolipid-1 (SL-1)
+is only synthesized by Mtb and M. canetti and characteristically
+contains sulfated trehalose. Several studies demonstrated a role
+of SL-1 in the phagosome-lysosome fusion inhibition by Mtb
+(Goren et al., 1976; Brodin et al., 2010; Passemar et al., 2014). A
+Tn-mutagenesis genetic screen in Mtb identiﬁed Mtb mutants in
+genes involved in SL-1 biosynthesis to show increased activation
+of NF-κB after THP-1 cell infection when compared to Mtb
+(Blanc et al., 2017). Puriﬁed and synthetic SL-1 has antagonistic
+binding activity to TLR-2 which mediates decreased NF-κB
+activation, reduced pro-inﬂammatory cytokine production and
+costimulatory molecule expression (Blanc et al., 2017). In the
+same fashion, a report found that SL can inhibit autophagy
+through MyD88 signaling (Bah et al., 2020). SL-1 have no
+eﬀect on virulence of Mtb in the mouse and guinea pig model
+(Rousseau et al., 2003b; Chesne-Seck et al., 2008). Recently, a
+study found a crucial role of SL-1 in the transmission process
+of Mtb by stimulating cough in guinea pigs (Ruhl et al., 2020).
+Indeed, SL-1 activates nociceptive neurons which triggers the
+coughing reﬂex and consistently, guinea pigs infected with a SL-
+1-deﬁcient Mtb strain do not cough and do not transmit bacteria
+to uninfected guinea pigs (Ruhl et al., 2020).
+PDIM, PGL
+Another group is composed of the lipid DIM/PDIM and its
+glycosylated form the phenol glycolipids (PGLs). PDIM are only
+produced by pathogenic mycobacteria in the MTB complex
+(Goren et al., 1974; Vincent et al., 2018). PDIM-deﬁcient strains
+are attenuated in the Guinea pig model (Goren et al., 1974),
+and these ﬁndings could be conﬁrmed, two decades later,
+after a screening of a transposon mutant library of H37Rv
+for loss of in vivo virulence in the mouse model (Camacho
+et al., 1999; Cox et al., 1999). The attenuation of Mtb PDIM-
+deﬁcient strains is more remarkable during the ﬁrst weeks after
+infection suggesting a function in defense against the innate
+immune response (Rousseau et al., 2004; Murry et al., 2009;
+Kirksey et al., 2011; Day et al., 2014). At the cellular level,
+PDIM are anti-inﬂammatory lipids since a PDIM-deﬁcient Mtb
+strain causes increased proinﬂammatory cytokines responses
+such as TNF and IL-6 in macrophages and dendritic cells
+(Rousseau et al., 2004). Consistent with this anti-inﬂammatory
+eﬀect a PDIM-deﬁcient Mm strain shows an increase in MyD88-
+dependent recruitment of macrophages to the granuloma in
+the zebraﬁsh model (Cambier et al., 2014). Their presence
+also stimulates Mtb phagocytosis mediated by CR3 (Astarie-
+Dequeker et al., 2009), contributes to the phagosome maturation
+inhibition (Astarie-Dequeker et al., 2009; Passemar et al., 2014),
+modulates autophagic response (Bah et al., 2020), is required
+for phagosomal escape and cell death induction (Augenstreich
+et al., 2017; Barczak et al., 2017; Quigley et al., 2017). Studies
+of infection of human endothelial cells also showed that PDIMs
+are required for phagosomal escape (Lerner et al., 2018) and
+intracellular cording (Lerner et al., 2020). Presently, no host
+cell receptor for PDIM was identiﬁed, as the eﬀect PDIM
+on CR3-mediated phagocytosis did not reveal any binding
+(Arbues et al., 2016).
+PGLs
+are
+a
+glycosylated
+form
+of
+PDIM,
+with
+sugar
+moieties varying depending on the mycobacterial strain that
+produces the PGL (Arbues et al., 2014). The Mtb Beijing
+strains that are highly prevalent in Asia (Huet et al., 2009),
+M.leprae (Hunter and Brennan, 1981), Mm and M. ulcerans
+produce PGL lipid species (Daﬀé and Lanéelle, 1988). Mtb-
+or Mm-derived PGL have mostly an anti-inﬂammatory role
+by inhibiting inﬂammatory cytokines secretion (Reed et al.,
+2004; Robinson et al., 2008) and also contribute to phagosome
+maturation inhibition (Robinson et al., 2008). More recently
+it was found that Mtb PGL or its trisaccharide domain
+can bind to TLR2 and inhibit the NF-κB pathway (Arbues
+et al., 2016). Interestingly, in the zebraﬁsh model the PGL
+of Mm are associated with a CCR2-mediated recruitment of
+permissive macrophages in order to increase virulence of Mm
+(Cambier et al., 2014).
+1-TbAd
+The 1-tuberculosinyladenosine (1-TbAd) was discovered using
+an HPLC–mass spectrometry (MS)-based lipidomics approach
+and by comparing lipid proﬁle of H37Rv and the M. bovis-derived
+vaccine strain BCG (Layre et al., 2014). This is a di-terpene
+linked adenosine lipid which was detected both associated on
+the bacteria and in the culture supernatant, suggesting a release
+of the lipid by shedding (Layre et al., 2014; Buter et al., 2019).
+This lipid was found in the vast majority of clinical isolates
+tested and appeared highly abundant (Buter et al., 2019). More
+interestingly, this lipid can act as an antacid when Mtb resides
+in a phagosome, so it can counter the decrease in pH due to
+phagosomal maturation (Buter et al., 2019). 1-TbAd can also
+diﬀuse out of the phagosome and induce swelling in lysosomes,
+thus inhibiting their fusion to the mycobacterial phagosome
+(Buter et al., 2019).
+Mtb Lipids as Modiﬁers of Host Membrane
+Biophysical Properties
+In general, the role of lipids was mainly described as
+pathogen associated molecular pattern (PAMP). Nevertheless,
+their ability to transfer from the bacteria mycomembrane to
+the host cell macrophages membranes during the infection
+led to study their potential impact on host cell membrane
+structure and organization. For example, Mtb-derived ManLAM
+can disrupt microdomain (often called Raft) in artiﬁcial
+membranes and vesicles fusion (Hayakawa et al., 2007).
+They were also observed in these domains in ManLAM-
+treated cells and associated with a defect in phagosomes-
+lysosomes fusion (Welin et al., 2008). This property was also
+observed during Mtb infection of macrophages (Fratti et al.,
+2003). More recently, ManLAM was also found to bind to
+lactosylceramide in rafts at the plasma membrane and the
+phagosomal membrane, to induce phagocytosis and to inhibit
+phagosome-lysosome fusion, respectively (Nakayama et al.,
+2016).
+An alteration of the membrane biophysical properties
+were also found with TDM inserted into artiﬁcial and
+isolated
+mitochondria
+(Sut
+et
+al.,
+1990;
+Harland
+et
+al.,
+2008) and they were able to decrease membrane fusion
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+14
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+in liposomes model (Spargo et al., 1991). SL-1 increases
+membrane polarity on THP-1 treated with the puriﬁed lipid
+and that was associated with its autophagy inhibitory properties
+(Mishra et al., 2019; Dadhich et al., 2020).
+PDIM lipids may not have a host cell receptor that mediates
+their eﬀects because of their purely lipidic nature and it is thus
+conceivable their broad eﬀects on macrophage responses are
+due to alterations in the membrane organization. Indeed, PDIM
+were found to decrease membrane polarity in macrophages
+infected with BCG (Astarie-Dequeker et al., 2009). Moreover,
+it was recently characterized that PDIM can adopt a conical
+shape in membranes that is responsible for an increase curvature
+of artiﬁcial membranes (Augenstreich et al., 2019). PDIM
+treatment of macrophages prior of infection can also rescue the
+phagocytosis level of PDIM deﬁcient strain of Mtb. Interestingly,
+treating macrophages with the conical lipid Palmitoyl-Oleoyl
+Phosphatidylethanolamine can restore the phagocytosis of a
+PDIM-deﬁcient strain of Mtb at the same level as a PDIM
+treatment (Augenstreich et al., 2019). This strongly suggested
+a tight link between PDIM conical shape and its eﬀect on
+macrophages responses. All these observations on PDIM reveal
+that the biophysical impact of the insertion of Mtb virulence
+lipids into the host cells membranes is potentially underestimated
+for the other virulence lipids such as TDM, PGL, DAT/PAT or SL-
+1, and could explain part of the crucial importance the lipids play
+in Mtb virulence.
+DISCUSSION
+The knowledge of how Mtb eﬀectors interact with the host
+cell has increased tremendously over the last decade and the
+successful application of system biology approaches to identify
+eﬀector-host cell interactions has already revealed many new
+potential interactions that will certainly generate compelling
+new ﬁndings in the years to come (Mehra et al., 2013; Penn
+et al., 2018; Wang et al., 2020). We focused this review on
+proteins and lipids of Mtb that are secreted and released
+by the bacterium and aﬀect host cell defense pathways. We
+certainly did not intend to diminish the importance of the other
+strategies of Mtb to manipulate the host cell: (1) Interactions
+of cell wall-anchored Mtb proteins and host cell membrane
+receptors (e.g., PE_PGRS33), (2) Mtb secretes nucleotides [c-
+di-AMP (Dey et al., 2015, 2017), Mtb DNA (Watson et al.,
+2012, 2015; Collins et al., 2015; Wassermann et al., 2015) and
+RNA (Cheng and Schorey, 2018)] that clearly interact with
+the host cell to; for example, induce IFN-β production in the
+case of secreted Mtb DNA (Collins et al., 2015; Wassermann
+et al., 2015; Watson et al., 2015) and (3) Mtb secretes
+membrane vesicles that contain cargo and include membrane
+bound lipids and proteins that will interact with the host cell
+(Prados Rosales et al., 2011; Brown et al., 2015; Lee et al.,
+2015).
+AUTHOR CONTRIBUTIONS
+JA and VB wrote and edited the manuscript and tables. JA created
+the ﬁgures. All authors contributed to the article and approved
+the submitted version.
+FUNDING
+JA and VB are funded by NIH/NIAID grant R01 R01AI139492.
+REFERENCES
+Abdallah, A. M., Verboom, T., Weerdenburg, E. M., Gey van Pittius, N. C.,
+Mahasha, P. W., Jiménez, C., et al. (2009). PPE and PE_PGRS proteins
+of Mycobacterium marinumare transported via the type VII secretion
+system ESX-5. Mol. Microbiol. 73, 329–340. doi: 10.1111/j.1365-2958.2009.
+06783.x
+Aguilera, J., Karki, C. B., Li, L., Vazquez Reyes, S., Estevao, I., Grajeda, B.
+I., et al. (2020). Nα-Acetylation of the virulence factor EsxA is required
+for mycobacterial cytosolic translocation and virulence. J. Biol. Chem. 295,
+5785–5794. doi: 10.1074/jbc.RA119.012497
+Almagro Armenteros, J. J., Tsirigos, K. D., Sønderby, C. K., Petersen, T.
+N., Winther, O., Brunak, S., et al. (2019). SignalP 5.0 improves signal
+peptide predictions using deep neural networks. Nat. Biotechnol. 37, 420–423.
+doi: 10.1038/s41587-019-0036-z
+Antonelli, L. R. V., Gigliotti Rothfuchs, A., Gonçalves, R., Roﬀê, E., Cheever,
+A. W., Baﬁca, A., et al. (2010). Intranasal Poly-IC treatment exacerbates
+tuberculosis in mice through the pulmonary recruitment of a pathogen-
+permissive monocyte/macrophage population. J. Clin. Invest. 120, 1674–1682.
+doi: 10.1172/JCI40817
+Arbues, A., Lugo-Villarino, G., Neyrolles, O., Guilhot, C., and Astarie-Dequeker,
+C. (2014). Playing hide-and-seek with host macrophages through the use
+of mycobacterial cell envelope phthiocerol dimycocerosates and phenolic
+glycolipids. Front. Cell. Infect. Microbiol. 4:173. doi: 10.3389/fcimb.2014.00173
+Arbues, A., Malaga, W., Constant, P., Guilhot, C., Prandi, J., and Astarie-
+Dequeker,
+C.
+(2016).
+Trisaccharides
+of
+phenolic
+glycolipids
+confer
+advantages to pathogenic mycobacteria through manipulation of host-
+cell
+pattern-recognition
+receptors.
+ACS
+Chem.
+Biol.
+11,
+2865–2875.
+doi: 10.1021/acschembio.6b00568
+Armstrong, J. A., and Hart, P. D. (1971). Response of cultured macrophages to
+Mycobacterium tuberculosis, with observations on fusion of lysosomes with
+phagosomes. J. Exp. Med. 134, 713–740. doi: 10.1084/jem.134.3.713
+Astarie-Dequeker,
+C.,
+Le
+Guyader,
+L.,
+Malaga,
+W.,
+Seaphanh,
+F.-K.,
+Chalut, C., Lopez, A., et al. (2009). Phthiocerol dimycocerosates of M.
+tuberculosis participate in macrophage invasion by inducing changes in
+the organization of plasma membrane lipids. PLoS Pathog 5:e1000289.
+doi: 10.1371/journal.ppat.1000289
+Athman, J. J., Sande, O. J., Groft, S. G., Reba, S. M., Nagy, N., Wearsch, P. A.,
+et al. (2017). Mycobacterium tuberculosis membrane vesicles inhibit T Cell
+activation. J. Immunol. 198, 2028–2037. doi: 10.4049/jimmunol.1601199
+Athman, J. J., Wang, Y., McDonald, D. J., Boom, W. H., Harding, C. V.,
+and Wearsch, P. A. (2015). bacterial membrane vesicles mediate the release
+of Mycobacterium tuberculosis lipoglycans and lipoproteins from infected
+macrophages. J. Immunol. 195, 1044–1053. doi: 10.4049/jimmunol.1402894
+Augenstreich, J., Arbues, A., Simeone, R., Haanappel, E., Wegener, A., Sayes,
+F., et al. (2017). ESX-1 and phthiocerol dimycocerosates of Mycobacterium
+tuberculosis act in concert to cause phagosomal rupture and host cell apoptosis.
+Cell. Microbiol. 19, 1–19. doi: 10.1111/cmi.12726
+Augenstreich, J., Haanappel, E., Ferré, G., Czaplicki, G., Jolibois, F., Destainville,
+N., et al. (2019). The conical shape of DIM lipids promotes Mycobacterium
+tuberculosis infection of macrophages. Proc. Natl. Acad. Sci. U.S.A. 116,
+25649–25658. doi: 10.1073/pnas.1910368116
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+15
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+Augenstreich, J., Haanappel, E., Sayes, F., Simeone, R., Guillet, V., Mazères, S., et al.
+(2020). phthiocerol dimycocerosates from Mycobacterium tuberculosis increase
+the membrane activity of bacterial eﬀectors and host receptors. Front. Cell.
+Infect. Microbiol. 10:420. doi: 10.3389/fcimb.2020.00420
+Av-Gay, Y., and Everett, M. (2000). The eukaryotic-like Ser/Thr protein
+kinases of Mycobacterium
+tuberculosis. Trends Microbiol. 8, 238–244.
+doi: 10.1016/S0966-842X(00)01734-0
+Bach, H., Papavinasasundaram, K. G., Wong, D., Hmama, Z., and Av-
+Gay, Y. (2008). Mycobacterium tuberculosis virulence is mediated by PtpA
+dephosphorylation of human vacuolar protein sorting 33B. Cell Host Microbe
+3, 316–322. doi: 10.1016/j.chom.2008.03.008
+Bah, A., Sanicas, M., Nigou, J., Guilhot, C., Astarie-Dequeker, C., and Vergne,
+I. (2020). The Lipid Virulence Factors of Mycobacterium tuberculosis exert
+multilayered control over autophagy-related pathways in infected human
+macrophages. Cells 9, 666. doi: 10.3390/cells9030666
+Bange, F. C., Collins, F. M., and Jacobs, W. R. (1999). Survival of mice
+infected with Mycobacterium smegmatis containing large DNA fragments
+from
+Mycobacterium
+tuberculosis.
+Tuber.
+Lung
+Dis.
+79,
+171–180.
+doi: 10.1054/tuld.1998.0201
+Barczak, A. K., Avraham, R., Singh, S., Luo, S. S., Zhang, W. R., Bray, M.-A., et al.
+(2017). Systematic, multiparametric analysis of Mycobacterium tuberculosis
+intracellular infection oﬀers insight into coordinated virulence. PLoS Pathog
+13:e1006363. doi: 10.1371/journal.ppat.1006363
+Bardarov, S., Bardarov, S. J. Jr., Pavelka, M. S. J. Jr., Sambandamurthy, V., Larsen,
+M., Tufariello, J., et al. (2002). Specialized transduction: an eﬃcient method for
+generating marked and unmarked targeted gene disruptions in Mycobacterium
+tuberculosis, M. bovis BCG and M. smegmatis. Microbiology 148, 3007–3017.
+doi: 10.1099/00221287-148-10-3007
+Baros, S. S., Blackburn, J. M., and Soares, N. C. (2020). phosphoproteomic
+approaches to discover novel substrates of mycobacterial ser/thr protein
+kinases. Mol. Cell Proteomics 19, 233–244. doi: 10.1074/mcp.R119.001668
+Beatty, W. L., Rhoades, E. R., Ullrich, H. J., Chatterjee, D., Heuser, J. E., and Russell,
+D. G. (2000). Traﬃcking and release of mycobacterial lipids from infected
+macrophages. Traﬃc 1, 235–247. doi: 10.1034/j.1600-0854.2000.010306.x
+Bedard, K., and Krause, K.-H. (2007). The NOX family of ROS-generating
+NADPH oxidases: physiology and pathophysiology. Physiol. Rev 87, 245–313.
+doi: 10.1152/physrev.00044.2005
+Behar, S. M., Divangahi, M., and Remold, H. G. (2010). Evasion of innate immunity
+by Mycobacterium tuberculosis: is death an exit strategy? Nat. Rev. Microbiol. 8,
+668–674. doi: 10.1038/nrmicro2387
+Beresford, N., Patel, S., Armstrong, J., Szöor, B., Fordham-Skelton, A. P.,
+and Tabernero, L. (2007). MptpB, a virulence factor from Mycobacterium
+tuberculosis, exhibits triple-speciﬁcity phosphatase activity. Biochem. J. 406,
+13–18. doi: 10.1042/BJ20070670
+Beresford, N. J., Mulhearn, D., Szczepankiewicz, B., Liu, G., Johnson, M. E.,
+Fordham-Skelton, A., et al. (2009). Inhibition of MptpB phosphatase from
+Mycobacterium tuberculosis impairs mycobacterial survival in macrophages. J.
+Antimicrob. Chemother. 63, 928–936. doi: 10.1093/jac/dkp031
+Berry, M. P. R., Graham, C. M., McNab, F. W., Xu, Z., Bloch, S. A. A.,
+Oni, T., et al. (2010). An interferon-inducible neutrophil-driven blood
+transcriptional signature in human tuberculosis. Nature 466, 973–977.
+doi: 10.1038/nature09247
+Bhat, K. H., Das, A., Srikantam, A., and Mukhopadhyay, S. (2013). PPE2 protein of
+Mycobacterium tuberculosis may inhibit nitric oxide in activated macrophages.
+Ann. N. Y. Acad. Sci. 1283, 97–101. doi: 10.1111/nyas.12070
+Bhat, K. H., Srivastava, S., Kotturu, S. K., Ghosh, S., and Mukhopadhyay,
+S. (2017). The PPE2 protein of Mycobacterium tuberculosis translocates to
+host nucleus and inhibits nitric oxide production. Sci. Rep. 7, 39706–39713.
+doi: 10.1038/srep39706
+Blanc, L., Gilleron, M., Prandi, J., Song, O.-R., Jang, M.-S., Gicquel, B., et al. (2017).
+Mycobacterium tuberculosis inhibits human innate immune responses via the
+production of TLR2 antagonist glycolipids. Proc. Natl Acad Sci. U.S.A. 114,
+11205–11210. doi: 10.1073/pnas.1707840114
+Bogdan, C. (2015). Nitric oxide synthase in innate and adaptive immunity: an
+update. Trends Immunol. 36, 161–178. doi: 10.1016/j.it.2015.01.003
+Bosserman, R. E., and Champion, P. A. (2017). Esx Systems and the mycobacterial
+cell envelope: what’s the connection? J. Bacteriol. 199, e00131–e00117.
+doi: 10.1128/JB.00131-17
+Braunstein, M., Espinosa, B. J., Chan, J., Belisle, J. T., and Jacobs, W. R.
+(2003). SecA2 functions in the secretion of superoxide dismutase A and in
+the virulence of Mycobacterium tuberculosis. Mol. Microbiol. 48, 453–464.
+doi: 10.1046/j.1365-2958.2003.03438.x
+Briken, V., Porcelli, S. A., Besra, G. S., and Kremer, L. (2004). Mycobacterial
+lipoarabinomannan
+and
+related
+lipoglycans:
+from
+biogenesis
+to
+modulation
+of
+the
+immune
+response.
+Mol.
+Microbiol.
+53,
+391–403.
+doi: 10.1111/j.1365-2958.2004.04183.x
+Brodin, P., Poquet, Y., Levillain, F., Peguillet, I., Larrouy-Maumus, G.,
+Gilleron, M., et al. (2010). High content phenotypic cell-based visual
+screen
+identiﬁes
+Mycobacterium
+tuberculosis
+acyltrehalose-containing
+glycolipids involved in phagosome remodeling. PLoS Pathog. 6:e1001100.
+doi: 10.1371/journal.ppat.1001100
+Brown, L., Wolf, J. M., Prados Rosales, R., and Casadevall, A. (2015). Through the
+wall: extracellular vesicles in gram-positive bacteria, mycobacteria and fungi.
+Nat. Rev. Microbiol. 13, 620–630. doi: 10.1038/nrmicro3480
+Bussi, C., and Gutierrez, M. G. (2019). Mycobacterium tuberculosis infection
+of host cells in space and time. FEMS Microbiol. Rev. 43, 341–361.
+doi: 10.1093/femsre/fuz006
+Buter, J., Cheng, T.-Y., Ghanem, M., Grootemaat, A. E., Raman, S., Feng, X.,
+et al. (2019). Mycobacterium tuberculosis releases an antacid that remodels
+phagosomes. Nat. Chem. Biol. 15, 889–899. doi: 10.1038/s41589-019-0336-0
+Camacho, L. R., Ensergueix, D., Perez, E., Gicquel, B., and Guilhot, C. (1999).
+Identiﬁcation of a virulence gene cluster of Mycobacterium tuberculosis
+by signature-tagged transposon mutagenesis. Mol. Microbiol. 34, 257–267.
+doi: 10.1046/j.1365-2958.1999.01593.x
+Cambier, C. J., Banik, S. M., Buonomo, J. A., and Bertozzi, C. R. (2020). Spreading
+of a mycobacterial cell surface lipid into host epithelial membranes promotes
+infectivity. bioRxiv 83, 505–554. doi: 10.1101/845081
+Cambier, C. J., Takaki, K. K., Larson, R. P., Hernandez, R. E., Tobin, D.
+M., Urdahl, K. B., et al. (2014). Mycobacteria manipulate macrophage
+recruitment through coordinated use of membrane lipids. Nature 505, 218–222.
+doi: 10.1038/nature12799
+Cardenal-Muñoz, E., Arafah, S., López-Jiménez, A. T., Kicka, S., Falaise,
+A., Bach, F., et al. (2017). Mycobacterium
+marinum antagonistically
+induces an autophagic response while repressing the autophagic ﬂux
+in a TORC1- and ESX-1-dependent manner. PLoS Pathog. 13:e1006344.
+doi: 10.1371/journal.ppat.1006344
+Chai, Q., Wang, X., Qiang, L., Zhang, Y., Ge, P., Lu, Z., et al. (2019). A
+Mycobacterium tuberculosis surface protein recruits ubiquitin to trigger host
+xenophagy. Nat. Commun. 10:973. doi: 10.1038/s41467-019-09955-8
+Chandra, P., Ghanwat, S., Matta, S. K., Yadav, S. S., Mehta, M., Siddiqui,
+Z., et al. (2015). Mycobacterium tuberculosis Inhibits rab7 recruitment to
+selectively modulate autophagy ﬂux in macrophages. Sci. Rep. 5:16320.
+doi: 10.1038/srep16320
+Cheng, Y., and Schorey, J. S. (2018). Mycobacterium tuberculosis-induced IFN-β
+production requires cytosolic DNA and RNA sensing pathways. J. Exp. Med.
+215, 2919–2935. doi: 10.1084/jem.20180508
+Chesne-Seck, M.-L., Barilone, N., Boudou, F., Gonzalo-Asensio, J., Kolattukudy, P.
+E., Martin, C., et al. (2008). A point mutation in the two-component regulator
+PhoP-PhoR accounts for the absence of polyketide-derived acyltrehaloses but
+not that of phthiocerol dimycocerosates in Mycobacterium tuberculosis H37Ra.
+J. Bacteriol. 190, 1329–1334. doi: 10.1128/JB.01465-07
+Chiaradia, L., Lefebvre, C., Parra, J., Marcoux, J., Burlet-Schiltz, O., Etienne,
+G., et al. (2017). Dissecting the mycobacterial cell envelope and deﬁning
+the composition of the native mycomembrane. Sci. Rep. 7, 12807–12812.
+doi: 10.1038/s41598-017-12718-4
+Chopra, P., Koduri, H., Singh, R., Koul, A., Ghildiyal, M., Sharma, K., et al.
+(2004). Nucleoside diphosphate kinase of Mycobacterium tuberculosis acts
+as GTPase-activating protein for Rho-GTPases. FEBS Lett. 571, 212–216.
+doi: 10.1016/j.febslet.2004.06.073
+Chopra, P., Singh, A., Koul, A., Ramachandran, S., Drlica, K., Tyagi, A.
+K., et al. (2003). Cytotoxic activity of nucleoside diphosphate kinase
+secreted from Mycobacterium tuberculosis. Eur. J. Biochem. 270, 625–634.
+doi: 10.1046/j.1432-1033.2003.03402.x
+Collins, A. C., Cai, H., Li, T., Franco, L. H., Li, X.-D., Nair, V. R., et al. (2015). Cyclic
+GMP-AMP synthase is an innate immune DNA sensor for Mycobacterium
+tuberculosis. Cell Host Microbe 17, 820–828. doi: 10.1016/j.chom.2015.05.005
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+16
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+Conrad, W. H., Osman, M. M., Shanahan, J. K., Chu, F., Takaki, K. K., Cameron,
+J., et al. (2017). Mycobacterial ESX-1 secretion system mediates host cell lysis
+through bacterium contact-dependent gross membrane disruptions. Proc. Natl.
+Acad. Sci. U.S.A. 114, 1371–1376. doi: 10.1073/pnas.1620133114
+Correa-Macedo, W., Cambri, G., and Schurr, E. (2019). The interplay of human
+and Mycobacterium tuberculosis genomic variability. Front. Genet. 10:865.
+doi: 10.3389/fgene.2019.00865
+Cowley, S., Ko, M., Pick, N., Chow, R., Downing, K. J., Gordhan, B. G., et al. (2004).
+The Mycobacterium tuberculosis protein serine/threonine kinase PknG is linked
+to cellular glutamate/glutamine levels and is important for growth in vivo. Mol.
+Microbiol. 52, 1691–1702. doi: 10.1111/j.1365-2958.2004.04085.x
+Cox, J. S., Chen, B., McNeil, M., and Jacobs, W. R. (1999). Complex lipid
+determines tissue-speciﬁc replication of Mycobacterium tuberculosis in mice.
+Nature 402, 79–83. doi: 10.1038/47042
+Crowley, J. T., Toledo, A. M., LaRocca, T. J., Coleman, J. L., London, E., and
+Benach, J. L. (2013). Lipid exchange between Borrelia burgdorferi and host cells.
+PLoS Pathog. 9:e1003109. doi: 10.1371/journal.ppat.1003109
+Dadhich, R., Mishra, M., Ning, S., Jana, S., Sarpe, V. A., Mahato, J., et al. (2020). A
+Virulence-associated glycolipid with distinct conformational attributes: impact
+on lateral organization of host plasma membrane, autophagy and signaling.
+ACS Chem. Biol. 15, 740–750. doi: 10.1021/acschembio.9b00991
+Daﬀé, M., and Lanéelle, M. A. (1988). Distribution of phthiocerol diester, phenolic
+mycosides and related compounds in mycobacteria. J. Gen. Microbiol. 134,
+2049–2055. doi: 10.1099/00221287-134-7-2049
+Daﬀe,
+M.,
+and
+Marrakchi,
+H.
+(2019).
+Unraveling
+the
+structure
+of
+the
+mycobacterial
+envelope.
+Microbiol.
+Spect.
+7,
+1–11.
+doi: 10.1128/microbiolspec.GPP3-0027-2018
+Dahl,
+J.
+L.,
+Wei,
+J.,
+Moulder,
+J.
+W.,
+Laal,
+S.,
+and
+Friedman,
+R.
+L.
+(2001). Subcellular localization of the Iitracellular survival-enhancing eis
+protein of Mycobacterium tuberculosis. Infect. Immun. 69, 4295–4302.
+doi: 10.1128/IAI.69.7.4295-4302.2001
+Dallenga, T., Repnik, U., Corleis, B., Eich, J., Reimer, R., Griﬃths, G. W., et al.
+(2017). M. tuberculosis-induced necrosis of infected neutrophils promotes
+bacterial growth following phagocytosis by macrophages. Cell Host Microbe 22,
+519–530.e3. doi: 10.1016/j.chom.2017.09.003
+Danelishvili, L., Everman, J. L., McNamara, M. J., and Bermudez, L. E. (2011).
+Inhibition of the plasma-membrane-associated serine protease cathepsin G by
+Mycobacterium tuberculosis Rv3364c suppresses caspase-1 and pyroptosis in
+macrophages. Front. Microbiol. 2:281. doi: 10.3389/fmicb.2011.00281
+Danelishvili, L., Yamazaki, Y., Selker, J., and Bermudez, L. E. (2010). Secreted
+Mycobacterium tuberculosis Rv3654c and Rv3655c proteins participate
+in
+the
+suppression
+of
+macrophage
+apoptosis.
+PLoS
+ONE
+5:e10474.
+doi: 10.1371/journal.pone.0010474
+Danilchanka, O., Sun, J., Pavlenok, M., Maueröder, C., Speer, A., Siroy, A.,
+et al. (2014). An outer membrane channel protein of Mycobacterium
+tuberculosis with exotoxin activity. Proc. Natl. Acad. Sci. U.S.A. 111, 6750–6755.
+doi: 10.1073/pnas.1400136111
+Dao, D. N., Kremer, L., Guérardel, Y., Molano, A., Jacobs, W. R., Porcelli, S.
+A., et al. (2004). Mycobacterium tuberculosis lipomannan induces apoptosis
+and interleukin-12 production in macrophages. Infect. Immun. 72, 2067–2074.
+doi: 10.1128/IAI.72.4.2067-2074.2004
+Darwin, K. H., Ehrt, S., Gutierrez-Ramos, J.-C., Weich, N., and Nathan, C.
+F. (2003). The proteasome of Mycobacterium tuberculosis is required for
+resistance to nitric oxide. Science 302, 1963–1966. doi: 10.1126/science.1091176
+Day, T. A., Mittler, J. E., Nixon, M. R., Thompson, C., Miner, M. D., Hickey,
+M. J., et al. (2014). Mycobacterium tuberculosis strains lacking surface lipid
+phthiocerol dimycocerosate are susceptible to killing by an early innate host
+response. Infect. Immun. 82, 5214–5222. doi: 10.1128/IAI.01340-13
+de Chastellier, C., Forquet, F., Gordon, A., and Thilo, L. (2009). Mycobacterium
+requires
+an
+all-around
+closely
+apposing
+phagosome
+membrane
+to
+maintain the maturation block and this apposition is re-established when
+it rescues itself from phagolysosomes. Cell. Microbiol. 11, 1190–1207.
+doi: 10.1111/j.1462-5822.2009.01324.x
+de Jonge, M. I., Pehau-Arnaudet, G., Fretz, M. M., Romain, F., Bottai, D., Brodin,
+P., et al. (2007). ESAT-6 from Mycobacterium tuberculosis dissociates from its
+putative chaperone CFP-10 under acidic conditions and exhibits membrane-
+lysing activity. J. Bacteriol. 189, 6028–6034. doi: 10.1128/JB.00469-07
+De Maio, F., Berisio, R., Manganelli, R., and Delogu, G. (2020). PE_PGRS
+proteins of Mycobacterium tuberculosis: a specialized molecular task force
+at the forefront of host-pathogen interaction. Virulence 11, 898–915.
+doi: 10.1080/21505594.2020.1785815
+de Souza, G. A., Leversen, N. A., Målen, H., and Wiker, H. G. (2011). Bacterial
+proteins with cleaved or uncleaved signal peptides of the general secretory
+pathway. J. Proteomics 75, 502–510. doi: 10.1016/j.jprot.2011.08.016
+Deghmane, A.-E., Soualhine, H., Soulhine, H., Bach, H., Sendide, K., Itoh, S., et al.
+(2007). Lipoamide dehydrogenase mediates retention of coronin-1 on BCG
+vacuoles, leading to arrest in phagosome maturation. J. Cell Sci. 120, 2796–2806.
+doi: 10.1242/jcs.006221
+Dejesus, M. A., Gerrick, E. R., Xu, W., Park, S. W., Long, J. E., Boutte, C.
+C., et al. (2017). comprehensive essentiality analysis of the Mycobacterium
+tuberculosis genome via saturating transposon mutagenesis. MBio 8:e02133–
+e02116. doi: 10.1128/mBio.02133-16
+Dey, B., Dey, R. J., Cheung, L. S., Pokkali, S., Guo, H., Lee, J.-H., et al.
+(2015). A bacterial cyclic dinucleotide activates the cytosolic surveillance
+pathway and mediates innate resistance to tuberculosis. Nat. Med. 21, 401–406.
+doi: 10.1038/nm.3813
+Dey, R. J., Dey, B., Zheng, Y., Cheung, L. S., Zhou, J., Sayre, D., et al. (2017).
+Inhibition of innate immune cytosolic surveillance by an M. tuberculosis
+phosphodiesterase. Nat. Chem. Biol. 13, 210–217. doi: 10.1038/nchembio.
+2254
+Domingo-Gonzalez, R., Prince, O., Cooper, A., and Khader, S. A. (2016). Cytokines
+and Chemokines in Mycobacterium tuberculosis Infection. Microbiol. Spectr. 4,
+1–58. doi: 10.1128/microbiolspec.TBTB2-0018-2016
+Dubois, V., Viljoen, A., Laencina, L., Le Moigne, V., Bernut, A., Dubar, F.,
+et al. (2018). MmpL8MAB controls Mycobacterium abscessus virulence and
+production of a previously unknown glycolipid family. Proc. Natl. Acad. Sci.
+U.S.A. 115, E10147–E10156. doi: 10.1073/pnas.1812984115
+Dulberger, C. L., Rubin, E. J., and Boutte, C. C. (2020). The mycobacterial
+cell
+envelope
+-
+a
+moving
+target.
+Nat.
+Rev.
+Microbiol.
+18,
+47–59.
+doi: 10.1038/s41579-019-0273-7
+Edwards, K. M., Cynamon, M. H., Voladri, R. K., Hager, C. C., DeStefano, M. S.,
+Tham, K. T., et al. (2001). Iron-cofactored superoxide dismutase inhibits host
+responses to Mycobacterium tuberculosis. Am. J. Respir. Crit. Care Med. 164,
+2213–2219. doi: 10.1164/ajrccm.164.12.2106093
+Flynn, J. L., Chan, J., Triebold, K. J., Dalton, D. K., Stewart, T. A., and Bloom, B. R.
+(1993). An essential role for interferon gamma in resistance to Mycobacterium
+tuberculosis infection. J. Exp. Med. 178, 2249–2254. doi: 10.1084/jem.178.6.
+2249
+Flynn, J. L., Goldstein, M. M., Chan, J., Triebold, K. J., Pfeﬀer, K., Lowenstein, C. J.,
+et al. (1995). Tumor necrosis factor-alpha is required in the protective immune
+response against Mycobacterium tuberculosis in mice. Immunity 2, 561–572.
+doi: 10.1016/1074-7613(95)90001-2
+Franco, L. H., Nair, V. R., Scharn, C. R., Xavier, R. J., Torrealba, J. R., Shiloh, M.
+U., et al. (2016). The ubiquitin ligase smurf1 functions in selective autophagy
+of Mycobacterium tuberculosis and anti-tuberculous host defense. Cell Host
+Microbe 21, 59–72. doi: 10.1016/j.chom.2017.08.005
+Fratti, R. A., Backer, J. M., Gruenberg, J., Corvera, S., and Deretic, V. (2001). Role
+of phosphatidylinositol 3-kinase and Rab5 eﬀectors in phagosomal biogenesis
+and mycobacterial phagosome maturation arrest. J. Cell Biol. 154, 631–644.
+doi: 10.1083/jcb.200106049
+Fratti, R. A., Chua, J., Vergne, I., and Deretic, V. (2003). Mycobacterium
+tuberculosis
+glycosylated
+phosphatidylinositol
+causes
+phagosome
+maturation
+arrest.
+Proc.
+Natl.
+Acad.
+Sci.
+U.S.A.
+100,
+5437–5442.
+doi: 10.1073/pnas.0737613100
+Gago, G., Diacovich, L., and Gramajo, H. (2017). Lipid metabolism and its
+implication in mycobacteria-host interaction. Curr. Opin. Microbiol. 41, 36–42.
+doi: 10.1016/j.mib.2017.11.020
+Galluzzi, L., Vitale, I., Aaronson, S. A., Abrams, J. M., Adam, D., Agostinis, P.,
+et al. (2018). molecular mechanisms of cell death: recommendations of the
+nomenclature committee on cell death 2018. Cell Death Diﬀer. 25, 486–541.
+doi: 10.1038/s41418-017-0012-4
+Galmes, R., ten Brink, C., Oorschot, V., Veenendaal, T., Jonker, C., van der Sluijs,
+P., et al. (2015). Vps33B is required for delivery of endocytosed cargo to
+lysosomes. Traﬃc 16, 1288–1305. doi: 10.1111/tra.12334
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+17
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+Ganguly, N., Giang, P. H., Gupta, C., Basu, S. K., Siddiqui, I., Salunke, D. M.,
+et al. (2008). Mycobacterium tuberculosis secretory proteins CFP-10, ESAT-
+6 and the CFP10:ESAT6 complex inhibit lipopolysaccharide-induced NF-
+kappaB transactivation by downregulation of reactive oxidative species (ROS)
+production. Immunol. Cell Biol. 86, 98–106. doi: 10.1038/sj.icb.7100117
+Garcia-Vilanova, A., Chan, J., and Torrelles, J. B. (2019). underestimated
+manipulative roles of Mycobacterium tuberculosis cell envelope glycolipids
+during infection. Front. Immunol. 10:2909. doi: 10.3389/ﬁmmu.2019.02909
+Gilleron, M., Quesniaux, V. F. J., and Puzo, G. (2003). Acylation state
+of the phosphatidylinositol hexamannosides from Mycobacterium bovis
+bacillus Calmette Guerin and Mycobacterium tuberculosis H37Rv and its
+implication in toll-like receptor response. J. Biol. Chem. 278, 29880–29889.
+doi: 10.1074/jbc.M303446200
+Glickman, M. S., Cox, J. S., and Jacobs, W. R. (2000). A novel mycolic
+acid
+cyclopropane
+synthetase
+is
+required
+for
+cording,
+persistence,
+and
+virulence
+of
+Mycobacterium
+tuberculosis.
+Mol.
+Cell
+5,
+717–727.
+doi: 10.1016/S1097-2765(00)80250-6
+Goren, M. B., Brokl, O., and Schaefer, W. B. (1974). Lipids of putative
+relevance
+to
+virulence
+in
+Mycobacterium
+tuberculosis:
+phthiocerol
+dimycocerosate and the attenuation indicator lipid. Infect. Immun. 9,
+150–158. doi: 10.1128/IAI.9.1.150-158.1974
+Goren, M. B., D’Arcy Hart, P., Young, M. R., and Armstrong, J. A. (1976).
+Prevention of phagosome-lysosome fusion in cultured macrophages by
+sulfatides of Mycobacterium tuberculosis. Proc. Natl. Acad. Sci. U.S.A. 73,
+2510–2514. doi: 10.1073/pnas.73.7.2510
+Gröschel, M. I., Sayes, F., Simeone, R., Majlessi, L., and Brosch, R. (2016). ESX
+secretion systems: mycobacterial evolution to counter host immunity. Nat Rev.
+Microbiol. 14, 677–691. doi: 10.1038/nrmicro.2016.131
+Grundner, C., Cox, J. S., and Alber, T. (2008). Protein tyrosine phosphatase PtpA is
+not required for Mycobacterium tuberculosis growth in mice. FEMS Microbiol.
+Lett. 287, 181–184. doi: 10.1111/j.1574-6968.2008.01309.x
+Guerin, M. E., Korduláková, J., Alzari, P. M., Brennan, P. J., and Jackson,
+M.
+(2010).
+Molecular
+basis
+of
+phosphatidyl-myo-inositol
+mannoside
+biosynthesis and regulation in mycobacteria. J. Biol. Chem. 285, 33577–33583.
+doi: 10.1074/jbc.R110.168328
+Gutierrez, M. G., Master, S. S., Singh, S. B., Taylor, G. A., Colombo, M. I.,
+and Deretic, V. (2004). Autophagy is a defense mechanism inhibiting BCG
+and Mycobacterium tuberculosis survival in infected macrophages. Cell 119,
+753–766. doi: 10.1016/j.cell.2004.11.038
+Hagedorn, M., and Soldati, T. (2007). Flotillin and RacH modulate the intracellular
+immunity of dictyostelium to Mycobacterium marinum infection. Cell.
+Microbiol. 9, 2716–2733. doi: 10.1111/j.1462-5822.2007.00993.x
+Harland, C. W., Rabuka, D., Bertozzi, C. R., and Parthasarathy, R. (2008).
+The Mycobacterium tuberculosis virulence factor trehalose dimycolate imparts
+desiccation resistance to model mycobacterial membranes. Biophys. J. 94,
+4718–4724. doi: 10.1529/biophysj.107.125542
+Hayakawa, E., Tokumasu, F., Nardone, G. A., Jin, A. J., Hackley, V. A., and Dvorak,
+J. A. (2007). A Mycobacterium tuberculosis-derived lipid inhibits membrane
+fusion by modulating lipid membrane domains. Biophys. J. 93, 4018–4030.
+doi: 10.1529/biophysj.107.104075
+Hermans,
+P.
+W.,
+van
+Soolingen,
+D.,
+and
+van
+Embden,
+J.
+D.
+(1992).
+Characterization of a major polymorphic tandem repeat in Mycobacterium
+tuberculosis and its potential use in the epidemiology of Mycobacterium
+kansasii
+and
+Mycobacterium
+gordonae.
+J.
+Bacteriol.
+174,
+4157–4165.
+doi: 10.1128/JB.174.12.4157-4165.1992
+Hinchey, J., Lee, S., Jeon, B. Y., Basaraba, R. J., Venkataswamy, M. M., Chen,
+B., et al. (2007). Enhanced priming of adaptive immunity by a proapoptotic
+mutant of Mycobacterium tuberculosis. J. Clin. Invest. 117, 2279–2288.
+doi: 10.1172/JCI31947
+Hoﬀmann, C., Leis, A., Niederweis, M., Plitzko, J. M., and Engelhardt, H. (2008).
+Disclosure of the mycobacterial outer membrane: cryo-electron tomography
+and vitreous sections reveal the lipid bilayer structure. Proc. Natl. Acad. Sci.
+U.S.A. 105, 3963–3967. doi: 10.1073/pnas.0709530105
+Hsu, T., Hingley-Wilson, S. M., Chen, B., Chen, M., Dai, A. Z., Morin, P. M., et al.
+(2003). The primary mechanism of attenuation of bacillus Calmette-Guerin
+is a loss of secreted lytic function required for invasion of lung interstitial
+tissue. Proc. Natl. Acad. Sci. U.S.A. 100, 12420–12425. doi: 10.1073/pnas.16352
+13100
+Huet, G., Constant, P., Malaga, W., Laneelle, M.-A., Kremer, K., van Soolingen,
+D., et al. (2009). A lipid proﬁle typiﬁes the beijing strains of Mycobacterium
+tuberculosis identiﬁcation of a mutation responsible for a modiﬁcation of the
+structures of phthiocerol dimycocerosates and phenolic glycolipids. J. Biol.
+Chem. 284, 27101–27113. doi: 10.1074/jbc.M109.041939
+Hunter, S. W., and Brennan, P. J. (1981). A novel phenolic glycolipid from
+Mycobacterium leprae possibly involved in immunogenicity and pathogenicity.
+J. Bacteriol. 147, 728–735. doi: 10.1128/JB.147.3.728-735.1981
+Iantomasi, R., Sali, M., Cascioferro, A., Palucci, I., Zumbo, A., Soldini,
+S.,
+et
+al.
+(2012).
+PE_PGRS30
+is
+required
+for
+the
+full
+virulence
+of
+Mycobacterium
+tuberculosis.
+Cell.
+Microbiol.
+14,
+356–367.
+doi: 10.1111/j.1462-5822.2011.01721.x
+Ilghari, D., Lightbody, K. L., Veverka, V., Waters, L. C., Muskett, F. W., Renshaw,
+P. S., et al. (2011). Solution structure of the Mycobacterium tuberculosis
+EsxG·EsxH complex: functional implications and comparisons with other
+M. tuberculosis Esx family complexes. J. Biol. Chem. 286, 29993–30002.
+doi: 10.1074/jbc.M111.248732
+Indrigo, J., Hunter, R. L., and Actor, J. K. (2003). Cord factor trehalose 6,6’-
+dimycolate
+(TDM)
+mediates
+traﬃcking
+events
+during
+mycobacterial
+infection
+of
+murine
+macrophages.
+Microbiology
+149,
+2049–2059.
+doi: 10.1099/mic.0.26226-0
+Ishikawa, E., Ishikawa, T., Morita, Y. S., Toyonaga, K., Yamada, H., Takeuchi,
+O., et al. (2009). Direct recognition of the mycobacterial glycolipid,
+trehalose dimycolate, by C-type lectin Mincle. J. Exp. Med. 206, 2879–2888.
+doi: 10.1084/jem.20091750
+Ishikawa, E., Mori, D., and Yamasaki, S. (2017). Recognition of mycobacterial lipids
+by immune receptors. Trends Immunol. 38, 66–76. doi: 10.1016/j.it.2016.10.009
+Jacobs, W. R., Tuckman, M., and Bloom, B. R. (1987). Introduction of foreign
+DNA into mycobacteria using a shuttle phasmid. Nature 327, 532–535.
+doi: 10.1038/327532a0
+Jaiswal, S., Chatterjee, A., Pandey, S., Lata, K., Gadi, R. K., Manda, R., et al. (2019).
+Mycobacterial protein tyrosine kinase, PtkA phosphorylates PtpA at tyrosine
+residues and the mechanism is stalled by the novel series of inhibitors. J. Drug
+Target 27, 51–59. doi: 10.1080/1061186X.2018.1473407
+Johansen, S. K., Maus, C. E., Plikaytis, B. B., and Douthwaite, S. (2006).
+Capreomycin binds across the ribosomal subunit interface using tlyA-
+encoded 2’-O-methylations in 16S and 23S rRNAs. Mol. Cell 23, 173–182.
+doi: 10.1016/j.molcel.2006.05.044
+Joseph, S., Yuen, A., Singh, V., and Hmama, Z. (2017). Mycobacterium
+tuberculosis Cpn60.2 (GroEL2) blocks macrophage apoptosis via interaction
+with mitochondrial mortalin. Biol. Open 6, 481–488. doi: 10.1242/bio.023119
+Kelkar, D. S., Kumar, D., Kumar, P., Balakrishnan, L., Muthusamy, B., Yadav,
+A. K., et al. (2011). Proteogenomic analysis of Mycobacterium tuberculosis
+by high resolution mass spectrometry. Mol. Cell. Proteomics 10:M111.011627.
+doi: 10.1074/mcp.M111.011627
+Khaminets, A., Behl, C., and Dikic, I. (2016). Ubiquitin-dependent and
+independent signals in selective autophagy. Trends Cell. Biol. 26, 6–16.
+doi: 10.1016/j.tcb.2015.08.010
+Khan, H. S., Nair, V. R., Ruhl, C. R., Alvarez-Arguedas, S., Galvan Rendiz, J.
+L., Franco, L. H., et al. (2020). Identiﬁcation of scavenger receptor B1 as
+the airway microfold cell receptor for Mycobacterium tuberculosis. Elife 9:883.
+doi: 10.7554/eLife.52551.sa2
+Kim, K. H., An, D. R., Song, J., Yoon, J. Y., Kim, H. S., Yoon, H. J., et al. (2012).
+Mycobacterium tuberculosis Eis protein initiates suppression of host immune
+responses by acetylation of DUSP16/MKP-7. Proc. Natl. Acad. Sci. U.S.A. 109,
+7729–7734. doi: 10.1073/pnas.1120251109
+King, C. H., Mundayoor, S., Crawford, J. T., and Shinnick, T. M. (1993). Expression
+of contact-dependent cytolytic activity by Mycobacterium tuberculosis and
+isolation of the genomic locus that encodes the activity. Infect. Immun. 61,
+2708–2712. doi: 10.1128/IAI.61.6.2708-2712.1993
+Kirksey, M. A., Tischler, A. D., Simeone, R., Hisert, K. B., Uplekar, S., Guilhot,
+C., et al. (2011). Spontaneous phthiocerol dimycocerosate-deﬁcient variants
+of Mycobacterium tuberculosis are susceptible to gamma interferon-mediated
+immunity. Infect. Immun. 79, 2829–2838. doi: 10.1128/IAI.00097-11
+Koliwer-Brandl, H., Knobloch, P., Barisch, C., Welin, A., Hanna, N., Soldati,
+T., et al. (2019). Distinct Mycobacterium marinum phosphatases determine
+pathogen vacuole phosphoinositide pattern, phagosome maturation, and
+escape to the cytosol. Cell. Microbiol. 21:e13008. doi: 10.1111/cmi.13008
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+18
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+Koster, S., Upadhyay, S., Chandra, P., Papavinasasundaram, K., Yang, G., Hassan,
+A., et al. (2017). Mycobacterium tuberculosis is protected from NADPH oxidase
+and LC3-associated phagocytosis by the LCP protein CpsA. Proc. Natl. Acad.
+Sci. U.S.A. 114, E8711–E8720. doi: 10.1073/pnas.1707792114
+Koul, A., Choidas, A., Treder, M., Tyagi, A. K., Drlica, K., Singh, Y.,
+et
+al.
+(2000).
+Cloning
+and
+characterization
+of
+secretory
+tyrosine
+phosphatases of Mycobacterium tuberculosis. J. Bacteriol. 182, 5425–5432.
+doi: 10.1128/JB.182.19.5425-5432.2000
+Krogh, A., Larsson, B., von Heijne, G., and Sonnhammer, E. L. (2001). Predicting
+transmembrane protein topology with a hidden markov model: application to
+complete genomes. J. Mol. Biol. 305, 567–580. doi: 10.1006/jmbi.2000.4315
+Kumar, D., Nath, L., Kamal, M. A., Varshney, A., Jain, A., Singh, S.,
+et al. (2010). Genome-wide analysis of the host intracellular network
+that regulates survival of Mycobacterium tuberculosis. Cell 140, 731–743.
+doi: 10.1016/j.cell.2010.02.012
+Kumar, S., Mittal, E., Deore, S., Kumar, A., Rahman, A., and Krishnasastry,
+M. V. (2015). Mycobacterial tlyA gene product is localized to the
+cell-wall without signal sequence. Front. Cell. Infect. Microbiol. 5:60.
+doi: 10.3389/fcimb.2015.00060
+Kumar, Y., and Valdivia, R. H. (2009). Leading a sheltered life: intracellular
+pathogens and maintenance of vacuolar compartments. Cell Host Microbe 5,
+593–601. doi: 10.1016/j.chom.2009.05.014
+Laencina, L., Dubois, V., Le Moigne, V., Viljoen, A., Majlessi, L., Pritchard, J., et al.
+(2018). Identiﬁcation of genes required for Mycobacterium abscessus growth in
+vivo with a prominent role of the ESX-4 locus. Proc. Natl. Acad. Sci. U.S.A. 115,
+E1002–E1011. doi: 10.1073/pnas.1713195115
+Layre, E. (2020). Traﬃcking of Mycobacterium tuberculosis envelope components
+and release within extracellular vesicles: host-pathogen interactions beyond the
+wall. Front. Immunol. 11:1230. doi: 10.3389/ﬁmmu.2020.01230
+Layre, E., Lee, H. J., Young, D. C., Martinot, A. J., Buter, J., Minnaard,
+A. J., et al. (2014). Molecular proﬁling of Mycobacterium tuberculosis
+identiﬁes tuberculosinyl nucleoside products of the virulence-associated
+enzyme
+Rv3378c.
+Proc.
+Natl.
+Acad.
+Sci.
+U.S.A.
+111,
+2978–2983.
+doi: 10.1073/pnas.1315883111
+Lee, J., Choi, D.-S., Lee, J. S., Kim, D.-K., Go, G., Park, S.-M., et al. (2015).
+Proteomic analysis of extracellular vesicles derived from Mycobacterium
+tuberculosis. Proteomics 15, 3331–3337. doi: 10.1002/pmic.201500037
+Lerner, T. R., Borel, S., Greenwood, D. J., Repnik, U., Russell, M. R. G.,
+Herbst, S., et al. (2017). Mycobacterium tuberculosis replicates within necrotic
+human macrophages. J. Cell Biol. 216, 583–594. doi: 10.1083/jcb.2016
+03040
+Lerner, T. R., Queval, C. J., Fearns, A., Repnik, U., Griﬃths, G., and Gutierrez,
+M. G. (2018). Phthiocerol dimycocerosates promote access to the cytosol and
+intracellular burden of Mycobacterium tuberculosis in lymphatic endothelial
+cells. BMC Biol. 16:1. doi: 10.1186/s12915-017-0471-6
+Lerner, T. R., Queval, C. J., Lai, R. P., Russell, M. R., Fearns, A., Greenwood, D. J.,
+et al. (2020). Mycobacterium tuberculosis cords within lymphatic endothelial
+cells to evade host immunity. JCI Insight 5:221. doi: 10.1172/jci.insight.
+136937
+Lienard, J., Nobs, E., Lovins, V., Movert, E., Valfridsson, C., and Carlsson, F.
+(2020). The Mycobacterium marinum ESX-1 system mediates phagosomal
+permeabilization and type I interferon production via separable mechanisms.
+Proc. Natl. Acad. Sci. U.S.A. 117, 1160–1166. doi: 10.1073/pnas.1911646117
+Ligon, L. S., Hayden, J. D., and Braunstein, M. (2012). The ins and outs
+of Mycobacterium tuberculosis protein export. Tuberculosis 92, 121–132.
+doi: 10.1016/j.tube.2011.11.005
+Liu, C. H., Liu, H., and Ge, B. (2017). Innate immunity in tuberculosis: host defense
+vs pathogen evasion. Nat. Publ. Group 14, 963–975. doi: 10.1038/cmi.2017.88
+Long, J. E., DeJesus, M., Ward, D., Baker, R. E., Ioerger, T., and Sassetti,
+C. M. (2015). Identifying essential genes in Mycobacterium tuberculosis
+by
+global
+phenotypic
+proﬁling.
+Methods
+Mol.
+Biol.
+1279,
+79–95.
+doi: 10.1007/978-1-4939-2398-4_6
+Lopes Fischer, N., Naseer, N., Shin, S., and Brodsky, I. E. (2020). Eﬀector-
+triggered immunity and pathogen sensing in metazoans. Nat. Microbiol. 5,
+14–26. doi: 10.1038/s41564-019-0623-2
+Målen, H., Berven, F. S., Fladmark, K. E., and Wiker, H. G. (2007). Comprehensive
+analysis of exported proteins from Mycobacterium tuberculosis H37Rv.
+Proteomics 7, 1702–1718. doi: 10.1002/pmic.200600853
+Målen, H., Pathak, S., Søfteland, T., de Souza, G. A., and Wiker, H. G.
+(2010). Deﬁnition of novel cell envelope associated proteins in Triton X-
+114 extracts of Mycobacterium tuberculosis H37Rv. BMC Microbiol. 10:132.
+doi: 10.1186/1471-2180-10-132
+Ma, Y., Keil, V., and Sun, J. (2015). Characterization of Mycobacterium
+tuberculosis EsxA membrane insertion: roles of N- and C-terminal ﬂexible
+arms and central helix-turn-helix motif. J. Biol. Chem. 290, 7314–7322.
+doi: 10.1074/jbc.M114.622076
+Madan-Lala, R., Peixoto, K. V., Re, F., and Rengarajan, J. (2011). Mycobacterium
+tuberculosis Hip1 dampens macrophage proinﬂammatory responses by
+limiting toll-like receptor 2 activation. Infect. Immun. 79, 4828–4838.
+doi: 10.1128/IAI.05574-11
+Madan-Lala, R., Sia, J. K., King, R., Adekambi, T., Monin, L., Khader,
+S. A., et al. (2014). Mycobacterium tuberculosis impairs dendritic cell
+functions through the serine hydrolase Hip1. J. Immunol. 192, 4263–4272.
+doi: 10.4049/jimmunol.1303185
+Maeda, N., Nigou, J., Herrmann, J. L., Jackson, M., Amara, A., Lagrange,
+P. H., et al. (2003). The cell surface receptor DC-SIGN discriminates
+between
+Mycobacterium
+species
+through
+selective
+recognition
+of
+the
+mannose caps on lipoarabinomannan. J. Biol. Chem. 278, 5513–5516.
+doi: 10.1074/jbc.C200586200
+Majlessi, L., Prados Rosales, R., Casadevall, A., and Brosch, R. (2015). Release of
+mycobacterial antigens. Immunol. Rev. 264, 25–45. doi: 10.1111/imr.12251
+Malm, S., Maaß, S., Schaible, U. E., Ehlers, S., and Niemann, S. (2018).
+In vivo virulence of Mycobacterium tuberculosis depends on a single
+homologue
+of
+the
+LytR-CpsA-Psr
+proteins.
+Sci.
+Rep.
+8,
+3936–3910.
+doi: 10.1038/s41598-018-22012-6
+Manzanillo, P. S., Ayres, J. S., Watson, R. O., Collins, A. C., Souza, G., Rae, C.
+S., et al. (2013). The ubiquitin ligase parkin mediates resistance to intracellular
+pathogens. Nature 501, 512–516. doi: 10.1038/nature12566
+Mayer-Barber, K. D., and Sher, A. (2015). Cytokine and lipid mediator networks in
+tuberculosis. Immunol. Rev. 264, 264–275. doi: 10.1111/imr.12249
+Mehra, A., Zahra, A., Thompson, V., Sirisaengtaksin, N., Wells, A., Porto,
+M., et al. (2013). Mycobacterium tuberculosis type VII secreted eﬀector
+EsxH targets host ESCRT to impair traﬃcking. PLoS Pathog. 9:e1003734.
+doi: 10.1371/journal.ppat.1003734
+Menozzi, F. D., Rouse, J. H., Alavi, M., Laude-Sharp, M., Muller, J., Bischoﬀ,
+R., et al. (1996). Identiﬁcation of a heparin-binding hemagglutinin present in
+mycobacteria. J. Exp. Med. 184, 993–1001. doi: 10.1084/jem.184.3.993
+Miller, J. L., Velmurugan, K., Cowan, M. J., and Briken, V. (2010). The type I
+NADH dehydrogenase of Mycobacterium tuberculosis counters phagosomal
+NOX2 activity to inhibit TNF-alpha-mediated host cell apoptosis. PLoS Pathog.
+6:e1000864. doi: 10.1371/journal.ppat.1000864
+Mishra, M., Adhyapak, P., Dadhich, R., and Kapoor, S. (2019). Dynamic
+remodeling
+of
+the
+host
+cell
+membrane
+by
+virulent
+mycobacterial
+sulfoglycolipid-1. Sci. Rep. 9, 12844–12813. doi: 10.1038/s41598-019-49343-2
+Mittal, E., Kumar, S., Rahman, A., and Krishnasastry, M. V. (2014). Modulation
+of phagolysosome maturation by bacterial tlyA gene product. J. Biosci. 39,
+821–834. doi: 10.1007/s12038-014-9472-6
+Mittal, E., Skowyra, M. L., Uwase, G., Tinaztepe, E., Mehra, A., Koster, S.,
+et al. (2018). Mycobacterium tuberculosis Type VII secretion system eﬀectors
+diﬀerentially impact the ESCRT endomembrane damage response. MBio
+9:2763. doi: 10.1128/mBio.01765-18
+Mohareer, K., Asalla, S., and Banerjee, S. (2018). Cell death at the cross
+roads of host-pathogen interaction in Mycobacterium tuberculosis infection.
+Tuberculosis 113, 99–121. doi: 10.1016/j.tube.2018.09.007
+Moraco, A. H., and Kornfeld, H. (2014). Cell death and autophagy in tuberculosis.
+Semin. Immunol. 26, 497–511. doi: 10.1016/j.smim.2014.10.001
+Moreira-Teixeira, L., Mayer-Barber, K., Sher, A., and O’Garra, A. (2018). Type
+I interferons in tuberculosis: foe and occasionally friend. J. Exp. Med. 215,
+1273–1285. doi: 10.1084/jem.20180325
+Murphy, K. C., Nelson, S. J., Nambi, S., Papavinasasundaram, K., Baer, C. E.,
+and Sassetti, C. M. (2018). ORBIT: a new paradigm for genetic engineering of
+mycobacterial chromosomes. MBio 9:6836. doi: 10.1128/mBio.01467-18
+Murry, J. P., Pandey, A. K., Sassetti, C. M., and Rubin, E. J. (2009).
+Phthiocerol
+dimycocerosate
+transport
+is
+required
+for
+resisting
+interferon-gamma-independent immunity. J. Infect. Dis. 200, 774–782.
+doi: 10.1086/605128
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+19
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+Naﬃn-Olivos, J. L., Georgieva, M., Goldfarb, N., Madan-Lala, R., Dong, L., Bizzell,
+E., et al. (2014). Mycobacterium tuberculosis Hip1 modulates macrophage
+responses
+through
+proteolysis
+of
+GroEL2. PLoS
+Pathog. 10:e1004132.
+doi: 10.1371/journal.ppat.1004132
+Nakayama, H., Kurihara, H., Morita, Y. S., Kinoshita, T., Mauri, L., Prinetti, A.,
+et al. (2016). Lipoarabinomannan binding to lactosylceramide in lipid rafts
+is essential for the phagocytosis of mycobacteria by human neutrophils. Sci.
+Signal. 9:ra101. doi: 10.1126/scisignal.aaf1585
+Neyrolles, O., and Guilhot, C. (2011). Recent advances in deciphering the
+contribution of Mycobacterium tuberculosis lipids to pathogenesis. Tuberculosis
+91, 187–195. doi: 10.1016/j.tube.2011.01.002
+Nigou, J., Vasselon, T., Ray, A., Constant, P., Gilleron, M., Besra, G. S., et al. (2008).
+Mannan chain length controls lipoglycans signaling via and binding to TLR2. J.
+Immunol. 180, 6696–6702. doi: 10.4049/jimmunol.180.10.6696
+Olive, A. J., and Sassetti, C. M. (2018). Tolerating the unwelcome guest; how the
+host withstands persistent Mycobacterium tuberculosis. Front. Immunol. 9:2094.
+doi: 10.3389/ﬁmmu.2018.02094
+Ortalo-Magné, A., Lemassu, A., Lanéelle, M. A., Bardou, F., Silve, G., Gounon, P.,
+et al. (1996). Identiﬁcation of the surface-exposed lipids on the cell envelopes of
+Mycobacterium tuberculosis and other mycobacterial species. J. Bacteriol. 178,
+456–461. doi: 10.1128/JB.178.2.456-461.1996
+Ostrop, J., Jozefowski, K., Zimmermann, S., Hofmann, K., Strasser, E., Lepenies, B.,
+et al. (2015). Contribution of MINCLE-SYK signaling to activation of primary
+human apcs by mycobacterial cord factor and the novel adjuvant TDB. J.
+Immunol. 195, 2417–2428. doi: 10.4049/jimmunol.1500102
+Pajuelo, D., González-Juarbe, N., Tak, U., Sun, J., Orihuela, C. J., and Niederweis,
+M. (2018). NAD+ depletion triggers macrophage necroptosis, a cell death
+pathway exploited by Mycobacterium tuberculosis. Cell Rep. 24, 429–440.
+doi: 10.1016/j.celrep.2018.06.042
+Passemar, C., Arbues, A., Malaga, W., Mercier, I., Moreau, F., Lepourry,
+L., et al. (2014). Multiple deletions in the polyketide synthase gene
+repertoire of Mycobacterium tuberculosis reveal functional overlap of cell
+envelope lipids in host-pathogen interactions. Cell. Microbiol. 16, 195–213.
+doi: 10.1111/cmi.12214
+Pathak, S. K., Basu, S., Basu, K. K., Banerjee, A., Pathak, S., Bhattacharyya, A.,
+et al. (2007). Direct extracellular interaction between the early secreted antigen
+ESAT-6 of Mycobacterium tuberculosis and TLR2 inhibits TLR signaling in
+macrophages. Nat. Immunol. 8, 610–618. doi: 10.1038/ni1468
+Peng, X., and Sun, J. (2016). Mechanism of ESAT-6 membrane interaction and
+its roles in pathogenesis of Mycobacterium tuberculosis. Toxicon 116, 29–34.
+doi: 10.1016/j.toxicon.2015.10.003
+Penn, B. H., Netter, Z., Johnson, J. R., Von Dollen, J., Jang, G. M., Johnson, T., et al.
+(2018). An Mtb-human protein-protein interaction map identiﬁes a switch
+between host antiviral and antibacterial responses. Mol. Cell 71, 637–648.e5.
+doi: 10.1016/j.molcel.2018.07.010
+Pethe, K., Alonso, S., Biet, F., Delogu, G., Brennan, M. J., Locht, C., et al.
+(2001). The heparin-binding haemagglutinin of M. tuberculosis is required for
+extrapulmonary dissemination. Nature 412, 190–194. doi: 10.1038/35084083
+Poirier, V., Bach, H., and Av-Gay, Y. (2014). Mycobacterium tuberculosis
+promotes anti-apoptotic activity of the macrophage by PtpA protein-
+dependent dephosphorylation of host GSK3α. J. Biol. Chem. 289, 29376–29385.
+doi: 10.1074/jbc.M114.582502
+Portal Celhay, C., Tufariello, J. M., Srivastava, S., Zahra, A., Klevorn, T.,
+Grace, P. S., et al. (2016). Mycobacterium tuberculosis EsxH inhibits
+ESCRT-dependent
+CD4(+)
+T-cell
+activation.
+Nat.
+Microbiol.
+2:16232.
+doi: 10.1038/nmicrobiol.2016.232
+Pradhan, G., Shrivastva, R., and Mukhopadhyay, S. (2018). Mycobacterial PknG
+targets the rab7l1 signaling pathway to inhibit phagosome-lysosome fusion. J.
+Immunol. 201, 1421–1433. doi: 10.4049/jimmunol.1800530
+Prados Rosales, R., Baena, A., Martinez, L. R., Luque-Garcia, J., Kalscheuer, R.,
+Veeraraghavan, U., et al. (2011). Mycobacteria release active membrane vesicles
+that modulate immune responses in a TLR2-dependent manner in mice. J. Clin.
+Invest. 121, 1471–1483. doi: 10.1172/JCI44261
+Prados Rosales, R., Carreño, L. J., Batista-Gonzalez, A., Baena, A., Venkataswamy,
+M. M., Xu, J., et al. (2014a). Mycobacterial membrane vesicles administered
+systemically in mice induce a protective immune response to surface
+compartments
+of
+Mycobacterium
+tuberculosis.
+MBio
+5:e01921–e01914.
+doi: 10.1128/mBio.01921-14
+Prados Rosales, R., Weinrick, B. C., Piqué, D. G., Jacobs, W. R., Casadevall,
+A., and Rodriguez, G. M. (2014b). Role for Mycobacterium tuberculosis
+membrane vesicles
+in
+iron
+acquisition.
+J.
+Bacteriol. 196, 1250–1256.
+doi: 10.1128/JB.01090-13
+Prisic,
+S.,
+and
+Husson,
+R.
+N.
+(2014).
+Mycobacterium
+tuberculosis
+serine/threonine
+protein
+kinases.
+Microbiol.
+Spectr.
+2,
+1–42.
+doi: 10.1128/microbiolspec.MGM2-0006-2013
+Puri, R. V., Reddy, P. V., and Tyagi, A. K. (2013). Secreted acid phosphatase (sapm)
+of Mycobacterium tuberculosis is indispensable for arresting phagosomal
+maturation and growth of the pathogen in guinea pig tissues. PLoS ONE
+8:e70514. doi: 10.1371/journal.pone.0070514
+Queiroz, A., and Riley, L. W. (2017). Bacterial immunostat: Mycobacterium
+tuberculosis lipids and their role in the host immune response. Rev. Soc. Bras.
+Med. Trop. 50, 9–18. doi: 10.1590/0037-8682-0230-2016
+Quesniaux,
+V.
+J.,
+Nicolle,
+D.
+M.,
+Torres,
+D.,
+Kremer,
+L.,
+Guérardel,
+Y.,
+Nigou,
+J.,
+et al.
+(2004). Toll-like receptor
+2 (TLR2)-dependent-
+positive and TLR2-independent-negative regulation of proinﬂammatory
+cytokines by mycobacterial lipomannans. J. Immunol. 172, 4425–4434.
+doi: 10.4049/jimmunol.172.7.4425
+Queval, C. J., Brosch, R., and Simeone, R. (2017). The macrophage: a disputed
+fortress in the battle against Mycobacterium tuberculosis. Front. Microbiol.
+8:883. doi: 10.3389/fmicb.2017.02284
+Quigley, J., Hughitt, V. K., Velikovsky, C. A., Mariuzza, R. A., El-Sayed, N. M., and
+Briken, V. (2017). The cell wall lipid PDIM contributes to phagosomal escape
+and host cell exit of Mycobacterium tuberculosis. MBio 8, e00148–e00117.
+doi: 10.1128/mBio.00148-17
+Rahman, A., Srivastava, S. S., Sneh, A., Ahmed, N., and Krishnasastry, M. V. (2010).
+Molecular characterization of tlyA gene product, Rv1694 of Mycobacterium
+tuberculosis: a non-conventional hemolysin and a ribosomal RNA methyl
+transferase. BMC Biochem. 11:35. doi: 10.1186/1471-2091-11-35
+Rahman, M. A., Sobia, P., Dwivedi, V. P., Bhawsar, A., Singh, D. K., Sharma, P.,
+et al. (2015). Mycobacterium tuberculosis TlyA protein negatively regulates T
+helper (Th) 1 and Th17 diﬀerentiation and promotes tuberculosis pathogenesis.
+J. Biol. Chem. 290, 14407–14417. doi: 10.1074/jbc.M115.653600
+Ramakrishnan, L., Federspiel, N. A., and Falkow, S. (2000). Granuloma-speciﬁc
+expression of Mycobacterium virulence proteins from the glycine-rich PE-
+PGRS family. Science 288, 1436–1439. doi: 10.1126/science.288.5470.1436
+Ranes, M. G., Rauzier, J., Lagranderie, M., Gheorghiu, M., and Gicquel, B. (1990).
+Functional analysis of pAL5000, a plasmid from mycobacterium fortuitum:
+construction of a “mini” mycobacterium-Escherichia coli shuttle vector. J.
+Bacteriol. 172, 2793–2797. doi: 10.1128/JB.172.5.2793-2797.1990
+Rao, V., Fujiwara, N., Porcelli, S. A., and Glickman, M. S. (2005). Mycobacterium
+tuberculosis controls host innate immune activation through cyclopropane
+modiﬁcation of a glycolipid eﬀector molecule. J. Exp. Med. 201, 535–543.
+doi: 10.1084/jem.20041668
+Ray, S., Vazquez Reyes, S., Xiao, C., and Sun, J. (2019). Eﬀects of membrane
+lipid
+composition
+on
+Mycobacterium
+tuberculosis
+EsxA
+membrane
+insertion: a dual play of ﬂuidity and charge. Tuberculosis 118:101854.
+doi: 10.1016/j.tube.2019.07.005
+Reed, M. B., Domenech, P., Manca, C., Su, H., Barczak, A. K., Kreiswirth,
+B. N., et al. (2004). A glycolipid of hypervirulent tuberculosis strains that
+inhibits the innate immune response. Nature 431, 84–87. doi: 10.1038/nature
+02837
+Rengarajan, J., Bloom, B. R., and Rubin, E. J. (2005). Genome-wide requirements
+for Mycobacterium tuberculosis adaptation and survival in macrophages. Proc.
+Natl. Acad. Sci. U.S.A. 102, 8327–8332. doi: 10.1073/pnas.0503272102
+Rengarajan, J., Murphy, E., Park, A., Krone, C. L., Hett, E. C., Bloom,
+B.
+R.,
+et
+al.
+(2008).
+Mycobacterium
+tuberculosis
+Rv2224c
+modulates
+innate immune responses. Proc. Natl. Acad. Sci. U.S.A. 105, 264–269.
+doi: 10.1073/pnas.0710601105
+Renshaw, P. S., Lightbody, K. L., Veverka, V., Muskett, F. W., Kelly, G., Frenkiel,
+T. A., et al. (2005). Structure and function of the complex formed by the
+tuberculosis virulence factors CFP-10 and ESAT-6. EMBO J. 24, 2491–2498.
+doi: 10.1038/sj.emboj.7600732
+Rhoades, E., Hsu, F. F., Torrelles, J. B., Turk, J., Chatterjee, D., and Russell,
+D. G. (2003). Identiﬁcation and macrophage-activating activity of glycolipids
+released from intracellular Mycobacterium bovis BCG. Mol. Microbiol. 48,
+875–888. doi: 10.1046/j.1365-2958.2003.03473.x
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+20
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+Robinson, N., Kolter, T., Wolke, M., Rybniker, J., Hartmann, P., and Plum,
+G. (2008). Mycobacterial phenolic glycolipid inhibits phagosome maturation
+and subverts the pro-inﬂammatory cytokine response. Traﬃc 9, 1936–1947.
+doi: 10.1111/j.1600-0854.2008.00804.x
+Rock, J. M., Hopkins, F. F., Chavez, A., Diallo, M., Chase, M. R., Gerrick, E.
+R., et al. (2017). Programmable transcriptional repression in mycobacteria
+using an orthogonal CRISPR interference platform. Nat. Microbiol. 2:16274.
+doi: 10.1038/nmicrobiol.2016.274
+Romagnoli, A., Etna, M. P., Giacomini, E., Pardini, M., Remoli, M. E., Corazzari,
+M., et al. (2012). ESX-1 dependent impairment of autophagic ﬂux by
+Mycobacterium tuberculosis in human dendritic cells. Autophagy 8, 1357–1370.
+doi: 10.4161/auto.20881
+Rousseau, C., Neyrolles, O., Bordat, Y., Giroux, S., Sirakova, T. D., Prevost,
+M.-C., et al. (2003a). Deﬁciency in mycolipenate- and mycosanoate-derived
+acyltrehaloses enhances early interactions of Mycobacterium tuberculosis with
+host cells. Cell. Microbiol. 5, 405–415. doi: 10.1046/j.1462-5822.2003.00289.x
+Rousseau, C., Turner, O. C., Rush, E., Bordat, Y., Sirakova, T. D., Kolattukudy,
+P. E., et al. (2003b). Sulfolipid deﬁciency does not aﬀect the virulence of
+Mycobacterium tuberculosis H37Rv in mice and guinea pigs. Infect. Immun. 71,
+4684–4690. doi: 10.1128/IAI.71.8.4684-4690.2003
+Rousseau, C., Winter, N., Pivert, E., Bordat, Y., Neyrolles, O., Avé, P., et al.
+(2004). Production of phthiocerol dimycocerosates protects Mycobacterium
+tuberculosis from the cidal activity of reactive nitrogen intermediates produced
+by macrophages and modulates the early immune response to infection. Cell.
+Microbiol. 6, 277–287. doi: 10.1046/j.1462-5822.2004.00368.x
+Ruhl, C. R., Pasko, B. L., Khan, H. S., Kindt, L. M., Stamm, C. E., Franco, L. H., et al.
+(2020). Mycobacterium tuberculosis sulfolipid-1 activates nociceptive neurons
+and induces cough. Cell 181, 293–305.e11. doi: 10.1016/j.cell.2020.02.026
+Saikolappan, S., Estrella, J., Sasindran, S. J., Khan, A., Armitige, L. Y., Jagannath,
+C., et al. (2012). The fbpA/sapM double knock out strain of Mycobacterium
+tuberculosis is highly attenuated and immunogenic in macrophages. PLoS ONE
+7:e36198. doi: 10.1371/journal.pone.0036198
+Saini, N. K., Baena, A., Ng, T. W., Venkataswamy, M. M., Kennedy, S. C.,
+Kunnath-Velayudhan, S., et al. (2016). Suppression of autophagy and antigen
+presentation by Mycobacterium tuberculosis PE_PGRS47. Nat. Microbiol.
+1:16133. doi: 10.1038/nmicrobiol.2016.133
+Saleh, M. T., and Belisle, J. T. (2000). Secretion of an acid phosphatase (SapM) by
+Mycobacterium tuberculosis that is similar to eukaryotic acid phosphatases. J.
+Bacteriol. 182, 6850–6853. doi: 10.1128/JB.182.23.6850-6853.2000
+Samuel, L. P., Song, C.-H., Wei, J., Roberts, E. A., Dahl, J. L., Barry, C. E., et al.
+(2007). Expression, production and release of the eis protein by Mycobacterium
+tuberculosis during infection of macrophages and its eﬀect on cytokine
+secretion. Microbiology 153, 529–540. doi: 10.1099/mic.0.2006/002642-0
+Sancho-Vaello, E., Albesa-Jové, D., Rodrigo-Unzueta, A., and Guerin, M.
+E.
+(2017).
+Structural
+basis
+of
+phosphatidyl-myo-inositol
+mannosides
+biosynthesis in mycobacteria. BBA Mol. Cell Biol. Lipids 1862, 1355–1367.
+doi: 10.1016/j.bbalip.2016.11.002
+Sani, M., Houben, E. N. G., Geurtsen, J., Pierson, J., de Punder, K., van Zon, M.,
+et al. (2010). Direct visualization by cryo-EM of the mycobacterial capsular
+layer: a labile structure containing ESX-1-secreted proteins. PLoS Pathog.
+6:e1000794. doi: 10.1371/journal.ppat.1000794
+Schnettger, L., Rodgers, A., Repnik, U., Lai, R. P., Pei, G., Verdoes, M., et al. (2017).
+A Rab20-Dependent membrane traﬃcking pathway controls M. tuberculosis
+replication by regulating phagosome spaciousness and integrity. Cell Host
+Microbe 21, 619–628.e5. doi: 10.1016/j.chom.2017.04.004
+Shin, D.-M., Jeon, B.-Y., Lee, H.-M., Jin, H. S., Yuk, J.-M., Song, C.-H., et al.
+(2010). Mycobacterium tuberculosis eis regulates autophagy, inﬂammation,
+and cell death through redox-dependent signaling. PLoS Pathog. 6:e1001230.
+doi: 10.1371/journal.ppat.1001230
+Sia,
+J.
+K.,
+and
+Rengarajan,
+J.
+(2019).
+Immunology
+of
+Mycobacterium
+tuberculosis
+infections.
+Microbiol.
+Spectr.
+7,
+1–37.
+doi: 10.1128/microbiolspec.GPP3-0022-2018
+Simeone, R., Sayes, F., Song, O., Gröschel, M. I., Brodin, P., Brosch, R., et al. (2015).
+Cytosolic access of Mycobacterium tuberculosis: critical impact of phagosomal
+acidiﬁcation control and demonstration of occurrence in vivo. PLoS Pathog.
+11:e1004650. doi: 10.1371/journal.ppat.1004650
+Simmons, J. D., Stein, C. M., Seshadri, C., Campo, M., Alter, G., Fortune, S.,
+et al. (2018). Immunological mechanisms of human resistance to persistent
+Mycobacterium tuberculosis infection. Nat. Rev. Immunol. 18, 575–589.
+doi: 10.1038/s41577-018-0025-3
+Singh, R., Rao, V., Shakila, H., Gupta, R., Khera, A., Dhar, N., et al.
+(2003).
+Disruption
+of
+mptpB
+impairs
+the
+ability
+of
+Mycobacterium
+tuberculosis to survive in guinea pigs. Mol. Microbiol. 50, 751–762.
+doi: 10.1046/j.1365-2958.2003.03712.x
+Smith, C. M., Proulx, M. K., Lai, R., Kiritsy, M. C., Bell, T. A., Hock, P., et al.
+(2019). functionally overlapping variants control tuberculosis susceptibility in
+collaborative cross mice. MBio 10, 621. doi: 10.1128/mBio.02791-19
+Smith, J., Manoranjan, J., Pan, M., Bohsali, A., Xu, J., Liu, J., et al. (2008). Evidence
+for pore formation in host cell membranes by ESX-1-secreted ESAT-6 and its
+role in Mycobacterium marinum escape from the vacuole. Infect. Immun. 76,
+5478–5487. doi: 10.1128/IAI.00614-08
+Sohn,
+H.,
+Kim,
+J.-S.,
+Shin,
+S.
+J.,
+Kim,
+K.,
+Won,
+C.-J.,
+Kim,
+W.
+S.,
+et al. (2011). Targeting of Mycobacterium tuberculosis heparin-binding
+hemagglutinin to mitochondria in macrophages. PLoS Pathog. 7:e1002435.
+doi: 10.1371/journal.ppat.1002435
+Spargo, B. J., Crowe, L. M., Ioneda, T., Beaman, B. L., and Crowe, J. H.
+(1991). Cord factor (alpha,alpha-trehalose 6,6’-dimycolate) inhibits fusion
+between phospholipid vesicles. Proc. Natl. Acad. Sci. U.S.A. 88, 737–740.
+doi: 10.1073/pnas.88.3.737
+Speer, A., Sun, J., Danilchanka, O., Meikle, V., Rowland, J. L., Walter, K., et al.
+(2015). Surface hydrolysis of sphingomyelin by the outer membrane protein
+Rv0888 supports replication of Mycobacterium tuberculosis in macrophages.
+Mol. Microbiol. 97, 881–897. doi: 10.1111/mmi.13073
+Sreejit, G., Ahmed, A., Parveen, N., Jha, V., Valluri, V. L., Ghosh, S., et al.
+(2014). The ESAT-6 protein of Mycobacterium tuberculosis interacts with beta-
+2-microglobulin (β2m) aﬀecting antigen presentation function of macrophage.
+PLoS Pathog. 10:e1004446. doi: 10.1371/journal.ppat.1004446
+Srinivasan, L., Ahlbrand, S., and Briken, V. (2014). Interaction of Mycobacterium
+tuberculosis with host cell death pathways. Cold Spring Harb. Perspect. Med.
+4:a022459. doi: 10.1101/cshperspect.a022459
+Srinivasan, L., Gurses, S. A., Hurley, B. E., Miller, J. L., Karakousis, P. C., and
+Briken, V. (2016). Identiﬁcation of a transcription factor that regulates host cell
+exit and virulence of Mycobacterium tuberculosis. PLoS Pathog. 12:e1005652.
+doi: 10.1371/journal.ppat.1005652
+Srivastava, S., Battu, M. B., Khan, M. Z., Nandicoori, V. K., and Mukhopadhyay,
+S. (2019). Mycobacterium tuberculosis PPE2 protein interacts with p67phox
+and inhibits reactive oxygen species production. J. Immunol. 2019:ji1801143.
+doi: 10.4049/jimmunol.1801143
+Sturgill-Koszycki, S., Schlesinger, P. H., Chakraborty, P., Haddix, P. L., Collins, H.
+L., Fok, A. K., et al. (1994). Lack of acidiﬁcation in Mycobacterium phagosomes
+produced by exclusion of the vesicular proton-ATPase. Science 263, 678–681.
+doi: 10.1126/science.8303277
+Sun, J., Singh, V., Lau, A., Stokes, R. W., Obregón-Henao, A., Orme, I. M., et al.
+(2013). Mycobacterium tuberculosis nucleoside diphosphate kinase inactivates
+small GTPases leading to evasion of innate immunity. PLoS Pathog. 9:e1003499.
+doi: 10.1371/journal.ppat.1003499
+Sun, J., Siroy, A., Lokareddy, R. K., Speer, A., Doornbos, K. S., Cingolani, G., et al.
+(2015). The tuberculosis necrotizing toxin kills macrophages by hydrolyzing
+NAD. Nat. Struct. Mol. Biol 22, 672–678. doi: 10.1038/nsmb.3064
+Sun, J., Wang, X., Lau, A., Liao, T.-Y. A., Bucci, C., and Hmama, Z.
+(2010). Mycobacterial nucleoside diphosphate kinase blocks phagosome
+maturation in murine RAW 264.7 macrophages. PLoS ONE 5:e8769.
+doi: 10.1371/journal.pone.0008769
+Sut, A., Sirugue, S., Sixou, S., Lakhdar-Ghazal, F., Tocanne, J. F., and Lanéelle,
+G. (1990). Mycobacteria glycolipids as potential pathogenicity eﬀectors:
+alteration of model and natural membranes. Biochemistry 29, 8498–8502.
+doi: 10.1021/bi00488a042
+Szymanska, E., Budick-Harmelin, N., and Miaczynska, M. (2018). Endosomal
+“sort” of signaling control: the role of ESCRT machinery in regulation
+of receptor-mediated signaling pathways. Semin. Cell Dev. Biol. 74, 11–20.
+doi: 10.1016/j.semcdb.2017.08.012
+Torrelles, J. B., Azad, A. K., and Schlesinger, L. S. (2006). Fine discrimination
+in the recognition of individual species of phosphatidyl-myo-inositol
+mannosides from Mycobacterium tuberculosis by C-type lectin pattern
+recognition receptors. J. Immunol. 177, 1805–1816. doi: 10.4049/jimmunol.177.
+3.1805
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+21
+October 2020 | Volume 10 | Article 595029
+
+Augenstreich and Briken
+Mtb Lipid and Protein Effectors
+Truong, T., and Penn, B. H. (2020). An M. tuberculosis metabolic enzyme
+moonlights as an anti-inﬂammatory eﬀector protein. Cell Host Microbe 27,
+310–312. doi: 10.1016/j.chom.2020.02.012
+Tufariello, J. M., Chapman, J. R., Kerantzas, C. A., Wong, K.-W., Vilchèze, C.,
+Jones, C. M., et al. (2016). Separable roles for Mycobacterium tuberculosis ESX-
+3 eﬀectors in iron acquisition and virulence. Proc. Natl. Acad. Sci. U.S.A. 113,
+E348–E357. doi: 10.1073/pnas.1523321113
+Upadhyay, S., Mittal, E., and Philips, J. A. (2018). Tuberculosis and the art of
+macrophage manipulation. Pathog. Dis 76:37. doi: 10.1093/femspd/fty037
+Upadhyay, S., and Philips, J. A. (2019). LC3-associated phagocytosis: host
+defense
+and
+microbial
+response.
+Curr.
+Opin.
+Immunol.
+60,
+81–90.
+doi: 10.1016/j.coi.2019.04.012
+van der Woude, A. D., Stoop, E. J. M., Stiess, M., Wang, S., Ummels, R.,
+van Stempvoort, G., et al. (2014). Analysis of SecA2-dependent substrates in
+Mycobacterium marinum identiﬁes protein kinase G (PknG) as a virulence
+eﬀector. Cell. Microbiol. 16, 280–295. doi: 10.1111/cmi.12221
+Vandal, O. H., Roberts, J. A., Odaira, T., Schnappinger, D., Nathan, C. F., and
+Ehrt, S. (2009). Acid-susceptible mutants of Mycobacterium tuberculosis share
+hypersusceptibility to cell wall and oxidative stress and to the host environment.
+J. Bacteriol. 191, 625–631. doi: 10.1128/JB.00932-08
+Vaziri,
+F.,
+and
+Brosch,
+R.
+(2019).
+ESX/Type
+VII
+secretion
+systems-an
+important way out for mycobacterial proteins. Microbiol. Spectr. 7, 351–362.
+doi: 10.1128/9781683670285.ch28
+Velmurugan, K., Chen, B., Miller, J. L., Azogue, S., Gurses, S., Hsu, T., et al. (2007).
+Mycobacterium tuberculosis nuoG is a virulence gene that inhibits apoptosis of
+infected host cells. PLoS Pathog. 3:e110. doi: 10.1371/journal.ppat.0030110
+Venugopal, A., Bryk, R., Shi, S., Rhee, K., Rath, P., Schnappinger, D., et al. (2011).
+Virulence of Mycobacterium tuberculosis depends on lipoamide dehydrogenase,
+a member of three multienzyme complexes. Cell Host Microbe 9, 21–31.
+doi: 10.1016/j.chom.2010.12.004
+Vergne, I., Chua, J., Lee, H.-H., Lucas, M., Belisle, J., and Deretic, V.
+(2005).
+Mechanism
+of
+phagolysosome
+biogenesis
+block
+by
+viable
+Mycobacterium tuberculosis. Proc. Natl. Acad. Sci. U.S.A. 102, 4033–4038.
+doi: 10.1073/pnas.0409716102
+Vergne, I., Fratti, R. A., Hill, P. J., Chua, J., Belisle, J., and Deretic, V. (2004).
+Mycobacterium tuberculosis phagosome maturation arrest: mycobacterial
+phosphatidylinositol analog phosphatidylinositol mannoside stimulates early
+endosomal fusion. Mol. Biol. Cell. 15, 751–760. doi: 10.1091/mbc.e03-05-0307
+Vergne,
+I.,
+Gilleron,
+M.,
+and
+Nigou,
+J.
+(2014).
+Manipulation
+of
+the
+endocytic
+pathway
+and
+phagocyte
+functions
+by
+Mycobacterium
+tuberculosis
+lipoarabinomannan.
+Front.
+Cell.
+Infect.
+Microbiol.
+4:187.
+doi: 10.3389/fcimb.2014.00187
+Vincent, A. T., Nyongesa, S., Morneau, I., Reed, M. B., Tocheva, E. I., and Veyrier,
+F. J. (2018). The mycobacterial cell envelope: a relict from the past or the result
+of recent evolution? Front. Microbiol. 9:2341. doi: 10.3389/fmicb.2018.02341
+Walburger, A., Koul, A., Ferrari, G., Nguyen, L., Prescianotto-Baschong,
+C.,
+Huygen,
+K.,
+et
+al.
+(2004).
+Protein
+kinase
+G
+from
+pathogenic
+mycobacteria promotes survival within macrophages. Science 304, 1800–1804.
+doi: 10.1126/science.1099384
+Wang, J., Li, B.-X., Ge, P.-P., Li, J., Wang, Q., Gao, G. F., et al. (2015a).
+Mycobacterium tuberculosis suppresses innate immunity by coopting the host
+ubiquitin system. Nat. Immunol. 16, 237–245. doi: 10.1038/ni.3096
+Wang, L., Liu, Z., Wang, J., Liu, H., Wu, J., Tang, T., et al. (2019). Oxidization of
+TGFβ-activated kinase by MPT53 is required for immunity to Mycobacterium
+tuberculosis. Nat. Microbiol. 4, 1378–1388. doi: 10.1038/s41564-019-0436-3
+Wang, L., Wu, J., Li, J., Yang, H., Tang, T., Liang, H., et al. (2020). Host-mediated
+ubiquitination of a mycobacterial protein suppresses immunity. Nature 577,
+682–688. doi: 10.1038/s41586-019-1915-7
+Wang, Q., Zhu, L., Jones, V., Wang, C., Hua, Y., Shi, X., et al. (2015b).
+CpsA, a LytR-CpsA-Psr family protein in mycobacterium marinum, is
+required for cell wall integrity and virulence. Infect. Immun. 83, 2844–2854.
+doi: 10.1128/IAI.03081-14
+Wassermann, R., Gulen, M. F., Sala, C., Perin, S. G., Lou, Y., Rybniker,
+J.,
+et
+al.
+(2015).
+Mycobacterium
+tuberculosis
+diﬀerentially
+activates
+cgas-
+and
+inﬂammasome-dependent
+intracellular
+immune
+responses
+through ESX-1. Cell Host Microbe 17, 799–810. doi: 10.1016/j.chom.2015.
+05.003
+Watson, R. O., Bell, S. L., MacDuﬀ, D. A., Kimmey, J. M., Diner, E. J., Olivas, J., et al.
+(2015). The Cytosolic sensor cgas detects Mycobacterium tuberculosis DNA to
+induce type i interferons and activate autophagy. Cell Host Microbe 17, 811–819.
+doi: 10.1016/j.chom.2015.05.004
+Watson, R. O., Manzanillo, P. S., and Cox, J. S. (2012). Extracellular M. tuberculosis
+DNA targets bacteria for autophagy by activating the host DNA-sensing
+pathway. Cell 150, 803–815. doi: 10.1016/j.cell.2012.06.040
+Wei, J., Dahl, J. L., Moulder, J. W., Roberts, E. A., O’Gaora, P., Young, D.
+B., et al. (2000). Identiﬁcation of a Mycobacterium tuberculosis gene that
+enhances mycobacterial survival in macrophages. J. Bacteriol. 182, 377–384.
+doi: 10.1128/JB.182.2.377-384.2000
+Welin, A., Winberg, M. E., Abdalla, H., Sarndahl, E., Rasmusson, B., Stendahl, O.,
+et al. (2008). Incorporation of Mycobacterium tuberculosis lipoarabinomannan
+into macrophage membrane rafts is a prerequisite for the phagosomal
+maturation block. Infect. Immun. 76, 2882–2887. doi: 10.1128/IAI.01549-07
+Wong, D., Bach, H., Sun, J., Hmama, Z., and Av-Gay, Y. (2011). Mycobacterium
+tuberculosis protein tyrosine phosphatase (PtpA) excludes host vacuolar-H+-
+ATPase to inhibit phagosome acidiﬁcation. Proc. Natl. Acad. Sci. U.S.A. 108,
+19371–19376. doi: 10.1073/pnas.1109201108
+Wong, D., Chao, J. D., and Av-Gay, Y. (2013). Mycobacterium tuberculosis-secreted
+phosphatases: from pathogenesis to targets for TB drug development. Trends
+Microbiol. 21, 100–109. doi: 10.1016/j.tim.2012.09.002
+Wong, D., Li, W., Chao, J. D., Zhou, P., Narula, G., Tsui, C., et al. (2018). Protein
+tyrosine kinase, PtkA, is required for Mycobacterium tuberculosis growth in
+macrophages. Sci. Rep. 8, 155–112. doi: 10.1038/s41598-017-18547-9
+Wren, B. W., Stabler, R. A., Das, S. S., Butcher, P. D., Mangan, J. A., Clarke,
+J. D., et al. (1998). Characterization of a haemolysin from Mycobacterium
+tuberculosis with homology to a virulence factor of Serpulina hyodysenteriae.
+Microbiology 144, 1205–1211. doi: 10.1099/00221287-144-5-1205
+Yang, Y., Xu, P., He, P., Shi, F., Tang, Y., Guan, C., et al. (2020). Mycobacterial
+PPE13 activates inﬂammasome by interacting with the NATCH and LRR
+domains of NLRP3. FASEB J. 182:902. doi: 10.1096/fj.202000200RR
+Yonekawa, A., Saijo, S., Hoshino, Y., Miyake, Y., Ishikawa, E., Suzukawa, M., et al.
+(2014). Dectin-2 is a direct receptor for mannose-capped lipoarabinomannan
+of mycobacteria. Immunity 41, 402–413. doi: 10.1016/j.immuni.2014.08.005
+Zhang, Q., Wang, D., Jiang, G., Liu, W., Deng, Q., Li, X., et al. (2016). EsxA
+membrane-permeabilizing activity plays a key role in mycobacterial cytosolic
+translocation and virulence: eﬀects of single-residue mutations at glutamine 5.
+Sci. Rep. 6, 32618–32615. doi: 10.1038/srep32618
+Zhang, W., Lu, Q., Dong, Y., Yue, Y., and Xiong, S. (2018). Rv3033,
+as an emerging anti-apoptosis factor, facilitates mycobacteria survival
+via inhibiting macrophage intrinsic apoptosis. Front. Immunol. 9:2136.
+doi: 10.3389/ﬁmmu.2018.02136
+Zhou, B., He, Y., Zhang, X., Xu, J., Luo, Y., Wang, Y., et al. (2010). Targeting
+mycobacterium protein tyrosine phosphatase B for antituberculosis agents.
+Proc. Natl Acad. Sci. U.S.A. 107, 4573–4578. doi: 10.1073/pnas.0909133107
+Zhou, P., Li, W., Wong, D., Xie, J., and Av-Gay, Y. (2015). Phosphorylation control
+of protein tyrosine phosphatase A activity in Mycobacterium tuberculosis. FEBS
+Lett. 589, 326–331. doi: 10.1016/j.febslet.2014.12.015
+Zuber, B., Chami, M., Houssin, C., Dubochet, J., Griﬃths, G., and Daﬀe, M. (2008).
+Direct visualization of the outer membrane of mycobacteria and corynebacteria
+in their native state. J. Bacteriol. 190, 5672–5680. doi: 10.1128/JB.01919-07
+Zulauf, K. E., Sullivan, J. T., and Braunstein, M. (2018). The SecA2 pathway
+of Mycobacterium tuberculosis exports eﬀectors that work in concert to
+arrest phagosome and autophagosome maturation. PLoS Pathog. 14:e1007011.
+doi: 10.1371/journal.ppat.1007011
+Conﬂict of Interest: The authors declare that the research was conducted in the
+absence of any commercial or ﬁnancial relationships that could be construed as a
+potential conﬂict of interest.
+Copyright © 2020 Augenstreich and Briken. This is an open-access article distributed
+under the terms of the Creative Commons Attribution License (CC BY). The use,
+distribution or reproduction in other forums is permitted, provided the original
+author(s) and the copyright owner(s) are credited and that the original publication
+in this journal is cited, in accordance with accepted academic practice. No use,
+distribution or reproduction is permitted which does not comply with these terms.
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+22
+October 2020 | Volume 10 | Article 595029

@@ -1,0 +1,1453 @@
+I[1S AperP'O
+Pe UNIVERSITA
+= <"%) s| DEGLI STUDI
+AperTO - Archivio Istituzionale Open Access dell'Universita di Torino
+White matter and schizophrenia: a meta-analysis of voxel-based morphometry and diffusion
+tensor imaging studies
+Original Citation:
+Availability:
+Published version:
+Terms of use:
+Open Access
+protection by the applicable law.
+This is the author's manuscript
+DOI:10.1016/j.pscychresns.201 7.09.014
+This version is available http://hdl.handle.net/2318/1649580
+since 2017-10-13T12:02:25Z2
+Anyone can freely access the full text of works made available as "Open Access". Works made available
+under a Creative Commons license can be used according to the terms and conditions of said license. Use
+of all other works requires consent of the right holder (author or publisher) if not exempted from copyright
+07 May 2025
+(Article begins on next page)
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA ]
+Abstract
+Voxel-based morphometry (VBM) and diffusion tensor imaging (DTI) are the most
+implemented methodologies to detect alterations of both gray and white matter (WM).
+However, the role of WM in mental disorders is still not well defined. We aimed at
+clarifying the role of WM disruption in schizophrenia and at identifying the most
+frequently involved brain networks. A systematic literature search was conducted to
+identify VBM and DTI studies focusing on WM alterations in patients with
+schizophrenia compared to control subjects. We selected studies reporting the
+coordinates of WM reductions and we performed the anatomical likelihood estimation
+(ALE). Moreover, we labelled the WM bundles with an anatomical atlas and
+compared VBM and DTI ALE-scores of each significant WM tract. A total of 59
+studies were eligible for the meta-analysis. WM alterations were reported in 31 and 34
+foci with VBM and DTI methods, respectively. The most occurred WM bundles in
+both VBM and DTI studies and largely involved in schizophrenia were long
+projection fibers, callosal and commissural fibers, part of motor descending fibers,
+and fronto-temporal-limbic pathways. The meta-analysis showed a widespread WM
+disruption in schizophrenia involving specific cerebral circuits instead of well-defined
+regions.
+Keywords: Schizophrenia; White Matter; Meta-analysis; Voxel-Based Morphometry;
+Diffusion Tensor Imaging.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 2
+1. Introduction
+For many years, schizophrenia has been conceptualized as an inter- intra-
+hemispheric disconnection syndrome characterized by disconnections in gray matter
+(GM) areas (Friston and Frith, 1995; McGuire and Frith, 1996; Friston, 1998). Friston
+and Frith (1995) suggested the “disconnection hypothesis” according to which
+functional abnormalities involve not only specific GM regions, but also impaired
+communications between such regions (i.e., prefrontal-temporal and temporal-limbic
+pathways). Subsequently, McGuire and Frith (1996) postulated the existence of a
+disrupted fronto-temporal-limbic connection by observing anatomical structural GM
+alterations. These studies suggested the presence of a widespread GM disruption
+instead of well-defined alterations underlying the involvement of white matter (WM)
+connections across different areas. Although GM alterations associated with
+schizophrenia were examined thoroughly (Honea, et al., 2005; Glahn et al., 2008;
+Olabi et al., 2011), the role of the WM in the illness pathogenesis is still unclear.
+Recently, several meta-analytic studies investigated the role of WM
+irregularities. A meta-analysis of 15 diffusion tensor imaging (DTT) studies with
+patients affected by chronic schizophrenia, observed significant fractional anisotropy
+(FA) reductions in left frontal and left temporal WM regions, namely the genu and the
+splenium of corpus callosum, the cingulum bundle, the left anterior thalamic
+radiation, the left corticobulbar tract, the left inferior fronto-occipital fasciculus
+(IFOF), the fornix, and the left inferior longitudinal fasciculus (ILF) (Ellison-Wright
+and Bullmore, 2009). Moreover, Di, Chan, and Gong (2009), by conducting a meta-
+analytic procedure implemented on 17 voxel-based morphometry (VBM) studies,
+described WM alterations of chronic and first-episode schizophrenia (FES) patients
+and observed significant WM reductions in frontal regions and in the bilateral internal
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 3
+capsule. Finally, a recent meta-analysis, examined WM alterations in patients with
+FES, showing significant WM reductions in the corpus callosum, the cingulum
+bundle, the left ILF, and the left IFOF (Yao et al., 2013). Taken together, these studies
+emphasize that alterations of WM tracts involving frontal, temporal, and limbic
+circuits play an important role in schizophrenia, thus reinforcing the disconnection
+hypothesis.
+Despite the great relevance of these meta-analytic studies, some critical issues
+remain to be addressed. First, two studies (Di et al., 2009; Yao et al., 2013) focused
+only on patients with FES but they did not evaluate possible effects of illness
+progression or age-dependent factors that may have influenced WM anomalies. A
+recent review by Chiapponi and colleagues (2013a) highlighted a significant influence
+of illness progression in WM anomalies, so that impaired WM regions such as the
+corpus callosum, the uncinate fasciculus, and the regions of frontal and temporal WM
+continuously worsen over time. Their results indicated a possible association between
+illness progression and a faster decline of WM trajectories. In a more recent study
+about structural brain changes in schizophrenia over time, Cropley and colleagues
+(2017) found that patients with schizophrenia showeda significantly fast rate of WM
+deterioration correlated with age, indicating a confounding relationship between WM
+reductions and patients’ age. Taken together, these studies support the hypothesis that
+WM alterations worsen over time concurrently with aging and progression of illness.
+A second critical issue is that the adoption of a single technique (1.e., VBM or DTT)
+may not allow to evaluate properly the total amount of WM alterations given that
+VBM and DTI methods detect different features of WM alterations (Ashburner and
+Friston, 2000; Le Bihan et al., 2001). Third, since 2013 several authors, who were not
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 4
+included in previous meta-analytic studies, investigated WM alterations by using both
+VBM or DTI methodologies.
+Finally, by an in-depth examination of the literature, we observed several
+heterogeneous findings in VBM and DTI studies. For example, some VBM studies
+agreed in finding WM reductions in frontal and temporal areas regardless of the stage
+of illness (e.g., Paillére-Martinot et al., 2001; Spalletta et a., 2003; Price et al., 2006;
+Witthaus et al., 2008; Kim and Jeong, 2015; Lyu et al., 2015), but it remains still
+unclear which WM tract is damaged in these regions. Indeed, some VBM studies
+reported differences between patients and healthy subjects in different regions, such
+as the internal capsule (Suzuki et al., 2002; Hulshoff Pol et al., 2004), the superior
+longitudinal fasciculus (SLF) (Antonova et al., 2005), the cingulum bundle (Wagner
+et al., 2013; Singh et al., 2015), the corpus callosum (Sigmundsson et al., 2001), the
+optic radiations (Ananth et al., 2002), and the cerebellum (Singh et al., 2014 and
+2015), providing a great heterogeneity in findings of these studies. Moreover, several
+DTI studies reported different tracts involved in WM aberration and a clear
+convergence of the results of these studies is still missing. Several DTI studies
+showed different WM aberrations expressed as FA reductions in patients with
+schizophrenia compared to healthy subjects in different bundles, for example in the
+internal capsule (Buchsbaum et al., 2006; Kanaan et al., 2009; Nakamura et al., 2012)
+and in long projection fibers such as IFOF (Rotarska-Jagiela et al., 2009), inferior and
+superior longitudinal fasciculus (Buchsbaum et al., 2006; Seok et al., 2007; Shergill et
+al., 2007), and arcuate fasciculus (Hubl et al., 2004). This observed heterogeneity in
+published findings prompted us to try to find a clearer convergence between published
+studies. In addition, given that important findings have been published during the last
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 5
+three years, further and definitive meta-analytic studies may clarify how aberrations
+of WM pathways are involved in schizophrenia.
+To address the aforementioned issues, we conducted a systematic literature
+research to investigate the role of WM reductions in schizophrenia by using the
+coordinate-based anatomical likelihood estimation (ALE) analysis of VBM and DTI
+studies. ALE is a quantitative voxel-based meta-analysis method that gives anatomical
+information by selecting studies comparison (Laird et al., 2005; Eickhoff et al., 2009;
+Eickhoff et al., 2012; Eickhoff et al., 2016). In ALE analysis, a pool of coordinates is
+extract from a single neuroimaging study. In the neuroimaging studies of cerebral
+alterations, a triad of coordinates (x, y, z) given in a standard stereotactic space
+usually represent the highest point of alteration (increase or decrease) of a defined
+brain area, as the center of a cluster of voxels. This methodology is widely adopted in
+neuroimaging meta-analyses, in particular for structural brain data. The ALE output is
+an overview of previous selected studies, giving information about results
+concordance. The use of ALE analysis on WM studies of schizophrenia could be
+helpful to better understand which are the most altered WM tracts in this illness.
+Overall, we aimed at summarizing previous studies results on WM reductions
+in patients with schizophrenia and clarifying the possible concordance between
+findings of different studies. We considered the following schizophrenic categories:
+FES, early-onset schizophrenia (EOS), late-onset schizophrenia (LOS), and chronic
+schizophrenia, to elucidate the relationship between WM pathways abnormalities and
+pathogenesis of schizophrenia spectrum disorders. An in-house developed MATLAB
+routine was employed for coordinate data analyzing and, subsequently, defining ALE
+maps of altered foci pooled from the selected studies. In addition, a series of meta-
+regression were computed to evaluate effects of age-dependent factors or illness
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 6
+progression on WM anomalies in patients with schizophrenia. Moreover, we
+performed a direct comparison between VBM and DTI data to clarify potential
+differences in WM reductions as detected by those two techniques. On this basis, we
+may hypothesize the presence of WM tracts commonly detected that could be
+represent the most impaired WM bundles in schizophrenia.
+2. Methods
+2.1. Study selection
+We followed PRISMA statement in selecting papers and presenting the results
+(Moher et al., 2009). The electronic research literature database included PubMed
+from early 2000 to January 2016. Studies selection was supervised and approved by
+one neuroimaging expert (FC) and one clinical expert (AZ). Titles, abstracts and
+topics were searched using the following combined terms: “schizophrenia” and “white
+matter” plus “voxel-based morphometry”; “schizophrenia” and “white matter” plus
+“VBM”; “schizophrenia” and “white matter” plus “diffusion tensor imaging”;
+“schizophrenia” and “white matter” plus “DTI”. The search terms had to be present in
+abstract or title of the selected study. Articles were considered to be eligible according
+to the following criteria: 1) studies published as original works: we excluded meta-
+analytic results and we considered only original data of WM reductions; 2)
+publication of WM reduction peak coordinates in a standard stereotactic space: for
+VBM studies, we pooled coordinates of volumetric reductions, while for DTI studies
+we selected the coordinates representing foci of decreased FA; 3) comparison between
+patients with schizophrenia and healthy subjects; 4) absence of patients affected by
+comorbid mental illness in order to avoid a confounding effect of a concomitant
+mental illness; 5) data extraction with whole-brain or whole-white matter analyses; 6)
+exclusion of studies which implemented Region of Interest (ROT) analysis or an
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 7
+equivalent method for data analysis, so that studies that might have neglected
+significant data because implemented a well-defined region analysis were excluded;
+7) writing in English. Figure 1 shows the detailed flow-diagram of studies selection.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA
+FIGURE 1. Flow-diagram of studies selection *
+Included Eligibility Screening [ Identification |
+Records identified through PUBMED searching (up
+to January 2016)
+(n = 830)
+v
+Records after duplicates removed
+(n = 524)
+v
+Records screened
+(n = 524)
+Keywords:
+“schizophrenia” and “white matter” plus
+“voxel based morphometry”, or “VBM”, or
+“diffusion tensor imaging”, or “DTI”
+Vv
+Full-text articles assessed for eligibility
+(n = 206)
+Records excluded
+(n = 318)
+due to not pertinent abstract or title
+y
+‘WM, white matter. VBM, voxel-based morphometry. DTI, diffusion tensor imaging.
+Studies were included in the meta-analysis
+(Tot = 59; 25 VBM studies and 34 DTI studies)
+Total of subjects = 4,369
+(2,198 patients and 2,171 comparison subjects)
+Total of foci of WM reduction = 387
+(150 form VBM studies and 237 form DTI studies)
+Vv
+Full-text articles excluded
+(n = 147)
+65 studies did not publish white matter
+reduction peak coordinates
+82 studies did not meet inclusion criteria:
+1. studies published as original works
+2. comparison between patients with
+schizophrenia and healthy subjects
+3. absence of patients affected by comorbid
+mental illness
+4. data extraction with whole-brain or whole-
+white matter analyses
+5. exclusion of studies which implemented
+Region Of Interest (ROI) analysis or an
+equivalent method for data analyzing
+6. writing in English
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 9
+2.2. Anatomical Likelihood Estimation (ALE)
+Before performing ALE analysis, we normalized the reported coordinates of
+each selected paper in a stereotactic standard space: we transformed the reported
+coordinates from MNI space to Talairach space by using the ICBM2Tal transform
+(Lancaster et al., 2007; Laird et al., 2010). Subsequently, we performed the ALE
+meta-analyses to estimate WM reductions across the selected articles by using the in-
+house MATLAB routine (MATLAB 2016a, The MathWorks, Inc., Natick,
+Massachusetts, United States), which implemented the ALE algorithm proposed by
+Laird et al. (2005) and further improved by Eickhoff et al. (2009), Eickhoff et al.
+(2012), and Eickhoff et al. (2016).
+In the ALE analysis, the anatomical foci (represented by the x, y, z coordinate
+system) are treated not as a single point but as spatial probability distributions
+centered at the given coordinates (peak). Thus, each reported coordinate is considered
+as a central point of a 3D Gaussian probability distribution that models the spatial
+uncertainty associated with the foci and defined by a default full-width half maximum
+(FWHM). The FWHM is defined by the number of subjects in each experiments as
+reported in Eickhoff et al. (2009). The ALE method uses the sample size of each
+experiment to weight the size of the distribution around foci, assuming that a larger
+sample size should have less associated spatial uncertainty (Eickhoff et al., 2009;
+Eickhoff et al., 2012). In other words, larger studies are less sensitive to sampling
+errors and, thus, coordinates values should be closer to their true location, leading to a
+higher validity of meta-analytic results. For each selected study of structural
+neuroimaging, the ALE approach yield to a Modeled Anatomic (MA) map containing
+the voxels associated to the probability of observing alterations (in our analysis, we
+considered only WM reductions). If any alteration was not observed, the probability
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 10
+value associated to the selected voxel is equal to 0 (Eickhoff et al., 2009; Eickhoff et
+al., 2012). In these maps, voxels union forms a cluster which size increases when
+more studies report foci near to each other. Thus, bigger clusters are more informative
+about the probability of observing alterations in the given foci because of the
+convergence of studies reporting the same coordinates (Eickhoff et al., 2012). Each
+MA map is combined in a single map to provide an estimation of the spatial
+convergence across the selected studies. The union of all the MA maps allows to
+calculate voxel-wise ALE scores that are tested against an empirical null hypothesis
+representing a random spatial association between experiments; this comparison
+distinguishes the “true” ALE scores from those obtained by random choice (Eickhoff
+et al., 2009; Eickhoff et al., 2012; Eickhoff et al., 2016).
+The ALE analysis was performed on two separated groups of data, one for
+VBM studies and one for DTI studies, thus obtaining two ALE maps. The ALE maps
+were computed at an FDR-corrected threshold of p < 0.05 and a minimum cluster size
+of K > 50 mm’.
+2.3. WM Labelling
+We used the BVQXTools, a MATLAB toolbox (available from
+http://support. brainvoyager.com/available-tools/52-matlab-tools-bvxqtools.html), to
+transform the ALE maps in a compatible format for the analysis on BrainVoyager QX
+software (http://www.brainvoyager.com, version 2.3.5). Subsequently, we uploaded
+the transformed maps on Brain Voyager QX to visualize the WM tracts emerged from
+our meta-analysis on a standard Talairach template. We built a specific Volume of
+Interest (VOI) map, representing a 3D model of a WM mask that contains a list of
+coordinates (x, y, z) specifying the voxels belonging to the selected VOI. The WM
+mask is based on the WM atlas developed by Catani and Thiebaut de Schotten (2008),
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 11
+so each WM tract represented in the VOI map is correctly named following the atlas.
+The transformed ALE maps and the 3D model of the WM mask could be both
+visualized at the same time, so that it was possible to evaluate where a cluster
+emerging from ALE map overlapped the WM mask. This procedure allowed to
+evaluate whether a significant cluster belonged to a specific WM tract, thus defining
+the name of the involved WM tract. Finally, we calculated the average ALE p-value
+expressed by the voxels of an entire WM bundle, so that each WM tract that emerged
+from the ALE analysis had an ALE score mediated by the total number of voxels of
+the same tract.
+2.4. Conjunction analysis
+We conducted a conjunction analysis to test the existence of overlapping
+clusters between VBM and DTI studies. VBM and DTI are two distinct
+methodologies for brain structural investigation and they detect different aspects of
+WM alteration. Thus, we hypothesized that VBM and DTI would produce different
+results on WM alterations. Indeed, if the conjunction analysis would have not found
+any overlapping clusters for the same WM tract, it would be possible that clusters
+identified by VBM or DTI were different for the same WM bundle. To test this
+hypothesis, the transformed ALE maps were uploaded to BrainVoyager QX to obtain
+volume maps from each ALE map. These anatomical-resolution volume maps (AR-
+VMP) were stored by Brain Voyager QX as files of volume maps containing statistical
+results in 3D format. By using specific functions, Brain Voyager QX produced two
+distinct VOI maps for VBM and DTI studies starting from the transformed ALE
+maps. A third VOI map representing the logical union of the two maps was created.
+This final map contains the overlapped clusters of the two ALE maps and, thus, it
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 12
+represents the significant clusters outlined by ALE analysis of both VBM and DTI
+studies.
+2.5. VBM-DTI comparison
+Once obtained the WM labeled tab, we organized the WM bundle in 3 major
+cerebral circuits: (a) inter-hemispheric connections, including the anterior
+commissure, the corpus callosum and the fornix; (b) fronto-temporal-limbic pathways,
+including the arcuate fasciculus and its segmentations, the cingulum bundle, the
+uncinate fasciculus, the optic radiations, the internal capsule, and the long projection
+fibers as ILF, IFOF, and SLF; (c) cortico-cerebellar tracts, including the internal
+capsule, the cortico-spinal tracts, the cortico-ponto-cerebellum tracts, and the
+cerebellar penduculi. Subsequently, we reported the average ALE p-values obtained
+from ALE analysis of VBM and DTI studies on a double bar chart.
+2.6. Meta-Regression
+To examine potential effects of age, duration of illness, and gender, we
+conducted a series of meta-regressions with the Signed Differential Mapping (SDM)
+software (Radua and Mataix-Cols, 2009; Radua and Mataix-Cols, 2012; Radua et al.,
+2012), which implemented linear regressions, weighted by the square root of the
+sample size and intra-studies and between-studies variance (Radua and Mataix-Cols,
+2009). The main output for each selected variable is a map of the regression slope,
+representing the amount of volumetric change (in VBM studies comparison) and FA
+change (in DTI studies comparison) associated with each variable. For each examined
+variable, SDM software returns a map containing significant clusters of WM changes,
+with associated peak coordinates, significant p-values, and SDM-Z scores. Positive
+SDM-Z scores represent positive correlations, while negative SDM-Z scores represent
+negative correlations. The voxel level threshold of regression was automatically given
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 13
+at p < 0.005, while the extent threshold for cluster size was minimum 10 voxels. The
+variable “gender” was dichotomized to have value 1 (sample entirely composed by
+male patients) or value 0 (sample entirely composed by female patients) (Bora et al.,
+2011). We conducted separate meta-regressions for VBM and DTI studies. For a
+clearer view, we organized the significant clusters emerged from each regression in
+different maps using MRIcron (Rorden et al., 2007).
+3. Results
+3.1. Included studies and sample characteristics
+The initial review process yielded 830 studies. Five hundred twenty-four
+records remained after duplicates removed, 318 of which were excluded due to not
+pertinent abstract or title. Among the remaining 206 studies, 65 studies were rejected
+due to the lack of peak coordinates of altered WM tracts voxels, and other 82 studies
+did not meet the inclusion criteria. Finally, a total of 59 articles published between
+2000 and 2016 were included in our meta-analysis, 25 VBM studies and 34 DTI
+studies (Figure 1). Overall, our study included 2,198 patients with schizophrenia and
+2,171 comparison subjects, and analyzed 150 foci of WM volume reductions (from
+VBM studies) and 237 foci of FA decrease (from DTI studies). Table 1 summarizes
+the demographic and clinical characteristics of the participants.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 14
+TABLE 1. Studies included in the meta-analysis #
+Study Schizophrenia sample Healthy sample vhanges fo cal
+Patients Gender Average Age at Stage of Duration Control Gender Average WM FA
+Year First Author (N) (male/female) age (years) onset ‘Iness of Illness subjects (male/female) Age decrease reduction
+(N) (years) (years) (N) (N) (years)
+VBM 2001 _ Paillere-Martinot, M. L. 20 20/0 29 19.1 EOS 10 20 20/0 26 6
+2001 Sigmundsson, T. 27 26/1 34.9 - - 13.9 27 25/2 32.2 1
+2002 Ananth, H. 20 10/10 37.8 - - 15.85 20 10/10 38.6 1
+2002 Shapleske, J. 72 - 34.1 - - 11.51 32 - 33.3 1
+2002 Suzuki, M. 45 23/22 26.4 21.5 - 5.2 42 22/20 26.1 5
+2003 _— Spalletta, G. 28 14/14 34.6 23.6 Chronic 11 28 14/14 34.4 8
+2004 Hulshoff Pol, H. E. 159 112/47 35.6 21.1 - 12.3 158 106/52 37.7 4
+2005 Antonova, E. 45 27/18 40.49 25.33 - 16.88 43 25/18 33.72 2
+2005 Farrow, T. 25 18/7 20(m), . FES . 22 13/9 20(m), 10
+19(f) 21(f)
+2006 ‘Price, G. 16 12/4 29.9 26.3 FES - 12 4/8 36 6
+2007 Chua, S. 26° 12/17 32 - FES 0.33 38°" 18/22 33 2
+2007 _ Pstore Bassitt, D. 50 38/12 31.7 20.5 - 11.4 30 21/9 31.2 1
+2007. Whitford, T., expA 4] 26/15 19.8 - FES 0.69 47 33/14 19.3 6
+2007. Whitford, T., expB 25 15/10 20 - FES 2.57 26 15/11 20 6
+2008 Witthaus, H. 23 16/7 26.4 - FES - 29 17/12 25.7 19
+2008 Wolf, R. 28 20/8 33.1 - - 5.82 14 9/5 30.9 1
+2008 Yoshihara, Y. 18 9/9 15.8 - EOS 1.2 18 9/9 15.8 2
+2012 Watson, D. 25 19/6 28.8 - FES - 25 19/6 28.2 29
+2013. Wagner, G. 34 23/11 35.9 - - - 36 25/11 32.4 4
+2014 = Singh, S. 14 8/6 34.06 23.9 - 9.6 14 7/7 32.63 2
+2014 ~=van Tol, M. J. 51 44/7 34.04 25.2 - 8.77 51 37/14 36.14 6
+2014 Yao, L. 68 30/38 24.2 - FES 0.72 68 31/37 24.7 3
+2015 Kim, G.W. 20 12/8 30 - - - 20 12/8 30.9 4
+2015 Lei, W., expA 33 22/11 22.33 20.41 FES - 4] 24/17 23.49 3
+2015 Lyu, H. 51 34/17 22.29 - FES 0.93 59 38/21 23.2 2
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 15
+Study Schizophrenia sample Healthy sample v changes fo cal
+Patients Gender Average Age at Stage of Duration Control Gender Average WM FA
+Year First Author (N) (male/female) age (years) onset ‘ness of Illness subjects (male/female) Age decrease reduction
+(N) (years) (years) (N) (N) (years)
+2015 Singh, S. 14 11/3 31.5 23.7 - 10.03 14 10/4 27.21 16
+DTI 2003 ~=Burns, J. 30 15/15 36.4 - - - 30 15/15 35.7 3
+2005 Kumra, S. 26 14/12 15.2 12 EOS 2 34 20/14 15.4 1
+2005 Szeszko, P. 10 6/4 26.9 - FES - 13 7/6 28.9 3
+2006 Buchsbaum, M. S. 63 44/19 41.7 23.5 - 18.2 55 32/23 42.4 19
+2006 ~=—-Hao, Y. 21 12/9 23.71 - FES 0.86 21 10/11 25.05 17
+2007 ~~ Ashtari, M. 23 13/10 15.8 13.5 EOS 2.4 21 11/10 15.3 4
+2007. = Mori, T. 42 26/16 40 23.3 Chronic 16.8 42 26/16 39.2 10
+2007 = Schlosser, R. 18 14/4 29.6 - - - 18 12/6 29 3
+2007 = Seok, J. H. 30 15/15 29.5 - - 75 22 11/11 30.3 5
+2007 = Shergill, S. 33 30/3 32 - - 7 40 35/5 34 3
+2008 Cheung, V. 25 11/14 28.5 - FES 0.5 26 13/13 28.2 7
+2008 Kyriakopoulos, M. 19 12/7 17.09 - EOS - 20 12/8 16.33 3
+2008 Szeszko, P. 33 21/12 25.1 20.5 EOS 4.25 30 18/12 25.9 4
+2009 ~—Bai, Y. M., expA 20 5/15 40.5 29.5 - 10.6 20 5/15 41.2 6
+2009 ~—Bai, Y. M., expB 20 5/15 41.5 25.8 - 15 20 5/15 41.2 9
+2009 Jeong, B. S. 10 10/0 39.6 19.9 Chronic 19 10 10/0 44.1 6
+2009 Kanaan, R. 76 66/10 30.9 - - 4 76 65/11 30.5 10
+2009 Kytiakopoulos, M., 17 13/4 16.62 148 FES - 17 10/7 16.4 2
+exp_A
+2009 SB M., 17 13/4 23.71 22.01 FES - 17 13/4 23.85 5
+2009 _——-Rotarska-Jagiela, A. 24 12/12 39 26.21 - 12.58 24 12/12 39.21 14
+2010 Herbsman, T. 13 - 37.4 - - - 16 - 41.4 4
+2010 ~=Tang, J. 38 20/18 16.3 15.5 FES EOS 0.76 38 20/18 16.5 1
+2011 Cui, L. 25 16/9 25.8 - Paranoid 3.9 30 18/12 23.9 1
+2011 Wang, Q. 68 32/36 24.23 - FES 0.75 100 52/48 25.58 3
+2012 Guo, W. 20 9/11 24 - FES 0.55 26 14/12 23.62 3
+2012 Miyata, J. 26 16/10 34.5 23.2 - 11.3 32 16/16 39 2
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 16
+Study Schizophrenia sample Healthy sample v changes fo cal
+Patients Gender Average Age at Stage of Duration Control Gender Average WM FA
+Year First Author (N) (male/female) age (years) onset ‘ness of Illness subjects (male/female) Age decrease reduction
+(N) (years) (years) (N) (N) (years)
+2012 Nakamura, K. 58 38/20 27.6 23.3 - 4.27 58 38/20 26.4 8
+2012 Sugranyes, G. 22 14/8 17.2 14.7 EOS - 19 11/8 16.5 14
+2013 Chen, L. 20 5/15 46.9 - LOS 2.9 17 4/13 47.4 2
+2013 Chiapponi, C. 69 47/22 38.45 - - - 69 47/22 38.09 5
+2013 Wang, Q., expA 35 16/19 23.84 23.39 FES - 22 14/8 22.41 2
+2013. Wang, Q., expB 35 16/19 23.84 23.39 FES - 22 14/8 22.41 3
+2014 ~~ Ellison-Wright, I. 21 17/4 34.2 - Chronic - 21 14/7 31.5 11
+2014 ~— Liu, X. 17 7/10 38.47 22.88 Chronic 15.41 17 6/11 34.12 1
+2015 Lei, W., expB 33 22/11 22.33 20.41 FES - 4] 24/17 23.49 3
+2015 Lei, W., exp_C 42 25/17 23.38 22.73 FES - 4] 24/17 23.49
+2015 Reid, M. A. 29 20/9 33.8 - - 13.4 20 14/6 37.1 21
+2015 = Situ, W. 50 50/0 31.1 - - 6.21 50 50/0 29.14
+2015 = Spalletta, G., exp_A 21 19/2 33.8 22.4 - 11.4 21 19/2 33.7
+2015 = Spalletta, G., expB 21 19/2 34.1 22.6 - 11.5 21 19/2 33.7
+4 Average age, Age at onset and Duration of Illness are expressed as means. In “WM decrease” and “FA decrease” columns, values are referred to the number of foci of WM
+reduction found by the examined study. EOS, Early-Onset Schizophrenia. FES, First-Episode Schizophrenia. LOS, Late-Onset Schizophrenia. N, number of subjects. m,
+male. f, female. -, no data available.
+* The initial number of included patients was reduced from 29 to 26 because of the presence of massive brain damages in 3 patients [see Chua et al., 2007]
+TM The initial number of included control subjects was reduced from 40 to 38 because of a failure in the procedure of imaging data acquisition [see Chua et al., 2007]
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 17
+3.2. ALE meta-analysis
+The ALE meta-analysis of VBM studies showed WM reductions in the
+anterior commissure, the corpus callosum, , the fornix, the internal capsule, the right
+anterior segment of arcuate fasciculus (AF), the left cortico-ponto-cerebellum tract,
+the right superior cerebellar penduculus, the bilateral AF, the bilateral cingulum, the
+bilateral cortico-spinal tract, the bilateral IFOF, the bilateral ILF, the bilateral inferior
+cerebellar penduculus, the bilateral optic radiation, the bilateral posterior segment of
+AF, the bilateral first part of superior longitudinal fasciculus (SLF 1), the bilateral
+central part of SLF (SLF2), the bilateral final part of SFL (SLF3), and the bilateral
+uncinate fasciculus (UF) (see Figure 2 and Table 2).
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 18
+FIGURE 2. WM volume decrease identified by ALE meta-analysis of VBM studies @
+ALE p values
+EERE Eee eee
+0.001 0.02
+4 Tn first row, axial view of human brain with main clusters of WM alterations found by ALE meta-analysis of VBM studies. The second row shows the coronal view, while
+the third row shows the axial view. We used a Talairach template to represent the clusters found by the meta-analysis. Left and right sides of the brain are flipped. The WM
+bundles involved are listed in Table 2, with peak coordinates and average ALE p-values. The images are visualized using BrainVoyager QX software.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 19
+TABLE 2. WM tracts found in ALE meta-analysis with ALE p-values and coordinates of alteration peaks *
+DTI VBM
+Peak coordinates Peak
+coordinates
+Tract Name N° of Average ALE p- x y 7 Average ALE p- x y
+voxels values values
+AF L 24480 0.000112 -34 -40 -] | 0.000124 -46 -49
+AFR 23307 0.000258 44 -38 -] | 0.000181 49 -10
+Anterior Commissure 16636 0.000904 -25 8 -25 | 0.001020 -10 5
+Anterior Segment of AF L 5391 0.000036 -5] -7 15 | 0.000000
+Anterior Segment of AF R 8780 0.000000 0.000378 50-10
+Cingulum L 42476 0.000566 -19 -43 39 | 0.000082 -4 -4
+Cingulum R 38840 0.001913 18 35 32 | 0.000166 20 -37
+Corpus Callosum 114544 0.000655 17 35 35 | 0.000165 17-28
+Cortico Ponto Cerebellum tract L 2176 0.000226 16 -37 ~~ -32 | 0.000154 22 -24
+Cortico Ponto Cerebellum tract R 766 0.000206 25 -17 5 | 0.000000
+Cortico Spinal tract L 29175 0.000409 -19 -] 17 | 0.000133 -22 -28
+Cortico Spinal tract R 23730 0.000592 29 -19 5 | 0.000258 17 2
+Fornix 26318 0.000924 -29 10 -27 | 0.000455 17-28
+IFOF L 22154 0.000725 -31 -22 -7 | 0.000092 -28 3-1
+IFOF R 23185 0.001700 4) -31 -7 | 0.000002 18 26
+ILF L 20131 0.000900 -34 -40 -] | 0.000002 -23 -7
+ILFR 16338 0.002284 4) -31 -7 | 0.000110 40 ~-i
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 20
+DTI VBM
+Peak coordinates Peak
+coordinates
+Tract Name N° of Average ALE p- x y 7 Average ALE p- x y
+voxels values values
+Inferior Cerebellar Pedunculus L 5648 0.000235 -7 -33 = -22 | 0.000003 2 -51 -16
+Inferior Cerebellar Pedunculus R 5302 0.000502 14 -38 — -31 | 0.000226 11 -25 -31
+Internal Capsule 63671 0.000525 -19 -] 17 | 0.000181 10-25 -31
+Long Segment of AF L 7639 0.000218 -34 -40 -1 | 0.000000
+Optic Radiation L 7923 0.000797 -34 -40 -] | 0.000004 -22 -24 5
+Optic Radiation R 5982 0.002349 29 -19 5 | 0.000161 40-55 1
+Posterior Segment of AF L 11088 0.000313 -34 -40 -] | 0.000001 Sl] -42 -7
+Posterior Segment of AF R 12107 0.001262 41 -34 -4 | 0.000091 56-34) «611
+SLF1 L 109025 0.000169 -19 -43 39 | 0.000163 -16 35 41
+SLF1R 98037 0.001150 20 35 35 | 0.000103 22 50 14
+SLF2 L 112229 0.000059 20 -4 53 | 0.000140 -26 50 14
+SLF2 R 117581 0.000437 20 3935 35 | 0.000068 25 51 414
+SLF3 L 72219 0.000115 -49 -37 14 | 0.000149 -43 -46 = 35
+SLF3 R 119900 0.000078 23 27 31 | 0.000160 50 -10 29
+Superior Cerebellar Pedunculus L 8012 0.000772 -7 -31 = -22 | 0.000000
+Superior Cerebellar Pedunculus R 8113 0.000741 13 -24 -7 | 0.000253 8 -25 -ll
+UFL 12282 0.000883 -25 9 — -21 | 0.000203 -21 23 2
+UFR 13022 0.000888 16 27 2 | 0.000037 17 4 1
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 21
+4 Data were obtained with BrainVoyager QX software. A WM mask, based on WM atlas developed by Catani and Thiebaut de Schotten (2008), was applied in order to obtain
+structural data as N° of total voxel of each tract and coordinate of alteration peaks. Coordinates are expressed in Talairach space. L, left. R, right
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 22
+The ALE meta-analysis of DTI studies showed WM reductions in the anterior
+commissure, the corpus callosum, the fornix, the internal capsule, the left anterior
+segment of AF, the left long segment of AF, the bilateral AF, the bilateral cingulum,
+the bilateral cortico-ponto-cerebellum tract, the bilateral cortico-spinal tract, the
+bilateral IFOF, the bilateral ILF, the bilateral inferior cerebellar penduculus, the
+bilateral optic radiation, the bilateral posterior segment of AF, the bilateral SLF1, the
+bilateral SFL2, the bilateral SLF3, the bilateral superior cerebellar penduculus, and
+the bilateral uncinate fasciculus (see Figure 3 and Table 2).
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 23
+FIGURE 3. WM FA decrease identified by ALE meta-analysis of DTI studies *
+ALE p values
+EEE REE eee
+0.001 oney
+“In first row, axial view of human brain with main clusters of WM alterations found by ALE meta-analysis of DTI studies. The second row shows the coronal view, while the
+third row shows the axial view. We used a Talairach template to represent the clusters found by the meta-analysis. Left and right sides of the brain are flipped. The WM
+bundles involved are listed in Table 2, with peak coordinates and average ALE p-values. The images are visualized using BrainVoyager QX_ software.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 24
+3.3. Conjunction analysis
+The conjunction analysis between ALE maps from VBM and DTI studies
+found no overlapping clusters on the same WM tract, indicating that DTI and VBM
+actually detected different aspects of WM alteration (1.e., volumetric/macrostructural
+vs. diffusion/microstructural) and, consequentially, the clusters identified by VBM or
+DTI were different for the same WM tract
+3.4. VBM-DTI comparison
+Figure 4 shows ALE scores for each significant WM bundle emerged from
+ALE analysis. On the vertical axis we represented the ALE scores , whereas on the
+horizontal axis we listed the WM bundles emerged from our data analysis, according
+to Catani’s WM atlas. We found that the left superior cerebellar penduculus, the left
+long segment of AF, the right cortico-ponto-cerebellum tract, and the left anterior
+segment of AF were activated (occurred) only in DTI studies, whereas the right
+anterior segment of AF was activated (occurred) only in VBM studies. The other
+tracts that were activated in both type of studies were the bilateral IFOF, the bilateral
+ILF, the bilateral posterior segment of AF, the bilateral optic radiation, the bilateral
+inferior cerebellar penduculus, the bilateral UF, the bilateral cingulum, the bilateral
+SLF1, the bilateral SLF2, the corpus callosum, the bilateral cortico-spinal tract, the
+right superior cerebellar penduculus, the internal capsule, the fornix, the left cortico-
+ponto-cerebellum tract, the bilateral AF, the anterior commissure, and the bilateral
+SLF3 (see Figure 4).
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 25
+FIGURE 4. VBM-DTI comparison *
+2,5 SFE FF
+FFF
+Inter-hemispherical
+connections
+Fronto-temporal-
+SSSSe eee eee limbic pathways
+1,5
+: Cortico-cerebellar
+poco : a" tracts
+I
+I : ne ne
+I : :
+Wad Ott EL EE wd
+o ae Ee ‘I = iol | i Is | | = | :
+=
+oO
+wn
+a ot EY Ch \ \ x
+SY KK CK CK ¥ K* x” & KS NSN OO SK KES SD OS & OS o ©
+& FV gh gh gh gh gt Ss » CPF VY SVL SS SS Y NY eo & S&S Ko Oe > > > >
+x ~ “ .
+Se SF EEF OSE & & Ko SI ve & oe &
+x Q > RS @ oO"
+ge & & & & a FF CP SH SF VF VF V
+SS PF PF Sv PSP or MK FF FF
+ys PP PP od SS FX HS
+e a Q Q? Q oO < Oo <
+Re © x RY & RS
+ST LL LK
+(eo fe) \ SENS > ok
+mDT| @VBM
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 26
+a Average ALE-scores of WM tracts emerged from ALE analysis. Blue columns are DTI ALE-scores, while red columns are VBM ALE-scores. The scores on vertical axis
+must be multiplied by 10-3 to obtain ALE-scores. On horizontal axis are represented the WM tracts organized by the main cerebral circuits; the orange dotted line includes the
+inter-hemispheric connections, the green dotted line includes the fronto-temporal-limbic pathways, while the purple dotted line includes the cortico-cerebellar tracts.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 27
+3.5. Meta-Regression
+Meta-regression analyses of VBM and DTI studies suggested that age,
+duration of illness, and gender were associated to WM reductions. Table 3
+summarizes the results of meta-regression analysis, while Figure 5 and Figure 6 show
+significant clusters (p < 0.005) both positively and negatively associated with each
+regressor respectively from analyses of VBM and DTI studies.
+As for VBM studies, older patients (higher mean age) showed significant WM
+reductions in the left AF and left splenitum of corpus callosum, compared to younger
+patients (lower mean age) that showed significant associations with WM reduction in
+left ILF and the right genu of corpus callosum. Longer duration of illness was
+significantly associated with WM reductions in the internal capsule and the right AF,
+whereas shorter duration of illness was associated with WM reductions in the fornix
+and the left genu of corpus callosum. Finally, a higher percentage of male patients
+showed significantly reduced WM traits in the left UF, the right SLF3, and the left
+cingulum, whereas a higher percentage of females showed significantly reduced WM
+traits in the right cortico spinal tract and the anterior commissure.
+Meta-regressions of DTI studies reported that older patients showed
+significantly reduced WM in the right splenium of corpus callosum and the right
+cortico spinal tract, whereas younger patients showed significant associations with
+WM reductions of left cortico spinal tract, the right cingulum bundle, the WM of right
+superior temporal gyrus, and the left SLF3. Association between a longer duration of
+illness, and WM reductions in the bilateral UF, the left ILF, the right IFOF and the
+right posterior cingulum bundle was found, whereas shorter duration of illness was
+associated with significant WM reductions in the right anterior cingulum bundle, the
+WM of right median cingulate gyrus, and the left SLF3. Finally, a higher percentage
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 28
+of male patients showed significantly reduced WM traits in the right SLF2, the WM
+of left inferior temporal gyrus, the bilateral SLF3, the WM of right superior temporal
+gyrus, the right posterior segment of AF, and the left body of corpus callosum,
+whereas a higher percentage of female patients showed significantly reduced WM
+traits in the right genu of corpus callosum, the right IFOF, the right SLF3, the left
+superior cerebellar penduculus, the left optic radiation, and the left long segment of
+AF.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 29
+TABLE 3. Blob report for regressions of VBM and DTI studies *
+VBM DTI
+Peak coordinates SDM-Z Voxels Description Peak SDM-Z Voxels Description
+score coordinates score
+x y Z x y Z
+Age -29 -27 18 1.745 137 AFL 17 -49_ 25 2.352 2102 Corpus Callosum, Splentum R
+-14. -86 -1 1.328 29 Corpus Callosum, 27-35) 45S 1.273 76 Cortico Spinal Tract R
+Splenium L
+-35 -62 4 -2.365 175 ILF L -24 -17 36 - 1.469 560 Cortico Spinal Tract L
+12 17 11 --1.977 16 Corpus Callosum, 10 36 9 -1970 323 Cingulum R
+Genu R
+WM of Superior Temporal
+44 -26 2 -1436 ~~ 81 Gyrus R (near SLF3) P
+-31 46 3 - 1.086 1] SLF3 L
+D.0.1. -25 -30 6 3.145 1313 Internal Capsule 27 6 5 1.811 394 UFR
+47 -6 31 1.831 73 AFR -27 -i 3 1.44] 120 UFL
+6 -] -2 -1.885 39 Fornix 42 -27—=—-10-~—s 1.597 100 ILF L
+3 15 12. -1.779 25 Corpus Callosum, 40 -35 -6 1.699 91 IFOF R
+Genu L
+4 0 34 1.368 11 Cingulum R (posterior)
+7 36 5 -2.151 167 Cingulum R (anterior)
+Median Cingulate Gyrus R
+8 15 39 -1.768 19 (near SLF1) y
+-31 46 3 - 1.607 19 SLF3 L
+Gender | -29 -1 -2 2.146 208 UF L 32.3 37 —«1.788 154 SLF2 R
+44 -51 -8 1.691 112 WM of Inferior Temporal
+51 -6 33 2.341 69 SLF3 R Gyrus L (near Posterior
+segment of AF)
+-18 = -30 3 2.179 44 Cingulum L -52 = -6 15 1.594 112 SLF3 L
+18 6 10 -1.963 525 ee Spinal Tract | 44 25 19 1.611 78 SLF3 R
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 30
+VBM DTI
+Peak coordinates SDM-Z Voxels Description Peak SDM-Z Voxels Description
+score coordinates score
+xX oy Z xX oy Z
+7 9 a] -1.188 52 Anterior Commissure | 48 1 -5 1.536 48 WM of Superior Temporal
+L Gyrus R (above ILF)
+-48 -34 #17 1.533 26 SLF3 L
+42 -59 16 1.349 23 Posterior Segment of AF R
+-12 -9 25 1.213 10 Corpus callosum, Body L
+18 28 15 -3.118 1915 Corpus callosum, Genu R
+36 = -35—s« 4 -2.676 785 IFOF R
+28 8-35) 45 -1.996 181 SLF3 R
+-5 -30 -20- -1.714 128 Superior Cerebellar Penduculs
+L
+-27 -19 -7 -1.698 119 Optic Radiation L
+-33. -22 30 -1.851 110 Long segment of AF L
+4 Each cluster is thresholded at p < 0.005 with and additional extent cluster thresholding of minimum 10 voxels. Peak coordinates are expressed in Talairach space.
+Description of WM tracts is based on WM atlas developed by Catani and Thiebaut de Schotten (2008). “Age” section contains the results of meta-regression on the mean age
+of patients, “D.0.1” section contains the results of meta-regression on the mean duration of illness, while “Gender” section contains the results of meta-regression on ratio of
+male patients.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 3]
+FIGURE 5. Significant clusters of WM reductions associated with each regressor from analyses of VBM studies
+Gender
+TM Positive associations
+Negative associations
+4 Axial views of the significant clusters (p < 0.005) of minimum 10 voxels of WM reductions associated with each regressor. Meta-regression showed both positive (red
+clusters) and negative (blue clusters) associations with the mean age of patients, the mean duration of illness and the ratio of male patients. Images are visualized with
+MRIcron. [For a complete graphical overview of meta-regressions results see figures in Supplementary Materials].
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 32
+FIGURE 6. Significant clusters of WM reductions associated with each regressor from analyses of DTI studies
+Gender :
+Positive associations
+TM Negative associations
+4 Axial views of the significant clusters (p < 0.005) of minimum 10 voxels of WM reductions associated with each regressor. Meta-regression showed both positive (red
+clusters) and negative (blue clusters) associations with the mean age of patients, the mean duration of illness and the ratio of male patients. Images are visualized with
+MRIcron. [For a complete graphical overview of meta-regressions results see figures in Supplementary Materials].
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 33
+4. Discussion
+The results of this meta-analysis showed a widespread WM disruption in
+schizophrenia involving specific cerebral circuits instead of well-defined regions.
+Long projection fibers, callosal and commissural fibers, part of motor descending
+fibers, and fronto-temporal-limbic pathways were the most frequent WM bundles
+detected by both VBM and DTI techniques. We may hypothesize that differences in
+results of previous meta-analytic works (Ellison-Wright and Bullmore 2009; Di et al.,
+2009; Yao et al.; 2013) compared with those of the current meta-analysis were found
+due to the number of eligible articles considered. Indeed, Ellison-wright and Bullmore
+(2009) included 15 studies in their meta-analytic work, Di et al. (2009) and Yao et al.
+(2013) included respectively only 17 and 8 studies whereas the present work included
+59 studies. Given that the ALE algorithm is sensitive to sample size (Eickhoff et al.,
+2009; Eickhoff et al., 2012), a larger number of selected studies would produce more
+consistent and substantial results compared to the previous meta-analyses.
+The current study is the first meta-analysis that investigated WM reductions in
+patients with schizophrenia using both VBM and DTI studies of the last 15 years
+analyzing and comparing WM reductions associated to each technique. The VBM-
+DTI comparison indicated that a group of WM bundles were activated in both VBM
+and DTI studies, although the conjunction analysis revealed that both methodologies
+outlined WM alterations in different clusters of the same tract. Indeed, the lack of
+overlapping clusters highlighted by the conjunction analysis may indicate that VBM
+and DTI actually detect different aspects of WM alteration. Although these
+differences may depend on data collection or different parameters implemented
+during the scan acquisition (Oouchi et al., 2007; Melonakos et al., 2001), another
+hypothesis is that the WM tracts might show single or multiple “type” of alteration
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 34
+(i.e., volumetric and/or diffusion alterations). Overall, given that different clusters of
+WM reduction detected by both VBM and DTI were found on the same tract, our
+results may suggest that alterations of these tracts in different clusters are related to a
+more severe damage derived from both volumetric and diffusion alterations and may
+represent the “core tracts” of schizophrenia.
+An aberrant diffusivity could be represented by anomalies in FA, as revealed
+by DTI methods (Poretti et al., 2012). FA is sensitive to the disruption of myelin
+integrity (Kubicki and Shenton, 2014). Genetic and post-mortem studies had shown
+the involvement of both myelin and oligodendrocytes in the pathophysiology of
+schizophrenia, suggesting that anomalies in axonal communication observed in
+schizophrenia could be partially related to aberrant WM connectivity between
+different brain regions (Kubicki and Shenton, 2014). Given that oligodendrocytes
+produce myelin and provide facility of communication between brain regions
+(Shenton, Whitford and Kubicki, 2010), they may play a central role in the
+pathophysiology of schizophrenia. Indeed, a diffusion alteration may reflect
+anomalies in the number or in the functions of oligodendrocytes, providing anomalies
+in speed conduction among myelinated axons (Whitford, Kubicki and Shenton, 2011).
+These anomalies could lead, at least, to confound the origin of neural signals and to a
+consequentially confusion between internally and externally generated events (e.g.,
+hallucinations) (Whitford, Kubicki and Shenton, 2011).
+Given that aberrant communication could represent a general disruption of
+functional connectivity in schizophrenia, the functional anomalies could partially arise
+from structural deficits (Williams, 2008; Fitzsimmons, Kubicki and Shenton, 2013).
+Indeed, structural deficits outlined by VBM methods could highlight synaptic and
+cytoarchitectural aberrations, representing a possible loss of organization in the
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 35
+affected brain circuits of schizophrenia (Williams, 2008). The aberrant organization
+could be due to the consequentially changes in synaptic density during maturation and
+development (Andersen, 2003). The presence of significant structural reductions in
+schizophrenia could reflect an excessive pruning process involving the WM changes
+observed in schizophrenia. The loss of neurons cellular body and their associated
+neuropil due to an extensive pruning might indicate that their myelinated axons are
+overly eliminated in schizophrenia (Williams, 2008). Normal pruning is triggered by a
+reduction of the number of available trophic factors and the overpruning could depend
+by an abnormal largely reduction of these trophic factors. Thus, the overpruning
+might probably reflect the typical GM and WM reductions of schizophrenia detected
+by VBM methods (Williams, 2008).
+The WM disruptions showed in our met-analysis, did not involve only single
+regions, but a large number of whole-brain connecting areas. Thus, WM abnormalities
+in schizophrenia may reflect a disruption of neural circuits and a GM dysfunctional
+communication (Friston and Frith, 1995; Friston, 1998), affecting inter-hemispheric
+connectivity (Crow, 1998), fronto-temporal-limbic connections, (McGuire and Frith,
+1996; Ardekani et al., 2003) and cortical-cerebellar-thalamic-cortical circuit
+(Andreasen et al., 1998). The alteration of inter-hemispheric commissural fibers such
+as the anterior commissure, corpus callosum, and fornix, is a critical evidence of the
+disruption of inter-hemispheric connectivity (Crow, 1998). A damage of these
+structures implicates impaired integration of motor, perceptual, and cognitive
+information crossing both hemispheres because of specific alterations in the anterior
+commissure (Hulshoff Pol et al., 2004; Schlosser et al., 2007), the corpus callosum
+(Sigmundsson et al., 2001; Spalletta et al., 2003; Sugranyes et al., 2012; Ellison-
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 36
+Wright et al., 2011; Reidet al., 2015), and the fornix (Witthaus et al., 2008; Kanaan et
+al., 2009; Guo et al., 2012; ; Sugranyes et al., 2012; Reid et al., 2015).
+Different authors (Friston and Frith, 1995; Frith, 1995; McGuire and Frith,
+1996; Ardekani et al., 2003) have postulated the existence of a cortical-thalamic
+network disruption in patients with schizophrenia involving frontal, temporal, and
+limbic regions. Similarly, our analysis showed an involvement of the main WM tracts
+that link frontal, temporal, and limbic areas, such as the internal capsule, the cingulum
+bundle, the AF, the SLF, the ILF, and the IFOF. These WM tracts may be involved in
+cognitive and behavioral outcomes, and in positive and negative symptomatology.
+The alteration of the internal capsule is consistent with several VBM (Paillére-
+Martinot et al., 2001; Sigmundsson et al., 2001; Suzuki et al., 2002; Hulshoff Pol et
+al., 2004; Chua et al., 2007; Yoshihara et al., 2008; Yao et al., 2014; Lyu et al., 2015)
+and DTI (Szeszko et al., 2005; Buchsbaum et al., 2006; Cheung et al., 2008; Jeong et
+al., 2009; Kanaan et al., 2009; Guo et al., 2012; Knéchel et al., 2012; Nakamura et al.,
+2012; Ellison-Wright et al., 2014) findings. The WM loss in the internal capsule may
+lead to a functional disconnection between cerebral cortex and other subcortical
+structures (Kubicki et al., 2005), reflecting the impairment of executive function,
+emotional stability, and motivation (Guo et al., 2012; Yao et al., 2014; Lyu et al.,
+2015). Alterations of the internal capsule are also correlated with the severity of both
+positive (Sigmundsson et al., 2001) and negative (Paillére-Martinot et al., 2001)
+symptoms, and are found also in patients with FES and/or never-medicated patients
+(Sigmundsson et al., 2001; Suzuki et al., 2002; Szeszko et al., 2005; Cheung et al.,
+2008; Yoshihara et al., 2008; Guo et al., 2012; Yao et al., 2014; Lyu et al., 2015).
+Therefore, this type of alteration may not be a secondary effect of medication or
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 37
+chronicity, and may represent one of the core features of the pathophysiology of
+schizophrenia.
+The internal capsule is a central structure in motor pathways: motor
+descending fibers as the cortico-spinal tract or the cortico-ponto-cerebellum tract run
+through the internal capsule (Catani and Thiebaut de Schotten, 2008; Guo et al., 2012;
+Yao et al., 2014) and the abnormalities we found of both the internal capsule and
+descending motor pathways may represent the neural basis of motor dysfunctionality
+in schizophrenia (Perez-Iglesias et al., 2010; Walther and Strik, 2012). Moreover,
+alterations in cerebellar WM (Farrow et al., 2005; Hao et al., 2006; Chua et al., 2007;
+Seok et al., 2007; Kyriakopoulos et al., 2008; Yoshihara et al., 2008; Bai et al., 2009;
+Kanaan et al., 2009; Kyriakopoulos et al., 2009; Sugranyes et al., 2012; Watson et al.,
+2012; Singh et al., 2014; Lyu et al., 2015; Singh et al., 2015; Spalletta et al., 2015)
+support the role of motor pathways in schizophrenia. Motor descending fibers, in
+addition to internal capsule and cortical-cerebellar tracts, form part of the cortical-
+cerebellar-thalamic-cortical circuit. A disruption of this pathway may be related to
+dysfunctionalities of circuits involved in cognitive and motor functions and may
+prompt further evidence supporting the concept of “cognitive dysmetria” (Andreasen
+et al., 1998). Taken together, the structural alterations of motor pathways, in addition
+to the further common GM and motor areas hypofunctionality, may partially explain
+one of the essential features of the schizophrenia, 1.e. the presence of behavioral and
+motor dysfunctionality (Perez-Iglesias et al., 2010; Walther and Strik, 2012).
+We also found WM reductions of bilateral cingulum that may represent one of
+the main feature of schizophrenia. Indeed, cingulum alterations occurred in patients
+with FES (Hao et al., 2006; Tang et al., 2010), EOS (Kumra et al., 2005), and LOS
+(Chen et al., 2013), and also never-medicated patients (Burns et al., 2003).
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 38
+Interestingly, Mori et al. (2007) found that FA reductions in the cingulum bundle are
+age-related and depend on the progress of the disorder. Given the critical role of the
+cingulum in the limbic system (Catani and Thiebaut de Schotten, 2008), one may
+speculate that cingulum reductions may implicate the disruption of fronto-cingolo-
+thalamic circuits, with consequent emergence of both positive (Seok et al., 2007;
+Rotarska-Jagiela, 2009) and negative symptoms such as apathy, lack of drive, and
+poor perseveration (Cummings, 1993; Paillére-Martinot et al., 2001; Sigmundsson et
+al., 2001).
+Our meta-analysis shows a general WM reduction of long projection fibers
+such as AF, SLF, ILF, and IFOF in patients with schizophrenia compared to control
+subjects. Interestingly, several studies found a relationship between patients who
+showed aberrant patterns of these WM tracts and the occurrence of auditory
+hallucinations (Hubl et al., 2004; Ashtari et al., 2007; Szeszko et al., 2008; Knochel et
+al., 2012). Moreover, a schizophrenic-in-group comparison showed a FA increase of
+the auditory and speech production connections, especially AF or SLF, in patients
+with auditory hallucinations compared to non-hallucination patients (Hubl et al.,
+2004), suggesting an hyperactivation of the auditory and language production areas.
+Thus, increasing connectivity may cause a hyperactivation of these regions and may
+be responsible for the occurrence of hallucinations (Hubl et al., 2004; Shergill et al.,
+2007; Szeszko et al., 2008; Rotarska-Jagiela et al., 2009). The ILF and the IFOF seem
+also to be involved in hallucinatory experiences (Ashtari et al., 2007; Szeszko et al.,
+2008) and several studies demonstrated the involvement of these tracts in patients
+with EOS (Szeszko et al., 2008; Witthaus et al., 2008) and with FES (Cheung et al.,
+2008), as well as chronic (Jeong et al., 2009) and never-medicated patients (Cheung et
+al., 2008; Liu et al., 2014), and adolescents (Ashtari et al., 2007; Yoshihara et al.,
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 39
+2008; Kyriakopoulos et al., 2009). Given the anatomical pathways of these WM tracts
+(Catani and Thiebaut de Schotten, 2008), it may be plausible an involvement of ILF
+and IFOF in aberrant visual processes such as visual hallucinations. Indeed, Ashtari et
+al. (2007) recently found FA reductions in the ILF of their adolescent sample of
+patients with visual hallucinations compared to those without hallucinations. These
+findings are in contrast with other studies that reported a FA increase in AF or SLF
+(Hubl et al., 2004; Seok et al., 2007; Shergill et al., 2007; Rotarska-Jagiela et al.,
+2009) and in ILF or IFOF (Szeszko et al., 2008) in patients with hallucination
+episodes. The contradictory results between these studies may depend on the age
+difference (adult vs. adolescent) (Kyriakopoulos et al., 2009) or the nature of the
+auditory and visual experiences (Ashtari et al., 2007).
+The meta-regression results suggested a potential effect of age, duration of
+illness, and gender in both positive and negative directions, so that the WM tracts that
+already showed an alteration worsen in male patients and with progression of age-
+dependent factors. Indeed, older patients showed a stronger reduction in the corpus
+callosum, the WM of the left AF and the right cortico spinal tract compared to
+younger patients that contrarily showed stronger reductions in the left ILF, the right
+part of genu of corpus callosum, the left cortico spinal tract, the right cingulum, the
+WM of right superior temporal gyrus (near SLF3), and the left SLF3. A longer
+duration of illness was associated with stronger WM reductions of the internal
+capsule, the right AF, the bilateral UF, the left ILF, the right IFOF and the right
+posterior cingulum, whereas a shorter duration of illness was associated with stronger
+WM reductions in the fornix, the left part of genu of corpus callosum, the right
+anterior cingulum bundle, the WM of right median cingulate gyrus (near SLF1), and
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 40
+the left SLF3. Generally, the effect of age may be related with the progression of
+illness, because the duration of illness generally increases with aging.
+The results outlined by our meta-regression may suggest different WM
+trajectories associated to the age and stage of illness. Thus, it might be possible to
+compare WM alterations in different stages of schizophrenia, 1.e., comparing FES and
+chronic patients. Indeed, a shorter duration of illness may indicate an early stage of
+schizophrenia as experienced by FES patients, whereas a longer duration of illness
+may be characteristic of chronic patients. Our findings may highlight significant
+difference in WM reductions of FES and chronic patients, showing different WM
+tracts involved in early or late stage of illness (Bora et al., 2011).
+Moreover, these patterns of WM reductions may be due not only to the disease
+progression itself but also to the physiological WM reductions observed in healthy
+subject because of aging. It has already been demonstrated that WM reductions
+trajectories in healthy subject worsen with aging (Bartzokis et al., 2012). The
+physiological aging process of WM reductions trajectories may play a crucial role in
+WM trajectories observed in patients with schizophrenia. Indeed, the physiological
+aging may prompt to disruptions extended to several tracts of the cortical lobes and
+the cerebellum that widen with age and progression of illness (Mori et al., 2007;
+Kochunov et al., 2014; Cropley et al., 2017).
+Finally, a higher percentage of males showed significantly stronger WM
+reductions of the left UF, the right SLF2, the bilateral SLF3, the left cingulum, the
+bilateral WM of temporal gyrus, the right posterior segment of AF, and the left
+portion of the body of corpus callosum, whereas females were characterized by
+stronger WM reductions of the right portion of the genu of the corpus callosum, the
+right IFOF, the right SLF3, the left superior cerebellar penduculus, the left optic
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 4]
+radiation, and the left long segment of AF. These differences may be related to
+different WM reductions trajectories in male and female patients (Hawco et al., 2016;
+Cropley et al., 2017) that probably even depends on gender differences in normal
+brain development trajectories (Giedd et al., 2012).
+Some limitations of our study should be noted. The majority of the selected
+studies for our analysis included patients under antipsychotic treatment, with the
+exception of some studies that did not report this information or others that included
+first-episode and/or drug-naive patients. This aspect might partially affect our results
+because of the reported association of increase (Ozcelik-Eroglu et al., 2014) and
+decrease (Bartzokis et al., 2011) WM changes with antipsychotic treatments.
+However, we decided to include every type of patients (1.e., both medicated and non-
+medicated patients) in our meta-analysis to have a better understanding of the general
+distribution of WM alteration among schizophrenic patients. Moreover, although the
+studies reported the diagnosis of schizophrenia based on a psychiatric manual for
+diagnostic assessment (1.e., DSM-IV or ICD-10), we were not able to verify the
+accuracy of the diagnostic procedure in the selected studies. This might bring us to
+consider a sample of patients more heterogeneous than expected.
+Furthermore, given that the ALE method requires a dataset of selected
+coordinates to compute the analysis and build the MA maps, we did not include in our
+analysis studies that did not report the coordinates of alteration foci. A general bias
+might be introduced in considering alteration peak values. Indeed, imaging studies
+reported only coordinates of alteration peaks, excluding all the significant voxels in
+the examined (altered) cluster. This may suggest the researchers to evaluate only
+alterations peaks instead of an entire altered cluster. However, reporting and
+evaluating peak coordinates instead of an entire cluster is a common procedure in
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 42
+imaging studies that implemented ALE methodology (Turkeltaub et al., 2002;
+Eickhoff et al., 2009; Radua et al., 2012). This procedure allows the researcher to
+make probabilistic observations based on the probability significance of the peak
+value that represents the highest point of the coordinates distribution around it (Laird
+et al., 2005; Eickhoff et al. 2009; Eickhoff et al., 2012). Thus, evaluating peak
+coordinates instead of all coordinates of the investigated cluster reduces the
+probability of making errors due to spatial uncertainty, making inferences more
+significant.
+An additional limitation of our study that might partially influence the results,
+was the inclusion of studies using different acquisition field scans (1.5T and 3T).
+Some authors outlined a variability of cortical thickness measurements comparing
+MRI-field strengths (Han et al., 2006). However, we do not expect a strong bias in our
+results because the ALE analysis investigates the concordance degree of the results
+across the selected studies (Laird et al., 2005; Eickhoff et al., 2009; Eickhoff et al.,
+2012; Eickhoff et al., 2016) regardless of field strength (Duerden et al., 2012). This is
+further supported by a recent voxel-based meta-analysis that did not found any
+confounding effects of filed strength on anatomical results (Fusar-Poli et al., 2011).
+5. Conclusions
+Our meta-analytic study found a widespread alteration of WM bundles mostly
+included in frontal, temporal, and limbic pathways. Moreover, our results highlighted
+the presence of alterations in other circuits, such as callosal and commissural circuits,
+and cortical-cerebellar-thalamic-cortical circuit. Similarly, Dong et al. (2017) found a
+widespread disruption of several WM bundles forming part of the most relevant
+circuits involved in the illness, such as the corpus callosum, the thalamic radiations,
+the IFOF, the UF, the cingulum, and the SLF. These WM alterations are generally
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 43
+associated with some clinical features of schizophrenia (e.g., see Minichino et al.,
+2017), such as positive and negative symptoms, or cognitive and motor
+dysfunctionalities. Taken together, these considerations may prompt further evidence
+to the “disconnection hypothesis” and underline the conceptualization of the
+schizophrenia as a mental illness characterized by a disrupted cerebral network.
+Moreover, the present meta-analysis highlighted the existence of a group of WM
+tracts that occurred in both VBM and DTI studies. Furthermore, the conjunctions
+analysis revealed the presence of different clusters of reduction on the same WM tract
+detected by both VBM and DTI. Given that the two techniques individuate different
+features of WM alteration, we can consider that both of them are required to detect
+efficiently WM reductions widespread over the entire brain. Thus, the group of WM
+tracts detected by both methodologies may consequentially show both volumetric and
+diffusion alterations. These tracts may be the most commonly involved bundles in
+schizophrenia and may represent the “core tracts” of the illness. Overall, our findings
+may improve in our understanding of WM alterations in patients with schizophrenia
+and may help clinicians to foster advance treatment planning.
+Conflict of interest
+All authors declare that they have no conflicts of interest.
+Fundings source
+This research did not receive any specific grant from funding agencies in the public,
+commercial, or not-for-profit sectors.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 44
+References
+Ananth, H., Popescu, I., Critchley, H.D., Good, C. D., Frackowiak, R.S.J., Dolan,
+R.J., 2002. Cortical and subcortical gray matter abnormalities in schizophrenia
+determines through structural magnetic resonance imaging with optimized
+volumetric voxel-based morphometry. Am. J. Psychiatry 159, 1497-1505.
+Andersen, S.L., 2003. Trajectories of brain development: point of vulnerability or
+window of opportunity?. Neurosci. Biobehav. Rev. 27, 3-18.
+Andreasen, N.C., Paradiso, S., O’Leary, D.S., 1998. “Cognitive dysmetria” as an
+integrative theory of schizophrenia: a dysfunction in cortical-subcortical-
+cerebellar circuitry?. Schizophr. Bull. 24, 203-218.
+Antonova, E., Kumari, V., Morris, R., Halari, R., Anilkumar, A., Mehrotra, R.,
+Sharma, T., 2005. The relationship of structural alterations to cognitive deficits
+in schizophrenia: a voxel-based morphometry study. Biol. Psychiatry 58, 457-
+467.
+Ardekani, B.A., Nierenberg, J., Hoptman, M.J., Javitt, D.C., Lim, K.O., 2003. MRI
+study of white matter diffusion anisotropy in schizophrenia. Neuroreport, 14,
+2025-2029.
+Ashburner, J., Friston, K.J., 2000. Voxel-based morphometry — The methods.
+Neuroimage, 11, 805-821.
+Ashtari, M., Cottone, J., Ardekani, B.A., Cervellione, K., Szeszko, P.R., Wu, J., Chen,
+S., Kumra, S., 2007. Disruption of white matter integrity in the inferior
+longitudinal fasciculus in adolescent with schizophrenia as revealed by fiber
+tractography. Arch. Gen. Psychiatry 64 (11), 1270-1280.
+Bai, Y.M., Chou, K.-H., Lin, C.-P., Chen, I.-Y., Li, C.-T., Yang, K.C., Chou, Y.-H.,
+Su, T.-.P., 2009. White matter abnormalities in schizophrenia patients with
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 45
+tardive dyskinesia: a diffusion tensor image study. Schizophr. Res. 109, 167-
+181.
+Bartzokis, G., Lu, P.H., Amar, C.P., Raven, E.P., Detore, N.R., Altshuler, L.L., Mintz,
+J., Ventura, J., Casaus, L.R., Luo, J.S., Subotnik, K.L., Nuechterlein, K.H.,
+2011. Long acting injection versus oral risperidone in first-episode
+schizophrenia: differential impact on white matter myelination trajectory.
+Schizophr. Res. 132 (1), 35-41.
+Bartzokis, G., Lu, P.H., Heydari, P., Couvrette, A., Lee, G.J., Kalashyan, G.,
+Freeman, F., Grinstead, J.W., Villablanca, P., Finn, J.P., Mintz, J., Alger, J.R.,
+Altshuler, L.L., 2012 Multimodal magnetic resonance imaging assessment of
+white matter aging trajectories over the lifespan of healthy individuals. Biol.
+Psychiatry 72 (12), 1026-1034.
+Bora, E., Fornito, A., Radua, J., Walterfang, M., Seal, M., Wood, S.J., Yiicel, M.,
+Velakoulis, D., Pantelis, C., 2011. Neuroanatomical abnormalities in
+schizophrenia: A multimodal voxelwise meta-analysis and meta-regression
+analysis. Schizophr. Res. 127, 46-57.
+Buchsbaum, M.S., Friedman, J., Buchsbaum, B.R., Chu, K.-W., Hazlett, E.A.,
+Newmark, R., Schneiderman, J.S., Torosjan, Y., Tang, C., Hof, P.R., Stewart,
+D., Davis, K.L., Gorman, J., 2006. Diffusion tensor imaging in schizophrenia.
+Biol. Psychiatry 60, 1181-1187.
+Burns, J., Job, D., Bastin, E., Whalley, H., MacGillivray, T., Johnstone, E.C., Lawrie,
+S.M., 2003. Structural dysconnectivity in schizophrenia: a diffusion tensor
+magnetic resonance imaging study. Br. J. Psychiatry 182, 439-443.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 46
+Catani, M., Thiebaut de Schotten, M., 2008. A diffusion tensor imaging tractography
+atlas for virtual in vivo dissections. Cortex, 44, 1105-1132.
+Chen, L., Chen, X., Liu, W., Wang, Q., Jiang, T., Wang, J., Wang, X., Zhou, B.,
+Tang, J., 2013. White matter microstructural abnormalities in patients with
+late-onset schizophrenia identified by a voxel-based diffusion tensor imaging.
+Psychiatry Res. 212, 201-207.
+Cheung, V., Cheung, C., McAlonan, G.M., Deng, Y., Wong, J.G., Yip, L., Tai, K.S.,
+Khong, P.L., Sham, P., Chua, S.E., 2008. A diffusion tensor imaging study of
+structural dysconnectivity in never-medicated, first-episode schizophrenia.
+Psychol. Med. 38, 877-885.
+Chiapponi, C., Piras, F., Fagioli, S., Piras, F., Caltagirone, C., Spalletta, G., 2013a.
+Age-related brain trajectories in schizophrenia: A systematic review of
+structural MRI studies. Psychiat. Res-Neuroim. 214, 83-93.
+Chiapponi, C., Piras, F., Piras, F., Fagioli, S., Caltagirone, C., Spalletta, G., 2013b.
+Cortical grey matter and subcortical white matter brain microstructural
+changes in schizophrenia are localized and age independent: a case-control
+diffusion tensor imaging study. PLoS ONE 8 (10), e75115.
+Chua, S.E., Cheung, C., Cheung, V., Tsang, J.T.K., Chen, E.Y.H., Wong, J.C.H.,
+Cheung, J.P.Y., Yip, L., Tai, K., Suckling, J., McAlonan, G.M., 2007.
+Cerebral grey, white matter and csf in never-medicated, first-episode
+schizophrenia. Schizophr. Res. 89, 12-21.
+Cropley, V.L., Klauser, P., Lenroot, R.K., Bruggemann, J., Sundram, S., Bousman,
+C., Pereira, A., Di Biase, M.A., Weickert, T.W., Weickert, C.S., Pantelis, C.,
+Zalesky, A., 2017. Accelerated gray and white matter deterioration with age in
+schizophrenia. Am. J. Psychiatry 174 (3), 286-295.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 47
+Crow, T.J., 1998. Schizophrenia as a transcallosal misconnection syndrome.
+Schizophr. Res. 30, 111-114.
+Cui, L., Chen, Z., Deng, W., Huang, X., Li, M., Ma, X., Huang, C., Jiang, L., Wang,
+Y., Wang, Q., Collier, D.A., Gong, Q., Li, T., 2011. Assessment of white
+matter abnormalities in paranoid schizophrenia and bipolar mania patients.
+Psychiatry Res., 194, 347-353.
+Cummings, J.L., 1993. Frontal-subcortical circuits and human behaviour. Arch.
+Neurol. 50, 873-878.
+Di, X., Chan, R.C.K., Gong, Q., 2009. White matter reduction in patients with
+schizophrenia as revealed by voxel-based morphometry: An activation
+likelihood estimation meta-analysis. Prog. Neuropsychopharmacol. Biol.
+Psychiatry 33, 1390-1394.
+Dong, D., Wang, Y., Chang, X., Jiang, Y., Klugah-Brown, B., Luo, C., Yao, D., 2017.
+Shared abnormality of white matter integrity in schizophrenia and bipolar
+disorder: A comparative voxel-based meta-analysis. Schizophr. Res. 85, 41-
+50.
+Duerden, E.G., Mak-Fan, K.M., Taylor, M.J., Roberts, W., 2012. Regional differences
+in grey and white matter in children and adults with autism spectrum
+disorders: An activation likelihood estimate (ALE) meta-analysis. Autism Res.
+5, 49-66.
+Eickhoff, S.B., Bzdok, D., Laird, A.R., Kurth, F., Fox, P.T., 2012. Activation
+likelihood estimation meta-analysis revisited. Neuroimage, 59, 2349-2361.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 48
+Eickhoff, S.B., Laird, A.R., Fox, P.M., Lancaster, J.L., Fox, P.T., 2016.
+Implementation errors in the GingerALE software: description and
+recommendations. Hum. Brain Mapp. 38, 7-11.
+Eickhoff, S.B., Laird, A.R., Grefkes, C., Wang, L.E., Zilles, K., Fox, P.T., 2009.
+Coordinate-based activation likelihood estimation meta-analysis of
+neuroimaging data: a random-effects approach based on empirical estimates of
+spatial uncertainty. Hum. Brain Mapp. 30 (9), 2907-26.
+Ellison-Wright, I., Bullmore, E., 2009. Meta-analysis of diffusion tensor imaging
+studies in schizophrenia. Schizophr. Res. 108, 3-10.
+Ellison-Wright, I., Nathan, P.J., Bullmore, E.T., Zaman, R., Dudas, R.B., Agius, M.,
+Fernandez-Egea, E., Miller, U., Dodds, C.M., Forde, N.J., Scanlon, C.,
+Leemans, A., McDonald, C., Cannon, D.M., 2014. Distribution of tract deficits
+in schizophrenia. BMC Psychiatry 14, 99.
+Farrow, T.F.D., Whitford, T.J., Williams, L.M., Gomes, L., Harris, A.W.F., 2005.
+Diagnosis-related regional gray matter loss over two years in first episode
+schizophrenia and bipolar disorder. Biol. Psychiatry 58, 713-723.
+Fitzsimmons, J., Kubicki, M., Shenton, M.E., 2013. Review of functional and
+anatomical brain connectivity findings in schizophrenia. Curr. Opin.
+Psychiatry 26 (2), 172-187.
+Friston, K.J., 1998. The disconnection hypothesis. Schizophr. Res. 30, 115-125.
+Friston, K.J., Frith, C.D., 1995. Schizophrenia: a disconnection syndrome?. Clin.
+Neurosci. 3 (2), 89-97.
+Frith, C.D., 1995. Functional imaging and cognitive abnormalities. Lancet, 346, 615-
+620.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 49
+Fusar-Poli, P., Borgwardt, S., Crescini, A., Deste, G., Kempton, M.J., Lawrie, S., Mc
+Guire, P., Sacchetti, E., 2011. Neuroanatomy of vulnerability to psychosis: A
+voxel-based meta-analysis. Neurosci. Biobehav. Rev. 35, 1175-1185.
+Giedd, J.N., Raznahan, A., Mills, K.L., Lenroot, R.K., 2012. Review: magnetic
+resonance imaging of male/female differences in human adolescent brain
+anatomy. Biol. Sex Differ. 3(1), 19.
+Glahn, D.C., Laird, A.R., Ellison-Wright, I., Thelen, S.M., Robinson, J.L., Lancaster,
+J.L., Bullmore, E., Fox, P.T., 2008. Meta-analysis of gray matter anomalies in
+schizophrenia: application of anatomic likelihood estimation and network
+analysis. Biol. Psychiatry 64, 774-781.
+Guo, W., Liu, F., Liu, Z., Gao, K., Xiao, C., Chen, H., Zhao, J., 2012. Right
+lateralized white matter abnormalities in first-episode, drug-naive paranoid
+schizophrenia. Neurosci. Lett. 531, 5-9.
+Han, X., Jovicich, J., Salat, D., van der Kouwe, A., Quinn, B., Czanner, S., Busa, E.,
+Pacheco, J., Albert, M., Killiany, R., Maguire, P., Rosas, D., Makris, N., Dale,
+A., Dickerson, B., Fischl, B., 2006. Reliability of MRI-derived measurements
+of human cerebral cortical thickness: The effects of field strength, scanner
+upgrade and manufacturer. NeuroImage 32, 180-194.
+Hao, Y., Liu, Z., Jiang, T., Gong, G., Liu, H., Tan, L., Kuang, F., Xu, L., Yi, Y.,
+Zhang, Z., 2006. White matter integrity of the whole brain is disrupted in first-
+episode schizophrenia. Dev. Neurosci. 17, 23-26.
+Hawco, C., Voineskos, A.N., Radhu, N., Rotenberg, D., Ameis, S., Backhouse, F.A.,
+Semeralul, M., Daskalakis, Z.J., 2016 Age and gender interactions in white
+matter of schizophrenia and obsessive compulsive disorder compared to non-
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 50
+psychiatric controls: commonalities across disorders. Brain Imaging Behav.
+doi: 10.1007/s11682-016-9657-8
+Herbsman, T., Nahas, Z., 2010. White matter correlates of clinical function in
+schizophrenia using diffusion tensor imaging. Schizophr. Res. 116, 99-100.
+Honea, R., Crow, T.J., Passingham, D., Mackay, C.E., 2005. Regional deficits in
+brain volume in schizophrenia: a meta-analysis of voxel based morphometry
+studies. Am. J. Psychiatry 162, 2233-2245.
+Hubl, D., Koenig, T., Strik, W., Federspiel, A., Kreis, R., Boesch, C., Maier, S.E.,
+Schroth, G., Lovblad, K., Dierks, T., 2004. Pathways that make voices: white
+matter changes in auditory hallucinations. Arch. Gen. Psychiatry 61, 658-668.
+Hulshoff Pol, H.E., Schnack, H.G., Mandl, R.C.W., Cahn, W., Louis Collins, D.,
+Evans, A.C., Kahn, R.S., 2004. Focal white matter density changes in
+schizophrenia: reduced inter-hemispheric connectivity. Neuroimage 21, 27-35.
+Jeong, B.S., Wible, C.G., Hashimoto, R.H., Kubicki, M., 2009. Functional and
+anatomical connectivity abnormalities in left inferior frontal gyrus in
+schizophrenia. Hum. Brain Mapp. 30 (12), 4138-4151.
+Kanaan, R., Barker, G., Brammer, M., Giampietro, V., Shergill, S., Woolley, J.,
+Picchioni, M., Toulopoulou, T., McGuire, P., 2009. White matter
+microstructure in schizophrenia: effects of disorder, duration and medication.
+Brit. J. Psychiatry 194, 236-242.
+Kim, G.-W., Jeong, G.-W., 2015. White matter volume change and its correlation
+with symptom severity in patients with schizophrenia: a VBM-DARTEL
+study. Neuroreport 26 (18), 1095-1100.
+Knochel, C., O’ Dwyer, L., Alves, G., Reinke, B., Magerkurth, J., Rotarska-Jagiela,
+A., Prvulovic, D., Hampel, H., Linden, D.E.J., Oertel-Knochel, V., 2012.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 51
+Association between white matter fiber integrity and subclinical psychotic
+symptoms in schizophrenia patients and unaffected relatives. Schizophr. Res.
+140, 129-135.
+Kochunov, P., Chiappelli, J., Wright, S.N., Rowland, L.M., Patel, B., Wijtenburg,
+S.A., Nugent, K., McMahon, R.P., Carpenter, W.T., Muellerklein, F.,
+Sampath, H., Hong, L.E., 2014. Multimodal white matter imaging to
+investigate reduced fractional anisotropy and its age-related decline in
+schizophrenia. Psychiatry Res. 223 (2), 148-156.
+Kubicki, M., Park, H., Westin, C.F., Nestor, P.G., Mulkern, R.V., Maier, S.E.,
+Niznikiewicz, M., Connor, E.E., Levitt, J.J., Frumin, M., Kikinis, R., Jolesz,
+F.A., McCarley, R.W., Shenton, M.E., 2005. DTI and MTR abnormalities in
+schizophrenia: analysis of white matter integrity. Neuroimage 26 (4), 1109-
+1118.
+Kubicki, M., Shenton, M.E., 2014. Diffusion tensor imaging findings and their
+implications in schizophrenia. Curr. Opin. Psichiatry 27, 179-184.
+Kumra, S., Ashtari, M., Cervellione, K.L., Henderson, I., Kester, H., Roofeh, D., Wu,
+J., Clarke, T., Thaden, E., Kane, J.M., Rhinewine, J., Lencz, T., Diamond, A.,
+Ardekani, B.A., Szeszko, P.R., 2005. White matter abnormalities in early-
+onset schizophrenia: a voxel-based diffusion tensor imaging study. J. Am.
+Acad. Child. Adolesc. Psychiatry 44 (9), 934-941.
+Kyriakopoulos, M., Perez-Iglesias, R., Woolley, J.B., Kanaan, R.A.A., Vyas, N.S.,
+Barker, G.J., Frangou, S., McGuire, P.K., 2009. Effect of age at onset of
+schizophrenia on white matter abnormalities. Brit. J. Psychiat. 195, 346-353.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 52
+Kyriakopoulos, M., Vyas, N.S., Barker, G.J., Chitnis, X.A., Frangou, S., 2008. A
+diffusion tensor imaging study of white matter in early-onset schizophrenia.
+Biol. Psychiatry 63, 519-523.
+Laird, A.R., Fox, P.M., Price, C.J., Glahn, D.C., Uecker, A.M., Lancaster, J.L.,
+Turkeltaub, P.E., Kochunov, P., Fox, P.T., 2005. ALE meta-analysis:
+controlling the false discovery rate and performing statistical contrast. Hum.
+Brain Mapp. 25, 155-164.
+Laird, A.R., Robinson, J.L., McMillan, K.M., Tordesillas-Gutierrez, D., Moran, S.T.,
+Gonzales, S.M., Ray, K.L., Franklin, C., Glahn, D.C., Fox, P.T., Lancaster,
+J.L., 2010. Comparison of the disparity between Talairach and MNI
+coordinates in functional neuroimaging data: Validation of the Lancaster
+transform. Neuroimage 51, 677-683.
+Lancaster, J.L., Tordesillas-Gutierrez, D., Martinez, M., Salinas, F., Evans, A., Zilles,
+K., Mazziotta, J.C., Fox, P.T., 2007. Bias between MNI and Talairach
+coordinates analyzed using the ICBM-152 brain template. Hum. Brain Mapp.
+28, 1194-1205.
+Le Bihan, D., Mangin, J.-F., Poupon, C., Clark, C.A., Pappata, S., Molko, N.,
+Chabriat, H., 2001. Diffusion tensor imaging: concepts and applications. J.
+Magn. Reson. Imaging 13, 534-546.
+Lei, W., Li, N., Deng, W., Li, M., Huang, C., Ma, X., Wang, Q., Guo, W., Li, Y.,
+Jiang, L., Zhou, Y., Hu, X., McAlonan, G.M., Li, T., 2015. White matter
+alterations in first episode treatment-naive patients with deficit schizophrenia:
+a combined VBM and DTI study. Sci. Rep., 5, 12994.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 53
+Liu, X., Lai, Y., Wang, X., Hao, C., Chen, L., Zhou, Z., Yu, X., Hong, N., 2014. A
+combined DTI and structural MRI study in medicated-naive chronic
+schizophrenia. Magn. Reson. Imaging 32, 1-8.
+Lyu, H., Hu, M., Eyler, L.T., Jin, H., Wang, J., Ou, J., Guo, X., He, Z., Liu, F., Zhao,
+J., Guo, W., 2015. Regional white matter abnormalities in drug-naive, first-
+episode schizophrenia patients and their healthy unaffected siblings. Aust. N.
+Z. J. Psychiatry 49 (3), 246-254.
+McGuire, P.K., Frith, C.D., 1996. Disordered functional connectivity in
+schizophrenia. Psychol. Med. 26, 663-667.
+Melonakos, E.D., Shenton, M.E., Rathi, Y., Terry, D.P., Bouix, S., Kubicki, M., 2011.
+Voxel-based morphometry (VBM) studies in schizophrenia — can white matter
+changes be reliably detected with VBM7?. Psychiatry Res. 193, 65-70.
+Minichino A., Ando’, A., Francesconi, M., Salatino, A., Delle Chiaie R., Cadenhead,
+K., 2017. Investigating the link between drug-naive first episode psychoses
+(FEPs), weight gain abnormalities and brain structural damages: Relevance
+and implications for therapy. Prog. Neuropsychopharmacol. Biol. Psychiatry.
+77, 9-22.
+Miyata, J., Sasamoto, A., Koelkebeck, K., Hirao, K., Ueda, K., Kawada, R., Fujimoto,
+S., Tanaka, Y., Kubota, M., Fukuyama, H., Sawamoto, N., Takahashi, H.,
+Murai, T., 2012. Abnormal asymmetry of white matter integrity in
+schizophrenia revealed by voxelwise diffusion tensor imaging. Hum. Brain
+Mapp. 33, 1741-1749.
+Moher, D., Liberati, A., Tetzlaff, J., Altman, D.G., The PRISMA Group. 2009.
+Preferred Reporting Items for Systematic Reviews and Meta-Analyses: The
+PRISMA Statement. PLOS Medicine 6(7), ¢1000097.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 54
+Mori, T., Ohnishi, T., Hashimoto, R., Nemoto, K., Moriguchi, Y., Noguchi, H.,
+Nakabayashi, T., Hori, H., Harada, S., Saitoh, O., Matsuda, H., Kunugi, H.,
+2007. Progressive changes of white matter integrity in schizophrenia revealed
+by diffusion tensor imaging. Psychiatry Res. 154, 133-145.
+Nakamura, K., Kawasaki, Y., Takahashi, T., Furuichi, A., Noguchi, K., Seto, H.,
+Suzuki, M., 2012. Reduced white matter fractional anisotropy and clinical
+symptoms in schizophrenia: a voxel-based diffusion tensor imaging study.
+Psychiatry Res. 202, 233-238.
+Olabi, B., Ellison-Wright, I., McIntosh, A.M., Wood, S.J., Bullmore, E., Lawrie,
+S.M., 2011. Are there progressive brain changes in schizophrenia? A meta-
+analysis of structural magnetic resonance imaging studies. Biol. Psychiatry 70,
+88-96.
+Oouchi, H., Yamama, K., Sakai, K., Kizu, O., Kubota, T., Ito, H., Nishimura, T.,
+2007. Diffusion anisotropy measurement of brain white matter is affected by
+voxel size: underestimation occurs in areas with crossing fibers. AJNR Am. J.
+Neuroradiol. 28 (6), 1102-1106.
+Ozcelik-Eroglu, E., Ertugrul, A., Oguz, K.K., Has, A.C., Karahan, S., Yazici, M.K.,
+2014. Effects of clozapine on white matter integrity in patients with
+schizophrenia: a diffusion tensor imaging study. Psychiatry Res., 223, 226-
+235.
+Paillére-Martinot, M.-L., Caclin, A., Artiges, E., Poline, J.-B., Joliot, M., Mallet, L.,
+Recasens, C., Attar-Lévy, D., Martinot, J.-L., 2001. Cerebral gray and white
+matter reductions and clinical correlates in patients with early onset
+schizophrenia. Schizophr. Res. 50, 19-26.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 55
+Pastore Bassitt, D., Rodrigues Louza Neto, M., Campi de Castro, C., & Busatto, G-F.,
+2007. Insight and regional brain volumes in schizophrenia. Eur. Arch.
+Psychiatry Clin. Neurosci. 257, 58-62.
+Perez-Iglesias, R., Tordesillas-Gutierrez, D., McGuire, P.K., Barker, G.J., Roiz-
+Santianez, R., Mata, I., de Lucas, E.M., Rodriguez-Sanchez, J.M., Ayesa-
+Arriola, R., Vazquez-Barquero, J.L., Crespo-Facorro, B., 2010. White matter
+integrity and cognitive impairment in first-episode psychosis. Am. J.
+Psychiatry 167, 451-458.
+Poretti, A., Meoded, A., Rossi, A., Raybaud, C., Huisman, T.A.G.M., 2012. Diffusion
+tensor imaging and fiber tractography in brain malformations. Pediatr. Radiol.
+43, 28-54.
+Price, G., Cercignani, M., Bagary, M.S., Barnes, T.R.E., Barker, G.J., Joyce, E.M.,
+Ron, M.A., 2006. A volumetric MRI and magnetization transfer imaging
+follow-up study of patients with first-episode schizophrenia. Schizophr. Res.
+87, 100-108.
+Radua, J., Mataix-Cols, D., 2009. Voxel-wise meta-analysis of grey matter changes in
+obsessive-compulsive disorder. Brit. J. Psychiatry 195, 393-402.
+Radua, J., Mataix-Cols, D., 2012. Meta-analytic methods for neuroimaging data
+explained. Biol. Mood Anxiety Disord. 2, 6.
+Radua, J., Mataix-Cols, D., Phillips, M.L., El-Hage, W., Kronhaus, D.M., Cardoner,
+N., Surguladze, S., 2012. A new meta-analytic method for neuroimaging
+studies that combines reported peak coordinates and statistical parametric
+maps. Eur. Psychiatry 27, 605-611.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 56
+Reid, M.A., White, D.M., Kraguljac, N.V., Lahti, A.C., 2015. A combined diffusion
+tensor imaging and magnetic resonance spectroscopy study of patients with
+schizophrenia. Schizophr. Res. 170(2-3), 341-50.
+Rorden, C., Karnath, H.O., Bonilha, L., 2007. Improving lesion-symptom mapping. J.
+Cogn. Neurosci. 19, 1081-1088.
+Rotarska-Jagiela, A., Oertel-Knochel, V., DeMartino, F., van de Ven, V., Formisano,
+E., Roebroeck, A., Rami, A., Schoenmeyer, R., Haenschel, C., Hendler, T.,
+Maurer, K., Vogeley, K., Linden, D.E., 2009. Anatomical brain connectivity
+and positive symptoms of schizophrenia: a diffusion tensor imaging study.
+Psychiatry Res. 174 (1), 9-16.
+Schlosser, R.G.M., Nenadic, I., Wagner, G., Giillamr, D., von Consbruch, K., Kohler,
+S., Schultz, C.C., Koch, K., Fitzek, C., Matthews, P.M., Reichenbach, J.R.,
+Sauer, H., 2007. White matter abnormalities and brain activation in
+schizophrenia: a combined DTI and fMRI study. Schizophr. Res., 89, 1-11.
+Seok, J.-H., Park, H.-J., Chun, J.-W., Lee, S.-K., Cho, H.S., Kwon, J.S., Kim, J.-J.,
+2007. White matter abnormalities associated with auditory hallucinations in
+schizophrenia: A combined study of voxel-based analyses of diffusion tensor
+imaging and structural magnetic resonance imaging. Psychiatry Res. 156, 93-
+104.
+Shapleske, J., Rossell, S.L., Chitnis, X.A., Suckling, J., Simmons, A., Bullmore, E.T.,
+Woodruff, P.W.R., David, A.S., 2002. A computational morphometric MRI
+study of schizophrenia: effects of hallucinations. Cereb. Cortex 12, 1331-1341.
+Shenton, M.E., Whitford, T.J., Kubicki, M., 2010. Structural neuroimaging in
+schizphrenia: from methods to insights in treatments. Dialogues Clin.
+Neurosci. 12, 317-332
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 57
+Shergill, S.S., Kanaan, R.A., Chitnis, X.A., O’Daly, O., Jones, D.K., Frangou, S.,
+Williams, S.C.R., Howard, R.J., Barker, G.J., Murray, R.M., McGuire, P.,
+2007. A diffusion tensor imaging study of fasciculi in schizophrenia. Am. J.
+Psychiatry 164 (3), 467-473.
+Sigmundsson, T., Suckling, J., Maier, M., Williams, S.C.R., Bullmore, E.T.,
+Greenwood, K.E., Fukuda, R., Ron, M.A., Toone, B.K., 2001. Structural
+abnormalities in frontal, temporal and limbic regions and interconnecting
+white matter tracts in schizophrenic patients with prominent negative
+symptoms. Am. J. Psychiatry 158, 234-243.
+Singh, S., Goyal, S., Modi, S., Kumar, P., Singh, N., Bhatia, T., Deshpande, S.N.,
+Khushu, S., 2014. Motor function deficits in schizophrenia: an {MRI and
+VBM study. Neuroradiology 56, 413-422.
+Singh, S., Modi, S., Goyal, S., Kaur, P., Singh, N., Bhatia, T., Deshpande, S.N.,
+Khushu, S., 2015. Functional and structural abnormalities associated with
+empathy in patients with schizophrenia: an fMRI and VBM study. J. Biosci.
+AQ (2), 355-364.
+Situ, W., Liao, H., Zhou, B., Xia, X., Tan, C., 2015. Application of diffusion tensor
+imaging for detecting structural changes in the brain of schizophrenia patients.
+Int. J. Psychiatry Clin. Pract. 19 (2), 114-118.
+Spalletta, G., De Rossi, P., Piras, F., lorio, M., Dacquino, C., Scanu, F., Girardi, P..,
+Caltagirone, C., Kirkpatrick, B., Chiapponi, C., 2015. Brain white matter
+microstructure in deficit and non-deficit subtypes of schizophrenia. Psychiatry
+Res., 231, 252-261.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 58
+Spalletta, G., Tomaiuolo, F., Marino, V., Bonaviri, G., Trequattrini, A., Caltagirone,
+C., 2003. Chronic schizophrenia as a brain misconnection syndrome: a white
+matter voxel-based morphometry study. Schizophr. Res. 64, 15-23.
+Sugranyes, G., Kyriakopoulos, M., Dima, D., O’Muircheartaigh, J., Corrigall, R.,
+Pendelbury, G., Hayes, D., Calhoun, V.D., Frangou, S., 2012. Multimodal
+analyses identify linked functional and white matter abnormalities within the
+working memory network in schizophrenia. Schizophr. Res. 138, 136-142.
+Suzuki, M., Nohara, S., Hagino, H., Kurokawa, K., Yotsutsuji, T., Kawasaki, Y.,
+Takahashi, T., Matsui, M., Watanabe, N., Seto, H., Kurachi, M., 2002.
+Regional changes in brain gray and white matter in patients with schizophrenia
+demonstrated with voxel-based analysis of MRI. Schizophr. Res. 55, 41-54.
+Szeszko, P.R., Ardekani, B.A., Ashtari, M., Kumra, S., Robinson, D.G., Sevy, S..,
+Gunduz-Bruce, H., Malhotra, A.K., Kane, J.M., Bilder, R.M., Lim, K.O.,
+2005. White matter abnormalities in first-episode schizophrenia or
+schizoaffective disorder: a diffusion tensor imaging study. Am. J. Psychiatry
+162, 602-605.
+Szeszko, P.R., Robinson, D.G., Ashtari, M., Vogel, J., Betensky, J., Sevy, S.,
+Ardekani, B.A., Lencz, T., Malhotra, A.K., McCormack, J., Miller, R., Lim,
+K.O., Gunduz-Bruce, H., Kane, J.M., Bilder, R.M., 2008. Clinical and
+neuropsychological correlates of white matter abnormalities in recent onset
+schizophrenia. Neuropsychopharmacol. 33, 976-984.
+Tang, J., Liao, Y., Zhou, B., Tan, C., Liu, T., Hao, W., Hu, D., Chen, X., 2010.
+Abnormal anterior cingulum integrity in first episode, early-onset
+schizophrenia: a diffusion tensor imaging study. Brain Res. 1343, 199-205.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 59
+Turkeltaub, P.E., Eden, G.F., Jones, K.M., Zeffiro, T.A., 2002. Meta-analysis of the
+functional neuroanatomy of single-word reading: method and validation.
+NeuroImage 16 (3), 765-780.
+van Tol, M.-J., van der Meer, L., Bruggeman, R., Modinos, G., Knegtering, H.,
+Aleman, A., 2014. Voxel-based gray and white matter morphometry correlates
+of hallucinations in schizophrenia: the superior temporal gyrus does not stand
+alone. Neuroimage Clin. 4, 249-257.
+Wagner, G., Koch, K., Schachtzabel, C., Schultz, C.C., Gaser, C., Reichenbach, J.R.,
+Sauer, H., Bar, K.-J., Schlosser, R.G., 2013. Structural basis of the fronto-
+thalamic dysconnectivity in schizophrenia: a combined DCM-VBM study.
+Neuroimage Clin. 3, 95-105.
+Walther, S., & Strik, W. (2012). Motor symptoms and schizophrenia.
+Neuropsychobiology 66, 77-92.
+Wang, Q., Cheung, C., Deng, W., Li, M., Huang, C., Ma, X., Wang, Y., Jiang, L.,
+Sham, P.C., Collier, D.A., Gong, Q., Chua, S.E., McAlonan, G.M., L1, T.,
+2013. White-matter microstructure in previously drug-naive patients with
+schizophrenia after 6 weeks of treatment. Psychol. Med. 43, 2301-2309.
+Wang, Q., Deng, W., Huang, C., Li, M., Ma, X., Wang, Y., Jiang, L., Lui, S., Huang,
+X., Chua, S.E., Cheung, C., McAlonan, G.M., Sham, P.C., Murray, R.M.,
+Collier, D.A., Gong, Q., Li, T., 2011. Abnormalities in connectivity of white-
+matter tracts in patients with familial and non-familial schizophrenia. Psychol.
+Med. 41, 1691-1700.
+Watson, D.R., Anderson, J.M.E., Bai, F., Barrett, S.L., McGinnity, T.M., Mulholland,
+C.C., Rushe, T.M., Cooper, S.J., 2012. A voxel based morphometry study
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 60
+investigating brain structural changes in first episode psychosis. Behav. Brain
+Res. 227, 91-99.
+Whitford, T.J., Grieve, S.M., Farrow, T.F.D., Gomes, L., Brennan, J., Harris, A.W.F.,
+Gordon, E., Williams, L.M., 2007. Volumetric white matter abnormalities in
+first-episode schizophrenia: a longitudinal, tensor-based morphometry study.
+Am. J. Psychiatry 164, 1082-1089.
+Whitford, T.W., Kubicki, M., Shenton, M.E., Structural imaging in schizophrenia. In:
+Shenton ME, Turetsky B, eds. Understanding Neuropsychiatric Disorders:
+Insights from Neuroimaging. New York, NY: Cambridge University Press,
+2011
+Williams, L.M., 2008. Voxel-based morphometry in schizophrenia: implications for
+neurodevelopmental connectivity models, cognition and affect. Expert Rev.
+Neurother. 8 (7), 1049-1065.
+Witthaus, H., Briine, M., Kaufmann, C., Bohner, G., Ozgiirdal, S., Gudlowski, Y.,
+Heinz, A., Klingebiel, R., Juckel, G., 2008. White matter abnormalities in
+subjects at ultra high-risk for schizophrenia and first-episode schizophrenic
+patients. Schizophr. Res. 102, 141-149.
+Wolf, R.C., Hose, A., Frasch, K., Walter, H., Vasic, N., 2008. Volumetric
+abnormalities associated with cognitive deficits in patients with schizophrenia.
+Eur. Psychiatry 23, 541-548.
+Yao, L., Lui, S., Deng, W., Wu, M., Chen, L., Xiao, Y., Lama, S., Zhang, W., Huang,
+X., Li, T., Gong, Q., 2014. Association of white matter deficits with clinical
+symptoms in antipsychotic-naive first-episode schizophrenia: an optimized
+VBM study using 3T. Magn. Reson. Mater. Phy. 27, 283-290.
+
+A META-ANALYSIS OF WHITE MATTER IN SCHIZOPHRENIA 61
+Yao, L., Lui, S., Liao, Y., Du, M.-Y., Hu, N., Thomas, J.A., Gong, Q.-Y., 2013.
+White matter deficits in first episode schizophrenia: An activation likelihood
+estimation meta-analysis. Prog. Neuropsychopharmacol. Biol. Psychiatry 45,
+100-106.
+Yoshihara, Y., Sugihara, G., Matsumoto, H., Suckling, J., Nishimura, K., Toyoda, T.,
+Isoda, H., Tsuchiya, K.J., Takebayashi, K., Suzuki, K., Sakahara, H.,
+Nakamura, K., Mori, N., Takei, N., 2008. Voxel-based structural magnetic
+resonance imaging (MRI) study of patients with early onset schizophrenia.
+Ann. Gen. Psychiatry 7, 25.

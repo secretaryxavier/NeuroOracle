@@ -1,0 +1,959 @@
+Citation: Iosifescu, D.V.; Song, X.;
+Gersten, M.B.; Adib, A.; Cho, Y.;
+Collins, K.M.; Yates, K.F.;
+Hurtado-Puerto, A.M.; McEachern,
+K.M.; Osorio, R.S.; et al. Protocol
+Report on the Transcranial
+Photobiomodulation for Alzheimer’s
+Disease (TRAP-AD) Study. Healthcare
+2023, 11, 2017. https://doi.org/
+10.3390/healthcare11142017
+Academic Editor: Nicos
+K. Maglaveras
+Received: 23 April 2023
+Revised: 4 July 2023
+Accepted: 10 July 2023
+Published: 13 July 2023
+Copyright:
+© 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+healthcare
+Protocol
+Protocol Report on the Transcranial Photobiomodulation for
+Alzheimer’s Disease (TRAP-AD) Study
+Dan V. Iosifescu 1,2,*
+, Xiaotong Song 2
+, Maia B. Gersten 3
+, Arwa Adib 2, Yoonju Cho 3,4,
+Katherine M. Collins 1
+, Kathy F. Yates 1,2
+, Aura M. Hurtado-Puerto 3
+, Kayla M. McEachern 3
+,
+Ricardo S. Osorio 1,2
+and Paolo Cassano 3,4
+1
+Nathan S. Kline Institute for Psychiatric Research, Orangeburg, NY 10962, USA;
+kate.collins@nki.rfmh.org (K.M.C.); kathy.yates@nyulangone.org (K.F.Y.);
+ricardo.osorio@nyulangone.org (R.S.O.)
+2
+Department of Psychiatry, New York University Grossman School of Medicine, New York, NY 10016, USA;
+xiaotong.song@nyulangone.org (X.S.); arwa.adib@nyulangone.org (A.A.)
+3
+Department of Psychiatry, Division of Neuropsychiatry, Massachusetts General Hospital,
+Boston, MA 02129, USA; mgersten@mgh.harvard.edu (M.B.G.); ycho9@mgh.harvard.edu (Y.C.);
+ahurtado@mgh.harvard.edu (A.M.H.-P.); kmceachern2@mgh.harvard.edu (K.M.M.);
+pcassano@mgh.harvard.edu (P.C.)
+4
+Department of Psychiatry, Harvard Medical School, Boston, MA 02115, USA
+*
+Correspondence: dan.iosifescu@nyulangone.org
+Abstract: Background: Alzheimer’s disease’s (AD) prevalence is projected to increase as the popula-
+tion ages and current treatments are minimally effective. Transcranial photobiomodulation (t-PBM)
+with near-infrared (NIR) light penetrates into the cerebral cortex, stimulates the mitochondrial respi-
+ratory chain, and increases cerebral blood ﬂow. Preliminary data suggests t-PBM may be efﬁcacious
+in improving cognition in people with early AD and amnestic mild cognitive impairment (aMCI).
+Methods: In this randomized, double-blind, placebo-controlled study with aMCI and early AD
+participants, we will test the efﬁcacy, safety, and impact on cognition of 24 sessions of t-PBM delivered
+over 8 weeks. Brain mechanisms of t-PBM in this population will be explored by testing whether
+the baseline tau burden (measured with 18F-MK6240), or changes in mitochondrial function over
+8 weeks (assessed with 31P-MRSI), moderates the changes observed in cognitive functions after t-PBM
+therapy. We will also use changes in the fMRI Blood-Oxygenation-Level-Dependent (BOLD) signal
+after a single treatment to demonstrate t-PBM-dependent increases in prefrontal cortex blood ﬂow.
+Conclusion: This study will test whether t-PBM, a low-cost, accessible, and user-friendly intervention,
+has the potential to improve cognition and function in an aMCI and early AD population.
+Keywords: Alzheimer’s disease (AD); transcranial photobiomodulation (t-PBM); neuromodulation;
+cognition; functional MRI (fMRI); Phosphorus magnetic resonance spectroscopic imaging (31P-MRSI);
+Positron emission tomography (PET); laser
+1. Introduction
+Alzheimer’s Disease (AD) affects an estimated 6.2 million Americans aged 65 and
+older [1]. As life expectancy continues to increase, the number of expected AD patients
+is predicted to reach 13.8 million by 2060 [1]. Furthermore, medical costs associated with
+AD are expected to surpass $1 trillion by 2050 [2]. Despite many years of clinical trials,
+few treatments have shown any clinical beneﬁt beyond moderate symptom alleviation.
+Thus, it is imperative to investigate new therapeutic strategies that are clinically beneﬁcial
+and more easily accessible for patients with AD.
+Research over the last decade indicates that AD has a very long preclinical phase,
+lasting possibly >10 years [3] with mild cognitive impairment (MCI) being a potential
+transitional state from normal cognition to mild dementia due to AD [4]. Therefore, more
+Healthcare 2023, 11, 2017. https://doi.org/10.3390/healthcare11142017
+https://www.mdpi.com/journal/healthcare
+
+Healthcare 2023, 11, 2017
+2 of 16
+emphasis has been placed on understanding the factors that inﬂuence early brain pathology
+in order to slow the ultimate clinical expression of AD. For many years, the dominant
+theory for the etiology of AD was based on the neurotoxic effects of amyloid aggregates (i.e.,
+the ‘amyloid-cascade hypothesis’). This hypothesis posits that accumulation of amyloid
+beta (Aβ) peptides, a main component of plaques, in the brain parenchyma is the causative
+event in the pathogenesis of AD [5]. However, conﬂicting empirical observations have cast
+doubt over the validity of some aspects of this hypothesis. For example, amyloid plaques
+have been found to occur in cognitively normal individuals [6]. There is also only a weak
+correlation between the density of plaques and the degree of cognitive impairment [6,7].
+Taken together, these ﬁndings provide little insight into the etiology of early amyloid
+deposition or the onset of clinical symptoms.
+Several theories have been proposed to explain the limitations of the amyloid-cascade
+hypothesis. One is the mitochondrial cascade hypothesis in which inherited and envi-
+ronmental factors inﬂuence mitochondrial function. These factors are thought to lead to
+problems in adenosine triphosphate (ATP) production, and to the formation of amyloid
+beta and tau proteins (a microtubule-associated protein that is hyperphosphorylated and
+aggregated in AD) [8] that are believed to play a critical role in AD pathogenesis [9,10].
+A more contemporary view suggests a neuroenergetic hypothesis, focusing on not only
+mitochondrial function, but overall energy production from glucose in the Central Nervous
+System (CNS). This theory postulates that a decrease in glucose crossing the blood–brain
+barrier leads to energy deﬁciency stress in the CNS, which in turn leads to the formation of
+amyloid beta and tau proteins, as well as AD progression [11]. In support of these theories,
+a decrease in glucose metabolism and mitochondrial activity has been noted decades before
+clinical symptoms of AD emerge [12]. Furthermore, in patients with AD, mitochondria
+are characterized by lowered oxidative phosphorylation, decreased ATP production, and
+increased reactive oxygen species [13].
+Given these ﬁndings of increased oxidative stress in mitochondria of patients with
+AD, researchers have tried various ways to augment mitochondrial antioxidant defenses
+with dietary supplements. Multiple research groups administered antioxidants, such as
+selegiline, carotenes, and vitamins C and E, in patients with AD or healthy subjects and
+followed their cognitive function over time [14–18]. However, ﬁndings from these studies
+have been inconclusive. This may be because there are difﬁculties with ﬁnding adequate
+antioxidant dosages and combinations [19]; it is also possible that these compounds poorly
+penetrate the blood–brain barrier and may not adequately reach brain cell mitochondria [20].
+Therefore, the discovery of more effective and targeted interventions for mitochondrial
+abnormalities in AD is of great importance.
+Transcranial photobiomodulation (t-PBM) is a novel, non-invasive, neuromodulation
+intervention with the potential to become an at-home, wearable treatment for AD [21]. It
+uses non-retinal exposure to speciﬁc wavelengths, either visible red light (600 to 700 nm)
+or Near-Infrared Radiation (NIR, usually 810–1100 nm), to stimulate, heal, and repair
+damaged or dying cells and tissue. t-PBM with near-infrared (NIR) light, at wavelengths of
+800~1200 nm, penetrates robustly into the cerebral cortex [22–24]. It has been found to act
+on the brain in two speciﬁc ways: (1) by increasing mitochondrial ATP production, and
+(2) by increasing regional Cerebral Blood Flow (rCBF). Speciﬁcally, NIR delivered through
+t-PBM is absorbed by a mitochondrial enzyme and chromophore, Cytochrome C Oxidase
+(CCO), and is only minimally dissipated as thermal energy [25,26]. Results in cellular
+and animal models indicate that t-PBM can enhance mitochondrial activity, because NIR
+delivers energy to the CCO and stimulates the mitochondrial respiratory chain, leading
+to increased ATP production [25,27,28]. This is relevant for AD, which is associated with
+hypometabolism in speciﬁc brain areas [29,30] and mitochondrial dysfunction [13,31]. In
+addition, NIR can improve mitochondrial activity by promoting the dissociation of nitric
+oxide (NO) from the CCO, releasing the binding site for oxygen and restoring oxidative
+phosphorylation [26]. The released NO may also act as a local vasodilator [32], resulting in
+
+Healthcare 2023, 11, 2017
+3 of 16
+a focal, increased rCBF [33]. A study on isolated mitochondria also reported increased RNA
+and protein synthesis after irradiation with a low-level laser (632.8 nm) [34].
+Animal research suggests that t-PBM might exert, via its impact on mitochondria,
+beneﬁcial effects on several pathophysiological mechanisms implicated in AD, such as
+oxidative stress [35,36], neuroinﬂammation [37,38], and deﬁcits in neuroplasticity and
+brain-derived neurotrophic factor (BDNF) [39–41]. NIR can induce short bursts of reac-
+tive oxygen species (ROS), leading to the activation of antioxidant mechanisms and the
+activation of the transcription factor nuclear factor κB (NF-κB), resulting in decreased
+overexpression of the inducible form of nitric oxide synthase (iNOS) and in a reduction
+in oxidative stress [32,42,43]. In animal models, NIR light with 600 to 1000 nm reduced
+neuroinﬂammation by decreasing proinﬂammatory cytokines such as IL-6, TNF-α, IL-1β,
+and IL-8 [44–46], decreasing the inﬁltration of macrophages, and activating microglia and T
+lymphocytes to the CNS [46]. Studies have also shown that t-PBM stimulates neurogenesis
+and neuroprotective mechanisms in neuronal injury, possibly mediated by increased BDNF
+and by the inhibition of GSK-3β and pro-apoptotic molecules [32,47–54].
+In addition, the use of t-PBM in animal models of AD has demonstrated efﬁcacy in
+the reduction of Aβ burden in the brain. In one study using a mouse model of AD, NIR
+t-PBM was delivered to the tibia to stimulate bone marrow and mesenchymal stem cells.
+This was then associated with a 35% increase in the phagocytosis of Aβ and signiﬁcant
+reduction in the Aβ brain burden [55]. In a study using TASTPM AD mice, 5-month
+treatment (with two treatment sessions per week) of 1072 nm NIR light delivered to the
+whole body resulted in an increase in heat-shock proteins (involved in maintaining healthy
+neurons) and a decrease in Aβ-associated proteins and plaques in the cerebral cortex,
+along with a reduction in tau-P [56]. De Taboada et al. demonstrated that t-PBM applied
+three times/week for 6 months at various irradiance doses signiﬁcantly reduced Aβ plaques
+in Aβ protein precursor transgenic mice, and that there was a dose-dependent effect on
+the amyloid load [57]. t-PBM was also found to reduce the expression of inﬂammatory
+markers, increase ATP levels and mitochondrial function, and mitigate behavioral effects of
+advanced amyloid deposition [57]. In a similar case, Purushothuman et al. applied 670 nm
+NIR transcranially to two mouse models of dementia, the APPswe/PSEN1dE9 (APP/PS1)
+transgenic mouse engineered to develop amyloid plaques and the K369Itau (K3) transgenic
+mouse engineered to develop neuroﬁbrillary tangles. Treatments applied 5 days a week for
+4 weeks resulted in a decrease in the Aβ burden in the cerebellum of the APP/PS1 mice and
+in a reduction in immunoreactivity of hyperphosphorylated tau in the K3 mice compared
+to the sham [58]. Oxidative stress was also reduced in the K3 mice while the expression of
+CCO was maintained at near wild-type levels [58].
+The safety and efﬁcacy of t-PBM in humans have been demonstrated in studies across
+a variety of conditions, thereby making t-PBM a potential treatment strategy warranting
+further examination. In a pooled sample of 1410 subjects with stroke from three randomized
+control studies (RCTs) [59,60], no signiﬁcant difference in the rate of adverse effects was
+observed between the groups receiving laser NIR (808 nm; 5 W) and sham. A clinical
+trial, and its replication with 16 sessions, reported an increased number of mild side-
+effects in the active treatment group, with the most frequent being insomnia, “seeing
+vivid colors”, “an ashtray-like taste”, and an irritable mood [33,61]. A pilot study of t-
+PBM in humans with cognitive deﬁcits has shown promising results: 19 participants with
+impaired cognition were randomized to active or sham treatments over 12 weeks [62].
+Active participants with moderate to severe impairment (Mini-Mental State exam [MMSE]
+scores 5–24) showed a signiﬁcant improvement at the conclusion of treatment. In a case
+series of ﬁve patients with mild to moderate AD treated with intranasal home-use PBM
+devices, using pulsed, 810 nm light-emitting diodes (LEDs), a signiﬁcant improvement was
+noted on neurocognitive tests such as MMSE and the Alzheimer’s Disease Assessment
+Scale–Cognitive Subscale (ADAS-Cog) [63].
+
+Healthcare 2023, 11, 2017
+4 of 16
+2. Materials and Methods
+2.1. Objectives
+Taken together, t-PBM has great potential to serve as a safe and easily accessible
+treatment for aMCI and mild dementia due to AD. We hypothesize that compared to sham,
+t-PBM will be associated with an improvement in cognitive function (which also could
+manifest as a deceleration of rates of decline in cognitive function).
+•
+Aim #1: To assess the efﬁcacy of t-PBM for cognitive deﬁcits in amnestic MCI (aMCI)
+and mild dementia due to AD. Participants will be randomized to t-PBM or sham and
+their cognitive functions will be monitored with a change in the Repeatable Battery for
+the Assessment of Neuropsychological Status (RBANS-Update) [64] Total Scale score
+after 8 weeks of treatment;
+•
+Aim #2: To evaluate the safety, tolerability, and feasibility of t-PBM treatment in pa-
+tients with aMCI and mild dementia due to AD. We will monitor changes in treatment
+emergent adverse events by using Systematic Assessment for Treatment Emergent
+Events (SAFTEE) [65], as well as scales that assess suicidal ideation and sleep quality;
+•
+Aim #3: To explore brain mechanisms of t-PBM in aMCI and mild dementia due to
+AD. We will assess possible mediators of the treatment response including baseline
+tau burden (measured using Positron Emitting Topography [PET] with a 18F MK-6240
+tracer), changes in measures of mitochondrial function (assessed using Phosphorus
+Magnetic Resonance Spectroscopic Imaging [31P-MRSI]), and blood ﬂow in the pre-
+frontal cortex (PFC) (measured with a Blood-Oxygen-Level-Dependent [BOLD] signal
+change using functional Magnetic Resonance Imaging [fMRI]).
+2.2. Study Design
+The present study will be the ﬁrst to evaluate the effects of t-PBM in aMCI and mild
+dementia due to AD in a parallel group, sham-controlled, 8-week randomized, multi-site
+clinical trial. The trial will run simultaneously across three study sites: NYU Langone
+Health (NYU), Nathan S. Kline Institute for Psychiatric Research (NKI), and Massachusetts
+General Hospital (MGH). With this data, we will attempt to assess the efﬁcacy and safety of
+t-PBM as an easily administered treatment for those suffering from aMCI and mild dementia
+due to AD. This study has been registered on ClinicalTrials.gov (Identiﬁer: NCT04784416).
+A schematic of the study design can be found in Figure 1.
+Figure 1. Schematic of TRAP-AD study design.
+2.3. Study Participants
+In total, 125 participants, aged 65–85 (inclusive), will be recruited from three study
+sites, NYU, NKI, and MGH who meet the Petersen MCI criteria for aMCI [66], extended
+to also include early AD, with a Clinical Dementia Rating (CDR) [67] score between 0.5
+and 1.0, and a Functional Assessment Staging (FAST) [68] score of 1–4. Participants will be
+randomized to either active t-PBM or sham treatments, lasting for 8 weeks.
+
+Healthcare 2023, 11, 2017
+5 of 16
+2.4. Screening Procedures
+After informed consent, participants will undergo full medical and psychiatric screen-
+ing, as well as initial neuropsychological testing. This screening phase includes obtaining
+demographic information and administering the neuropsychological test screener Ad-
+denbrooke’s Cognitive Examination-III (ACE-III) [69], Clinical Global Impressions Scale-
+Severity (CGI-S) [70], Mini International Neuropsychiatric Interview (MINI) [71,72], MRI
+safety checklist, and Columbia Suicide Severity Risk Scale (C-SSRS) [73]. CDR, a measure
+that determines the severity of dementia on a 0–3-point scale, and FAST, a measure of
+dementia that assesses individual ability to function and perform activities of daily living,
+will also be completed. The New Immigrant Survey–Skin Color Scale (NIS-SCS) [74] will
+be administered, as t-PBM absorption may be dependent on skin tone. Medical history as
+well as concomitant medications and therapies will be reviewed by a clinician to determine
+eligibility. Peripheral blood and urine samples will be collected for laboratory testing
+and/or storage; clinical laboratory evaluations include hematology, biochemistry, and
+urinalysis. A portion of the collected blood will be stored as biospecimen and used for
+the extraction of DNA and the assessment of Apolipoprotein E (APOE) genotypes. Simoa
+assays will be used for the blood detection of tau, Aβ40/42, neuroﬁlament light chain
+(NfL), and Glial Fibrillary Acidic Protein (GFAP). Participants are also asked to complete
+self-report measures, which include the Geriatric Depression Scale (GDS) [75], Anxiety
+Symptoms Questionnaire (ASQ) [76], irritability section of Concise Associated Symptom
+Tracking (CAST-IRR) [77], Pittsburgh Sleep Quality Index (PSQI) [78], and Quality of Life
+in Neurological Disorders (Neuro-QoL) [79].
+2.5. Baseline Data
+To elucidate t-PBM’s mechanisms of action, participants will undergo neuroimaging
+related to critical features of AD prior to study treatment: a tau load (18F MK-6240 PET),
+measures of brain bioenergetics (31P-MRSI), and functional connectivity (rs-fMRI). MRI
+scanning will begin with the acquisition of structural images. Participants will be asked
+to perform a 30 min dynamic 18F MK-6240 tau PET-MR scan 85 min after tracer injection,
+which involves a single IV bolus injection of 185 MBq of the 18F MK-6240 tracer. PET
+images corresponding to 90–110 min of post-injection tracer uptake will be acquired using
+a Siemens 3T PET/MR scanner. 31P-MRS acquisition (which takes less than 30 min) will
+take place in a separate session after relocation to a different MRI scanner. Subsequently,
+we will collect approximately 30 min of functional MRI data during the administration
+of a single, unblinded session of NIR t-PBM: ~10 min of fMRI before t-PBM, ~10 min
+coinciding with t-PBM, and ~10 min following t-PBM.
+We will conduct additional neuropsychological testing in order to gather comprehen-
+sive baseline cognitive data for each participant. These test batteries include the North
+American Adult Reading Test-short version (NAART 35) as a measurement of premorbid
+verbal IQ [80,81], Letter and Pattern Comparison Task (LPC) as a measurement of attention
+and concentration [82], Face-Name Associative Memory Exam Short Form (FNAME-12)
+as a measurement of face recognition and memory [83,84], Trial Making Task (TMT) A
+and B as well as Stroop Color Word Test as measurements of processing speed and ex-
+ecutive functioning [85,86], RBANS-Update as this study’s primary outcome measure,
+Letter Number Sequencing (LNS) as a measurement of working memory [87], and National
+Alzheimer’s Coordinating Center (NACC)’s Uniform Data Set Neuropsychological Battery
+Version 3 (UDSNB 3.0) [88]. If a participant is eligible for and interested in this study, their
+ACE-III scores during screening will also be used as a part of the comprehensive baseline
+cognitive data.
+2.6. Randomization
+After the collection of baseline data, participants will be randomized to either the
+active t-PBM group or the sham/control group. To protect study blinding, three lists of
+randomization sequences will be generated (one list for each site) using a block random-
+
+Healthcare 2023, 11, 2017
+6 of 16
+ization of size 6, with three assignments to each of the two treatment groups within each
+block. The lists will be created via the “blockrand” package in R by a study statistician,
+who will not be involved in conducting any study procedures. Neither the study team
+nor the participants will know which number corresponds to the active t-PBM group, and
+the t-PBM device will not reveal any parameter settings of the treatment groups (i.e., only
+group numbers are displayed).
+2.7. t-PBM Treatment Phase
+Once randomization is complete, participants will complete t-PBM/sham treatments
+for ~12 min per day, 3 days per week, for 8 weeks. t-PBM will be delivered using laser
+probes placed over the forehead bilaterally (at standard electroencephalography (EEG)
+electrode positions F4, F3), via pulsed waves at an 808 nm wavelength. The speciﬁc param-
+eters of administered t-PBM will be as follows: wavelength: 808 nm; average irradiance:
+277.8 mW/cm2; peak irradiance: 833 mW/cm2; PW: 42 Hz; duty cycle: 33%; total area illu-
+minated: 24 cm2 (2 × 12 cm2); exposure time: 667 s (11:07 min); ﬂuence: 185.3 J/cm2; and
+total energy per session: 4.4 kJ. All treatments will be conducted in a clinic, and ﬁnancial
+compensation for time and transportation will be provided to participants to minimize
+dropout. With the short duration of treatments and study staff’s expertise in retaining
+patients from the target population in our studies, we expect that the dropout rate will not
+exceed 20%.
+Transcranial PhotoBioModulation-1000 (t-PBM-2.0) used in this study is an investiga-
+tional device based on LiteCure’s LightForce® EXPi Deep Tissue Laser TherapyTM System.
+For our study, the EXPi System’s beam delivery (i.e., EmpowerTM) will be modiﬁed to
+non-invasively deliver NIR at 808 nm to the forehead. The modiﬁed system will also be
+conﬁgured to provide sham (placebo) treatment (with device modalities identical to t-PBM),
+which delivers NIR at less than 0.5% of the intensity of the active dose (in order to make
+the device functionality indistinguishable from active). No t-PBM light is reaching the eyes
+(which are also protected with polarized laser safety eyewear).
+The t-PBM-2.0 device is considered a Class II medical device per 21 CFR 890.5500
+and 878.4810, and is manufactured per 21 CFR 820. Each t-PBM-2.0 device consists of
+a therapeutic laser console (which produces laser energy as NIR), and an optical delivery
+system consisting of a ﬂexible, double-sheathed optical ﬁber connected to a custom helmet
+(cap). The helmet is conﬁgured to deliver NIR light to EEG sites F4 and F3 (or in close
+proximity if covered by hair), covering a total surface treatment area of approximately
+24 cm2 (12 cm2 × 2). The device utilizes a laser diode source with a maximum Continuous
+Wave (CW) output of ≤30 watts at a wavelength of 808 nm and nominal beam diameter of
+40 mm at the outside aperture. It also includes laser safety eyewear with an optical density
+rating of >5.0 at 808 nm. Figure 2 showcases the t-PBM-2.0 treatment device.
+The t-PBM-2.0 device operates in one of ﬁve modes: NIR continuous low irradiance
+(50 mW/cm2), NIR continuous middle irradiance (300 mW/cm2), NIR pulsed middle
+irradiance (300 mW/cm2), NIR continuous high irradiance (700 mW/cm2), and sham. Since
+the proposed average irradiance dose of t-PBM at ~300 mW/cm2 is the most frequently
+used dose reported in the literature [89], and has been associated with changes in CBF [90]
+and cognition [62,63], for this study we will only employ the NIR pulsed middle irradiance
+(~300 mW/cm2) and sham modes, at 42 Hz, with a pulsing 33% duty cycle. The 808 nm
+NIR wavelength was chosen for this study because it is at the absorption peak of the
+primary photoacceptor CCO [47,91], has optimal penetration through the skull [22–24],
+and has proven effects on CBF [90] and on cognition [62,63]. A laser source of NIR will
+be used in this study because lasers are currently the gold standard for t-PBM and are
+likely to deliver a superior therapeutic beneﬁt compared to LEDs. Granted, LEDs can
+cover a larger brain area simultaneously and are cost-effective with a great safety proﬁle,
+thus potentially easier to be self-administered at home [92]. However, one of the main
+issues with t-PBM is that a large proportion of the light administered to the scalp does not
+reach the brain [24]. Optimizing light penetration through the skull is very important, and
+
+Healthcare 2023, 11, 2017
+7 of 16
+LEDs have lower penetrance compared to lasers [22]. This is probably due to the higher
+coherence of light in lasers, compared to LEDs [93]. The anatomical sites targeted by t-PBM
+in this study include the bilateral dorsolateral prefrontal cortex (dlPFC) (standard EEG
+electrode sites F4, F3). We chose to broadly irradiate and engage the PFC because these
+areas are involved in relevant cognitive processes [94], and abnormalities in CBF have been
+noted in these areas of patients with AD [95,96]. Due to the nature of NIR t-PBM treatments
+and irradiance parameters, a warming sensation is identiﬁed as a potential concern for
+treatment tolerability. Although in many previous studies, including in AD, t-PBM with an
+irradiance of approximately 300 mW/cm2 was found to be tolerable, warming sensations
+will be monitored at each treatment session via the use of side-effect questionnaires.
+ 
+Figure 2. TRAP-AD study treatment device, t-PBM-2.0.
+Once per week during the treatment phase, participants will be asked to complete
+self-report measures (ASQ, GDS, Neuro-QoL, SAFTEE), review concomitant medications
+and therapies with study clinicians (who administer C-SSRS, Clinical Global Impressions
+Scale-Improvement (CGI-I), and CGI-S), have vital signs recorded, and report any adverse
+events. Once per month, participants will be asked to complete the PSQI and the Perceived
+Blinding Questionnaire (PBQ) [97].
+2.8. Post-Study Data
+Following the 8 weeks of t-PBM/sham treatment, participants will be asked to repeat
+the self-report measures mentioned previously. They will also be administered the C-SSRS,
+CGI-I, CGI-S, CDR, and FAST, and re-administered the neuropsychological test battery
+(different versions of the same batteries are used when possible to minimize practice
+effects). Their concomitant medications and therapies will be reviewed as well, with
+vital signs and adverse events recorded. Additionally, participants will undergo a blood
+draw and a 31P-MRSI scan as per the primary outcome procedures. Within 2 weeks of the
+primary outcome phase, participants will be asked to complete a short-term follow-up
+visit. This visit includes the completion of aforementioned self-report measures, as well as
+the administration of C-SSRS, CGI-I, and CGI-S; a review of concomitant medications and
+therapies, as well as recording of any adverse events, will also occur. Roughly 3 months
+after the completion of the primary outcome phase, participants will be asked to complete
+a long-term follow-up visit. This visit includes the completion of self-report measures,
+the administration of C-SSRS, CGI-I, and CGI-S, a review of concomitant medications
+and therapies, as well as a recording of any adverse events. Participants will also be re-
+
+Healthcare 2023, 11, 2017
+8 of 16
+administered the neuropsychological test battery, so data can be collected on whether or
+not the treatments’ effects on cognition (if any) persist for 3 months post treatment.
+2.9. Data Management and Analysis
+We hypothesize that compared to sham, t-PBM will be associated with an improvement
+in cognitive function (or with a deceleration of rates of decline in cognitive function), as
+measured with the primary outcome measurement (RBANS-Update Total Scale Score)
+assessed at the 8-week timepoint. There will be two datasets in this study, (1) an Intention-
+To-Treat (ITT) dataset and (2) a Modiﬁed Intention-To-Treat (MITT) dataset. ITT will include
+all randomized participants and MITT will include all participants who will undergo at
+least 1 week of t-PBM sessions and have at least one post randomization assessment. The
+efﬁcacy analyses will include participants receiving the neuropsychological assessments
+at primary outcome (i.e., treatment completers), as neuropsychological data cannot be
+measured repeatedly without practice effects, despite the use of alternate test versions
+when possible. The MITT dataset will be used for almost all other analyses, including the
+examination of demographic or clinical differences between subject groups that do and do
+not undergo at least one scan.
+The distribution of all variables will be investigated using descriptive statistics prior
+to a statistical analysis. Outliers will be identiﬁed and further examined to ensure data
+integrity. Transformations of the variables will be employed, and non-parametric statistical
+methods will be used when outcomes do not conform to required distributional assump-
+tions. The treatment groups will be described with respect to baseline demographic, clinical,
+and brain characteristics. All analyses will be adjusted for age, sex, and ApoE4 status. The
+three study sites will be treated as ﬁxed effects in all analyses.
+The primary efﬁcacy outcome will be assessed using the difference from baseline to
+week 8 in the RBANS-Update Total Scale Score, which has well-established normative
+ranges and psychometric properties [64,98]. We hypothesize that compared to the sham,
+t-PBM will be associated with superior cognitive function scores at the 8-week timepoint
+(primary outcome). This hypothesis will be tested using linear regression, which models
+the post-treatment score on composite neuropsychiatric measures as a function of treatment
+assignment, while adjusting for the baseline score of the composite as well as for sex,
+age, ApoE4 status, and site. In addition to the formal hypothesis testing, we will provide
+90% conﬁdence intervals for the estimated t-PBM effect and will report its effect size; the
+effect size will be computed by dividing the effect estimated in the linear regression by the
+standard deviation of the outcome measure at baseline.
+Additionally, we will estimate the effect of t-PBM on the secondary outcomes (e.g.,
+individual tests within the RBANS-Update), to allow for references to published effects
+from other studies; the type I error rate in these secondary analyses will be controlled
+with the false discovery rate [99]. We will also explore the potential differential effects of
+the three study sites by including them in the model for the outcome interactions: site by
+treatment, site by baseline covariate, and site by treatment by baseline covariate. Here, we
+will estimate the site effects rather than perform a formal hypothesis test.
+We will also seek to explore the potential mechanisms of action of t-PBM treatment
+by investigating the following questions: (a) whether the baseline tau burden measured
+with 18F MK-6240 PET, or changes in mitochondrial function measured with 31P-MRSI,
+moderates the effect of t-PBM (in comparison to the sham) on the efﬁcacy outcomes, and
+(b) whether the acute effects of t-PBM on cerebral blood ﬂow in the PFC measured via
+a BOLD signal change on fMRI mediate the effect of t-PBM on the efﬁcacy outcomes.
+For these, exploratory analyses will employ standard moderation (including interactions
+between treatment and potential moderators in the model for the outcomes) and mediation
+(a path analysis, estimating direct and indirect treatment effects) approaches [100]. We will
+control for age, sex, ApoE4 status, site, as well as depressive symptoms and sleep quality
+measured with the PSQI, both at baseline and after treatment.
+
+Healthcare 2023, 11, 2017
+9 of 16
+With regards to detectable effects, the effects that can be detected with 80% power
+of two-sided tests with signiﬁcance level alpha = 0.05 (detectable effects), with a total
+of 125 subjects, will depend on the dropout rate and the proportion of variance in the
+outcome that is explained by covariates in the model. With the short duration of individual
+treatments and our expertise in retaining patients from the target population in our studies,
+we expect that the dropout rate will not exceed 20%. In our experience, the baseline
+levels often explain 40–50% of the variance in neuropsychological outcome measures after
+treatments. Under such conditions, this study will be able to detect an effect of a medium
+size (Cohen’s d = 0.64).
+2.10. Demographic Data on Existing Participants
+Participants are recruited from the greater New York City and Boston metropoli-
+tan areas, as well as from the area surrounding Orangeburg, New York. As of 8 March
+2023, a total of 109 participants have been recruited in this study. Forty-three participants
+self-identify as female (39.4%), and ﬁfty participants self-identify as male (45.9%). The
+participants have a mean age of 74.14 years, with the youngest participant being 65 and
+the oldest participant being 85. All participants completed at least 12 years of education.
+The majority of participants (n = 70, 64.2%) identify themselves as White, with ﬁfteen
+participants (13.8%) identifying themselves as Black/African American, one participant
+(0.9%) self-identifying as Asian, and three participants (2.8%) self-identifying as having
+more than one race. A little less than half of the participants are married (n = 51, 46.8%),
+while other participants report being divorced (n = 18, 16.5%), never married (n = 9, 8.3%),
+or a member of an unmarried couple (n = 3, 2.8%).
+3. Discussion
+Given the ever-increasing prevalence of AD [1] and the lack of effective, easily accessi-
+ble treatments, the need for novel treatment strategies is dire. t-PBM is an emerging neuro-
+modulation therapy that has a potential to treat AD [21,25,27,28,33,34,42–58,62,63,89–91],
+with a favorable safety proﬁle [33,59–61]. Our study will be the ﬁrst to evaluate the effects
+of t-PBM in aMCI and mild dementia due to AD in a parallel group, sham-controlled,
+8-week randomized, multi-site clinical trial. We aim to assess treatment efﬁcacy via the
+administration of an array of comprehensive neuropsychological assessment batteries that
+measure multiple domains of cognition.
+Since the commencement of study activities, we have made several changes to our
+initial study protocol. One major change concerns the inclusion criteria. Originally, our
+inclusion criteria focused primarily on aMCI (with a CDR of 0.5 and a FAST of 1–3).
+However, we decided to expand our enrollment to include the mild dementia range
+in addition to our original target of aMCI, thus widening the original CDR and FAST
+inclusion ranges (to 0.5–1 and 1–4, respectively). It is possible that in doing so, we may
+see a differential response to t-PBM based on the heterogeneity of conditions and disease
+severity. Another change is related to neuroimaging procedures. Given the age range of our
+target population (65–85), MRI contraindications (such as pacemakers, joint replacements,
+and claustrophobia) are common. As neuroimaging data will not be analyzed as primary
+outcome, but only for exploratory analyses, we decided to randomize participants who
+could not undergo neuroimaging procedures. We also anticipate some difﬁculties with
+our participants, due to this population’s potential issues with involuntary movement and
+maintaining a steady posture during scans, but we are hopeful that we will gather data
+sufﬁcient for meaningful analyses regardless.
+There are several potential ethical concerns with our study that are common to re-
+search projects performed with AD participants. First, we have a sham group, for which
+we do not expect to observe improvements in cognition, and participants in this group
+may in fact decline. In addition, while we are hopeful that the active t-PBM group will
+demonstrate cognitive improvements, the extent of improvements as well as the persistence
+of improvements long term are unknown. To these points, we implemented an open-label
+
+Healthcare 2023, 11, 2017
+10 of 16
+option that allows all interested participants, regardless of their randomized group as-
+signment, to receive active, unblinded t-PBM treatments—given that they demonstrate
+cognitive impairments as determined with the achieved ACE-III total score that is obtained
+during post-treatment neuropsychological testing.
+We are planning to randomize 125 patients over the course of 5 years. As it is a double-
+blinded study, we will not report on any outcome results until all study procedures are
+complete and the dataset is locked. However, it is possible that we may release some
+initial baseline clinical, imaging, or biomarker data, which is dependent on the number of
+participants that complete these procedures.
+4. Limitations and Future Directions
+It is worth mentioning that we have opted not to collect data on Aβ burden in the
+brain, either by way of Amyloid PET or Aβ40/42 biomarkers in the cerebral spinal ﬂuid.
+The reason behind this decision is four-fold: (1) Amyloid PET may be less speciﬁc to
+AD than tau PET, as patients with AD seem to show an increased tau tracer uptake and
+a characteristic brain distribution on tau PET, which is not present in other dementias
+such as frontotemporal dementia or diffuse Lewy body disease (patients of which often
+show increased tracer uptake on Amyloid PET) [101]; (2) with rare exceptions, amyloidosis
+appears to be required for the detection of high levels of 3R/4R tau deposition with novel
+tracers such as 18F-MK6240 [102,103]; (3) it is possible for abnormal Amyloid PET results to
+be compatible with normal cognition, but the same is less likely for highly abnormal tau
+PET [6,102]; and (4) AD is normally characterized ﬁrst by the appearance of amyloidosis and
+later by tauopathy, with tauopathy being the proteinopathy mainly associated with clinical
+symptoms, making tau PET more relevant for clinical symptom monitoring [102,103].
+With that said, despite recent contentions in the ﬁeld regarding the validity of the amyloid
+cascade hypothesis, measurements of Aβ burden in the brain remain widely used in clinical
+trials involving patients with AD. Given the logistical and safety difﬁculties of acquiring
+both Amyloid and tau PET and performing lumbar punctures, we decided to only obtain
+the tau PET (also for the reasons discussed above), complemented by the collection of
+peripheral blood samples for analyzing plasma Aβ40/42 levels.
+The risks associated with this study include risks of the t-PBM and of the neuroimaging
+procedures utilized. t-PBM has a favorable safety proﬁle as demonstrated by previous
+studies [33,59–61]. Neuroimaging procedures (especially PET, which includes a radioactive
+tracer) also carry a small safety risk. Extensive safety data will be collected (as described in
+Section 2) to monitor and evaluate these risks.
+Future study directions may include the implementation of additional blood work.
+In upcoming studies, we plan to examine how central and peripheral mitochondrial
+metabolism contributes to cognitive performances in clinical phenotypes of prodromal
+AD and mild dementia due to AD in the context of t-PBM treatments. We will use novel
+exosome analysis techniques to determine in vivo molecular biosignatures of brain mi-
+tochondrial metabolism, with a focus on the mitochondrial metabolite acetyl-L-carnitine
+(LAC). Speciﬁcally, we will measure key markers of LAC-related mitochondrial metabolism
+in exosomes that are enriched for the L1 Cell Adhesion Molecule (L1CAM), a protein
+highly expressed in the brain, at the following three time points: prior to the beginning
+of t-PBM/sham, 1 week since the initiation of t-PBM/sham, and at the conclusion of
+t-PBM/sham (i.e., 8 weeks since treatment initiation). In addition, we will enhance our
+protocol to isolate exosomes enriched for speciﬁc brain areas/neurons of interest and
+characterize their molecular cargo. We will achieve this by characterizing the transcrip-
+tomic proﬁles in the response to t-PBM using unbiased RNAseq assays and bioinformatic
+approaches. Next, we will measure peripheral LAC levels and the related mitochondrial
+metabolism using mass-spectrometry. We will also assess peripheral insulin resistance,
+which is a metabolic dysfunction that is regulated via LAC-related pathways. Lastly, we
+will use computational approaches to determine the role of the novel biomarkers of t-PBM
+responses in trajectories of functional connectivity.
+
+Healthcare 2023, 11, 2017
+11 of 16
+Future studies may also want to investigate the effect of t-PBM on brain tau burden. In
+the current study, we are only exploring whether the baseline tau burden predicts the t-PBM
+response and are not following up with any post-treatment PET scans. If our hypothesis is
+supported and t-PBM is found to improve memory and cognition in subjects with aMCI
+and mild dementia due to AD, future research may elucidate the mechanism of action of
+t-PBM by investigating changes in the tau or amyloid load as assessed with PET throughout
+a course of treatment.
+5. Conclusions
+We are describing a large study testing t-PBM, a novel neuromodulation strategy, as
+a potential treatment for aMCI and early AD. The importance of this study is three-fold:
+(1) it targets aMCI and early AD, which are important initial stages of AD that lack adequate
+approved treatments, (2) it evaluates the efﬁcacy and safety of t-PBM, an innovative, non-
+invasive technology that has a well-established safety proﬁle, for improving brain function
+and cognition at the aforementioned initial AD stages, and (3) it explores the association of
+t-PBM treatment effects with important biomarkers relevant for AD illness progression. If
+effects are conﬁrmed, the present study will both support short-term clinical development
+of an easy-to-scale device for the treatment of aMCI and AD, and validate biomarkers for
+the development of future, novel modulation strategies.
+Author Contributions: Conceptualization and methodology, D.V.I., R.S.O., P.C., K.M.C. and K.F.Y.;
+data curation, X.S., M.B.G., A.A., Y.C., A.M.H.-P. and K.M.M.; writing—original draft preparation,
+X.S., M.B.G., A.A. and Y.C.; writing—review and editing, X.S., D.V.I., K.F.Y. and P.C.; visualization,
+X.S.; supervision, D.V.I.; project administration, X.S., M.B.G., A.A. and K.M.M.; funding acquisition,
+D.V.I., R.S.O., P.C. and K.M.C. The person featured in Figure 2 (a study co-author) has given consent
+for the use of the ﬁgure solely for the purposes of this manuscript. All authors have read and agreed
+to the published version of the manuscript.
+Funding: This research is funded by National Institutes of Health-National Institute on Aging (NIH-
+NIA), grant number: R01AG068248, and the Alzheimer’s Association, grant number: PTCG-20-706555.
+Institutional Review Board Statement: This study was conducted in accordance with the Declaration
+of Helsinki and approved by the Institutional Review Board of NYU Langone Health (protocol
+number: i20-00865, approved on 24 July 2020).
+Informed Consent Statement: Informed consent was obtained from all subjects involved in this study.
+Data Availability Statement: Not applicable for this manuscript. The results of the completed study
+will be shared, in agreement with the data sharing policies of the National Institute for Aging.
+Acknowledgments: The authors of this paper would like to thank the following researchers for their
+invaluable contributions to data collection: at the Nathan Kline institute: Anna MacKay-Brandt,
+Allison Sparpana, Elizabeth Sullivan, Molly Irvin, Zamﬁra Parincu, and Kathryn Evans; at NYU
+School of Medicine: Simon Khuvis, David Liebers, Ellen Krotow, Zanetta Kovbasyuk, Weiqi Xu, and
+Hanna Lissinna; and at Massachusetts General Hospital: Nadine Schwab and Julie Clancy.
+Conﬂicts of Interest: In the last 10 years, D.V.I. has received consulting honoraria from Alkermes,
+Allergan, Angelini, Axsome, Biogen, Boehringer Ingelheim, Centers for Psychiatric Excellence, Clexio,
+Global Medical Education, Jazz, Lundbeck, Neumora, Otsuka, Precision Neuroscience, Relmada, Sage,
+and Sunovion, and research support (through his academic institutions) from Alkermes, AstraZeneca,
+Brainsway, LiteCure, NeoSync, Otsuka, Roche, and Shire. The other authors declare no conﬂicts
+of interest. The funders have no role in the design of the study; in the collection, analyses, or
+interpretation of data; in the writing of the manuscript; or in the decision to publish the results.
+References
+1.
+2021 Alzheimer’s disease facts and ﬁgures. Alzheimer’s Dement. 2021, 17, 327–406. [CrossRef] [PubMed]
+2.
+Wong, W. Economic burden of Alzheimer disease and managed care considerations. Am. J. Manag. Care 2020, 26, S177–S183.
+[CrossRef] [PubMed]
+
+Healthcare 2023, 11, 2017
+12 of 16
+3.
+Dubois, B.; Hampel, H.; Feldman, H.H.; Scheltens, P.; Aisen, P.; Andrieu, S.; Bakardjian, H.; Benali, H.; Bertram, L.; Blennow, K.;
+et al. Preclinical Alzheimer’s disease: Deﬁnition, natural history, and diagnostic criteria. Alzheimer’s Dement. 2016, 12, 292–323.
+[CrossRef] [PubMed]
+4.
+Morris, J.C. Mild cognitive impairment and preclinical Alzheimer’s disease. Geriatrics 2005, 9–14, 16025770.
+5.
+Ricciarelli, R.; Fedele, E. The amyloid cascade hypothesis in Alzheimer’s disease: It’s time to change our mind. Curr. Neurophar-
+macol. 2017, 15, 926–935. [CrossRef] [PubMed]
+6.
+Kametani, F.; Hasegawa, H. Reconsideration of amyloid hypothesis and tau hypothesis in Alzheimer’s disease. Front. Neurosci.
+2018, 12, 25. [CrossRef]
+7.
+Nelson, P.T.; Braak, H.; Markesbery, W.R. Neuropathology and cognitive impairment in Alzheimer disease: A complex but
+coherent relationship. J. Neuropathol. Exp. Neurol. 2009, 68, 1–14. [CrossRef]
+8.
+Iqbal, K.; Liu, F.; Gong, C.X.; Grundke-Iqbal, I. Tau in Alzheimer disease and related tauopathies. Curr. Alzheimer Res. 2010, 7,
+656–664. [CrossRef]
+9.
+Swerdlow, R.H.; Burns, J.M.; Khan, S.M. The Alzheimer’s disease mitochondrial cascade hypothesis: Progress and perspectives.
+Biochim. Et Biophys. Acta 2014, 1842, 1219–1231. [CrossRef]
+10.
+Swerdlow, R.H.; Khan, S.M. A “mitochondrial cascade hypothesis” for sporadic Alzheimer’s disease. Med. Hypotheses 2004, 63,
+8–20. [CrossRef]
+11.
+Blonz, E.R. Alzheimer’s disease as the product of a progressive energy deﬁciency syndrome in the central nervous system: The
+neuroenergetic hypothesis. J. Alzheimer’s Dis. 2017, 60, 1223–1229. [CrossRef] [PubMed]
+12.
+Mosconi, L. Glucose metabolism in normal aging and Alzheimer’s disease: Methodological and physiological considerations for
+PET studies. Clin. Transl. Imaging 2013, 1, 217–233. [CrossRef] [PubMed]
+13.
+Lanzillotta, C.; Di Domenico, F.; Perluigi, M.; Butterﬁeld, D.A. Targeting mitochondria in Alzheimer disease: Rationale and
+perspectives. CNS Drugs 2019, 33, 957–969. [CrossRef] [PubMed]
+14.
+Yaffe, K.; Clemons, T.E.; McBee, W.L.; Lindblad, A.S. Impact of antioxidants, zinc, and copper on cognition in the elderly:
+A randomized, controlled trial. Neurology 2004, 63, 1705–1707. [CrossRef] [PubMed]
+15.
+Sano, M.; Ernesto, C.; Thomas, R.G.; Klauber, M.R.; Schafer, K.; Grundman, M.; Woodbury, P.; Growdon, J.; Cotman, C.W.; Pfeiffer,
+E.; et al. A controlled trial of selegiline, alpha-tocopherol, or both as treatment for Alzheimer’s disease. N. Engl. J. Med. 1997,
+336, 1216–1222. Available online: https://www.nejm.org/doi/full/10.1056/NEJM199704243361704 (accessed on 7 June 2023).
+[CrossRef] [PubMed]
+16.
+Morris, M.C.; Beckett, L.A.; Scherr, P.A.; Hebert, L.; Bennett, D.A.; Field, T.S.; Evans, D.A. Vitamin E and vitamin C supplement
+use and risk of incident Alzheimer disease. Alzheimer Dis. Assoc. Disord. 1998, 12, 121–126. [CrossRef] [PubMed]
+17.
+Luchsinger, J.A.; Tang, M.; Shea, S.; Mayeux, R. Antioxidant vitamin intake and risk of Alzheimer disease. Arch. Neurol. 2003, 60,
+203–208. [CrossRef] [PubMed]
+18.
+Morris, M.C.; Evans, D.A.; Tangney, C.C.; Bienias, J.; Wilson, R.S.; Aggarwal, N.T.; Scherr, P.A. Relation of the tocopherol forms to
+incident Alzheimer disease and to cognitive change. Am. J. Clin. Nutr. 2005, 81, 508–514. [CrossRef]
+19.
+Terada, A.; Yoshida, M.; Seko, Y.; Kobayashi, T.; Yoshida, K.; Nakada, M.; Nakada, K.; Echizen, H.; Ogata, H.; Rikihisa, T. Active
+oxygen species generation and cellular damage by additives of parenteral preparations: Selenium and sulfhydryl compounds.
+Nutrition 1999, 15, 651–655. [CrossRef]
+20.
+Johri, A. Disentangling mitochondria in Alzheimer’s disease. Int. J. Mol. Sci. 2021, 22, 11520. [CrossRef]
+21.
+Spera, V.; Sitnikova, T.; Ward, M.J.; Farzam, P.; Hughes, J.; Gazecki, S.; Bui, E.; Maiello, M.; De Taboada, L.; Hamblin, M.R.; et al.
+Pilot study on dose-dependent effects of transcranial photobiomodulation on brain electrical oscillations: A potential therapeutic
+target in alzheimer’s disease. J. Alzheimer’s Dis. 2021, 83, 1481–1498. [CrossRef]
+22.
+Henderson, T.A.; Morries, L.D. Near-infrared photonic energy penetration: Can infrared phototherapy effectively reach the
+human brain? Neuropsychiatr. Dis. Treat. 2015, 11, 2191–2208. [CrossRef]
+23.
+Jagdeo, J.R.; Adams, L.E.; Brody, N.I.; Siegel, D.M. Transcranial red and near infrared light transmission in a cadaveric model.
+PLoS ONE 2012, 7, e47460. [CrossRef]
+24.
+Tedford, C.E.; DeLapp, S.; Jacques, S.; Anders, J. Quantitative analysis of transcranial and intraparenchymal light penetration in
+human cadaver brain tissue. Lasers Surg. Med. 2015, 47, 312–322. Available online: https://onlinelibrary.wiley.com/doi/pdf/10.1
+002/lsm.22343 (accessed on 6 July 2023). [CrossRef]
+25.
+Mochizuki-Oda, N.; Kataoka, Y.; Cui, Y.; Yamada, H.; Heya, M.; Awazu, K. Effects of near-infra-red laser irradiation on adenosine
+triphosphate and adenosine diphosphate contents of rat brain tissue. Neurosci. Lett. 2002, 323, 207–210. [CrossRef] [PubMed]
+26.
+Chung, H.; Dai, T.; Sharma, S.K.; Huang, Y.Y.; Carroll, J.D.; Hamblin, M.R. The nuts and bolts of low-level laser (light) therapy.
+Ann. Biomed. Eng. 2012, 40, 516–533. [CrossRef] [PubMed]
+27.
+Oron, U.; Ilic, S.; De Taboada, L.; Streeter, J. Ga-As (808 nm) laser irradiation enhances ATP production in human neuronal cells in
+culture. Photomed. Laser Surg. 2007, 25, 180–182. [CrossRef] [PubMed]
+28.
+Yu, W.; Naim, J.O.; McGowan, M.; Ippolito, K.; Lanzafame, R.J. Photomodulation of oxidative metabolism and electron chain
+enzymes in rat liver mitochondria. Photochem. Photobiol. 1997, 66, 866–871. [CrossRef]
+
+Healthcare 2023, 11, 2017
+13 of 16
+29.
+Mosconi, L.; Mistur, R.; Switalski, R.; Tsui, W.H.; Glodzik, L.; Li, Y.; Pirraglia, E.; De Santi, S.; Reisberg, B.; Wisniewski, T.; et al.
+FDG-PET changes in brain glucose metabolism from normal cognition to pathologically veriﬁed Alzheimer’s disease. Eur. J. Nucl.
+Med. Mol. Imaging 2009, 36, 811–822. [CrossRef]
+30.
+Mosconi, L.; Tsui, W.H.; Herholz, K.; Pupi, A.; Drzezga, A.; Lucignani, G.; Reiman, E.M.; Holthoff, V.; Kalbe, E.; Sorbi, S.; et al.
+Multicenter standardized 18F-FDG PET diagnosis of mild cognitive impairment, Alzheimer’s disease, and other dementias.
+J. Nucl. Med. 2008, 49, 390–398. [CrossRef]
+31.
+Flannery, P.J.; Trushina, E. Mitochondrial dynamics and transport in Alzheimer’s disease. Mol. Cell. Neurosci. 2019, 98, 109–120.
+[CrossRef] [PubMed]
+32.
+de Freitas, L.F.; Hamblin, M.R. Proposed mechanisms of photobiomodulation or low-level light therapy. IEEE J. Sel. Top. Quantum
+Electron. 2016, 22, 7000417. [CrossRef]
+33.
+Hipskind, S.G.; Grover, F.L., Jr.; Fort, T.R.; Helffenstein, D.; Burke, T.J.; Quint, S.A.; Bussiere, G.; Stone, M.; Hurtado, T. Pulsed
+transcranial red/near-infrared light therapy using light-emitting diodes improves cerebral blood ﬂow and cognitive function in
+veterans with chronic traumatic brain injury: A case series. Photomed. Laser Surg. 2018, 37, 77–84. [CrossRef]
+34.
+Greco, M.; Guida, G.; Perlino, E.; Marra, E.; Quagliariello, E. Increase in RNA and protein synthesis by mitochondria irradiated
+with helium-neon laser. Biochem. Biophys. Res. Commun. 1989, 163, 1428–1434. [CrossRef]
+35.
+Tonnies, E.; Trushina, E. Oxidative stress, synaptic dysfunction, and Alzheimer’s disease. J. Alzheimer’s Dis. 2017, 57, 1105–1121.
+[CrossRef]
+36.
+Zhao, Y.; Zhao, B. Oxidative stress and the pathogenesis of Alzheimer’s disease. Oxidative Med. Cell. Longev. 2013, 2013, 316523.
+[CrossRef] [PubMed]
+37.
+Singh, A.K.; Mishra, G.; Maurya, A.; Awasthi, R.; Kumari, K.; Thakur, A.; Rai, A.; Rai, G.K.; Sharma, B.; Kulkarni, G.T.; et al. Role
+of TREM2 in Alzheimer’s disease and its consequences on beta-amyloid, tau and neuroﬁbrillary tangles. Curr. Alzheimer Res.
+2019, 16, 1216–1229. [CrossRef] [PubMed]
+38.
+Calsolaro, V.; Edison, P. Neuroinﬂammation in Alzheimer’s disease: Current evidence and future directions. Alzheimer’s Dement.
+2016, 12, 719–732. [CrossRef] [PubMed]
+39.
+Miranda, M.; Morici, J.F.; Zanoni, M.B.; Bekinschtein, P. Brain-derived neurotrophic factor: A key molecule for memory in the
+healthy and the pathological brain. Front. Cell. Neurosci. 2019, 13, 363. [CrossRef] [PubMed]
+40.
+Kazim, S.F.; Iqbal, K. Neurotrophic factor small-molecule mimetics mediated neuroregeneration and synaptic repair: Emerging
+therapeutic modality for Alzheimer’s disease. Mol. Neurodegener. 2016, 11, 50. [CrossRef] [PubMed]
+41.
+Scharfman, H.E.; Chao, M.V. The entorhinal cortex and neurotrophin signaling in Alzheimer’s disease and other disorders. Cogn.
+Neurosci. 2013, 4, 123–135. [CrossRef] [PubMed]
+42.
+Rizzi, C.F.; Mauriz, J.L.; Freitas Correa, D.S.; Moreira, A.J.; Zettler, C.G.; Filippin, L.I.; Marroni, N.P.; Gonzalez-Gallego, J. Effects
+of low-level laser therapy (LLLT) on the nuclear factor (NF)-kappaB signaling pathway in traumatized muscle. Lasers Surg. Med.
+2006, 38, 704–713. [CrossRef] [PubMed]
+43.
+Chludzinska, L.; Ananicz, E.; Jaroslawska, A.; Komorowska, M. Near-infrared radiation protects the red cell membrane against
+oxidation. Blood Cells Mol. Dis. 2005, 35, 74–79. [CrossRef]
+44.
+Araki, H.; Imaoka, A.; Kuboyama, N.; Abiko, Y. Reduction of interleukin-6 expression in human synoviocytes and rheumatoid
+arthritis rat joints by linear polarized near infrared light (Superlizer) irradiation. Laser Ther. 2011, 20, 293–300. [CrossRef]
+45.
+Yamaura, M.; Yao, M.; Yaroslavsky, I.; Cohen, R.; Smotrich, M.; Kochevar, I.E. Low level light effects on inﬂammatory cytokine
+production by rheumatoid arthritis synoviocytes. Lasers Surg. Med. 2009, 41, 282–290. [CrossRef] [PubMed]
+46.
+Anders, J.J. The potential of light therapy for central nervous system injury and disease. Photomed. Laser Surg. 2009, 27, 379–380.
+[CrossRef]
+47.
+Wong-Riley, M.T.T.; Liang, H.L.; Eells, J.T.; Chance, B.; Henry, M.M.; Buchmann, E.; Kane, M.; Whelan, H.T. Photobiomodulation
+directly beneﬁts primary neurons functionally inactivated by toxins: Role of cytochrome c oxidase. J. Biol. Chem. 2005, 280,
+4761–4771. [CrossRef]
+48.
+Giuliani, A.; Lorenzini, L.; Gallamini, M.; Massella, A.; Giardino, L.; Calza, L. Low infra red laser light irradiation on cultured
+neural cells: Effects on mitochondria and cell viability after oxidative stress. BMC Complement. Altern. Med. 2009, 9, 8. [CrossRef]
+[PubMed]
+49.
+Rojas, J.C.; Lee, J.; John, J.M.; Gonzalez-Lima, F. Neuroprotective effects of near-infrared light in an in vivo model of mitochondrial
+optic neuropathy. J. Neurosci. Off J. Soc. Neurosci. 2008, 28, 13511–13521. [CrossRef]
+50.
+Ando, T.; Xuan, W.; Xu, T.; Dai, T.; Sharma, S.K.; Kharkwal, G.B.; Huang, Y.; Wu, Q.; Whalen, M.J.; Sato, S.; et al. Comparison of
+therapeutic effects between pulsed and continuous wave 810-nm wavelength laser irradiation for traumatic brain injury in mice.
+PLoS ONE 2011, 6, e26212. [CrossRef]
+51.
+Oron, A.; Oron, U.; Streeter, J.; De Taboada, L.; Alexandrovich, A.; Trembovler, V.; Shohami, E. Low-level laser therapy applied
+transcranially to mice following traumatic brain injury signiﬁcantly reduces long-term neurological deﬁcits. J. Neurotrauma 2007,
+24, 651–656. [CrossRef] [PubMed]
+
+Healthcare 2023, 11, 2017
+14 of 16
+52.
+Wu, Q.; Xuan, W.; Ando, T.; Xu, T.; Huang, L.; Huang, Y.; Dai, T.; Dhital, S.; Sharma, S.K.; Whalen, M.J.; et al. Low-level laser
+therapy for closed-head traumatic brain injury in mice: Effect of different wavelengths. Lasers Surg. Med. 2012, 44, 218–226.
+[CrossRef] [PubMed]
+53.
+Xuan, W.; Vatansever, F.; Huang, L.; Wu, Q.; Xuan, Y.; Dai, T.; Ando, T.; Xu, T.; Huang, Y.; Hamblin, M.R. Transcranial low-level
+laser therapy improves neurological performance in traumatic brain injury in mice: Effect of treatment repetition regimen. PLoS
+ONE 2013, 8, e53454. [CrossRef]
+54.
+Xuan, W.; Agrawal, T.; Huang, L.; Gupta, G.K.; Hamblin, M.R. Low-level laser therapy for traumatic brain injury in mice increases
+brain derived neurotrophic factor (BDNF) and synaptogenesis. J. Biophotonics 2015, 8, 502–511. [CrossRef]
+55.
+Farfara, D.; Tuby, H.; Trudler, D.; Doron-Mandel, E.; Maltz, L.; Vassar, R.J.; Frenkel, D.; Oron, U. Low-level laser therapy
+ameliorates disease progression in a mouse model of Alzheimer’s disease. J. Mol. Neurosci. 2015, 55, 430–436. [CrossRef]
+56.
+Grillo, S.L.; Duggett, N.A.; Ennaceur, A.; Chazot, P.L. Non-invasive infra-red therapy (1072 nm) reduces beta-amyloid protein
+levels in the brain of an Alzheimer’s disease mouse model, TASTPM. J. Photochem. Photobiol. B Biol. 2013, 123, 13–22. [CrossRef]
+57.
+De Taboada, L.; Yu, J.; El-Amouri, S.; Gattoni-Celli, S.; Richieri, S.; McCarthy, T.; Streeter, J.; Kindy, M.S. Transcranial laser therapy
+attenuates amyloid-beta peptide neuropathology in amyloid-beta protein precursor transgenic mice. J. Alzheimer’s Dis. 2011, 23,
+521–535. [CrossRef]
+58.
+Purushothuman, S.; Johnstone, D.M.; Nandasena, C.; van Eersel, J.; Ittner, L.M.; Mitrofanis, J.; Stone, J. Near infrared light
+mitigates cerebellar pathology in transgenic mouse models of dementia. Neurosci. Lett. 2015, 591, 155–159. [CrossRef]
+59.
+Hacke, W.; Schellinger, P.D.; Albers, G.W.; Bornstein, N.M.; Dahlof, B.L.; Fulton, R.; Kasner, S.E.; Shuaib, A.; Richieri, S.P.; Dilly,
+S.G.; et al. Transcranial laser therapy in acute stroke treatment: Results of neurothera effectiveness and safety trial 3, a phase III
+clinical end point device trial. Stroke 2014, 45, 3187–3193. [CrossRef]
+60.
+Lampl, Y.; Zivin, J.A.; Fisher, M.; Lew, R.; Welin, L.; Dahlof, B.; Borenstein, P.; Andersson, B.; Perez, J.; Caparo, C.; et al. Infrared
+laser therapy for ischemic stroke: A new treatment strategy: Results of the NeuroThera Effectiveness and Safety Trial-1 (NEST-1).
+Stroke 2007, 38, 1843–1849. [CrossRef] [PubMed]
+61.
+Cassano, P.; Norton, R.J.; Caldieraro, M.A.; Vahedifard, F.; Vizcaino, F.; McEachern, K.M.; Iosifescu, D.V. Tolerability and safety of
+transcranial photobiomodulation for mood and anxiety disorders. Photonics 2022, 9, 507. [CrossRef]
+62.
+Saltmarche, A.E.; Naeser, M.A.; Ho, K.F.; Hamblin, M.R.; Lim, L. Signiﬁcant improvement in memory and quality of life
+after transcranial and intranasal photobiomodulation: A randomized, controlled, single-blind pilot study with dementia. In
+Proceedings of the Alzheimer’s Association International Conference, Toronto, ON, Canada, 24 July 2016. [CrossRef]
+63.
+Saltmarche, A.E.; Naeser, M.A.; Ho, K.F.; Hamblin, M.R.; Lim, L. Signiﬁcant improvement in cognition in mild to moderately
+severe dementia cases treated with transcranial plus intranasal photobiomodulation: Case series report. Photomed. Laser Surg.
+2017, 35, 432–441. [CrossRef]
+64.
+Randolph, C. Repeatable Battery for the Assessment of Neuropsychological Status (RBANS); Psychological Corporation: San Antonio,
+TX, USA, 1998.
+65.
+Levine, J.; Schooler, N. SAFTEE (Systematic Assessment For Treatment Emergent Events). A new technique for detecting side
+effects in clinical trials. Clin. Neuropharmacol. 1984, 7, S460. Available online: https://journals.lww.com/clinicalneuropharm/
+Citation/1984/06001/SAFTEE__SYSTEMATIC_ASSESSMENT_FOR_TREATMENT.424.aspx (accessed on 8 June 2023). [CrossRef]
+66.
+Petersen, R.C. Mild cognitive impairment. Continuum 2016, 22, 404–418. [CrossRef]
+67.
+Morris, J.C. The Clinical Dementia Rating (CDR): Current version and scoring rules. Neurology 1993, 43, 2412–2414. [CrossRef]
+68.
+Sclan, S.; Reisberg, B. Functional assessment staging (FAST) in alzheimer’s disease: Reliability, validity, and ordinality. Int.
+Psychogeriatr. 1992, 4, 55–69. [CrossRef]
+69.
+Hsieh, S.; Schubert, S.; Hoon, C.; Mioshi, E.; Hodges, J.R. Validation of the Addenbrooke’s Cognitive Examination III in
+frontotemporal dementia and alzheimer’s disease. Dement. Geriatr. Cogn. Disord. 2013, 36, 242–250. [CrossRef] [PubMed]
+70.
+Guy, W. ECDEU Assessment Manual for Psychopharmacology; US Department of Health, Education, and Welfare, Public Health
+Service, Alcohol, Drug Abuse, and Mental Health Administration, National Institute of Mental Health, Psychopharmacology
+Research Branch, Division of Extramural Research Programs: Rockville, MD, USA, 1976.
+71.
+Sheehan, D.V.; Janavs, J.; Baker, R.; Sheehan, K.H.; Knapp, E.; Sheehan, M. The MINI International Neuropsychiatric Interview
+(Version 7.0.2) for DSM-5; Harm Research Institute, 2016.
+72.
+Sheehan, D.V.; Lecrubier, Y.; Sheehan, K.H.; Amorim, P.; Janavs, J.; Weiller, E.; Hergueta, T.; Baker, R.; Dunbar, G.C. The
+Mini-International Neuropsychiatric Interview (M.I.N.I): The development and validation of a structured diagnostic psychiatric
+interview for DSM-IV and ICD-10. J. Clin. Psychiatry 1998, 59, 22–23. Available online: https://www.psychiatrist.com/wp-
+content/uploads/2021/02/15175_mini-international-neuropsychiatric-interview-mini.pdf (accessed on 8 June 2023). [PubMed]
+73.
+Posner, K.; Brent, D.; Lucas, C.; Gould, M.; Stanley, B.; Brown, G.; Fisher, P.; Zelazny, J.; Burke, A.; Oquendo, M.; et al.
+Columbia-Suicide Severity Rating Scale (C-SSRS); Columbia University Medical Center: New York, NY, USA, 2008; Volume 10.
+74.
+Massey, D.S.; Martin, J.A. The NIS Skin Color Scale; Ofﬁce of Population Research, Princeton University: Princeton, NJ, USA, 2003.
+75.
+Sheikh, J.I.; Yesavage, J.A. Geriatric Depression Scale (GDS): Recent evidence and development of a shorter version. Clin. Gerontol.
+J. Aging Ment. Health 1986, 5, 165–173. [CrossRef]
+76.
+Baker, A.; Simon, N.; Keshaviah, A.; Farabaugh, A.; Deckersbach, T.; Worthington, J.J.; Hoge, E.; Fava, M.; Pollack, M.P. Anxiety
+Symptoms Questionnaire (ASQ): Development and validation. Gen. Psychiatry 2019, 32, e100144. [CrossRef]
+
+Healthcare 2023, 11, 2017
+15 of 16
+77.
+Trivedi, M.H.; Wisniewski, S.R.; Morris, D.W.; Fava, M.; Kurian, B.T.; Gollan, J.K.; Nierenberg, A.A.; Warden, D.; Gaynes, B.N.;
+Luther, J.F.; et al. Concise Associated Symptoms Tracking Scale: A brief self-report and clinician rating of symptoms associated
+with suicidality. J. Clin. Psychiatry 2011, 72, 765–774. [CrossRef]
+78.
+Buysse, D.J.; Reynolds, C.F., III; Monk, T.H.; Berman, S.R.; Kupfer, D.J. The Pittsburgh sleep quality index: A new instrument for
+psychiatric practice and research. Psychiatry Res. 1989, 28, 193–213. [CrossRef] [PubMed]
+79.
+Cella, D.; Lai, J.-S.; Nowinski, C.J.; Victorson, D.; Peterman, A.; Miller, D.; Bethoux, D.; Heinemann, A.; Rubin, S.; Cavazos, J.E.;
+et al. Neuro-QOL: Brief measures of health-related quality of life for clinical research in neurology. Neurology 2012, 78, 1860–1867.
+[CrossRef] [PubMed]
+80.
+Blair, J.R.; Spreen, O. Predicting premorbid IQ: A revision of the national adult reading test. Clin. Neuropsychol. 1989, 3, 129–136.
+[CrossRef]
+81.
+Uttl, B. North American adult reading test: Age norms, reliability, and validity. J. Clin. Exp. Neuropsychol. 2002, 24, 1123–1137.
+Available online: https://doi-org.ezproxy.med.nyu.edu/10.1076/jcen.24.8.1123.8375 (accessed on 8 June 2023). [CrossRef]
+[PubMed]
+82.
+Salthouse, T.A.; Babcock, R.L. Decomposing adult age differences in working memory. Dev. Psychol. 1991, 27, 763–776. [CrossRef]
+83.
+Rentz, D.M.; Amariglio, R.E.; Becker, J.A.; Frey, M.; Olson, L.E.; Frishe, K.; Carmasin, J.; Maye, J.E.; Johnson, K.A.; Sperling, R.A.
+Face-name associative memory performance is related to amyloid burden in normal elderly. Neuropsychologia 2011, 49, 2776–2783.
+[CrossRef]
+84.
+Papp, K.V.; Amariglio, R.E.; Dekhtyar, M.; Roy, K.; Wigman, S.; Bamfo, R.; Sherman, J.; Sperling, R.A.; Rentz, D.M. Development
+of a psychometrically equivalent short form of the face-name associative memory exam for use along the early alzheimer’s
+disease trajectory. Clin. Neuropsychol. 2014, 28, 771–785. [CrossRef]
+85.
+Reitan, R.M.; Wolfson, D. The Halstead-Reitan Neuropsychological Test Battery: Theory and Clinical Interpretation; Reitan Neuropsy-
+chology: Tucson, AZ, USA, 1985; Volume 4.
+86.
+Stroop, J.R. Studies of interference in serial verbal reactions. J. Exp. Physiol. 1935, 18, 643–662. [CrossRef]
+87.
+Wechsler, D. Wechsler Adult Intelligence Scale, 4th ed.; APA PsycTests: Washington, DC, USA, 2008. [CrossRef]
+88.
+Weintraub, S.; Besser, L.; Dodge, H.H.; Teylan, M.; Ferris, S.; Goldstein, F.C.; Giordani, B.; Kramer, J.; Loewenstein, D.; Marson, D.;
+et al. Version 3 of the Alzheimer’s Disease Centers’ neuropsychological test battery in the Uniform Data Set (UDS). Alzheimer’s
+Dis. Assoc. Disord. 2018, 32, 10–17. [CrossRef]
+89.
+Caldieraro, M.A.; Laufer-Silva, T.; Cassano, P. Dosimetry and clinical efﬁcacy of transcranial photobiomodulation for major
+depression disorder: Could they guide dosimetry for alzheimer’s disease? J. Alzheimer’s Dis. 2021, 83, 1453–1469. [CrossRef]
+90.
+Dmochowski, G.M.; Dmochowski, J.P. Increased Blood Flow and Oxidative Metabolism in the Human Brain by Transcranial
+Laser Stimulation. BioRxiv. 2018. Available online: https://www.biorxiv.org/content/10.1101/459883v1.full.pdf (accessed on 8
+June 2023).
+91.
+Karu, T.I.; Pyatibrat, L.V.; Kolyakov, S.F.; Afanasyeva, N.I. Absorption measurements of a cell monolayer relevant to phototherapy:
+Reduction of cytochrome c oxidase under near IR radiation. J. Photochem. Photobiol. B Biol. 2005, 81, 98–106. [CrossRef]
+92.
+Heiskanen, V.; Hamblin, M.R. Photobiomodulation: Lasers vs. light emitting diodes? Photochem. Photobiol. Sci. 2018, 17,
+1003–1017. [CrossRef]
+93.
+Hode, L. The importance of the coherency. Photomed. Laser Surg. 2005, 23, 431–434. [CrossRef] [PubMed]
+94.
+Duarte-Abritta, B.; Villarreal, M.F.; Abulaﬁa, C.; Loewenstein, D.; Curiel Cid, R.E.; Castro, M.N.; Surace, E.; Sanchez, S.; Vigo, D.E.;
+Vasquez, S.; et al. Cortical thickness, brain metabolic activity, and in vivo amyloid deposition in asymptomatic, middle-aged
+offspring of patients with late-onset Alzheimer’s disease. J. Psychiatr. Res. 2018, 107, 11–18. [CrossRef] [PubMed]
+95.
+Verfaillie, S.C.; Adriaanse, S.M.; Binnewijzend, M.A.; Benedictus, M.R.; Ossenkoppele, R.; Wattjes, M.P.; Pijnenburg, Y.A.L.; van
+der Flier, W.M.; Lammertsma, A.A.; Kuijer, J.P.A.; et al. Cerebral perfusion and glucose metabolism in Alzheimer’s disease and
+frontotemporal dementia: Two sides of the same coin? Eur. Radiol. 2015, 25, 3050–3059. [CrossRef]
+96.
+Terada, S.; Oshima, E.; Sato, S.; Ikeda, C.; Nagao, S.; Hayashi, S.; Hayashibara, C.; Yokota, O.; Uchitomi, Y. Depressive symptoms
+and regional cerebral blood ﬂow in Alzheimer’s disease. Psychiatry Res. Neuroimaging 2014, 221, 86–91. [CrossRef]
+97.
+Kolahi, J.; Bang, H.; Park, J. Towards a proposal for assessment of blinding success in clinical trials: Up-to-date review. Community
+Dent. Oral Epidemiol. 2009, 37, 477–484. [CrossRef] [PubMed]
+98.
+Olaithe, M.; Weinborn, M.; Lowndes, T.; Ng, A.; Hodgson, E.; Fine, L.; Parker, D.; Pushpanathan, M.; Bayliss, D.; Anderson, M.;
+et al. Repeatable Battery for the Assessment of Neuropsychological Status (RBANS): Normative data for older adults. Arch. Clin.
+Neuropsychol. 2019, 34, 1356–1366. [CrossRef]
+99.
+Benjamini, Y.B.; Hochberg, Y. Controlling the false discovery rate: A practical and powerful approach to multiple testing. J. R.
+Stat. Soc. Ser. B (Methodol.) 1995, 57, 289–300. [CrossRef]
+100. Baron, R.M.; Kenny, D.A. The moderator-mediator variable distinction in social psychological research: Conceptual, strategic,
+and statistical considerations. J. Personal. Soc. Psychol. 1986, 51, 1173–1182. [CrossRef] [PubMed]
+101. Kantarci, K.; Lowe, V.J.; Boeve, B.F.; Senjem, M.L.; Tosakulwong, N.; Lesnick, T.G.; Spychalla, A.J.; Gunter, J.L.; Fields, J.A.;
+Graff-Radford, J.; et al. AV-1451 tau and β-amyloid positron emission tomography imaging in dementia with Lewy bodies. Ann.
+Neurol. 2017, 81, 58–67. [CrossRef]
+
+Healthcare 2023, 11, 2017
+16 of 16
+102. Jack, C.R., Jr.; Wiste, H.J.; Botha, H.; Weigand, S.D.; Therneau, T.M.; Knopman, D.S.; Graff-Radford, J.; Jones, D.T.; Ferman,
+T.J.; Boeve, B.F.; et al. The bivariate distribution of amyloid-β and tau: Relationship with established neurocognitive clinical
+syndromes. Brain 2019, 142, 3230–3242. [CrossRef] [PubMed]
+103. Jack, C.R., Jr.; Wiste, H.J.; Schwarz, C.G.; Lowe, V.J.; Senjem, M.L.; Vemuri, P.; Weigand, S.D.; Therneau, T.M.; Knopman, D.S.;
+Gunter, J.L.; et al. Longitudinal tau PET in ageing and Alzheimer’s disease. Brain 2018, 141, 1517–1528. [CrossRef] [PubMed]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

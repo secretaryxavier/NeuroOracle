@@ -1,0 +1,1231 @@
+Auditory Verbal Hallucinations and the Interhemispheric 
+Auditory Pathway in Chronic Schizophrenia
+Marlene Wiganda,b,c, Marek Kubickia,d, Christian Clemm von Hohenberga,b,c, Gregor 
+Leichtc, Susanne Karchb, Ryan Eckboa, Paula E. Pelavina, Kathryn Hawleya, Dan 
+Rujescub,f, Sylvain Bouixa,d, Martha E. Shentona,d,e, and Christoph Mulertc
+aDepartment of Psychiatry, Psychiatry Neuroimaging Laboratory, Brigham and Women’s Hospital, 
+Harvard Medical School, Boston, MA, USA
+bDepartment of Psychiatry, Faculty of Medicine, Ludwig Maximilian University of Munich, Munich, 
+Germany
+cDepartment of Psychiatry, Psychiatry Neuroimaging Branch, University Medical Centre 
+Hamburg-Eppendorf, Hamburg, Germany
+dDepartment of Radiology, Surgical Planning Laboratory, MRI Division, Brigham and Women’s 
+Hospital, Harvard Medical School, Boston, MA
+eDepartment of Psychiatry, Veterans Affairs Boston Healthcare System and Harvard Medical 
+School, Brockton, MA, USA
+fDepartment of Psychiatry, University Hospital and Faculty of Medicine, Martin Luther University 
+Halle-Wittenberg, Halle, Germany
+Abstract
+Objectives—The interhemispheric auditory pathway has been shown to play a crucial role in the 
+processing of acoustic stimuli, and alterations of structural and functional connectivity between 
+bilateral auditory areas are likely relevant to the pathogenesis of auditory verbal hallucinations 
+(AVHs). The aim of this study was to examine this pathway in patients with chronic schizophrenia 
+regarding their lifetime history of AVHs.
+Methods—DTI scans were acquired from 33 healthy controls (HC), 24 schizophrenia patients 
+with a history of AVHs (LT-AVH) and 9 schizophrenia patients without any lifetime-
+hallucinations (N-LT-AVH). The interhemispheric auditory fibre bundles were extracted using 
+streamline tractography. Subsequently, diffusivity indices, namely Fractional Anisotropy (FA), 
+Trace, Mode, Axial and Radial Diffusivity, were calculated.
+Address correspondence to Christoph Mulert, Department of Psychiatry and Psychotherapy, Psychiatry Neuroimaging Branch, 
+University Medical Center Hamburg-Eppendorf, Martinistr. 52, 20246 Hamburg, Germany, Tel. +49 40 7410 59520, Fax. +49 40 
+7410 59805, c.mulert@uke.de. 
+Statement of Interest
+None to declare
+The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of 
+Health.
+HHS Public Access
+Author manuscript
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Published in final edited form as:
+World J Biol Psychiatry. 2015 January ; 16(1): 31–44. doi:10.3109/15622975.2014.948063.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Results—FA was decreased over the entire pathway in LT-AVH compared with N-LT-AVH. 
+Moreover, LT-AVH displayed decreased FA and Mode as well as increased Radial Diffusivity in 
+the midsagittal section of the fibre tract.
+Conclusions—These findings indicate complex microstructural changes in the interhemispheric 
+auditory pathway of schizophrenia patients with a history of AVHs. Alterations appear to be 
+absent in patients who have never hallucinated.
+Keywords
+schizophrenia; brain imaging; MRI; diffusion tensor imaging; auditory verbal hallucinations
+1. Introduction
+Schizophrenia affects around 1% of the general population and patients afflicted with this 
+disorder frequently present with heterogeneous symptoms, thus making it one of the most 
+severe mental disorders for which we have no real understanding of the underlying aetiology 
+and pathology (Frith and Johnstone 2003). Auditory verbal hallucinations (AVHs) rank 
+among the most prominent and characteristic symptoms in schizophrenia (Schneider 1957) 
+and describe the sensory experience of voices being heard in the absence of an appropriate 
+external stimulus. As an explanation it has been suggested that patients with SZ exhibit a 
+defect in self-monitoring and thus a failure to distinguish between internally and externally 
+generated stimuli (Frith 1995). AVHs would therefore, originate from misattributing one’s 
+own inner speech generated in the frontal cortex to an externally located source. 
+Accordingly, increased activation in acutely hallucinating patients has been primarily 
+observed in frontal speech production and temporal speech perception areas, including the 
+auditory cortex (Dierks et al. 1999, Shergill et al. 2000a, Shergill et al. 2000b, van de Ven et 
+al. 2005) with a predominance of the left hemisphere. Yet, cortical activations could also be 
+observed in subjects’ right-sided cortical homologues (Dierks et al. 1999, Shergill 2000b). 
+The findings of atypical function in different remote brain areas in hallucinating patients 
+indicated that AVHs may be mediated by extensive cortical and subcortical disturbances 
+within language-processing networks, rather than by focal impairments of single brain 
+structures. This is in accordance with present concepts of SZ as the result of disturbed 
+functional communication between spatially discrete, and not necessarily proximal, brain 
+regions (Friston 2002). As a consequence, recent attention has been given to changes in 
+distinct white matter (WM) tracts in SZ after structural neuroimaging studies had initially 
+focused on grey matter abnormalities in schizophrenia (for reviews see Fitzsimmons et al. 
+2013, Shenton et al. 2001). In fact, numerous Functional Magnetic Resonance Imaging 
+(fMRI), volumetric imaging, and Positron Emission Tomography (PET) studies argue in 
+favour of disordered cerebral connectivity in SZ (Andreasen et al. 1997, Bullmore et al. 
+1997, Frith and Dolan 1996, McGuire and Frith 1996, Shergill et al. 2000b, Sigmundsson et 
+al. 2001, Spence et al. 1997), yet they do not deliver information about fibre organization 
+and microstructural changes in WM. In order to address these questions diffusion weighted 
+imaging (DWI) techniques have been introduced providing a unique, non-invasive tool to 
+assess alterations of WM in the brain. First introduced by Basser et al. in 1994, Diffusion 
+Tensor Imaging (DTI) assesses the directionality of water diffusion within the brain. Since 
+water molecules do not diffuse freely in WM but are guided by axonal tracts, cell 
+Wigand et al.
+Page 2
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+membranes, organelles, protein filaments and predominantly by myelin sheaths (Peled et al. 
+1998) information about the microstructure of WM tracts can be gained in vivo (Cercignani 
+& Horsfield 2001). Fractional Anisotropy (FA) represents the most commonly used 
+parameter in DTI studies and measures the fraction of the diffusion tensor that can be 
+ascribed to anisotropic diffusion, that is to say the degree of diffusion directionality. In the 
+event of unrestricted isotropic diffusion FA has a value close to 0 while it approaches 1 if 
+water molecules are strongly guided into one direction. Besides FA, some other diffusion 
+indices have gained importance recently and may be helpful for more detailed evaluation of 
+microstructural alterations. Measuring the total quantity of diffusion within one voxel, Trace 
+is independent of fibre directionality and increases when the overall displacement of 
+molecules rises. Another diffusion parameter, which has been developed lately, is 
+represented by Mode. It provides geometric information about the shape of the diffusion 
+tensor and approaches a value close to 1 if the diffusion tensor is shaped like a tube, i.e. 
+when the size of the tensor’s second eigenvalue is close to the third. If the size of the second 
+eigenvalue is close to the first and the diffusion is better described by a disk, Mode will 
+converge a value of −1 (Ennis and Kindlmann 2006, Kindlmann et al. 2007, Whitford et al. 
+2010).
+Changes in FA can be better characterized by the assessment of Axial Diffusivity (Axial), 
+which is defined as the principal eigenvalue, and Radial Diffusivity (Radial) reflecting the 
+mean of the second and third eigenvalue of the diffusion tensor. Representing the major 
+direction of the diffusion tensor, Axial has been reported to decrease when axonal injury 
+occurs (Budde et al. 2009, Song et al. 2002). Its counterpart Radial reflects the diffusion 
+perpendicular to the course of neural axons. Accordingly, Radial increases when the 
+confining myelin sheaths are defective and it has been presented as a relatively reliable 
+marker for de- and dysmyelination in animal models (Harsan et al. 2006, Song et al. 2003, 
+Song et al. 2005, Tyszka et al. 2006).
+In schizophrenia, several WM tracts have been reported to exhibit altered diffusion with 
+decreased FA values as the most frequent finding (for review see Kubicki et al. 2007). 
+Regarding AVHs, most studies have investigated fronto-temporal linkages between 
+language production and perception structures such as the arcuate fasciculus.(Hubl et al. 
+2004, Shergill et al. 2007). While the role of the arcuate fasciculus in speech perception and 
+production is generally well established, there is increasing evidence for a substantial 
+participation of the Corpus Callosum (CC) in the processing of auditory information. 
+Findings from microscopic studies of the CC suggest that commissural fibre tracts from 
+auditory areas in the temporal lobes are contained within the isthmus and the anterior part of 
+the splenium (Aboitiz et al. 1992b), which are part of the caudal third of the CC. These 
+interhemispheric connections have been demonstrated to link subregions of the primary and 
+secondary auditory cortices in a tonotopic organisation (Aboitiz et al. 1992a, Bamiou et al. 
+2007, Lee and Winer 2008, Pandya 1986). According to the “callosal relay” model which 
+postulates supremacy of the left hemisphere in speech perception while auditory signals are 
+more dominantly transmitted in the right hemisphere (Zaidel 1986), stimuli entering the 
+right hemisphere must be transferred to the contralateral side for processing (Hugdahl et al. 
+1997). Focussing on this physiological interhemispheric interplay, Friederici et al. (2007) 
+observed the absence of an event-related N400 potential during a speech comprehension 
+Wigand et al.
+Page 3
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+task in patients with a lesion in the posterior third of the CC. Thus, the disruption of the CC 
+in its posterior part is assumed to interfere with an efficient integration of prosodic and 
+syntactic information contributing to disturbed language comprehension. Combining 
+probabilistic tractography of callosal subregions containing interhemispheric auditory fibre 
+tracts with an auditory speech perception task, it has also been shown that higher anatomical 
+connectivity between superior temporal lobe areas correlated with better speech perception 
+performance in healthy subjects (Westerhausen et al. 2009). Some evidence for the 
+functional relevance of transcallosal auditory connectivity for AVHs in schizophrenia was 
+provided by an EEG study investigating interhemispheric phase locking between the left and 
+right primary auditory cortex (Mulert et al. 2011). SZ patients displayed reduced phase 
+synchronization in comparison to HC suggesting disturbed connectivity in the 
+interhemispheric auditory pathway. Moreover, there was a positive correlation between 
+auditory hallucination symptoms and interhemispheric auditory connectivity. An important 
+hint towards alterations of transcallosal auditory linkages in SZ patients with AVH was 
+presented by a DTI study (Hubl et al. 2004) detecting increased FA values in the posterior 
+third of the CC in acutely hallucinating patients. Based on these findings Mulert and 
+colleagues (2012) were the first to explicitly investigate and demonstrate the 
+interhemispheric auditory pathway by the means of DTI tractography. They observed 
+increased FA in the traced fibre bundle in first-episode patients suffering from AVHs in 
+comparison to patients without AVHs. Both of the above studies indicated stronger 
+transcallosal connectivity in patients with acute AVH and we were henceforward interested 
+in evaluating whether these alterations would also be present in chronic patients who have 
+experienced AVHs during their illness history but were not necessarily hallucinating at the 
+time of data acquisition. Briefly, our aim was to figure out if the increased FA values in 
+first-episode patients are still present in chronic patients who experienced AVHs in the past 
+and we therefore applied the same approach as Mulert et al. (2012). For a more detailed 
+understanding of microstructural alterations we calculated we calculated Trace, Mode, Axial 
+and Radial diffusivity in addition to FA.
+Moreover, we aimed to analyse diffusion parameters in the midsagittal section of the fibre 
+tract due to two different considerations. Firstly, we were interested in regarding our 
+findings against the background of antecedent DTI studies examining interhemispheric 
+connectivity. Most of them reported their results with reference to the median sagittal plane 
+(e.g. Buchsbaum et al. 2006, Hubl et al. 2004, Knochel et al. 2012). Secondly and most 
+importantly, we were aware of the fact that crossing or adjacent fibres tracts may interfere 
+with the reconstruction of fibre bundles. Fractional anisotropy may be incorrectly low in a 
+voxel covering crossing pathways and fibre tracking may consequently terminate in this 
+region. Likewise, tracking can be shifted or switch to adjacent unrelated pathways when 
+fibre merging or branching occurs (Mori 2007). Moreover, tractography has been shown to 
+worsen if fibres run toward the lateral or inferior side of the brain due to partial volume and 
+noise effects (Park et al. 2008). Since the interhemispheric auditory pathway leaves the CC 
+with analogous orientation and since it passes several crossing tracts such as the internal 
+capsule or the inferior longitudinal fasciculus, its tracking is especially interference-prone. 
+The aforementioned limitations have been observed in recent DTI studies of callosal fibres 
+connecting temporal regions of the left and right hemisphere (Hofer and Frahm 2006, 
+Wigand et al.
+Page 4
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Vandermosten et al. 2013) and even though the traced streamlines in our study appeared to 
+run in an anatomically correct course, we consequently expected clearer and less 
+compromised diffusion values in the midsagittal section of the interhemispheric auditory 
+pathway.
+2. Materials and Methods
+2.1 Subjects
+This study was approved by the local ethics committee of the Ludwig Maximilian 
+University of Munich and carried out in accordance with the Declaration of Helsinki. It was 
+part of a larger clinical, imaging and genetics study at the Department of Psychiatry, Ludwig 
+Maximilian University of Munich and DTI scans of our sample were already used for 
+another study published recently (Clemm von Hohenberg et al. 2013). After a detailed 
+description of the study, written informed consent was obtained from all participants.
+Patients with schizophrenia—Patients with schizophrenia were recruited as outpatients 
+affiliated with the Department of Psychiatry, Ludwig-Maximilians-University of Munich. 
+All patients met DSM-IV and ICD-10 criteria for schizophrenia which was confirmed by 
+four physicians and one psychologist using the Structured Clinical Interview for DSM-IV 
+(SCID) (First et al. 1994, Spitzer et al. 1992, Williams et al. 1992) to evaluate lifetime Axis 
+I and II diagnoses. Chronic schizophrenia was defined as lasting at least five years (mean 
+16.58 years; range 5–34) following the inclusion criteria of recent studies (Knochel et al. 
+2012, Liu et al. 2010). Handedness was determined by the clinical interview. All clinical 
+data were double rated by a senior researcher who revised medical records and checked if 
+patients’ statements were reasonable. None of the patients had a history of traumatic brain 
+injury, mental retardation or neurological impairment. Additionally, none had substance 
+abuse in the past six months. Prior to the six months period eleven patients had used 
+cannabis and four patients had taken cocaine (not more than five times in their lifetime) 
+Thirty-three patients met the aforementioned requirements.
+Current psychopathology was assessed using the Positive and Negative Syndrome Scale 
+“PANSS” (Kay et al. 1987). Moreover, information on current medication was employed to 
+compute chlorpromazine (CPZ) equivalence doses as proposed by Möller (2000).
+As it was our aim to investigate structural differences between schizophrenia patients with a 
+history of auditory verbal hallucinations and patients who had never experienced any 
+hallucinations, we used information from clinical interviews and chart records to divide the 
+patient group into two subgroups. Hence, the group of patients without any lifetime 
+hallucinations (N-LT-AVH) was comprised of nine SZ patients (eight men, one woman), 
+whereas the LT-AVH group was comprised of twenty-four SZ patients (sixteen men, eight 
+women). The mean age was 39.67 ± 3.39 years for N-LT-AVH and 43.50 ± 8.19 years for 
+LT-AVH.
+Healthy volunteers—Healthy control participants were drawn at random from the general 
+population of Munich, Germany, and contacted by mail. Several screenings were conducted 
+before volunteers were admitted to this study: a clinical interview including the SCID I and 
+Wigand et al.
+Page 5
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+SCID II to validate the absence of any lifetime psychotic disorder, an assessment of detailed 
+medical and neuropsychiatric histories for both themselves and their first-degree relatives, 
+the Family History Assessment Module (Rice et al. 1995) to rule out psychotic disorders 
+among first-degree relatives, a neurological examination to exclude individuals with current 
+central nervous system impairment and the Mini Mental Status Test (Folstein et al. 1975) 
+with all volunteers who were older than 60 years to exclude subjects with cognitive 
+impairment. Subjects were excluded if they had a history of drug dependence or abuse. 
+Handedness was determined by the clinical interview. After the inclusion of all suitable SZ 
+patients we selected 33 healthy control subjects from our data set who showed the best 
+possible matching in terms of age, gender, education and handedness (twenty-four men, nine 
+women; mean age = 44.97 ± 11.39 years).
+2.2 Image Acquisition
+All subjects were scanned on the same 1.5 Tesla MRI Scanner (Siemens Sonata, Siemens 
+Medical Solutions, Erlangen, Germany) using a standard circular-polarized head coil. Brain 
+Diffusion Tensor MRI was acquired in axial orientation using a diffusion-weighted single 
+shot spin echo planar imaging (EPI) sequence. We obtained forty-four contiguous axial 
+slices parallel to the anterior commissure – posterior commissure line covering the whole 
+brain in a 128 × 112 scan matrix with diffusion encoding in 32 directions. Scan parameters 
+were the following: FOV = 320 × 280; slice thickness = 2.5 mm; TE =83 ms; TR = 6600 
+ms; b-values 0 and 1000s/mm2. All scans were visually checked to rule out structural 
+abnormalities or artefacts.
+Pre-processing—After conversion and visual inspection for severe scanning and motion 
+artefacts, the diffusion-weighted images were corrected for motion and eddy-current 
+distortions using affine registration with the baseline volume (FLIRT; Functional MRI of the 
+Brain [FMRIB] Sofware Library [FSL]). Diffusion gradients were compensated for 
+rotations. The images were masked to exclude non-brain areas by manually annotating a 
+label map that was initialized using Otsu’s method and the DTI model was fitted using a 
+linear least squares estimation as implemented in the 3D Slicer (www.slicer.org).
+ROI definition—In order to extract only fibres that were part of the inter-hemispheric 
+auditory pathway, a seeding tractography technique was applied that selects only those tracts 
+that are included in a specific combination of regions of interest (ROIs) (Conturo et al. 1999, 
+Mori et al. 1999). A single technician who was blind to diagnosis, age and gender drew all 
+of these ROIs. In the first step, a midsagittal ROI was applied generously over the posterior 
+third of the corpus callosum where auditory fibres are crossing. Subsequently, deterministic 
+(streamline) tractography (Oh et al. 2007) was initiated from every voxel defined by this 
+ROI following the direction of the principal eigenvector. A step size of 0.5 mm was 
+employed with a radius of curvature > 0.87 mm. As soon as a voxel showed a lower value of 
+fractional anisotropy than 0.15, tractography was terminated. In order to increase the number 
+of resulting fibres, we applied Jitter ten times, which is an optional tool of the Slicer 
+software package. Whereas tracts are seeded on a regular grid throughout the volume 
+without this option, Jitter allows tractography from different, randomly chosen, seeding 
+points providing higher quantities of resulting fibre tracts. The seed points are no longer 
+Wigand et al.
+Page 6
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+strictly defined by a spacing parameter on the stationary grid but moved haphazardly to half 
+the distance of the original spacing distance. In a following step, a second ROI was drawn 
+on a coronal slice bilaterally at the level of the splenium in order to select only fibres that 
+were connecting the auditory areas of both hemispheres. If fibres failed to pass through this 
+ROI they were excluded from further analysis. Fig. 1 shows the resulting auditory fibre tract 
+passing through the CC from one representative subject as well as the different ROIs.
+If a fibre that was clearly anatomically incorrect happened to remain in the resulting bundle 
+(e.g. fibres of the corticospinal tract) the fibre was removed from the bundle using the 
+“delete manually” function.
+DTI measurements—Fractional anisotropy (FA) was calculated for every voxel through 
+which any of the obtained fibres passed. Mean FA was calculated for every subject by 
+averaging FA of these voxels (Basser and Pierpaoli 1996) whereupon the resulting value 
+was applied in the statistical analysis. Moreover, Trace was calculated by summing the three 
+eigenvalues in every voxel, thus measures the magnitude of the diffusion tensor. 
+Additionally, we computed Mode at every voxel.
+Since different combinations of eigenvalues can produce the same FA values, FA is not 
+sufficient to fully describe the shape or distribution of diffusion in the brain (Alexander et al. 
+2000, Alexander et al. 2007). Hence, two different indexes have been introduced to help 
+discern further information about the microstructural processes: Axial and Radial 
+Diffusivity. Axial Diffusivity describes the diffusivity along the principal axis and is simply 
+generated by measuring the first eigenvalue, λ1. This index has been shown to decrease in 
+cases of axonal degeneration, whereas Radial Diffusivity increases when pathologies of 
+myelination occur (Seal et al. 2008, Song et al. 2003, Song et al. 2002).
+Trace, Mode, Axial and Radial Diffusivity were only calculated in case of a significant 
+change in FA. To ensure intra-rater reliability, five randomly chosen scans were duplicated 
+and reprocessed by the first rater 6 months after the first rating. Mean FA was calculated and 
+applied for computing the intra-class correlation coefficients revealing excellent reliability 
+(intra-class correlation coefficient = .994). Inter-rater reliability was estimated by 
+duplicating five randomly chosen brain volumes, which were then edited by two different 
+independent raters 4 months after the first rating. Again, high reliability was detected (intra-
+class correlation coefficient = .907).
+We were specifically interested in examining the central callosal part of the interhemispheric 
+auditory fibres without possible interference of diffusion in the peripheral sections. 
+Therefore we used the tracts generated in the antecedent step to create a midsagittal label 
+mask. This label mask was only defined by those voxels through which any of the produced 
+auditory fibres passed. Again, FA was computed for every voxel and mean FA was 
+calculated for each participant. All further analyses were repeated for the midsagittal section 
+of the interhemispheric auditory pathway as described above in order to affirm possible 
+findings and to further understand changes in the auditory pathway.
+Wigand et al.
+Page 7
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+2.3 Statistical Analysis
+All analyses were performed in SPSS version 19 (www.spss.com) with a personal computer. 
+The significance level was placed at α = 0.05 for statistical significant results and at α = 
+0.10 for trend-wise effects in all analyses. Demographic variables were assessed using 
+ANOVA and independent t-tests for the comparison of continuous variables (age, duration 
+of illness, CPZ equivalent) and non-parametric procedures (Kruskal-Wallis- and Mann-
+Whitney-U-tests) for variables with ordinal scale (education, PANSS scores). For the 
+comparison of categorical variables chi-square tests (gender) or Fisher’s exact test 
+(handedness; more than 20% of expected frequencies were less than 5) were applied.
+All DTI parameters were checked for assumptions of normal distribution and equality of 
+variances. If these assumptions were violated, non-parametric Kruskal-Wallis and Mann-
+Whitney U tests were applied.
+An analysis of variance was computed with diffusion values as dependent variables and 
+group as a fixed factor (patients with a history of AVHs, patients without a history of AVHs, 
+healthy controls). If (and only if) the ANOVA revealed a significant or trend-wise group 
+difference, post-hoc pairwise comparisons (Fisher’s Least Significant Difference tests; 
+Fisher’s LSD) were carried out within the ANOVA design. Group differences were also 
+assessed for the number of traced fibres (streamlines).
+Given the unequal group sizes and the small group size of N-LT-AVH in particular, we were 
+apprehensive of the risk to erroneously believe that assumptions for parametric tests were 
+not being violated. Therefore, we re-ran statistical analyses with non-parametric tests as 
+well.
+In order to control for other possibly influential variables, separate analyses of covariance 
+(ANCOVAs) were conducted post-hoc for the following covariates: age, gender, education 
+(to assess differences between all groups), duration of illness, CPZ equivalents and PANSS 
+scores (to assess group differences between N-LT-AVH and LT-AVH).
+We computed Pearson correlations to assess the relationship between DTI measurements 
+and age or duration of illness, respectively, as well as Spearman Rank correlations to detect 
+potential associations between the PANSS hallucination items and DTI values. In order to 
+control for multiple comparisons false discovery rate (FDR) corrections were applied 
+(Benjamini and Hochberg 1995).
+3. Results
+The demographic and clinical characteristics of the investigated samples are presented in 
+table 1. There were no significant differences between the three groups in terms of age, 
+gender or level of education. Table 2 displays means and standard deviations of diffusion 
+indices as well as the results of the ANOVA and Kruskal-Wallis tests.
+Interhemispheric auditory fibre bundle—The ANOVA revealed a trend-wise group 
+difference [F(2,63) = 2.610, p = .081] for FA. Post-hoc tests revealed significantly 
+Wigand et al.
+Page 8
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+diminished FA values in LT-AVH compared to N-LT-AVH [mean FA = .463 ± .027 vs. .
+490 ± .024; p = .026, d = 1.06]. The trend-wise overall group effect and the significant group 
+difference between N(LT)AVH and (LT)AVH were confirmed when controlling for age, 
+duration of illness, CPZ equivalents and PANSS scores in separate ANCOVAs. When 
+controlling for education and gender the group effect narrowly missed the trend-level. None 
+of the covariates was significantly related to FA.
+No significant group differences were found in the comparison of HC to all SZ patients.
+No significant associations were detected between diffusion values and age, duration of 
+illness, psychopathological measures or chlorpromazine equivalents.
+Midsagittal voxels of the interhemispheric auditory fibre bundle—When 
+focusing only on the midsagittal voxels of the CC through which the auditory fibre bundles 
+passed, the ANOVA revealed a significant group difference for FA [F(2,63) = 4.237; p = .
+019] and Radial [F(2,63) = 3.245; p = .046]. Since the assumption of normal distribution 
+was violated for Mode, we used the non-parametric Kruskal-Wallis test to assess group 
+effects and detected a significant group difference for Mode [H(2) = 12.600; p = .002]. 
+Group differences for FA and Radial were confirmed by Kruskal-Wallis tests as well.
+Subsequent post-hoc analyses revealed significantly lower FA values in LT-AVH compared 
+to N-LT-AVH [mean FA = .571 ± .080 vs. .641 ± .070; p = .013, d = .93]. FA was also 
+significantly decreased in LT-AVH when compared with HC [mean FA = .613 ± .060; p = .
+026, d = .60] (Fig. 2).
+Concerning Mode, LT-AVH had significantly lower values in comparison to N-LT-AVH 
+[mean Mode = 0.806 ± 0.091 vs. 0.893 ± 0.045; U = 47.0, p = .014, d = 1.21] and to HC 
+[mean Mode = 0.885 ± 0.062; U = 191.0, p = .001, d = 1.01] as assessed by the non-
+parametric Mann-Whitney U tests (Fig. 3).
+In contrast, Radial diffusivity was considerably increased in LT-AVH compared to HC 
+[mean Radial = .659 ± .142 vs. .575 ± .126; p = .023, d = .63] and marginally increased 
+(statistical trend) when compared to N-LT-AVH [mean Radial = .560 ± .150; p = .066, d = .
+68] (Fig. 4).
+All observed group differences for FA and Mode were again detected in post-hoc 
+ANCOVAs when controlling for age, gender, education, duration of illness, CPZ 
+equivalents and PANSS scores, while none of the covariates was significantly related to 
+diffusion measurements. Group differences for Radial were confirmed equally except when 
+including education as a covariate.
+No significant group differences were found in the comparison of HC to all SZ patients 
+except for Mode [mean Mode = .885 ± .062 vs. .830 ± .090; U = 344.0, p = .010, d = .71]. 
+The difference between HC and SZ patients showed a medium size effect (Cohen’s d = .71), 
+while the differences between HC and LT-AVH (Cohen’s d = 1.01) and between N-LT-
+AVH and LT-AVH (Cohen’s d = 1.21) both had a large size effect.
+Wigand et al.
+Page 9
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+After controlling for multiple comparisons none of the groups revealed a significant 
+correlation between any of the diffusion indexes and age, duration of illness, CPZ 
+equivalents or psychopathological measures of the PANSS score.
+4. Discussion
+The aim of this study was to investigate the relationship between microstructural processes 
+in the interhemispheric auditory pathway and the occurrence of auditory hallucinations in 
+chronic schizophrenia patients. It relates to a previous report of increased FA values in this 
+fibre bundle in first-episode patients with AVH (Mulert et al. 2012). DTI scans were 
+acquired and the transcallosal auditory fibre bundles were subsequently quantified by 
+applying regions of interest and streamline tractography. We found decreased FA in patients 
+with lifetime-AVHs, while patients without a history of AVHs revealed values similar to 
+healthy control subjects. Moreover, hallucinating patients revealed decreased FA and Mode 
+as well as increased Radial Diffusivity in the midsagittal section of the auditory callosal 
+pathway.
+Our findings of decreased anisotropy might seem conflicting in the context of the previous 
+report of increased FA (Mulert et al. 2012) in the same anatomical region in hallucinating 
+patients. Nevertheless, there is a major difference between patients in the two studies. While 
+our previous study focussed on first-episode schizophrenia, patients in the present study had 
+suffered from schizophrenia for a considerably longer time period (mean duration of illness 
+= 16.58 years). Our current sample of participants was thus also considerably older than 
+patients in the previous study (mean age of SZ = 42.45 vs. 26.9 years) as well as at a 
+different stage of illness. Interestingly, most of the studies examining diffusion alterations in 
+the CC report a decrease of FA in SZ patients who were much older than in Mulert’s study 
+and had been suffering from SZ for a considerably longer period of time (Agartz et al. 2001, 
+Foong et al. 2000, Knochel et al. 2012, Rotarska-Jagiela et al. 2008, Whitford et al. 2010).
+While the interhemispheric pathway connecting temporal brain areas has already been 
+investigated in regard to language perception, integration and phonological awareness 
+(Dougherty et al. 2007, Friederici et al. 2007, Westerhausen et al. 2009), our findings 
+suggest an association of microstructural changes in this fibre bundle with the occurrence of 
+AVH. Identifying an association does not automatically constitute a causal relationship and 
+due to the design of this study with only one fibre tract being analysed we are not in the 
+position to deduce conclusions about the specificity of our findings. Nevertheless, the fact 
+that N-LT-AVH revealed similar diffusion values to HC and that patients with lifetime AVH 
+showed significant differences is well in line with previous studies (for review see 
+Steinmann et al. 2014). While the two preceding DTI studies (Hubl et al. 2004, Mulert et al. 
+2012) argued in favour of increased connectivity in hallucinating patients, evidence for 
+decreased interhemispheric linkage derives from a study by Gavrilescu et al. (2010). Using 
+fMRI authors observed significantly reduced interhemispheric connectivity between 
+auditory cortices in patients with AVH when compared to patients without AVH and HC. 
+Employing auditory assessments, McKay and colleagues (2000) observed significantly 
+poorer results in hallucinating patients when compared to non-hallucinating patients and HC 
+both in a speech perception and a dichotic speech test. Authors concluded consequently that 
+Wigand et al.
+Page 10
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+hallucinations may be associated with disruptions in the right auditory brain areas and/or 
+dysfunction in interhemispheric connectivity. Similar conclusions were drawn in a recent 
+EEG time revealing significantly increased interhemispheric transfer time values in patients 
+with a history of AVH when single-syllable words were presented monaurally to each ear 
+(Henshall et al. 2012). HC showed values close to zero and patients who had never 
+experienced any hallucinations exhibited negative values. The prolonged interhemispheric 
+transfer time in patients who had hallucinated in the past in comparison to patients without a 
+history of AVH and HC may be attributed to abnormal cerebral lateralization in patients 
+without a history of AVH or to dysfunctional transcallosal communication. The latter 
+explanation is in well accordance with our finding of decreased interhemispheric 
+connectivity in patients with a history of AVH.
+Similar to Hubl’s (2004) and Mulert’s study (2012) there was no difference in FA between 
+HC and patients with SZ when considered as one single group. The only diffusion parameter 
+that revealed a group difference between HC and SZ patients was Mode with its values 
+being significantly lower in SZ patients. When comparing effect sizes, the group difference 
+between HC and SZ patients showed a medium size effect, while group differences both 
+between (LT)AVH and HC and between (LT)AVH and N(LT)AVH had a large size effect, 
+and we therefore assume that these group differences outweigh the group effect between HC 
+and SZ patients. Consequently, altered transcallosal connectivity appears to be considerably 
+associated with patients’ proneness to AVHs. Explanations for increased FA values in first-
+episode patients with current AVH and decreased FA values in chronic patients with a 
+history of AVH remain speculative, albeit WM changes in SZ appear to progress with time 
+(Friedman et al. 2008, Mori et al. 2007, Rotarska-Jagiela et al. 2009).
+Previous studies investigating the isthmus and splenium of the CC reported FA alterations in 
+SZ (Agartz et al. 2001, Ardekani et al. 2003, Foong et al. 2000, Friedman et al. 2008, 
+Knochel et al. 2012, Rotarska-Jagiela et al. 2008). In the present study, a more 
+comprehensive examination of further diffusion parameters was performed investigating 
+Trace, Mode, Axial and Radial Diffusivity, allowing for more precise conclusions about the 
+microstructural sources of WM disruptions. Interestingly, decreased FA values in patients 
+with lifetime-hallucinations were accompanied by increased Radial measures, while Axial 
+Diffusivity was not different between groups. The combination of decreased FA, increased 
+Radial and unchanged Axial Diffusivity has been observed in many DTI studies (Abdul-
+Rahman et al. 2011, Seal et al. 2008, Whitford et al. 2010). FA reductions occur generally in 
+response to myelin disruption, axonal loss, decreased fibre diameter or reduced fibre 
+coherence (Beaulieu 2002, Cercignani and Horsfield 2001). In order to distinguish between 
+these pathomechanisms, Radial Diffusivity has been introduced as a putative measure of 
+myelination while Axial Diffusivity enables conclusions to be drawn about changes of the 
+axonal membrane (Song et al. 2003, Song et al. 2002). Bearing in mind that diminished 
+anisotropy in the context of increased Radial has been proposed to concur with 
+demyelination and has been observed in SZ (Harsan et al. 2006, Levitt et al. 2012, Naismith 
+et al. 2010, Song et al. 2005, Whitford et al. 2010), our findings may indicate myelin 
+abnormalities in the interhemispheric auditory pathway of SZ patients with lifetime-
+hallucinations. The proposed hypothesis of demyelination in SZ (Davis et al. 2003) has been 
+supported by findings of abnormal or reduced oligodendrocytes in SZ (Flynn et al. 2003, 
+Wigand et al.
+Page 11
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Hof et al. 2002, Hof et al. 2003, Uranova et al. 2007, Vostrikov et al. 2007), which represent 
+that exact type of neuroglia responsible for creating the myelin sheath. Several studies also 
+reported striking similarities between the disease patterns of schizophrenia and symptoms of 
+demyelinating diseases such as metachromatic leukodystrophy (Black et al. 2003, Finelli 
+1985, Hyde et al. 1992). Furthermore, gene expression analyses suggest an associated down-
+regulation of oligodendroglial myelin-related genes in SZ (Aston et al. 2004, Hakak et al. 
+2001, Haroutunian et al. 2007, McCullumsmith et al. 2007, Prabakaran et al. 2004, Roussos 
+and Haroutunian 2014, Tkachev et al. 2003).
+Additionally, our finding of decreased Mode in patients with lifetime-hallucinations 
+describes a rather oblate-shaped diffusion, i.e. the size of the second eigenvalue is close to 
+the first. Mode is independent of differences in FA has been found to decrease in the 
+presence of fibre crossings (Douaud et al. 2007, Kindlmann et al. 2007). Its decline in the 
+midsagittal section of the auditory pathway might be again explained by a potential loss of 
+overall directionality in the investigated fibre tract. Since the major influence of callosal 
+fibre bundles on the diffusion tensor might shrink in the course of neurodegenerative 
+processes, diffusion in adjacent fibre tracts might interfere to a greater extent than usual, 
+thus leading to the impression that the density of fibre crossings has risen. Although the 
+midsagittal callosal slice represents an area where fibre crossings should at least in theory be 
+absent, marginal voxels may cover adjacent WM tracts with orthogonal direction (e.g. the 
+cingulum) whose directionality has stronger effects on the tensor when interhemispheric 
+diffusion is hindered. Another possible explanation is that increased Radial and thus a 
+greater second and third eigenvalue lead to a decrease of Mode. To test this consideration, 
+we ran a post-hoc correlation analysis between Mode and Radial in all subjects and found 
+indeed a highly significant negative association (Spearman’s rho = −.537, p < .001).
+In a synoptic view of our study and preceding findings concerning interhemispheric auditory 
+connectivity in SZ, we suggest that AVHs in schizophrenia are associated with 
+microstructural alterations in the interhemispheric auditory pathway. These changes are still 
+observable in chronic patients who are not necessarily hallucinating at the time of data 
+acquisition. Alterations were found especially in the midsagittal section of the fibre bundle 
+in patients that had experienced AVH in their lifetime when compared to N-LT-AVH and 
+HC. Our findings of reduced FA and increased Radial indicate that abnormal transcallosal 
+auditory connectivity in LT-AVH point to potential impairments in myelin sheaths.
+Due to the cross-sectional design of our study we are not able to conclusively clarify the 
+question whether structural differences between groups lead to patients’ propensity for 
+hallucinations or if their psychopathology may in turn cause alterations in brain connectivity 
+within the context of neural plasticity. Dynamic modifications in cerebral connections take 
+place throughout adulthood in response to varied afferent input (Pascual-Leone et al. 2005) 
+and as well as structural alterations may contribute to patients’ symptomatology it is also 
+imaginable that the experience of symptoms may shape their cerebral microstructure. This 
+question cannot be answered with our data, therefore, longitudinal studies including 
+individuals at high risk for SZ are required in order to satisfactorily address this issue.
+Wigand et al.
+Page 12
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+A limitation of the present study is the small group size of patients without lifetime 
+hallucinations. We addressed this deficiency via the application of non-parametric analyses 
+confirming our findings; nevertheless, replication with increased and more homogeneous 
+group sizes would be desirable. Furthermore, the two patient groups differed in the negative 
+and total PANSS scores, which might have a relevant effect on our results. Post-hoc 
+analyses of covariance with PANSS scores as additional covariates confirmed group 
+differences for diffusion parameters while PANSS scores had no significant effect on any of 
+the measurements but the possibility of an influential effect cannot be entirely excluded.
+After antipsychotic treatment has been shown to be associated with brain volume reductions 
+(Bartzokis et al. 2009, Christensen et al. 2004, Konopaske et al. 2008, Lieberman et al. 
+2005, Wang et al. 2004) its influence on structural connectivity has been subject of a recent 
+DTI study reporting FA reductions after 12 weeks of medication (Szeszko et al. 2014). 
+However, authors could not exclude the possibility of disease progression that may account 
+for their findings as well. While a long-term effect of psychotropic drugs on cerebral 
+structures in our patient sample is quite imaginable their current medication does not seem 
+to determine the group difference between N-LT-AVH and LT-AVH. The two groups did 
+not differ significantly with regard to CPZ equivalents and the group difference remained 
+significant when medication was included as a covariate. Moreover, FA changes have also 
+been shown in unmedicated patients (Buchsbaum et al. 1998, Cheung et al. 2011, Gasparotti 
+et al. 2009, Liu et al. 2013). Nevertheless, we are not able to fully distinguish the potential 
+confounding influences of antipsychotic treatment on the observed group differences. The 
+same applies to the lifetime history of substance abuse in SZ patients. While none of the 
+participants took psychoactive substances during the past six months before data acquisition 
+and none had a lifetime dependency, four N-LT-AVH and seven LT-AVH patients had 
+taken substances in their past history. Longitudinal studies would be helpful to clarify these 
+issues.
+5. Conclusion
+In summary, the present DTI study investigated WM alterations within the interhemispheric 
+auditory pathway in chronic Schizophrenia patients and healthy controls, and detected a 
+decrease of FA in patients with a history of AVHs. These findings were accompanied by 
+increased Radial Diffusivity as well as decreased Mode, while patients without a history of 
+hallucinations showed similar values to healthy control subjects. These results indicate that 
+the interhemispheric auditory pathway may represent a WM structure participating in the 
+pathogenesis of AVHs and that microstructural processes in LT-AVH, namely 
+demyelination, may be responsible for the observed group differences.
+Acknowledgments
+We thank all subjects for their participation in the study. This work is part of Marlene Wigand’s doctorate thesis 
+(Dr. med.).
+This work was supported, in part, by grants from the Deutsche Forschungsgemeinschaft (DFG SFB 936 to CM, 
+GL); National Institutes of Health (P50 MH 080272 to MES; R01 MH082918 to SB); Veterans Affairs Merit 
+Award to MES; Veterans Affairs Schizophrenia Center Grant to MES; NARSAD Distinguished Investigator Award 
+to MES.
+Wigand et al.
+Page 13
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+References
+Abdul-Rahman MF, Qiu A, Sim K. Regionally specific white matter disruptions of fornix and 
+cingulum in schizophrenia. PLoS One. 2011; 6(4):e18652. [PubMed: 21533181] 
+Aboitiz F, Scheibel AB, Fisher RS, Zaidel E. Fiber composition of the human corpus callosum. Brain 
+Res. 1992a; 598(1–2):143–53. [PubMed: 1486477] 
+Aboitiz F, Scheibel AB, Zaidel E. Morphometry of the Sylvian fissure and the corpus callosum, with 
+emphasis on sex differences. Brain. 1992b; 115(Pt 5):1521–41. [PubMed: 1422802] 
+Agartz I, Andersson JL, Skare S. Abnormal brain white matter in schizophrenia: a diffusion tensor 
+imaging study. Neuroreport. 2001; 12(10):2251–4. [PubMed: 11447344] 
+Alexander AL, Hasan K, Kindlmann G, Parker DL, Tsuruda JS. A geometric analysis of diffusion 
+tensor measurements of the human brain. Magn Reson Med. 2000; 44(2):283–91. [PubMed: 
+10918328] 
+Alexander AL, Lee JE, Lazar M, Field AS. Diffusion tensor imaging of the brain. Neurotherapeutics. 
+2007; 4(3):316–29. [PubMed: 17599699] 
+Andreasen NC, O’Leary DS, Flaum M, Nopoulos P, Watkins GL, Boles Ponto LL, et al. 
+Hypofrontality in schizophrenia: distributed dysfunctional circuits in neuroleptic-naive patients. 
+Lancet. 1997; 349(9067):1730–4. [PubMed: 9193383] 
+Ardekani BA, Nierenberg J, Hoptman MJ, Javitt DC, Lim KO. MRI study of white matter diffusion 
+anisotropy in schizophrenia. Neuroreport. 2003; 14(16):2025–9. [PubMed: 14600491] 
+Aston C, Jiang L, Sokolov BP. Microarray analysis of postmortem temporal cortex from patients with 
+schizophrenia. J Neurosci Res. 2004; 77(6):858–66. [PubMed: 15334603] 
+Bamiou DE, Sisodiya S, Musiek FE, Luxon LM. The role of the interhemispheric pathway in hearing. 
+Brain Res Rev. 2007; 56(1):170–82. [PubMed: 17706787] 
+Bartzokis G, Lu PH, Stewart SB, Oluwadara B, Lucas AJ, Pantages J, et al. In vivo evidence of 
+differential impact of typical and atypical antipsychotics on intracortical myelin in adults with 
+schizophrenia. Schizophr Res. 2009; 113(2–3):322–31. [PubMed: 19616412] 
+Basser PJ, Mattiello J, Le Bihan D. MR diffusion tensor spectroscopy and imaging. Biophys J. 1994; 
+66:259–67. [PubMed: 8130344] 
+Basser PJ, Pierpaoli C. Microstructural and physiological features of tissues elucidated by quantitative-
+diffusion-tensor MRI. J Magn Reson B. 1996; 111(3):209–19. [PubMed: 8661285] 
+Beaulieu C. The basis of anisotropic water diffusion in the nervous system - a technical review. NMR 
+Biomed. 2002; 15(7–8):435–55. [PubMed: 12489094] 
+Benjamini Y, Hochberg Y. Controlling the false discovery rate - A practical and powerful approach to 
+multiple testing. J R Stat Soc B Met. 1995; 57(1):289–300.
+Black DN, Taber KH, Hurley RA. Metachromatic leukodystrophy: a model for the study of psychosis. 
+J Neuropsychiatry Clin Neurosci. 2003; 15(3):289–93. [PubMed: 12928504] 
+Buchsbaum MS, Friedman J, Buchsbaum BR, Chu KW, Hazlett EA, Newmark R, et al. Diffusion 
+tensor imaging in schizophrenia. Biol Psychiatry. 2006; 60(11):1181–7. [PubMed: 16893533] 
+Buchsbaum MS, Tang CY, Peled S, Gudbjartsson H, Lu D, Hazlett EA, et al. MRI white matter 
+diffusion anisotropy and PET metabolic rate in schizophrenia. Neuroreport. 1998; 9(3):425–30. 
+[PubMed: 9512384] 
+Budde MD, Xie M, Cross AH, Song SK. Axial diffusivity is the primary correlate of axonal injury in 
+the experimental autoimmune encephalomyelitis spinal cord: a quantitative pixelwise analysis. J 
+Neusci. 2009; 29(9):2805–13.
+Bullmore ET, Frangou S, Murray RM. The dysplastic net hypothesis: an integration of developmental 
+and dysconnectivity theories of schizophrenia. Schizophr Res. 1997; 28(2–3):143–56. [PubMed: 
+9468349] 
+Cercignani M, Horsfield MA. The physical basis of diffusion-weighted MRI. J Neurol Sci. 2001; 
+186(Suppl 1):S11–4. [PubMed: 11334985] 
+Cheung V, Chiu CP, Law CW, Cheung C, Hui CL, et al. Positive symptoms and white matter 
+microstructure in never-medicated first episode schizophrenia. Psychol Med. 2011; 41(8):1709–
+19. [PubMed: 20809999] 
+Wigand et al.
+Page 14
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Christensen J, Holcomb J, Garver DL. State-related changes in cerebral white matter may underlie 
+psychosis exacerbation. Psychiatry Res. 2004; 130(1):71–8. [PubMed: 14972369] 
+Clemm von Hohenberg C, Wigand MC, Kubicki M, Leicht G, Giegling I, Karch S, et al. CNTNAP2 
+polymorphisms and structural brain connectivity: a diffusion-tensor imaging study. J Psychiatr 
+Res. 2013; 47(10):1349–56. [PubMed: 23871450] 
+Conturo TE, Lori NF, Cull TS, Akbudak E, Snyder AZ, Shimony JS, et al. Tracking neuronal fiber 
+pathways in the living human brain. Proc Natl Acad Sci U S A. 1999; 96(18):10422–7. [PubMed: 
+10468624] 
+Davis KL, Stewart DG, Friedman JI, Buchsbaum M, Harvey PD, Hof PR, et al. White matter changes 
+in schizophrenia: evidence for myelin-related dysfunction. Arch Gen Psychiatry. 2003; 60(5):443–
+56. [PubMed: 12742865] 
+Dierks T, Linden DE, Jandl M, Formisano E, Goebel R, Lanfermann H, et al. Activation of Heschl’s 
+gyrus during auditory hallucinations. Neuron. 1999; 22(3):615–21. [PubMed: 10197540] 
+Douaud G, Smith S, Jenkinson M, Behrens T, Johansen-Berg H, Vickers J, et al. Anatomically related 
+grey and white matter abnormalities in adolescent-onset schizophrenia. Brain. 2007; 130(Pt 9):
+2375–86. [PubMed: 17698497] 
+Dougherty RF, Ben-Shachar M, Deutsch GK, Hernandez A, Fox GR, Wandell BA. Temporal-callosal 
+pathway diffusivity predicts phonological skills in children. Proc Natl Acad Sci U S A. 2007; 
+104(20):8556–61. [PubMed: 17483487] 
+Ennis DB, Kindlmann G. Orthogonal tensor invariants and the analysis of diffusion tensor magnetic 
+resonance images. Magn Reson Med. 2006; 55(1):136–46. [PubMed: 16342267] 
+Finelli PF. Metachromatic leukodystrophy manifesting as a schizophrenic disorder: computed 
+tomographic correlation. Ann Neurol. 1985; 18(1):94–5. [PubMed: 4037756] 
+First MB, Frances AJ, Pincus HA, Vettorello N, Davis WW. DSM-IV in progress. Changes in 
+substance-related, schizophrenic, and other primarily adult disorders. Hosp Community 
+Psychiatry. 1994; 45(1):18–20. [PubMed: 8125454] 
+Fitzsimmons J, Kubicki M, Shenton ME. Review of functional and anatomical brain connectivity 
+findings in schizophrenia. Curr Opin Psychiatry. 2013; 26(2):172–87. [PubMed: 23324948] 
+Flynn SW, Lang DJ, Mackay AL, Goghari V, Vavasour IM, Whittall KP, et al. Abnormalities of 
+myelination in schizophrenia detected in vivo with MRI, and postmortem with analysis of 
+oligodendrocyte proteins. Mol Psychiatry. 2003; 8(9):811–20. [PubMed: 12931208] 
+Folstein MF, Folstein SE, McHugh PR. “Mini-mental state”. A practical method for grading the 
+cognitive state of patients for the clinician. J Psychiatr Res. 1975; 12(3):189–98. [PubMed: 
+1202204] 
+Foong J, Maier M, Clark CA, Barker GJ, Miller DH, Ron MA. Neuropathological abnormalities of the 
+corpus callosum in schizophrenia: a diffusion tensor imaging study. J Neurol Neurosurg 
+Psychiatry. 2000; 68(2):242–4. [PubMed: 10644799] 
+Friederici AD, von Cramon DY, Kotz SA. Role of the corpus callosum in speech comprehension: 
+interfacing syntax and prosody. Neuron. 2007; 53(1):135–45. [PubMed: 17196536] 
+Friedman JI, Tang C, Carpenter D, Buchsbaum M, Schmeidler J, Flanagan L, et al. Diffusion tensor 
+imaging findings in first-episode and chronic schizophrenia patients. Am J Psychiatry. 2008; 
+165(8):1024–32. [PubMed: 18558643] 
+Friston KJ. Dysfunctional connectivity in schizophrenia. World Psychiatry. 2002; 1(2):66–71. 
+[PubMed: 16946855] 
+Frith C, Dolan R. The role of the prefrontal cortex in higher cognitive functions. Brain Res Cogn Brain 
+Res. 1996; 5(1–2):175–81. [PubMed: 9049084] 
+Frith CD. The cognitive abnormalities underlying the symptomatology and the disability of patients 
+with schizophrenia. Int Clin Psychopharmacol. 1995; 10(Suppl 3):87–98. [PubMed: 8866770] 
+Frith, CD.; Johnstone, EC. Schizophrenia: A Very Short Introduction. Oxford: Oxford University 
+Press; 2003. p. 1
+Gasparotti R1, Valsecchi P, Carletti F, Galluzzo A, Liserre R, Cesana B, et al. Reduced fractional 
+anisotropy of corpus callosum in first-contact, antipsychotic drug-naive patients with 
+schizophrenia. Schizophr Res. 2009; 108(1–3):41–8. [PubMed: 19103476] 
+Wigand et al.
+Page 15
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Gavrilescu M, Rossell S, Stuart GW, Shea TL, Innes-Brown H, Henshall K, et al. Reduced 
+connectivity of the auditory cortex in patients with auditory hallucinations: a resting state 
+functional magnetic resonance imaging study. Psychol Med. 2010; 40(7):1149–58. [PubMed: 
+19891811] 
+Hakak Y, Walker JR, Li C, Wong WH, Davis KL, Buxbaum JD, et al. Genome-wide expression 
+analysis reveals dysregulation of myelination-related genes in chronic schizophrenia. Proc Natl 
+Acad Sci U S A. 2001; 98(8):4746–51. [PubMed: 11296301] 
+Haroutunian V, Katsel P, Dracheva S, Stewart DG, Davis KL. Variations in oligodendrocyte-related 
+gene expression across multiple cortical regions: implications for the pathophysiology of 
+schizophrenia. Int J Neuropsychopharmacol. 2007; 10(4):565–73. [PubMed: 17291370] 
+Harsan LA, Poulet P, Guignard B, Steibel J, Parizel N, de Sousa PL, et al. Brain dysmyelination and 
+recovery assessment by noninvasive in vivo diffusion tensor magnetic resonance imaging. J 
+Neurosci Res. 2006; 83(3):392–402. [PubMed: 16397901] 
+Henshall KR, Sergejew AA, McKay CM, Rance G, Shea TL, Hayden MJ, et al. Interhemispheric 
+transfer time in patients with auditory hallucinations: an auditory event-related potential study. Int 
+J Psychophysiol. 2012; 84(2):130–9. [PubMed: 22342240] 
+Hof PR, Haroutunian V, Copland C, Davis KL, Buxbaum JD. Molecular and cellular evidence for an 
+oligodendrocyte abnormality in schizophrenia. Neurochem Res. 2002; 27(10):1193–200. 
+[PubMed: 12462417] 
+Hof PR, Haroutunian V, Friedrich VL Jr, Byne W, Buitron C, Perl DP, et al. Loss and altered spatial 
+distribution of oligodendrocytes in the superior frontal gyrus in schizophrenia. Biol Psychiatry. 
+2003; 53(12):1075–85. [PubMed: 12814859] 
+Hofer S, Frahm J. Topography of the human corpus callosum revisited - comprehensive fiber 
+tractography using diffusion tensor magnetic resonance imaging. Neuroimage. 2006; 32(3):989–
+94. [PubMed: 16854598] 
+Hubl D, Koenig T, Strik W, Federspiel A, Kreis R, Boesch C, et al. Pathways that make voices: white 
+matter changes in auditory hallucinations. Arch Gen Psychiatry. 2004; 61(7):658–68. [PubMed: 
+15237078] 
+Hugdahl K, Carlsson G, Uvebrant P, Lundervold AJ. Dichotic-listening performance and intracarotid 
+injections of amobarbital in children and adolescents. Preoperative and postoperative comparisons. 
+Arch Neurol. 1997; 54(12):1494–500. [PubMed: 9400358] 
+Hyde TM, Ziegler JC, Weinberger DR. Psychiatric disturbances in metachromatic leukodystrophy. 
+Insights into the neurobiology of psychosis. Arch Neurol. 1992; 49(4):401–6. [PubMed: 1532712] 
+Kay SR, Fiszbein A, Opler LA. The positive and negative syndrome scale (PANSS) for schizophrenia. 
+Schizophr Bull. 1987; 13(2):261–76. [PubMed: 3616518] 
+Kindlmann G, Ennis DB, Whitaker RT, Westin CF. Diffusion tensor analysis with invariant gradients 
+and rotation tangents. IEEE Trans Med Imaging. 2007; 26(11):1483–99. [PubMed: 18041264] 
+Knochel C, Oertel-Knochel V, Schonmeyer R, Rotarska-Jagiela A, van de Ven V, Prvulovic D, et al. 
+Interhemispheric hypoconnectivity in schizophrenia: fiber integrity and volume differences of the 
+corpus callosum in patients and unaffected relatives. Neuroimage. 2012; 59(2):926–34. [PubMed: 
+21964509] 
+Konopaske GT, Dorph-Petersen KA, Sweet RA, Pierri JN, Zhang W, Sampson AR, et al. Effect of 
+chronic antipsychotic exposure on astrocyte and oligodendrocyte numbers in macaque monkeys. 
+Biol Psychiatry. 2008; 63(8):759–65. [PubMed: 17945195] 
+Kubicki M, McCarley R, Westin CF, Park HJ, Maier S, Kikinis R, et al. A review of diffusion tensor 
+imaging studies in schizophrenia. J Psychiatr Res. 2007; 41(1–2):15–30. [PubMed: 16023676] 
+Lee CC, Winer JA. Connections of cat auditory cortex: II. Commissural system. J Comp Neurol. 2008; 
+507(6):1901–19. [PubMed: 18271027] 
+Levitt JJ, Alvarado JL, Nestor PG, Rosow L, Pelavin PE, McCarley, et al. Fractional anisotropy and 
+radial diffusivity: diffusion measures of white matter abnormalities in the anterior limb of the 
+internal capsule in schizophrenia. Schizophr Res. 2012; 136(1–3):55–62. [PubMed: 22019073] 
+Lieberman JA, Tollefson GD, Charles C, Zipursky R, Sharma T, Kahn RS, et al. Antipsychotic drug 
+effects on brain morphology in first-episode psychosis. Arch Gen Psychiatry. 2005; 62(4):361–70. 
+[PubMed: 15809403] 
+Wigand et al.
+Page 16
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Liu D, Fan X, Wang Y, Yang Z, Zhuo K, Song Z, et al. Deficient inhibition of return in chronic but not 
+first-episode patients with schizophrenia. Prog Neuropsychopharmacol Biol Psychiatry. 2010; 
+34(6):961–7. [PubMed: 20460142] 
+Liu X, Lai Y, Wang X, Hao C, Chen L, Zhou Z, et al. Reduced white matter integrity and cognitive 
+deficit in never-medicated chronic schizophrenia: a diffusion tensor study using TBSS. Behav 
+Brain Res. 2013; 252:157–63. [PubMed: 23747517] 
+McCullumsmith RE, Gupta D, Beneyto M, Kreger E, Haroutunian V, Davis KL, et al. Expression of 
+transcripts for myelination-related genes in the anterior cingulate cortex in schizophrenia. 
+Schizophr Res. 2007; 90(1–3):15–27. [PubMed: 17223013] 
+McGuire PK, Frith CD. Disordered functional connectivity in schizophrenia. Psychol Med. 1996; 
+26(4):663–7. [PubMed: 8817700] 
+McKay CM, Headlam DM, Copolov DL. Central auditory processing in patients with auditory 
+hallucinations. Am J Psychiatry. 2000; 157(5):759–66. [PubMed: 10784469] 
+Möller, HJ.; Müller, WE.; Volz, HP. Ein Leitfaden für Klinik und Praxis. Stuttgart: Kohlhammer; 
+2000. Psychopharmakotherapie; p. 580
+Mori, S. Introduction to Diffusion Tensor Imaging. Oxford: Elsevier; 2007. p. 99
+Mori S, Crain BJ, Chacko VP, van Zijl PC. Three-dimensional tracking of axonal projections in the 
+brain by magnetic resonance imaging. Ann Neurol. 1999; 45(2):265–9. [PubMed: 9989633] 
+Mori T, Ohnishi T, Hashimoto R, Nemoto K, Moriguchi Y, Noguchi H, et al. Progressive changes of 
+white matter integrity in schizophrenia revealed by diffusion tensor imaging. Psychiatry Res. 
+2007; 154(2):133–45. [PubMed: 17276660] 
+Mulert C, Kirsch V, Pascual-Marqui R, McCarley RW, Spencer KM. Long-range synchrony of gamma 
+oscillations and auditory hallucination symptoms in schizophrenia. Int J Psychophysiol. 2011; 
+79(1):55–63. [PubMed: 20713096] 
+Mulert C, Kirsch V, Whitford TJ, Alvarado J, Pelavin P, McCarley RW, et al. Hearing voices: A role 
+of interhemispheric auditory connectivity? World J Biol Psychiatry. 2012; 13(2):153–8. [PubMed: 
+21623667] 
+Naismith RT, Xu J, Tutlam NT, Scully PT, Trinkaus K, Snyder AZ, et al. Increased diffusivity in acute 
+multiple sclerosis lesions predicts risk of black hole. Neurology. 2010; 74(21):1694–701. 
+[PubMed: 20498437] 
+Oh JS, Song IC, Lee JS, Kang H, Park KS, Kang E, et al. Tractography-guided statistics (TGIS) in 
+diffusion tensor imaging for the detection of gender difference of fiber integrity in the midsagittal 
+and parasagittal corpora callosa. Neuroimage. 2007; 36(3):606–16. [PubMed: 17481923] 
+Pandya, DNSB. The topography of commissural fibers. New York: Alan Liss; 1986. 
+Park HJ, Kim JJ, Lee SK, Seok JH, Chun J, Kim DI, et al. Corpus callosal connection mapping using 
+cortical gray matter parcellation and DT-MRI. Hum Brain Mapp. 2008; 29(5):503–16. [PubMed: 
+17133394] 
+Pascual-Leone A, Amedi A, Fregni F, Merabet LB. The plastic human brain cortex. Annu Rev 
+Neurosci. 2005; 28:377–401. [PubMed: 16022601] 
+Peled S, Gudbiartsson H, Westin CF, Kikinis R, Jolesz FA. Magnetic resonance imaging shows 
+orientation and asymmetry of white matter fiber tracts. Brain Res. 1998; 780:27–33. [PubMed: 
+9473573] 
+Prabakaran S, Swatton JE, Ryan MM, Huffaker SJ, Huang JT, Griffin JL, et al. Mitochondrial 
+dysfunction in schizophrenia: evidence for compromised brain metabolism and oxidative stress. 
+Mol Psychiatry. 2004; 9(7):684–97. 643. [PubMed: 15098003] 
+Rice JP, Reich T, Bucholz KK, Neuman RJ, Fishman R, Rochberg N, et al. Comparison of direct 
+interview and family history diagnoses of alcohol dependence. Alcohol Clin Exp Res. 1995; 19(4):
+1018–23. [PubMed: 7485811] 
+Rotarska-Jagiela A, Oertel-Knoechel V, DeMartino F, van de Ven V, Formisano E, Roebroeck A, et 
+al. Anatomical brain connectivity and positive symptoms of schizophrenia: a diffusion tensor 
+imaging study. Psychiatry Res. 2009; 174(1):9–16. [PubMed: 19767179] 
+Rotarska-Jagiela A, Schonmeyer R, Oertel V, Haenschel C, Vogeley K, Linden DE. The corpus 
+callosum in schizophrenia-volume and connectivity changes affect specific regions. Neuroimage. 
+2008; 39(4):1522–32. [PubMed: 18096406] 
+Wigand et al.
+Page 17
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Roussos P, Haroutunian V. Schizophrenia: susceptibility genes and oligodendroglial and myelin 
+related abnormalities. Front Cell Neurosci. 2014; 8:5. eCollection. [PubMed: 24478629] 
+Schneider K. Primary & secondary symptoms in schizophrenia. Fortschr Neurol Psychiatr. 1957; 
+25(9):487–90. [PubMed: 13474067] 
+Seal ML, Yucel M, Fornito A, Wood SJ, Harrison BJ, Walterfang M, et al. Abnormal white matter 
+microstructure in schizophrenia: a voxelwise analysis of axial and radial diffusivity. Schizophr 
+Res. 2008; 101(1–3):106–10. [PubMed: 18262770] 
+Shenton ME, Dickey CC, Frumin M, McCarley RW. A review of MRI findings in schizophrenia. 
+Schizophr Res. 2001; 49(1–2):1–52. [PubMed: 11343862] 
+Shergill SS, Brammer MJ, Williams SC, Murray RM, McGuire PK. Mapping auditory hallucinations 
+in schizophrenia using functional magnetic resonance imaging. Arch Gen Psychiatry. 2000a; 
+57(11):1033–8. [PubMed: 11074868] 
+Shergill SS, Bullmore E, Simmons A, Murray R, McGuire P. Functional anatomy of auditory verbal 
+imagery in schizophrenic patients with auditory hallucinations. Am J Psychiatry. 2000b; 157(10):
+1691–3. [PubMed: 11007729] 
+Shergill SS, Kanaan RA, Chitnis XA, O’Daly O, Jones DK, Frangou S, et al. A diffusion tensor 
+imaging study of fasciculi in schizophrenia. Am J Psychiatry. 2007; 164(3):467–73. [PubMed: 
+17329472] 
+Sigmundsson T, Suckling J, Maier M, Williams S, Bullmore E, Greenwood K, et al. Structural 
+abnormalities in frontal, temporal, and limbic regions and interconnecting white matter tracts in 
+schizophrenic patients with prominent negative symptoms. Am J Psychiatry. 2001; 158(2):234–43. 
+[PubMed: 11156806] 
+Song SK, Sun SW, Ju WK, Lin SJ, Cross AH, Neufeld AH. Diffusion tensor imaging detects and 
+differentiates axon and myelin degeneration in mouse optic nerve after retinal ischemia. 
+Neuroimage. 2003; 20(3):1714–22. [PubMed: 14642481] 
+Song SK, Sun SW, Ramsbottom MJ, Chang C, Russell J, Cross AH. Dysmyelination revealed through 
+MRI as increased radial (but unchanged axial) diffusion of water. Neuroimage. 2002; 17(3):1429–
+36. [PubMed: 12414282] 
+Song SK, Yoshino J, Le TQ, Lin SJ, Sun SW, Cross AH, et al. Demyelination increases radial 
+diffusivity in corpus callosum of mouse brain. Neuroimage. 2005; 26(1):132–40. [PubMed: 
+15862213] 
+Spence SA, Brooks DJ, Hirsch SR, Liddle PF, Meehan J, Grasby PM. A PET study of voluntary 
+movement in schizophrenic patients experiencing passivity phenomena (delusions of alien 
+control). Brain. 1997; 120(Pt 11):1997–2011. [PubMed: 9397017] 
+Spitzer RL, Williams JB, Gibbon M, First MB. The Structured Clinical Interview for DSM-III-R 
+(SCID). I: History, rationale, and description. Arch Gen Psychiatry. 1992; 49(8):624–9. [PubMed: 
+1637252] 
+Steinmann S, Leicht G, Mulert C. Interhemispheric auditory connectivity: structure and function 
+related to auditory verbal hallucinations. Front Hum Neurosci. 2014; 8:55. eCollection 2014. 
+[PubMed: 24574995] 
+Szeszko PR, Robinson DG, Ikuta T, Peters BD, Gallego JA, et al. White Matter Changes Associated 
+with Antipsychotic Treatment in First-Episode Psychosis. Neuropsychopharmacology. 2014 Epub 
+ahead of print. 10.1038/npp.2013.288
+Tkachev D, Mimmack ML, Ryan MM, Wayland M, Freeman T, Jones PB, et al. Oligodendrocyte 
+dysfunction in schizophrenia and bipolar disorder. Lancet. 2003; 362(9386):798–805. [PubMed: 
+13678875] 
+Tyszka JM, Readhead C, Bearer EL, Pautler RG, Jacobs RE. Statistical diffusion tensor histology 
+reveals regional dysmyelination effects in the shiverer mouse mutant. Neuroimage. 2006; 29(4):
+1058–65. [PubMed: 16213163] 
+Uranova NA, Vostrikov VM, Vikhreva OV, Zimina IS, Kolomeets NS, Orlovskaya DD. The role of 
+oligodendrocyte pathology in schizophrenia. Int J Neuropsychopharmacol. 2007; 10(4):537–45. 
+[PubMed: 17313698] 
+Wigand et al.
+Page 18
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Vandermosten M, Poelmans H, Sunaert S, Ghesquière P, Wouters J. White matter lateralization and 
+interhemispheric coherence to auditory modulations in normal reading and dyslexic adults. 
+Neuropsychologia. 2013; 51(11):2087–99. [PubMed: 23872049] 
+van de Ven VG, Formisano E, Roder CH, Prvulovic D, Bittner RA, Dietz MG, et al. The 
+spatiotemporal pattern of auditory cortical responses during verbal hallucinations. Neuroimage. 
+2005; 27(3):644–55. [PubMed: 15978843] 
+Vostrikov VM, Uranova NA, Orlovskaya DD. Deficit of perineuronal oligodendrocytes in the 
+prefrontal cortex in schizophrenia and mood disorders. Schizophr Res. 2007; 94(1–3):273–80. 
+[PubMed: 17566708] 
+Wang HD, Dunnavant FD, Jarman T, Deutch AY. Effects of antipsychotic drugs on neurogenesis in 
+the forebrain of the adult rat. Neuropsychopharmacology. 2004; 29(7):1230–8. [PubMed: 
+15085089] 
+Westerhausen R, Gruner R, Specht K, Hugdahl K. Functional relevance of interindividual differences 
+in temporal lobe callosal pathways: a DTI tractography study. Cereb Cortex. 2009; 19(6):1322–9. 
+[PubMed: 18842665] 
+Whitford TJ, Kubicki M, Schneiderman JS, O’Donnell LJ, King R, Alvarado JL, et al. Corpus 
+callosum abnormalities and their association with psychotic symptoms in patients with 
+schizophrenia. Biol Psychiatry. 2010; 68(1):70–7. [PubMed: 20494336] 
+Williams JB, Gibbon M, First MB, Spitzer RL, Davies M, Borus J, et al. The Structured Clinical 
+Interview for DSM-III-R (SCID). II. Multisite test-retest reliability. Arch Gen Psychiatry. 1992; 
+49(8):630–6. [PubMed: 1637253] 
+Zaidel DW. Memory for scenes in stroke patients. Hemisphere processing of semantic organization in 
+pictures. Brain. 1986; 109(Pt 3):547–60. [PubMed: 3719290] 
+Wigand et al.
+Page 19
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 1. The interhemispheric auditory pathway
+The orange fibres illustrate the interhemispheric auditory pathway while the blue fibres 
+result from tractography of the entire CC. The midsagittal ROI (in blue) and coronal ROIs 
+(in green) are depicted within the orange box.
+Wigand et al.
+Page 20
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 2. FA (midsagittal)
+Scatterplot illustrating the variations in FA between groups for the midsagittal slice of the 
+interhemispheric auditory pathway. Significant difference between all groups (ANOVA; p 
+= .019) and significantly diminished FA values in (LT)AVH compared to N(LT)AVH (t-
+test; p = .029) and to HC (t-test; p = .027).
+HC: healthy control subjects; N(LT)AVH: schizophrenic patients without lifetime-
+hallucinations; (LT)AVH: schizophrenic patients with lifetime-hallucinations; FA: fractional 
+anisotropy.
+The black bars represent FA means and the asterisks represent significant between-group 
+differences.
+Wigand et al.
+Page 21
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 3. Mode (midsagittal)
+Scatterplot illustrating the variations in Mode between groups for the midsagittal slice of the 
+interhemispheric auditory pathway. Significantly diminished Mode values in (LT)AVH 
+compared to N(LT)AVH (t-test; p = .029) and to HC (t-test; p = .001).
+HC: healthy control subjects; N(LT)AVH: schizophrenic patients without lifetime-
+hallucinations; (LT)AVH: schizophrenic patients with lifetime-hallucinations.
+The black bars represent Mode means and the asterisk represents the significant between-
+group difference.
+Wigand et al.
+Page 22
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Figure 4. Radial Diffusivity (midsagittal)
+Scatterplot illustrating the variations in Radial Diffusivity between groups for the 
+midsagittal slice of the interhemispheric auditory pathway. Significantly increased Radial 
+Diffusivity values in (LT)AVH compared to HC (t-test; p = .021) and marginally increased 
+values in (LT)AVH compared to N(LT)AVH (t-test; p = .089).
+HC: healthy control subjects; N(LT)AVH: schizophrenic patients without lifetime-
+hallucinations; (LT)AVH: schizophrenic patients with lifetime-hallucinations.
+The black bars represent Radial means and the asterisk represents the significant between-
+group difference.
+Wigand et al.
+Page 23
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Wigand et al.
+Page 24
+Table 1
+Demographic and clinical details of the participants in this study
+Healthy control 
+participants (n = 33)
+Schizophrenia patients without 
+lifetime hallucinations (n = 9)
+Schizophrenia patients with 
+lifetime hallucinations (n = 24)
+Test statistic
+p-value
+Age (years)
+mean (± SD)
+44.97 (± 11.389)
+39.67 (± 3.391)
+43.50 (± 8.193)
+F(2,63) = 1.092
+.342
+Gender
+n of M/F (percentage)
+24/9 (72.7%/27.3%)
+8/1 (88.9%/11.1%)
+16/8 (66.7%/33.3%)
+Χ2(2) = 1.630
+.443
+Duration of illness (years)
+mean (± SD)
+-
+15.78 (± 4.658)
+16.88 (± 8.274)
+t(31) = −.374
+.711
+number of hospitalizations
+mean (± SD)
+-
+5.11 (± 4.457)
+5.67 (± 4.498)
+t(31) = −.317
+.754
+Education
+median (range)
+10 (4 – 14)
+11 (6 – 14)
+8 (2 – 14)
+H(2) = 2.916
+.233
+Handedness
+n of right/left/either
+30/2/1
+8/1/-
+22/1/1
+Fisher’s exact test
+.861
+Medication type
+n
+-
+one without medication, seven 
+atypical, one typical
+seventeen atypical, two typical, 
+five both
+Medication dose (CPZ equivalents in 
+mg/day)
+mean (± SD)
+-
+147.778 (± 155.063)
+144.167(± 204.321)
+t (31) = .048
+.962
+DSM-IV subtype
+- paranoid (n)
+n
+5
+19
+- disorganized (n)
+n
+3
+4
+- catatonic (n)
+n
+1
+1
+PANSS total score
+median (range)
+36 (30 – 44)
+44 (30 – 85)
+U = 58.0
+.042
+PANSS negative symptoms score
+median (range)
+7 (7 – 14)
+13 (7 – 23)
+U = 58.0
+.038
+PANSS positive symptoms score
+median (range)
+7 (7 – 11)
+9 (7 – 25)
+U = 68.5
+.098
+S.D., standard deviation; M, male; F, female; CPZ, chlorpromazine; PANSS, Positive and Negative Symptoms Score; education level ranging from 1 = no education to 14 = highest level of education 
+according to the German education system (1 = no school education, 2 = special school without graduation, 3 = special school with graduation, 4 = secondary modern school without graduation, 5 = 
+secondary modern school with graduation, 6 = secondary modern school with qualified degree, 7 = middle school without graduation, 8 = middle school with secondary school leaving certificate, 9 = 
+gymnasium without graduation, 10 = gymnasium with graduation, 11 = university of applied sciences without graduation, 12 = university of applied sciences with graduation, 13 = university without 
+academic degree, 14 = university with academic degree); KW, Kruskal Wallis test; MWU, Mann-Whitney-U test.
+Demographic variables were assessed using ANOVA, independent t-tests, chi-square test, Kruskal-Wallis- or Mann-Whitney-U tests as appropriate.
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.
+
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Wigand et al.
+Page 25
+Table 2
+Diffusion measurements (mean ± S.D.; standard deviation) in the three different subgroups and results of the ANOVA and Kruskal Wallis analyses.
+HC (n = 33)
+N-LT-AVH (n = 9)
+LT-AVH (n = 24)
+ANOVA
+Kruskal Wallis
+Interhemispheric Auditory Pathway
+ FA
+.472 (± .034)
+.490 (± .024)
+.463 (± .027)
+F(2,63) = 2.610, p = .081
+H(2) = 4.588, p = .101
+ Trace
+3.005 (± .312)
+2.958 (± .186)
+3.040 (± .253)
+F(2,63) = .303, p = .739
+H(2) = .811, p = .667
+ Mode
+.678 (± .065)
+.708 (± .056)
+.684 (± .053)
+F(2,63) = .865, p = .426
+H(2) = 1.614, p = .446
+ Axial
+1.559 (± .124)
+1.565 (± .072)
+1.567 (± .115)
+F(2,63) = .039, p = .962
+H(2) = .236, p = .888
+ Radial
+.723 (± .097)
+.697 (± .060)
+.737 (± .074)
+F(2,63) = .724, p = .489
+H(2) = 1.908, p = .385
+ number of fibers
+101.15 (± 58.879)
+105.11 (± .69.872)
+113.08 (± .70.506)
+F(2,63) = 1.020, p = .366
+H(2) = .453, p = .797
+Midsagittal section of the Interhemispheric Auditory Pathway
+ FA
+.613 (± .060)
+.641 (± .070)
+.571 (± .080)
+F(2,63) = 4.237, p = .019*
+H(2) = 9.448, p = .009*
+ Trace
+2.802 (± .379)
+2.826 (± .446)
+3.018 (± .372)
+F(2,63) = 2.294, p = .109
+H(2) = 4.838, p = .089
+ Mode
+.885 (± .062)
+.893 (± .045)
+.806 (± .091)
+F(2,63) = 9.602, p < .001*
+H(2) = 12.600, p = .002*
+ Axial
+1.659 (± .152)
+1.713 (± .180)
+1.705 (± .164)
+F(2,63) = .749, p = .477
+H(2) = 1.901, p = .387
+ Radial
+.575 (± .126)
+.560 (± .150)
+.659 (± .142)
+F(2,63) = 3.245, p = .046*
+H(2) = 6.961, p = .031*
+HC, healthy control subjects; N-LT-AVH, schizophrenia patients without a history of auditory verbal hallucinations; LT-AVH, schizophrenia patients with a history of auditory verbal hallucinations.
+World J Biol Psychiatry. Author manuscript; available in PMC 2016 January 04.

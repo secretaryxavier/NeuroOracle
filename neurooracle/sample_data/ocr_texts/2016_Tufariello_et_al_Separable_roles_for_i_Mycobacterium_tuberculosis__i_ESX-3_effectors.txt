@@ -1,0 +1,1438 @@
+Separable roles for Mycobacterium tuberculosis ESX-3
+effectors in iron acquisition and virulence
+JoAnn M. Tufarielloa,b, Jessica R. Chapmanc, Christopher A. Kerantzasa, Ka-Wing Wongd, Catherine Vilchèzea,e,
+Christopher M. Jonesf, Laura E. Colea, Emir Tinaztepeg, Victor Thompsong, David Fenyöh,i, Michael Niederweisf,
+Beatrix Ueberheidec,i, Jennifer A. Philipsg,1,2,3, and William R. Jacobs Jr.a,e,2,3
+aDepartment of Microbiology and Immunology, Albert Einstein College of Medicine, Bronx, NY 10461; bDepartment of Medicine, Albert Einstein College of
+Medicine, Bronx, NY 10461; cOffice of Collaborative Science, New York University School of Medicine, New York, NY 10016; dShanghai Public Health Clinical
+Center, Key Laboratory of Medical Molecular Virology of the Ministry of Education/Health, School of Basic Medical Sciences, Fudan University, Shanghai
+201508, China; eHoward Hughes Medical Institute, Albert Einstein College of Medicine, Bronx, NY 10461; fDepartment of Microbiology, University of
+Alabama at Birmingham, Birmingham, AL 35294; gDivision of Infectious Diseases, Department of Medicine, New York University School of Medicine, New
+York, NY 10016; hLaboratory of Computational Proteomics, Center for Health Informatics and Bioinformatics, New York University School of Medicine, New
+York, NY 10016; and iDepartment of Biochemistry and Molecular Pharmacology, New York University School of Medicine, New York, NY 10016
+Contributed by William R. Jacobs Jr., December 4, 2015 (sent for review September 19, 2015; reviewed by Sarah M. Fortune and Celia W. Goulding)
+Mycobacterium tuberculosis (Mtb) encodes five type VII secretion
+systems (T7SS), designated ESX-1–ESX-5, that are critical for
+growth and pathogenesis. The best characterized is ESX-1, which
+profoundly impacts host cell interactions. In contrast, the ESX-3
+T7SS is implicated in metal homeostasis, but efforts to define its
+function have been limited by an inability to recover deletion mu-
+tants. We overcame this impediment using medium supplemented
+with various iron complexes to recover mutants with deletions
+encompassing select genes within esx-3 or the entire operon.
+The esx-3 mutants were defective in uptake of siderophore-bound
+iron and dramatically accumulated cell-associated mycobactin side-
+rophores. Proteomic analyses of culture filtrate revealed that se-
+cretion of EsxG and EsxH was codependent and that EsxG–EsxH
+also facilitated secretion of several members of the proline-glutamic
+acid (PE) and proline-proline-glutamic acid (PPE) protein families
+(named for conserved PE and PPE N-terminal motifs). Substrates that
+depended on EsxG–EsxH for secretion included PE5, encoded within
+the esx-3 locus, and the evolutionarily related PE15–PPE20 encoded
+outside the esx-3 locus. In vivo characterization of the mutants un-
+expectedly showed that the ESX-3 secretion system plays both iron-
+dependent and -independent roles in Mtb pathogenesis. PE5–PPE4
+was found to be critical for the siderophore-mediated iron-acquisi-
+tion functions of ESX-3. The importance of this iron-acquisition
+function was dependent upon host genotype, suggesting a role
+for ESX-3 secretion in counteracting host defense mechanisms that
+restrict iron availability. Further, we demonstrate that the ESX-3
+T7SS secretes certain effectors that are important for iron uptake
+while additional secreted effectors modulate virulence in an
+iron-independent fashion.
+Mycobacterium tuberculosis | type VII secretion system | ESX-3 |
+mycobactin | siderophore
+B
+acterial secretion systems play roles in pathogenesis, anti-
+genicity, and virulence and are keys to understanding host–
+pathogen interactions (1, 2). Mycobacterium tuberculosis (Mtb),
+the causative agent of tuberculosis (TB), encodes five type VII
+secretion systems (T7SS) within genomic loci referred to as “esx-1”
+through “esx-5” (3). There is considerable interest in understanding
+these secretion systems, because they appear to be central to Mtb
+pathogenesis. ESX-1 has been studied most extensively because
+deletion of a large portion of this coding region is the primary
+attenuating mutation in Mycobacterium bovis-bacillus Calmette–
+Guérin (bacillus Calmette–Guérin), the widely used TB vaccine
+(4–6). In addition to containing the secretion apparatus itself,
+esx-1 encodes several substrates, including a pair of small helical
+proteins belonging to the WXG100 family as well as members of
+the proline-glutamic acid (PE) and proline-proline-glutamic acid
+(PPE) families (named for conserved N-terminal amino acid
+signatures) (7). A large body of data points to the importance of
+ESX-1 in modulating host cell signaling and bacterial trafficking,
+perhaps in large measure because of a membrane-lytic function
+(8, 9). However, the precise mechanisms whereby individual
+substrates contribute to ESX-1 functions are less clear. The less-
+investigated ESX-3 provides an alternate system by which we can
+explore how T7SS contribute to growth and virulence. ESX-3 has
+been thought primarily to play a bacterial intrinsic role in metal
+homeostasis. This notion is based on the observation that the esx-3
+gene cluster (Rv0282–Rv0292) is transcriptionally de-repressed in
+response to iron and zinc starvation and on genetic data pointing
+to a role for ESX-3 in using iron bound to the siderophore
+mycobactin (Mb) in both nonpathogenic mycobacteria and Mtb
+(10–13). Similar to the esx-1 locus, esx-3 also encodes a pair of
+WXG100 family members (EsxG and EsxH) and PE–PPE pro-
+teins (PE5 and PPE4) (3), but their specific functions remain
+largely undefined.
+Emerging data point to additional roles of ESX-3 in virulence
+and modulation of immune responses. Introduction of Mtb esx-3
+into Mycobacterium smegmatis (Msmeg) strains lacking the
+Significance
+Mycobacterium tuberculosis (Mtb) uses type VII secretion systems
+to secrete cognate protein pairs that alter host interactions. Here,
+we address the contributions of the ESX-3 secretion system to
+Mtb growth and pathogenesis through a combination of genet-
+ics, proteomics, and growth studies both in vitro and in vivo.
+ESX-3 is demonstrated to play a critical role in iron acquisition
+through secretion of a pair pf proteins belonging to the PE–PPE
+family (PE5–PPE4). In vivo, the importance of PE5–PPE4 secre-
+tion was found to depend upon host genotype, likely reflect-
+ing a host capacity to restrict iron availability. However,
+secreted effectors EsxG–EsxH play an iron-independent role in
+Mtb virulence. Therefore, ESX-3 secretes multiple effectors that
+target distinct host pathways to influence pathogenesis.
+Author contributions: J.M.T., C.A.K., K.-W.W., C.V., C.M.J., M.N., B.U., J.A.P., and W.R.J.
+designed research; J.M.T., J.R.C., C.A.K., K.-W.W., C.V., C.M.J., L.E.C., E.T., and V.T. per-
+formed research; J.M.T., J.R.C., C.A.K., K.-W.W., C.V., C.M.J., L.E.C., E.T., D.F., M.N., B.U.,
+J.A.P., and W.R.J. analyzed data; and J.M.T., J.R.C., C.A.K., B.U., J.A.P., and W.R.J. wrote
+the paper.
+Reviewers: S.M.F., Harvard School of Public Health; and C.W.G., University of California,
+Irvine.
+The authors declare no conflict of interest.
+1Present address: Division of Infectious Diseases, Department of Medicine, Washington
+University School of Medicine, St. Louis, MO 63110.
+2J.A.P. and W.R.J. contributed equally to this work.
+3To whom correspondence may be addressed. Email: jphilips@dom.wustl.edu or jacobsw@
+hhmi.org.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1523321113/-/DCSupplemental.
+E348–E357
+|
+PNAS
+|
+Published online January 4, 2016
+www.pnas.org/cgi/doi/10.1073/pnas.1523321113
+
+endogenous locus generates altered cytokine responses, and, when
+used as a vaccine, this strain protects against subsequent challenge
+with Mtb (14). EsxG and EsxH form a heterodimer (15) and
+generate prominent CD4 and CD8 T-cell responses in mice and
+humans (16–18). The EsxG–EsxH complex impairs phagosomal
+maturation by interfering with the host endosomal sorting com-
+plex required for transport (ESCRT) (19). Finally, repression of
+the entire esx-3 locus in bacillus Calmette–Guérin impairs bacte-
+rial survival in macrophages (13). Although ESX-3 has been im-
+plicated in both metal homeostasis and virulence, it is not known
+whether these two phenomena are related, and the roles of spe-
+cific effectors are undefined. Investigation of these questions has
+been hampered by the essentiality of ESX-3 in standard laboratory
+medium. Here, we isolated Mtb strains lacking ESX-3 and mu-
+tants deficient in the secreted substrates EsxG, EsxH, and PE5–
+PPE4 by recovering the strains on iron-supplemented media. We
+evaluated the esx-3 region mutants with regard to their iron and
+zinc phenotypes, their ability to produce mycobactin, their ca-
+pacity for siderophore-mediated iron uptake, and their virulence
+in macrophages and in mice. Further, by comparing culture fil-
+trates (CFs) of WT and knockout strains using label-free quanti-
+tative MS, we comprehensively defined ESX-3–secreted factors
+and determined their codependence on EsxG and EsxH. By
+comparing the phenotypic data with the secretome analysis, we
+were able to link secretion of particular substrates to specific ef-
+fector functions. The phenotypic and proteomic analyses point to
+a model in which PE5 and PPE4 are the critical ESX-3 substrates
+involved in metal homeostasis and in counteracting host iron
+restriction, while EsxG and EsxH also play an essential iron-
+independent role in virulence.
+Results
+Hemin and Mb Rescue Growth of Mtb Δesx-3, ΔesxG, ΔesxH, and
+Δpe5–ppe4. Because ESX-3 has been implicated in using Mb-
+bound iron (13), we reasoned that we might be able to recover
+mutants in the esx-3 locus if we used hemin as an alternative iron
+source (20, 21). Because Esx proteins and PE–PPE family
+members are implicated as substrates of T7SS (7, 22), we gen-
+erated strains lacking esxG, esxH, and pe5–ppe4, all of which are
+encoded within esx-3 (Fig. S1 A and G–I, Table S1, and Dataset
+S1), as well as a complete esx-3 deletion (i.e., ΔRv0282–Rv0292)
+(Fig. S1 A–F) and, for comparison of iron phenotypes, a deletion
+mutant of mbtB (Fig. S1J), which codes for a peptide synthase
+required to produce Mb (23) (see SI Materials and Methods for
+details of iron-containing media used to recover mutants). The
+Δesx-3 mutant, ΔesxG, ΔesxH, the double-knockout Δpe5–ppe4,
+and ΔmbtB all grew on medium containing 100 μM hemin, failed
+to grow on unsupplemented medium (Fig. 1 A and B), and were
+rescued with integrating plasmids expressing the relevant genes
+under control of the heat-shock protein 60 (hsp60) promoter
+(Fig. S2A and Table S2) or, for Δesx-3 and ΔmbtB, with a cosmid
+containing the entire esx-3 region or the entire mbt-1 Mb syn-
+thesis locus, respectively (Fig. 1 A and B, Fig. S2A, and Table
+S2). For unclear reasons, Δesx-3, ΔesxH, and Δpe5–ppe4 also
+required Tween 80 to grow on hemin-containing medium, whereas
+ΔesxG and ΔmbtB did not (Fig. 1A).
+Previous work in Msmeg suggested that ESX-3 participates in
+the utilization of iron bound to Mb (13). Therefore, we were
+surprised at the abundant growth of Mtb Δesx-3 when 2 μg/mL
+mycobactin J (MbJ) (a standard concentration used for culturing
+Mycobacterium avium subsp. paratuberculosis) was provided. On
+titrating MbJ, we found that 100-fold more MbJ was needed for
+growth rescue of the esx-3 mutants than for growth rescue of the
+ΔmbtB mutant (Fig. 1B). Similarly, 10-fold more hemin was
+needed to rescue ΔesxH than to rescue ΔmbtB (Fig. 1A and Fig.
+S2B), and most of the mutants were not effectively rescued by
+supplementation with an approximately sixfold excess of ferric
+ammonium citrate (FAC) and a 10-fold excess of zinc sulfate (Fig.
+S2C), compared with standard 7H10 medium. The only exception
+was ΔesxG, which grew with zinc supplementation and was further
+7H9
+mycobactin J [ng/ml]
+0
+2
+20
+200
+hemin[μM]
+0
+100
+Tw 80
+]
+100
+-
++
+-
+H37Rv wt
+ΔmbtB                        
+C
+D
+7H9 + dipyridyl
+A
+B
+Days post-inoculation
+Days post-inoculation
+OD600
+1
+2
+3
+0
+OD600
+1
+2
+3
+0
+0
+5
+10
+15
+0
+10
+20
+30
+Δesx-3                                   
+Δesx-3::esx-3TB
+ΔesxG                                   
+Δpe5-ppe4::pe5-ppe4
+ΔesxG::esxGH
+ΔesxH
+ΔesxH::esxGH
+(mc27850)
+(mc27844)
+(mc27856)
+(mc27845)
+(mc27866)
+(mc27846)
+(mc27867)
+(mc27848)
+(mc27868)
+Δpe5-ppe4
+H37Rv wt
+      Δesx-3                  
+Δesx-3::esx-3TB                                   
+      ΔesxG
+      ΔesxH   
+Δpe5-ppe4   
+      ΔmbtB   
+H37Rv wt
+      Δesx-3                                   
+Δesx-3::esx-3TB                 
+      ΔesxG
+      ΔesxH   
+Δpe5-ppe4
+   
+      ΔmbtB   
+Fig. 1.
+Defined iron sources rescue the essentiality of esx-3 region mutants. (A and B) The indicated Mtb strains H37Rv WT, Δesx-3 (mc27788), Δesx-3::esx-3TB
+(mc27827), ΔesxG (mc27789), ΔesxH (mc27790), Δpe5–ppe4 (mc27792), and ΔmbtB (mc27808) (Fig. S1 and Table S1) were plated on 7H10 medium with or
+without 100 μM hemin and Tween 80 (0.05%) (Tw 80) (A) or with increasing concentrations of MbJ (B). Some late-appearing contamination was present when
+Δpe5–ppe4 was plated on medium containing hemin and Tween 80 in A. (C and D) The indicated strains, which differ from those used in the plating ex-
+periments shown in A and B in that the sacB-hygR cassettes were removed, were grown in 7H9 medium (C) or 7H9 medium supplemented with 100 μM 2,2′-
+dipyridyl (D). Data points represent the mean ± SEM from duplicate cultures.
+Tufariello et al.
+PNAS
+|
+Published online January 4, 2016
+|
+E349
+MICROBIOLOGY
+PNAS PLUS
+
+enhanced by additional FAC after prolonged incubation (Fig. S2
+C and D). Thus, ΔesxH and Δpe5–ppe4 phenocopy Δesx-3, but
+ΔesxG exhibits a somewhat distinct phenotype. In contrast to the
+findings on solid medium, the esx-3 mutants had relatively mild
+growth defects in 7H9 broth unless the lipophilic iron chelator
+2,2′-dipyridyl was included (Fig. 1 C and D), but growth of
+ΔmbtB was severely restricted even in nonchelated medium (Fig.
+1C). In conclusion, the data are consistent with esx-3 playing a
+role in siderophore-mediated iron acquisition, a role that ap-
+pears to be more crucial on solid medium than in liquid medium.
+Furthermore, ESX-3 is nonessential provided that iron is avail-
+able in an accessible form. This result suggests the presence of a
+less efficient uptake system(s) that functions in the absence of
+ESX-3. Finally, the high concentration of hemin required to
+rescue growth of the esx-3 region mutants suggests potential in-
+volvement of ESX-3 in iron uptake from other sources in addition
+to siderophores.
+The esx-3 Mutants Overproduce Mb and Fail to Assimilate Mb-Bound
+Iron. When grown in iron-replete 7H9 broth, the esx-3 region
+mutants developed a distinct orange pigmentation (Fig. S3A),
+which we reasoned might represent excess Mb. To address this
+possibility, bacteria were grown under iron-limited conditions
+(chelated Sauton’s medium) in the presence of 7-[14C]-salicylic
+acid, the biosynthetic precursor of Mb. These experiments used
+esx-3 and mbtB mutants generated in the auxotrophic mc26230
+(H37Rv ΔRD1 ΔpanCD) strain background (Table S1), which
+facilitates work with radiolabeled, infectious samples because it
+can be used at biosafety level 2 (BSL2) (24, 25). When analyzed
+by TLC, only Mb was observed in cell pellets, whereas the CF
+contained both Mb and carboxymycobactin (cMb). ΔmbtB
+showed the expected absence of Mb and cMb (26, 27). In con-
+trast, Δesx-3 produced Mb slightly in excess of the parental
+strain, which was restored to WT levels in the complemented
+strain (Fig. S3B). When cell pellet extracts from Δesx-3, ΔesxG,
+ΔesxH, and Δpe5–ppe4 grown in iron-replete 7H9 medium were
+analyzed by TLC, the orange-pigmented material comigrated
+with Mb; this material was undetectable in H37Rv WT, Δesx-3::
+esx-3TB, and ΔmbtB (Fig. S3C). These data are consistent with
+the idea that the esx-3 mutants experience iron deprivation in
+standard 7H9 medium and respond by up-regulating production
+of Mb. In iron-limited medium, both WT and esx-3 region mu-
+tants experience iron starvation and increase production of Mb,
+so the differential increase for the mutants is less apparent. To
+quantify the relative accumulation of Mb in the Δesx-3 and
+ΔesxH mutant strains, we analyzed them by MS after growth in
+7H9 as described in SI Materials and Methods. As expected, Mb
+and cMb were absent or were present in trace amounts in ex-
+tracts of the ΔmbtB strain (Fig. 2A). In the Δesx-3 and ΔesxH
+strains there was >15-fold accumulation of Mb in the cell pellets
+and CF compared with the parental strain, accounting for >4%
+of total lipids in both fractions. cMb also was increased in the CF of
+the mutants, although the changes were more modest (Fig. 2A).
+Because a previously described ΔmmpS4/S5 siderophore ex-
+port mutant became “intoxicated” by excess intracellular side-
+rophores (28), we asked whether the Mb accumulation in the
+mutants might contribute to their growth defect. We deleted the
+entire mbt-1 gene cluster in strains lacking both esxG and esxH or
+esx-3 (Fig. S1 K and L) and found that the ΔesxG–esxH Δmbt-1
+double-deletion strain behaved similarly to ΔesxG–esxH in re-
+quiring high concentrations (200 ng/mL) of MbJ for growth on
+solid medium (Fig. 2B). Similarly, the Δesx-3 Δmbt-1 double
+0
+200
+400
+600
+800
+mc26230
+Δesx-3
+Δesx-3::esx-3TB
+ΔesxH
+ΔmbtB
+Cells - Mycobactins
+Relative Abundance 
+(x/10000)
+Δesx-3 Δmbt-1 growth curves 
+C
+ΔesxGH
+B
+mycobactin J [ng/ml]
+0
+2
+200
+0
+200
+400
+600
+CF - Mycobactins
+mc26230
+Δesx-3
+Δesx-3::esx-3TB
+ΔesxH
+ΔmbtB
+Relative Abundance 
+(x/10000)
+0
+50
+100
+150
+200
+mc26230
+Δesx-3
+Δesx-3::esx-3TB
+ΔesxH
+ΔmbtB
+CF - Carboxymycobactins
+Relative Abundance 
+(x/10000)
+Days post-inoculation
+0
+5
+10
+15
+20
+0.0
+0.5
+1.0
+1.5
+2.0
+7H9 + MbJ
+7H9 + hemin
+7H9
+55Fe-cMb Uptake
+Time [min]
+0
+5
+10
+15
+20
+25
+30
+35
+55Fe-cMb Accumulated [cpm/mg cells]
+0
+10000
+20000
+30000
+D
+wt - 37oC
+wt - 4oC
+Δesx-3 - 37oC
+Δesx-3 - 4oC
+A
+Δmbt-1
+ΔesxGH
+Δmbt-1
+OD600
+Fig. 2.
+esx-3 region mutants produce Mb but fail to assimilate Mb-bound iron. (A) UPLC-MS analysis of lipids extracted from WT (mc26230) and the indicated
+mutant strains [Δesx-3 (mc27860), Δesx3::esx-3TB (mc27863), ΔesxH (mc27861), and ΔmbtB (mc27862)] following growth in 7H9 medium without Tween 80 for
+3 wk. The amount of Mb and cMb was normalized to total lipids in each sample and reported as a relative abundance out of 10,000 arbitrary units. Data points
+show the values for individual samples; lines indicate mean ± SD. (B) ΔesxG–esxH (mc27791), Δmbt-1 (mc27809), and ΔesxG–esxH Δmbt-1 (mc27851) were grown
+on 7H10 medium containing MbJ as indicated. (C) The Δesx3 Δmbt-1 double mutant (mc27852) was inoculated in 7H9 medium or in 7H9 medium supplemented
+with hemin (100 μM) or MbJ (200 ng/mL). For 7H9 medium, growth curves are in duplicate. Data points represent the mean ± SEM; growth curves for 7H9 + hemin
+and 7H9 + MbJ were performed in singlicate. (D) The acquisition of 55Fe-loaded cMb was assessed for WT (mc26230) and Δesx-3 (mc27818) at 37 °C and 4 °C.
+E350
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1523321113
+Tufariello et al.
+
+mutant was highly impaired for growth in 7H9 medium, even
+with supplementation (Fig. 2C). Therefore, although esx-3 mutants
+accumulate Mb, this excess siderophore does not account for the
+growth defect.
+To verify that esx-3 plays a role in siderophore uptake, we
+examined the accumulation of 55Fe-loaded cMb by WT and
+Δesx-3. At 37 °C, Δesx-3 accumulated <50% of the radiolabel
+acquired by the parental strain (Fig. 2D), although the strains
+exhibited similar levels of nonspecific adsorption at 4 °C. Al-
+though uptake of 55Fe-cMb was substantially less for Δesx-3 than
+for WT, it was not completely absent, supporting the idea that
+a lower-affinity Mb uptake system functions in the absence of
+esx-3. Taken together, these results substantiate a role for esx-3
+in siderophore-mediated iron acquisition.
+Virulence Role of pe5–ppe4 and mbtB Depends on Host Genotype. To
+assess the virulence of numerous mutant strains rapidly, we ini-
+tially infected BALB/c SCID mice by the i.v. route. A dose of 104
+cfu of H37Rv was lethal by ∼40 d postinfection, whereas mice
+survived ∼107 cfu of Δesx-3 (Fig. 3A). Despite their strikingly
+similar in vitro iron-related growth defects, mutants harboring
+individual deletions within the esx-3 region were less severely
+attenuated. After infection of SCID mice with ∼2 × 106 cfu, the
+median survival time (MST) was 22 d for mice infected with the
+WT strain, 27 d for mice infected with ΔmbtB and Δpe5–ppe4,
+and 65 d for mice infected with ΔesxH; this substantial attenu-
+ation of ΔesxH was largely reversed by genetic complementation
+(Fig. 3B). Most dramatically, the Δesx-3–infected mice survived
+for 12 mo, whereas complementation of Δesx-3 resulted in slight
+hypervirulence (MST 19 d). The relatively modest attenuation of
+Δpe5–ppe4 and ΔmbtB was surprising, given their profound
+phenotypes in vitro. To address whether hemin supplementation
+in the growth medium used before i.v. infection provided iron
+stores that the bacteria could use in vivo, we examined the vir-
+ulence of the strains following growth in different amounts of
+hemin. For ΔmbtB, the kinetics of mortality were nearly identical
+if bacteria were pregrown in 5 or 100 μM hemin (MST 30 d; Fig.
+3C). Similarly, when the Δpe5–ppe4 mutant was cultured in the
+absence of hemin, it was only mildly attenuated (Fig. 3C), similar
+to when it was pregrown in 100 μM hemin (Fig. 3B). These re-
+sults show that, despite their profound growth defects in vitro,
+the Δpe5–ppe4 and ΔmbtB mutants are only mildly attenuated
+in vivo.
+The SCID mice used here were in the BALB/c background,
+which is defective in natural resistance-associated macrophage
+protein 1 (Nramp1) (29), a metal transporter localized to the
+endosomal compartment of macrophages that may restrict
+phagosomal iron (30). In inbred mouse strains, nramp1 is found
+in two allelic forms, nramp1R (resistant) and nramp1S (suscep-
+tible); the susceptible allele results in degradation of the protein
+and susceptibility to a variety of intracellular pathogens (31).
+Nramp1 is functional in CBA mice (29), which we challenged by
+i.v. infection with ∼2 × 106 cfu of H37Rv, ΔmbtB grown in high
+or low hemin, or Δpe5–ppe4. Strikingly, in contrast to observa-
+tions in the nramp1S mice, Δpe5–ppe4 and ΔmbtB were highly
+attenuated in nramp1R CBA mice (Fig. 3D). These data dem-
+onstrate a host-dependent requirement for ESX-3 substrates.
+Δesx-3 and ΔesxH Are Attenuated for Growth in Human Macrophages,
+but Intracellular Growth of Δpe5–ppe4 Depends on Macrophage
+Polarization. Differences in iron handling have been described
+for classically (M1) as opposed to alternatively (M2) activated
+macrophages (32, 33). Similar observations have been made
+for human macrophages differentiated with macrophage colony-
+stimulating factor (M-CSF) versus GM-CSF (34), where GM-CSF
+may promote a more iron-restrictive state. We therefore examined
+the growth of Δesx-3, ΔesxH, and Δpe5–ppe4 in human macro-
+phages differentiated with M-CSF or GM-CSF (Fig. S4). The Δesx-3
+and ΔesxH mutants were highly attenuated for growth in human
+macrophages, regardless of the cytokine used for differentiation.
+However, Δpe5–ppe4 showed a modestly improved growth capacity
+A
+B
+C
+SCID (Balb/c) IV infection: high and low dose
+0
+50
+100
+SCID (Balb/c) IV infection: grown in high vs. low heme
+0
+50
+100
+150
+200
+250
+0
+50
+100
+CBA/J  IV infection
+H37Rv wt
+mbtB
+esx-3
+esx-3::esx-3TB
+esxH
+esxH::esxGH
+pe5-ppe4
+pe5-ppe4::pe5-ppe4
+SCID (Balb/c) IV infection
+D
+0
+20
+40
+60
+80
+0
+50
+100
+H37Rv wt 
+H37Rv wt 
+esx-3 wt 
+esx-3 wt 
+Days post-infection
+Percent survival
+Percent survival
+H37Rv wt
+mbtB 100 M heme
+mbtB 5 M heme
+mbtB::mbt-1
+pe5-ppe4
+Days post-infection
+Percent survival
+Days post-infection
+Percent survival
+107 cfu
+104 cfu
+Days post-infection
+0
+10
+20
+30
+40
+0
+50
+100
+H37Rv wt
+mbtB 100 M heme
+mbtB 5 M heme
+mbtB::mbt-1
+pe5-ppe4
+0
+20
+40
+60
+Fig. 3.
+Deletion of the entire esx-3 locus results in dramatic attenuation in
+vivo, but pe5–ppe4 and mbtB are required for virulence in a mouse strain-
+dependent manner. (A and B) Survival of SCID mice infected by the i.v. route
+with H37Rv or Δesx-3 (mc27788) at ∼104 or ∼107 cfu (A) or with H37Rv
+WT, ΔmbtB (mc27850), Δesx-3 (mc27844), Δesx-3::esx-3TB (mc27856), ΔesxH
+(mc27846), ΔesxH::esxGH (mc27867), Δpe5–ppe4 (mc27848), or Δpe5–ppe4::
+pe5–ppe4 (mc27868) at a dose of ∼2 × 106 cfu (B). n = 7 or 8 mice per group
+in A and 4 or 5 mice per group in B. Before the infections shown in A and B,
+bacteria were cultured in 7H9 medium with 100 μM hemin. (C) Survival of
+SCID mice infected by the i.v. route with H37Rv, ΔmbtB (mc27850) pregrown
+in 100 μM hemin or 5 μM hemin, the ΔmbtB::mbt-1 complemented strain
+(mc27874), or Δpe5–ppe4 (mc27848). Except for the indicated ΔmbtB strains,
+the strains were grown without hemin. n = 5 mice per group. (D) Survival of
+CBA mice infected by the i.v. route with the strains in C. n = 5 mice per group.
+Survival differences were assessed using the log-rank (Mantel–Cox) test. In B,
+all groups were significantly different (P < 0.05) from WT except ΔesxH::esxGH
+and Δpe5–ppe4::pe5–ppe4. In C and D, all groups differed significantly (P <
+0.05) from WT. In C, survival of mice infected with ΔmbtB grown in 100 μM
+hemin did not differ significantly from that of mice infected with ΔmbtB
+grown in 5 μM hemin or with the ΔmbtB::mbt-1 complemented strain. In D,
+survival of mice infected with ΔmbtB::mbt-1 differed significantly from that of
+mice infected with the ΔmbtB strains.
+Tufariello et al.
+PNAS
+|
+Published online January 4, 2016
+|
+E351
+MICROBIOLOGY
+PNAS PLUS
+
+(∼2.4-fold) in the M-CSF–differentiated macrophages, indicating
+that the requirement for pe5–ppe4 may differ depending upon
+macrophage polarization, possibly resulting in differences in iron
+handling of M-CSF– versus GM-CSF–differentiated cells. In con-
+trast, Δesx-3 and ΔesxH were essential for intracellular growth
+irrespective of macrophage polarization.
+The in Vitro Iron Phenotype Does Not Correlate with Virulence in SCID
+or Recombination-Activating Gene Knockout Mice. To explore fur-
+ther the relationship between the iron phenotype and virulence,
+we compared Δesx-3 complemented with the Mtb esx-3 region and
+a strain complemented with the Msmeg esx-3 region. Although the
+Msmeg esx-3 region complemented the in vitro iron-related
+growth defects of Δesx-3 (Fig. 4A), only the Mtb esx-3 region re-
+stored growth in vivo. Infection with Δesx-3::esx-3SMEG did not
+result in any mortality (Fig. 4B), even after 12 mo of infection.
+Therefore, despite the substantial homology between the Msmeg
+and Mtb esx-3 regions (14), Msmeg esx-3 lacks functions necessary
+for virulence. Additional evidence that virulence is separable from
+the iron requirement comes from analysis of a ΔesxG mutant
+expressing an aberrant EsxG protein product that has 12 addi-
+tional N-terminal amino acids (referred to as “esxGH**12aa;
+pJP148”) (Table S2). Remarkably, the in vitro phenotype of the
+hygromycin-marked ΔesxG strain (mc27789) was rescued by
+the EsxG**12aa variant even though EsxG–EsxH secretion was
+nearly undetectable on Western blotting (Fig. 4 C and D). This
+finding is consistent with reports in Msmeg, in which <1% of
+EsxG–EsxH secretion reversed the iron-related growth defects
+(12). Despite correcting the iron-related growth defect, the strain
+complemented with EsxG fused to 12 N-terminal amino acids
+(ΔesxG::esxGH**12aa) behaved almost identically to ΔesxG in
+recombination-activating gene knockout (RAG1−/−) mice (Fig.
+4E). Interestingly, although able to restore growth of ΔesxG on
+solid medium, the same plasmid (pJP148) was unable to rescue
+growth of Δesx-3 (Fig. 4F), implying that EsxG–EsxH secretion
+in Mtb is dependent on the presence of esx-3, consistent with
+findings in Msmeg (13).
+esx-3 and esxH Are Essential for Virulence in Aerosol Infections, but
+pe5–ppe4 and mbtB Are Dispensable. We next sought to determine
+whether the differences in virulence between strains also would
+be observed in a model that more closely mimics the natural
+infection. We infected C57BL/6 (nramp1S) mice by aerosol with
+WT, Δesx-3, and Δesx-3::esx-3TB strains. In contrast to WT, the
+Δesx-3 mutant could not be recovered from the lungs, and it
+failed to disseminate to the spleen; Δesx-3::esx-3TB was mildly
+hypervirulent (Fig. 5 A and B). Similarly, ΔesxH did not pro-
+liferate in vivo, failed to disseminate, and was complemented by
+expression of esxG–esxH (pYUB1944) (Fig. 5 C and D). The
+marked attenuation of Δesx-3 and ΔesxH was in striking contrast
+to the Δpe5–ppe4 and ΔmbtB mutants, for which bacterial
+numbers were similar to WT (Fig. 5 C and D). Overall, these
+findings support the idea that defects in iron acquisition do not
+underlie the dramatic in vivo attenuation of Δesx-3. Rather esx-3
+must play an additional role in virulence that is dependent upon
+EsxH and independent of PE5–PPE4.
+Identification of Rv1386 (PE15)/Rv1387 (PPE20) as ESX-3–Secreted
+Substrates. To elucidate further the role(s) played by esx-3 in
+iron acquisition and virulence, we sought to define the secreted
+effectors. CF from triplicate samples of WT, Δesx-3, ΔesxG,
+ΔesxH, Δesx-3::esx-3TB, Δesx-3::esx-3SMEG, and ΔmbtB cultured
+in chelated Sauton’s medium was analyzed by MS using the
+MaxQuant software suite with the Andromeda search engine for
+peptide identification (SI Materials and Methods and Fig. S5).
+Label-free quantitation (LFQ) algorithms were used to deter-
+mine relative protein amounts (SI Materials and Methods) (35). A
+panel of ribosomal and chaperonin proteins (Dataset S2) was
+used to verify similar amounts of lysis in the samples (Fig. S5B).
+Correcting for multiple testing by controlling for a false discovery
+rate (FDR) at 5% using the Benjamini–Hochberg method (36),
+we detected 854 proteins in total (Dataset S2), of which 72 were
+differentially secreted in the WT strain compared with Δesx-3
+(Fig. 6A, and SI Materials and Methods, and Fig. S6A). Esx pro-
+teins encoded outside the esx-3 locus that could be unambiguously
+Δesx-3
+B
+C
+A
+0
+200
+mycobactin J [ng/ml]
+0
+200
+H37Rv wt
+0
+20
+40
+60
+80
+100
+0
+50
+H37Rv wt
+SCID IV infection
+   Δesx-3::
+E
+D
+wt ΔesxG
+80
+0
+50
+100
+RAG1 -/- IV infection
+H37Rv wt
+ΔesxG
+ΔesxG::esxGH**12aa
+αEsxGH
+CF (chelated Sauton’s)
+αEsxGH
+αAg85
+shorter 
+exposure
+longer 
+exposure
+F
+0
+200
+Days post-infection
+Percent survival
+Days post-infection
+Percent survival
+100
+Δesx-3::esx-3SMEG
+ΔesxG
+      ΔesxG:: 
+ΔesxG::
+0
+20
+40
+60
+      ΔesxG::
+      Δesx-3::
+        Δesx-3::
+mycobactin J [ng/ml]
+mycobactin J [ng/ml]
+     esxGH**12aa
+     esxGH**12aa
+       
+pMV361 EV
+     esxGH**12aa
+     esxGH**12aa
+esx-3SMEG
+Fig. 4.
+esx-3 from Msmeg and the EsxG variant restore in vitro growth but not virulence to esx-3 region mutants. (A) H37Rv WT, Δesx-3 (mc27844), and
+Δesx-3::esx-3SMEG (mc27857) were plated on 7H10 medium with or without MbJ (200 ng/mL). (B) Survival of BALB/c SCID mice infected i.v. with H37Rv or
+Δesx-3::esx-3SMEG (mc27857). n = 5 mice per group. (C) ΔesxG (mc27789) and ΔesxG transformed with pJP148 (mc27830) were plated on 7H10 medium and on
+7H10 medium with 200 ng/mL MbJ. (D) CF from strains grown in chelated Sauton’s medium was analyzed by Western blotting using an antibody raised
+against the EsxG–EsxH complex and was compared with H37Rv. Ag85B served as a loading control. (E) Survival analysis of C57BL/6 RAG1−/−mice infected by
+the i.v. route with ∼5 × 104 cfu of H37Rv, ΔesxG (mc27789), or ΔesxG harboring pJP148 (mc27830). n = 3 mice for H37Rv WT and 4 mice for the other strains.
+(F) Δesx-3 transformed with pMV361 empty vector (EV) (mc27831) and Δesx-3 or ΔesxG transformed with pJP148 (mc27829 and mc27830, respectively) were
+plated on 7H10 medium and on 7H10 medium with 200 ng/mL MbJ.
+E352
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1523321113
+Tufariello et al.
+
+identified, including EsxA, EsxB, EsxL, EsxN, and EsxO, were
+present in similar amounts in both samples, demonstrating that
+the esx-3 deletion does not globally impair Esx protein secretion
+(Fig. 6A). As expected from analogy to EsxA and EsxB, EsxG and
+EsxH exhibited codependent secretion; EsxH was present at
+greatly diminished levels in the CF of the ΔesxG mutant compared
+with WT, and similarly EsxG was present at greatly reduced levels
+in the CF of ΔesxH (Fig. 6 B and C and Figs. S5C and S6 B and C).
+Genetic complementation resulted in partial restoration of both
+EsxG and EsxH secretion in both mutants (Fig. S6 B and C).
+To identify ESX-3 substrates, we focused on eight proteins
+that were present in all three WT samples and were diminished
+in Δesx-3 (Fig. 6 A, E, and G and Fig. S6). Of these, secretion of
+Rv1009/RpfB was not restored by complementation (Dataset
+S2), suggesting that it may not be a substrate for secretion. Of the
+remaining proteins, five (Rv0282, Rv0283, Rv0285/PE5, EsxG,
+and EsxH) were encoded within the region deleted in the mu-
+tant strain. We detected trace levels of these five proteins in the
+Δesx-3 samples (below 3% of WT levels), consistent with a typ-
+ical level of carryover. To verify this result, we reran one sample
+from each strain on an extensively washed column; as expected,
+these proteins were not detected (Fig. S5C). Rv1387/PPE20 and
+Rv2477c were the only other proteins that satisfied our criteria
+for being potential substrates. However, Rv2477c also was un-
+detectable in two of three ΔmbtB samples (Dataset S2), sug-
+gesting that its absence might reflect an adaptation to iron
+deprivation as opposed to its being a direct ESX-3 substrate.
+Thus, only Rv1387/PPE20 fulfilled criteria as a potential ESX-3
+substrate. Although it did not meet our strict criteria for signif-
+icance, Rv1386 (PE15) also was diminished in the esx-3 mutant
+(P value 0.007, which corresponds to an FDR of 13%) (Fig. 6A)
+and was undetectable when the Δesx-3 sample was reanalyzed
+after carryover removal (Fig. S5C). CF samples prepared from
+ΔesxG and ΔesxH also had greatly reduced or undetectable PE15
+and PPE20 (Fig. 6 B and C and Figs. S5C and S6 B and C),
+demonstrating that secretion of these proteins is dependent on
+EsxG and EsxH. Combined, these data strongly suggest that
+PE15 and PPE20 are ESX-3 substrates.
+Secretion of PE5–PPE4 Is Required for Iron Acquisition, Whereas
+Secretion of EsxG and EsxH Is Important for Virulence. We next ex-
+amined whether secretion of EsxG–EsxH and PE5–PPE4 are
+codependent. Although still detectable, secretion of PE5 was
+substantially reduced in ΔesxG and ΔesxH (Fig. 6 B and C and
+Figs. S5C and S6B). This diminution reached significance for
+ΔesxG but not for ΔesxH, using our strict criteria [P values for
+PE5 of 0.0003 (FDR = 6%) in WT vs. ΔesxG and 0.001 (FDR
+26%) in WT vs. ΔesxH]. We did not detect PPE4 in the CF of
+any sample, and this protein likely remains membrane localized
+because it contains several hydrophobic, potentially membrane-
+spanning domains, analogous to the situation in ESX-1, where
+PE35 is found in the CF and PPE68 remains membrane asso-
+ciated (37, 38). In contrast, the Δpe5–ppe4 mutant secreted
+nearly WT levels of EsxG and EsxH (Figs. S5C and S6D), a
+finding confirmed on Western blotting using a polyclonal anti-
+body recognizing the EsxG–EsxH complex (Fig. 6I). Thus, the
+Δpe5–ppe4 mutant exhibits a severe iron phenotype but secretes
+EsxG and EsxH normally and is not attenuated in vivo in
+nramp1S hosts. This observation shows that the iron-acquisition
+function of ESX-3 is not simply related to the secretion of EsxG–
+EsxH. Taken together with the phenotypic studies, the data
+suggest that PE5–PPE4 is important for the iron-acquisition
+function of ESX-3, whereas virulence correlates with secretion of
+EsxG, EsxH, PE15, and PPE20 (Fig. 6J).
+Discussion
+Mtb encodes five evolutionarily related T7SS, ESX-1–ESX-5 (7,
+39–41). These systems are believed to influence the outcome of
+infection by directing the secretion of specific effector proteins.
+However, apart from the intensively investigated ESX-1, there
+are limited data characterizing the secretomes of individual ESX
+systems or correlating these findings with in vivo data to define
+the contributions of individual effectors to pathogenesis. This
+undertaking is complex, because ESX systems have been shown
+to secrete a variety of substrates lacking classical N-terminal
+A
+B
+D
+C
+Weeks post-infection
+CFU per lung
+Weeks post-infection
+CFU per lung
+Weeks post-infection
+CFU per spleen
+Weeks post-infection
+CFU per spleen
+H37Rv wt
+esx-3
+esx-3::esx-3TB
+H37Rv wt
+esx-3
+esx-3::esx-3TB
+H37Rv wt
+mbtB
+esxH
+esxH::esxGH
+pe5-ppe4
+pe5-ppe4::pe5-ppe4
+H37Rv wt
+mbtB
+esxH
+esxH::esxGH
+pe5-ppe4
+pe5-ppe4::pe5-ppe4
+*
+*
+*
+*
+0
+5
+10
+15
+3
+8
+16
+8
+16
+101
+102
+103
+104
+0
+5
+15
+10
+102
+103
+104
+105
+106
+101
+100
+102
+103
+104
+105
+106
+101
+100
+107
+0.14
+101
+102
+103
+104
+105
+105
+106
+Fig. 5.
+Δesx-3 and ΔesxH are severely attenuated in aerosol infection of
+C57BL/6 mice, but Δpe5–ppe4 and ΔmbtB remain virulent. (A and B) Bac-
+terial burdens in lungs (A) and spleens (B) were determined at the indicated
+time points after aerosol infection with H37Rv, Δesx-3 (mc27788), or Δesx-3::
+esx-3TB (mc27827). n = 4 or 5 mice per group, except n = 3 for H37Rv-infected
+spleens at 4 wk. Data points indicate mean ± SEM. Data points that are
+significantly different (P < 0.05) from H37Rv WT using an unpaired Student’s
+t test are indicated by an asterisk. (C and D) Following aerosol infection with
+the indicated strains, bacterial burdens were determined at 24 h and at 3, 8,
+and 16 wk postinfection in lungs (C) and at 8 and 16 wk postinfection in
+spleens (D). Strains were H37Rv, ΔmbtB (mc27850), ΔesxH (mc27846), ΔesxH::
+esxGH (mc27867), Δpe5–ppe4 (mc27848), and Δpe5–ppe4::pe5–ppe4
+(mc27868); all strains were cultured in 7H9 medium supplemented with 100 μM
+hemin before use in aerosol infections. Individual data points are shown; lines
+indicate mean ± SEM. n = 3 or 4 mice per group. Dotted lines indicate ap-
+proximate limits of detection.
+Tufariello et al.
+PNAS
+|
+Published online January 4, 2016
+|
+E353
+MICROBIOLOGY
+PNAS PLUS
+
+signal sequences, including Esx family members, members of the
+diverse PE and PPE protein families, and, in some cases, addi-
+tional substrates (such as Esp proteins secreted via ESX-1) (41).
+The studies of ESX-3 described here demonstrate how a single
+ESX system can secrete multiple effectors to modulate varied
+host defenses to influence pathogenesis.
+Previous findings have suggested that ESX-3 functions in the
+acquisition of iron (11, 13); in the context of host infection, this
+iron-uptake capacity is of critical importance to nearly all bac-
+terial pathogens (42, 43). Here, using a panel of Mtb deletion
+mutants, we demonstrate that not only the entire esx-3 locus but
+specifically the secreted substrates EsxG–EsxH and PE5–PPE4
+are required for iron acquisition. We further demonstrate that
+the contribution of iron acquisition to Mtb virulence in human
+macrophages and mouse models depends on the host phenotype.
+Remarkably, analysis of the esx-3 region mutants showed that
+ESX-3 plays a critical role in virulence, which correlates with the
+secretion of effectors distinct from those required for iron acqui-
+sition (Fig. 6J). Although all mutants required iron supplementa-
+tion to grow on solid medium, we found striking differences in their
+impact on virulence in mice. The Δpe5–ppe4 and ΔmbtB strains,
+which retained the ability to secrete EsxG–EsxH and PE15–PPE20,
+were virulent in i.v. infections of SCID mice and aerosol infections
+of C57BL/6 mice; this virulence may reflect the ability of Mtb to
+exploit in vivo sources of iron such as heme (20, 21). Still, this
+result was surprising, given the reported phenotype of other mu-
+tants defective in Mb synthesis or trafficking. Some of the data are
+not directly comparable to ours, because the other studies used
+bacillus Calmette–Guérin rather than Mtb or guinea pigs rather
+than a murine model (27, 44). However, both mbtK, which trans-
+fers fatty acids to the Mb peptide core, and mmpS4/S5, which are
+required for siderophore export, are essential for virulence in mice
+(45, 46). Notably, however, both of these mutants also have addi-
+tional phenotypes (altered lipid profiles and toxic accumulation of
+siderophores, respectively) that could contribute to their in vivo
+attenuation (28, 45). In contrast to Δpe5–ppe4 and ΔmbtB, the
+ΔesxH mutant behaved similarly to the strain bearing a deletion of
+the entire esx-3 region in aerosol infections of C57BL/6 mice. Both
+ΔesxH and Δesx-3 were substantially attenuated, failing to pro-
+liferate in the lungs and to disseminate to the spleen. This finding
+suggests that the virulence defect of Δesx-3 is not caused solely by
+defective iron acquisition and further suggests that the attenua-
+tion is primarily attributable to absence of EsxH, either directly
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+Fig. 6.
+Proteomics MS analysis of CF reveals codependent secretion of PE5 with EsxG–EsxH and identifies PE15/PPE20 as ESX-3 substrates. (A–H) Scatterplots
+show log2-transformed LFQ intensity values of proteins identified in the CF with the following strain comparisons: H37Rv vs. Δesx-3 (mc27844) (A); H37Rv vs.
+ΔesxG (mc27845) (B); H37Rv vs. ΔesxH (mc27846) (C); H37Rv vs. ΔmbtB (mc27850) (D); H37Rv vs. Δesx-3::esx-3TB (mc27827) (E); H37Rv vs. Δesx-3::
+esx-3SMEG (mc27828) (F); Δesx-3 vs. Δesx-3::esx-3TB (G); and ΔmbtB vs. Δesx-3 (H). Values for proteins of interest (Esx proteins and select PE–PPE proteins) are in
+yellow and are labeled; proteins implicated as ESX-3 substrates are indicated by blue text. Trace amounts of PE5, EsxG, and EsxH were detected in the Δesx-3
+samples because of carryover from other samples; when the columns were washed extensively between runs, PE5, EsxG, and EsxH were absent from Δesx-3, as
+anticipated (Fig. S5C). See Fig. S6 for lists of proteins that are present at significantly different levels for the various comparisons and Dataset S2 for lists of all
+proteins detected in the secretome analysis. (I) Western blot analysis of CF from strains grown in chelated Sauton’s medium using the EsxG–EsxH antibody.
+Ag85B served as a loading control. (J) Summary of secretome findings, in vitro growth requirements, and in vivo growth characteristics for the various strains.
+E354
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1523321113
+Tufariello et al.
+
+or through the loss of other substrates that rely on EsxH for
+secretion.
+We considered the possibility that the requirement for iron-
+acquisition systems in Mtb might depend on the capacity of the
+host to restrict iron by comparing infection in mouse lines that
+differ in the nramp1 gene (29, 47). Nramp1 is thought to export
+divalent metals out of the phagosome, and that export is pos-
+tulated to starve bacteria of essential metals and/or to heighten
+oxidative stress (30). Remarkably, both the ΔmbtB and Δpe5–
+ppe4 mutants were highly attenuated in nramp1R CBA mice, in
+contrast to their relatively preserved virulence in the nramp1S
+mice (C57BL/6 and BALB/c). Interestingly, an extensive body of
+literature suggests that the nramp1R locus does not confer resistance
+to infection with fully virulent Mtb in mice (48, 49), although in
+humans polymorphisms in NRAMP1 (termed “SLC11A1”) are as-
+sociated with the development of pulmonary tuberculosis in West
+African and Asian populations (50, 51). The pe5–ppe4 and mbtB
+mutants, with defects related to iron utilization, may reveal a role of
+Nramp1 in host defense against Mtb and point to siderophore-
+mediated iron uptake as an immune evasion mechanism. Of course,
+additional differences between the inbred strains also could un-
+derlie the distinct phenotypes (52, 53), and further studies using
+congenic strains will clarify the contribution of Nramp1. Our
+macrophage data also indicate that the importance of pe5–ppe4
+for intracellular growth of Mtb may depend on macrophage gene
+expression and polarization. Overall, our studies reveal a re-
+lationship between host genotype and bacterial iron handling in
+determining the outcome of infection with Mtb.
+Our proteomic analysis points to a limited set of ESX-3–
+secreted substrates: EsxG, EsxH, the PE–PPE pair encoded
+within the locus (PE5–PPE4), an evolutionarily related pair of
+proteins encoded outside the locus (PE15–PPE20), and perhaps
+a few others such as Rv2477c. However, Rv2477c lacks the
+characteristic YxxxD/E T7SS motif and also is reduced in CF
+from ΔmbtB, making its assignment as a direct ESX-3 substrate
+less likely. The limited number of substrates assigned to the Mtb
+ESX-3 secretion system differs somewhat from ESX-1, which
+secretes a number of Esp substrates, and from ESX-5, which
+appears to secrete multiple PE–PPE family members (41). How-
+ever, additional ESX-3 effectors may remain membrane associ-
+ated and undetectable in CF or may be secreted under culture
+conditions different from those tested here. Nonetheless, several
+features of ESX-1 and ESX-5 also appear to be shared by ESX-3.
+EsxG and EsxH, which form a heterodimer (15, 54), exhibited
+codependent secretion, as did EsxA and EsxB (55, 56). In addi-
+tion, elimination of EsxG or EsxH impaired the secretion of PE5
+and PE15–PPE20. This suggests that EsxG may behave like its
+counterpart EsxB, which recently has been shown to promote the
+ATPase activity of the secretion apparatus (57).
+Our data also clearly support the observation that specific PE–
+PPE pairs are targeted to specific ESX systems (58, 59). To our
+knowledge, PE15–PPE20 is the first PE–PPE pair encoded
+outside an esx locus for which the data support secretion by an
+ESX system other than ESX-5. It is not surprising that ESX-3
+secretes this pair, because there is a strong connection between
+PE5 and PE15: They are evolutionarily closely related (60) and
+are highly conserved in members of the Mtb complex, share 67%
+identity, and are suggested to play role(s) in intracellular survival
+in macrophages (61). Moreover, their relationship is under-
+scored by transcriptional data, because both pe5–ppe4 and pe15–
+ppe20 appear to belong to the ZuR regulon (62, 63) and are
+down-regulated by nutrient starvation (64). Interestingly, how-
+ever, two lines of evidence suggest that PE15 and PPE20 are not
+responsible for the iron-acquisition function of ESX-3. First,
+complementation of Δesx-3 with esx-3SMEG corrected the in vitro
+growth defect (Fig. 4A) but failed to restore secretion of PE15/
+PPE20 (Fig. 6F). Second, Δpe5–ppe4 exhibited iron-related
+growth defects very similar to Δesx-3 but secreted PE15/PPE20
+in excess of WT (Fig. S5C). Our finding that the Δpe5–ppe4
+mutant has preserved secretion of EsxG/EsxH is also consistent
+with findings from genetic analysis of the ESX-1 locus, where
+deletion of ppe68 resulted in a modest increase in EsxA secretion
+(55, 65). However, the data are more complex for ESX-5, in
+which deletion of the ppe25–pe19 gene cluster in H37Rv led to
+loss of EsxN and PPE41 secretion (66), although differing re-
+sults were obtained for a ppe27 mutant in the CDC1551 back-
+ground (67).
+In summary, our findings implicate the PE5–PPE4 proteins as
+the critical ESX-3 effectors involved in iron acquisition. EsxG–
+EsxH may be required for iron utilization simply by virtue of
+promoting PE5–PPE4 secretion, or both complexes may act in
+concert to assimilate Mb-bound iron (see the model in Fig. 7).
+Our data also indicate that ESX-3 regulates Mtb growth and
+virulence in vivo in a manner independent of the iron-acquisition
+functions that are so critical in vitro. This regulation may be
+related to recent observations that the ESX-3 region can mod-
+ulate host immune responses; removal of the Msmeg esx-3 region
+attenuated the organism as the result of clearance by an MyD88-
+dependent innate immune response (14). Further, EsxH has
+been demonstrated to interact with and inhibit the mammalian
+cell ESCRT machinery that plays critical roles in membrane
+trafficking (19). Additional studies will be required to elucidate
+the in vivo functions of EsxG–EsxH and to clarify how ESX-3
+facilitates iron acquisition and under what circumstances differ-
+ent ESX-3 effector proteins are required for virulence. Finally,
+this work reinforces the significance of T7SS for mycobacterial–
+host interactions and highlights the need for continued in-
+vestigation into their role in pathogenesis.
+Materials and Methods
+Bacterial Strains. Mtb H37Rv and mc26230 (H37Rv ΔRD1 ΔpanCD) were used
+to generate mutants as listed in Table S1. Mutants were constructed using
+specialized transduction (68, 69). The antibiotic cassette was removed from
+selected strains using phage-delivered γδ-resolvase, with sacB counter-
+selection facilitating the isolation of unmarked strains (69). The L5 phage
+integration system was used for complementation. Details of strain and
+plasmid construction are provided in SI Materials and Methods.
+Fig. 7.
+The schematic illustrates ESX-3 substrates and their distinct func-
+tional roles. EsxG and EsxH are cosecreted and facilitate secretion of PE5–
+PPE4 (the latter remaining membrane-localized). PE5–PPE4, perhaps in
+concert with EsxG–EsxH, plays a role in siderophore-mediated iron uptake.
+EsxG and EsxH also facilitate secretion of PE15–PPE20, and, separately or
+together, these proteins play additional, iron-independent roles in virulence.
+Tufariello et al.
+PNAS
+|
+Published online January 4, 2016
+|
+E355
+MICROBIOLOGY
+PNAS PLUS
+
+Liquid Growth Conditions. Mycobacterial strains were cultured at 37 °C in
+Middlebrook 7H9 medium (Difco) with 10% (vol/vol) oleic acid-albumin-
+dextrose-catalase (OADC) enrichment (BBL; Becton Dickinson), 0.2% glycerol
+(Fisher), and 0.05% Tween 80 or 0.05% tyloxapol (referred to as “7H9”),
+with additional supplements as indicated. Strains bearing antibiotic cas-
+settes were cultured with 50–75 μg/mL hygromycin or 25 μg/mL kanamycin
+as appropriate. Chelated Sauton’s medium consisted of 0.5 g KH2PO4, 4 g
+L-asparagine·H2O, 2 g citric acid, 60 g glycerol/L, adjusted to pH ∼7.0, and
+treated overnight with chelex-100 (10 g/L) (Bio-Rad) to remove trace iron
+contaminants. After filtration, 0.5 g/L of MgSO4·7H2O was added.
+Solid Medium Growth Experiments. Bacterial cultures were washed in PBS
+containing 0.05% Tween 80 or 0.05% tyloxapol (PBS-T), were resuspended
+in PBS-T, and were adjusted to equivalent OD600 values. Serial dilutions
+were plated onto 7H10 base medium containing 10% OADC and 0.5%
+glycerol with additional additives as indicated. Supplements included
+bovine hemin (Sigma), 0.05% Tween 80, FAC (Sigma), zinc sulfate (Sigma
+or Fisher), and MbJ (Allied Monitor). Plates were incubated for ∼3–6 wk
+at 37 °C.
+Liquid Growth Curves. Bacteria were cultured in 7H9 medium with ∼5 μM
+residual hemin from the frozen stock. In some experiments 10 μM hemin
+was added to promote growth of ΔmbtB; 100 μM hemin was added for the
+Δesx-3 Δmbt-1 double mutant. Bacteria were pelleted by centrifugation,
+washed in PBS-T, and inoculated into growth medium at a starting OD600 of
+∼0.02. Medium was unsupplemented 7H9 or included 100 μM 2,2′-dipyridyl
+(Sigma), 100 μM hemin, or 200 ng/mL MbJ. MbJ was prepared as described
+(27) by solubilizing 100 μg in a solution containing 250 μg tyloxapol in
+1.25 mL ethanol (20% wt/vol). The ethanol was evaporated under vacuum,
+and the tyloxapol and MbJ were resuspended in 7H9 medium and added to
+500 mL 7H9.
+Siderophore Uptake and Synthesis. Uptake of cMb was quantified as described
+previously (46), using Msmeg cMb, which was deferrated and then labeled
+with 55Fe (see SI Materials and Methods for details). Analysis of radiolabeled
+siderophores from Mtb grown in iron-deficient medium and extraction of
+unlabeled siderophores from iron-replete cultures was performed essentially
+as described previously (46); additional details are provided in SI Materials
+and Methods. For MS analysis of siderophores, strains were cultured in 7H9
+medium with 24 μg/mL D-pantothenate. Cell pellets were washed with PBS
+and were extracted with CHCl3/MeOH (2:1). Two and a half milliliters of
+sterile filtered supernatants were acidified with 15 μL 3M HCl and extracted
+with 3.5 mL ethyl acetate (70). The organic phases of pellet and supernatant
+extractions were dried, resuspended in isopropanol/acetonitrile/water (2:1:1;
+vol/vol/vol), and subjected to ultra high-performance liquid chromatography
+(UPLC)-MS analysis as described in SI Materials and Methods and ref. 71.
+Intracellular Bacterial Growth Assays. Human macrophages were prepared as
+described (72) following the method of Vogt and Nathan (73) and differ-
+entiation with either 2 ng/mL recombinant human GM-CSF or 10 ng/mL
+recombinant human M-CSF (R&D Systems), as detailed in SI Materials and
+Methods. Following infection at a multiplicity of infection (MOI) of 0.02,
+mycobacterial growth was enumerated at 14 d postinfection by plating on
+7H10 plates containing 200 ng/mL MbJ (Allied Monitor). Colonies were
+counted after ∼2–3 wk of incubation.
+CF Preparation. CFs were prepared as described (19). Following growth to log
+phase in 7H9 medium (with 10 μM hemin for the ΔmbtB strain), Mtb were
+subcultured for 2 d in chelated Sauton’s medium, pelleted by centrifugation,
+and the supernatants were filtered through 0.22-μM filters followed by
+precipitation with 12% trichloroacetic acid (TCA) (also see SI Materials
+and Methods).
+Proteomics MS. Protein pellets were reconstituted in 2-M urea buffer, pH 7.8,
+before reduction, alkylation, and digestion with trypsin. After desalting the
+peptide mixtures were gradient eluted directly into a Q Exactive mass
+spectrometer (Thermo Scientific). The MaxQuant software suite was used for
+protein identifications and LFQ (35). Protein intensities were compared using
+a two-sided t test and correcting for multiple testing by controlling for FDR
+at 5% using the Benjamini–Hochberg method (36). Details are provided in SI
+Materials and Methods.
+EsxG–EsxH Antibody Production and Western Blotting. A His-tagged EsxG–EsxH
+fusion construct (74) was produced in Escherichia coli as described (19)
+and was used to immunize rabbits. Rabbit polyclonal serum was used in
+Western blotting.
+Mice and Infections. Mouse studies were performed in accordance with Na-
+tional Institutes of Health guidelines (75), and all work was approved by the
+Albert Einstein College of Medicine Institutional Animal Care and Use
+Committee (Protocol #20120114). Female C57BL/6 and SCID mice were from
+the National Cancer Institute, and female CBA/J mice and B6.129S7-
+Rag1tm1Mom/J (RAG1−/−) mice were from Jackson Laboratories. Mycobacterial
+strains were grown in 7H9 medium with antibiotics as appropriate. For all
+infections, bacteria were washed in PBS-T and were sonicated. For i.v. in-
+fections, mice were injected via the lateral tail vein with the indicated doses
+of bacteria in 200 μL PBS-T. The actual dose delivered was determined by
+serial dilution and plating. For aerosol infections, the bacterial suspension
+also contained 0.04% antifoam Y-30 emulsion (Sigma) and was targeted to
+deliver a dose of ∼50–150 cfu per lung. Mice from each infection group were
+killed 24 h after aerosol exposure, and lung homogenates were plated to
+determine initial bacterial numbers delivered per strain. Bacterial burdens in
+lungs and spleen were determined by plating organ homogenates, prepared
+and diluted in PBS-T, from three or four mice per infection group onto ap-
+propriate medium. Details are provided in SI Materials and Methods.
+Statistical Analysis. Differences between groups were analyzed by Student’s
+t test. A P value ≤0.05 was considered statistically significant. Survival curves
+were compared with the log-rank (Mantel–Cox) test using GraphPad Prism
+for Windows (GraphPad Software). Statistical comparisons of protein intensities
+in CF samples were performed as described in SI Materials and Methods.
+ACKNOWLEDGMENTS. We thank Bing Chen, Mei Chen, and John Kim for
+assistance with mouse infections; Annie Dai for phage preparation; Colin
+Ratledge for providing mycobactins; Brian Weinrick for mutant verification
+by whole genome sequencing; Michelle Larsen and Anthony Orth for shar-
+ing constructs from the Genomics Institute of the Novartis Research Foun-
+dation phasmid collection; Katherine Moccia and Eva Yang for assistance
+with strain generation and verification; and members of the W.R.J. and
+J.A.P. laboratories for numerous helpful discussions. This work was sup-
+ported by NIH Grants AI26170 and AI098925 (to W.R.J.) and T32GM007288
+for support of C.A.K. at the Albert Einstein College of Medicine; and NIH
+Grant AI087682 and funds from the New York University School of Medicine
+(to J.A.P.).
+1. Stoop EJ, Bitter W, van der Sar AM (2012) Tubercle bacilli rely on a type VII army for
+pathogenicity. Trends Microbiol 20(10):477–484.
+2. van der Woude AD, Luirink J, Bitter W (2013) Getting across the cell envelope: My-
+cobacterial protein secretion. Curr Top Microbiol Immunol 374:109–134.
+3. Bitter W, et al. (2009) Systematic genetic nomenclature for type VII secretion systems.
+PLoS Pathog 5(10):e1000507.
+4. Hsu T, et al. (2003) The primary mechanism of attenuation of bacillus Calmette-Guerin
+is a loss of secreted lytic function required for invasion of lung interstitial tissue. Proc
+Natl Acad Sci USA 100(21):12420–12425.
+5. Lewis KN, et al. (2003) Deletion of RD1 from Mycobacterium tuberculosis mimics
+bacille Calmette-Guérin attenuation. J Infect Dis 187(1):117–123.
+6. Pym AS, Brodin P, Brosch R, Huerre M, Cole ST (2002) Loss of RD1 contributed to the
+attenuation of the live tuberculosis vaccines Mycobacterium bovis BCG and Myco-
+bacterium microti. Mol Microbiol 46(3):709–717.
+7. Abdallah AM, et al. (2007) Type VII secretion–mycobacteria show the way. Nat Rev
+Microbiol 5(11):883–891.
+8. Champion PA, Cox JS (2007) Protein secretion systems in Mycobacteria. Cell Microbiol
+9(6):1376–1384.
+9. Stanley SA, Cox JS (2013) Host-pathogen interactions during Mycobacterium tuber-
+culosis infections. Curr Top Microbiol Immunol 374:211–241.
+10. Rodriguez GM, Voskuil MI, Gold B, Schoolnik GK, Smith I (2002) ideR, An essential
+gene in mycobacterium tuberculosis: Role of IdeR in iron-dependent gene ex-
+pression, iron metabolism, and oxidative stress response. Infect Immun 70(7):
+3371–3381.
+11. Serafini A, Boldrin F, Palù G, Manganelli R (2009) Characterization of a Mycobacte-
+rium tuberculosis ESX-3 conditional mutant: Essentiality and rescue by iron and zinc.
+J Bacteriol 191(20):6340–6344.
+12. Siegrist MS, et al. (2014) Mycobacterial Esx-3 requires multiple components for iron
+acquisition. MBio 5(3):e01073.
+13. Siegrist MS, et al. (2009) Mycobacterial Esx-3 is required for mycobactin-mediated iron
+acquisition. Proc Natl Acad Sci USA 106(44):18792–18797.
+14. Sweeney KA, et al. (2011) A recombinant Mycobacterium smegmatis induces potent
+bactericidal immunity against Mycobacterium tuberculosis. Nat Med 17(10):1261–1268.
+15. Ilghari D, et al. (2011) Solution structure of the Mycobacterium tuberculosis EsxG·EsxH
+complex: Functional implications and comparisons with other M. tuberculosis Esx
+family complexes. J Biol Chem 286(34):29993–30002.
+E356
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1523321113
+Tufariello et al.
+
+16. Billeskov R, Vingsbo-Lundberg C, Andersen P, Dietrich J (2007) Induction of CD8 T cells
+against a novel epitope in TB10.4: Correlation with mycobacterial virulence and the
+presence of a functional region of difference-1. J Immunol 179(6):3973–3981.
+17. Hervas-Stubbs S, et al. (2006) High frequency of CD4+ T cells specific for the TB10.4
+protein correlates with protection against Mycobacterium tuberculosis infection.
+Infect Immun 74(6):3396–3407.
+18. Skjot RL, et al. (2002) Epitope mapping of the immunodominant antigen TB10.4 and
+the two homologous proteins TB10.3 and TB12.9, which constitute a subfamily of the
+esat-6 gene family. Infect Immun 70(10):5446–5453.
+19. Mehra A, et al. (2013) Mycobacterium tuberculosis type VII secreted effector EsxH
+targets host ESCRT to impair trafficking. PLoS Pathog 9(10):e1003734.
+20. Jones CM, Niederweis M (2011) Mycobacterium tuberculosis can utilize heme as an
+iron source. J Bacteriol 193(7):1767–1770.
+21. Tullius MV, et al. (2011) Discovery and characterization of a unique mycobacterial
+heme acquisition system. Proc Natl Acad Sci USA 108(12):5051–5056.
+22. Abdallah AM, et al. (2009) PPE and PE_PGRS proteins of Mycobacterium marinum are
+transported via the type VII secretion system ESX-5. Mol Microbiol 73(3):329–340.
+23. McMahon MD, Rush JS, Thomas MG (2012) Analyses of MbtB, MbtE, and MbtF sug-
+gest revisions to the mycobactin biosynthesis pathway in Mycobacterium tuberculosis.
+J Bacteriol 194(11):2809–2818.
+24. Jain P, et al. (2012) φ(2)GFP10, a high-intensity fluorophage, enables detection and
+rapid drug susceptibility testing of Mycobacterium tuberculosis directly from sputum
+samples. J Clin Microbiol 50(4):1362–1369.
+25. Sambandamurthy VK, et al. (2006) Mycobacterium tuberculosis DeltaRD1 Delta-
+panCD: A safe and limited replicating mutant strain that protects immunocompetent
+and immunocompromised mice against experimental tuberculosis. Vaccine 24(37-39):
+6309–6320.
+26. De Voss JJ, et al. (2000) The salicylate-derived mycobactin siderophores of Mycobac-
+terium tuberculosis are essential for growth in macrophages. Proc Natl Acad Sci USA
+97(3):1252–1257.
+27. Tullius MV, Harth G, Maslesa-Galic S, Dillon BJ, Horwitz MA (2008) A Replication-
+Limited Recombinant Mycobacterium bovis BCG vaccine against tuberculosis de-
+signed for human immunodeficiency virus-positive persons is safer and more effica-
+cious than BCG. Infect Immun 76(11):5200–5214.
+28. Jones CM, et al. (2014) Self-poisoning of Mycobacterium tuberculosis by interrupting
+siderophore recycling. Proc Natl Acad Sci USA 111(5):1945–1950.
+29. Malo D, et al. (1994) Haplotype mapping and sequence analysis of the mouse Nramp
+gene predict susceptibility to infection with intracellular parasites. Genomics 23(1):
+51–61.
+30. Forbes JR, Gros P (2001) Divalent-metal transport by NRAMP proteins at the interface
+of host-pathogen interactions. Trends Microbiol 9(8):397–403.
+31. Bellamy R (1999) The natural resistance-associated macrophage protein and suscep-
+tibility to intracellular pathogens. Microbes Infect 1(1):23–27.
+32. Corna G, et al. (2010) Polarization dictates iron handling by inflammatory and al-
+ternatively activated macrophages. Haematologica 95(11):1814–1822.
+33. Recalcati S, et al. (2010) Differential regulation of iron homeostasis during human
+macrophage polarized activation. Eur J Immunol 40(3):824–835.
+34. Sierra-Filardi E, Vega MA, Sánchez-Mateos P, Corbí AL, Puig-Kröger A (2010) Heme
+Oxygenase-1 expression in M-CSF-polarized M2 macrophages contributes to LPS-in-
+duced IL-10 release. Immunobiology 215(9-10):788–795.
+35. Cox J, et al. (2014) Accurate proteome-wide label-free quantification by delayed
+normalization and maximal peptide ratio extraction, termed MaxLFQ. Mol Cell
+Proteomics 13(9):2513–2526.
+36. Benjamini Y, Hochberg Y (1995) Controlling the false discovery rate: A practical and
+powerful approach to multiple testing. J R Stat Soc, B 57(1):289–300.
+37. Fortune SM, et al. (2005) Mutually dependent secretion of proteins required for
+mycobacterial virulence. Proc Natl Acad Sci USA 102(30):10676–10681.
+38. Målen H, Berven FS, Fladmark KE, Wiker HG (2007) Comprehensive analysis of exported
+proteins from Mycobacterium tuberculosis H37Rv. Proteomics 7(10):1702–1718.
+39. Houben EN, Korotkov KV, Bitter W (2014) Take five - Type VII secretion systems of
+Mycobacteria. Biochim Biophys Acta 1843(8):1707–1716.
+40. Simeone R, Bottai D, Brosch R (2009) ESX/type VII secretion systems and their role in
+host-pathogen interaction. Curr Opin Microbiol 12(1):4–10.
+41. Simeone R, Bottai D, Frigui W, Majlessi L, Brosch R (2015) ESX/type VII secretion sys-
+tems of mycobacteria: Insights into evolution, pathogenicity and protection. Tuber-
+culosis (Edinb) 95:5150–5154.
+42. Cassat JE, Skaar EP (2013) Iron in infection and immunity. Cell Host Microbe 13(5):
+509–519.
+43. Neyrolles O, Wolschendorf F, Mitra A, Niederweis M (2015) Mycobacteria, metals, and
+the macrophage. Immunol Rev 264(1):249–263.
+44. Reddy PV, et al. (2013) Disruption of mycobactin biosynthesis leads to attenuation of
+Mycobacterium tuberculosis for growth and virulence. J Infect Dis 208(8):1255–1265.
+45. Madigan CA, et al. (2015) Lipidomic analysis links mycobactin synthase K to iron
+uptake and virulence in M. tuberculosis. PLoS Pathog 11(3):e1004792.
+46. Wells RM, et al. (2013) Discovery of a siderophore export system essential for viru-
+lence of Mycobacterium tuberculosis. PLoS Pathog 9(1):e1003120.
+47. Vidal S, et al. (1995) The Ity/Lsh/Bcg locus: Natural resistance to infection with in-
+tracellular parasites is abrogated by disruption of the Nramp1 gene. J Exp Med 182(3):
+655–666.
+48. Medina E, North RJ (1996) Evidence inconsistent with a role for the Bcg gene
+(Nramp1) in resistance of mice to infection with virulent Mycobacterium tuberculosis.
+J Exp Med 183(3):1045–1051.
+49. North RJ, LaCourse R, Ryan L, Gros P (1999) Consequence of Nramp1 deletion to
+Mycobacterium tuberculosis infection in mice. Infect Immun 67(11):5811–5814.
+50. Bellamy R, et al. (1998) Variations in the NRAMP1 gene and susceptibility to tuber-
+culosis in West Africans. N Engl J Med 338(10):640–644.
+51. Li HT, Zhang TT, Zhou YQ, Huang QH, Huang J (2006) SLC11A1 (formerly NRAMP1)
+gene polymorphisms and tuberculosis susceptibility: A meta-analysis. Int J Tuberc
+Lung Dis (1):3–12.
+52. Beamer GL, Cyktor J, Carruthers B, Turner J (2011) H-2 alleles contribute to antigen
+85-specific interferon-gamma responses during Mycobacterium tuberculosis in-
+fection. Cell Immunol 271(1):53–61.
+53. Beamer GL, et al. (2008) Interleukin-10 promotes Mycobacterium tuberculosis disease
+progression in CBA/J mice. J Immunol 181(8):5545–5550.
+54. Arbing MA, et al. (2013) Heterologous expression of mycobacterial Esx complexes in
+Escherichia coli for structural studies is facilitated by the use of maltose binding
+protein fusions. PLoS One 8(11):e81753.
+55. Brodin P, et al. (2006) Dissection of ESAT-6 system 1 of Mycobacterium tuberculosis
+and impact on immunogenicity and virulence. Infect Immun 74(1):88–98.
+56. Stanley SA, Raghavan S, Hwang WW, Cox JS (2003) Acute infection and macrophage
+subversion by Mycobacterium tuberculosis require a specialized secretion system. Proc
+Natl Acad Sci USA 100(22):13001–13006.
+57. Rosenberg OS, et al. (2015) Substrates Control Multimerization and Activation of the
+Multi-Domain ATPase Motor of Type VII Secretion. Cell 161(3):501–512.
+58. Daleke MH, et al. (2012) General secretion signal for the mycobacterial type VII se-
+cretion pathway. Proc Natl Acad Sci USA 109(28):11342–11347.
+59. Ekiert DC, Cox JS (2014) Structure of a PE-PPE-EspG complex from Mycobacterium
+tuberculosis reveals molecular specificity of ESX protein secretion. Proc Natl Acad Sci
+USA 111(41):14758–14763.
+60. Gey van Pittius NC, et al. (2006) Evolution and expansion of the Mycobacterium tu-
+berculosis PE and PPE multigene families and their association with the duplication of
+the ESAT-6 (esx) gene cluster regions. BMC Evol Biol 6:95.
+61. Tiwari BM, Kannan N, Vemu L, Raghunand TR (2012) The Mycobacterium tuberculosis
+PE proteins Rv0285 and Rv1386 modulate innate immunity and mediate bacillary
+survival in macrophages. PLoS One 7(12):e51686.
+62. Maciag A, et al. (2007) Global analysis of the Mycobacterium tuberculosis Zur (FurB)
+regulon. J Bacteriol 189(3):730–740.
+63. van Dam JC, Schaap PJ, Martins dos Santos VA, Suárez-Diez M (2014) Integration of
+heterogeneous molecular networks to unravel gene-regulation in Mycobacterium
+tuberculosis. BMC Syst Biol 8:111.
+64. Betts JC, Lukey PT, Robb LC, McAdam RA, Duncan K (2002) Evaluation of a nutrient
+starvation model of Mycobacterium tuberculosis persistence by gene and protein
+expression profiling. Mol Microbiol 43(3):717–731.
+65. Demangel C, et al. (2004) Cell envelope protein PPE68 contributes to Mycobacterium
+tuberculosis RD1 immunogenicity independently of a 10-kilodalton culture filtrate
+protein and ESAT-6. Infect Immun 72(4):2170–2176.
+66. Bottai D, et al. (2012) Disruption of the ESX-5 system of Mycobacterium tuberculosis
+causes loss of PPE protein secretion, reduction of cell wall integrity and strong at-
+tenuation. Mol Microbiol 83(6):1195–1209.
+67. Houben EN, et al. (2012) Composition of the type VII secretion system membrane
+complex. Mol Microbiol 86(2):472–484.
+68. Bardarov S, et al. (2002) Specialized transduction: An efficient method for generating
+marked and unmarked targeted gene disruptions in Mycobacterium tuberculosis,
+M. bovis BCG and M. smegmatis. Microbiology 148(Pt 10):3007–3017.
+69. Jain P, et al. (2014) Specialized transduction designed for precise high-throughput
+unmarked deletions in Mycobacterium tuberculosis. MBio 5(3):e01245–14.
+70. Madigan CA, et al. (2012) Lipidomic discovery of deoxysiderophores reveals a revised
+mycobactin biosynthesis pathway in Mycobacterium tuberculosis. Proc Natl Acad Sci
+USA 109(4):1257–1262.
+71. Prados-Rosales R, et al. (2014) Role for Mycobacterium tuberculosis membrane vesi-
+cles in iron acquisition. J Bacteriol 196(6):1250–1256.
+72. Wong KW, Jacobs WR, Jr (2013) Mycobacterium tuberculosis exploits human in-
+terferon γ to stimulate macrophage extracellular trap formation and necrosis. J Infect
+Dis 208(1):109–119.
+73. Vogt G, Nathan C (2011) In vitro differentiation of human macrophages with en-
+hanced antimycobacterial activity. J Clin Invest 121(10):3889–3901.
+74. Callahan B, et al. (2010) Conservation of structure and protein-protein interactions
+mediated by the secreted mycobacterial proteins EsxA, EsxB, and EspA. J Bacteriol
+192(1):326–335.
+75. Committee on Care and Use of Laboratory Animals (1996) Guide for the Care and Use
+of Laboratory Animals (Natl Inst Health, Bethesda), DHHS Publ No (NIH) 85-23.
+76. Tufariello JM, et al. (2014) Enhanced specialized transduction using recombineering
+in Mycobacterium tuberculosis. MBio 5(3):e01179–14.
+77. Larsen MH, Biermann K, Tandberg S, Hsu T, Jacobs WR (2007) Genetic manipulation
+of Mycobacterium tuberculosis. Curr Protoc Microbiol 6:(A):10A.2.1–10A.2.21.
+78. Braunstein M, et al. (2000) Identification of genes encoding exported Mycobacterium
+tuberculosis proteins using a Tn552’phoA in vitro transposition system. J Bacteriol
+182(10):2732–2740.
+79. Stover CK, et al. (1991) New use of BCG for recombinant vaccines. Nature 351(6326):
+456–460.
+Tufariello et al.
+PNAS
+|
+Published online January 4, 2016
+|
+E357
+MICROBIOLOGY
+PNAS PLUS

@@ -1,0 +1,829 @@
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+pe)
+Pay
+2
+S|rs» NIH Public Access
+Author Manuscript
+Published in final edited form as:
+Biol Psychiatry. 2010 July 1; 68(1): 70-77. doi:10.1016/).biopsych.2010.03.025.
+Corpus Callosum Abnormalities and their Association with
+Psychotic Symptoms in Patients with Schizophrenia
+Thomas J. Whitford, Ph.D.!:2), Marek Kubicki, M.D., Ph.D.!>3, Jason S. Schneiderman, Ph.D.
+1 Lauren J. O'Donnell, Ph.D.4;9, Rebecca King, B.Sc.!, Jorge L. Alvarado, B.Sc.!, Usman
+Khan, B.Sc.!, Douglas Markant, B.Sc.!, Paul G. Nestor, Ph.D.3:6, Margaret Niznikiewicz,
+Ph.D.°, Robert W. McCarley, M.D., PhD.3, Carl-Fredrik Westin, Ph.D.4, and Martha E. Shenton,
+Ph.D.'>
+'Psychiatry Neuroimaging Laboratory, Department of Psychiatry, Brigham and Women's Hospital,
+Harvard Medical School, Boston, MA, USA
+2Melbourne Neuropsychiatry Centre, Department of Psychiatry, University of Melbourne and
+Melbourne Heath, Melbourne, VIC, Australia
+3Clinical Neuroscience Division, Laboratory of Neuroscience, Department of Psychiatry, Veterans
+Affairs (VA) Boston Healthcare System, Harvard Medical School Brockton, MA, USA
+4Laboratory of Mathematics in Imaging, Brigham and Women's Hospital, Harvard Medical School,
+Boston, MA, USA
+“Golby Laboratory, Department of Neurosurgery, Brigham and Women's Hospital, Harvard Medical
+School, Boston, MA, USA
+6College of Liberal Arts, University of Massachusetts - Boston, Boston, MA, USA
+Abstract
+Background—wWhilst the neuroanatomical underpinnings of the functional brain disconnectivity
+observed in patients with schizophrenia remain elusive, white matter fiber bundles of the brain are
+a likely candidate given that they represent the infrastructure for long-distance neural communication.
+Methods—This study investigated for diffusion abnormalities in 19 patients with chronic
+schizophrenia (SZ), relative to 19 matched controls, across tractography-defined segments of the
+Corpus Callosum. Diffusion-weighted images were acquired with 51 non-collinear gradients on a
+3T scanner (1.7mm isotropic voxels). The Corpus Callosum was extracted by means of whole-brain
+tractography and automated fiber-clustering, and was parcellated into six segments on the basis of
+fiber trajectories. The diffusion indices of Fractional Anisotropy (FA) and Mode were calculated for
+each segment.
+Results—Relative to the healthy controls, the SZ patients exhibited Mode increases in the Parietal
+fibers, suggesting a relative absence of crossing fibers. SZ patients also exhibited FA reductions in
+the Frontal fibers, which were underpinned by increased in Radial Diffusivity, consistent with myelin
+abnormalities. Significant correlations were observed between patients’ degree of Reality Distortion
+, Corresponding Author: Thomas J. Whitford, Psychiatry Neuroimaging Laboratory, Brigham and Women's Hospital, Harvard Medical
+School, 1249 Boylston St, Boston, MA, 02215, Phone: +1 617 525 1059, Fax: +1 617 525 6150, whitford
+@ bwh.harvard.edu.
+Financial Disclosures: None of the authors report having any biomedical financial interests or potential conflicts of interest
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers
+we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting
+proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could
+affect the content, and all legal disclaimers that apply to the journal pertain.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al. Page 2
+and their FA and Radial Diffusivity, such that the most severely psychotic patients were the least
+abnormal in terms of their Frontal fiber diffusivity.
+Conclusions—The SZ patients exhibited a variety of diffusion abnormalities in the Corpus
+Callosum, which were related to the severity of their psychotic symptoms. To the extent that diffusion
+abnormalities influence axonal transmission velocities, these results provide support for those
+theories that emphasize neural timing abnormalities in the etiology of schizophrenia.
+Keywords
+Schizophrenia; Corpus Callosum; Diffusion Tensor Imaging; Tractography; Fractional Anisotropy;
+Mode
+Introduction
+The unifying tenet of the increasingly popular ‘disconnectivity’ theories of schizophrenia (SZ)
+(1-3) is that the disorder is ultimately caused by abnormal interactions between pathological
+brain regions, as opposed to regional neuropathology per se. In addition to providing a prima
+facie account of the cognitive disorganization characteristic of the disease, support for the
+‘disconnectivity’ theories has been provided by a number of electrophysiological and
+functional imaging studies that have reported abnormalities in the degree of correlated activity
+between spatially disparate brain regions in patients with schizophrenia (4-6). The
+neuroanatomical underpinnings of this aberrant functional connectivity are as yet unknown
+and represent a point of divergent focus (but not, it should be emphasized, contradiction)
+between the various ‘disconnectivity’ theories. Whilst some models have emphasized the role
+of aberrant synaptic plasticity in the etiology of the disorder (2), others have focused on the
+role of abnormalities in the physical infrastructure for long-distance neural communication,
+i.e., white matter (WM) (3). With respect to the latter, white matter is primarily constituted of
+the phospholipid processes (known as myelin) of a specialized class of neuroglia called
+oligodendrocytes (7). Myelin ensheaths axons in the nervous system, electrically insulating
+the axon membrane and increasing the conduction velocity of action potentials. Myelinated
+axons with similar destinations fasciculate into fiber bundles, which constitute the primary
+infrastructure for communication between spatially disparate brain regions. It has previously
+been suggested that abnormalities in WM fiber bundles could represent the neuroanatomical
+bases for many of the observed abnormalities in functional connectivity in patients with
+schizophrenia (3).
+The Corpus Callosum (CC) is the largest WM fiber bundle in the brain and connects
+homologous regions of the two cerebral hemispheres. The CC has been implicated in SZ by
+those who emphasize the role of abnormal hemispheric specialization and abnormal
+interhemispheric communication in the etiology of the disease (8). Whilst conventional MRI
+has provided only equivocal evidence for CC abnormalities in patients with schizophrenia (see
+(9) for areview), a more consistent picture of structural abnormality has been provided by
+those studies that have employed the more sensitive (at least with respect to WM pathology)
+modality of Diffusion Tensor Imaging (DTI) (see (10) for a review). However, whilst these
+previous studies have provided novel and valuable information regarding the location and
+extent of SZ-specific structural abnormalities in the CC, they have also exhibited some
+methodological limitations.
+Firstly, the majority of previous studies have employed a somewhat arbitrary protocol for
+segmenting the CC, often based on geometric rather than anatomical boundaries, which may
+be insufficiently sensitive to detect subtle, regionally-specific diffusion abnormalities.
+Secondly, most previous DTI studies have investigated for group-wise differences on only a
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al.
+Page 3
+single diffusivity metric - namely Fractional Anisotropy (FA), which is a measure of the
+asphericity of water diffusion. However, as noted by Hasan (11), FA is only able to provide a
+limited picture as to the three-dimensional shape of the observed diffusion. FA cannot, for
+example, distinguish between prolate (i.e., cigar shaped) and oblate (i.e., pancake shaped)
+diffusion, despite these presumably having markedly different microstructural underpinnings.
+The present study aimed to address these methodological limitations in two ways. Firstly, this
+study employed a previously validated analysis method (12) to distinguish between fiber
+bundles on the basis of the cortical regions to which they projected, thus avoiding the need for
+an inflexible geometric schema. Secondly, in addition the stalwart metric of FA, this study also
+investigated a second, orthogonal diffusion index: Mode (13). Mode is a measure of the
+prolateness / oblateness of a diffusion ellipsoid, thus providing additional insight into the three-
+dimensional shape (and hence microstructural underpinnings) of observed diffusion, relative
+to that provided by FA alone.
+The second aim of this study was to investigate the basis for a consistently reported, if somewhat
+paradoxical finding of a positive correlation between SZ patients' FA and the severity of their
+hallucinations and delusions (14-17). Although the explanation behind this curious relationship
+has not yet been established, we have recently suggested that while psychotic symptoms may
+arise when the brain attempts to integrate mildly temporally dysmetric activity in spatially
+disparate cerebral regions, more severe temporal discoordinations might not be able to be
+integrated and thus might be incapable of giving rise to psychotic symptoms (18). Given the
+role that WM (and especially myelin) is known to play in modulating the speed of neural
+transmission, we predicted that severely psychotic SZ patients would show less extensive
+myelin abnormalities relative to SZ patients with less severe psychotic symptoms.
+In summary, the two aims of the present study were: 1) to provide a comprehensive description
+of the shape and extent of water diffusion across tractography-defined subregions of the CC,
+with the aim of inferring the microstructural underpinnings of any observed diffusion
+abnormalities in SZ patients, and 2) to investigate the relationship between psychotic symptom
+severity and WM integrity (as assessed with FA and Radial Diffusivity, the latter of which has
+been proposed as a putative measure of myelin integrity (19)) in SZ patients.
+Methods and Materials
+Participants
+Nineteen male patients with chronic schizophrenia were recruited from out-patient, in-patient,
+day treatment and foster care programs at the VA Boston Healthcare System, Brockton, MA.
+Diagnosis of schizophrenia was made in accordance with DSM-IV criteria on the basis of the
+Structured Clinical Interview for DSM-IV (conducted by a clinically and research-trained
+psychologist (PN)), and a review of the medical record. Nineteen male healthy control subjects
+were recruited from the general community. The control subjects were group matched to the
+patients on age, handedness, parental socioeconomic status (20), and estimated premorbid IQ,
+as assessed by performance on the Reading scale of Wide Range Achievement Test (WRAT-3)
+(21). More than 90% of the participants in this study were new (10% were previously tested
+on the 1.5T magnet), and none overlapped with the samples described in previous studies by
+our group (e.g., 22,23,24).
+Exclusion criteria for all subjects were left-handedness, a history of electroconvulsive shock
+therapy, a history of neurological illness including epilepsy, a lifetime history of substance
+dependence or a history of substance abuse within the past 5 years, a history of steroid use,
+and estimated premorbid IQ below 75. Furthermore, control subjects were screened for the
+presence of an Axis-I disorder using the SCID-Non-Patient edition (25), and were also excluded
+if they reported having first-degree relative with an Axis I disorder.
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al.
+Page 4
+The study was approved by the VA Boston Healthcare System, the Harvard Medical School
+Internal Review Board Committee, and the Brigham and Women's Hospital Human Subjects
+Committee. After a detailed description of the study, each subject gave written informed
+consent to participate. The demographic details for the patients and controls are summarized
+in Table 1.
+Image Acquisition
+Diffusion data were collected on 3 Tesla GE Echospeed system (General Electric Medical
+Systems, Milwaukee, WI). Diffusion-weighted images (DWIs) were acquired using an echo
+planar imaging sequence, and a double echo option to reduce eddy-current related distortions.
+To reduce impact of EPI spatial distortion, an 8 Channel coil and ASSET (Array Spatial
+Sensitivity Encoding techniques, GE) with a SENSE-factor (speed-up) of 2 was used. Eighty-
+five axial slices parallel to the AC-PC line covering whole brain were acquired, in 51 diffusion
+directions with b=900. In addition, 8 baseline scans with b=0 were also acquired. The scan
+parameters were as follows: TR 17000 ms, TE 78 ms, FOV 24 cm, 144x144 matrix, 1.7 mm
+slice thickness, producing isotropic 1.7x1.7x1.7mm voxels. The total scanning time was 17
+minutes.
+Whole-Brain Tractography
+The methods used in this study have been described in detail elsewhere (12). For each subject
+and each image element (voxel), diffusion tensors were estimated from the 59 DWIs. The
+resultant DTIs were first edited to remove extra-cerebral voxels via a semi-automated
+generation of a brain ‘mask’. Deterministic (streamline) tractography was then performed via
+a Runge-Kutta second order protocol with a fixed step size of 0.5mm. Seed-points were placed
+at every point for which Westin's Linear Anisotropy measure (CL) was greater than 0.3 (the
+seeding criterion). Tractography proceeded from each seed point in 0.5mm steps, and followed
+the principal direction of the diffusion ellipsoid. Tracking was stopped when CL fell below
+0.15. The seeding and stopping thresholds were based on the CL rather than on FA in order to
+avoid the circularity inherent in using a dependent variable to define the trajectories of the fiber
+tracts being measured. A length threshold was also employed whereby fibers were excluded
+if they were shorter than 20mm.
+Fiber Clustering
+The fiber-clustering procedure has been described in detail previously (26). The whole-brain
+tractography procedure (see Fig.1a) generated somewhere in the vicinity of twenty thousand
+fibers per subject. The purpose of fiber clustering was to group fibers with similar shapes and
+spatial positions into clusters. Firstly, Fractional Anisotropy (FA) maps calculated for each
+subject were mapped into a common coordinate system using a congealing registration (27),
+and the parameters for this registration were applied to each subjects’ 3-dimensional set of fiber
+trajectories. Secondly, each fiber was compared with every other fiber in the trajectory set, and
+the average distance between pairs of nearest points on the fibers was calculated. This mean
+fiber-distance (Dj) was then converted into a ‘similarity value’ (Wj;) via the formula
+W; jae Pil - where 8 = 60mm. The role of 6 was to set the distance over which fibers could be
+considered similar (26). The ‘similarity value’ of each fiber to every other fiber was entered
+into an ‘affinity matrix’ (W), and the top 15 eigenvectors of W were used to calculate the most
+important shape similarity information for each fiber. The clustering algorithm used k-way
+normalized cuts, which produces clusters with high within-cluster similarity and low between-
+cluster similarity (28). Fiber clustering was performed on the amalgamated fiber tracts of all
+subjects in the study (as opposed to clustering each subject separately), as this enabled the
+identification of homologous fiber-clusters (FCs) between subjects. Tractography and fiber
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Page 5
+clustering were performed using Matlab 7.0 (www.mathworks.com) and 3D-Slicer
+(www.slicer.org), which is freely available to the research community.
+Extraction and Segmentation of the Corpus Callosum
+The output of the clustering procedure was 400 FCs, each consisting of a spatially and
+morphologically similar subset of the fibers generated from the whole-brain tractography (see
+Fig.1b). Of these 400 FCs, 75 were judged to constitute the Corpus Callosum, based on the
+consensus of two independent raters (TW and JS) on three randomly-selected participants
+(inter-rater reliability = 0.901). These 75 Corpus FCs were automatically extracted from all
+participants (on the basis of their unique cluster labels (29)), and the validity of these extracted
+FCs confirmed by a third rater (MK). These CC FCs were then subdivided into six segments
+on the basis of the cortical regions to which they projected (see Fig.1c). Using these cluster
+labels, the FCs constituting the CC were automatically extracted for each subject, and
+subsequently subdivided into six segments on the basis of the cortical regions to which they
+projected. The six segments, which are described and illustrated in Fig.1d, were: Frontal fibers
+(CC1), Premotor fibers (CC2), Sensorimotor fibers (CC3), Parietal fibers (CC4), Occipital
+fibers (CC5) and Temporal fibers (CC6).
+Diffusion Indices
+Fractional Anisotropy (FA) and Mode were calculated at every voxel for each subject.
+Mode is an index of the 3-dimensional shape of diffusion - specifically whether it is better
+described by an oblate (shaped like a pancake; Mode ~ -1) or prolate (shaped like a cigar; Mode
+~ 1) ellipsoid.
+_ (2A, —”A- AaB)(AY — 2A2+A3)(A, +A2 _- 2/3)
+Mode 3
+2( VA A, +A2A2+A3A3 _ Ay Ad _ AzA,4 _ A, A3)
+Fractional Anisotropy (FA) is an index of the asphericity of diffusion, and is calculated as:
+FAW V(Ay — an)? +(Ap — 03) +(Qy — 03)?
+V2 [ait
+a3 +z
+Mean values of the diffusivity indices were calculated for each CC segment, for each subject.
+This was done by averaging the diffusivity values (1.e., FA and Mode) of all voxels through
+which passed any of the FCs that constituted a given CC segment.
+In order to help further infer the microstructural underpinnings of any abnormalities in FA,
+two additional diffusion indices were calculated for only those segments for which group-wise
+differences in FA were observed. These two indices — namely Radial Diffusivity and Axial
+Diffusivity — have been proposed as being sensitive to abnormalities in myelination (19,30)
+and axon integrity (31), respectively. Radial Diffusivity is a measure of the extent of diffusion
+2+A3
+a
+perpendicular to the principal axis of the diffusion ellipsoid, and is calculated as: . Axial
+Diffusivity is a measure of the absolute extent of diffusion along the principal axis of the
+diffusion ellipsoid, and is calculated as: A,
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al.
+Page 6
+Statistical Analysis
+Results
+The statistical analysis was performed using SPSS v11 (www.spss.com). Given the confounds
+associated with using a Repeated-Measures design in the context of severe violations of
+sphericity (32), a Multivariate Analysis of Variance (MANOVA) was used to identify between-
+group differences in FA and Mode. To control for multiple comparisons, Fisher's Protected
+Test was employed (33). If (and only if) the MANOVA identified an overall between-group
+difference in a diffusion index were post hoc contrasts (Fisher's LSD) used to identify the CC
+segments responsible for the omnibus effect.
+Pearson's partial correlations (controlling for CPZ-equivalent medication dosage) were used
+to investigate the relationship between patients’ FA and Radial Diffusivity and their Reality
+Distortion symptom score. As per Liddle (34), Reality Distortion was calculated for each
+patient as the sum of their scores on the Hallucination and Delusion subscales of the Positive
+and Negative Symptom Scale (PANSS). Correlations between FA / Radial Diffusivity and
+patients’ scores on the PANSS-Negative and PANSS-General subscales were also investigated.
+In order to limit the number of statistical comparisons, these correlations were only investigated
+for those CC segments which were identified as being abnormal in the patient group.
+Figure 2 shows the scatterplots for FA (Fig.2a) and Mode (Fig.2b) across the 6 CC segments,
+for the SZ (red) and Control (blue) groups.
+Multivariate ANOVA revealed significant between-group differences in FA (F(6,31)=3.537,
+p=0.009). Post hoc analysis revealed that the FA of CC1 (i.e., the Frontal fibers) was
+significantly decreased in the SZ patients relative to controls (t(1,36)=2.282 p=0.029).
+Additional analyses were performed in order to determine whether the FA reductions in CC1
+were underpinned by changes in Axial or Radial Diffusivity. The SZ patients exhibited
+significant increases in Radial Diffusivity in CC1 (t(1,36)=2.218, p=0.033), but no differences
+in Axial Diffusivity (t(1,36)=0.113, p=0.911), relative to controls (Fig.3).
+Significant between-group differences in Mode were also observed (F(6,31)=2.417, p=0.049)
+(Fig.2b). Post hoc analysis revealed that Mode was significantly increased (indicating a more
+cigar-shaped diffusion ellipsoid) in CC4 (i.e., the Parietal fibers) in the SZ patients relative to
+controls (t(1,36)=2.291, p=0.028).
+Significant positive correlations (controlling for patients’ CPZ-equivalent medication dosage)
+were observed between FA in CC1 and SZ patients’ Reality Distortion scores (1(16)=.601,
+p=0.008) (Fig.4a). Conversely, significant negative correlations were observed between Radial
+Diffusivity in CC1 and SZ patients’ Reality Distortion scores (r(16)=-.538, p=0.021) (Fig.4b).
+The results of these correlations were similar (and remained statistically significant) when
+CPZ-equivalent medication dosage was removed as a covariate.
+There was a (non-significant) trend for a negative correlation between patients' FA in CC1 and
+their total score on the PANSS-Negative subscale, controlling for medication dosage (r(16)=-.
+341, p=0.166). Each of the individual PANSS-Negative items was found to be negatively
+correlated with FA in CC1, although this only reached statistical significance for item N5
+(difficulty in abstract thinking) (r(16)=-.477, p=0.046). No statistically significant correlations
+were observed between patients' FA in CC1 and their scores on the PANSS-General scale or
+subscales.
+No significant correlations were observed between patients' CPZ-equivalent medication
+dosage and their FA or Mode in any of the six CC segments (see Supplement 1). In contrast,
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Page 7
+significant negative correlations were observed between age and FA across groups, consistent
+with several previous studies (35-37) (see Supplement 1).
+Discussion
+The primary findings of this study were of FA and Radial Diffusivity abnormalities in the
+Frontal CC fibers, and Mode abnormalities in the Parietal CC fibers in 19 SZ patients relative
+to 19 matched healthy controls. Furthermore, the severity of patients’ symptoms of Reality
+Distortion (i.e., hallucinations and delusions) were found to be positively correlated with FA
+and negatively correlated with Radial Diffusivity in the Frontal CC fibers. In light of the FA
+reductions and Radial Diffusivity increases which were observed in the SZ patients in this CC
+segment, these results suggest that the most severely psychotic patients were the least abnormal
+in terms of their FA and Radial Diffusivity in these fibers.
+Whilst FA reductions in the genu of the CC in SZ patients have been reported previously
+(38,39), including in patients with first-episode SZ (40) (see (10,41) for reviews), their
+microstructural underpinnings have not been well established. FA reductions have been found
+to occur in response to axon death, myelin damage, damage to the axon membrane, and reduced
+‘fiber coherence’ (i.e., more variable fiber trajectories within a WM bundle) (10,42). While
+there is little evidence to suggest the presence of any substantial degree of abnormal neuron
+death in SZ patients (e.g., see (43)), there is, in contrast, a growing body of evidence suggesting
+that SZ patients exhibit abnormalities in both their myelin and in the integrity of their axon
+membranes (44,45). Distinguishing between these two distinct neuropathologies was one
+motivation behind the development of the diffusion indices Axial and Radial Diffusivity. In a
+series of animal studies, Song (19) demonstrated that while damage to the myelin of the optic
+nerve resulted in increased Radial (but unchanged Axial) Diffusivity, damage to the axonal
+membrane of the optic nerve (but preservation of the myelin) resulted in reduced Axial but
+unchanged Radial Diffusivity (31). The results of these studies support the claim that Radial
+Diffusivity is a putative measure of myelin integrity while Axial Diffusivity is a putative
+measure of axonal integrity. Hence the results of the present study in which the SZ patients
+were observed to exhibit abnormally increased Radial Diffusivity but unchanged Axial
+Diffusivity, relative to controls, in the Frontal CC fibers, suggests that the FA abnormalities
+in these fibers were more likely underpinned by myelin abnormalities as opposed to damage
+to the axon membrane.
+If the observed diffusion abnormalities in the Frontal CC fibers were indeed the result of myelin
+damage, then this might be expected to result in slowed impulse conduction (46). Furthermore,
+it might also seem likely that those SZ patients with the most profound diffusion abnormalities
+(and hence presumably the most severe conduction delays) would exhibit the most severe
+psychopathology. Such a relationship, however, was not observed in the present study. On the
+contrary, those SZ patients with the most subnormal levels of FA (and most supranormal levels
+of Radial Diffusivity) exhibited the least severe symptoms of Reality Distortion. Far from
+being an unprecedented finding, this seemingly paradoxical result of a positive correlation
+between FA and psychotic symptom severity has been reported many times previously,
+including in the CC (17,47), cingulum bundle (17), arcuate fasciculus (17), superior
+longitudinal fasciculus (14,15) and inferior fronto-occipital fasciculus (16). It was also notable
+that, in the present study, the most severely psychotic patients did not show abnormally high
+levels of FA, but instead exhibited FA values lower than the healthy controls but higher than
+the less-psychotic patients (see Fig.4). What is the explanation for this seemingly paradoxical
+finding that the more floridly psychotic a SZ patient, the less severe their FA abnormalities?
+To the extent that axonal conduction delays can be inferred from diffusivity abnormalities in
+DTI, these results suggest that while some amount of neural desynchronization may be
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al.
+Page 8
+necessary for the development of psychotic symptoms, too much desynchronization may in
+fact preclude the development of highly systematized hallucinations and delusions such as
+would score highly on a clinical rating scale such as the PANSS. This idea has some support
+in the WM literature. For example, while psychotic symptoms have been commonly reported
+in patients with the degenerative demyelinating disease metachromatic leukodystrophy (48),
+they are more likely to occur in the early stages of the disease when myelin pathologies are
+relatively minor compared to the late stages of the disease when severe demyelination is
+apparent (49). If it is true that psychotic symptoms represent the brain's attempt to incorporate
+disjointed neural activity into a coherent (albeit pathological) framework (50), then perhaps
+this “pathological integration” is only possible up to a certain level of temporal
+desynchronization. In other words, while mild asynchronies between the activities of spatially
+discrete brain regions might give rise to psychotic symptoms (such as, for example, between
+the different brain regions stimulated by a primary discharge and its corollaries (51)), severe
+asynchronies (such as might be caused by severe WM damage) might not be incorporable into
+a coherent phenomenological framework and thus not give rise to psychotic symptoms. Such
+severe WM damage could instead result in something of a ‘cognitive shutdown’ which could
+underlie the negative symptoms of SZ. This would explain the negative correlation between
+FA and negative symptom severity that has been observed previously in SZ patients (16,47,
+52), and for which there was a non-significant trend in the present study. Testing these
+hypotheses could potentially provide a fruitful avenue for future research.
+Our finding of abnormally increased Mode (i.e., abnormally prolate diffusion ellipsoids) in the
+Parietal CC fibers in the SZ patients has not (to our knowledge) been reported previously. Mode
+is a relatively recently-developed measure which provides independent and complementary
+information to the stalwart index of FA (13). In terms of its physiological determinants, Mode
+has been found to decrease in the presence of fiber crossings (13). Thus one explanation as to
+why the SZ patients exhibited abnormally increased Mode but normal levels of FA in the
+parietal CC fibers might be that the patients evince abnormalities in a fiber bundle adjacent to
+these CC fibers (e.g., the cingulum bundle, as recently suggested by Mandah et al., (53)),
+resulting in areduction in the density of fiber crossings, and hence elevated Mode, in this region
+of the CC. Our finding of diffusion abnormalities in the Parietal CC fibers is also consistent
+with the results of several early-onset studies which have reported parietal lobe white matter
+to be among the first cerebral areas to evince structural abnormalities in patients with
+schizophrenia — abnormalities that have been argued to contribute to the emergence of
+psychotic symptoms through their effects on frontal-parietal connectivity (54,55).
+A limitation of the present study relates to the fact that all of the SZ patients were suffering
+from chronic schizophrenia and had been at least intermittently (and in many cases chronically)
+exposed to neuroleptic medications. This is relevant in light of evidence from primate studies
+suggesting that exposure to both typical and atypical neuroleptics can influence brain structure
+in and of itself (56). Notwithstanding the fact that a) patients’ chlorpromazine-equivalent
+medication dosages were statistically controlled for in the present study, and b) there were no
+significant correlations between patients' CPZ-equivalent medication dosages and their FA,
+Mode, or Radial Diffusivity in any of the 6 CC segments (see Supplement 1), replicating these
+results in a population of first-episode, neuroleptic-naive SZ patients would strengthen
+confidence into their validity, and would be a worthwhile aim for future research. A second
+limitation relates to the fact that all the patients were male. Whilst this was advantageous in
+the sense that it increased the homogeneity of the sample and thus the power, it obviously
+limited the extent to which the results can be generalized to females.
+In summary, the main findings of this study were of FA reductions and Radial Diffusivity
+increases in Frontal CC fibers (consistent with dysmyelination) and Mode increases in Parietal
+CC fibers (consistent with a relative absence of crossing fibers) in 19 patients with
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al.
+Page 9
+schizophrenia relative to 19 matched healthy controls. Significant correlations were also
+observed between patients' FA and Radial Diffusivity in the Frontal fibers and the severity of
+their psychotic symptoms, such that patients with the most abnormal levels of FA and Radial
+Diffusivity exhibited the /east severe symptoms of Reality Distortion. This result, we suggest,
+provides support for those theories which emphasize neural timing abnormalities in the etiology
+of psychotic symptoms.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgments
+Thomas Whitford is supported by an Overseas-Based Biomedical Training Fellowship from the National Health and
+Medical Research Council of Australia (NHMRC 520627), administered through the University of Melbourne. Marek
+Kubicki is supported by grants from the National Institutes of Health (RO3 MH068464-0; ROI MH 50747 to MES),
+the Harvard Medical School (Milton Award), and the National Alliance for Research on Schizophrenia and Depression.
+Jason Schneiderman is supported by a fellowship from the National Institutes of Health (T32 MH 016259). Martha
+Shenton is supported by grants from the National Institutes of Health (KO5 MH 070047 and ROI MH 50747), the
+Department of Veterans Affairs (VA Merit Award, VA Research Enhancement Award Program and VA Schizophrenia
+Research Center Grant), and the Boston Center for Intervention Development and Applied Research (CIDAR) funded
+through a center grant mechanism (P50 MH 080272). Robert McCarley is supported by grants from the Department
+of Veterans Affairs (VA Merit Award, VA Schizophrenia Research Center Grant), the National Institute of Mental
+Health (MH 040799), and the Boston Center for Intervention Development and Applied Research (CIDAR, P50 MH
+080272). Lauren O'Donnell is supported by an R25 grant from the National Institute of Health (CA089017-06A2).
+This work is also supported, in part, from the National Alliance for Medical Image Computing (NAMIC), funded by
+the National Institutes of Health through the NIH Roadmap Initiative for Medical Research (Grant U54 EB005149 to
+Kubicki and Shenton). All authors listed contributed to the study by either being involved in the design and
+implementation (TW, MK, MES, JSS), the methodology used (TW, MK, MES, LO, CFW), the data acquisition and
+analysis (TW, MK, RK, JLA, UK, DM, MN, PN), the interpretation of neuropsychological measures (PN), or were
+involved in the writing (TW, MK, MES, JSS, LO, MN, RWM).
+References
+1. Andreasen NC. A unitary model of schizophrenia: Bleuler's “fragmented phrene” as schizencephaly.
+Archives of General Psychiatry 1999;56:78 1-787. [PubMed: 12884883]
+2. Friston K. Schizophrenia and the disconnection hypothesis. Acta Psychiatr Scand Suppl 1999;395:68—
+79, [PubMed: 10225335]
+3. Bartzokis G. Schizophrenia: breakdown in the well-regulated lifelong process of brain development
+and maturation. Neuropsychopharmacology 2002;27:672-683. [PubMed: 12377404]
+4. Norman RM, Malla AK, Williamson PC, Morrison-Stewart SL, Helmes E, Cortese L. EEG coherence
+and syndromes in schizophrenia. Br J Psychiatry 1997;170:411-415. [PubMed: 9307688]
+5. Fletcher P, McKenna PJ, Friston KJ, Frith CD, Dolan RJ. Abnormal cingulate modulation of fronto-
+temporal connectivity in schizophrenia. Neuroimage 1999;9:337-342. [PubMed: 10075903]
+6. Ragland J, Gur R, Valdez J, Turetsky B, Elliott M, Kohler C, et al. Event-related {MRI of frontotemporal
+activity during word encoding and recognition in schizophrenia. Am J Psychiatry 2004;161:1004—
+1015. [PubMed: 15169688]
+. Fields R. The other half of the brain. Sci Am 2004;290:54—-61. [PubMed: 15045754]
+Crow T. Schizophrenia as a transcallosal misconnection syndrome. Schizophr Res 1998;30:111-114.
+[PubMed: 9549773]
+9. Shenton M, Dickey C, Frumin M, McCarley R. A review of MRI findings in schizophrenia. Schizophr
+Res 2001;49:1-52. [PubMed: 11343862]
+10. Kubicki M, McCarley R, Westin CF, Park HJ, Maier S, Kikinis R, et al. A review of diffusion tensor
+imaging studies in schizophrenia. J Psychiatr Res 2007;41:15-30. [PubMed: 16023676]
+11. Hasan K. Diffusion tensor eigenvalues or both mean diffusivity and fractional anisotropy are required
+in quantitative clinical diffusion tensor MR reports: fractional anisotropy alone is not sufficient.
+Radiology 2006;239:611-612. author reply 612-613. [PubMed: 16641362]
+on
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+Page 10
+Voineskos A, O'Donnell L, Lobaugh N, Markant D, Ameis $, Niethammer M, et al. Quantitative
+examination of a novel clustering method using magnetic resonance diffusion tensor tractography.
+Neuroimage 2009;45:370-376. [PubMed: 19159690]
+Kindlmann G, Ennis D, Whitaker R, Westin C. Diffusion tensor analysis with invariant gradients and
+rotation tangents. IEEE Trans Med Imaging 2007;26:1483-1499. [PubMed: 18041264]
+Shergill S, Kanaan R, Chitnis X, O'Daly O, Jones D, Frangou S, et al. A diffusion tensor imaging
+study of fasciculi in schizophrenia. Am J Psychiatry 2007; 164:467-473. [PubMed: 17329472]
+Seok J, Park H, Chun J, Lee S, Cho H, Kwon J, et al. White matter abnormalities associated with
+auditory hallucinations in schizophrenia: a combined study of voxel-based analyses of diffusion
+tensor imaging and structural magnetic resonance imaging. Psychiatry Res 2007;156:93-104.
+[PubMed: 17884391]
+Szeszko P, Robinson D, Ashtari M, Vogel J, Betensky J, Sevy S, et al. Clinical and neuropsychological
+correlates of white matter abnormalities in recent onset schizophrenia. Neuropsychopharmacology
+2008;33:976-984. [PubMed: 17581532]
+Hubl D, Koenig T, Strik W, Federspiel A, Kreis R, Boesch C, et al. Pathways that make voices: white
+matter changes in auditory hallucinations. Arch Gen Psychiatry 2004;61:658—668. [PubMed:
+15237078]
+Whitford, TJ.; Kubicki, M.; Shenton, ME. The neuroanatomical underpinnings of schizophrenia and
+their implications as to the cause of the disorder: a review of the structural MR and diffusion literature.
+In: Shenton, ME.; Turetsky, B., editors. Neuropsychiatric Imaging. New York: Cambridge University
+Press; in press
+Song S, Sun S$, Ramsbottom M, Chang C, Russell J, Cross A. Dysmyelination revealed through MRI
+as increased radial (but unchanged axial) diffusion of water. Neuroimage 2002;17:1429-1436.
+[PubMed: 12414282]
+Hollingshead, A. Two factor of index of social position. New Haven: Yale Station; 1965.
+Wilkinson, GS.; Wide Range, I. The Wide Range Achievement Test - Administration Manual.
+Wilmingham: Wide Range Inc; 1993.
+Kubicki M, Westin C, Nestor P, Wible C, Frumin M, Maier S, et al. Cingulate fasciculus integrity
+disruption in schizophrenia: a magnetic resonance diffusion tensor imaging study. Biol Psychiatry
+2003;54:1171-1180. [PubMed: 14643084]
+Kubicki M, Park H, Westin C, Nestor P, Mulkern R, Maier S, et al. DTI and MTR abnormalities in
+schizophrenia: analysis of white matter integrity. Neuroimage 2005;26:1109-1118. [PubMed:
+15878290]
+Kubicki M, Styner M, Bouix S, Gerig G, Markant D, Smith K, et al. Reduced interhemispheric
+connectivity in schizophrenia-tractography based segmentation of the corpus callosum. Schizophr
+Res 2008;106:125-131. [PubMed: 18829262]
+First, MB.; Spitzer, RL.; Gibbon, M.; Williams, BJ. Structured Clinical Interview for DSM-IV-TR
+Axis I Disorders, Research Version, Non-patient Edition (SCID-I/NP). New York: Biometrics
+Research, New York State Psychiatric Institute; 2002.
+O'Donnell LJ, Kubicki M, Shenton ME, Dreusicke MH, Grimson WE, Westin CF. A method for
+clustering white matter fiber tracts. AJNR Am J Neuroradiol 2006;27:1032—1036. [PubMed:
+16687538]
+Zollei L, Learned-Miller E, Grimson E, Wells W. Efficient population registration of 3D data.
+International Conference of Computer Vision. 2005
+Ng, A.; Jordan, M.; Weiss, Y. On spectral clustering: analysis and an algorithm. Cambridge, MA:
+MIT Press; 2002.
+O'Donnell L, Westin C. White matter tract clustering and correspondence in populations. Med Image
+Comput Comput Assist Interv 2005;8:140-147. [PubMed: 16685839]
+Seal M, Yiicel M, Fornito A, Wood S, Harrison B, Walterfang M, et al. Abnormal white matter
+microstructure in schizophrenia: a voxelwise analysis of axial and radial diffusivity. Schizophr Res
+2008; 101:106—110. [PubMed: 18262770]
+Song S, Sun S, Ju W, Lin S, Cross A, Neufeld A. Diffusion tensor imaging detects and differentiates
+axon and myelin degeneration in mouse optic nerve after retinal ischemia. Neuroimage
+2003;20:1714—1722. [PubMed: 14642481]
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al. Page 11
+32. Field, A. Discovering Statistics using SPSS. 3. Thousand Oaks, CA: Sage Publications; 2009.
+33. Fisher, RA. The design of experiments. Edinburgh: Oliver and Boyd; 1935.
+34. Liddle PF. The symptoms of chronic schizophrenia: a re-examination of the positive-negative
+dichotamy. British Journal of Psychiatry 1987;151:145-151. [PubMed: 3690102]
+35. Burzynska A, Preuschhof C, Backman L, Nyberg L, Li S, Lindenberger U, et al. Age-related
+differences in white matter microstructure: Region-specific patterns of diffusivity. Neuroimage
+2010;49:2104—2112. [PubMed: 19782758]
+36. Zhang Y, AT D, Hayasaka S, Jahng G, Hlavin J, Zhan W, et al. Patterns of age-related water diffusion
+changes in the human brain by concordance and discordance analysis. Neurobiol Aging. in press.
+37. Rosenberger G, Kubicki M, Nestor P, Connor E, Bushell G, Markant D, et al. Age-related deficits in
+fronto-temporal connections in schizophrenia: a diffusion tensor imaging study. Schizophr Res
+2008; 102:181-188. [PubMed: 18504117]
+38. Buchsbaum M, Friedman J, Buchsbaum B, Chu K, Hazlett E, Newmark R, et al. Diffusion tensor
+imaging in schizophrenia. Biol Psychiatry 2006;60:1181—1187. [PubMed: 16893533]
+39. Kanaan R, Shergill S, Barker G, Catani M, Ng V, Howard R, et al. Tract-specific anisotropy
+measurements in diffusion tensor imaging. Psychiatry Res 2006; 146:73-82. [PubMed: 16376059]
+40. Price G, Cercignani M, Parker G, Altmann D, Barnes T, Barker G, et al. Abnormal brain connectivity
+in first-episode psychosis: a diffusion MRI tractography study of the corpus callosum. Neuroimage
+2007;35:458—466. [PubMed: 17275337]
+41. Kanaan R, Kim J, Kaufmann W, Pearlson G, Barker G, McGuire P. Diffusion tensor imaging in
+schizophrenia. Biol Psychiatry 2005;58:921—929. [PubMed: 16043134]
+42. Beaulieu C. The basis of anisotropic water diffusion in the nervous system - a technical review. NUR
+Biomed 15:435-455. [PubMed: 12489094]
+43. Pakkenberg B. Total nerve cell number in neocortex in chronic schizophrenics and controls estimated
+using optical disectors. Biol Psychiatry 1993;34:768-772. [PubMed: 8292680]
+44. Uranova N, Vostrikov V, Vikhreva O, Zimina I, Kolomeets N, Orlovskaya D. The role of
+oligodendrocyte pathology in schizophrenia. Int J Neuropsychopharmacol 2007; 10:537-545.
+[PubMed: 17313698]
+45. Davis KL, Stewart DG, Friedman JI, Buchsbaum M, Harvey PD, Hof PR, et al. White matter changes
+in schizophrenia: evidence for myelin-related dysfunction. Arch Gen Psychiatry 2003;60:443-456.
+[PubMed: 12742865]
+46. Roy K, Murtie J, El-Khodor B, Edgar N, Sardi S, Hooks B, et al. Loss of erbB signaling in
+oligodendrocytes alters myelin and dopaminergic function, a potential mechanism for
+neuropsychiatric disorders. Proc Natl Acad Sci U S$ A 2007;104:8131-8136. [PubMed: 17483467]
+47. Rotarska-Jagiela A, Sch6nmeyer R, Oertel V, Haenschel C, Vogeley K, Linden D. The corpus
+callosum in schizophrenia-volume and connectivity changes affect specific regions. Neuroimage
+2008;39:1522-1532. [PubMed: 18096406]
+48. Black D, Taber K, Hurley R. Metachromatic leukodystrophy: a model for the study of psychosis. J
+Neuropsychiatry Clin Neurosci 2003;15:289-293. [PubMed: 12928504]
+49. Weinberger, DR.; Marceno, S. Schizohprenia as a neurodevelopmental disorder. In: Hirsch, SR.;
+Weinberger, DR., editors. Schizophrenia. 2. New York: Wiley-Blackwell; 2003. p. 326-348.
+50. Maher B. Delusional thinking and perceptual disorder. Journal of Individual Psychology 1974;30:98-
+113. [PubMed: 4857199]
+. Ford J, Gray M, Faustman W, Roach B, Mathalon D. Dissecting corollary discharge dysfunction in
+schizophrenia. Psychophysiology 2007;44:522-529. [PubMed: 17565658]
+52. Wolkin A, Choi S, Szilagyi S, Sanfilipo M, Rotrosen J, Lim K. Inferior frontal white matter anisotropy
+and negative symptoms of schizophrenia: a diffusion tensor imaging study. Am J Psychiatry
+2003; 160:572-574. [PubMed: 12611842]
+53. Maddah M, Kubicki M, Wells W, Westin C, Shenton M, Grimson W. Findings in schizophrenia by
+tract-oriented DT-MRI analysis. Medical Image Computing and Computer Assisted Intervention
+2008:917-924. [PubMed: 18979833]
+54. Kyriakopoulos M, Vyas N, Barker G, Chitnis X, Frangou S. A diffusion tensor imaging study of
+white matter in early-onset schizophrenia. Biol Psychiatry 2008;63:519-523. [PubMed: 17662964]
+5
+—
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al.
+55.
+56.
+57.
+58.
+Page 12
+Kyriakopoulos M, Perez-Iglesias R, Woolley J, Kanaan R, Vyas N, Barker G, et al. Effect of age at
+onset of schizophrenia on white matter abnormalities. Br J Psychiatry 2009; 195:346—353. [PubMed:
+19794204]
+Konopaske G, Dorph-Petersen K, Sweet R, Pierri J, Zhang W, Sampson A, et al. Effect of chronic
+antipsychotic exposure on astrocyte and oligodendrocyte numbers in macaque monkeys. Biol
+Psychiatry 2008;63:759-765. [PubMed: 17945195]
+Rey M, Schulz P, Costa C, Dick P, Tissot R. Guidelines for the dosage of neuroleptics. I:
+Chlorpromazine equivalents of orally administered neuroleptics. Int Clin Psychopharmacol
+1989;4:95-104. [PubMed: 2568378]
+Woods S. Chlorpromazine equivalent doses for the newer atypical antipsychotics. J Clin Psychiatry
+2003;64:663-667. [PubMed: 12823080]
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al.
+Page 13
+Figure 1.
+A summary of the image processing procedures. Firstly, whole-brain tractography was
+performed on each subject's Diffusion-Weighted Image (Panel A), and the resultant fibers
+combined for all subjects. Fibers with similar shapes and spatial positions were then grouped
+together into one of 400 fiber-clusters (Panel B). The fiber-clusters constituting the Corpus
+Callosum were then identified for a randomly selected subject (Panel C), and subsequently
+subdivided into six segments on the basis of which cortical regions the fiber-clusters projected
+(Panel D). The fiber-clusters constituting each of the six Corpus segments were then
+automatically extracted for all subjects, and the average FA and Mode of these fiber-clusters
+calculated. As illustrated in Panel D, the six Corpus segments were: CC] (red) — Frontal fibers
+(defined as fibers projecting anterior to the SMA), CC2 (blue) — Premotor fibers (defined as
+fibers projecting to the SMA or premotor areas), CC3 (green) — Sensorimotor fibers (defined
+as fibers projecting to the primary motor or primary sensory cortices), CC4 (pink) — Parietal
+fibers (defined as fibers projecting to the superior or inferior parietal lobules), CCS (orange) —
+Occipital fibers (defined as fibers projecting posterior to the parieto-occipital sulcus) and CC6
+(yellow) — Temporal fibers (defined as fibers projecting ventrally to the temporal cortices).
+The Corpus segmentations of four randomly selected subjects are displayed in Panel E.
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al.
+0.505
+A e
+e e -
+®
+> 0.474 oo eo.
+a. e % e eo @
+fe) ©
+FS . te 8 ae
+(e) e pu
+a | & » #2 «3
+<x ° oe * ¢ ” e
+w e % .° et 2 “2 e f ®
+om ? ee ° &e e e
+(e) 0.417 © | @ @ e Ps @ P
+3 Se eg rF Fe Cy
+s (ge = 34 -
+LL. ‘ a= eo » ° °
+0.385 bd pm ee m
+7s ° og 8
+e ili
+é ?
+0.35
+CC1 CC2 CC3 CC4 CC5 CC6
+0.705
+e
+*K ° °
+oc B ° ° FS
+}
+- @8 se
+0.56 ; ye °
+8 ae ae
+\°) @ é 2 ee ° ?s i
+= wig af 2 °*
+= Qe a?
+: % eo © : e
+« * -”
+0.42: °
+0.35
+CC1 CC2 CC3 CC4 GC5 CC6
+Figure 2.
+Page 14
+Scatterplots illustrating the variations in FA (Panel A) and Mode (Panel B), between groups
+(SZ in red, Controls in blue), and across Corpus segments (CC1 through CC6). The black bars
+represent CC segment means, and the asterisks represent significant between-group differences
+in diffusivity.
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al. Page 15
+0.4505
+*k @e°
+0.425- ‘ ee
+-
+S oF @@
+= 0.4005 Se,e oot
+2 a? Cee*
+i . Ce
+0.375- e° @
+®
+e®
+0.350 as CON
+— 1.0%
+O
+= bd e
+> Ce @
+2 Cone® @e%ee
+= € Q @
+QO 0.85 e® “ns.
+i ©
+ne}
+wr
+0.7 v v
+SZ CON
+1.85
+_
+OO
+= 1.75 @
+(e)> °° “
+b—4 - e
+1.65 ous ee®
+= e oy5 Ty he
+LS So,e
+O 154 * ee|
+& e
+1.4 J UJ
+SZ CON
+Figure 3.
+Scatterplots illustrating the variations in FA (Panel A), Radial Diffusivity (Panel B) and Axial
+Diffusivity (Panel C) between groups (SZ in red, Controls in blue) for CC1 (frontal fibers).
+The black bars represent CC segment means, and the asterisks represent significant between-
+group differences in diffusivity.
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+Jdosnuey| JOuINY Wd-HIN JdOsnuey| JOUINY Wd-HIN
+1duosnuey JOuINY VWd-HIN
+Whitford et al. Page 16
+e e
+Partial r = .601, p=0.008 e
+@ 12.55
+— e e
+fe)
+[=]
+”
+c< 10.07
+2 e
+£@ 757
+fa)
+w 5.07 =
+® 2
+a #
+8
+264 A
+ee
+T T T
+0.36 0.38 0.40 0.42
+FA for CC1
+ee e
+: B
+@ 12.57 . .
+°
+oO
+”
+c 10.07
+2 °
+be.® 757
+ra
+>
+= | §
+s 5.0 2
+a z
+€ Partial r = -.538, p=0.021
+254 oO
+e e
+T T T T T
+0.75 0.80 0.85 0.90 0.95
+Radial Diffusivity for CC1
+Figure 4.
+Scatterplots illustrating the relationships between SZ patients’ Reality Distortion score (i.e.,
+the sum of the PANSS-Hallucinations and Delusions subscales) and their FA (Panel A) and
+Radial Diffusivity (Panel B) in CC1. The black lines represent the line-of-best-linear-fit for
+the data. The red dotted lines show the mean values of FA and Radial Diffusivity exhibited by
+the healthy controls.
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.
+
+\duosnuey| JouIny Wd-HIN
+Whitford et al. Page 17
+Table 1
+Demographic details of the subject sample — means and standard deviations are provided.
+Variable SZ patients (n=19) Controls (n=19) SZ vs. Controls
+Age (yrs) 37.9 (9.60) 37.0 (12.2) t(36)=0.27, p=0.79
+Handedness (1=RH, -1=LH) 0.71 (0.25) 0.79 (0.15) t(30)=0.98, p=0.33
+Parental SES 2.63 (1.07) 2.22 (1.16) t(35)=1.12, p=0.27
+Premorbid IQ (WRAT-3 Reading) 94.8 (11.4) 102.4 (9.9) t(26)=1.80, p=0.08
+Medication dosage (CPZ equivalent! ) 334 (288) - -
+Medication type2 2 typical, 13 atypical, 1 both, 3 unmedicated - -
+Age-at-onset (yrs) 23.5 (5.71) - -
+PANSS-Positive 22.4 (8.76) - -
+PANSS-Negative 21.9 (10.4) - -
+PANSS-General 43.8 (15.5) - -
+I
+Medication dosages: Patients’ medication dosages at time of clinical interview were converted into chlorpromazine (CPZ) equivalents on the basis
+of the Rey et al. (57) conversion for typical antipsychotics and the Woods (58) conversion for atypical antipsychotics.
+Medication type: At the time of interview, two patients were taking typical antipsychotic medications (fluphenazine or haloperidol), thirteen were
+taking atypical antipsychotics (clozapine, risperidone or olanzapine), one patient was taking both typical and atypical antipsychotics, and three patients
+were unmedicated.
+1duosnuey JOUINY Wd-HIN
+\duosnueyy JouINY Wd-HIN
+Biol Psychiatry. Author manuscript; available in PMC 2011 July 1.

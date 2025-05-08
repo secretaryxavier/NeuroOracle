@@ -1,0 +1,2927 @@
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+https://doi.org/10.5194/acp-19-9125-2019
+© Author(s) 2019. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Biomass burning aerosol over the Amazon: analysis of aircraft,
+surface and satellite observations using a global aerosol model
+Carly L. Reddington1, William T. Morgan2, Eoghan Darbyshire2, Joel Brito3,a, Hugh Coe2, Paulo Artaxo3,
+Catherine E. Scott1, John Marsham1, and Dominick V. Spracklen1
+1School of Earth and Environment, University of Leeds, Leeds, UK
+2Centre of Atmospheric Sciences, School of Earth and Environmental Science, University of Manchester, Manchester, UK
+3Physics Institute, University of São Paulo, São Paulo, Brazil
+anow at: Laboratoire de Météorologie Physique, Université Clermont Auvergne, Aubière, France
+Correspondence: Carly L. Reddington (c.l.s.reddington@leeds.ac.uk)
+Received: 14 August 2018 – Discussion started: 10 September 2018
+Revised: 24 April 2019 – Accepted: 9 June 2019 – Published: 17 July 2019
+Abstract. Vegetation ﬁres emit large quantities of aerosol
+into the atmosphere, impacting regional air quality and cli-
+mate. Previous work has used comparisons of simulated and
+observed aerosol optical depth (AOD) in regions heavily im-
+pacted by ﬁres to suggest that emissions of aerosol particles
+from ﬁres may be underestimated by a factor of 2–5. Here
+we use surface, aircraft and satellite observations made over
+the Amazon during September 2012, along with a global
+aerosol model to improve understanding of aerosol emis-
+sions from vegetation ﬁres. We apply three different satellite-
+derived ﬁre emission datasets (FINN, GFED, GFAS) in the
+model. Daily mean aerosol emissions in these datasets vary
+by up to a factor of 3.7 over the Amazon during this pe-
+riod, highlighting the considerable uncertainty in emissions.
+We ﬁnd variable agreement between the model and observed
+aerosol mass concentrations. The model reproduces observed
+aerosol concentrations over deforestation ﬁres well in the
+western Amazon during dry season conditions with FINN or
+GFED emissions and during dry–wet transition season con-
+ditions with GFAS emissions. In contrast, the model underes-
+timates aerosol concentrations over savanna ﬁres in the Cer-
+rado environment east of the Amazon Basin with all three
+ﬁre emission datasets. The model generally underestimates
+AOD compared to satellite and ground stations, even when
+the model reproduces the observed vertical proﬁle of aerosol
+mass concentration. We suggest it is likely caused by un-
+certainties in the calculation of AOD, which are as large as
+∼90 %, with the largest sensitivities due to uncertainties in
+water uptake and relative humidity. Overall, we do not ﬁnd
+evidence that particulate emissions from ﬁres are systemat-
+ically underestimated in the Amazon region and we caution
+against using comparison with AOD to constrain particulate
+emissions from ﬁres.
+1
+Introduction
+Vegetation and peat ﬁres (open biomass burning) are a ma-
+jor source of particulate matter (aerosol) for the atmosphere
+(van der Werf et al., 2010; Langmann et al., 2009), dominat-
+ing the aerosol burden in many tropical regions (Lelieveld
+et al., 2015). There is considerable uncertainty in the mag-
+nitude of aerosol emissions from tropical ﬁres (Reddington
+et al., 2016), hindering estimates of the impact of ﬁre on
+weather (Kolusu et al., 2015; Archer-Nicholls et al., 2016),
+climate (Rap et al., 2013; Thornhill et al., 2018) and human
+health (Johnston et al., 2012; Marlier et al., 2013; Redding-
+ton et al., 2015; Reid et al., 2016). Here we evaluate the
+Global Model of Aerosol Processes (GLOMAP; Spracklen et
+al., 2005) against a comprehensive set of measurement data
+(including surface, aircraft and satellite observations) col-
+lected during the South American Biomass Burning Analysis
+(SAMBBA) ﬁeld campaign in September and October 2012
+over the Amazon basin. Our aims are to (1) quantify the ef-
+fects of biomass burning emissions on the aerosol distribu-
+tion over the Amazon and (2) explore how different ﬁre emis-
+sion datasets affect simulated aerosol concentrations over
+this region.
+Published by Copernicus Publications on behalf of the European Geosciences Union.
+
+9126
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Models systematically underestimate aerosol optical depth
+(AOD) in regions impacted by tropical biomass burning,
+potentially suggesting that emission datasets underestimate
+aerosol emissions (Reddington et al., 2016). Fire emission
+datasets are typically created through combining information
+on ﬁre location and extent from satellite remote sensing with
+estimates of biomass consumption and species-speciﬁc emis-
+sion factors (Langmann et al., 2009). Emissions could be un-
+derestimated due to missing ﬁre detections or uncertainties
+in burned area (Randerson et al., 2012), fuel consumption
+(van Leeuwen et al., 2014; Andela et al., 2016) or emission
+factors (van Leeuwen et al., 2013; Stockwell et al., 2016).
+Agreement between bottom-up and top-down approaches for
+carbon emissions from ﬁres is typically better than for par-
+ticulate matter (PM) (Yin et al., 2016), suggesting that un-
+certainties in burned area or fuel loads do not dominate.
+Estimating emissions of PM from ﬁres is further compli-
+cated by the emission of a range of semi-volatile and inter-
+mediate volatility organic compounds that can contribute to
+aerosol formation (Grieshop et al., 2009; Jathar et al., 2014).
+These processes are poorly understood and are not treated in
+many models. Observational studies report varying amounts
+of secondary organic aerosol (SOA) formation in different
+biomass burning plumes. Analysis of Siberian biomass burn-
+ing plumes (Konovalov et al., 2017) and southern African sa-
+vanna and grassland ﬁre plumes (Vakkari et al., 2018) show
+substantial in-plume SOA formation, whereas other stud-
+ies report little SOA formation in tropical biomass burning
+plumes (Jolleys et al., 2012). At the global scale, a recent
+modelling study (Tsimpidi et al., 2016) estimates that 30 %
+of organic aerosol (OA) in biomass burning aerosol origi-
+nates from direct particulate emissions, with the remainder
+being formed in the atmosphere. Analysis of OA : CO ratios
+in biomass burning plumes during the SAMBBA campaign
+suggests limited SOA formation from Amazon ﬁres (Brito et
+al., 2014).
+Top-down studies typically use AOD, available from satel-
+lite remote sensing, to help constrain aerosol emissions from
+ﬁres. In addition to particle mass concentration, simulated
+AOD is sensitive to assumptions about particle size, chem-
+ical composition, vertical proﬁle of aerosol, optical proper-
+ties and water uptake, as well as meteorology and model res-
+olution (Brock et al., 2016). Reddington et al. (2016) found
+that a global aerosol model showed better agreement with ob-
+served PM mass concentration compared to AOD, potentially
+suggesting that some of the discrepancy between top-down
+and bottom-up studies may be connected to the calculation
+of AOD.
+To help explore these issues we analyse observations from
+the SAMBBA ﬁeld campaign over the southern Amazon dur-
+ing the end of the dry season and transition to wet season.
+The Amazon exhibits a very strong seasonal cycle in aerosol
+concentrations (Martin et al., 2010). In the wet season (∼De-
+cember to ∼May), PM2.5 (particulate matter with diameters
+smaller than 2.5 µm) concentrations in the central Amazon
+are ∼1.5 µgm−3 and has aerosol number concentrations of
+220 cm−3 (Pöschl et al., 2010; Artaxo et al., 2013), some of
+the lowest concentrations observed in a terrestrial environ-
+ment. In the dry season (∼June to ∼November), ﬁres occur
+across the southern Amazon, resulting in aerosol concentra-
+tions that are an order of magnitude higher (PM2.5 concen-
+trations of > 30 µgm−3 and aerosol number concentrations
+of > 20 000 cm−3 (Artaxo et al., 2013).
+Fires in the Amazon are a consequence of both climate
+and human activity (van Marle et al., 2017). There was rela-
+tively little ﬁre activity in the Amazon before the mid-1980s
+(van Marle et al., 2017), when large-scale clearance of the
+Amazon forests began. Fire is used to clear forest and veg-
+etation, resulting in positive relationships between the rate
+of deforestation and ﬁre activity in the Amazon (Aragao et
+al., 2008; Reddington et al., 2015; van Marle et al., 2017).
+A reduction in the rate of deforestation across the Brazilian
+Amazon between 2002 and 2012 (Hansen et al., 2013) has
+led to reductions in deforestation-related ﬁres (Reddington et
+al., 2015) and observed reductions in CO (Jiang et al., 2017)
+and AOD (Reddington et al., 2015). Fires are also used to
+maintain agricultural and pastoral land and may escape into
+surrounding forest leading to forest degradation (Chen et al.,
+2013a) and resulting in a disconnection between ﬁre and de-
+forestation (Aragao and Shimabukuro, 2010; Cano-Crespo et
+al., 2015). There has been reduction in area burned by ﬁres in
+the southwestern Amazon and increase in area burned further
+east during the last decade (Andela et al., 2017). Droughts
+enhance the occurrence of ﬁre (Chen et al., 2013b) with
+seasons of increased large ﬁre occurrence coinciding with
+the Amazon droughts of 2005, 2007 and 2010 (Chen et al.,
+2013a).
+Aerosol from ﬁres degrades air quality, with negative im-
+pacts on human health (Marlier et al., 2013; Reddington et
+al., 2015; Koplitz et al., 2016; Crippa et al., 2016). Inhala-
+tion of smoke from ﬁres in the Amazon causes DNA dam-
+age and death of human lung cells (de Oliveira Alves et al.,
+2017), impacts lung function (Jacobson et al., 2014), causes
+increased hospitalisations for respiratory diseases (Smith et
+al., 2014), and is estimated to result in thousands of mortal-
+ities each year (Reddington et al., 2015). Estimates on the
+health impacts of degraded air quality from ﬁres require ac-
+curate information on the magnitude of particulate emissions
+from ﬁre. A range of policy interventions will be necessary
+to reduce Amazonian ﬁre (Morello et al., 2017).
+Here we combine detailed observations of aerosol vertical
+proﬁles made over the Brazilian Amazon during the dry sea-
+son of 2012 with surface observations, remote sensing and an
+aerosol model to better understand model representations of
+the magnitude and spatial distributions of particulate emis-
+sions from biomass burning.
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9127
+2
+Method
+2.1
+GLOMAP global aerosol model
+We used the TOMCAT chemical transport model (Chip-
+perﬁeld, 2006), coupled to the GLOMAP global aerosol
+model (Spracklen et al., 2005), to simulate aerosol during
+the SAMBBA campaign. Below we describe the features of
+the model relevant for this study; see Spracklen et al. (2005)
+and Mann et al. (2010) for more detailed descriptions of the
+model and Reddington et al. (2016) for further details of the
+model set-up used here.
+Large-scale atmospheric transport and meteorology in
+TOMCAT are speciﬁed from European Centre for Medium-
+Range Weather Forecasting (ECMWF) ERA-Interim reanal-
+yses, updated every 6 h and linearly interpolated onto the
+model time step. The model has a horizontal resolution of
+2.8◦× 2.8◦, with 31 vertical model levels between the sur-
+face and 10 hPa. The vertical resolution in the boundary layer
+ranges from ∼60 m near the surface to ∼400 m at ∼2 km
+above the surface.
+The aerosol size distribution is represented by a two-
+moment modal aerosol scheme (Mann et al., 2010).
+GLOMAP includes black carbon (BC), particulate organic
+matter (POM), sulfate (SO4), sea spray and mineral dust.
+Concentrations of oxidants are speciﬁed using monthly mean
+3-D ﬁelds at 6-hourly intervals from a TOMCAT simulation
+with detailed tropospheric chemistry (Arnold et al., 2005)
+linearly interpolated onto the model time step.
+Wet removal of aerosol in GLOMAP occurs via two pro-
+cesses: (1) in-cloud nucleation scavenging, calculated for
+both large-scale and convective-scale precipitation based on
+rain-rates diagnosed from successive ECMWF ERA-Interim
+reanalysis ﬁelds and (2) below-cloud impaction scaveng-
+ing via collection by falling raindrops. For dry deposition
+of aerosol, GLOMAP calculates the wind speed and size-
+dependent deposition velocity due to Brownian diffusion, im-
+paction and interception. Detailed descriptions of the dry and
+wet aerosol removal process are in Mann et al. (2010).
+Anthropogenic emissions of sulfur dioxide (SO2), BC and
+organic carbon (OC) were speciﬁed using the MACCity
+emissions inventory for 2010 (Lamarque et al., 2010). Open
+biomass burning emissions of SO2, BC and OC are described
+in Sect. 2.2. Primary carbonaceous aerosol particles are as-
+sumed to be non-volatile and are emitted into the model with
+a ﬁxed log-normal size distribution, assuming a number me-
+dian diameter (NMD) of 150 nm for biomass burning emis-
+sions and 60 nm for fossil fuel emissions and a modal width
+(σ) of 1.59. We convert primary OC to POM using a pre-
+scribed POM : OC ratio of 1.4, which is at the lower end of
+the range prescribed in other global models (1.4 to 2.6) (Tsi-
+garidis et al., 2014). Monthly mean emissions of biogenic
+monoterpenes are taken from the Global Emissions InitiAtive
+(GEIA) database (Guenther et al., 1995). Monoterpenes are
+oxidised to form a product that condenses irreversibly in the
+particle phase (Scott et al., 2014). Size-resolved emissions
+of mineral dust are prescribed from daily varying emissions
+ﬂuxes provided for AEROCOM (Dentener et al., 2006).
+2.1.1
+Description of model simulations
+We performed four main model simulations with GLOMAP:
+one simulation excluding open biomass burning emissions
+(“noBBA”) and three simulations including open biomass
+burning emissions (using three different open biomass burn-
+ing emission datasets: “FINN”, “GFED” and “GFAS”; see
+Sect. 2.2). Simulations were run from 1 January 2003 to
+31 December 2012, using ECMWF ERA-Interim reanalyses
+that correspond to the simulation date and time. The model
+aerosol ﬁelds were generated from an initially aerosol-free
+atmosphere initialised on 1 October 2002 and spun up for
+92 d to produce a realistic aerosol distribution (Spracklen et
+al., 2005). The model was set up to output 3-D monthly mean
+global ﬁelds and 1-D daily mean vertical proﬁles at the loca-
+tions of ground and AERONET stations (Sect. 2.3). In this
+study, we show results from the model simulations for the
+year 2012. Speciﬁcally for this study, the model was set up
+to output additional 3-D ﬁelds every hour between July and
+November 2012 over a South American domain.
+2.1.2
+Calculation of aerosol optical depth
+AOD was calculated from the simulated aerosol size distri-
+bution as in Reddington et al. (2016), using Mie theory as-
+suming spherical particles (Grainger et al., 2004) that are in-
+ternally mixed within each log-normal mode. Modelled AOD
+was calculated at speciﬁc wavelengths to match observations
+(500 and 550 nm), using component-speciﬁc refractive in-
+dices at the closest wavelength available from Bellouin et
+al. (2011).
+The aerosol hygroscopicity in the AOD calculation was
+obtained directly from GLOMAP using the aerosol water
+uptake calculated online in the model using Zdanovskii–
+Stokes–Robinson (ZSR) theory (Stokes and Robinson, 1966)
+(described in Sect. S1.1 in the Supplement). We explore the
+sensitivity of simulated AOD to the calculation of aerosol
+water uptake in Sect. 3.5, by also using the κ-Köhler scheme
+(Petters and Kreidenweis, 2007) to calculate an ofﬂine esti-
+mate of water uptake (described in Sect. S1.2). The ZSR and
+κ-Köhler methods used in this study represent high and low
+aerosol water uptake cases, respectively (Reddington et al.,
+2016). In Sect. 3.5 we also explore the sensitivity of simu-
+lated AOD to assumed refractive indices and aerosol mixing
+state.
+2.2
+Biomass burning emissions
+2.2.1
+Biomass burning emissions in GLOMAP
+We used three different emission datasets of aerosol from
+open biomass burning: the National Centre for Atmospheric
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9128
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Research Fire Inventory (FINN) (Wiedinmyer et al., 2011),
+the Global Fire Emissions Dataset (GFED) (van der Werf et
+al., 2010) and the Global Fire Assimilation System (GFAS)
+(Kaiser et al., 2012). We use daily mean ﬁre emissions from
+FINN version 1.5, GFED version 4.1s (Mu et al., 2011; van
+der Werf et al., 2017) and GFAS version 1.2 (hereafter re-
+ferred to as GFAS, FINN and GFED, respectively).
+Brito et al. (2014) analysed OA : CO ratios and found lit-
+tle enhancement of OA in ﬁre plumes during the SAMBBA
+campaign, suggesting that SOA formation is limited or bal-
+anced by loss of OA through volatilisation. A recent study
+analysed airborne in situ observations of biomass burning
+carbonaceous aerosol during SAMBBA and found ﬁnd lim-
+ited evidence for net increases in aerosol mass through at-
+mospheric ageing (Morgan et al., 2019). These observations
+suggest that SOA formation in plumes may be occurring on
+short timescales (Morgan et al., 2019), but since a net in-
+crease in OA mass was not observed in the regional-scale
+analyses of Brito et al. (2014) and Morgan et al. (2019), we
+do not include any SOA formation associated with biomass
+burning emissions.
+Fires can inject emissions above the surface due the buoy-
+ancy of the ﬁre plume. Marenco et al. (2016) analysed li-
+dar data during the SAMBBA campaign and found that the
+mean height of aerosol layers was 2.0 ± 0.4 km, suggesting
+that the majority of the aerosol is injected into the boundary
+layer. Fire emissions in GLOMAP are distributed vertically
+over six ecosystem-dependent altitudes between the surface
+and 6 km according to Dentener et al. (2006). Over Brazil
+∼53 % of emissions were injected below 500 m elevation,
+∼30 % between 500 and 1000 m elevation, and ∼17 % be-
+tween 1000 and 3000 m elevation. We also performed a sen-
+sitivity simulation where ﬁre emissions were injected into the
+model surface layer. We evaluate the vertical proﬁle of simu-
+lated aerosol in Sect. 3.2.
+2.2.2
+Description of biomass burning emission datasets
+FINN, GFED and GFAS provide daily ﬁre emissions of
+aerosol and gas-phase species. FINN emissions (Wiedinmyer
+et al., 2011) are available from 2002 to 2018 on a 1 km2 grid.
+GFAS emissions (Kaiser et al., 2012) are available from 2003
+to present on a 0.1◦× 0.1◦grid. GFED emissions (van der
+Werf et al., 2017) are available from 2003 to 2018 (monthly
+emissions are available from 1997) on a 0.25◦× 0.25◦grid.
+Reddington et al. (2016) include a detailed a description of
+the FINN version 1.0, GFED version 3 and GFAS version 1.0
+datasets. A brief description of the updated datasets is given
+below.
+FINN emissions are based on the location and timing
+of active ﬁre detections from the MODIS Fire and Ther-
+mal Anomalies Product (Giglio et al., 2003), using MODIS
+Land Cover Type and Vegetation Continuous Fields prod-
+ucts to specify land cover classes and identify fractions of
+tree and non-tree vegetation and bare ground. A burned
+area is assigned to each ﬁre count (0.75 km2 ﬁres detected
+on grassland and savanna land cover classes and 1 km2 for
+all other ﬁre detections), with adjustments made to the as-
+sumed burned area if the ﬁre pixel extends partially over bare
+ground. Estimates of biomass loading are taken from Hoelze-
+mann et al. (2004) and emission factors for each species
+are taken from Akagi et al. (2011). The version 1.5 dataset
+used here (acquired in 2014) includes emission factors up-
+dated to incorporate measurements published in Yokelson et
+al. (2013) and Akagi et al. (2013) (for more information, see
+updates described here: http://bai.acom.ucar.edu/Data/ﬁre/,
+last access: 30 March 2019).
+GFAS uses the observed geolocation of active ﬁres (like
+FINN) combined with ﬁre radiative power (FRP) derived
+from the MODIS instrument. The FRP ﬁelds are corrected
+for observation gaps due to partial cloud cover and/or spu-
+rious signals (e.g. from volcanoes, gas ﬂares, etc.). FRP is
+converted to the combustion rate of dry matter using land-
+cover-speciﬁc conversion factors based on data from GFED
+(Heil et al., 2010; Kaiser et al., 2012). Trace gas and aerosol
+emission rates are calculated using updated emission factors
+based on Andreae and Merlet (2001). The version 1.2 dataset
+is at a higher spatial resolution than previous versions, with
+improvements made to the processing and assimilation of
+satellite observations.
+GFED emissions are based on estimates of burned area
+(Giglio et al., 2013), active ﬁre detections and plant produc-
+tivity from the MODIS instrument. To derive total carbon
+emissions, the satellite datasets are combined with estimates
+of fuel loads and combustion completeness for each monthly
+time step from the Carnegie-Ames-Stanford approach bio-
+geochemical model. Carbon emission ﬂuxes are converted
+to trace gas and aerosol emissions using species-speciﬁc
+emission factors based on Akagi et al. (2011) and Andreae
+and Merlet (2001), with updates provided in 2013 by Mein-
+rat O. Andreae. Signiﬁcant updates in the version 4.1s dataset
+relevant for this study include (i) higher spatial resolution,
+(ii) new burned area estimates (Giglio et al., 2013) with addi-
+tional contributions from small ﬁres (Randerson et al., 2012)
+and (iii) improved representation of fuel consumption (see
+van der Werf et al., 2017, for more detail on updates from
+version 3 to version 4).
+2.2.3
+Comparison of biomass burning emission
+datasets
+Figure 1 compares total annual OC emissions from GFAS,
+FINN and GFED. The ﬁgure shows long-term (2002–2012)
+mean annual total emissions as well as annual total emissions
+in 2012, the year of the SAMBBA ﬁeld campaign (total emis-
+sions for the SAMBBA ﬁeld campaign are shown in Fig. S1
+in the Supplement). For the long-term mean, all datasets
+show broadly similar spatial patterns with greatest OC emis-
+sions across the arc of deforestation (roughly 8–14◦S, 65–
+50◦W). Total annual BC emissions show very similar spatial
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9129
+Figure 1. Maps of estimated total annual organic carbon (OC) aerosol emissions from ﬁre, shown as (a)–(c) an average for the period 2002 to
+2012 and (d)–(f) for 2012. The difference in OC emissions between 2012 and 2002 to 2012 (2012 emissions minus the 2002–2012 average)
+is shown in (g)–(i). Blue colours show where emissions in 2012 were lower than in 2002 to 2012, while red colours show where emissions
+were greater. Emissions are shown for GFAS version 1.0 (2002–2011) and version 1.2 (2012) (a, d), FINN version 1.5 (b, e), and GFED
+version 4 (c, f). The GFAS, FINN and GFED OC emissions were re-gridded onto a common grid of 0.5◦× 0.5◦resolution for comparison.
+The black boxes show the eastern (4.5–15◦S, 43–50◦W) and western (6–12◦S, 54–68.5◦W) domains (see Fig. 2).
+patterns to the OC emissions shown in Figs. 1 and S1. Table 1
+compares total annual BC and OC emissions from the three
+datasets and Figs. S2, S3 and S4 compare the total daily OC
+emissions for the 2012 dry season and the SAMBBA cam-
+paign period.
+For annual total emissions averaged over the 2002–2012
+period, FINN emissions are greater than GFED and GFAS
+across regions of deforestation in the western Amazon but
+lower than GFED and GFAS in the eastern Amazon (4–
+15◦S, 50–40◦W). Annual total aerosol (OC+BC) emissions
+averaged over 2002–2012 differ by up to a factor of 2.4
+(FINN : GFAS) in the western region and by up to a factor
+of 1.9 (GFAS : FINN) in the eastern region. Matching 2002–
+2012 comparisons, FINN emissions in 2012 (and during the
+SAMBBA period) were also greater than GFED and GFAS
+over deforestation regions of the western Amazon and lower
+than GFED and GFAS in the eastern Amazon. Annual total
+OC+BC emissions in 2012 vary by up to a factor of 3.5 in
+the west (FINN : GFAS) and up to a factor of 2.1 in the east
+(GFAS : FINN). Pereira et al. (2016) also reported that FINN
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9130
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Table 1. Comparison of organic carbon (OC) and black carbon (BC) emissions from biomass burning in the GFASv1.2, FINNv1.5 and
+GFED4.1s emissions inventories. Emissions are summed separately for the western (6–12◦S, 54–68.5◦W) and eastern (4.5–15◦S, 43–
+50◦W) Amazon, as shown in Fig. 2. The table reports long-term (2002–2012) mean annual total emissions, the ratio of annual total emissions
+in 2012 to the 2002–2012 mean and total emissions for the SAMBBA campaign period (13 September–3 October 2012). All values are given
+to at least three signiﬁcant ﬁgures. The ratios (FINN : GFAS and GFED:GFAS) of total annual emissions during the 2002–2012 period and
+mean daily emissions during the SAMBBA campaign are given in parentheses. For the western Amazon, daily emissions are also shown for
+the two phases of the campaign: P1 (13–22 September) and P2 (23 September–3 October).
+Annual emission (2002–2012 mean) (Gg a−1)
+2012/(2002–2012)
+SAMBBA emission (Gg d−1)
+OC
+BC
+OC : BC
+OC+BC
+OC
+BC
+Western Amazon (6–12◦S, 54–68.5◦W)
+GFAS
+429
+56.4
+7.6
+0.53
+2.32; P1: 3.32; P2: 1.42
+0.305; P1: 0.436; P2: 0.187
+FINN
+1060 (2.5)
+118 (2.1)
+9.1
+0.77
+8.69 (3.7); P1: 11.9; P2: 5.81
+0.958 (3.1); P1: 1.31; P2: 0.637
+GFED
+546 (1.3)
+63.3 (1.1)
+8.6
+0.96
+5.02 (2.2); P1: 8.21; P2: 2.11
+0.580 (1.9); P1: 0.944; P2: 0.249
+Eastern Amazon (4.5–15◦S, 43–50◦W)
+GFAS
+336
+46.6
+7.2
+1.46
+5.64
+0.796
+FINN
+181 (0.5)
+20.4 (0.4)
+8.8
+1.30
+2.39 (0.4)
+0.267 (0.3)
+GFED
+223 (0.7)
+29.9 (0.6)
+7.5
+1.94
+5.23 (0.9)
+0.693 (0.9)
+had lower (higher) aerosol emissions in the eastern (western)
+Amazon compared to GFAS during the SAMBBA period.
+Reddington et al. (2016) reported similar patterns for com-
+parison of GFAS version 1.0, FINN version 1.0 and GFED
+version 3 emissions. During the SAMBBA campaign, daily
+mean aerosol (OC+BC) emissions differ between the differ-
+ent datasets by up to a factor of 3.7 in the western Amazon
+(FINN : GFAS) and by up to a factor of 2.4 in the eastern
+Amazon (GFAS : FINN).
+Figure 1 also shows the difference in annual total OC emis-
+sions between 2012 and the 2002–2012 mean (very simi-
+lar spatial patterns are seen for BC emissions). All three
+datasets show consistently lower emissions in 2012 com-
+pared to 2002–2012 across the arc of deforestation in west-
+ern Brazil and Bolivia (8–18◦S, 70–50◦W). OC emissions
+in 2012 in the western Amazon were 4 %–47 % lower than
+the 2002–2012 mean (Table 1). Aerosol emissions from ﬁre
+in Brazil have declined over this period, related to reduc-
+tions in deforestation (Reddington et al., 2015) and consis-
+tent with observed declines in CO (Jiang et al., 2017) and
+AOD (Reddington et al., 2015). Figure S5 shows a reduction
+in the area dominated by deforestation type ﬁres (and an in-
+creasing dominance of savanna-type ﬁres) in 2012 relative to
+the 2002–2012 mean. In 2012, emissions were greater than
+the 2002–2012 average across much of Peru, possibly due
+to increased deforestation there (Kalamandeen et al., 2018).
+In the eastern Amazon, emissions in 2012 were 30 %–96 %
+greater than the 2002–2012 mean (Table 1), with the largest
+differences in GFAS and GFED datasets.
+2.3
+South American Biomass Burning Analysis
+(SAMBBA)
+We used observations from the South American Biomass
+Burning Analysis (SAMBBA) campaign. Aircraft and
+ground observations took place from 13 September to 3 Oc-
+tober 2012. We separate the campaign into the dry season
+(Phase 1; 13 to 22 September) and the dry–wet season tran-
+sition (Phase 2; 23 September to 3 October) following Brito
+et al. (2014). Figure 2 shows locations of aircraft ﬂights and
+surface measurement sites.
+2.3.1
+Aircraft observations
+The BAe-146 research aircraft from the Facility for Air-
+borne Atmospheric Measurements (FAAM) made 20 re-
+search ﬂights with measurements of a range of gas-phase
+and aerosol species. We use measurements of OA and sul-
+fate mass in the 50–750 nm size range from an aerosol mass
+spectrometer (AMS) (Canagaratna et al., 2007; Morgan et al.,
+2010; Allan et al., 2014), refractive BC from a single-particle
+soot photometer (SP2) (Stephens et al., 2003; McMeeking
+et al., 2010; Allan et al., 2014) and aerosol size distribution
+from a scanning mobility particle sizer (SMPS) (Wang and
+Flagan, 1990; Morgan et al., 2015) and a GRIMM model
+1.108 optical particle counter (OPC) (Heim et al., 2008).
+Further details about the instruments used aboard the BAe-
+146 during SAMBBA can be found in Sect. S2.1, includ-
+ing information about measurement uncertainty. See Allan
+et al. (2014), for more speciﬁc details regarding the aerosol
+sampling during SAMBBA.
+The ﬂights sampled a broad region spanning 1–12◦S, 46–
+68◦W (Fig. 2). Aerosol properties and ﬁre emissions (Fig. 1)
+varied across this region, so we separated data into a west-
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9131
+Figure 2. Flight tracks of the FAAM aircraft during the SAMBBA ﬁeld campaign (Phase 1: 13–23 September; Phase 2: 23 September–
+3 October 2012). The location of the Porto Velho ground station is shown by a black circle. The locations of AERONET stations operating
+during the SAMBBA campaign are shown by black crosses: Porto Velho UNIR (8.84◦S, 63.94◦W), Alta Floresta (9.87◦S, 56.10◦W), Rio
+Branco (9.96◦S, 67.87◦W), Cuiabá-Miranda (15.73◦S, 56.02◦W) and Santa Cruz UTEPSA (17.77◦S, 63.20◦W). The eastern (4.5–15◦S,
+43–50◦W) and western (6–12◦S, 54–68.5◦W) domains are shown with black boxes. Land cover type is shown using the standard MODIS
+Land Cover Type Data Product (MCD12Q1) in the IGBP Land Cover Type Classiﬁcation (Channan et al., 2014; Friedl et al., 2010).
+ern region (6–12◦S, 54–68.5◦W) and an eastern region (4.5–
+15◦S, 43–50◦W), following Johnson et al. (2016). We note
+that the aircraft sampling in the eastern region (including one
+full ﬂight and sections of three ﬂights) was limited relative
+to the sampling performed in the western region (including
+14 full ﬂights and sections of 5 ﬂights). We used aircraft data
+from both vertical proﬁles and straight and level runs (SLRs).
+To avoid bias, time periods when the plane was actively sam-
+pling smoke plumes were removed from the SLR data using a
+plume removal algorithm (Darbyshire et al., 2019). Visually
+observable plumes were speciﬁcally avoided when perform-
+ing vertical proﬁles during SAMBBA, so any enhancements
+due to smoke plumes in the proﬁle data are small. Time peri-
+ods when in-cloud sampling was performed were also ﬁltered
+out of the data; speciﬁcally the data were screened for cloud
+artefacts when the liquid water content exceeded 0.05 g m−3
+(Darbyshire et al., 2019).
+2.3.2
+Ground observations
+A large suite of instruments were deployed at a site in
+the southwestern Amazon (8.69◦S, 63.87◦W) (Brito et al.,
+2014). The site is located in a forest reserve about 5 km
+from Porto Velho (population of around 500 000) and is usu-
+ally upwind of the city (Brito et al., 2014). Here we used
+measurements from an aerosol chemical speciation monitor
+(ACSM; Ng et al., 2011) and an aethalometer (Magee Sci-
+entiﬁc, model AE30). The ACSM measured 30 min resolu-
+tion mass concentrations of particulate ammonium, nitrate,
+sulfate, chloride and organic species in the 75–650 nm size
+range. The Aethalometer measured 5 min resolution equiv-
+alent black carbon (BCeq) mass concentrations. Details re-
+garding the aethalometer and ACSM measurement uncer-
+tainty can be found in Sect. S2.2. Data from both instruments
+are available from the 6 September to the 1 October 2012.
+Mean aerosol mass concentration (ACSM + Aethalometer)
+during this period was 13.7 µgm−3, with OA contributing an
+average of 83 % of the total mass. Mean aerosol mass con-
+centrations were lower in Phase 2 (6.0 µgm−3) compared to
+Phase 1 (17.8 µgm−3). Full details are provided in Brito et
+al. (2014). PM2.5 concentrations were measured using gravi-
+metric ﬁlter analysis, with a measurement duration ranging
+from less than 1 to ∼7 d (Artaxo et al., 2013).
+2.3.3
+AERONET aerosol optical depth
+We used spectral columnar AOD measured by Aerosol
+Robotic Network (AERONET) Cimel sun photometers (Hol-
+ben et al., 1998) from ﬁve stations deployed across the
+region that have data available for the SAMBBA cam-
+paign period: Porto Velho UNIR (8.84◦S, 63.94◦W),
+Alta Floresta (9.87◦S, 56.10◦W), Rio Branco (9.96◦S,
+67.87◦W), Cuiabá-Miranda (15.73◦S, 56.02◦W) and Santa
+Cruz UTEPSA (17.77◦S, 63.20◦W). We used Version 3
+Level 2 cloud-screened and quality-assured daytime average
+AOD (Giles et al., 2019), retrieved at 500 nm. Locations of
+the AERONET stations are shown in Fig. 2.
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9132
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Figure 3. Time series of simulated (lines) and observed (bars) PM2.5 concentrations at Porto Velho between January and November 2012.
+Simulated daily mean concentrations are shown with FINN1.5 (green), GFAS1.2 (blue), GFED4 (red) emissions and with no biomass burning
+emissions (noBBA; orange). Observed PM2.5 concentrations are averages over sampling periods that ranged from < 1 to 7 d in 2012. The
+NMBF values are given separately for Phase 1 and Phase 2 of the SAMBBA ﬁeld campaign in Table 2.
+2.3.4
+MODIS aerosol optical depth
+We used daily AOD retrieved at 550 nm from the Mod-
+erate Resolution Imaging Spectroradiometer (MODIS) in-
+strument on board the Terra and Aqua satellites for the
+SAMBBA campaign period to calculate regional average
+AODs. Speciﬁcally, we used the Collection 5.1 Level-3
+MODIS Atmosphere Daily Global Product gridded to 1◦×1◦
+resolution (Terra: MOD08_D3; Aqua: MYD08_D3; https://
+modis-atmosphere.gsfc.nasa.gov/products/daily, last access:
+30 March 2019) (Hubanks et al., 2008) acquired through
+NASA’s Level 1 and the Atmosphere Archive and Distri-
+bution System (LAADS). Daytime Equator crossing is at
+10:30 LT for Terra and at 13:30 LT for Aqua.
+2.3.5
+Measurement uncertainty
+Section S2 describes further details of the instrumenta-
+tion used during SAMBBA, including information about
+measurement calibration and uncertainty. In summary, for
+conditions during SAMBBA the mass concentration mea-
+surement uncertainty has been estimated to be ∼20 % for
+the aethalometer (Schmid et al., 2006), 10 %–35 % for the
+ACSM (depending on the species, OA is 15 %; Crenn et al.,
+2015), ∼30 % for the AMS (Bahreini et al., 2009; Middle-
+brook et al., 2012 and ∼30 % for the SP2 (Schwarz et al.,
+2008; Shiraiwa et al., 2008). For AOD retrievals, the 1σ un-
+certainty is estimated to be ±0.05 + 15% for MODIS (Levy
+et al., 2010) and ±0.01 for AERONET (Giles et al., 2019).
+2.3.6
+Comparing model and observations
+To compare the model to the aircraft and ground-based ob-
+servations, we linearly interpolated the simulated hourly data
+along the ﬂight path of the aircraft and to the horizontal lo-
+cation of the Porto Velho ground station. To compare with
+the aircraft AMS and ground-based ACSM measurements,
+the same detection ranges of the instruments (see Sect. 2.3.1
+and 2.3.2) were applied to the simulated mass concentrations.
+Prior to analysis, simulated data corresponding to periods
+of missing or invalid measurement data were removed. To
+quantify the agreement between the model and observations,
+we use the Pearson correlation coefﬁcient (r) and normalised
+mean bias factor (NMBF) as deﬁned by Yu et al. (2006):
+NMBF =
+ PMi −POi
+
+PMi −POi
+
+
+exp
+ln
+PMi
+POi
+
+
+−1
+
+,
+(1)
+where M and O represent model and observed values, re-
+spectively, for each time step, i. A positive NMBF indi-
+cates the model overestimates the observations by a factor
+of NMBF+1. A negative NMBF indicates the model under-
+estimates the observations by a factor of 1−NMBF.
+3
+Results and discussion
+3.1
+Surface aerosol measurements
+Figure 3 shows surface PM2.5 concentrations observed at
+Porto Velho, in the southwestern Amazon, from January to
+November 2012. Observed PM2.5 concentrations are less
+than 2 µgm−3 between January and July 2012, increasing
+to 30–50 µgm−3 in late August and September, then de-
+clining to less than in 10 µgm−3 in October. This seasonal
+cycle is well reproduced by the model with all ﬁre emis-
+sion datasets. Simulated PM2.5 concentrations are enhanced
+by biomass burning from August through to October, when
+more than 80 % of PM2.5 concentrations are from biomass
+burning. PM2.5 concentrations during September are well re-
+produced by the model with GFED and FINN emissions but
+underestimated by the model with GFAS emissions. PM2.5
+concentrations are underestimated during early August, po-
+tentially indicating that emission datasets have missed ﬁres
+during the start of the dry season (see Fig. S2). During the
+SAMBBA campaign (13 September–3 October), PM2.5 con-
+centrations are well reproduced by the model with FINN
+(r2 = 0.65; NMBF = 0.03) and GFED (r2 = 0.69; NMBF =
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9133
+Table 2. Summary of comparison between the model and observations expressed as normalised mean bias factor (NMBF, italics indicates
+model underestimation). Comparisons are shown for observations from the Porto Velho measurement station (PVH): PM2.5 (particulate mat-
+ter with diameters smaller than 2.5 µm) mass; total aerosol mass (mass measured by the ACSM plus equivalent black carbon measured by the
+aethalometer); and organic aerosol (OA), black carbon (BC), and sulfate mass concentrations. Comparisons are shown from the aircraft: total
+aerosol mass (mass measured by AMS plus refractive BC measured by the SP2) and OA, BC, and sulfate mass concentrations; aerosol scatter-
+ing; and aerosol extinction. Comparisons are shown from the satellite: aerosol optical depth at 550 nm (AOD550) from MODIS and AOD500
+from AERONET. Aircraft comparisons are for concentrations below 2.5 km (western Amazon) or 4 km (eastern Amazon). AERONET com-
+parisons are the average NMBF across ﬁve stations. For aircraft total aerosol mass, scattering and extinction, the model and observations are
+compared only during time periods with available AMS measurements. Values are shown for the model with FINN1.5, GFAS1.2, GFED4.1s
+emissions and with no biomass burning emissions (noBBA). The numbers highlighted in bold show the model simulation with the smallest
+bias.
+noBBA
+FINN
+GFED
+GFAS
+Western Amazon, Phase 1
+PVH PM2.5
+–4.80
+–0.09
+–0.54
+–1.35
+PVH total mass
+–3.43
+0.45
+0.08
+–0.49
+PVH OA
+–3.45
+0.50
+0.11
+–0.50
+PVH BC
+–53.12
+0.02
+–0.34
+–1.32
+PVH sulfate
+0.47
+2.69
+2.32
+1.96
+Aircraft total mass (< 2.5 km)
+–6.83
+–0.23
+–0.76
+–1.42
+Aircraft OA (< 2.5 km)
+–7.63
+–0.25
+–0.82
+–1.64
+Aircraft BC (< 2.5 km)
+–37.23
+–0.13
+–0.78
+–1.52
+Aircraft sulfate (< 2.5 km)
+–2.31
+–0.48
+–0.72
+–0.83
+Aircraft scattering (total column)
+–4.62
+–0.29
+–0.77
+–1.29
+Aircraft extinction (total column)
+–5.47
+–0.37
+–0.89
+–1.46
+AOD550 (MODIS)
+–5.25
+–0.51
+–0.97
+–1.43
+AOD500 (AERONET)
+–6.95
+–0.47
+–0.53
+–1.26
+Western Amazon, Phase 2
+PVH PM2.5
+–2.26
+0.32
+–0.25
+–0.61
+PVH total mass
+–0.72
+1.94
+0.89
+0.30
+PVH OA
+–0.44
+2.44
+1.18
+0.47
+PVH BC
+–34.63
+0.12
+–0.51
+–1.51
+PVH sulfate
+–0.06
+2.22
+1.51
+1.24
+Aircraft total mass (< 2.5 km)
+–1.24
+1.13
+0.36
+0.02
+Aircraft OA (< 2.5 km)
+–1.16
+1.21
+0.39
+0.02
+Aircraft BC (< 2.5 km)
+–20.94
+0.56
+–0.06
+–0.56
+Aircraft sulfate (< 2.5 km)
+–0.58
+0.71
+0.40
+0.24
+Aircraft scattering (total column)
+–0.85
+0.93
+0.34
+–0.07
+Aircraft extinction (total column)
+–1.07
+0.83
+0.26
+–0.00
+AOD550 (MODIS)
+–3.68
+–0.38
+–0.70
+–1.06
+AOD500 (AERONET)
+–4.50
+–0.41
+–0.68
+–1.11
+Eastern Amazon
+Aircraft total mass (< 4 km)
+–8.43
+–2.60
+–1.00
+–0.78
+Aircraft OA (< 4 km)
+–13.17
+–3.14
+–1.23
+–0.92
+Aircraft BC (< 4 km)
+–41.29
+–6.11
+–1.91
+–1.48
+Aircraft sulfate (< 4 km)
+0.29
+0.69
+1.40
+1.22
+Aircraft scattering (total column)
+–8.81
+–3.30
+–1.49
+–1.29
+Aircraft extinction (total column)
+–10.80
+–3.90
+–1.75
+–1.51
+AOD550 (MODIS)
+–4.92
+–2.41
+–1.44
+–1.23
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9134
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Figure 4. Composition-resolved aerosol mass at Porto Velho ground station during the SAMBBA campaign. (a) Time series of hourly mean
+observed (black) and simulated (colour) total aerosol mass. The observed aerosol mass is the total mass from the ACSM plus equivalent BC
+from the aethalometer. Simulated total aerosol mass is shown for the model with FINN1.5 (green), GFAS1.2 (blue), GFED4 (red) emissions
+and with no biomass burning emissions (noBBA; orange). Numbers on the panel show the NMBF for the SAMBBA campaign separately
+for Phase 1 (P1) and Phase 2 (P2) (also see Table 2). (b) Bar chart showing observed and simulated average aerosol composition during the
+campaign: black carbon (BC; black), nitrate+ammonium+chloride (NO3+NH4+Chl; blue, not treated by the model), organic aerosol (OA;
+green) and sulfate (SO4; red).
+−0.45) but underestimated with GFAS (r2 = 0.44; NMBF =
+−1.09) (see Table 2 for a summary of NMBF values).
+Figure 4 compares simulated and measured composition-
+resolved aerosol at Porto Velho during September 2012.
+Measured total aerosol mass, calculated as mass measured
+by the ACSM plus BCeq measured by the aethalometer,
+varies consistently with measured PM2.5 concentrations dur-
+ing the campaign (Fig. S6). However, when averaged over
+the gravimetric ﬁlter analysis sampling time, measured total
+(ACSM+BCeq) aerosol mass concentrations are consistently
+lower than measured PM2.5 concentrations by ∼20 %–60 %
+(Fig. S6a). This difference in the measurements is mostly ap-
+portioned to the reduced aerosol detection–size range from
+the ACSM (i.e. submicrometric) in comparison to the gravi-
+metric analysis (< 2.5 µm) (Sect. 2.3.2), and, to a smaller
+extent, the different measurement techniques and aerosol
+species unaccounted by the on-line instrumentation (ACSM),
+e.g. crustal elements.
+Average observed total (ACSM+BCeq) aerosol mass con-
+centrations are 20 µgm−3 in Phase 1, reducing to 7 µgm−3 in
+Phase 2. The model with ﬁre emissions captures the decrease
+in observed aerosol mass concentrations between Phase 1
+and Phase 2 but underestimates the magnitude of the reduc-
+tion (5–10 µgm−3, depending on the ﬁre emission dataset,
+compared to 13 µgm−3 in the observations). The model with
+GFED simulates observed total mass well in the ACSM de-
+tection range in Phase 1 (NMBF = 0.08) but overestimates
+observed mass in Phase 2 (NMBF = 0.89). Conversely, the
+model with GFAS emissions simulates observed total mass
+reasonably well in Phase 2 (NMBF = 0.30) but underesti-
+mates in Phase 1 (NMBF = −0.49). The model with FINN
+emissions overestimates observed total mass in both Phase 1
+(NMBF = 0.45) and Phase 2 (NMBF = 1.94).
+Observed total aerosol mass is dominated by OA (84 %),
+with BC contributing 9 % and summed NH4, NO3 and Chl
+contributing less than 5 % of total mass during the SAMBBA
+campaign (Fig. 4b). Simulated aerosol (with ﬁre emissions
+included) is also dominated by OA (86 %–88 %), with BC
+contributing a slightly smaller fraction of the total aerosol
+mass (5 %) than observed (see Fig. S7 for simulated and mea-
+sured hourly OA and BC time series). NH4, NO3 and Chl are
+not accounted for in GLOMAP. Sulfate accounts for 2.6 % of
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9135
+Figure 5. Mean observed and simulated vertical proﬁles of (a) organic aerosol (OA), (b) black carbon (BC) and (c) sulfate (SO4) during the
+SAMBBA aircraft campaign, sectioned into 400 m altitude bins. Observations are shown by the black data points. Simulated concentrations
+are shown for the model with FINN1.5 (green), GFAS1.2 (blue), GFED4 (red) emissions and with no biomass burning emissions (noBBA;
+orange). The simulated data (linearly interpolated to the ﬂight track of the aircraft) and the observations are split into western and eastern
+regions of the Amazon (Fig. 2), as well as by time (Phase 1: 13–22 September 2012; Phase 2: 23 September–3 October 2012) for the western
+region. Error bars show the standard deviation of the observed mean. Concentrations are reported at standard temperature and pressure (STP)
+conditions (at 273.15 K and 1013.25 hPa). The NMBF values are given separately for the western region (Phase 1 and Phase 2) and eastern
+region in Table 2.
+the observed total aerosol mass during the campaign but 5 %–
+11 % in the model (Fig. 4b). Sulfate concentrations are well
+reproduced by the model with no ﬁre emissions and are over-
+estimated when ﬁre emissions are included (Table 2). This
+suggests that either emissions of sulfate from ﬁres are over-
+estimated or that other sources of sulfate are overestimated
+in the model in the region of Porto Velho.
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9136
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Figure 6. Mean observed (black) and simulated (colour) aerosol number size distributions during the SAMBBA aircraft campaign for two
+altitude bands: between the surface and 2 km (a, b, c) and between 2 and 4 km a.s.l. (c, d, e). The observed number size distribution was
+measured with a scanning mobility particle sizer (SMPS; black crosses) and a Grimm optical particle counter (OPC; black diamonds). The
+simulated data (linearly interpolated to the ﬂight track of the aircraft) and the observations are split into western and eastern regions of the
+Amazon (Fig. 2), as well as by time (P1: 13–22 September 2012, P2: 23 September–3 October 2012) for the western region. Simulated
+concentrations are shown for the model with FINN1.5 (green), GFAS1.2 (blue), GFED4 (red) emissions and with no biomass burning
+emissions (noBBA; orange).
+3.2
+Aerosol mass concentration vertical proﬁle
+Figure 5 compares average vertical proﬁles of OA, sul-
+fate and BC measured on the aircraft to that simulated
+by GLOMAP. As before, the data are split into Phase 1
+(ﬂights 1–8) and Phase 2 (ﬂights 9–20). We also split the
+data spatially into western and eastern Amazon regions (see
+Fig. 2). We note that the aircraft sampling in the eastern
+region was limited relative to sampling in the western re-
+gion (Sect. 2.3.1). Figure S8 shows the number of OA (from
+the AMS) and BC (from the SP2) observations per vertical
+bin for the western region (Phases 1 and 2) and eastern re-
+gion. Figure 5 shows that observed aerosol concentrations
+are greatest in the boundary layer (BL) then reduce rapidly
+above it (see also Fig. S9). Figures 5 and S9 show that the
+shape of the aerosol vertical proﬁle is well reproduced by the
+model, further conﬁrming that simulated vertical mixing and
+the vertical injection height of ﬁre emissions are reasonable.
+Observed aerosol concentrations are relatively constant be-
+tween the surface and ∼2500 m in the western Amazon and
+between the surface and ∼4000 m in the eastern Amazon.
+This behaviour is reproduced by the model and is likely due
+to a deeper BL over grassland vegetation in the eastern Ama-
+zon (Fig. S10).
+In the western Amazon, average concentrations of OA be-
+low 2.5 km (roughly the BL) were 19 µgm−3 in Phase 1 com-
+pared to 6 µgm−3 in Phase 2, similar in both magnitude and
+temporal pattern to the surface observations at Porto Velho.
+In Phase 1, the model underestimates observed OA con-
+centrations in the BL with all emission datasets (NMBF =
+−0.25 for FINN to −1.64 for GFAS). OA concentrations
+in Phase 1 in the western Amazon between 3 and 4.5 km
+are also underestimated by the model, with all emission
+datasets consistent with comparisons in the BL. The model
+does not simulate the observed reduction in OA concentra-
+tions between Phase 1 and Phase 2, overestimating OA con-
+centrations in the western Amazon in Phase 2 with GFED
+(NMBF = 0.39) and FINN (NMBF = 1.21) emissions but
+having good agreement with GFAS (NMBF = 0.02). This
+may be because the emission datasets report only moderately
+lower emissions in Phase 2 compared to Phase 1 (Fig. S3a;
+Table 1) but also because the model may underestimate wet
+removal of aerosol during Phase 2 (consistent with model and
+observation comparisons in Archer-Nicholls et al., 2015). In
+the eastern Amazon, average concentrations of OA below
+4 km (roughly the BL) of 16 µgm−3 are underestimated by
+the model with all three emission datasets (NMBF = −0.92
+for GFAS to −3.14 for FINN).
+Disagreement between observed and simulated OA may
+be due to uncertainty in the OA : OC ratio. In this study we
+assume an OA : OC ratio of 1.4, at the lower end of the range
+(1.4 to 2.6) assumed by other models (Tsigaridis et al., 2014).
+Philip et al. (2014) combined satellite data and AMS mea-
+surements to estimate an OA : OC ratio of 1.3 to 2.1. Prelim-
+inary analysis of aircraft data during SAMBBA suggests an
+OA : OC ratio of 1.5 to 1.8 for fresh biomass burning aerosol
+and 2.0 to 2.3 for aged aerosol (Johnson et al., 2016). Assum-
+ing an OA : OC ratio of 2.3 would enhance our simulated OA
+concentrations by 60 %, reducing our underestimate of OA in
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9137
+both the western (Phase 1: NMBF = −0.64 to 0.29) and east-
+ern (NMBF = −1.59 to −0.20) Amazon.
+Observed refractive BC (rBC) concentrations in the BL are
+∼1.0 µgm−3 in the western Amazon during Phase 1, drop-
+ping to ∼0.5 µgm−3 during Phase 2. BC concentrations ob-
+served at the surface (Sect. 3.1; Phase 1, 1.6 µgm−3; Phase
+2, 0.9 µgm−3) are greater than those measured on the air-
+craft, although this may be partly due to the different mea-
+surement techniques used and different size detection ranges.
+In the eastern Amazon, observed rBC concentrations are
+higher (1.8 µgm−3), qualitatively reproduced by the model
+with GFAS and GFED emissions but not with FINN emis-
+sions. The model strongly underestimates BC concentrations
+in the eastern Amazon with all emission datasets, particularly
+with FINN (NMBF = −1.48 for GFAS to −6.10 for FINN).
+In the west, the agreement is more variable, with the model
+simulating concentrations in Phase 1 well with FINN emis-
+sions but overestimating in Phase 2, GFED underestimat-
+ing in Phase 1 but simulating concentrations well in Phase
+2 and the model with GFAS emissions underestimating in
+both phases.
+In the western Amazon, comparison with sulfate aerosol
+is fairly consistent with OA and BC comparisons, with
+the model underestimating in Phase 1 and overestimating
+in Phase 2. In the eastern Amazon, the model overesti-
+mates sulfate concentrations even without a contribution
+from ﬁres, suggesting that other natural and anthropogenic
+sulfate sources may be overestimated in the model.
+Observed average BC : OA mass concentration ratios in
+the BL vary from 0.05 in the western Amazon (Phase 1,
+1/19 = 0.05; Phase 2, 0.5/6 = 0.08) to 0.11 (1.8/16 = 0.11)
+in the eastern Amazon. These ratios reﬂect the much higher
+BC emission factors found for ﬂaming Cerrado ﬁres in the
+eastern Amazon relative to tropical forest ﬁres in the western
+Amazon (Hodgson et al., 2018). Simulated ratios are in good
+agreement with observations in the western Amazon with
+all emission datasets (e.g. Phase 1, FINN: 0.9/15 = 0.06;
+Phase 2, FINN: 0.8/13 = 0.06). In the eastern Amazon, BC :
+OC ratios are underestimated using FINN (0.26/3.8 = 0.07)
+emissions, with better agreement using GFED (0.63/7.0 =
+0.09) and GFAS (0.74/8.2 = 0.09) emissions.
+In the western Amazon, average aerosol concentra-
+tions at 4 km are ∼27 %–50 % of concentrations in the
+BL (< 2.5 km) (OAP1: 7/19 = 0.37, OAP2: 3/6 = 0.50;
+BCP1: 0.27/1 = 0.27, BCP2: 0.26/0.5 = 0.52). Marenco et
+al. (2016) reported a mean aerosol layer of 2.0±0.4 km dur-
+ing the SAMBBA campaign, which is consistent with the
+model results presented here. A plume rise model coupled to
+WRF-Chem overestimated OA concentrations at 6–8 km alti-
+tude observed over tropical forest regions during SAMBBA,
+suggesting the plume rise model overestimated ﬁre injection
+height (Archer-Nicholls et al., 2015). Injecting ﬁre emissions
+into the surface layer (Fig. S11, “GFED_surﬂev”) has a rel-
+atively small impact on the simulated aerosol vertical pro-
+ﬁle in the west (a mean change of −0.3 % below 2.5 km),
+with a small change in the bias against observations (e.g. for
+OA in Phase 1; NMBF = −0.82 for GFED and −0.77 for
+GFED_surﬂev), demonstrating that vertical mixing rapidly
+redistributes aerosol in the model. In the eastern region, the
+impact is larger (a mean change of +5 % below 4 km), with
+a slight improvement in the model bias (e.g. for OA; NMBF
+= −1.23 for GFED and −0.90 for GFED_surﬂev). Overall
+there appears to be limited evidence for the need for substan-
+tial injection of ﬁre emissions above the BL for ﬁres in this
+region.
+Overall, the comparisons with aircraft observations show
+variable agreement between the model and observations. The
+model with GFAS emissions consistently underestimates ob-
+served aerosol mass concentrations by up to a factor of 3 but
+gives the best agreement (relative to GFED and FINN) with
+observations in the eastern Amazon. Agreement between the
+model and observations with GFED and FINN emissions is
+more variable, with up to a factor of 2–3 underestimation
+or overestimation, depending on the region and time period.
+In general, the model with FINN emissions performs well
+against observations in the western Amazon in Phase 1 (when
+observed aerosol mass concentrations are relatively high) but
+gives the largest underestimation of aerosol mass concentra-
+tions in the eastern Amazon (relative to GFED and GFAS).
+3.3
+Aerosol size distribution
+Figure 6 compares simulated aerosol size distributions
+against those measured on the aircraft during straight and
+level runs. In the eastern Amazon, the model underestimates
+particle number below 300 nm in diameter, consistent with
+aerosol mass comparisons (Sect. 3.2). In the western Ama-
+zon, the model with FINN and GFED emissions generally
+matches the observed size distribution well above 200 nm in
+diameter (N200), with a small underestimate during Phase 1
+with GFED (NMBFP1 = −0.52; NMBFP2 = −0.08) and a
+small overestimate during Phase 2 with FINN (NMBFP1 =
+−0.13; NMBFP2 = 0.39), consistent with the vertical pro-
+ﬁles of aerosol mass (Fig. 5). The model with GFAS emis-
+sions underestimates throughout the size distribution (e.g.
+for N200: NMBFP1 = −1.20; NMBFP2 = −0.45), consistent
+with earlier comparisons.
+There is a persistent underestimation of aerosol number at
+particle sizes below about 100 nm. We assume all biomass
+burning emissions are emitted into the accumulation mode
+with a geometric mean diameter of 150 nm (Sect. 2.1.1;
+Mann et al., 2010), which is substantially higher than ob-
+served in the Porto Velho ground station data (94 nm; Brito et
+al., 2014). The observations suggest biomass burning makes
+a considerable contribution to aerosol number from ∼50 to
+200 nm in diameter that is not included in the model. This is
+consistent with Vakkari et al. (2018), where assumed emis-
+sion size distributions in models poorly represented the num-
+ber of particles in the 30–100 nm (Aitken mode) size range
+for southern African savanna and grassland ﬁres.
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9138
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Figure 7. Time series of simulated (colour) and observed (black) aerosol optical depth at 550 nm (AOD550) for the SAMBBA campaign
+(13 September–3 October 2012) over (a) the western Amazon (6–12◦S, 54–68.5◦W) and (b) the eastern Amazon (4.5–15◦S, 43–50◦W).
+Observed AOD550 retrieved by MODIS on board Terra (overpass time 10:30 LT) is shown by the black diamonds and AOD550 retrieved by
+MODIS on board Aqua (overpass time 13:30 LT) is shown by the black crosses; the black line shows an average value for each day (plotted at
+midday local time). Simulated hourly AOD550 (plotted at local time for Rondônia, Brazil: UTC−4h) is shown for the model with FINN1.5
+(green), GFAS1.2 (blue), GFED4 (red) emissions and with no biomass burning emissions (noBBA; orange). The NMBF values are given
+separately for the western region (Phase 1 and Phase 2) and eastern region in Table 2.
+We performed two sensitivity tests where we varied the as-
+sumed emission size distribution for primary biomass burn-
+ing aerosol in GLOMAP (Fig. S12). Reid and Hobbs (1998)
+measured count median diameters (CMD) of 130 ± 10 nm
+(σ = 1.68±0.02) and 100±10 nm (σ = 1.77±0.02) for de-
+forestation ﬁres and 100 ± 10 nm (σ = 1.91 ± 0.15) for Cer-
+rado ﬁres (Reid et al., 2005). Assuming a CMD of 100 nm
+increases the simulated particle number concentration be-
+low 100 nm in diameter by factors of ∼1.8 (with σ = 1.7)
+and ∼1.5 (with σ = 1.8) over the SAMBBA regions. This
+results in a reduction in the negative bias in simulated
+number concentration above 50 nm (N50) (GFED, 150 nm,
+σ = 1.59: NMBFWestP1 = −1.85; GFED, 100 nm, σ = 1.7:
+NMBFWestP1 = −0.51) but a slight increase in the nega-
+tive bias in N200 (GFED, 100 nm, σ = 1.7: NMBFWestP1 =
+−0.55). Therefore, reducing the assumed emission size dis-
+tribution for primary BC and OC from biomass burning may
+be important for cloud condensation nuclei concentrations
+but will only have a small effect on simulated aerosol mass
+and AOD (see Sect. 3.5.1).
+3.4
+Aerosol optical depth
+Figure
+7
+compares
+simulated
+and
+satellite-retrieved
+(MODIS) AOD at 550 nm (AOD550) over the eastern
+and western regions for the SAMBBA campaign period.
+Compared to MODIS, the model generally underestimates
+AOD550 over both regions and with all ﬁre emission
+datasets (NMBF = −2.41 to −0.38; Table 2). The model
+with GFAS emissions has the largest underestimation in the
+western Amazon (the smallest with FINN) and the model
+with FINN emissions has the largest underestimate in the
+eastern Amazon (the smallest with GFAS). The model with
+FINN emissions underestimates AOD550 in the western
+Amazon in Phase 2 even when it overestimates aerosol mass
+concentrations throughout the vertical proﬁle. In the eastern
+region, the underestimation of AOD550 with all emission
+datasets is consistent with the comparison of the vertical
+proﬁle of aerosol mass concentration.
+Figure 8 compares simulated and observed AOD at 500 nm
+(AOD500) at ﬁve AERONET sites across the western and
+southern Amazon during SAMBBA (no data are available
+from the AERONET station located in the eastern region dur-
+ing the campaign). There is reasonable agreement between
+AOD500 reported by AERONET and AOD550 reported by
+MODIS, with AERONET generally reporting higher values
+(Aqua: NMBF = −0.60 to −0.27; Terra: NMBF = −0.47 to
+−0.18), partly due to differences in the wavelengths of the
+retrievals.
+Consistent with comparisons to MODIS, the model gener-
+ally underestimates AOD500 at all stations and with all ﬁre
+emissions, except at two stations in the western Amazon (Rio
+Branco in both campaign phases and Porto Velho in Phase 2)
+with FINN emissions. The negative model bias in AOD500
+across all AERONET stations is consistent with the nega-
+tive model bias in AOD550 (against MODIS) (Table 2) but
+is smaller at some individual stations (Fig. 8). This is likely
+due to multiple reasons including differences in (i) the AOD
+wavelengths (500 nm versus 550 nm), (ii) the AERONET and
+MODIS retrieval uncertainties (Sect. S2.3), (iii) the location
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9139
+Figure 8. Time series of simulated (colour) and observed (black) daily aerosol optical depth (AOD) during the SAMBBA campaign at ﬁve
+AERONET stations in the western and southern Amazon: (a) Porto Velho UNIR (8.84◦S, 63.94◦W), (b) Santa Cruz UTEPSA (17.77◦S,
+63.20◦W), (c) Cuiabá-Miranda (15.73◦S, 56.02◦W), (d) Rio Branco (9.96◦S, 67.87◦W) and (e) Alta Floresta (9.87◦S, 56.10◦W). Daily
+mean AOD at 500 nm (AOD500) from AERONET (black line) is compared to AOD550 retrieved by MODIS (Terra: black diamonds; Aqua:
+black crosses), using grid cells nearest to the AERONET station location. Simulated daily mean AOD500 is shown for the model with
+FINN1.5 (green), GFAS1.2 (blue), GFED4 (red) emissions and with no biomass burning emissions (noBBA; orange). The NMBF values are
+given separately for Phase 1 (P1) and Phase 2 (P2) of the campaign.
+and region of comparison affecting magnitude and sources of
+AOD, and (iv) the AERONET and MODIS data coverages.
+For all stations, the model with GFAS emissions has the
+largest underestimation (Table 2). The ﬁre emission dataset
+that gives the smallest model bias varies between GFED and
+FINN depending on the station and time period (Phase 1 or
+2 of the campaign; Table 2). At Porto Velho, the model with
+GFED emissions underestimates AOD500 (NMBF = −0.70;
+Table 2) during Phase 2 even when it overestimates aerosol
+mass concentrations at the surface (NMBF=0.89; Table 2).
+The smallest model bias for all simulations is at Rio Branco
+in the western Amazon (e.g. with FINN: NMBFP1 = 0.03,
+NMBFP2 = 0.11).
+Figure 9 compares average vertical proﬁles of aerosol scat-
+tering and extinction coefﬁcients (at 550 nm) measured on
+the aircraft to that simulated by GLOMAP. In the west-
+ern region, during Phase 1, the model underestimates the
+observed scattering coefﬁcient throughout the vertical pro-
+ﬁle (NMBF = −1.29 with GFAS to −0.29 with FINN; Ta-
+ble 2); consistent with the comparisons against MODIS and
+AERONET AOD. During Phase 2, the agreement between
+simulated and measured scattering coefﬁcient is more con-
+sistent with the vertical proﬁle of aerosol mass concentra-
+tions than with MODIS or AERONET AOD, i.e., good agree-
+ment with GFAS emissions (NMBF = −0.07) and overesti-
+mation with FINN (NMBF = 0.92), respectively. The agree-
+ment between simulated and measured extinction coefﬁcient
+is similar but with larger negative biases during Phase 1 and
+slightly smaller positive biases in Phase 2. In the eastern re-
+gion, the model strongly underestimates observed scattering
+(NMBF = −3.3 to −1.29) and extinction (NMBF = −3.90
+to −1.51) coefﬁcients, consistent with MODIS AOD550
+(with larger negative biases than for total aerosol mass con-
+centrations).
+In summary, the model generally underestimates observed
+AOD during the SAMBBA campaign. The negative biases
+in simulated AOD and scattering and extinction coefﬁcients
+are generally larger than in simulated aerosol size distribu-
+tion (> 200 nm in diameter) and in total aerosol mass con-
+centrations at the surface (consistent with Reddington et al.,
+2016) and aloft, which suggests that model underestimation
+of AOD is not solely due to an underestimation of biomass
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9140
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Figure 9. Vertical proﬁles of observed (black) and simulated (colour) aerosol scattering coefﬁcient at 550 nm (a, b, c) and extinction coef-
+ﬁcient at 550 nm (d, e, f) during the SAMBBA aircraft campaign, sectioned into 400 m altitude bins. Observations are shown by the black
+data points. Simulated concentrations are shown for the model with FINN1.5 (green), GFAS1.2 (blue), GFED4 (red) emissions and with no
+biomass burning emissions (orange). The simulated data (linearly interpolated to the ﬂight track of the aircraft) and the observations are split
+into western and eastern regions of the Amazon (Fig. 2), as well as by time (Phase 1: 13–22 September 2012, Phase 2: 23 September–3 Oc-
+tober 2012) for the western region. Error bars show the standard deviation of the observed mean. The NMBF values are given separately for
+the western region (Phase 1 and Phase 2) and eastern region in Table 2.
+burning aerosol mass and/or emissions. The calculation of
+AOD also depends on aerosol optics and water uptake. We
+explore the sensitivity of simulated AOD to these other fac-
+tors in the following section.
+3.5
+Exploring the sensitivity of simulated aerosol
+optical depth
+In Reddington et al. (2016) we identiﬁed a greater model un-
+derestimation of AOD than surface PM2.5 in the Amazon re-
+gion, where coincident observations were available, suggest-
+ing that the negative model bias in AOD could be caused by
+errors in the calculation of AOD rather than by errors in sim-
+ulated aerosol properties. However, due to a lack of available
+observations, we were unable to rule out errors in simulated
+aerosol size distribution and vertical proﬁle (i.e. an underes-
+timation of aerosol aloft) with any certainty.
+In this work, using the detailed SAMBBA observations,
+we have shown that the model represents the vertical proﬁle
+of aerosol mass concentrations and aerosol size distribution
+well (in the diameter range relevant for visible light) in the
+western Amazon, yet continues to underestimate AOD. Be-
+low we explore the sensitivity of simulated AOD to the treat-
+ment of biomass burning emissions in GLOMAP and to other
+relevant aerosol properties including aerosol mixing state, re-
+fractive indices and hygroscopicity (summarised in Table 3,
+Figs. 10 and S13). To quantify the sensitivity of each simula-
+tion we calculate the percentage change of simulated hourly
+AOD550 during the SAMBBA campaign relative to simu-
+lation 1 in Table 3; the relative changes are summarised in
+Fig. 10. Figure S13 summarises the agreement between sim-
+ulated and measured optical properties during the SAMBBA
+campaign for each simulation in Table 3.
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9141
+Table 3. Summary of tests performed to explore the sensitivity of simulated aerosol optical depth (AOD) to assumptions about biomass
+burning emissions, aerosol optical properties (refractive indices, RIs), aerosol mixing state and aerosol water uptake calculation (Sect. 3.5).
+The water uptake schemes used (ZSR and κ-Köhler) are described in Sect. S1 (κ is the component-speciﬁc hygroscopicity parameter).
+No.
+Name
+Description
+Fire
+Refractive indices
+Mixing (internal or
+Water uptake
+RH
+emissions
+(RIs)
+external)
+scheme
+ﬁelds
+BC
+POM
+1
+GFED
+Control (GFED emissions)
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+2
+FINN
+FINN emissions
+FINN
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+3
+GFAS
+GFAS emissions
+GFAS
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+4
+surﬂev
+GFED emissions injected into
+the model surface level
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+5
+emsize
+GFED emissions with a re-
+duced emission size for BC/OC
+particles (CMD = 100 nm, σ =
+1.7).
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+6
+extmix
+External mixing assumption
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+External
+ZSRb
+GLOMAP
+(ECMWF)
+7
+rﬁdx_1
+RI calculated for young smoke
+aerosol over southern Africa.
+GFED
+1.54 −0.025i
+(λ = 550 nm)c
+1.54 −0.025i
+(λ = 550 nm)c
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+8
+rﬁdx_2
+RI
+retrieved
+by
+Ndola
+AERONET
+station
+in
+Zam-
+bia; close to smoke sources
+(Sep 2000 mean).
+GFED
+1.51 −0.024i
+(λ = 440 nm)d
+1.51 −0.024i
+(λ = 440 nm)d
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+9
+rﬁdx_3
+RI
+retrieved
+by
+Ndola
+AERONET station in Zambia
+(16 Sep 2000).
+GFED
+1.52 −0.019i
+(λ = 440 nm)d
+1.52 −0.019i
+(λ = 440 nm)d
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+10
+rﬁdx_4
+RI retrieved by AERONET sta-
+tion, Jaru Reserve in Brazil
+(20 Sep 2002).
+GFED
+1.50 −0.02i
+(λ = 440 nm)e
+1.50 −0.02i
+(λ = 440 nm)e
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+11
+rﬁdx_5
+Mid-range value for RI for light
+absorbing carbon
+GFED
+1.85 −0.71i
+(λ = 550 nm)f
+[set to 1.500 −
+0.000i]a
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+12
+rﬁdx_6
+Upper limit of RI for light ab-
+sorbing carbon
+GFED
+1.95 −0.79i
+(λ = 550 nm)f
+[set to 1.500 −
+0.000i]a
+Internal
+ZSRb
+GLOMAP
+(ECMWF)
+13
+κK_1
+κ-Köhler to calculate aerosol
+water uptake.
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+κ-Köhler
+(κOA = 0.1g;
+κSO4 = 0.53h)
+GLOMAP
+(ECMWF)
+14
+κK_2
+κ-Köhler to calculate aerosol
+water
+uptake
+(using
+κ
+for
+H2SO4).
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+κ-Köhler
+(κOA = 0.1g;
+κSO4 = 1.19h)
+GLOMAP
+(ECMWF)
+15
+κK_3
+κ-Köhler to calculate aerosol
+water uptake (using high κ for
+OA and κ H2SO4).
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+κ-Köhler
+(κOA = 0.2i;
+κSO4 = 1.19h)
+GLOMAP
+(ECMWF)
+16
+κK_4
+κ-Köhler to calculate aerosol
+water
+uptake
+(using
+CCN-
+derived κ for (NH4)2SO4).
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+κ-Köhler
+(κOA = 0.1g;
+κSO4 = 0.61h)
+GLOMAP
+(ECMWF)
+17
+κK_5
+κ-Köhler to calculate aerosol
+water uptake (using high κ for
+OA and CCN-derived κ for
+(NH4)2SO4).
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+κ-Köhler
+(κOA =0.2i;
+κSO4 = 0.61h)
+GLOMAP
+(ECMWF)
+18
+κK_RH
+κ-Köhler to calculate aerosol
+water uptake with mean aircraft
+RH vertical proﬁle.
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+κ-Köhler
+(κOA = 0.1g;
+κSO4 = 0.53h)
+Aircraft (mean
+RH)
+19
+κK_RHmax96
+κ-Köhler to calculate aerosol
+water uptake with maximum
+aircraft
+RH
+vertical
+proﬁle
+(capped at 96 %).
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+κ-Köhler
+(κOA = 0.1g;
+κSO4 = 0.53h)
+Aircraft
+(max
+RH, capped at
+96 %)
+20
+κK_RHmax99
+κ-Köhler to calculate aerosol
+water uptake with maximum
+aircraft
+RH
+vertical
+proﬁle
+(capped at 99 %).
+GFED
+1.750 −0.442286i
+(λ = 542 nm)a
+1.500 −0.00i
+(all λ)a
+Internal
+κ-Köhler
+(κOA = 0.1g;
+κSO4 = 0.53h)
+Aircraft
+(max
+RH)
+a Bellouin et al. (2011). b Stokes and Robinson (1966). c Haywood et al. (2003). d Matichuk et al. (2007). e Matichuk et al. (2008). f Bond and Bergstrom (2006).
+g Gunthe et al. (2009). h Petters and Kreidenweis (2007). i Petters et al. (2009).
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9142
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Figure 10. Box-and-whisker plot summarising the relative difference between simulated hourly mean AOD550 from the control simulation
+(GFED emissions with ZSR water uptake scheme) and each of the sensitivity simulations listed in Table 3. Simulation numbers in the
+ﬁgure correspond to the simulation numbers in Table 3. Simulations are compared during the SAMBBA campaign period (13 September–
+3 October 2012) for the western region (6–12◦S, 54–68.5◦W; a) and the eastern region (4.5–15◦S, 43–50◦W; b) separately. Simulations 18,
+19 and 20 are compared to the control simulation only on days with available aircraft measurements of RH. Circles show the mean values,
+whiskers show the minimum and maximum values, boxes show the 25th and 75th percentiles, and horizontal lines show the median values.
+3.5.1
+Biomass burning aerosol emission strength,
+particle size and injection height
+Figure 10 shows that simulated AOD is sensitive to the
+ﬁre emission dataset used in the model. Changing between
+GFED emissions (simulation 1 in Table 3) and GFAS emis-
+sions (simulation 2 in Table 3) changes simulated hourly
+AOD550 during the SAMBBA campaign by −14 % on av-
+erage in the western region and by +10 % on average in
+the eastern region (Fig. 10). Changing from GFED emis-
+sions to FINN emissions (simulation 3 in Table 3) increases
+simulated AOD550 in the western region (a mean change of
++32 %) and decreases simulated AOD550 in the eastern re-
+gion (a mean change of −28 %) (Fig. 10). As discussed in
+Sect. 3.4, the model with FINN emissions has the smallest
+underestimate against MODIS AOD550 in the western re-
+gion (the largest underestimation is with GFAS) but overes-
+timates measured scattering and absorption coefﬁcients dur-
+ing Phase 2 (Fig. S13). In the eastern region, the model with
+GFAS has the smallest underestimate of MODIS AOD550
+and aircraft-measured scattering and absorption coefﬁcients
+(the largest underestimation is with FINN) (Fig. S13).
+Altering the injection height of biomass burning emissions
+to the surface level (simulation 4 in Table 3) has an almost
+negligible effect on simulated AOD550, with mean changes
+of < 1 % in the eastern region (ranging from +6 to −17 %
+on the hourly timescale) and −3 % in the western region rela-
+tive to the control simulation (Fig. 10). Injecting GFED emis-
+sions at the surface results in an increase in the model NMBF
+in AOD550 against MODIS in the west (e.g. Phase 1: from
+0.97 to −1.03) and a slight reduction in the NMBF in the east
+(from −1.44 to −1.42) (Fig. S13).
+Reducing the assumed emission size for primary BC and
+OC particles from biomass burning (from a CMD of 150
+to 100 nm; simulation 5 in Table 3) decreases simulated
+AOD550 in both the eastern (−9 %) and western (−13 %)
+regions (Fig. 10), consistent with the decrease in simulated
+N200 (Sect. 3.3). As a result, the model bias in AOD550
+against MODIS is increased relative to the control from
+NMBF = −0.97 to −1.28 in the west (Phase 1) and from
+NMBF = −1.44 to −1.70 in the east (Fig. S13).
+3.5.2
+Mixing state
+We ﬁnd that simulated AOD is relatively insensitive to the as-
+sumption about the aerosol mixing state, with a less than 5 %
+difference in the magnitude of AOD550 between internally
+mixed (simulation 1; Table 3) and externally mixed (simu-
+lation 6; Table 3) cases (consistent with Reddington et al.,
+2016). Calculating AOD550 assuming optical properties de-
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9143
+rived from an external mixture of aerosol species leads to
+slightly reduced values (by ∼1 %–4 % – mean reduction in
+the west: ∼2 %; mean reduction in the east: ∼1 %; Fig. 10)
+when compared to AOD550 calculated assuming an internal
+(volumetrically averaged) aerosol mixture (Fig. 10). There-
+fore, assuming an internal mixture leads to slightly improved
+agreement between simulated and observed AOD over the
+external mixture assumption (Fig. S13).
+Han et al. (2013) also ﬁnd relatively small changes in
+the magnitude of AOD (0.03 to 0.07) in high AOD regions
+(∼0.8 to 2.0) between internally and externally mixed cases,
+with the internal mixture assumption giving higher values
+than the external mixture assumption. Curci et al. (2015) ﬁnd
+a greater difference (∼37 %) in simulated AOD between in-
+ternally and externally mixed assumptions, with the external
+mixed case giving the highest AOD. However, the greater
+sensitivity of simulated AOD to the mixing state assumption
+in Curci et al. (2015) was primarily due to the difference in
+the calculation of the aerosol number size distribution rather
+than the difference in the calculated optical properties. The
+GLOMAP model simulates both mass and number concen-
+tration of each size mode so the total number concentration
+stays identical for both mixing state assumptions (in the ex-
+ternally mixed case the number concentration of particles in
+a given size mode is split between aerosol components based
+on the volume fraction of that component in the mode). We
+note that the internally mixed case used in this study does not
+consider different mixing structure assumptions, i.e. core–
+shell internal mixing, which may account for an additional
+uncertainty of ∼5 %–10 % in simulated AOD (Curci et al.,
+2015).
+3.5.3
+Refractive index
+To investigate the sensitivity of simulated AOD to assump-
+tions about the aerosol optical properties, we calculated
+AOD550 from the model simulation with GFED emissions
+assuming a range of refractive indices appropriate for BC
+and POM aerosol (see simulations 7 to 12 in Table 3). We
+ﬁnd that the magnitude of simulated AOD550 varies by up
+to ∼7 % (relative to the control AOD550) depending on the
+choice of refractive indices.
+Applying smoke aerosol refractive indices from Matichuk
+et al. (2007, 2008) to the model BC and POM components
+(simulations 8–10 in Table 3) leads to a small mean decrease
+in AOD550 relative to the control (by 2 %–5 % in the eastern
+region and 0 %–3 % in the western region; Fig. 10). Assum-
+ing medium and highly absorbing refractive indices for BC
+from Bond and Bergstrom (2006) (simulation 11 in Table 3)
+increases AOD550 by an average of 4 %–6 % in the eastern
+region and 2 %–4 % in the western region. Using the highly
+absorbing refractive index for BC (simulation 12 “rﬁdx_6”
+in Table 3) gives the best agreement between the model and
+satellite-retrieved (MODIS) AOD550 out of the refractive in-
+dex sensitivity tests (Fig. S13).
+The relatively small sensitivity of simulated AOD to as-
+sumed aerosol refractive indices is consistent with previous
+studies (Matichuk et al., 2007; Curci et al., 2015; Reddington
+et al., 2016) and suggests that the negative bias in AOD can-
+not be wholly explained by the uncertainty associated with
+this assumption.
+3.5.4
+Aerosol water uptake
+Aerosol water uptake plays a signiﬁcant role in determining
+AOD, altering the refractive index and the size distribution of
+the aerosol. Our estimate of aerosol water uptake depends on
+the calculation method (including assumptions made regard-
+ing aerosol hygroscopicity; described in Sects. 2.1.2 and S1),
+the model relative humidity (from ECMWF reanalyses), and
+the simulated aerosol physical and chemical properties (size
+distribution and composition).
+To test the sensitivity of AOD to the calculation of aerosol
+water uptake, we compare AOD550 calculated using two
+methods (described in Sect. S1): (1) using ZSR online in the
+model (simulation 1 in Table 3) and (2) using the κ-Köhler
+water uptake scheme (Petters and Kreidenweis, 2007) of-
+ﬂine during post-processing (simulation 13 in Table 3). Our
+previous work demonstrated that simulated AOD is sensi-
+tive to this calculation, with simulated AOD440 varying by
+a factor of ∼1.6 between the upper and lower estimates of
+water uptake (Reddington et al., 2016). We ﬁnd the same
+here, with AOD550 varying by a mean factor of 1.6 over the
+western Amazon and a mean factor of 1.5 over the eastern
+Amazon, between the two calculation methods. Using the κ-
+Köhler water uptake scheme decreases AOD550 (by 32 %–
+39 %; Fig. 10) relative to AOD550 calculated using ZSR,
+thus increasing the negative model bias against observations
+(Fig. S13).
+To explore the sensitivity to assumed κ values, we varied
+κ values separately for the sulfate and POM components in
+the model. Assuming a higher κ for sulfate (1.19, the same
+as for sulfuric acid; Petters and Kreidenweis, 2007, and sim-
+ulation 14 “κK_2” in Table 3) results in simulated AOD550
+being 26 % and 33 % lower on average than ZSR in the east-
+ern and western regions, respectively (Fig. 10). Assuming a
+higher κ for both sulfate (1.19) and for POM (0.2) (simu-
+lation 15 “κK_3” in Table 3) results in simulated AOD550
+being 23 %–25 % lower than ZSR on average (Fig. 10). Fig-
+ure S14 shows the change in simulated AOD550 due to as-
+suming different κ values for sulfate and POM relative to the
+simulation using the κ-Köhler water uptake scheme with κ
+of 0.53 for sulfate and 0.1 for POM (simulation 1 “κK_1”
+in Table 3). Using high κ values for both sulfate and for
+POM (simulation 15 “κK_3” in Table 3) increases simu-
+lated AOD550 on average by 12 %–23 %, improving agree-
+ment with MODIS AOD550, relative to simulation “κK_1”
+(Fig. S13). However, these high κ values are likely to be un-
+realistically high for biomass burning aerosol (particularly
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9144
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+for sulfate) and, despite this, the model bias remains nega-
+tive.
+The higher AOD550 values calculated using the ZSR
+scheme can be explained by the steeper hygroscopic growth
+curve for biomass burning aerosol (at ambient relative hu-
+midity, RH, < 90 %) when calculated with the GLOMAP
+ZSR scheme compared with the κ-Köhler scheme (see
+Fig. 13 of Johnson et al., 2016). At ambient RH above 90 %
+the opposite is true, with a steeper growth curve for the κ-
+Köhler scheme (due to the RH restriction of 90 % applied
+in GLOMAP for ZSR; see Sect. S1.1). However, the model
+RH stays below 90 % during the SAMBBA campaign (see
+Sect. 3.5.5). We note that AOD simulated with ZSR (assum-
+ing sulfuric acid and high water uptake for organics) is likely
+to be an upper estimate for water uptake. Our results conﬁrm
+the large uncertainty present in the simulated AOD due to
+aerosol hygroscopicity.
+3.5.5
+Relative humidity
+In Reddington et al. (2016), we discussed the potential sen-
+sitivity of simulated AOD to errors in ambient RH. In this
+work we are able to evaluate the model relative humid-
+ity against SAMBBA aircraft observations. The model cap-
+tures the shape of the mean proﬁle of observed relative hu-
+midity in both the western and eastern regions (NMBF =
+−0.03), with small overestimates and underestimates in the
+BL in the western and eastern regions, respectively (western
+BL: NMBF = 0.10; eastern BL: NMBF = −0.05) (Fig. S15).
+However, the model underestimates the variability in ob-
+served RH above ∼1.5 km altitude in the west and below
+∼4 km altitude in the east. In particular, in the western re-
+gion, the model does not capture the elevated observed RHs
+(≥90 %), which disproportionately affect aerosol water up-
+take and hygroscopic growth. This underestimation is likely
+due to the relatively coarse vertical and horizontal resolu-
+tion of the model. A recent study by Haslett et al. (2019)
+found that high AODs observed by AERONET in southern
+West Africa could only be recreated by accounting for very
+elevated and variable RHs in the BL. They found that hu-
+mid layers had a signiﬁcant impact on AOD (particularly for
+RH > 98 %), resulting in a wet AOD more than 1.8 times the
+dry AOD (Haslett et al., 2019). This suggests that inadequate
+representation of sub-grid variability of RH may contribute
+to the model discrepancy in AOD.
+To explore the sensitivity of model AOD to variability
+in RH, we forced the model RH to match either the mean
+or maximum observed RH in each vertical model level (on
+days with available aircraft data) and calculated the resulting
+water uptake using the κ-Köhler scheme (with κPOM = 0.1;
+κSO4 = 0.53; simulations 18–20 in Table 3). These sensitivity
+tests have mixed results on simulated AOD (see Figs. 10 and
+S14). Setting the model RH to the mean observed RH in each
+vertical level (simulation 18 “κK_RH” in Table 3) results in
+a small mean increase in simulated AOD550 in the east (by
+∼11 %) and small mean decrease in the west (by ∼8 %) rel-
+ative to AOD550 calculated using κ-Köhler and GLOMAP
+RH (simulation 13 “κK_1” in Table 3; see Fig. S13). Setting
+the model RH to the maximum observed RH in each ver-
+tical level (with a restriction of RH ≤99 %; simulation 20
+“κK_RHmax99” in Table 3) increases model AOD550 (by
+∼58 %–87 % on average; Fig. S14) improving agreement
+with MODIS AOD550 (Fig. S13) but leads to overestima-
+tion of the observed aerosol scattering and extinction coefﬁ-
+cients between 4 and 6 km altitude. Using the maximum ob-
+served RH but with a restriction of RH ≤96 % (simulation
+19 “κK_RHmax96” in Table 3) increases by ∼20 %–58 %
+on average, improving agreement with MODIS AOD550 rel-
+ative to simulation “κK_1” (Fig. S13) and maintains good
+agreement with the relative vertical proﬁles of the scatter-
+ing and extinction coefﬁcients. However, the negative bias in
+AOD550 remains larger than for total aerosol mass concen-
+trations (Table 2).
+Although these sensitivity tests do not resolve the model
+discrepancy in model AOD, they demonstrate the large sen-
+sitivity of simulated AOD to the magnitude and variability
+of RH and that changes in RH can be important for simu-
+lated AOD even at RH < 90 % (for instance, in the eastern
+region). Improving model representation of RH variability
+while using an upper estimate for water uptake (e.g. the on-
+line ZSR scheme in GLOMAP) would likely bring the model
+bias in AOD more in-line with that of total aerosol mass con-
+centration but this would require thorough testing in a high-
+resolution model.
+3.5.6
+Model spatial resolution
+The relatively coarse spatial resolution of the simulated
+aerosol and relative humidity (Sect. 3.5.5) ﬁelds may also
+contribute to the model underestimation of AOD, due to
+underestimation of sub-grid variability (e.g. Weigum et al.,
+2016). Increasing model spatial resolution has been shown
+to increase simulated AOD by ∼11 %–13 % (Bian et al.,
+2009; Weigum et al., 2016), depending on the initial and al-
+tered grid resolutions. However, we note that comparisons
+between simulated and aircraft observed aerosol mass con-
+centrations suggest that the model captures observed spatial
+variations in aerosol mass concentrations reasonably well for
+the SAMBBA period, at least over the western Amazon re-
+gion.
+Model spatial resolution will also affect the model–
+measurement sampling uncertainty, which can be up to 50 %
+for hourly time resolution data (e.g. Schutgens et al., 2016a,
+2017; Reddington et al., 2017). In our analysis we have
+strived to reduce spatial and temporal sampling errors as
+much as possible by (1) running the model and using anal-
+ysed meteorology for the same time period as the observa-
+tions, (2) temporally co-locating model and measurement
+data points, removing time periods with missing or invalid
+measurement points from the model data (as discussed in
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9145
+Schutgens et al., 2016b) (and temporal averaging for bias
+calculations and comparisons with aircraft measurements),
+and (3) spatially co-locating model data to observational data
+points using interpolation (and spatial averaging for compar-
+isons with aircraft and MODIS observations). For compar-
+isons with aircraft measurements, we have also attempted
+to reduce measurement representativeness error by removing
+in-plume and in-cloud sampling from the data where pos-
+sible. We estimate remaining model–measurement sampling
+uncertainty to be up to ∼30 %, corresponding to monthly
+average model–measurement comparisons (Schutgens et al.,
+2016a). A higher-resolution model would be required to ac-
+curately quantify the model–measurement sampling uncer-
+tainty for this speciﬁc analysis and to explore the degree
+of sensitivity of AOD to the spatial resolution of simulated
+aerosol and relative humidity ﬁelds in detail.
+3.6
+Summary of AOD sensitivity simulations and
+uncertainties
+Simulated AOD varies by more than a factor of 2 across the
+different sensitivity simulations (Figs. 10 and S14). The dif-
+ferent emission inventories change simulated AOD by up to
+approximately ±30 %. Altering assumed refractive indices
+changes simulated AOD by less than 8 % and assumptions
+about external mixing change simulated AOD by less than
+2 %. Changes to assumptions controlling aerosol water up-
+take change simulated AOD by up to −40 % (for assump-
+tions regarding the water uptake calculation scheme) and up
+to +20 % (for assumptions regarding the hygroscopicity pa-
+rameter, κ). Uncertainty in the variability of RH changed
+simulated AOD by up to +87 %. This analysis suggests that
+the largest uncertainties in simulated AOD are associated
+with uncertainty in aerosol water uptake and model repre-
+sentation of relative humidity.
+For the magnitude of AOD observed during the SAMBBA
+campaign, the uncertainty in the retrievals of AOD are ap-
+proximately ±30 % for MODIS AOD550 and < 10 % for
+AERONET AOD500 (see Sects. 2.3.5 and S2). Although
+the uncertainties in AOD retrievals are important to consider,
+they are smaller than the uncertainties associated with simu-
+lated biomass burning aerosol properties and AOD.
+4
+Conclusions
+We have used surface, aircraft and satellite observations
+made during the SAMBBA ﬁeld campaign in the southern
+Amazon during September and October 2012 to improve
+our understanding of biomass burning emissions. We ap-
+ply three different biomass burning emission datasets (FINN,
+GFAS, GFED) in the GLOMAP global aerosol model. In
+ﬁre-impacted regions of the Amazon, total annual aerosol
+emissions from ﬁres (averaged over 2002–2012) vary by up
+to a factor of 2.4 across these datasets, highlighting the large
+uncertainty in aerosol emissions from ﬁres. In 2012, annual
+aerosol ﬁre emissions were 4 %–47 % lower than the 2002–
+2012 mean in the western Amazon but 30–96 % greater than
+the long-term mean in the eastern Amazon. This reﬂects de-
+clining deforestation rate and associated ﬁres in the western
+Amazon over this period (Reddington et al., 2015) and op-
+posing trends in ﬁres in the eastern Amazon (Andela et al.,
+2017).
+During 2012, observed surface PM2.5 concentrations in the
+southern Amazon increased from ∼2 µgm−3 between Jan-
+uary and July to 30–50 µgm−3 in September, then declined
+to less than 10 µgm−3 in October. Observed aerosol mass
+(in the 75–650 nm in diameter size range) in September was
+dominated by OA, which accounted for 84 % of total mass
+with BC accounting for 9 % of mass. The model reproduced
+the observed seasonal cycle of aerosol concentrations, with
+∼54 %–78 % of simulated PM2.5 concentrations originating
+from ﬁre emissions during September 2012. Fires are the
+dominant source of PM2.5 across the region during the dry
+season.
+In the western Amazon, where deforestation ﬁres are the
+dominant ﬁre type, agreement between simulated and ob-
+served aerosol mass concentrations in the BL is variable,
+depending on the ﬁre emission dataset used both for OA
+(NMBF = −1.6 to +1.2) and BC (NMBF = −1.5 to +0.6).
+In this region we do not ﬁnd evidence that aerosol emis-
+sions are systematically underestimated across all emission
+datasets. In the eastern Amazon, where grassland and sa-
+vanna ﬁres are dominant, GLOMAP underestimates OA
+(NMBF = −0.9 to −3.1) and BC (NMBF = −1.5 to −6.1)
+concentrations with all three emission datasets. This sug-
+gests that all emission datasets may underestimate aerosol
+emissions from grassland and savanna ﬁres in the eastern
+Amazon, although we acknowledge the limited measurement
+sampling in this region relative to the western Amazon. We
+assume ﬁre emissions have an OA : OC ratio of 1.4. Increas-
+ing our OA : OC ratio to 2.3, towards the upper end of that
+used in models (Tsigaridis et al., 2014), and matching aged
+aerosol observed in SAMBBA (Johnson et al., 2016), would
+improve the model–observation OA comparison in the east-
+ern Amazon but would lead to an overestimate of OA in the
+western Amazon in some periods.
+Comparisons of the simulated particle number size distri-
+bution against aircraft observations revealed a persistent un-
+derestimation of number concentrations of particles smaller
+than ∼100 nm in diameter. Reducing the assumed emission
+size of primary carbonaceous aerosol in the model improved
+agreement with observed number concentrations of particles
+less than 100 nm in diameter but increased the negative bias
+in simulated AOD. Assuming a bimodal emission size dis-
+tribution for primary biomass burning aerosol may solve the
+model discrepancy in particle number concentrations below
+∼100 nm in diameter while retaining the simulated accumu-
+lation mode of biomass burning aerosol. Model underestima-
+tion of particle number concentration of particles less than
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9146
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+100 nm will have implications for simulation of cloud con-
+densation nuclei concentrations and simulated aerosol–cloud
+interactions.
+Observed vertical proﬁles of aerosol mass concentrations
+were characterised by enhanced concentrations from the sur-
+face up to around 2 km altitude in the western Amazon and
+4 km altitude in the eastern Amazon. In our model, we as-
+sume that all emissions from vegetation ﬁres in this region
+are injected below 3 km altitude, with ∼80 % of emissions
+injected below 1 km. The model simulated a realistic rela-
+tive vertical proﬁle of aerosol mass concentrations, suggest-
+ing that our assumptions about injection height are valid. Our
+results further conﬁrm that Amazon ﬁres rarely inject emis-
+sions above the BL, as found by previous studies (Archer-
+Nicholls et al., 2015, Marenco et al., 2016).
+The model generally underestimates AOD across the
+Amazon both in comparison to AERONET (NMBF = −1.3
+to −0.4) and MODIS (NMBF = −2.4 to −0.4). In the east-
+ern Amazon, the underestimation of aerosol mass concentra-
+tions through the vertical proﬁle contributes to this under-
+estimation of AOD. In the western Amazon, the model un-
+derestimates AOD even when the vertical proﬁle of aerosol
+mass concentration is either well predicted or overestimated.
+This suggests that underestimation of AOD may be due to
+uncertainties in the calculation of AOD, rather than under-
+estimation of aerosol mass concentrations. To explore this
+possibility we tested the impact of uncertainty in refractive
+index, aerosol mixing state, aerosol water uptake and rela-
+tive humidity on model AOD. We found that simulated AOD
+was most sensitive to assumptions about water uptake and
+the model representation of variability in relative humidity,
+leading to an average uncertainty range in simulated AOD of
+approximately −40 % to +90 %.
+Overall, our work suggests that aerosol emissions from
+ﬁres are on average underestimated over the Amazon, partic-
+ularly over grassland and savanna ﬁres in the eastern Ama-
+zon, albeit by less than the factor of ∼3–5 assumed in some
+previous studies. Conﬁrming our previous work (Redding-
+ton et al., 2016), we ﬁnd that simulated and observed aerosol
+mass concentrations are generally in better agreement than
+simulated and observed AOD. We show that the model un-
+derestimates AOD even when it reproduces the observed ver-
+tical proﬁle of aerosol mass. This suggests that uncertainties
+in the calculation of AOD, rather than the aerosol mass con-
+centration, are the dominant reason for underestimation of
+AOD, and we ﬁnd the largest sensitivity to uncertainty in
+water uptake and model representation of relative humidity
+variability. We therefore caution against using comparison
+with AOD to scale particulate emissions from ﬁres, as has
+been done in a number of previous studies.
+Data availability. Data from all GLOMAP model simulations and
+processing codes are available from the corresponding author on re-
+quest. All raw time series data from the FAAM research aircraft are
+publicly available from the Centre for Environmental Data Analy-
+sis website, where the entire SAMBBA dataset may be accessed.
+Data masks for categorising ﬂight patterns into plume-sampling
+and other sampling types (vertical proﬁles and SLRs) are currently
+available on request from Hugh Coe. Biomass burning emission
+datasets are available publicly and can be accessed from the follow-
+ing web pages: http://bai.acom.ucar.edu/Data/ﬁre/ (FINN; Wiedin-
+myer et al., 2011), https://apps.ecmwf.int/datasets/data/cams-gfas/
+(GFAS; Kaiser et al., 2012) , https://www.globalﬁredata.org/data.
+html (GFED; van der Werf et al., 2017). AERONET and MODIS
+aerosol optical depth data are available publicly from NASA: https:
+//aeronet.gsfc.nasa.gov/new_web/aerosols.html (AERONET; Giles
+et al., 2019) and https://ladsweb.modaps.eosdis.nasa.gov (MODIS;
+Hubanks et al., 2008; Platnick et al., 2015).
+Supplement. The supplement related to this article is available
+online at: https://doi.org/10.5194/acp-19-9125-2019-supplement.
+Author contributions. CLR performed the model simulations and
+analysed the model data. WTM, ED, JB, HC and PA provided air-
+craft and ground-based measurement data for model evaluation and
+provided expertise on aerosol measurements in the Amazon region.
+WTM, ED and JB were involved in the collection, processing and
+analysis of these datasets. PA and HC coordinated and planned the
+SAMBBA ﬁeld campaign (with other co-principal investigators).
+DVS, JM and CES provided scientiﬁc input for the paper and all
+authors contributed to scientiﬁc discussions. CLR and DVS wrote
+the paper with input from all authors.
+Competing interests. The authors declare that they have no conﬂict
+of interest.
+Special issue statement. This article is part of the special issue
+“South AMerican Biomass Burning Analysis (SAMBBA)”. It does
+not belong to a conference.
+Acknowledgements. The authors would like to acknowledge fund-
+ing for this work from the Natural Environment Research Coun-
+cil. Model simulation work for this study was undertaken on ARC
+and ARC2, part of the High Performance Computing facilities at
+the University of Leeds, UK. The authors gratefully acknowledge
+all those involved in the SAMBBA project, in particular those in-
+volved in logistics, planning, support and data collection during
+the SAMBBA ﬁeld campaign. We also gratefully acknowledge the
+principal investigators (Brent Holben and Paulo Artaxo) and their
+staff, who were responsible for establishing and maintaining the ﬁve
+AERONET stations used in this study and providing quality-assured
+data.
+Financial support. This research has been supported by the Natural
+Environment Research Council (grant no. NE/J009822/1).
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9147
+Review statement. This paper was edited by Gunnar Myhre and re-
+viewed by three anonymous referees.
+References
+Akagi, S. K., Yokelson, R. J., Wiedinmyer, C., Alvarado, M. J.,
+Reid, J. S., Karl, T., Crounse, J. D., and Wennberg, P. O.: Emis-
+sion factors for open and domestic biomass burning for use
+in atmospheric models, Atmos. Chem. Phys., 11, 4039–4072,
+https://doi.org/10.5194/acp-11-4039-2011, 2011.
+Akagi, S. K., Yokelson, R. J., Burling, I. R., Meinardi, S., Simp-
+son, I., Blake, D. R., McMeeking, G. R., Sullivan, A., Lee, T.,
+Kreidenweis, S., Urbanski, S., Reardon, J., Grifﬁth, D. W. T.,
+Johnson, T. J., and Weise, D. R.: Measurements of reactive trace
+gases and variable O3 formation rates in some South Carolina
+biomass burning plumes, Atmos. Chem. Phys., 13, 1141–1165,
+https://doi.org/10.5194/acp-13-1141-2013, 2013.
+Allan, J. D., Morgan, W. T., Darbyshire, E., Flynn, M. J., Williams,
+P. I., Oram, D. E., Artaxo, P., Brito, J., Lee, J. D., and Coe,
+H.: Airborne observations of IEPOX-derived isoprene SOA in
+the Amazon during SAMBBA, Atmos. Chem. Phys., 14, 11393–
+11407, https://doi.org/10.5194/acp-14-11393-2014, 2014.
+Andela, N., van der Werf, G. R., Kaiser, J. W., van Leeuwen,
+T. T., Wooster, M. J., and Lehmann, C. E. R.: Biomass burn-
+ing fuel consumption dynamics in the tropics and subtrop-
+ics assessed from satellite, Biogeosciences, 13, 3717–3734,
+https://doi.org/10.5194/bg-13-3717-2016, 2016.
+Andela, N., Morton, D. C., Giglio, L., Chen, Y., van der Werf, G.
+R., Kasibhatla, P. S., DeFries, R. S., Collatz, G. J., Hantson, S.,
+Kloster, S., Bachelet, D., Forrest, M., Lasslop, G., Li, F., Man-
+geon, S., Melton, J. R., Yue, C., and Randerson, J. T.: A human-
+driven decline in global burned area, Science, 356, 1356–1361,
+2017.
+Andreae, M. O. and Merlet, P.: Emission of trace gases and aerosols
+from biomass burning, Global Biogeochem. Cy., 15, 955–966,
+2001.
+Aragao, L. and Shimabukuro, Y. E.: The Incidence of Fire in Ama-
+zonian Forests with Implications for REDD, Science, 328, 1275–
+1278, 2010.
+Aragao, L., Malhi, Y., Barbier, N., Lima, A., Shimabukuro, Y., An-
+derson, L., and Saatchi, S.: Interactions between rainfall, defor-
+estation and ﬁres during recent years in the Brazilian Amazonia,
+Philos. T. Roy. Soc. B, 363, 1779–1785, 2008.
+Archer-Nicholls, S., Lowe, D., Darbyshire, E., Morgan, W. T.,
+Bela, M. M., Pereira, G., Trembath, J., Kaiser, J. W., Longo,
+K. M., Freitas, S. R., Coe, H., and McFiggans, G.: Characteris-
+ing Brazilian biomass burning emissions using WRF-Chem with
+MOSAIC sectional aerosol, Geosci. Model Dev., 8, 549–577,
+https://doi.org/10.5194/gmd-8-549-2015, 2015.
+Archer-Nicholls,
+S.,
+Lowe,
+D.,
+Schultz,
+D.
+M.,
+and
+Mc-
+Figgans, G.: Aerosol–radiation–cloud interactions in a re-
+gional coupled model: the effects of convective parameteri-
+sation and resolution, Atmos. Chem. Phys., 16, 5573–5594,
+https://doi.org/10.5194/acp-16-5573-2016, 2016.
+Arnold, S. R., Chipperﬁeld, M. P., and Blitz, M. A.: A three dimen-
+sional model study of the effect of new temperature dependent
+quantum yields for acetone photolysis, J. Geophys. Res., 110,
+D22305, https://doi.org/10.1029/2005JD005998, 2005.
+Artaxo, P., Rizzo, L. V., Brito, J. F., Barbosa, H. M. J., Arana, A.,
+Sena, E. T., Cirino, G. G., Bastos, W., Martin, S. T., and Andreae,
+M. O.: Atmospheric aerosols in Amazonia and land use change:
+From natural biogenic to biomass burning conditions, Faraday
+Discuss., 165, 203–235, 2013.
+Bahreini, R., Ervens, B., Middlebrook, A. M., Warneke, C., de
+Gouw, J. a., DeCarlo, P. F., Jimenez, J. L., Brock, C. A., Neu-
+man, J. a., Ryerson, T. B., Stark, H., Atlas, E., Brioude, J.,
+Fried, A., Holloway, J. S., Peischl, J., Richter, D., Walega,
+J., Weibring, P., Wollny, A. G., and Fehsenfeld, F. C.: Or-
+ganic aerosol formation in urban and industrial plumes near
+Houston and Dallas, Texas, J. Geophys. Res., 114, D00F16,
+https://doi.org/10.1029/2008JD011493, 2009.
+Bian, H., Chin, M., Rodriguez, J. M., Yu, H., Penner, J. E., and
+Strahan, S.: Sensitivity of aerosol optical thickness and aerosol
+direct radiative effect to relative humidity, Atmos. Chem. Phys.,
+9, 2375–2386, https://doi.org/10.5194/acp-9-2375-2009, 2009.
+Bellouin, N., Rae, J., Jones, A. Johnson, C., Haywood, J., and
+Boucher, O.: Aerosol forcing in the Climate Model Intercom-
+parison Project (CMIP5) simulations by HadGEM2-ES and the
+role of ammonium nitrate, J. Geophys. Res., 116, D20206,
+https://doi.org/10.1029/2011JD016074, 2011.
+Bond, T. C. and Bergstrom, R. W.: Light absorption by carbona-
+ceous particles: An investigative review, Aerosol Sci. Tech., 40,
+27–67, 2006.
+Brito, J., Rizzo, L. V., Morgan, W. T., Coe, H., Johnson,
+B., Haywood, J., Longo, K., Freitas, S., Andreae, M. O.,
+and Artaxo, P.: Ground-based aerosol characterization during
+the South American Biomass Burning Analysis (SAMBBA)
+ﬁeld experiment, Atmos. Chem. Phys., 14, 12069–12083,
+https://doi.org/10.5194/acp-14-12069-2014, 2014.
+Brock, C. A., Wagner, N. L., Anderson, B. E., Beyersdorf, A.,
+Campuzano-Jost, P., Day, D. A., Diskin, G. S., Gordon, T. D.,
+Jimenez, J. L., Lack, D. A., Liao, J., Markovic, M. Z., Middle-
+brook, A. M., Perring, A. E., Richardson, M. S., Schwarz, J.
+P., Welti, A., Ziemba, L. D., and Murphy, D. M.: Aerosol op-
+tical properties in the southeastern United States in summer –
+Part 2: Sensitivity of aerosol optical depth to relative humidity
+and aerosol parameters, Atmos. Chem. Phys., 16, 5009–5019,
+https://doi.org/10.5194/acp-16-5009-2016, 2016.
+Canagaratna, M. R., Jayne, J. T., Jimenez, J. L., Allan, J. D.,
+Alfarra, M. R., Zhang, Q., Onasch, T. B., Drewnick, F., Coe,
+H., Middlebrook, A., Delia, A., Williams, L. R., Trimborn,
+A. M., Northway, M. J., DeCarlo, P. F., Kolb, C. E., Davi-
+dovits, P., and Worsnop, D. R.: Chemical and microphys-
+ical characterization of ambient aerosols with the aerodyne
+aerosol mass spectrometer, Mass Spectrom. Rev., 26, 185–222,
+https://doi.org/10.1002/mas.20115, 2007.
+Cano-Crespo, A., Oliveira, P. J. C., Boit, A., Cardoso, M.,
+and
+Thonicke,
+K.:
+Forest
+edge
+burning
+in
+the
+Brazil-
+ian Amazon promoted by escaping ﬁres from managed
+pastures,
+J.
+Geophys.
+Res.-Biogeo.,
+120,
+2095–2107,
+https://doi.org/10.1002/2015JG002914, 2015.
+Channan, S., Collins, K., and Emanuel, W. R.: Global mosaics of the
+standard MODIS land cover type data, University of Maryland
+and the Paciﬁc Northwest National Laboratory, College Park,
+Maryland, USA, 2014.
+Chen, Y., Morton, D. C., Jin, Y. F., Collatz, G. J., Kasibhatla, P.
+S., van der Werf, G. R., DeFries, R. S., and Randerson, J. T.:
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9148
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Long-term trends and interannual variability of forest, savanna
+and agricultural ﬁres in South America, Carbon Manag., 4, 617–
+638, https://doi.org/10.4155/cmt.13.61 2013a.
+Chen, Y., Velicogna, I., Famiglietti, J. S., and Randerson, J.
+T.: Satellite observations of terrestrial water storage provide
+early warning information about drought and ﬁre season sever-
+ity in the Amazon, J. Geophys. Res.-Biogeo., 118, 495–504,
+https://doi.org/10.1002/jgrg.20046, 2013b.
+Chipperﬁeld, M. P.: New version of the TOMCAT/SLIMCAT off-
+line chemical transport model: Intercomparison of stratospheric
+tracer experiments, Q. J. Roy. Meteor. Soc., 132, 1179–1203,
+2006.
+Crenn, V., Sciare, J., Croteau, P. L., Verlhac, S., Fröhlich, R., Belis,
+C. A., Aas, W., Äijälä, M., Alastuey, A., Artiñano, B., Baisnée,
+D., Bonnaire, N., Bressi, M., Canagaratna, M., Canonaco, F.,
+Carbone, C., Cavalli, F., Coz, E., Cubison, M. J., Esser-Gietl,
+J. K., Green, D. C., Gros, V., Heikkinen, L., Herrmann, H., Lun-
+der, C., Minguillón, M. C., Moˇcnik, G., O’Dowd, C. D., Ovad-
+nevaite, J., Petit, J. E., Petralia, E., Poulain, L., Priestman, M.,
+Riffault, V., Ripoll, A., Sarda-Estève, R., Slowik, J. G., Setyan,
+A., Wiedensohler, A., Baltensperger, U., Prévôt, A. S. H., Jayne,
+J. T. and Favez, O.: ACTRIS ACSM intercomparison – Part 1:
+Reproducibility of concentration and fragment results from 13
+individual Quadrupole Aerosol Chemical Speciation Monitors
+(Q-ACSM) and consistency with co-located instruments, Atmos.
+Meas. Tech., 8, 5063–5087, https://doi.org/10.5194/amt-8-5063-
+2015, 2015.
+Crippa, P., Castruccio, S., Archer-Nicholls, S., Lebron, G. B.,
+Kuwata, M., Thota, A., Sumin, S., Butt, E., Wiedinmyer, C., and
+Spracklen, D. V.: Population exposure to hazardous air quality
+due to the 2015 ﬁres in Equatorial Asia, Sci. Rep., 6, 37074,
+https://doi.org/10.1038/srep37074, 2016.
+Curci, G., Hogrefe, C., Bianconi, R., Im, U., Balzarini, A., Baro,
+R., Brunner, D., Forkel, R., Giordano, L., Hirtl, M., Honzak,
+L., Jimenez-Guerrero, P., Knote, C., Langer, M., Makar, P.,
+Pirovano, G., Perez, J. L., San Jose, R., Syrakov, D., Tuccella,
+P., Werhahn, J., Wolke, R., Zabkar, R., and Zhang, J.: Uncertain-
+ties of simulated aerosol optical properties induced by assump-
+tions on aerosol physical and chemical properties: an AQMEII-2
+perspective, Atmos. Environ., 115, 541–552, 2015.
+Darbyshire, E., Morgan, W. T., Allan, J. D., Liu, D., Flynn, M.
+J., Dorsey, J. R., O’Shea, S. J., Lowe, D., Szpek, K., Marenco,
+F., Johnson, B. T., Bauguitte, S., Haywood, J. M., Brito, J. F.,
+Artaxo, P., Longo, K. M., and Coe, H.: The vertical distribu-
+tion of biomass burning pollution over tropical South Amer-
+ica from aircraft in situ measurements during SAMBBA, At-
+mos. Chem. Phys., 19, 5771–5790, https://doi.org/10.5194/acp-
+19-5771-2019, 2019.
+Dentener, F., Kinne, S., Bond, T., Boucher, O., Cofala, J., Gen-
+eroso, S., Ginoux, P., Gong, S., Hoelzemann, J. J., Ito, A.,
+Marelli, L., Penner, J. E., Putaud, J.-P., Textor, C., Schulz, M.,
+van der Werf, G. R., and Wilson, J.: Emissions of primary
+aerosol and precursor gases in the years 2000 and 1750 pre-
+scribed data-sets for AeroCom, Atmos. Chem. Phys., 6, 4321–
+4344, https://doi.org/10.5194/acp-6-4321-2006, 2006.
+de Oliveira Alves, N., Vessoni, A. T., Quinet, A., Fortunato, R.
+S., Kajitani, G. S., Peixoto, M. S., Hacon, S. D., Artaxo, P.,
+Saldiva, P., Menck, C. F. M., and Batistuzzo de Medeiros, S.
+R.: Biomass burning in the Amazon region causes DNA dam-
+age and cell death in human lung cells, Sci. Rep., 7, 10937,
+https://doi.org/10.1038/s41598-017-11024-3, 2017.
+Friedl, M. A., Sulla-Menashe, D., Tan, B., Schneider, A., Ra-
+mankutty, N., Sibley, A., and Huang, X.: MODIS Collection 5
+global land cover: Algorithm reﬁnements and characterization
+of new datasets, 2001–2012, Collection 5.1 IGBP Land Cover,
+Boston University, Boston, MA, USA, 2010.
+Giglio, L., Descloitres, J., Justice, C. O., and Kaufman, Y. J.: An en-
+hanced contextual ﬁre detection algorithm for MODIS, Remote
+Sens. Environ., 87, 273—282, 2003.
+Giglio, L., Randerson, J. T., and Werf, G. R.: Analysis of daily,
+monthly, and annual burned area using the fourth-generation
+global ﬁre emissions database (GFED4) J. Geophys. Res. Bio-
+geo., 118, 317–328, https://doi.org/10.1002/jgrg.20042, 2013.
+Giles, D. M., Sinyuk, A., Sorokin, M. G., Schafer, J. S., Smirnov,
+A., Slutsker, I., Eck, T. F., Holben, B. N., Lewis, J. R., Campbell,
+J. R., Welton, E. J., Korkin, S. V., and Lyapustin, A. I.: Advance-
+ments in the Aerosol Robotic Network (AERONET) Version 3
+database – automated near-real-time quality control algorithm
+with improved cloud screening for Sun photometer aerosol op-
+tical depth (AOD) measurements, Atmos. Meas. Tech., 12, 169–
+209, https://doi.org/10.5194/amt-12-169-2019, 2019.
+Grainger, R. G., Lucas, J., Thomas, G. E., and Ewen, G. B.
+L.: Calculation of Mie Derivatives, Appl. Optics, 43, 5386,
+https://doi.org/10.1364/AO.43.005386, 2004.
+Grieshop, A. P., Logue, J. M., Donahue, N. M., and Robinson, A.
+L.: Laboratory investigation of photochemical oxidation of or-
+ganic aerosol from wood ﬁres 1: measurement and simulation of
+organic aerosol evolution, Atmos. Chem. Phys., 9, 1263–1277,
+https://doi.org/10.5194/acp-9-1263-2009, 2009.
+Guenther, A., Hewitt, C. N., Erickson, D., Fall, R., Geron, C.,
+Graedel, T., Harley, P., Klinger, L., Lerdau, M., McKay, W. A.,
+Pierce, T., Scholes, B., Steinbrecher, R., Tallamraju, R., Taylor,
+J., and Zimmerman, P.: A global model of natural volatile organic
+compound emissions, J. Geophys. Res., 100, 8873–8892, 1995.
+Gunthe, S. S., King, S. M., Rose, D., Chen, Q., Roldin, P., Farmer,
+D. K., Jimenez, J. L., Artaxo, P., Andreae, M. O., Martin, S.
+T., and Pöschl, U.: Cloud condensation nuclei in pristine tropi-
+cal rainforest air of Amazonia: size-resolved measurements and
+modeling of atmospheric aerosol composition and CCN activity,
+Atmos. Chem. Phys., 9, 7551–7575, https://doi.org/10.5194/acp-
+9-7551-2009, 2009.
+Han, X., Zhang, M. G., Zhu, L. Y., and Xu, L. R.: Model analysis
+of inﬂuences of aerosol mixing state upon its optical properties
+in East Asia, Adv. Atmos. Sci., 30, 1201–1212, 2013.
+Hansen, M. C., Potapov, P. V.,Moore, R., Hancher, M., Turubanova,
+S. A., Tyukavina, A.,Thau, D., Stehman, S. V., Goetz, S. J., Love-
+land, T. R.,Kommareddy, A., Egorov, A., Chini, L., Justice, C. O.,
+and Townshend, J. R. G.: High-Resolution Global Maps of 21st-
+Century Forest Cover Change, Science, 342, 850–853, 2013.
+Haslett, S. L., Taylor, J. W., Deetz, K., Vogel, B., Babi´c, K.,
+Kalthoff, N., Wieser, A., Dione, C., Lohou, F., Brito, J., Dupuy,
+R., Schwarzenboeck, A., Zieger, P., and Coe, H.: The radia-
+tive impact of out-of-cloud aerosol hygroscopic growth dur-
+ing the summer monsoon in southern West Africa, Atmos.
+Chem. Phys., 19, 1505–1520, https://doi.org/10.5194/acp-19-
+1505-2019, 2019.
+Haywood, J. M., Osborne, S. R., Francis, P. N., Keil, A., For-
+menti, P., Andreae, M. O., and Kaye, P. H.: The mean
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9149
+physical and optical properties of regional haze dominated
+by biomass burning aerosol measured from the C-130 air-
+craft during SAFARI 2000, J. Geophys. Res., 108, 8473,
+https://doi.org/10.1029/2002JD002226, 2003.
+Heil, A., Kaiser, J. W., van der Werf, G. R., Wooster, M. J., Schultz,
+M. G., and Dernier van der Gon, H.: Assessment of the Real-
+Time Fire Emissions (GFASv0) by MACC, Tech. Memo. 628,
+ECMWF, Reading, UK, 2010.
+Heim, M., Mullins, B. J., Umhauer, H., and Kasper, G.: Per-
+formance evaluation of three optical particle counters with
+an efﬁcient “multimodal” calibration method, J. Aerosol Sci.,
+39, 1019–1031, https://doi.org/10.1016/j.jaerosci.2008.07.006,
+2008.
+Hodgson, A. K., Morgan, W. T., O’Shea, S., Bauguitte, S., Allan,
+J. D., Darbyshire, E., Flynn, M. J., Liu, D., Lee, J., Johnson,
+B., Haywood, J. M., Longo, K. M., Artaxo, P. E., and Coe, H.:
+Near-ﬁeld emission proﬁling of tropical forest and Cerrado ﬁres
+in Brazil during SAMBBA 2012, Atmos. Chem. Phys., 18, 5619–
+5638, https://doi.org/10.5194/acp-18-5619-2018, 2018.
+Hoelzemann, J. J., Schultz, M. G., Brasseur, G. P., Granier, C., and
+Simon, M.: Global Wildland Fire Emission Model (GWEM):
+evaluating the use of global area burnt satellite data, J. Geophys.
+Res.,
+109,
+D14S04,
+https://doi.org/10.1029/2003JD003666,
+2004.
+Holben, B. N., Eck, T. F., Slutsker, I., Tanré, D., Buis, J. P., Set-
+zer, A., Vermote, E., Reagan, J. A., Kaufman, Y. J., Naka-
+jima, T., Lavenu, F., Jankowiak, I., and Smirnov, A.: AERONET
+– A Federated Instrument Network and Data Archive for
+Aerosol Characterization, Remote Sens. Environ., 66, 1–16,
+https://doi.org/10.1016/S0034-4257(98)00031-5, 1998.
+Hubanks, P., King, M., Platnick, S., and Pincus, R.: MODIS atmo-
+sphere L3 gridded product algorithm theoretical basis document
+Collection 005 Version 1.1, Tech. Rep. ATBD-MOD-30, NASA,
+2008.
+Jacobson, L. D. S. V., Hacon, S. D. S., Castro, H. A.
+D., Ignotti, E., Artaxo, P., Saldiva, P. H. N., and Leon,
+A. C. M. P. D.: Acute effects of particulate matter and
+black carbon from seasonal ﬁres on peak expiratory ﬂow of
+schoolchildren in the Brazilian Amazon, Plos One, 9, e104177,
+https://doi.org/10.1371/journal.pone.0104177, 2014.
+Jathar, S. H., Gordon, T. D., Hennigan, C. J., Pye, H. O. T., Pouliot,
+G., Adams, P. J., Donahue, N. M., and Robinson, A. L.: Unspe-
+ciated organic emissions from combustion sources and their in-
+ﬂuence on the secondary organic aerosol budget in the United
+States, P. Natl. Acad. Sci. USA, 111, 10473–10478, 2014.
+Jiang, Z., Worden, J. R., Worden, H., Deeter, M., Jones, D. B.
+A., Arellano, A. F., and Henze, D. K.: A 15-year record of
+CO emissions constrained by MOPITT CO observations, At-
+mos. Chem. Phys., 17, 4565–4583, https://doi.org/10.5194/acp-
+17-4565-2017, 2017.
+Johnson, B. T., Haywood, J. M., Langridge, J. M., Darbyshire, E.,
+Morgan, W. T., Szpek, K., Brooke, J. K., Marenco, F., Coe, H.,
+Artaxo, P., Longo, K. M., Mulcahy, J. P., Mann, G. W., Dalvi,
+M., and Bellouin, N.: Evaluation of biomass burning aerosols
+in the HadGEM3 climate model with observations from the
+SAMBBA ﬁeld campaign, Atmos. Chem. Phys., 16, 14657–
+14685, https://doi.org/10.5194/acp-16-14657-2016, 2016.
+Johnston, F. H., Henderson, S. B., Chen, Y., Randerson, J. T., Mar-
+lier, M., Defries, R. S., Kinney, P., Bowman, D. M. and Brauer,
+M.: Estimated global mortality attributable to smoke from land-
+scape ﬁres, Environ. Health Persp., 120, 695–701, 2012.
+Jolleys, M. D., Coe, H., McFiggans, G., Capes, G., Allan, J. D.,
+Crosier, J., Williams, P. I., Allen, G., Allen, K. N., Jimenez, J.
+L., Russell, L. M., Grutter, M., and Baumgardner, D.: Character-
+izing the Aging of Biomass Burning Organic Aerosol by Use of
+Mixing Ratios: A Meta-analysis of Four Regions, Environ. Sci.
+Technol., 46, 13093–13102, 2012.
+Kaiser, J. W., Heil, A., Andreae, M. O., Benedetti, A., Chubarova,
+N., Jones, L., Morcrette, J.-J., Razinger, M., Schultz, M. G.,
+Suttie, M., and van der Werf, G. R.: Biomass burning emis-
+sions estimated with a global ﬁre assimilation system based
+on observed ﬁre radiative power, Biogeosciences, 9, 527–554,
+https://doi.org/10.5194/bg-9-527-2012, 2012.
+Kalamandeen, M., Gloor, E., Mitchard, E., Quincey, D., Ziv, G.,
+Spracklen, D., Spracklen, B., Adami, M., Aragao, L., and Gal-
+braith, D.: Pervasive Rise of Small-scale Deforestation in Ama-
+zonia, Sci. Rep., 8, 1600, https://doi.org/10.1038/s41598-018-
+19358-2, 2018.
+Kolusu, S. R., Marsham, J. H., Mulcahy, J., Johnson, B., Dun-
+ning, C., Bush, M., and Spracklen, D. V.: Impacts of Ama-
+zonia biomass burning aerosols assessed from short-range
+weather forecasts, Atmos. Chem. Phys., 15, 12251–12266,
+https://doi.org/10.5194/acp-15-12251-2015, 2015.
+Konovalov, I. B., Beekmann, M., Berezin, E. V., Formenti, P., and
+Andreae, M. O.: Probing into the aging dynamics of biomass
+burning aerosol by using satellite measurements of aerosol opti-
+cal depth and carbon monoxide, Atmos. Chem. Phys., 17, 4513–
+4537, https://doi.org/10.5194/acp-17-4513-2017, 2017.
+Koplitz, S. N., Mickley, L. J., Marlier, M. E., Buonocore, J. J.,
+Kim, P. S., Liu, T. J., Sulprizio, M. P., DeFries, R. S., Jacob, D.
+J., Schwartz, J., Pongsiri, M., and Myers, S. S.: Public health
+impacts of the severe haze in Equatorial Asia in September–
+October 2015: demonstration of a new framework for inform-
+ing ﬁre management strategies to reduce downwind smoke ex-
+posure, Environ. Res. Lett., 11, 9, https://doi.org/10.1088/1748-
+9326/11/9/094023, 2016.
+Lamarque, J.-F., Bond, T. C., Eyring, V., Granier, C., Heil, A.,
+Klimont, Z., Lee, D., Liousse, C., Mieville, A., Owen, B.,
+Schultz, M. G., Shindell, D., Smith, S. J., Stehfest, E., Van
+Aardenne, J., Cooper, O. R., Kainuma, M., Mahowald, N.,
+McConnell, J. R., Naik, V., Riahi, K., and van Vuuren, D.
+P.: Historical (1850–2000) gridded anthropogenic and biomass
+burning emissions of reactive gases and aerosols: methodol-
+ogy and application, Atmos. Chem. Phys., 10, 7017–7039,
+https://doi.org/10.5194/acp-10-7017-2010, 2010.
+Langmann, B., Duncan, B., Textor, C., Trentmann, J., and van der
+Werf, G. R.: Vegetation ﬁre emissions and their impact on air
+pollution and climate, Atmos. Environ., 43, 107–116, 2009.
+Lelieveld, J., Evans, J. S., Fnais, M., Giannadaki, D., and Pozzer,
+A.: The contribution of outdoor air pollution sources to pre-
+mature mortality on a global scale, Nature, 525, 367–371,
+https://doi.org/10.1038/nature15371, 2015.
+Levy, R. C., Remer, L. A., Kleidman, R. G., Mattoo, S., Ichoku, C.,
+Kahn, R., and Eck, T. F.: Global evaluation of the Collection 5
+MODIS dark-target aerosol products over land, Atmos. Chem.
+Phys., 10, 10399–10420, https://doi.org/10.5194/acp-10-10399-
+2010, 2010.
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9150
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+Mann, G. W., Carslaw, K. S., Spracklen, D. V., Ridley, D. A.,
+Manktelow, P. T., Chipperﬁeld, M. P., Pickering, S. J., and
+Johnson, C. E.: Description and evaluation of GLOMAP-mode:
+a modal global aerosol microphysics model for the UKCA
+composition-climate model, Geosci. Model Dev., 3, 519–551,
+https://doi.org/10.5194/gmd-3-519-2010, 2010.
+Marenco, F., Johnson, B., Langridge, J. M., Mulcahy, J., Benedetti,
+A., Remy, S., Jones, L., Szpek, K., Haywood, J., Longo, K., and
+Artaxo, P.: On the vertical distribution of smoke in the Amazo-
+nian atmosphere during the dry season, Atmos. Chem. Phys., 16,
+2155–2174, https://doi.org/10.5194/acp-16-2155-2016, 2016.
+Marlier, M. E., DeFries, R. S., Voulgarakis, A., Kinney, P.
+L., Randerson, J. T., Shindell, D. T., Chen, Y., and Falu-
+vegi, G.: El Niño and health risks from landscape ﬁre emis-
+sions in southeast Asia, Nat. Clim. Change, 3, 131–136,
+https://doi.org/10.1038/nclimate1658, 2013.
+Martin, S. T., Andreae, M. O., Artaxo, P., Baumgardner, D., Chen,
+Q., Goldstein, A. H., Guenther, A., Heald, C. L., Mayol-Bracero,
+O. L., McMurry, P. H., Pauliquevis, T., Pöschl, U., Prather, K.
+A., Roberts, G. C., Saleska, S. R., Silva Dias, M. A., Spracklen,
+D. V., Swietlicki, E., and Trebs, I.: Sources and properties
+of Amazonian aerosol particles, Rev. Geophys., 48, RG2002,
+https://doi.org/10.1029/2008RG000280, 2010.
+Matichuk, R. I., Colarco, P. R., Smith, J. A., and Toon, O. B.: Mod-
+eling the transport and optical properties of smoke aerosols from
+African savanna ﬁres during the Southern African Regional Sci-
+ence Initiative campaign (SAFARI 2000), J. Geophys. Res., 112,
+D08203, https://doi.org/10.1029/2006JD007528, 2007.
+Matichuk, R. I., Colarco, P. R., Smith, J. A., and Toon, O. B.:
+Modeling the transport and optical properties of smoke plumes
+from South American biomass burning, J. Geophys. Res., 113,
+D07208, https://doi.org/10.1029/2007JD009005, 2008.
+McMeeking, G. R., Hamburger, T., Liu, D., Flynn, M., Mor-
+gan, W. T., Northway, M., Highwood, E. J., Krejci, R., Allan,
+J. D., Minikin, A., and Coe, H.: Black carbon measurements
+in the boundary layer over western and northern Europe, At-
+mos. Chem. Phys., 10, 9393–9414, https://doi.org/10.5194/acp-
+10-9393-2010, 2010.
+Middlebrook, A. M., Bahreini, R., Jimenez, J. L. and Cana-
+garatna, M. R.: Evaluation of Composition-Dependent Col-
+lection Efﬁciencies for the Aerodyne Aerosol Mass Spec-
+trometer using Field Data, Aerosol Sci. Tech., 46, 258–271,
+https://doi.org/10.1080/02786826.2011.620041, 2012.
+Morello, T. F., Parry, L., Markusson, N., and Barlow, J.: Policy in-
+struments to control Amazon ﬁres: A simulation approach, Ecol.
+Econ., 138, 199–222, 2017.
+Morgan, W. T., Allan, J. D., Bower, K. N., Highwood, E. J., Liu,
+D., McMeeking, G. R., Northway, M. J., Williams, P. I., Krejci,
+R., and Coe, H.: Airborne measurements of the spatial distribu-
+tion of aerosol chemical composition across Europe and evolu-
+tion of the organic fraction, Atmos. Chem. Phys., 10, 4065–4083,
+https://doi.org/10.5194/acp-10-4065-2010, 2010.
+Morgan, W. T., Ouyang, B., Allan, J. D., Aruffo, E., Di Carlo,
+P., Kennedy, O. J., Lowe, D., Flynn, M. J., Rosenberg, P. D.,
+Williams, P. I., Jones, R., McFiggans, G. B., and Coe, H.: In-
+ﬂuence of aerosol chemical composition on N2O5 uptake: air-
+borne regional measurements in northwestern Europe, Atmos.
+Chem. Phys., 15, 973–990, https://doi.org/10.5194/acp-15-973-
+2015, 2015.
+Morgan, W. T., Allan, J. D., Bauguitte, S., Darbyshire, E., Flynn,
+M. J., Lee, J., Liu, D., Johnson, B., Haywood, J., Longo, K. M.,
+Artaxo, P. E., and Coe, H.: Transformation and aging of biomass
+burning carbonaceous aerosol over tropical South America from
+aircraft in-situ measurements during SAMBBA, Atmos. Chem.
+Phys. Discuss., https://doi.org/10.5194/acp-2019-157, in review,
+2019.
+Mu, M., Randerson, J. T., van der Werf, G. R., Giglio, L., Kasib-
+hatla, P., Morton, D., Collatz, G. J., DeFries, R. S., Hyer, E. J.,
+Prins, E. M., Grifﬁth, D. W. T., Wunch, D., Toon, G. C., Sher-
+lock V., and Wennberg, P. O.: Daily and 3-hourly variability in
+global ﬁre emissions and consequences for atmospheric model
+predictions of carbon monoxide, J. Geophys. Res., 116, D24303,
+https://doi.org/10.1029/2011JD016245, 2011.
+Ng, N. L., Herndon, S. C., Trimborn, A., Canagaratna, M.
+R., Croteau, P. L., Onasch, T. B., Sueper, D., Worsnop,
+D.
+R.,
+Zhang,
+Q.,
+Sun,
+Y.
+L.,
+and
+Jayne,
+J.
+T.:
+An
+Aerosol Chemical Speciation Monitor (ACSM) for Rou-
+tine Monitoring of the Composition and Mass Concentra-
+tions of Ambient Aerosol, Aerosol Sci. Tech., 45, 780–794,
+https://doi.org/10.1080/02786826.2011.560211, 2011.
+Pereira, G., Siqueira, R., Rosário, N. E., Longo, K. L., Freitas,
+S. R., Cardozo, F. S., Kaiser, J. W., and Wooster, M. J.: As-
+sessment of ﬁre emission inventories during the South Amer-
+ican Biomass Burning Analysis (SAMBBA) experiment, At-
+mos. Chem. Phys., 16, 6961–6975, https://doi.org/10.5194/acp-
+16-6961-2016, 2016.
+Petters, M. D. and Kreidenweis, S. M.: A single parameter
+representation of hygroscopic growth and cloud condensa-
+tion nucleus activity, Atmos. Chem. Phys., 7, 1961–1971,
+https://doi.org/10.5194/acp-7-1961-2007, 2007.
+Petters, M. D., Carrico, C. M., Kreidenweis, S. M., Prenni,
+A.
+J.,
+DeMott,
+P.
+J.,
+Collett
+Jr.,
+J.
+L.,
+and
+Moos-
+müller,
+H.:
+Cloud
+condensation
+nucleation
+activity
+of
+biomass burning aerosol, J. Geophys. Res., 114, D22205,
+https://doi.org/10.1029/2009JD012353, 2009.
+Philip, S., Martin, R. V., Pierce, J. R., Jimenez, J. L., Zhang, Q.,
+Canagaratna, M. R., Spracklen, D. V., Nowlan, C. R., Lamsal, L.
+N., Cooper, M. J., and Krotkov, N. A.: Spatially and seasonally
+resolved estimate of the ratio of organic mass to organic carbon,
+Atmos. Environ., 87, 34–40, 2014.
+Platnick,
+S.,
+Hubanks,
+P.,
+Meyer,
+K.,
+and
+King,
+M.
+D.:
+MODIS
+Atmosphere
+L3
+Daily
+Product,
+NASA
+MODIS
+Adaptive Processing System, Goddard Space Flight Center,
+USA, https://doi.org/10.5067/MODIS/MOD08_M3.006 (Terra);
+https://doi.org/10.5067/MODIS/MYD08_M3.006 (Aqua), 2015.
+Pöschl, U., Martin, S. T., Sinha, B., Chen, Q., Gunthe, S. S.,
+Huffman, J. A., Borrmann, S., Farmer, D. K., Garland, R. M.,
+Helas, G., Jimenez, J. L., King, S. M., Manzi, A., Mikhailov, E.,
+Pauliquevis, T., Petters, M. D., Prenni, A. J., Roldin, P., Rose,
+D., Schneider, J., Su, H., Zorn, S. R., Artaxo, P., and Andreae,
+M. O.: Rainforest Aerosols as Biogenic Nuclei of Clouds and
+Precipitation in the Amazon, Science, 329, 1513–1516, 2010.
+Randerson, J. T., Chen, Y., van der Werf, G. R., Rogers, B. M.,
+and Morton, D. C.: Global burned area and biomass burning
+emissions from small ﬁres, J. Geophys. Res., 117, G04012,
+https://doi.org/10.1029/2012JG002128, 2012.
+Rap, A., Scott, C. E., Spracklen, D. V., Bellouin, N., Forster, P. M.,
+Carslaw, K. S., Schmidt, A., and Mann, G.: Natural aerosol di-
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/
+
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+9151
+rect and indirect radiative effects, Geophys. Res. Lett., 40, 3297–
+3301, https://doi.org/10.1002/grl.50441, 2013.
+Reddington, C. L., Butt, E. W., Ridley, D. A., Artaxo, P.,
+Morgan, W. T., Coe, H., and Spracklen, D. V.: Air qual-
+ity and human health improvements from reductions in
+deforestation-related ﬁre in Brazil, Nat. Geosci., 8, 768–771,
+https://doi.org/10.1038/ngeo2535, 2015.
+Reddington, C. L., Spracklen, D. V., Artaxo, P., Ridley, D. A.,
+Rizzo, L. V., and Arana, A.: Analysis of particulate emissions
+from tropical biomass burning using a global aerosol model and
+long-term surface observations, Atmos. Chem. Phys., 16, 11083–
+11106, https://doi.org/10.5194/acp-16-11083-2016, 2016.
+Reddington, C., Carslaw, K., Stier, P., Schutgens, N., Coe, H., Liu,
+D., Allan, J., Pringle, K., Lee, L., and Yoshioka, M.: The Global
+Aerosol Synthesis and Science Project (GASSP): measurements
+and modelling to reduce uncertainty, B. Am. Meteorol. Soc.,
+98.9, 1857–1877, 2017.
+Reid, J. S. and Hobbs, P. V.: Physical and optical properties of young
+smoke from individual biomass ﬁres in Brazil, J. Geophys. Res.-
+Atmos., 103, 32013–32030, 1998.
+Reid, C. E., Brauer, M., Johnston, F. H., Jerrett, M., Balmes, J. R.,
+and Elliott, C. T.: Critical Review of Health Impacts of Wildﬁre
+Smoke Exposure, Environ. Health Persp., 124, 1334–1343, 2016.
+Reid, J. S., Koppmann, R., Eck, T. F., and Eleuterio, D. P.: A review
+of biomass burning emissions part II: intensive physical proper-
+ties of biomass burning particles, Atmos. Chem. Phys., 5, 799–
+825, https://doi.org/10.5194/acp-5-799-2005, 2005.
+Schutgens, N., Tsyro, S., Gryspeerdt, E., Goto, D., Weigum, N.,
+Schulz, M., and Stier, P.: On the spatio-temporal representa-
+tiveness of observations, Atmos. Chem. Phys., 17, 9761–9780,
+https://doi.org/10.5194/acp-17-9761-2017, 2017.
+Schutgens, N. A. J., Gryspeerdt, E., Weigum, N., Tsyro, S., Goto,
+D., Schulz, M., and Stier, P.: Will a perfect model agree with
+perfect observations? The impact of spatial sampling, Atmos.
+Chem. Phys., 16, 6335–6353, https://doi.org/10.5194/acp-16-
+6335-2016, 2016a.
+Schutgens, N. A. J., Partridge, D. G., and Stier, P.: The impor-
+tance of temporal collocation for the evaluation of aerosol mod-
+els with observations, Atmos. Chem. Phys., 16, 1065–1079,
+https://doi.org/10.5194/acp-16-1065-2016, 2016b.
+Schwarz, J. P., Gao, R. S., Spackman, J. R., Watts, L. A., Thomson,
+D. S., Fahey, D. W., Ryerson, T. B., Peischl, J., Holloway, J. S.,
+Trainer, M., Frost, G. J., Baynard, T., Lack, D. A., de Gouw, J. A.,
+Warneke, C., and Del Negro, L. A.: Measurement of the mixing
+state, mass, and optical size of individual black carbon particles
+in urban and biomass burning emissions, Geophys. Res. Lett., 35,
+L13810, https://doi.org/10.1029/2008GL033968, 2008.
+Scott, C. E., Rap, A., Spracklen, D. V., Forster, P. M., Carslaw,
+K. S., Mann, G. W., Pringle, K. J., Kivekäs, N., Kulmala, M.,
+Lihavainen, H., and Tunved, P.: The direct and indirect ra-
+diative effects of biogenic secondary organic aerosol, Atmos.
+Chem. Phys., 14, 447–470, https://doi.org/10.5194/acp-14-447-
+2014, 2014.
+Shiraiwa, M., Kondo, Y., Moteki, N., Takegawa, N., Sahu, L.
+K., Takami, A., Hatakeyama, S., Yonemura, S., and Blake,
+D. R.: Radiative impact of mixing state of black carbon
+aerosol in Asian outﬂow, J. Geophys. Res., 113, D24210,
+https://doi.org/10.1029/2008JD010546, 2008.
+Smith, L. T., Aragao, L., Sabel, C. E., and Nakaya, T.: Drought
+impacts on children’s respiratory health in the Brazilian Amazon,
+Sci. Rep., 4, 3726, https://doi.org/10.1038/srep03726, 2014.
+Spracklen, D. V., Pringle, K. J., Carslaw, K. S., Chipperﬁeld,
+M. P., and Mann, G. W.: A global off-line model of size-
+resolved aerosol microphysics: I. Model development and pre-
+diction of aerosol properties, Atmos. Chem. Phys., 5, 2227–
+2252, https://doi.org/10.5194/acp-5-2227-2005, 2005.
+Stephens, M., Turner, N., and Sandberg, J.: Particle Identiﬁcation
+by Laser-Induced Incandescence in a Solid-State Laser Cavity,
+Appl. Optics, 42, 3726, https://doi.org/10.1364/AO.42.003726,
+2003.
+Stockwell, C. E., Jayarathne, T., Cochrane, M. A., Ryan, K. C., Pu-
+tra, E. I., Saharjo, B. H., Nurhayati, A. D., Albar, I., Blake, D. R.,
+Simpson, I. J., Stone, E. A., and Yokelson, R. J.: Field measure-
+ments of trace gases and aerosols emitted by peat ﬁres in Central
+Kalimantan, Indonesia, during the 2015 El Niño, Atmos. Chem.
+Phys., 16, 11711–11732, https://doi.org/10.5194/acp-16-11711-
+2016, 2016.
+Stokes, R. H. and Robinson, R. A.: Interactions in aqueous nonelec-
+trolyte solutions. I. Solute-solvent equilibria, J. Phys. Chem., 70,
+2126–2130, 1966.
+Thornhill, G. D., Ryder, C. L., Highwood, E. J., Shaffrey, L. C.,
+and Johnson, B. T.: The effect of South American biomass
+burning aerosol emissions on the regional climate, Atmos.
+Chem. Phys., 18, 5321–5342, https://doi.org/10.5194/acp-18-
+5321-2018, 2018.
+Tsigaridis, K., Daskalakis, N., Kanakidou, M., Adams, P. J., Ar-
+taxo, P., Bahadur, R., Balkanski, Y., Bauer, S. E., Bellouin, N.,
+Benedetti, A., Bergman, T., Berntsen, T. K., Beukes, J. P., Bian,
+H., Carslaw, K. S., Chin, M., Curci, G., Diehl, T., Easter, R.
+C., Ghan, S. J., Gong, S. L., Hodzic, A., Hoyle, C. R., Iversen,
+T., Jathar, S., Jimenez, J. L., Kaiser, J. W., Kirkevåg, A., Koch,
+D., Kokkola, H., Lee, Y. H., Lin, G., Liu, X., Luo, G., Ma, X.,
+Mann, G. W., Mihalopoulos, N., Morcrette, J.-J., Müller, J.-F.,
+Myhre, G., Myriokefalitakis, S., Ng, N. L., O’Donnell, D., Pen-
+ner, J. E., Pozzoli, L., Pringle, K. J., Russell, L. M., Schulz, M.,
+Sciare, J., Seland, Ø., Shindell, D. T., Sillman, S., Skeie, R. B.,
+Spracklen, D., Stavrakou, T., Steenrod, S. D., Takemura, T., Ti-
+itta, P., Tilmes, S., Tost, H., van Noije, T., van Zyl, P. G., von
+Salzen, K., Yu, F., Wang, Z., Wang, Z., Zaveri, R. A., Zhang, H.,
+Zhang, K., Zhang, Q., and Zhang, X.: The AeroCom evaluation
+and intercomparison of organic aerosol in global models, Atmos.
+Chem. Phys., 14, 10845–10895, https://doi.org/10.5194/acp-14-
+10845-2014, 2014.
+Tsimpidi, A. P., Karydis, V. A., Pandis, S. N., and Lelieveld,
+J.: Global combustion sources of organic aerosols: model
+comparison with 84 AMS factor-analysis data sets, Atmos.
+Chem. Phys., 16, 8939–8962, https://doi.org/10.5194/acp-16-
+8939-2016, 2016.
+Vakkari, V., Beukes, J. P., Dal Maso, M., Aurela, M., and van Zyl, P.
+G.: Major secondary aerosol formation in southern African open
+biomass burning plumes, Nat. Geosci., 11, 580–583, 2018.
+van der Werf, G. R., Randerson, J. T., Giglio, L., Collatz, G.
+J., Mu, M., Kasibhatla, P. S., Morton, D. C., DeFries, R. S.,
+Jin, Y., and van Leeuwen, T. T.: Global ﬁre emissions and the
+contribution of deforestation, savanna, forest, agricultural, and
+peat ﬁres (1997–2009), Atmos. Chem. Phys., 10, 11707–11735,
+https://doi.org/10.5194/acp-10-11707-2010, 2010.
+www.atmos-chem-phys.net/19/9125/2019/
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+
+9152
+C. L. Reddington et al.: Biomass burning aerosol over the Amazon
+van der Werf, G. R., Randerson, J. T., Giglio, L., van Leeuwen, T.
+T., Chen, Y., Rogers, B. M., Mu, M., van Marle, M. J. E., Morton,
+D. C., Collatz, G. J., Yokelson, R. J., and Kasibhatla, P. S.: Global
+ﬁre emissions estimates during 1997–2016, Earth Syst. Sci. Data,
+9, 697–720, https://doi.org/10.5194/essd-9-697-2017, 2017.
+van Leeuwen, T. T., Peters, W., Krol, M. C., and van der Werf, G.
+R.: Dynamic biomass burning emission factors and their impact
+on atmospheric CO mixing ratios, J. Geophys. Res.-Atmos., 118,
+6797–6815, https://doi.org/10.1002/jgrd.50478, 2013.
+van Leeuwen, T. T., van der Werf, G. R., Hoffmann, A. A., Det-
+mers, R. G., Rücker, G., French, N. H. F., Archibald, S., Car-
+valho Jr., J. A., Cook, G. D., de Groot, W. J., Hély, C., Kasischke,
+E. S., Kloster, S., McCarty, J. L., Pettinari, M. L., Savadogo,
+P., Alvarado, E. C., Boschetti, L., Manuri, S., Meyer, C. P.,
+Siegert, F., Trollope, L. A., and Trollope, W. S. W.: Biomass
+burning fuel consumption rates: a ﬁeld measurement database,
+Biogeosciences, 11, 7305–7329, https://doi.org/10.5194/bg-11-
+7305-2014, 2014.
+van Marle, M. J. E., Field, R. D., van der Werf, G. R., Estrada
+de Wagt, I. A., Houghton, R. A., Rizzo, L. V., Artaxo,
+P., and Tsigaridis, K.: Fire and deforestation dynamics in
+Amazonia (1973–2014), Global Biogeochem. Cy., 31, 24–38,
+https://doi.org/10.1002/2016GB005445, 2017.
+Wang, S. C. and Flagan, R. C.: Scanning electrical mo-
+bility
+spectrometer,
+Aerosol
+Sci.
+Tech.,
+13,
+230–240,
+https://doi.org/10.1080/02786829008959441, 1990.
+Weigum, N., Schutgens, N., and Stier, P.: Effect of aerosol subgrid
+variability on aerosol optical depth and cloud condensation nu-
+clei: implications for global aerosol modelling, Atmos. Chem.
+Phys., 16, 13619–13639, https://doi.org/10.5194/acp-16-13619-
+2016, 2016.
+Wiedinmyer, C., Akagi, S. K., Yokelson, R. J., Emmons, L. K., Al-
+Saadi, J. A., Orlando, J. J., and Soja, A. J.: The Fire INventory
+from NCAR (FINN): a high resolution global model to estimate
+the emissions from open burning, Geosci. Model Dev., 4, 625–
+641, https://doi.org/10.5194/gmd-4-625-2011, 2011.
+Yin, Y., Ciais, P., Chevallier, F., van der Werf, G. R., Fanin, T., Bro-
+quet, G., Boesch, H., Cozic, A., Hauglustaine, D., Szopa, S., and
+Wang, Y.: Variability of ﬁre carbon emissions in equatorial Asia
+and its nonlinear sensitivity to El Niño, Geophys. Res. Lett., 43,
+10472–10479, https://doi.org/10.1002/2016GL070971, 2016.
+Yokelson, R. J., Burling, I. R., Gilman, J. B., Warneke, C., Stock-
+well, C. E., de Gouw, J., Akagi, S. K., Urbanski, S. P., Veres,
+P., Roberts, J. M., Kuster, W. C., Reardon, J., Grifﬁth, D. W. T.,
+Johnson, T. J., Hosseini, S., Miller, J. W., Cocker III, D. R., Jung,
+H., and Weise, D. R.: Coupling ﬁeld and laboratory measure-
+ments to estimate the emission factors of identiﬁed and uniden-
+tiﬁed trace gases for prescribed ﬁres, Atmos. Chem. Phys., 13,
+89–116, https://doi.org/10.5194/acp-13-89-2013, 2013.
+Yu, S., Eder, B., Dennis, R., Chu, S.-H., and Schwartz, S. E.: New
+unbiased symmetric metrics for evaluation of air quality mod-
+els, Atmos. Sci. Lett., 7, 26–34, https://doi.org/10.1002/asl.125,
+2006.
+Atmos. Chem. Phys., 19, 9125–9152, 2019
+www.atmos-chem-phys.net/19/9125/2019/

@@ -1,0 +1,579 @@
+remote sensing 
+Article
+National-Scale Estimates of Ground-Level PM2.5
+Concentration in China Using Geographically
+Weighted Regression Based on 3 km Resolution
+MODIS AOD
+Wei You, Zengliang Zang *, Lifeng Zhang, Yi Li, Xiaobin Pan and Weiqi Wang
+Institute of Meteorology and Oceanography, PLA University of Science and Technology, Nanjing 211101, China;
+youweilx@gmail.com (W.Y.); lifzhangqxxy@163.com (L.Z.); yiliqxxy@163.com (Y.L.); xbpqxxy@163.com (X.P.);
+haozl07@lzu.edu.cn (W.W.)
+* Correspondence: zzlqxxy@163.com; Tel./Fax: +86-025-8083-0400
+Academic Editors: Alexander A. Kokhanovsky and Prasad S. Thenkabail
+Received: 20 October 2015; Accepted: 5 February 2016; Published: 26 February 2016
+Abstract: High spatial resolution estimating of exposure to particulate matter 2.5 (PM2.5) is currently
+very limited in China. This study uses the newly released nationwide, hourly PM2.5 concentrations
+to create a nationwide, geographically weighted regression (GWR) model to estimate ground-level
+PM2.5 concentrations in China. A3 km resolution aerosol optical depth (AOD) product from MODIS
+is used as the primary predictor. Fire emissions detected by MODIS ﬁre count were considered in
+the model development process. Additionally, meteorological features were used as covariates in
+the model to improve the estimation of ground-level PM2.5 concentrations. The model performed
+well and explained 81% of the daily PM2.5 concentration variations in model predictions, and the
+cross validations R2 is 0.79. The cross-validated root mean squared error (RMSE) of the model was
+18.6 µg/m3.Annual PM2.5 concentrations retrieved by the MODIS 3 km AOD product indicated that
+most of the residential community areas exceeded the new annual Chinese PM2.5 National Standard
+level 2. Estimated high-resolution national-scale daily PM2.5 maps are useful to identify severe air
+pollution episodes and determine health risk assessments. These results suggest that this approach is
+useful for estimating large-scale ground-level PM2.5 distributions, especially for regions without PM
+monitoring sites.
+Keywords: aerosol optical depth; PM2.5; MODIS; air pollution; geographically weighted regression
+1. Introduction
+Aerosols or airborne particulate matters (PMs), which originate from both natural and
+anthropogenic emission sources, substantially inﬂuence the climate, environment and human health [1].
+Numerous epidemiological studies have demonstrated that exposure to ambient PMs is associated
+with various adverse health outcomes [2–4]. With intensive economic development and industrial
+reconstruction, China has endured extremely high PM2.5 concentrations in recent years. Consequently,
+the accurate assessment of air quality, particularly in terms of PM2.5 (particulate matter with an
+aerodynamic diameter less than 2.5 µm) and its spatiotemporal variability, is currently a pressing issue.
+Ground-based monitoring networks canprovide important information on atmospheric PM2.5
+concentration and composition. However, the spatial coverage of routine measurements is still limited
+and thus often insufﬁcient to obtain the spatial variability of PM2.5 concentration. Furthermore, the
+Ministry of Environmental Protection (MEP) of China only began carrying out routine monitoring
+of PM2.5 in major cities (e.g., Beijing and Guangzhou City) since the beginning of 2013. Inadequacy
+Remote Sens. 2016, 8, 184; doi:10.3390/rs8030184
+www.mdpi.com/journal/remotesensing
+
+Remote Sens. 2016, 8, 184
+2 of 13
+of spatially and temporally continuous ground-based PM2.5 monitoring networks contributes to the
+difﬁculty in estimating the historical spatial and temporal variation of PM2.5 concentrations, especially
+on a regional scale, and hinges on restrained epidemiological studies of PM2.5 in China [5].
+Satellite-derived aerosol optical depths (AODs) have been widely used to monitor surface
+PM2.5 concentrations [6–8]. Satellite remote sensed AOD represents columnar aerosol loading of
+the atmosphere and can be empirically converted into PM mass. To date, a number of empirical
+models have been developed to estimate ground-level PM concentration from satellite-derived AOD
+products for different parts of the world [7,9–11]. To improve the accuracy of PM2.5 estimation, more
+advanced models have been set-up over the past few years, such as hybrid models and mixed effective
+models [12–17]. Nevertheless, the strength of the AOD–PM2.5 relationship varies widely by region,
+and the relationships in certain regions may not be applicable to other regions [18,19].
+Although a variety of advanced models of PM2.5 estimation have been made in China [5,20–24],
+most of these studies were limited to speciﬁc cities or regions. In addition, most of these studies have
+used lower resolution (~10 km) AOD products in estimating PM2.5 concentration. This commonly used
+resolution of AOD products is often too coarse and thus insufﬁcient to determine exposure estimates in
+urban areas. Until recently, the widely anticipated 3 km MODIS AOD product (Collection 6) has been
+released [25]. Furthermore, the major cities in all provinces have released hourly PM2.5 concentrations
+to the public since 2013 through a nationwide air quality monitoring network, which provides data for
+higher resolution AOD and hourly PM2.5 modeling.
+By taking advantage of the newly established national PM2.5 monitoring network and utilizing
+the newly released 3 km resolution AOD products, in this paper, we established a national-scale
+satellite based geographically weighted regression (GWR) model to estimate ground-level PM2.5.
+To improve accuracy, we considered ﬁre emissions in the GWR model development process as previous
+studies have reported that biomass burning can affect AOD–PM2.5 relations [23,26].
+This paper is organized as follows. Section 2 describes the methods of processing the data from
+different sources and the methodology that we used to establish the relationship between AOD and
+hourly PM2.5 concentration. Section 3 shows the results of the performance of model. Several potential
+sources of prediction error of the GWR model is discussed in Section 4. The summary and conclusion
+are given in Section 5.
+2. Materials and Methods
+2.1. Data Collection and Reprocessing
+2.1.1. Ground-Based Hourly PM2.5 Concentration Data
+More than 900 ambient air-quality monitoring sites were set up in China by the Ministry
+Environmental Protection (MEP) and local environmental protection agencies (Figure 1) for the
+purpose of protecting ambient air quality. These sites monitor the mass concentration of particulate
+air pollutants on the ground. The PM2.5 data from these sites include hourly mass concentrations
+and 24 h average concentrations (daily-mean). Hourly PM2.5 measurements from 1 January 2014 to
+31 December 2014 were collected primarily from the ofﬁcial Web site of the China Environmental
+Monitoring Center (CEMC) [27]. A total of 943 monitoring sites are included in the present study
+(Figure 1).
+
+Remote Sens. 2016, 8, 184
+3 of 13
+Figure 1. Spatial distribution of the air-quality monitoring stations (violet dots) and meteorological
+stations (yellow triangles) used in this study. There are 943 particulate matter 2.5 (PM2.5) monitoring
+sites and 926 ground meteorological stations. It should be noted that the monitoring sites are clustered
+in the urban areas of major cities, whereas rural areas have little coverage. Many monitoring sites are
+overlaid in this map.
+2.1.2. Satellite AOD Datasets
+Two MODIS instruments were put onboard the Terra satellite in December 1999 and the Aqua
+satellite in May 2002. Both instruments collect AOD data. Recently, more accurate MODIS collection 6
+(C6) AOD products were released at a spatial resolution of 3 km at nadir. In addition, these newly
+released AOD products have been validated by AOD observations from 33 Aerosol Robotic Network
+(AERONET) sites in China and the results were satisfactory [28].
+Detailed information on the
+Collection 6 (C6) retrieve algorithm can be found elsewhere [29,30].
+The Terra and Aqua satellites cross the equator at approximately 10:30 a.m. and 1:30 p.m. local
+solar time (LST), respectively. The data acquired during the daytime passes of both MODIS instruments
+are used here. The global MODIS Level 2 Aerosol Products for 2014 (Collection 6) can be downloaded
+from the website [31]. In this study, we used the values of both MODIS Terra (MOD04) and MODIS
+Aqua (MYD04) AOD, which were extracted at 550 nm.
+The MODIS Active Fire product provided by Information for Resource Management System
+(FIRMS) was used to detect the ﬁre emission in China. The original data are processed by MODIS
+Adaptive Processing System (MODAPS) using the enhanced contextual ﬁre detection algorithm into
+the Collection 5 Active ﬁre product [32]. The ﬁre data are at a spatial resolution of 1 km. For this
+study, we have considered both the total ﬁre number and high-conﬁdence ﬁre counts spanning from
+1 January 2014 to 31 December 2014.
+2.1.3. Ground-Based Meteorological Measurements
+Ground-based meteorological parameters, including surface wind speed (SPD), surface air
+temperature (ST), horizontal visibility (Vis), and surface relative humidity (SRH), were collected
+from 926 meteorological stations (Figure 1). Corresponding to ground-based PM2.5 measurements,
+the meteorological data used were from 1 January 2014 through 31 December 2014 and was provided
+by the China Meteorological Center. The measurements at these stations were made every three hours.
+2.1.4. Data Preprocessing and Integration
+Because the data from the three sources have different temporal and spatial resolutions, all datasets
+were re-processed to be consistent in space and time to form a complete dataset that can be used as
+the basis of the following analyses. For the retrieved AOD data from both Terra and Aqua satellites,
+we used the nearest of AOD pixel over a window size of 3 ˆ 3 pixels centered at a given PM2.5 station
+
+Remote Sens. 2016, 8, 184
+4 of 13
+for our analysis. For example, we applied a 9 km search radius around each PM2.5 monitoring site and
+the MODIS AOD pixels with shortest distance to the PM2.5 station were used. Furthermore, to avoid
+possible cloud contamination, we eliminated all of the AOD–PM2.5 pairs where the number of pixels
+is less than two. In addition, to reduce the possibility of including spurious AOD pixels, we removed
+AOD pixels with a standard deviation of greater than 0.5. As the AOD data from Terra and Aqua were
+collected two different times each day, we used its average as the mean AOD value.
+Corresponding to the period of the AOD data, 3-h surface meteorological data were re-processed
+by averaging values at 11:00 a.m. and 2:00 p.m. and hourly PM2.5 observations were sampled from
+10:00 a.m. to 2:00 p.m. LST (corresponding to the satellite overpass times). The surface meteorological
+data from the closest meteorological station were used to represent the meteorological conditions
+for each PM2.5 monitoring station. To select the meteorological station, we applied a 150 km search
+radius around each PM2.5 monitoring station and the meteorological station in closest proximity to
+the PM2.5 station was used. The ﬁnal paired dataset contains 30,130 samples, which was used for the
+following analysis.
+2.2. Methodology
+2.2.1. Detection of Fire Emissions
+Crop residues burning in the ﬁeld is a common approach used to eliminate agricultural waste for
+next crop in line and to enrich soil nutrients, and this practice is more prevalent during the harvest
+season in China. In addition, crop residue burning as fuel and in the ﬁeld is the major source of
+biomass burning in China [33].
+Figure 2 displays the annual distribution of ﬁre counts collected from both Terra and Aqua
+satellites. There were a total of 287,332 ﬁre spots detected by satellite in our study area during 2014.
+Fire occurrence was highest in the summer and lowest in the winter. A previous study reported that
+biomass burning can produce aerosols above the boundary layer, which could eliminate AOD–PM
+relationships [23]. Thus, we chose to exclude all of the AOD–PM2.5 pairs where one or more high
+conﬁdence ﬁres was detected within a window size of 3 ˆ 3 AOD pixels centered at a given PM2.5 site.
+Figure 2. The annual distribution of ﬁre counts in China in 2014.
+2.2.2. Model Development and Validation
+Our previous study developed a GWR model to estimate ground-level particulate matter 10
+(PM10) in a speciﬁc city in northwest China and the model performed well in Xi’an [23]. We extend
+
+Remote Sens. 2016, 8, 184
+5 of 13
+our previous satellite methodology to the national-scale. Using a novel 3 km resolution MODIS
+AOD product, we estimated national-scale daily PM2.5 concentration in China.
+We calibrated
+the AOD–PM2.5 relation using newly released national-wide hourly PM2.5 ground monitors and
+meteorological parameters.
+It has been established that the association of AOD and ground-level PM2.5 varies spatially and
+temporally, and changes with spatial context (Figure 3). Such spatial variability of the relationship
+may be attributed to several differences, including meteorological patterns and seasonality. A GWR
+model can be used to explore geographically varying relationships between dependent variables and
+independent variables. GWR model has been successfully adopted in modeling the PM2.5–AOD
+association in China [5,21]. GWR model can generate a continuous surface of parameter values by
+taking measurements of the parameters at each local observation to denote the spatial variations of the
+surface [5,34]. To account for these temporal variations in the PM2.5–AOD relationship, a GWR model
+was established to obtain a local R2 for each PM2.5 monitoring site on a daily basis. The adaptive
+bandwidths were chosen as the uneven distribution of the monitoring sites. The detail of GWR model
+structure is expressed in the following equation:
+PM2.5ij “ β0,ij ` β1,ijAODij ` β2,ijSRHij ` β3,ijVisij ` β4,ijSTij ` β5,ijSPDij
+(1)
+where PM2.5ij (µg/m3) is the averaged hourly ground-level PM2.5 concentration at a location i on
+day j; β0,ij denotes the location-speciﬁc intercept on day j; β1,ij ´ β6,ij is the location speciﬁc slopes on
+day j; AODij (unitless) is the MODIS-derived AOD (unitless) products at a location i on day j; and
+SRHij (unit: %), Visij (unit: Km), STij (unit: ˝C), and SPDij (unit: m/s) are meteorological parameters
+at location i on day j (deﬁnitions in Section 2.1). The selection of the meteorological variables in the
+model is based on ﬁndings of previous study [5,23].
+Figure 3. The distribution of Pearson correlations between AOD and PM2.5 in China.
+To validate the performance of the model, the estimated PM2.5 concentrations are ﬁtted against
+the observed values. In addition, commonly used factors including the correlation coefﬁcients, mean
+absolute percentage prediction error (APE), and root-mean-square error (RMSE) are calculated to
+evaluate the degree of goodness of ﬁt between estimated and observed PM2.5 concentrations.
+
+Remote Sens. 2016, 8, 184
+6 of 13
+We applied a 10-fold cross validation method [35] to test for potential model over-ﬁtting in the
+present study. The dataset was ﬁrst broken into 10 folds with approximately 10% of the total data
+points in each fold. In each round of the cross validation, the model was ﬁtted with nine folds (90% of
+the total dataset) and one fold was predicted using the ﬁtted model. This step can be repeated 10 times
+until every fold is tested. Furthermore, APE and RMSE are adopted to evaluate the model prediction
+accuracy for model ﬁtting and cross validation results.
+3. Results
+3.1. Descriptive Statistics
+Table 1 summarizes the descriptive statistics of dependent variables as well as PM2.5
+measurements used in model ﬁtting. The MODIS AOD has an annual mean value of 0.69 and a standard
+deviation (SD) of 0.45. Theannual mean ground-level PM2.5 concentrations in 2014 ranged from 2 to
+494 µg/m3, with a mean value of 61 µg/m3 and SD of 41 µg/m3. The annual mean visibility values
+extended from 0.05 to 30 km, and surface air temperature ranged from ´9.1 to 38.1 ˝C. The relatively
+small mean value of SRH (40%) implies a relatively dry atmospheric environment. Surface wind speed
+(3.3 ˘ 1.8 m/s) is less variable when compared with other meteorological variables.
+Table 1. Descriptive statistics summarizing observations for PM2.5 monitoring sites for Year 2014.
+Parameters
+Mean
+SD
+Min
+Max
+PM2.5 (µg/m3)
+61.14
+41.21
+2.2
+494.20
+MODIS AOD
+0.69
+0.45
+0.01
+4.51
+Relative humidity (%)
+40.10
+14.85
+6.50
+100.00
+Visibility (km)
+16.33
+8.83
+0.05
+30.00
+Surface air temperature (˝C)
+23.01
+7.42
+–9.12
+38.05
+Wind speed (m/s)
+3.27
+1.78
+0.50
+15.00
+3.2. Model Fitting and Validation
+After excluding ﬁre emission points, there are a total of 27,813 matched predictors available for
+model ﬁtting. Figure 4 shows the scatterplots for the model ﬁtting and cross validation for the GWR
+model. For the model ﬁttings, the overall R2 between the predicted and observed PM2.5 concentration
+is 0.81, with a RMSE value of 17.2 µg/m3 and APE of 18.5%. The model performed very well with
+a cross validated R2 of 0.79, which indicated that this model can generate an accurate prediction.
+In comparison to the model ﬁtting, the cross validation R2 only decreases by 0.02, and cross validation
+RMSE only increases by 1.4 µg/m3 for the model, which are both greater than the model ﬁtting and
+suggests that the model is not substantially over-ﬁtted.
+Figure 4. Results of model ﬁtting (left) and cross validation (right). The dash line is the 1:1 line as
+a reference.
+
+Remote Sens. 2016, 8, 184
+7 of 13
+Our results show that the cross validation RMSE of the model is 18.6 µg/m3, which is much
+lower than the results of a previous study in China [5]. The cross validation relative prediction error
+(RPE, deﬁned as RMSE divided by the mean ground-level PM2.5 concentration) of the model is 31.6%,
+which is 19.7% lower than the previous study in the China. There are several possible reasons that
+may contribute to the more accurate estimation generated by our model compared with the previous
+study. First, the PM2.5 concentrations in the previous study are daily-mean concentrations, which
+are averaged hourly observations. However, satellite AOD data cannot capture the diurnal variation
+of daily PM2.5 concentration and therefore that data cannot be well represented. In this study, the
+ground-based PM2.5 measurements closest to the overpass time of the satellite were selected. Hourly
+PM2.5 concentrations sampled from 10:00 a.m. to 2:00 p.m. LST were used to correspond to the satellite
+overpass times. Second, we excluded the AOD data that detected ﬁre emissions at a given PM2.5 site
+in the model development process. From our previous study, we reported that crop residue burning is
+an important factor that leads to airborne aerosols, which can eliminate the AOD–PM relationship [23].
+Third, we used a ﬁne-resolution 3 km AOD product as predictors of surface PM2.5 concentrations
+while the previous study used 10 km AOD products. Another previous study reported that the model
+performance was more accurate using the 3 km AOD product than the performance based on the
+10 km product [16]. Finally, the ground meteorological parameters used in our model obtained from
+ground-based observations more accurately represented surface air conditions when compared to the
+parameters obtained via model output in previous studies.
+3.3. Estimation of Spatial Distributions of PM2.5 Concentrations.
+Daily MODIS 3 km AOD and meteorological data were gridded to 0.1 degree (~10 km) spatial
+resolution using the Kriging method. Subsequently, spatial distributions of PM2.5 concentration were
+predicted using the validated GWR model. Figure 5 shows the ground-level observed annual mean
+PM2.5 concentrations in China, and AOD-derived PM2.5 are shown in Figure 5.
+130°E
+120°E
+110°E
+100°E
+90°E
+80°E
+50°N
+40°N
+30°N
+20°N
+10°N
+0°N 
+  
+observed PM2.5
+<15
+15-25
+25-35
+35-45
+45-55
+55-65
+65-75
+75-85
+85-95
+95-105
+105-120
+120-135
+135-150
+  
+Figure 5. Annual mean ground observed PM2.5 concentrations.
+
+Remote Sens. 2016, 8, 184
+8 of 13
+The observations from ground monitoring sites exhibited a strong heterogeneity of PM2.5
+concentrations among discrete sites, while the MODIS AOD-derived PM2.5 concentrations provided
+a more comprehensive map of the spatial distributions of PM2.5 concentrations across China.
+Figures 5 and 6 show the annual averaged ground-observed PM2.5 concentrations and AOD retrieved
+PM2.5 concentrations from 1 January to 31 December 2014, respectively. The spatial distributions
+among ﬁgures are in accordance. Spatially, the highest PM2.5 loadings appear in the Beijing-Tianjin
+Metropolitan Region (including Beijing, Tianjin, and Hebei), followed by Central China (including
+Hunan, Hubei, and Henan).
+Figure 6. Annual mean MODIS AOD-derived PM2.5 concentrations.
+The annual mean PM2.5 concentrations in the Beijing-Tianjin Metropolitan Region are generally
+higher than 85 µg/m3, with the highest concentrations greater than 135 µg/m3. The annual mean
+PM2.5 concentrations are generally greater than 75 µg/m3 in Central China. These regions in China
+have the greatest amount of industrial structures and are densely populated. Intense human activity
+and rapid urbanization have led to a high production of PM2.5 concentration in these regions.
+The Tarim Basin located in the southern part of Xinjiang Autonomous Region is another area of
+heavily polluted area with high PM2.5 levels. The Taklamakan Desert covers over 60% of the Tarim
+Basin. Dust generated in the Taklamakan Desert and Asian pollution can become entrained and
+transported across eastern Asia [36], and thus high level PM2.5 derived by AOD in desert regions
+contribute signiﬁcantly to regional PM2.5 pollution in the Tarim Basin. The Chongqing Metropolitan
+is another area of high pollution with the annual PM2.5 concentrations of 75–85 µg/m3. Persistent
+temperature inversion and stagnant air circulation usually occur in this region owing to its unique
+topography, and thus often lead to severe air pollution. High PM2.5 concentrations also occur in the
+Yangtze River Delta, an area that is one of the most developed regions in China. The cleanest areas are
+in North Inner Mongolia, Hainan, and Tibet, where the annual mean values from both MODIS AOD
+are generally lower than 35 µg/m3. Heilongjiang and Yunnan Province have annual mean values of
+
+Remote Sens. 2016, 8, 184
+9 of 13
+25–55 µg/m3. Figure 7 shows spatial distributions of standard deviation of predicted residuals across
+China. Overall, the highest prediction errors appear in Northern China, Yangtze River Delta, and
+Hunan province, followed by eastern Heilongjiang, northern Xinjiang Province and the junction of
+Guangdong and Hainan Provinces.
+Figure 7. Annual mean standard deviation of predicted residual of the GWR model.
+4. Discussion
+In summary, the GWR model proved to have strong potential to estimate PM2.5 concentrations in
+China. However, it should be noted that the AOD-derived PM2.5 concentrations in several regions are
+substantially over-predicted. For example, the AOD-derived PM2.5 was overestimated in Hunan and
+Hubei Provinces, especially in eastern Hunan (Figure 8). The eastern part of Hunan Province was very
+over-predicted, with estimated concentrations going up to 135 µg/m3. However, the observed PM2.5
+in this region is about 85 µg/m3. Similar overestimation was also found at the junction of Hunan and
+Hubei Provinces. There are several factors that may contribute to possible estimation errors. First, the
+uneven spatial distribution of ground-based PM2.5 monitors may lead to potential estimation error
+of the GWR model. Most of the PM2.5 monitors are located in large urban centers. Rural areas still
+have very limited PM2.5 monitoring site coverage, especially in the western part of the country such
+as Xinjiang, Tibet, Qinghai and Inner Mongolia. Therefore, the estimated PM2.5 levels in the cleaner
+areas of China may contain substantial errors. Nevertheless, this problem is expected to be alleviated
+in the near future because the national PM2.5 monitoring network will cover all county-level cities by
+2015 [37]. Second, the satellite has less temporal coverage due to its sampling limitation according to
+retrieval algorithm (surface conditions, clouds, and other factors), especially in winter. As a previous
+study reported, the sampling bias by the satellite may affect the long-term mean PM2.5 derived from
+the AOD-based calibration model [16]. Third, although the 3 km MODIS AOD products have been
+demonstrated with satisfactory quality over China [30], improper characterization of surface reﬂectance
+
+Remote Sens. 2016, 8, 184
+10 of 13
+adversely impact retrieval accuracy of the higher-resolution products [38]. Fourth, the spatial and
+temporal mismatch among meteorological, AOD, and pollutant data may also bring uncertainties in
+the PM2.5 estimating. For example, the MODIS AODs represent average value of a 3 km resolution at
+nadir. However, observed PM2.5 is a point value obtained form a given monitor site. Furthermore, we
+used Kriging interpolate method to grid the AOD and methodological variables. The uneven spatial
+distribution of these parameters may also lead to estimation errors in the interpolation process. Finally,
+MODIS AOD retrieval algorithm may also lead to PM2.5 estimation error in some regions such as
+Taklamakan and Gobi Deserts. Ideally, the MODIS operational AOD retrieval algorithm over dark
+surface uses the near-infrared at 2.1 µm, but the variance in surface reﬂectance in different regions can
+cause differences in the accuracy of AOD retrievals [19].
+117°E 
+114°E 
+111°E 
+108°E 
+33°N 
+32°N 
+31°N 
+30°N 
+29°N 
+28°N 
+27°N 
+26°N 
+25°N 
+106°E 
+24°N 
+ 
+117°E 
+114°E 
+111°E 
+108°E 
+33°N 
+32°N 
+31°N 
+30°N 
+29°N 
+28°N 
+27°N 
+26°N 
+25°N 
+24°N 
+106°E 
+ 
+  
+Figure 8. Annual mean observed (top) and estimated (bottom) PM2.5 concentrations for Hunan and
+Hubei Provinces.
+5. Summary and Conclusions
+In this study, we applied the newly released 3 km resolution MODIS AOD product to estimate
+national-scale surface PM2.5 concentrations using a GWR model. Fire emissions and meteorological
+features were taken into consideration to achieve greater accuracy of PM2.5 estimation.
+The results from the performance of the GWR model indicated that the model was relatively
+accurate in the estimation of ground-level PM2.5 concentrations. The GWR model was able to explain
+approximately 79% of the variability in daily PM2.5 concentrations with an RMSE of 18.6 µg/m3.
+
+Remote Sens. 2016, 8, 184
+11 of 13
+These results are useful for health risk assessment, air pollution control strategies and
+environmentally related studies. The results also showed that the GWR model presented in this
+study has the capacity to identify PM2.5 spatial distributions at various scales. Additionally, the
+results from mapping national-scale PM2.5 concentrations can be used to support future monitoring
+construction plans in China.
+Acknowledgments: This research was supported by the National Natural Science Foundation of China under
+Grant Nos. 41275128, 41375063and 41206163. MODIS data were obtained from the Atmosphere Archive and
+Distribution System at NASA/Goddard Space Flight Center.
+Author Contributions: W.Y. and Z.Z. conceived and designed the experiments; L.Z. contributed to the ideas
+and manuscript writing; W.Y. contributed to the data analysis, interpretation and writing; W.Y. performed the
+experiments; Y.L. and X.P. analyzed the data; W.W. contributed reagents/materials/analysis tools.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Kaufman, Y.J.; Tanré, D.; Boucher, O. A satellite view of aerosols in the climate system. Nature 2002, 419,
+215–223. [CrossRef] [PubMed]
+2.
+Pope, C.A., III; Burnett, R.T.; Thun, M.J.; Calle, E.E.; Krewski, D.; Ito, K.; Thurston, G.D. Lung cancer,
+cardiopulmonary mortality, and long-term exposure to ﬁne particulate air pollution. JAMA 2002, 287,
+1132–1141. [CrossRef] [PubMed]
+3.
+Lepeule, J.; Laden, F.; Dockery, D.; Schwartz, J. Chronic exposure to ﬁne particles and mortality: An extended
+follow-up of the Harvard six cities study from 1974 to 2009. Environ. Health Perspect. 2012, 120, 965–970.
+[CrossRef] [PubMed]
+4.
+Wan Mahiyuddin, W.R.; Sahani, M.; Aripin, R.; Latif, M.T.; Thach, T.Q.; Wong, C.M. Short-term effects of
+daily air pollution on mortality. Atmos. Environ. 2013, 65, 69–79. [CrossRef]
+5.
+Ma, Z.; Hu, X.; Huang, L.; Bi, J.; Liu, Y. Estimating Ground-Level PM2.5 in China Using Satellite Remote
+Sensing. Environ. Sci. Technol. 2014, 48, 7436–7444. [CrossRef] [PubMed]
+6.
+Engel-Cox, J.A.; Hoff, R.M.; Haymet, A.D.J. Recommendations on the use of satellite remote-sensing data for
+urban air quality. J. Air Waste Manag. Assoc. 2004, 54, 1360–1371. [CrossRef] [PubMed]
+7.
+Koelemeijer, R.B.A.; Homan, C.D.; Matthijsen, J. Comparison of spatial and temporal variations of aerosol
+optical thickness and particulate matter in Europe. Atmos. Environ. 2006, 40, 5304–5315. [CrossRef]
+8.
+Yap, X.Q.; Hashim, M. A robust calibration approach for PM10 prediction from MODISaerosol optical depth.
+Atmos. Chem. Phys. Discuss. 2012, 12, 31483–31505. [CrossRef]
+9.
+Wang, J.; Christopher, S.A. Inter-comparison between satellite-derived aerosol optical thickness and PM2.5
+mass: Implications for air quality studies. Geophys. Res. Lett. 2003, 30, 2095. [CrossRef]
+10.
+Chu, D.A.; Kaufman, Y.J.; Zibordi, G.; Chern, J.D.; Mao, J.; Li, C.; Holben, B.N. Global monitoring of air
+pollution over land from the Earth Observing System-Terra Moderate Resolution Imaging Spectroradiometer
+(MODIS). J. Geophys. Res. 2003, 108, D21. [CrossRef]
+11.
+Van Donkelaar, A.; Martin, R.V.; Park, R.J. Estimating ground level PM2.5 using aerosol optical depth
+determined from satellite remote sensing. J. Geophys. Res. 2006, 111, D21201. [CrossRef]
+12.
+Gupta, P.; Christopher, S.A. Particulate matter air quality assessment using integrated surface, satellite, and
+meteorological products: 2. A neural network approach. J. Geophys. Res. 2009, D20205. [CrossRef]
+13.
+Liu, Y.; Paciorek, C.J.; Koutrakis, P. Estimating regional spatial and temporal variability of PM2.5
+concentrations using satellite data, meteorology, and land use information. Environ. Health Perspect. 2009,
+117, 886–892. [CrossRef] [PubMed]
+14.
+Hu, X.; Waller, L.A.; Al-Hamdan, M.Z.; Crosson, W.L.; Estes, M.G., Jr.; Estes, S.M. Estimating ground-level
+PM2.5 concentrations in the southeastern U.S. using geographically weighted regression. Environ. Res. 2013,
+121, 1–10. [CrossRef] [PubMed]
+15.
+Kloog, I.; Chudnovsky, A.A.; Just, A.C.; Nordio, F.; Koutrakis, P.; Coull, B.A.; Lyapustin, A.; Wang, Y.;
+Schwartz, J. A new hybrid spatio-temporal model for estimating dailymulti-year PM2.5 concentrations
+across northeastern USA using high resolution aerosol optical depth data. Atmos. Environ. 2014, 95, 581–590.
+[CrossRef]
+
+Remote Sens. 2016, 8, 184
+12 of 13
+16.
+Xie, Y.; Wang, Y.; Zhang, K.; Dong, W.; Lv, B.; Bai, Y. Daily estimation of ground-level PM2.5 concentrations
+over Beijing using 3 km resolution MODIS AOD. Environ. Sci. Technol. 2015, 49, 12280–12288. [CrossRef]
+[PubMed]
+17.
+Just, A.C.; Wright, R.O.; Schwartz, J.; Coull, B.A.; Baccarelli, A.A.; Tellez-Rojo, M.M.; Kloog, I. Using
+High-Resolution Satellite Aerosol Optical Depth To Estimate Daily PM2.5 Geographical Distribution in
+Mexico City. Environ. Sci. Technol. 2015, 49, 8576–8584. [CrossRef] [PubMed]
+18.
+Gupta, P.; Christopher, S.A.; Wang, J.; Gehrig, R.; Lee, Y.; Kumar, N. Satellite remote sensing of particulate
+matter and air quality assessment over global cities. Atmos. Environ. 2006, 40, 5880–5892. [CrossRef]
+19.
+Zhang, H.; Hoff, R.M.; Engel-Cox, J.A. The relation between Moderate Resolution Imaging Spectroradiometer
+(MODIS) aerosol optical depth and PM2.5 over the United States: Ageographical comparison by U.S.
+protection agency regions. J. Air Waste Manag. Assoc. 2009, 59, 1358–1369. [CrossRef] [PubMed]
+20.
+Wu, Y.; Guo, J.; Zhang, X.; Tian, X.; Zhang, J.; Wang, Y.; Duan, J.; Li, X. Synergy of satellite and ground
+based observations in estimation of particulate matter in eastern China. Sci. Total Environ. 2012, 433, 20–30.
+[CrossRef] [PubMed]
+21.
+Song, W.; Jia, H.; Huang, J.; Zhang, Y. A satellite-based geographically weighted regression model for
+regional PM2.5 estimation over the Pearl River Delta region in China. Remote Sens. Environ. 2014, 154, 1–7.
+[CrossRef]
+22.
+Lin, C.; Li, Y.; Yuan, Z.; Lau, A.K.H.; Li, C.; Fung, J.C.H. Using satellite remote sensing data to estimate the
+high-resolution distribution of ground-level PM2.5. Remote Sens. Environ. 2015, 156, 117–128. [CrossRef]
+23.
+You, W.; Zang, Z.; Zhang, L.; Li, Z.; Chen, D.; Zhang, G. Estimating ground-level PM10 concentration
+in northwestern China using geographically weighted regression based on satellite AOD combined with
+CALIPSO and MODIS ﬁre count. Remote Sens. Environ. 2015, 168, 276–285. [CrossRef]
+24.
+You, W.; Zang, Z.; Pan, X.; Zhang, L.; Chen, D. Estimating PM2.5 in Xi’an, China using aerosol optical depth:
+A comparison between the MODIS and MISR retrieval models. Sci. Total Environ. 2015, 505, 1156–1165.
+[CrossRef] [PubMed]
+25.
+Remer, L.A.; Mattoo, S.; Levy, R.C.; Munchak, L. MODIS 3 km aerosolproduct: Algorithm and global
+perspective. Atmos. Meas. Tech. 2013, 6, 1829–1844. [CrossRef]
+26.
+Hu, X.; Waller, L.A.; Lyapustin, A.; Wang, Y.; Liu, Y. Improving Satellite-Driven PM2.5 Models with Moderate
+Resolution Imaging Spectroradiometer Fire Counts in the southeastern U.S. J. Geophys. Res. Atmos. 2014, 119,
+11375–11386. [CrossRef]
+27.
+China Environmental Monitoring Center. Available online: http://113.108.142.147:20035/emcpublish/
+(accessed on 12 May 2013).
+28.
+Ma, Z.W.; Hu, X.F.; Sayer, A.M.; Levy, R.; Zhang, Q.; Xue, Y.G.; Bi, J.; Lei, H.; Liu, Y. Satellite-based
+spatiotemporal trends in PM2.5 concentrations: China, 2004–2013. Environ. Health Perspect. 2015, 124.
+[CrossRef] [PubMed]
+29.
+Levy, R.C.; Mattoo, S.; Munchak, L.; Remer, L.A.; Sayer, A.M.; Hsu, N.C. The collection 6 MODIS aerosol
+products over land and ocean. Atmos. Meas. Tech. 2013, 11, 2989–3034. [CrossRef]
+30.
+Hsu, N.; Jeong, M.J.; Bettenhausen, C.; Sayer, A.; Hansell, R.; Seftor, C.S.; Huang, J.; Tsay, S.-C. Enhanced
+Deep Blue aerosol retrieval algorithm: The second generation. J. Geophys. Res. Atmos. 2013, 118, 9296–9315.
+[CrossRef]
+31.
+The MODIS Level2 Aerosol Products (Collection 6) Referrer to the LAADS Website. Available online:
+http://ladsweb.nascom.nasa.gov/data/search.html (accessed on 29 September 2012).
+32.
+Giglio, L.; Descloitres, J.; Justice, C.O.; Kaufman, Y.J. An enhanced contextual ﬁre detection algorithm for
+MODIS. Remote Sens. Environ. 2003, 87, 273–282. [CrossRef]
+33.
+Yan, X.; Ohara, T.; Akimoto, H. Bottom-up estimate of biomass burning in mainland China. Atmos. Environ.
+2006, 40, 5262–5273. [CrossRef]
+34.
+Brunsdon, C.; Fotheringham, A.S.; Charlton, M.E. Geographically weighted regression: A method for
+exploring spatial nonstationarity. Geogr. Anal. 1996, 4, 281–298. [CrossRef]
+35.
+Rodriguez, J.D.; Perez, A.; Lozano, J.A. Sensitivity analysis of k-fold cross validation in prediction error
+estimation. IEEE Trans. Pattern Anal. Mach. Intell. 2010, 32, 569–575. [CrossRef] [PubMed]
+36.
+Huang, J.P.; Minnis, P.; Chen, B.; Huang, Z.W.; Liu, Z.Y.; Zhao, Q.Y.; Yi, Y.H.; Ayers, J.K. Long-Range
+Transport and Vertical Structure of Asian Dust from CALIPSO and Surface Measurements during PACDEX.
+J. Geophys. Res. 2008, 113, D23212. [CrossRef]
+
+Remote Sens. 2016, 8, 184
+13 of 13
+37.
+Yuan, Y.; Liu, S.; Castro, R.; Pan, X. PM2.5 monitoring and mitigation in the cities of China.
+Environ. Sci. Technol. 2012, 46, 3627–3628. [CrossRef] [PubMed]
+38.
+Munchak, L.A.; Levy, R.C.; Mattoo, S.; Remer, L.A.; Holben, B.N.; Schafer, J.S.; Hostetler, C.A.; Ferrare, R.A.
+MODIS 3 km aerosol product: Applications over land in an urban/suburban region. Atmos. Meas. Tech. 2013,
+6, 1747–1759. [CrossRef]
+© 2016 by the authors; licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons by Attribution
+(CC-BY) license (http://creativecommons.org/licenses/by/4.0/).

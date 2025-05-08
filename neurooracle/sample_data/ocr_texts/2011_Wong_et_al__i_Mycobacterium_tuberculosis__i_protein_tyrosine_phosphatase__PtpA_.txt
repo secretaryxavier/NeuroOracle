@@ -1,0 +1,750 @@
+Mycobacterium tuberculosis protein tyrosine
+phosphatase (PtpA) excludes host vacuolar-H+–ATPase
+to inhibit phagosome acidiﬁcation
+Dennis Wong, Horacio Bach, Jim Sun, Zakaria Hmama, and Yossef Av-Gay1
+Department of Medicine, Division of Infectious Diseases, University of British Columbia, Vancouver, BC, Canada V5Z 3J5
+Edited by Carl F. Nathan, Weill Medical College of Cornell University, New York, NY, and approved October 21, 2011 (received for review June 8, 2011)
+Mycobacterium tuberculosis (Mtb) pathogenicity depends on its
+ability to inhibit phagosome acidiﬁcation and maturation processes
+after engulfment by macrophages. Here, we show that the secreted
+Mtb protein tyrosine phosphatase (PtpA) binds to subunit H of the
+macrophage vacuolar-H+-ATPase (V-ATPase) machinery, a multisub-
+unit protein complex in the phagosome membrane that drives
+luminal acidiﬁcation. Furthermore, we show that the macrophage
+class C vacuolar protein sorting complex, a key regulator of endo-
+somal membrane fusion, associates with V-ATPase in phagosome
+maturation, suggesting a unique role for V-ATPase in coordinating
+phagosome–lysosome fusion. PtpA interaction with host V-ATPase
+is required for the previously reported dephosphorylation of
+VPS33B and subsequent exclusion of V-ATPase from the phago-
+some during Mtb infection. These ﬁndings show that inhibition
+of phagosome acidiﬁcation in the mycobacterial phagosome is
+directly attributed to PtpA, a key protein needed for Mtb survival
+and pathogenicity within host macrophages.
+phagocytosis | vesicular trafﬁcking
+T
+he etiological agent of tuberculosis (TB), Mycobacterium
+tuberculosis, is one of the most devastating infectious agents
+in the world. One-third of the world’s population is exposed to
+Mtb, which causes nearly 3 million deaths annually, and is
+expected to cause an estimated 1 billion new infections by 2020
+(1). Mtb primarily infects alveolar macrophages that provide
+the ﬁrst line of defense against microbial invasion. Normally,
+macrophages’ engulfment of foreign bodies results in the for-
+mation of phagosome, which matures in a process that remodels
+its membrane and luminal contents through interaction and
+fusion with the endosomal network (2, 3). These membrane
+fusions allow the phagosome to acquire antimicrobial properties,
+including a profoundly acidic lumen, the hallmark of the mac-
+rophage maturation process (4).
+Macrophages acidify the phagosomal lumen by recruiting
+V-ATPase, a multisubunit protein-pump complex that actively
+transports protons across membranes using energy from ATP
+hydrolysis (5). Structurally similar to ATP synthase, the V-
+ATPase consists of a membrane-bound domain with ﬁve differ-
+ent subunits and a cytosolic domain composed of subunits A–H
+(reviewed in ref. 6). Delivery of the V-ATPase to the phagosome
+results in a pH decrease from 6.5 to 5.0 within minutes of phag-
+osome maturation (7). This acidic environment inhibits bacterial
+growth and enhances the activities of antimicrobial hydrolases.
+Acidic pH is also crucial for proper vesicular trafﬁcking, directing
+the fusion of phagosomes with lysosomes or vesicles harboring
+antimicrobial molecules (8). Therefore, phagosome acidiﬁcation is
+a critical event that prompts the destruction of invading particles
+into constituents for antigen presentation and the initiation of
+adaptive immune responses (9).
+Intracellular pathogens that enter host cells through the
+phagocytic or endocytic pathway have developed mechanisms to
+counter the acidic environment within phagosomes. For instance,
+Salmonella enterica adapts to lower pH by activating acid toler-
+ance genes (10). Yersinia pseudotuberculosis blocks phagosome
+acidiﬁcation by directly inhibiting V-ATPase activity in mouse
+macrophages (11), and Legionella pneumophila secretes sub-
+strates into the host phagocyte to inhibit vacuole acidiﬁcation
+through interaction with V-ATPase subunit A (12). In the case of
+Mtb, lack of acidiﬁcation in the mycobacterial phagosome is
+mainly because of the absence of the V-ATPase on the phag-
+osomal membrane (13). However, the mechanism by which Mtb
+accomplishes this remains undeﬁned.
+Mtb is known to be capable of sensing engulfment by macro-
+phages and subsequently interferes with host signaling pathways to
+promote its intracellular survival (14–16). Mtb possesses a wide
+repertoire of signal transduction systems, including 11 two-com-
+ponent systems, 11 eukaryotic-like serine/threonine protein kina-
+ses (PknA-PknL), two protein tyrosine phosphatases (PtpA and
+PtpB), and the newly identiﬁed protein tyrosine kinase (PtkA)
+(17–19). These signaling proteins play key roles in bacterial ad-
+aptation and response to host defense mechanisms. PtpA, a
+secreted protein phosphatase, is essential for Mtb pathogenicity,
+participating in the arrest of phagosome maturation within the
+host macrophages (14, 20). Earlier, we identiﬁed the host vacuolar
+protein sorting 33B (VPS33B) as the cognate substrate of PtpA
+(18). VPS33B is a member of the class C VPS complex that reg-
+ulates membrane fusion within the endocytic pathway (21). PtpA
+dephosphorylation of VPS33B inactivates this host protein, lead-
+ing to inhibition of phagosome–lysosome fusion (14).
+In this work, we report that Mtb PtpA binds to subunit H of
+macrophage V-ATPase to block V-ATPase trafﬁcking and phag-
+osome acidiﬁcation. We further identiﬁed a unique role for V-
+ATPase in the process of phagosome–lysosome fusion. Our results
+demonstrated that Mtb success in inhibiting phagosome acidiﬁca-
+tion and establishing infection in host macrophages relies on PtpA.
+Results
+Mtb PtpA Binds Subunit H of Human V-ATPase. Previously, we used
+a substrate-trapping mutant of PtpA to pull down the catalytic
+substrate of PtpA, VPS33B, from the Mtb-infected THP-1 cell
+lysate (14). Interestingly, when we used the WT recombinant
+PtpA as bait, we were able to pull down another, previously
+unidentiﬁed, 55-kDa macrophage protein (14). We identiﬁed
+this protein by MALDI-TOF mass spectrometry to be subunit
+H of human V-ATPase (Fig. S1A) and veriﬁed its identity by
+Western blot analysis (Fig. 1A). In vitro kinase assay and phos-
+phoamino acid analysis showed that subunit H was phosphory-
+lated on threonine and could not serve as a catalytic substrate for
+the tyrosine phosphatase PtpA (Fig. S1 B and C). In vitro pro-
+tein–protein interaction analysis of PtpA and subunit H dem-
+onstrated direct contact between mycobacterial PtpA and host
+V-ATPase subunit H (Fig. 1 B and C). A hyperbolic curve ﬁtting
+Author contributions: D.W., H.B., Z.H., and Y.A.-G. designed research; D.W. and J.S. per-
+formed research; D.W., Z.H., and Y.A.-G. analyzed data; and D.W. and Y.A.-G. wrote
+the paper.
+The authors declare no conﬂict of interest.
+This article is a PNAS Direct Submission.
+1To whom correspondence should be addressed. E-mail: yossi@interchange.ubc.ca.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1109201108/-/DCSupplemental.
+www.pnas.org/cgi/doi/10.1073/pnas.1109201108
+PNAS
+|
+November 29, 2011
+|
+vol. 108
+|
+no. 48
+|
+19371–19376
+MICROBIOLOGY
+
+the 1:1 Langmuir binding model and a dissociation constant of
+Kd 1.1 × 10−7 M indicate a high level of afﬁnity between the
+two proteins.
+PtpA Binds to Amino Acids 220–402 of Subunit H. We determined the
+PtpA binding site on subunit H by constructing overlapping
+polypeptide fragments of subunit H. As shown in Fig. 1D, only
+fragments that included the linker region (amino acid 220–402)
+were able to bind PtpA with high afﬁnity. This ﬁnding is con-
+sistent with previous predictions that the linker region of subunit
+H is involved in protein–protein interactions (22).
+The C-Terminal α-Helix of PtpA Binds Subunit H. Subunit H was
+reported to interact with dileucine-based motifs on the HIV Nef
+protein (23). Therefore, we performed site-directed mutagenesis
+to investigate whether dileucine motifs or other leucine residues
+on PtpA participate in binding subunit H (Fig. S2A). One mu-
+tant, PtpAL146A, located in the C-terminal α-helix, was defective
+in binding subunit H (Fig. 1E). This ﬁnding and the previous
+ﬁndings are consistent with the predicted structure of PtpA
+bound to subunit H using the protein-docking algorithm 3D-
+Garden (Fig. S2 B and C) (24). Interestingly, the PtpAL146A
+mutant retained its phosphatase activity with kinetics similar to
+the WT protein (Fig. S2D). This result is in line with our ob-
+servation that subunit H is not a catalytic substrate but rather
+a binding partner of PtpA.
+PtpA Binds V-ATPase Subunit H in Vivo. Using immunoprecipitation,
+we investigated the in vivo interaction between PtpA and subunit
+H during macrophage infection. Antibodies against subunit H
+coimmunoprecipitated PtpA from lysates of THP-1 cells infected
+with H37Rv Mtb expressing WT PtpA, conﬁrming the physio-
+logical relevance of PtpA/subunit H interaction during Mtb in-
+fection (Fig. 2A).
+To further monitor PtpA interaction with subunit H, we used
+a modiﬁed split-Trp mycobacterial assay for detecting protein–
+protein interactions (25, 26). In this system, a tryptophan auxo-
+trophic strain of Mycobacterium smegmatis only grows in the
+absence of tryptophan if the tested proteins interact with each
+other. As shown in Fig. 2B, coexpression of subunit H and PtpA
+fusion proteins restored mycobacterial growth on 7H9 agar
+plates, conﬁrming protein–protein interaction within a surrogate
+host. Coexpression with the binding-defective PtpAL146A did not
+lead to mycobacterial growth, suggesting that this phosphatase-
+active PtpA mutant lost its ability to bind subunit H. The phos-
+phatase-defective PtpAD126A retained its subunit H binding
+ability, further indicating the interaction is independent of the
+catalytic activity of PtpA (Fig. 2B).
+PtpA Binding to Subunit H Is Required for Mtb Intracellular Survival.
+To test whether PtpA binding to subunit H is required for Mtb
+pathogenicity, we investigated the ability of the binding-defective
+PtpAL146A Mtb strain to survive in human THP-1 macrophages.
+As shown in Fig. 2C, a ΔptpA strain complemented with a con-
+struct encoding PtpAL146A was attenuated within the macrophage
+in a manner similar to that of the ΔptpA knockout strain, whereas
+the parental and the complement strains were able to establish
+a stable infection after 3 d. Expression and stability of the WT
+and mutant PtpA proteins in these strains were conﬁrmed with
+Western blot analysis (Fig. S3A). At 6 d after infection, the
+binding-defective strain showed a 2-log reduction in cfu com-
+pared with the WT strain. Though the parental and comple-
+mented strains entered into growth phase within the macrophage,
+the ΔptpA and the binding-defective strains were continually
+cleared, establishing the importance of PtpA interaction with the
+V-ATPase machinery for Mtb survival within macrophages.
+Fig. 1.
+PtpA interacts with the V-ATPase subunit H in vitro. (A) In vitro pull-
+down using recombinant His-tagged Mtb PtpA captured human V-ATPase
+subunit H from THP-1 macrophage lysate. The eluates were analyzed on
+Western blots using rabbit anti-subunit H and anti-PtpA antibodies. (B)
+Recombinant PtpA was subjected to an ALPHAScreen assay with increasing
+concentration of V-ATPase subunit H. GST served as negative control. Curve
+ﬁtting yielded Kd 1.1 × 10−7 M. (C) The reciprocal experiment with increasing
+PtpA concentration yielded similar results. His-tagged Rv0323c protein was
+used as negative control. (D) Mapping of the PtpA binding site on V-ATPase
+subunit H. Overlapping truncated recombinant subunit H protein fragments
+were incubated with recombinant PtpA proteins in an ALPHAScreen assay.
+Amino acid 220–402 of subunit H is the minimal region required for binding
+PtpA. (E) Site-directed mutagenesis generated a recombinant mutant PtpA
+protein (PtpAL146A) that failed to interact with subunit H.
+Fig. 2.
+PtpA and V-ATPase subunit H interacts in vivo. (A) PtpA coim-
+munoprecipitated with subunit H from THP-1 macrophages infected with
+Mtb-expressing PtpA. Immunoprecipitation (IP) was performed with ei-
+ther rabbit anti-subunit H (α-H) antibodies (Ab) or rabbit IgG as negative
+control. (B) PtpA and subunit H interacted in the split-Trp protein frag-
+ment complementation assay to facilitate Ntrp and Ctrp reassembly re-
+quired for Trp biosynthesis, thus enabling growth of the M. smegmatis
+Trp−strain coexpressing Ntrp-PtpA and subunit H-Ctrp under acetamide
+(ACE) induction (Middle). Ntrp-PtpAL146A failed to interact with subunit H-
+Ctrp to restore M. smegmatis growth. Ntrp-ESAT6 and CFP10-Ctrp were used
+as a positive control. The negative control consisted of Ntrp and Ctrp
+fragments alone. (Top) Transformed strains are capable of growing on
+Trp-supplemented media. (Bottom) No growth is observed in the absence
+of acetamide induction and exogenous Trp. (C) Loss of PtpA binding to
+V-ATPase subunit H impairs Mtb survival within host macrophages.
+V-ATPase binding-defective PtpAL146A-expressing Mtb strain showed a
+2-log reduction in bacterial load compared with the WT strain at 6 d
+postinfection.
+19372
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1109201108
+Wong et al.
+
+PtpA Inhibits Phagosome Acidiﬁcation. The in vivo PtpA/subunit H
+interaction and the impaired intracellular survival of the binding-
+defective PtpAL146A strain suggest that PtpA interferes with the
+phagosome acidiﬁcation process. To examine this hypothesis, we
+used FACS to analyze the pH of Mtb-containing phagosomes.
+Parental and mutant strains were dually labeled with the pH-
+sensitive pHrodo ﬂuorescent dye and the pH-insensitive Alexa
+Fluor 488 while undergoing phagocytosis by THP-1 macro-
+phages. Covalent labeling of the bacteria with ﬂuorescent dyes
+does not affect PtpA secretion (Fig. S3B). Overlaid FACS his-
+tograms showed a clear increase in the mean pHrodo ﬂuores-
+cence intensity for phagosomes harboring ΔptpA Mtb, ΔptpA
+complemented with the phosphatase-inactive ptpAD126A, and
+ΔptpA complemented with the binding-defective ptpAL146A
+(corresponding to pH 5.8, 5.6, and 5.55, respectively), compared
+with phagosome containing parental and complemented Mtb
+(corresponding to pH 6.7 and 6.4, respectively) (Fig. 3 A and B,
+Fig. S4, and Table S1). These results indicate a direct functional
+role for PtpA in the inhibition of Mtb phagosome acidiﬁcation,
+which is dependent on both the binding ability and phosphatase
+activity of PtpA.
+To examine PtpA’s ability to modulate phagosome acidiﬁcation
+independently of other Mtb proteins, we transfected THP-1
+macrophages with GFP-fused constructs of parental and mutated
+forms of PtpA in a mammalian vector. All constructs were
+expressed at similar levels, and the survival and phagocytic ability
+of the macrophages were not impaired by the transfection (Fig. S5
+A and B). PtpA-transfected macrophages were infected with
+Escherichia coli labeled with pHrodo and Alexa Fluor 350, and the
+phagosomal pH was assessed by spectroﬂuorometry (Fig. S5C).
+Expression of PtpA within THP-1 macrophages inhibited acidiﬁ-
+cation of E. coli-containing phagosomes, whereas both catalyti-
+cally inactive PtpAD126A and binding mutant PtpAL146A were
+unable to block phagosome acidiﬁcation, showing a marked
+decrease in phagosomal pH similar to untransfected and empty
+vector control macrophages (Fig. 3C). Digital confocal microscopy
+of the infected macrophages conﬁrmed these ﬁndings (Fig. 3D
+and Fig. S5D). These results established that PtpA alone can ef-
+fectively prevent phagosome acidiﬁcation in the macrophage. This
+inhibition depends on both PtpA phosphatase activity and its
+ability to bind to host V-ATPase machinery.
+V-ATPase Machinery Recruits the Class C VPS Complex. The in-
+teraction of PtpA with both subunit H and the previously de-
+scribed VPS33B (14) suggested that the V-ATPase and class C
+VPS complexes might be in close proximity or even directly in-
+teract during phagosome maturation and endosome–lysosome
+fusion. To investigate this hypothesis, we conducted immuno-
+precipitation experiments in THP-1 macrophages using antibodies
+against VPS33B as bait and probed for subunits H, B, and E of the
+V-ATPase complex and VPS18 of the class C VPS complex by
+Western blot. In uninfected THP-1 macrophages, faint bands
+corresponding to subunits of the V-ATPase complex were cap-
+tured with VPS33B and VPS18 when a higher amount of lysate
+was used (Fig. S6A). This ﬁnding suggests that V-ATPase interacts
+transiently with the class C VPS to regulate normal endosome–
+lysosome fusion in resting cells. Furthermore, this interaction
+is up-regulated upon phagocytosis of E. coli, as demonstrated by
+the prominent bands of V-ATPase subunits captured 2 h post-
+infection (Fig. 4A and Fig. S6A), further supporting that the
+class C VPS complex interaction with V-ATPase has a key role in
+phagosome maturation and fusion with lysosome.
+Mtb PtpA Blocks the Interaction Between Class C VPS and V-ATPase
+Complexes. When THP-1 macrophages were infected with Mtb
+H37Rv, subunit H, B, or E of the V-ATPase machinery was not
+captured using antibodies against VPS33B (Fig. 4A). Mtb in-
+hibition of V-ATPase and class C VPS interaction is maintained
+24 h postinfection (Fig. S6B). However, the V-ATPase subunits
+coimmunoprecipitated with VPS33B and VPS18 in THP-1 mac-
+rophages infected with ΔptpA. Complementation of the ΔptpA
+mutant strain with WT ptpA restored the ability of Mtb to inhibit
+class C VPS interaction with the V-ATPase complex. Further-
+more, complementation with ptpAD126A, but not ptpAL146A,
+restored Mtb inhibition of class C VPS and V-ATPase interaction
+(Fig. 4A). These results indicate that Mtb infection disrupted the
+V-ATPase and class C VPS association; PtpA is responsible for
+blocking this interaction; and PtpA binding to subunit H is spe-
+ciﬁcally necessary for this disruption.
+VPS33B Remains Phosphorylated in THP-1 Macrophages Infected with
+Binding-Defective PtpA. VPS33B phosphorylation is required for
+phagosome–lysosome fusion, and Mtb PtpA dephosphorylation
+of VPS33B blocks this process (14). Because the class C VPS
+complex is recruited to the V-ATPase, we asked whether PtpA
+Fig. 3.
+Mtb PtpA inhibits phagosome acidiﬁ-
+cation. (A) The indicated Mtb strains were
+labeled
+with
+pH-sensitive
+ﬂuorescent
+dye
+(pHrodo) and used to infect THP-1 macro-
+phages. Phagosomal pH of the infected macro-
+phages was measured with FACS. WT Mtb
+maintained a phagosomal pH of ∼6.7, whereas
+phagosomes
+of
+both
+ΔptpA
+and
+PtpAL146A
+strains were acidiﬁed to ∼pH 5.5. *P < 0.05;
+**P < 0.01 (signiﬁcant difference compared
+with H37Rv by Student t test). (B) Overlaid FACS
+histograms of the pHrodo ﬂuorescence intensity
+of the WT H37Rv and ΔptpA phagosomes show
+a shift in phagosomal pH in the presence of
+PtpA. (C) THP-1 macrophages were transfected
+with GFP-tagged constructs of WT and mutant
+PtpA proteins and infected with pHrodo-labeled
+E. coli. Phagosomal pH was measured with
+spectroﬂuorometry during the course of in-
+fection. WT PtpA inhibits E. coli phagosome
+acidiﬁcation (pH 6.5), whereas the binding-de-
+fective PtpAL146A failed to block acidiﬁcation
+(pH 5.6). Concanamycin was added as a positive
+control for inhibition of phagosome acidiﬁca-
+tion. (D) Digital confocal microscopy of the
+infected macrophages in C conﬁrms the in-
+hibition of phagosome acidiﬁcation by Mtb
+PtpA. Green, expression of GFP or GFP-tagged PtpA constructs; red, pHrodo ﬂuorescence in acidiﬁed phagosomes; blue, Alexa Fluor 350-labeled E. coli.
+Wong et al.
+PNAS
+|
+November 29, 2011
+|
+vol. 108
+|
+no. 48
+|
+19373
+MICROBIOLOGY
+
+binding to V-ATPase subunit H affects the phosphorylation
+status of VPS33B during Mtb infection. To address this question,
+we immunoprecipitated VPS33B and analyzed its phosphoryla-
+tion with the antiphosphotyrosine antibody 4G10. When E. coli
+was used to infect macrophages, VPS33B was phosphorylated
+(Fig. 4B). However, as expected, when macrophages were infec-
+ted with Mtb, down-regulation of VPS33B phosphorylation was
+observed. The ΔptpA strain did not reduce VPS33B phosphory-
+lation, and this was reversed by complementation with WT ptpA.
+Interestingly, VPS33B remained phosphorylated in macrophages
+infected with ΔptpA complemented with either the phosphatase-
+defective ptpAD126A or the binding-defective ptpAL146A, despite
+being catalytically active (Fig. 4B). This ﬁnding suggests that the
+binding of PtpA to subunit H of V-ATPase is a prerequisite for
+VPS33B dephosphorylation, which is consistent with our ﬁndings
+that the loss of interaction with subunit H renders PtpA non-
+functional within the host cell.
+PtpA Binding to Subunit H Participates in the Exclusion of the V-
+ATPase from the Mtb Phagosome. Disruption of the interaction
+between class C VPS and V-ATPase by PtpA suggests that PtpA
+directly impairs V-ATPase trafﬁcking to the Mtb phagosome.
+To check the effect of PtpA on V-ATPase trafﬁcking, we used
+digital confocal microscopy to monitor class C VPS and V-
+ATPase localization within infected macrophages, represented
+by VPS33B and subunit H, respectively. As illustrated in Fig. 5A,
+VPS33B and V-ATPase subunit H colocalized to the phagosome
+of macrophages infected with E. coli. In contrast, whereas Mtb-
+infected macrophage phagosomes were decorated with VPS33B,
+subunit H was excluded, indicating a lack of V-ATPase recruit-
+ment. However, the ΔptpA knockout strain exhibited colocaliza-
+tion of VPS33B and subunit H on the mycobacterial phagosomal
+membrane. Complementation with WT ptpA reversed this pattern
+with a similar percentage of phagosomes lacking V-ATPase as
+the WT strain (Fig. 5B). Corecruitment of subunit H and VPS33B
+to the bacilli-containing phagosomes was not observed despite
+complementation with either the catalytically inactive ptpAD126A
+or the binding-defective ptpAL146A. Therefore, PtpA binding
+to subunit H is needed for blocking V-ATPase trafﬁcking to the
+Mtb phagosome, leading to the inhibition of Mtb phagosome
+acidiﬁcation.
+Although we have shown that the antibodies against VPS33B
+and subunit H are highly speciﬁc (Fig. S7), to overcome any
+potential cross-reactivity, we also performed double transfection
+of the THP-1 macrophages with GFP and DsRed2-fused con-
+structs of subunit H and VPS33B, respectively, allowing direct
+visualization of host proteins’ localization within the macro-
+phage. Colocalization of GFP-subunit H and DsRed2-VPS33B
+in uninfected macrophages provides further support that V-
+ATPase and class C VPS functions in the same pathway to
+regulate normal endosome–lysosome fusion. When the trans-
+fected macrophages were infected with the same Mtb strains,
+similar patterns of subunit H and VPS33B localization was
+observed compared with the immunoﬂuorescent-stained mac-
+rophages (Fig. S8). This result further supports that PtpA
+binding to subunit H is needed for the exclusion of V-ATPase
+from the phagosome.
+Discussion
+More than a decade ago, Sturgill-Koszycki et al. (13) showed that
+macrophages fail to acidify phagosomes containing mycobacteria
+because these phagosomes did not accumulate the V-ATPase
+responsible for phagosomal acidiﬁcation. This ﬁnding suggested
+inhibition of the fusion between membrane vesicles harboring
+Fig. 4.
+Mtb PtpA disrupts the interaction between the class C VPS and V-
+ATPase complexes during infection. Immunoprecipitation was performed
+with anti-VPS33B (α-VPS33B) using 2 mg of soluble lysate from THP-1 mac-
+rophages infected with the indicated strain for 2 h and followed by Western
+blot analysis with the indicated antibody. Rabbit IgG was used as negative
+control. (A) The class C VPS (VPS33B and VPS18) interacts with the V-ATPase
+complexes (subunits B, H, and E) from THP-1 macrophages infected with E.
+coli, ΔptpA, and PtpAL146A. The parental H37Rv, PtpAD126A, and the com-
+plemented strain disrupted the host proteins interaction. (B) Western blot
+analysis of VPS33B phosphorylation in vivo. VPS33B remained phosphory-
+lated in macrophages infected with the PtpAL146A-expressing strain. (Upper)
+Probed with antiphosphotyrosine antibody 4G10. (Lower) Probed with anti-
+VPS33B to ensure equal loading.
+Fig. 5.
+Confocal microscopy of THP-1 macrophages infected with E. coli or
+indicated Mtb strains. (A) Localization of VPS33B and V-ATPase subunit H
+was detected with immunoﬂuorescence staining. V-ATPase was excluded
+from the Mtb phagosome in macrophages infected with the WT strain,
+whereas the ΔptpA phagosome acquired V-ATPase. The phagosomes of the
+binding-defective PtpAL146A-expressing strain also failed to exclude host V-
+ATPase. (B) Quantiﬁcation of the confocal data shown in A. Values are the
+mean ± SD of phagosome colocalization with V-ATPase subunit H in 50–80
+cells from three independent experiments. ***P < 0.001 (signiﬁcant differ-
+ence compared with H37Rv by Student t test).
+19374
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1109201108
+Wong et al.
+
+the V-ATPase complex and the mycobacterial phagosome (13).
+Despite the lack of a mechanistic explanation, the exclusion of
+the V-ATPase complex during Mtb infection has become a long-
+established paradigm. Here, we show that the lack of phagosome
+acidiﬁcation is directly attributed to the Mtb-secreted protein
+PtpA, which speciﬁcally inhibits V-ATPase trafﬁcking to the
+mycobacterial phagosome during phagosome maturation.
+The exact mechanism by which PtpA is secreted across the
+phagosomal membrane remains unclear. However, using elec-
+tron microscopy, neutralizing antibodies, and Western blot
+analysis, we have previously shown that PtpA is present in the
+host cytosol milieu (14, 27). There is evidence suggesting that
+bacterial proteins <70 kDa in molecular size can cross the
+phagosomal membrane (28). This observation might be related
+to the more recent discovery that the ESX-1 secretion system
+with its substrate ESAT-6 can activate the inﬂammasome and
+perturb host cell membrane to facilitate the translocation of
+mycobacterial proteins into the macrophage cytosol (29, 30).
+Further investigation is needed to elucidate the mechanistic
+details of PtpA secretion.
+We have shown previously that Mtb PtpA dephosphorylates
+the host macrophage protein VPS33B, a key regulator of mem-
+brane fusion, leading to inhibition of phagosome–lysosome
+fusion (14). In this study, we identiﬁed an additional key partner
+to the process, subunit H of the host V-ATPase machinery. The
+interaction with V-ATPase subunit H and dephosphorylation of
+VPS33B are both required for PtpA inhibition of macrophage
+phagosome–lysosome fusion and phagosome acidiﬁcation. We
+were able to identify a catalytically active mutant, PtpAL146A,
+which does not interact with subunit H. Because of its predicted
+location within the core region of PtpA (Fig. S2 A and B), this
+mutation most likely alters the conformation of the entire C-
+terminal α-helix, leading to defective binding. The loss of either
+PtpA phosphatase activity or subunit H binding renders PtpA
+nonfunctional within the host cell.
+During phagosome maturation, lysosomal V-ATPase is di-
+rectly recruited to the phagosomal membrane for luminal acid-
+iﬁcation (3). The class C VPS complex has been implicated in
+this process as the membrane-tethering factor. Although studies
+of Drosophila neurons and mammalian renal medulla cells have
+shown interaction between subunits of V-ATPase and SNARE
+proteins (31, 32), our studies of PtpA in Mtb demonstrate a di-
+rect interaction between the class C VPS and V-ATPase. We
+further showed that this mechanism is not limited to phagosome
+maturation, because the same interaction could be detected,
+albeit at a weaker level, in uninfected macrophages. This ﬁnding
+suggests that class C VPS and V-ATPase interacts transiently in
+the resting cell to regulate normal endosome–lysosome fusion,
+and this association is likely up-regulated during phagocytosis to
+deliver lysosomal contents to the phagosome. Our ﬁnding pro-
+vides compelling evidence that V-ATPase is a key player in the
+membrane fusion machinery, particularly in cooperating with the
+class C VPS complex to tether the fusing phagosomal or endo-
+somal membrane with the lysosome (Fig. 6). Disruption by Mtb
+PtpA further exempliﬁes the importance of this interaction in
+host defense mechanism.
+With these results, our current model suggests a two-step
+process for PtpA exclusion of V-ATPase and inactivation of
+VPS33B. During Mtb infection, PtpA binding to subunit H may
+ﬁrst disrupt initial membrane tethering and localize it to the
+proximity of its catalytic substrate VPS33B (Fig. 6). Subsequent
+dephosphorylation of VPS33B would then inactivate the entire
+membrane fusion machinery and its downstream effectors, pre-
+venting delivery of V-ATPase to the mycobacterial phagosome.
+This mechanism would explain the failure of the phosphatase-
+defective mutant PtpAD126A, which retains the capability of
+binding to V-ATPase and disrupting host complex associations,
+to shut down the host macrophage pathway completely. Our ob-
+servation that VPS33B remains phosphorylated in both the
+phosphatase-defective and binding-defective strain supports such
+a two-step process, suggesting that PtpA binding to subunit H is
+a prerequisite for VPS33B dephosphorylation. This phenomenon
+is also supported by our confocal data, where both the PtpAD126A
+and PtpAL146A strains failed to inhibit V-ATPase trafﬁcking to
+Mtb phagosomes.
+However, the mycobacterial phagosome is not an isolated
+compartment; rather, it interacts extensively with early endo-
+some to acquire nutrients, such as iron-bound transferrin, to
+maintain survival within the host cell (33). Vesicle fusion in the
+endocytic pathway depends on two membrane-tethering protein
+complexes, class C core vacuole/endosome tethering (CORVET)
+and homotypic fusion and protein sorting (HOPS) (34, 35). The
+class C VPS complex serves as the core of both CORVET and
+HOPS complexes through reversible association with CORVET-
+speciﬁc (VPS3 and VPS8) and HOPS-speciﬁc (VPS39 and
+VPS41) accessory subunits, which mediate early-to-late endo-
+some fusion events and fusions with lysosome, respectively
+(reviewed in ref. 36). Our results suggest that V-ATPase may
+speciﬁcally interact with the HOPS complex during phagosome–
+lysosome fusion (Fig. 6). Therefore, by binding to the V-ATPase,
+PtpA could speciﬁcally localize to the phagosome–lysosome in-
+terface, and CORVET-mediated early endosome fusions with
+the phagosome will remain intact. This speciﬁc localization
+mechanism would then allow PtpA to distinguish HOPS from
+CORVET, thereby speciﬁcally excluding V-ATPase to inhibit
+mycobacterial phagosome acidiﬁcation. In fact, a link between
+the V-ATPase and HOPS complexes was observed by a previous
+study demonstrating that the HOPS-speciﬁc subunit VPS41
+failed to function in yeast that had mutations in the V-ATPase
+complex (37). This ﬁnding suggests that the HOPS-speciﬁc
+subunits VPS39 and VPS41 might be direct effectors of the V-
+ATPase complex during phagosome–lysosome fusion (Fig. 6),
+and the CORVET complex might be recruited to the phagocytic
+pathway through a different mechanism. As the HOPS-speciﬁc
+subunits are known to interact with activated Rab7 during
+endosome maturation (38), it is likely that Rab7 is the upstream
+activator of V-ATPase association with class C VPS complex.
+Further experiments will be needed to fully characterize these
+host cellular pathways in the context of mycobacterial infection.
+Nonetheless, our study clearly demonstrates that the absence of
+V-ATPase and the lack of mycobacterial phagosome acidiﬁca-
+tion are directly attributed to the Mtb protein tyrosine phos-
+phatase PtpA.
+Materials and Methods
+In Vitro Pull-Down Assay. In vitro pull-down assay with recombinant His-
+tagged PtpA was performed as described previously (14).
+Fig. 6.
+A model for the speciﬁc exclusion of V-ATPase and the inhibition of
+mycobacterial phagosome acidiﬁcation by PtpA. During infection, the V-
+ATPase recruits the class C VPS complex, possibly associated with VPS39 and
+VPS41 as the HOPS complex, aiding the tethering of the fusing phagosomal
+and lysosomal membranes. PtpA, secreted into the host cytosol by Mtb,
+binds to subunit H of the V-ATPase complex, disrupting the interaction be-
+tween the two protein complexes and localizing itself near its catalytic
+substrate, VPS33B. PtpA then dephosphorylates and inactivates VPS33B,
+thereby shutting down the membrane fusion machinery. Binding to subunit
+H, therefore, allows PtpA to speciﬁcally inhibit V-ATPase trafﬁcking to the
+mycobacterial phagosome.
+Wong et al.
+PNAS
+|
+November 29, 2011
+|
+vol. 108
+|
+no. 48
+|
+19375
+MICROBIOLOGY
+
+ALPHAScreen
+Protein–Protein
+Interaction
+Assay.
+An
+assay
+using
+the
+ALPHAScreen Histidine (Nickel Chelate) Detection Kit was performed
+according to the manufacturer’s protocol (Perkin-Elmer). Puriﬁed recombi-
+nant protein was biotinylated using the EZ-Link Biotinylation Kit (Pierce)
+according to the manufacturer’s protocol.
+Mycobacterial Split-Trp Protein–Protein Interaction Assay. DNA encoding PtpA
+and subunit H were cloned into pJC10 and pJC11 vectors, generating
+translational fusion constructs with the Ntrp and Ctrp fragments, respectively,
+of the N-(5′-phosphoribosyl)-anthranilate isomerase under the control of the
+acetamidase promoter. The split-Trp assay (26) was carried out as described
+previously (25).
+Infection of THP-1. THP-1 human-derived monocytes (ATCC; TIB-202) were
+grown in RPMI medium 1640 (Sigma) supplemented with 10% FBS, 1% L-
+glutamine (StemCell). THP-1 cells (1.0 × 106 or 5.0 × 105) were seeded onto
+12- or 24-well tissue culture plates, respectively, and differentiated with 40
+ng/mL 12-phorbol 13-myristate acetate in RPMI 1640 supplemented with
+10% FBS and 1% L-glutamine. Infection of THP-1 macrophages was per-
+formed using human serum-opsonized Mtb or E. coli DH5α at a multiplicity
+of infection (MOI) of 10:1. For Mtb intracellular survival studies, infected
+macrophages (MOI 1:1) were harvested at deﬁned time points, lysed with
+0.025% SDS, serial diluted, and plated on 7H10 agar medium supplemented
+with appropriate antibiotics.
+Immunoﬂuorescence Microscopy. THP-1 macrophages were seeded on cov-
+erslips at 5.0 × 105 cells/well in 24-well tissue culture plates. Infection of THP-
+1 macrophages and immunostaining was performed as described previously
+(14, 39) (more details in SI Materials and Methods).
+Measurement of Phagosomal pH. Assessment of the phagosomal pH of E. coli
+and Mtb phagosomes was performed according to previous literature (40,
+41). Bacteria were labeled with the pH-sensitive pHrodo probe (Invitrogen),
+which emits red ﬂuorescence in acidic environment, and the indicated pH-
+insensitive probes [Alexa Fluor 350 (Blue) and Alexa Fluor 488 (Green);
+Invitrogen] according to established protocols (41). Phagosomal pH was
+measured with either spectroﬂuorometry in the Fusion-Alpha HT Micro-
+plate Reader (Perkin-Elmer) or with FACS in the FACSCalibur Flow Cytom-
+eter (BD Bioscience). The calculated ﬂuorescence ratios of the pH-sensitive
+and pH-insensitive probes were used to determine phagosomal pH ac-
+cording to a calibration curve. pH calibration was performed by incubating
+infected THP-1 macrophages in 10 mM phosphate-citrate buffer of pre-
+determined pH (5.0–8.0) containing 145 mM KCl, 1 mM MgCl2, 0.5 mM
+CaCl2, 10 mM glucose, 20 μM nigericin, and 4 μM monesin (Figs. S4 and S8).
+Concanamycin (50 nM) was added to the macrophages to inhibit V-ATPase
+proton transport in the indicated samples (more details in SI Materials
+and Methods).
+ACKNOWLEDGMENTS. We thank the British Columbia Centre for Disease
+Control for providing access to a containment level 3 facility and Mary Ko
+and Joseph Chao for technical assistance. D.W. is a recipient of the Canadian
+Institutes of Health Research Canada Graduate Scholarships Doctoral Award.
+This study was funded by Canadian Institute of Health Research Operating
+Grant MOP-106622 (to Y.A.-G.).
+1. Dye C, Williams BG (2010) The population dynamics and control of tuberculosis. Sci-
+ence 328:856–861.
+2. Bright NA, Gratian MJ, Luzio JP (2005) Endocytic delivery to lysosomes mediated by
+concurrent fusion and kissing events in living cells. Curr Biol 15:360–365.
+3. Sun-Wada GH, Tabata H, Kawamura N, Aoyama M, Wada Y (2009) Direct recruitment
+of H+-ATPase from lysosomes for phagosomal acidiﬁcation. J Cell Sci 122:2504–2513.
+4. Tjelle TE, Lovdal T, Berg T (2000) Phagosome dynamics and function. Bioessays 22:
+255–263.
+5. Hackam DJ, et al. (1997) Regulation of phagosomal acidiﬁcation. Differential tar-
+geting of Na+/H+ exchangers, Na+/K+-ATPases, and vacuolar-type H+-atpases. J Biol
+Chem 272:29810–29820.
+6. Forgac M (2007) Vacuolar ATPases: Rotary proton pumps in physiology and patho-
+physiology. Nat Rev Mol Cell Biol 8:917–929.
+7. Mukherjee S, Ghosh RN, Maxﬁeld FR (1997) Endocytosis. Physiol Rev 77:759–803.
+8. van Deurs B, Holm PK, Sandvig K (1996) Inhibition of the vacuolar H(+)-ATPase with
+baﬁlomycin reduces delivery of internalized molecules from mature multivesicular
+endosomes to lysosomes in HEp-2 cells. Eur J Cell Biol 69:343–350.
+9. Jutras I, Desjardins M (2005) Phagocytosis: At the crossroads of innate and adaptive
+immunity. Annu Rev Cell Dev Biol 21:511–527.
+10. Prost LR, et al. (2007) Activation of the bacterial sensor kinase PhoQ by acidic pH. Mol
+Cell 26(2):165–174.
+11. Tsukano H, et al. (1999) Yersinia pseudotuberculosis blocks the phagosomal acidiﬁ-
+cation of B10.A mouse macrophages through the inhibition of vacuolar H(+)-ATPase
+activity. Microb Pathog 27:253–263.
+12. Xu L, et al. (2010) Inhibition of host vacuolar H+-ATPase activity by a Legionella
+pneumophila effector. PLoS Pathog 6:e1000822.
+13. Sturgill-Koszycki S, et al. (1994) Lack of acidiﬁcation in Mycobacterium phagosomes
+produced by exclusion of the vesicular proton-ATPase. Science 263:678–681.
+14. Bach H, Papavinasasundaram KG, Wong D, Hmama Z, Av-Gay Y (2008) Mycobacte-
+rium tuberculosis virulence is mediated by PtpA dephosphorylation of human vacu-
+olar protein sorting 33B. Cell Host Microbe 3:316–322.
+15. Hestvik AL, Hmama Z, Av-Gay Y (2003) Kinome analysis of host response to myco-
+bacterial infection: A novel technique in proteomics. Infect Immun 71:5514–5522.
+16. Hestvik AL, Hmama Z, Av-Gay Y (2005) Mycobacterial manipulation of the host cell.
+FEMS Microbiol Rev 29:1041–1050.
+17. Av-Gay Y, Everett M (2000) The eukaryotic-like Ser/Thr protein kinases of Mycobac-
+terium tuberculosis. Trends Microbiol 8:238–244.
+18. Bach H, Wong D, Av-Gay Y (2009) Mycobacterium tuberculosis PtkA is a novel protein
+tyrosine kinase whose substrate is PtpA. Biochem J 420(2):155–160.
+19. Chao J, et al. (2010) Protein kinase and phosphatase signaling in Mycobacterium
+tuberculosis physiology and pathogenesis. Biochim Biophys Acta 1804:620–627.
+20. Cowley SC, Babakaiff R, Av-Gay Y (2002) Expression and localization of the Myco-
+bacterium tuberculosis protein tyrosine phosphatase PtpA. Res Microbiol 153:
+233–241.
+21. Rieder SE, Emr SD (1997) A novel RING ﬁnger protein complex essential for a late step
+in protein transport to the yeast vacuole. Mol Biol Cell 8:2307–2327.
+22. Sagermann M, Stevens TH, Matthews BW (2001) Crystal structure of the regulatory
+subunit H of the V-type ATPase of Saccharomyces cerevisiae. Proc Natl Acad Sci USA
+98:7134–7139.
+23. Geyer M, et al. (2002) Subunit H of the V-ATPase binds to the medium chain of
+adaptor protein complex 2 and connects Nef to the endocytic machinery. J Biol Chem
+277:28521–28529.
+24. Lesk VI, Sternberg MJ (2008) 3D-Garden: A system for modelling protein-protein
+complexes based on conformational reﬁnement of ensembles generated with the
+marching cubes algorithm. Bioinformatics 24:1137–1144.
+25. Chao JD, et al. (2010) Convergence of Ser/Thr and two-component signaling to co-
+ordinate expression of the dormancy regulon in Mycobacterium tuberculosis. J Biol
+Chem 285:29239–29246.
+26. O’Hare H, Juillerat A, Dianisková P, Johnsson K (2008) A split-protein sensor for
+studying protein-protein interaction in mycobacteria. J Microbiol Methods 73(2):
+79–84.
+27. Bach H, Sun J, Hmama Z, Av-Gay Y (2006) Mycobacterium avium subsp. para-
+tuberculosis PtpA is an endogenous tyrosine phosphatase secreted during infection.
+Infect Immun 74:6540–6546.
+28. Teitelbaum R, et al. (1999) Mycobacterial infection of macrophages results in mem-
+brane-permeable phagosomes. Proc Natl Acad Sci USA 96:15190–15195.
+29. Mishra BB, et al. (2010) Mycobacterium tuberculosis protein ESAT-6 is a potent acti-
+vator of the NLRP3/ASC inﬂammasome. Cell Microbiol 12:1046–1063.
+30. Carlsson F, et al. (2010) Host-detrimental role of Esx-1-mediated inﬂammasome ac-
+tivation in mycobacterial infection. PLoS Pathog 6:e1000895.
+31. Hiesinger PR, et al. (2005) The v-ATPase V0 subunit a1 is required for a late step in
+synaptic vesicle exocytosis in Drosophila. Cell 121:607–620.
+32. Li G, Alexander EA, Schwartz JH (2003) Syntaxin isoform speciﬁcity in the regulation
+of renal H+-ATPase exocytosis. J Biol Chem 278:19791–19797.
+33. Clemens DL, Horwitz MA (1996) The Mycobacterium tuberculosis phagosome inter-
+acts with early endosomes and is accessible to exogenously administered transferrin.
+J Exp Med 184:1349–1355.
+34. Peplowska K, Markgraf DF, Ostrowicz CW, Bange G, Ungermann C (2007) The COR-
+VET tethering complex interacts with the yeast Rab5 homolog Vps21 and is involved
+in endo-lysosomal biogenesis. Dev Cell 12:739–750.
+35. Wurmser AE, Sato TK, Emr SD (2000) New component of the vacuolar class C-Vps
+complex couples nucleotide exchange on the Ypt7 GTPase to SNARE-dependent
+docking and fusion. J Cell Biol 151:551–562.
+36. Nickerson DP, Brett CL, Merz AJ (2009) Vps-C complexes: Gatekeepers of endolyso-
+somal trafﬁc. Curr Opin Cell Biol 21:543–551.
+37. Takeda K, et al. (2008) The vacuolar V1/V0-ATPase is involved in the release of the
+HOPS subunit Vps41 from vacuoles, vacuole fragmentation and fusion. FEBS Lett 582:
+1558–1563.
+38. Plemel RL, et al. (2011) Subunit organization and Rab interactions of Vps-C protein
+complexes that control endolysosomal membrane trafﬁc. Mol Biol Cell 22:1353–1363.
+39. Sun J, et al. (2007) Mycobacterium bovis BCG disrupts the interaction of Rab7 with
+RILP contributing to inhibition of phagosome maturation. J Leukoc Biol 82:
+1437–1445.
+40. Vergne I, Constant P, Lanéelle G (1998) Phagosomal pH determination by dual ﬂuo-
+rescence ﬂow cytometry. Anal Biochem 255(1):127–132.
+41. Bernardo J, Long HJ, Simons ER (2010) Initial cytoplasmic and phagosomal con-
+sequences of human neutrophil exposure to Staphylococcus epidermidis. Cytometry A
+77:243–252.
+19376
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1109201108
+Wong et al.

@@ -1,0 +1,2843 @@
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+https://doi.org/10.5194/amt-11-5741-2018
+© Author(s) 2018. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+MODIS Collection 6 MAIAC algorithm
+Alexei Lyapustin1, Yujie Wang2, Sergey Korkin3, and Dong Huang4
+1Laboratory for Atmospheres, NASA Goddard Space Flight Center, Greenbelt, Maryland, USA
+2University of Maryland Baltimore County, Baltimore, Maryland, USA
+3Universities Space Research Association, Columbia, Maryland, USA
+4Science Systems and Applications, Inc., Lanham, MD 20709, USA
+Correspondence: Alexei Lyapustin (alexei.i.lyapustin@nasa.gov)
+Received: 26 April 2018 – Discussion started: 17 May 2018
+Revised: 19 September 2018 – Accepted: 25 September 2018 – Published: 18 October 2018
+Abstract. This paper describes the latest version of the al-
+gorithm MAIAC used for processing the MODIS Collection
+6 data record. Since initial publication in 2011–2012, MA-
+IAC has changed considerably to adapt to global processing
+and improve cloud/snow detection, aerosol retrievals and at-
+mospheric correction of MODIS data. The main changes in-
+clude (1) transition from a 25 to 1 km scale for retrieval of the
+spectral regression coefﬁcient (SRC) which helped to remove
+occasional blockiness at 25 km scale in the aerosol optical
+depth (AOD) and in the surface reﬂectance, (2) continuous
+improvements of cloud detection, (3) introduction of smoke
+and dust tests to discriminate absorbing ﬁne- and coarse-
+mode aerosols, (4) adding over-water processing, (5) gen-
+eral optimization of the LUT-based radiative transfer for the
+global processing, and others. MAIAC provides an inter-
+disciplinary suite of atmospheric and land products, includ-
+ing cloud mask (CM), column water vapor (CWV), AOD
+at 0.47 and 0.55 µm, aerosol type (background, smoke or
+dust) and ﬁne-mode fraction over water; spectral bidirec-
+tional reﬂectance factors (BRF), parameters of Ross-thick Li-
+sparse (RTLS) bidirectional reﬂectance distribution function
+(BRDF) model and instantaneous albedo. For snow-covered
+surfaces, we provide subpixel snow fraction and snow grain
+size. All products come in standard HDF4 format at 1 km
+resolution, except for BRF, which is also provided at 500 m
+resolution on a sinusoidal grid adopted by the MODIS Land
+team. All products are provided on per-observation basis in
+daily ﬁles except for the BRDF/Albedo product, which is re-
+ported every 8 days. Because MAIAC uses a time series ap-
+proach, BRDF/Albedo is naturally gap-ﬁlled over land where
+missing values are ﬁlled-in with results from the previous re-
+trieval. While the BRDF model is reported for MODIS Land
+bands 1–7 and ocean band 8, BRF is reported for both land
+and ocean bands 1–12. This paper focuses on MAIAC cloud
+detection, aerosol retrievals and atmospheric correction and
+describes MCD19 data products and quality assurance (QA)
+ﬂags.
+1
+Introduction
+Simple and fast swath-based processing with a Lambertian
+surface model is the basis of the Moderate Resolution Imag-
+ing Spectroradiometer (MODIS) Dark Target (DT) (Levy et
+al., 2013) and VIIRS (Visible Infrared Imaging Radiome-
+ter Suite; Jackson et al., 2013) aerosol retrievals and atmo-
+spheric correction (AC) (Vermote and Kotchenova, 2008). In
+swath data, the satellite footprint and its location are orbit
+dependent and change with scan angle, making it difﬁcult to
+characterize the surface BRDF. The above algorithms rely on
+prescribed spectral surface reﬂectance (SR) ratios to make
+aerosol retrievals. The SR ratios represent statistically av-
+erage relationships with relatively large variance. When the
+surface brightness increases and sensitivity of the top of at-
+mosphere (TOA) radiance to aerosols decreases, this lack of
+accurate knowledge of surface reﬂectance becomes a major
+issue.
+The Multi-Angle Implementation of Atmospheric Correc-
+tion (MAIAC) algorithm uses a physical atmosphere–surface
+model where the model parameters are deﬁned from mea-
+surements (Lyapustin et al., 2011a, b, 2012a, b) with mini-
+mal assumptions. Instead of swath-based processing, we start
+with gridding MODIS L1B measurements to a ﬁxed 1 km
+grid and with accumulating a time series of data for up to
+Published by Copernicus Publications on behalf of the European Geosciences Union.
+
+5742
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+16 days using a sliding window technique. This allows us
+to observe the same grid cell over time, helping to separate
+atmospheric and surface contributions with the time series
+analysis and characterize surface bidirectional reﬂectance
+distribution function (BRDF) using multi-angle observations
+from different orbits. Besides BRDF retrieval, the ﬁxed sur-
+face representation (grid) allows us to characterize and store
+unique surface spectral, spatial, thermal, etc. signatures for
+each 1 km grid cell, helping to increase the accuracy of the
+entire processing, from cloud and snow detection to aerosol
+retrievals and atmospheric correction (AC).
+Since its introduction in 2011–2012, we have signiﬁcantly
+changed and improved several key parts of MAIAC, namely
+cloud and snow detection, characterization of the spectral re-
+gression coefﬁcient (SRC) and aerosol retrieval, and trans-
+formed the algorithm from regional to global. The inter-
+mediate versions of MAIAC were continuously tested by
+the land and air quality communities using our processing
+of MODIS data with the NASA Center for Climate Sim-
+ulations (NCCS) and product release via NCCS ftp portal
+(ftp://maiac@dataportal.nccs.nasa.gov/DataRelease, last ac-
+cess 9 October 2018). Analysis by Hilker et al. (2012, 2014,
+2015), Maeda et al. (2016) and others showed a dramatic
+(up to a factor of 3–5) increase in the accuracy of MAIAC
+surface reﬂectance compared to MODIS standard products
+MOD09, MOD035 over the tropical Amazon. Since 2014,
+all major studies of Amazon tropical forests, which used
+MODIS data, relied on MAIAC processing (e.g., Saleska et
+al., 2016; Lopes et al., 2016; Alden et al., 2016; Guan et al.,
+2015; Bi et al., 2015, 2016; Jones et al., 2014; Maeda et al.,
+2017; Wagner et al., 2017). Recently, Chen et al. (2017) re-
+ported an improvement in the leaf area index (LAI) retrievals
+with the MODIS LAI/FPAR algorithm when using MAIAC
+instead of standard MODIS MOD09 input. A high accuracy,
+high 1 km spatial resolution and high retrieval coverage made
+MAIAC aerosol optical depth (AOD) a focus of numerous air
+quality studies, e.g., Chudnovsky et al. (2013), Kloog et al.
+(2014), Just et al. (2015), Di et al. (2016), Stafoggia et al.
+(2016), Tang et al. (2017) and Xiao et al. (2017) to name a
+few. Currently published validation studies (Martins et al.,
+2017; Superczynski et al., 2017) show a high MAIAC AOD
+accuracy over American continents and an improved accu-
+racy and coverage over North America compared to the op-
+erational VIIRS algorithm (Superczynski et al., 2017). An
+emerging comparative aerosol validation analysis over North
+America (Jethva et al., 2018) and southern Asia (Mhawish
+et al., 2018) shows that MAIAC has a comparable or better
+accuracy than the DT algorithm over dark surfaces and gen-
+erally improves accuracy over the Deep Blue (DB) algorithm
+(Hsu et al., 2013) over bright surfaces.
+The MAIAC MODIS Collection 6 (with enhanced calibra-
+tion (C6+), which added polarization correction of MODIS
+Terra, removed residual trends of both Terra and Aqua, and
+cross-calibrated Terra to Aqua (Lyapustin et al., 2014b) pro-
+cessing is ongoing on the MODIS Adaptive Processing Sys-
+tem (MODAPS). It is expected to be completed in the spring
+of 2018, creating a new MODIS product MCD19 accessible
+via the Land Product Distributed Active Archive Center (LP
+DAAC). MAIAC offers an interdisciplinary suite of prod-
+ucts for the Land, Atmosphere, Cryosphere and Applications
+communities including cloud/snow mask over land, high spa-
+tial resolution (1 km), aerosol optical depth and type, surface
+bidirectional reﬂectance factors (BRF) and BRDF, and snow
+grain size and subpixel snow fraction for the snow-covered
+regions.
+The goal of this paper is to give a systematic description
+of the MAIAC Collection 6 algorithm and its products, along
+with current limitations, and provide quality assurance dis-
+cussion and recommendations for use. For practical reasons,
+here we focus on MAIAC cloud detection, aerosol retrieval
+and atmospheric correction over land; snow detection, over-
+water processing and smoke plume height retrieval will be
+described elsewhere. This paper is structured as follows: an
+overview of MAIAC processing is given in Sect. 2; Sect. 3
+describes the MAIAC radiative transfer model and lookup ta-
+bles followed by MAIAC processing components, including
+cloud/snow detection and aerosol-type selection (Sect. 4),
+determination of SRC (Sect. 5) and aerosol retrieval pro-
+cedures (Sects. 6–7), shadow detection (Sect. 8) and atmo-
+spheric correction (Sect. 9). Sect. 10 describes the MAIAC
+(MCD19) product and its quality assurance (QA) speciﬁca-
+tion.
+2
+Overview of MAIAC processing
+The block diagram of MAIAC processing over land, which
+implements a sliding window algorithm, is shown in Fig. 1:
+1. The received L1B data are gridded (Wolfe et al., 1998),
+split into 1200 km tiles and placed in a queue with the
+previous data. We are using the area-weighted grid-
+ding method, which achieves better agreement with
+the ground tower data over heterogeneous surfaces
+compared to the nearest-neighbor resampling method
+(Zhang et al., 2014). The 1 km MODIS bands are grid-
+ded to 1 km resolution, the 500 m bands (B1–B7) are
+gridded to 1 km and 500 m and 250 m bands (B1–B2)
+are gridded to 250 m. The 500 and 250 m bands are
+nested in the 1 km grid. For convenience, here is the
+list of MODIS bands B1–B12, where MAIAC reports
+BRF at 1 km: 0.645 (B1), 0.856 (B2), 0.465 (B3), 0.554
+(B4), 1.242 (B5), 1.629 (B6), 2.113 (B7), 0.412 (B8),
+0.442 (B9), 0.487 (B10), 0.530 (B11), 0.547 (B12).
+MAIAC uses different spatial scales for processing, e.g.,
+1 km grid cells (or pixels), 25 km blocks and 150 km
+mesoscale areas. Specialized C++ classes and struc-
+tures handle processing in different time–space scales.
+The queue (Q) (Lyapustin et al., 2012a) holds between
+4 (at the poles) and 16 (at the equator) days of imagery.
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5743
+Figure 1. Block diagram of MAIAC algorithm.
+For every observation, MODIS data are stored as layers
+for the required bands along with the retrieval results. A
+dedicated Q memory accumulates ancillary information
+for each 1 km grid cell for cloud/snow detection, aerosol
+retrieval and AC. Q memory stores the following data at
+1 km resolution: the reference clear-sky image for bands
+B1, B3, B7 (see Lyapustin et al., 2008); spectral BRDF
+for bands B1–B8; BRDF-normalized (to nadir view and
+solar zenith angle, SZA = 45 ◦) bidirectional reﬂectance
+factors BRFn for bands B1, B2, B7; 2×2standard devi-
+ation of 500 m pixels for B1, B3; normalized difference
+vegetation index (NDVI); 11 µm brightness temperature
+(Tb11, band 31); 4 µm (B22)–11 µm (B31) (Tb4−11 =
+Tb4 −Tb11) and 11–12 µm (B32) (Tb11−12 = Tb11 −
+Tb12) spectral thermal contrasts. Below, we will use no-
+tation q.Tb11 for the queue brightness temperature as an
+example.
+Prior to processing, we compute the covariance of the
+latest measurements with the reference clear-sky image
+(Lyapustin et al., 2008) in bands B3, B1 and B5 for
+25×25 km2 blocks. When covariance is high, indicating
+high probability for the conﬁdently clear conditions, we
+later set the corresponding ﬂag q.iFlag_HighCov = 1
+used in the cloud detection (see test C4, Sect. 4.1).
+2. The column water vapor is computed for the last tile
+using MODIS near-IR channels B17–B19 located in the
+water vapor absorption band 0.94 µm (Lyapustin et al.,
+2014a). This algorithm is a modiﬁed version of Gao and
+Kaufman (2003). It is fast, unbiased and has an average
+accuracy of ±(5–15) % over the land surface (ATBD;
+Martins et al., 2017), whereas the standard NIR CWV
+product (MOD05) has a known wet bias of 5 %–20 %
+(e.g., Albert et al., 2005; Prasad and Singh, 2009; Liu et
+al., 2013).
+Column water vapor is retrieved over cloud-free land
+pixels and over clouds. In the latter case, it represents
+water vapor above the cloud.
+3. The cloud mask box includes dynamic land–water–
+snow classiﬁcation, determination of aerosol type
+(background vs. smoke or dust) and cloud detection.
+The smoke/dust test is based on the enhanced short-
+wave absorption and effective particle size (Lyapustin
+et al., 2012c) and requires knowledge of spectral surface
+BRDF. At 1 km resolution, brightness and spatial con-
+trasts of smoke plumes can be high, leading to competi-
+tion between smoke and cloud detection. With optimal
+combination of different cloud tests and smoke detec-
+tion, which was found experimentally based on large-
+scale MODIS data processing, MAIAC provides aerosol
+retrievals for most smoke plumes with minimal cloud
+leak.
+4. When snow is detected, MAIAC derives surface re-
+ﬂectance using regional climatology AOD and com-
+putes snow grain size (SGS) and subpixel snow fraction
+(SF) as best ﬁt to obtained spectral reﬂectance. The re-
+ﬂectance is modeled as a linear mixture of snow BRDF
+and land BRDF, which is stored in the queue from re-
+trievals prior to snow detection. Snow reﬂectance is
+modeled with a semi-analytical model (Kokhanovsky
+and Zege, 2004), with consideration for surface rough-
+ness (Lyapustin et al., 2010). Assuming a background
+soot concentration, the snow reﬂectance depends only
+on SGS, which is computed from measured spectrum
+along with SF. The algorithm is analytical, fast and ro-
+bust due to a large difference between spectra of reg-
+ular land types and snow. The derived SGS may have
+a large uncertainty because of rapid metamorphism of
+aging snow and pollution from the atmosphere, which
+reduce snow reﬂectance. We validated SGS retrievals
+over pure snow (Lyapustin et al., 2009). The algorithm
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5744
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+description and validation of snow fraction using high-
+resolution Landsat data will be given elsewhere.
+5-6. Using knowledge of spectral BRDF and SRC at 1 km,
+MAIAC retrieves AOD at 1 km resolution. The follow-
+ing post-processing uses several ﬁlters to detect resid-
+ual clouds and smooth the noise from gridding uncer-
+tainties. This step signiﬁcantly increases the quality of
+AOD and the atmospheric correction.
+7. The combination of MAIAC cloud mask and AOD ﬁl-
+ters (6) detects majority of clouds. The next step (7) de-
+tects cloud shadows using a geometric approach and our
+knowledge of BRDF.
+8. The spectral regression coefﬁcient (SRC) required for
+aerosol retrieval is determined.
+9. In
+cloud-free
+and
+clean-to-moderately-hazy
+(AOD0.47 < 1.5)
+conditions,
+MAIAC
+atmospheric
+correction computes spectral BRF at 1 km resolution
+(bands B1–B12) and at 500 m resolution (bands B1–
+B7). By combining BRF from the latest observation
+with previous values stored in the queue, MAIAC per-
+forms a BRDF inversion in 1 km bands 1–8, providing
+three parameters of the Ross-thick Li-sparse (RTLS)
+BRDF model (Lucht et al., 2000).
+10. Aerosol layer height for detected smoke pixels is evalu-
+ated using a thermal technique (Lyapustin et al., 2018d).
+11. At the end of the processing, the Q memory is updated
+for cloud-free pixels under clean atmospheric condi-
+tions.
+As ancillary data, MAIAC uses static DEM, a 1 km land–
+water mask for deep and static water, and 6 h NCEP ozone
+and wind speed.
+3
+Radiative transfer model and lookup tables
+MAIAC radiative transfer (RT) model uses a semi-empirical
+Ross-thick Li-sparse (RTLS) BRDF model (Lucht et al.,
+2000) used in the operational MODIS BRDF/Albedo
+(MOD35) algorithm (Schaaf et al., 2002). This is a lin-
+ear model, represented as a sum of Lambertian, geometric-
+optical and volume scattering components:
+ρ(µ0,µ,φ) = kL + kGfG(µ0,µ,φ) + kV fV(µ0,µ,φ). (1)
+It uses predeﬁned geometric functions (kernels), fG and fV,
+to describe different shapes as a function of view geometry
+(µ0, µ, φ – cosines of solar and view zenith angles, and rela-
+tive azimuth). The kernels are independent of the land condi-
+tions. The BRDF of a pixel is characterized by a combination
+of three kernel weights, K = {kL,kG,kV }T.
+MAIAC RT model is based on the semi-analytical Green’s
+function (GF) solution for the TOA reﬂectance (Lyapustin
+and Knyazikhin, 2001). When combined with the linear
+RTLS model, the GF solution provides an explicit expression
+for the TOA reﬂectance as a function of the RTLS model pa-
+rameters (Lyapustin et al., 2011a):
+R(µ0,µ,φ) = RA(µ0,µ,φ) + kLF L(µ0,µ)
++ kGF G(µ0,µ,φ) + kV F V (µ0,µ,φ)
++ Rnl(µ0,µ).
+(2)
+Here,
+RA
+is
+atmospheric
+path
+reﬂectance.
+Functions
+F L,F V ,F G,Rnl depend on view geometry and aerosol
+properties. They are also weakly nonlinear functions of K
+parameters, which account for multiple reﬂections of sun-
+light between the land surface and the atmosphere. This de-
+pendence is analytical and is conveniently handled by the
+second iteration during the atmospheric correction. The de-
+tails for computing functions F j, Rnl are given by Eqs. (1)–
+(25) in Lyapustin et al. (2011a). In brief, they are expressed
+via eight basic functions which represent different hemi-
+spheric integrals from downward path radiance, atmospheric
+Green’s function (or bidirectional upward diffuse transmit-
+tance) and RTLS kernels (1, fV, fG). These functions, along
+with path reﬂectance, are precomputed and stored in the
+lookup table (LUT). Throughout this paper, AOD refers to
+the blue wavelength (AOD0.47).
+Equation (2) is used in MAIAC cloud detection, selection
+of aerosol type and in the atmospheric correction. For SRC
+and aerosol retrieval, we also use Lambertian equivalent re-
+ﬂector (LER) approximation,
+R(µ0,µ,φ) ∼= RA(µ0,µ,φ) + ρ(µ0,µ,φ)T d(µ0)T u(µ)
+/(1 −sρ(µ0,µ,φ)),
+(3)
+where T is the total downward (d) and upward (u) transmit-
+tance, and s is spherical albedo of atmosphere. Over the wa-
+ter, Eq. (3) is modiﬁed to account for the diffuse reﬂectance
+ρw of underlight, representing water-leaving radiance:
+R(µ0,µ,φ) ∼= RA+s(µ0,µ,φ) + ρw(µ0,µ,φ)
+T d(µ0)T u(µ),
+(4)
+where RA+s contains Fresnel reﬂectance from wind-rufﬂed
+ocean surface and a whitecap contribution (Koepke, 1984) in
+addition to the atmospheric path reﬂectance.
+Since Lyapustin et al. (2011a), MAIAC aerosol models
+and LUTs were simpliﬁed considerably. We abandoned ap-
+proach of mixing ﬁne- and coarse-aerosol fractions in favor
+of using regional aerosol models based on AERONET clima-
+tology (Holben et al., 1998) (e.g., Dubovik et al., 2002; Eck
+et al., 2013). C6 MAIAC uses eight regional aerosol models
+and the respective LUTs (see Sect. 6) over land, including a
+separate dust model. Since MAIAC processing is tile-based
+and inherently regional, it only reads the required regional
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5745
+LUT or LUTs without overloading operational memory. This
+allows us to discretize the world map in sufﬁcient detail to
+account for the regional aerosol variability.
+Each LUT is computed with full multiple scattering: all
+functions are ﬁrst computed using LUT-generation software
+based on scalar code SHARM (Lyapustin, 2005), and the at-
+mospheric path reﬂectance is then replaced with vector so-
+lution from code IPOL. The discrete ordinates code IPOL
+was recognized as the best overall among 10 different vector
+codes which participated in the recent intercomparison study
+(Emde et al., 2015).
+Each LUT is generated for the standard P = 1 and reduced
+(P = 0.7) pressure levels (normalized to the standard pres-
+sure 1013.25 mB) in order to account for surface height vari-
+ations using linear interpolation. Because Rayleigh optical
+depth rapidly decreases with wavelength, computations with
+P = 0.7 are done for wavelengths shorter than 0.66 µm.
+As before, the spectral gaseous absorption used in the LUT
+radiative transfer was obtained based on the line-by-line cal-
+culations (Lyapustin, 2003) for MODIS spectral response
+functions. The computations include absorption of six major
+atmospheric gases (H2O, CO2, CH4, NO2, CO, N2O) calcu-
+lated for the HITRAN 2008 (Rothman et al., 2009) database
+using the Voigt vertical proﬁle and the Atmospheric En-
+vironmental Research (AER) continuum absorption model
+(Clough et al., 2005). The LUT is generated for a ﬁxed
+value of column water vapor, W0 = 0.5 cm. In the MODIS
+red band, where WV absorption is maximal, the atmospheric
+path reﬂectance is also generated for WV = 6 cm, and linear
+interpolation is used to account for the WV variations.
+For the pressure and WV correction, the surface-reﬂected
+signal is multiplied by the two-way direct transmittance of
+the well-mixed gases and water vapor tg(P )t(W0,W):
+tg(P ) = exp
+ −(1 −P )τ gm
+
+, m = |µ|−1 + µ−1
+0 ,
+(5)
+t(λ,W) = exp
+
+−a(λ,W)mb(λ,W)
+, t (W0,W)
+= t(λ,W)/t(λ,W0).
+(6)
+Above, m is an atmospheric air mass, and parameters a and
+b are obtained by ﬁtting the angular dependence of the wa-
+ter vapor in-band transmittance. Expression (5) is a modiﬁed
+form of equation for the broadband transmittance of water
+vapor (Schmid et al., 2001).
+Finally, LUTs are computed for a relatively sparse angular
+grid (1µ0 = 1µ = 0.05 for the range µ = 0.4–1 (0–66.42◦),
+µ0 =0.15–1 (0–81.37◦) and 1φ = 9◦) and 12 AOD values,
+{0.05,0.1,0.2,0.3,0.4,0.55,0.75,1.,1.4,2.0,2.8,4.0}, giv-
+ing the size of 45.7 MB per regional aerosol model. Rayleigh
+LUT (AOD = 0) is generated separately.
+Ordinarily, generating LUT-based TOA reﬂectance for
+shortwave channels requires two 3-D interpolations in angles
+at P = 1, 0.7, with the following linear interpolation in pres-
+sure for a number of required functions per pixel. To opti-
+mize MAIAC processing, we introduced intermediate-scale
+radiative transfer RT containers for 5 km boxes. Each box
+is characterized by an average view geometry, mean water
+vapor and surface pressure, representing the average height.
+For each box, we compute the required functions for 13 AOD
+LUT nodes. After that, speciﬁc MAIAC processing for any
+1 km pixel within a given 5 km box only requires an ad-
+ditional linear interpolation in AOD using functions from
+the RT container and an analytical WV correction for the
+surface-reﬂected signal. The 5 km RT containers (RT5) are
+generated for boxes with cloud-free pixels and are stored as
+a layer in the queue. This approach allows us to use the same
+RT container repeatedly at different stages of MAIAC pro-
+cessing, which reduces computational cost by at least a factor
+of 25. While theoretically such approach may create biases
+at short wavelengths (B3 (0.47 µm) and B8 (0.412 µm)) on
+the boundaries of boxes with a sharp height gradient, a very
+extensive near-global testing did not reveal any noticeable
+difference in AOD or surface BRF compared to the accurate
+1 km pixel-level interpolation in view geometry and pressure.
+Prior to processing of a new MODIS observation, we com-
+pute a spectral deviation of measurements (M) from the ex-
+pected theoretical (T) clear-sky (AOD = 0) TOA reﬂectance:
+δλ = RM
+λ −RT
+λ(τ a = 0).
+(7)
+δλ is computed for ﬁve bands (B1, B3, B8, B5, B7) and
+is indicative of atmospheric perturbations from clouds and
+aerosols as illustrated in Fig. 2 for band B3. Because MAIAC
+freezes BRDF retrievals when snow is detected such that the
+queue BRDF always represents snow-free land reﬂectance,
+δλ also contains spectral signatures of snow and is used in
+snow detection.
+Using an estimate of Jacobian in the blue band (B3),
+∂R/∂τ a ≈(RT(0.05) −RT(0))/0.05, it is easy to obtain an
+initial assessment of AOD,
+τ a
+0 = δ0.47(∂R/∂τ a)−1,
+(8)
+which appears quite accurate except over bright surfaces.
+To guide aerosol retrievals, we also evaluate a theoreti-
+cal uncertainty of AOD in response to uncertainty in the
+surface reﬂectance at 0.47 µm which is assumed as δρ =
+max{0.002;0.04RTLS(µ0,µ,φ)}. This estimate is based on
+the extensive evaluation of MAIAC retrieval accuracy, al-
+though it may overestimate the uncertainty over bright sur-
+faces. Given δρ and neglecting other contributions, e.g., from
+variation in the aerosol model, the AOD uncertainty is as fol-
+lows:
+δτ a = δR(∂R/∂τ a)−1,
+(9)
+where δR = RT(0;RTLS + δρ) −RT(0;RTLS) is computed
+for the perturbed BRDF. As the surface becomes brighter, the
+sensitivity of measurements to aerosol (∂R/∂τ a) decreases
+and AOD uncertainty grows (Eq. 9). This uncertainty is used
+in MAIAC as a measure of the surface brightness guiding the
+aerosol retrieval algorithm (see Sect. 6.2 and 6.3).
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5746
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+Figure 2. Illustration of MAIAC time series processing for the mid-
+Atlantic USA 250 km region with New York City in the lower-left
+corner. The rows show MODIS observations for different days of
+the year (DOY) for 2012. The two bottom rows show DOY 314 from
+Terra and Aqua. The columns present the MODIS TOA RGB im-
+age, MAIAC products (cloud mask, AOD0.47, RGB BRF, column
+water vapor) and some of the internal ﬁelds used in the process-
+ing (deviation from clear-sky δ0.47, cirrus band reﬂectance R1.38,
+thermal contrast, dTb4−11 and its atmospheric part, dTbA
+4−11).
+Columns 3, 5–9 are displayed using the rainbow palette with the
+(min–max) values shown in the heading in parentheses. The cloud
+mask uses the following legend: cloud (red), possibly cloudy (yel-
+low), cloud shadow (dark red), clear land (blue), clear snow (white),
+clear water (light blue), clear water, detected sediments (grey), glint
+over water (dark grey).
+For optimization, the RT5 container is initially ﬁlled every-
+where for AOD = 0, 0.05 in order to compute deviation from
+the clear-sky (Eq. 7) and evaluate initial AOD and its uncer-
+tainty (Eqs. 8–9). The rest of the RT5 container (AOD ≥0.1)
+is ﬁlled only for the boxes containing cloud-free pixels after
+the detection of reliable clouds (tests C1–C4).
+4
+Cloud mask
+The cloud mask box in Fig. 1 consists of dynamic land–
+water–snow (LWS) classiﬁcation and cloud mask tests com-
+bined with the aerosol-type selection. MAIAC uses both lo-
+cal (pixel-level) and contextual information from the sur-
+rounding area. The latter comes from the 150 km mesoscale
+boxes where we evaluate minimum and maximum values of
+brightness temperature (Tb11), reﬂectance in MODIS cirrus
+band (B26) r1.38, column water vapor, number of (internally)
+detected ﬁre hotspots and the number of previously detected
+snow pixels based on the Q information. This nonlocal infor-
+mation appears very useful, for instance, for choosing more
+or less conservative pixel-level snow or smoke detection al-
+gorithm, etc.
+MAIAC
+needs
+to
+know
+the
+state
+of
+the
+surface
+(land/water/snow/ice) to select the proper processing path.
+For this purpose we developed the dynamic land–water–
+snow classiﬁcation (LWSC) from daily observations. It uses
+several tests and a decision tree. The LWSC logic and details
+of snow processing will be described separately.
+The conventional cloud mask algorithms (e.g., Ackerman
+et al., 1998, 2010) make cloud detection and classiﬁcation
+based on groups of tests identifying cloud types. As MAIAC
+does not require cloud typing, its tests are applied sequen-
+tially, and processing terminates as cloud is detected. The
+MAIAC cloud mask algorithm is only the beginning of cloud
+detection, which is consecutively enhanced by ﬁlters follow-
+ing aerosol retrieval and then by the atmospheric correction
+component of MAIAC.
+4.1
+Reliable clouds
+The ﬁrst group of tests, which have low interference with
+the smoke/dust detection, includes the bright, cold/high and
+spatial variability tests. Cloud detection tests are numbered
+(C).
+1. Bright cloud test. Measured reﬂectance exceeds theo-
+retical value at maximal LUT AOD = 4 with a certain
+threshold:
+RM >RT
+max + thresh, where thresh = 0.1 for the
+Sahara region and 0.03 otherwise.
+(C1)
+The test uses the shortest wavelength MODIS channel
+B8 (0.412 µm), where reduction of TOA reﬂectance by
+absorbing aerosols (smoke/dust) and the difference in
+reﬂectance with nonabsorbing clouds is maximal.
+2. Cold (high) cloud test. Measured brightness tempera-
+ture Tb11 is lower by 30◦or more than the expected
+value for this pixel (either q.Tb or a maximal mesoscale
+value TbMeso
+max ), combined with high cirrus band re-
+ﬂectance or high thermal contrast dTb4−11:
+Tb11 < 283 AND Tb11 + 30 < min(q.Tb,TbMeso
+max )
+AND (RM
+1.38 > 0.03 OR dTb4−11 > 10).
+(C2)
+The 30◦difference corresponds to an altitude difference
+of ∼4.5 km for an average lapse rate of 6.5◦km−1.
+3. High cloud test. This is for pixels with elevation below
+2.5 km.
+H < 2.5km AND RM
+1.38 > 0.035 AND dTb4−11
+−q.dTb4−11 > 5.
+(C3)
+4. Spatial variability test. 2×2 standard deviation of 500 m
+pixels nested in a 1 km grid cell signiﬁcantly exceeds the
+clear-sky threshold (q.σ) stored in the queue (Lyapustin
+et al., 2012c):
+σ > q.σ√µ + thresh, where thresh = (q.σ)max.
+(C4)
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5747
+Here, the multiplier √µ approximately accounts for the pixel
+growth and higher overlap between scan lines with scan an-
+gle and the resulting reduction of contrast. The threshold
+(thresh) depends on the surface variability and represents
+maximal contrast over a given pixel and its nearest neigh-
+bors. If a ﬁre hotspot is detected in the mesoscale range
+of given pixel, the threshold is increased by a factor of 2–
+3.5 depending on the pixel’s proximity to the hotspot. Also,
+the threshold is increased in conﬁdently clear conditions
+(q.iFlag_HighCov = 1) by a factor of 2 to avoid false cloud
+detection over high-contrast areas, e.g., urban areas.
+Test (C4) is applied globally over land using MODIS red
+band B1. It works well over darker soils and vegetated sur-
+faces, and is successful at capturing many small popcorn cu-
+mulus clouds, which is a major issue and source of error in
+remote sensing. Over deserts, the surface is bright in the red
+band, and the contrast with clouds is signiﬁcantly reduced.
+In these cases, being selected as q.NDVI < 0.2, the test (C4)
+is repeated for the blue (B3) band using the ﬁxed threshold
+thresh = 0.012.
+Finally, to “clean” the cloud boundaries where the contrast
+is often reduced due to lower subpixel cloud fraction, we re-
+peat the above procedure using the reduced threshold (0.6).
+This second iteration is applied to pixels which are direct
+neighbors of the detected clouds.
+4.2
+Smoke/dust detection
+The smoke test described in Lyapustin et al. (2012b, c) uses
+MODIS red, blue and deep blue (DB) bands B1 (0.646 µm),
+B3 (0.47 µm) and B8 (0.412 µm). The developed test (1) iso-
+lates atmospheric aerosol reﬂectance and (2) compares the
+measured reﬂectance at shortest wavelength (0.412 µm) with
+that predicted from the red–blue region using the back-
+ground aerosol model. For absorbing aerosol containing both
+black and brown carbon, the measured aerosol reﬂectance
+at 0.412 µm is lower than predicted due to both (1) more
+absorption caused by more multiple scattering at 0.412 µm
+and (2) increased shortwave absorption (by brown carbon
+for smoke and by iron compounds for dust) from increas-
+ing imaginary refractive index at 0.412 µm compared to the
+red–blue region.
+The smoke test ﬁrst computes an aerosol reﬂectance in the
+red, blue and DB channels by subtracting the Rayleigh (path)
+reﬂectance and the full surface-reﬂected signal at TOA from
+the measurement:
+RAer
+λ
+= RMeas
+λ
+−RMolec
+λ
+−RSurf
+λ
+(τ a).
+(S1)
+The smoke/dust tests are numbered (S). The last term is
+computed using τ a
+0 (Eq. 8) evaluated with the background
+aerosol model and known spectral surface BRDF. Assuming
+a power-law spectral dependence, RAer
+λ
+∼λ−b, we compute
+the equivalent Ångström exponent b, or the size parameter
+(SP) using the red and blue channels,
+SP = RAer
+0.646/RAer
+0.466,
+(S2)
+and the absorption parameter (AP) as a ratio of measured and
+predicted aerosol reﬂectance,
+AP = RAer, Meas
+0.412
+/RAer, Pred
+0.412
+, where RAer, Pred
+0.412
+= RAer
+0.466
+0.466
+0.412
+b
+.
+(S3)
+The idea behind this test is similar to the OMI aerosol in-
+dex (AI) detection (Torres et al., 1998, 2007): to the ﬁrst-
+order approximation, the clouds, which have spectrally neu-
+tral behavior or nonabsorbing aerosols, would give AP val-
+ues close to unity, whereas the absorbing aerosols would re-
+sult in lower AP values. Theoretical simulations (Lyapustin
+et al., 2012b, c) show a robust aerosol–cloud separation at
+AOD0.47 > 0.5 based on AP–SP indices.
+As speciﬁc aerosol absorption is a function of many
+parameters, including the type of burning material and
+smoldering-to-ﬂaming-fraction ratio for smoke or mineral
+composition including hematite content for mineral dust, we
+ﬁrst deﬁne the approximate parameterized cloud properties
+based on theoretical simulations:
+APCloud ∼= 0.97 −0.06(2 −µ −µ0) and SPCloud
+∼= 1.15 + 0.15(2 −µ −µ0).
+(S4)
+Then the smoke/dust tests are implemented based on sep-
+aration from the clouds as follows:
+If APij < APCloud −0.03 AND SPij < SPCloud
+AND dTb4−11 −q.dTb4−11 < THS →Smoke;
+(S5)
+If APij < APCloud −0.03 AND dTb4−11 −q.dTb4−11
+> THD →Dust.
+(S6)
+As smoke generally does not exhibit thermal contrast, the
+thermal threshold is low, THS = 1.5 K. This is not true near
+the ﬁre hotspots: based on extensive analysis of MODIS data,
+we parameterized the threshold in this case as a function of
+AOD, THS = 2.5 + 0.5AOD.
+To detect most dust for the Sahara region where dust is
+the dominant aerosol type, the threshold is set to be low
+THD = 1.5; for other dust regions, the threshold is increased
+to THD = 3.
+The dust test (S6) often misclassiﬁes thin cloud edges as
+dust. For this reason, we avoid the 2-pixel zone adjacent to
+the detected clouds and limit the dust test to the dust regions
+only (see Sect. 6.1).
+4.3
+Final cloud mask
+The ﬁnal cloud test combines analysis of cirrus band re-
+ﬂectance RM
+1.38 (B26) and thermal contrast dTb4−11. This test
+has evolved during several years of development. Initially,
+we followed MODIS cloud detection (Ackerman et al., 2006)
+and used the cirrus test alone. Contrary to MODIS, which
+uses a single global threshold RM
+1.38 > 0.035 except in win-
+ter and at high elevations, we set a dynamic threshold as a
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5748
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+function of the retrieved column water vapor. This way, we
+could decrease the cloud detection threshold down to 0.008,
+still well above the noise level in band 26, and detect either
+very thin cirrus or lower clouds with partial absorption by
+water vapor above the cloud. Figure 2 gives an illustration of
+the cirrus band reﬂectance showing both high and weak but
+spatially coherent signal from lower clouds, which may not
+be easily detectable in the RGB bands.
+Figure 2 also shows the atmospheric thermal contrast
+dTbA
+4−11 = dTb4−11 −q.dTb4−11. Ackerman et al. (2006)
+mentions the high information content of dTb4−11 for cloud
+detection, but also states that it is hard to use globally due
+to its signiﬁcant variability from the land surface. By char-
+acterizing surface component q.dTb4−11 on clear days, MA-
+IAC can separate an atmospheric variation dTbA
+4−11, which
+signiﬁcantly raises information content of this spectral ther-
+mal signature for the cloud detection. Analysis of near-global
+MODIS data showed that RM
+1.38 and dTbA
+4−11 usually carry
+similar information for cloud detection, but sometimes it is
+complementary to that of the cirrus channel (see Fig. 2), so
+the joint test gives a better cloud detection.
+The C6 MAIAC RM
+1.38 −dTbA
+4−11 test works as follows.
+1. Detect clouds with high dTbA
+4−11:
+dTbA
+4−11 > thresh, where thresh = 10.
+(C5)
+The threshold is increased to 14 in two cases. (1) A
+snow-covered surface usually has a very low ther-
+mal contrast (q.dTb4−11). When snow melts, exposed
+bare soil may exhibit a much higher contrast; thus,
+the threshold increase helps to avoid a commission
+error of cloud detection. Snow ablation is identiﬁed
+when RM
+2.13 > RM
+0.64 and snow have been detected pre-
+viously for a given pixel, but was not detected currently.
+(2) It is increased under conﬁdently clear conditions
+(q.iFlag_HighCov = 1).
+2. Detect clouds with high product:
+dTbA
+4−11(RM
+1.38/0.005) > thresh,
+(C6)
+where 0.005 is close to the noise level of B26, and thresh
+is set to 25 for the Sahara region, 15 for bright surfaces
+(RM
+2.13 > 0.3 OR q.dTb4−11 > 5) and 6 otherwise. This
+test is designed for conditions in which neither the cir-
+rus band reﬂectance nor the thermal contrast are high
+enough to reliably detect clouds, but their product can
+do it.
+3. 11–12 µm
+difference
+dTbA
+11−12
+test
+(dTbA
+11−12 =
+dTb11−12 −q.dTb11−12). This test is only applied
+within 2-pixels on the border of detected clouds.
+According to Ackerman et al. (2006), the dTb11−12
+difference is positive and increases for clouds and
+decreases for dust, but not universally. The dTbA
+11−12
+test is set as follows:
+dTbA
+11−12 > 0.5 AND dTbA
+4−11 > 2.
+(C7)
+This concludes the tests within the cloud mask block.
+The following test is applied during the atmospheric
+correction routine.
+4. Over
+dark
+dense
+vegetation
+(DDV),
+deﬁned
+as
+q.NDVI > 0.75, the low B1 reﬂectance of the surface,
+often associated with a high degree of homogeneity on
+a 1 km scale, allows for enhanced subpixel cloud detec-
+tion during stable surface conditions. This ﬁlter consists
+of two tests: (a) comparison of geometrically normal-
+ized B1 reﬂectance with the queue value at 1 km:
+BRFn, B1/q.BRFn, B1 > 1.35.
+(C8)
+Over dense vegetation with the red-band reﬂectance as
+low as 0.02–0.03, this test can detect clouds with a re-
+ﬂectance difference of ∼0.007–0.01.
+Over homogeneous 1 km DDV pixels deﬁned as
+q.σB1 < 0.006, the nested 500 m pixels should have a
+similar reﬂectance to that of the 1 km grid cell. The sec-
+ond test (b) checks measured subgrid variability and de-
+tects subpixel clouds based on high ratio of 500 m BRF
+in B1 to the 1 km value computed from the RTLS model,
+ρ500, B1/RTLSB1 > 1.8.
+(C9)
+The thresholds in tests 8–9 were selected based on extensive
+processing of MODIS data and have a low commission error.
+5
+Spectral regression coefﬁcient
+Retrieval of spectral regression coefﬁcient (SRC, box 8), or
+spectral SR ratios b37 = B3/B7 and b34 = B3/B4, is a cen-
+tral component of MAIAC required for aerosol retrievals. It
+runs independently and provides separation between atmo-
+spheric and surface contributions.
+The C6 MAIAC SRC retrieval has changed completely.
+The early version (Lyapustin et al., 2011b) used a multiday
+minimization for all cloud-free pixels in the 25×25 km2 area.
+While this approach was successful overall, it could generate
+an occasional random SRC bias for the whole block, creating
+AOD “blockiness” at 25 km scale, which further propagated
+into the surface reﬂectance. To resolve this instability, we de-
+veloped a new pixel-based approach which is much simpler
+and gives more accurate AOD. The new approach uses the
+minimum reﬂectance method: SRC (b37) is found as a min-
+imal ratio of surface reﬂectance, e.g., ρ∗
+0.47/ρ∗
+2.13, over the
+2-month period. For each observation, an apparent LER ρ∗
+is computed from TOA measurements using Eq. (3), assum-
+ing some regional background aerosol level, e.g., AOD0.47 ∼
+0.05. As the uncompensated aerosol increases ρ∗
+0.47 in the
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5749
+Figure 3. Schematic illustration of MAIAC dynamic SRC retrievals
+featuring two independent lines of update, b1 and b2.
+blue band, where most surfaces are dark, selection of the
+minimal value over time provides a reliable SRC estimate.
+This technique is cloud-resistant as residual clouds increase
+the ratio ρ∗
+0.47/ρ∗
+2.13; however, it is sensitive to undetected
+shadows, and therefore SRC retrieval is preceded by shadow
+detection (box 7, Fig. 1).
+While the minimum reﬂectance method is a powerful
+generic technique, it should be used with caution. For in-
+stance, the described algorithm can only reduce SRC over
+time; it is also prone to accumulating very low erroneous val-
+ues. In reality, seasonal surface change and annual variation
+of the sun zenith angle create both upward and downward
+patterns. As one of the measures addressing these issues,
+MAIAC uses two independent lines of the SRC retrieval (b1
+and b2, Fig. 3) starting on odd and even months and each
+taking 2 months to re-initialize. This way SRC is updated
+monthly and can both decrease and increase over time. The 2-
+month initialization period was selected for the MODIS ob-
+servation frequency to empirically account for possible pe-
+riods of high cloudiness and/or high aerosol concentration.
+Under favorable conditions, the SRC is updated as soon as
+the new minimum is found, along with the update of both
+lines b1 and b2. This way, the SRC used in aerosol retrievals
+can be updated more frequently than once per month with the
+new low value and once a month in the case of an increasing
+SRC trend.
+The land surface is considerably brighter at 2.13 µm com-
+pared to the blue wavelength. This results in spectral de-
+pendence of the BRDF shape: when the surface is dark,
+the BRDF is well deﬁned by the ﬁrst order of scattering,
+whereas in case of a bright surface, the photon can experi-
+ence several scatterings on microfacets of the surface rough-
+ness before escaping into the atmosphere, which results in
+relative ﬂattening of the BRDF shape. For this reason, SRC
+depends on the view geometry. To account for that, MA-
+IAC SRC is computed for three angular bins carefully se-
+lected to optimize aerosol retrievals over bright deserts where
+the AOD error sensitivity is maximal. Current bins repre-
+sent forward scattering (φ ≤90◦), backscattering (µ < 0.95,
+φ > 90◦) and nadir direction (0.95 < µ ≤1, φ > 90◦). The
+latter is introduced to represent regions of the land hotspot for
+tropics/subtropics and near-nadir views when the sun is near
+zenith. A linear interpolation between bins is used within
+1µ ≤±0.01 of bin boundaries.
+Before using the LER model, we studied the full radiative
+transfer with anisotropic surface model where SRC is used to
+predict the blue-band BRDF from the BRDF at 2.13 µm. That
+approach was computationally more expensive and still re-
+quired angular binning of SRC. Besides, we found that it was
+also sensitive to the B7 BRDF errors over bright surfaces,
+occasionally producing AOD outliers. Over bright surfaces,
+small errors in the BRDF shape at 2.1 µm can result in rela-
+tively large errors in the surface-reﬂected diffuse radiance be-
+cause of high values of the BRDF shape parameters (kv, kg).
+The BRDF errors can arise from uncertainties of gridding,
+limitations of the RTLS model (not exactly matching the
+real distribution), or rarely, unstable RTLS inversions. Using
+only TOA measurements at two wavelengths, the LER ap-
+proach eliminates uncertainty from the BRDF model-based
+sources and provides a more stable AOD retrieval with bet-
+ter AERONET comparison. The current C6 MAIAC uses the
+LER surface model for both SRC and aerosol retrievals.
+6
+Aerosol retrievals
+6.1
+Aerosol models
+The geographic distribution of regional background aerosol
+models over land used in MAIAC processing is shown in
+Fig. 4. MAIAC uses eight different models listed in Ta-
+ble 1. Model properties are given in terms of volumetric
+size distribution (e.g., Dubovik and King, 2000) with ra-
+dius (Rv) and standard deviation (σv) for the ﬁne and coarse
+modes, their ratio of concentrations (CC
+v /CF
+v ), real (m) and
+imaginary (k) refractive index, absorption Ångström expo-
+nent (AAE) deﬁned with respect to spectral dependence of k
+and spherical (Mie) aerosol fraction. The imaginary refrac-
+tive index is assumed to be spectrally dependent at λ < λ0 =
+0.66µm,k(λ) = k(λ0)(λ/λ0)−AAE and constant for longer
+wavelengths. The aerosol models can be either static with
+ﬁxed parameters, typical of an arid environment, or dynamic
+(Remer and Kaufman, 1998) with parameters depending on
+AOD. Growth of volumetric radius with AOD represents hy-
+groscopic growth of aerosol particles associated with AOD
+increase. It is typical for regions with moderate-to-high hu-
+midity. Model parameters (size distribution, ratio of volumet-
+ric concentrations, refractive index) are generally representa-
+tive of the AERONET regional climatology (e.g., Dubovik
+et al., 2002) with empirical adjustments aimed at achiev-
+ing a better match of retrieved AOD to AERONET sun-
+photometer data.
+Dynamic Model 1, based on the GSFC AERONET site,
+represents east coast USA with high summertime humidity.
+The more arid climate of the western USA is represented by
+Model 2, with some contribution of dust particles and larger
+coarse fraction. Model 3, which has high absorption, was de-
+veloped to model the polluted environment of Mexico City.
+The European Model 4 has a higher absorption, but otherwise
+is the same as the east coast USA model, Model 1. Model 5,
+representing industrial-world China, was developed based on
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5750
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+Table 1. Microphysical properties of MAIAC aerosol models: radius and standard deviation of ﬁne and coarse fractions of bi-lognormal
+volume size distribution; ratio of volume concentrations (coarse to ﬁne) as functions of AOD (τ); real and imaginary refractive index (n = m-
+ik); Ångström (AAE) parameter for k (k(λ) = k(λ0)(λ/λ0)−b, for λ < λ0 = 0.66 µm and k(λ) = k(λ0) for λ > λ0). Finally, the last column
+shows the fraction of spherical particles where 1 represents spheres and 0 represent spheroids from the DLS model (Dubovik et al., 2006).
+Model
+RFv, µm
+σ Fv , µm
+RCv , µm
+σ C
+v , µm
+CCv /CFv
+M
+k0.66
+AAE
+Mie fraction
+1
+0.12 + 0.05τ
+0.35 + 0.05τ
+2.8 + 0.2τ
+0.6 + 0.1τ
+0.6
+1.42
+0.0045
+0
+1
+≤0.2
+≤0.45
+≤3.2
+≤0.8
+2
+0.16
+0.4
+2.4
+0.6
+0.5
+1.48
+0.0035
+0
+0.8
+3
+0.13
+0.5
+2.8
+0.7
+1
+1.48
+0.012
+0
+0.6
+4
+0.12 + 0.05τ
+0.35 + 0.05τ
+2.8 + 0.2τ
+0.6 + 0.1τ
+0.6
+1.42
+0.0065
+0
+1
+≤0.2
+≤0.45
+≤3.2
+≤0.8
+5
+0.15 + 0.05τ
+0.45 + 0.1τ
+2.5 + 0.3τ
+0.6 + 0.1τ
+1.4
+1.44
+0.005,
+0.5
+0.9
+≤0.2
+≤0.55
+≤2.8
+≤0.8
+0.67 µ
+6
+0.12
+0.5
+1.9
+0.6
+0.02(1 + τ)
+1.56
+0.001,
+2.0
+0
+/0.9τ
+0.67 µ
+(cur)
+7
+0.12 + 0.025τ
+0.4
+3.2 + 0.2τ
+0.7
+0.7
+1.51
+0.009
+0
+1
+≤0.2
+≤3.8
+8
+0.15 + 0.05τ
+0.45 + 0.1τ
+2.5 + 0.3τ
+0.6 + 0.1τ
+1.4
+1.44
+0.0065,
+0.5
+0.9
+≤0.2
+≤0.55
+≤2.8
+≤0.8
+0.67 µ
+Figure 4. Map of background regional aerosol models speciﬁed in
+Table 1. The transparent yellow shape approximates the dust re-
+gions.
+the Beijing AERONET model with an adjustment for absorp-
+tion. The India model, Model 8 is similar to 5 but with higher
+absorption coming from agricultural biomass burning (sea-
+sonal), cooking and transportation (e.g., Singh et al., 2017).
+The biomass-burning cerrado model (Model 7) of subequa-
+torial Africa was developed based on a AERONET Mongu
+site. Finally, the desert dust model (Model 6) was based on
+Dubovik et al. (2002) climatological model for the Solar Vil-
+lage site.
+The transparent yellow shape in Fig. 4 maps the world
+region in which the dust test is conducted and AOD is re-
+trieved with the background or the dust model depending on
+the dust test outcome. In the MAIAC C6 version, we still use
+the regional background model for aerosol retrieval and at-
+mospheric correction even if smoke was detected. The next
+version will use a joint AOD–SSA (single-scattering albedo)
+retrieval algorithm for areas with detected smoke. This algo-
+rithm has already been developed and is in the testing/tuning
+phase.
+Lack of seasonal dependence of aerosol models and LUTs
+is one of the limitations of MAIAC C6. It does not ac-
+count for regional aerosol seasonality, for instance periods
+of biomass burning and variations in humidity. As a result,
+current AOD product may show seasonal biases, for instance
+over India during post-monsoon biomass burning (Mhawish
+et al., 2018). This issue will be ﬁxed in the next version of
+MAIAC.
+6.2
+Aerosol algorithm
+The aerosol algorithm depends on the brightness of surface,
+which is characterized using the uncertainty parameter δτ a.
+Over dark surfaces (0 ≤δτ a < 0.05), the AOD retrieval rou-
+tine ﬁrst evaluates LER in B3 (0.47 µm):
+ρ0.47 = b37ρ2.13,
+(10)
+and then computes AOD by matching the LUT-based theo-
+retical reﬂectance to the measurement,
+RT
+0.47(τ a) = RM
+0.47.
+(11)
+The LER ρ2.13 is obtained by atmospheric correction from
+the measurement RM
+2.13 with current AOD used in the aerosol
+retrieval loop. However, when smoke/dust is detected, or
+LER ρ2.13 is signiﬁcantly different from the BRDF model
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5751
+value, ρ2.13 < 0.5RTLS2.13 or ρ2.13 > 2RTLS2.13(ρ2.13 >
+1.5RTLS2.13 for bright surfaces when kL
+2.13 > 0.25), which
+usually indicates undetected clouds or cloud shadows, we use
+the BRDF model as LER, ρ2.13 = RTLS2.13.
+The dark target algorithm (Levy et al., 2013) is prone to
+overestimating AOD as surface brightness increases. A typ-
+ical example of high bias in the VIIRS aerosol algorithm is
+given by Fig. 7d from Superczinsky et al. (2017). While MA-
+IAC implementation is different from the VIIRS (Jackson et
+al., 2013), it faces the same general issue. Over brighter sur-
+faces, as sensitivity of measurements to AOD decreases, the
+effect of the surface-related errors increases. The surface-
+related errors include those from gridding, from the lagged
+SRC characterization with the time series method, etc. Over
+bright land, the SRC error, essentially related to the change
+in the average sun angle during the 2-month lag period, be-
+comes more important over mountainous regions with ter-
+rain slope variations. Statistically, most surface-related er-
+rors, including those from gridding, should be symmetric
+about zero. However, because we do not accept negative
+AOD, the net effect is a positive bias.
+One more error source is characterization of the angular
+dependence of SRC. As surface brightness increases, the dif-
+ference in the BRDF shape between darker 0.47 and much
+brighter 2.13 µm channels (angular dependence of SRC) in-
+creases. To reduce this effect, we added minimization of
+the blue/green band ratio where the surface brightness and
+BRDF shapes are much closer. The resulting AOD retrieval
+is based on minimization of the following function:
+F(τ a) = w1(1 −RT
+0.47(τ a)/RM
+0.47)2 + w2(1 −[ρ0.47(τ a)
+/ρ0.55(τ a)]/b34)2,
+(12)
+where the weights of B3/B7 0.47–2.13 µm (w1) and of B3/B4
+0.47–0.55 µm (w2 = 1 −w1) are functions of surface bright-
+ness expressed via uncertainty δτ a (Eq. 6) as follows: w1 = 1
+if 0 ≤δτ a < 0.05 (dark surface), w1 = 0 if δτ a < 0 or δτ a >
+0.5 (bright surface) and a linear function in between, w1 =
+(δτ a −0.05)/0.45. The reﬂectance ρλ(τ a) in Eq. (12) is LER
+(result of atmospheric correction) with AOD τ a. The min-
+imization algorithm (Eq. 12) incrementally increases AOD
+from the LUT until F(τ a) reaches minimum, computes co-
+efﬁcients of quadratic polynomial based on three points en-
+compassing the minimum and analytically computes AOD in
+the minimum of quadratic function.
+Our study of independent AOD retrievals using 0.47–
+0.55 µm ratio (second term of Eq. 12) shows that it (1) has
+reasonable accuracy over dark surfaces albeit somewhat
+lower than the standard algorithm (Eqs. 10–11), (2) is more
+stable over bright surfaces with zero or much lower positive
+AOD bias when atmospheric AOD is low and (3) underes-
+timates AOD at high aerosol loading over all surfaces by as
+much as 20 %–50 %. Given these properties, it is clear that
+the second term of Eq. (12), having lower sensitivity to AOD,
+mostly serves to stabilize the solution over brighter surfaces
+under clean (low AOD) atmospheric conditions by minimiz-
+ing high AOD bias from the ﬁrst term.
+When smoke is detected, meaning that AOD is usually suf-
+ﬁciently high and effect of surface errors is reduced, we give
+more weight (if w1 < 0.8 then w1 = 0.8) to the standard re-
+trieval (bands B3–B7) with much higher sensitivity to AOD.
+Finally, when dust is detected, the aerosol retrieval adds an
+additional term for the MODIS red band B1 and uses equal
+weights for all three terms:
+F(τ a) =
+ 1 −RT
+0.47(τ a)/RM
+0.47
+2 +
+ 1 −
+
+ρ0.47(τ a)
+/ρ0.55(τ a)
+
+/b34
+2 +
+ 1 −RT
+0.64(τ a)/RM
+0.64
+2.
+(13)
+The theoretical B1 TOA reﬂectance in the last term is com-
+puted using the accurate GF solution (Eq. 2) with the B1
+BRDF model. As one can see from Table 1, properties of
+the dynamic dust model are such that the concentration of
+the coarse mode rapidly grows with AOD, increasing the
+anisotropy of the phase function and reducing backscattering.
+This reduction counteracts and slows down the respective in-
+crease of TOA reﬂectance. In effect, the dynamic Model 6 re-
+quires a signiﬁcantly higher AOD to match the measured re-
+ﬂectance at 0.47 µm. We found experimentally that algorithm
+(Eq. 12) signiﬁcantly overestimates dust AOD by up to a fac-
+tor of 2. However, adding the red-band term (Eq. 13) reduces
+AOD and signiﬁcantly improves its accuracy. The mentioned
+spectral imbalance of the dust Model 6 may be caused by
+our use of the spheroidal model (Dubovik et al., 2006) to
+approximate dust particles. A similar spectral-angular mis-
+match from the use of spheroids to describe optics of the dust
+scattering was observed in the analysis of MISR data (Ralph
+Kahn, personal communication, 2018).
+Lastly, at high altitudes (H > 4.2 km, e.g., Tibetan
+plateau), AOD is not retrieved unless smoke/dust was de-
+tected. Our study shows that in conditions of very low
+AOD, nonﬂat terrain and a generally bright surface, MAIAC
+aerosol retrievals at high altitudes are unreliable. Instead of
+retrievals, we assume a ﬁxed climatology AODmin = 0.02 for
+the atmospheric correction.
+6.3
+Bright surface bias correction
+Regardless of the speciﬁc AOD retrieval algorithm, solutions
+over bright surfaces can be unstable and can easily develop
+a positive bias. It should be mentioned that the term “bright
+surface” in MAIAC is understood in terms of low sensitivity
+(∂R/∂τ a ∼0) or high uncertainty (δτ a) of aerosol retrievals.
+The same surface can be bright in the backscattering direc-
+tions, in particular close to the hotspot because of an increase
+in the surface reﬂectance, and dark for the forward-scattering
+geometries where the surface is considerably darker due to
+shadowing, in combination with higher aerosol phase func-
+tion and the single-scattering radiance. MAIAC retrievals
+show that AOD is systematically overestimated over some
+bright surfaces in the backscattering view directions, corre-
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5752
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+lating with the surface features, which is apparent in the time
+series of gridded AOD. These artifacts are generic and one
+can easily ﬁnd them in the MODIS DT, DB and in the VI-
+IRS aerosol products. As MAIAC deals with the time se-
+ries analysis of gridded data directly, we developed a spe-
+cial statistical correction procedure. It is designed to detect
+and minimize spatially persistent biases and is only applied
+in clear low-AOD conditions to prevent canceling the real
+aerosol signal. The idea is to look at the large area, evaluate
+an average AOD using the darkest pixels for which the solu-
+tion can be trusted and correct biased AOD over bright pixels
+with a known history of bias using the area-average value.
+The bright surface correction procedure is applied to
+mesoscale areas (150 × 150 km2), denoted by
+below, and
+works as follows:
+1. Compute average AOD for pixels in four bins of uncer-
+tainty: δτ a ≤0.05f , 0.05 < δτ a ≤0.12f , 0.12<δτ a ≤
+0.22f and 0.22<δτ a ≤0.4f . The AOD retrieval is
+trustworthy in the ﬁrst bin and usually trustworthy in the
+second bin. The ﬁrst two bins cover densely vegetated
+surfaces and dark soils, but extend to considerably (vi-
+sually) brighter surfaces at low sun/view zenith angles
+and/or high atmospheric turbidity.
+2. The AOD bias generally manifests itself as an increase
+in the average AOD with the bin number (uncertainty).
+In such a case, we deﬁne the area-average value τav
+based on the ﬁrst bin or the ﬁrst two bins depending
+on the statistics (the number of pixels in these bins) and
+set the high AOD threshold as thresh = τav + 0.1.
+3. Mask the pixel in the high bins 2–4 if its AOD (τij)
+exceeds the threshold. When a pixel is masked, its cu-
+mulative bias counter (q.indexHighBias) is increased
+by 1, and the bias index for the current observation
+(q.indexCurrentBias) is set to 1.
+4. For pixel (i,j) with current and persistent high bias
+(q.indexCurrentBias = 1 and q.indexHighBias > 2), re-
+place AOD with the value τijw + τav(1 −w), where
+the weight increases along with the deviation of pixel’s
+AOD from the average, w = (τij/τav)−2 ≤1.
+The above procedure is not applied when absorbing
+aerosols (smoke/dust) are detected or when τav > 0.3,
+indicating the possibility of generally higher aerosol
+levels.
+5. Finally, it should be mentioned that the bias detec-
+tion can be triggered randomly for almost any pixel,
+leading to the accumulation of noise in the cumulative
+counter. For this reason, and to avoid canceling the real
+aerosol signal over regular pixels, we compute the aver-
+age bias detection noise over area and subtract it from
+q.indexHighBias monthly, effectively zeroing it for the
+regular pixels.
+It should be mentioned that the described algorithm is largely
+an empirical summary of numerous trials and errors using
+AERONET validation and minimization of systematic spatial
+and temporal artifacts as our main criteria.
+7
+Spatial AOD ﬁltering and smoothing
+Cloud tests (Sect. 4) were designed to capture reliable bright,
+cold, high, or spatially/spectrally contrasting clouds. Because
+the natural transition from clear to cloudy is on a contin-
+uum, we use two additional AOD-based ﬁlters to detect thin
+or subpixel clouds at 1 km resolution, all based on an as-
+sumption that aerosols have some degree of spatial homo-
+geneity. The ﬁlters below were not used if absorbing aerosols
+(smoke/dust) were detected.
+1. The ﬁrst ﬁlter uses a histogram-based technique follow-
+ing the DT algorithm (Levy et al., 2007), which applies
+it to the TOA reﬂectance in 20×20 500 m pixels’ boxes,
+ﬁltering the lower 20 % and upper 50 % of data as po-
+tentially affected by either shadows or clouds. The av-
+erage reﬂectance of the remaining pixels is used for the
+DT AOD retrieval. In MAIAC, we apply a similar tech-
+nique to 25 × 25 km2 blocks by using retrieved AOD
+and by ﬁltering high values only. The upper threshold is
+a function of the cloud fraction (CF) in the block, H =
+0.65 −0.6CF/0.9, decreasing from 65 % in cloud-free
+conditions to 5 % when CF = 0.9. The AOD threshold
+is deﬁned as thresh = AODH + δ, where δ = 0.2 when
+covariance is high (q.iFlag_HighCov = 1), and δ = 0.1
+otherwise. For pixels with AOD > thresh, the cloud
+mask value is set to possibly cloud, CM_PCLOUD.
+This
+ﬁlter
+is
+not
+applied
+when
+absorbing
+aerosols
+(smoke/dust)
+were
+detected,
+as
+well
+as
+in
+clear
+(AODmax < 0.35)
+or
+homogeneous
+(AODmax −AODmin < 0.2)
+conditions.
+Overall,
+this ﬁlter rather signiﬁcantly improves the quality of
+the ﬁnal AOD product.
+In earlier versions, AOD for the ﬁltered pixels was set
+to the FILL_VALUE. The current C6 version reports re-
+trieved AOD for these pixels for possible applications
+as a research quality. The main impetus came from the
+air quality research groups: in particular, I. Kloog and
+A. Just showed that the histogram ﬁlter often cancels
+AOD retrievals over urban regions with high aerosol
+spatial variability from human activity, e.g., the south-
+western part of Mexico City. AERONET validation for
+Mexico City shows an improvement from added high
+AOD pixels which were previously mostly ﬁltered as
+CM_PCLOUD. A similar improvement was observed
+at the Ispra (Italy) AERONET site, located on western
+edge of the Po Valley, Italy, where topography and prox-
+imity of aerosol emission sources create conditions for
+high spatial aerosol variability.
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5753
+Most of the CM_PCLOUD pixels are located in the
+transition zone from clear to conﬁdently cloudy. The
+high 1 km resolution AOD in this twilight region (Ko-
+ren et al., 2007) may be useful for studying the
+aerosol–cloud interactions. However, we should empha-
+size that for most applications, the user should only use
+the highest quality AOD with QA cloud mask value
+CM_CLEAR.
+2. The second spatial homogeneity ﬁlter based on the anal-
+ysis of 3×3 pixels was proposed by Emili et al. (2011).
+We use it in the following form:
+– ﬁnd pixel with maximum AOD over 3 × 3 pixels
+(AODmax),
+– compute average AODav in 3 × 3 area without this
+pixel,
+– ﬁlter the maximum value (CM_PCLOUD) if
+AODmax > AODav + 0.2.
+After detection of residual clouds with ﬁlters 1–2, a
+3 × 3 running averaging window is applied to 1 km
+AOD, except when smoke/dust were detected. The av-
+eraging serves to ameliorate residual errors of gridding,
+which create noise in the surface SRC, BRDF and AOD.
+As this noise is local and spatially coherent (due to
+the systematic nature of MODIS orbits and footprint
+size/location with the scan angle), it is effectively re-
+duced by the 3 × 3 smoothing ﬁlter.
+8
+Cloud shadow detection
+With cloud detection completed, the next step (7) detects
+cloud shadows using geometric analysis (Simpson et al.,
+2000) and a BRDF reduction test. Based on the view geom-
+etry, we generate the line of shadow for each cloudy pixel,
+which is a function of the cloud top height (Hc). Param-
+eter Hc is evaluated based on the Tb11 contrast between
+the cloud-free background (q.Tbs) and a cloudy pixel, as-
+suming an average adiabatic lapse rate of 6.5◦K/km (Hc =
+(Tb11 −q.Tbs)/6.5). If the background brightness temper-
+ature cannot be reliably evaluated, we assume a maximal
+cloud height of 12 km (Stubenrauch et al., 2010). The shadow
+is detected along the line of shadow if surface reﬂectance in
+the bright channels B2 (0.87 µm) or B5 (1.24 µm) falls be-
+low the BRDF-predicted value by a certain threshold. Based
+on visual evaluation, the developed approach captures up to
+80 %–90 % of cloud shadows.
+9
+Atmospheric correction
+Following cloud detection and aerosol retrieval, the atmo-
+spheric correction derives surface spectral BRF and BRDF
+models, and computes instantaneous albedo. The spectral
+BRF is derived for cloud-free and clear to moderately hazy
+(AOD0.47 < 1.5) pixels by scaling a pixel’s BRDF in order to
+match the TOA reﬂectance (Lyapustin et al., 2012a). It uses
+Eq. (2) modiﬁed as follows:
+R(µ0,µ,φ) = RA(µ0,µ,φ) + cRSurf(µ0,µ,φ),
+(14)
+where RSurf is a surface-reﬂected term computed using the
+current RTLS parameters and retrieved aerosol data, and c
+is the spectrally dependent scaling factor. Then, the BRF is
+given by the following:
+rλ(µ0,µ,φ) = cλρλ(µ0,µ,φ),
+(15)
+where ρλ is computed from the RTLS model for a given ge-
+ometry. Because RSurf is a nonlinear function of the surface
+reﬂectance, solving Eqs. (14) and (15) takes two iterations.
+On the second iteration, the surface term RSurf is computed
+with scaled BRDF from the ﬁrst iteration, c(1)
+λ ρλ(µ0,µ,φ),
+and the ﬁnal scaling coefﬁcient in Eq. (15) is a product
+cλ = c(1)
+λ c(2)
+λ . Because the nonlinearity is small, the second
+iteration has a very small effect on the ﬁnal result Eq. (15).
+In addition to 1 km spectral BRF in MODIS bands 1–7
+is also computed at 500 m resolution nested in a 1 km grid.
+While MAIAC performs atmospheric correction of MODIS
+250 m bands (B1–B2) as well, these results are not currently
+included in the output ﬁles.
+The RTLS model parameters are retrieved for bands B1–
+B8 only. Therefore, BRF in MODIS ocean bands B9–B12 is
+computed with the same approach (Eqs. 14–15) using BRDF
+from the nearest bands; for instance, B4 BRDF is used for
+B11–B12. The red band B1 BRDF (instead of B3) is used for
+AC of B9–B10 in the blue part of the spectrum. Over dense
+vegetation, the red-band reﬂectance is nearly as low as that in
+the blue but it is signiﬁcantly less affected by the aerosol re-
+trieval errors. So, while the shapes of BRDF are very similar,
+the BRDF is somewhat more stable in the red. At the same
+time, the difference in the magnitude of reﬂectance does not
+matter for the scaling approach (Eqs. 14–15) as long as the
+general BRDF shape is right and correctly models the surface
+reﬂection and upward propagation for the direct solar beam
+and diffuse (sky) irradiance.
+A Lambertian assumption is used during the algorithm ini-
+tialization period, which may last from just 4 days (observa-
+tions) in cloud-free low-AOD conditions to over a month de-
+pending on cloudiness and snow cover. During this period of
+time, MAIAC performance is suboptimal with a higher rate
+of undetected clouds and reﬂectance biases from the Lam-
+bertian assumption. In the ongoing C6 MODAPS processing
+of MODIS Terra and Aqua, MAIAC was initialized globally
+using the second half of 2002, and then the processing started
+from the beginning of 2000. In parallel, a separate forward-
+processing stream using MODIS data from the second half
+of 2016 to initialize is expected to start soon.
+The latest BRF combined with previous BRFs stored in the
+queue are used for the BRDF inversion, providing three pa-
+rameters of the RTLS model. This represents a change from
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5754
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+the original algorithm (Lyapustin et al., 2012a), which de-
+rived RTLS coefﬁcients by matching the measured TOA re-
+ﬂectance. Using the original TOA measurements potentially
+allows a better accuracy of BRDF retrievals to be achieved,
+but at the expense of storing or recomputing a number of
+RT functions for each past observation from the queue. Our
+analysis showed that, with the current high accuracy of MA-
+IAC cloud detection and aerosol retrieval, the result of much
+simpler and faster BRF-based inversion is practically indis-
+tinguishable from the TOA-based inversion.
+With a C6+ calibration (Lyapustin et al., 2014b), which
+added MODIS Terra polarization correction (Kwiatkowska
+et al., 2008) and response vs. scan (RVS) trending using
+quasi-stable desert calibration sites (Sun et al., 2014), and
+removed residual trends and cross-calibrated Terra to Aqua,
+we are using MODIS Terra and Aqua as one data set. This
+doubles the MODIS revisit frequency, a critical requirement
+for the time series analysis, which signiﬁcantly helps MA-
+IAC in all stages of processing, in particular for the BRDF
+retrieval and SRC characterization.
+MAIAC has a surface change detection algorithm (Lya-
+pustin et al., 2012a) based on an analysis of geometrically
+normalized BRF in bands B1, B2, B7. For instance, normal-
+ization to SZA = 45◦and VZA = 0◦(F0V = −0.0458621,
+F0G = −1.1068192 in Eq. 1) at any wavelength uses the fol-
+lowing formula (see Eq. 6 from Lyapustin et al., 2012a):
+BRFn =BRF · (kL −0.0458621 · kV −1.1068192 · kG)
+/(kL + FV · kV + FG · kG),
+(16)
+where FV and FG are volumetric and geometric kernels for
+the MODIS view geometry provided for the user’s con-
+venience in the MAIAC output (see Sect. 10.2.2). Geo-
+metric (or BRDF) normalization signiﬁcantly reduces BRF
+variations (by a factor of 3–6) caused by the chang-
+ing view geometry of MODIS with the orbit. MAIAC
+change detection looks for anticorrelated changes in the
+red and NIR bands during the accumulation period, η =
+1BRFn/BRFn,av, where BRFn,av is an average value. Based
+on this analysis, the surface state is characterized as stable or
+having no change (η < 0.05) and two categories of greenup
+or senescence, namely regular change (0.05 < η < 0.15) and
+big change (η > 0.15, Sect. 10.2.2).
+Based on extensive empirical analysis, MAIAC under-
+takes RTLS inversion when the surface is relatively stable,
+η < 0.15). When change is signiﬁcant (η ≥0.15), the BRDF
+is scaled with the latest observation to adjust the total re-
+ﬂectance assuming the shape of BRDF does not change, as
+in (Schaaf et al., 2002). After inversion, the new BRDF goes
+through several tests to verify the correctness of its shape and
+its consistency with the previous solution stored in the queue
+(for details, see Lyapustin et al., 2012a). In order to preserve
+consistency and reduce random noise, we are using an update
+with relaxation,
+K = wKnew + (1 −w)Kprev.
+(17)
+Above, the superscript indicates the new and previous solu-
+tions, the weight w = 0.5 when surface does not change and
+w = 0.7 for the regular change. While such an update prac-
+tice generally improves the quality of the BRDF model dur-
+ing stable periods, it delays the BRDF model response to the
+surface change in addition to the delay related to the length of
+the queue. On the contrary, spectral BRFn represents an in-
+stantaneous surface snapshot from the latest observation. For
+this reason, studies of vegetation phenology, seasonality, etc.
+should use BRFn rather than BRDF model-based reﬂectance
+values.
+Many applications, including higher-level algorithms for
+vegetation characterization, e.g., LAI/FPAR (Chen et al.,
+2017) and global model assimilation, require knowledge of
+uncertainty. We provide the BRF uncertainty (Sigma_BRFn)
+in MODIS red (B1) and NIR (B2) bands at 1 km deﬁned
+as a standard deviation of the BRFn over the accumula-
+tion period of the queue (4–16 days) under the assumption
+that the surface is stable or changes linearly in time. This
+is one of the most conservative and realistic estimates of
+uncertainty which includes contribution from gridding, un-
+detected clouds, errors of atmospheric correction including
+those from the aerosol retrieval, and of surface change when
+reﬂectance change is nonlinear over the length of the queue.
+Sigma_BRFn in the red band can serve as a proxy of uncer-
+tainty at shorter wavelengths, where the surface is generally
+darker, and the NIR value can be a proxy for the longer wave-
+lengths with high surface reﬂectance.
+With the detection of snow, MAIAC freezes the land spec-
+tral BRDF in the Q memory and switches to the snow pro-
+cessing mode, retrieving subpixel snow fraction and snow
+grain size. The total surface reﬂectance (albedo) in this case
+is computed as a linear mixture of land BRDF and snow re-
+ﬂectance given by a semi-analytical model (Lyapustin et al.,
+2010).
+10
+MCD19 data products and quality assurance
+MAIAC provides a suite of MODIS atmospheric and sur-
+face products in three HDF4 ﬁles: daily MCD19A1 (spectral
+BRF, or surface reﬂectance), daily MCD19A2 (atmospheric
+properties) and 8-day MCD19A3 (spectral BRDF/Albedo).
+As this paper describes the ﬁrst ofﬁcial public release of MA-
+IAC MODIS data, we consider it useful to provide a brief
+technical description of MAIAC products and its quality as-
+surance ﬂags (QA) which is given in the User’s Guide in
+more detail.
+10.1
+Tiled ﬁle structure and naming convention
+All products are reported on 1 km sinusoidal grid. The sinu-
+soidal projection is not optimal due to distortions at high lat-
+itudes and off the grid center, but it is a tradeoff made by the
+MODIS Land team for the global data processing. The grid-
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5755
+Figure 5. Illustration of MODIS tiles for the sinusoidal grid.
+MAIAC performs processing over green and light blue (land-
+containing) tiles.
+ded data are divided into 1200 × 1200 km2 standard MODIS
+tiles shown in Fig. 5. The current data set presents data per or-
+bit. Each daily ﬁle name follows the standard MODIS name
+convention, for instance:
+MCD19A1.DayOfObservation.TileNumber.Collection.
+TimeOfCreation.hdf. DayOfObservation has the format
+YYYYDDD, where YYYY is year, DDD is Julian day.
+TileNumber has the standard format, e.g., h11v05 for the
+east coast USA.
+Each daily ﬁle usually contains multiple orbit overpasses
+(1–2 at equator and up to 30 in the polar regions for com-
+bined Terra and Aqua) which represents the third (time) di-
+mension of MAIAC daily ﬁles. The orbit number and the
+overpass time of each orbit are saved in global attributes
+“Orbit_amount” and “Orbit_time_stamp” sequentially. The
+Orbit_time_stamp has the format YYYYDDDHHMM[TA],
+where YYYY is year, DDD is Julian day, HH is hour, MM is
+minute, and T and A stand for Terra and Aqua. At high lat-
+itudes, only 16 orbits with the largest coverage are reported
+per day in order to limit the ﬁle size.
+10.2
+MAIAC products: general description
+MAIAC conducts processing over global land tiles and land-
+containing ocean tiles (green and light blue colors in Fig. 5).
+Over inland, coastal and open-ocean waters, MAIAC re-
+ports AOD, ﬁne-mode fraction and spectral reﬂectance of
+underlight (water-leaving radiance). MAIAC processing over
+water will be described in a separate publication.
+10.2.1
+Atmospheric properties ﬁle (MCD19A2)
+For each orbit, the MAIAC daily MCD19A2 (atmospheric
+properties) ﬁle includes the following parameters listed in
+Table 2a. Over land, MAIAC reports the following param-
+eters at 1 km resolution: AOD at 0.47 and 0.55 µm and AOD
+uncertainty evaluated using Eq. (9) for cloud-free and possi-
+bly cloudy pixels; column water vapor (cm) for all pixels; in-
+jection height of smoke plume (in meters above ground); and
+background aerosol model used in the retrievals (see Fig. 4).
+The aerosol type (result of smoke/dust test) is reported in QA
+bits 13–14 (aerosol model) of Table 2b.
+Over water, we report AOD outside of the glint area. Cur-
+rent processing has a glint angle cutoff of ≤40◦as in the
+DT-over-ocean algorithm (Levy et al., 2013). When MA-
+IAC detects dust, AOD is also reported for smaller glint an-
+gles when measured TOA reﬂectance at 1.24 µm (B5) signif-
+icantly exceeds reﬂectance from the ocean surface predicted
+by the Cox–Munk model (Cox and Munk, 1954) for a given
+wind speed. Over the open ocean and large inland lakes (e.g.,
+Great Lakes of North America), we also report the ﬁne-mode
+fraction (FMF). FMF is not retrieved over small inland water
+bodies.
+In addition to the blue-band AOD (0.47 µm), MAIAC also
+reports AOD at 0.55 µm, which is computed based on spec-
+tral properties of the aerosol model used in retrievals. It is
+provided to support the regional and global chemical trans-
+port and climate simulation models, AOD validation and
+AOD product intercomparison, all standardized to 0.55 µm.
+Validation shows that the quality of AOD at 0.55 µm is gen-
+erally close though slightly worse than the original retrieval
+at 0.47 µm.
+Along with the retrieval results, we also provide the sun–
+view geometry at 5 km resolution, which includes cosines of
+solar and view zenith angle, relative azimuth, and scattering
+and glint angles, which may be required for analysis or ap-
+plications.
+The QA structure for MCD19A2 ﬁle is presented in Ta-
+ble 2b.
+10.2.2
+Surface reﬂectance ﬁle (MCD19A1)
+For each orbit, the MAIAC daily MCD19A1 (surface re-
+ﬂectance) ﬁle includes parameters shown in Table 3a.
+Over cloud-free land and clear-to-moderately turbid
+(AOD0.47 < 1.5) conditions, for solar zenith angles below
+80◦, ﬁle MCD19A1 reports the surface BRF at 1 km in
+bands 1–12, and at 500 m in bands 1–7 and BRF uncertainty
+(Sigma_BRFn) in MODIS red (B1) and NIR (B2) bands at
+1 km. When snow is detected, we report snow grain size (di-
+ameter in millimeters), subpixel snow fraction and RMSE
+(Snow_Fit) between MODIS measurements in bands B1, B5,
+B7 and the linear mixture model of spectral snow reﬂectance
+and land spectral BRDF at 1 km. Following the sun–view ge-
+ometry suite at 5 km, MCD19A1 also reports values of vol-
+umetric (Fv) and geometric-optics (Fg) kernels of the RTLS
+model for the geometry of observation. The kernels are pro-
+vided for the ease of users’ geometric (or BRDF) normaliza-
+tion of spectral BRFs using Eq. (16). One can easily mod-
+ify normalization to a preferable sun angle according to lati-
+tude or season, by replacing coefﬁcients in the numerator of
+Eq. (16) with values from Table 1 in the User’s Guide calcu-
+lated for different solar zenith angles and nadir view.
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5756
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+Table 2. (a) Reported parameters in the atmospheric properties ﬁle (MCD19A2). (b) AOD QA deﬁnition for MCD19A2 (16 bit unsigned
+integer). N/a is not applicable.
+(a) SDS name
+Scale
+Description
+Optical_Depth_047
+0.001
+Blue-band aerosol optical depth
+Optical_Depth_055
+0.001
+Green-band aerosol optical depth
+AOD_Uncertainty
+0.0001
+AOD uncertainty
+FineModeFraction
+0.0001
+Fine mode fraction over water
+Column_WV
+0.001
+Column water vapor (cm)
+Injection_Height
+n/a
+Smoke injection height (meters above ground)
+AOD_QA
+n/a
+AOD QA
+AOD_MODEL
+0.001
+Regional background model used
+Sun–view geometry suite at 5 km
+cosSZA
+0.0001
+Cosine of solar zenith angle (5 km)
+cosVZA
+0.0001
+Cosine of view zenith angle (5 km)
+RelAZ
+0.01
+Relative azimuth angle (5 km)
+Scattering_Angle
+0.01
+Scattering angle (5 km)
+Glint_Angle
+0.01
+Glint angle (5 km)
+(b) Bits
+Deﬁnition
+0–2
+Cloud mask
+000 – Undeﬁned
+001 – Clear
+010 – Possibly cloudy (detected by AOD ﬁlter)
+011 – Cloudy (detected by cloud mask algorithm)
+101 – Cloud shadow
+110 – Hot spot of ﬁre
+111 – Water Sediments
+3–4
+Land–water snow/ice mask
+00 – Land
+01 – Water
+10 – Snow
+11 – Ice
+5–7
+Adjacency mask
+000 – Clear
+001 – Adjacent to clouds
+010 – Surrounded by more than 8 cloudy pixels
+011 – Adjacent to a single cloudy pixel
+100 – Adjacent to snow
+101 – Snow was previously detected in this pixel
+8–11
+QA for AOD over land and water
+0000 – Best quality
+0001 – Water sediments are detected (water)
+0011 – There is one neighboring cloud
+0100 – There is > 1 neighboring clouds
+0101 – No retrieval (cloudy or other)
+0110 – No retrievals near detected or previously detected snow
+0111 – Climatology AOD (0.02): altitude above 4.2 km (Land)/3.5 km (water)
+1000 – No retrieval due to sun glint over water
+1001 – Retrieved AOD is very low (< 0.05) due to glint (water)
+1010 – AOD within ±2 km from the coastline (may be unreliable)
+1011 – Land, research quality: AOD retrieved but CM is possibly cloudy
+12
+Glint mask
+0 – No glint
+1 – Glint (glint angle < 40◦)
+13–14
+Aerosol model
+00 – Background model (regional)
+01 – Smoke detected
+10 – Dust model (dust detected)
+15
+Reserved
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5757
+Table 3. (a) Reported parameters in the surface reﬂectance ﬁle (MCD19A1). (b) Surface reﬂectance QA deﬁnition for MCD19A2 (16 bit
+unsigned integer).
+(a) SDS name
+Scale
+Description
+Sur_reﬂ[1–12]
+0.0001
+Surface reﬂectance, bands 1–12
+Sigma_BRFn[1–2]
+0.0001
+BRFn uncertainty, bands 1–2
+Snow_Fraction
+0.0001
+Snow fraction
+Snow_Grain_Size
+0.001
+Snow grain diameter (mm)
+Snow_Fit
+0.0001
+Land–snow mixture model RMSE in bands 1, 5, 7
+Status_QA
+n/a
+QA bits
+Sur_reﬂ_500 m[1–7]
+0.0001
+Surface reﬂectance at 500 m, bands 1–7
+Sun–view geometry suite (5 km)
+Fv
+n/a
+RTLS volumetric kernel (5 km)
+Fg
+n/a
+RTLS geometric kernel (5 km)
+(b) Bits
+Deﬁnition
+0–2
+Cloud mask
+3–4
+Land water snow/ice mask
+5–7
+Adjacency mask
+8
+AOD level
+0 – AOD is low (<= 0.6)
+1 – AOD is high (> 0.6) or undeﬁned
+9
+Algorithm initialization status
+0 – Algorithm is initialized
+1 – Algorithm is not initialized
+10
+BRF retrieved over snow assuming AOD = 0.05
+0 – no
+1 – yes
+11
+Altitude > 4.2 km (land)/3.5 km (water), BRF is
+retrieved using climatology AOD = 0.02
+0 – No
+1 – Yes
+12–14
+Surface change mask
+000 – No change
+001 – Regular change: greenup
+010 – Big change: greenup
+011 – Regular change: senescence
+100 – Big change: senescence
+Over water, MCD19A1 reports diffuse reﬂectance of un-
+derlight (of water-leaving radiance) in bands 1–12.
+Table 3b shows the QA deﬁnition for the surface re-
+ﬂectance ﬁle. Bits 0–2, 3–4 and 5–7 are the same as in Ta-
+ble 2b. The QA bits 8 and 9 carry additional information
+about the quality of atmospheric correction. For instance,
+better quality is achieved at low AOD and when the surface
+BRDF is known (algorithm is initialized) as opposed to high
+AOD and/or “not initialized” status when a Lambertian as-
+sumption is used in the atmospheric correction.
+10.2.3
+Surface BRDF ﬁle (MCD19A3)
+The 8-day MCD19A3 (BRDF/Albedo) ﬁle reports parame-
+ters of RTLS BRDF model (kL, kv, kG) for MODIS bands
+B1–B8, number of days since the last RTLS model update
+(Update_Day) and instantaneous surface albedo for the over-
+pass time in bands 1–8 at 1 km resolution. These parameters
+are listed in Table 4.
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5758
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+Table 4. Eight-day BRDF model parameters (MCD19A3).
+SDS name
+Scale
+Description
+Kiso
+0.0001
+RTLS isotropic weight, bands 1–8
+Kvol
+0.0001
+RTLS volumetric weight, bands 1–8
+Kgeo
+0.0001
+RTLS geometric weight, bands 1–8
+Sur_albedo
+0.0001
+Surface albedo, bands 1–8
+Update_Day
+n/a
+Number of days since the last update
+Table 5. Regional linear regression model parameters for the ex-
+pected error (RMSE) and bias. NA and SA stand for North and
+South America.
+Regions
+RMSE
+σRMSE
+a
+b
+α
+β
+NA
+0.034
+0.13
+0.049
+0.20
+SA
+0.049
+0.063
+0.083
+0.041
+Asia
+0.057
+0.13
+0.083
+0.12
+Europe
+0.035
+0.15
+0.055
+0.18
+Africa
+0.049
+0.21
+0.087
+0.17
+Australia
+0.05
+0.088
+0.094
+0.08
+Regions
+Bias
+σBias
+a
+b
+α
+β
+NA
+−0.0081
+−0.0034
+0.031
+0.31
+SA
+−0.017
+0.0065
+0.11
+0.07
+Asia
+−0.040
+0.067
+0.092
+0.18
+Europe
+−0.019
+−0.021
+0.031
+0.33
+Africa
+−0.0056
+−0.028
+0.088
+0.30
+Australia
+−0.0076
+0.085
+0.15
+0.11
+10.3
+Quality assurance
+In daily output ﬁles, the QA reports cloud mask, adjacency
+mask, surface type (the result of MAIAC dynamic land–
+water–snow classiﬁcation) and a surface change mask. In
+general, MAIAC aerosol–surface retrievals are only per-
+formed for cloud-free pixels (QA.Cloud_Mask = Clear) ex-
+cept AOD which is also reported for the value possibly
+cloudy. As discussed in Sect. 7, this AOD may be used with
+caution in speciﬁc well-understood cases, e.g., at high spa-
+tial variability of aerosol or aerosol analysis near clouds. Be-
+cause most pixels with QA.Cloud_Mask = possibly cloudy
+contain residual cloud contamination, these pixels are not
+recommended for general use.
+Adjacency
+mask
+gives
+information
+about
+detected
+clouds
+or
+snow
+in
+the
+±2-pixel
+vicinity.
+For
+most
+applications,
+we
+recommend
+to
+only
+use
+data
+with
+QA.AdjacencyMask = Clear (000). The value 011 (Adja-
+cent to a single cloudy pixel) can also be used as it often
+represents a false cloud detection. The other categories of
+Q.AdjacencyMask are not recommended when using either
+AOD or BRF products because neighboring clouds or snow
+increase possibility of residual cloud/snow contamination of
+a given pixel, resulting in overestimation of AOD and respec-
+tive errors of atmospheric correction.
+To
+select
+the
+best-quality
+AOD,
+one
+should
+use
+QA.QA_AOD = Best_Quality which combines the best val-
+ues of cloud and adjacency masks: QA.CloudMask = Clear
+and QA.AdjacencyMask = Clear.
+For
+the
+best-quality
+BRF,
+one
+should
+apply
+the
+following
+QA
+ﬁlter:
+QA.AODLevel = low
+(0),
+QA.AdjacencyMask = Clear,
+and
+QA.AlgorithmInitializeStatus = initialized (0). We should
+admit that the current QA structure is not optimal and may
+be improved in the future.
+10.4
+An example of MAIAC products
+To illustrate MAIAC product suite, Fig. 6 shows the global
+daily composite browse images at 20 km resolution for se-
+lected products including AOD (0–2), column water vapor
+(0–5 cm), RGB BRF, snow fraction (0–1) and RGB of the
+isotropic parameter (kL) of the RTLS model, which gives
+an indication of spectral BRDF and serves as a proxy of the
+general surface brightness and spectral albedo. The numbers
+in parenthesis give the scale range. The browse images were
+generated by the MODAPS Land processing team (Roy et
+al., 2002) as part of the product quality evaluation.
+The browse images are shown for days 60 and 230 of
+2005: day 60 shows a considerable snow cover in the North-
+ern Hemisphere in RGB BRF with the corresponding high
+snow fraction; dust storms in the northern Sahara and in Tak-
+lamakan Desert, and high AOD levels in the Indo-Gangetic
+plane, northern China and southeastern Asia. In contrast, on
+day 230 cloud-free observations show detected snow only
+over Greenland and polar north, as well as southern An-
+des. AOD shows strong forest ﬁres in Alaska and large-
+scale biomass burning in southern Amazon with smoke trans-
+ported southeast across South America. It also reveals dust
+storms in Western Sahara and the Thar Desert, and high
+aerosol levels in southern Africa. The RGB of RTLS kL pa-
+rameter is naturally gap-ﬁlled and shows contrasting seasonal
+dynamics of vegetation between the northern and southern
+hemispheres. The column water vapor shows seasonal, latitu-
+dinal and vertical variations, the latter of which is associated
+with retrievals above the clouds.
+10.5
+Accuracy assessment of MAIAC AOD
+Figure 7 presents results of the global MAIAC AOD val-
+idation against AERONET (Holben et al., 1998) showing
+correlation coefﬁcient, average bias and RMSE for individ-
+ual AERONET sites along with the global scatterplot dur-
+ing 2000–2016. The detailed validation analysis of MAIAC
+data set, and its comparison with the standard products from
+MODIS or other sensors deserves a separate consideration,
+so this analysis merely serves to illustrate the overall quality
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5759
+Figure 6. Global browse images showing MAIAC AOD (scale 0–2), column water vapor (scale 0–5 cm), RGB BRF, snow fraction (scale
+0–1) and RGB of the isotropic parameter (kL) of the RTLS model for days 60 (top row) and 230 (bottom row) of 2005.
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5760
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+Figure 7. Results of global MAIAC AOD validation against AERONET from the MODIS Terra and Aqua 2000–2016 record.
+of MAIAC aerosol retrievals. Figure 7 shows (a) predomi-
+nantly high correlation with AERONET except for the world
+regions where typically both AOD and its range of variation
+are low (e.g., southwestern USA or south of South Ameri-
+can continent); (b) globally low bias and RMSE except ma-
+jor biomass burning, industrial or mineral dust source regions
+such as Sahara, Sahel and subtropical Africa, Indo-Gangetic
+Plane, southern Asia and China. The higher RMSE in these
+source regions is typical of all aerosol retrieval products and
+is expected due to high variability of aerosol types and prop-
+erties, often in combination with the bright land surface in-
+creasing uncertainties of satellite retrievals. The bias shows
+clustering of results and gives a clear indication of the re-
+quired tuning of MAIAC regional aerosol models, e.g., in
+southern Asia and China. Some of these biases come from
+the seasonal variation in aerosol properties (e.g., Mhawish et
+al., 2018), which will be implemented in the next version of
+MAIAC.
+The global scatterplot of Fig. 7 shows that 66 % of re-
+trievals (grey area) agree with AERONET within ±0.05 ±
+0.1 AOD, which improves over the standard accuracy assess-
+ment of 15 % from the DT algorithm over land (e.g., Levy et
+al., 2013). While the global assessment may serve as a useful
+indicator of accuracy, the true performance of any algorithm
+is inherently regional and local, as shown by R, RMSE and
+bias statistics for each AERONET site. To generalize these
+assessments into regional prognostic error models, we com-
+puted RMSE and bias binned to retrieved AOD for differ-
+ent world regions. These results are summarized in Fig. 8,
+where the line shows the mean and the shaded area represents
+± 1 standard deviation. Our analysis and results of indepen-
+dent studies (e.g., Superczynski et al., 2017; Mhawish et al.,
+2018) show that MAIAC AOD has little dependency on view
+geometry. Although MAIAC accuracy somewhat decreases
+over bright surfaces, here the regional analysis was done for
+all AERONET sites together. Figure 8 shows that the linear
+model for both mean and standard deviation can serve as a
+reasonable proxy for both RMSE and bias; for instance
+RMSE = a + b × AOD ± (α + β × AOD)..
+(18)
+The regional linear regression model parameters are given in
+Table 5. A more detailed MAIAC AOD error analysis, as in
+Sayer et al. (2013), will be given separately.
+10.6
+Known issues and limitations
+Below is a list of currently known issues and limitations of
+algorithm MAIAC:
+1. The maximum value of LUT AOD0.47 is 4.0, which lim-
+its characterization of strong aerosol emissions.
+2. MAIAC LUTs are built assuming pseudospherical cor-
+rection in single scattering, which has a reduced accu-
+racy for high sun/view zenith angles. A reduced MAIAC
+performance is expected at solar zenith angles > 70◦.
+3. MAIAC may be missing bright salt pans in several
+world deserts. In such cases, it generates a persistently
+high AOD resulting in missing surface retrievals.
+4. Geographic AOD boundaries may sometimes be ob-
+served on borders of the regional aerosol models when
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5761
+Figure 8. Bias (a) and RMSE (b) of MAIAC AOD for different world regions as a function of retrieved AOD. NA and SA stand for North
+and South America.
+Figure 9. Illustration of MAIAC AOD contrast on the boundary of aerosol models (see Fig. 4) caused mainly by the difference in aerosol
+absorption between the models: (a) transition 8–2 (day 82, 2010), (b) transition 7–6 (day 113, 2010) and (c) transition 7–2 (day 237, 2010).
+they have a signiﬁcant difference in absorption. While
+this is not an issue over most of the globe, three tran-
+sition zones may stand out during the biomass-burning
+seasons (see Fig. 4): the northwest boundary between
+India (model 8) and central Asia (model 2), and two
+transitions from central Africa to Sahel–Sahara (mod-
+els 7–6) and to southern Africa (models 7–2). Figure 9
+shows one the worst-case examples for each transition
+zone when at high AOD the contrast across the model
+boundary can be as high as 40–50 % of the mean value,
+while it is not noticeable for most of the year when AOD
+is moderate to low.
+5. Because of inherent uncertainties of gridding on the
+coastline, the area of ±1–3 pixels from the coastline
+may contain frequent artifacts in cloud mask (usually
+overdetection), AOD (higher values) and surface BRF.
+Users should exercise caution near the coastline as indi-
+cated by QA.QA_AOD (value 1010).
+6. AC over detected snow: as MAIAC does not retrieve
+AOD over snow, it assumes a low climatology AOD is
+0.05 globally and 0.02 at high elevations (H > 4.2 km).
+Over north-central China, which is often heavily pol-
+luted and where low-AOD assumption can lead to a sig-
+niﬁcant bias, we use AOD averaged over a mesoscale
+area of 150 km using reliable AOD retrievals over snow-
+free pixels. Such an approach does improve the quality
+of AC compared to low-AOD assumption as judged by
+the reduced boundaries and diminished color artifacts,
+but it does not account for the aerosol variability inside
+a 150 km area, which may be signiﬁcant.
+7. The ice mask is currently unreliable.
+8. A particular type of cloud (moderately thin and ho-
+mogeneous cumulus) is consistently missed over water
+generating high AOD.
+9. MAIAC uses a specialized “bay” mask for aerosol re-
+trievals over coastal waters with high sediments. The
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5762
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+current bay mask misses several these areas where AOD
+retrievals often show a high bias.
+10. Since 2014, when MODIS Terra/Aqua calibration was
+consistently updated (Lyapustin et al., 2014b), the con-
+tinued calibration degradation of MODIS Terra in MA-
+IAC AOD increasingly appears via striping and a pos-
+itive bias on the left-hand side of the MODIS scan,
+mostly over bright surfaces. The MODIS calibration
+was recently updated. It will be implemented in MODIS
+Collection 6.1 Land Discipline reprocessing (which in-
+cludes MAIAC), scheduled for the second half of 2018.
+We expect a signiﬁcant reduction of mentioned errors in
+MAIAC C6.1 AOD.
+11
+Conclusions
+This paper presented the C6 MAIAC algorithm used in the
+ongoing MODIS Collection 6 processing. MAIAC cloud de-
+tection, aerosol retrieval and atmospheric correction over
+land were described in detail. Being the ﬁrst publication of
+the ofﬁcial new MODIS product MCD19, this paper also pro-
+vided the technical speciﬁcation of MCD19 output ﬁles along
+with the brief quality assurance discussion and recommen-
+dations for use. Other MAIAC components related to detec-
+tion and processing of snow, retrievals over water and smoke
+plume height retrieval will be described elsewhere.
+The paper also presented a brief analysis of near-global
+MAIAC AOD validation against AERONET measurements
+along with error analysis. These results serve to complement
+the growing body of the air quality and land community stud-
+ies of MAIAC data quality and its comparison to the standard
+MODIS products.
+Data availability. The following tools offer options for searching
+the LP DAAC (Land Processes Distributed Active Archive Center)
+data holdings and provide access to the data:
+1. Bulk download: LP DAAC Data Pool (https://lpdaac.usgs.
+gov/data_access/data_pool, last access: 10 October 2018) and
+DAAC2Disk (https://lpdaac.usgs.gov/data_access/daac2disk,
+last access: 10 October 2018)
+2. Search
+and
+browse:
+USGS
+EarthExplorer
+(https:
+//earthexplorer.usgs.gov/,
+last
+access:
+10
+October
+2018)
+and NASA Earthdata Search (https://search.earthdata.nasa.
+gov/search, last access: 10 October 2018)
+3. MODIS Land Global Browse Images: 5 km versions of se-
+lected product to enable synoptic quality assessment (http://
+landweb.nascom.nasa.gov/cgi-bin/browse/browse.cgi, last ac-
+cess: 10 October 2018)
+Author contributions. AL developed MAIAC code and prepared
+the manuscript. YW developed an operational version of MAIAC
+and conducted global evaluation and testing. SK supported the com-
+putation of MAIAC lookup tables. DH conducted global validation
+of the MAIAC aerosol product.
+Competing interests. The authors declare that they have no conﬂict
+of interest.
+Acknowledgements. The research of Alexei Lyapustin, Yujie Wang
+and Sergey Korkin was funded by NASA Science for Terra, Aqua
+and SNPP (17-TASNPP17-0116; solicitation NNH17ZDA001N-
+TASNPP). Alexei Lyapustin was additionally supported by the
+NASA GeoCAPE program. The work of Dong Huang was funded
+by the NASA DSCOVR program. We appreciate the large amount
+of work from the MODAPS team on MAIAC integration, in
+particular the support of Ed Masuoka and Sadashiva Devadiga, and
+the support of LP DAAC. The lasting support of the NASA Center
+for Climate Simulations in continental-scale testing and multiple
+internal releases of MAIAC data has been invaluable. We are
+grateful to the AERONET team for providing validation data. We
+appreciate help of Andy Sayer, comments/edits by Jeff Reid and an
+anonymous reviewer who helped to improve the paper. Lastly, we
+would like to express gratitude to multiple users and user groups
+in the land and air quality communities whose continuous analysis
+of MAIAC MODIS data helped to bring MAIAC to its current level.
+Edited by: Jun Wang
+Reviewed by: Jeffrey Reid and one anonymous referee
+References
+Ackerman, S. A., Strabala, K. I., Menzel, W. P., Frey, R. A., Moeller,
+C. C., and Gumley, L. E.: Discriminating clear-sky from clouds
+with MODIS, J. Geophys. Res., 103, 32141–32157, 1998.
+Ackerman, S., Frey, R., Strabala, Liu, Y., Gumley, L., Baum,
+B., and Menzel, P.: Discriminating clear-sky from cloud with
+MODIS algorithm theoretical basis document (MOD35), 121
+pp., available at: https://modis-atmos.gsfc.nasa.gov/sites/default/
+ﬁles/ModAtmo/MOD35_ATBD_Collection6_0.pdf (last access:
+9 October 2018), 2010.
+Albert, P., Bennartz, R., Preusker, R., Leinweber, R., and Fischer,
+J.: Remote Sensing of Atmospheric Water Vapor Using the Mod-
+erate Resolution Imaging Spectroradiometer, J. Atmos. Ocean.
+Tech.,
+22,
+309–314,
+https://doi.org/10.1175/JTECH1708.1,
+2005.
+Alden, C. B., Miller, J. B., Gatti, L. V., Gloor, M. M., Guan, K.,
+Michalak, A. M., van der Laan-Luijkx, I. T., Touma, D., An-
+drews, A., Basso, L. S., Correia, C. S. C., Domingues, L. G.,
+Joiner, J., Krol, M. C., Lyapustin, A. I., Peters, W., Shiga, Y.
+P., Thoning, K., van der Velde, I. R., van Leeuwen, T. T., Ya-
+dav, V., and Diffenbaugh, N. S.: Regional atmospheric CO2 in-
+version reveals seasonal and geographic differences in Ama-
+zon net biome exchange, Glob. Change Biol., 22, 3427–3443,
+https://doi.org/10.1111/gcb.13305, 2016.
+Bi, J., Knyazikhin, Y., Choi, S., Park, T., Barichivich, J., Ciais,
+P., Fu, R., Ganguly, S., Hall, F., Hilker, T., Huete, A., Jones,
+M., Kimball, J., Lyapustin, A., Mottus, M., Nemani, R., Piao,
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5763
+S., Poulter, B., Saleska, S., Saatchi, S., Xu, L., Zhou, L., and
+Myneni, R.: Sunlight mediated seasonality in canopy struc-
+ture and photosynthetic activity of Amazonian rainforests, En-
+viron. Res. Lett., 10, 064014; https://doi.org/10.1088/1748-
+9326/10/6/064014, 2015.
+Bi, J., Myneni, R., Lyapustin, A., Wang, Y., Park, T., Chen, C., Yan,
+K., and Knyazikhin, Y.: Amazon forests’ response to droughts:
+a perspective from the MAIAC product, Remote Sens., 8, 356,
+https://doi.org/10.3390/rs8040356, 2016.
+Chen, C., Knyazikhin, Y., Park, T., Yan, K., Lyapustin, A., Wang,
+Y., Yang, B., and Myneni, R. B.: Prototyping of LAI and
+FPAR Algorithm with MODIS MultiAngle Implementation of
+Atmospheric Correction (MAIAC) data, Remote Sens., 9, 370,
+https://doi.org/10.3390/rs9040370, 2017.
+Chudnovsky, A., Tang, C., Lyapustin, A., Wang, Y., Schwartz,
+J., and Koutrakis, P.: A critical assessment of high-resolution
+aerosol optical depth retrievals for ﬁne particulate mat-
+ter
+predictions,
+Atmos.
+Chem.
+Phys.,
+13,
+10907–10917,
+https://doi.org/10.5194/acp-13-10907-2013, 2013.
+Clough, S. A., Shephard, M. W., Mlawer, E. J., Delamere, J. S.,
+Iacono, M. J., Cady-Pereira, K., Boukabara, S., and Brown, P.
+D.: Atmospheric radiative transfer modeling: a summary of the
+AER codes, J. Quant. Spectrosc. Ra., 91, 233–244, 2005.
+Cox, C. and Munk, W.: Measurements of the roughness of the sea
+surface from photographs of the Sun’s glitter, J. Opt. Soc. Am.,
+44, 838–850, 1954.
+Di,
+Q.,
+Kloog,
+I.,
+Koutrakis,
+P.,
+Lyapustin,
+A.,
+Wang,
+Y.,
+and
+Schwartz,
+J.:
+Assessing
+PM2.5
+Exposures
+with
+High
+Spatiotemporal
+Resolution
+across
+the
+Continen-
+tal United States, Environ. Sci. Technol., 50, 4712–4721,
+https://doi.org/10.1021/acs.est.5b06121, 2016.
+Dubovik, O. and King, M. D.: A ﬂexible inversion algorithm for
+retrieval of aerosol optical properties from sun and sky radiance
+measurements, J. Geophys. Res., 105, 20673–20696, 2000.
+Dubovik, O., Holben, B., Eck., T. F., Smirnov, A., Kaufman, Y. J.,
+King, M. D., Tanre, D., and Slutzker, I.: Variability of absorption
+and optical properties of key aerosol types observed in world-
+wide locations, J. Atmos. Sci., 59, 590–608, 2002.
+Dubovik, O., Sinyuk, A., Lapyonok, T., Holben, B. N., Mishchenko,
+M., Yang, P., Eck, T. F., Volten, H., Munoz, O., Veihelmann, B.,
+van der Zander, Leon, J.-F., Sorokin, M., and Slutsker, I.: Ap-
+plication of spheroid models to account for aerosol particle non-
+sphericity in remote sensing of desert dust, J. Geophys. Res., 111,
+D11208, https://doi.org/10.1029/2005JD006619, 2006.
+Eck, T. F., Holben, B. N., Reid, J. S., Mukelabai, M. M., Piketh,
+S. J., Torres, O., Jethva, H. T., Hyer, E. J., Ward, D. E., Dubovik,
+O., Sinyuk, A., Schafer, J. S., Giles, D. M., Sorokin, M., Smirnov,
+A., and Slutsker, I.: A seasonal trend of single scattering albedo
+in southern African biomass-burning particles: Implications for
+satellite products and estimates of emissions for the world’s
+largest biomass-burning source, J. Geophys. Res.-Atmos., 118,
+6414–6432; https://doi.org/10.1002/jgrd.50500, 2013.
+Emde, C., Barlakas, V., Cornet, C., Evans, F., Korkin, S., Ota,
+Y., Labonnote, L., Lyapustin, A., Macke, A., Mayer, B., and
+Wendisch, M.: IPRT polarized radiative transfer model intercom-
+parison project – phase A, J. Quant. Spectrosc. Ra., 164, 8–36,
+2015.
+Emili, E., Lyapustin, A., Wang, Y., Popp, C., Korkin, S.,
+Zebisch,
+M.,
+Wunderle,
+S.,
+and
+Petitta,
+M.:
+High
+spa-
+tial
+resolution
+aerosol
+retrieval
+with
+MAIAC:
+Applica-
+tion to mountain regions, J. Geophys. Res., 116, D23211,
+https://doi.org/10.1029/2011JD016297, 2011.
+Gao, B. C. and Y. J. Kaufman: Water vapor retrievals using
+Moderate Resolution Imaging Spectroradiometer (MODIS)
+near-infrared
+channels,
+J.
+Geophys.
+Res.,
+108,
+4389,
+https://doi.org/10.1029/2002JD003023, 2003.
+Guan, K., Pan, M., Li, H., Wolf, A., Wu, J., Medvigy, D., Cay-
+lor, K. K., Shefﬁeld J., Wood, E. F., Malhi, Y., Liang, M.,
+Kimball, J. S., Saleska, S., Berry, J., Joiner, J., and Lya-
+pustin, A. I.: Photosynthetic seasonality of global tropical
+forests constrained by hydroclimate, Nat. Geosci., 8, 284–289,
+https://doi.org/10.1038/NGEO2382, 2015.
+Hilker, T., Lyapustin, A. I., Tucker, C. J., Sellers, P. J., Hall, F. G.,
+and Wang, Y.: Remote Sensing of Tropical Ecosystems: Atmo-
+spheric Correction and Cloud Masking Matter, Remote Sens. En-
+viron., 127, 370–384, https://doi.org/10.1016/j.rse.2012.08.035,
+2012.
+Hilker, T., Lyapustin, A. I., Tucker, C. J., Hall, F. G., My-
+neni, R. B., Wang, Y., Bi, J., de Moura, Y. M., and Sell-
+ers, P. J.: Vegetation dynamics and rainfall sensitivity of
+the Amazon, P. Natl. Acad. Sci. USA, 111, 16041–16046,
+https://doi.org/10.1073/pnas.1404870111, 2014.
+Hilker, T., Lyapustin, A. I., Wang, Y., Hall, F. G., Tucker, C. J., and
+Sellers, P. J.: On the measurability of change in Amazon vegeta-
+tion from MODIS, Remote Sens. Environ., 166, 233–242, 2015.
+Holben, B. N., Eck, T. F., Slutsker, I., Tanré, D., Buis, J. P., Setzer,
+A., Vermote, E., Reagan, J. A., Kaufman, Y. J., Nakajima, T.,
+Lavenu, F., Jankowiak, I., and Smirnov, A.: AERONET-A Fed-
+erated Instrument Network and Data Archive for Aerosol Char-
+acterization, Remote Sens. Environ., 66, 1–16, 1998.
+Hsu, N.-Y. C., Jeong, M.-J., Bettenhausen, C., Sayer, A. M.,
+Hansell, R. A., Seftor, C. S., Huang, J., and Tsay, S.-C.:
+Enhanced Deep Blue aerosol retrieval algorithm: The sec-
+ond generation, J. Geophys. Res.-Atmos., 118, 9296–9315,
+https://doi.org/10.1002/jgrd.50712, 2013.
+Jackson, J. M., Liu, H., Laszlo, I., Kondragunta, S., Remer, L. A.,
+Huang, J., and Huang, H. C.: Suomi-NPP VIIRS aerosol algo-
+rithms and data products, J. Geophys. Res.-Atmos., 118, 12673–
+12689, https://doi.org/10.1002/2013JD020449, 2013.
+Jethva, H., Torres, O., and Yoshida, Y.: Accuracy Assessment
+of MODIS Land Aerosol Optical Thickness Algorithms using
+AERONET Measurements, Atm. Meas. Techniques, in prepara-
+tion, 2018.
+Jones, M. O., Kimball, J. S., and Nemani, R. R.: Asynchronous
+Amazon forest canopy phenology indicates adaptation to both
+water and light availability, Environ. Res. Lett., 9, 1–10,
+https://doi.org/10.1088/1748-9326/9/12/124021, 2014.
+Just, A., Wright, R., Schwartz, J., Coull, B., Baccarelli, A.,
+Maria, Tellez-Rojo M., Moody, E., Wang, Y., Lyapustin, A.,
+and Kloog, I.: Using High-Resolution Satellite Aerosol Op-
+tical Depth To Estimate Daily PM2.5 Geographical Distribu-
+tion in Mexico City, Environ. Sci. Technol., 49, 8576–8584,
+https://doi.org/10.1021/acs.est.5b00859, 2015.
+Kloog, I., Chudnovsky, A. A., Just, A. C., Nordio, F., Koutrakis,
+P., Coull, B. A., Lyapustin, A. I., Wang, Y., and Schwartz, J.:
+A new hybrid spatio-temporal model for estimating daily multi-
+year PM2.5 concentrations across northeastern USA using high
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+
+5764
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+resolution aerosol optical depth data, Atmos. Environ., 95, 581–
+590, https://doi.org/10.1016/j.atmosenv.2014.07.014, 2014.
+Koepke, P.: Effective reﬂectance of oceanic whitecaps, Appl. Op-
+tics, 23, 1816–1824, 1984.
+Kokhanovsky, A. and Zege, E. P.: Scattering optics of snow, Appl.
+Optics, 43, 1589–1602, 2004.
+Koren, I., Remer, L. A., Kaufman, Y. J., Rudich, Y., and Martins, J.
+V.: On the twilight zone between clouds and aerosols, Geophys.
+Res. Lett., 34, 1–5, https://doi.org/10.1029/2007GL029253,
+2007.
+Kwiatkowska, E. J., Franz, B. A., Meister, G., McClain, C. R., and
+Xiong, X.: Cross calibration of ocean-color bands from Moderate
+Resolution Imaging Spectroradiometer on Terra platform, Appl.
+Optics, 47, 6796–6810, 2008.
+Levy, R. C., Remer, L., Mattoo, S., Vermote, E., and Kaufman, Y.
+J.: Second-generation algorithm for retrieving aerosol properties
+over land from MODIS spectral reﬂectance, J. Geophys. Res.,
+112, D13211, https://doi.org/10.1029/2006JD007811, 2007.
+Levy, R. C., Mattoo, S., Munchak, L. A., Remer, L. A., Sayer, A.
+M., Patadia, F., and Hsu, N. C.: The Collection 6 MODIS aerosol
+products over land and ocean, Atmos. Meas. Tech., 6, 2989–
+3034, https://doi.org/10.5194/amt-6-2989-2013, 2013.
+Liu, Z., Wong, M. S., Nichol, J., and Chan, P. W.: A multi-sensor
+study of water vapour from radiosonde, MODIS and AERONET:
+a case study of Hong Kong, Int. J. Climatol., 33, 109–120, 2013.
+Lopes, A. P., Nelson, B. W., Wu, J., Graça, P. M. L. A., Tavares, J.
+V., Prohaska, N., Martins, G. A., and Saleska, S. R.: Leaf ﬂush
+drives dry season green-up of the Central Amazon, Remote Sens.
+Environ., 182, 90–98, https://doi.org/10.1016/j.rse.2016.05.009,
+2016.
+Lucht, W., Schaaf, C. B., and Strahler, A. H.: An algorithm for the
+retrieval of albedo from space using semiempirical BRDF mod-
+els, IEEE T. Geosci. Remote, 38, 977–998, 2000.
+Lyapustin, A. and Knyazikhin, Yu.: Green’s function method in the
+radiative transfer problem, I: Homogeneous non-Lambertian sur-
+face, Appl. Optics, 40, 3495–3501, 2001.
+Lyapustin, A.: Interpolation and Proﬁle Correction (IPC) method
+for shortwave radiative transfer in spectral intervals of gaseous
+absorption, J. Atmos. Sci., 60, 865–871, 2003.
+Lyapustin, A.: Radiative Transfer Code SHARM for Atmospheric
+and Terrestrial Applications, Appl. Optics, 44, 7764–7772, 2005.
+Lyapustin,
+A.,
+Wang,
+Y.,
+and
+Frey,
+R.:
+An
+Automatic
+Cloud
+Mask
+Algorithm
+Based
+on
+Time
+Series
+of
+MODIS Measurements, J.
+Geophys. Res., 113, D16207,
+https://doi.org/10.1029/2007JD009641, 2008.
+Lyapustin, A., Tedesco, M., Wang, Y., Aoki, T., Hori, M., and
+Kokhanovsky, A.: Retrieval of snow grain size over Greenland
+from MODIS, Remote Sens. Environ., 113, 1976–1987, 2009.
+Lyapustin, A., Gatebe, C. K., Kahn, R., Brandt, R., Redemann,
+J., Russell, P., King, M. D., Pedersen, C. A., Gerland, S.,
+Poudyal, R., Marshak, A., Wang, Y., Schaaf, C., Hall, D., and
+Kokhanovsky, A.: Analysis of snow bidirectional reﬂectance
+from ARCTAS Spring-2008 Campaign, Atmos. Chem. Phys., 10,
+4359–4375, https://doi.org/10.5194/acp-10-4359-2010, 2010.
+Lyapustin,
+A.,
+Martonchik,
+J.,
+Wang,
+Y.,
+Laszlo,
+I.,
+and
+Korkin,
+S.:
+Multi-Angle
+Implementation
+of
+Atmo-
+spheric
+Correction
+(MAIAC):
+1.
+Radiative
+Transfer
+Ba-
+sis and Look-Up Tables, J. Geophys. Res., 116, D03210,
+https://doi.org/10.1029/2010JD014985, 2011a.
+Lyapustin, A., Wang, Y., Laszlo, I., Kahn, R., Korkin, S., Remer, L.,
+Levy, R., and Reid, J. S.: Multi-Angle Implementation of Atmo-
+spheric Correction (MAIAC): 2. Aerosol Algorithm, J. Geophys.
+Res.,
+116,
+D03211,
+https://doi.org/10.1029/2010JD014986,
+2011b.
+Lyapustin, A., Wang, Y., Laszlo, I., Hilker, T., Hall, F., Sell-
+ers, P., Tucker, J., and Korkin, S.: Multi-Angle Implementa-
+tion of Atmospheric Correction for MODIS (MAIAC), 3: At-
+mospheric Correction, Remote Sens. Environ., 127, 385–393,
+https://doi.org/10.1016/j.rse.2012.09.002, 2012a.
+Lyapustin, A., Korkin, S., Wang, Y., Quayle, B., and Las-
+zlo, I.: Discrimination of biomass burning smoke and clouds
+in MAIAC algorithm, Atmos. Chem. Phys., 12, 9679–9686,
+https://doi.org/10.5194/acp-12-9679-2012, 2012b.
+Lyapustin, A., Wang, Y., Laszlo, I., and Korkin, S.: Improved
+cloud and snow screening in MAIAC aerosol retrievals using
+spectral and spatial analysis, Atmos. Meas. Tech., 5, 843–850,
+https://doi.org/10.5194/amt-5-843-2012, 2012c.
+Lyapustin, A., Alexander, M. J., Ott, L., Molod, A., Holben, B.,
+Susskind, J., and Wang, Y.: Observation of mountain lee waves
+with MODIS NIR column water vapor, Geophys. Res. Lett., 41,
+710–716, https://doi.org/10.1002/2013GL058770, 2014a.
+Lyapustin, A., Wang, Y., Xiong, X., Meister, G., Platnick, S., Levy,
+R., Franz, B., Korkin, S., Hilker, T., Tucker, J., Hall, F., Sell-
+ers, P., Wu, A., and Angal, A.: Scientiﬁc impact of MODIS C5
+calibration degradation and C6+ improvements, Atmos. Meas.
+Tech., 7, 4353–4365, https://doi.org/10.5194/amt-7-4353-2014,
+2014b.
+Lyapustin, A. and Wang, Y.: MCD19A1 MODIS/Terra+Aqua
+Land Surface BRF Daily L2G Global 500 m and 1 km SIN
+Grid V006 [Data set], NASA EOSDIS Land Processes DAAC,
+https://doi.org/10.5067/MODIS/MCD19A1.006, 2018a.
+Lyapustin, A. and Wang, Y.: MCD19A2 MODIS/Terra+Aqua
+Land Aerosol Optical Depth Daily L2G Global 1 km SIN
+Grid V006 [Data set], NASA EOSDIS Land Processes DAAC,
+https://doi.org/10.5067/MODIS/MCD19A2.006, 2018b.
+Lyapustin, A. and Wang, Y.: MCD19A3 MODIS/Terra+Aqua
+BRDF Model Parameters 8-Day L3 Global 1 km SIN Grid
+V006 [Data set], NASA EOSDIS Land Processes DAAC,
+https://doi.org/10.5067/MODIS/MCD19A3.006, 2018c.
+Lyapustin, A. I., Y. Wang, S. Korkin, R. Kahn, and D. Winker:
+MAIAC Thermal Technique for Smoke Injection Height from
+MODIS, in preparation, 2018d.
+Maeda, E. E., Moura, M. Y., Wagner, F., Hilker, T., Lyapustin, A. I.,
+Wang, Y., Mõttus, M., Aragão, L. E. O. C., and Shimabukuro, Y.:
+Consistency of vegetation index seasonality across the Amazon
+rainforest, Int. J. Appl. Earth. Obs., 52, 42–53, 2016.
+Maeda, E. E., Ma, X., Wagner, F. H., Kim, H., Oki, T.,
+Eamus, D., and Huete, A.: Evapotranspiration seasonality
+across the Amazon Basin, Earth Syst. Dynam., 8, 439–454,
+https://doi.org/10.5194/esd-8-439-2017, 2017.
+Martins, V. S., Lyapustin, A., de Carvalho, L. A. S., Barbosa, C. C.
+F., and Novo, E. M. L. M.: Validation of high-resolution MAIAC
+aerosol product over South America, J. Geophys. Res.-Atmos.,
+122, 7537–7559, https://doi.org/10.1002/2016JD026301, 2017.
+Mhawish, A., Sorek-Hamer, M., Banerjee, T., Lyapustin, A., Bro-
+day, D. M., and Chatﬁeld, R.: Intercomparison and evaluation of
+MODIS C6 MAIAC, DB and DT AOD over South Asia, Remote
+Sens. Environ., in review, 2018.
+Atmos. Meas. Tech., 11, 5741–5765, 2018
+www.atmos-meas-tech.net/11/5741/2018/
+
+A. Lyapustin et al.: MODIS Collection 6 MAIAC algorithm
+5765
+Prasad, A. K. and Singh, R. P.: Validation of MODIS Terra,
+AIRS, NCEP/DOE, AMIP-II reanalysis-2, and AERONET sun
+photometer derived integrated precipitable water vapor using
+ground-based GPS receivers over India, J. Geophys. Res., 114,
+D05107, https://doi.org/10.1029/2008JD011230, 2009.
+Remer, L. A. and Kaufman, Y. J.: Dynamical aerosol model: Ur-
+ban/industrial aerosol, J. Geophys. Res., 103, 13859–13871,
+1998.
+Rothman, L. S., Gordon, I. E., Barbe, A., Benner, D. C., Bernath, P.
+F., Birk, M., Boudon, V., Brown, L. R., Campargue, A., Cham-
+pion, J.-P., Chance, K., Couderti, L. H., Dana, V., Devi, V. M.,
+Fally, S., Flaud, J.-M., Gamache, R. R., Goldman, A., Jacque-
+mart, D., Kleiner, I., Lacome, N., Lafferty, W. J., Mandin, J.-
+Y., Massie, S. T., Mikhailenko, S. N., Miller, C. E., Moazzen-
+Ahmadi, N., Naumenko, O. V., Nikitin, A. V., Orphal, J.,
+Perevalov, V. I., Perrin, A., Predoi-Cross, A., Rinsland, C. P., Rot-
+ger, M., Sˇimecová, M., Smith, M. A. H., Sung, K., Tashkun, S.
+A., Tennyson, J., Toth, R. A., Vandaele, A. C., and Vander Auw-
+era, J.: The HITRAN 2008 molecular spectroscopic database, J.
+Quant. Specctrosc. Ra., 110, 533–572, 2009.
+Roy, D. P., Borak, J. S., Devadiga, S., Wolfe, R. E., Zheng, M.,
+and Descloitres, J.: The MODIS Land product quality assessment
+approach, Remote Sens. Environ., 83, 62–76, 2002.
+Saleska,
+S.
+R.,
+Wu,
+J.,
+Guan,
+K.,
+Restrepo-Coupe,
+N.,
+Nobre,
+A.
+D.,
+Araujo,
+A.,
+and
+Huete,
+A.
+R.:
+Dry-
+season greening of Amazon forests, Nature, 531, E4–E5,
+https://doi.org/10.1038/nature16457, 2016.
+Sayer, A. M., Hsu, N. C., Bettenhausen, C., and Jeong, M.-J.: Vali-
+dation and uncertainty estimates for MODIS Collection 6 “Deep
+Blue” aerosol data, J. Geophys. Res.-Atmos., 118, 7864–7872,
+https://doi.org/10.1002/jgrd.50600, 2013.
+Schaaf, C. B., Gao, F., Strahler, A. H., Lucht, W., Li, X., Tsang,
+T., Strugnell, N. C., Zhang, X., Jin, Y., Muller, J.-P., Lewis, P.,
+Barnsley, M., Hobson, P., Disney, M., Roberts, G., Dunderdale,
+M., Doll, C., d’Entremont, R. P., Hu, B., Liang, S., Privette, J. L.,
+and Roy, D.: First operational BRDF, albedo nadir reﬂectance
+products from MODIS, Remote Sens. Environ., 83, 135–148,
+2002.
+Schmid, B., Michalsky, J. J., Slater, D. W., Barnard, J. C., Halthore,
+R. N., Liljegren, J. C., Holben, B. N., Eck, T. F., Livingston, J.
+M., Russell, P. B., Ingold, T., and Slutsker, I.: Comparison of
+columnar water vapor measurements from solar transmittance
+methods, Appl. Optics, 40, 1886–1896, 2001.
+Simpson, J. J., Jin, Z., and Stitt, J. R.: Cloud shadow detection under
+arbitrary viewing and illumination condition, IEEE T. Geosci.
+Remote, 38, 972–976, 2000.
+Singh, N., Murari, V., Kumar, M., Barman, S. C., and Banerjee, T.:
+Fine particulates over South Asia: Review and meta-analysis of
+PM2.5 source apportionment through receptor model, Environ.
+Pollut., 223, 121–136, 2017.
+Stafoggia, M., Schwartz, J., Badaloni, C., Bellander, T., Alessan-
+drini, E., Cattani, G., de’ Donato, F., Gaeta, A., Leone, G., Lya-
+pustin, A., Sorek-Hamer, M., de Hoogh, K., Di, Q., Forastiere,
+F., and Kloog, I.: Estimation of daily PM10 concentrations
+in Italy (2006–2012) using ﬁnely resolved satellite data, land
+use variables and meteorology, Environ. Int., 99, 234–244,
+https://doi.org/10.1016/j.envint.2016.11.024, 2016.
+Stubenrauch, C. J., Cros, S., Guignard, A., and Lamquin, N.:
+A 6-year global cloud climatology from the Atmospheric In-
+fraRed Sounder AIRS and a statistical analysis in synergy with
+CALIPSO and CloudSat, Atmos. Chem. Phys., 10, 7197–7214,
+https://doi.org/10.5194/acp-10-7197-2010, 2010.
+Sun, J., Xiong, X., Angal, A., Chen, H., Wu, A., and Geng, X.:
+Time-Dependent Response Versus Scan Angle for MODIS Re-
+ﬂective Solar Bands, IEEE T. Geosci. Remote, 52, 3159–3174,
+2014.
+Superczynski S., Kondragunta, S., and Lyapustin, A.: Evaluiation
+of the Multi-Angle Implementation of Atmospheric Correction
+(MAIAC) Aerosol Algorithm through Intercomparison with VI-
+IRS Aerosol Products and AERONET, J. Geophys. Res.-Atmos.,
+122, 3005–3022, https://doi.org/10.1002/2016JD025720, 2017.
+Tang, C., Coull, B., Schwartz, J., Lyapustin, A., Di, Q., and
+Koutrakis, P.: Developing Particle Emission Inventories Using
+Remote Sensing (PEIRS), J. Air Waste Manage. Assoc., 67, 53–
+63, 2017.
+Torres, O., Bhartia, P. K., Herman, J. R., and Ahmad, Z.: Derivation
+of aerosol properties from satellite measurements of backscat-
+tered ultraviolet radiation: Theoretical basis, J. Geophys. Res.,
+103, 17099–17110, 1998.
+Torres, O., Tanskanen, A., Veihelmann, B., Ahn, C., Braak, R.,
+Bhartia, P. K., Veefkind, P., and Levelt, P.: Aerosols and
+surface UV products from Ozone Monitoring Instrument ob-
+servations: An overview, J. Geophys. Res., 112, D24S47,
+https://doi.org/10.1029/2007JD008809, 2007.
+Vermote, E. F. and Kotchenova, S.: Atmospheric correction for the
+monitoring of land surfaces, J. Geophys. Res., 113, D23S90,
+https://doi.org/10.1029/2007JD009662, 2008.
+Wagner, F. H., Hérault, B., Rossi, V., Hilker, T., Maeda,
+E.
+E.,
+Sanchez,
+A.,
+Lyapustin,
+A.
+I.,
+Galvao,
+L.
+S.,
+Wang, Y., and Aragao, L. E. O. C.: Climate drivers of
+the Amazon forest greening, PLoS ONE, 12, e0180932,
+https://doi.org/10.1371/journal.pone.0180932, 2017.
+Wolfe, R. E., Roy, D. P., and Vermote, E.: MODIS Land Data Stor-
+age, Gridding, and Compositing Methodology: Level 2 Grid,
+IEEE T. Geosci. Remote, 36, 1324–1338, 1998.
+Xiao, Q. Y., Wang, Y., Chang, H. H., Meng, X., Geng, G.,
+Lyapustin, A., and Liu, Y.: Full-coverage high-resolution
+daily PM2.5 estimation using MAIAC AOD in the Yangtze
+River Delta of China, Remote Sens. Environ., 199, 437–446,
+https://doi.org/10.1016/j.rse.2017.07.023, 2017.
+Zhang, Q., Cheng, Y.-B., Lyapustin, A. I., Wang, Y., Gao,
+F., Suyker, A., Verma, S., and Middleton, E. M.: Estima-
+tion of crop gross primary production (GPP): fAPARchl ver-
+sus MOD15A2 FPAR, Remote Sens. Environ., 153, 1–6,
+https://doi.org/10.1016/j.rse.2014.07.012, 2014.
+www.atmos-meas-tech.net/11/5741/2018/
+Atmos. Meas. Tech., 11, 5741–5765, 2018

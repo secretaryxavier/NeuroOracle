@@ -1,0 +1,1058 @@
+A combined VBM and DTI study of schizophrenia: bilateral decreased 
+insula volume and cerebral white matter disintegrity corresponding 
+to subinsular white matter projections unlinked to clinical 
+symptomatology
+Aslıhan Onay*
+Hale Yapıcı Eser*
+Çiğdem Ulaşoğlu-Yıldız
+Selçuk Aslan 
+Erhan Turgut Talı
+S
+chizophrenia is a chronic disorder with abnormalities in perception, thinking, and be-
+havior and presentation of negative symptoms (1). Though there have been many 
+advances in the treatment of schizophrenia, it is still difficult to achieve recovery and 
+current treatments may only alleviate some of the symptoms of schizophrenia, instead of 
+treating the underlying pathology (2). Schizophrenia patients are heterogeneous  in their 
+clinical findings and a well-defined, common pathology was not elucidated to allow for 
+identification of curative treatments. 
+The neuroimaging studies about the neurobiology of schizophrenia have focused on 
+brain connectivity, brain function, and changes in grey matter volumes (3). Meta-anal-
+ysis of imaging studies suggest that the bilateral insula, thalamus, dorsolateral prefron-
+tal cortex, medial frontal gyrus and posterior cingulate gyrus, superior temporal cortex, 
+390
+From the Departments of Radiology (A.O.  
+aslionay@gmail.com, aslionay@kuh.ku.edu.tr) 
+and Psychiatry (H.Y.E.), Koç University School of 
+Medicine, İstanbul, Turkey; Hulusi Behçet Life 
+Sciences Research Center (Ç.U.Y.), İstanbul University 
+İstanbul School of Medicine, İstanbul, Turkey; the 
+Departments of Psychiatry (S.A.) and Radiology 
+(E.T.T.), Gazi University School of Medicine, Ankara, 
+Turkey.
+*These authors contributed equally to this study.
+Received 6 November 2016; revision requested 18 
+January 2017; last revision received 26 February 
+2017; accepted 7 April 2017.
+DOI 10.5152/dir.2017.16519
+Diagn Interv Radiol 2017; 23:390–397
+© Turkish Society of Radiology 2017
+NEURORADIOLOGY
+ORIGINAL ARTICLE 
+PURPOSE  
+Grey matter and white matter changes within the brain are well defined in schizophrenia. How-
+ever, most studies focused on either grey matter changes or white matter integrity separately; 
+only in limited number of studies these changes were interpreted in the same frame. In addition, 
+the relationship of these findings with clinical variables is not clearly established. Here, we aimed 
+to investigate the grey matter and white matter changes in schizophrenia patients and exhibit 
+the relation of these imaging findings with clinical variables. 
+METHODS
+A total of 20 schizophrenia patients and 16 matched healthy controls underwent magnetic reso-
+nance imaging to investigate the grey matter and white matter alterations that occur in schizo-
+phrenia patients using voxel-based morphometry (VBM) and whole brain voxel-wise analysis 
+of diffusion tensor imaging (DTI) parameters with SPM8, respectively. While the preprocessing 
+steps of VBM were performed with the default parameters of VBM8 toolbox, the preprocessing 
+steps of DTI were carried out using FSL. Additionally, VBM results were correlated with clinical 
+variables.
+RESULTS
+Bilateral insula showed decreased grey matter volume in schizophrenia patients compared with 
+healthy controls (P < 0.01). The opposite contrast did not show a significant difference. Psychi-
+atric scores, duration of illness, and age were not correlated with the decreased grey matter 
+volume of insula in schizophrenia patients. DTI analysis revealed a significant increase in mean, 
+radial, and axial diffusivity, mainly of the fibers of bilateral anterior thalamic radiation and supe-
+rior longitudinal fasciculus with left predominance, which intersected with bilateral subinsular 
+white matter (P < 0.05). 
+CONCLUSION
+Our findings suggest that insula may be the main affected brain region in schizophrenia, which 
+is also well supported by the literature. Our results were independent of disease duration and 
+schizophrenia symptoms. White matter alterations were observed within bilateral anterior tha-
+lamic radiation and superior longitudinal fasciculus that intersects with subinsular white matter. 
+Studies with larger sample sizes and more detailed clinical assessments are required to under-
+stand the function of insula in the neurobiology of schizophrenia.
+You may cite this article as: Onay A, Yapıcı Eser H, Ulaşoğlu-Yıldız Ç, Aslan S, Talı ET. A combined VBM and DTI study of schizophrenia: bilateral decreased 
+insula volume and cerebral white matter disintegrity corresponding to subinsular white matter projections unlinked to clinical symptomatology. 
+Diagn Interv Radiol 2017; 23:390–397.
+
+Combined VBM and DTI study of schizophrenia • 391
+bilateral hippocampal–amygdala region, 
+middle frontal and left medial temporal 
+lobe show decreased grey matter vol-
+umes in schizophrenia (2, 4, 5). Decreased 
+volume in each region may be related to 
+a different clinical presentation of schizo-
+phrenia. Some studies showed that su-
+perior temporal lobe changes were cor-
+related with formal thought disorders (6), 
+hallucinations, and the duration and type 
+of antipsychotic treatment (7), while left 
+prefrontal cortex volume was correlated 
+with functioning (8). 
+On the other hand, schizophrenia pa-
+tients may also show white matter disinteg-
+rity even in very early stages (9), and some 
+of these white matter changes were also 
+reported to correlate with clinical measures 
+as neurocognitive symptoms and negative 
+symptoms (10, 11). However, white matter 
+analysis showed that multiple circuits were 
+involved in the disorder (12), and they may 
+be related to different phenotypes of the 
+disorder or converging functions of these 
+circuits.
+Because of different hypotheses, meth-
+ods, and regions of interest used in the 
+studies, the results have not always been 
+reproducible. Therefore, it is important to 
+accumulate new evidence from different 
+patient groups and study the clinical cor-
+relates of the observed volumetric differ-
+ences. 
+In this study, we aimed to present our im-
+aging findings of 20 schizophrenia patients 
+and 16 matched healthy participants and 
+study the correlation of grey matter volume 
+differences with clinical variables.
+Methods
+Participants
+Participants were selected from inpa-
+tients and outpatients that were treated 
+at the Department of Psychiatry. Our local 
+ethics committee approved the study. Pa-
+tients who accepted a magnetic resonance 
+imaging (MRI) scan and signed a written in-
+formed consent were included in the study. 
+For inpatients, a family member also con-
+tributed to the consent of the patient. 
+We matched 16 healthy controls for edu-
+cation, gender, marital status, work status, 
+and handedness with 20 schizophrenia pa-
+tients whose diagnoses were given based 
+on DSM-IV criteria.
+For schizophrenia patients, study inclu-
+sion criteria were schizophrenia diagnosis 
+according to DSM-IV criteria; duration of 
+illness for >1 year; lack of substance abuse 
+history. Study exclusion criteria were age 
+below 18 years, any additional axis I or II 
+diagnosis, history of a complicated medical 
+disorder or any neurologic disorder includ-
+ing history of head trauma that might re-
+sult in cognitive dysfunction or grey matter 
+loss. Clinical assessment of schizophrenia 
+patients included the scale for the assess-
+ment of positive symptoms (SAPS), scale 
+for the assessment of negative symptoms 
+(SANS), brief psychiatric rating scale (BPRS), 
+and global assessment of functioning (GAF) 
+scores. These tests were either extracted 
+from concurrent hospital registry data or 
+were performed as part of physician eval-
+uations at the day of imaging. Additional 
+information was gathered through the hos-
+pital’s registry database. All patients were 
+on neuroleptic treatment (5 of them were 
+using clozapine) and they had illness dura-
+tion more than 1 year. 
+Healthy controls were chosen from a 
+community sample after a face-to-face 
+structured interview with H.Y.E. interview-
+ers who were not diagnosed with any psy-
+chiatric disorders and did not have any 
+first-degree relatives with any psychiatric 
+disease were chosen as controls. 
+Sociodemographic variables of patients 
+and controls are given in Table 1.
+Structural MRI 
+All subjects were scanned with 1.5 T GE 
+Signa MRI scanner and 8-channel phase ar-
+ray coil. The examination protocol included 
+volumetric scans and diffusion tensor im-
+aging (DTI). The imaging parameters of DTI 
+were as follows: single shot EPI sequence, 
+TR, 100000 ms; TE, 104.6 ms; flip angle, 90; 
+FOV, 100 cm; slice thickness, 4 mm; number 
+of direction, 25. Volumetric scans were ob-
+tained using a three-dimensional volumetric 
+spoiled gradient recalled-echo sequence in 
+sagittal plane with the following parame-
+ters: TE, 5.448 ms; TR, 12.392 ms; flip angle, 
+20; matrix size, 256×160 mm; FOV, 80 cm; 
+voxel size: 1.0×1.0×1.0 mm; slice thickness, 
+1.0 mm. Volumetric scans were oriented per-
+pendicular to the anterior posterior commis-
+sure line. 
+Analysis of grey matter volume
+Image preprocessing was performed by 
+VBM8 using SPM 8 (SPM; Wellcome Depart-
+ment of Cognitive Neurology; www.fil.ion.
+ucl.ac.uk) running on MATLAB 13 (www.
+Main points
+•	 We aimed to determine grey matter and 
+white matter changes in schizophrenia 
+patients and exhibit the relation of these 
+imaging findings with clinical variables. 
+•	 Grey matter changes were analyzed by 
+voxel-based morphometry and white matter 
+alterations were tested by diffusion tensor 
+imaging. 
+•	 We found decreased grey matter volume only 
+in bilateral insula, but it had no correlation 
+with clinical variables. 
+•	 White matter alterations were observed 
+within bilateral anterior thalamic radiation 
+and superior longitudinal fasciculus that 
+intersects with subinsular white matter. 
+•	 We suggest that insula might be the main 
+affected brain region in schizophrenia.
+Table 1. Demographics and clinical characteristics of the study populations 
+	 	
+Schizophrenia patients	
+Healthy controls 
+	 	
+n=20	
+n=16	
+P
+Age, years 	
+36.5±10.5 	
+34.4±9.1 	
+0.39
+Gender (F/M), n	
+10/10	
+9/7	
+0.75
+Education, years	
+10.7±3.5 	
+11.3±3.3 	
+0.79
+SANS (n=19)	
+20.1±13.4 (5−46)	
+	
+SAPS (n=19)	
+38.2±22.5 (8−86)	
+	
+BPRS (n=19)	
+24±12.2 (9−62)	
+	
+GAF (n=18)	
+61.4±11.7 (40−75)	
+	
+Age at disorder onset (n=16), years	
+25.2±7.2 (14−37)	
+	
+Duration at illness (n=16), years	
+10.7±8.9 (1−32)	
+	
+Data are presented as mean ± standard deviation (range).
+F/M, female/male; SANS, scale for the assessment of negative symptoms; SAPS, scale for the assessment of positive 
+symptoms; BPRS, brief psychiatric rating scale; GAF, global assessment of functioning.
+
+mathworks.com). Files that were originally 
+in DICOM format were converted to analyze 
+format. All of the naive T1-weighted images 
+were manually reorientated by setting the 
+coordinate origin of each image on anteri-
+or commissure. The default parameters of 
+VBM8 toolbox were used for preprocessing 
+steps. Briefly, the T1-weighted images were 
+bias-corrected and a spatially adaptive 
+non-local means filter was used to eliminate 
+MRI inhomogeneities and avoid noise, re-
+spectively. A classical Markov random field 
+model was performed as a spatial constraint 
+in order to provide further improvement in 
+signal-to-noise ratio. Registration into stan-
+dard MNI space comprised a linear affine 
+transformation and nonlinear deformation 
+using high dimensional DARTEL normal-
+ization. Non-brain tissues were stripped off 
+and brain tissue were segmented into grey 
+matter, white matter, and cerebrospinal 
+fluid. Afterwards, segmented grey matter 
+and white matter images were multiplied 
+by the nonlinear components that were de-
+rived from normalization matrix. Eventually, 
+modulated grey matter and white matter 
+images were generated to calculate the ac-
+tual grey matter and white matter volumes. 
+Normalization quality of the unsegmented, 
+normalized images was visually inspected. 
+We calculated the covariance between nor-
+malized segmented images to identify any 
+outliers for artifacts or preprocessing errors. 
+Modulated and segmented images were 
+spatially smoothed by using a Gaussian 
+kernel filter set at 8 mm full with half maxi-
+mum (FWHM). An absolute threshold mask-
+ing value of 0.3 was selected for grey mat-
+ter volumes. Regions with significant grey 
+matter volume differences between schizo-
+phrenia patients and controls were tested 
+using two-sample t-test in SPM8 based on a 
+voxel-level and cluster-level height thresh-
+old of P < 0.05 (FWE-corrected).
+Regions-of-interest (ROIs) of clusters that 
+showed a significant group difference were 
+extracted using MarsBar 0.41 (http://mars-
+bar.sourceforge.net/) and mean grey matter 
+volumes of the significant ROI was calculat-
+ed for each patient using log_roi_batch v2.0 
+function in Matlab (http://www.aimfeld.ch).
+ 
+Diffusion tensor imaging
+The preprocessing of DTI data was per-
+formed by FSL (version 5.0.6), the FM-
+RIB 
+Software 
+Library 
+(http://fsl.fmrib.
+ox.ac.uk/fsl) (Smith et al., 2004). Firstly, dif-
+fusion-weighted data were corrected for 
+motion and eddy current artifacts by using 
+FMRIB’s diffusion toolbox. Then, brain ex-
+traction tool was used to extract images 
+for removing non-brain tissue and for each 
+subject a binary brain mask was created. 
+Next, a diffusion tensor model was fitted 
+in each voxel and diagonal elements (λ1, 
+λ2, λ3), fractional anisotropy (FA) and mean 
+diffusivity (MD) images were generated us-
+ing FSL’s DTIFIT. Axial diffusivity (AD) maps 
+were created from λ1 and radial diffusivity 
+(RD) maps were calculated with λ23 = (λ2 + 
+λ3)/2. All subjects’ maps were aligned to FM-
+RIB58-FA template in Montreal Neurologi-
+cal Institute (MNI) 152 standard space and 
+re-sampled to a spatial resolution 1×1×1 
+mm3 using FMRIB’s nonlinear registration 
+tool FNIRT. In the same manner, the trans-
+formations were applied to the AD, MD, and 
+RD
+ 
+maps for each subject. Finally, the qual-
+ity of the normalized images was checked 
+by visual inspection. 
+Statistical analysis 
+Statistical analysis was performed us-
+ing SPSS (IBM SPSS Statistics for Windows, 
+version 21.0, IBM Corp.). Nonparametric 
+t-test or chi-square test was used in com-
+paring demographical differences between 
+groups for continuous variables and cate-
+gorical variables, respectively. 
+Correlation analysis of behavioral and 
+grey matter ROI data was performed as 
+follows. First, data were examined for nor-
+mality with visual histograms and both the 
+Kolmogorov-Smirnov 
+and 
+Shapiro-Wilk 
+tests. Correlation coefficients were calculat-
+ed to assess bivariate associations between 
+individual mean volume of the ROIs and 
+clinical variables such as age, duration of 
+illness, SAPS, SANS, BPRS, and GAF scores 
+using Pearson correlation test for normally 
+distributed data, and Spearman’s rank-or-
+der correlation test for non-normally dis-
+tributed data. P values smaller than 0.004 
+were considered significant using Bonfer-
+roni adjusted alpha level of 0.05/12 = 0.004 
+for multiple comparisons.
+Whole-brain voxel-wise analysis of whole 
+brain white matter integrity was performed 
+using statistical parametric mapping (SPM 
+8) software (http://www.fil.ion.ucl.ac.uk/
+spm). A Gaussian kernel of 8 mm FWHM 
+was used to smooth the FA, AD, MD, and RD 
+maps. In order to eliminate voxels of grey 
+matter and cerebrospinal fluid, a group-av-
+eraged map was created from normalized 
+but unsmoothed FA maps of each subject 
+and then binarized using a cutoff value of 
+0.2. In this way, only voxels surviving this 
+threshold were included in the group anal-
+yses. The significance of the differences 
+between the schizophrenia patients and 
+healthy controls were calculated by apply-
+ing general linear models to FA, AD, MD, 
+and RD maps, separately using a voxel-wise 
+height threshold of P value less than 0.0005 
+combined with a cluster-level family-wise 
+error (FWE) correction for multiple compar-
+isons. 
+Results
+Schizophrenia patients demonstrated 
+decreased grey matter volume only in bi-
+lateral insula (Table 2, Fig. 1). VBM analysis 
+revealed right insula predominance in grey 
+matter decrease at cluster forming height 
+threshold FWE-corrected P < 0.05 com-
+bined with a cluster-level FWE correction. In 
+whole-brain comparisons, larger decreases 
+were observed in grey matter volume of 
+right insula (cluster-level FWE-corrected  
+P = 0.001; cluster size: 111 voxels, MNI peak 
+coordinates: 39 12 0) compared with left in-
+sula (cluster-level FWE-corrected P = 0.009; 
+cluster size: 26 voxels, MNI peak coordi-
+nates: -45 3 1). In contrast, healthy control 
+subjects did not have any grey matter re-
+gions with a decreased volume compared 
+with schizophrenia patients. 
+None of the clinical variables (SANS, SAPS, 
+BPRS, and GAF scores, age, and duration of 
+illness) were significantly correlated with 
+grey matter volume of insula in patients 
+diagnosed with schizophrenia (P > 0.004; 
+Table 3 and Fig. 1). did not analyze the as-
+392 • September–October 2017 • Diagnostic and Interventional Radiology	
+Onay et al.
+Table 2. Results of whole-brain voxel-wise group comparison of grey volume (schizophrenia patients 
+< healthy controls) 
+Grey matter	
+Cluster size 	
+	MNI peak coordinates 
+region	
+(voxel)	
+x	
+y	
+z	
+T	
+Z	
+PFWE-corrected
+Right insula	
+111	
+39	
+12	
+0	
+6.15	
+5.01	
+0.001
+Left insula	
+26	
+-45	
+3	
+1	
+5.91	
+4.87	
+0.009
+MNI, Montreal neurological institute; FWE, family-wise error.
+
+Combined VBM and DTI study of schizophrenia • 393
+sociation of subtypes of schizophrenia with 
+the grey matter measurements because of 
+the small sample size.
+FA values were not significantly differ-
+ent between schizophrenia patients and 
+healthy controls. However, in whole-brain 
+comparisons, the SPM two-sample t-test 
+revealed that patients with schizophrenia 
+displayed increased AD in left superior lon-
+gitudinal fasciculi (t=4.56, P = 0.016; Fig. 2), 
+increased MD in bilateral superior longitu-
+dinal fasciculus with left predominance and 
+bilateral anterior thalamic radiation (cluster 
+in left hemisphere: t=5.81, P < 0.001; clus-
+ter in right hemisphere: t=5.03, P = 0.006;  
+Fig. 3), and increased RD in left anterior 
+thalamic radiation (t=4.63, P = 0.027; Fig. 4) 
+compared with healthy subjects (Table 4). 
+The localizations of significant white matter 
+differences corresponded to bilateral ante-
+rior thalamic radiation and superior longi-
+tudinal fasciculus, which intersected with 
+bilateral subinsular white matter (Fig. 5). 
+Discussion
+Our study showed that schizophrenia pa-
+tients have decreased grey matter volume 
+in bilateral insula. Besides its role in addic-
+tion, insula has been recently found to be 
+related to impulsivity, interceptive aware-
+ness (13), cognition (14), and emotion reg-
+ulation (15). Studies with larger samples 
+showed that depression w associated with 
+bilaterally decreased insula volumes (16). 
+In our study, insula volume was found de-
+creased bilaterally in patients with schizo-
+phrenia compared with normal controls, 
+consistent with other reports (2, 17, 18). De-
+creased insula volumes were reported even 
+in first episode schizophrenia cases (19–21). 
+We found that decreased insula volume 
+was not associated with total positive and 
+negative symptom scores, disease duration 
+or functionality. However, we did not mea-
+sure the insight or quality of life. Keeping in 
+mind that our study did not have measures 
+for mood and functionality symptoms, it 
+may be concluded that grey matter de-
+crease in insula may be the main pathology 
+in schizophrenia patients independent of 
+the clinical presentation. In previous stud-
+ies, decreased insula volume was found 
+to be associated with poor functional out-
+come (7), somatic delusions (22), severity 
+of auditory hallucinations (23), reduced 
+insight of the illness (24), and quality of life 
+(25). However, reduced insular volume was 
+also reported to differentiate schizophrenia 
+Table 3. Correlation analyses between clinical variables and insula grey volume in patients with 
+schizophrenia 
+	
+	              Area showing decreased grey matter volume
+	
+Left insula	
+	
+Right insula
+Clinical variable	
+r	
+P	
+r	
+P
+SANS (n=19)	
+rs = 0.352	
+0.139	
+rs = 0.198	
+0.417
+SAPS (n=19)	
+r = -0.044	
+0.857	
+r = -0.210	
+0.387
+BPRS (n=19)	
+rs = 0.023	
+0.926	
+rs = 0.182	
+0.455
+GAF (n=18)	
+rs = 0.089	
+0.726	
+rs = 0.140	
+0.579
+Duration of illness (n=16)	
+r = -0.427	
+0.099	
+r = -0.329	
+0.213
+Age (n=20)	
+r = -0.262	
+0.264	
+r = 0.071	
+0.766
+Bonferroni-adjusted alpha level: P < 0.004 (0.05/12). 
+r, Pearson correlation coefficient, rs, Spearman’s rank correlation coefficient; SANS, scale for the assessment of negative 
+symptoms; SAPS, scale for the assessment of positive symptoms; BPRS, brief psychiatric rating scale; GAF, global 
+assessment of functioning.
+Figure 1. a–d. Voxel-wise group comparison of grey matter: right sagittal (a), left sagittal (b), axial (c), and 
+coronal (d) images show decreased grey matter volume in patients with schizophrenia in right (height 
+threshold FWE-corrected, P < 0.05; cluster level FWE-corrected, P = 0.001; MNI peak coordinate, 39 12 0; 
+cluster size, 111 voxels) and left insula (height threshold FWE-corrected, P < 0.05; cluster level FWE-
+corrected, P = 0.009; MNI peak coordinate, -45 3 1; cluster size, 26 voxels). Clusters are superimposed on 
+the MNI 152 T1 (1 mm) template image.
+c
+a
+d
+b
+
+patients from their healthy relatives (26), 
+and it was even present in first episode psy-
+chosis (27). Decreased right anterior insula 
+volume in schizophrenia patients was also 
+shown to be independent of ethnicity and 
+duration of illness, positive and negative 
+scores and antipsychotic treatments (28). 
+In our patient sample this result has been 
+replicated. Though we have a very small 
+sample size to generalize our results, our 
+suggestion that decreased insula volume 
+could be the main pathology in schizophre-
+nia patients was supported by Lee et al. 
+(29) who showed that antipsychotic-naive 
+first episode schizophrenia patients have 
+decreased bilateral insula volume and this 
+decrease was progressive during the course 
+of the disorder (29). 
+In our study, we showed that white 
+matter adjacent to insula was disrupted in 
+schizophrenia patients. Although there are 
+a number of published articles on white 
+matter disintegrity, to our knowledge most 
+studies focused on a specific region-of-in-
+terest based on their hypothesis and it was 
+not commonly replicated. In addition, most 
+of the studies applied VBM and DTI analysis 
+separately. In this study, we found that pa-
+tients diagnosed with schizophrenia had in-
+creased AD, MD, and RD values correspond-
+ing to left and right superior longitudinal 
+fasciculus and anterior thalamic radiation. 
+By combining VBM and DTI techniques, 
+we showed the correspondence of altered 
+white matter tracts to subinsular white mat-
+ter bilaterally.
+Most of the DTI studies focused on FA val-
+ues conducting voxel-based analysis of FA 
+only (30, 31). In whole brain analysis studies, 
+even early cases of schizophrenia showed bi-
+laterally decreased FA values, which may be 
+associated with illness duration (32, 33). In 
+addition to this, a meta-analysis which com-
+bined findings from 15 DTI studies reported 
+two main regions in schizophrenia patients: 
+left frontal and temporal white matter in-
+cluding anterior thalamic radiation (33). 
+However, FA is not the only value that shows 
+the decreased white matter integrity; three 
+other measures of MD, AD, and RD both give 
+a different estimate of the underlying mo-
+lecular pathology. Though FA decrease and 
+MD increase may be correlated (27), MD val-
+394 • September–October 2017 • Diagnostic and Interventional Radiology	
+Onay et al.
+Table 4. Results of whole-brain voxel-wise group comparison of axial, mean, and radial diffusivity 
+(schizophrenia patients > healthy controls) 
+	
+Cluster size 	
+MNI peak	
+White matter 
+DTI measurement	
+(voxel)	
+coordinates	
+tract*	
+Tmax	
+PFWE-corrected
+Axial diffusivity	
+1749	
+-30 -20 40	
+Left SLF	
+4.56	
+0.016
+	
+	
+-31 -40 40	
+Left SLF	
+	
+	
+	
+-26 -10 43	
+Left SLF	
+	
+Mean diffusivity cluster-1	
+2428	
+30 -15 15	
+Left SLF	
+5.03	
+0.006
+	
+	
+11 -11 -3	
+Right ATR	
+	
+	
+	
+11 -9 7	
+Right ATR	
+	
+	
+	
+35 -4 10	
+Right SLF	
+	
+	
+	
+24 -14 14	
+Right CST	
+	
+	
+	
+31 -22 24	
+Right SLF	
+	
+	
+	
+28 -12 23	
+Right CST	
+	
+Mean diffusivity cluster-2	
+12474	
+-26 -14 18	
+Left CST	
+5.81	
+<0.001
+	
+	
+-29 -8 15	
+Left SLF	
+	
+	
+	
+-17 -9 10	
+Left ATR	
+	
+	
+	
+-30 -18 36	
+Left SLF	
+	
+	
+	
+-10 -6 9	
+Left ATR	
+	
+	
+	
+-24 -25 43	
+Left CST	
+	
+	
+	
+-10 -14 0	
+Left ATR	
+	
+	
+	
+-15 -20 5	
+Left ATR	
+	
+	
+	
+-39 -7 41	
+Left SLF	
+	
+Radial diffusivity	
+1466	
+-10 -6 6	
+Left ATR	
+4.63	
+0.027
+DTI, diffusion tensor imaging; MNI, Montreal neurological institute; FWE, family-wise error; SLF, superior longitudinal 
+fasciculus; ATR, anterior thalamic radiation; CST, corticospinal tract.
+*Based on JHU white-matter tractography atlas.
+Figure 2. a–c. Voxel-wise group comparison of axial diffusivity (AD): left sagittal (a), axial (b), and coronal (c) images show increased AD (height threshold 
+uncorrected, P < 0.0005; cluster level FWE-corrected, P = 0.002) in patients with schizophrenia within left superior longitudinal fasciculus. Clusters are 
+superimposed on the FMRIB58_FA (1 mm) image (MNI peak coordinate, -30 -20 40; cluster size, 1749 voxels).
+a
+b
+c
+
+Combined VBM and DTI study of schizophrenia • 395
+ue differences could be observed in schizo-
+phrenia patients even in the absence of vol-
+umetric abnormalities in grey matter (35). 
+Increase in MD value in the insula has also 
+been reported (36, 37). In addition, these pa-
+rameters are not always correlated with each 
+other (38). In our study, non-FA measures of 
+DTI showed consistently increased values in 
+the overlapping regions compared with con-
+trols, which suggested a consistent white 
+matter disintegrity.
+The results of our study showed increased 
+MD values within bilateral anterior tha-
+lamic radiation and superior longitudinal 
+fasciculus, in addition to greater RD values 
+within the left anterior temporal lobe and 
+greater AD within the left superior longitu-
+dinal fasciculus. Anterior thalamic radiation 
+provides connection between mediodorsal 
+thalamic nuclei and the frontal cortex, as 
+well as connection between anterior tha-
+lamic nuclei and the anterior cingulate cor-
+tices (39). It has a role in memory encoding 
+and executive functioning (40). On the oth-
+er hand, superior longitudinal fasciculus is 
+the main white matter tract that connects 
+frontal-parietal regions. Recently, reduced 
+integrity in anterior thalamic radiation and 
+superior longitudinal fasciculus has been 
+reported (41–45). Besides, a correlation has 
+been found between negative symptoms, 
+cognitive impairment, and white matter 
+disintegrity within these white matter tracts 
+(46, 47). Thus, in accordance with the previ-
+ous literature, our results point to disinteg-
+rity within cortico-striato-thalamic circuit in 
+schizophrenia.
+Although the results of our study are in 
+agreement with the literature and there are 
+some limitations. First, although the patients 
+were strictly matched with healthy controls 
+for age, gender, educational status and dom-
+inant hand, our study has a relatively small 
+sample size that may have introduced type 
+II error in correlation analyses between insu-
+lar grey matter volume and clinical analyses. 
+Figure 3. a–d. Voxel-wise group comparison of mean diffusivity (MD): right sagittal (a), left sagittal (b), 
+axial (c), and coronal (d) images show increased MD (height threshold uncorrected, P < 0.0005; cluster 
+level FWE-corrected, P < 0.001) in patients with schizophrenia within left and right subinsular white 
+matter. Clusters are superimposed on the FMRIB58_FA (1 mm) image (MNI peak coordinate, -26 -14 18; 
+cluster size, 12474 voxels and MNI peak coordinate, 30 -15 15; cluster size, 2428 voxels, respectively).
+c
+a
+d
+b
+Figure 4. a–c. Voxel-wise group comparison of radial diffusivity (RD): left sagittal (a), axial (b), and coronal (c) images show increased RD (height threshold 
+uncorrected, P < 0.0005; cluster level FWE-corrected, P = 0.027) in patients with schizophrenia in left anterior thalamic radiation. Clusters are superimposed on 
+the FMRIB58_FA (1 mm) image (MNI peak coordinate, -10 -6 6; cluster size, 1466 voxels).
+a
+b
+c
+
+Second, since we included schizophrenia 
+patients diagnosed >1 year ago they have 
+been on antipsychotic treatment and we 
+could not rule out medication effect on the 
+observed grey matter differences. Neverthe-
+less, our results of decreased grey matter vol-
+ume in bilateral insula may be independent 
+from antipsychotic treatment since a recent 
+study with a small sample size showed that 
+use of antipsychotics may increase bilateral 
+insula volume. Third, we did not assess anxi-
+ety and depressive symptoms in the patient 
+group; therefore we could not distinguish 
+the effect of these symptoms on the neuro-
+pathology of the disease. Lastly in VBM anal-
+ysis, morphology of insula was assessed as 
+a whole but its various subdimensions may 
+also be analyzed separately. 
+In conclusion, based on the findings of 
+this study, we suggest that insula may be 
+the main affected brain region in schizo-
+phrenia. The role of the insula in patho-
+physiology of schizophrenia, its functional 
+connectivity with other brain regions, in 
+addition to time-dependent volumetric 
+changes should be further investigated in 
+studies with larger number of patients with 
+schizophrenia. 
+Acknowledgements 
+We thank all participants and their families for 
+participating in our study. 
+Conflict of interest disclosure
+The authors declared no conflicts of interest. 
+References
+1.	 American Psychiatric Association, 2013. Diag-
+nostic and statistical manual of mental disor-
+ders (DSM-5®). American Psychiatric Pub. 
+2.	 Ellison-Wright I, Bullmore E. Anatomy of bipo-
+lar and schizophrenia: a meta-analysis. Schizo-
+phr Res 2010; 117:1–12. [CrossRef]
+3.	 Insel TR. Rethinking schizophrenia. Nature 
+2010; 468:187–193. [CrossRef]
+4.	 Glahn DC, Laird AR, Ellison-Wright I, et al. Me-
+ta-analysis of gray matter anomalies in schizo-
+phrenia: application of anatomic likelihood es-
+timation and network analysis. Biol psychiatry 
+2008; 64:774–781. [CrossRef]
+5.	 Honea R, Crow TJ, Passingham D, Mackay CE. 
+Regional deficits in brain volume in schizo-
+phrenia: a meta-analysis of voxel-based mor-
+phometry studies. Am J Psychiatry 2005; 
+162:2233–2245. [CrossRef]
+6.	 Horn H, Federspiel A, Wirth M, et al. Gray matter 
+volume differences specific to formal thought 
+disorder in schizophrenia. Psychiatry Res 2010; 
+182:183–186. [CrossRef]
+7.	 McClure RK, Phillips I, Jazayerli R, Barnett A, 
+Coppola R, Weinberger DR. Regional change 
+in brain morphometry in schizophrenia asso-
+ciated with antipsychotic treatment. Psychiatry 
+Res 2006; 148:121–132. [CrossRef]
+8.	 Kasparek T, Prikryl R, Schwarz D, et al. Gray mat-
+ter morphology and the level of functioning in 
+one-year follow-up of first-episode schizophre-
+nia patients. Prog Neuropsychopharmacol Biol 
+Psychiatry 2009; 33:1438–1446. [CrossRef]
+9.	 Samartzis L, Dima D, Fusar-Poli P, Kyriakopoulos 
+M. White matter alterations in early stages of 
+schizophrenia: a systematic review of diffusion 
+tensor imaging studies. J Neuroimaging 2014; 
+24:101–110. [CrossRef]
+10.	 Roalf DR, Gur RE, Verma R, et al. White matter 
+microstructure in schizophrenia: associations 
+to neurocognition and clinical symptomatolo-
+gy. Schizophr Res 2015; 161:42–49. [CrossRef]
+11.	 Viher PV, Stegmayer K, Giezendanner S, et al. 
+Cerebral white matter structure is associat-
+ed with DSM-5 schizophrenia symptom di-
+mensions. Neuroimage Clin 2016; 12:93–99. 
+[CrossRef]
+12.	 Wheeler AL, Voineskos AN. A review of struc-
+tural neuroimaging in schizophrenia: from 
+connectivity to connectomics. Front Hum Neu-
+rosci 2014; 8:653. [CrossRef]
+13.	 Avery JA, Drevets WC, Moseman SE, Bodurka 
+J, Barcalow JC, Simmons WK. Major depressive 
+disorder is associated with abnormal intero-
+ceptive activity and functional connectivity in 
+the insula. Biol Psychiatry 2014; 76:258–266. 
+[CrossRef]
+14.	 Gasquoine PG. Contributions of the insula to 
+cognition and emotion. Neuropsychol Rev 
+2014; 24:77–87. [CrossRef]
+15.	 Song Z, Zhang M, Huang P. Aberrant emotion 
+networks in early major depressive disorder 
+patients: an eigenvector centrality mapping 
+study. Transl Psychiatry 2016; 6:819. [CrossRef]
+16.	 Wise T, Radua J, Via E, et al. Common and dis-
+tinct patterns of grey-matter volume alteration 
+in major depression and bipolar disorder: evi-
+dence from voxel-based meta-analysis. Mol Psy-
+chiatry 2016 [Epub ahead of print]. [CrossRef]
+17.	 Sliz D, Hayley S. Major depressive disorder and 
+alterations in insular cortical activity: a review of 
+current functional magnetic imaging research. 
+Front Hum Neurosci 2012; 6:323. [CrossRef]
+18.	 Yu K, Cheung C, Leung M, Li Q, Chua S, 
+McAlonan G. Are bipolar disorder and schizo-
+phrenia neuroanatomically distinct? An ana-
+tomical likelihood meta-analysis. Front Hum 
+Neurosci 2010; 4:189. [CrossRef]
+19.	 Meisenzahl EM, Koutsouleris N, Bottlender R, et 
+al. Structural brain alterations at different stag-
+es of schizophrenia: a voxel-based morpho-
+metric study. Schizophr Res 2008; 104:44–60. 
+[CrossRef]
+20.	 Nakamura K, Takahashi T, Nemoto K, et al. Gray 
+matter changes in subjects at high risk for de-
+veloping psychosis and first-episode schizo-
+phrenia: a voxel-based structural MRI study. 
+Front Psychiatry 2013; 18:4–16. [CrossRef]
+21.	 Molina V, Sanz, J, Villa R, et al. Voxel-based morphom-
+etry comparison between first episodes of psychosis 
+with and without evolution to schizophrenia. Psychi-
+atry Res 2010; 181:204–210. [CrossRef]
+22.	 Spalletta G, Piras F, Rubino IA, Caltagirone C, 
+Fagioli S. Fronto-thalamic volumetry markers 
+of somatic delusions and hallucinations in 
+schizophrenia. Psychiatry Res 2013; 212:54–64. 
+[CrossRef]
+23.	 Palaniyappan L, Balain V, Radua J, Liddle PF. 
+Structural correlates of auditory hallucinations 
+in schizophrenia: a meta-analysis. Schizophr 
+Res 2012; 137:169–173. [CrossRef]
+24.	 Emami S, Guimond S, Chakravarty MM, Lep-
+age M. Cortical thickness and low insight into 
+symptoms in enduring schizophrenia. Schizo-
+phr Res 2016; 170:66–72. [CrossRef]
+396 • September–October 2017 • Diagnostic and Interventional Radiology	
+Onay et al.
+Figure 5. a–c. Significant grey matter and white matter MD differences were superimposed on the FMRIB58_FA (1 mm) image. Areas in blue color indicate 
+significantly decreased grey matter volume, while hot colors indicate significantly increased MD in white matter of bilateral anterior thalamic radiation 
+and superior longitudinal fasciculus in schizophrenia compared with healthy controls. It should be noted that the localizations of significant white matter 
+differences intersect with bilateral subinsular white matter. 
+a
+b
+c
+
+Combined VBM and DTI study of schizophrenia • 397
+25.	 Uwatoko T, Yoshizumi M, Miyata J, et al. Insu-
+lar gray matter volume and objective quality 
+of life in schizophrenia. PLoS One 2015; 10:p.
+e0142018. [CrossRef]
+26.	 Xiao Y, Lui S, Zhang W, Yao L, Gong Q. Similar 
+and different gray matter deficits in schizo-
+phrenia patients and their unaffected bio-
+logical relatives. Front Psychiatry 2013; 4:150. 
+[CrossRef]
+27.	 Mikolas P, Melicher T, Skoch A, et al. Con-
+nectivity of the anterior insula differentiates 
+participants with first-episode schizophre-
+nia spectrum disorders from controls: a ma-
+chine-learning study. Psychol Med 2016; 25:1–
+10. [CrossRef]
+28.	 Gong Q, Dazzan P, Scarpazza C, et al. A neuro-
+anatomical signature for schizophrenia across 
+different ethnic groups. Schizophr Bull 2015; 
+41:1266–1275. [CrossRef]
+29.	 Lee SH, Niznikiewicz M, Asami T, et al. Initial 
+and progressive gray matter abnormalities in 
+insular gyrus and temporal pole in first-epi-
+sode schizophrenia contrasted with first-epi-
+sode affective psychosis. Schizophr Bull 2015; 
+42:790–801. [CrossRef]
+30.	 Bijanki KR, Hodis B, Magnotta VA, Zeien E, An-
+dreasen NC. Effects of age on white matter in-
+tegrity and negative symptoms in schizophre-
+nia. Schizophr Res 2015; 161:29–35. [CrossRef]
+31.	 Ohtani T, Bouix S, Hosokawa T, et al. Abnormali-
+ties in white matter connections between orbi-
+tofrontal cortex and anterior cingulate cortex 
+and their associations with negative symptoms 
+in schizophrenia: a DTI study. Schizophr Res 
+2014; 157:190–197. [CrossRef]
+32.	 Kuswanto CN, Teh I, Lee TS, Sim K. Diffusion ten-
+sor imaging findings of white matter changes 
+in first episode schizophrenia: a systematic 
+review. Clin Psychopharmacol Neurosci 2012; 
+10:13–24. [CrossRef]
+33.	 Zhang F, Qiu L, Yuan L, et al. Evidence for pro-
+gressive brain abnormalities in early schizo-
+phrenia: A cross-sectional structural and func-
+tional connectivity study. Schizophr Res 2014; 
+159:31–35. [CrossRef]
+34.	 Ellison-Wright I, Bullmore E. Meta-analysis of 
+diffusion tensor imaging studies in schizophre-
+nia. Schizophr Res 2009; 108:3–10. [CrossRef]
+35.	 Spoletini I, Cherubini A, Banfi G, et al. Hippo-
+campi, thalami, and accumbens microstruc-
+tural damage in schizophrenia: a volumetry, 
+diffusivity, and neuropsychological study. 
+Schizophr Bull 2011; 37:118–130. [CrossRef]
+36.	 Chiapponi C, Piras F, Piras F, Fagioli S, Caltagi-
+rone C, Spalletta G. Cortical gray matter and 
+subcortical white matter brain microstructural 
+changes in schizophrenia are localized and age 
+independent: a case-control diffusion tensor 
+imaging study. PLoS One 2013: 8:p.e75115. 
+[CrossRef]
+37.	 von Hohenberg CC, Pasternak O, Kubicki M, et 
+al. White matter microstructure in individuals 
+at clinical high risk of psychosis: a whole-brain 
+diffusion tensor imaging study. Schizophr Bull 
+2014; 40:895–903. [CrossRef]
+38.	 Levitt JJ, Alvarado JL, Nestor PG, et al. Frac-
+tional anisotropy and radial diffusivity: diffu-
+sion measures of white matter abnormalities 
+in the anterior limb of the internal capsule in 
+schizophrenia. Schizophr Res 2012; 136:55–62. 
+[CrossRef]
+39.	 Kahle W, Platzer W, Frotscher M, Leonhardt H. 
+Color atlas and textbook of human anatomy. 
+4th Ed. New York: Thieme, 2004; 462.
+40.	 Van der Werf YD, Jolles J, Witter MP, Uylings HB. 
+Contributions of thalamic nuclei to declarative 
+memory functioning. Cortex 2003; 39:1047–
+1062. [CrossRef] 
+41.	 Ehrlich S, Geisler D, Yendiki A, et al. Associations 
+of white matter integrity and cortical thickness 
+in patients with schizophrenia and healthy 
+controls. Schizophr Bull 2014; 40:665–674. 
+[CrossRef]
+42.	 Mamah D, Conturo TE, Harms MP, et al. Anterior 
+thalamic radiation integrity in schizophrenia: a 
+diffusion-tensor imaging study. Schizophr Bull 
+2014; 40:665–674. 
+43.	 Melicher T, Horacek J, Hlinka J, et al. White matter 
+changes in first episode psychosis and their re-
+lation to the size of sample studied: a DTI study. 
+Schizophr Res 2015; 162:22–28. [CrossRef]
+44.	 Zeng B, Ardekani BA, Tang Y, et al. Abnormal 
+white matter microstructure in drug-naive first 
+episode schizophrenia patients before and 
+after eight weeks of antipsychotic treatment. 
+Schizophr Res 2016; 172:1–8. [CrossRef]
+45.	 Zhou SY, Suzuki M, Hagino H, et al. Decreased 
+volume and increased asymmetry of the ante-
+rior limb of the internal capsule in patients with 
+schizophrenia. Biol Psychiatry 2003; 54:427–
+436. [CrossRef]
+46.	 Chuang JY, Murray GK, Metastasio A, et al. Brain 
+structural signatures of negative symptoms in 
+depression and schizophrenia. Schizophr Res 
+2016; 172:1–8.
+47.	 Mitelman SA, Torosjan Y, Newmark RE, et al. 
+Internal capsule, corpus callosum and long 
+associative fibers in good and poor outcome 
+schizophrenia: a diffusion tensor imaging sur-
+vey. Schizophr Res 2007; 92:211–224. [CrossRef]

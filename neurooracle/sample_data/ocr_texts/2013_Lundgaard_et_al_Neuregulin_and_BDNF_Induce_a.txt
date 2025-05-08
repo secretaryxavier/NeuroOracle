@@ -1,0 +1,2568 @@
+Neuregulin and BDNF Induce a Switch to NMDA
+Receptor-Dependent Myelination by Oligodendrocytes
+Iben Lundgaard1.¤a, Aryna Luzhynskaya1., John H. Stockley1., Zhen Wang2¤b, Kimberley A. Evans1,
+Matthew Swire3, Katrin Volbracht1, He´le`ne O.B. Gautier1, Robin J.M. Franklin1,
+Charles ffrench-Constant3, David Attwell4, Ragnhildur T. Ka´rado´ ttir1*
+1 Wellcome Trust–Medical Research Council (MRC) Stem Cell Institute, John van Geest Centre for Brain Repair, and Department of Veterinary Medicine, University of
+Cambridge, Cambridge, United Kingdom, 2 Department of Pathology, University of Cambridge, Cambridge, United Kingdom, 3 MRC Centre for Regenerative Medicine,
+Centre for Multiple Sclerosis Research, University of Edinburgh, Edinburgh, United Kingdom, 4 Department of Neuroscience, Physiology & Pharmacology, University
+College London, London, United Kingdom
+Abstract
+Myelination is essential for rapid impulse conduction in the CNS, but what determines whether an individual axon becomes
+myelinated remains unknown. Here we show, using a myelinating coculture system, that there are two distinct modes of
+myelination, one that is independent of neuronal activity and glutamate release and another that depends on neuronal
+action potentials releasing glutamate to activate NMDA receptors on oligodendrocyte lineage cells. Neuregulin switches
+oligodendrocytes from the activity-independent to the activity-dependent mode of myelination by increasing NMDA
+receptor currents in oligodendrocyte lineage cells 6-fold. With neuregulin present myelination is accelerated and increased,
+and NMDA receptor block reduces myelination to far below its level without neuregulin. Thus, a neuregulin-controlled
+switch enhances the myelination of active axons. In vivo, we demonstrate that remyelination after white matter damage is
+NMDA receptor-dependent. These data resolve controversies over the signalling regulating myelination and suggest novel
+roles for neuregulin in schizophrenia and in remyelination after white matter damage.
+Citation: Lundgaard I, Luzhynskaya A, Stockley JH, Wang Z, Evans KA, et al. (2013) Neuregulin and BDNF Induce a Switch to NMDA Receptor-Dependent
+Myelination by Oligodendrocytes. PLoS Biol 11(12): e1001743. doi:10.1371/journal.pbio.1001743
+Academic Editor: Ben A. Barres, Stanford University School of Medicine, United States of America
+Received May 23, 2013; Accepted November 13, 2013; Published December 31, 2013
+Copyright:  2013 Lundgaard et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits
+unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+Funding: Wellcome Trust (http://www.wellcome.ac.uk/): Ragnhildur Tho´ra Ka´rado´ttir, 091543/Z/10/Z; MRC (http://www.mrc.ac.uk/index.htm): Ragnhildur Tho´ra
+Ka´rado´ttir, Robin James Milroy Franklin, G0701476; Action Medical Research (http://www.action.org.uk/), The Henry Smith Charity (http://www.henrysmithcharity.
+org.uk/): Robin James Milroy Franklin, Ragnhildur Tho´ra Ka´rado´ttir, SP4277; Axregen EC FP7 ITN Marie Curie training programme (http://www.axregen.eu/): Iben
+Lundgaard, Ragnhildur Tho´ra Ka´rado´ttir, 214003; Wellcome Trust (http://www.wellcome.ac.uk/): Aryna Luzhynskaya, Ragnhildur Tho´ra Ka´rado´ttir, 079249/Z/06/A;
+EU FP7 Leukotreat (http://www.leukotreat.eu/): David Attwell, Ragnhildur Tho´ra Ka´rado´ttir, 241622; Wellcome Trust (http://www.wellcome.ac.uk/): David Attwell,
+080513/Z/06/Z; Isaac Newton Trust (http://www.newtontrust.cam.ac.uk/): Ragnhildur Tho´ra Ka´rado´ttir, 12.38(u); Royal Society (http://royalsociety.org/):
+Ragnhildur Tho´ra Ka´rado´ttir, 502008.K518/RH/SLB. The funders had no role in study design, data collection and analysis, decision to publish, or preparation
+of the manuscript.
+Competing Interests: The authors have declared that no competing interests exist.
+Abbreviations: AMPA, a-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid; AMPAR, a-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor; AP5,
+(2R)-amino-5-phosphonovaleric acid; BDNF, brain-derived neurotrophic factor; CNPase, 29,39-Cyclic-nucleotide 39-phosphodiesterase; CNS, central nervous system;
+CREB, cAMP response element-binding protein; DRG, Dorsal root ganglion; Erk, extracellular-signal-regulated kinases; GFAP, Glial fibrillary acidic protein; MAPK,
+mitogen-activated protein kinase; MBP, myelin basic protein; MK801, [5R,10S]-[+]-5-methyl-10,11-dihydro-5H-dibenzo[a,d]cyclohepten-5,10-imine; MOG, myelin
+oligodendrocyte glycoprotein; NBQX, 2,3-dihydroxy-6-nitro-7-sulfamoyl-benzo[f]quinoxaline-2,3-dione; NF, neurofilament; NG2, neuron-glial antigen 2 or
+chondroitin sulfate proteoglycan 4; NMDA, N-methyl-D-aspartate; NMDAR, N-methyl-D-aspartate receptor; NRG, neuregulin; OPC, oligodendrocyte precursor cell;
+PI3K, phosphatidylinositide 3-kinases; TTX, tetrodotoxin.
+* E-mail: rk385@cam.ac.uk
+¤a Current address: Center for Translational Neuromedicine, Department of Neurosurgery, University of Rochester, Rochester, New York, United States of America.
+¤b Current address: Institut de Biologie de l’Ecole Normale Supe´rieure Ge´nomique Fonctionnelle–CNRS, Paris, France.
+. These authors contributed equally to this work.
+Introduction
+Myelination is essential for normal brain function as myelin
+sheaths provide trophic support for axons and increase the
+conduction speed of action potentials [1]. By speeding axonal
+action
+potentials,
+myelin
+allows
+rapid
+information
+transfer
+between different regions of the CNS. Consequently, the increased
+amount of white matter in human brains is thought to contribute
+significantly to our cognitive powers. Myelination is controlled by
+a complex set of factors, including growth factors, interactions
+between axons and their myelinating glia, and downstream
+signalling processes within the glia [2]. Understanding the
+myelination process is crucial, not only to understand in full how
+action potential speed can be increased to enhance the brain’s
+cognitive power, but also to develop therapeutic strategies for
+regenerating myelin in disease. Strikingly, however, we still do not
+know what determines whether an individual axon becomes
+myelinated. In particular, for the CNS, the roles of the growth
+factor neuregulin (NRG), neuronal activity, and neurotransmitter
+glutamate release from axons are highly debated.
+NRG on axons can regulate myelination by signalling to ErbB
+receptors on ensheathing Schwann cells or oligodendrocytes, but
+PLOS Biology | www.plosbiology.org
+1
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+there is controversy over its actions. In the peripheral nervous
+system, a decrease of NRG signalling leads to less myelination
+[3,4]. Decreasing NRG-ErbB signalling has also been reported to
+reduce myelination by oligodendrocytes in the central nervous
+system [5–8]. Contradicting this, however, knocking out NRG or
+ErbB was found to have no effect on myelination, although
+overexpressing NRG increased myelination [9].
+Further uncertainty relates to how neuronal activity regulates
+CNS myelination. Neuronal activity can promote myelination
+[10,11], yet oligodendrocytes can ensheath dead axons that lack
+any activity [12]. An activity dependence to myelination could
+reflect action potential evoked release of NRG [13], but glutamate
+is also released onto oligodendrocyte precursor cells by action
+potentials in unmyelinated axons [14–17] and could potentially
+initiate myelination. Glutamate activates both AMPA/kainate and
+NMDA receptors in oligodendrocyte lineage cells [14–18], and the
+presence of NMDA receptors in oligodendrocyte processes [18–
+20] is consistent with them having a role in myelination.
+Furthermore, glutamate signalling and NRG signalling might
+interact to control myelination, since, in the grey matter at least,
+NRG increases the expression of NMDA receptor subunits in
+neurons [21] and in forebrain [22]. However, contradictory data
+have been presented on the contribution of NMDA receptors to
+CNS myelination, with suggestions that they either play no role
+[23,24] or that their activation by glutamate released from axons
+promotes myelin basic protein (MBP) expression and myelination
+[16,25].
+Here we show for the first time that there are two distinct modes
+of myelination by oligodendrocytes, one independent of neuronal
+activity and the other dependent on neuronal action potentials.
+Furthermore, we demonstrate that NRG switches oligodendro-
+cytes between these two myelination programmes by increasing
+NMDA receptor-mediated currents in oligodendrocyte lineage
+cells, making these cells more sensitive to glutamate released from
+active
+axons.
+As
+a
+result,
+this
+interaction
+of
+NRG
+and
+glutamatergic signalling accelerates and increases myelination,
+but most importantly provides a mechanism by which myelination
+is focussed on the axons of active neurons. Investigations of white
+matter pathology based on this finding revealed that remyelination
+of axons in a demyelinated lesion in vivo is NMDA receptor
+dependent, suggesting enhancement of NRG- and NMDAR-
+dependent remyelination as a therapeutic approach for promoting
+recovery after demyelination.
+Results
+NRG Increases Myelination by Oligodendrocytes
+To assess whether NRG-ErbB signalling and activation of
+NMDA receptors in oligodendrocytes interact to control myeli-
+nation, we studied myelination of cultured dorsal root ganglion
+(DRG) neurons by forebrain oligodendrocytes [8]. This allows
+more detailed investigation of the underlying signalling mecha-
+nisms than is possible in transgenic studies where compensation for
+gene knockout may occur (see Discussion). In this coculture
+system, compact myelin is produced (Figure S1A) [8] with a
+lamellar repeat distance of 10.961.8 nm (n = 6) and a g-ratio of
+0.7460.02 (n = 6), as expected for CNS myelination [26,27].
+Myelinating and nonmyelinating oligodendrocytes are distinguish-
+able after labelling for MBP and neurofilament (NF) (Figure 1A,B).
+Myelinating oligodendrocytes enwrap NF-expressing axons with
+MBP-expressing processes, at the lateral ends of which the
+paranode labels for the axon-oligodendrocyte junction protein
+Caspr (Figure S1B). When two oligodendrocytes myelinate
+adjacent segments of the same axon, a node of Ranvier is
+identifiable by the presence of Caspr labelling flanked by MBP
+labelling on either side of the node (Figure S1C). Myelination does
+not occur in the absence of added OPCs, it is mediated purely by
+OPCs and not by Schwann cells, and only DRG neurons and not
+interneurons become myelinated (Figure S1D–F).
+ErbB signalling was activated by applying the extracellular
+domain of NRG (NRG1 type 1-b1, 10 ng/ml, 0.33 nM), which
+includes the EGF domain that binds to ErbB receptors expressed
+on oligodendrocytes [28] and mimics [3] the effect of membrane-
+bound NRG. As found previously [8], adding NRG increased the
+fraction of oligodendrocytes that myelinated axons (Figure 1C,E,
+Figure 2A). Myelination depends on the local axon density [8], so
+we quantified myelination (3 wk after plating OPCs on the
+neurons) as the slope of a plot of the fraction of oligodendrocytes
+that were myelinating against local axon density [8] (see
+Figure 1C–F, Figure 2A, and Materials and Methods; similar
+results were obtained with other quantification methods, see
+Figures S2 and S3). Measured in this way, adding NRG increased
+myelination by 42% (p = 761024; Figure 2A). NRG also increased
+MBP protein expression in the cocultures (p = 0.03; Figure S1G),
+without affecting MBP or MOG mRNA levels (Figure S1H),
+indicating a local posttranscriptional regulation of these myelin
+genes [16].
+Varying the time at which myelination was assessed after plating
+the OPCs onto the neurons showed that NRG both accelerated
+myelination and increased its steady state level (Figure 2C). The
+myelination at steady-state level was 16% higher (p = 0 .024), and
+its onset (defined as the time to reach half the maximal value)
+occurred 5 d earlier (p = 0.0037), according to the fitted curves in
+Figure 2C.
+To assess whether changes in cell proliferation, growth, or
+survival were responsible for the increased myelination in NRG,
+we counted cells of different types identified with antibodies. In the
+Author Summary
+Myelination acts as an insulator for neurons and as such is
+essential for normal brain function, ensuring fast neuronal
+communication. Oligodendrocytes are the cells that wrap
+their membrane around nerve cell axons to form the
+myelin sheath that enables fast action potential propaga-
+tion. However, what determines whether an individual
+axon becomes myelinated remains unknown. We show
+that there are two distinct modes of myelination: one that
+is independent of neuronal activity and the release of the
+neurotransmitter glutamate and another that depends on
+nerve cell action potentials releasing glutamate, which
+then activates a class of glutamate receptor (NMDA
+receptors) on oligodendrocyte lineage cells. We find that
+the protein neuregulin switches oligodendrocytes be-
+tween these two modes of myelination; neuregulin
+increases oligodendrocyte lineage cells’ sensitivity to
+glutamate by increasing the current flowing through their
+glutamate receptors. With neuregulin present, myelination
+is accelerated and increased. Blocking NMDA receptors
+reduces the amount of myelination to far below its level
+without neuregulin. Thus, a neuregulin-controlled switch
+enhances the myelination of active axons. We also
+demonstrate that remyelination after white matter dam-
+age (as occurs in diseases, such as spinal cord injury and
+multiple sclerosis) is NMDA receptor-dependent. These
+data help us understand the signalling that regulates
+myelination and suggest the possible involvement of
+neuregulin in schizophrenia and in remyelination after
+white matter damage.
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+2
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+presence of NRG, there was no significant change in the density of
+axons (Figure 2B), the total number of DAPI-labelled cells
+(Figure 3A), the number of MBP-labelled oligodendrocytes
+(Figure 3B), or the percentage of cells that were oligodendrocyte
+lineage cells, OPCs, interneurons, astrocytes, or satellite cells
+(Figure 3C–G) in the cocultures. No microglia were detected using
+anti-CD11b antibody or isolectin B4. Thus, the effect of NRG is
+not due to an altered cell density or changes in environmental
+paracrine signals or trophic factors caused by altered cell numbers.
+NRG’s Effect Depends on Action Potentials
+To test the role of neuronal activity in regulating myelination we
+applied TTX (1 mM) to block action potentials. TTX had no effect
+on myelination in the absence of added NRG (p = 0.65), but
+reduced myelination by 50% in the presence of NRG (p = 0.006;
+Figure 2A)—that is, TTX abolished the increase in myelination
+produced by NRG (both when added at the same time as NRG
+and when added 3 d later; Figure S5A). Thus, whereas in the
+absence
+of
+NRG
+myelination
+occurs
+predominantly
+by
+a
+20 μm
+Myelinating oligodendrocyte
+20 μm
+Non-myelinating oligodendrocyte
+axonal density, %
+0
+20
+40
+60
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+fraction of OLs myelinating
+C
+D
+F
+B
+A
+E
+Neuregulin + MK801
+▲
+▲
+▲
+100 μm
+▲
+▲
+▲
+▲
+▲
+Control
+NF
+MBP
+NF
+MBP
+NF
+MBP
+MK801
+▲
+▲
+▲
+100 μm
+100 μm
+NF
+MBP
+▲
+▲
+▲
+▲
+Neuregulin
+100 μm
+NF
+MBP
+NF
+MBP
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+20
+40
+60
+axonal density, %
+fraction of OLs myelinating
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+20
+40
+60
+fraction of OLs myelinating
+axonal density, %
+0
+20
+40
+60
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+axonal density, %
+fraction of OLs myelinating
+Figure 1. Effect of NRG and NMDA receptor block on myelination. (A, B) High-magnification views of a myelinating oligodendrocyte (A) with
+MBP (green) expressed in processes wrapping around axons expressing NF 160/200 (NF, red), and of a nonmyelinating oligodendrocyte (B) with MBP
+expressed (in a more patchy and often diffuse manner) in processes that are not aligned with axons. Myelination was quantified as the fraction of all
+MBP-expressing oligodendrocytes that provided a thick straight myelin sheath to at least one axon. (C–F) Myelinating processes (MBP, green)
+wrapping DRG axons (NF, red) in control conditions (C), in the presence of MK-801 (D), in the presence of NRG (E), and in the presence of NRG and
+MK-801 (F). Filled and open arrows show some myelinating and nonmyelinating oligodendrocytes. Graphs show fraction of oligodendrocytes that are
+myelinating, versus fraction of area occupied by DRG processes, for 30 images of each coverslip from which the specimen images shown were taken,
+best fit with a linear dependence of myelination on axon density.
+doi:10.1371/journal.pbio.1001743.g001
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+3
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+AP5
+AP5
+myelination (x10 )
+0
+2
+4
+6
+8
+10
+12
+14
+16
+No
+TTX
+MK
+MK
+7CK NBQX TTX
+No
+TTX
+MK
+MK
+7CK NBQX TTX
+drug
+NBQX
+MK
+drug
+NBQX
+MK
+no NRG
+with NRG
+p=7x10-4
+p=0.65
+p=0.16
+p=0.29
+p=0.66
+p=0.58
+p=0.27
+p=0.006
+p=3x10
+-15
+p=1x10
+-6
+p=4x10
+-6
+p=0.007
+p=0.009
+32
+5
+19
+5
+8
+6
+6
+27
+22
+4
+10
+6
+6
+5
+-3
+axonal density (% NF coverage)
+0
+10
+20
+30
+40
+50
+60
+No
+TTX
+MK
+MK
+7CK NBQX TTX
+No
+TTX
+MK
+MK
+7CK NBQX TTX
+drug
+NBQX
+MK
+drug
+NBQX
+MK
+no NRG
+with NRG
+32
+5
+19
+5
+8
+6
+6
+27
+22
+4
+10
+6
+6
+5
+A
+B
+C
+D
+E
+time weeks
+0
+2
+4
+6
+0
+5
+10
+15
+20
+25
+factor potentiation by NRG
+myelination in 
+control (x10 -3)
+myelination in 
+control (x10
+-3)
+fraction of myelination 
+remaining in MK-801
+0.0
+0.5
+1.0
+1.5
+0
+4
+8
+12
+16
+1
+2
+3
+p=3x10 -4
+0
+4
+8
+12
+16
+Con 
+NRG
+p=0.65
+p=0.99
+NRG
+Con
+speeding 
+p=0.0037
+increase p=0.024
+5
+5
+2
+4
+6
+myelination (x10 )
+-3
+p=0.21
+p=0.003
+AP5
+AP5
+5
+5
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+4
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+programme that is independent of neuronal activity, with NRG
+present myelination depends partly on action potentials.
+Because myelination can be promoted by neuronal activity
+[10,11], we assessed whether NRG increased action potential
+activity in the DRG axons being myelinated in the cocultures, by
+voltage-clamping interneurons (Figure 4A) and measuring the
+frequency of synaptic input they received from DRG neurons
+(Figure 4B). NRG did not significantly affect the total frequency of
+(excitatory plus inhibitory) synaptic currents recorded at 264 mV
+with a high [Cl2]pipette (Figure 4B,C), 94% of which were blocked
+by TTX (Figure 4D) and so reflect action potential activity in the
+cocultures. At 270 mV with ECl set to 288 mV so that all inward
+currents are EPSCs from DRG cells (Figure 4E), there was no
+difference in the frequency of events in control and NRG cultures
+(Figure 4F; 25 mM NBQX+50 mM AP5 blocked the currents, as
+did TTX, while 10 mM GABAzine had essentially no effect on
+them; Figure 4E,G). Thus, NRG makes myelination of DRG
+axons become dependent on neuronal activity without increasing
+the level of that activity.
+NRG Makes Myelination Become NMDA Receptor
+Dependent
+These data suggest that NRG increases the oligodendrocyte
+sensitivity to events triggered by axonal action potentials. To
+investigate this idea, we tested the effects of glutamate receptor
+blockers.
+The
+NMDA
+receptor
+channel
+blocker
+MK-801
+(10 mM) had no effect on myelination in the absence of added
+NRG
+(Figure
+1C–D,
+Figure
+2A;
+p = 0.16)
+but
+reduced
+myelination by 82% when NRG was present (Figure 1E–F,
+Figure 2A; p = 3610215). In NRG+MK-801, myelination was
+reduced to only 25% of the level seen in control conditions in
+the absence of NRG (p = 461029). The same results were
+obtained (without and with NRG) when the AMPA/kainate
+receptor blocker NBQX (25 mM) was added with the MK-801
+Figure 2. NRG switches myelination to an activity- and NMDA receptor-dependent programme. (A) Mean myelination parameter (the
+value of A from eqn. 1 of the Materials and Methods) from experiments as in Figure 1 for different conditions (number of experiments shown on bars).
+For No NRG, ANOVA indicated no significant differences across all bars (p = 0.79); p values from t tests are for comparison with control. For With NRG,
+ANOVA showed significant differences across all bars (p,0.0001); p values (from Holm–Bonferroni post hoc test) are for comparison with NRG alone
+(comparison between conditions with and without NRG: TTX versus NRG+TTX p = 0.29; MK versus NRG+MK p = 661027; MK+NBQX versus
+NRG+MK+NBQX p = 0.14; 7CK versus NRG+7CK p = 0.02; NBQX versus NRG+NBQX p = 0.65; TTX+MK versus NRG+TTX+MK p = 0.72; AP5 versus NRG+AP5
+p = 0.85). (B) Axon density (fraction of image pixels labelled for NF 160/200) for the conditions in (A) (ANOVA showed no significant differences, p = 0.19).
+(C) Myelination in control and NRG at different times after plating OPCs onto DRG cells (5–7 cocultures per point). Plots are myelination (M) as a function
+of time (t) where M = Mmax.tn/(tn+Tn) with n fixed at 4.7 (best fit for control) and best fit values were Mmax= 0.0180 (NRG) or 0.0155 (Con) and T = 1.56
+(NRG) or 2.28 (Con) weeks. The p values are shown for the increase of Mmax and decrease of T in NRG compared to control. (D) Potentiation of
+myelination by NRG as a function of the level of myelination in control conditions (each point is one individual coculture). (E) Fraction of myelination
+remaining in MK-801 as a function of the level of myelination in control conditions (each point is one individual coculture; variability in the data reflects
+taking the ratio of two variable levels of myelination), in the absence (Con) and presence of NRG. See also Figure S2 and S3.
+doi:10.1371/journal.pbio.1001743.g002
+A
+E
+D
+G
+F
+B
+C
+DAPI
+DAPI
+SCIP
+SCIP
+100 μm
+NRG
+Con
+Satellite cells
+Percentage SCIP+
+p = 0.82
+36
+36
+Con
+NRG
+0
+20
+40
+60
+80
+100
+DAPI
+DAPI
+Percentage GFAP+
+Con
+NRG
+0
+20
+40
+60
+80
+100
+52
+52
+p = 0.28
+GFAP
+GFAP
+Astrocytes
+Con
+NRG
+100 μm
+DAPI
+DAPI
+100 μm
+Con
+NRG
+65/67
+GAD
+65/67
+GAD
+Interneurons
+Percentage GAD65/67+
+0
+20
+40
+60
+80
+100
+Con
+NRG
+p = 0.78
+36
+36
+Percentage NG2+
+NRG
+Con
+p = 0.76
+27
+27
+0
+20
+40
+60
+80
+100
+Con
+NRG
+NG2
+NG2
+OPCs
+100 μm
+DAPI
+DAPI
+0
+20
+40
+60
+80
+100
+Con
+NRG
+p = 0.88
+51
+51
+Percentage Olig2+
+DAPI
+Olig2
+Olig2
+Con
+100 μm
+NRG
+Oligodendrocyte lineage cells
+DAPI
+cells/mm2
+0
+10
+20
+30
+40
+Con       NRG
+MBP
+p = 0.34
+797
+797
+0
+1000
+2000
+3000
+cells/mm2
+Con        NRG
+DAPI
+p = 0.83
+235
+235
+Figure 3. NRG has no effect on cell density. (A, B) Total number of DAPI-labelled cells (A) and number of MBP-expressing oligodendrocytes (B) in
+control and NRG-treated cultures. (C–G) Images of labelled cells in control and NRG, and bar chart showing the percentages of cells, which were (C)
+Olig2-expressing oligodendrocyte lineage cells, (D) NG2-expressing OPCs, (E) GAD-expressing interneurons, (F) GFAP-expressing astrocytes, and (G)
+SCIP-expressing satellite cells. Number of fields of view counted per condition are shown on bars; 10 fields were imaged per coverslip.
+doi:10.1371/journal.pbio.1001743.g003
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+5
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+(Figure 2A). Thus, NRG induces a switch in the main mode of
+myelination, from being completely independent of NMDA
+receptor activation in the absence of NRG to being mainly
+(82%) dependent on NMDA receptor activation when NRG is
+present. Similarly, the structurally unrelated NMDA receptor
+blocker 7-chlorokynurenate (30 mM) also had no effect in the
+absence of NRG (p = 0.66) but reduced myelination in the
+presence of NRG by 80% (p = 461026), that is, to only 28% of
+the control level with no NRG (p = 0.002; Figure 2A). The
+blocker of the glutamate site on NMDA receptors, D-AP5
+(200 mM) reduced myelination in NRG less than MK-801 or 7-
+chlorokynurenate (Figure 2A) for reasons discussed below.
+NBQX alone had no effect on myelination (p = 0.58) in the
+absence of NRG, but reduced myelination by 46% in NRG
+(p = 0.007; Figure 2A). Thus, the activity-dependent myelination
+induced by NRG depends on activation of NMDA and AMPA/
+kainate receptors.
+To assess how the effects of NRG and NMDA receptor block
+varied with the initial level of myelination, we took advantage of
+variations between cocultures in the control level of myelination.
+When myelination was low in control conditions the potentiation by
+NRG was large (reaching an extrapolated value of 2.560.2-fold at
+zero myelination), but the NRG effect became much smaller when
+the control level of myelination was large (Figure 2D). Strikingly,
+however, despite this variation in NRG’s potentiating action, the 5-
+fold reduction of myelination produced in NRG by blocking NMDA
+receptors with MK-801 occurred independently of the control level
+of myelination (Figure 2E). Thus, NRG makes myelination become
+highly dependent on the activation of NMDA receptors even when
+the increase in myelination produced by NRG is small.
+A
+B
+C
+D
+E
+F
+G
+200pA
+5s
+NBQX+AP5
+GABAzine
+TTX
+50pA
+100s
+p = 0.7
+Events per second
+0
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+8
+4
+Con NRG
+0
+20
+40
+60
+80
+100
+5
+4
+7
+2
+3
+p = 0.88
+p = 0.81
+p = 0.94
+ % Events blocked 
+Con NRG Con NRG Con NRG
+NBQX
++ AP5
+GABAzine
+2
+TTX
+Interneuron
+Events per second
+p = 0.78
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0
+20
+40
+60
+80
+100
+ % Events blocked byTTX
+p = 0.90
+2
+5
+Con
+NRG
+Con
+NRG
+20
+15
+DAPI
+GAD65/67
+GAD65/67 DAPI
+50m
+LY
+LY
+TTX
+1nA
+2s
+2nA
+100s
+Figure 4. NRG does not affect neuronal activity. (A) Lucifer yellow filled patch-clamped interneuron, identified after recording by labelling for
+glutamate decarboxylase (GAD) 65/67, from which action potential evoked synaptic currents were recorded. DAPI labelling shows cell nuclei. (B)
+Spontaneous synaptic currents at 264 mV recorded in an interneuron with ECl = 0 mV. (C–D) Event frequency (C) and block by 1 mM TTX (D) in
+control and NRG cultures. (E) Spontaneous synaptic currents at 270 mV recorded with ECl = 288 mV, during application of 25 mM NBQX+50 mM D-
+AP5, or 10 mM GABAzine, or 1 mM TTX. (F–G) Event frequency (F) and block by NBQX/AP5, GABAzine, and TTX (G) in control and NRG cultures.
+doi:10.1371/journal.pbio.1001743.g004
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+6
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+NRG Increases NMDA Receptor Currents in
+Oligodendrocyte Lineage Cells
+To assess which cells’ glutamate receptors might be regulating
+myelination in the presence of NRG, we recorded from the cells in
+the cocultures at the time when myelination was measured (3 wk
+after adding the OPCs), using postrecording antibody labelling
+(Figure 4A, Figure 5A–F) and membrane I-V relations (Figure S4)
+to identify them. In cultures exposed to NRG, the membrane
+A
+C
+D
+G
+H
+K
+L
+M
+N
+E
+I
+F
+B
+J
+Satellite cell
+Astrocyte
+Differentiated oligodendrocyte
+DRG neuron
+Differentiated oligodendrocyte
+OPC
+Oligodendrocyte Precursor Cells (OPC)
+Interneurons
+Astrocytes
+Satellite cells
+DRG neurons
+Differentiated oligodendrocytes
+p = 0.62
+p = 0.52
+Con NRG
+Con NRG
+NMDA
+Kainate
+0
+20
+30
+40
+50
+10
+13
+13
+12
+10
+Current, -pA
+p = 0.78
+Current, -pA
+0
+20
+30
+40
+50
+10
+5
+5
+Con NRG
+NMDA
+Kainate
+5
+4
+Con NRG
+Con NRG
+Con NRG
+NMDA
+Kainate
+p = 0.92
+p = 0.3
+Current, -pA
+0
+100
+200
+300
+400
+500
+19
+18
+17
+16
+Con NRG
+Con NRG
+NMDA
+Kainate
+Current, -pA
+0
+20
+40
+60
+80
+100
+22
+20
+25
+18
+p = 0.93
+p = 0.75
+Con NRG
+Con NRG
+NMDA
+Kainate
+Current, -pA
+0
+20
+40
+60
+80
+28
+39
+23
+19
+200s
+10pA
+Control
+Neuregulin
+NMDA
+NMDA
+Kainate
+Kainate
+p = 0.48
+p = 0.02
+Con NRG
+Con NRG
+NMDA
+Kainate
+Current, -pA
+0
+20
+40
+60
+80
+100
+20
+20
+18
+14
+p = 0.03
+p = 0.73
+Control
+Neuregulin
+200s
+25pA
+NMDA
+NMDA
+Kainate
+Kainate
+DAPI
+SCIP
+LY
+SCIP DAPI
+LY
+25μm
+GFAP DAPI
+DAPI
+GFAP
+LY
+50μm
+LY
+LY
+100μm
+LY
+NF
+NF
+DAPI
+DAPI
+MBP
+MBP
+50μm
+LY
+LY
+NF
+NF
+CNPase
+CNPase
+LY
+LY
+50μm
+NG2
+NG2
+50μm
+LY
+LY
+DAPI
+DAPI
+Figure 5. NRG specifically increases NMDA receptor currents in oligodendrocyte lineage cells. (A–F) Images of Lucifer yellow in patch-
+clamped cells (left), antibody labelling for identification (middle), and merged images (right). (A) NG2-expressing OPC. (B) CNPase-expressing
+myelinating oligodendrocyte, with axons labelled for NF 160/200. (C) Myelinating oligodendrocyte expressing MBP. (D) NF 160/200-expressing DRG
+neuron. (E) GFAP-expressing astrocyte. (F) SCIP-expressing satellite cell. (G–J) Specimen currents and mean currents (number of cells shown on bars)
+evoked at 264 mV by 60 mM NMDA and 30 mM kainate in the absence or presence of NRG, in (G–H) oligodendrocyte precursor cells and (I–J)
+differentiated oligodendrocytes in the process of myelinating neurons. (K–N) Mean currents in (K) DRG neurons, (L) interneurons, (M) astrocytes, and
+(N) satellite cells. Internal solution had ECl = 0 mV. See also Figure S4.
+doi:10.1371/journal.pbio.1001743.g005
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+7
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+resistance of oligodendrocyte lineage cells was not altered (OPCs,
+control 8366369 MV versus NRG 8946483 MV, p = 0.92;
+differentiated
+oligodendrocytes,
+control
+130625 MV
+versus
+NRG 208665 MV, p = 0.20). However, with added NRG the
+NMDA-evoked currents at 264 mV in oligodendrocyte precursor
+cells and in differentiated oligodendrocytes were ,6-fold larger
+than in cells not exposed to added NRG (p = 0.02 and p = 0.03,
+respectively; Figure 5G–J). In contrast, kainate-evoked currents
+(mediated by AMPA/kainate receptors) were not significantly
+affected by NRG in either OPCs (p = 0.48) or differentiated
+oligodendrocytes (p = 0.73; Figure 5G–J). NRG did not signifi-
+cantly alter the size of NMDA- or kainate-evoked currents in DRG
+neurons (p = 0.75 and p = 0.93, respectively; Figure 5K), interneu-
+rons (p = 0.30 and p = 0.92; Figure 5L), astrocytes (p = 1 and
+p = 0.78; Figure 5M), or satellite cells (p = 0.62 and p = 0.52;
+Figure 5N) that were also present in the cultures. These data
+indicate that NRG specifically upregulates NMDA responses in
+oligodendrocyte lineage cells, providing a mechanism for these
+cells to become more sensitive to glutamate released from active
+axons.
+NMDA receptors in oligodendrocyte lineage cells have been
+suggested to mainly comprise NR1, NR2C, and NR3A subunits
+[18–20,29]. NR2B and NR2C are the main subunits known to
+be phosphorylated (by Fyn and Akt, respectively) downstream of
+NRG and other growth factor signalling [30,31], and NR2C
+phosphorylation promotes subunit trafficking to the plasma
+membrane [31]. We therefore investigated whether the increase
+in NMDA responses reflected altered receptor subunit expression
+or phosphorylation, focussing on the possible role of NR2B,
+NR2C, and NR3A subunits (in fact, no NR2A or NR2D and
+very little NR3B were detected in the cocultures). Western
+blotting revealed unchanged levels of NR1, of NR2B and its
+phosphorylated form, of NR2C and its phosphorylated form,
+and of NR3B (Figure 6A,B). However, the level of NR3A protein
+was down-regulated by 40% in the presence of NRG (p = 0.02;
+Figure 6A,B). NRG did not affect the NR3A protein level in
+pure DRG cultures (p = 0.85; Figure 6C), but downregulated
+NR3A by 33% in pure OPC cultures provided that glutamate
+was also added to mimic glutamate release from DRG axons
+(p = 0.02; Figure 6D and see Discussion). Removal of NR3A
+subunits from NMDA receptors composed of NR1, NR2, and
+NR3 subunits has previously been reported to increase their
+single channel current, their trafficking to the surface membrane,
+and their calcium permeability, and thus to increase NMDA-
+evoked currents 2.8-fold [29,32,33]. Consequently, a down-
+regulation of NR3A synthesis or an increase of its degradation
+could account for the increased NMDA receptor current seen in
+NRG.
+Only Activity-Dependent Myelination Is Integrin
+Dependent
+Myelination depends on integrins [34], and integrins modulate
+NMDA receptor expression [35]. We therefore tested whether the
+NRG-evoked switch from activity-independent to NMDA recep-
+tor-dependent
+myelination
+depends
+on
+integrins,
+using
+an
+antibody to b1 integrin (1 mg/ml) to block its function [36]. This
+had no effect on myelination without added NRG (p = 0.27), but in
+the presence of NRG it reduced myelination by 82% (p = 561026;
+Figure 7A) to only 26% of the level seen without NRG
+(significantly lower, p = 0.0024). Thus, unlike the activity-indepen-
+dent mode of myelination, the activity and NMDA receptor-
+dependent myelination induced by NRG is dependent on integrin
+function.
+Signalling Underlying the Effects of NRG
+NRG can activate the PI3K-Akt or MAPK/Erk pathways in
+oligodendrocytes [37]. To test which pathway mediated NRG’s
+effects, we measured the levels of phosphorylated Akt and Erk in
+the cocultures. NRG increased Akt phosphorylation by 43%
+(p = 0.047; Figure 7B), with no effect on Erk phosphorylation
+(p = 0.79; Figure 7C). In contrast in pure DRG cultures neither
+pAkt nor pErk levels were affected (Figure S5B,C). To test whether
+activation of Akt was downstream of the increased NMDA
+receptor activation produced by NRG, we measured the levels of
+pAkt and pErk in cocultures treated with MK-801 (Figure 7B,C).
+MK-801 had no effect on the actions of NRG on Akt: NRG added
+with MK-801 increased pAkt (p = 0.01) with no effect on pErk
+(p = 0.26), and there was no significant difference between the
+levels of pAkt in NRG, with or without MK-801 (p = 0.50). Thus,
+activation of Akt does not occur downstream of NMDA receptor
+activation (it may be upstream of the NRG-evoked increase in
+NMDA receptor current, or on an independent NRG-activated
+pathway). NRG also increased by 65% (p = 0.02) the proportion of
+Nkx2.2-expressing cells (late OPCs/immature oligodendrocytes)
+that expressed phosphorylated CREB (pCREB), an Akt target
+[38], without affecting the percentage of cells lacking Nkx2.2 that
+expressed pCREB (p = 0.35; Figure 7D,E).
+Next we looked into CREB target genes. NRG increased more
+than 4-fold the message level for the early growth response gene
+Egr-1 (p = 0.036; Figure 7F), a CREB target gene [39] that has
+been shown to be regulated by integrin b1-dependent PI3K/Akt
+activation [40], neuronal activity [41], activation of NMDA
+receptors [42], and activation of OPC glutamate receptors [43].
+EGR-1 is an upstream regulator of MRF [44], an essential
+transcription factor needed for myelination [45]. NRG more than
+doubled the level of the CREB target c-Fos, but this did not reach
+significance (p = 0.06) and had no effect on the level of c-Jun
+(p = 0.36; Figure 7F).
+These data suggest that NRG promotes myelination via Akt,
+integrin b1, NMDA receptors, CREB, and EGR-1 signalling. This
+is consistent with constitutively active Akt promoting myelination
+[46], with b1 integrin activating Akt to promote myelination [34],
+and with CREB activating transcription of myelin genes [39,47].
+BDNF Also Induces NMDAR-Dependent Myelination
+The role of NRG/ErbB signalling in CNS myelination is
+controversial, as decreasing NRG or ErbB function reduced
+myelination [5–7], while knocking NRG or ErbB out had no effect
+on myelination [9]. Because of the importance of myelination,
+there may be redundancy in the mechanisms regulating it. Like
+NRG, BDNF increases NMDA receptor currents in neurons by
+upregulating NR2C subunits [48], and via TrkB it can promote
+oligodendrocyte differentiation, expression of MBP [49], and CNS
+myelination [50]. We therefore tested the effect of adding BDNF
+(10 ng/ml, 0.7 nM) to the cocultures. BDNF increased myelina-
+tion (by 102%, p = 0.006; Figure 7G) and MBP expression
+(p = 0.048; Figure S1G) and, as for NRG, made myelination
+become dependent on activation of NMDA receptors (Figure 7G).
+With BDNF present, MK-801 reduced myelination by 76%
+(p = 6.961024), to only 47% of its value without BDNF (p = 0.019).
+Like NRG, BDNF induced phosphorylation of Akt but not Erk
+(Figure 7H–I; p = 0.03 and p = 0.2, respectively), and downregu-
+lated expression of the NR3A subunit but not the NR1 subunit of
+NMDA receptors (Figure 7J; p = 0.005 and p = 0.69, respectively).
+Thus, by acting through similar signalling pathways, BDNF can
+also switch oligodendrocyte myelination to a pathway that
+depends on glutamate release activating NMDA receptors.
+Consequently, when the NRG/ErbB pathway is knocked out,
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+8
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+37
+β-actin
+150
+Con Nrg
+NR3A
+kDa
+B
+NR2C
+pNR2C
+NR3A
+Con Nrg
+kDa
+pNR2B
+NR2B
+NR1
+Con Nrg
+kDa
+A
+NR3B
+β-actin
+NR2D
+Con Nrg Th.
+Con Nrg
+kDa
+Ctx.
+150
+37
+kDa
+37
+100
+150
+37
+150
+100
+37
+150
+37
+150
+150
+37
+NR1 NR2B pNR2B NR2C pNR2C NR3A NR3B
+0
+200
+150
+100
+50
+5
+5
+4
+7
+7
+6
+5
+Protein % of control
+p=0.92
+p=0.90
+p=0.76
+p=0.28
+p=0.45
+p=0.02
+p=0.25
+Con Nrg
+kDa
+Con Nrg
+kDa
+Con Nrg
+kDa
+β-actin
+NR2A
+37
+150
+β-actin
+β-actin
+β-actin
+β-actin
+β-actin
+Con
+NRG
+0
+150
+100
+50
+5
+5
+Protein % of control
+p=0.85
+150
+37
+NR3A
+kDa
+β-actin
+Glu.
++
++
+–
+–
+Nrg
++
+–
++
+–
+C
+D
+4
+4
+p=0.11
+5
+5
+p=0.02
+Con
+NRG
+0
+150
+100
+50
+Protein % of control
+Con
+NRG
+Glu.
++
++
+–
+–
+Figure 6. Expression of NMDA receptors. (A) Western blots of control and NRG-treated cocultures for NR1, NR2B and its phosphorylated form
+(pNR2B), NR2C and its phosphorylated form (pNR2C), NR3A and NR3B, as well as for NR2A and NR2D compared to their respective positive controls of
+rat cortex (Ctx) and thalamus (Th); b-actin acts as a loading control throughout. (B) Densitometric quantification of subunit protein levels in cocultures
+(normalized to b-actin) in NRG normalized to the levels in control (NR2A and NR2D levels were undetectable). (C) Western blot of control (Con) and
+NRG-treated pure DRG cultures for NR3A and (below) densitometric quantification of subunit protein levels (normalized to b-actin and then to
+control). (D) Western blot for NR1 and NR3A of control (Con) and NRG-treated (for 6 d) pure OPC cultures, treated (+) or not treated (2) with 20 min
+glutamate (Glu, 100 mM) stimulation every day, with densitometric quantification of subunit protein levels (normalized to b-actin and then to control).
+The p values over the bars, in (B) from Holm–Bonferroni corrected t tests and in (C and D) from one-sample Student t tests, compare with control;
+numbers of experiments shown on bars.
+doi:10.1371/journal.pbio.1001743.g006
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+9
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+myelination may still occur [9] not only via the activity-
+independent mode of myelination (Figure 2A) but also because
+of compensatory BDNF signalling (see Discussion).
+Remyelination in Vivo Is NMDA Receptor Dependent
+Our demonstration of NRG- and NMDAR-dependent myeli-
+nation of axons by oligodendrocytes raises the question of whether
+this same mechanism operates during remyelination after white
+matter damage. A lack of NRG signalling has been suggested to
+result in poor remyelination in multiple sclerosis [51,52]. The data
+above suggest this may reflect a lack of NRG-dependent
+upregulation of NMDA receptors in oligodendrocyte lineage cells,
+but NMDA receptor deletion or block has been variously reported
+to either have no effect on loss of myelin in the experimental
+autoimmune encephalomyelitis model of multiple sclerosis [24] or
+to delay remyelination after cuprizone demyelination [25]. We
+therefore tested whether successful remyelination is dependent on
+NMDA receptor activation, in OPCs that are recruited to
+remyelinate axons in a focal toxin-induced demyelinated lesion
+in the rat caudal cerebellar peduncle. This demyelination model
+provides successful spontaneous remyelination that occurs with a
+clear temporal separation from the acute demyelination [53].
+An intracerebral implanted cannula, connected to an osmotic
+minipump, infused into the lesion either 0.9% saline or 50 mM
+MK-801 (at a flow rate of 0.11 ml/h) from the 3rd day postlesion
+(the timepoint when OPCs enter the lesion, [54]) until the animal
+was sacrificed at 21 d postlesion. Analysis of semithin sections
+stained with toluidine blue showed that there was no difference in
+lesion size (saline, 0.2860.04 mm2; MK-801, 0.2260.04 mm2,
+p = 0.28) nor axon density (saline, 50,80062,100 axons/mm2;
+MK-801,
+47,50061,900 axons/mm2,
+p = 0.27) between the
+conditions, but a blinded analysis ranking remyelination revealed
+that
+blocking
+NMDA
+receptors
+with
+MK-801
+significantly
+inhibited remyelination (p = 0.036; Figure 8A–C). Moreover, at
+the ultrastructural level, it was clear that fewer axons were
+remyelinated when NMDA receptors were blocked (p = 0.0012;
+Figure 8D–F), and the g-ratio (the ratio of axon diameter to
+outside diameter of the myelin) of remyelinated axons was higher
+in
+MK-801–
+compared
+to
+saline-infused
+lesions
+(p = 0.01;
+Figure 8G–I), showing that the myelin was thinner. Thus, efficient
+remyelination depends on activation of NMDA receptors.
+Discussion
+The speeding of action potential propagation produced by
+myelination of axons is crucial for CNS function. We have shown
+that, in the absence of added NRG, myelination takes place by a
+mechanism that is independent of neuronal activity and glutamate
+release, because it is unaffected by blocking action potentials or
+ionotropic glutamate receptors. With NRG added, myelination is
+accelerated and increased, this effect is dependent on action
+potentials,
+and
+blocking
+NMDA
+receptors
+greatly
+reduces
+myelination (to well below the level seen in the absence of added
+NRG; Figures 1 and 2). Thus, the key result of this article is that
+NRG does not just speed and increase myelination; it produces a
+switch
+in
+the
+mechanism
+of
+myelination,
+from
+a
+default
+programme that is independent of neuronal activity (which allows
+oligodendrocytes to ensheath even fixed axons [12]) to a
+programme that depends on activation of NMDA receptors in
+oligodendrocyte lineage cells, presumably by glutamate released
+from active axons [14–18,55] (although we cannot rule out a
+contribution of glutamate release, either tonic or activity-induced,
+from other cells). This switch implies a suppression of the default
+programme when the activity-dependent programme is activated
+by NRG. Furthermore, the influence of NMDA receptors on
+myelination is not limited to myelination occurring during normal
+development, – because remyelination of demyelinated axons in
+the cerebellar peduncle in vivo also depends on NMDA receptor
+activation (Figure 8).
+Adding NRG increases 6-fold the NMDA-evoked currents in
+oligodendrocyte precursor cells and in differentiated oligodendro-
+cytes, but does not significantly alter NMDA-evoked currents in
+DRG neurons, nor NMDA- or kainate-evoked currents in any
+other cell type in the culture (Figure 5), nor the action potential
+firing of DRG axons (Figure 4). We therefore attribute the NRG-
+induced activity dependence of myelination to a potentiation of
+NMDA receptor signalling in oligodendrocyte lineage cells,
+making the cells more sensitive to axonal activity. This potenti-
+ation may largely reflect a decreased protein level of NR3A
+subunits (Figure 6). However, the 6-fold increase in NMDA
+receptor-mediated current that we find is larger than the 2.8-fold
+increase reported in neurons when NR3A is knocked out [32].
+Consequently, because of possible obscuring of changes in
+oligodendrocyte protein levels by neuronal NMDA receptor
+protein in the cocultures, we cannot rule out a contribution to
+the increase in NMDA-evoked current from alterations of the
+levels of other NMDA receptor subunits in oligodendrocyte
+lineage cells, of which upregulation of NR2C [21] and/or NR2B
+[30] subunits are the most likely candidates.
+In the presence of NRG, blocking action potentials reduces
+myelination less than does blocking NMDA receptors (Figure 2A),
+despite the fact that it is presumably action potentials that release
+the glutamate that activates the NMDA receptors. Thus, in NRG,
+TTX reduces myelination to a value close to that occurring
+without NRG present (Figures 2A and S5A). This may reflect
+action potential evoked glutamate release being needed for NRG
+to increase NMDA receptor currents, so that the switch to NMDA
+receptor-dependent myelination does not occur in the absence of
+action potentials. This is likely since NMDA receptor activation is
+needed both for removal of NR3A subunits from the surface
+membrane [56] and for NRG to upregulate NR2C subunits in
+neurons [21]. Consistent with this, blocking the glutamate site on
+NMDA receptors with D-AP5 reduced myelination in NRG less
+than did MK-801 or 7-chlorokynurenate, which block at other
+sites on NMDARs (Figure 2A), and in pure OPC cultures, NRG
+downregulated
+NR3A
+only
+if
+glutamate
+was
+also
+added
+(Figure 6D). The inhibitory effect of NBQX in NRG in
+Figure 2A may similarly reflect AMPA/kainate receptor activity
+maintaining neuronal firing, which evokes the glutamate release
+needed to upregulate NMDA currents [21,56], or could reflect
+AMPA/kainate receptor-mediated depolarisation increasing cur-
+rent flow through NMDA receptors [18].
+The exact sequence of signalling steps in oligodendrocytes that
+upregulates NMDA receptor currents, and thus speeds, increases,
+and confers activity-dependence upon myelination, remains to be
+defined, although we have shown that Akt, integrin b1, CREB,
+and EGR-1 are involved (Figure 7). Since NRG activates Akt
+(Figure 7B) and Fyn [30] and these kinases are known to alter
+NMDA receptor subunit expression and trafficking [30,31] and to
+promote myelination [16,46,57], it is an attractive idea that NRG
+may initially activate Akt and/or Fyn, and that this action is
+potentiated by integrins (Figure 7A) [34,35,57].
+Our results help resolve three controversies in the field. The
+first concerns the role of NRG in CNS myelination. Decreasing
+NRG or ErbB function reduces myelination [5–7], and in the
+prefrontal cortex, NRG’s control of myelination is regulated by
+social interactions [58]. However, knocking NRG or ErbB out
+had no effect on myelination, even though overexpressing NRG
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+10
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+NRG
+B1
+B1
+Con
+NRG
+Con
+p=4.9x10
+-6
+p=0.27
+p=1.3x10-3
+p=2.4x10
+-3
+33
+5
+28
+5
+4.0
+2.0
+10.0
+0.0
+6.0
+8.0
+12.0
+14.0
+16.0
+Myelination (x10   )
+-3
+p=6.3x10-3
+MK
+MK
+4.0
+2.0
+10.0
+6.0
+8.0
+12.0
+14.0
+16.0
+5
+4
+5
+5
+p=6.9x10
+-4
+p=0.75
+p=0.019
+Myelination (x10   )
+-3
+Con
+Con
+BDNF
+BDNF
+0.0
+G
+(kDa)
+(kDa)
+75
+50
+75
+50
+37
+50
+37
+50
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+Con NRG MK NRG
+9
+4
+lo
+rt
+n
+o
+c f
+o
+ 
+%
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+Con NRG MK NRG
+9
+4
+lo
+rt
+n
+o
+c f
+o
+ 
+%
+MK
+MK
+9
+4
+9
+4
+30.0
+20.0
+10.0
+40.0
+Con
+p=0.35
+p=0.02
+0.0
+50.0
+Con
+NRG
+NRG
+% cells positive for pCREB
+Nkx2.2  
+Nkx2.2  
+p=0.79
+p=0.26
+p=0.29
+p=0.44
+p=0.047
+p=0.99
+p=0.01
+p=0.50
++
+-
+cells
+cells
+D
+C
+B
+A
+E
+NRG
+Control
+DAPI
+pCREBNkx2.2
+pCREBNkx2.2
+pCREBNkx2.2
+DAPI
+pCREBNkx2.2
+100 m
+pAkt
+Akt
+pErk
+Erk
+Con NRG MK
+NRG
+MK
+NRG MK
+NRG
+MK
+Con
+F
+(kDa)
+BDNF
+Con
+pAkt
+50
+Akt
+BDNF
+Con
+pErk
+37
+Erk
+BDNF
+Con
+NR3A
+100
+37
+-actin
+100
+NR1
+9
+BDNF
+8
+0
+150
+100
+50
+Con
+8
+% of control
+H
+BDNF
+7
+0
+150
+100
+50
+Con
+7
+% of control
+NR3A
+0
+150
+100
+50
+NR1
+% of control
+7
+25
+75
+125
+25
+75
+125
+25
+75
+125
+p=0.005
+p=0.69
+p=0.20
+p=0.03
+(kDa)
+(kDa)
+I
+J
+50
+37
+c-Fos
+c-Jun
+Egr-1
+0
+1
+2
+3
+4
+5
+6
+3
+3
+3
+3
+p=0.06
+p=0.36
+p=0.036
+mRNA normalised to control level
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+11
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+increased myelination [9]. Our data predict that myelination can
+appear to be unaffected when NRG-ErbB signalling is abolished,
+for three reasons. First, the activity-independent mode of
+myelination (Figure 2A) should
+still occur.
+Second, when
+myelination levels are high, as may be the case in vivo, NRG
+only modestly increases myelination (Figure 2D), yet it still makes
+myelination become very highly dependent on neuronal activity
+releasing glutamate to activate NMDA receptors (Figure 2E).
+Third, our data indicate redundancy in the growth factors that
+switch oligodendrocytes between the two myelination modes.
+Both NRG and BDNF alter NMDA receptor expression in
+oligodendrocyte lineage cells, induce Akt activation but not Erk
+activation (although promotion of myelination by BDNF can also
+involve Erk activation [59]), and promote myelination, and both
+switch oligodendrocytes to the NMDA receptor-dependent mode
+of myelination (Figures 2A and 7G). Since not only ErbB
+receptors for NRG but also TrkB receptors for BDNF (including
+full
+length
+receptors
+[49,50,60–62])
+can
+be
+expressed
+by
+oligodendrocytes, our data suggest that the failure of NRG or
+ErbB knockout to affect CNS myelination may, in part, reflect
+another growth factor (BDNF) and its receptor (TrkB) acting to
+replace the NRG/ErbB system.
+The second controversy concerns the role of NMDA receptors
+in CNS myelination. Deleting the NMDA receptor NR1 subunit
+from oligodendrocyte lineage cells has been reported to have no
+effect on myelination [23,24], yet activation of NMDA receptors
+by glutamate released from active axons is reported to promote
+MBP translation and myelination [16]. Interestingly, in another
+oligodendrocyte-specific
+NR1 knockout,
+deletion of NMDA
+receptors slowed myelination in the optic nerve [63], consistent
+with the acceleration of myelination that we observe when NMDA
+receptor
+currents
+are
+increased
+in
+the
+presence
+of
+NRG
+(Figure 2C). This effect of NMDA receptors was proposed to be
+caused by NMDA receptor activation upregulating glucose
+transporters in oligodendrocyte lineage cells (as was previously
+shown to occur in an Akt-dependent manner in neurons; [64]) to
+provide energy for myelination [63].
+The third controversy concerns whether myelination is activity
+dependent or independent. Rearing rodents in the dark from
+birth, or injecting TTX into the optic nerve, can reduce or
+alternatively have no effect on myelination [10,65–67]. Similarly,
+electrical activity [10,16], or application of factors it releases [11],
+can promote myelination, and blocking neuronal activity with
+TTX in myelinating cortical cultures reduced myelination [10],
+whereas in spinal cord cultures TTX did not affect myelination
+[68]. Presumably, these differences may reflect the existence of
+the two alternative myelination programmes that we have
+characterised (whereby in the absence of added NRG, TTX
+has no effect on myelination, but in NRG-treated cultures, it
+reduces myelination by 50%; Figure 2A). Whether myelination is
+predominantly activity dependent or independent may depend on
+the amount of NRG or BDNF (or other molecules [69,70]) being
+expressed or released [21,71]. In this context it is worth noting
+that, although we have discussed our results as reflecting the
+presence or absence of NRG, in the absence of added NRG,
+there will be some level of endogenous NRG release, and it may
+be better to think of whether the NRG level is low or high as
+determining the main myelination mode that occurs. It is also
+possible that the switch from one mode to the other occurs
+gradually as the NRG level rises.
+The existence of two alternative myelination programmes
+regulated by NRG level, independent of, and depending on,
+action potentials and NMDA receptors, may reflect the evolu-
+tionary importance, but also the metabolic cost, of myelination.
+One can speculate that early in development it may be important
+to myelinate whatever axons are present, irrespective of their
+impulse traffic. However, once a significant density of axons is
+present, because myelination involves considerable investment by
+the oligodendrocyte in lipid production [72], it is more efficient for
+myelination to be focussed on axons that have a high impulse
+traffic, rather than on inactive axons. The NRG- and NMDA
+receptor-dependent mode of myelination may dominate later in
+development, since late myelination in the prefrontal cortex
+depends on NRG signalling [58] and adult remyelination depends
+on NMDA receptor activation (Figure 8).
+NRG is a susceptibility gene for schizophrenia [22,73], and
+NMDA receptors are also implicated in this disease [74]. NRG
+affects NMDA receptor expression in the grey matter [21,22],
+where the defect underlying schizophrenia is usually assumed to
+occur. However, correct myelination is essential for normal
+cognitive function, and the interaction of NRG and NMDA
+receptors to control myelination allows us to speculate that there
+could perhaps be a white matter explanation for the linkage of
+NRG and NMDA receptors to schizophrenia. Furthermore, NRG
+expression is reduced in multiple sclerosis lesions [52], and adding
+NRG has been suggested to promote remyelination in a mouse
+model of multiple sclerosis [51], suggesting that NRG- and
+NMDA receptor-dependent remyelination may be important after
+pathology. Consistent with this we have shown that, in vivo in the
+cerebellar peduncle, successful remyelination is reduced when
+NMDA receptors are blocked (Figure 8) and similar results have
+been found for remyelination in the corpus callosum [25].
+Promoting NRG- and NMDA receptor-dependent myelination
+may, therefore, be a useful therapeutic strategy for increasing CNS
+remyelination in disease.
+Material and Methods
+DRG-Oligodendrocyte Cocultures
+These were made as described previously [8]. Briefly, DRG cells
+from E14–E16 rats were cultured for 2 wk, and then cultured
+Figure 7. Signalling underlying the effects of NRG. (A) Effect of blocking integrin function with an antibody to the b1 subunit (b1) in the
+absence and presence of NRG (number of experiments shown on bars). ANOVA across all conditions gave p,0.0001. The p values above each bar
+compare with control. (B–C) Western blot of control (Con) and NRG cocultures (numbers of co-cultures shown on bars), in the absence and presence
+of MK-801, for phosphorylated (pAkt, pERK) and total Akt and ERK, with level of phosphorylated enzyme normalized to total enzyme in bar charts
+below. (D) Cocultures labelled for nuclei with DAPI, and with antibodies to Nkx2.2 (for late OPCs/immature oligodendrocytes) and pCREB (arrows
+show cells expressing both). (E) Percentage of cells expressing and not expressing Nkx2.2, which label for pCREB (in 29 control and 29 NRG fields of
+view, including 26,261 control and 21,518 NRG cells). (F) Change in immediate early gene expression mRNA level (by qPCR) in NRG-treated cocultures,
+normalized to control levels. (G) Effect of BDNF and MK-801 on myelination. One-way ANOVA gave p,0.0001 (the potentiation of myelination by
+BDNF here cannot be directly compared with that for NRG in Figure 2A because the experiments were not done on the same set of cocultures). (H–I)
+Western blot of control (Con) and BDNF cocultures, for phosphorylated (pAkt, pERK) and total Akt and ERK, with level of phosphorylated enzyme
+normalized to total enzyme in bar charts below. (J) Western blots of control (Con) and BDNF-treated cocultures for NR1 and NR3A, with densitometric
+quantification of subunit protein levels in bar graph below. The p values over single bars compare with control (Con). The p values are from Holm–
+Bonferroni corrected t tests in (A and G), Dunnett’s post hoc tests in (B and C), and Student’s t tests in (H–J). Number of cultures are shown on bars.
+doi:10.1371/journal.pbio.1001743.g007
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+12
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+oligodendrocyte precursor cells (OPCs) from P0–P2 rats were
+plated on top of them [8]. One coverslip was analysed for each
+drug condition per dissection. Three weeks later, the cocultures
+were fixed, labelled, and images were taken of each coverslip to
+assess myelination (see detailed description below) [8]. NRG (Lab
+Vision) or BDNF (R&D systems) and receptor blockers (Tocris)
+were applied with the OPCs (except when TTX was added 3 d
+later than the NRG and OPCs) and were included in medium
+changes twice per week thereafter. Culture medium contained
+0.8 mM MgCl2 and 0.4 mM glycine, but no added glutamate.
+DRG Cultures
+As described above, DRG cells from E14–E16 rats were
+cultured for 2 wk, then put in myelination medium (as for
+cocultures but lacking OPCs), for 3 wk, with medium changes
+twice per week thereafter.
+Oligodendrocyte Cultures
+These were as described previously [8]. Briefly, purified oligo-
+dendrocyte precursors were obtained with minor modifications
+Figure 8. Remyelination is dependent on NMDA receptor activation. (A–B) Semithin sections of lesioned caudal cerebellar peduncle (CCP),
+21 d postlesion, infused with saline (A) or MK-801 (50 mM; B) for 18 d. The dotted white lines mark the lesion edge. (C) Ranking of remyelination; each
+symbol represents one animal. Higher ranks represent more remyelination. The p value from Mann–Whitney U test. (D, E) Higher magnification
+picture shows that fewer axons are remyelinated in lesions treated with MK-801 (remyelinated axons are coloured green). (F) Mean percentage of
+axons remyelinated averaged over 20 areas in each of three lesions for each condition. (G) Specimen images of a normal myelinated axon, a
+demyelinated axon, and remyelinated axons in lesions infused with saline or MK-801. (H–I) Mean g-ratio of all axons, and mean g-ratio at all
+diameters, are higher with MK-801 present (student t test, n = 3).
+doi:10.1371/journal.pbio.1001743.g008
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+13
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+[36] of the method of McCarthy and de Vellis [75]. They were
+cultured in myelinating medium (the same as for the cocultures)
+for 6 d, either with or without 20 min 100 mM glutamate
+stimulation every day for the last 5 d in vitro.
+Quantification of Myelination
+For each coverslip, 30 randomly located images were taken of
+MBP and NF staining (using either a 106objective, with a field of
+view of 843 mm6636 mm, or a 206objective, with a field of view
+of 709 mm6530 mm). Within each image, myelination was
+quantified by counting the number of myelinating MBP-positive
+oligodendrocytes (Figure 1B,C) as a percentage of the total
+number of MBP-positive oligodendrocytes [8]. The density of
+axons was expressed as the percentage of the same area occupied
+by NF (calculated from a binarised NF image using ImageJ
+software, version 1.34s). There was no correlation between
+oligodendrocyte density and axon density. The fraction of
+myelinating cells was plotted against the axon density for the
+different images, and fitted assuming a linear dependence [8] of
+fraction of oligodendrocytes myelinating (F) on axon density (D),
+F~A: D{K
+ð
+Þ,
+ð1Þ
+where K is a free constant and the slope A is the measure of
+myelination plotted in Figure 2, Figure S2A, Figure S3A, and
+Figure 7. Fitting data in control and NRG conditions gave values
+for K that were not significantly different (12.961.3%, n = 32
+experiments, for control, and 12.661.8%, n = 27, for NRG;
+p = 0.88). This quantification of myelination gave results similar to
+those obtained using other assumed dependencies of fraction of
+oligodendrocytes myelinating (F) on axon density (D) as follows:
+(1) A linear dependence above a threshold density:
+F~0 for DƒDthreshold and
+F~A: D{Dthreshold
+ð
+Þ for DwDthreshold:
+ð2Þ
+Fitting data in control and NRG conditions with Dthreshold, a free
+parameter gave thresholds that were not significantly different
+from Dthreshold = 17% (17.961.8%, n = 32, p = 0.62 for control, and
+17.262.4%, n = 27, p = 0.93 for NRG), so Dthreshold was set to 17%;
+we refitted the data, and used the value of A as a measure of
+myelination (Figure S2B, Figure S3B).
+(2) A power law:
+F~A:DN:
+ð3Þ
+Fitting data in control conditions or in the presence of NRG with
+N a free parameter gave best fit powers not significantly different
+from N = 2 (2.0860.14, n = 32, p = 0.57, and 2.1060.16, n = 27,
+p = 0.54, respectively), so we fixed the power at 2, re-fitted the
+data, and then used the amplitude (A) of the best fit curve as the
+measure of myelination (Figure S2C and Figure S3C).
+Irrespective of the quantification used, the bar charts in different
+conditions (Figure S3A–C) gave the same results: blocking action
+potentials or NMDA receptors in control conditions had no effect
+on myelination, NRG significantly increased myelination, and in
+the presence of NRG blocking action potentials produced a
+significant reduction of myelination, while blocking NMDA
+receptors reduced myelination so strongly that it was significantly
+reduced below the control level with no NRG. If, instead of fitting
+the dependence of myelination on local axon density, we simply
+counted the fraction of oligodendrocytes that myelinated, by
+averaging over all the sampled images, then the results were
+broadly similar, except that NMDA receptor block in control
+conditions produced a reduction of myelination of borderline
+significance (Figure S3D).
+Electrophysiology
+Cells were whole-cell patch-clamped [14,18] at room temper-
+ature (21–24uC) in cocultures 3 wk after the OPCs were added.
+Electrodes contained solution comprising (mM) either 126 CsCl, 4
+NaCl, 10 HEPES, 5 EGTA, 4 MgATP, 0.5 Na2GTP, 12
+phosphocreatine, 2 K-Lucifer yellow, pH set to 7.3 with CsOH
+(ECl = 0 mV), or 130 Cs-gluconate, 4 NaCl, 0.5 CaCl2, 10
+HEPES, 10 BAPTA, 4 MgATP, 0.5 Na2GTP, 2 K-Lucifer yellow,
+pH set to 7.3 with CsOH (ECl = 288 mV). Series resistance was
+5–20 MV, and electrode junction potentials were compensated.
+Cultures were superfused at 2461uC with HEPES-buffered
+solution containing (mM) 144 NaCl, 2.5 KCl, 10 HEPES, 1
+NaH2PO4, 2.5 CaCl2, 10 glucose, 0.1 glycine (to coactivate
+NMDA receptors), 0.005 strychnine (to block glycine receptors),
+pH set to 7.4 with NaOH, bubbled with 100% O2. Cells were
+identified (Figures 4A and 5A–F) by their postrecording dye-fill
+morphology [14,18], confirmed by antibody labelling against the
+proteoglycan NG2 to identify oligodendrocyte precursors (17/17
+tested labelled for NG2), against CNPase (11/11), MBP (10/10),
+MOG (4/4), or GalC (11/11) for differentiated oligodendrocytes,
+against GAD 65/67 for interneurons (21/21), against NF 160/
+200 (13/13) for DRG neurons, against GFAP for astrocytes (11/
+11), and against SCIP for satellite cells (10/10). In addition we
+checked that each recorded cell had the electrophysiological
+properties expected for its class: specimen responses to voltage
+steps from the resting potential are shown for each cell class in
+Figure S4. OPC morphology cells, including those confirmed as
+being OPCs by virtue of their labelling with antibody against
+NG2, fell into two classes [14] with (57% of cells) and without
+(43% of cells) voltage-gated Na+ current (Figure S4A–D), and
+had a steady-state input resistance of ,800 MV. Mature
+myelinating oligodendrocytes had a roughly ohmic and time-
+independent I-V relation in the physiological range (Figure S4E),
+with a much lower input resistance of ,160 MV. Interneurons
+and DRG neurons both showed a voltage-gated Na+ current on
+depolarization, which was too large to clamp well, so the I-V
+relations showed current oscillations reflecting uncontrolled
+action potentials occurring (Figure S4F,G). Both satellite cells
+and astrocytes showed roughly ohmic and time-independent I-V
+relations in the physiological range (Figure S4H,I) with a mean
+input resistance near the resting potential of ,900 and ,15 MV,
+respectively.
+Synaptic Current Analysis
+A synaptic current was defined to occur if its amplitude was .3
+times the standard deviation of the baseline current noise and its
+10%–90% decay time was longer than its rise time. Events were
+detected and analysed with pClamp 10 (Axon Instruments).
+Immunohistochemistry
+Cultures were fixed at 21uC for 20 min in 4% PFA and
+incubated for 1 h in 0.1% Triton X-100, 10% goat serum in
+phosphate-buffered saline at 21uC, then with primary antibody at
+21uC for 2 h or for overnight at 4uC, and then for 1 h at 21uC
+with secondary antibody. Primary antibodies were guinea pig
+NG2 (a kind gift from W.B. Stallcup, 1:100), rabbit NG2
+(Chemicon, 1:300), rabbit Olig2 (a kind gift from D. Rowitch,
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+14
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+C.D. Stiles & J. Alberta, 1:20,000, or Chemicon, 1:1,000), rabbit
+Caspr (a kind gift from D. Colman & J. Huang, 1:500), rabbit
+SCIP (a kind gift from J.R. Bermingham, 1:100), rabbit GalC
+(Sigma, 1:100), mouse NF 160/200 (Sigma, 1:1,000), rat MBP
+(Serotec, 1:100), mouse MOG (Sigma, 1:100), mouse CNPase
+(Sigma, 1:100), rabbit GAD 65/67 (Chemicon, 1:100), rabbit
+GFAP (Dako, 1:500), chicken P0 (Aves Labs, 1:500), mouse
+Nkx2.2 (DSHB, 1:120), CD11b (Serotec, 1:50), and rabbit pCREB
+(Cell Signalling, 1:50). Alexa 488–conjugated isolectin B4 (Invitro-
+gen, 1:100) was used to label microglia. DAPI (Sigma, 20 mM) was
+used to label nuclei. Secondary antibodies (goat) were for rabbit
+(Molecular Probes, 1:1,000), rat IgG (Molecular Probes, 1:1,000),
+mouse IgG (Molecular Probes, 1:1,000), chicken (Jackson Lab,
+1:1,000), and guinea pig (Jackson Lab, 1:100).
+Western Blots
+For protein analysis, cultures were scraped from 22 mm
+coverslips, 6 well plates, or 10 cm dishes and lysed mechanically
+in solution containing 0.1 M phosphate buffered saline (PBS), 10%
+or 20% (w/v) sucrose and Halt protease, and phosphatase
+inhibitor
+cocktail
+(Thermo
+Scientific).
+Protein
+content
+was
+determined by Bradford assay and quantified using a standard
+curve obtained from Quick Start BSA protein standards (Bio-Rad).
+Equal amounts of protein (8 or 10 mg) from samples were resolved
+on 4–%12% NuPage Novex Bis-Tris mini gels (Invitrogen), with
+prestained molecular weight protein standards (Bio-Rad). Proteins
+were transferred to a nitrocellulose membrane (0.45 mm, GE
+Healthcare) using a wet transfer system. Nitrocellulose membranes
+were blocked for 1 h at room temperature with 3% BSA in PBS
+with 0.1% Tween-20 (PBS-T). Immunoblots were then incubated
+overnight at 4uC with goat anti-Akt (Santa Cruz, 1:1,000), rabbit
+anti-phosphorylated-AktSer473 (Cell Signalling, 1:1,000), rabbit
+anti-phosphorylated-ERK1/2Thr202/Tyr214
+(Cell
+Signalling,
+1:1,000), mouse anti-ERK1/2 (Cell Signalling, 1:2,000), rabbit
+anti-MBP (Sigma, 1:3,000), mouse anti-NR1 (Millipore, 1:1,000),
+rabbit anti-NR2A (Millipore, 1:1,000), rabbit anti-NR2B (Abcam;
+1:1,000),
+rabbit
+anti-phosphorylated
+NR2BTyr1472
+(Millipore,
+1:1,000), rabbit anti-NR2C (Millipore, 1:1,000), rabbit anti-
+phosphorylated NR2CS1096 (a kind gift from Katherine W. Roche,
+NINDS), rabbit anti-NR3A (Millipore, 1:500), rabbit anti-NR3B
+(Millipore, 1:300), rabbit anti-NR2D (Abcam, 1:300), or mouse
+anti-b-actin (Sigma, 1:100,000) in 3% BSA in PBS-T. This was
+followed by incubation with the secondary horseradish peroxidise-
+linked anti-rabbit, anti-mouse, or anti-goat antibodies (1:1,000,
+Dako) for 1 h at room temperature in 3% BSA in PBS-T.
+Immunoreactive proteins were visualised with enhanced chemilu-
+minescence (GE Healthcare). When phosphorylated and total
+amounts of the same protein were measured, this was done by first
+probing with the antibody to the phosphorylated protein, then
+stripping the membranes to remove the antibody, and reprobing
+with antibody recognizing both phosphorylated and unpho-
+sphorylated forms. Stripping membranes was performed with
+50 mM dithiothreitol, 50 mM Tris (pH 6.8), and 2% SDS at 70uC
+for 30 min and washing three times in PBS-T before blocking and
+incubating with the primary antibody. Densitometric analysis was
+conducted using ImageJ gel analysis software (version 1.43u). For
+each sample, pAkt, pERK, pNR2B, and pNR2C signals were
+normalised to the total levels of their respective proteins present.
+The levels of nonphosphorylated proteins were normalized against
+b-actin.
+Quantitative RT-PCRs
+RNA was extracted from DRG-OPC cocultures 21 d after
+addition of OPCs using an RNeasy mini kit (QIAGEN). RNA was
+converted to cDNA using a SuperScript First-Strand Synthesis
+System for RT-PCR (Invitrogen). qPCR was performed with a
+QuantiFast SYBR Green PCR Kit (QIAGEN) using a LightCycler
+480 II. Samples were normalised to GAPDH levels using
+commercially available QuantiTect Primers (QIAGEN) for analysis.
+Induction of Focal Demyelination
+Female Sprague-Dawley rats aged 9–12 wk of age (200–225 g)
+were used for remyelination studies, which were performed in
+compliance with UK Home Office regulations. Focal demyelin-
+ation was induced unilaterally by stereotaxically injecting 4.0 ml of
+0.01% ethidium bromide (w/v) in saline into the caudal cerebellar
+peduncle (CCP) (as described previously [53]). For continuous
+local delivery of MK-801 (50 mM, Tocris, in 0.9% saline) or 0.9%
+saline (Vetivex) into the demyelinated lesion, an osmotic minipump
+with a reservoir volume of 100 ml and a flow rate of 0.11 ml/h (Alzet
+Micro-Osmotic Pumps, model 1004, DURECT Corporation) was
+attached through a vinyl tube spacer (Plastics One Inc., Roanoke,
+Virginia) to a 30 gauge (6.5 mm) cannula implanted just above the
+lesion. The length of the tube was cut to 2.3 cm, to ensure that drug
+delivery into the lesion did not occur until the 3rd day postlesion (the
+start of the OPC recruitment stage [54]). The minipump was placed
+subcutaneously, and the cannula was fixed to the skull with
+cyanoacrylate gel adhesive (applied under the base of the cannula
+head before insertion), as well as two anchoring screws and dental
+acrylic cement (a 1:1 volume mix of Paladur powder and liquid;
+Heraeus Kulzer). Rats were randomly assigned to treatment (50 mM
+MK-801) or control groups (0.9% saline infusion). Animals were
+sacrificed 3 wk after lesion induction.
+Electron Microscopy
+Co-cultures were fixed at room temperature for 1 h in PBS
+containing 2.5% glutaraldehyde (Agar Scientific) and 0.72 mM
+CaCl2. The cocultures were scraped off the coverslips, placed into
+1.5 ml tubes with 250 ml of PBS, and centrifuged at 800 g for
+3 min. For lesion samples, animals were perfusion fixed with 4%
+glutaraldehyde (Agar Scientific) in phosphate buffer containing
+0.72 mM CaCl2. All samples were then left to fix in 2% osmium
+tetroxide (Oxkem Ltd) in phosphate buffer at 4uC overnight. This
+was followed by dehydration in 70% ethanol for 15 min, 95%
+ethanol for 15 min, and 100% ethanol for 3610 min, then the
+tissue was placed in propylene oxide for 2615 min, and then left
+for at least 3 h in a 50%/50% mixture of propylene oxide and
+resin mix (containing by volume: 49% TAAB embedding resin,
+33% DDSA, 16% MNA, 2% DMP-30; TAAB Laboratories
+Equipment Ltd.). They were then transferred to 100% resin mix
+overnight. New resin was made and the samples left in it for at
+least 6 h before being placed in embedding capsules and further
+incubated at 60uC for 15–24 h until the resin was solid. Embedded
+samples were cut in 90 nm sections on an ultramicrotome
+(Reichert Ultracut E) with a diamond knife (Diatome) and
+visualised using a Transmission Electron Microscope (Hitachi
+H600). Images were developed on electron microscope film 4489
+(Kodak), then scanned at high resolution (12,800 dpi612,800 dpi),
+and analyzed with ImageJ software, version 1.34s.
+Histological Analysis of Demyelination and
+Remyelination
+Animals were perfused with 4% glutaraldehyde (in phosphate
+buffer with 0.72 mM CaCl2), and the brains were immersion fixed
+in 4% glutaraldehyde for 7 d. Tissue blocks encompassing the
+caudal cerebellar peduncle were cut as detailed previously [53].
+While maintaining their correct orientation and sequence, blocks
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+15
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+were further fixed in 2% osmium tetroxide (Oxkem Ltd.),
+dehydrated in increasing concentration of ethanol, and embedded
+in resin (TAAB Laboratories). One micron sections were cut and
+stained with toluidine blue. In these sections, remyelinated axons
+can be easily distinguished from normally myelinated axons
+outside the lesion by the thinness of the myelin sheath. Within the
+lesion, remyelinated axons can be distinguished from demyeli-
+nated axons because the former possess myelin sheaths recogniz-
+able as a dark staining rim around the axon.
+Statistics
+Data are mean 6 s.e.m. The p values are from ANOVA and
+post hoc Student’s two-tailed t tests. For multiple comparisons p
+values are corrected using a procedure equivalent to the Holm–
+Bonferroni method (for N comparisons, the most significant p value
+is multiplied by N, the 2nd most significant by N–1, the 3rd most
+significant by N–2, etc.; corrected p values are significant if they are
+less than 0.05) or Dunnett’s post hoc test. Normality of data was
+assessed using Shapiro–Wilk tests, and nonparametric Kruskal–
+Wallis and Mann–Whitney tests, which do not assume data follow
+a normal distribution, gave the same conclusions for significant
+and nonsignificant differences in all cases. For Figure 2, when the
+ANOVA gave an insignificant p value (.0.05), we used the more
+conservative Student’s two-tailed t test without correction for
+multiple comparisons to give a lower limit to the p value for post
+hoc comparisons (i.e., the differences among the control myelina-
+tion data in Figure 2A are even less significant than is indicated by
+the p values).
+Supporting Information
+Figure S1
+Characterization of myelination in the co-
+cultures. (A) Electron microscopic image of myelination in the
+cocultures showing formation of compact myelin. (B) Labelling of
+coculture for Caspr shows formation of axon-oligodendrocyte
+junctions at the end of internodes. Note that some axons have
+single internodes so that only one Caspr-labelled region is visible at
+a heminode (open arrows), while some have multiple adjacent
+internodal segments, so that two Caspr-labelled regions are visible
+at nodes (filled arrows). (C) Enlarged view of a node of Ranvier
+labelled for Caspr. (D) DRG cells with no added OPCs show no
+myelination, ruling out the possibility of myelination by Schwann
+cells or precursors added with the DRG cells. Blue is DAPI to label
+nuclei, red is NF 160/200, and green is MBP (which is absent). (E)
+Myelination is by MBP-expressing OPCs and not P0-expressing
+Schwann cells. Mauve is NF, green is MBP, and red is P0 protein
+(a component of myelin made only by Schwann cells, which is
+absent). (F) The processes of DRG cells but not of interneurons
+become myelinated. Red is NF, green is MBP, and white is the
+GABA synthesizing enzyme glutamate decarboxylase (GAD 65/
+67). (G) Western blots of control (Con), NRG-treated and BDNF-
+treated cocultures for MBP (b-actin acts as a loading control), and
+densitometric quantification of subunit protein levels (normalized
+to b-actin and then to control). (H) Change in myelin gene mRNA
+level (by qPCR) in NRG-treated cocultures normalized to control
+levels. All p values are from one-sample Student’s t tests. Numbers
+of cultures are shown on bars.
+(EPS)
+Figure S2
+Quantification of myelination. Each set of
+graphs shows the same data (from Figure 1C–F of the main text)
+in
+control
+conditions,
+control+MK-801,
+NRG
+and
+NRG+
+MK-801, best fit with an assumed dependence of myelination
+(fraction of oligodendrocytes myelinating, F) on axon density (D),
+together with the myelination parameter (A) derived from the fit
+for the four conditions for this particular set of coverslips. The
+dependencies assumed were (A) the linear relation: F = AN(D–K),
+where K is a free constant, as used previously [8]; (B) the 17%
+threshold-linear relation: F = 0 for D#17% and F = AN(D–17%)
+for D.17%; (C) the power 2 relation: F = AND2.
+(EPS)
+Figure S3
+Myelination in various conditions quantified
+in different ways. Graphs show the myelination parameter for
+the data analysed for Figure 2A of the main text derived from
+different assumed dependencies of myelination on axon density. (A)
+Linear relation with intercept not fixed. For no NRG, ANOVA
+showed no significant differences across bars (p =0.72); for with
+NRG,
+ANOVA
+showed
+significant
+differences
+across
+bars
+(p,0.0001). (B) Threshold-linear relation with threshold of 17%.
+ANOVA gave p =0.77 for no NRG and p,0.0001 for with NRG.
+(C) Power 2 relation. ANOVA gave p = 0.76 for no NRG and
+p,0.0001 for with NRG. (D) Fraction of oligodendrocytes myelinat-
+ing, averaged across all images. ANOVA gave p =0.096 for no NRG
+and p,0.0001 for with NRG. For all panels the p values, comparing
+data in no NRG with control, and comparing data in with NRG with
+NRG alone, were from Holm–Bonferroni tests.
+(EPS)
+Figure S4
+Electrophysiological characteristics of the
+cells in the cocultures. Specimen responses to voltage steps
+in 20 mV increments from a holding potential of 264 mV (to a
+most negative potential of 2104 mV and a most positive potential
+of +16 mV, for (A) an OPC with voltage-gated Na+ current (NaV),
+(B) an OPC without NaV, (C) the OPC in (A) on a faster time
+scale, (D) the OPC in (B) on a faster time scale, (E) a mature
+oligodendrocyte, (F) an interneuron, (G) a DRG neuron, (H) a
+satellite cell, and (I) an astrocyte. In (F and G) transient currents
+generated by unclamped action potentials are visible.
+(EPS)
+Figure S5
+Details of the signalling pathways. (A) Mean
+myelination parameter of cocultures treated with NRG with TTX
+either added at the same time as NRG (TTX) or 3 d later (TTX
+3 d). ANOVA showed significant differences across all bars
+(p = 0.025); the p values above bars are for comparison with
+NRG alone. (B–C) Western blot of control (Con) and NRG-
+treated pure DRG cultures (cultured as for myelinating OPC-
+DRG cocultures), for phosphorylated (pAkt, pERK) and total Akt
+and ERK, with the level of phosphorylated enzyme normalized to
+total enzyme in the bar charts below. The p values are from
+Student’s t tests; numbers of experiments are shown on bars.
+(EPS)
+Acknowledgments
+We thank W. Stallcup for NG2, J.R. Bermingham for SCIP, D. Colman
+and J. Huang for Caspr, K.W. Roche and B.S. Chen for pNR2C
+antibodies, Mike Peacock for EM assistance, and Kirsten Caesar, Claudia
+Eder, Alasdair Gibb, Nicolas Granger, Nicola Hamilton, Kristjan Jessen,
+Ilias Kazanis, Karolina Kolodziejczyk, Lesley Probert, Angus Silver, and
+Jing-Wei Zhao for comments on the manuscript.
+Author Contributions
+The author(s) have made the following declarations about their
+contributions: Conceived and designed the experiments: RTK DA Cff
+IL AL JHS. Performed the experiments: IL AL JHS KAE MS KV ZW
+HOBG RTK. Analyzed the data: IL AL JHS KAE MS KV ZW HOBG
+DA RTK. Contributed reagents/materials/analysis tools: Cff DA RTK.
+Wrote the paper: IL AL RJMF Cff DA RTK.
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+16
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+References
+1. Nave K-A (2010) Myelination and support of axonal integrity by glia. Nature
+468: 244–252. doi:10.1038/nature09614.
+2. Barres BA, Raff MC (1999) Axonal control of oligodendrocyte development.
+J Cell Biol 147: 1123–1128.
+3. Chen S, Velardez M, Warot X, Yu Z-X, Miller S, et al. (2006) Neuregulin 1-
+erbB signaling is necessary for normal myelination and sensory function.
+J Neurosci 26: 3079–3086. doi:10.1523/JNEUROSCI.3785-05.2006.
+4. Michailov G, Sereda M, Brinkmann B, Fischer T, Haug B, et al. (2004) Axonal
+neuregulin-1 regulates myelin sheath thickness. Science 304: 700–703.
+doi:10.1126/science.1095862.
+5. Kim JY, Sun Q, Oglesbee M, Yoon SO (2003) The role of ErbB2 signaling in
+the onset of terminal differentiation of oligodendrocytes in vivo. J Neurosci 23:
+5561–5571.
+6. Roy K, Murtie JC, El-Khodor BF, Edgar N, Sardi SP, et al. (2007) Loss of erbB
+signaling in oligodendrocytes alters myelin and dopaminergic function, a
+potential mechanism for neuropsychiatric disorders. PNAS 104: 8131–8136.
+doi:10.1073/pnas.0702157104.
+7. Taveggia C, Thaker P, Petrylak A, Caporaso GL, Toews A, et al. (2008) Type
+III neuregulin-1 promotes oligodendrocyte myelination. Glia 56: 284–293.
+doi:10.1002/glia.20612.
+8. Wang Z, Colognato H, Ffrench-Constant C (2007) Contrasting effects of
+mitogenic growth factors on myelination in neuron-oligodendrocyte co-cultures.
+Glia 55: 537–545. doi:10.1002/glia.20480.
+9. Brinkmann BG, Agarwal A, Sereda MW, Garratt AN, Muller T, et al. (2008)
+Neuregulin-1/ErbB signaling serves distinct functions in myelination of the
+peripheral and central nervous system. Neuron 59: 581–595. doi:10.1016/
+j.neuron.2008.06.028.
+10. Demerens C, Stankoff B, Logak M, Anglade P, Allinquant B, et al. (1996)
+Induction of myelination in the central nervous system by electrical activity.
+PNAS 93: 9887–9892.
+11. Stevens B, Porta S, Haak LL, Gallo V, Fields RD (2002) Adenosine: a neuron-
+glial transmitter promoting myelination in the CNS in response to action
+potentials. Neuron 36: 855–868.
+12. Rosenberg S, Kelland E, Tokar E, De la Torre A, Chan J (2008) The geometric
+and spatial constraints of the microenvironment induce oligodendrocyte
+differentiation. PNAS 105: 14662–14667. doi:10.1073/pnas.0805640105.
+13. Ozaki M, Itoh K, Miyakawa Y, Kishida H, Hashikawa T (2004) Protein
+processing and releases of neuregulin-1 are regulated in an activity-dependent
+manner. J Neurochem 91: 176–188. doi:10.1111/j.1471-4159.2004.02719.x.
+14. Ka´rado´ttir R, Hamilton N, Bakiri Y, Attwell D (2008) Spiking and nonspiking
+classes of oligodendrocyte precursor glia in CNS white matter. Nat Neurosci 11:
+450–456. doi:10.1038/nn2060.
+15. Kukley M, Capetillo-Zarate E, Dietrich D (2007) Vesicular glutamate release
+from axons in white matter. Nat Neurosci 10: 311–320. doi:10.1038/nn1850.
+16. Wake H, Lee PR, Fields RD (2011) Control of local protein synthesis and initial
+events in myelination by action potentials. Science 333: 1647–1651.
+doi:10.1126/science.1206998.
+17. Ziskin J, Nishiyama A, Rubio M, Fukaya M, Bergles D (2007) Vesicular release
+of glutamate from unmyelinated axons in white matter. Nat Neurosci 10: 321–
+330. doi:10.1038/nn1854.
+18. Ka´rado´ttir R, Cavelier P, Bergersen L, Attwell D (2005) NMDA receptors are
+expressed in oligodendrocytes and activated in ischaemia. Nature 438: 1162–
+1166. doi:10.1038/nature04302.
+19. Micu I, Jiang Q, Coderre E, Ridsdale A, Zhang L, et al. (2006) NMDA receptors
+mediate calcium accumulation in myelin during chemical ischaemia. Nature
+439: 988–992. doi:10.1038/nature04474.
+20. Salter M, Fern R (2005) NMDA receptors are expressed in developing
+oligodendrocyte processes and mediate injury. Nature 438: 1167–1171.
+doi:10.1038/nature04301.
+21. Ozaki M, Sasner M, Yano R, Lu HS, Buonanno A (1997) Neuregulin-beta
+induces expression of an NMDA-receptor subunit. Nature 390: 691–694.
+doi:10.1038/37795.
+22. Stefansson H, Petursson H, Sigurdsson E, Steinthorsdottir V, Bjornsdottir S, et
+al. (2002) Neuregulin 1 and susceptibility to Schizophrenia. Am J Hum Genet
+71: 877–892. doi:10.1086/342734.
+23. De Biase LM, Kang SH, Baxi EG, Fukaya M, Pucak ML, et al. (2011) NMDA
+receptor signaling in oligodendrocyte progenitors is not required for oligoden-
+drogenesis and myelination. J Neurosci 31: 12650–12662. doi:10.1523/
+JNEUROSCI.2455-11.2011.
+24. Guo F, Maeda Y, Ko EM, Delgado M, Horiuchi M, et al. (2012) Disruption of
+NMDA receptors in oligodendroglial lineage cells does not alter their
+susceptibility to experimental autoimmune encephalomyelitis or their normal
+development. J Neurosci 32: 639–645. doi:10.1523/JNEUROSCI.4073-
+11.2012.
+25. Li C, Xiao L, Liu X, Yang W, Shen W, et al. (2013) A functional role of NMDA
+receptor in regulating the differentiation of oligodendrocyte precursor cells and
+remyelination. Glia 61: 732–749. doi:10.1002/glia.22469.
+26. Chomiak T, Hu B (2009) What is the optimal value of the g-ratio for myelinated
+fibers in the rat CNS? A theoretical approach. PLoS ONE 4: e7754.
+doi:10.1371/journal.pone.0007754.
+27. Hildebrand C (1972) Evidence for a correlation between myelin period and
+number of myelin lamellae in fibres of the feline spinal cord white matter.
+J Neurocytol 1: 223–232. doi:10.1007/BF01099935.
+28. Vartanian T, Goodearl A, Vieho¨ver A, Fischbach G (1997) Axonal neuregulin
+signals cells of the oligodendrocyte lineage through activation of HER4 and
+Schwann cells through HER2 and HER3. J Cell Biol 137: 211–220.
+doi:10.1083/jcb.137.1.211.
+29. Burzomato V, Frugier G, Pe´rez-Otan˜o I, Kittler J, Attwell D (2010) The
+receptor subunits generating NMDA receptor mediated currents in oligoden-
+drocytes. J Physiol 588: 3403–3414. doi:10.1113/jphysiol.2010.195503.
+30. Bjarnadottir M, Misner DL, Haverfield-Gross S, Bruun S, Helgason VG, et al.
+(2007) Neuregulin1 (NRG1) signaling through Fyn modulates NMDA receptor
+phosphorylation: differential synaptic function in NRG1+/2 knock-outs
+compared with wild-type mice. J Neurosci 27: 4519–4529. doi:10.1523/
+JNEUROSCI.4314-06.2007.
+31. Chen B-S, Roche K (2009) Growth factor-dependent trafficking of cerebellar
+NMDA receptors via protein kinase B/Akt phosphorylation of NR2C. Neuron
+62: 471–478. doi:10.1016/j.neuron.2009.04.015.
+32. Das S, Sasaki Y, Rothe T, Premkumar L, Takasu M, et al. (1998) Increased
+NMDA current and spine density in mice lacking the NMDA receptor subunit
+NR3A. Nature 393: 377–381. doi:10.1038/30748.
+33. Sasaki Y, Rothe T, Premkumar L, Das S, Cui J, et al. (2002) Characterization
+and comparison of the NR3A subunit of the NMDA receptor in recombinant
+systems and primary cortical neurons. J Neurophysiol 87: 2052–2063.
+doi:10.1152/jn.00531.2001.
+34. Barros CS, Nguyen T, Spencer KSR, Nishiyama A, Colognato H, et al. (2009) 1
+integrins are required for normal CNS myelination and promote AKT-
+dependent myelin outgrowth. Development 136: 2717–2724. doi:10.1242/
+dev.038679.
+35. Lin B, Arai A, Lynch G, Gall C (2003) Integrins regulate NMDA receptor-
+mediated synaptic currents. J Neurophysiol 89: 2874–2878. doi:10.1152/
+jn.00783.2002.
+36. Milner R, Edwards G, Streuli C, ffrench-Constant C (1996) A role in migration
+for the avb1 integrin expressed on oligodendrocyte precursors. J Neurosci 16:
+7240–7252.
+37. Canoll PD, Kraemer R, Teng KK, Marchionni MA, Salzer JL (1999) GGF/
+neuregulin induces a phenotypic reversion of oligodendrocytes. Mol Cell
+Neurosci 13: 79–94. doi:10.1006/mcne.1998.0733.
+38. Du K, Montminy M (1998) CREB is a regulatory target for the protein kinase
+Akt/PKB. J Biol Chem 273: 32377–32379. doi:10.1074/jbc.273.49.32377.
+39. Impey S, McCorkle SR, Cha-Molstad H, Dwyer JM, Yochum GS, et al.
+(2004) Defining the CREB regulon: a genome-wide analysis of transcription
+factor regulatory
+regions. Cell
+119: 1041–1054. doi:10.1016/j.cell.
+2004.10.032.
+40. Cabodi S, Morello V, Masi A, Cicchi R, Broggio C, et al. (2009) Convergence
+of integrins and EGF receptor signaling via PI3K/Akt/FoxO pathway in
+early gene Egr-1 expression. J Cell Physiol 218: 294–303. doi:10.1002/jcp.
+21603.
+41. Stevens B, Fields RD (2000) Response of Schwann cells to action potentials in
+development. Science 287: 2267–2271. doi:10.1126/science.287.5461.2267.
+42. Snyder-Keller A, Chandra R, Lin Y, Mitchell ES (2002) Basal EGR-1 (zif268,
+NGFI-A, Krox-24) expression in developing striatal patches: role of dopa-
+mine and glutamate. Brain Res 958: 297–304. doi:10.1016/S0006-
+8993(02)03602-8.
+43. Gallo V, Patneau DK, Mayer ML, Vaccarino FM (1994) Excitatory amino acid
+receptors in glial progenitor cells: molecular and functional properties. Glia 11:
+94–101. doi:10.1002/glia.440110204.
+44. Swiss VA, Nguyen T, Dugas J, Ibrahim A, Barres B, et al. (2011) Identification
+of a gene regulatory network necessary for the initiation of oligodendrocyte
+differentiation. PLoS ONE 6: e18088. doi:10.1371/journal.pone.0018088.
+45. Emery B, Agalliu D, Cahoy J, Watkins T, Dugas J, et al. (2009) Myelin gene
+regulatory factor is a critical transcriptional regulator required for CNS
+myelination. Cell 138: 172–185. doi:10.1016/j.cell.2009.04.031.
+46. Flores AI, Narayanan SP, Morse EN, Shick HE, Yin X, et al. (2008)
+Constitutively active Akt induces enhanced myelination in the CNS. J Neurosci
+28: 7174–7183. doi:10.1523/JNEUROSCI.0150-08.2008.
+47. Afshari FS, Chu AK, Sato-Bigbee C (2001) Effect of cyclic AMP on the
+expression of myelin basic protein species and myelin proteolipid protein in
+committed oligodendrocytes: differential involvement of the transcription factor
+CREB. J Neurosci Res 66: 37–45. doi:10.1002/jnr.1195.
+48. Suzuki K, Sato M, Morishima Y, Nakanishi S (2005) Neuronal depolarization
+controls brain-derived neurotrophic factor-induced upregulation of NR2C
+NMDA receptor via calcineurin signaling. J Neurosci 25: 9535–9543.
+doi:10.1523/JNEUROSCI.2191-05.2005.
+49. Vondran M, Clinton-Luke P, Honeywell J, Dreyfus C (2010) BDNF+/2 mice
+exhibit deficits in oligodendrocyte lineage cells of the basal forebrain. Glia 58:
+848–856. doi:10.1002/glia.20969.
+50. Xiao J, Wong AW, Willingham MM, van den Buuse M, Kilpatrick TJ, et al.
+(2010) Brain-derived neurotrophic factor promotes central nervous system
+myelination via a direct effect upon oligodendrocytes. Neurosignals 18: 186–202.
+doi:10.1159/000323170.
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+17
+December 2013 | Volume 11 | Issue 12 | e1001743
+
+51. Cannella B, Hoban CJ, Gao Y-L, Garcia-Arenas R, Lawson D, et al. (1998) The
+neuregulin, glial growth factor 2, diminishes autoimmune demyelination and
+enhances remyelination in a chronic relapsing model for multiple sclerosis.
+PNAS 95: 10100–10105. doi:10.1073/pnas.95.17.10100.
+52. Viehover A, Miller RH, Park S-K, Fischbach G, Vartanian T (2001)
+Neuregulin: an oligodendrocyte growth factor absent in active multiple sclerosis
+lesions. Dev Neurosci 23: 377–386.
+53. Woodruff RH, Franklin RJ (1999) Demyelination and remyelination of the
+caudal cerebellar peduncle of adult rats following stereotaxic injections of
+lysolecithin, ethidium bromide, and complement/anti-galactocerebroside: a
+comparative study. Glia 25: 216–228. doi:10.1002/(SICI)1098-1136(19990201)
+25:3,216::AID-GLIA2.3.0.CO;2-L.
+54. Zhao C, Fancy SPJ, Magy L, Urwin JE, Franklin RJM (2005) Stem cells,
+progenitors and myelin repair. J Anat 207: 251–258. doi:10.1111/j.1469-
+7580.2005.00456.x.
+55. Kriegler S, Chiu SY (1993) Calcium signaling of glial cells along mammalian
+axons. J Neurosci 13: 4229–4245.
+56. Pe´rez-Otan˜o I, Luja´n R, Tavalin S, Plomann M, Modregger J, et al. (2006)
+Endocytosis and synaptic removal of NR3A-containing NMDA receptors by
+PACSIN1/syndapin1. Nat Neurosci 9: 611–621. doi:10.1038/nn1680.
+57. Relucio J, Tzvetanova ID, Ao W, Lindquist S, Colognato H (2009) Laminin
+alters Fyn regulatory mechanisms and promotes oligodendrocyte development.
+J Neurosci 29: 11794–11806. doi:10.1523/JNEUROSCI.0888-09.2009.
+58. Makinodan M, Rosen KM, Ito S, Corfas G (2012) A critical period for social
+experience–dependent oligodendrocyte maturation and myelination. Science
+337: 1357–1360. doi:10.1126/science.1220845.
+59. Xiao J, Ferner AH, Wong AW, Denham M, Kilpatrick TJ, et al. (2012)
+Extracellular signal-regulated kinase 1/2 signaling promotes oligodendrocyte
+myelination in vitro. J Neurochem 122: 1167–1180. doi:10.1111/j.1471-
+4159.2012.07871.x.
+60. Cahoy J, Emery B, Kaushal A, Foo L, Zamanian J, et al. (2008) A transcriptome
+database for astrocytes, neurons, and oligodendrocytes: a new resource for
+understanding brain development and function. J Neurosci 28: 264–278.
+doi:10.1523/JNEUROSCI.4178-07.2008.
+61. Condorelli DF, Salin T, Dell’ Albani P, Mudo G, Corsaro M, et al. (1995)
+Neurotrophins and their trk receptors in cultured cells of the glial lineage and in
+white matter of the central nervous system. J Mol Neurosci MN 6: 237–248.
+doi:10.1007/BF02736783.
+62. Skup M, Dwornik A, Macias M, Sulejczak D, Wiater M, et al. (2002) Long-term
+locomotor training up-regulates TrkBFL receptor-like proteins, brain-derived
+neurotrophic factor, and neurotrophin 4 with different topographies of
+expression in oligodendroglia and neurons in the spinal cord. Exp Neurol 176:
+289–307. doi:10.1006/exnr.2002.7943.
+63. Saab AS, Baltan S (2012) Oligodendroglial NMDA receptor signalling in
+coupling axonal and glial energy metabolism Washington, Vol. Poster
+342.01.
+64. Ferreira J, Burnett A, Rameau G (2011) Activity-dependent regulation of surface
+glucose transporter-3. J Neurosci 31: 1991–1999. doi:10.1523/JNEUROSCI.
+1850-09.2011.
+65. Gyllensten L, Malmfors T (1963) Myelinization of the optic nerve and its
+dependence on visual function—a quantitative investigation in mice. J Embryol
+Exp Morphol 11: 255–266.
+66. Fukui Y, Hayasaka S, Bedi KS, Ozaki HS, Takeuchi Y (1991) Quantitative
+study of the development of the optic nerve in rats reared in the dark during
+early postnatal life. J Anat 174: 37–47.
+67. Colello RJ, Devey LR, Imperato E, Pott U (1995) The chronology of
+oligodendrocyte differentiation in the rat optic nerve: evidence for a signaling
+step initiating myelination in the CNS. J Neurosci 15: 7665–7672.
+68. Shrager P, Novakovic SD (1995) Control of myelination, axonal growth, and
+synapse formation in spinal cord explants by ion channels and electrical activity.
+Dev Brain Res 88: 68–78. doi:10.1016/0165-3806(95)00081-N.
+69. Itoh K, Stevens B, Schachner M, Fields RD (1995) Regulated expression of the
+neural cell adhesion molecule L1 by specific patterns of neural impulses. Science
+270: 1369–1372. doi:10.1126/science.270.5240.1369.
+70. Zalc B, Fields RD (2000) Do action potentials regulate myelination?
+Neuroscientist 6: 5–13. doi:10.1177/107385840000600109.
+71. Ba F, Ren J, Greer JJ (2005) Brain-derived neurotrophic factor release with
+neuronal activity in fetal rats. Neuroreport 16: 141–143.
+72. Harris J, Attwell D (2012) The energetics of CNS white matter. J Neurosci 32:
+356–371. doi:10.1523/JNEUROSCI.3430-11.2012.
+73. Corfas G, Roy K, Buxbaum JD (2004) Neuregulin 1-erbB signaling and the
+molecular/cellular basis of schizophrenia. Nat Neurosci 7: 575–580.
+doi:10.1038/nn1258.
+74. Etienne P, Baudry M (1990) Role of excitatory amino acid neurotransmission in
+synaptic plasticity and pathology. An integrative hypothesis concerning the
+pathogenesis and evolutionary advantages of schizophrenia-related genes.
+J Neural Transm Suppl 29: 39–48.
+75. McCarthy KD, de Vellis J (1980) Preparation of separate astroglial and
+oligodendroglial cell cultures from rat cerebral tissue. J Cell Biol 85: 890–902.
+NRG, NMDARs, and Activity Regulate CNS Myelination
+PLOS Biology | www.plosbiology.org
+18
+December 2013 | Volume 11 | Issue 12 | e1001743

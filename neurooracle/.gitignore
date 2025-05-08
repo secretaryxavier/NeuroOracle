@@ -1,0 +1,30 @@
+# Python Bytecode and Cache
+__pycache__/
+neurooracle/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Check path - likely inside 'neurooracle' folder)
+neurooracle/venv/
+venv/
+.venv/
+
+# Output Folders
+neurooracle/local_test_output/
+neurooracle/run_314_outputs/
+neurooracle/output/ 
+run_314_outputs/ # If created at top level
+local_test_output/ # If created at top level
+
+# Data Files (Uncomment lines to IGNORE these)
+# neurooracle/sample_data/
+# neurooracle/found_pdfs.txt
+# neurooracle/my_metadata.csv
+# neurooracle/pdfs/ # PDFs downloaded by download_pdfs.py?
+
+# IDE / Editor specific
+.vscode/
+*.DS_Store
+
+# Configuration (Uncomment to IGNORE)
+# neurooracle/config.json

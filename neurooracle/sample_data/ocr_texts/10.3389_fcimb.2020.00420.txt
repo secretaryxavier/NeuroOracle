@@ -1,0 +1,900 @@
+BRIEF RESEARCH REPORT
+published: 14 August 2020
+doi: 10.3389/fcimb.2020.00420
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+1
+August 2020 | Volume 10 | Article 420
+Edited by:
+Patricia Ann Champion,
+University of Notre Dame,
+United States
+Reviewed by:
+Jianjun Sun,
+The University of Texas at El Paso,
+United States
+Jessica Seeliger,
+Stony Brook University, United States
+*Correspondence:
+Christophe Guilhot
+christophe.guilhot@ipbs.fr
+Catherine Astarie-Dequeker
+catherine.astarie-dequeker@ipbs.fr
+†These authors have contributed
+equally to this work
+Specialty section:
+This article was submitted to
+Bacteria and Host,
+a section of the journal
+Frontiers in Cellular and Infection
+Microbiology
+Received: 08 May 2020
+Accepted: 08 July 2020
+Published: 14 August 2020
+Citation:
+Augenstreich J, Haanappel E,
+Sayes F, Simeone R, Guillet V,
+Mazeres S, Chalut C, Mourey L,
+Brosch R, Guilhot C and
+Astarie-Dequeker C (2020)
+Phthiocerol Dimycocerosates From
+Mycobacterium tuberculosis Increase
+the Membrane Activity of Bacterial
+Effectors and Host Receptors.
+Front. Cell. Infect. Microbiol. 10:420.
+doi: 10.3389/fcimb.2020.00420
+Phthiocerol Dimycocerosates From
+Mycobacterium tuberculosis
+Increase the Membrane Activity of
+Bacterial Effectors and Host
+Receptors
+Jacques Augenstreich 1†, Evert Haanappel 1†, Fadel Sayes 2, Roxane Simeone 2,
+Valérie Guillet 1, Serge Mazeres 1, Christian Chalut 1, Lionel Mourey 1, Roland Brosch 2,
+Christophe Guilhot 1* and Catherine Astarie-Dequeker 1*
+1 Institut de Pharmacologie et de Biologie Structurale (IPBS), Université de Toulouse, CNRS-UPS UMR 5089, Toulouse,
+France, 2 Institut Pasteur, Unit for Integrated Mycobacterial Pathogenomics, CNRS UMR3525, Paris, France
+Mycobacterium tuberculosis (Mtb) synthesizes a variety of atypical lipids that are exposed
+at the cell surface and help the bacterium infect macrophages and escape elimination
+by the cell’s immune responses. In the present study, we investigate the mechanism of
+action of one family of hydrophobic lipids, the phthiocerol dimycocerosates (DIM/PDIM),
+major lipid virulence factors. DIM are transferred from the envelope of Mtb to host
+membranes during infection. Using the polarity-sensitive ﬂuorophore C-Laurdan, we
+visualized that DIM decrease the membrane polarity of a supported lipid bilayer put
+in contact with mycobacteria, even beyond the site of contact. We observed that
+DIM activate the complement receptor 3, a predominant receptor for phagocytosis
+of Mtb by macrophages. DIM also increased the activity of membrane-permeabilizing
+effectors of Mtb, among which the virulence factor EsxA. This is consistent with previous
+observations that DIM help Mtb disrupt host cell membranes. Taken together, our data
+show that transferred DIM spread within the target membrane, modify its physical
+properties and increase the activity of host cell receptors and bacterial effectors, diverting
+in a non-speciﬁc manner host cell functions. We therefore bring new insight into the
+molecular mechanisms by which DIM increase Mtb’s capability to escape the cell’s
+immune responses.
+Keywords: macrophages, Mycobacterium tuberculosis, phthiocerol dimycocerosates, EsxA, membranolytic
+activity, receptors, membranes, complement receptor 3
+INTRODUCTION
+The envelope lipids, phthiocerol dimycocerosates (DIM/PDIM) are among the major virulence
+factors of Mycobacterium tuberculosis (Mtb). Apart from their structural role as components of the
+mycobacterial envelope, DIM are harnessed by the bacteria to manipulate host immune functions,
+especially during the early steps of infection, when Mtb encounters macrophages (Rousseau et al.,
+2004; Astarie-Dequeker et al., 2009; Cambier et al., 2014; Passemar et al., 2014; Barczak et al.,
+2017; Quigley et al., 2017). However, there is still a great deal of uncertainty about the molecular
+mechanisms of DIM-mediated eﬀects in host cells.
+
+Augenstreich et al.
+Phthiocerol Dimycocerosates Modulate Membrane Effectors
+Our group has reported that DIM are transferred from the
+mycobacterial envelope to the membranes of host macrophages,
+and that this transfer increases the phagocytosis of bacteria
+(Augenstreich et al., 2019). Further investigations indicated that
+once inserted in the host membrane, DIM adopt a conical
+shape which disturbs the organization of membrane lipids
+(Augenstreich et al., 2019). We hypothesize that this has
+functional consequences for the activity of membrane-associated
+contributors to phagocytosis. Phagocytosis occurs through the
+recognition of Pathogen-Associated Molecular Patterns (PAMPs)
+present at the bacterial surface by receptors expressed in the
+host cell plasma membrane. In the case of Mtb, phagocytosis
+involves multiple receptors, including the complement receptor
+3 (CR3, also named CD11b/CD18 or Mac-1) (Schlesinger,
+1993; Stokes et al., 1993; Cywes et al., 1996). Interestingly,
+blocking CR3 with antibodies signiﬁcantly reduces the entry
+of a DIM-proﬁcient Mtb strain into macrophages without
+aﬀecting the uptake of a DIM-deﬁcient mutant (Astarie-
+Dequeker et al., 2009), suggesting that the disorganizing eﬀects
+of DIM on host cell membranes could target the activity
+of CR3.
+DIM also cause membrane damage, such as phagosomal
+rupture and cell death (Augenstreich et al., 2017; Quigley et al.,
+2017). Previous work has shown that DIM act in concert
+with the type VII secretion system ESX-1 (T7SS/ESX-1), in
+a manner that involves the 6-kDa early secreted antigenic
+target (ESAT-6, also known as EsxA) (Augenstreich et al., 2017;
+Barczak et al., 2017). EsxA has been predicted to insert into
+membranes and to lyse artiﬁcial and biological membranes (Hsu
+et al., 2003; Gao et al., 2004; De Jonge et al., 2007; Smith
+et al., 2008; Ma et al., 2015; Peng et al., 2016). Interestingly,
+the membranolytic activity of EsxA was found to depend on
+the lipid composition and on membrane ﬂuidity (Augenstreich
+et al., 2017; Ray et al., 2019). The mechanism by which DIM
+and EsxA collaborate remains unclear. Barczak and colleagues
+proposed that the secretion of EsxA requires DIM (Barczak
+et al., 2017). However, previous ﬁndings indicated that the
+DIM-deﬁcient mycobacterial strains, which are aﬀected in their
+membranolytic activity, secrete similar amounts of EsxA as
+the parental strains (Augenstreich et al., 2017; Quigley et al.,
+2017). Recently, our group reported that the incorporation of
+DIM in the membrane of model liposomes enhanced EsxA
+activity (Augenstreich et al., 2017). Nevertheless, the origin of the
+membrane-disrupting activity of DIM remains obscure. Indeed,
+their potentiating eﬀect on EsxA’s activity is independent of
+their ability to rigidify membranes and is limited to membranes
+containing lipids extracted from macrophages (Augenstreich
+et al., 2017). Moreover, the membranolytic activity of EsxA
+itself was called into question by Conrad and colleagues who
+showed that the hemolytic activity of recombinant EsxA obtained
+from the same source was due to residual detergent used in the
+puriﬁcation protocol (Conrad et al., 2017). Thus, the capacity
+of Mtb to permeabilize host membranes is more complex than
+initially thought.
+It therefore remains of importance to determine how DIM
+contribute to the phagocytosis of Mtb and to the membranolytic
+activity of bacteria at the molecular level.
+MATERIALS AND METHODS
+Antibodies and Reagents
+The 2LPM19c mouse antibody directed against the CD11b
+subunit of human CR3 (IgG1, dilution 1:20) and normal mouse
+IgG1 were purchased from Santa Cruz Biotechnology. The
+CBRM1/5 mouse antibody raised against an activation-speciﬁc
+epitope on the CD11b subunit of human CR3 (IgG1, dilution
+1:50) was from eBiosciences. POPC (1-palmitoyl-2-oleoyl-sn-
+glycero-3-phosphocholine) was from Avanti Polar Lipids. THP-1
+lipids were extracted from THP-1 cells as described previously
+(Augenstreich et al., 2017). C-Laurdan was synthesized as
+described in Mazeres et al. (2014). DIM (average mw = 1,432
+g/mol) were puriﬁed from Mycobacterium canetti (Augenstreich
+et al., 2019). Stock solutions of 40 mg/mL were prepared
+by dissolving the dried lipids in chloroform: methanol (2:1,
+vol/vol) (Augenstreich et al., 2019). For cell treatment, DIM
+were dispersed in culture medium at a ﬁnal concentration of
+0.1 mg/mL corresponding to 70 µM. The other reagents were
+purchased from Sigma-Aldrich.
+Bacterial Strains and Growth Conditions
+The unmarked mas mutant (H37Rv△mas), the ppsE mutant
+(H37Rv△ppsE),
+the
+esxA
+mutant
+(H37Rv△esxA)
+of
+Mtb
+and the mas mutant (BCG△mas), the spontaneous fad26
+mutant (BCG△fad26), the pks15/1 mutant (BCG△pks15/1) of
+Mycobacterium bovis BCG were characterized in Figure S1a
+and in previous work (Constant et al., 2002; Astarie-Dequeker
+et al., 2009; Simeone et al., 2010; Augenstreich et al., 2017). The
+recombinant BCG strains complemented with the ESX-1 system
+in DIM-proﬁcient or DIM-deﬁcient strains (BCG::ESX-1 and
+BCG△mas::ESX-1) were constructed as previously mentioned
+(Augenstreich et al., 2017). Bacteria were rendered ﬂuorescent
+by transferring the plasmid pMV361H gfp (Astarie-Dequeker
+et al., 2009) or the plasmid pMVmCherry derived from a plasmid
+pMV361eH harboring the mCherry encoding gene (Burbaud
+et al., 2016). All strains were cultured at 37◦C as previously
+described (Astarie-Dequeker et al., 2009; Augenstreich et al.,
+2017).
+Phagocyte Culture
+The human promonocytic cell line THP-1 (ECACC 88081201;
+Salisbury, UK) was cultured and diﬀerentiated in macrophages
+with PMA, as mentioned in Augenstreich et al. (2019). Human
+blood purchased from the Etablissement Français du Sang
+(Toulouse, France) was collected from fully-anonymous non-
+tuberculous donors. Peripheral blood mononuclear cells and
+human monocyte-derived macrophages (hMDM) were prepared
+as previously described (Astarie-Dequeker et al., 2009).
+Phagocytosis Assay
+Single bacteria suspensions were prepared from exponentially
+growing strains as previously described (Astarie-Dequeker et al.,
+2009; Tabouret et al., 2010). The concentration of bacteria was
+estimated from the optical density at 600 nm (OD600 = 0.1 for 2
+× 107 bacilli/mL). hMDM cultured in RPMI on glass coverslips
+were incubated at 37◦C for 1 h with GFP-expressing bacteria at a
+multiplicity-of-infection (MOI) of 10:1 or with zymosan at MOI
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+2
+August 2020 | Volume 10 | Article 420
+
+Augenstreich et al.
+Phthiocerol Dimycocerosates Modulate Membrane Effectors
+30:1. Phagocytosis was assessed by ﬂuorescence microscopy as
+previously reported (Astarie-Dequeker et al., 2009; Augenstreich
+et al., 2019).
+Expression and Puriﬁcation of
+Recombinant EsxA
+Recombinant Mtb EsxA (rEsxA) was prepared according to the
+step-by-step protocol provided by BEI Resources (available at
+csu-cvmbs.colostate.edu/Documents/dobos-rp004.pdf). The C-
+terminally His-tagged protein was expressed in Escherichia coli
+BL21(DE3)pLysS using the plasmid pMRLB.7 containing Mtb
+esxA (NR-50170, BEI Resources). rEsxA was then puriﬁed
+according to the BEI protocol, adapted by omitting the washing
+step with ASB-14. The protein was checked for purity by
+SDS/PAGE followed by Coomassie staining, and dialyzed using
+3,500-MWCO dialysis tubing in 10 mM ammonium bicarbonate,
+lyophilized and stored at −20◦C. For the calcein leakage
+experiments, a small amount of rEsxA was weighed and
+solubilized in PBS at a ﬁnal concentration of 2 mg/mL.
+Assay for Measurement of Membrane
+Polarity
+We characterized membrane polarity using the membrane dye
+C-Laurdan, whose ﬂuorescence spectrum shifts toward lower
+wavelengths when the membrane becomes more apolar (Mazeres
+et al., 2017). A supported lipid membrane of phospholipid
+POPC labeled with 1% C-Laurdan was formed on a Ø25 mm
+microscope coverslip using the method of vesicle fusion
+(Mascalchi et al., 2012). The membrane was put in contact with a
+suspension of 2 × 106 bacteria, centrifuged at 1,500 g for 5 min at
+room temperature to sediment the bacteria onto the membrane,
+and further incubated for 20 min at room temperature. We took
+two-photon microscopy images on a Zeiss LSM710 inverted
+confocal microscope using a 40× water immersion objective.
+The membrane polarity was characterized by the Generalized
+Polarization (GP), a ratiometric measure given by GP = (I440–
+I490)/(I440+I490) where I440 and I490 are the ﬂuorescence
+intensities of C-Laurdan at 440 and 490 nm, respectively.
+Calcein Leakage Assays
+The membranolytic activity of compounds was evaluated on
+liposomes using a calcein leakage assay, as previously described
+(Augenstreich et al., 2017). The liposomes were composed of
+POPC or of THP-1 lipids supplemented or not with 10%
+(mol/mol) of DIM and contained a solution of 50 mM calcein.
+Contact Dependent Hemolytic Activity of
+Mycobacterium spp
+Lytic activity of Mycobacterium spp was detected by a hemolysis
+assay. Exponentially-growing mycobacteria in 7H9-ADC-Tween
+80 0.05% were pelleted by centrifugation and washed twice
+in PBS (Smith et al., 2008; Conrad et al., 2017). Fresh blood
+was centrifuged and the pellet was resuspended in isotonic
+NaCl solution and washed twice with PBS. The ﬁnal red blood
+cells (RBC) suspension containing 1 × 107 cells was mixed
+with bacteria at MOI of 50:1, centrifuged and incubated at
+37◦C for 48 h. The pellet was resuspended, centrifuged and
+the supernatant was recovered. The absorbance at 415 nm
+(A415) was measured on a CLARIOstar 96-well microplate
+reader. The supernatants of cells treated with PBS or lysed
+with 0.1% Triton X-100 were used as reference values for 0
+and 100% hemolysis, respectively. The percentage of hemolysis
+was calculated using the formula: % hemolysis = (A415,sample-
+A415,PBS)/(A415,TritonX100-A415,PBS).
+Statistics
+All results are expressed as mean ± standard error of the mean
+(SEM) for the indicated number of experiments (n). Statistical
+analyses were performed using GraphPad Prism 6.0 (GraphPad
+Software Inc.) and presented in ﬁgure legends. Diﬀerences were
+considered signiﬁcant if p < 0.05.
+RESULTS
+DIM Contribute to the Membrane Polarity
+Decrease in a Lipid Bilayer Beyond the Site
+of Interaction With Mycobacteria
+We previously reported that DIM are transferred from M. bovis
+BCG to the macrophage (Augenstreich et al., 2019) and decrease
+its overall membrane polarity (Astarie-Dequeker et al., 2009).
+We investigated whether this decrease is restricted to the site of
+contact between the bacilli and the host membrane, or extends
+beyond it, as the pleiotropic eﬀects of DIM suggest. A supported
+POPC membrane labeled with the polarity-sensitive ﬂuorophore
+C-Laurdan was put in contact with mCherry-expressing bacilli,
+either wild-type M. bovis BCG (BCG WT) or a DIM-deﬁcient
+isogenic M. bovis BCG mutant, BCG1mas, with a deleted
+mas, encoding an enzyme essential for DIM synthesis (Azad
+et al., 1996). POPC is a physiologically representative lipid
+forming ﬂuid membranes at room temperature. Using mCherry
+ﬂuorescence and transmission images, we ﬁrst searched for
+bacteria immobilized on the membrane (Figure 1A, left). The
+majority of bacteria remained in suspension and diﬀused in the
+buﬀer (blurred spots in Figure 1A). By two-photon microscopy,
+we then imaged the C-Laurdan around immobile bacteria.
+Bacteria absorbed C-Laurdan from the bilayer (Figure 1A, right),
+implying that the C-Laurdan ﬂuorescence spectrum at the point
+of contact contained contributions both from the membrane
+and the bacteria. We discerned no diﬀerence in C-Laurdan
+ﬂuorescence intensity between the two strains (Figure S1b). We
+enlarged the bacterial contour, determined from the C-Laurdan
+ﬂuorescence, three times by 5 pixels (520 nm), thus deﬁning three
+concentric bands around the immobile bacterium (C1, C2, and
+C3 in Figure 1B image). From the average ﬂuorescence spectrum
+in these bands, we calculated the corresponding Generalized
+Polarization (GP) values to characterize the membrane polarity
+in each band. The value of GP increases when the membrane
+becomes more apolar. We subtracted the intrinsic GP of the
+membrane, averaged over three zones outside C1, C2, and C3
+and far from all bacteria, from the GP of the diﬀerent bands
+to quantify the GP diﬀerence (1GP) around bacteria. GP was
+increased inside the bacterial contour for both strains, reﬂecting
+the apolar nature of the mycobacterial envelope. We noticed
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+3
+August 2020 | Volume 10 | Article 420
+
+Augenstreich et al.
+Phthiocerol Dimycocerosates Modulate Membrane Effectors
+FIGURE 1 | Analysis of DIM-induced changes in membrane polarity of supported bilayers. A POPC bilayer labeled with C-Laurdan was formed on a glass coverslip
+and incubated with 2 × 106 M. bovis BCG::mCherry or BCG1mas::mCherry for 20 min. Two-photon microscopy images were taken on an inverted confocal
+microscope equipped with a femto second pulsed laser (Chameleon Vision II) and with a 561 nm DPSS laser for mCherry ﬂuorescence and transmission imaging. A
+build-in spectrometer allowed the acquisition of a ﬂuorescence spectrum in each pixel. C-Laurdan was excited at 720 nm; its ﬂuorescence spectrum was collected in
+18 channels between 418 and 593 nm (channel width 9.7 nm), resulting in a λ-stack of 18 images. The acquisition time per image was 31 s (A) Immobilized bacteria
+were ﬁrst selected by mCherry and transmission microscopy (left panel), then the C-Laurdan spectrum was acquired around an immobile bacterium by two-photon
+microscopy (right panel). (B) (left panel) Contour and concentric bands around an immobile bacterium. 1GP was calculated in these bands using the average GP of
+three arbitrary zones (yellow circles) selected far from C1-3 and any bacteria as the reference GP value of the membrane in each picture. (Right panel) Individual and
+average 1GP values for BCG and BCG1mas. Each symbol in the vertical scatter plots represents the 1GP for one bacterium. Vertical bars represent the mean ±
+SEM of 47 or 49 bacteria from four independent experiments. The statistical signiﬁcance of difference in the 1GP between strains was determined using
+Mann-Whitney’s test; **p < 0.01.
+a small and similar increase in GP in zone C1 with respect
+to the membrane for both strains (1GP above 0) (Figure 1B).
+However, further away from the bacteria in band C2 and C3,
+1GP remained positive for BCG WT, whereas GP returned to the
+membrane reference value for BCG1mas (Figure 1B). Hence,
+the mean GP increase was both higher and observed over a larger
+distance for the DIM-producing BCG WT strain than for the
+DIM-deﬁcient BCG1mas mutant (Figure 1B). The membrane
+was therefore more apolar around BCG WT than around
+BCG1mas. Given the resolution of the microscope (around
+250 nm), the observed GP increase in C1 might be caused
+by bacterial ﬂuorescence extending into C1. Importantly, this
+increase persisted up to zone C3 for BCG WT corresponding to
+1–1.5 µm from the edge of the bacteria (Figure 1B). This distance
+is too big to be caused by an optical resolution eﬀect. In M.
+bovis BCG, the deletion of mas induces not only DIM deﬁciency
+but also the loss of the structurally similar phenolic glycolipids
+(PGL). We therefore made a smaller-scale test with BCG mutants
+deﬁcient for DIM or PGL only. BCG1fad26 mutant with a
+spontaneous mutation in the fad26 gene involved in DIM, but
+not PGL, biosynthesis (Simeone et al., 2010), displayed a lower
+mean 1GP than the WT BCG strain (Figure S1c). In contrast,
+BCG1pks15/1 harboring a mutation which blocks PGL synthesis
+without modifying DIM production (Constant et al., 2002),
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+4
+August 2020 | Volume 10 | Article 420
+
+Augenstreich et al.
+Phthiocerol Dimycocerosates Modulate Membrane Effectors
+FIGURE 2 | DIM and PMA trigger the entry of the DIM-deﬁcient H37Rv mutant and of zymosan into macrophages through a CR3-dependent process. (A)
+Macrophages were either left untreated (gray square) or treated at 37◦C for 1 h with 70 µM DIM (red square) or the corresponding volume of chloroform:methanol (Ø
+vehicle control, gray square) or for 15 min with 50 nM PMA (green square) or the corresponding volume of DMSO (Ø vehicle control, gray square). Cells were then
+incubated for a further 30 min with either the non-relevant IgG1 or 10 µg/mL anti-CR3 blocking antibody 2LPM19c and put in contact for 1 h with zymosan at MOI
+30:1. (B) Macrophages were successively incubated with 50 nM PMA (green symbol) or the corresponding volume of DMSO (Ø vehicle control, gray symbol) and with
+IgG1 or 10 µg/mL 2LPM19c and then exposed to GFP-expressing H37Rv (circle) or H37Rv△ppsE (triangle) at MOI 10:1 for 1 h. (A,B) At the end of infection, cells
+were rinsed, ﬁxed and processed for the quantiﬁcation of infected macrophages using a Leica 43 DM-RB epiﬂuorescence microscope. For each set of conditions, the
+experiments were performed in duplicate, and at least 100 cells were counted per slide. The percentage of cells having ingested at least one bacterium, or one
+particle, was determined. The values are mean ± SEM of 3–7 separate experiments. The signiﬁcance of difference between control and treatment was evaluated
+using one-way ANOVA (A) or repeated measure ANOVA (B) followed by Bonferroni’s multiple comparison test; *p ≤0.05, **p ≤0.01, ***p ≤0.001.
+behaves similar to the WT BCG strain (Figure S1c). Together,
+our data indicate that DIM, and not PGL, contribute to the
+decrease in membrane polarity which extends around the site of
+bacterial contact over at least 1–1.5 µm. They also suggest that
+after transfer to the host membranes, DIM diﬀuse laterally in
+the membrane.
+DIM Induce the Activation of Complement
+Receptor 3 for an Optimal Invasion of
+Macrophages
+We
+then
+asked
+whether
+this
+DIM-induced
+membrane
+perturbation could aﬀect the phagocytic activity of CR3, the
+main receptor for Mtb entry in human macrophages. To address
+this question, we used zymosan, a yeast-derived polysaccharide
+particle, as a phagocytic prey for CR3 (Le Cabec et al., 2000).
+Macrophages were pre-incubated with exogenously added
+DIM or with a corresponding volume of chloroform:methanol
+dispersed in culture medium. We then evaluated the eﬀect
+of the CR3-speciﬁc blocking antibody 2LPM19c on the
+ability of macrophages to internalize zymosan (Figure 2A).
+In the absence of DIM, zymosan uptake was not signiﬁcantly
+aﬀected by adding 10µg/mL 2LPM19c, indicating that the
+CR3-dependent phagocytosis of zymosan is poorly eﬃcient in
+resting macrophages (Figure 2A). Treatment of macrophages
+with DIM increased zymosan uptake by around 50% above
+the level without DIM (Figure 2A). We previously related this
+augmentation to the conical shape of DIM (Augenstreich et al.,
+2019). Here, we found that this DIM-induced increase was
+almost completely blocked by adding 2LPM19c (Figure 2A),
+supporting the proposal that DIM promote the engagement of
+CR3 in the phagocytosis of zymosan.
+We then examined whether DIM aﬀect surface expression
+of CR3. Using ﬂow cytometry, we found no diﬀerence in
+the expression of CD11b subunit of CR3 between untreated
+macrophages and macrophages treated with DIM (Figure S2a).
+The functionality of CR3 also depends on the activation state
+of the receptor (Wright and Silverstein, 1982). We showed
+that treating the macrophages with 50 nM phorbol myristate
+acetate (PMA), a known agonist activating CR3 (Diamond and
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+5
+August 2020 | Volume 10 | Article 420
+
+Augenstreich et al.
+Phthiocerol Dimycocerosates Modulate Membrane Effectors
+Springer, 1993), increased phagocytosis of zymosan compared
+to control cells (Figure 2A). This eﬀect is reduced by roughly
+50% in the presence of 2LPM19c. The eﬀect of PMA
+on phagocytosis therefore resembles that of puriﬁed DIM,
+supporting the hypothesis that DIM activate CR3 and facilitate
+zymosan phagocytosis.
+Finally, we looked at what happens in the context of Mtb.
+Treatment of cells with 2LPM19c decreased by around 50%
+the internalization of H37Rv WT, conﬁrming that Mtb uses
+mainly CR3 to invade human macrophages (Astarie-Dequeker
+et al., 2009). Interestingly, adding PMA did not improve the
+uptake of H37Rv WT, suggesting that CR3 is already activated
+by H37Rv (Figure 2B). In comparison, internalization of the
+DIM-deﬁcient mutant H37Rv△ppsE, which lacks a gene essential
+for DIM biosynthesis, is dramatically decreased and insensitive
+to CR3-blocking treatment, as previously described (Astarie-
+Dequeker et al., 2009). Adding PMA restored both the infectivity
+of the mutant and its inhibition by 2LPM19c to a level almost
+identical to that of the H37Rv WT strain (Figure 2B). Moreover,
+the CBRM1/5 antibody directed against the activation epitope
+of CR3 tended to block the uptake of both H37Rv in untreated
+and PMA-treated cells and of H37Rv△ppsE in PMA-treated
+cells only (Figure S2b). Together, these data led us to conclude
+that DIM activate CR3, thereby ensuring an optimal invasion
+of macrophages.
+DIM Act in Concert With Mycobacterial
+Effectors to Promote Lysis of Biological
+Membranes
+We next enquired how DIM contribute to the membrane-
+disrupting eﬀect of Mtb. Using our assay based on calcein leakage
+from large unilamellar vesicles (LUV) and mass spectrometry,
+we corroborated that the lytic activity of the batch of rEsxA
+from BEI, which we previously attributed to EsxA (Augenstreich
+et al., 2017), was in fact due to residual detergent ASB14
+(Figure S3a–d) (Conrad et al., 2017). These observations
+prompted us to test a native version of EsxA (nEsxA) puriﬁed
+from a culture of Mtb (De Jonge et al., 2007). As expected, we
+observed pH-dependent lytic activity of nEsxA on LUV made
+of POPC (Figure 3A) (De Jonge et al., 2007). The activity at
+pH 5 was signiﬁcantly decreased after digestion by proteinase K,
+ruling out the presence of detergent (Figure 3A). Based on these
+positive results, we investigated whether DIM could modulate
+the activity of nEsxA. On liposomes of THP-1 lipids without
+DIM, the lytic activity of nEsxA at pH 5 was <10% (Figure 3B),
+well below that observed on POPC liposomes (Figure 3A). This
+diﬀerence can be explained by the higher membrane rigidity of
+THP-1 liposomes compared to POPC liposomes (Augenstreich
+et al., 2017; Ray et al., 2019). Nevertheless, incorporating DIM
+in THP-1 liposomes tended to potentiate by 35% the activity
+of nEsxA (Figure 3B). We also tested a recombinant version
+of EsxA (rEsxA) (Figure 3B) produced by us in E. coli and
+puriﬁed using the protocol provided by BEI Resources (Conrad
+et al., 2017) without the ASB-14-based endotoxin removal. We
+noticed that rESXA permeabilized liposomes more eﬃciently
+than nEsxA. We have no rational explanation for this diﬀerence
+but we observed that DIM also increased the membranolytic
+activity of rEsxA (Figure 3B). This eﬀect is speciﬁc to DIM, as
+the incorporation of the apolar triglyceride tripalmitin in THP-
+1 liposomes had no impact on the calcein leakage induced by
+rESXA (60 ± 30% and 53 ± 15%, n = 2, in the absence and the
+presence of 10% tripalmitin, respectively). We also observed that
+incorporation of DIM into THP-1-derived liposomes increased
+the lytic activity of the two pore-forming proteins, melittin and
+perforin-1 (Figure 3B). These observations indicated that DIM
+enhance the activity of diﬀerent membranolytic compounds.
+We also tested whether DIM work with EsxA in a
+mycobacterial context. To this end, we studied the hemolytic
+activity of several knock-out or knock-in mutants of Mtb and
+M. bovis BCG expressing combinations of DIM and EsxA. The
+H37Rv WT strain incubated for 48 h with human erythrocytes
+exhibited hemolytic activity (43+8%, n = 4). By comparison,
+the H37Rv1esxA and H37Rv1mas mutants were signiﬁcantly
+less hemolytic (Figure 3C), indicating that both DIM and EsxA
+contribute to hemolysis. These results were conﬁrmed in the
+BCG background, which has a partial deletion of ESX-1 and a
+functional inhibition of EsxA. Indeed, when BCG was genetically
+complemented with the ESX-1 region from Mtb, EsxA secretion
+was re-established (Augenstreich et al., 2017) and the resulting
+BCG::ESX-1 strain demonstrated higher hemolytic activity than
+the BCG WT strain and the DIM-deﬁcient BCG::ESX-11mas
+mutant (Figure 3C). Most notably, in both genetic backgrounds,
+the DIM-deﬁcient strains exhibited signiﬁcantly lower hemolytic
+activity than EsxA- or ESX-1-deﬁcient strains, showing that DIM
+have an impact extending beyond EsxA/ESX-1.
+DISCUSSION
+The notion of DIM as bacterial eﬀectors subverting the host’s
+immune responses has recently emerged (Rousseau et al., 2004;
+Astarie-Dequeker et al., 2009; Cambier et al., 2014; Passemar
+et al., 2014; Augenstreich et al., 2017; Barczak et al., 2017;
+Conrad et al., 2017; Quigley et al., 2017; Lerner et al., 2018), but
+the molecular mechanisms by which DIM exert their biological
+activity are poorly known. We have previously demonstrated that
+DIM are transferred from the envelope of Mtb to the membranes
+of host macrophages during infection and locally disturb their
+lipid organization (Astarie-Dequeker et al., 2009; Augenstreich
+et al., 2019). The next step was to identify the functional role
+of this transfer. We now establish that DIM induce a membrane
+perturbation, which spreads beyond the point of contact with the
+bacilli and improves the activity of proteins either embedded in
+host membranes, like CR3, or acting on these membranes, like
+EsxA and other membranolytic eﬀectors.
+Using C-laurdan combined with two-photon microscopy,
+we showed that the membrane polarity decreased at the
+site of interaction of BCG with a lipid membrane. This is
+consistent with our previous observation of a global decrease
+in membrane polarity in a population of macrophages infected
+by BCG (Astarie-Dequeker et al., 2009). As C-Laurdan allows
+identifying lipid domains with diﬀerent packing degrees and
+lipid order (Owen et al., 2010), the observed decrease in
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+6
+August 2020 | Volume 10 | Article 420
+
+Augenstreich et al.
+Phthiocerol Dimycocerosates Modulate Membrane Effectors
+FIGURE 3 | DIM potentiate EsxA membranolytic activity in vitro, and is required for EsxA hemolytic activity. (A) Left panel: the active form of the native EsxA (nEsxA)
+untreated (–) or digested with proteinase K (+) was analyzed by SDS-PAGE followed by Coomassie Blue staining; right panel: POPC liposomes were put in contact
+with 10 µM nEsxA at pH 5 or pH 7, or with 10 µM intact (C) or proteinase K-digested (PK) nEsxA at pH5. (B) Calcein leakage in THP-1 liposomes supplemented or
+not with 10% of DIM (w/w) and incubated with 10 µM nEsxA (pH 5), rEsxA (pH 5), 50 nM mellitin (pH 7), or 15 nM perforin-1 (PRF-1) (pH 7). Calcein was excited at
+491 nm; its ﬂuorescence was measured at 517 nm. The ﬂuorescence intensity was converted in a percentage of leakage by the formula: % leakage = 100 ×
+[I(t)–I0]/[ITX−100-I0] (Augenstreich et al., 2017). For each measurement, a new batch of liposome was made. Before treatment, we checked that the liposomes showed
+no calcein leakage (Augenstreich et al., 2017). The signiﬁcance of difference in the percentage of leakage between untreated and membranolytic agent-treated
+liposomes was evaluated using the paired Student’s t-test. (C) Strains of H37Rv or BCG producing a combination of EsxA and DIM were put in contact for 48 h at
+37◦C with 1 × 107 erythrocytes at a MOI 50:1. Hemolysis was measured as described in Material and Methods and normalized to value of the corresponding DIM-
+and EsxA-proﬁcient strain. The values are mean ± SEM of 4–5 separate experiments. The signiﬁcance of difference between strains was determined using a one-way
+ANOVA test followed by Bonferroni’s multiple comparison test; *p ≤0.05, **p ≤0.01, ***p ≤0.001; ****p ≤0.0001.
+polarity strongly supports the proposal that DIM locally disturb
+the lipid organization of host membranes and alter their
+physical properties. This can also be interpreted in the light
+of our recent ﬁndings showing that DIM adopt a conical
+molecular shape in a simple phospholipid bilayer and can
+disorganize such a bilayer by promoting the formation of non-
+bilayer (inverted hexagonal) membrane phases (Augenstreich
+et al., 2019). Remarkably, we observed that the local decrease
+in membrane polarity extends over a distance of 1–1.5 µm
+around the bacterium. These observations provide experimental
+support to our molecular dynamic simulations predicting
+diﬀusion of DIM inside the membrane (see (Augenstreich
+et al., 2019); supplementary movie). Indeed, after transfer
+from the bacterium to the target membranes, DIM diﬀuse
+away from the contact site, causing a gradual fading of the
+polarity decrease.
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+7
+August 2020 | Volume 10 | Article 420
+
+Augenstreich et al.
+Phthiocerol Dimycocerosates Modulate Membrane Effectors
+Changes in membrane lipid composition and organization
+are generally thought to inﬂuence many cellular functions.
+Our ﬁndings go beyond the functional observations that Mtb
+uses envelope lipids to remodel the host membrane and divert
+macrophages functions (Laneelle and Tocanne, 1980; Sut et al.,
+1990; Welin et al., 2008; Augenstreich et al., 2019; Mishra
+et al., 2019). They provide evidence that insertion of lipids
+into host cell membranes helps the bacteria exploit membrane
+partners that direct the cell’s responses. For instance, DIM
+increase CR3 activity for promoting phagocytosis. Like most
+integrins, CR3 is normally exposed at the cell surface in
+a low-activity state but can undergo changes that lead to
+increased activity, e.g., conformational changes leading to a
+state of higher aﬃnity for their speciﬁc ligands (Liddington
+and Ginsberg, 2002). We found that DIM mimic at least
+in part the action of PMA, a known activator of CR3. For
+instance, DIM treatment increased the uptake of zymosan,
+which was almost completely abolished when CR3 was blocked
+by an anti-CR3 blocking antibody. Moreover, PMA restored
+the ability of a DIM-deﬁcient mutant to infect macrophages
+equally eﬃciently as the WT strain, probably through the
+engagement of the active epitope of CR3 as assessed using
+CBRM1/5. All together, these data tend to indicate that
+DIM can also activate the CR3 receptor. Since CR3 can
+undergo activation yielding a conformational change that
+increases the aﬃnity for its ligands, this activation would
+enable recognition by CR3 of PAMPs at the surface of Mtb
+leading to its uptake. Conical lipids like DIM may induce
+membrane curvature (Cooke and Deserno, 2006). The resulting
+membrane elastic stress may in turn modulate the function
+of integral membrane proteins (Phillips et al., 2009). It is
+therefore reasonable to hypothesize that DIM impose a curvature
+on the host’s membrane that governs CR3’s activation. This
+is consistent with the transmembrane nature of CR3 and its
+lateral mobility within cell membranes (Ross et al., 1992). DIM
+could also act on other membrane receptors cooperating with
+CR3 to carry out entry of mycobacteria, like CD14 which
+has been shown to induce an inside-out signaling pathway
+involving TLR2, leading to a CR3-dependent phagocytosis of
+M. bovis BCG (Sendide et al., 2005).
+Our ﬁndings reinforce the proposal that DIM can work
+with MtbEsxA (Augenstreich et al., 2017; Barczak et al., 2017).
+Using liposomes formed of THP-1 lipids, we demonstrate that
+DIM enhance the activity of Mtb EsxA. Combined with our
+previous data in macrophages, these results provide a reasonable
+explanation for DIM’s involvement in the deterioration of the
+phagosomal membrane by Mtb (Augenstreich et al., 2017;
+Quigley et al., 2017). Interestingly, this potentiating eﬀect of DIM
+is not speciﬁc to EsxA but also observed for the two pore-forming
+proteins melittin and perforin-1, and even for the detergent ASB-
+14 (Figure S3e). This strengthens the evidence that DIM act by
+perturbing their target membrane to promote the membrane-
+disruptive activities of these molecules. Furthermore, using gene-
+deleted Mtb mutants, we observed that the loss of DIM results in
+a lower hemolytic activity of Mtb than the loss of EsxA. As DIM
+alone have no lytic activity, this implies that additional bacterial
+factors are involved in this process.
+In conclusion, our ﬁndings reveal molecular mechanisms
+by which Mtb exploit DIM to rewire the host cells. Given
+their overall hydrophobic properties, DIM are able to reshape
+locally the host cell membrane in a way that targets cell
+signaling pathways and bacterial eﬀectors, thus supporting their
+multifaceted role in the virulence of Mtb.
+DATA AVAILABILITY STATEMENT
+All datasets presented in this study are included in the
+article/Supplementary Material.
+AUTHOR CONTRIBUTIONS
+JA did part of the experiments, analyzed data, contributed to
+prepare ﬁgures, and reviewed the manuscript. EH contributed to
+experiments, critically analyzed the data, supervised part of the
+work, and reviewed the manuscript. FS, RS, and RB contributed
+selected rBCG strains and ESX-1 reagents and reviewed the
+manuscript. VG contributed to rESAT-6 puriﬁcation. LM
+critically analyzed the data of rESAT-6 puriﬁcation and reviewed
+the manuscript. SM critically analyzed the measurement of
+membrane polarity and help to prepare Figure 1. CC contributed
+to the construction of ﬂuorescent recombinant mCherry BCG
+strains. CG supervised the work and reviewed the manuscript.
+CA-D did part of the experiments, supervised all the aspects
+of the study, including execution of the experiments and
+analysis, wrote the manuscript, and prepared ﬁgures. All authors
+contributed to the article and approved the submitted version.
+FUNDING
+This work was supported by the European Union’s Horizon
+2020 Research and Innovation Program (TBVAC2020, 643381),
+the Agence Nationale de la Recherche (ANR-10-LABX-62-
+IBEID, ANR-14-JAMR-001-02, and ANR-16-CE15-0003), the
+Fondation pour la Recherche Médicale FRM (DEQ20130326471
+and DEQ20160334879), and the Center National de la Recherche
+Scientiﬁque (CNRS). JA was a recipient of a Ph.D. scholarship
+from the French government.
+ACKNOWLEDGMENTS
+We thank the TRI-Genotoul Imaging facility (Toulouse, France).
+CA-D thanks T. Pennetier for technical assistance. We thank
+S. Dauvillier, E. Joly, and L. Salomé for helpful support and
+fruitful discussions.
+SUPPLEMENTARY MATERIAL
+The Supplementary Material for this article can be found
+online
+at:
+https://www.frontiersin.org/articles/10.3389/fcimb.
+2020.00420/full#supplementary-material
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+8
+August 2020 | Volume 10 | Article 420
+
+Augenstreich et al.
+Phthiocerol Dimycocerosates Modulate Membrane Effectors
+REFERENCES
+Astarie-Dequeker,
+C.,
+Le
+Guyader,
+L.,
+Malaga,
+W.,
+Seaphanh,
+F.
+K.,
+Chalut, C., Lopez, A., et al. (2009). Phthiocerol dimycocerosates of M.
+tuberculosis participate in macrophage invasion by inducing changes in
+the organization of plasma membrane lipids. PLoS Pathog. 5:e1000289.
+doi: 10.1371/journal.ppat.1000289
+Augenstreich, J., Arbues, A., Simeone, R., Haanappel, E., Wegener, A., Sayes,
+F., et al. (2017). ESX-1 and phthiocerol dimycocerosates of Mycobacterium
+tuberculosis act in concert to cause phagosomal rupture and host cell apoptosis.
+Cell. Microbiol. 19:e12726. doi: 10.1111/cmi.12726
+Augenstreich, J., Haanappel, E., Ferre, G., Czaplicki, G., Jolibois, F., Destainville,
+N., et al. (2019). The conical shape of DIM lipids promotes Mycobacterium
+tuberculosis infection of macrophages. Proc. Natl. Acad. Sci. U.S.A. 116,
+25649–25658. doi: 10.1073/pnas.1910368116
+Azad, A. K., Sirakova, T. D., Rogers, L. M., and Kolattukudy, P. E. (1996). Targeted
+replacement of the mycocerosic acid synthase gene in Mycobacterium bovis
+BCG produces a mutant that lacks mycosides. Proc. Natl. Acad. Sci. U.S.A. 93,
+4787–4792. doi: 10.1073/pnas.93.10.4787
+Barczak, A. K., Avraham, R., Singh, S., Luo, S. S., Zhang, W. R., Bray, M.-A., et al.
+(2017). Systematic, multiparametric analysis of Mycobacterium tuberculosis
+intracellular infection oﬀers insight into coordinated virulence. PLoS Pathog.
+13:e1006363. doi: 10.1371/journal.ppat.1006363
+Burbaud, S., Laval, F., Lemassu, A., Daﬀe, M., Guilhot, C., and Chalut, C. (2016).
+Trehalose polyphleates are produced by a glycolipid biosynthetic pathway
+conserved across phylogenetically distant mycobacteria. Cell Chem. Biol. 23,
+278–289. doi: 10.1016/j.chembiol.2015.11.013
+Cambier, C. J., Takaki, K. K., Larson, R. P., Hernandez, R. E., Tobin, D.
+M., Urdahl, K. B., et al. (2014). Mycobacteria manipulate macrophage
+recruitment through coordinated use of membrane lipids. Nature 505, 218–222.
+doi: 10.1038/nature12799
+Conrad, W. H., Osman, M. M., Shanahan, J. K., Chu, F., Takaki, K. K., Cameron,
+J., et al. (2017). Mycobacterial ESX-1 secretion system mediates host cell lysis
+through bacterium contact-dependent gross membrane disruptions. Proc. Natl.
+Acad. Sci. U.S.A. 114, 1371–1376. doi: 10.1073/pnas.1620133114
+Constant, P., Perez, E., Malaga, W., Laneelle, M.-A., Saurel, O., Daﬀe, M., et al.
+(2002). Role of the pks15/1 gene in the biosynthesis of phenolglycolipids in
+the Mycobacterium tuberculosis complex. Evidence that all strains synthesize
+glycosylated p-hydroxybenzoic methyl esters and that strains devoid of
+phenolglycolipids harbor a frameshift mutation in the pks15/1 gene. J. Biol.
+Chem. 277, 38148–38158. doi: 10.1074/jbc.M206538200
+Cooke, I. R., and Deserno, M. (2006). Coupling between lipid shape and membrane
+curvature. Biophys. J. 91, 487–495. doi: 10.1529/biophysj.105.078683
+Cywes, C., Godenir, N. L., Hoppe, H. C., Scholle, R. R., Steyn, L. M., Kirsch, R.
+E., et al. (1996). Nonopsonic binding of Mycobacterium tuberculosis to human
+complement receptor type 3 expressed in Chinese hamster ovary cells. Infect.
+Immun. 64, 5373–5383. doi: 10.1128/IAI.64.12.5373-5383.1996
+De Jonge, M. I., Pehau-Arnaudet, G., Fretz, M. M., Romain, F., Bottai, D., Brodin,
+P., et al. (2007). ESAT-6 from Mycobacterium tuberculosis dissociates from its
+putative chaperone CFP-10 under acidic conditions and exhibits membrane-
+lysing activity. J. Bacteriol. 189, 6028–6034. doi: 10.1128/JB.00469-07
+Diamond, M. S., and Springer, T. A. (1993). A subpopulation of Mac-
+1 (Cd11b/Cd18) molecules mediates neutrophil adhesion to Icam-1 and
+ﬁbrinogen. J. Cell Biol. 120, 545–556. doi: 10.1083/jcb.120.2.545
+Gao, L.-Y., Guo, S., Mclaughlin, B., Morisaki, H., Engel, J. N., and Brown, E.
+J. (2004). A mycobacterial virulence gene cluster extending RD1 is required
+for cytolysis, bacterial spreading and ESAT-6 secretion. Mol. Microbiol. 53,
+1677–1693. doi: 10.1111/j.1365-2958.2004.04261.x
+Hsu, T., Hingley-Wilson, S. M., Chen, B., Chen, M., Dai, A. Z., Morin, P. M., et al.
+(2003). The primary mechanism of attenuation of bacillus calmette-guerin is
+a loss of secreted lytic function required for invasion of lung interstitial tissue.
+Proc. Natl. Acad. Sci. U.S.A. 100, 12420–12425. doi: 10.1073/pnas.1635213100
+Laneelle, G., and Tocanne, J. F. (1980). Evidence for penetration in liposomes and
+in mitochondrial membranes of a ﬂuorescent analogue of cord factor. Eur. J.
+Biochem. 109, 177–182. doi: 10.1111/j.1432-1033.1980.tb04782.x
+Le Cabec, V., Cols, C., and Maridonneau-Parini, I. (2000). Nonopsonic
+phagocytosis of zymosan and Mycobacterium kansasii by CR3 (CD11b/CD18)
+involves
+distinct
+molecular
+determinants
+and
+is
+or
+is
+not
+coupled
+with
+NADPH
+oxidase
+activation.
+Infect.
+Immun.
+68,
+4736–4745.
+doi: 10.1128/IAI.68.8.4736-4745.2000
+Lerner, T. R., Queval, C. J., Fearns, A., Repnik, U., Griﬃths, G., and Gutierrez,
+M. G. (2018). Phthiocerol dimycocerosates promote access to the cytosol and
+intracellular burden of Mycobacterium tuberculosis in lymphatic endothelial
+cells. BMC Biol. 16:1. doi: 10.1186/s12915-017-0471-6
+Liddington, R. C., and Ginsberg, M. H. (2002). Integrin activation takes shape. J.
+Cell Biol 158, 833–839. doi: 10.1083/jcb.200206011
+Ma, Y., Keil, V., and Sun, J. (2015). Characterization of Mycobacterium
+tuberculosis EsxA membrane insertion: roles of N- and C-terminal ﬂexible
+arms and central helix-turn-helix motif. J. Biol. Chem. 290, 7314–7322.
+doi: 10.1074/jbc.M114.622076
+Mascalchi, P., Haanappel, E., Carayon, K., Mazeres, S., and Salome, L. (2012).
+Probing the inﬂuence of the particle in single particle tracking measurements
+of lipid diﬀusion. Soft Matter 8, 4462–4470. doi: 10.1039/c2sm07018a
+Mazeres, S., Fereidouni, F., and Joly, E. (2017). Using spectral decomposition
+of the signals from laurdan-derived probes to evaluate the physical state of
+membranes in live cells. F1000Res. 6:763. doi: 10.12688/f1000research.11577.1
+Mazeres, S., Joly, E., Lopez, A., and Tardin, C. (2014). Characterization of M-
+laurdan, a versatile probe to explore order in lipid membranes. F1000Res. 3:172.
+doi: 10.12688/f1000research.4805.2
+Mishra, M., Adhyapak, P., Dadhich, R., and Kapoor, S. (2019). Dynamic
+remodeling
+of
+the
+host
+cell
+membrane
+by
+virulent
+mycobacterial
+sulfoglycolipid-1. Sci. Rep. 9:12844. doi: 10.1038/s41598-019-49343-2
+Owen, D. M., Magenau, A., Majumdar, A., and Gaus, K. (2010). Imaging
+membrane lipid order in whole, living vertebrate organisms. Biophys. J. 99,
+L7–L9. doi: 10.1016/j.bpj.2010.04.022
+Passemar, C., Arbues, A., Malaga, W., Mercier, I., Moreau, F., Lepourry,
+L., et al. (2014). Multiple deletions in the polyketide synthase gene
+repertoire of Mycobacterium tuberculosis reveal functional overlap of cell
+envelope lipids in host-pathogen interactions. Cell. Microbiol. 16, 195–213.
+doi: 10.1111/cmi.12214
+Peng, X., Jiang, G., Liu, W., Zhang, Q., Qian, W., and Sun, J. (2016).
+Characterization of diﬀerential pore-forming activities of ESAT-6 proteins from
+Mycobacterium tuberculosis and Mycobacterium smegmatis. FEBS Lett. 590,
+509–519. doi: 10.1002/1873-3468.12072
+Phillips, R., Ursell, T., Wiggins, P., and Sens, P. (2009). Emerging roles
+for lipids in shaping membrane-protein function. Nature 459, 379–385.
+doi: 10.1038/nature08147
+Quigley, J., Hughitt, V. K., Velikovsky, C. A., Mariuzza, R. A., El-Sayed, N. M.,
+and Briken, V. (2017). The cell wall lipid PDIM contributes to phagosomal
+escape and host cell exit of Mycobacterium tuberculosis. mBio 8, e00148–17.
+doi: 10.1128/mBio.00148-17
+Ray, S., Vazquez Reyes, S., Xiao, C., and Sun, J. (2019). Eﬀects of membrane
+lipid
+composition
+on
+Mycobacterium
+tuberculosis
+EsxA
+membrane
+insertion: a dual play of ﬂuidity and charge. Tuberculosis 118:101854.
+doi: 10.1016/j.tube.2019.07.005
+Ross, G. D., Reed, W., Dalzell, J. G., Becker, S. E., and Hogg, N. (1992). Macrophage
+cytoskeleton association with CR3 and CR4 regulates receptor mobility and
+phagocytosis of iC3b-opsonized erythrocytes. J. Leukoc. Biol. 51, 109–117.
+doi: 10.1002/jlb.51.2.109
+Rousseau, C., Winter, N., Pivert, E., Bordat, Y., Neyrolles, O., Ave, P., et al.
+(2004). Production of phthiocerol dimycocerosates protects Mycobacterium
+tuberculosis from the cidal activity of reactive nitrogen intermediates produced
+by macrophages and modulates the early immune response to infection. Cell.
+Microbiol. 6, 277–287. doi: 10.1046/j.1462-5822.2004.00368.x
+Schlesinger, L. S. (1993). Macrophage phagocytosis of virulent but not attenuated
+strains of Mycobacterium tuberculosis is mediated by mannose receptors in
+addition to complement receptors. J. Immunol. 150, 2920–2930.
+Sendide, K., Reiner, N. E., Lee, J. S. I., Bourgoin, S., Talal, A., and Hmama, Z. (2005).
+Cross-talk between CD14 and complement receptor 3 promotes phagocytosis
+of mycobacteria: regulation by phosphatidylinositol 3-kinase and cytohesin-1.
+J. Immunol. 174, 4210–4219. doi: 10.4049/jimmunol.174.7.4210
+Simeone, R., Leger, M., Constant, P., Malaga, W., Marrakchi, H., Daﬀe,
+M., et al. (2010). Delineation of the roles of FadD22, FadD26 and
+FadD29 in the biosynthesis of phthiocerol dimycocerosates and related
+compounds
+in
+Mycobacterium
+tuberculosis.
+FEBS
+J.
+277,
+2715–2725.
+doi: 10.1111/j.1742-4658.2010.07688.x
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+9
+August 2020 | Volume 10 | Article 420
+
+Augenstreich et al.
+Phthiocerol Dimycocerosates Modulate Membrane Effectors
+Smith, J., Manoranjan, J., Pan, M., Bohsali, A., Xu, J., Liu, J., et al. (2008). Evidence
+for pore formation in host cell membranes by ESX-1-secreted ESAT-6 and its
+role in Mycobacterium marinum escape from the vacuole. Infect. Immun. 76,
+5478–5487. doi: 10.1128/IAI.00614-08
+Stokes, R. W., Haidl, I. D., Jeﬀeries, W. A., and Speert, D. P. (1993). Mycobacteria-
+macrophage interactions. Macrophage phenotype determines the nonopsonic
+binding of Mycobacterium tuberculosis to murine macrophages. J. Immunol.
+151, 7067–7076.
+Sut, A., Sirugue, S., Sixou, S., Lakhdar-Ghazal, F., Tocanne, J. F., and Laneelle,
+G. (1990). Mycobacteria glycolipids as potential pathogenicity eﬀectors:
+alteration of model and natural membranes. Biochemistry 29, 8498–8502.
+doi: 10.1021/bi00488a042
+Tabouret, G., Astarie-Dequeker, C., Demangel, C., Malaga, W., Constant, P.,
+Ray, A., et al. (2010). Mycobacterium leprae phenolglycolipid-1 expressed by
+engineered M. bovis BCG modulates early interaction with human phagocytes.
+PLoS Pathog. 6:e1001159. doi: 10.1371/journal.ppat.1001159
+Welin, A., Winberg, M. E., Abdalla, H., Sarndahl, E., Rasmusson, B., Stendahl, O.,
+et al. (2008). Incorporation of Mycobacterium tuberculosis lipoarabinomannan
+into macrophage membrane rafts is a prerequisite for the phagosomal
+maturation block. Infect. Immun. 76, 2882–2887. doi: 10.1128/IAI.01549-07
+Wright, S. D., and Silverstein, S. C. (1982). Tumor-promoting phorbol esters
+stimulate C3b and C3b’ receptor-mediated phagocytosis in cultured human
+monocytes. J. Exp. Med. 156, 1149–1164. doi: 10.1084/jem.156.4.1149
+Conﬂict of Interest: The authors declare that the research was conducted in the
+absence of any commercial or ﬁnancial relationships that could be construed as a
+potential conﬂict of interest.
+Copyright © 2020 Augenstreich, Haanappel, Sayes, Simeone, Guillet, Mazeres,
+Chalut, Mourey, Brosch, Guilhot and Astarie-Dequeker. This is an open-access
+article distributed under the terms of the Creative Commons Attribution License (CC
+BY). The use, distribution or reproduction in other forums is permitted, provided
+the original author(s) and the copyright owner(s) are credited and that the original
+publication in this journal is cited, in accordance with accepted academic practice.
+No use, distribution or reproduction is permitted which does not comply with these
+terms.
+Frontiers in Cellular and Infection Microbiology | www.frontiersin.org
+10
+August 2020 | Volume 10 | Article 420
